@@ -80,9 +80,9 @@ journals_out <- journals_out[order(journals_out$journal_full),]
 journals_out <- toJSON(journals_out, pretty=TRUE, auto_unbox=TRUE)
 
 json_file <- paste0("./output/", field, "_journals.json")
-if (!file.exists(json_file)) {
+if (file.exists(json_file) && file.info(json_file)$size > 0) {
+  write(journals_out, json_file)
+} else {
   file.create(json_file)
+  write(journals_out, json_file)
 }
-write(journals_out, json_file)
-
-
