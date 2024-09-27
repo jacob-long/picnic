@@ -77,7 +77,12 @@ write.table(out[,"url"],
 # Write journal short list
 journals_out <- unique(journals[,c("journal_full","journal_short")])
 journals_out <- journals_out[order(journals_out$journal_full),]
-journals_out <- toJSON(journals_out, pretty=TRUE, auto_unbox=TRUE) 
-write(journals_out, paste0("./output/", field, "_journals.json"))
+journals_out <- toJSON(journals_out, pretty=TRUE, auto_unbox=TRUE)
+
+json_file <- paste0("./output/", field, "_journals.json")
+if (!file.exists(json_file)) {
+  file.create(json_file)
+}
+write(journals_out, json_file)
 
 
