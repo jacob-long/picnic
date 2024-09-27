@@ -79,10 +79,19 @@ journals_out <- unique(journals[,c("journal_full","journal_short")])
 journals_out <- journals_out[order(journals_out$journal_full),]
 journals_out <- toJSON(journals_out, pretty=TRUE, auto_unbox=TRUE)
 
+# Debugging: Print the JSON output
+cat("JSON output:\n", journals_out, "\n")
+
 json_file <- paste0("./output/", field, "_journals.json")
+cat("JSON file path: ", json_file, "\n")
+
 if (file.exists(json_file) && file.info(json_file)$size > 0) {
-  write(journals_out, json_file)
+  cat("File exists and is not empty. Writing JSON data...\n")
+  writeLines(journals_out, json_file)
 } else {
+  cat("File does not exist or is empty. Creating file and writing JSON data...\n")
   file.create(json_file)
-  write(journals_out, json_file)
+  writeLines(journals_out, json_file)
 }
+
+cat("JSON data written successfully.\n")
