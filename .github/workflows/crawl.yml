@@ -39,10 +39,9 @@ jobs:
         working-directory: ./main_folder
         run: |
           Rscript crawl.R "politics"
-          Rscript crawl.R "economics"
+          Rscript crawl.R "communication"
           Rscript crawl.R "sociology"
           Rscript crawl.R "multidisciplinary"
-          Rscript crawl.R "migration"
 
       - name: Commit results main branch 
         working-directory: ./main_folder
