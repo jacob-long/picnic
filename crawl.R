@@ -68,7 +68,9 @@ cat("Contents of the written JSON file:\n", paste(written_json, collapse="\n"), 
 cat("Reading the JSON file to check for errors...\n")
 tryCatch({
   read_json <- fromJSON(json_file)
-  cat("JSON file read successfully:\n", read_json, "\n")
+  cat("JSON file read successfully.\n")
+  cat("Structure of the JSON data:\n")
+  print(str(read_json))
 }, error = function(e) {
   cat("Error reading JSON file: ", e$message, "\n")
 })
