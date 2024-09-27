@@ -63,3 +63,12 @@ cat("JSON data written successfully.\n")
 # Additional debugging: Check the contents of the written file
 written_json <- readLines(json_file)
 cat("Contents of the written JSON file:\n", paste(written_json, collapse="\n"), "\n")
+
+# Additional debugging: Check if any JSON reading or processing is happening later
+cat("Reading the JSON file to check for errors...\n")
+tryCatch({
+  read_json <- fromJSON(json_file)
+  cat("JSON file read successfully:\n", read_json, "\n")
+}, error = function(e) {
+  cat("Error reading JSON file: ", e$message, "\n")
+})
