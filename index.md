@@ -5,32 +5,50 @@ layout: home
 
 # Motivation #
 
-Available tools to keep up with newly published research are often frustrating. Email alerts from publishers clutter the email inbox, arrive at seemingly random intervals, and do not include abstracts. Publisher RSS feeds are similarly frustrating to use as available RSS readers are either clunky or come with expensive subscription models. Signing up to email alerts or finding the RSS feeds from a handful of publishers can easily take an entire afternoon. Twitter/X - uhm. 
+Keeping up with newly published research in communication science can be challenging. Email alerts from publishers clutter inboxes, arrive at irregular intervals, and often lack abstracts. Publisher RSS feeds can be equally frustrating, with available RSS readers being either clunky or expensive. Setting up alerts or finding RSS feeds for multiple publishers is time-consuming. Social media platforms like Twitter/X have their own limitations for academic purposes.
 
-[Moritz Marbach](https://www.moritz-marbach.com/) built Paper Picnic to keep up with newly published research in Political Science. It relies on three key ideas: 
+Inspired by [Moritz Marbach's](https://www.moritz-marbach.com/) 
+[Paper Picnic project](https://paper-picnic.com) for
+Political Science, this adaptation focuses on communication science research with 
+some love for politics and related social science areas that are helpful to my
+research.
 
-1. Updates once a week at a known time.
-2. Displays all new research on a single web page without clutter. 
-3. No registration, no ads and no personal data collection.
-
-All data comes from the Crossref API. [Crossref](https://www.crossref.org/community/) is the world’s largest registry of Digital Object Identifiers (DOIs) and metadata. Continuously updated by publishers, Crossref provides an easy way to get metadata for research articles.  
+All data is sourced from the Crossref API. 
+[Crossref](https://www.crossref.org/community/).
 
 <br>
 <hr>
 
 # Backend #
 
-The backend is a crawler written in R living in a GitHub repository. Every Friday, GitHub Actions executes the crawler. Once the crawler finishes, the crawled data is put in a JSON file and rendered into a HTML file using GitHub Pages. 
+*Text below comes from Moritz but is true for this version also*:
 
-For each journal, the crawler retrieves all articles added to a journal in the previous week. To that end, it requests all articles for which the field "created" or "published" in the Crossref database is within the last seven days. 
+The backend consists of a crawler written in R, hosted in a GitHub repository. 
+Every Friday, GitHub Actions executes the crawler. The resulting data is stored 
+in a JSON file and rendered into an HTML file using GitHub Pages.
 
-The crawler retrieves title, authors, full-text link, and abstract. Unfortunately, not all publishers add abstracts. Examples include the publisher Elsevier or Taylor & Francis, which for all of their journals never include abstracts (see [this](https://www.crossref.org/blog/i4oa-hall-of-fame-2023-edition/) Crossref Blog for details). 
+For each journal, the crawler retrieves articles added in the previous week. It
+requests all articles with "created" or "published" fields in the Crossref 
+database within the last seven days.
 
-Since journals typically have two ISSN numbers (one for print and one for electronic, see [here](https://en.wikipedia.org/wiki/ISSN)), the crawler retrieves articles for both ISSN numbers and deduplicates the results. The ISSN numbers used for the crawler come from the Crossref lookup [tool](https://www.crossref.org/titleList/). 
+The crawler collects title, authors, full-text link, and abstract information. 
+However, some publishers, like Elsevier or Taylor & Francis, do not include 
+abstracts in their Crossref metadata (see [this](https://www.crossref.org/blog/i4oa-hall-of-fame-2023-edition/) Crossref Blog for details).
 
-Once an article has been crawled, its unique identifier (the DOI) is added to a list. This list is checked by the crawler at every runtime. Only articles that the crawler has not seen before are included in the data update. This ensures that articles appearing first online and then again in print are only included once on Paper Picnic.
+As journals typically have two ISSN numbers (print and electronic, see 
+[here](https://en.wikipedia.org/wiki/ISSN)), the crawler retrieves articles for
+both and deduplicates the results. ISSN numbers are obtained from the Crossref
+lookup [tool](https://www.crossref.org/titleList/).
 
-When the title is generic, e.g., when it includes the word "Errata", "Frontmatter" or "Backmatter", the crawler adds a filter tag. For articles from multidisciplinary journals, the crawler prompts GPT-4o mini: "You are given content from a new issue of a multidisciplinary scientific journal. Respond 'Yes' if the content is a research article in any social science discipline and 'No' otherwise". All content that includes this filter tag is hidden in the default view but can be displayed by clicking on the +N button at the top left for every journal.
+To avoid duplicates, the crawler maintains a list of previously crawled article 
+DOIs. Only new articles are included in each update, ensuring that articles 
+appearing first online and later in print are only listed once.
+
+For generic titles (e.g., "Errata", "Frontmatter", "Backmatter"), the crawler 
+adds a filter tag. For articles from multidisciplinary journals, GPT-4 is 
+prompted to determine if the content is relevant to communication science. 
+Filtered content is hidden by default but can be displayed by clicking the +N 
+button at the top left of each journal section.
 
 <br>
 
@@ -38,13 +56,15 @@ When the title is generic, e.g., when it includes the word "Errata", "Frontmatte
 
 # Contribute #
 
-1. Find and fix bugs or add new features to the crawler/web page. GitHub repository: [github.com/sumtxt/paper-picnic](https://github.com/sumtxt/picnic).
+1. Find and fix bugs or add new features to the crawler/web page. Help out
+Moritz on [his original version](https://github.com/sumtxt/picnic) or make 
+suggestions [in mine](https://github.com/jacob-long/picnic).
 
 2. Use the crawled data for your own tool: <button type="button" class="align-items-center btn btn-primary btn-sm rounded-pill" data-bs-toggle="modal" data-bs-target="#jsonlist">All JSON Files</button>
 
-3. Build a better (and equally open source) version of this page. 
+3. Build an improved (and equally open source) version of this page.
 
 4. Support [The Initiative for Open Abstracts](https://i4oa.org/).
 
-5. <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="mmarbach" data-color="#FFDD00" data-emoji="☕"  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
+5. <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="mmarbach" data-color="#FFDD00" data-emoji="☕"  data-font="Cookie" data-text="Buy Moritz a coffee for doing the legwork." data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
 
