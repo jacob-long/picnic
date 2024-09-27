@@ -14,7 +14,7 @@ crawl_end_date <- as.Date(now) - 1
 journals <- read.csv(paste0("./parameters/", field, "_journals.csv"))
 
 urls_file <- paste0("./memory/", field, "_urls.csv")
-if (file.exists(urls_file)) {
+if (file.exists(urls_file) && file.info(urls_file)$size > 0) {
   past_urls <- read.csv(urls_file)
 } else {
   past_urls <- data.frame()  # Initialize with an empty data frame
