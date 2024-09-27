@@ -12,20 +12,51 @@ crawl_start_date <- as.Date(now) - 7
 crawl_end_date <- as.Date(now) - 1
 
 journals <- read.csv(paste0("./parameters/", field, "_journals.csv"))
-
-urls_file <- paste0("./memory/", field, "_urls.csv")
-if (file.exists(urls_file) && file.info(urls_file)$size > 0) {
-  past_urls <- read.csv(urls_file)
-} else {
-  past_urls <- data.frame()  # Initialize with an empty data frame
-}
+past_urls <- read.csv(paste0("./memory/", field, "_urls.csv"))
 
 # Crawl Crossref API 
 out <- retrieve_crossref_issn_data(
     issn_list=journals$issn, 
     start_date=crawl_start_date, 
-    end_date=crawl_end_date
-)
+    end_date=crawl_end_date, 
+    verbose=TRUE)
+
+# Remove duplicates
+out <- out[!duplicated(out$url),] 
+# Remove past paers
+out <- out[!(out$url %in% past_urls$url), ]
+if(is.null(out)) quit(save="no")
+
+# Cleanup data
+out$abstract <- strip_html(out$abstract)
+out$abstract <- gsub("^(Abstract|ABSTRACT) ", "", out$abstract)
+out$title <- strip_html(out$title)
+out$doi <- extract_doi_id(out$url)
+
+# Merge in journal information 
+out <- merge(out, journals, by="issn")
+
+# Apply standard filter flags 
+out <- add_standard_filter(out) 
+
+# Filter flags: Multidisciplinary journals 
+if(field=="multidisciplinary"){
+    out_lst <- split(out, out$filter_function) 
+    out_lst <- lapply(out_lst, dispatch_special_filter ) 
+    out <- do.call(rbind, out_lst)
+    out$filter <- apply(out, 1, function(x){
+        tryCatch(
+            {add_multidisciplinary_filter(x)
+            }, error = function(msg){
+                return(-1)
+            })
+        })
+    rownames(out) <- NULL
+    } 
+
+# Output JSON
+out_json <- render_json(out, date=as.Date(now)) 
+write(out_json, paste0("./output/", field, ".json"))
 
 # Update past urls
 write.table(out[,"url"], 
@@ -35,42 +66,10 @@ write.table(out[,"url"],
     append=TRUE, 
     quote=FALSE, 
     col.names=FALSE,
-    row.names=FALSE
-)
+    row.names=FALSE)
 
 # Write journal short list
 journals_out <- unique(journals[,c("journal_full","journal_short")])
 journals_out <- journals_out[order(journals_out$journal_full),]
-journals_out <- toJSON(journals_out, pretty=TRUE, auto_unbox=TRUE)
-
-# Debugging: Print the JSON output
-cat("JSON output:\n", journals_out, "\n")
-
-json_file <- paste0("./output/", field, "_journals.json")
-cat("JSON file path: ", json_file, "\n")
-
-if (file.exists(json_file) && file.info(json_file)$size > 0) {
-  cat("File exists and is not empty. Writing JSON data...\n")
-  writeLines(journals_out, json_file)
-} else {
-  cat("File does not exist or is empty. Creating file and writing JSON data...\n")
-  file.create(json_file)
-  writeLines(journals_out, json_file)
-}
-
-cat("JSON data written successfully.\n")
-
-# Additional debugging: Check the contents of the written file
-written_json <- readLines(json_file)
-cat("Contents of the written JSON file:\n", paste(written_json, collapse="\n"), "\n")
-
-# Additional debugging: Check if any JSON reading or processing is happening later
-cat("Reading the JSON file to check for errors...\n")
-tryCatch({
-  read_json <- fromJSON(json_file)
-  cat("JSON file read successfully.\n")
-  cat("Structure of the JSON data:\n")
-  print(str(read_json))
-}, error = function(e) {
-  cat("Error reading JSON file: ", e$message, "\n")
-})
+journals_out <- toJSON(journals_out, pretty=TRUE, auto_unbox=TRUE) 
+write(journals_out, paste0("./output/", field, "_journals.json"))
