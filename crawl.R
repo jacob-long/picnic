@@ -47,7 +47,7 @@ out <- add_standard_filter(out)
 
 # Let's try to find the abstracts that are missing
 if (nrow(subset(out, filter == 0 & is.na(abstract))) > 0) {
-    # Get the missing abstracts
+    # Get the missing abstracts 
     no_abs <- subset(out, filter == 0 & is.na(abstract))
     # Set the user agent for scraping
     user_agent <- "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36"
