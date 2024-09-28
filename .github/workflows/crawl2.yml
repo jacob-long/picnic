@@ -34,6 +34,9 @@ jobs:
 
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          path: main_folder
+          ref: main
 
       - name: Save R package cache
         if: steps.cache-r-packages.outputs.cache-hit != 'true'
