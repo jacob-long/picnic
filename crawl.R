@@ -1,6 +1,7 @@
 field <- commandArgs(trailingOnly = TRUE)
 
 library(httr)
+library(rvest)
 library(jsonlite)
 
 source("fun.R")
@@ -12,7 +13,7 @@ crawl_start_date <- as.Date(now) - 7
 crawl_end_date <- as.Date(now) - 1
 
 journals <- read.csv(paste0("./parameters/", field, "_journals.csv"))
-past_urls <- read.csv(paste0("./memory/", field, "_urls.csv"))
+# past_urls <- read.csv(paste0("./memory/", field, "_urls.csv"))
 
 # Crawl Crossref API 
 out <- retrieve_crossref_issn_data(
@@ -23,8 +24,11 @@ out <- retrieve_crossref_issn_data(
 
 # Remove duplicates
 out <- out[!duplicated(out$url),] 
-# Remove past paers
-out <- out[!(out$url %in% past_urls$url), ]
+## I'm gonna let the old papers lie for now. I'm okay
+## with them appearing twice, once upon advance online 
+## access and again upon full publication.
+# Remove past papers
+# out <- out[!(out$url %in% past_urls$url), ]
 if(is.null(out)) quit(save="no")
 
 # Cleanup data
@@ -38,6 +42,44 @@ out <- merge(out, journals, by="issn")
 
 # Apply standard filter flags 
 out <- add_standard_filter(out) 
+
+# Let's try to find the abstracts that are missing
+if (nrow(subset(out, filter == 0 & is.na(abstract))) > 0) {
+    # Get the missing abstracts
+    no_abs <- subset(out, filter == 0 & is.na(abstract))
+    # Set the user agent for scraping
+    user_agent <- "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36"
+    # Loop through them
+    for (i in 1:nrow(no_abs)) {
+        # Create holder object
+        abstract <- NULL
+        # Get the URL
+        url <- no_abs$url[i]
+        # Visit the URL
+        response <- GET(url, 
+                user_agent(user_agent))
+        if (status_code(response) %in% c(403, 404)) {
+            next
+        }
+        # Get the final URL after DOI redirect
+        final_url <- response$url
+        # Grab the page
+        content <- read_html(response)
+
+        # Different strategies depending on the publisher
+        if (grepl("nature\\.com", response$url)) {
+            abstract <- content |> html_element("#Abs1-content") |> html_text2()
+            if (is.na(abstract)) {
+                # Grabs teaser from Matters Arising
+                abstract <- content |> html_element(".article__teaser") |> html_text2()
+            }
+        } 
+
+        if (!is.null(abstract) && !is.na(abstract)) {
+            out$abstract[out$url == url] <- abstract
+        }
+    }
+}
 
 # Filter flags: Multidisciplinary journals 
 if(field=="multidisciplinary"){

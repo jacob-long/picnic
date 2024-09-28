@@ -1,6 +1,9 @@
-# Paper Picnic
+# Communication Paper Picnic
 
-A weekly basket with the latest published research in political science. On Fridays at 2 AM UTC, we query the Crossref API for new research articles that appeared in the previous 7 days across many journals in political science and adjacent fields. [paper-picnic.com/](https://paper-picnic.com/)
+A basket with the latest published research in communication and a
+grabbag from related fields. This is an adaptation of 
+[a project](https://paper-picnic.com) by 
+[Moritz Marbach](http://moritz-marbach.com/).
 
 The crawler lives in the `main` branch of the backend while the website is rendered from the `gh-pages` branch.
 

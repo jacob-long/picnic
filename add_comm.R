@@ -60,11 +60,20 @@ communication_journals <- c(
   "Journal of Applied Communication Research",
   "Convergence: The International Journal of Research into New Media Technologies",
   "Games and Culture",
-  "Environmental Communication"
+  "Environmental Communication",
+  "Southern Communication Journal",
+  "Howard Journal of Communications",
+  "Personal Relationships",
+  "Nordicom Review",
+  "Journal of Science Communication",
+  "Journal of Social and Personal Relationships",
+  "Cyberpsychology: Journal of Psychosocial Research on Cyberspace",
+  "Journal of Information Technology & Politics",
+  "Media and Communication",
+  "Telematics and Informatics",
+  "Internet Research",
+  "Information Technology & People"
 )
-
-library(httr)
-library(jsonlite)
 
 library(httr)
 library(jsonlite)
@@ -105,9 +114,12 @@ result %>%
       Journal == "Journalism & Mass Communication Quarterly" ~ "1077-6990",
       Journal == "Journal of Broadcasting & Electronic Media" ~ "0883-8151, 1550-6878",
       Journal == "Mass Communication and Society" ~ "1520-5436, 1532-7825",
-      Journal == "New Media & Society" ~ "1461-4448, 1461-7315",
+      Journal == "New Media & Society" ~ "1461-4448",
       Journal == "Information, Communication & Society" ~ "1369-118X, 1468-4462",
       Journal == "Mobile Media & Communication" ~ "2050-1579",
+      Journal == "Journal of Language and Social Psychology" ~ "0261-927X",
+      Journal == "Journal of Information Technology & Politics" ~ "1933-1681, 1933-169X",
+      Journal == "Information Technology & People" ~ "0959-3845",
       TRUE ~ ISSN
     )
   ) -> result
@@ -155,7 +167,19 @@ journal_abbrev <- c(
   "Journal of Applied Communication Research" = "JACR",
   "Convergence: The International Journal of Research into New Media Technologies" = "Conv",
   "Games and Culture" = "G&C",
-  "Environmental Communication" = "EnvComm"
+  "Environmental Communication" = "EnvComm",
+  "Southern Communication Journal" = "SoComm",
+  "Howard Journal of Communications" = "HoJo",
+  "Personal Relationships" = "PersRel",
+  "Nordicom Review" = "Nord",
+  "Journal of Science Communication" = "JCOM",
+  "Journal of Social and Personal Relationships" = "JSPR",
+  "Cyberpsychology: Journal of Psychosocial Research on Cyberspace" = "CyberPsych",
+  "Journal of Information Technology & Politics" = "JITP",
+  "Media and Communication" = "MAC",
+  "Telematics and Informatics" = "T&I",
+  "Internet Research" = "IR",
+  "Information Technology & People" = "ITP"
 )
 
 result$journal_short <- journal_abbrev
@@ -176,3 +200,102 @@ print(journals_split)
 
 # Optionally, write to a CSV file
 write.csv(journals_split, "communication_journals.csv", row.names = FALSE)
+
+po_journals <- c(
+  "Public Opinion Quarterly",
+  "International Journal of Public Opinion Research",
+  "Journal of Elections, Public Opinion and Parties",
+  "Journal of Survey Statistics and Methodology",
+  "Journal of Official Statistics",
+  "Politics, Groups, and Identities",
+  "Social Science Computer Review"
+)
+
+issns <- sapply(po_journals, get_issn)
+result <- data.frame(Journal = po_journals, ISSN = issns)
+
+result %>%
+  mutate(
+    ISSN = case_when(
+      Journal == "Survey Research Methods" ~ "1864-3361",
+      TRUE ~ ISSN
+    )
+  ) -> result
+
+journal_abbrev <- c(
+  "Public Opinion Quarterly" = "POQ",
+  "International Journal of Public Opinion Research" = "IJPOR",
+  "Journal of Elections, Public Opinion and Parties" = "JEPOP",
+  "Journal of Survey Statistics and Methodology" = "JSSAM",
+  "Journal of Official Statistics" = "JOS",
+  "Politics, Groups, and Identities" = "PGI",
+  "Social Science Computer Review" = "SSCR"
+)
+
+result$journal_short <- journal_abbrev
+result <- select(result, journal_full = Journal, issn = ISSN, journal_short)
+
+# Split the ISSNs and create separate rows
+journals_split <- result %>%
+  separate_rows(issn, sep = ", ")
+
+# Optionally, write to a CSV file
+write.csv(journals_split, "po_journals.csv", row.names = FALSE)
+
+
+psych_journals <- c(
+  "Psychological Methods",
+  "Journal of Experimental Social Psychology",
+  "Personality and Social Psychology Bulletin",
+  "Psychological Science",
+  "Multivariate Behavioral Research",
+  "Journal of Personality and Social Psychology",
+  "Advances in Methods and Practices in Psychological Science",
+  "Psychological Bulletin",
+  "Behavior Research Methods",
+  "Organizational Research Methods",
+  "Group Processes & Intergroup Relations",
+  "Psychology of Music",
+  "Psychology of Popular Media",
+  "Computers in Human Behavior",
+  "Technology, Mind, and Behavior"
+)
+
+issns <- sapply(psych_journals, get_issn)
+result <- data.frame(Journal = psych_journals, ISSN = issns)
+
+result %>%
+  mutate(
+    ISSN = case_when(
+      Journal == "Group Processes & Intergroup Relations" ~ "1368-4302",
+      TRUE ~ ISSN
+    )
+  ) -> result
+
+journal_abbrev <- c(
+  "Psychological Methods" = "PM",
+  "Journal of Experimental Social Psychology" = "JESP",
+  "Personality and Social Psychology Bulletin" = "PSPB",
+  "Psychological Science" = "PsychSci",
+  "Multivariate Behavioral Research" = "MBR",
+  "Journal of Personality and Social Psychology" = "JPSP",
+  "Advances in Methods and Practices in Psychological Science" = "AMPPS",
+  "Psychological Bulletin" = "PsychBull",
+  "Behavior Research Methods" = "BRM",
+  "Organizational Research Methods" = "ORM",
+  "Group Processes & Intergroup Relations" = "GPIR",
+  "Psychology of Music" = "PsychMusic",
+  "Psychology of Popular Media" = "PPM",
+  "Computers in Human Behavior" = "CHB",
+  "Technology, Mind, and Behavior" = "TMB"
+)
+
+result$journal_short <- journal_abbrev
+result <- select(result, journal_full = Journal, issn = ISSN, journal_short)
+
+# Split the ISSNs and create separate rows
+journals_split <- result %>%
+  separate_rows(issn, sep = ", ")
+
+# Optionally, write to a CSV file
+write.csv(journals_split, "psych_journals.csv", row.names = FALSE)
