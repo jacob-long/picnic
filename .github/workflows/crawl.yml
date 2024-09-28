@@ -4,6 +4,9 @@ on:
    workflow_dispatch:
    schedule:
      - cron: "0 2 * * 5"
+   push:
+    branches:
+      - main
 
 jobs:
   crawl:
@@ -41,6 +44,8 @@ jobs:
           Rscript crawl.R "sociology"
           Rscript crawl.R "communication"
           Rscript crawl.R "politics"
+          Rscript crawl.R "po"
+          Rscript crawl.R "psychology"
           Rscript crawl.R "multidisciplinary"
 
       - name: Commit results main branch 
