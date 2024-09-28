@@ -24,14 +24,13 @@ out <- retrieve_crossref_issn_data(
 
 # Remove duplicates
 out <- out[!duplicated(out$url),] 
-out <- out[!duplicated(out$doi),]
 out <- out[!duplicated(out$title),]
 ## I'm gonna let the old papers lie for now. I'm okay
 ## with them appearing twice, once upon advance online 
 ## access and again upon full publication.
 # Remove past papers
 # out <- out[!(out$url %in% past_urls$url), ]
-if(is.null(out)) quit(save="no")
+if(is.null(out) || nrow(out) == 0) quit(save="no")
 
 # Cleanup data
 out$abstract <- strip_html(out$abstract)
