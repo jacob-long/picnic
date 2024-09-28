@@ -16,6 +16,14 @@
                         %} href="./politics">Politics</a>
                 </li>
                 <li class="nav-item">
+                    <a {% if page.url=="/po.html" %}class="nav-link active" {% else %}class="nav-link" {% endif
+                        %} href="./po">Public Opinion</a>
+                </li>
+                <li class="nav-item">
+                    <a {% if page.url=="/psych.html" %}class="nav-link active" {% else %}class="nav-link" {% endif
+                        %} href="./psych">Psychology</a>
+                </li>
+                <li class="nav-item">
                     <a {% if page.url=="/sociology.html" %}class="nav-link active" {% else %}class="nav-link" {% endif
                         %} href="./sociology">Sociology</a>
                 </li>
