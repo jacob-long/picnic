@@ -1,9 +1,9 @@
-name: Update
+name: update2
 
 on: 
    workflow_dispatch:
    workflow_run:
-     workflows: [ Crawl ]
+     workflows: [ crawl2 ]
      types: [ completed ]
 
 jobs:
