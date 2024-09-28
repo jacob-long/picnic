@@ -25,6 +25,8 @@ jobs:
       - name: Commit to gh-pages branch 
         working-directory: ./gh_pages_folder
         run: |
+          mkdir -p ./_data
+          mkdir -p ./json
           cp -f ../main_folder/output/* ./_data/
           cp -f ./_data/* ./json/
           git config --local user.email "actions@github.com"
