@@ -10,11 +10,15 @@
   {% assign count_politics = site.data.politics_journals | size %}
   {% assign count_sociology = site.data.sociology_journals | size %}
   {% assign count_multidisciplinary = site.data.multidisciplinary_journals | size %}
+  {% assign count_po = site.data.po_journals | size %}
+  {% assign count_psych = site.data.psych_journals | size %}
 
   {% assign count_total = count_total | plus: count_communication %}
   {% assign count_total = count_total | plus: count_politics %}
   {% assign count_total = count_total | plus: count_multidisciplinary %}
   {% assign count_total = count_total | plus: count_sociology %}
+  {% assign count_total = count_total | plus: count_po %}
+  {% assign count_total = count_total | plus: count_psych %}
 
 
   {% include nav.html %}
@@ -37,6 +41,8 @@
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="./communication">Communication</a></li>
             <li><a class="dropdown-item" href="./politics">Politics</a></li>
+            <li><a class="dropdown-item" href="./po">Public Opinion</a></li>
+            <li><a class="dropdown-item" href="./psych">Psychology</a></li>
             <li><a class="dropdown-item" href="./sociology">Sociology</a></li>
             <li><a class="dropdown-item" href="./multidisciplinary">Multidisciplinary</a></li>
           </ul>
@@ -74,6 +80,18 @@
       <div class="col">
         <ul class="list-group list-group">
           {% for journal in site.data.politics_journals %}
+          <li class="list-group-item"> {{ journal.journal_full }} </li>
+          {% endfor %}
+        </ul>
+
+        <ul class="list-group list-group">
+          {% for journal in site.data.po_journals %}
+          <li class="list-group-item"> {{ journal.journal_full }} </li>
+          {% endfor %}
+        </ul>
+
+        <ul class="list-group list-group">
+          {% for journal in site.data.psych_journals %}
           <li class="list-group-item"> {{ journal.journal_full }} </li>
           {% endfor %}
         </ul>
@@ -123,8 +141,6 @@
       </div>
     </div>
   </div>
-  
-{% include foot.html %}
   
 </body>
 

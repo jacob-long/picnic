@@ -1,0 +1,65 @@
+{
+    "update": "2024-09-28",
+    "content": [
+      {
+        "journal_full": "Journal of Official Statistics",
+        "journal_short": "JOS",
+        "articles": [
+          {
+            "title": "Applying the Expectation-Maximization Algorithm to Multivariate Signal Extraction",
+            "authors": "James Livsey, Tucker McElroy",
+            "abstract": "Understanding time series signal extraction is vital for federal agencies, especially as data collection accelerates. One natural extension is moving from univariate to multivariate signal extraction, which offers the promise of reducing extraction error by exploiting cross-sectional relationships. However, such an extension ushers in new computational challenges, viz. larger parameter spaces and more complicated objective functions. The Expectation-Maximization (EM) algorithm provides a methodology to implicitly compute (or approximate) maximum likelihood estimates (MLEs). This paper provides methodology for applying the EM algorithm to a class of latent component multivariate time series models that allow for a nuanced specification of the unobserved signal. We derive an explicit formula for the maximization step, which facilitates computation speed while also improving the stability of the algorithm. Numerical studies demonstrate EM’s ability to efficiently compute MLEs in low-dimensional systems, while also providing feasible estimates in moderate-dimensional systems where MLEs are infeasible to compute. Applications to monthly housing starts and daily immigration are provided.",
+            "url": "http://dx.doi.org/10.1177/0282423x241271471",
+            "doi": "10.1177/0282423x241271471",
+            "filter": 0
+          }
+        ],
+        "articles_hidden": []
+      },
+      {
+        "journal_full": "Politics, Groups, and Identities",
+        "journal_short": "PGI",
+        "articles": [
+          {
+            "title": "Organizational leaders and intersectional advocacy",
+            "authors": "Maraam A. Dwidar, Kathleen Marchetti, Dara Z. Strolovitch",
+            "url": "http://dx.doi.org/10.1080/21565503.2024.2402318",
+            "doi": "10.1080/21565503.2024.2402318",
+            "filter": 0
+          }
+        ],
+        "articles_hidden": []
+      },
+      {
+        "journal_full": "Social Science Computer Review",
+        "journal_short": "SSCR",
+        "articles": [
+          {
+            "title": "Large Language Models Outperform Expert Coders and Supervised Classifiers at Annotating Political Social Media Messages",
+            "authors": "Petter Törnberg",
+            "abstract": "Instruction-tuned Large Language Models (LLMs) have recently emerged as a powerful new tool for text analysis. As these models are capable of zero-shot annotation based on instructions written in natural language, they obviate the need of large sets of training data—and thus bring potential paradigm-shifting implications for using text as data. While the models show substantial promise, their relative performance compared to human coders and supervised models remains poorly understood and subject to significant academic debate. This paper assesses the strengths and weaknesses of popular fine-tuned AI models compared to both conventional supervised classifiers and manual annotation by experts and crowd workers. The task used is to identify the political affiliation of politicians based on a single X/Twitter message, focusing on data from 11 different countries. The paper finds that GPT-4 achieves higher accuracy than both supervised models and human coders across all languages and country contexts. In the US context, it achieves an accuracy of 0.934 and an inter-coder reliability of 0.982. Examining the cases where the models fail, the paper finds that the LLM—unlike the supervised models—correctly annotates messages that require interpretation of implicit or unspoken references, or reasoning on the basis of contextual knowledge—capacities that have traditionally been understood to be distinctly human. The paper thus contributes to our understanding of the revolutionary implications of LLMs for text analysis within the social sciences.",
+            "url": "http://dx.doi.org/10.1177/08944393241286471",
+            "doi": "10.1177/08944393241286471",
+            "filter": 0
+          },
+          {
+            "title": "Why People Accept Mental Health-Related Misinformation: Role of Social Media Metrics in Users’ Information Processing",
+            "authors": "Shiyi Zhang, Huiyu Zhou, Yimei Zhu",
+            "abstract": "Drawing on dual-process theories, this study aims to investigate the factors associated with social media users’ acceptance of mental health-related misinformation (MHRM). We conducted a case study of Chinese microblogging Weibo on conversations that emerged following a publicised celebrity suicide of South Korean superstar Sulli. This incident sparked an extensive discussion on mental health issues as Sulli was reported to have suffered from depression prior to her death. Whilst previous studies on users’ information acceptance mainly adopted survey methods, our study employs a mixed-method approach (i.e. computational data collection method, content analysis and statistical analysis), which opens up new directions to utilise secondary social media data. We identified MHRM from the discussions on Weibo and labelled the responses to the misinformation as whether they indicate an acceptance of the MHRM. Binary logistic regression was used to examine the associations of receivers’ acceptance of MHRM with its information features (e.g. number of likes) and information sources (e.g. gender). Inconsistent with previous studies, our findings suggest that MHRM is less likely to be accepted when published by male users, underscoring the context-specific nature of heuristic cues. This study also revealed some novel findings, such as MHRM with more pictures or with more words is less likely to be accepted. A theoretical model was proposed based on the findings, which highlights the importance of heuristic cues and individuals’ pre-existing knowledge in information processing.",
+            "url": "http://dx.doi.org/10.1177/08944393241287791",
+            "doi": "10.1177/08944393241287791",
+            "filter": 0
+          },
+          {
+            "title": "Status Spill-Over in Cryptomarket for Illegal Goods",
+            "authors": "Filippo Andrei, Giuseppe Alessandro Veltri",
+            "abstract": "Information technologies have transformed many aspects of social life, including how illegal goods are exchanged. Illegal online markets are now flourishing on various channels: the surface web (all websites accessible through a standard browser), the dark web (an encrypted internet network only accessible via anonymous browsers), and encrypted messaging applications installed on smartphones. These marketplaces take many forms, including simple web shops, chat rooms, forums, social media marketplaces, and platforms. This study focuses on the largest known darknet platform to date: AlphaBay. This cryptomarket operated from December 2014 until July 2017, when an international police operation shut it down. The dataset contains 6033 vendor profiles collected in January 2017. Using three generalized additive models (GAMs), we show that seller status positively affects sales, revenue, and sales through finalized early payment. Once sellers gain status on the platforms, they make more sales without a semi-institutionalized form of payment (e.g. escrow). On the other hand, buyers relying on status metrics as cognitive shortcuts tend to choose vendors even if they do not offer payment protection tools.",
+            "url": "http://dx.doi.org/10.1177/08944393241286339",
+            "doi": "10.1177/08944393241286339",
+            "filter": 0
+          }
+        ],
+        "articles_hidden": []
+      }
+    ]
+  }
