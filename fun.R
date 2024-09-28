@@ -86,7 +86,7 @@ add_standard_filter <- function(data){
     flag <- ifelse(str=="Editorial Board",1, flag)
     flag <- ifelse(str=="Issue Information",1, flag)
     flag <- ifelse(str=="Forthcoming Papers",1, flag)
-    flag <- ifelse(grepl("ERRATUM|ERRATA|Frontmatter|Front matter|Backmatter|Back matter", str, ignore.case = TRUE),1, flag)
+    flag <- ifelse(grepl("ERRATUM|ERRATA|Frontmatter|Front matter|Backmatter|Back matter|Reviewer Acknowledgment|Corrigendum", str, ignore.case = TRUE),1, flag)
     data$filter <- flag
     return(data)
     }
