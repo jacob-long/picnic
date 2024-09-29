@@ -24,7 +24,7 @@ out <- retrieve_crossref_issn_data(
 
 # Remove duplicates
 out <- out[!duplicated(out$url),] 
-out <- out[!duplicated(out$title),]
+out <- out[!duplicated(tolower(trimws(out$title))),]
 ## I'm gonna let the old papers lie for now. I'm okay
 ## with them appearing twice, once upon advance online 
 ## access and again upon full publication.
