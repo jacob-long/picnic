@@ -58,6 +58,25 @@ add_multidisciplinary_filter <- function(row){
     }
 }
 
+add_preprint_filter <- function(row){
+    row_nam <- names(row)
+        cat(row[row_nam=="url"], "\n")
+    row[row_nam=="filter"] <- as.integer(row[row_nam=="filter"])
+    if(row[row_nam=="filter"]!=0) return(row[row_nam=="filter"])
+    else{
+        res <- call_openai_api(
+            system_prompt=prompt_comm_classifier, 
+            user_prompt=paste(
+                "Title:", row[row_nam=="title"], "\n",
+                row[row_nam=="description"]
+            ),
+            model="gpt-4o-mini")
+        if( get_openai_finish_reason(res)!="stop" ) {cat(get_openai_finish_reason(res)); return(-1)}
+        if( tolower(get_openai_response(res))=="no" ) return(2)
+        return(0)
+    }
+}
+
 dispatch_special_filter <- function(data){
     FUN <- unique(data$filter_function)
     if(FUN=="") return(data)
@@ -113,6 +132,25 @@ render_json <- function(df,date){
             "articles"=articles, 
             "articles_hidden"=articles_hidden)
     }
+    to_json <- list("update"=date, "content"=to_json)
+    json <- toJSON(to_json, pretty=TRUE, auto_unbox=TRUE) 
+    return(json)
+    }
+
+render_json_pre <- function(df,date){
+    to_json <- list()
+    articles <- df
+    journal_full <- unique(articles$journal_full)
+    journal_short <- unique(articles$journal_short)
+    articles <- articles[c("title", "authors", "abstract", "url", "doi", "filter")]
+    articles_hidden <- subset(articles, !(filter==0 | filter==-1) )
+    articles_hidden <- sort_by(articles_hidden, articles_hidden$filter) 
+    articles <- subset(articles, (filter==0 | filter==-1) )
+    to_json <- list(
+        "journal_full"=journal_full, 
+        "journal_short"=journal_short,
+        "articles"=articles, 
+        "articles_hidden"=articles_hidden)
     to_json <- list("update"=date, "content"=to_json)
     json <- toJSON(to_json, pretty=TRUE, auto_unbox=TRUE) 
     return(json)
@@ -267,4 +305,85 @@ get_openai_finish_reason <- function(response){
 
 get_openai_usage <- function(response){
     return(unlist(response$usage$total_tokens))
+}
+
+### Preprints
+
+get_all_osf_preprints <- function(provider, start_date = as.Date(Sys.time()) - 7, max_results = 1000) {
+  base_url <- "https://api.osf.io/v2/preprints/"
+  all_preprints <- data.frame()
+  next_page_url <- NULL
+  
+  while (nrow(all_preprints) < max_results) {
+    query <- list(
+      "filter[provider]" = provider,
+      "filter[date_created][gte]" = as.character(start_date),
+      "page[size]" = 100
+    )
+    
+    if (!is.null(next_page_url)) {
+      response <- request(next_page_url) %>%
+        req_perform()
+    } else {
+      response <- request(base_url) %>%
+        req_url_query(!!!query) %>%
+        req_perform()
+    }
+    
+    if (resp_is_error(response)) {
+      stop("Error in API request: ", resp_status_desc(response))
+    }
+    
+    data <- resp_body_json(response)
+    
+    preprints <- map_df(data$data, function(item) {
+      # Get contributors
+      contributors_url <- item$relationships$contributors$links$related$href
+      contributors_response <- safely(req_perform)(request(contributors_url))
+      
+      authors <- if (!is.null(contributors_response$result)) {
+        contributors_data <- resp_body_json(contributors_response$result)
+        author_names <- map_chr(contributors_data$data, function(contributor) {
+          user_data <- contributor$embeds$users$data$attributes
+          paste(user_data$given_name, user_data$middle_names, user_data$family_name) %>%
+            trimws() %>%
+            gsub("\\s+", " ", .)
+        })
+        paste(author_names, collapse = "; ")
+      } else {
+        "No authors listed"
+      }
+      
+      # Extract DOI
+      doi <- item$links$preprint_doi
+      if (is.null(doi)) {
+        doi <- item$attributes$doi
+      }
+      if (is.null(doi)) {
+        doi <- "No DOI available"
+      }
+      
+      data.frame(
+        id = item$id,
+        title = item$attributes$title,
+        date_created = as.POSIXct(item$attributes$date_created, format = "%Y-%m-%dT%H:%M:%S"),
+        abstract = item$attributes$description,
+        authors = authors,
+        doi = doi,
+        stringsAsFactors = FALSE
+      )
+    })
+    
+    all_preprints <- rbind(all_preprints, preprints)
+    
+    next_page_url <- data$links$`next`
+    if (is.null(next_page_url)) break
+  }
+  
+  # Trim to max_results if exceeded
+  if (nrow(all_preprints) > max_results) {
+    all_preprints <- all_preprints[1:max_results, ]
+  }
+  
+  return(all_preprints)
 }

@@ -1,1 +1,2 @@
 prompt_socsci_classifier <- "You are given a content from a new issue of a multidisciplinary scientific journal. Respond 'Yes' if the content is a research article in any social science discipline and 'No' otherwise."
+prompt_comm_classifier <- "You are given a content from a new issue of a multidisciplinary scientific journal. Respond 'Yes' if the content is an English-language research article in communication or a closely-related discipline and 'No' otherwise."
