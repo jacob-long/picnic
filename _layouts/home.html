@@ -27,9 +27,10 @@
     <div class="p-5 text-center bg-body-tertiary rounded-3">
       <h1>Communication Paper Picnic 🧺</h1>
       <p class="col-lg-8 mx-auto fs-5 text-muted">
-        A weekly basket with the latest published research in communication research. On Fridays at 2 AM UTC, we query the
+        A weekly basket with the latest published research in communication research. Every day at 2 AM UTC, I query the
         Crossref API for new research articles that appeared in the previous 7 days across {{count_total}} journals in
-        communication science and adjacent fields.
+        communication science and adjacent fields. Additionally, I search major preprint servers for new papers that
+        may be of interest to communication science researchers.
       </p>
 
       <div class="btn-group flex-wrap mt-3" role="group" aria-label="Landing Page Navigation">
@@ -45,6 +46,7 @@
             <li><a class="dropdown-item" href="./psych">Psychology</a></li>
             <li><a class="dropdown-item" href="./sociology">Sociology</a></li>
             <li><a class="dropdown-item" href="./multidisciplinary">Multidisciplinary</a></li>
+            <li><a class="dropdown-item" href="./preprints">Preprints</a></li>
           </ul>
         </div>
         
@@ -76,9 +78,15 @@
           {% endfor %}
         </ul>
 
+        <ul class="list-group list-group mt-3">
+          {% for journal in site.data.preprint_journals %}
+          <li class="list-group-item"> {{ journal.journal_full }} </li>
+          {% endfor %}
+        </ul>
+
       </div>
       <div class="col">
-        <ul class="list-group list-group mt-3">
+        <ul class="list-group list-group">
           {% for journal in site.data.politics_journals %}
           <li class="list-group-item"> {{ journal.journal_full }} </li>
           {% endfor %}

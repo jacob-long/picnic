@@ -5,7 +5,12 @@ layout: home
 
 # Motivation #
 
-Keeping up with newly published research in communication science can be challenging. Email alerts from publishers clutter inboxes, arrive at irregular intervals, and often lack abstracts. Publisher RSS feeds can be equally frustrating, with available RSS readers being either clunky or expensive. Setting up alerts or finding RSS feeds for multiple publishers is time-consuming. Social media platforms like Twitter/X have their own limitations for academic purposes.
+Keeping up with newly published research in communication science can be challenging. 
+Email alerts from publishers clutter inboxes and arrive at irregular intervals. 
+Publisher RSS feeds can be equally frustrating, with available RSS readers being
+either clunky or expensive. Setting up alerts or finding RSS feeds for multiple 
+publishers is time-consuming. Social media platforms like Twitter have their 
+own limitations for academic purposes.
 
 Inspired by [Moritz Marbach's](https://www.moritz-marbach.com/) 
 [Paper Picnic project](https://paper-picnic.com) for
@@ -24,7 +29,7 @@ All data is sourced from the Crossref API.
 *Text below comes from Moritz but is true for this version also*:
 
 The backend consists of a crawler written in R, hosted in a GitHub repository. 
-Every Friday, GitHub Actions executes the crawler. The resulting data is stored 
+Every morning, GitHub Actions executes the crawler. The resulting data is stored 
 in a JSON file and rendered into an HTML file using GitHub Pages.
 
 For each journal, the crawler retrieves articles added in the previous week. It
@@ -37,18 +42,15 @@ abstracts in their Crossref metadata (see [this](https://www.crossref.org/blog/i
 
 As journals typically have two ISSN numbers (print and electronic, see 
 [here](https://en.wikipedia.org/wiki/ISSN)), the crawler retrieves articles for
-both and deduplicates the results. ISSN numbers are obtained from the Crossref
-lookup [tool](https://www.crossref.org/titleList/).
-
-To avoid duplicates, the crawler maintains a list of previously crawled article 
-DOIs. Only new articles are included in each update, ensuring that articles 
-appearing first online and later in print are only listed once.
+both and deduplicates the results (usually). ISSN numbers are obtained from the
+Crossref lookup [tool](https://www.crossref.org/titleList/).
 
 For generic titles (e.g., "Errata", "Frontmatter", "Backmatter"), the crawler 
-adds a filter tag. For articles from multidisciplinary journals, GPT-4 is 
-prompted to determine if the content is relevant to communication science. 
-Filtered content is hidden by default but can be displayed by clicking the +N 
-button at the top left of each journal section.
+adds a filter tag. For articles from multidisciplinary journals and preprint,
+GPT-4 is prompted to determine if the content is relevant to communication 
+science (intending to err on the side of inclusiveness). Filtered content is 
+hidden by default but can be displayed by clicking the +N button at the top left
+of each journal section.
 
 <br>
 
@@ -65,6 +67,4 @@ suggestions [in mine](https://github.com/jacob-long/picnic).
 3. Build an improved (and equally open source) version of this page.
 
 4. Support [The Initiative for Open Abstracts](https://i4oa.org/).
-
-5. <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="mmarbach" data-color="#FFDD00" data-emoji="☕"  data-font="Cookie" data-text="Buy Moritz a coffee for doing the legwork." data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
 
