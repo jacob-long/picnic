@@ -8,39 +8,31 @@ on:
 jobs:
   crawl:
     runs-on: ubuntu-latest
+    env:
+      RENV_PATHS_ROOT: ~/.local/share/renv
     steps:
-      - name: Set up R
-        uses: r-lib/actions/setup-r@v2
-
-      - name: Cache R packages
-        id: cache-r-packages
-        uses: actions/cache@v3
-        with:
-          path: ~/.R/Library
-          key: ${{ runner.os }}-r-${{ hashFiles('**/DESCRIPTION') }}
-          restore-keys: |
-            ${{ runner.os }}-r-
-
-      - name: Install packages
-        uses: r-lib/actions/setup-r-dependencies@v2
-        with:
-          packages: |
-            any::httr 
-            any::jsonlite
-            any::rvest
-
       - name: Check out repository
         uses: actions/checkout@v4
         with:
           path: main_folder
           ref: main
 
-      - name: Save R package cache
-        if: steps.cache-r-packages.outputs.cache-hit != 'true'
-        uses: actions/cache@v3
+      - name: Setup R
+        uses: r-lib/actions/setup-r@v2
         with:
-          path: ~/.R/Library
-          key: ${{ runner.os }}-r-${{ hashFiles('**/DESCRIPTION') }}
+          r-version: 'release'
+
+      - name: Setup renv
+        uses: r-lib/actions/setup-renv@v2
+        with:
+          cache-version: 1
+          working-directory: main_folder
+
+      - name: Install packages
+        working-directory: ./main_folder
+        run: |
+          install.packages(c("httr", "jsonlite", "rvest", "dplyr", "purrr"))
+        shell: Rscript {0}
 
       - name: Create and populate credentials file with secrets
         working-directory: ./main_folder
@@ -61,6 +53,7 @@ jobs:
           Rscript crawl.R "po"
           Rscript crawl.R "psych"
           Rscript crawl.R "multidisciplinary"
+          Rscript preprints.R
 
       - name: Commit results main branch 
         working-directory: ./main_folder
