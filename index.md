@@ -5,28 +5,22 @@ layout: home
 
 # Motivation #
 
-Keeping up with newly published research in communication science can be challenging. 
-Email alerts from publishers clutter inboxes and arrive at irregular intervals. 
-Publisher RSS feeds can be equally frustrating, with available RSS readers being
-either clunky or expensive. Setting up alerts or finding RSS feeds for multiple 
-publishers is time-consuming. Social media platforms like Twitter have their 
-own limitations for academic purposes.
+Keeping up with newly published research in communication science can be challenging. Email alerts from publishers clutter inboxes and arrive at irregular intervals. Setting up alerts or finding RSS feeds for multiple publishers is time-consuming. Social media platforms like Twitter have their own limitations for academic purposes.
 
 Inspired by [Moritz Marbach's](https://www.moritz-marbach.com/) 
 [Paper Picnic project](https://paper-picnic.com) for
-Political Science, this adaptation focuses on communication science research with 
-some love for politics and related social science areas that are helpful to my
-research.
+Political Science, this adaptation of his project focuses on communication 
+science research with some love for politics and related social science areas 
+that are helpful to my research. 
 
-All data is sourced from the Crossref API. 
-[Crossref](https://www.crossref.org/community/).
+All journal data is sourced from the Crossref
+[Crossref](https://www.crossref.org/community/) API. Preprints are retrieved
+from the [Open Science Foundation](https://osf.io) API.
 
 <br>
 <hr>
 
 # Backend #
-
-*Text below comes from Moritz but is true for this version also*:
 
 The backend consists of a crawler written in R, hosted in a GitHub repository. 
 Every morning, GitHub Actions executes the crawler. The resulting data is stored 
@@ -38,7 +32,9 @@ database within the last seven days.
 
 The crawler collects title, authors, full-text link, and abstract information. 
 However, some publishers, like Elsevier or Taylor & Francis, do not include 
-abstracts in their Crossref metadata (see [this](https://www.crossref.org/blog/i4oa-hall-of-fame-2023-edition/) Crossref Blog for details).
+abstracts in their Crossref metadata (see [this](https://www.crossref.org/blog/i4oa-hall-of-fame-2023-edition/) Crossref Blog for details). Unfortunately,
+a large portion of communication journals are partnered with publishers who 
+do not allow any automated retrieval of their abstracts.
 
 As journals typically have two ISSN numbers (print and electronic, see 
 [here](https://en.wikipedia.org/wiki/ISSN)), the crawler retrieves articles for

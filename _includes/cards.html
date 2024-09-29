@@ -10,9 +10,9 @@
   <div class="row">
     <div class="col-md-10">
       <div class="bg-light p-4 rounded">
-        <p class="lead">We checked {{ data_journals | size }} {{ page.title | downcase }} journals on {{ data_crawl.update | date: "%A,
+        <p class="lead">I checked {{ data_journals | size }} {{ page.title | downcase }} journals on {{ data_crawl.update | date: "%A,
           %B %d, %Y"}} using the Crossref API. For the period {{ data_crawl.update | date: '%s' | minus: 604800 | date: "%B
-          %d" }} to {{ data_crawl.update | date: '%s' | minus: 86400 | date: "%B %d" }}, we retrieved {{ total_count }} new
+          %d" }} to {{ data_crawl.update | date: '%s' | minus: 86400 | date: "%B %d" }}, I found {{ total_count }} new
           paper(s) in {{ data_crawl.content | size }} journal(s).</p>
       </div>
     </div>
