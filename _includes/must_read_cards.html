@@ -1,0 +1,95 @@
+<!-- 7 * 24 * 60 * 60  =  -->
+<!-- 1 * 24 * 60 * 60  =  -->
+{% assign total_count = 0 %}
+{% for items in data_crawl.content %}
+{% assign journal_total = items.articles | size %}
+{% assign total_count = total_count | plus: journal_total %}
+{% endfor %}
+
+<main class="container fluid">
+  <div class="row">
+    <div class="col-md-10">
+      <div class="bg-light p-4 rounded">
+        <p class="lead">Even just looking backwards a week, there are a lot more articles published 
+          than most of us could hope to read. We can always skim the titles and abstracts
+          ourselves, but I wanted to test out some automation. The articles below, all 
+          of which can be found elsewhere on this site among other new publications,
+          were chosen by <b>Google Gemini Pro</b> as "must-read" articles. The proper criteria
+          are in the eyes of the beholder and Gemini doesn't apply my criteria without
+          error. I may continue to refine the prompting based on experience and feedback.
+          Like the rest of the site, this will update daily!</p>
+      </div>
+    </div>
+  <div class="col-md-2">
+    <div class="d-grid p-1 gap-2">
+    <button type="button" class="align-items-center btn btn-light btn-sm rounded-pill" data-bs-toggle="modal" data-bs-target="#filter">
+      Filter journals
+    </button>
+    <button class="align-items-center btn btn-light btn-sm rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target=".collapse-article" aria-expanded="false">
+      Expand abstracts
+    </button>  
+    </div>
+  </div>
+</div>
+</main>
+
+
+
+{% for journal in data_crawl.content %}
+{% assign total_hidden = journal.articles_hidden | size %}
+
+<p></p>
+<div class="container" id="{{journal.journal_short}}">
+  <div class="row">
+    <div class="col-10">
+    <h2>{{journal.journal_full}}</h2>
+    <p></p>
+    </div>
+    <div class="col-2">
+      {% if total_hidden > 0 %}
+      <div class="float-end">
+      <span data-bs-toggle="tooltip" data-bs-placement="bottom"  title="Number of less relevant items hidden. Click to show.">
+      <button type="button" class="btn btn-light" data-bs-toggle="collapse" data-bs-target="#collapse-{{journal.journal_short}}" aria-expanded="false" aria-controls="collapseExample">
+        +{{ total_hidden  }}
+      </button>
+      </span>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-1"></div>
+    <div class="col-11">
+
+      <div class="collapse" id="collapse-{{journal.journal_short}}">
+      {% assign filtered = 1 %}
+      {% for article in journal.articles_hidden %}
+      {% include must_read_card.html %}
+      {% endfor %}
+      </div>
+
+      {% assign filtered = 0 %}
+      {% for article in journal.articles %}
+      {% include must_read_card.html %}
+      {% endfor %}
+
+    </div>
+  </div>  
+</div>
+{% endfor %}
+
+
+<div class="modal fade" id="filter" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="filterLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="filterLabel">{{ site.data.modal.title }}</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
