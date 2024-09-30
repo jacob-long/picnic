@@ -1,3 +1,8 @@
+### This is used by Jacob to produce the list of journals and would require
+### some tweaking to be used by others. Especially the exploratory analysis
+### at the beginning in which I explore my Zotero  library to look for ideas
+### for journals to include.
+
 # Load required libraries
 library(tidyverse)
 
@@ -193,7 +198,10 @@ library(dplyr)
 
 # Split the ISSNs and create separate rows
 journals_split <- result %>%
-  separate_rows(issn, sep = ", ")
+  separate_rows(issn, sep = ", ") %>%
+  filter(issn != "0000-0000")
+
+journals_split <- journals_split[!duplicated(journals_split), ]
 
 # View the result
 print(journals_split)
@@ -237,7 +245,10 @@ result <- select(result, journal_full = Journal, issn = ISSN, journal_short)
 
 # Split the ISSNs and create separate rows
 journals_split <- result %>%
-  separate_rows(issn, sep = ", ")
+  separate_rows(issn, sep = ", ") %>%
+  filter(issn != "0000-0000")
+
+journals_split <- journals_split[!duplicated(journals_split), ]
 
 # Optionally, write to a CSV file
 write.csv(journals_split, "po_journals.csv", row.names = FALSE)
@@ -295,7 +306,10 @@ result <- select(result, journal_full = Journal, issn = ISSN, journal_short)
 
 # Split the ISSNs and create separate rows
 journals_split <- result %>%
-  separate_rows(issn, sep = ", ")
+  separate_rows(issn, sep = ", ") %>%
+  filter(issn != "0000-0000")
+
+journals_split <- journals_split[!duplicated(journals_split), ]
 
 # Optionally, write to a CSV file
 write.csv(journals_split, "psych_journals.csv", row.names = FALSE)
