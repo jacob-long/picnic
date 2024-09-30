@@ -11,25 +11,19 @@
                     <a {% if page.url=="/communication.html" %}class="nav-link active" {% else %}class="nav-link" {% endif %}
                         href="./communication">Communication</a>
                 </li>
-                <li class="nav-item">
-                    <a {% if page.url=="/politics.html" %}class="nav-link active" {% else %}class="nav-link" {% endif
-                        %} href="./politics">Politics</a>
-                </li>
-                <li class="nav-item">
-                    <a {% if page.url=="/po.html" %}class="nav-link active" {% else %}class="nav-link" {% endif
-                        %} href="./po">Public Opinion</a>
-                </li>
-                <li class="nav-item">
-                    <a {% if page.url=="/psych.html" %}class="nav-link active" {% else %}class="nav-link" {% endif
-                        %} href="./psych">Psychology</a>
-                </li>
-                <li class="nav-item">
-                    <a {% if page.url=="/sociology.html" %}class="nav-link active" {% else %}class="nav-link" {% endif
-                        %} href="./sociology">Sociology</a>
-                </li>
-                <li class="nav-item">
-                    <a {% if page.url=="/multidisciplinary.html" %}class="nav-link active" {% else %}class="nav-link" {%
-                        endif %} href="./multidisciplinary">Multidisciplinary</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Other Fields
+                    </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a {% if page.url=="/politics.html" %}class="dropdown-item active" {% else %}class="dropdown-item" {% endif %} href="./politics">Politics</a>
+                            <a {% if page.url=="/po.html" %}class="dropdown-item active" {% else %}class="dropdown-item" {% endif %} href="./po">Public Opinion</a>
+                            <a {% if page.url=="/psych.html" %}class="dropdown-item active" {% else %}class="dropdown-item" {% endif %} href="./psych">Psychology</a>
+                            <a {% if page.url=="/sociology.html" %}class="dropdown-item active" {% else %}class="dropdown-item" {% endif %} href="./sociology">Sociology</a>
+                            <a {% if page.url=="/multidisciplinary.html" %}class="dropdown-item active" {% else %}class="dropdown-item" {% endif %} href="./multidisciplinary">Multidisciplinary</a>
+                        </ul>
+                    </li>
                 </li>
                 <li class="nav-item">
                     <a {% if page.url=="/preprints.html" %}class="nav-link active" {% else %}class="nav-link" {%
