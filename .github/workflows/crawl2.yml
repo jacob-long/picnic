@@ -49,6 +49,7 @@ jobs:
         env:
           MAPPED_OPENAI_APIKEY : ${{ secrets.OPENAI_APIKEY }}
           MAPPED_CROSSREF_EMAIL : ${{ secrets.CROSSREF_EMAIL }}
+          MAPPED_GEMINI_APIKEY : ${{ secrets.GEMINI_APIKEY }}
 
       - name: Get data and produce JSON
         working-directory: ./main_folder
