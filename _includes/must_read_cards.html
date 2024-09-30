@@ -8,6 +8,8 @@
   <div class="row">
     <div class="col-md-10">
       <div class="bg-light p-4 rounded">
+        <center><h3>🤖 Must-Read Articles 🤖</h3></center>
+        <h4>Experimental Feature</h4>
         <p class="lead">Even just looking backwards a week, there are a lot more articles published 
           than most of us could hope to read. We can always skim the titles and abstracts
           ourselves, but I wanted to test out some automation. The articles below, all 
@@ -15,7 +17,7 @@
           were chosen by <b>Google Gemini Pro</b> as "must-read" articles. The proper criteria
           are in the eyes of the beholder and Gemini doesn't apply my criteria without
           error. I may continue to refine the prompting based on experience and feedback.
-          Like the rest of the site, this will update daily!</p>
+          Like the rest of the site, this will update daily!</p> 
       </div>
     </div>
   <div class="col-md-2">
@@ -30,7 +32,7 @@
 
 
 <p></p>
-<div class="container" id="{{journal.journal_short}}">
+<div class="container">
   <div class="row">
     <div class="col-10">
     <p></p>
@@ -40,7 +42,7 @@
   </div>
 
   <div class="row">
-    <div class="col-1"></div>
+    <!-- <div class="col-1"></div> -->
     <div class="col-11">
 
       <div class="collapse" id="collapse-{{journal.journal_short}}">
@@ -51,7 +53,7 @@
       </div>
 
       {% assign filtered = 0 %}
-      {% for article in articles %}
+      {% for article in data_crawl %}
       {% include must_read_card.html %}
       {% endfor %}
 
