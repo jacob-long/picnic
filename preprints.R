@@ -38,5 +38,5 @@ for (i in seq_len(nrow(preprints))) {
 }
 
 # Output JSON
-out_json <- render_json(preprints, date=as.Date(now)) 
+out_json <- render_json(preprints, date=as.Date(Sys.time())) 
 write(out_json, paste0("./output/preprints.json"))
