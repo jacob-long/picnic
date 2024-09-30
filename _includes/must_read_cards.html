@@ -2,8 +2,6 @@
 <!-- 1 * 24 * 60 * 60  =  -->
 {% assign total_count = 0 %}
 {% for items in data_crawl.content %}
-{% assign journal_total = items.articles | size %}
-{% assign total_count = total_count | plus: journal_total %}
 {% endfor %}
 
 <main class="container fluid">
@@ -22,9 +20,6 @@
     </div>
   <div class="col-md-2">
     <div class="d-grid p-1 gap-2">
-    <button type="button" class="align-items-center btn btn-light btn-sm rounded-pill" data-bs-toggle="modal" data-bs-target="#filter">
-      Filter journals
-    </button>
     <button class="align-items-center btn btn-light btn-sm rounded-pill" type="button" data-bs-toggle="collapse" data-bs-target=".collapse-article" aria-expanded="false">
       Expand abstracts
     </button>  
@@ -34,8 +29,6 @@
 </main>
 
 
-
-{% for journal in data_crawl.content %}
 {% assign total_hidden = journal.articles_hidden | size %}
 
 <p></p>
@@ -77,8 +70,6 @@
     </div>
   </div>  
 </div>
-{% endfor %}
-
 
 <div class="modal fade" id="filter" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="filterLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-scrollable">
