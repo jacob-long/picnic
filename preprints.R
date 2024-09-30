@@ -1,5 +1,6 @@
 servers <- c("PsyArxiv", "SocArxiv", "MetaArxiv", "MediArxiv")
 
+library(httr)
 library(httr2)
 library(jsonlite)
 library(dplyr)

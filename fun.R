@@ -286,11 +286,11 @@ call_openai_api <- function(system_prompt, user_prompt, model){
             )
         )
     body <- toJSON(body, auto_unbox=TRUE)
-    res <- POST(endpoint, 
+    res <- httr::POST(endpoint, 
         body=body, 
         encode='raw', 
-        content_type_json(), 
-        add_headers(Authorization = paste("Bearer", openai_apikey, sep = " ")))
+        httr::content_type_json(), 
+        httr::add_headers(Authorization = paste("Bearer", openai_apikey, sep = " ")))
     
     return(content(res))
     }
