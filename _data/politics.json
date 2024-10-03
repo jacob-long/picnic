@@ -1,5 +1,5 @@
 {
-  "update": "2024-10-02",
+  "update": "2024-10-03",
   "content": [
     {
       "journal_full": "American Journal of Political Science",
@@ -89,10 +89,10 @@
           "filter": 0
         },
         {
-          "title": "Individual Electoral Competitiveness: Undecided voters, complex choice environments and lower turnout",
-          "authors": "Hannah Bunting",
-          "url": "http://dx.doi.org/10.1016/j.electstud.2024.102866",
-          "doi": "10.1016/j.electstud.2024.102866",
+          "title": "Do working-class candidates activate class-based voting?",
+          "authors": "Jared Abbott, Fred DeVeaux",
+          "url": "http://dx.doi.org/10.1016/j.electstud.2024.102862",
+          "doi": "10.1016/j.electstud.2024.102862",
           "filter": 0
         },
         {
@@ -103,17 +103,17 @@
           "filter": 0
         },
         {
-          "title": "Cultural sources of gender gaps: Confucian meritocracy reduces gender inequalities in political participation",
-          "authors": "Baowen Liang",
-          "url": "http://dx.doi.org/10.1016/j.electstud.2024.102848",
-          "doi": "10.1016/j.electstud.2024.102848",
-          "filter": 0
-        },
-        {
           "title": "Secure majorities, unequal districts: One person, one vote &amp; state bipartisanship",
           "authors": "Sam D. Hayes, SoRelle Wyckoff Gaynor",
           "url": "http://dx.doi.org/10.1016/j.electstud.2024.102835",
           "doi": "10.1016/j.electstud.2024.102835",
+          "filter": 0
+        },
+        {
+          "title": "Cultural sources of gender gaps: Confucian meritocracy reduces gender inequalities in political participation",
+          "authors": "Baowen Liang",
+          "url": "http://dx.doi.org/10.1016/j.electstud.2024.102848",
+          "doi": "10.1016/j.electstud.2024.102848",
           "filter": 0
         },
         {
@@ -162,6 +162,29 @@
       "articles_hidden": []
     },
     {
+      "journal_full": "European Journal of Political Research",
+      "journal_short": "EJPR",
+      "articles": [
+        {
+          "title": "Breaking free from linear assumptions: Unravelling the relationship between affective polarization and democratic support",
+          "authors": "LISA JANSSEN, EMMA TURKENBURG",
+          "abstract": "Scholars increasingly raise concerns about the alleged detrimental impact of affective polarization on citizens’ democratic attitudes. Yet, prior studies on the relationship between affective polarization and democratic support have yielded mixed results: Whereas some scholars report evidence that affective polarization erodes citizens’ support for democracy, others report null findings. In this research note, we posit that one relevant explanation for these mixed results is that the relationship between affective polarization and democratic support is not linear, but rather negatively curvilinear (i.e., an inverted U‐shape). Though extreme levels of affective polarization may harm citizens’ democratic commitments, a moderate amount of affective polarization can strengthen democratic support by heightening the political stakes and stimulating democratic involvement. Employing generalized additive modelling on data from the CNEP collected in Germany, the United Kingdom, and the United States, we show strong and robust support for this negatively curvilinear pattern. These findings have important implications for our understanding of the dynamics between affective polarization and democratic support, as well as for the recommended estimation strategies of future studies that aim to explore this relationship.",
+          "url": "http://dx.doi.org/10.1111/1475-6765.12725",
+          "doi": "10.1111/1475-6765.12725",
+          "filter": 0
+        },
+        {
+          "title": "Social order in Sweden's politicized and vulnerable neighborhoods – The perspective of residents",
+          "authors": "PETER ESAIASSON, JACOB SOHLBERG",
+          "abstract": "This paper draws attention to a group of neighborhoods that are the object of heated elite discussions in many European countries. Using Sweden as our case, we demonstrate the feasibility of conducting high‐quality surveys with residents in neighborhoods where large shares have an immigrant background and low socioeconomic status. Moreover, we develop a measurement that allows us to assess what residents in two of Sweden's politicized and vulnerable neighborhoods think is needed to improve the social order of their local areas. We find that residents believe that neighborhood problems are generally about a lack of social control between people and that residents are not preoccupied with culture clash issues. Overall, beliefs about what contributes to social order are structured, largely homogenous and independent of elite discourse. Based on a comparison with a nationally representative sample, we conclude that residents in vulnerable neighborhoods and residents in other neighborhoods share a similar worldview and approach to daily life, but that the need for local social order is more keenly felt in the vulnerable neighborhoods.",
+          "url": "http://dx.doi.org/10.1111/1475-6765.12723",
+          "doi": "10.1111/1475-6765.12723",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Party Politics",
       "journal_short": "PP",
       "articles": [
@@ -189,26 +212,19 @@
       "journal_short": "PA",
       "articles": [
         {
+          "title": "PopBERT. Detecting Populism and Its Host Ideologies in the German Bundestag",
+          "authors": "Lukas Erhard, Sara Hanke, Uwe Remer, Agnieszka Falenska, Raphael Heiko Heiberger",
+          "abstract": "The rise of populism concerns many political scientists and practitioners, yet the detection of its underlying language remains fragmentary. This paper aims to provide a reliable, valid, and scalable approach to measure populist rhetoric. For that purpose, we created an annotated dataset based on parliamentary speeches of the German Bundestag (2013–2021). Following the ideational definition of populism, we label moralizing references to “the virtuous people” or “the corrupt elite” as core dimensions of populist language. To identify, in addition, how the thin ideology of populism is “thickened,” we annotate how populist statements are attached to left-wing or right-wing host ideologies. We then train a transformer-based model (PopBERT) as a multilabel classifier to detect and quantify each dimension. A battery of validation checks reveals that the model has a strong predictive accuracy, provides high qualitative face validity, matches party rankings of expert surveys, and detects out-of-sample text snippets correctly. PopBERT enables dynamic analyses of how German-speaking politicians and parties use populist language as a strategic device. Furthermore, the annotator-level data may also be applied in cross-domain applications or to develop related classifiers.",
+          "url": "http://dx.doi.org/10.1017/pan.2024.12",
+          "doi": "10.1017/pan.2024.12",
+          "filter": 0
+        },
+        {
           "title": "A Novel Class of Unfolding Models for Binary Preference Data",
           "authors": "Rayleigh Lei, Abel Rodríguez",
           "abstract": "We develop a new class of spatial voting models for binary preference data that can accommodate both monotonic and non-monotonic response functions, and are more flexible than alternative “unfolding” models previously introduced in the literature. We then use these models to estimate revealed preferences for legislators in the U.S. House of Representatives and justices on the U.S. Supreme Court. The results from these applications indicate that the new models provide superior complexity-adjusted performance to various alternatives and that the additional flexibility leads to preferences’ estimates that more closely match the perceived ideological positions of legislators and justices.",
           "url": "http://dx.doi.org/10.1017/pan.2024.11",
           "doi": "10.1017/pan.2024.11",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Political Behavior",
-      "journal_short": "PolBehav",
-      "articles": [
-        {
-          "title": "Group Consciousness, Organizational Membership, and District Choice: Evidence from the Afro-Colombian Reserved Seats",
-          "authors": "Mateo Villamizar-Chaparro, Cristina Echeverri-Pineda",
-          "abstract": "Numerous countries around the globe have undertaken efforts aimed at enhancing political representation. One of these efforts has taken the institutional form of reserved seats or ethnic districts where individuals must choose where to deposit their votes. In this paper, we ask if group consciousness and organizational membership affect the choice to vote on these types of districts. Using a mixed-methods approach by combining semi-structured interviews with elites and a subgroup analysis of a conjoint experiment in a sample of Afro-Colombians, we find evidence that group consciousness affects the preferences for ethnic districts over territorial ones. Contrary to initial expectations, we observe that membership in ethnic organizations does not significantly alter preferences for ethnic districts among surveyed individuals. These findings indicate that individuals with high levels of group consciousness tend to choose to participate more in mechanisms and institutions that can enhance the group’s political representation.",
-          "url": "http://dx.doi.org/10.1007/s11109-024-09972-4",
-          "doi": "10.1007/s11109-024-09972-4",
           "filter": 0
         }
       ],
@@ -240,10 +256,10 @@
           "filter": 0
         },
         {
-          "title": "International law: Israel's fig leaf or a route to Palestinian statehood?",
-          "authors": "Dalal Iriqat",
-          "url": "http://dx.doi.org/10.1016/j.polgeo.2024.103208",
-          "doi": "10.1016/j.polgeo.2024.103208",
+          "title": "Interpreting NIMBY as movements claiming participatory planning in the context of refugee camps’ siting: A comparative case study in two Greek regions",
+          "authors": "Alexandra Makridou, Ioannis Frangopoulos, Nikos Kapitsinis",
+          "url": "http://dx.doi.org/10.1016/j.polgeo.2024.103216",
+          "doi": "10.1016/j.polgeo.2024.103216",
           "filter": 0
         },
         {
@@ -423,19 +439,11 @@
       "journal_short": "PolPsyc",
       "articles": [
         {
-          "title": "A cross‐cultural test of competing hypotheses about system justification using data from 42 nations",
-          "authors": "Evan A. Valdes, James H. Liu, Matt Williams, Stuart C. Carr",
-          "abstract": "System justification theory (SJT) is a thriving field of research, wherein the primary questions revolve around why individuals and groups are motivated to see the systems they depend on as just, fair, and legitimate. This article seeks to answer how accurate the postulates of SJT are when compared to competing self‐interest claims of social identity and social dominance theory. We addressed the ongoing debates among proponents of each theory by identifying who, when, and why individuals decide to system‐justify. We used data comprised of 24,009 participants nested within 42 countries. Multilevel models largely supported the competing claims of social dominance and social identity theories over SJT. The most robust findings were: (1) greater objective socioeconomic status (SES) was associated with greater system justification; (2) the consistent positive relationship between subjective SES and system justification was partially mediated by life satisfaction; and (3) both ends of the political spectrum were willing to system‐justify more when the political party they favored was in power. The results presented are used to discuss both the current state and the future directions for system justification research.",
-          "url": "http://dx.doi.org/10.1111/pops.13039",
-          "doi": "10.1111/pops.13039",
-          "filter": 0
-        },
-        {
-          "title": "Beyond victimhood and perpetration: Reconstruction of the ingroup's historical role in eight Eastern and Western European countries under Nazi occupation",
-          "authors": "Fiona Kazarovytska, Roland Imhoff, Gilad Hirschberger",
-          "abstract": "The Nazi regime's aggressive expansion across Europe during WWII created a landscape of suffering, resistance, and collaboration. How do lay Europeans today reconstruct their ingroup's roles during Nazi occupation, and how do different role representations relate to defensive responses aimed at protecting the ingroup from threat? We tested two theoretical predictions: Following the identity threat prediction, we expected that denying culpability but endorsing morally favorable group representations (e.g., victim‐heroism) would represent an ingroup‐defensive strategy, correlating with other defensive responses, such as victim‐directed negativity or victim‐blaming. Following the identity management prediction, we expected that precisely accepting culpability and acknowledging threatening representations (e.g., willing collaboration with Germans) would form the basis for a defensive stance and thus correlate with defensive intergroup reactions. Analyzing data from nine European samples spanning eight countries ( N = 5474), we found support for the identity management prediction in six contexts: Lay representations as willing collaborators were associated with negative collective emotions and correlated with victim‐directed negativity, whereas victim‐hero representations showed no such connections. The remaining three countries revealed a mixture of the two identity accounts. We discuss implications for understanding historical representations and identity protection in groups that were both victims and perpetrators of massive intergroup atrocities.",
-          "url": "http://dx.doi.org/10.1111/pops.13037",
-          "doi": "10.1111/pops.13037",
+          "title": "On the relationship between age and conspiracy beliefs",
+          "authors": "Jean‐Nicolas Bordeleau, Daniel Stockemer",
+          "abstract": "Research on conspiracy theories has long turned a blind eye on the role of age in explaining conspiracy beliefs. Few studies include age and those that do have yet to consider how and why age matters when it comes to the spread of conspiracy theories. In this article, we investigate the relationship between age and conspiracy beliefs with two complementary studies. In Study 1, we conduct a meta‐analysis of a large sample of studies on conspiracy beliefs published between 2014 and 2024 ( k = 191; N = 374,224). The results reveal a small but robust negative association between age and conspiracy endorsement. In Study 2, we use an original multinational survey to investigate three potential mechanisms that may explain the relationship between age and conspiracy beliefs ( N = 6098). We explain youth's higher beliefs in conspiracy theories by their predisposition to unconventional styles of political participation, lower levels of self‐esteem, and general political disaffection.",
+          "url": "http://dx.doi.org/10.1111/pops.13044",
+          "doi": "10.1111/pops.13044",
           "filter": 0
         },
         {
@@ -475,14 +483,6 @@
           "abstract": "An extensive theoretical and practitioner literature addresses the drivers and consequences of transformation of violent rebel actors during conflicts. However, measurement challenges constrain large- N empirical study of the effects and consequences of such transformations. This Research Note introduces a strategy to identify periods of transformation and change in the operation of non-state armed militant groups via computational text analysis of trends in reporting on activities. It presents the measurement approach and demonstrates scalability to a corpus of more than 200 militant groups operating from 1989 to 2020. The study concludes by extending a recent analysis of the impacts of uncertainty on conflict termination. An online Appendix demonstrates the advantages and drawbacks of the measurement through a series of case studies.",
           "url": "http://dx.doi.org/10.1017/psrm.2024.26",
           "doi": "10.1017/psrm.2024.26",
-          "filter": 0
-        },
-        {
-          "title": "A spatiotemporal analysis of NATO member states' defense spending: how much do allies actually free ride?",
-          "authors": "Ringailė Kuokštytė, Vytautas Kuokštis",
-          "abstract": "Concerns over free riding in NATO are widespread. An intuitive approach to analyzing free riding is treating it as a systematic pattern of spatial interdependence between the allies: how does a NATO member's defense spending react to changes in other allies' military expenditures? While recent work has found statistically significant free riding (negative spatial interdependence in the outcomes), it suffers from important limitations. First, this research does not adequately account for temporal dependence. Second, it does not quantify the effect of interest. Accounting directly for temporal dependence provides a meaningfully distinct perspective on the within-alliance dynamics, demonstrating that the spatiotemporal effect of free riding is, in fact, more substantial than its short-run effect, challenging inferences of static spatial models. We discuss the relevant practical and theoretical implications.",
-          "url": "http://dx.doi.org/10.1017/psrm.2024.39",
-          "doi": "10.1017/psrm.2024.39",
           "filter": 0
         },
         {
@@ -713,20 +713,6 @@
           "filter": 0
         },
         {
-          "title": "Grist for the Hill: How Constituency Concerns Influence Congress’s Attention to Issues and Legislators’ Policy-Seeking Activities",
-          "authors": "Charles J. Finocchiaro, Scott A. MacKenzie",
-          "url": "http://dx.doi.org/10.1086/729930",
-          "doi": "10.1086/729930",
-          "filter": 0
-        },
-        {
-          "title": "Coercive Legacies: From Rebel Governance to Authoritarian Control",
-          "authors": "Shelley Liu",
-          "url": "http://dx.doi.org/10.1086/729947",
-          "doi": "10.1086/729947",
-          "filter": 0
-        },
-        {
           "title": "Transitional Justice and the Rule of Law: Tainted Judges and Accountability for Nazi Crimes in West Germany",
           "authors": "Holger L. Kern, Georg Vanberg",
           "url": "http://dx.doi.org/10.1086/729959",
@@ -745,6 +731,20 @@
           "authors": "Kyle Beardsley",
           "url": "http://dx.doi.org/10.1086/729940",
           "doi": "10.1086/729940",
+          "filter": 0
+        },
+        {
+          "title": "Grist for the Hill: How Constituency Concerns Influence Congress’s Attention to Issues and Legislators’ Policy-Seeking Activities",
+          "authors": "Charles J. Finocchiaro, Scott A. MacKenzie",
+          "url": "http://dx.doi.org/10.1086/729930",
+          "doi": "10.1086/729930",
+          "filter": 0
+        },
+        {
+          "title": "Coercive Legacies: From Rebel Governance to Authoritarian Control",
+          "authors": "Shelley Liu",
+          "url": "http://dx.doi.org/10.1086/729947",
+          "doi": "10.1086/729947",
           "filter": 0
         },
         {
