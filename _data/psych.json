@@ -1,5 +1,5 @@
 {
-  "update": "2024-10-06",
+  "update": "2024-10-07",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -29,19 +29,19 @@
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "People make mistakes: Obtaining accurate ground truth from continuous annotations of subjective constructs",
-          "authors": "Brandon M. Booth, Shrikanth S. Narayanan",
-          "abstract": "Accurately representing changes in mental states over time is crucial for understanding their complex dynamics. However, there is little methodological research on the validity and reliability of human-produced continuous-time annotation of these states. We present a psychometric perspective on valid and reliable construct assessment, examine the robustness of interval-scale (e.g., values between zero and one) continuous-time annotation, and identify three major threats to validity and reliability in current approaches. We then propose a novel ground truth generation pipeline that combines emerging techniques for improving validity and robustness. We demonstrate its effectiveness in a case study involving crowd-sourced annotation of perceived violence in movies, where our pipeline achieves a .95 Spearman correlation in summarized ratings compared to a .15 baseline. These results suggest that highly accurate ground truth signals can be produced from continuous annotations using additional comparative annotation (e.g., a versus b) to correct structured errors, highlighting the need for a paradigm shift in robust construct measurement over time.",
-          "url": "http://dx.doi.org/10.3758/s13428-024-02503-3",
-          "doi": "10.3758/s13428-024-02503-3",
-          "filter": 0
-        },
-        {
           "title": "Model-implied simulation-based power estimation for correctly specified and distributionally misspecified models: Applications to nonlinear and linear structural equation models",
           "authors": "Julien P. Irmer, Andreas G. Klein, Karin Schermelleh-Engel",
           "abstract": "Closed-form (asymptotic) analytical power estimation is only available for limited classes of models, requiring correct model specification for most applications. Simulation-based power estimation can be applied in almost all scenarios where data following the model can be estimated. However, a general framework for calculating the required sample sizes for given power rates is still lacking. We propose a new model-implied simulation-based power estimation (MSPE) method for the z -test that makes use of the asymptotic normality property of estimates of a wide class of estimators, the M -estimators, and give theoretical justification for the approach. M -estimators include maximum-likelihood, least squares estimates and limited information estimators, but also estimators used for misspecified models, hence, the new simulation-based power modeling method is widely applicable. The MSPE employs a parametric model to describe the relationship between power and sample size, which can then be used to determine the required sample size for a specified power rate. We highlight its performance in linear and nonlinear structural equation models (SEM) for correctly specified models and models under distributional misspecification. Simulation results suggest that the new power modeling method is unbiased and shows good performance with regard to root mean squared error and type I error rates for the predicted required sample sizes and predicted power rates, outperforming alternative approaches, such as the naïve approach of selecting a discrete selection of sample sizes with linear interpolation of power or simple logistic regression approaches. The MSPE appears to be a valuable tool to estimate power for models without an (asymptotic) analytical power estimation.",
           "url": "http://dx.doi.org/10.3758/s13428-024-02507-z",
           "doi": "10.3758/s13428-024-02507-z",
+          "filter": 0
+        },
+        {
+          "title": "People make mistakes: Obtaining accurate ground truth from continuous annotations of subjective constructs",
+          "authors": "Brandon M. Booth, Shrikanth S. Narayanan",
+          "abstract": "Accurately representing changes in mental states over time is crucial for understanding their complex dynamics. However, there is little methodological research on the validity and reliability of human-produced continuous-time annotation of these states. We present a psychometric perspective on valid and reliable construct assessment, examine the robustness of interval-scale (e.g., values between zero and one) continuous-time annotation, and identify three major threats to validity and reliability in current approaches. We then propose a novel ground truth generation pipeline that combines emerging techniques for improving validity and robustness. We demonstrate its effectiveness in a case study involving crowd-sourced annotation of perceived violence in movies, where our pipeline achieves a .95 Spearman correlation in summarized ratings compared to a .15 baseline. These results suggest that highly accurate ground truth signals can be produced from continuous annotations using additional comparative annotation (e.g., a versus b) to correct structured errors, highlighting the need for a paradigm shift in robust construct measurement over time.",
+          "url": "http://dx.doi.org/10.3758/s13428-024-02503-3",
+          "doi": "10.3758/s13428-024-02503-3",
           "filter": 0
         }
       ],
@@ -87,10 +87,10 @@
           "filter": 0
         },
         {
-          "title": "Understanding adoption intention of virtual medical consultation systems: Perceptions of ChatGPT and satisfaction with doctors",
-          "authors": "Di Zhang, Xiaoman Zhao",
-          "url": "http://dx.doi.org/10.1016/j.chb.2024.108359",
-          "doi": "10.1016/j.chb.2024.108359",
+          "title": "Strategies to combat misinformation: Enduring effects of a 15-minute online intervention on critical-thinking adolescents",
+          "authors": "Gábor Orosz, Laura Faragó, Benedek Paskuj, Péter Krekó",
+          "url": "http://dx.doi.org/10.1016/j.chb.2024.108338",
+          "doi": "10.1016/j.chb.2024.108338",
           "filter": 0
         },
         {
@@ -108,6 +108,13 @@
           "filter": 0
         },
         {
+          "title": "Understanding adoption intention of virtual medical consultation systems: Perceptions of ChatGPT and satisfaction with doctors",
+          "authors": "Di Zhang, Xiaoman Zhao",
+          "url": "http://dx.doi.org/10.1016/j.chb.2024.108359",
+          "doi": "10.1016/j.chb.2024.108359",
+          "filter": 0
+        },
+        {
           "title": "Exploring user-avatar bond profiles: Longitudinal impacts on internet gaming disorder",
           "authors": "Taylor Brown, Raffaela Smith, Daniel Zarate, Mark D. Griffiths, Vasileios Stavropoulos",
           "url": "http://dx.doi.org/10.1016/j.chb.2024.108340",
@@ -122,20 +129,6 @@
           "filter": 0
         },
         {
-          "title": "Strategies to combat misinformation: Enduring effects of a 15-minute online intervention on critical-thinking adolescents",
-          "authors": "Gábor Orosz, Laura Faragó, Benedek Paskuj, Péter Krekó",
-          "url": "http://dx.doi.org/10.1016/j.chb.2024.108338",
-          "doi": "10.1016/j.chb.2024.108338",
-          "filter": 0
-        },
-        {
-          "title": "The WWW of digital hate perpetration: What, who, and why? A scoping review",
-          "authors": "Stephanie Bührer, Kevin Koban, Jörg Matthes",
-          "url": "http://dx.doi.org/10.1016/j.chb.2024.108321",
-          "doi": "10.1016/j.chb.2024.108321",
-          "filter": 0
-        },
-        {
           "title": "Working in a virtual world: A meta-analytic investigation of cyber mistreatment in the workplace",
           "authors": "Mallory A. McCord, Gargi Sawhney, Bridget McHugh",
           "url": "http://dx.doi.org/10.1016/j.chb.2024.108324",
@@ -143,10 +136,10 @@
           "filter": 0
         },
         {
-          "title": "AI-induced emotions in L2 education: Exploring EFL students’ perceived emotions and regulation strategies",
-          "authors": "Lei Yang, Shu Zhao",
-          "url": "http://dx.doi.org/10.1016/j.chb.2024.108337",
-          "doi": "10.1016/j.chb.2024.108337",
+          "title": "The WWW of digital hate perpetration: What, who, and why? A scoping review",
+          "authors": "Stephanie Bührer, Kevin Koban, Jörg Matthes",
+          "url": "http://dx.doi.org/10.1016/j.chb.2024.108321",
+          "doi": "10.1016/j.chb.2024.108321",
           "filter": 0
         },
         {
@@ -178,17 +171,10 @@
           "filter": 0
         },
         {
-          "title": "Enhancing bodily self-consciousness in the virtual world with synchronous multisensory stimulation, interoceptive feedback and peripersonal space expansion: A narrative review",
-          "authors": "Andrea Macruz, Bing Zhao, David Sperling",
-          "url": "http://dx.doi.org/10.1016/j.chb.2024.108339",
-          "doi": "10.1016/j.chb.2024.108339",
-          "filter": 0
-        },
-        {
-          "title": "Online grocery shopping recommender systems: Common approaches and practices",
-          "authors": "Laura Z.H. Jansen, Kwabena E. Bennin, Ellen van Kleef, Ellen J. Van Loo",
-          "url": "http://dx.doi.org/10.1016/j.chb.2024.108336",
-          "doi": "10.1016/j.chb.2024.108336",
+          "title": "AI-induced emotions in L2 education: Exploring EFL students’ perceived emotions and regulation strategies",
+          "authors": "Lei Yang, Shu Zhao",
+          "url": "http://dx.doi.org/10.1016/j.chb.2024.108337",
+          "doi": "10.1016/j.chb.2024.108337",
           "filter": 0
         },
         {
@@ -196,6 +182,13 @@
           "authors": "Minjung Cho, Eunju Ko, Charles R. Taylor",
           "url": "http://dx.doi.org/10.1016/j.chb.2024.108347",
           "doi": "10.1016/j.chb.2024.108347",
+          "filter": 0
+        },
+        {
+          "title": "Online grocery shopping recommender systems: Common approaches and practices",
+          "authors": "Laura Z.H. Jansen, Kwabena E. Bennin, Ellen van Kleef, Ellen J. Van Loo",
+          "url": "http://dx.doi.org/10.1016/j.chb.2024.108336",
+          "doi": "10.1016/j.chb.2024.108336",
           "filter": 0
         },
         {
@@ -210,6 +203,13 @@
           "authors": "Yongliang Wang, Lina Xue",
           "url": "http://dx.doi.org/10.1016/j.chb.2024.108353",
           "doi": "10.1016/j.chb.2024.108353",
+          "filter": 0
+        },
+        {
+          "title": "Enhancing bodily self-consciousness in the virtual world with synchronous multisensory stimulation, interoceptive feedback and peripersonal space expansion: A narrative review",
+          "authors": "Andrea Macruz, Bing Zhao, David Sperling",
+          "url": "http://dx.doi.org/10.1016/j.chb.2024.108339",
+          "doi": "10.1016/j.chb.2024.108339",
           "filter": 0
         },
         {
@@ -441,13 +441,6 @@
           "filter": 0
         },
         {
-          "title": "Exploring the association between Twitch use and well-being.",
-          "authors": "Ágnes Zsila, Reza Shabahang, Mara S. Aruguete, Beáta Bőthe, Péter Gregor-Tóth, Gábor Orosz",
-          "url": "http://dx.doi.org/10.1037/ppm0000486",
-          "doi": "10.1037/ppm0000486",
-          "filter": 0
-        },
-        {
           "title": "Associations between intentions for affective social media content choices and depressive symptoms in adolescence: A cross-sectional investigation of media response styles as moderators.",
           "authors": "Nausikaä Brimmel, Patricia Bijttebier, Steven Eggermont",
           "url": "http://dx.doi.org/10.1037/ppm0000510",
@@ -455,10 +448,10 @@
           "filter": 0
         },
         {
-          "title": "The additive effects of interactivity, immersion, and eudaimonia for stress reduction and mood management: A randomized controlled study on games and virtual reality.",
-          "authors": "Mehmet Kosa, Mina C. Johnson-Glenberg",
-          "url": "http://dx.doi.org/10.1037/ppm0000512",
-          "doi": "10.1037/ppm0000512",
+          "title": "Exploring the association between Twitch use and well-being.",
+          "authors": "Ágnes Zsila, Reza Shabahang, Mara S. Aruguete, Beáta Bőthe, Péter Gregor-Tóth, Gábor Orosz",
+          "url": "http://dx.doi.org/10.1037/ppm0000486",
+          "doi": "10.1037/ppm0000486",
           "filter": 0
         },
         {
@@ -480,6 +473,13 @@
           "authors": "Priska Breves, Lisa Paryschew, Jan-Philipp Stein",
           "url": "http://dx.doi.org/10.1037/ppm0000499",
           "doi": "10.1037/ppm0000499",
+          "filter": 0
+        },
+        {
+          "title": "The additive effects of interactivity, immersion, and eudaimonia for stress reduction and mood management: A randomized controlled study on games and virtual reality.",
+          "authors": "Mehmet Kosa, Mina C. Johnson-Glenberg",
+          "url": "http://dx.doi.org/10.1037/ppm0000512",
+          "doi": "10.1037/ppm0000512",
           "filter": 0
         },
         {
