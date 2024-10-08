@@ -1,29 +1,6 @@
 {
-  "update": "2024-10-07",
+  "update": "2024-10-08",
   "content": [
-    {
-      "journal_full": "Advances in Methods and Practices in Psychological Science",
-      "journal_short": "AMPPS",
-      "articles": [
-        {
-          "title": "Visualization of Composite Plots in R Using a Programmatic Approach and smplot2",
-          "authors": "Seung Hyun Min",
-          "abstract": "In psychology and human neuroscience, the practice of creating multiple subplots and combining them into a composite plot has become common because the nature of research has become more multifaceted and sophisticated. In the last decade, the number of methods and tools for data visualization has surged. For example, R, a programming language, has become widely used in part because of ggplot2, a free, open-source, and intuitive plotting library. However, despite its strength and ubiquity, it has some built-in restrictions that are most noticeable when one creates a composite plot, which currently involves a complex and repetitive process with steps that go against the principles of open science out of necessity. To address this issue, I introduce smplot2, an open-source R package that integrates ggplot2’s declarative syntax and a programmatic approach to plotting. The package aims to enable users to create customizable composite plots by linearizing the process of complex visualization. The documentation and code examples of the smplot2 package are available online ( https://smin95.github.io/dataviz ).",
-          "url": "http://dx.doi.org/10.1177/25152459241267927",
-          "doi": "10.1177/25152459241267927",
-          "filter": 0
-        },
-        {
-          "title": "Advancing Group-Based Disparities Research and Beyond: A Cautionary Note on Selection Bias",
-          "authors": "Dongning Ren, Wen Wei Loh",
-          "abstract": "Obtaining an accurate understanding of group-based disparities is an important pursuit. However, unsound study designs can lead to erroneous conclusions that impede this crucial work. In this article, we highlight a critical methodological challenge to drawing valid causal inferences in disparities research: selection bias. We describe two commonly adopted study designs in the literature on group-based disparities. The first is outcome-dependent selection, when the outcome determines whether an observation is selected. The second is outcome-associated selection, when the outcome is associated with whether an observation is selected. We explain the methodological challenge each study design presents and why it can lead to selection biases when evaluating the actual disparity of interest. We urge researchers to recognize the complications that beset these study designs and to avoid the insidious impact of inappropriate selection. We offer practical suggestions on how researchers can improve the rigor and demonstrate the defensibility of their conclusions when investigating group-based disparities. Finally, we highlight the broad implications of selection mechanisms for psychological science.",
-          "url": "http://dx.doi.org/10.1177/25152459241260256",
-          "doi": "10.1177/25152459241260256",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
@@ -34,14 +11,6 @@
           "abstract": "Closed-form (asymptotic) analytical power estimation is only available for limited classes of models, requiring correct model specification for most applications. Simulation-based power estimation can be applied in almost all scenarios where data following the model can be estimated. However, a general framework for calculating the required sample sizes for given power rates is still lacking. We propose a new model-implied simulation-based power estimation (MSPE) method for the z -test that makes use of the asymptotic normality property of estimates of a wide class of estimators, the M -estimators, and give theoretical justification for the approach. M -estimators include maximum-likelihood, least squares estimates and limited information estimators, but also estimators used for misspecified models, hence, the new simulation-based power modeling method is widely applicable. The MSPE employs a parametric model to describe the relationship between power and sample size, which can then be used to determine the required sample size for a specified power rate. We highlight its performance in linear and nonlinear structural equation models (SEM) for correctly specified models and models under distributional misspecification. Simulation results suggest that the new power modeling method is unbiased and shows good performance with regard to root mean squared error and type I error rates for the predicted required sample sizes and predicted power rates, outperforming alternative approaches, such as the naïve approach of selecting a discrete selection of sample sizes with linear interpolation of power or simple logistic regression approaches. The MSPE appears to be a valuable tool to estimate power for models without an (asymptotic) analytical power estimation.",
           "url": "http://dx.doi.org/10.3758/s13428-024-02507-z",
           "doi": "10.3758/s13428-024-02507-z",
-          "filter": 0
-        },
-        {
-          "title": "People make mistakes: Obtaining accurate ground truth from continuous annotations of subjective constructs",
-          "authors": "Brandon M. Booth, Shrikanth S. Narayanan",
-          "abstract": "Accurately representing changes in mental states over time is crucial for understanding their complex dynamics. However, there is little methodological research on the validity and reliability of human-produced continuous-time annotation of these states. We present a psychometric perspective on valid and reliable construct assessment, examine the robustness of interval-scale (e.g., values between zero and one) continuous-time annotation, and identify three major threats to validity and reliability in current approaches. We then propose a novel ground truth generation pipeline that combines emerging techniques for improving validity and robustness. We demonstrate its effectiveness in a case study involving crowd-sourced annotation of perceived violence in movies, where our pipeline achieves a .95 Spearman correlation in summarized ratings compared to a .15 baseline. These results suggest that highly accurate ground truth signals can be produced from continuous annotations using additional comparative annotation (e.g., a versus b) to correct structured errors, highlighting the need for a paradigm shift in robust construct measurement over time.",
-          "url": "http://dx.doi.org/10.3758/s13428-024-02503-3",
-          "doi": "10.3758/s13428-024-02503-3",
           "filter": 0
         }
       ],
@@ -73,24 +42,10 @@
           "filter": 0
         },
         {
-          "title": "Factors contributing to the defending behavior of adolescent cyberbystanders: A systematic review and meta-analysis",
-          "authors": "Małgorzata Sobol, Aneta Przepiórka, Agata Błachnio",
-          "url": "http://dx.doi.org/10.1016/j.chb.2024.108463",
-          "doi": "10.1016/j.chb.2024.108463",
-          "filter": 0
-        },
-        {
           "title": "Unveiling Digital Mirrors: Decoding Gendered Body Poses in Instagram Imagery",
           "authors": "Dorian Tsolak, Simon Kühne",
           "url": "http://dx.doi.org/10.1016/j.chb.2024.108464",
           "doi": "10.1016/j.chb.2024.108464",
-          "filter": 0
-        },
-        {
-          "title": "Strategies to combat misinformation: Enduring effects of a 15-minute online intervention on critical-thinking adolescents",
-          "authors": "Gábor Orosz, Laura Faragó, Benedek Paskuj, Péter Krekó",
-          "url": "http://dx.doi.org/10.1016/j.chb.2024.108338",
-          "doi": "10.1016/j.chb.2024.108338",
           "filter": 0
         },
         {
@@ -108,13 +63,6 @@
           "filter": 0
         },
         {
-          "title": "Understanding adoption intention of virtual medical consultation systems: Perceptions of ChatGPT and satisfaction with doctors",
-          "authors": "Di Zhang, Xiaoman Zhao",
-          "url": "http://dx.doi.org/10.1016/j.chb.2024.108359",
-          "doi": "10.1016/j.chb.2024.108359",
-          "filter": 0
-        },
-        {
           "title": "Exploring user-avatar bond profiles: Longitudinal impacts on internet gaming disorder",
           "authors": "Taylor Brown, Raffaela Smith, Daniel Zarate, Mark D. Griffiths, Vasileios Stavropoulos",
           "url": "http://dx.doi.org/10.1016/j.chb.2024.108340",
@@ -129,10 +77,17 @@
           "filter": 0
         },
         {
-          "title": "Working in a virtual world: A meta-analytic investigation of cyber mistreatment in the workplace",
-          "authors": "Mallory A. McCord, Gargi Sawhney, Bridget McHugh",
-          "url": "http://dx.doi.org/10.1016/j.chb.2024.108324",
-          "doi": "10.1016/j.chb.2024.108324",
+          "title": "Strategies to combat misinformation: Enduring effects of a 15-minute online intervention on critical-thinking adolescents",
+          "authors": "Gábor Orosz, Laura Faragó, Benedek Paskuj, Péter Krekó",
+          "url": "http://dx.doi.org/10.1016/j.chb.2024.108338",
+          "doi": "10.1016/j.chb.2024.108338",
+          "filter": 0
+        },
+        {
+          "title": "Understanding adoption intention of virtual medical consultation systems: Perceptions of ChatGPT and satisfaction with doctors",
+          "authors": "Di Zhang, Xiaoman Zhao",
+          "url": "http://dx.doi.org/10.1016/j.chb.2024.108359",
+          "doi": "10.1016/j.chb.2024.108359",
           "filter": 0
         },
         {
@@ -140,6 +95,20 @@
           "authors": "Stephanie Bührer, Kevin Koban, Jörg Matthes",
           "url": "http://dx.doi.org/10.1016/j.chb.2024.108321",
           "doi": "10.1016/j.chb.2024.108321",
+          "filter": 0
+        },
+        {
+          "title": "Working in a virtual world: A meta-analytic investigation of cyber mistreatment in the workplace",
+          "authors": "Mallory A. McCord, Gargi Sawhney, Bridget McHugh",
+          "url": "http://dx.doi.org/10.1016/j.chb.2024.108324",
+          "doi": "10.1016/j.chb.2024.108324",
+          "filter": 0
+        },
+        {
+          "title": "AI-induced emotions in L2 education: Exploring EFL students’ perceived emotions and regulation strategies",
+          "authors": "Lei Yang, Shu Zhao",
+          "url": "http://dx.doi.org/10.1016/j.chb.2024.108337",
+          "doi": "10.1016/j.chb.2024.108337",
           "filter": 0
         },
         {
@@ -168,13 +137,6 @@
           "authors": "Javier A. Rodríguez-Camacho, Marc Linder, David Jütte, Thorsten Hennig-Thurau",
           "url": "http://dx.doi.org/10.1016/j.chb.2024.108316",
           "doi": "10.1016/j.chb.2024.108316",
-          "filter": 0
-        },
-        {
-          "title": "AI-induced emotions in L2 education: Exploring EFL students’ perceived emotions and regulation strategies",
-          "authors": "Lei Yang, Shu Zhao",
-          "url": "http://dx.doi.org/10.1016/j.chb.2024.108337",
-          "doi": "10.1016/j.chb.2024.108337",
           "filter": 0
         },
         {
@@ -220,13 +182,6 @@
           "filter": 0
         },
         {
-          "title": "Leveraging social media to enhance celebrity stories for anti-stigma efforts",
-          "authors": "Hye Min Kim",
-          "url": "http://dx.doi.org/10.1016/j.chb.2024.108356",
-          "doi": "10.1016/j.chb.2024.108356",
-          "filter": 0
-        },
-        {
           "title": "Not easy to get off track: Motivational trajectories of learners completing a non-formal online course",
           "authors": "Maria Klose, Philipp Handschuh, Diana Steger, Cordula Artelt",
           "url": "http://dx.doi.org/10.1016/j.chb.2024.108322",
@@ -259,6 +214,13 @@
           "authors": "Fang Huang, Bin Zou",
           "url": "http://dx.doi.org/10.1016/j.chb.2024.108355",
           "doi": "10.1016/j.chb.2024.108355",
+          "filter": 0
+        },
+        {
+          "title": "Leveraging social media to enhance celebrity stories for anti-stigma efforts",
+          "authors": "Hye Min Kim",
+          "url": "http://dx.doi.org/10.1016/j.chb.2024.108356",
+          "doi": "10.1016/j.chb.2024.108356",
           "filter": 0
         },
         {
@@ -329,23 +291,58 @@
       "articles_hidden": []
     },
     {
+      "journal_full": "Journal of Personality and Social Psychology",
+      "journal_short": "JPSP",
+      "articles": [
+        {
+          "title": "A taxonomy for human social perception: Data-driven modeling with cinematic stimuli.",
+          "authors": "Severi Santavirta, Tuulia Malén, Asli Erdemli, Lauri Nummenmaa",
+          "url": "http://dx.doi.org/10.1037/pspa0000415",
+          "doi": "10.1037/pspa0000415",
+          "filter": 0
+        },
+        {
+          "title": "Revisiting situational strength: Do strong situations restrict variance in behaviors?",
+          "authors": "Ranran Li, Daniel Balliet, Isabel Thielmann, Reinout E. de Vries",
+          "url": "http://dx.doi.org/10.1037/pspi0000475",
+          "doi": "10.1037/pspi0000475",
+          "filter": 0
+        },
+        {
+          "title": "Narrative identity in context: How adults in Japan, Denmark, Israel, and the United States narrate difficult life events.",
+          "authors": "Ariana F. Turner, Dorthe K. Thomsen, Rivka Tuval-Mashiach, Anton Sevilla-Liu, Henry R. Cowan, Stuart Sumner, Dan P. McAdams",
+          "url": "http://dx.doi.org/10.1037/pspp0000523",
+          "doi": "10.1037/pspp0000523",
+          "filter": 0
+        },
+        {
+          "title": "Gentrification creates social class disparities in belonging.",
+          "authors": "Rachel Song, Cynthia S. Levine",
+          "url": "http://dx.doi.org/10.1037/pspi0000477",
+          "doi": "10.1037/pspi0000477",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Personality and Social Psychology Bulletin",
       "journal_short": "PSPB",
       "articles": [
         {
-          "title": "When a Partner Supports Your Sexual Autonomy: Perceived Partner Sexual Autonomy Support, Need Fulfillment, and Satisfaction in Romantic Relationships",
-          "authors": "Ariel Shoikhedbrod, Cheryl Harasymchuk, Emily A. Impett, Amy Muise",
-          "abstract": "Sexual need fulfillment is central to well-being in romantic relationships. Self-determination theory suggests that perceiving a romantic partner as autonomously supportive is linked with greater well-being through supporting the fulfillment of basic psychological needs. The current research examines whether there are unique associations with need fulfillment and sexual and relationship satisfaction when people perceive their partner as autonomously supportive in the sexual domain. Across three multi-method studies ( N = 786), we developed a measure of perceived partner sexual autonomy support and demonstrated that perceiving sexual autonomy support from a partner in general, during sex, and over time were associated with greater sexual need fulfillment as well as sexual and relationship satisfaction for both partners over and above the association with general perceived autonomy support and perceived partner responsiveness during sex. Sexual need fulfillment also accounted for the positive associations between perceived partner sexual autonomy support and satisfaction across studies.",
-          "url": "http://dx.doi.org/10.1177/01461672241279099",
-          "doi": "10.1177/01461672241279099",
+          "title": "Shifts in Residential Mobility Predict Shifts in Culture",
+          "authors": "Nicholas Buttrick, Youngjae Cha, Shigehiro Oishi",
+          "abstract": "Does residential mobility change cultures, or is it merely a downstream indicator for other forces? Using large-scale surveys of citizens of 18 industrialized nations, we find that increased rates of residential mobility predict living in a more dynamic society at least 10 years in the future: one in which residents are more satisfied with their lives, have greater optimism, endorse more individualistic concepts, are more open to new ideas, have a greater sense of freedom of action, feel able to make friends more easily, express a more cosmopolitan identity, believe that their society rewards merit, and hold their community to a higher standard for treatment of minorities. These findings are echoed in the experience of Americans who have themselves recently moved, where we find that having successfully moved predicts a future sense of personal thriving, optimism, and a belief that merit is rewarded.",
+          "url": "http://dx.doi.org/10.1177/01461672241280998",
+          "doi": "10.1177/01461672241280998",
           "filter": 0
         },
         {
-          "title": "Navigating the Social Environment: Linking Motivations, Impressions, and Behaviors Via a Sampling Approach to Trustworthiness",
-          "authors": "Marco Biella, Mandy Hütter",
-          "abstract": "Our understanding of impression formation comes from experiments constraining participants’ control over information sampling. This limits our understanding of how people sample information when forming impressions as well as the effects of self-generated samples on impressions. Our paradigm allows participants to actively collect information samples. This work investigates how people explore the social environment and how sampled information informs resulting impressions. Four experiments tested theoretically-driven predictions regarding information sampling patterns under interested and disinterested information search. Under interested search, participants truncated the sampling of social targets showing early untrustworthy behavior. Under disinterested search, participants sampled extensively and systematically, avoiding small-sample biases. The sampled information, once obtained, accurately determines final impressions. Moreover, we documented a direct link between sampled information and subsequent behaviors (partner selection in trust games, trustworthiness expectations). By investigating sampling-based trustworthiness impressions, the present research informs the origins of trustworthiness and sampling accounts of judgment and decision-making.",
-          "url": "http://dx.doi.org/10.1177/01461672241273237",
-          "doi": "10.1177/01461672241273237",
+          "title": "A Brief Pro-Diversity Social Marketing Intervention Improves Grades and Well-Being of Students From Marginalized Groups",
+          "authors": "Mitchell R. Campbell, Kevin R. Kennedy, Andrea L. Miller, Markus Brauer",
+          "abstract": "Despite much research on improving intergroup relations, the evidence for long-term effects in real-world settings is mixed. We used the social marketing approach to create an “Inclusivity Page” that could be added to course syllabi. The page contained three targeted pro-diversity messages based on social norms, personal benefits, and concrete behavioral recommendations. We tested our intervention in a large randomized controlled trial in university classrooms ( N students = 1,799). We obtained students’ course grades and overall college GPAs several years later. A subset of students also completed an outcome survey three months after the intervention. Students from underrepresented racial groups exposed to the intervention early in college had better course grades and GPAs. We also observed an enhanced sense of belonging and better emotional and physical health among students from all marginalized groups. Our research demonstrates the utility of employing a targeted approach to improve experiences of members of marginalized groups.",
+          "url": "http://dx.doi.org/10.1177/01461672241279082",
+          "doi": "10.1177/01461672241279082",
           "filter": 0
         }
       ],
@@ -356,17 +353,10 @@
       "journal_short": "PM",
       "articles": [
         {
-          "title": "Multiple imputation of missing data in large studies with many variables: A fully conditional specification approach using partial least squares.",
-          "authors": "Simon Grund, Oliver Lüdtke, Alexander Robitzsch",
-          "url": "http://dx.doi.org/10.1037/met0000694",
-          "doi": "10.1037/met0000694",
-          "filter": 0
-        },
-        {
-          "title": "Bayesian estimation and comparison of idiographic network models.",
-          "authors": "Björn S. Siepe, Matthias Kloft, Daniel W. Heck",
-          "url": "http://dx.doi.org/10.1037/met0000672",
-          "doi": "10.1037/met0000672",
+          "title": "Harvesting heterogeneity: Selective expertise versus machine learning.",
+          "authors": "Rumen Iliev, Alex Filipowicz, Francine Chen, Nikos Arechiga, Scott Carter, Emily Sumner, Totte Harinen, Kate Sieck, Kent Lyons, Charlene Wu",
+          "url": "http://dx.doi.org/10.1037/met0000640",
+          "doi": "10.1037/met0000640",
           "filter": 0
         },
         {
@@ -390,6 +380,14 @@
           "url": "http://dx.doi.org/10.1177/09567976241265037",
           "doi": "10.1177/09567976241265037",
           "filter": 0
+        },
+        {
+          "title": "Racial Minorities Face Discrimination From Across the Political Spectrum When Seeking to Form Ties on Social Media: Evidence From a Field Experiment",
+          "authors": "Krishnan Nair, Mohsen Mosleh, Maryam Kouchaki",
+          "abstract": "We conducted a preregistered field experiment examining racial discrimination in tie formation on social media. We randomly assigned research accounts varying on race (Black, White) and politics (liberal/Democrat, conservative/Republican, neutral) to follow a politically balanced sample of Twitter (i.e., X) users ( N = 5,951) who were unaware they were in a research study. We examined three predictions from the social and political psychology literatures: i) individuals favor White over Black targets, ii) this tendency is stronger for conservatives/Republicans than for liberals/Democrats, and iii) greater discrimination by conservatives/Republicans is explained by the assumption that racial minorities are liberal/Democrat. We found evidence that individuals were less likely to reciprocate social ties with Black accounts than White accounts. However, this tendency was not moderated by individuals’ political orientation, shared partisanship, or partisan mismatch. In sum, this work provides field experimental evidence for racial discrimination in tie formation on social media by individuals across political backgrounds.",
+          "url": "http://dx.doi.org/10.1177/09567976241274738",
+          "doi": "10.1177/09567976241274738",
+          "filter": 0
         }
       ],
       "articles_hidden": []
@@ -398,6 +396,13 @@
       "journal_full": "Psychology of Popular Media",
       "journal_short": "PPM",
       "articles": [
+        {
+          "title": "“I made you look”… and comment: Exploring the role of TikTok on body image and acceptance of cosmetic surgery.",
+          "authors": "Leah Dajches, Heather Gahler, Larissa Terán, Kun Yan, Jiaqi Zeng, Jennifer Stevens Aubrey",
+          "url": "http://dx.doi.org/10.1037/ppm0000566",
+          "doi": "10.1037/ppm0000566",
+          "filter": 0
+        },
         {
           "title": "Following up on #fitspiration: A comparative content analysis and thematic analysis of social media content aiming to inspire fitness from 2014 and 2021.",
           "authors": "Beth T. Bell, Catherine V. Talbot, Nova Deighton-Smith",
@@ -564,20 +569,6 @@
           "authors": "Kathleen E. Bazile",
           "url": "http://dx.doi.org/10.1037/ppm0000532",
           "doi": "10.1037/ppm0000532",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Technology, Mind, and Behavior",
-      "journal_short": "TMB",
-      "articles": [
-        {
-          "title": "Social robots: A special collection of articles published in Technology, Mind, and Behavior (2020–2024).",
-          "authors": "Danielle S. McNamara",
-          "url": "http://dx.doi.org/10.1037/tmb0000139",
-          "doi": "10.1037/tmb0000139",
           "filter": 0
         }
       ],
