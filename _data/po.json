@@ -1,10 +1,18 @@
 {
-  "update": "2024-10-17",
+  "update": "2024-10-18",
   "content": [
     {
       "journal_full": "Journal of Survey Statistics and Methodology",
       "journal_short": "JSSAM",
       "articles": [
+        {
+          "title": "Small Area Estimation of Household Economic Indicators under Unit-Level Generalized Additive Models for Location, Scale and Shape",
+          "authors": "Lorenzo Mori, Maria Rosaria Ferrante",
+          "abstract": "We propose a small area estimation model based on Generalized Additive Models for Location, Scale and Shape (SAE-GAMLSS) for the estimation of household economic indicators. SAE-GAMLSS relax the exponential family distributional assumption and allow each distributional parameter to depend on covariates. A bootstrap approach to estimate the MSE is proposed. The SAE-GAMLSS estimator shows a largely better performance than the well-known Empirical Best Linear Unbiased Predictor (EBLUP) under various simulated scenarios. Per-capita consumption of Italian and foreign households in Italian regions, in urban and rural areas, is estimated using SAE-GAMLSS. Results show that the well-known Italian North–South divide does not hold for foreigners.",
+          "url": "http://dx.doi.org/10.1093/jssam/smae038",
+          "doi": "10.1093/jssam/smae038",
+          "filter": 0
+        },
         {
           "title": "A Farewell Letter from the Editors",
           "authors": "Kristen Olson, Katherine Jenny Thompson",
@@ -25,6 +33,22 @@
           "abstract": "Google Trends (GT) data are increasingly used in the social sciences and adjacent fields. However, previous research on the quality of GT data has raised concerns regarding their reliability. In the present study, we investigated whether reliability differs between low- and high-frequency search terms. In other words, we explored the existence of a reliability-frequency continuum in GT data. Our study adds to previous research by investigating a more comprehensive set of search terms and different aspects of reliability (e.g., differences in relative search volume distributions, correctly identified maxima). For this purpose, we collected samples of GT data for ten high- and two low-frequency search terms. We obtained one real-time sample and 62 non–realtime samples per search term (30 non–realtime samples for low-frequency search terms). Data collection was restricted to search data for Germany. Our data support the existence of a reliability-frequency continuum—low-frequency search terms are subject to greater reliability issues compared to high-frequency search terms. Based on our findings, we have derived practical recommendations for the use of GT data and have outlined future research opportunities.",
           "url": "http://dx.doi.org/10.1177/08944393241279421",
           "doi": "10.1177/08944393241279421",
+          "filter": 0
+        },
+        {
+          "title": "Improving the Quality of Individual-Level Web Tracking: Challenges of Existing Approaches and Introduction of a New Content and Long-Tail Sensitive Academic Solution",
+          "authors": "Silke Adam, Mykola Makhortykh, Michaela Maier, Viktor Aigenseer, Aleksandra Urman, Teresa Gil Lopez, Clara Christner, Ernesto de León, Roberto Ulloa",
+          "abstract": "This article evaluates the quality of data collection in individual-level desktop web tracking used in the social sciences and shows that the existing approaches face sampling issues, validity issues due to the lack of content-level data and their disregard for the variety of devices and long-tail consumption patterns as well as transparency and privacy issues. To overcome some of these problems, the article introduces a new academic web tracking solution, WebTrack, an open-source tracking tool maintained by a major European research institution, GESIS. The design logic, the interfaces, and the backend requirements for WebTrack are discussed, followed by a detailed examination of the strengths and weaknesses of the tool. Finally, using data from 1,185 participants, the article empirically illustrates how an improvement in data collection through WebTrack leads to innovative shifts in the use of tracking data. As WebTrack allows for collecting the content people are exposed to beyond the classical news platforms, it can greatly improve the detection of politics-related information consumption in tracking data through automated content analysis compared to traditional approaches that rely on the source-level analysis.",
+          "url": "http://dx.doi.org/10.1177/08944393241287793",
+          "doi": "10.1177/08944393241287793",
+          "filter": 0
+        },
+        {
+          "title": "Can AI Lie? Chabot Technologies, the Subject, and the Importance of Lying",
+          "authors": "Jack Black",
+          "abstract": "This article poses a simple question: can AI lie? In response to this question, the article examines, as its point of inquiry, popular AI chatbots, such as, ChatGPT. In doing so, an examination of the psychoanalytic, philosophical, and technological significance of AI and its complexities are located in relation to the dynamics of truth, falsity, and deception. That is, by critically considering the chatbot’s ability to engage in natural language conversations and provide contextually relevant responses, it is argued that what separates the AI chatbot from anthropocentric debates, which allude to some form of conscious recognition on behalf of AI, is the importance of the lie – an importance which a psychoanalytic approach can reveal. Indeed, while AI technologies can undoubtedly blur the line between lies and truth-speaking, in the case of the AI chatbot, it is detailed how such technology remains unable to lie authentically or, in other words, is unable to lie like a human. For psychoanalysis, the capacity to lie bears witness to the unconscious and, thus, plays an important role in determining the subject. It is for this reason that rather than uncritically accepting the chatbot’s authority – an authority that is easily reflected in its honest responses and frank admissions – a psychoanalytic (Lacanian) perspective can highlight the significance of the unconscious as a distorting factor in determining the subject. To help elucidate this argument, specific attention is given to introducing and applying Lacan’s subject of enunciation and subject of the enunciated. This is used to assert that what continues (for now) to set us apart from AI technology is not necessarily our ‘better knowledge’ but our capability to consciously engage in acts of falsehood that function to reveal the social nuances and significances of the lie.",
+          "url": "http://dx.doi.org/10.1177/08944393241282602",
+          "doi": "10.1177/08944393241282602",
           "filter": 0
         }
       ],
