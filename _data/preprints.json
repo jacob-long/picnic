@@ -1,5 +1,5 @@
 {
-  "update": "2024-10-26",
+  "update": "2024-10-27",
   "content": [
     {
       "journal_full": "MetaArxiv",
@@ -20,6 +20,30 @@
       "journal_full": "PsyArxiv",
       "journal_short": "PsyArxiv",
       "articles": [
+        {
+          "title": "Natural Language Network Psychometrics",
+          "authors": "Nigel Guenole",
+          "abstract": "Network approaches model direct relationships between phenomena instead of assuming they are caused by common factors. The primary formats used are rating scales. We instead build networks from free text. We use simulations, generative AI, sentence encoders, and convex hulls. We did not recover the population network, raising many unanswered questions. We proposed a series of stages in natural language networks along which the impact of different choices might be examined for their effect on network parameter recovery. Convex hulls have the advantage that they scale embeddings to a common construct but it is also worth exploring fitting networks to free text response embeddings directly.",
+          "url": "https://osf.io/khjzd",
+          "doi": "https://doi.org/10.31234/osf.io/khjzd",
+          "filter": 0
+        },
+        {
+          "title": "Evaluating Working Memory as a Buffer for Visual Search",
+          "authors": "Ziyi Su; Brad Wyble; Yingtao Fu",
+          "abstract": "This study explores the relationship between working memory and attention during visual search tasks, focusing on how time constraints affect the encoding of visual information into working memory. The research is based on the premise that under time pressure, participants may be more likely to encode the identity of search array items into working memory to continue processing after the visual stimuli are no longer visible. Experiment 1 and 2 used a surprise trial method to test memory for target identity with long and short presentation times. Despite higher location accuracy with longer viewing, there was no significant difference in surprise identity test accuracy between conditions. To get a more reliable measurement of working memory, Experiment 3 introduced a priming task to measure memory strength indirectly but found no priming effect. Overall, these three experiments did not provide strong evidence to support or negate the hypothesis that short presentation time might enhance working memory strength and thus did not support the possibility of using working memory to conduct visual search on briefly presented arrays. Suggestions on future design of this study interest are provided.",
+          "url": "https://osf.io/d4hc5",
+          "doi": "https://doi.org/10.31234/osf.io/d4hc5",
+          "filter": 0
+        },
+        {
+          "title": "Witnessing for Black mental health: Formative steps for designing a community-based mental health education intervention",
+          "authors": "Hollen N. Reischer; Sarah Taber-Thomas; Esther Turay; Detric Johnson; Brittney Greene; Cassy Dauphin; Deborah O. Erwin; Rebecca L. Ashare",
+          "abstract": "Objectives: Following the May 2022 racially motivated mass shooting in Buffalo, New York, mental health care was found to be the most frequently endorsed unmet need among local Black community members surveyed. In response, a community-university partnership formed in pursuit of developing culturally tailored mental health programming. To inform program development, the partnership conducted community-engaged research to understand diverse stakeholders’ relevant concerns, beliefs, and preferences. Methods: In Study 1, community health workers (n=13; 92% Black; 100% women; 23–78 years old, Mage=52) participated in one-on-one semi-structured interviews. In Study 2, community members (n=54; 100% Black; 63% women, 31% men, 6% gender not reported; 18–91 years old) participated in focus groups. In both studies, transcripts were coded using descriptive, semantic, realist thematic analysis. Member checks were conducted with organizational leadership, study participants, and broader members of the community. Results: Across both studies, participants described cultural (e.g., stigma) and material (e.g., insurance) barriers to care; systematic (e.g., poverty) and interpersonal (e.g., lack of social support) mental health risks; willingness to discuss mental health (e.g., increasing over time); and preferences for mental health education and services (e.g., provider authenticity). Individual study results and convergences and divergences across studies are detailed. Conclusions: Results informed the development of a pilot mental health education program, “Witnessing for Mental Health.” The community health worker–delivered program addresses participant-identified cultural, tangible, and systemic barriers to mental health care and leverages increasing community openness and interest in discussing mental health.",
+          "url": "https://osf.io/76w5k",
+          "doi": "https://doi.org/10.31234/osf.io/76w5k",
+          "filter": 0
+        },
         {
           "title": "The Development of Oculomotor Coordination and its Relationship to Reading Skill",
           "authors": "Charlotte Jeppsen; Keith S Apfelbaum; Bob McMurray",
@@ -85,14 +109,6 @@
           "filter": 0
         },
         {
-          "title": "Towards dynamical modeling of infants’ looking times",
-          "authors": "Ralf Engbert; Josephine Funken; Natalie Boll-Avetisyan",
-          "abstract": "Analyzing looking times is among the most important behavioral approaches to studying problems such\nas infant cognition, perception, or language development. However, processed-based approaches to the dynamics of infants’ looking times are lacking. Here, we propose and analyze a dynamical model of infant gaze behavior with full account of the microstructure (i.e., saccades and fixations). Our process-based model is illustrated by reproducing inter-individual diﬀerences in a developmental study of noun comprehension (Garrison et al., 2020). In our modeling framework, numerical values of model parameters map onto specific cognitive processes (e.g., attention or working memory) involved in gaze control. Because of the general architecture of the mathematical model and our robust procedures in model inference via Bayesian data assimilation, our framework may find applications in other fields of developmental and cognitive sciences.",
-          "url": "https://osf.io/hjq7c",
-          "doi": "https://doi.org/10.31234/osf.io/hjq7c",
-          "filter": 0
-        },
-        {
           "title": "The Interval Truth Model: A Consensus Model for Continuous Bounded Interval Responses",
           "authors": "Matthias Kloft; Björn S. Siepe; Daniel W. Heck",
           "abstract": "Cultural Consensus Theory (CCT) leverages shared knowledge between individuals to optimally aggregate answers to questions for which the underlying truth is unknown. Existing CCT models have predominantly focused on unidimensional point truths using dichotomous, polytomous, or continuous response formats. However, certain domains such as risk assessment or interpretation of verbal quantifiers may require a consensus focused on intervals, capturing a range of relevant values. We introduce the Interval Truth Model (ITM), a novel extension of CCT designed to estimate consensus intervals from continuous bounded interval responses. We use a Bayesian hierarchical modeling approach to estimate latent consensus intervals. In a simulation study, we show that, under the conditions studied, the ITM performs better than using simple means of the responses. We then apply the model to empirical judgments of verbal quantifiers.",
@@ -122,14 +138,6 @@
           "abstract": "To explore the mechanism of moral identity and interpersonal responsibility in the effect of moral elevation on volunteering behaviour in college students. Totally 780 college students were recruited in the study to complete moral elevation scale, moral identity measurement, interpersonal relationship questionnaire, as well as volunteering questionnaire. The results showed that: (1) Moral elevation indirectly predicted volunteering behaviour through the mediating role of moral identity；(2) Interpersonal responsibility moderated the former half path of moral elevation to predict volunteering behaviour through moral identity. Moral identity mediated the effect of moral elevation on volunteering behaviour, and this mediating effect is moderated by interpersonal responsibility.",
           "url": "https://osf.io/9z6sc",
           "doi": "https://doi.org/10.31234/osf.io/9z6sc",
-          "filter": 0
-        },
-        {
-          "title": "Impoverished episodic counterfactual simulation is associated with increased anxiety",
-          "authors": "Nathan Liang; Natasha Parikh; Kevin S LaBar; Felipe De Brigard",
-          "abstract": "Episodic counterfactual thinking (eCFT), our capacity to imagine alternative ways in\nwhich past personal events could have occurred, is a useful psychological process.\nUnfortunately, it can turn maladaptive, as evidenced by excessive rumination in anxiety. Using\nself-report questionnaires, previous work has shown impoverishment of mental simulations\nduring eCFT as trait anxiety increases. Here, we seek to conceptually replicate and extend these\nfindings by moving beyond self-reports, employing instead automated and externally coded\nverbalizations of participants’ episodic simulations during recollection and eCFT. Participants (N\n= 36) first reported nine regretful memories from the past five years, and then were asked to\ngenerate and verbally narrate either better (upward eCFT) or worse (downward eCFT)\nalternatives for such memories, or to simply recall the event as it happened. Analyses of these\nnarratives revealed that as anxiety levels increased, so did the number of internal episodic details\nduring episodic recollections, whereas in both eCFT conditions the number of internal details\ndecreased. This effect was more evident for perceptual and emotional details, which increased in\nthe memory condition as anxiety levels increased, but instead decreased when participants\nengaged in downward eCFT. These results further support prior evidence suggesting\nimpoverished episodic counterfactual simulations in anxiety.",
-          "url": "https://osf.io/vzckw",
-          "doi": "https://doi.org/10.31234/osf.io/vzckw",
           "filter": 0
         },
         {
@@ -213,14 +221,6 @@
           "filter": 0
         },
         {
-          "title": "Investigation of the impact of exploring a novel virtual environment on episodic memory performance",
-          "authors": "Anaïs Servais; Judith Schomaker; Christine Bastin",
-          "abstract": "Whether exposure to a novel environment in virtual reality improves subsequent verbal memory or not is still debated. The present study aims to replicate previous positive findings. To do so, we assessed whether exploration of a novel virtual environment leads to better word memory in a task performed afterwards than exploration of a familiar environment and whether this effect is related to the exploratory behavior. Fifty-five participants completed three sessions that took place on different days. The first session consisted of assessing the baseline memory performance. Participants encoded a list of 40 words and then freely recalled as many words as possible immediately after a 30-second distraction task and a 24-hour delay. In the second session, participants familiarized themselves with a virtual environment and then explored either the familiar or a novel environment before performing the same memory task with different words. In the third, participants explored the familiar or novel virtual environment (according to the counterbalancing design) before performing the memory task. Like some previous studies, our results failed to find a positive impact of exploring a novel environment (spatial novelty) on memory. Rather, we observed that recall is higher after exploring a virtual environment (regardless of it being novel or familiar) compared to the baseline performance. In fact, the experience of virtual reality might induce another type of novelty, called distinct novelty, which could impact memory too. Furthermore, our results suggest a negative correlation between age and the novelty effect, indicating the future investigation of individual factors.",
-          "url": "https://osf.io/4hrpy",
-          "doi": "https://doi.org/10.31234/osf.io/4hrpy",
-          "filter": 0
-        },
-        {
           "title": "The Cuteness Fallacy: How Representations Affect People’s Knowledge Acquisition of Domestic Cats’ Impact on Biodiversity",
           "authors": "Arash Sal Moslehian",
           "abstract": "Despite being beloved pets, cats pose significant threats to wildlife through predation and competition. Existing legislation struggle to mitigate these impacts, highlighting the necessity for effective communication strategies. This study surveys a mostly female Swiss sample (150 participants) of university students. We investigate how different visual representations of domestic cats categorized as cute, scary, dirty, or neutral influence participants’ recall of information either positive, negative, or neutral about cats. We hypothesized that negative and dirty representations would enhance recall of negative information and cute representation would enhance the recall of positive information.\nContrary to our expectations, our analysis revealed no significant effect of visual representations on the recall of positive, negative, or neutral information. The results suggest that strong emotional and social bonds with cats, as well as their prevalent positive representation in culture, may buffer against the influence of negative imagery. Exploratory analysis indicated that individual factors, such as having a cat allergy, significantly reduced the recall of positive information. These findings show the complexity of altering public perception about the ecological impact of familiar and positively perceived animals like cats. Our study reveals the limitations of using visual representations alone to influence knowledge acquisition.",
@@ -237,15 +237,7 @@
           "filter": 0
         },
         {
-          "title": "Frequency tagging in the sensorimotor cortex is enhanced by auditory compared to visual body movement information in a walking movement integration task",
-          "authors": "Marta Matamala-Gomez; Adrià Vilà-Balló; David Cucurell Vega; ANA TAJADURA JIMENEZ; Antoni Rodriguez-Fornells",
-          "abstract": "Body movements like walking can synchronize with auditory and visual inputs presented within a periodic frequency range, peaking around 2 Hz. The EEG frequency-tagging approach allows to capture the synchronization of beat perception with neural brain oscillations at the beat frequency. This study used EEG frequency-tagging to explore brain dynamics during rhythmic sensorimotor synchronization with auditory (footstep sound) and visual (walking point-light figure) inputs. Sensory inputs were delivered at different rates (1 Hz, 2 Hz, 3.6 Hz) in rhythmic or random sequences while recording EEG activity. The experiment included three conditions: (i) Auditory, (ii) Visual, and (iii) Audiovisual, including data from 22 participants. Results showed a main effect of rhythmic sequences compared to random sequences across all frequencies in all three auditory, visual, or audiovisual conditions. Specifically, at 2 Hz, rhythmic sequences enhanced synchronization in the sensorimotor cortex for auditory and audiovisual conditions. This effect was absent in the visual condition alone. Notably, 2 Hz rhythmic sequences in the audiovisual condition led to synchronization with temporal, sensorimotor, and occipital regions. The study suggests that attention to rhythmic auditory input at 2 Hz can mediate neural synchronization between auditory and sensorimotor brain areas.",
-          "url": "https://osf.io/rx3zf",
-          "doi": "https://doi.org/10.31234/osf.io/rx3zf",
-          "filter": 0
-        },
-        {
-          "title": "Gender Dysphoria and Societal Labels as Barries to Self Identity",
+          "title": "Gender Dysphoria and Societal Labels as Barriers to Self Identity",
           "authors": "Shriya Gaur",
           "abstract": "Gender is more of a social construct than a biological phenomenon, encompassing\npsychological, social, cultural, behavioral, and expressive aspects of identity. In India,\ngender is often perceived heteronormatively, leaving no room for androgyny and\nexpecting conformity to the gender assigned at birth. This rigid binary system does not\naccommodate those who feel uncomfortable with their assigned gender. Gender\ndysphoria refers to the distress experienced when one's true gender identity does not\nalign with their assigned gender. This condition can be exacerbated by societal labels\nand expectations, such as gender-specific washrooms, which challenge non-cis-\ngender individuals' sense of self. Activities not conforming to gender norms, like a\nmale-presenting individual wearing nail paint, invite judgment and restrict self-\nexpression, leading to a distorted self-identity. This lack of personal expression and\ninsecure self-identity correlates with low self-esteem, anxiety, and depression. The\npresent study aimed to highlight the significance of gender dysphoria and societal\nlabels as barriers to self-identity in gender-queer individuals. An exhaustive literature\nreview and purposive sampling of 20 LGBTQIIA+ individuals aged 18-30 were\nconducted. In-depth interviews based on a partially structured, self-made questionnaire\nrevealed that gender dysphoria and binary societal labels significantly hinder the\nestablishment and security of one's self-identity.",
           "url": "https://osf.io/yc9vz",
@@ -298,14 +290,6 @@
           "abstract": "Background: Noise-induced hearing loss is both irreversible and preventable. However, a minority of adolescents and young adults do engage in hearing protective behaviors that reduce the exposure to noise, such as the use of hearing protection and the use of a volume limiter. To promote hearing protective behaviors in adolescents and young adults it is imperative to know the most relevant, and potentially modifiable, psychological factors that stimulate or hinder these protective behaviors.\n\nObjective: The present study aims to offer a systematic literature overview of psychological correlates of hearing protective behaviors in adolescents and young adults aged 12 to 25 years, and identify those correlates that are likely to be the most promising behavioral intervention targets in this age group.\n\nConclusions: A total of 82 studies were included in the present review, of which data of 24 studies could be used to help identify the psychological factors most strongly associated with hearing protective behavior. Taking into account both the strength of the associations and the univariate distributions, the following psychological factors showed the greatest potential as behavioral intervention targets: attitude toward recreational noise, perceived barriers, capacity, perceived norms, and perceived threat susceptibility. The outcomes of the present review may help guide the development of more effective behavioral interventions to prevent noise-induced hearing loss in younger age groups.",
           "url": "https://osf.io/dh7fe",
           "doi": "https://doi.org/10.31234/osf.io/dh7fe",
-          "filter": 0
-        },
-        {
-          "title": "Sensory Processing Sensitivity and Its Associations with Personality, Empathy, and Alexithymia",
-          "authors": "Marie Buchtova; Klara Malinakova; M. C. Benitan; Vit Husek; Petr Tavel",
-          "abstract": "Sensory Processing Sensitivity (SPS) has garnered increased attention in psychological research due to its potential implications for understanding individual differences in personality and mental health. However, there is still a lack of comprehensive scientific investigation of its underlying mechanisms and its associations with other psychological constructs. This study aims to address this gap by examining the associations between SPS and personality traits, empathy, and alexithymia.",
-          "url": "https://osf.io/v6nd7",
-          "doi": "https://doi.org/10.31234/osf.io/v6nd7",
           "filter": 0
         },
         {
@@ -381,6 +365,14 @@
           "filter": 0
         },
         {
+          "title": "‘When was randomisation first used in educational research? A brief historical methodological perspective’.",
+          "authors": "Carole Torgerson",
+          "abstract": "This brief note aims to add to the debate in the literature around the first use of randomisation in educational research, specifically in relation to previously published articles by Forsetlund et al (2007) and Hedges &amp; Schauer (2018) in which they claim the first use of randomisation was in 1931 or 1919.  The historical, methodological perspective analyses in detail the 1919 contender for the first use of randomisation by Schauer &amp; Hedges (published in Styles and Torgerson (eds.), 2018).  This is the 1919 monograph by Cummings: ‘Improvement and the Distribution of Practice’.",
+          "url": "https://osf.io/srtdq",
+          "doi": "https://doi.org/10.31234/osf.io/srtdq",
+          "filter": 0
+        },
+        {
           "title": "Quantitative measures of neck flexion mediate behavioural effects of postural feedback",
           "authors": "Soren Wainio-Theberge; Ignacio Spiousas; Jorge Armony",
           "abstract": "Adopting physical expressions of emotion has been shown to have feedback effects on individuals’ mood and behaviour. For example, adopting the expansive and contractive body language of dominance and submission can affect individuals’ feelings of power, but the effects are subtle and variable. Part of this variability may stem from the high number of degrees of freedom in body language, with multiple distinct actions and muscular patterns underlying the categorical constructs of “expansive” and “contractive” postures. Using quantitative measures of body posture algorithmically derived from video recordings, we demonstrate for the first time that neck flexion fully mediates the effects of posture on mood in a postural feedback (i.e. “power posing”) paradigm; that is, adopting expansive and contractive body language affects mood by introducing variability in neck flexion. We also investigate several other mediators and moderators of postural feedback, finding that both perceived difficulty of the posture and awareness of one’s body play key roles, and identify a muscular correlate of neck flexion which correlates with mood effects. The present work carries implications for our understanding of the adaptive benefits of expansive and contractive postures, as well as substantial methodological insights for controversial research on power posing.",
@@ -434,14 +426,6 @@
           "abstract": "Facial attractiveness is a critical factor in forming interpersonal impressions. Evaluations of facial attractiveness were previously considered universal. However, it has recently been pointed out that individuals and cultures can diversify their evaluations. This study conducted Web experiments using the facial images of Japanese and American participants to examine the effects of raters’ gender, age, and culture on facial attractiveness. Experiment 1 examined the impact of gender and age on Japanese raters. Experiment 2 explored the effects of culture on Japanese and American raters. Statistical and morphometric analyses were conducted on the obtained data. The results showed significant positive correlations between attractiveness ratings across gender, age, and culture. However, the results of the geometric morphometrics revealed that Japanese female participants emphasized linear contours in attractive male images more than Japanese male participants. Additionally, Japanese raters were more likely than American raters to emphasize raised eyebrows for faces in attractive male images and smaller mouths for faces in attractive female images. These results suggest that the specific facial features driving attractiveness evaluations differ depending on gender and culture, offering detailed insights into the culturally diverse standards of facial attractiveness. This study adds to the growing understanding of how cultural and individual factors shape aesthetic preferences, questioning the notion of universal beauty and offering a clearer framework for future cross-cultural research on facial attractiveness.",
           "url": "https://osf.io/y279j",
           "doi": "https://doi.org/10.31234/osf.io/y279j",
-          "filter": 0
-        },
-        {
-          "title": "How Alexithymia Increases Mental Health Symptoms in Adolescence: Longitudinal Evidence for the Mediating Role of Emotion Regulation",
-          "authors": "Mazidi",
-          "abstract": "Alexithymia is characterised by difficulties identifying and describing feelings, as well as a lack of focus on feelings. Alexithymia is a transdiagnostic risk factor for developing a wide array of psychopathologies, such as anxiety and depression, with a key hypothesised mechanism being the impairing impact of alexithymia on emotion regulation. However, no study has tested whether difficulties with emotion regulation mediate the link between alexithymia and clinically relevant symptoms using longitudinal designs. The present study aimed to address this limitation by collecting data from 242 Iranian high school students at two time points, seven months apart. The results revealed that baseline alexithymia levels not only related to future emotion regulation difficulties but predicted increased emotion regulation difficulties in the future. Furthermore, these increased difficulties in emotion regulation mediated the relationship between baseline alexithymia and worsening of psychological distress (e.g., depression, anxiety, and stress symptoms) over time. This study, therefore, supports the attention-appraisal model of alexithymia in its theoretical account linking alexithymia and emotion regulation difficulties and highlights the critical role that alexithymia plays in emotional health and illness during adolescence.",
-          "url": "https://osf.io/ebt53",
-          "doi": "https://doi.org/10.31234/osf.io/ebt53",
           "filter": 0
         },
         {
@@ -565,14 +549,6 @@
           "filter": 0
         },
         {
-          "title": "Working Memory Prioritization Changes Bidirectional Interactions with Perceptual Inputs",
-          "authors": "Joseph M. Saito; Frida Printzlau; Yvanna Yeo; Keisuke Fukuda",
-          "abstract": "Items stored in visual working memory often differ in priority. Typically, observers will shift their internal attention towards items that are relevant for impending behavior and away from those that may become relevant later. These distinct states of priority are theorized to influence bidirectional interactions between memoranda and new visual inputs by modulating their susceptibility to retroactive and proactive biases, respectively. However, prior research has produced limited and conflicting evidence on this topic due to reliance on inconsistent retrodictive cues (retro-cues) that incentivize memory prioritization. To address this, we used a double-serial retro-cue paradigm that incentivized the complete prioritization of one of two unfamiliar shape memoranda for use in a comparison with a perceptual probe before a second, independent cue instructed observers to report one of their two memories (Experiments 1-2) or the perceptual probe itself (Experiment 2). We found that observers reported robust retroactive and proactive biases, but that only retroactive biases were modulated by prioritization. Reports of prioritized memories were more precise and contained smaller attractive biases towards the probe than unprioritized memories, whereas probe reports were biased comparably towards each. These findings reveal an asymmetrical effect of prioritization on the reciprocal interactions between memory and perception.",
-          "url": "https://osf.io/2f7mp",
-          "doi": "https://doi.org/10.31234/osf.io/2f7mp",
-          "filter": 0
-        },
-        {
           "title": "The neural bases of graph perception: a novel instance of cultural recycling",
           "authors": "Lorenzo Ciccione; Stanislas Dehaene",
           "abstract": "Graphical representations of quantitative data abound in our culture, and yet the brain mechanisms of graphicacy, by which viewers quickly extract statistical information from a graph, are unknown. Here, using scatterplots as stimuli, we tested two hypotheses about the brain areas underlying graphicacy. First, at the perceptual level, we hypothesized that the visual processing of scatterplots and their main trend recycles cortical regions devoted to the perception of the principal axis of objects. Second, at the semantic level, we speculated that the math-responsive network active during arithmetic and mathematical truth judgments should also be involved in graph perception. Using functional MRI, we indeed found that graph trend judgement recruits a right lateral occipital area involved in detecting the orientation of objects, as well as a right anterior intraparietal region also recruited during mathematical tasks. Both behavior and brain activity were driven by the t value which indexes the statistical correlation in the graph. Our work offers a first approach to the neural bases of graph perception. We suggest that, like literacy and numeracy, graphicacy relies on the recycling of brain areas previously attuned to a similar problem, here the perception of object orientation.",
@@ -603,41 +579,41 @@
           "url": "https://osf.io/6efzr",
           "doi": "https://doi.org/10.31234/osf.io/6efzr",
           "filter": 0
-        },
-        {
-          "title": "Using Generative AI to create lexicons for interpretable text models with high content validity",
-          "authors": "Daniel M. Low; Osiris Rankin; Daniel D.L. Coppersmith; Kate Bentley; Matthew Nock; Satrajit S Ghosh",
-          "abstract": "Researchers often want to measure a broad variety of constructs such as anxiety, discrimination, or loneliness in text data from surveys, academic articles, interviews, social media, and electronic health records. In practice, using large language models (LLMs) remain infeasible for many researchers due to concerns around privacy, cost, compute requirements, and computational expertise, and may prefer interpretable models to avoid mistakes in high-stakes scenarios. Lexicons offer a simpler solution by counting relevant words and phrases, making them very popular in the social sciences and as baseline models in computer science.  Existing lexicons are limited because they measure a fixed set of constructs that are unlikely to cover the specific constructs of interest for a given application, resulting in low content validity. Building and validating new lexicons is resource intensive. In this study, we found that GPT-4 turbo was able to automatically create a lexicon for 49 known risk factors for suicidal thoughts and behaviors, which we release as the Suicide Risk Lexicon. We used the lexicon counts to predict risk levels in crisis counseling conversations. After validating it with experts, our model outperformed the widely-used LIWC lexicon and performed similarly to deep learning models. Through feature importance analysis, we discovered that active suicidal ideation, suicidal planning, and direct self-injury were stronger indicators of imminent risk than passive suicidal ideation or depressed mood. To simplify creating and validating new lexicons for any domain of research, we introduce a protocol and Python package, construct-tracker, that works with a variety of generative AI models.",
-          "url": "https://osf.io/vf2bc",
-          "doi": "https://doi.org/10.31234/osf.io/vf2bc",
-          "filter": 0
-        },
-        {
-          "title": "Gratitude Towards Our Past Self and General Gratitude Enhance Self-Continuity",
-          "authors": "Zoe Fowler; Kyle Fiore Law; Liane Young; Jonathan Schooler; Stylianos Syropoulos",
-          "abstract": "Does gratitude for the past strengthen our connection to our past and future selves? Across three pre-registered studies (N=1,779 US participants), we explored the relationship between gratitude and self-continuity–our sense of self-similarity across time. In Study 1, higher general gratitude and past-self gratitude (PSG) were associated with increased self-continuity 10 years into the past and future, with the association between gratitude and future self-continuity (FSC) significant when controlling for demographic variables and the alternative temporal dimension of self-continuity. Study 2 replicated these results in a representative US sample, finding that gratitude is linked to FSC up to 25 years ahead. Study 3 demonstrates that expressing PSG causally increases past and future self-continuity, effects not observed for gratitude towards others. Our findings suggest that individuals with higher general gratitude feel more connected to their intertemporal selves, and that promoting PSG could strengthen self-continuity, with the potential to benefit future-oriented decision-making.",
-          "url": "https://osf.io/3gb8w",
-          "doi": "https://doi.org/10.31234/osf.io/3gb8w",
-          "filter": 0
-        },
-        {
-          "title": "Development and Validation of an Audio Corpus for Inducing State Shyness",
-          "authors": "li",
-          "abstract": "State shyness, a transient subjective emotional experience triggered by specific situational factors, is highly prevalent in daily life. Someone experience this state more frequently than others, a variation that can be related to trait shyness. Existing methodologies face challenges in distinguishing the psychological correlates of these two shyness dimensions. To address this gap, this research developed an audio corpus designed to induce state shyness, consisting of two subsets with 25 situation descriptors each. In Study 1, descriptors were developed through semi-structured interviews with 126 student volunteers (Mage=23.63±2.76) and thematic analysis, their efficacy was assessed via self-reports from 52 participants (Mage=18.73±1.50). Study 2 utilized Electrodermal Activity with 32 participants (Mage=20.15±1.98), further validated the corpus and addressed the potential demand effects. Together, this research offered a method to distinguish the characteristics of trait and state shyness, providing insights for researchers aiming to differentiate psychological correlates of trait and state in other variables.",
-          "url": "https://osf.io/39qv7",
-          "doi": "https://doi.org/10.31234/osf.io/39qv7",
-          "filter": 0
-        },
-        {
-          "title": "Applying Psychological Network Analysis to Single-Case Design Studies: A Tutorial Using graphicalVAR",
-          "authors": "Takumi Omizu; Yoshihiko Kunisato",
-          "abstract": "Psychological network analysis has been applied in various fields of psychology. In clinical psychology, in particular, psychological network research emphasizes the importance of estimating longitudinal networks for single-case studies (N = 1) to achieve personalized therapeutic interventions. In single-case longitudinal networks, relationships between variables across time points can be visualized as networks for each individual. The graphical vector autoregression model (graphicalVAR) is commonly used for estimating longitudinal networks, and R packages such as “graphicalVAR” have been developed for this purpose. This paper provides a tutorial on the application of psychological network analysis to single-case studies by explaining the mathematical background of longitudinal network estimation used in the graphicalVAR package and explaining the estimation methods using the R package.",
-          "url": "https://osf.io/vjy2e",
-          "doi": "https://doi.org/10.31234/osf.io/vjy2e",
-          "filter": 0
         }
       ],
       "articles_hidden": [
+        {
+          "title": "Perceived depth modulates allocation of attention",
+          "authors": "Tasfia Ahsan; Erez Freud",
+          "abstract": "There is growing evidence that the visual system processes objects perceived as closer more quickly and accurately than those farther away, a phenomenon known as the \"close advantage effect\" (CAE). The mechanisms underlying this effect, however, remain unknown. In this study, we assessed whether perceived depth modulates allocation of attention. Using a Posner cueing task in Experiment 1a, we found greater accuracy for close surface targets (demonstrating the CAE). Critically, we also found a smaller Posner effect in the close surface, suggesting that attentional resources are better utilized in this space. Experiment 1b confirmed that these results were not due to differences in background surface sizes. In Experiment 2a, using the Egly-Driver task, we replicated and expended the results of Experiment 1a. Participants were more accurate when shifting attention from far to close surfaces and when shifting attention within the close surface, compared to when shifting attention within the far surface. These results suggest that perceived proximity makes attentional shifts more efficient. This effect persisted in Experiment 2b, even after controlling for the perceived size of the targets. Overall, our findings show that perceived depth modulates attention, with close space receiving preferential processing likely due to its relevance for immediate interaction.",
+          "url": "https://osf.io/825m3",
+          "doi": "https://doi.org/10.31234/osf.io/825m3",
+          "filter": 2
+        },
+        {
+          "title": "On Intelligence and Limits",
+          "authors": "Tariq Khan",
+          "abstract": "A short informal philosophical essay proposing an algorithmic framework or a matrix of steps that define intelligence.  Thus, it is argued that the human genome system (DNA) can be considered intelligent as well as gene pools of organisms in Nature.  Concepts like minds, the multiverse, and even the existence of the past, are proposed as derivative of an existential algorithm of intelligence.",
+          "url": "https://osf.io/x92t5",
+          "doi": "https://doi.org/10.31234/osf.io/x92t5",
+          "filter": 2
+        },
+        {
+          "title": "The role of memory in temporal discounting",
+          "authors": "Karolina Maria Lempert",
+          "abstract": "A widely observed phenomenon in intertemporal choice is temporal discounting; people prefer to have rewards sooner rather than later, even if the delayed rewards are larger. Despite the universality of temporal discounting, people vary substantially in their temporal discounting rates, with some people being much more willing to wait for delayed rewards than others. What are the neurocognitive mechanisms underlying these individual differences? This chapter presents the field’s current understanding of the roles of major cognitive capacities (specifically: inhibitory control, episodic memory, and semantic memory) in determining temporal discounting rates. The chapter also argues that, whereas there are circumstances under which inhibitory control and episodic memory retrieval are deployed during intertemporal choice, semantic memory retrieval may actually be the key cognitive contributor to variability in intertemporal preferences. Inhibitory control is likely to be engaged during intertemporal choice when choices are especially difficult or high-stakes. Episodic retrieval is likely to be involved when people are cued to imagine the future before they make these choices. Neither of these processes appear to be necessary for future-oriented choice, however, and there is growing evidence that the structural integrity of the anterior temporal lobe – a hub for semantic memory – is associated with temporal discounting. More research is needed to test this theory and to understand the precise mechanism by which semantic memory supports future-oriented choice. Further research is also needed to test the generalizability of these conclusions to other kinds of intertemporal choices, such as those involving primary rewards, punishments, or temporal uncertainty.",
+          "url": "https://osf.io/3t5c4",
+          "doi": "https://doi.org/10.31234/osf.io/3t5c4",
+          "filter": 2
+        },
+        {
+          "title": "Effects of transcranial direct current stimulation (tDCS) at different cortical targets on cognition in obsessive compulsive disorder (OCD)",
+          "authors": "Luca Pellegrini; Jeremy E. Solly; Naomi Fineberg",
+          "abstract": "Background\nTranscranial direct current stimulation (tDCS) holds promise as a treatment for obsessive compulsive disorder (OCD). Patients with OCD show impairment in specific aspects of executive function of relevance to wellbeing, manifesting as motor impulsivity and cognitive inflexibility. In a recently published feasibility study, tDCS produced a positive clinical effect on OCD symptoms (Fineberg et al 2023). We report a secondary analysis of neurocognitive data collected in this study. Our aim is to investigate whether tDCS additionally changes markers of motor impulsivity and cognitive flexibility. \n\nMethods\nIn this randomised, double-blind, sham-controlled, cross-over, multicentre feasibility study, adults with DSM-5 OCD received three courses of clinic-based tDCS, targeting the bilateral supplementary motor area (SMA), left lateral orbitofrontal cortex (L-OFC) and sham, randomly allocated and delivered in counterbalanced order. Each tDCS arm comprised four 20-minute 2 mA stimulations, delivered over two consecutive days, separated by a ‘washout’ period of at least four weeks. Cognitive assessments were conducted before and 2 hours after the first stimulation in each arm, using the Stop Signal (SST) test for motor-impulsivity and the Intra/Extra-Dimensional-Set-Shifting-Task (IED) for cognitive inflexibility. We used a paired samples T-test to compare the baseline and post-stimulation scores for each treatment arm.  \n\nResults\nNineteen adults were recruited. tDCS of the lateral OFC and SMA significantly improved cognitive inflexibility (total errors at the extra-dimensional shift stage of the  ID/ED) (p=0.038 and p=0.030, respectively), while sham treatment did not (paired sample t-test, pre-post effect size, baseline vs. 2-hours after stimulation). No significant effect of tDCS was found for motor impulsivity (stop-signal reaction time, SSRT) in any of the three arms. \n\nConclusions\nNotwithstanding the small sample size, stimulating the OFC and SMA with a single administration of tDCS acutely reduced cognitive inflexibility but not motor impulsivity in patients with OCD. tDCS may act to improve OCD via cognitive mechanisms. A definitive randomised, controlled trial of tDCS targeting both the OFC and SMA, including cognitive markers, is indicated.\n\n\n\n\nKeywords: obsessive compulsive disorder; Cognitive inflexibility; Motor impulsivity; Transcranial Direct Current Stimulation; tDCS",
+          "url": "https://osf.io/a9de8",
+          "doi": "https://doi.org/10.31234/osf.io/a9de8",
+          "filter": 2
+        },
         {
           "title": "Social Cognitive Deficits in Schizophrenia, Bipolar Disorder, and First-Degree Relatives:  A Large-Sample, Multi-Task Investigation",
           "authors": "Scott D. Blain; Jerillyn S. Kent; Chloe Peyromaure de Bord; Scott Sponheim; Ivy Fei Tso",
@@ -663,6 +639,14 @@
           "filter": 2
         },
         {
+          "title": "Towards dynamical modeling of infants’ looking times",
+          "authors": "Ralf Engbert; Josephine Funken; Natalie Boll-Avetisyan",
+          "abstract": "Analyzing looking times is among the most important behavioral approaches to studying problems such\nas infant cognition, perception, or language development. However, processed-based approaches to the dynamics of infants’ looking times are lacking. Here, we propose and analyze a dynamical model of infant gaze behavior with full account of the microstructure (i.e., saccades and fixations). Our process-based model is illustrated by reproducing inter-individual diﬀerences in a developmental study of noun comprehension (Garrison et al., 2020). In our modeling framework, numerical values of model parameters map onto specific cognitive processes (e.g., attention or working memory) involved in gaze control. Because of the general architecture of the mathematical model and our robust procedures in model inference via Bayesian data assimilation, our framework may find applications in other fields of developmental and cognitive sciences.",
+          "url": "https://osf.io/hjq7c",
+          "doi": "https://doi.org/10.31234/osf.io/hjq7c",
+          "filter": 2
+        },
+        {
           "title": "Do humans learn like transformer networks?",
           "authors": "Jacques Pesnot Lerousseau; Christopher Summerfield",
           "abstract": "Do humans learn like transformers? We trained both humans and transformer networks on a rule learning task where they had to respond to a query at the end of a sequence of symbols (the context). At test, we measured both “in-context” learning (the ability to generalise the rule to novel queries) and “in-weights” learning (the recall of past experiences from memory). Manipulating the diversity and redundancy of examples in the training distribution, we found that humans and transformers respond in very similar ways. In both types of learner, redundancy and diversity trade off in driving in-weights and in-context learning respectively, whereas a composite distribution that includes a balanced mix of redundancy and diversity allows the two strategies to be used in tandem. However, we also found that while humans benefit from dynamic training schedules that emphasise diverse examples early on, transformers do not. So, whilst the same data distributional properties promote learning in humans and transformer networks, only people benefit from curricula.",
@@ -684,6 +668,14 @@
           "abstract": "Understanding variability is a key focus in many areas of psychological research, with growing interest in modeling individual and group variability. While multilevel models such as heterogeneous variance models and Mixed-Effect Location Scale (MELS) models have been used to capture these dynamics, they typically rely on linear assumptions and temporal change of the variability is restricted to one level. Recent calls for nonlinear approaches in psychology highlight the need for more flexible models that can better account for complex, dynamic processes. This paper introduces the use of Gaussian Processes (GPs) within the framework of heterogeneous variance models to address these limitations. By incorporating GPs, we allow for the modeling of nonlinear variability across multiple levels, including temporal dynamics at both the individual and group levels. We demonstrate the benefits of this approach in two empirical applications. Our findings show that using GPs provide an improved model fit compared to traditional linear methods and highlight the utility of GPs in variance modeling, offering new possibilities for studying dynamic and emergent processes in psychological and social science research.",
           "url": "https://osf.io/5ab3x",
           "doi": "https://doi.org/10.31234/osf.io/5ab3x",
+          "filter": 2
+        },
+        {
+          "title": "Impoverished episodic counterfactual simulation is associated with increased anxiety",
+          "authors": "Nathan Liang; Natasha Parikh; Kevin S LaBar; Felipe De Brigard",
+          "abstract": "Episodic counterfactual thinking (eCFT), our capacity to imagine alternative ways in\nwhich past personal events could have occurred, is a useful psychological process.\nUnfortunately, it can turn maladaptive, as evidenced by excessive rumination in anxiety. Using\nself-report questionnaires, previous work has shown impoverishment of mental simulations\nduring eCFT as trait anxiety increases. Here, we seek to conceptually replicate and extend these\nfindings by moving beyond self-reports, employing instead automated and externally coded\nverbalizations of participants’ episodic simulations during recollection and eCFT. Participants (N\n= 36) first reported nine regretful memories from the past five years, and then were asked to\ngenerate and verbally narrate either better (upward eCFT) or worse (downward eCFT)\nalternatives for such memories, or to simply recall the event as it happened. Analyses of these\nnarratives revealed that as anxiety levels increased, so did the number of internal episodic details\nduring episodic recollections, whereas in both eCFT conditions the number of internal details\ndecreased. This effect was more evident for perceptual and emotional details, which increased in\nthe memory condition as anxiety levels increased, but instead decreased when participants\nengaged in downward eCFT. These results further support prior evidence suggesting\nimpoverished episodic counterfactual simulations in anxiety.",
+          "url": "https://osf.io/vzckw",
+          "doi": "https://doi.org/10.31234/osf.io/vzckw",
           "filter": 2
         },
         {
@@ -736,7 +728,7 @@
         },
         {
           "title": "Mapping Studies of Environmental Sensitivity to Social Environments in Adult Mental Health: A scoping review",
-          "authors": "McKenna K. Nhem; Madison B. Bissa; Christina Personette; Zoe A. Childers-Rockey; Charlie Rioux",
+          "authors": "McKenna K. Nhem; Christina Personette; Zoe A. Childers-Rockey; Madison B. Bissa; Charlie Rioux",
           "abstract": "Much of the traditional literature on vulnerability to psychopathology is based on the diathesis-stress model. More recently, vantage sensitivity and differential susceptibility were proposed as alternative models, with all three being encompassed in the environmental sensitivity framework. While there are numerous systematic reviews on these models in children, there is limited research addressing their applicability in adulthood. This study aimed to map studies conducted within the environmental sensitivity framework in the prediction of adult mental health. Systematic scoping review reporting followed PRISMA-ScR guidelines. A forward reference search was employed using eight foundational environmental sensitivity articles through three databases. Thirty-four studies met inclusion criteria, and a narrative synthesis was employed to analyze the findings. The review found variability and inconsistency in testing the models of environmental sensitivity, with most studies not utilizing recommended best practices. All three models of environmental sensitivity were supported, including 53 significant and 80 non-significant interactions. Overall, childhood environments tended to show stronger support for differential susceptibility while adulthood environments showed more balanced evidence for both the differential susceptibility and diathesis-stress models. Most studies focused on genotype and internalizing behaviors, resulting in a limited understanding of person-environment interactions for other individual and mental health factors. Further research is needed to test environmental sensitivity across diverse populations and in a wider range of contexts to guide developmental theory and interventions.",
           "url": "https://osf.io/857bv",
           "doi": "https://doi.org/10.31234/osf.io/857bv",
@@ -751,11 +743,27 @@
           "filter": 2
         },
         {
+          "title": "Investigation of the impact of exploring a novel virtual environment on episodic memory performance",
+          "authors": "Anaïs Servais; Judith Schomaker; Christine Bastin",
+          "abstract": "Whether exposure to a novel environment in virtual reality improves subsequent verbal memory or not is still debated. The present study aims to replicate previous positive findings. To do so, we assessed whether exploration of a novel virtual environment leads to better word memory in a task performed afterwards than exploration of a familiar environment and whether this effect is related to the exploratory behavior. Fifty-five participants completed three sessions that took place on different days. The first session consisted of assessing the baseline memory performance. Participants encoded a list of 40 words and then freely recalled as many words as possible immediately after a 30-second distraction task and a 24-hour delay. In the second session, participants familiarized themselves with a virtual environment and then explored either the familiar or a novel environment before performing the same memory task with different words. In the third, participants explored the familiar or novel virtual environment (according to the counterbalancing design) before performing the memory task. Like some previous studies, our results failed to find a positive impact of exploring a novel environment (spatial novelty) on memory. Rather, we observed that recall is higher after exploring a virtual environment (regardless of it being novel or familiar) compared to the baseline performance. In fact, the experience of virtual reality might induce another type of novelty, called distinct novelty, which could impact memory too. Furthermore, our results suggest a negative correlation between age and the novelty effect, indicating the future investigation of individual factors.",
+          "url": "https://osf.io/4hrpy",
+          "doi": "https://doi.org/10.31234/osf.io/4hrpy",
+          "filter": 2
+        },
+        {
           "title": "The B-Man Stra/Tac model of the Mind and Consciousness",
           "authors": "John Howard",
           "abstract": "The  B-Man Stra/Tac model is new and comprehensive and intended to replace previous theories of consciousness and the mind. I am confident it is correct, based on the model’s coherence  and its explanation of so much of human behaviour. David Chalmers’ idea of the Hard Problem of Consciousness can be considered on two levels, the functional level, why are we conscious, why do we have conscious experiences ? And the technological level, how does consciousness work; what exactly is conscious matter ? This theory resolves the first part, including the philosophical zombie question, as it shows why feeling is an inherent part of consciousness, and the tremendous advantage that a feeling organism possesses, summarised in the word “omnilyo”. While not directly addressing the technological aspects, the theory does define requirements and constraints on the workings of conscious matter, which, while clearly beyond current scientific capabilities, does signpost the invention of artificial consciousness, which, needless to say, would be mankind’s greatest discovery.",
           "url": "https://osf.io/6j45m",
           "doi": "https://doi.org/10.31234/osf.io/6j45m",
+          "filter": 2
+        },
+        {
+          "title": "Frequency tagging in the sensorimotor cortex is enhanced by auditory compared to visual body movement information in a walking movement integration task",
+          "authors": "Marta Matamala-Gomez; Adrià Vilà-Balló; David Cucurell Vega; ANA TAJADURA JIMENEZ; Antoni Rodriguez-Fornells",
+          "abstract": "Body movements like walking can synchronize with auditory and visual inputs presented within a periodic frequency range, peaking around 2 Hz. The EEG frequency-tagging approach allows to capture the synchronization of beat perception with neural brain oscillations at the beat frequency. This study used EEG frequency-tagging to explore brain dynamics during rhythmic sensorimotor synchronization with auditory (footstep sound) and visual (walking point-light figure) inputs. Sensory inputs were delivered at different rates (1 Hz, 2 Hz, 3.6 Hz) in rhythmic or random sequences while recording EEG activity. The experiment included three conditions: (i) Auditory, (ii) Visual, and (iii) Audiovisual, including data from 22 participants. Results showed a main effect of rhythmic sequences compared to random sequences across all frequencies in all three auditory, visual, or audiovisual conditions. Specifically, at 2 Hz, rhythmic sequences enhanced synchronization in the sensorimotor cortex for auditory and audiovisual conditions. This effect was absent in the visual condition alone. Notably, 2 Hz rhythmic sequences in the audiovisual condition led to synchronization with temporal, sensorimotor, and occipital regions. The study suggests that attention to rhythmic auditory input at 2 Hz can mediate neural synchronization between auditory and sensorimotor brain areas.",
+          "url": "https://osf.io/rx3zf",
+          "doi": "https://doi.org/10.31234/osf.io/rx3zf",
           "filter": 2
         },
         {
@@ -807,6 +815,14 @@
           "filter": 2
         },
         {
+          "title": "Sensory Processing Sensitivity and Its Associations with Personality, Empathy, and Alexithymia",
+          "authors": "Marie Buchtova; Klara Malinakova; M. C. Benitan; Vit Husek; Petr Tavel",
+          "abstract": "Sensory Processing Sensitivity (SPS) has garnered increased attention in psychological research due to its potential implications for understanding individual differences in personality and mental health. However, there is still a lack of comprehensive scientific investigation of its underlying mechanisms and its associations with other psychological constructs. This study aims to address this gap by examining the associations between SPS and personality traits, empathy, and alexithymia.",
+          "url": "https://osf.io/v6nd7",
+          "doi": "https://doi.org/10.31234/osf.io/v6nd7",
+          "filter": 2
+        },
+        {
           "title": "Ecological-Collective-Flourishing: A radical proposal for research and policy to develop and sustain human and environmental flourishing",
           "authors": "Joseph Moore; Yadvinder Malhi; Katrin Wilhelm; Edmond Awad; Matthew Broome; Roger Crisp; John Geddes; Angie Hart; Verena; Simon Hiscock",
           "abstract": "A growing body of research is connecting global environmental degradation to negative impacts on mental health and human flourishing. Meanwhile, international research and policy agendas are targeting the sustainable development of human health and flourishing. Here we argue that these research and policy approaches are too narrow, because they largely position the health and welfare of non-human species and ecosystems as instrumental to human flourishing. In contrast, we propose a novel approach, ‘ecological-collective-flourishing’ (e-co-flourishing), to inspire research and policy that situates human flourishing within the flourishing of non-human species and more-than-human ecosystems. We begin by clarifying what flourishing is, and how it is distinguished from other common concepts in global policy agendas, such as ‘wellbeing’, ‘health’ and ‘mental health.’ We next argue that e-co-flourishing research will require a paradigm shift in research design, to include dynamic, multi-scale and multi-dimensional metrics as well as interdisciplinary hypotheses that bridge the human and non-human sciences. Finally, we motivate and illustrate the incorporation of e-co-flourishing into research and policy through a case study, The Flourish School. Our proposal offers a disruptive research and policy agenda that will require intellectual humility and interdisciplinarity, as well as cross-fertilisation of policy, publication and funding structures to succeed. We invite others to join us in progressing e-co-flourishing for the good of all living things and systems on Earth.",
@@ -852,14 +868,6 @@
           "abstract": "Recent studies used multi-armed bandit tasks to investigate individual differences in exploration strategies. However, the psychometric properties of these measures remain largely unexplored. We examined the test-retest reliability, convergent and divergent validity, and external validity of model-based estimates of exploration strategies. Our results revealed poor to moderate reliability, with minimal correlations for the same strategy across tasks. By refining the computational models, we identified two convergently valid latent factors representing value-guided and directed exploration. However, these factors showed no significant correlation with self-reported exploration tendencies and only weak associations with mood fluctuations. To improve future research, we suggest simplifying the computational models and using multiple tasks to more accurately model exploration strategies and mitigate spurious correlations arising from task-specific factors. A strong positive correlation with working memory and a lack of significant associations with questionnaire-based measures highlight both the potential and limitations of current behavioral paradigms in capturing exploration behavior.",
           "url": "https://osf.io/tzuey",
           "doi": "https://doi.org/10.31234/osf.io/tzuey",
-          "filter": 2
-        },
-        {
-          "title": "‘When was randomisation first used in educational research? A brief historical methodological perspective’.",
-          "authors": "Carole Torgerson",
-          "abstract": "This brief note aims to add to the debate in the literature around the first use of randomisation in educational research, specifically in relation to previously published articles by Forsetlund et al (2007) and Hedges &amp; Schauer (2018) in which they claim the first use of randomisation was in 1931 or 1919.  The historical, methodological perspective analyses in detail the 1919 contender for the first use of randomisation by Schauer &amp; Hedges (published in Styles and Torgerson (eds.), 2018).  This is the 1919 monograph by Cummings: ‘Improvement and the Distribution of Practice’.",
-          "url": "https://osf.io/srtdq",
-          "doi": "https://doi.org/10.31234/osf.io/srtdq",
           "filter": 2
         },
         {
@@ -975,6 +983,14 @@
           "filter": 2
         },
         {
+          "title": "How Alexithymia Increases Mental Health Symptoms in Adolescence: Longitudinal Evidence for the Mediating Role of Emotion Regulation",
+          "authors": "Mazidi",
+          "abstract": "Alexithymia is characterised by difficulties identifying and describing feelings, as well as a lack of focus on feelings. Alexithymia is a transdiagnostic risk factor for developing a wide array of psychopathologies, such as anxiety and depression, with a key hypothesised mechanism being the impairing impact of alexithymia on emotion regulation. However, no study has tested whether difficulties with emotion regulation mediate the link between alexithymia and clinically relevant symptoms using longitudinal designs. The present study aimed to address this limitation by collecting data from 242 Iranian high school students at two time points, seven months apart. The results revealed that baseline alexithymia levels not only related to future emotion regulation difficulties but predicted increased emotion regulation difficulties in the future. Furthermore, these increased difficulties in emotion regulation mediated the relationship between baseline alexithymia and worsening of psychological distress (e.g., depression, anxiety, and stress symptoms) over time. This study, therefore, supports the attention-appraisal model of alexithymia in its theoretical account linking alexithymia and emotion regulation difficulties and highlights the critical role that alexithymia plays in emotional health and illness during adolescence.",
+          "url": "https://osf.io/ebt53",
+          "doi": "https://doi.org/10.31234/osf.io/ebt53",
+          "filter": 2
+        },
+        {
           "title": "Tool representations in human visual cortex",
           "authors": "Davide Cortinovis; Marius Peelen; Stefania Bracci",
           "abstract": "Tools such as pens, forks, and scissors play an important role in many daily-life activities, an importance underscored by the presence in visual cortex of a set of tool-selective brain regions. This review synthesizes decades of neuroimaging research that investigated the representational spaces in the visual ventral stream for objects, such as tools, that are specifically characterised by action-related properties. Overall, results reveal a dissociation between representational spaces in ventral and lateral occipitotemporal cortex (OTC). While lateral OTC encodes both visual (shape) and action-related properties of objects, distinguishing between objects acting as end-effectors (e.g., tools, hands) versus similar non-effector manipulable objects (e.g., a glass), ventral OTC primarily represents objects’ visual features such as their surface properties (e.g., material and texture). These areas act in concert with regions outside of OTC to support object interaction and tool use. The parallel investigation of the dimensions underlying object representations in artificial neural networks reveals both the possibilities and the difficulties in capturing the action-related dimensions that distinguish tools from other objects. While artificial neural networks offer promise as models of visual cortex computations, challenges persist in replicating the action-related dimensions that go beyond mere visual features. Taken together, we propose that regions in occipitotemporal cortex support the representation of tools based on a behaviorally relevant action code and suggest future paths to generate a computational model of this object space.",
@@ -1031,6 +1047,14 @@
           "filter": 2
         },
         {
+          "title": "Working Memory Prioritization Changes Bidirectional Interactions with Perceptual Inputs",
+          "authors": "Joseph M. Saito; Frida Printzlau; Yvanna Yeo; Keisuke Fukuda",
+          "abstract": "Items stored in visual working memory often differ in priority. Typically, observers will shift their internal attention towards items that are relevant for impending behavior and away from those that may become relevant later. These distinct states of priority are theorized to influence bidirectional interactions between memoranda and new visual inputs by modulating their susceptibility to retroactive and proactive biases, respectively. However, prior research has produced limited and conflicting evidence on this topic due to reliance on inconsistent retrodictive cues (retro-cues) that incentivize memory prioritization. To address this, we used a double-serial retro-cue paradigm that incentivized the complete prioritization of one of two unfamiliar shape memoranda for use in a comparison with a perceptual probe before a second, independent cue instructed observers to report one of their two memories (Experiments 1-2) or the perceptual probe itself (Experiment 2). We found that observers reported robust retroactive and proactive biases, but that only retroactive biases were modulated by prioritization. Reports of prioritized memories were more precise and contained smaller attractive biases towards the probe than unprioritized memories, whereas probe reports were biased comparably towards each. These findings reveal an asymmetrical effect of prioritization on the reciprocal interactions between memory and perception.",
+          "url": "https://osf.io/2f7mp",
+          "doi": "https://doi.org/10.31234/osf.io/2f7mp",
+          "filter": 2
+        },
+        {
           "title": "Conscious Intelligent Feedback Model",
           "authors": "HuaZQi",
           "abstract": "This paper makes an in-depth analysis of the phenomenon of consciousness from three aspects: the essence of consciousness, conscious consciousness and conscious intelligence model. First of all, this paper discusses the essence of consciousness, puts forward the theoretical framework of subject angle, and points out that consciousness is the content change of subject angle, which corresponds to the structural change of entity one by one. Then, through concrete examples, such as animal conscious neural network, this paper expounds in detail how consciousness is related to the main structure, neural network structure and the objective world. Finally, this paper discusses the model of conscious intelligence, pointing out that conscious intelligence is a model in which multi-cells cooperate with the whole feedback to record natural change data and form a data structure model, so that changes can be predicted in advance to avoid disadvantages through data structure model reasoning, and the analysis and conception of CIFM(Conscious Intelligence Feedback Model) are put forward.\nKeywords:Consciousness；Subjective Perspective；Conscious neural network；Conscious Intelligent Feedback Model",
@@ -1045,54 +1069,6 @@
           "url": "https://osf.io/y62xn",
           "doi": "https://doi.org/10.31234/osf.io/y62xn",
           "filter": 2
-        },
-        {
-          "title": "On the robustness and provenance of the gambler's fallacy",
-          "authors": "Yang Xiang; Kevin Matthew Dorst; Samuel J. Gershman",
-          "abstract": "The gambler’s fallacy is typically defined as the false belief that a random event is less likely to occur if it has occurred recently, even when the probability of the event is known to be independent across trials. While forms of this fallacy have been documented numerous times, past work suffers from two problems. First, most studies have not actually measured probabilistic predictions (“60% likely to be heads”), but rather point predictions (“Heads”). Second, the few studies that did measure probabilistic beliefs used sequences that were not independent, and therefore not a strong test of the fallacy. To address these problems, we conducted a series of high-powered, preregistered studies. We asked participants to report probabilistic predictions for truly independent sequences. In contrast to point predictions, which (as in previous research) generated a significant gambler’s fallacy, we found no evidence for a gambler’s fallacy in probabilistic predictions. Moreover, the point predictions could not be reconstructed by sampling from the probability judgments. This suggests that the gambler’s fallacy originates at the decision stage rather than in probabilistic reasoning, as posited by several leading theories. In a separate experiment, we replicate the results of a previous study showing a small gambler’s fallacy for probabilistic predictions with non-independent sequences. However, to the extent that the gambler’s fallacy manifests for probabilistic predictions, it seems to be driven by a small proportion of the participants. Taken together, these findings demonstrate that the gambler’s fallacy is real and robust for point predictions, but not for probabilistic predictions with independent sequences. New theories of the gambler’s fallacy may be needed to explain these findings.",
-          "url": "https://osf.io/j8g3p",
-          "doi": "https://doi.org/10.31234/osf.io/j8g3p",
-          "filter": 2
-        },
-        {
-          "title": "Psychedelic therapy in practice. Case studies of self-treatment, individual therapy, and group therapy",
-          "authors": "Mika Turkia",
-          "abstract": "This compilation focuses on success stories—cases of courage, innovation, and the application of knowledge and power in overcoming illness and suffering. It features thirteen ethnographic case studies that describe how people were able to alleviate or overcome serious issues including alcoholism, severe anxiety and depression, suicidal behavior, and psychotic disorders caused by ignorance, neglect, violence, war, and sexual abuse. It is a tribute to the possibility of healing.",
-          "url": "https://osf.io/9yxwp",
-          "doi": "https://doi.org/10.31234/osf.io/9yxwp",
-          "filter": 2
-        },
-        {
-          "title": "Gamification of Medical School Formative Assessments",
-          "authors": "Muhammad R. Irfan; Maheen Qureshi; Fesih Muhammad Waseem",
-          "abstract": "Medical schools in developing countries often face challenges in maintaining student engagement, leading to monotony and burnout. We introduced gamification in formative assessments using a competitive game with paper cups, ping pong balls, and case-based MCQs. This approach sparked deeper discussions, improved participation, and revealed important limitations in sustaining engagement, emphasizing the need for strategic integration of game-based learning.",
-          "url": "https://osf.io/ah4ev",
-          "doi": "https://doi.org/10.31234/osf.io/ah4ev",
-          "filter": 2
-        },
-        {
-          "title": "Model-based planning is unaffected by ketamine, antidepressant and internet delivered cognitive behavioural therapy treatments",
-          "authors": "Kelly Rose Donegan; Shabnam Hossein; Benjamin Panny; Vanessa Brown; Sharon Chi Tak Lee; Siobhan Harty; Kevin Lynch; Celine A Fox; Anna Hanlon; Veronica O'Keane",
-          "abstract": "Background: Cognitive impairments have been observed in patients with depression. These include deficits in inhibition, shifting, and updating; cognitive processes that are critical for goal-directed control over behavior (‘model-based planning’). But despite this, research investigating model-based planning in depression has itself been mixed. We aimed to address this by taking a within-person approach, examining model-based planning before and after a range of effective treatments for depression.\nMethod: Across two parallel studies, participants completed a two-step reinforcement learning paradigm before and after antidepressant medication, internet-based cognitive behavioral therapy (iCBT) or intravenous (IV) ketamine infusion. In experiment 1, 93 patients with treatment-resistant depression were randomized to a single dose of IV ketamine (0.5 mg/kg) or IV saline (50 mL 0.9% NaCl). In Experiment 2, 781 participants were followed for four weeks of antidepressant (N=83), or iCBT (N=611) treatment. N=87 participants without any psychiatric diagnosis were followed as a control group.\nResults: In both experiments, depressive symptoms significantly improved in treatment groups compared to their corresponding control groups, but model-based planning did not change. Moreover, individual differences in model-based planning did not predict differential response to ketamine, iCBT or antidepressant treatments. Individual differences in model- based planning at baseline were associated with compulsivity, but not depression symptoms.\nConclusions: These findings suggest that model-based planning is not necessarily compromised in depression and does not improve following treatments. This result provides evidence for the trait-like nature of model-based planning and underscores the specificity of its relation to disorders of compulsivity.",
-          "url": "https://osf.io/hbt6j",
-          "doi": "https://doi.org/10.31234/osf.io/hbt6j",
-          "filter": 2
-        },
-        {
-          "title": "Reading the Mind in the Eyes Test scores demonstrate poor structural properties in nine large non-clinical samples",
-          "authors": "Wendy C Higgins; Victoria Savalei; Vince Polito; Robert M Ross",
-          "abstract": "The Reading the Mind in the Eyes Test (RMET) is widely used in clinical and non-clinical research. However, there is little research rigorously examining the structural properties of RMET scores. We analysed the structural properties of RMET scores in nine existing datasets comprising non-clinical samples ranging from 558 to 9,267 (median = 1,112) participants each. We used confirmatory factor analysis to assess two theoretically derived factor models, exploratory factor analysis to identify possible alternative factor models, and reliability estimates to assess internal consistency. Neither of the theoretically derived models were a good fit for any of the nine datasets, and we were unable to identify any better fitting multidimensional models. Internal consistency metrics were acceptable in six of the nine datasets, but these metrics are difficult to interpret given the uncertain factor structures. Our findings add to a growing body of evidence questioning the reliability and validity of RMET scores.",
-          "url": "https://osf.io/eyjgx",
-          "doi": "https://doi.org/10.31234/osf.io/eyjgx",
-          "filter": 2
-        },
-        {
-          "title": "The Japanese IPIP-HEXACO Short Scale: Development and Validation of Reliability and Validity",
-          "authors": "Eisuke Tokiwa",
-          "abstract": "In this study, we developed and validated the reliability and validity of a Japanese short version of the IPIP-HEXACO scale. A sample of 406 Japanese participants was used to create a short version consisting of 24 items that assess six personality traits based on the HEXACO model: Honesty-Humility, Emotionality, Extraversion, Agreeableness, Conscientiousness, and Openness to Experience. The Cronbach’s alpha values for Extraversion (α = 0.79), Agreeableness (α = 0.72), and Openness to Experience (α = 0.73) showed high reliability, while Honesty-Humility (α = 0.60) and Emotionality (α = 0.58) indicated acceptable levels of reliability. Factor analysis confirmed the six-factor structure, and convergent validity was demonstrated through correlations with the HEXACO-PI, especially for Honesty-Humility (r = 0.49, p &lt; .01) and Extraversion (r = 0.72, p &lt; .01). These results suggest that the Japanese IPIP-HEXACO short scale is a reliable personality assessment tool and useful for applying the HEXACO model in Japanese contexts.",
-          "url": "https://osf.io/7hx9c",
-          "doi": "https://doi.org/10.31234/osf.io/7hx9c",
-          "filter": 2
         }
       ]
     },
@@ -1100,6 +1076,22 @@
       "journal_full": "SocArxiv",
       "journal_short": "SocArxiv",
       "articles": [
+        {
+          "title": "Food and place - agricultural migrant workers’ relationships with food and cooking: a photo-elicitation protocol",
+          "authors": "Neal Robert Haddaway; José Luis Vicente Vicente; María D. López-Rodríguez; Joe Duggan; Erica Briones-Vozmediano",
+          "abstract": "The province of Almería in Spain is home to one of the largest concentrations of greenhouse agriculture in the world, covering over 32,000 hectares and producing more than 3.8 million tonnes of fruits and vegetables largely for export across Europe. Migrant agricultural workers here face precarious working and living conditions, which profoundly shape their relationships with food, ingredients, and cooking. The food system in this region is deeply entwined with global food consumption practices, extractivist supply chains, and irregular migration patterns. While much research has focused on the economic and environmental impacts of industrial agriculture, less attention has been given to how migrant workers’ interactions with food reflect their social and cultural identities amidst these challenges. This study protocol outlines our aims and methods to explore these relationships, examining how migration and labour conditions influence food-related practices, and how these practices serve as means of cultural preservation, adaptation, and survival. Using a collaborative photo-elicitation methodology, we will work with migrant workers in Almería to document their relationship with food through photography and interviews. Participants will be asked to capture images of their daily food practices over a 7-10 day period. These photographs will later serve as both prompts for semi-structured interviews and a source of visual data, facilitating deeper reflections on personal, cultural, and socio-economic contexts surrounding food. Data will be analysed through qualitative content analysis, incorporating co-creation and member checking to ensure accuracy and participant agency. The planned research aims to provide critical insights into the social, cultural, and environmental impacts of industrial agriculture on migrant workers, contributing to a broader understanding of food justice, labour exploitation, and the sustainability of global food systems.",
+          "url": "https://osf.io/ahbsv",
+          "doi": "https://doi.org/10.31235/osf.io/ahbsv",
+          "filter": 0
+        },
+        {
+          "title": "Social media, survey, and medical literature data reveal escalating antisemitism within the United States healthcare community",
+          "authors": "Daniella Schwartz; Rotem Leiba; Cassondra Feldman; Nicole Spence; Ruth Oratz; Hedy Wald; Steven Roth",
+          "abstract": "Antisemitism has been rising for decades and worsened following the events of Oct 7, 2023. Although anecdotal evidence suggests that these trends extend into the US medical community, quantitative data have been lacking. To address this gap, we quantitated publications about antisemitism, analyzed social media posts from the accounts of 220,405 healthcare professionals, and disseminated a survey to members of Jewish medical associations. Publications and social media posts about antisemitism rose &gt;5-fold, while posts promoting antisemitic stereotypes increased 2-4-fold. Most Jewish-identifying medical students and professionals (75.4%) reported exposure to antisemitism. Together, our results suggest that antisemitism is escalating within the US healthcare community.",
+          "url": "https://osf.io/34km7",
+          "doi": "https://doi.org/10.31235/osf.io/34km7",
+          "filter": 0
+        },
         {
           "title": "Hard Numbers and “Velvet Triangles”: Mobilising Statistics for the ILO Convention on Domestic Work",
           "authors": "Liberty Chee",
@@ -1259,14 +1251,6 @@
           "url": "https://osf.io/vbdtp",
           "doi": "https://doi.org/10.31235/osf.io/vbdtp",
           "filter": 0
-        },
-        {
-          "title": "Introductory and Propositional Material on the Psychoanalytical Qualitative",
-          "authors": "Christian Panarello",
-          "abstract": "Empirical debates on the subject matter of a notionally well-fitting fundamental psychological (and indeed, psychoanalytical) ideal are fruitless on account of the (as written and hence inferred) singularity that the instinct provides – i.e. “repressed sexuality”, “infantile wish”, or “castration anxiety” that imply a diffuseness and therefore prevent accurate formulations. This article instead introduces the concept of fundamentalism to psychoanalysis and builds on the prerogatives of previous psychoanalysts to institute a more accurate fundamentalism.",
-          "url": "https://osf.io/vug3q",
-          "doi": "https://doi.org/10.31235/osf.io/vug3q",
-          "filter": 0
         }
       ],
       "articles_hidden": [
@@ -1423,6 +1407,14 @@
           "filter": 2
         },
         {
+          "title": "Introductory and Propositional Material on the Psychoanalytical Qualitative",
+          "authors": "Christian Panarello",
+          "abstract": "Empirical debates on the subject matter of a notionally well-fitting fundamental psychological (and indeed, psychoanalytical) ideal are fruitless on account of the (as written and hence inferred) singularity that the instinct provides – i.e. “repressed sexuality”, “infantile wish”, or “castration anxiety” that imply a diffuseness and therefore prevent accurate formulations. This article instead introduces the concept of fundamentalism to psychoanalysis and builds on the prerogatives of previous psychoanalysts to institute a more accurate fundamentalism.",
+          "url": "https://osf.io/vug3q",
+          "doi": "https://doi.org/10.31235/osf.io/vug3q",
+          "filter": 2
+        },
+        {
           "title": "Geographical and Disciplinary Coverage of Open Access Journals: OpenAlex, Scopus and WoS",
           "authors": "Abdelghani Maddi; Marion Maisonobe; Chérifa BOUKACEM ZEGHMOURI",
           "abstract": "This study aims to compare the geographical and disciplinary coverage of OA journals in three databases: OpenAlex, Scopus and the WoS. We used the ROAD database, managed by the ISSN International Centre, as a reference database which indexes 62,701 OA active resources (as of May 2024). Among the 62,701 active resources indexed in the ROAD database, the Web of Science indexes 6,157 journals, while Scopus indexes 7,351, and OpenAlex indexes 34,217. A striking observation is the presence of 25,658 OA journals exclusively in OpenAlex, whereas only 182 journals are exclusively present in WoS and 373 in Scopus.\nThe geographical analysis focusses on two levels: continents and countries. As for disciplinary comparison, we use the ten disciplinary levels of the ROAD database.  Moreover, our findings reveal a striking similarity in OA journal coverage between WoS and Scopus. However, while OpenAlex offers better inclusivity and indexing, it is not without biases. WoS and Scopus predictably favor journals from Europe, North America and Oceania. Although OpenAlex presents a much more balanced indexing, certain regions and countries remain relatively underrepresented. Typically, Africa is proportionally as under-represented in OpenAlex as it is in WoS, and some emerging countries are proportionally less represented in OpenAlex than in WoS and Scopus.\nThese results underscore a marked similarity in OA journal indexing between WoS and Scopus, while OpenAlex aligns more closely with the distribution observed in the ROAD database, although it also exhibits some representational biases.",
@@ -1452,30 +1444,6 @@
           "abstract": "Instead of the current ideal of the virtual reality that has since provided a basis for Consciousness, and the appropriated unity of Conscious properties (thereby separating them) provides meaning for an otherwise meaningless Consciousness. Indeed, the Consciousness that we understand now – in the context of the unity described previously – is as abstracted as the universal aether was pronounced to be prior to the discovery of Special Relativity. This study intends to provide a definitive set of reasons for explicating Consciousness and to provide an alternative perspective on the study that is distinct from the otherwise lebensphilosophie that has been followed for previous studies.",
           "url": "https://osf.io/xzjnh",
           "doi": "https://doi.org/10.31235/osf.io/xzjnh",
-          "filter": 2
-        },
-        {
-          "title": "Ungleichheit in der Bildungsbeteiligung",
-          "authors": "Steffen Hillmert",
-          "abstract": "Mit gesellschaftlicher Ungleichheit ist mehr als eine reine soziale Differenzierung gemeint; sie bezieht sich auf die ungleiche Verteilung von gesellschaftlich als wertvoll erachteten Gütern, z. B. Bildung. Hiervon zu unterscheiden sind normative Fragen der (Un-)Gerechtigkeit, denn keineswegs gelten alle Ungleichheiten gesellschaftlich als illegitim. Im Zuge der gesellschaftlichen Modernisierung ist das meritokratische Modell, nach welchem begehrte Güter auf Basis individueller Leistung zugeteilt werden sollen, zum dominierenden Legitimationsprinzip geworden („Leistung soll sich lohnen“). Durch die enge Verknüpfung mit dem Arbeitsmarkt übernimmt hierbei das Bildungs­ und Ausbildungssystem eine wesentliche gesellschaftliche Selektionsfunktion, indem es den Zugang zu unterschiedlich bewerteten Positionen vorstrukturiert.",
-          "url": "https://osf.io/sd6p4",
-          "doi": "https://doi.org/10.31235/osf.io/sd6p4",
-          "filter": 2
-        },
-        {
-          "title": "Segregation by gender and highest academic level in the career of research support staff of CONICET-Argentina,  for the year 2021.",
-          "authors": "Daniela Alejandra Pastor",
-          "abstract": "This work analyzes data obtained through a public request in 2021 of the highest academic level and gender in the career of CONICET support staff, which are scientific personnel in charge of a wide variety of highly qualified tasks such as: responsible of: equipment, techniques and laboratories, as well as administrative. There are other types of hiring this role in science, which are not contemplated in this analysis, such as: Article 9, contracted, outsourced personnel, dependent on universities with functions in CONICET, among other possible still unidentified.\nIt was determined that there is a balanced composition of personnel from the undergraduate, graduate and postgraduate studies levels. By incorporating the gender variable, it can be seen that at the undergraduate and graduate training levels (non-university tertiary, intermediate and basic) are masculinized, while at the postgraduate training levels are feminized. In the analysis of the distribution of CPA personnel by career, we can see that there are more personnel in the Professional category: 1864 people vs 951, and that it is balanced in gender but this is not the same for the Technical career. Analyzing the Technical and Professional careers separately, it was found that there are people with a high level of training retained in the Technical category, a situation that affects women more than men. It can also be seen that in the Professional category, an analogous process occurs, in which the people who access this category with a level of training less than a bachelor's degree are mostly men, which confirms that there is greater pressure of training for women. In this work, this is not considered to be a strict demonstration of “overqualification” or “underqualification,” since for this it is necessary to investigate more about the nature of the tasks they perform, how the bureaucratic incorporation and promotion mechanisms influence them, as well as the subjectivities put into play in the interpretation of which tasks are Technical and which are Professional. It is necessary to continue researching the reasons that produce these inequalities in order to propose reparatory solutions.",
-          "url": "https://osf.io/2svnw",
-          "doi": "https://doi.org/10.31235/osf.io/2svnw",
-          "filter": 2
-        },
-        {
-          "title": "The Political Economy of Socioenvironmental Conflict: Evidence from Peru",
-          "authors": "David Hajo Kreitmeir",
-          "abstract": "Over the past two decades, violence against land and environmental activists has been on the rise, besetting even stable democracies. Using a unique, fine-grained data set on social conflict events in Peru and exogenous variation in world mineral prices, I document a strong link between local mineral rents and violent state repression of socioenvironmental protests in a democratic institutional setting. I show that the increase in the use of excessive force cannot be explained by changes in protester behavior. Empirical findings highlight the role of local authorities: the election of a pro-mining mayor is associated with a higher prevalence of state repression and corruption in the constituency. The legal and democratic accountability of local authorities is, however, found to be limited. The reported increase in corruption does not translate into more investigations against pro-mining mayors for corruption offenses nor are reelection results of incumbents found to be negatively affected by state violence against protesters. Finally, I show that violent state repression is successful in forestalling conflict resolution agreements that acknowledge protesters’ demands.",
-          "url": "https://osf.io/e7avt",
-          "doi": "https://doi.org/10.31235/osf.io/e7avt",
           "filter": 2
         }
       ]
