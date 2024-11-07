@@ -1,5 +1,5 @@
 {
-  "update": "2024-11-06",
+  "update": "2024-11-07",
   "content": [
     {
       "journal_full": "American Journal of Political Science",
@@ -35,6 +35,14 @@
           "url": "http://dx.doi.org/10.1017/s0003055424000935",
           "doi": "10.1017/s0003055424000935",
           "filter": 0
+        },
+        {
+          "title": "Internalist and Integrationist Theories of (Global) Justice",
+          "authors": "JOHANNES KNIESS",
+          "abstract": "The global justice debate has increasingly moved toward the analysis of concrete issues in global politics, such as trade, migration, or climate change. This raises a methodological question: should the demands of justice in these domains be theorized independently or in conjunction with one another? Integrationists have championed the latter approach, arguing that it is better suited to guide our practical judgments. In contrast, internalists maintain that each domain is governed by its own set of principles. This paper defends the plausibility of the internalist approach against integrationist challenges. By examining different interpretations of internalism, it first seeks to provide a clearer overview of the methodological dispute. It then analyzes various arguments for integrationism, showing that their implications are more limited than their proponents believe. Finally, it focuses on the question of practical guidance, highlighting the value of idealized domain-specific theorizing in guiding transitions toward just arrangements.",
+          "url": "http://dx.doi.org/10.1017/s0003055424001114",
+          "doi": "10.1017/s0003055424001114",
+          "filter": 0
         }
       ],
       "articles_hidden": []
@@ -66,6 +74,14 @@
           "filter": 0
         },
         {
+          "title": "Nostalgic deprivation and populism: Evidence from 19 European countries",
+          "authors": "JEREMY FERWERDA, JUSTIN GEST, TYLER RENY",
+          "abstract": "Populist parties have been increasingly successful in European politics over the last decade. Although research suggests that nostalgic deprivation – a perceived loss of economic, political or social status — is linked to support for populist parties, the generalizability of this argument across voters and national contexts remains unclear. In this research note, we leverage original representative surveys across 19 European countries to demonstrate that perceptions of declining status are a consistent predictor of populist support. Decomposing nostalgic deprivation into different dimensions, we find that while social, economic and power deprivation have different antecedents, each predicts populist attitudes and voting behaviour. Moreover, we find that nostalgic deprivation predicts support for populist platforms among both left‐wing and right‐wing respondents, as well as across Eastern and Western Europe.  While the antecedents differ across contexts, these findings confirm that perceptions of downward mobility are associated with the rise of populism in Europe.",
+          "url": "http://dx.doi.org/10.1111/1475-6765.12738",
+          "doi": "10.1111/1475-6765.12738",
+          "filter": 0
+        },
+        {
           "title": "Exploring the connection between electoral systems and personalized behaviour among politicians and voters",
           "authors": "MATHIAS TROMBORG, MARTIN VINÆS LARSEN",
           "abstract": "The personalization of politics includes electoral reforms that give voters more opportunity to select individual representatives as well as behavioural personalization among voters and politicians. Institutional research suggests that the latter is a function of the former, but it remains unclear whether the association between the two types of personalization is actually causal. In order to get empirical leverage on this question, we analyze local elections in Denmark, which feature within‐district and within‐party variation in the openness of party lists. Using detailed information on the behaviour of politicians and voters, we find that, once we take differences between districts and parties into account, the personalization of electoral rules has a negligible effect on behavioural personalization.",
@@ -92,15 +108,30 @@
       "articles_hidden": []
     },
     {
+      "journal_full": "Political Analysis",
+      "journal_short": "PA",
+      "articles": [
+        {
+          "title": "Dynamic Synthetic Controls: Accounting for Varying Speeds in Comparative Case Studies",
+          "authors": "Jian Cao, Thomas Chadefaux",
+          "abstract": "Synthetic controls (SCs) are widely used to estimate the causal effect of a treatment. However, they do not account for the different speeds at which units respond to changes. Reactions may be inelastic or “sticky” and thus slower due to varying regulatory, institutional, or political environments. We show that these different reaction speeds can lead to biased estimates of causal effects. We therefore introduce a dynamic SC approach that accommodates varying speeds in time series, resulting in improved SC estimates. We apply our method to re-estimate the effects of terrorism on income (Abadie and Gardeazabal [2003, American Economic Review 93, 113–132]), tobacco laws on consumption (Abadie, Diamond, and Hainmueller [2010, Journal of the American Statistical Association 105, 493–505]), and German reunification on GDP (Abadie, Diamond, and Hainmueller [2015, American Journal of Political Science 59, 495–510]). We also assess the method’s performance using Monte Carlo simulations. We find that it reduces errors in the estimates of true treatment effects by up to 70% compared to traditional SCs, improving our ability to make robust inferences. An open-source R package, dsc , is made available for easy implementation.",
+          "url": "http://dx.doi.org/10.1017/pan.2024.14",
+          "doi": "10.1017/pan.2024.14",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Political Behavior",
       "journal_short": "PolBehav",
       "articles": [
         {
-          "title": "Using Cell-phone Mobility Data to Study Voter Turnout",
-          "authors": "Masataka Harada, Gaku Ito, Daniel M. Smith",
-          "abstract": "Studies of voting behavior in some settings may be hampered by poor data availability or unsuitably large units of aggregation for reported turnout. We propose and demonstrate a practical big-data solution to these kinds of challenges, using fine-grained cell-phone mobility data on millions of GPS locations for more than 300,000 eligible voters in Tokyo. Our approach uses the geolocations of polling stations, combined with GPS data points recorded on election day and a reference day, to measure patterns in individual-level (but anonymized) voting behavior. We first test the validity of the measure by comparing it to official aggregated data on turnout, and then illustrate its substantive utility with an application exploring the well-known relationship between turnout decisions and the cost of voting, proxied by the distance between a voter’s residence and the polling station. Finally, we discuss the potential limitations of the approach and provide step-by-step instructions for other researchers.",
-          "url": "http://dx.doi.org/10.1007/s11109-024-09975-1",
-          "doi": "10.1007/s11109-024-09975-1",
+          "title": "Do Fans Make Poor Referees? Exploring Citizens’ Reactions to Partisan Gamesmanship",
+          "authors": "Ryan L. Claassen, Michael J. Ensley, John Barry Ryan",
+          "abstract": "Political (as opposed to professional) election oversight is one area in which the U.S. scores extremely low in measures of election integrity. Meanwhile, rancorous political battles to determine acceptable election procedures and judge when tactics cross the line have become common events. Our work contributes to recent scholarship investigating whether voters prioritize democratic principles or strategically favor electoral procedures that provide partisan advantage. In two survey experiments, we confirm that Americans’ attitudes about antidemocratic election tactics reveal more about which team they are cheering for than they do about whether the tactics are fraudulent. The tendency to engage in partisan motivated reasoning occurs among all partisans, but there are subtle differences as to when citizens will engage in it. Partisan motivated reasoning is more common when actions cause harm and by the partisans that are harmed. Finally, Independents are more impartial, but less likely to call out improper tactics in the aggregate because they often fail to condemn actions by either party.",
+          "url": "http://dx.doi.org/10.1007/s11109-024-09990-2",
+          "doi": "10.1007/s11109-024-09990-2",
           "filter": 0
         },
         {
@@ -132,13 +163,6 @@
           "filter": 0
         },
         {
-          "title": "Inner Mongolian poetry and song as a form of resistance",
-          "authors": "Jesse Segura, Filka Sekulova",
-          "url": "http://dx.doi.org/10.1016/j.polgeo.2024.103214",
-          "doi": "10.1016/j.polgeo.2024.103214",
-          "filter": 0
-        },
-        {
           "title": "Beyond anti-urban sentiment: Rural consciousness and affect toward undocumented immigrants",
           "authors": "Kristin Lunz Trujillo",
           "url": "http://dx.doi.org/10.1016/j.polgeo.2024.103231",
@@ -146,10 +170,10 @@
           "filter": 0
         },
         {
-          "title": "Temporalities in spatial narratives about war ruins in Mostar",
-          "authors": "Matheus Souza",
-          "url": "http://dx.doi.org/10.1016/j.polgeo.2024.103197",
-          "doi": "10.1016/j.polgeo.2024.103197",
+          "title": "Inner Mongolian poetry and song as a form of resistance",
+          "authors": "Jesse Segura, Filka Sekulova",
+          "url": "http://dx.doi.org/10.1016/j.polgeo.2024.103214",
+          "doi": "10.1016/j.polgeo.2024.103214",
           "filter": 0
         },
         {
@@ -157,27 +181,6 @@
           "authors": "Orlando Woods, Tim Bunnell, Lily Kong",
           "url": "http://dx.doi.org/10.1016/j.polgeo.2024.103211",
           "doi": "10.1016/j.polgeo.2024.103211",
-          "filter": 0
-        },
-        {
-          "title": "Stay or leave? US-listed Chinese companies under financial decoupling push and the reshaping of global financial networks",
-          "authors": "Fenghua Pan, Cheng Fang, Yulan Guo",
-          "url": "http://dx.doi.org/10.1016/j.polgeo.2024.103213",
-          "doi": "10.1016/j.polgeo.2024.103213",
-          "filter": 0
-        },
-        {
-          "title": "‘I felt’: Intimate geographies of sentient diplomacy",
-          "authors": "Alun Jones",
-          "url": "http://dx.doi.org/10.1016/j.polgeo.2024.103221",
-          "doi": "10.1016/j.polgeo.2024.103221",
-          "filter": 0
-        },
-        {
-          "title": "Strategic coupling of administrative rationality and cultural imaginaries in municipal amalgamations",
-          "authors": "Arie Stoffelen, Peter Groote",
-          "url": "http://dx.doi.org/10.1016/j.polgeo.2024.103227",
-          "doi": "10.1016/j.polgeo.2024.103227",
           "filter": 0
         },
         {
@@ -195,10 +198,24 @@
           "filter": 0
         },
         {
-          "title": "What repoliticisation means and requires: Creating the climate for disagreement",
-          "authors": "Joe Blakey",
-          "url": "http://dx.doi.org/10.1016/j.polgeo.2024.103222",
-          "doi": "10.1016/j.polgeo.2024.103222",
+          "title": "Strategic coupling of administrative rationality and cultural imaginaries in municipal amalgamations",
+          "authors": "Arie Stoffelen, Peter Groote",
+          "url": "http://dx.doi.org/10.1016/j.polgeo.2024.103227",
+          "doi": "10.1016/j.polgeo.2024.103227",
+          "filter": 0
+        },
+        {
+          "title": "‘I felt’: Intimate geographies of sentient diplomacy",
+          "authors": "Alun Jones",
+          "url": "http://dx.doi.org/10.1016/j.polgeo.2024.103221",
+          "doi": "10.1016/j.polgeo.2024.103221",
+          "filter": 0
+        },
+        {
+          "title": "Stay or leave? US-listed Chinese companies under financial decoupling push and the reshaping of global financial networks",
+          "authors": "Fenghua Pan, Cheng Fang, Yulan Guo",
+          "url": "http://dx.doi.org/10.1016/j.polgeo.2024.103213",
+          "doi": "10.1016/j.polgeo.2024.103213",
           "filter": 0
         },
         {
@@ -209,10 +226,24 @@
           "filter": 0
         },
         {
+          "title": "What repoliticisation means and requires: Creating the climate for disagreement",
+          "authors": "Joe Blakey",
+          "url": "http://dx.doi.org/10.1016/j.polgeo.2024.103222",
+          "doi": "10.1016/j.polgeo.2024.103222",
+          "filter": 0
+        },
+        {
           "title": "Checkpoints, competing ‘sovereignties’, and everyday life in Iraq",
           "authors": "Dylan O'Driscoll, Omran Omer Ali, Remonda Armia",
           "url": "http://dx.doi.org/10.1016/j.polgeo.2024.103220",
           "doi": "10.1016/j.polgeo.2024.103220",
+          "filter": 0
+        },
+        {
+          "title": "Temporalities in spatial narratives about war ruins in Mostar",
+          "authors": "Matheus Souza",
+          "url": "http://dx.doi.org/10.1016/j.polgeo.2024.103197",
+          "doi": "10.1016/j.polgeo.2024.103197",
           "filter": 0
         },
         {
@@ -347,21 +378,6 @@
       "articles_hidden": []
     },
     {
-      "journal_full": "Political Science Research and Methods",
-      "journal_short": "PSRM",
-      "articles": [
-        {
-          "title": "How and when candidate race affects inferences about ideology and group favoritism",
-          "authors": "Jennifer D. Wu, Gregory A. Huber",
-          "abstract": "How does a candidate's racial background affect the inferences voters make about them? Prior work finds that Black candidates are perceived to be more liberal. Using two survey experiments, we test whether this effect persists when candidate partisanship and issue positions are specified and also consider other consequential voter perceptions. We make two contributions. First, we show that while Black candidates are perceived to be more liberal than White candidates with the same policy positions, this difference is smaller for Black candidates who adopt more conservative positions on race-related issues. Second, we find that voters, both Black and White, believe Black candidates will prioritize the interests of Black constituents over those of White constituents, regardless of candidate positions.",
-          "url": "http://dx.doi.org/10.1017/psrm.2024.50",
-          "doi": "10.1017/psrm.2024.50",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
       "journal_full": "Public Choice",
       "journal_short": "PubChoice",
       "articles": [
@@ -374,10 +390,40 @@
           "filter": 0
         },
         {
+          "title": "From Adam Smith to artificial intelligence: an experimental exploration of emotion in humanomics",
+          "authors": "Xiangdong Qin, Siyu Wang, Mike Zhiren Wu, Xuechun Feng",
+          "abstract": "This study examines whether individuals can effectively express their emotions or “fellow feelings” to a machine, an impartial observer, or individuals who have caused them harm, and the effects of these emotional expressions on behavior. Our findings indicate that the impartial observer is the most preferred outlet for emotional expression, with neither the machine nor the offending party being able to adequately fulfill this role. Negative emotions are more commonly expressed to an impartial observer and a machine, whereas positive emotions are more often directed toward the offending party. Additionally, our findings indicate that emotional expression cannot replace costly punishment and that communication channels do not affect the behavior of the offending party. By exploring the nuanced ways emotions are conveyed, our study offers valuable insights into the evolving discourse on the impact of emotions on human-AI interactions.",
+          "url": "http://dx.doi.org/10.1007/s11127-024-01227-4",
+          "doi": "10.1007/s11127-024-01227-4",
+          "filter": 0
+        },
+        {
           "title": "Effort transparency and fairness",
           "authors": "Joy Buchanan, Elif E. Demiral, Ümit Sağlam",
           "url": "http://dx.doi.org/10.1007/s11127-024-01230-9",
           "doi": "10.1007/s11127-024-01230-9",
+          "filter": 0
+        },
+        {
+          "title": "How good is a group decision?",
+          "authors": "Ye Lu, Miao Song, Xiaoling Zhong",
+          "url": "http://dx.doi.org/10.1007/s11127-024-01210-z",
+          "doi": "10.1007/s11127-024-01210-z",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Research & Politics",
+      "journal_short": "RAP",
+      "articles": [
+        {
+          "title": "Worldviews, attitudes to science and science policy in Kuwait: The engagement and mobilisation effects",
+          "authors": "Gordon Sammut, Mohammad Sartawi, Martin W. Bauer, Rebekah Mifsud",
+          "abstract": "The relevance of policymaking stems from its utility in helping social systems manage the output of their constituent members by shaping behavioural and procedural processes. Whilst policymaking might be well-meaning, it does not always lead to satisfactory outcomes. Policy may fail in generating uptake or establishing intent. For this reason, the study of the psychological characteristics of citizens is pertinent in understanding reactions to policy. In the present study, we analysed policy communication and reception in Kuwait in terms of the worldviews they advance. We also studied media responses and worldview distributions amongst the public ( n = 1400). Our findings demonstrate both within and between worldview differences in reactions to science policy. We observed an engagement effect between worldviews and their appreciation of science policy. We also observed a within worldviews mobilisation effect, by which differential reactions to science policy are activated once engaged. Our conclusions suggest that policymakers would benefit from a broader management of worldviews and psychological characteristics beyond traditional sociodemographic influences.",
+          "url": "http://dx.doi.org/10.1177/20531680241297669",
+          "doi": "10.1177/20531680241297669",
           "filter": 0
         }
       ],
