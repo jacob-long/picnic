@@ -1,5 +1,5 @@
 {
-  "update": "2024-11-07",
+  "update": "2024-11-08",
   "content": [
     {
       "journal_full": "American Journal of Political Science",
@@ -26,14 +26,6 @@
           "abstract": "While political scientists regularly engage in spirited theoretical debates about elections and voting behavior, few have noticed that elected politicians also have theories of elections and voting. Here, we investigate politicians’ positions on eight central theoretical debates in the area of elections and voting behavior and compare politicians’ theories to those held by ordinary citizens. Using data from face-to-face interviews with nearly one thousand politicians in 11 countries, together with corresponding surveys of more than twelve thousand citizens, we show that politicians overwhelmingly hold thin, minimalist, “democratic realist” theories of voting, while citizens’ theories are more optimistic and policy oriented. Politicians’ theoretical tendencies—along with their theoretical misalignment from citizens—are remarkably consistent across countries. These theories are likely to have important consequences for how politicians campaign, communicate with the public, think about public policy, and represent their constituents.",
           "url": "http://dx.doi.org/10.1017/s0003055424001060",
           "doi": "10.1017/s0003055424001060",
-          "filter": 0
-        },
-        {
-          "title": "Regularized Regression Can Reintroduce Backdoor Confounding: The Case of Mass Polarization",
-          "authors": "JONATHAN MELLON, CHRISTOPHER PROSSER",
-          "abstract": "Regularization can improve statistical estimates made with highly correlated data. However, any regularization procedure embeds assumptions about the data generating process that can have counterintuitive consequences when those assumptions are untenable. We show that rather than simply shrinking estimates, regularization can reopen backdoor causal paths, inflating the estimates of some effects, and in the wrong circumstances, even reversing their direction. Recently, Cavari and Freedman (2023), argued that declining cooperation rates in surveys have inflated measures of mass polarization. We show that this finding is driven by large penalty terms in their regularized regressions, which leads to the estimates being confounded with time. Alternative methods do not show a clear positive or negative effect of declining cooperation on estimated levels of mass polarization.",
-          "url": "http://dx.doi.org/10.1017/s0003055424000935",
-          "doi": "10.1017/s0003055424000935",
           "filter": 0
         },
         {
@@ -74,6 +66,14 @@
           "filter": 0
         },
         {
+          "title": "Chasing the authoritarian spectre: Detecting authoritarian discourse with large language models",
+          "authors": "MICHAL MOCHTAK",
+          "abstract": "The paper introduces a deep‐learning model fine‐tuned for detecting authoritarian discourse in political speeches. Set up as a regression problem with weak supervision logic, the model is trained for the task of classification of segments of text for being/not being associated with authoritarian discourse. Rather than trying to define what an authoritarian discourse is, the model builds on the assumption that authoritarian leaders inherently define it. In other words, authoritarian leaders talk like authoritarians. When combined with the discourse defined by democratic leaders, the model learns the instances that are more often associated with authoritarians on the one hand and democrats on the other. The paper discusses several evaluation tests using the model and advocates for its usefulness in a broad range of research problems. It presents a new methodology for studying latent political concepts and positions as an alternative to more traditional research strategies.",
+          "url": "http://dx.doi.org/10.1111/1475-6765.12740",
+          "doi": "10.1111/1475-6765.12740",
+          "filter": 0
+        },
+        {
           "title": "Nostalgic deprivation and populism: Evidence from 19 European countries",
           "authors": "JEREMY FERWERDA, JUSTIN GEST, TYLER RENY",
           "abstract": "Populist parties have been increasingly successful in European politics over the last decade. Although research suggests that nostalgic deprivation – a perceived loss of economic, political or social status — is linked to support for populist parties, the generalizability of this argument across voters and national contexts remains unclear. In this research note, we leverage original representative surveys across 19 European countries to demonstrate that perceptions of declining status are a consistent predictor of populist support. Decomposing nostalgic deprivation into different dimensions, we find that while social, economic and power deprivation have different antecedents, each predicts populist attitudes and voting behaviour. Moreover, we find that nostalgic deprivation predicts support for populist platforms among both left‐wing and right‐wing respondents, as well as across Eastern and Western Europe.  While the antecedents differ across contexts, these findings confirm that perceptions of downward mobility are associated with the rise of populism in Europe.",
@@ -87,21 +87,6 @@
           "abstract": "The personalization of politics includes electoral reforms that give voters more opportunity to select individual representatives as well as behavioural personalization among voters and politicians. Institutional research suggests that the latter is a function of the former, but it remains unclear whether the association between the two types of personalization is actually causal. In order to get empirical leverage on this question, we analyze local elections in Denmark, which feature within‐district and within‐party variation in the openness of party lists. Using detailed information on the behaviour of politicians and voters, we find that, once we take differences between districts and parties into account, the personalization of electoral rules has a negligible effect on behavioural personalization.",
           "url": "http://dx.doi.org/10.1111/1475-6765.12737",
           "doi": "10.1111/1475-6765.12737",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Journal of Experimental Political Science",
-      "journal_short": "JEPS",
-      "articles": [
-        {
-          "title": "Vulnerability Appeals in the COVID-19 Pandemic: Insights from a National Survey Experiment",
-          "authors": "Jac M. Larner, Joshua R. Thorp",
-          "abstract": "This study explores the impact of vulnerability appeals during the COVID-19 pandemic using a nationally representative, preregistered survey experiment ( N = 4,087) conducted in mid-2021. We explore whether providing citizens with information about the vulnerability of ethnic minority and disabled citizens to COVID-19 fosters empathy and increased support for behavioral restrictions. We observe minimal statistically significant or substantive effects, although the presence of subtle effects cannot be entirely ruled out. We identify some limited indications that individuals with disabilities exhibit increased support for restrictions when exposed to information about the vulnerability of disabled people to COVID-19, but these effects are inconsistent. Therefore, our findings provide limited evidence to confirm or rule out that using vulnerability appeals alone is effective for influencing public attitudes toward behavioral restrictions. The findings point toward avenues for future research, including a closer examination of heterogeneous responses to public health messaging among population subgroups.",
-          "url": "http://dx.doi.org/10.1017/xps.2024.14",
-          "doi": "10.1017/xps.2024.14",
           "filter": 0
         }
       ],
@@ -163,13 +148,6 @@
           "filter": 0
         },
         {
-          "title": "Beyond anti-urban sentiment: Rural consciousness and affect toward undocumented immigrants",
-          "authors": "Kristin Lunz Trujillo",
-          "url": "http://dx.doi.org/10.1016/j.polgeo.2024.103231",
-          "doi": "10.1016/j.polgeo.2024.103231",
-          "filter": 0
-        },
-        {
           "title": "Inner Mongolian poetry and song as a form of resistance",
           "authors": "Jesse Segura, Filka Sekulova",
           "url": "http://dx.doi.org/10.1016/j.polgeo.2024.103214",
@@ -177,10 +155,45 @@
           "filter": 0
         },
         {
+          "title": "Beyond anti-urban sentiment: Rural consciousness and affect toward undocumented immigrants",
+          "authors": "Kristin Lunz Trujillo",
+          "url": "http://dx.doi.org/10.1016/j.polgeo.2024.103231",
+          "doi": "10.1016/j.polgeo.2024.103231",
+          "filter": 0
+        },
+        {
+          "title": "Temporalities in spatial narratives about war ruins in Mostar",
+          "authors": "Matheus Souza",
+          "url": "http://dx.doi.org/10.1016/j.polgeo.2024.103197",
+          "doi": "10.1016/j.polgeo.2024.103197",
+          "filter": 0
+        },
+        {
           "title": "Territorialising the cloud or clouding the territory? Volumetric vulnerabilities and the militarised conjunctures of Singapore’s smart city-state",
           "authors": "Orlando Woods, Tim Bunnell, Lily Kong",
           "url": "http://dx.doi.org/10.1016/j.polgeo.2024.103211",
           "doi": "10.1016/j.polgeo.2024.103211",
+          "filter": 0
+        },
+        {
+          "title": "Stay or leave? US-listed Chinese companies under financial decoupling push and the reshaping of global financial networks",
+          "authors": "Fenghua Pan, Cheng Fang, Yulan Guo",
+          "url": "http://dx.doi.org/10.1016/j.polgeo.2024.103213",
+          "doi": "10.1016/j.polgeo.2024.103213",
+          "filter": 0
+        },
+        {
+          "title": "‘I felt’: Intimate geographies of sentient diplomacy",
+          "authors": "Alun Jones",
+          "url": "http://dx.doi.org/10.1016/j.polgeo.2024.103221",
+          "doi": "10.1016/j.polgeo.2024.103221",
+          "filter": 0
+        },
+        {
+          "title": "Strategic coupling of administrative rationality and cultural imaginaries in municipal amalgamations",
+          "authors": "Arie Stoffelen, Peter Groote",
+          "url": "http://dx.doi.org/10.1016/j.polgeo.2024.103227",
+          "doi": "10.1016/j.polgeo.2024.103227",
           "filter": 0
         },
         {
@@ -198,24 +211,10 @@
           "filter": 0
         },
         {
-          "title": "Strategic coupling of administrative rationality and cultural imaginaries in municipal amalgamations",
-          "authors": "Arie Stoffelen, Peter Groote",
-          "url": "http://dx.doi.org/10.1016/j.polgeo.2024.103227",
-          "doi": "10.1016/j.polgeo.2024.103227",
-          "filter": 0
-        },
-        {
-          "title": "‘I felt’: Intimate geographies of sentient diplomacy",
-          "authors": "Alun Jones",
-          "url": "http://dx.doi.org/10.1016/j.polgeo.2024.103221",
-          "doi": "10.1016/j.polgeo.2024.103221",
-          "filter": 0
-        },
-        {
-          "title": "Stay or leave? US-listed Chinese companies under financial decoupling push and the reshaping of global financial networks",
-          "authors": "Fenghua Pan, Cheng Fang, Yulan Guo",
-          "url": "http://dx.doi.org/10.1016/j.polgeo.2024.103213",
-          "doi": "10.1016/j.polgeo.2024.103213",
+          "title": "What repoliticisation means and requires: Creating the climate for disagreement",
+          "authors": "Joe Blakey",
+          "url": "http://dx.doi.org/10.1016/j.polgeo.2024.103222",
+          "doi": "10.1016/j.polgeo.2024.103222",
           "filter": 0
         },
         {
@@ -226,24 +225,10 @@
           "filter": 0
         },
         {
-          "title": "What repoliticisation means and requires: Creating the climate for disagreement",
-          "authors": "Joe Blakey",
-          "url": "http://dx.doi.org/10.1016/j.polgeo.2024.103222",
-          "doi": "10.1016/j.polgeo.2024.103222",
-          "filter": 0
-        },
-        {
           "title": "Checkpoints, competing ‘sovereignties’, and everyday life in Iraq",
           "authors": "Dylan O'Driscoll, Omran Omer Ali, Remonda Armia",
           "url": "http://dx.doi.org/10.1016/j.polgeo.2024.103220",
           "doi": "10.1016/j.polgeo.2024.103220",
-          "filter": 0
-        },
-        {
-          "title": "Temporalities in spatial narratives about war ruins in Mostar",
-          "authors": "Matheus Souza",
-          "url": "http://dx.doi.org/10.1016/j.polgeo.2024.103197",
-          "doi": "10.1016/j.polgeo.2024.103197",
           "filter": 0
         },
         {
@@ -390,6 +375,28 @@
           "filter": 0
         },
         {
+          "title": "Humanomics: introduction to a special issue",
+          "authors": "William F. Shughart II, Ravi K. Roy, Ryan Yonk",
+          "url": "http://dx.doi.org/10.1007/s11127-024-01222-9",
+          "doi": "10.1007/s11127-024-01222-9",
+          "filter": 0
+        },
+        {
+          "title": "Voting like a human",
+          "authors": "Adam Martin, Adam Swisher",
+          "url": "http://dx.doi.org/10.1007/s11127-024-01220-x",
+          "doi": "10.1007/s11127-024-01220-x",
+          "filter": 0
+        },
+        {
+          "title": "The Samaritan bureaucracy in international transfers",
+          "authors": "Christopher J. Coyne, Abigail R. Hall, Yahya Alshamy",
+          "abstract": "Conventional wisdom tells us that other-regarding sentiments are desirable as they yield positive social outcomes. However, the consequences of other-regarding behaviors are broadly ambiguous and may have unintended consequences, especially when they must pass through institutional filters. In this paper, we use the Samaritan’s Dilemma model to understand the perverse unintended consequences of institutionalized commitments to resource transfers expressed through international transfer organizations (ITOs), the collection of government and non-government international organizations involved in transferring foreign assistance. To do so, we maintain the core logic of the classic Samaritan’s Dilemma model but alter its assumptions to account for two features of international transfers. First, transfers are channeled through an ITO bureaucracy, which we call a “Samaritan Bureaucracy.” Second, the recipient effects that extend beyond a single person (the target recipient) to include various heterogeneous individuals. We illustrate these effects by analyzing two different harmful recipient effects—reinforcing a corrupt status quo and exacerbating social conflict.",
+          "url": "http://dx.doi.org/10.1007/s11127-024-01221-w",
+          "doi": "10.1007/s11127-024-01221-w",
+          "filter": 0
+        },
+        {
           "title": "From Adam Smith to artificial intelligence: an experimental exploration of emotion in humanomics",
           "authors": "Xiangdong Qin, Siyu Wang, Mike Zhiren Wu, Xuechun Feng",
           "abstract": "This study examines whether individuals can effectively express their emotions or “fellow feelings” to a machine, an impartial observer, or individuals who have caused them harm, and the effects of these emotional expressions on behavior. Our findings indicate that the impartial observer is the most preferred outlet for emotional expression, with neither the machine nor the offending party being able to adequately fulfill this role. Negative emotions are more commonly expressed to an impartial observer and a machine, whereas positive emotions are more often directed toward the offending party. Additionally, our findings indicate that emotional expression cannot replace costly punishment and that communication channels do not affect the behavior of the offending party. By exploring the nuanced ways emotions are conveyed, our study offers valuable insights into the evolving discourse on the impact of emotions on human-AI interactions.",
@@ -409,6 +416,35 @@
           "authors": "Ye Lu, Miao Song, Xiaoling Zhong",
           "url": "http://dx.doi.org/10.1007/s11127-024-01210-z",
           "doi": "10.1007/s11127-024-01210-z",
+          "filter": 0
+        },
+        {
+          "title": "Increasing support for economic freedom: responses in a representative sample of US adults",
+          "authors": "Michael D. Krouse, Paul J. Zak",
+          "abstract": "The relationship between economic freedom and improvements in social and economic outcomes is well-documented. Yet, increasing support for government control of voluntary exchange has arisen in the US and many other countries. The present study analyzed whether videos describing human flourishing would influence support for economic freedom. In Study 1, a ‘‘brain as predictor’’ approach measured the neurologic responses of participants (N = 64) to a library of videos in order identify the videos most likely to influence people's attitudes. Study 2 then sent two videos to a representative sample of US adults (N = 1212) and assessed support for economic freedom compared to a no-video control group. The analysis first identified demographic categories that had statistically low support for economic freedom (Californians, those with low incomes, Democrats, young adults, individuals without a college education, people receiving substantial government support, and women) as targets for influence. Two different videos increased support for economic freedom between 5 and 10% among Californians and among those receiving government aid. A feature importance analysis was used to rank the demographic factors affecting support for economic freedom, identifying those receiving government aid as the group for whom future messaging would have the largest impact.",
+          "url": "http://dx.doi.org/10.1007/s11127-024-01212-x",
+          "doi": "10.1007/s11127-024-01212-x",
+          "filter": 0
+        },
+        {
+          "title": "Relationship lobbying through repeated contributions: a humanomics approach",
+          "authors": "David Mitchell, Todd Nesbit, Gary A. Wagner",
+          "url": "http://dx.doi.org/10.1007/s11127-024-01231-8",
+          "doi": "10.1007/s11127-024-01231-8",
+          "filter": 0
+        },
+        {
+          "title": "Max-U? Considering humanomics in public policy",
+          "authors": "Ryan Yonk, Robertas Bakula, Raymond March, Veeshan Rayamajhee",
+          "url": "http://dx.doi.org/10.1007/s11127-024-01218-5",
+          "doi": "10.1007/s11127-024-01218-5",
+          "filter": 0
+        },
+        {
+          "title": "Joseph E. Stiglitz, The Road to Freedom: Economics and the Good Society. New York, NY: Norton, 2024. 356 pages. USD 29.99 (hardback)",
+          "authors": "Peter J. Boettke",
+          "url": "http://dx.doi.org/10.1007/s11127-024-01226-5",
+          "doi": "10.1007/s11127-024-01226-5",
           "filter": 0
         }
       ],
