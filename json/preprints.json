@@ -1,10 +1,153 @@
 {
-  "update": "2024-11-08",
+  "update": "2024-11-09",
   "content": [
+    {
+      "journal_full": "MetaArxiv",
+      "journal_short": "MetaArxiv",
+      "articles": [
+        {
+          "title": "Unintended Code Errors and Computational Reproducibility",
+          "authors": "Nicholas Ottone; Limor Peer",
+          "abstract": "Transparent and reproducible science requires that data and code underlying published results be made available to allow regeneration and verification of the results. But how easy is it to reproduce computational analyses using these materials? This technical report describes efforts to computationally reproduce results at one established repository as part of a routine internal pre-publication review. We conduct a structured content analysis of twenty-six “author reports'' generated through a standard review process and categorize identified issues. We find that four in five studies include code errors that prevent execution or produce inconsistent results. Although these errors are generally minor, we interpret our findings to indicate that review and correction can help resolve many of the errors and facilitate computational reproducibility.",
+          "url": "https://osf.io/rv6xd",
+          "doi": "https://doi.org/10.31222/osf.io/rv6xd",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
     {
       "journal_full": "PsyArxiv",
       "journal_short": "PsyArxiv",
       "articles": [
+        {
+          "title": "Inconsistent yet unyielding: How contradictory beliefs resist interventions and strategies that enable it",
+          "authors": "Marija Petrović; Iris Zezelj",
+          "abstract": "To better understand how inconsistent beliefs persist and whether the tendency to endorse them (labeled doublethink) is malleable, we conducted four preregistered studies and a qualitative follow-up (total N = 1320 Serbian participants). We first found that doublethink was independently predicted by both superficial information processing style and lack of ability to spot contradictions. We next tested three progressively more direct interventions to reduce doublethink, all unsuccessful - first one increased sensitivity to contradictions in irrelevant material, second pushed respondents to reconcile pairs of provided inconsistent beliefs; third made them cross-reference their own inconsistent beliefs. When asked to elaborate their inconsistencies in semi-structured interviews, respondents did not evaluate them negatively, instead they employed circumvention strategies - attributing incompatibility to the response format or diluting content of the claims (e.g., adding logical conditions). Although these strategies are not irrational per se, they might enable moral relativization, double standards or incompatible expectations from others.",
+          "url": "https://osf.io/8uk72",
+          "doi": "https://doi.org/10.31234/osf.io/8uk72",
+          "filter": 0
+        },
+        {
+          "title": "Human vs. Machine: Comparing AI-generated and Human-written Psychological Reports",
+          "authors": "Adam Lockwood",
+          "abstract": "This study evaluated the ability of ChatGPT-4, an artificial intelligence (AI) chatbot, to generate psychological reports using mock data. Two hundred forty-nine licensed psychologists in the United States, rated the quality of AI-generated and human-generated psychological reports across six dimensions: overall quality, readability, writing style, organizational structure, summary quality, and recommendation quality. The study used a counterbalanced design with eight conditions, presenting human or AI-generated reports for ADHD, intellectual disability, depression, and anxiety. Participants then provided ratings of quality through an online survey. Human-generated reports were preferred for their writing style (p = 0.026), organization (p = 0.042), and overall quality (p = 0.036), while the recommendations in AI-generated reports were favored (p &lt; 0.001). No significant differences were found in readability. Participants were more likely to prefer and approve human-generated reports for clinical use (p = 0.042), though the majority expressed discomfort with both types. While AI shows promise in augmenting psychological report writing, particularly in generating recommendations, human expertise remains crucial, especially in summarizing information. These findings highlight the need for professional guidelines on AI use in psychological practice and updated educational curricula to prepare future psychologists for an evolving technological landscape in mental health care.",
+          "url": "https://osf.io/kea8t",
+          "doi": "https://doi.org/10.31234/osf.io/kea8t",
+          "filter": 0
+        },
+        {
+          "title": "Human vs. Machine: A Comparative Analysis of Qualitative Coding by Humans and ChatGPT-4",
+          "authors": "Adam Lockwood",
+          "abstract": "Generative artificial intelligence (AI) applications are becoming increasingly influential in psychology training, practice, and research. In this study, the procedures (e.g., coding process) and products (e.g., codes; themes; core story) of qualitative content analysis (QCA) conducted by Chat Generative Pre-trained Transformer (ChatGPT)-4 and novice human researchers were compared, and advantages and disadvantages of each approach were considered. Data included open-ended survey responses from trainers (N = 60) in school psychology programs regarding assessment practices during the COVID-19 pandemic. Findings indicated that ChatGPT-4 could conduct QCA with products that were similar, overall, to human coders, and in significantly less time. However, ChatGPT-4’s process was not transparent, and some codes and themes were unclear. Meanwhile, human coding allowed for the selection and implementation of a purposeful methodological approach, and an auditable and systematic process resulting in a coherent narrative. Considerations for the use of AI in qualitative research are considered and discussed, and future research directions are provided.",
+          "url": "https://osf.io/8g36r",
+          "doi": "https://doi.org/10.31234/osf.io/8g36r",
+          "filter": 0
+        },
+        {
+          "title": "Mitigating AI Bias in School Psychology: Toward Equitable and Ethical Implementation",
+          "authors": "Adam Lockwood",
+          "abstract": "The integration of Artificial Intelligence (AI) into school psychology is evolving rapidly, presenting both opportunities and challenges. AI has the potential to enhance educational and mental health services by facilitating data-driven decision-making, streamlining administrative tasks, and offering personalized interventions for students. However, biases inherent in AI systems—reflecting the prejudices of developers and historical data—pose significant risks of exacerbating systemic inequalities. This paper examines AI’s historical context, current applications in education, and specific uses within school psychology. It also discusses the socio-political factors contributing to algorithmic biases, data privacy concerns, and language/cultural inequities in AI systems. Recommendations are offered to mitigate AI biases, emphasizing the importance of diverse representation in AI development, comprehensive policy formation, transparency, and community involvement. Addressing these concerns is crucial for ensuring that AI contributes equitably to student success.",
+          "url": "https://osf.io/mh4rj",
+          "doi": "https://doi.org/10.31234/osf.io/mh4rj",
+          "filter": 0
+        },
+        {
+          "title": "Phonological Similarity and Recall Dynamics",
+          "authors": "Haydn Herrema",
+          "abstract": "Similarities among items govern how individuals organize their memories, as seen in the order and timing of successively recalled words in free recall memory tasks. Prior work has documented the influence of similarity in temporal, semantic, emotional, and physical space on recall dynamics. We asked whether phonological similarity also impacts the dynamics of free recall. Analyzing data from a large delayed free recall experiment, we find that participants cluster their recalls based on alliterative and rhyming patterns in the encoded words, and such organization predicts recall performance. We also discover that phonological features induce false memories, and that phonological similarity interacts with temporal and semantic features to accelerate recall transitions. Our results further catalog how similarity, in its many forms, dictates the dynamics of free recall.",
+          "url": "https://osf.io/fytq6",
+          "doi": "https://doi.org/10.31234/osf.io/fytq6",
+          "filter": 0
+        },
+        {
+          "title": "Examining the Moderating Effect of Emotion Reactivity on the Association between Momentary Negative Affect and Suicidal Thinking",
+          "authors": "Ellen M. Wittler; Matthew K. Nock; Kate Bentley; Evan Kleiman",
+          "abstract": "Most theories of suicide suggest that it occurs as a result of negative affect, but surprisingly few studies test nuanced associations between negative affect and suicidal thoughts. We hypothesized that negative affect would be especially likely to predict suicidal thoughts among those with strong emotion reactivity: that is, those with greater sensitivity, intensity, and persistence of negative affect when it is experienced. We used ecological momentary assessment to examine the real-time process of how emotion reactivity interacts with affect to predict suicidal thinking. As hypothesized, across two samples (n=43 college students reporting suicidal ideation; n=52 individuals with a history of suicide attempt recruited online), results revealed that the association between momentary negative affect and suicidal thinking was stronger among those with greater trait emotion reactivity. Regarding individual facets of emotion reactivity, the interaction with intensity was significant in Study 1, whereas the interactions with persistence and sensitivity were significant in Study 2. These findings support the real-world components of the emotion reactivity model, suggesting trait-level patterns of emotional responses are important to consider in modeling and analyzing momentary mood states. Between-sample inconsistencies between which facets drove this relationship may speak to individual differences in emotional processing.",
+          "url": "https://osf.io/5dhek",
+          "doi": "https://doi.org/10.31234/osf.io/5dhek",
+          "filter": 0
+        },
+        {
+          "title": "How Does Free Time Benefit Working Memory in Complex Span Tasks?",
+          "authors": "Eda Mizrak; Klaus Oberauer",
+          "abstract": "Giving people more time between encoding items into working memory (WM) improves performance. In complex span tasks performance depends on the cognitive load imposed by a secondary task carried out between encoding items; free time is one variable determining cognitive load. Explanations of the effects of time and of cognitive load on working memory often build on the assumption that time is used for maintenance processes such as rehearsal or refreshing. This leads to the prediction that a manipulation of time has a retroactive effect on items encoded before. In contrast, the encoding resource account suggests that free time has a proactive benefit by replenishing encoding resources between items, thereby improving encoding of subsequent items. In two studies, we examined whether giving additional free time resulted in a proactive or retroactive benefit in a modified complex-span task. We found that, whereas the secondary task led to a retroactive detriment, the free time benefit was proactive. These findings call for a new\nway of thinking about the effect of cognitive load in WM.",
+          "url": "https://osf.io/a7jxc",
+          "doi": "https://doi.org/10.31234/osf.io/a7jxc",
+          "filter": 0
+        },
+        {
+          "title": "Not to Worry? The Relation between Parental Worry, Self-Efficacy, and Parenting Behaviors in the Context of Adolescent Depression",
+          "authors": "Myrthe Veenman; Loes H. C. Janssen; Lisanne Antonetta Elisabeth Maria van Houtum; Wilma Wentholt; Mirjam Wever; Marieke Tollenaar; Bart Verkuil; Eiko I Fried; Bernet M. Elzinga",
+          "abstract": "Adolescent depression is impactful for adolescents and for their parents. High worry and low self-efficacy may be rather prominent among parents with adolescents with depression, but how this may in turn have an effect on parenting behaviors, such as warmth and criticism, is not well known. In a healthy control (i.e, 80 adolescents, M_age = 15.90, SD_age = 1.35; 151 parents, M_age = 49.04, SD_age = 5.87) and depression sample (i.e., 34 adolescents with depression, M_age = 15.65, SD_age = 1.54; 58 parents, M_age = 50.10, SD_age = 5.30), we estimated Gaussian graphical network models on adolescent-reported affect states (i.e., happy, relaxed, sad, &amp; irritated), adolescent- and parent-reported parenting behaviors (i.e., warmth, understanding, listening, criticism, dominance), and parent-reported parental worry and self-efficacy. Parents of adolescents with depression reported higher levels of worry, but not less self-efficacy. In both samples, parent-reported worry was positively related to adolescent-reported sadness and parent-reported parental criticism. Moreover, parent-reported self-efficacy was positively related to adolescent- and parent-reported parental warmth. Only in the depression sample, parent-reported worry was positively related to adolescent-reported parental warmth. Parental worry, self-efficacy, parenting behaviors and adolescent affect were interrelated with considerable differences between the control and depression sample. As a next step, studies with more intensive daily assessments may yield individual family analyses, while also accounting for contextual factors, to further increase our understanding of the relation between parental worry, self-efficacy and parenting behaviors in the context of adolescent depression.",
+          "url": "https://osf.io/rn5vx",
+          "doi": "https://doi.org/10.31234/osf.io/rn5vx",
+          "filter": 0
+        },
+        {
+          "title": "Unwarranted Trust  and Unwarranted Punishment: Scientistic Beliefs Predict Support for Penalizing Science Skeptics",
+          "authors": "Petar Lukić",
+          "abstract": "Contemporary society demands laypeople to articulate their attitudes towards science. Whilst distrust in science undeniably has detrimental outcomes, we argue that its opposite, uncritical trust in science and scientists (i.e. scientism) also leads to potential unwarranted societal polarization. In Study 1 we observed that people who endorsed scientistic beliefs supported discriminatory policies against people who ignore scientific knowledge or promote anti-scientific views, ranging from restrictions on their media appearance to imprisonment and denial of healthcare. Study 2 replicated the effect and tested its potential mechanism: the tendency to moralize rationality mediated the relationship between scientism and support for penalizing measures. Our findings demonstrate that unwarranted beliefs, even if positive in their moderate version, are associated with increased support for unwarranted measures against dissenters.",
+          "url": "https://osf.io/j2m4y",
+          "doi": "https://doi.org/10.31234/osf.io/j2m4y",
+          "filter": 0
+        },
+        {
+          "title": "A Logical Case for Omitting Oxford Comma in English",
+          "authors": "Gopal Krishna",
+          "abstract": "This paper presents novel arguments for omitting the Oxford comma (serial comma) in English writing. Through analysis of mathematical symmetry, logical distinction between noun and adjective lists, and a systematic solution for ambiguous cases, we demonstrate that omitting the Oxford comma leads to both enhanced visual aesthetics and maintained clarity. We propose a comprehensive system that resolves traditional ambiguity concerns while preserving visual elegance in written English.",
+          "url": "https://osf.io/k3unh",
+          "doi": "https://doi.org/10.31234/osf.io/k3unh",
+          "filter": 0
+        },
+        {
+          "title": "Embodied speech: sensorimotor contributions to native and non-native language processing and learning",
+          "authors": "Tzuyi Tseng; Jennifer Krzonowski; Claudio Brozzoli; Alice C. Roy; Véronique Boulenger",
+          "abstract": "The last 15 years of research on language production and comprehension have put forward a conceptual revolution, highlighting how language may depend not only on specific brain areas but also on embodied processes underpinned by sensorimotor brain regions. A large amount of studies have underlined the sensorimotor grounding of the different processes at play in language comprehension, in particular action verb processing and sentence comprehension (see Fischer &amp; Zwaan, 2008 and Franken et al., 2022 for reviews). One aspect of language processing, phoneme perception, has been less extensively studied in light of embodied cognition, yet the motor involvement in decoding sounds pertaining to a linguistic code seems to play a crucial contribution. The focus of the current review is to provide an updated overview of the findings in this domain on both native (Sections I and II) and foreign (i.e. non-native) phoneme perception (Section III), and to further examine if and how motor training may enhance phonological processing and learning of foreign language speech sounds (Section IV and V).",
+          "url": "https://osf.io/fqwe8",
+          "doi": "https://doi.org/10.31234/osf.io/fqwe8",
+          "filter": 0
+        },
+        {
+          "title": "A computational model of reward learning and habits on social media",
+          "authors": "Georgia Turner; Lukas J. Gunschera; Shashanka Subrahmanya; Aadesh Salecha; johannes Christopher Eichstaedt; Stefano Palminteri; Amy Orben",
+          "abstract": "Social media have fundamentally transformed how we live and communicate. However, the methods to study how our cognitive systems interact with technology platforms are very limited. Computational modelling represents a new avenue to uncover the finegrained cognitive processes driving social media behaviour. Here, we develop a novel computational model of real-world social media posting data, adapted from the animal reward learning literature. Across a Twitter dataset (n= 2,696 users), including a preregistered confirmatory sample, we separate the contribution of different cognitive processes and show that a hybrid goal-directed and habitual reward-seeking process underlies social media posting behaviour. Further, younger people and women are more goal-directed – updating their strategy more purposefully to maximise social media rewards – while older users and men tend to be more habitual. Our model paves the way for large-scale investigation into the cross-species cognitive processes motivating social media behaviours, and their downstream impacts on individuals and society.",
+          "url": "https://osf.io/xe25k",
+          "doi": "https://doi.org/10.31234/osf.io/xe25k",
+          "filter": 0
+        },
+        {
+          "title": "Fun at work, job engagement, and burnout: A Meta-analysis and Narrative Synthesis",
+          "authors": "Eva Tzioti; Anthony Montgomery; Maria Spiliou; Christos Mouratidis; Vilma V Chalili; Ilias Maliousis; Olga Lainidi",
+          "abstract": "Fun, play, and humour are accepted as integral to understanding how individuals cope with adversity at work and thrive within an organization. Far from being merely about entertainment, Fun at Work (FaW) embodies strategic elements via social bonding, essential for bolstering employee well-being, fostering engagement, and enhancing productivity. The present meta-analysis and narrative synthesis examined the relationship between FaW with work engagement and job burnout. The results of the meta-analysis showed a substantial overlap between Work Engagement and FaW and a smaller overlap with emotional exhaustion. Meta-regression indicated that the relationship between FaW and work engagement was stronger in Non-WEIRD countries and studies with samples including a higher proportion of men. The narrative review revealed two primary and bidirectional categories that capture the essence of workplace fun: Organization-Driven Fun (ODF) and Employee-Driven Fun (EDF). ODF and EDF provided the basis for a new conceptual approach to FaW outlined in the paper. The paper reflects on whether FaW  might be inherently part of work engagement rather than a separate construct, functioning as a job resource.",
+          "url": "https://osf.io/paqmh",
+          "doi": "https://doi.org/10.31234/osf.io/paqmh",
+          "filter": 0
+        },
+        {
+          "title": "Automatic imitation of vocal actions is unaffected by group membership",
+          "authors": "patti adank; Antony Scott Trotter; Hannah Wilt",
+          "abstract": "Converging evidence from behavioural, neuroimaging, and neurostimulation studies demonstrates that action observation engages linked action production mechanisms, a phenomenon termed covert or automatic imitation. Behaviourally, automatic imitation is measured using the stimulus response compatibility (SRC) task, in which participants produce vocal responses whilst perceiving compatible or incompatible speech distractors. Automatic imitation is measured as the difference in response times (RT) between incompatible and compatible trials. It is unclear if and how social group membership, such as the speaker’s sex, affects automatic imitation. Two theoretical accounts make conflicting predictions regarding effects of group membership: the first predicts that automatic imitation can be modulated by group membership, while the second predicts that automatic imitation remains unaffected. We tested these predictions for participant sex and distractor sex in an online vocal SRC task. Female and male participants completed an SRC task presenting female or male distractor stimuli. The results show that automatic imitation is not modulated by group membership. Implications of these results regarding the nature of automatic imitation are considered.",
+          "url": "https://osf.io/m3xk5",
+          "doi": "https://doi.org/10.31234/osf.io/m3xk5",
+          "filter": 0
+        },
+        {
+          "title": "Social Identity Explanations of System Justification: Misconceptions, Criticisms, and Clarifications – Supplementary Document",
+          "authors": "Mark Rubin",
+          "abstract": "This document supplements our reply to Jost et al.’s (2023) rejoinder to our initial article on the social identity model of system attitudes (SIMSA; Rubin et al., 2023). We respond to issues that we did not address in our main reply. Specifically, we argue that: (1) like SIMSA, Tajfel (1981) considered general, non-ideological, psychological processes; (2) system justification theory also refers to general, non-ideological, social psychological processes; (3) Jost et al. confuse respecting people with respecting people’s beliefs; (4) SIMSA proponents do not ignore system justification theory’s three motives; and (5) SIMSA may help to explain Osborne et al.’s (2019) results. In addition, (6) we apologise if we mischaracterised some researchers’ theoretical affiliations, and we respond to Jost et al.’s (7) questions about ideology; (8) criticisms of Owuamalam et al.’s (2016) work; and (9) criticisms about the validity of Owuamalam and Spears’ (2020) pupil dilation measure.",
+          "url": "https://osf.io/gpcdt",
+          "doi": "https://doi.org/10.31234/osf.io/gpcdt",
+          "filter": 0
+        },
+        {
+          "title": "Early readers know letter shape without knowing letter names",
+          "authors": "Jhilik Das; Sonali Nag; Usha MN; SP Arun",
+          "abstract": "Since learning to read involves associating letter shapes with how they sound, it is widely believed that children become familiar with letter shapes when they start learning their sounds or start writing them down. However, since printed letters are often available in the environment, it is possible that children are already familiar with letter shapes. Here, we provide evidence for this intriguing possibility. We tested 300 children at the beginning of formal reading instruction of the Indian language Kannada. Each child performed four tasks: (1) a letter familiarity task in which they saw upright and inverted versions of each letter, and had to identify the more familiar orientation; (2) a letter recognition task where they had to name letters shown sequentially; (3) a visual search task where they had to find an oddball letter among identical other letters, with letters either all upright or inverted; and (4) a rapid automatized naming task where they had to name digits. Our main finding is that, despite showing wide variation in letter naming, children were highly familiar with letter orientation. This effect was present even on letters that children did not recognize at all. This familiarity with letter orientation also gave them a letter processing advantage: children searched faster when letters were upright than when they were inverted. Our findings reveal a far deeper knowledge of print among early readers than previously observed, and provide empirical support for early exposure to print as a strategy to jump-start reading acquisition.",
+          "url": "https://osf.io/ybftn",
+          "doi": "https://doi.org/10.31234/osf.io/ybftn",
+          "filter": 0
+        },
         {
           "title": "The Psychology of Data Analysis: Toward A Person-Centered Approach To The Empirical Study Of Data Analysis",
           "authors": "Matthew Vanaman; Roger D. Peng",
@@ -54,14 +197,6 @@
           "filter": 0
         },
         {
-          "title": "Do Theory of Mind and Mental Time Travel abilities build on joint cognitive foundations?",
-          "authors": "Lydia Paulin Schidelko; Leonie Baumann; Marina Proft; hannes rakoczy",
-          "abstract": "Human thinking is special in that it goes beyond representing the here and now. Two relevant forms of such thinking are Theory of Mind (ToM) that enables us to represent others’ perspectives, and Mental Time Travel (MTT) that enables us to represent other points in time. The present studies investigate how these capacities are related in development. Do they build on the same cognitive foundations and thus emerge together? Do higher-order forms of the two abilities rely on analogous recursive embedding and thus progress in parallel and coordinated ways? We addressed these questions in four studies with 3- to 9-year-old children (N = 395). ToM was operationalized as first-, second-, and third-order false belief understanding. MTT was operationalized as reasoning about future possibilities (first-order), counterfactual reasoning (second-order) and anticipating counterfactual emotions (third-order). Study 1 shows a stepwise development of both ToM and MTT and a moderate consistency of performance patterns. However, across all four studies, we did not find robust correlations between first-, second- and third-order tasks of ToM and MTT, respectively. Overall, these results show stepwise and parallel trajectories in ToM and MTT, but do not provide stringent evidence for a joint cognitive foundation of the two capacities.",
-          "url": "https://osf.io/53y2r",
-          "doi": "https://doi.org/10.31234/osf.io/53y2r",
-          "filter": 0
-        },
-        {
           "title": "Promoting Air Quality-Related Awareness and Behavioural Change: A Rapid Review of communication interventions integrating behavioural, science communication and socio-ecological perspectives",
           "authors": "Roberto Cibin; Laura Horgan; Luigina Ciolfi; Samantha Dockray; Gillian Murphy; Dean Venables; Marica Cassarino",
           "abstract": "Background:\nAir pollution (AP) is a global environmental health threat. Day-to-day behaviours contribute to poor air quality (AQ) but limited public understanding of AQ warrants effective communication strategies to promote awareness and empower positive behavioural change.\n\n\nObjective:\nThrough the integration of behavioural, science communication, and socio-ecological frameworks, this rapid review mapped existing AQ-related communication interventions and their influence on AQ awareness, on protective and/or mitigating behaviours (i.e., avoiding exposure; reducing polluting activities), and on boosting civic engagement.\n\n\nMethods:\nBuilding on previous evidence syntheses, we conducted a comprehensive literature search of peer-reviewed and grey literature, including 79 studies for analysis. Findings were synthesised narratively and assessed for quality with the QuADS tool. We followed the Population, Interventions, Comparators, Outcomes, and Study designs (PICOS) criteria and the Preferred Reporting Items for Systematic Reviews and Meta-analyses (PRISMA) guidelines.\n\n\nResults:\nDespite high heterogeneity in intervention types, most served a persuasion or enablement function, often utilising dissemination modes such as websites or web applications, and most assessed awareness and/or engagement in protective behaviours. While most interventions focused on individual/household-level actions and interindividual dynamics, only some considered policy-level actions, and very few embedded infrastructural considerations in their communication. Overall, 47 studies reported positive impacts on awareness and/or behaviours, particularly through participatory approaches, although we noted issues associated with promoting meaningful participation and identified influencing psychosocial factors. Evidence of effectiveness for behaviours was often limited by observational designs and the focus on awareness only or self-reported behaviours/intentions.\n\n\nSignificance:\nOur findings highlight that top-down communication intervention can have a positive influence on AQ awareness, while findings on behavioural impact are mixed. We highlight growing attempts to communicate AQ-related risks and behavioural solutions through empowering approaches that are sensitive to individual and local circumstances, but note the need for further work to foster mitigating behaviours and civic engagement.",
@@ -91,6 +226,14 @@
           "abstract": "We present two meta-analyses examining the effectiveness of digital tools on reading outcomes for children and adolescents under 15. We differentiate between poor readers and general school readers, considering intervention type, syllabic complexity, and the type of reading outcomes as moderators. Our search encompassed randomized controlled trials and quasi-experimental trials that assessed digital interventions targeting cognitive or specifically reading-related skills, including a control group, published between 2000 and 2022. We included 41 studies (k = 194) for poor readers and 15 studies (k = 69) for general readers. Our findings from multilevel meta-analyses with robust variance estimation show positive impacts on reading performance for both poor (medium effect size: g = 0.433, CI = [0.3; 0.56], p &lt; 0.001) and general readers (small effect size: g = 0.256, CI = [.08; 0.43], p = 0.009). Notably, domain-specific interventions aided both reader types, while domain-general interventions were effective only for poor readers. The impact of syllabic complexity was limited, with only numerically stronger effects in languages with simpler syllabic structures. Effect sizes did not differ significantly between decoding and comprehension outcomes. These findings highlight the potential of tailored digital interventions to enhance reading skills, especially for those facing reading challenges, and underscore the need for considering additional characteristics in intervention design.",
           "url": "https://osf.io/4qksf",
           "doi": "https://doi.org/10.31234/osf.io/4qksf",
+          "filter": 0
+        },
+        {
+          "title": "External and Internalised Heterosexism, Meaning in Life, and Psychological Distress: A Conceptual Replication Study in a Sample of UK Lesbians",
+          "authors": "Ellen Frost; Madeleine Pownall; Daryl Brian O'Connor",
+          "abstract": "Minority stress theory poses that distal and proximal stressors cause sexual minority groups to experience excess stress, which can lead to poor mental health outcomes. Szymanski and Mikorski (2016) found that proximal internalised heterosexism mediated the relationship between distal heterosexist discrimination and psychological distress in a sample of lesbian, gay, and bisexual people. Meaning in life also moderated some of these pathways. Whilst this mediating relationship is established, research in this area typically examines all sexual minority people together. It is important, however, to explore the unique experiences of lesbian women independent of other sexual minority groups. Therefore, the present study aimed to conceptually replicate Szymanski and Mikorski’s (2016) findings in a sample of lesbian women. We examined the mediating role of internalised heterosexism in the heterosexist discrimination and psychological distress relationship in 363 UK lesbians. The moderating role of meaning in life, both search for and presence of, were also investigated. This was a cross-sectional self-report study with data collected from May 2024 to August 2024. In line with the original research, a moderated mediation analysis showed that internalised heterosexism significantly mediated the heterosexist discrimination and psychological distress link. However, no moderating role of search for meaning, nor presence of meaning was found, which did not replicate the results of the original study. This difference could be due to specific sample characteristics. Therefore, these results highlight the need for sexual minority women to be centralised in research in order to produce interventions tailored to specific sexual minority groups.",
+          "url": "https://osf.io/x7d6a",
+          "doi": "https://doi.org/10.31234/osf.io/x7d6a",
           "filter": 0
         },
         {
@@ -190,14 +333,6 @@
           "filter": 0
         },
         {
-          "title": "Free Text Factor Analysis",
-          "authors": "Nigel Guenole",
-          "abstract": "Variables in conventional psychometric factor analysis are homogenous and ordered item responses. Free text is instead heterogeneous and may or may not be ordered. Free text factor analysis needs a harmonization layer to scale text along common continua. Using a simulation measuring leader absorptive capacity I show how convex hulls might provide such a layer.",
-          "url": "https://osf.io/pmvqr",
-          "doi": "https://doi.org/10.31234/osf.io/pmvqr",
-          "filter": 0
-        },
-        {
           "title": "Do You Feel What I Feel? The Relation between Affective Congruence and Empathy in Daily Life Social Situations",
           "authors": "Whitney R. Ringwald; Colin Vize; Aidan Wright",
           "abstract": "Theories of empathy highlight the importance of affective congruence, which is the degree to which we match an interaction partner in negative or positive affect. However, no research to date has used a multi-pronged assessment approach necessary to investigate whether and how affective congruence typically relates to empathy (i.e., perception of others’ affect, self-reported affect, and self-reported empathy during interpersonal interactions). Using multilevel response surface analysis and ecological momentary assessment, we investigated relations between affective congruence and empathy during social interactions in a large sample of adults (N=526; total interactions=21,521; median=38 interactions per person). We found that while empathy is generally higher when there is affective congruence, empathy is highest when there is congruence in high positive affect. Further, people are least empathetic when they feel emotionally worse than they perceive the other person is feeling. These findings provide novel insights into the empathic processes.",
@@ -227,6 +362,14 @@
           "abstract": "Many religious concepts, such as belief in the existence of God, cannot be learned through first-hand observation alone. How do young learners come to develop a sense of belief in religion and the supernatural? We take a social-interactionist perspective to this question and argue that children’s belief is dependent on the particular cultural input to which they are exposed in their environment. We highlight research showing the impact of learning via interaction with family, peers, and the larger environment. Within these contexts, children learn both via the verbal testimonial information to which they are exposed, as well as through participating in rituals, and imitating other cultural group members. We indicate specific mechanisms that aid in the transmission of belief such as the credibility of the informant, the quality of the explanation posed to the child, and the saliency of the ritual. Such mechanisms can shed light on important ways in which to present novel information to learners across the lifespan.",
           "url": "https://osf.io/s3by2",
           "doi": "https://doi.org/10.31234/osf.io/s3by2",
+          "filter": 0
+        },
+        {
+          "title": "Loss Aversion in Auctions: Evidence from TV",
+          "authors": "Matthias Kasper; Anna Esslinger",
+          "abstract": "This study uses unique auction data to study loss aversion in sellers. Our analysis of TV shows including 512 auctions and 3,940 offers reveals that sellers perceive the appraised market value as the reference price. Consistent with the predictions of prospect theory, the likelihood to bargain for higher offers as well as the willingness to sell then reflects loss aversion. Specifically, we find that most bargaining happens in the loss domain and that sellers are 6% more likely to bargain for higher offers when the current offer is below the appraised market value. Conversely, the median value of accepted offers falls precisely on the reference price and willingness to sell is 11% higher for offers in the gain domain. We also investigate reference point formation and find that sellers’ initial expectations affect the outcomes of auctions. Consistent with the application of a MinMax heuristic, sellers who initially underestimate the value of their item sell below the reference price while sellers who initially overestimate the value of their item sell above the reference price. Finally, we find that duration of ownership can positively influence sellers’ price expectations, but neither duration of ownership nor emotional attachment affect seller behavior.",
+          "url": "https://osf.io/4hqjm",
+          "doi": "https://doi.org/10.31234/osf.io/4hqjm",
           "filter": 0
         },
         {
@@ -350,6 +493,14 @@
           "filter": 0
         },
         {
+          "title": "The impact of threat level and performance feedback on checking behaviour and  its concomitants: A multi-site study",
+          "authors": "Sruthi Sridhar; Bronwyn Steenekamp; Anthea Manuel; Belkis Sayin; Nicolò Biagi; Shannon Wake; Jayne Morriss",
+          "abstract": "Checking behaviours are engaged to prevent adverse outcomes and alleviate \nuncertainty. However, there is still a gap in our understanding as to how factors such as \nthreat level and performance feedback impact the frequency of checking and \nassociated concomitants. To address these questions, we collected data across two \nlab sites (n = 208) and manipulated threat level (low threat: performance score only; \nhigh threat: mild electric shock based on performance score) and performance \nfeedback (no feedback, feedback) during a visual discrimination and checking task. \nThroughout the task, we recorded checking frequency, ratings of the urge to check and \ndistress, task performance, and corrugator supercilii activity. High threat versus low \nthreat led to increased checking frequency in one testing site, but not the other. No \neffect of performance feedback was observed on checking frequency. Performance \nfeedback was associated with the urge to check differently across sites. Both, high \nthreat versus low threat, and no feedback versus feedback, were separately associated \nwith improved task accuracy for easier trial types. Lastly, no feedback, compared to \nfeedback, was associated with greater engagement of the corrugator supercilii. These \nresults suggest that: (1) higher threat level increases checking behaviour to some extent \nand improves task performance, and (2) the absence of feedback improves task \nperformance and is associated with greater distress or effort. Overall, these findings \nprovide insight into how factors such as threat level and performance feedback \ndifferently impact checking behaviour and its concomitants.",
+          "url": "https://osf.io/2vt4f",
+          "doi": "https://doi.org/10.31234/osf.io/2vt4f",
+          "filter": 0
+        },
+        {
           "title": "Racial Biases in Polygraphs and Their Legal Implications",
           "authors": "Daniel E. Bradford; Freya Whittaker; Angelica DeFalco; Keanan Joyner",
           "abstract": "Increased attention to racial inequities catalyzed a surge in publications documenting racial biases in neuroscience with one recent article in Nature Neuroscience effectively drawing attention to how skin conductance response is less reliably detected for Black individuals than White. In this correspondence, we introduce pressing additional “real world” concerns in how polygraphs heavily rely on this measure. Despite well-documented issues of validity and reliability with polygraphs, they continue to be used in various stages of the legal system. With Black individuals already facing disproportionate incarceration rates, the reduced reliability for skin conductance used in polygraphs for Black individuals can further exacerbate legal system inequity. Furthermore, these biases accentuate existing challenges interpreting polygraph results given their subjectivity as well as the heightened police-related anxiety reported among Black individuals. We join calls for re-evaluation and possibly exclusion of polygraph evidence in legal settings, considering the amplified risks it poses to Black individuals.",
@@ -398,6 +549,14 @@
           "filter": 0
         },
         {
+          "title": "Psychometric Properties and Validity of a Mobile Patient Health Questionnaire-9 (MPHQ-9) for Ecological Momentary Assessment in Depressed Adults",
+          "authors": "Dawson Haddox; Daniel Mackin; Tess Griffin; Michael V. Heinz; Matthew David Nemesure; Amanda C Collins; George Price; Damien Lekkas; Arvind Pillai; Subigya Nepal",
+          "abstract": "Ecological momentary assessment (EMA) offers advantages over retrospective questionnaires by reducing recall bias and capturing rapid symptom dynamics, and it is increasingly used to measure depression symptoms. However, few depression symptom measures are validated for EMA use in the manner expected for traditional questionnaires. Therefore, the current study examined the internal consistency, longitudinal stability, and convergent validity of the Mobile Patient Health Questionnaire-9 (MPHQ-9), a version of the PHQ-9 modified for EMA. Depressed participants (N = 280; Female = 83.93%; White = 79.29%) completed the MPHQ-9 three times daily for 90 days. Data from the first and last 2 weeks were analyzed to align with a pre-study PHQ-9 and post-study PHQ-9 and Inventory of Depression and Anxiety Symptoms - Expanded Version (IDAS-II). The MPHQ-9 demonstrated fair to substantial adjusted item-total correlations (r = 0.42–0.83), often exceeding the PHQ-9 (r = 0.39–0.72). Inter-item correlations ranged from slight to substantial for the MPHQ-9 (r = 0.26–0.87) and were typically larger than the correlations observed for the PHQ-9 (r = 0.11–0.71). Cronbach’s alpha coefficients were substantial for both the MPHQ-9 (.91) and PHQ-9 (.81). The MPHQ-9 showed moderate and superior stability (r = .69), compared to the slight stability of the PHQ-9 (r = .39). There was moderate agreement between the MPHQ-9 and both the PHQ-9 (r = .71) and the IDAS-II General Depression subscale (r = .65). This study provides initial validation of the MPHQ-9 and suggests it may be a better measure of depression symptomatology than the PHQ-9 in some contexts.",
+          "url": "https://osf.io/rfvy5",
+          "doi": "https://doi.org/10.31234/osf.io/rfvy5",
+          "filter": 0
+        },
+        {
           "title": "Biased Mind or Biased World? Assessing the Accuracy of Cultural Beliefs that Underlie Social Judgments",
           "authors": "Johanna Falben; Lucas Castillo; Pablo Leon-Villagra; Nick Chater; Adam N Sanborn",
           "abstract": "Societal expectations have been found to determine which social roles people should occupy. However, so far, these beliefs have been mainly explored using implicit measures where expectation-confirming (vs. violating) judgments tend to be more efficient. The present study (N = 44) applied a novel approach – the random generation paradigm – to explore how pre-existing social assumptions determine which information is retrieved from memory when prompted by different social categories. Specifically, we asked participants to imagine people working in certain professions and to say their names out loud. We found that the statistics of the uttered names reflected societal gender stereotypes and environmental statistics of actual people working in these occupations. Importantly, the proportion of female and male names generated for each profession by each participant predicted their performance in a sequential priming task (prime = stereotyped professions, target = female and male faces) better than the environmental statistics or participants’ explicit estimates of gender proportions. Together, these findings offer a new, and widely applicable, method for exploring cultural beliefs and help clarify how social information is sampled from memory when making social judgments.",
@@ -411,14 +570,6 @@
           "abstract": "Navigating what is true and what is not is increasingly challenging in today’s world of fake news and alternative facts. Misinformation can spread rapidly, often unintentionally, leading people to believe inaccurate information. Our research investigated how two competing causal information encountered at different times during an event description affect memory of that event. Our first experiment (N = 67) found a misleading post-event information effect (correct first; incorrect second) with written texts (rather than videos and questions). Our second experiment (N = 51) found a continued influence effect with a reversed order of accurate and misleading causes (incorrect first; correct second). Thus, both experiments demonstrated misinformation effects. Our third experiment (N = 54) showed that presenting incorrect and correct causes in direct relation reduced the influence of misinformation. Our research stresses the importance of understanding the interplay between order effects and memory updating, providing valuable insights into the dynamics of misleading information on memory.",
           "url": "https://osf.io/fbu6k",
           "doi": "https://doi.org/10.31234/osf.io/fbu6k",
-          "filter": 0
-        },
-        {
-          "title": "A German version of the State Difficulties in Emotion Regulation Scale (S-DERS): Translation, Validation and  Extended Factor Models",
-          "authors": "Maurizio Sicorello; Moritz Elsaesser; David R. Kolar",
-          "abstract": "Difficulties in emotion regulation are an essential transdiagnostic phenomenon of mental health. While there is extensive literature focusing on emotion regulation difficulties as trait-like constructs, it is inherently a dynamic process that unfolds over time. This raises the need for state-like measures to capture these temporal dynamics in both laboratory and real-world settings, such as the State Difficulties in Emotion Regulation Scale (S-DERS). In the present study, we report the German translation and validation of the S-DERS and present a cross-sectional network analysis to stimulate novel hypotheses for pathways linking single discrete difficulties. A sample of 214 participants underwent a negative mood induction followed by an assessment of the 21-item S-DERS. The results confirm the four-factor structure, reliability, and construct validity of the original English version. Consistent with previous studies on the trait-DERS, we find that an exploratory structural equation modeling approach with extensive cross-loadings is necessary to reach good model fit. Moreover, a model with four correlated factors outperformed a bi-factor and high-order model. This indicates there is no single latent construct of emotion regulation difficulties, but rather four distinct but related constructs for (a) Non-acceptance of Current Emotions, (b) Limited Ability to Modulate Current Emotional and Behavioral Responses, (c) Lack of Awareness of Current Emotions, and (d) Lack of Clarity about Current Emotions. These associations may imply a complex causal interplay between these factors.",
-          "url": "https://osf.io/8mzvu",
-          "doi": "https://doi.org/10.31234/osf.io/8mzvu",
           "filter": 0
         },
         {
@@ -500,97 +651,49 @@
           "url": "https://osf.io/m5wdj",
           "doi": "https://doi.org/10.31234/osf.io/m5wdj",
           "filter": 0
-        },
-        {
-          "title": "The association between socio-communicative traits associated with Autism and pupillary responses to dynamic, audiovisual emotional speech",
-          "authors": "Marilyn Chege; Ryan Stevenson",
-          "abstract": "Autistic individuals commonly exhibit difficulties with emotion recognition, difficulties that contribute to social issues in Autism. Both emotion recognition and social abilities are distributed along a spectrum in Autism and the general population. We explored this relationship between emotional processing, as measured via the physiological response of pupil dilation, and Autistic traits, including social abilities. We presented participants with dynamic, audiovisual stimuli of actors uttering a semantically neutral phrase. These utterances were expressed with either neutral tone of voice and facial expression, or with angry, fearful, disgusted, sad, or surprised tone and expression. Each emotion was presented with high- and low-intensity depictions. Participants were asked to identify the emotion and rate its intensity. Participants’ pupillary responses were recorded during viewing. Traits associated with Autism were measured through a battery of self-report scales. We then tested for associations between Autistic traits and pupillary response to emotional stimuli. Broadly speaking, individuals with higher Autistic traits exhibited smaller overall pupillary responses to emotional stimuli. More specifically, emotional responses were related to socio-communicative Autistic traits. Further, social traits were especially correlated with physiological responses to low-intensity emotional presentation. This reflects previous studies suggesting that Autistic individuals show more pronounced difficulties with emotion recognition when emotional expression is more subtle. Finally, social Autistic traits were related to physiological responses to anger, fear, surprise, and to a lesser extent happiness, but not to sadness or disgust.",
-          "url": "https://osf.io/jtgb4",
-          "doi": "https://doi.org/10.31234/osf.io/jtgb4",
-          "filter": 0
-        },
-        {
-          "title": "Will it Sink or Float? No Gender Differences in Five- to Seven-year-old Children’s Persistence on a Science Task",
-          "authors": "Nicole Stucke; Sabine Doebel",
-          "abstract": "Recent studies suggest that girls as young as four years of age persist less than boys on science tasks, and that this may be driven by negative gender-STEM stereotypes. However, to date no studies have tested the presumed link between gender-STEM stereotypes and science task persistence. The reported preregistered study involving 109 5- to 7-year-old children from a suburb in the Eastern region of the US (58% White, 9% Asian, 3% Latinx, 2% Black/African American, 28% mixed race/ethnicity; average socioeconomic status above the national average) aimed to replicate previous findings of gender differences in science task persistence using a physical sink-or-float science task and test if any differences were related to stereotyping. No gender difference in science-task persistence was found, and Bayesian analysis indicated moderate support for the null hypothesis of no gender effect. Instead, task accuracy and enjoyment predicted persistence. There was mixed evidence of gender-STEM stereotypes, and stereotypes did not relate to persistence on the science task. These findings call for a reconsideration of previous results and suggest future directions for research on the origins of gender differences in STEM engagement.",
-          "url": "https://osf.io/gqu9r",
-          "doi": "https://doi.org/10.31234/osf.io/gqu9r",
-          "filter": 0
-        },
-        {
-          "title": "Algorithmic Aesthetics: Cognitive Perspectives on AI-Generated Art",
-          "authors": "Ionela Bara; Kohinoor Monish Darda; Richard Ramsey; Emily S. Cross",
-          "abstract": "In recent years, the use of generative artificial intelligence (GAI) has proliferated across various domains, ranging from advertising and social media to the generation of artwork for presentation at esteemed art exhibitions and for sale on the art auction market. Despite its growing prevalence, empirical data show that people maintain a clear bias against AI-generated art. Here we explore why this bias might exist, and whether its existence dooms the eventual acceptance and even celebration of art generated by artificial means. We do this by bringing together recent empirical evidence from the disciplines of neuroaesthetics, social cognition, art history, and human-machine interaction to develop several new perspectives that are ripe for empirical evaluation. Given the growing momentum and outlook of AI-generated art in today’s society, our aim with this paper is to provide novel evidence-based propositions for understanding the relationship between art and artificial intelligence with a clear focus on social cognitive neuroscience perspectives.",
-          "url": "https://osf.io/w7a9s",
-          "doi": "https://doi.org/10.31234/osf.io/w7a9s",
-          "filter": 0
-        },
-        {
-          "title": "Voice cloning: Psychological and ethical implications of intentionally synthesising familiar voice identities.",
-          "authors": "Carolyn McGettigan",
-          "abstract": "Voice cloning technology uses artificial intelligence to resynthesise a human talker's vocal identity. Given the deeply personal nature of voices, the widening availability of voice clones brings both advantages and risks for human society. This article outlines key concepts and findings from psychological research on self- and other-voice perception that have a bearing on the potential impacts of synthetic voice likenesses on human listeners. Additional insights from speech and language therapy, human-computer interaction, ethics, and the law are incorporated to examine the broader implications of emergent and future voice cloning technologies.",
-          "url": "https://osf.io/29jyq",
-          "doi": "https://doi.org/10.31234/osf.io/29jyq",
-          "filter": 0
-        },
-        {
-          "title": "Analogies evolve by increasing transmission fidelity in the communication of complex information",
-          "authors": "Thomas Holding; Paul E. Smaldino; Charlotte (Lotty) Brand",
-          "abstract": "Analogies are a fundamental part of our cognition and communication. Humans are also a social species with shared cultural repertoires learnt throughout our lifetimes. As such, we expect analogies to enable the learning of complex, novel information by communication that takes advantage of shared cultural information. Here, we demonstrate the plausibility of this proposal and clarify its scope through computational modelling. We first model the individual-level process of learning via analogy with access to a shared repertoire of cultural information, using NK landscapes to represent high-dimensional solution spaces for complex problems. We then analyse a model of population dynamics to consider the conditions under which analogical communication will evolve and be maintained when costly. Our analyses suggest that even when analogy use is costly in terms of both search time and memory constraints, it can nevertheless be advantageous by allowing learners to obtain high-quality solutions more efficiently and more often than those who don't learn via analogy.",
-          "url": "https://osf.io/aqc5f",
-          "doi": "https://doi.org/10.31234/osf.io/aqc5f",
-          "filter": 0
-        },
-        {
-          "title": "Influence of Community Notes on User Attitudes on Social Media",
-          "authors": "Sam Gowland; Dirk van der Linden; Brittany Davidson",
-          "abstract": "Social media has increasingly been recognized as guiding public opinion and shaping attitudes towards a variety of topics. While moderation efforts such as Community Notes are primarily used for fact checking to counter misinformation, we investigate its ability as a vehicle for attitudinal change, using a neutral case study of a commonly disliked animal species exhibiting natural behavior in human environments. We discuss results of a between-groups experiment investigating whether dislike can be neutralized using community notes moderation, and to what extent lexical style of the community note may affect neutralization. We found that a tweet accompanied by a community note explaining the gull behavior as natural led to a significantly less negative attitude towards the gull by reducing polarity, and discuss what implications this holds for a broader important use of media moderation to reduce polarization on social media.",
-          "url": "https://osf.io/afk2c",
-          "doi": "https://doi.org/10.31234/osf.io/afk2c",
-          "filter": 0
-        },
-        {
-          "title": "Perceived plasticity of climate-relevant behaviors and policy support among high- and lower-income individuals",
-          "authors": "Kristian Steensen Nielsen; Fabian Dablander; Ramit Debnath; Charles Emogor; Sakshi Ghai; Wencke Gwozdz; Ulf J.J. Hahnel; Wilhelm Hofmann; Jan Michael Bauer",
-          "abstract": "Widespread behavior changes are essential to mitigate climate change, including adopting\nimproved technologies and reducing energy-intensive activities. This study examines country\nand income differences in the perceived plasticity of climate-relevant behaviors and their\nconnection to climate policy support through an online survey across Denmark, India,\nNigeria, and the United States (n = 4,003). In each country, 50% of participants were from\nthe top 10% income group, a demographic systemically under-represented in behavioral\nresearch. Our findings reveal substantial heterogeneity in the perceived plasticity of\ninvestment and curtailment behaviors, with higher plasticity observed in India and Nigeria.\nWe also identify varying relationships between income and perceptions of behavioral\nplasticity across different behaviors and countries. Consistent with previous studies, we find\npositive correlations between perceived behavioral plasticity and support for domain-matched\nclimate policies. These results underscore the intricate relationships between income,\nperceptions of behavioral plasticity, and support for climate policies.",
-          "url": "https://osf.io/x6473",
-          "doi": "https://doi.org/10.31234/osf.io/x6473",
-          "filter": 0
-        },
-        {
-          "title": "Exploring Family Profiles in Explaining Heterogeneity in Parenting Program Engagement and Effectiveness",
-          "authors": "Joyce Weeland; Amaranta de Haan; Stephen Scott; Maria João Seabra-Santos; Carolyn Webster-Stratton; Sinéad McGilloway; Walter Matthys; Maria Filomena Gaspar; Margiad Williams; Willy Tore Mørch",
-          "abstract": "Parenting programs have proven effective in reducing disruptive child behavior. However, not all families benefit equally, and, to date, we have little insight into who benefits more or less, and why. One possible solution is to explore how different potential moderators cluster together in individual families and whether such family profiles predict who benefits more or less from these programs. This study explores: (1) how family, child, and parenting risk factors for disruptive behavior cluster together in families enrolled in the popular and evidence-based Incredible Years Parenting Program using latent profile analyses; (2) how family profiles relate to covariate family characteristics; and (3) whether profiles predict program engagement (i.e., number of sessions attended by caregivers), and effectiveness of (i.e., pre-post changes in disruptive behavior). Individual participant data from six studies across four countries (Norway, the Netherlands, England, Portugal) were used, including a total sample of 772 families with children aged 2.5 to 9 years (M = 5.14; SD = 1.10; 58.0% boys). Families could be profiled into a low and high risk profile, which differed on most child and family (but not parenting) risk factors as well as on covariate family characteristics, such as severity of disruptive behavior. Profile membership predicted engagement in, but not effectiveness of, the program. These findings provide useful insights into the heterogeneity in families participating in parenting programs, although there is a need for further research on how such differences may relate to differences in program effectiveness.",
-          "url": "https://osf.io/58p3v",
-          "doi": "https://doi.org/10.31234/osf.io/58p3v",
-          "filter": 0
-        },
-        {
-          "title": "Assessing the Internal Consistency Reliability of Ecological Momentary Assessment Measures: Insights from the WARN-D Study",
-          "authors": "Sebastian Castro-Alvarez; Di Jody Zhou; Laura Francina Bringmann; Rayyan Tutunji; Ricarda Katharina Karola Proppert; Carlotta Rieble; Eiko I Fried; Siwei Liu",
-          "abstract": "Intensive longitudinal research has become increasingly popular in the social and clinical sciences in recent years. However, this popularity has brought about many challenges for both methodological and empirical researchers, including challenges regarding measurement. In this study, we are particularly interested in the assessment of the reliability when multiple items are used to measure the same construct in intensive longitudinal data. This is important because reliability estimates are necessary (albeit not sufficient) to evaluate the quality of measures. Here, we evaluate the internal consistency reliability of scales used during Stage 2 of the WARN-D study, a 3-month period of daily and weekly measurements. The WARN-D study is a prospective 2-year study of approximately 1750 students conducted in the Netherlands, aiming at building an early warning system for depression. Stage 2 includes three months of data on positive and negative affect measured four times a day, and depression and anxiety measured once a week. To assess the reliability of each scale, we use six different statistical approaches including three simpler approaches that estimate the reliability at the between-person and within-person level, and three idiographic approaches that estimate person-specific reliability coefficients. This paper also serves as a tutorial guide for substantive researchers, providing coded examples to facilitate the reporting of the reliability of Ecological Momentary Assessement (EMA) measures. We encourage all researchers to report the reliability of their data when applying the introduced statistical approaches, contributing to a collaborative effort toward developing more reliable measures in psychological and behavioral science.",
-          "url": "https://osf.io/nrzsc",
-          "doi": "https://doi.org/10.31234/osf.io/nrzsc",
-          "filter": 0
-        },
-        {
-          "title": "Perceived Relational Mobility is Associated with Generalized Trust but not Intimacy: A Survey of Individuals from the U.S. and Japan",
-          "authors": "Yutaka Horita; Miku Yamazaki; Asuka Tahara",
-          "abstract": "Relational mobility, the degree of opportunity to form new relationships in a particular environment, explains cultural differences in interpersonal behavior. Theoretically, relational mobility is thought to be related to the contrasting tendencies in social networks: expansion of relationships (i.e., trust) and commitment to existing relationships (i.e., intimacy). This study reexamined whether perceived relational mobility is associated with the formation and maintenance of social networks. A cross-cultural survey was conducted with 299 American and 298 Japanese people. We investigated the correlations between generalized trust, intimacy with friends, self-disclosure, and the number of social networks. Consistent with previous studies, this study found that Americans are more likely than Japanese to trust strangers, feel intimate with and disclose themselves to their closest friends, and have more relationships. Perceived relational mobility explained the cultural difference in generalized trust but not in intimacy with friends when controlling for other individual characteristics. Generalized trust was associated with a greater number of people to seek advice from, and a greater number of advice networks correlated with higher levels of well-being. The results suggest that relational mobility is associated with psychology related to expanding networks, rather than strengthening existing relationships.",
-          "url": "https://osf.io/wp4d2",
-          "doi": "https://doi.org/10.31234/osf.io/wp4d2",
-          "filter": 0
-        },
-        {
-          "title": "The Politics of University Faculty",
-          "authors": "Nathan Honeycutt",
-          "abstract": "University faculty have been decidedly liberal for the at least the past 50 years, but since 2016 no large-scale surveys reporting the ideology of U.S. faculty have been conducted and published. The present brief provides an updated snapshot of the ideological composition U.S. college and university faculty, and reports representation quotients comparing the demographic composition of faculty to the demographic composition of U.S. adults. Implications are briefly discussed.",
-          "url": "https://osf.io/dnxqh",
-          "doi": "https://doi.org/10.31234/osf.io/dnxqh",
-          "filter": 0
         }
       ],
       "articles_hidden": [
+        {
+          "title": "Mental Health in the First Generation of Adults with Fanconi Anemia",
+          "authors": "Kathleen Bogart",
+          "abstract": "Fanconi anemia (FA) is a rare genetic disorder involving bone marrow failure and cancer predisposition. Due to medical advances, people with FA are now living to adulthood and unmet mental health concerns are emerging. We aimed to explore mental health outcomes and protective and risk factors for the first time using a participatory research approach. Participants included 102 adults with FA from diverse national, ethnic, and racial backgrounds who completed validated measures of anxiety, depression, post-traumatic stress disorder (PTSD), health-related quality of life, FA characteristics, personal factors, and social factors. When compared to population norms, adults with FA had significantly poorer health-related quality of life on all domains measured, including anxiety, depression, fatigue, physical function, sleep disturbance, social participation, pain, and cognitive function. Results showed 50% of participants had probable PTSD, 33% had probable anxiety, and 25% had probable depression. Hierarchical regressions indicated protective/risk factors for anxiety, depression, and PTSD included stigma, disability self-efficacy, fatigue, concern with death and dying, and post-traumatic growth. Adults with FA have high rates of PTSD, anxiety, and depression. Just as people with FA should receive regular cancer screenings, they should also be screened for mental health symptoms.",
+          "url": "https://osf.io/yn39a",
+          "doi": "https://doi.org/10.31234/osf.io/yn39a",
+          "filter": 2
+        },
+        {
+          "title": "mlmpower: An R Package for Conducting Power Analysis and Data Simulation with Multilevel Models",
+          "authors": "Brian T Keller",
+          "abstract": "Power analysis is a critical step in designing studies involving multilevel models, yet existing approaches can be complex and limited in flexibility. This paper introduces mlmpower, an R package designed to simplify Monte Carlo power analysis for multilevel models. The package accommodates various model specifications, including cross-level interactions, random slopes, and within-cluster and between-cluster predictors. Unlike other methods, which often require a pilot study or extensive prior data, mlmpower uses intuitive effect size metrics to simulate data and estimate power with confidence intervals. Inspired by ggplot2, the package's syntax allows for modular model building, making it accessible even to researchers with minimal simulation experience. Additionally, mlmpower supports including missing data mechanisms, offering more realistic power estimates for longitudinal and cross-sectional studies.",
+          "url": "https://osf.io/utjrg",
+          "doi": "https://doi.org/10.31234/osf.io/utjrg",
+          "filter": 2
+        },
+        {
+          "title": "Desirability biases perceptual decisions in the aversive domain",
+          "authors": "Haena Kim; Alicia Liu; Yuan Chang Leong",
+          "abstract": "Perceptual judgments are often influenced by goals and preferences, resulting in biased judgements that deviate from objective reality. When presented with ambiguous images, observers are biased to report seeing images associated with rewards. However, it remains unclear whether this is driven by a bias toward stimuli that people are motivated to see (i.e., desirability) or stimuli that are motivationally significant (i.e., relevance). As rewards are both desirable and motivationally relevant, these effects are not easily dissociated in a reward context. This study investigates the effects of desirability and relevance on perceptual judgments in an aversive context involving financial losses. Across two experiments conducted between 2023-2024, participants completed a visual categorization task where ambiguous stimuli were associated with a large financial loss. Participants’ perceptual judgments were biased away from stimuli associated with the loss, indicating a desirability bias. Drift diffusion model analyses revealed that this bias was due to a shift in the starting point of evidence accumulation, such that participants required more evidence to commit to a response associated with an undesirable outcome. The bias in starting point correlated with individual differences in punishment sensitivity but not reward sensitivity, highlighting how individual traits shape motivational effects on perceptual decisions. Results replicated across an in-lab sample and a larger online sample. Altogether, our study provides robust evidence of a desirability bias in perceptual decisions involving financial losses, identifying both the computational mechanisms and trait-level differences that influence how people decide what they see when faced with the prospect of undesirable outcomes.",
+          "url": "https://osf.io/8mnb7",
+          "doi": "https://doi.org/10.31234/osf.io/8mnb7",
+          "filter": 2
+        },
+        {
+          "title": "A Qualitative Analysis of Lived Experiences, Mental Health Treatment Needs, and Psychotherapeutic Applications Among Veterans with Long COVID",
+          "authors": "Caroline Boucher; Sofie Glatt; Chana Silver; Lakshmi Chennapragada; Sarah Sullivan; Ariana Dichiara; Yosef Sokol; Sapana Patel; Marianne Goodman",
+          "abstract": "Long COVID remains a pressing health concern among Americans, with current data suggesting that 45% of those infected by COVID-19 experience at least one symptom of Long COVID. Veterans are a particularly at-risk population due to their unique demographic characteristics and lived experiences. Despite this, there has been a lack of treatment development for Long COVID that targets mental health symptoms and is veteran-specific. There is a need for effective treatments to help veterans cope with a Long COVID diagnosis and recovery. This quality improvement project aims to gain insight into the lived experiences and mental health needs of veterans with Long COVID to help inform future treatment development. A sample of 21 veterans (57% Male, 67% Black, 43% Hispanic) participated in qualitative interviews where they were asked 23 questions about their experiences living with Long COVID and seeking medical treatment, as well as their ongoing mental health needs. Qualitative data was extracted from these interviews and analyzed. Four main themes were identified: interpersonal concerns and challenges with social interaction; difficulties with day-to-day living; barriers and facilitators to accessing medical treatment; and mental health effects and attitudes towards psychotherapy. Veterans described significant impairments in functioning, as well as feelings of isolation and loneliness. These findings demonstrate the need for a psychotherapeutic intervention that can facilitate interpersonal connection, improve functioning, and decrease psychiatric symptoms.",
+          "url": "https://osf.io/h9pva",
+          "doi": "https://doi.org/10.31234/osf.io/h9pva",
+          "filter": 2
+        },
+        {
+          "title": "Mental health professionals’ attitudes towards the network theory of mental disorders",
+          "authors": "Lea Schumacher; Levente Kriston",
+          "abstract": "The network theory proposes to conceptualize mental disorders as networks of interacting symptoms. While clinical expertise could offer a valuable perspective on this theory and its applications, little is known about mental health professionals´ attitudes. In an online survey, mental health professionals rated their agreement with propositions of the network theory and evaluated the acceptability and appropriateness of possible applications. The 257 participating mental health professionals largely agreed with the network theory’s proposition regarding the phenomenology of mental disorders and regarding treatment effects. Appraisal of the network theory regarding the aetiology, regarding important treatment targets and regarding acceptability and appropriateness of possible applications was mixed. A background in cognitive behavioural therapy, and previous knowledge of the network theory were positively associated with agreement. The core assumptions of the network approach seem to resonate with mental health professionals, while consequences for the diagnosis and treatment for mental disorders were questioned.",
+          "url": "https://osf.io/462cs",
+          "doi": "https://doi.org/10.31234/osf.io/462cs",
+          "filter": 2
+        },
         {
           "title": "The privileged role of thematic conceptual relations in episodic memory",
           "authors": "Weijia Cao; Omri Raccah; Phoebe Chen; David Poeppel; Alexa Tompary",
@@ -601,7 +704,7 @@
         },
         {
           "title": "Temperament multi-trajectory groups across adolescence: Associations with adulthood psychopathology and polygenic scores in TRAILS",
-          "authors": "Frances Wang; Shirley Duong; Heather; Traci M. Kennedy; Catharina Hartman",
+          "authors": "Frances Wang; Shirley Duong; Heather Joseph; Traci M. Kennedy; Catharina Hartman",
           "abstract": "It is well-established that adolescents’ temperament trajectories predict future psychopathology. Less well understood is how temperament traits co-develop from adolescence to young adulthood. We characterized how trajectories of effortful control, frustration, affiliation, and shyness in adolescence to formed multi-trajectory groups. As these groups could provide novel information about pathways to psychopathology, we examined their associations with adulthood psychopathology and polygenic risk scores (PRS). Participants were drawn from a larger longitudinal cohort (N=1412). Effortful control, frustration, affiliation, and shyness were measured four times from ages 10-23. Adulthood internalizing, externalizing, and alcohol problems were measured at ages 24-27. PRS with continuous shrinkage priors were calculated. Group-based multi-trajectory analyses showed a five-group model fit best, including high-risk, undercontrolled, low-risk, overcontrolled, and low affiliation groups that differed on both the levels and slopes of temperament traits over time. We found specific linkages between the low affiliation group and problematic alcohol use, the high-risk group and depression symptoms, and the high-risk and undercontrolled groups with externalizing problems. The undercontrolled group showed the highest, and overcontrolled the lowest, externalizing PRS scores. Findings shed light on developmental patterns of temperament in adolescence-to-adulthood and unique combinations of temperament trajectories with specific linkages to etiologic factors and psychopathology.",
           "url": "https://osf.io/bu96m",
           "doi": "https://doi.org/10.31234/osf.io/bu96m",
@@ -613,6 +716,14 @@
           "abstract": "Despite the last decade’s development of optogenetic methods for artificially manipulating engrams, and subsequent claims that there is a consensus that memories are stored in ensembles of synaptic connections, it remains unclear to what degree there truly is unanimity within the neuroscientific community about the neurophysiological basis of long-term memory. We surveyed 312 neuroscientists, comprising one cohort of experts on engram research and another of general neuroscientists, to assess this community’s views on how memories are stored. While 70.5% of participants agreed that long-term memories are primarily maintained by neuronal connectivity patterns and synaptic strengths, there was no clear consensus on which specific neurophysiological features or scales are critical for memory storage. Despite this, the median probability estimate that any long-term memories could potentially be extracted from a static snapshot of brain structure was around 40%, which was also the estimate for whether a successful whole brain emulation could theoretically be created from the structure of a preserved brain. When predicting the future feasibility of whole brain emulation, the median participant estimated this would be achieved for C. elegans around 2045, mice around 2065, and humans around 2125. Notably, neither research background nor expertise level significantly influenced views on whether memories could be extracted from brain structure alone. Our findings suggest that while most neuroscientists believe memories are stored in structural features of the brain, fundamental questions about the precise physical basis of memory storage remain unresolved. These findings have important implications for both theoretical neuroscience and the development of technologies aimed at preserving or extracting memory-related information.",
           "url": "https://osf.io/keq7w",
           "doi": "https://doi.org/10.31234/osf.io/keq7w",
+          "filter": 2
+        },
+        {
+          "title": "Do Theory of Mind and Mental Time Travel abilities build on joint cognitive foundations?",
+          "authors": "Lydia Paulin Schidelko; Leonie Baumann; Marina Proft; hannes rakoczy",
+          "abstract": "Human thinking is special in that it goes beyond representing the here and now. Two relevant forms of such thinking are Theory of Mind (ToM) that enables us to represent others’ perspectives, and Mental Time Travel (MTT) that enables us to represent other points in time. The present studies investigate how these capacities are related in development. Do they build on the same cognitive foundations and thus emerge together? Do higher-order forms of the two abilities rely on analogous recursive embedding and thus progress in parallel and coordinated ways? We addressed these questions in four studies with 3- to 9-year-old children (N = 395). ToM was operationalized as first-, second-, and third-order false belief understanding. MTT was operationalized as reasoning about future possibilities (first-order), counterfactual reasoning (second-order) and anticipating counterfactual emotions (third-order). Study 1 shows a stepwise development of both ToM and MTT and a moderate consistency of performance patterns. However, across all four studies, we did not find robust correlations between first-, second- and third-order tasks of ToM and MTT, respectively. Overall, these results show stepwise and parallel trajectories in ToM and MTT, but do not provide stringent evidence for a joint cognitive foundation of the two capacities.",
+          "url": "https://osf.io/53y2r",
+          "doi": "https://doi.org/10.31234/osf.io/53y2r",
           "filter": 2
         },
         {
@@ -688,11 +799,11 @@
           "filter": 2
         },
         {
-          "title": "Loss Aversion in Auctions: Evidence from TV",
-          "authors": "Matthias Kasper; Anna Esslinger",
-          "abstract": "This study uses unique auction data to study loss aversion in sellers. Our analysis of TV shows including 512 auctions and 3,940 offers reveals that sellers perceive the appraised market value as the reference price. Consistent with the predictions of prospect theory, the likelihood to bargain for higher offers as well as the willingness to sell then reflects loss aversion. Specifically, we find that most bargaining happens in the loss domain and that sellers are 6% more likely to bargain for higher offers when the current offer is below the appraised market value. Conversely, the median value of accepted offers falls precisely on the reference price and willingness to sell is 11% higher for offers in the gain domain. We also investigate reference point formation and find that sellers’ initial expectations affect the outcomes of auctions. Consistent with the application of a MinMax heuristic, sellers who initially underestimate the value of their item sell below the reference price while sellers who initially overestimate the value of their item sell above the reference price. Finally, we find that duration of ownership can positively influence sellers’ price expectations, but neither duration of ownership nor emotional attachment affect seller behavior.",
-          "url": "https://osf.io/4hqjm",
-          "doi": "https://doi.org/10.31234/osf.io/4hqjm",
+          "title": "Free Text Factor Analysis",
+          "authors": "Nigel Guenole",
+          "abstract": "Variables in conventional psychometric factor analysis are homogenous and ordered item responses. Free text is instead heterogeneous and may or may not be ordered. Free text factor analysis needs a harmonization layer to scale text along common continua. Using a simulation measuring leader absorptive capacity I show how convex hulls might provide such a layer.",
+          "url": "https://osf.io/pmvqr",
+          "doi": "https://doi.org/10.31234/osf.io/pmvqr",
           "filter": 2
         },
         {
@@ -784,14 +895,6 @@
           "filter": 2
         },
         {
-          "title": "The impact of threat level and performance feedback on checking behaviour and  its concomitants: A multi-site study",
-          "authors": "Sruthi Sridhar; Bronwyn Steenekamp; Anthea Manuel; Belkis Sayin; Nicolò Biagi; Shannon Wake; Jayne Morriss",
-          "abstract": "Checking behaviours are engaged to prevent adverse outcomes and alleviate \nuncertainty. However, there is still a gap in our understanding as to how factors such as \nthreat level and performance feedback impact the frequency of checking and \nassociated concomitants. To address these questions, we collected data across two \nlab sites (n = 208) and manipulated threat level (low threat: performance score only; \nhigh threat: mild electric shock based on performance score) and performance \nfeedback (no feedback, feedback) during a visual discrimination and checking task. \nThroughout the task, we recorded checking frequency, ratings of the urge to check and \ndistress, task performance, and corrugator supercilii activity. High threat versus low \nthreat led to increased checking frequency in one testing site, but not the other. No \neffect of performance feedback was observed on checking frequency. Performance \nfeedback was associated with the urge to check differently across sites. Both, high \nthreat versus low threat, and no feedback versus feedback, were separately associated \nwith improved task accuracy for easier trial types. Lastly, no feedback, compared to \nfeedback, was associated with greater engagement of the corrugator supercilii. These \nresults suggest that: (1) higher threat level increases checking behaviour to some extent \nand improves task performance, and (2) the absence of feedback improves task \nperformance and is associated with greater distress or effort. Overall, these findings \nprovide insight into how factors such as threat level and performance feedback \ndifferently impact checking behaviour and its concomitants.",
-          "url": "https://osf.io/2vt4f",
-          "doi": "https://doi.org/10.31234/osf.io/2vt4f",
-          "filter": 2
-        },
-        {
           "title": "Alcohol and Substance Use Differentially Impact Suicidal Ideation in a Longitudinal Cohort of Bipolar Disorder",
           "authors": "Sarah Havens Sperry; Julia Louise Smith",
           "abstract": "Background: Across bipolar disorders (BSDs), alcohol and substance use and suicidal ideation (SI) contribute to increased rates of morbidity and mortality. The goal of the present study was to investigate temporal relationships between the intensity/frequency (I/F) of use and impairment related to alcohol and substance use and SI in a longitudinal BSD cohort.\n\nMethods: Participants with BDI (n=565), BDII (n=162), and BD NOS (n=61) were included (median enrollment=72 months). Alcohol and substance use were measured using a modified version of the AUDIT administered every 6 months. SI was measured every 2 months using item 9 from the PHQ-9. Linear mixed effects models tested concurrent associations and Dynamic Structural Equation Models tested prospective associations between alcohol and substance use I/F and impairment with SI. \n\nResults: Cocaine I/F and alcohol and substance use impairment were concurrently associated with SI. When a person had more frequent and intense cannabis use compared to average, they had higher SI at the next timepoint. When individuals experienced more alcohol and substance use impairment than average, they had higher SI at the next timepoint. \n\nConclusions: Both alcohol and substance use appear to increase SI for those with BSDs, though in different ways.",
@@ -808,11 +911,11 @@
           "filter": 2
         },
         {
-          "title": "Psychometric Properties and Validity of a Mobile Patient Health Questionnaire-9 (MPHQ-9) for Ecological Momentary Assessment in Depressed Adults",
-          "authors": "Dawson Haddox; Daniel Mackin; Tess Griffin; Michael V. Heinz; Matthew David Nemesure; Amanda C Collins; George Price; Damien Lekkas; Arvind Pillai; Subigya Nepal",
-          "abstract": "Ecological momentary assessment (EMA) offers advantages over retrospective questionnaires by reducing recall bias and capturing rapid symptom dynamics, and it is increasingly used to measure depression symptoms. However, few depression symptom measures are validated for EMA use in the manner expected for traditional questionnaires. Therefore, the current study examined the internal consistency, longitudinal stability, and convergent validity of the Mobile Patient Health Questionnaire-9 (MPHQ-9), a version of the PHQ-9 modified for EMA. Depressed participants (N = 280; Female = 83.93%; White = 79.29%) completed the MPHQ-9 three times daily for 90 days. Data from the first and last 2 weeks were analyzed to align with a pre-study PHQ-9 and post-study PHQ-9 and Inventory of Depression and Anxiety Symptoms - Expanded Version (IDAS-II). The MPHQ-9 demonstrated fair to substantial adjusted item-total correlations (r = 0.42–0.83), often exceeding the PHQ-9 (r = 0.39–0.72). Inter-item correlations ranged from slight to substantial for the MPHQ-9 (r = 0.26–0.87) and were typically larger than the correlations observed for the PHQ-9 (r = 0.11–0.71). Cronbach’s alpha coefficients were substantial for both the MPHQ-9 (.91) and PHQ-9 (.81). The MPHQ-9 showed moderate and superior stability (r = .69), compared to the slight stability of the PHQ-9 (r = .39). There was moderate agreement between the MPHQ-9 and both the PHQ-9 (r = .71) and the IDAS-II General Depression subscale (r = .65). This study provides initial validation of the MPHQ-9 and suggests it may be a better measure of depression symptomatology than the PHQ-9 in some contexts.",
-          "url": "https://osf.io/rfvy5",
-          "doi": "https://doi.org/10.31234/osf.io/rfvy5",
+          "title": "A German version of the State Difficulties in Emotion Regulation Scale (S-DERS): Translation, Validation and  Extended Factor Models",
+          "authors": "Maurizio Sicorello; Moritz Elsaesser; David R. Kolar",
+          "abstract": "Difficulties in emotion regulation are an essential transdiagnostic phenomenon of mental health. While there is extensive literature focusing on emotion regulation difficulties as trait-like constructs, it is inherently a dynamic process that unfolds over time. This raises the need for state-like measures to capture these temporal dynamics in both laboratory and real-world settings, such as the State Difficulties in Emotion Regulation Scale (S-DERS). In the present study, we report the German translation and validation of the S-DERS and present a cross-sectional network analysis to stimulate novel hypotheses for pathways linking single discrete difficulties. A sample of 214 participants underwent a negative mood induction followed by an assessment of the 21-item S-DERS. The results confirm the four-factor structure, reliability, and construct validity of the original English version. Consistent with previous studies on the trait-DERS, we find that an exploratory structural equation modeling approach with extensive cross-loadings is necessary to reach good model fit. Moreover, a model with four correlated factors outperformed a bi-factor and high-order model. This indicates there is no single latent construct of emotion regulation difficulties, but rather four distinct but related constructs for (a) Non-acceptance of Current Emotions, (b) Limited Ability to Modulate Current Emotional and Behavioral Responses, (c) Lack of Awareness of Current Emotions, and (d) Lack of Clarity about Current Emotions. These associations may imply a complex causal interplay between these factors.",
+          "url": "https://osf.io/8mzvu",
+          "doi": "https://doi.org/10.31234/osf.io/8mzvu",
           "filter": 2
         },
         {
@@ -878,62 +981,6 @@
           "url": "https://osf.io/5qtdh",
           "doi": "https://doi.org/10.31234/osf.io/5qtdh",
           "filter": 2
-        },
-        {
-          "title": "Time Perception and Lived Experience in Personality Disorders: Differences Across Types, Dimensions and Severity",
-          "authors": "Anna Sterna; Eisuke Sakakibara; Marcin Moskalewicz",
-          "abstract": "Background. Altered temporal experience lies at the core of various psychiatric conditions, including Borderline Personality Disorder (BPD). Mainstream research in psychopathology tends to explore BPD with scrutiny while neglecting other personality disorders (PD). At the same time, the dimensional approach to PD proposes looking through the disorders' subtypes and tracing lived experience-based commonalities. This study is the first to explore the temporality of PD by investigating the relationship between symptom severity and lived time and combining objectified measures of time perception with phenomenological interpretation. \nMethods. 63 participants of various educational backgrounds, with personality disorders (36,5% male), following ICD-10 coding diagnosed with paranoid (3.2%), borderline (41,3%), narcissistic (33,3%), avoidant (4,8%), dependent (1,6%) and unspecified (15,9%) personality disorder. Levels of personality functioning and intensity of maladaptive trait domains were controlled with Level of Personality Functioning – Brief Scale 2.0 and Personality Inventory for ICD-11, respectively, resulting in the overall sample classification as comprising 9 subclinical, 13 mild, 20 moderate, 16 severe, and 5 extremely severe conditions. Polish Short Version of the Zimbardo Time Perspective Inventory (PS-ZTPI) and Cottle’s Circles Test (CT) were used to assess the temporal experience. \nResults. In comparison to healthy individuals, those with PD are more oriented toward past negative (4.01 vs. 2.98) and less toward past positive (2.31 vs. 7.71) and future (3.04 vs. 3.47), as measured with PS-ZTPI, their pre-reflective temporal experience as measured with CT is dominated either by the past or the future, while the present remains marginalized. BPD distinctiveness among other PD lies in higher orientation towards hedonistic present and lower orientation toward the future. While the general temporal profile of PD is independent of age and duration of hospitalization, it is related to the severity of the condition. The more severe the impairments in self-functioning, the higher the negative past perspective and pre-reflective past dominance, and the lower the positive and future perspective. The results of this study highlight temporality as an essential aspect of lived experience in PD. Lived time interplays with the level of self-disturbance and, as such, may be conceptualized phenomenologically as comprising the core of PD.",
-          "url": "https://osf.io/eb5s9",
-          "doi": "https://doi.org/10.31234/osf.io/eb5s9",
-          "filter": 2
-        },
-        {
-          "title": "Examining the Structure of Personality Dysfunction Among Individuals Involved in Mental Health Care: A Registered Report",
-          "authors": "Ashmita Ghosh; Nathaniel Luke Phillips; Chelsea Sleep; Donald Lynam; Josh Miller",
-          "abstract": "Personality dysfunction is a core element of the diagnosis of personality disorders in both main diagnostic systems (DSM-5 Personality Disorders, ICD-11 Personality Disorders). A recent study by Sleep et al. (2024) explored the structure of personality dysfunction (N = 517 undergraduates) with exploratory bass-ackward factor analyses at the item level using items from six measures of personality functioning. The present study represents a replication of the study by Sleep and colleagues in a community sample of individuals currently in or seeking psychological/psychiatric treatment. Participants were recruited from Prolific who completed items from six measures of personality dysfunction (N = 457). The primary factor analysis identified three lower-order factors of impairment (Negative Self-Regard, Disagreeableness, and Intimacy Problems). These dysfunction factors showed moderate to strong relations to the factors generated by Sleep et al. (2024), however, there were important differences in the overall structure suggesting a lack of formal replication.",
-          "url": "https://osf.io/f58ym",
-          "doi": "https://doi.org/10.31234/osf.io/f58ym",
-          "filter": 2
-        },
-        {
-          "title": "Using artificial neural networks to reveal the human confidence computation",
-          "authors": "Medha Shekhar; Farshad Rafiei; Dobromir Rahnev",
-          "abstract": "Humans can evaluate the accuracy of their decisions by providing confidence judgements. Traditional cognitive models have tried to capture the mechanisms underlying this process but remain mostly limited to two-choice tasks with simple stimuli. How confidence is given for naturalistic stimuli with multiple choice alternatives is not well understood. We recently developed a convolutional neural network (CNN) model – RTNet – that exhibits several important signatures of human decision making and outperforms existing alternatives in predicting human responses. Here, we use RTNet’s image computability to test four different confidence strategies on a task involving digit discrimination with eight alternatives. Specifically, we tested confidence strategies that consider the entire evidence distribution across choices (Softmax and Entropy), the difference between the winning choice and the second-best choice (Top2Diff), or only the evidence for the winning choice (Positive Evidence). Across 60 subjects, the Top2Diff model provided the best quantitative and qualitative fits to the data and the best predictions of humans’ image-by-image confidence ratings. These results support the notion that human confidence is based on the difference of evidence between the top two choices and demonstrate that Softmax – currently the standard way of deriving confidence from CNNs – is inadequate for modelling human confidence computations.",
-          "url": "https://osf.io/ad8nx",
-          "doi": "https://doi.org/10.31234/osf.io/ad8nx",
-          "filter": 2
-        },
-        {
-          "title": "Borderline Personality as a Disorder of Temporality - A Phenomenological Meta-Synthesis",
-          "authors": "Anna Sterna; Marcin Moskalewicz; Thomas Fuchs",
-          "abstract": "This paper synthesizes research on temporal experience in Borderline Personality Disorder (BPD) from a phenomenologically grounded perspective. It advocates for a closer integration of phenomenology with empirical research results, with the specific goal of bridging the gap between theoretical and evidence-based understanding of BPD temporality. Utilizing a variant of indirect phenomenology, the paper adopts phenomenological insights into temporality to integrate the existing literature from cognitive sciences, chronobiology, and psychoanalysis, which provides qualitative, quantitative, and theoretical inputs. The findings reveal a coherent picture of BPD temporality characterized by fragmentation and discontinuity. Past experience is dense yet disorganized and recreated in the presence of present affective stimuli. The present absorbs one in an immediate, immersive manner. The future is perceived as blurred and disowned, with its horizon being truncated. This contributes to the feeling of being stuck and disoriented within one's temporal landscape. One lives in disturbing cycles between a negativity-biased past and a narrow present, which hinders the process of self development.",
-          "url": "https://osf.io/gxjsh",
-          "doi": "https://doi.org/10.31234/osf.io/gxjsh",
-          "filter": 2
-        },
-        {
-          "title": "Guided Written Exposure Therapy for Posttraumatic Stress Disorders in China: Protocol for a Randomized Controlled Trial",
-          "authors": "Muyang Li; Yinyin Zang",
-          "abstract": "Background: Posttraumatic stress disorder (PTSD) is prevalent in China, yet access to evidence-based treatments remains limited. Written Exposure Therapy (WET) offers a brief intervention option but shows high dropout rates among Chinese patients and a need for culturally informed adaptations. Guided Written Exposure (GWE) builds on WET by integrating elements from Narrative Exposure Therapy (NET) and specialized components tailored for Chinese patients to enhance trauma processing and treatment engagement. This study presents the protocol for a randomized controlled trial examining the effectiveness of GWE in reducing PTSD symptoms in Chinese patients. Methods: Ninety adults aged 18–65 with PTSD or subthreshold PTSD will be randomly assigned to either GWE or minimal contact control (MCC) in a 2:1 ratio. GWE includes 5–8 online sessions over three weeks, incorporating enhanced psychoeducation, increased session frequency, and structured guidance on emotional expression to improve treatment acceptance. Primary outcomes are clinician-rated and self-reported PTSD severity, with secondary outcomes including depression and insomnia. All participants will be assessed at baseline, post-treatment, and 1-month follow-up assessments, with the GWE group undergoing additional follow-ups at 3 and 6 months. Group differences over time will be analyzed using multilevel modeling. Discussion: This study evaluates GWE's effectiveness as a culturally adapted PTSD treatment for Chinese patients, expanding the evidence base for PTSD therapies in diverse populations. By addressing barriers to treatment engagement, GWE may serve as a scalable and acceptable intervention for PTSD in China, offering insights for adapting exposure therapies cross-culturally.",
-          "url": "https://osf.io/3nzwp",
-          "doi": "https://doi.org/10.31234/osf.io/3nzwp",
-          "filter": 2
-        },
-        {
-          "title": "The Spurious Prospective Associations Model (SPAM): Explaining longitudinal associations due to statistical artifacts",
-          "authors": "Kimmo Sorjonen; Bo Melin; Gustav Nilsonne",
-          "abstract": "Analysis of longitudinal data often relies on models which can be prone to statistical artifacts. We have previously shown that several published prospective associations can be explained by a combination of a general association between constructs, imperfect measurement reliability, and regression to the mean. Here, we formalize our analysis of this type of statistical artifact and introduce the Spurious Prospective Associations Model (SPAM). We show that the SPAM performs better than adjusted cross-lagged effects models to explain several observed prospective associations, including a new example involving loneliness and social anxiety, without assuming any true increasing or decreasing effects between constructs over time. Moreover, unlike the models we challenge, the SPAM is consistent with seemingly paradoxical findings indicating simultaneous increasing and decreasing effects between constructs. We conclude that the SPAM agrees well with observed data and is better supported than competing adjusted cross-lagged effects models in the cases investigated here.",
-          "url": "https://osf.io/aj6mn",
-          "doi": "https://doi.org/10.31234/osf.io/aj6mn",
-          "filter": 2
-        },
-        {
-          "title": "Human brain model for long-term memory",
-          "authors": "Duohua Zhao",
-          "abstract": "Human brain, as the carrier of memory and consciousness, has become a hot topic in neuroscience research recently, the study of memory may be the hottest one. However, many questions remain unanswered, including how the information is stored and recalled; where the information is stored; how multiple engrams interact. In this article, I propose the model of long-term memory of human brain, as a hypothesis of architecture of memory in human brain. This model can answer the following questions: 1) What is architecture of long-term memory of human brain? 2) Where is the information of memory stored? 3) How is the new information integrated into the network of memory without influencing the old memory? It also can explain some questions about contextual fear conditioning (CFC) in mice, such as why engram cells can retain memory under retrograde amnesia. This model demonstrates the whole framework of neuronal network for long-term memory, and also can be used for computer modeling of neuronal network of long-term memory. This model is the foundation of brain-inspired AI.",
-          "url": "https://osf.io/z46st",
-          "doi": "https://doi.org/10.31234/osf.io/z46st",
-          "filter": 2
         }
       ]
     },
@@ -941,6 +988,22 @@
       "journal_full": "SocArxiv",
       "journal_short": "SocArxiv",
       "articles": [
+        {
+          "title": "Artificial Intelligence (AI) and the Future of (Quantitative) Social Science",
+          "authors": "David Bann; Liam Wright",
+          "abstract": "This briefing note explores the transformative potential of Artificial Intelligence (AI) for quantitative social science. It provides an overview of recent advancements, outlines possible future scenarios, and examines the opportunities and challenges that AI introduces to the field. Opportunities include substantial gains in productivity across the research process: notably in data analysis, visualisation, and dissemination. Researchers could thus spend more time focusing on research and less time on administrative or repetitive tasks. Other opportunities include using AI algorithms to analyse the increasing vastness of data obtained in surveys; using AI to improve prediction; and efficiency gains in survey or experimental design/deployment. Challenges include the potential for a vast increase in low-quality publications, especially if academic incentives remain misaligned toward quantity rather than quality of research outputs, as well as the broader existential risks AI may pose. We also include a list of resources and additional reading. This brief was written jointly by the authors; readers can compare with briefs entirely written by Generative AI (GenAI) systems, and listen to an AI generated podcast based on this brief here: https://osf.io/ew6z8/. As AI reshapes research and society, social scientists are needed to understand AI's implications and deploy AI to better achieve our goals.",
+          "url": "https://osf.io/6dw5f",
+          "doi": "https://doi.org/10.31235/osf.io/6dw5f",
+          "filter": 0
+        },
+        {
+          "title": "Using Data Science for Social Good: Mapping Opportunity Youth",
+          "authors": "Zofia C. Stanley; Chad M. Topaz",
+          "abstract": "Opportunity youth—individuals aged 16 to 24 who are disconnected from education and employment due to significant barriers—constitute a sizable yet underserved demographic whose marginalization leads to substantial social and economic costs. This paper demonstrates how data science can be harnessed for social good by mapping the distribution of opportunity youth across different regions. We develop an Opportunity Youth Index by integrating fragmented data from sources such as the American Community Survey, the Adoption and Foster Care Analysis and Reporting System, FBI Crime Data, and Bureau of Justice Statistics incarceration reports. Focusing on four key indicators—disconnected youth, youth in foster care, justice-impacted youth, and children with an incarcerated parent—we employ statistical methods and computational techniques to estimate local concentrations of opportunity youth. The resulting index provides insights for policymakers and community organizations, highlighting areas where targeted interventions can make the most impact. This work illustrates the potential of data science to address complex social issues and is presented in an accessible manner to engage a younger audience.",
+          "url": "https://osf.io/anwtf",
+          "doi": "https://doi.org/10.31235/osf.io/anwtf",
+          "filter": 0
+        },
         {
           "title": "The Passports They Carry:  Passport Inequality and Visa  Barriers to Global South Scholars’ Mobility",
           "authors": "MOBILE - Center of Excellence for Global Mobility Law; Mert Cangönül; Ezgi Yildiz",
@@ -1006,6 +1069,14 @@
           "filter": 0
         },
         {
+          "title": "Maoist Return or Continuation of  Reform? A Structural Topic Modelling  Analysis of Chinese Government  Reports and Party Communiques",
+          "authors": "Dianyi Yang",
+          "abstract": "Motivated by the wide-spread speculation of a Maoist return under Xi Jinping, this project applies Structural Topic Modelling to the reports on the work of the government and communiques of the plenary sessions of the central committee of the CPC to identify the underlying themes and compare them vertically across different eras of Chinese leadership, and horizontally between the party and government. This project finds no evidence of a realignment with the Mao era in the party communiques or government reports under Xi Jinping. Instead, the reports under Xi Jinping are found to be more similar to those under his immediate predecessors. However, this project documents a divergence in the style of the party communiques and government reports under Xi Jinping, with the former becoming more abstract and ideological, and the latter becoming more concrete and policy-oriented. One source of this divergence is the downplaying of the five-year plans in the party communiques and government reports, which used to be the one of the overlapping themes of both documents.",
+          "url": "https://osf.io/62dvj",
+          "doi": "https://doi.org/10.31235/osf.io/62dvj",
+          "filter": 0
+        },
+        {
           "title": "Demands Networks and Volunteering",
           "authors": "Hjalmar Bang Carlsen; Jonas Toubøl",
           "abstract": "Patterns of volunteering have predominantly been explained by focusing on the supply side of volunteering, where differences in volunteering reflect differences in resources and motivations. In this article, we shift the focus to the demand side of volunteering, and argue that a proper account of differences in volunteering must include differences in demand for help. We develop the concept of demand networks, as the inverse of support networks, and argue that demand networks are important to explain voluntary social work and support. We define demand networks as the demand for support requested through ego’s personal network. We propose a model where the amount of demand for help in ego’s network influences the likelihood that ego helps. We then turn to explain what factors create differences in amount of demand in personal networks as well as how they mediate and moderate the effect of demand networks. We focus on factors at 1) a structural level concerning the socio-economic strata of the individual and the organization of the voluntary effort, distinguishing between informal- and formal civil society, and 2) at an institutional level focusing on altruistic values and gendered social roles that may differentiate expectations to care for others and respond to demands for help. We test the resulting associational hypotheses using a cross-sectional population survey inquiring about volunteering during COVID-19 in Denmark. The results support the main hypotheses, indicating the importance of the demand side to adequately explain volunteering.",
@@ -1044,63 +1115,39 @@
           "url": "https://osf.io/yecm2",
           "doi": "https://doi.org/10.31235/osf.io/yecm2",
           "filter": 0
-        },
-        {
-          "title": "Coming of Age: A Narrative Review of Large Language Models (LLMs) as Cognitive Supports for an Aging Population",
-          "authors": "Glenn Jakobsen",
-          "abstract": "This paper explores the potential of Large Language Models (LLMs) as tools for cognitive support in aging populations, focusing on their ability to enhance memory, provide task reminders, and facilitate social engagement. As the global population ages, the demand for adaptive technologies that support aging in place increases, while healthcare resources grow increasingly strained. LLMs represent a promising avenue for addressing this gap by offering culturally competent, conversational interfaces capable of supporting cognitive function. Despite current limitations in context retention and response accuracy, advancements in LLM technology could enhance personalization and continuity of care, potentially transforming LLMs into significant companions for older adults experiencing cognitive decline. This paper provides an overview of existing LLM capabilities, the challenges that remain, and a projection of how these models might evolve to meet the growing needs of an aging society.",
-          "url": "https://osf.io/p6mkd",
-          "doi": "https://doi.org/10.31235/osf.io/p6mkd",
-          "filter": 0
-        },
-        {
-          "title": "Imposter Participants: A Call for Social Science Intervention",
-          "authors": "Azeem Merchant; Sophie Atherton; Jaime Garcia-Iglesias",
-          "abstract": "The rise of “imposter participants” in research—individuals who misrepresent their identities or experiences to gain access to studies—has become a contentious issue, particularly as online research methods have expanded since the COVID-19 pandemic. While existing literature suggests indicators and strategies for identifying such participants, this approach risks excluding marginalized groups. This paper reframes the discussion, arguing that the current focus on detection and exclusion requires broader ethical and methodological debate. Specifically, we question how to balance research rigour with inclusivity, particularly in health research. This paper calls for urgent sociological intervention, advocating for a reframing of imposter participation as not just a methodological concern but as a critical issue in debates about epistemology, exclusion, and inclusivity in research practices. Rather than simply offering solutions, this paper seeks to provoke a conversation about the evolving challenges of participant verification in an increasingly digital and diverse research landscape.",
-          "url": "https://osf.io/gn2c7",
-          "doi": "https://doi.org/10.31235/osf.io/gn2c7",
-          "filter": 0
-        },
-        {
-          "title": "Imposter participants? Towards a reflexive epistemology of ‘suspected participants’",
-          "authors": "Jaime Garcia-Iglesias; Brian Heaphy; Neta Yodovich; Sophie Atherton; Azeem Merchant",
-          "abstract": "This paper explores the phenomenon of \"imposter\" participants in online qualitative research. Drawing on two UK-based projects which investigated intersections of health, sexuality, and social connections during and after the COVID-19 pandemic, we assess the challenges posed by suspected participants. The term \"imposter participants\" is critically examined, suggesting instead \"suspected participants\" to acknowledge the researchers' role in generating suspicion. We argue for a reflexive epistemology that questions normative assumptions about authentic participation, advocating for the inclusion of suspect data as an interpretive tool rather than a problem needing ‘screening out’. This approach reframes participant “suspicion” as an opportunity to understand fragmented identities and complex motivations in modern social contexts.",
-          "url": "https://osf.io/4y7q2",
-          "doi": "https://doi.org/10.31235/osf.io/4y7q2",
-          "filter": 0
-        },
-        {
-          "title": "Measuring Innovation Impact: Student Experience of Dualistic Curriculum Change",
-          "authors": "Robert Inklaar; Maryse Brand; Manda Broekhuis; Miriam Ossevoort; Liane Voerman; Daniël Vullings",
-          "abstract": "This paper evaluates student experience of three complementary curriculum initiatives at a large European business school: Teaching Innovation Grants, a curriculum game and a Student Research Platform. Using broad-ranging data on course evaluations, innovation feedback, and platform usage statistics, we assess how students respond to these different approaches to educational change. Our findings reveal consistently positive student experiences across all initiatives. Teaching Innovation Grants maintain overall course quality (4.08 vs 4.12) while enabling substantial changes, with specific innovations rated highly (3.94/5). The curriculum game achieves high satisfaction (3.87/5) across several dimensions and the Student Research Platform shows strong engagement through both usage patterns and evaluations (3.92/5). These findings demonstrate that different innovation approaches can effectively serve student needs when properly implemented, providing practical insights for institutions evaluating curriculum innovation processes.",
-          "url": "https://osf.io/jzx8p",
-          "doi": "https://doi.org/10.31235/osf.io/jzx8p",
-          "filter": 0
-        },
-        {
-          "title": "Why Collective Music-Making is Sometimes Rare: A Study of Four Indigenous Societies",
-          "authors": "Dor Shilton; Aniruddh D. Patel; Kim Hill; Chris von Rueden",
-          "abstract": "Current prominent music evolution theories suggest music evolved as a participatory group activity, whose adaptive functions were strengthening and/or signaling social cohesion. However, the prevalence of collective music-making varies substantially across societies, and in some cases is exceptionally rare. Here, we consider hypotheses for three factors which could attenuate collective music-making: diminished collective action more generally, an emphasis on musical expertise, and solo-oriented musical styles. We look at data related to these hypotheses in four societies in which collective music-making is rare: the Tsimane of lowland Bolivia, the Ache of eastern Paraguay, the Ayoreo of Bolivia and Paraguay, and the Tuvans of the Russian Republic of Tyva. Our results suggest that the scale and religiosity of collective action is the most important factor related to the overall degree of collective music-making in a culture. The effect of musical expertise was mostly limited to the dominance of shamans in religious contexts, while well-developed solo musical styles did not necessarily prevent group performance in other social settings. We also note the importance of cultural loss due to influence of invading colonial and imperial forces in diminishing indigenous forms of collective music-making. Notably, in all the cases we consider, episodes of some form of collective music-making do (or historically did) occur during important social events, a fact which supports the group-functionalist view. Our findings also point to the centrality and ubiquity of the religious function of music, and suggest this aspect of musical behavior needs to be better addressed by evolutionary theories of music.",
-          "url": "https://osf.io/zuhdy",
-          "doi": "https://doi.org/10.31235/osf.io/zuhdy",
-          "filter": 0
-        },
-        {
-          "title": "‘Here there be monsters’: confronting the (post)coloniality of Britain’s borders",
-          "authors": "Travis Van Isacker; Thom Tyerman",
-          "abstract": "This article analyses the (post)colonial politics of UK bordering through the lens of monstrosity. Historicising contemporary bordering within colonial-era monsterisations of racialised people and their mobility, we identify four mechanisms through which migrants are constructed and policed as monsters today: animalisation, zombification, criminalisation and barbarisation. We then examine how the state embodies monstrosity itself through border policies of deterrence and creating ‘hostile environments’. In addition to the instrumentalization of horror, this entails extending the border’s reach domestically throughout everyday life and internationally through deportation and externalisation measures. We argue these developments embody a new form of state power, depicted as a headless tentacled Leviathan. Doing so provides insights into monstrosity as a form of liberal statecraft, the local/global diffusion of bordering, the transnationalisation of sovereign power, and the racialisation of citizenship. It also raises important questions about the construction of border violence as a necessary and legitimate monstrosity in (post)colonial liberal societies, the everyday complicity of citizens, and the limits of efforts to humanise monsterised migrants or reform monstrous state institutions. Revealing how within liberal regimes of citizenship and humanitarianism values ‘there be monsters’, we argue, opens space for thinking about abolitionist alternatives in international politics.",
-          "url": "https://osf.io/n9bfh",
-          "doi": "https://doi.org/10.31235/osf.io/n9bfh",
-          "filter": 0
         }
       ],
       "articles_hidden": [
+        {
+          "title": "Assessing Emerging Markets through Transactional Dynamics: A New Multi-Dimensional Valuation Framework",
+          "authors": "Joshua Midha",
+          "abstract": "This paper introduces a novel transaction-function model for valuing emerging markets, integrating machine learning, agent-based modeling, and multi-method valuation techniques. Traditional valuation models often rely on aggregated economic indicators such as GDP growth and inflation, which lack the granularity needed to capture the transactional dynamics and unique risk factors inherent to emerging markets. In contrast, the proposed model treats each market as a multi-dimensional function of individual transactions, analyzing these interactions through a multi-method framework that includes Discounted Cash Flow (DCF), comparables, precedent transaction, and multiples analysis. By incorporating machine learning algorithms, the model iteratively improves predictive accuracy, dynamically adjusting to new data in volatile and data-sparse environments. Additionally, agent-based simulations provide insights into behavioral responses to policy changes, regulatory shifts, and other market-specific conditions, offering a behavioral layer often missing from traditional approaches. Validation of this model demonstrates a marked improvement in predictive accuracy and adaptability compared to conventional models. This transaction-function approach provides investors and policymakers with a granular, data-driven tool for assessing the true growth potential of emerging markets, paving the way for more informed, context-sensitive investment decisions.",
+          "url": "https://osf.io/d8jkt",
+          "doi": "https://doi.org/10.31235/osf.io/d8jkt",
+          "filter": 2
+        },
+        {
+          "title": "Workplace Training Unpacked: Labor Market Competition and Investment in General Skills",
+          "authors": "Mattia Albanese; Manfredi Aliberti",
+          "abstract": "Skills acquired on the job, whether general or industry-specific, significantly influence workers' labor market outcomes. Workers with general skills tend to have higher re-employment prospects and greater resilience to economic shocks. Using novel data from a recent policy intervention in the Italian labor market, we develop a new measure that captures the tasks taught in firm-provided training for individual workers. This measure enables us to examine the relationship between labor market competition and firms' decisions to invest in general versus industry-specific skills. Our findings indicate that, as theory predicts, workers in more competitive labor markets receive less general training.",
+          "url": "https://osf.io/4ugq5",
+          "doi": "https://doi.org/10.31235/osf.io/4ugq5",
+          "filter": 2
+        },
         {
           "title": "Infrastructural harm:  Rethinking ocean governance and justice  amidst challenges of the Anthropocene",
           "authors": "MOBILE - Center of Excellence for Global Mobility Law; Vonintsoa Rafaly",
           "abstract": "In recent decades, intensified human activities—overfishing, marine pollution, and offshore energy \nexploitation—have drastically altered marine ecosystems, inducing complex environmental and social challenges. The latter disproportionately impacts developing nations and vulnerable communities. While the law of the sea was originally designed to ensure peace, security, and legal order for the ocean, its facilitation of industrialized ocean exploitation has inadvertently contributed to widening inequality gaps. \nThis paper leverages infrastructure studies to discuss the \"infrastructural work of law\" and explore how law’s distributional effects perpetuate injustices in ocean governance. By analyzing case studies such as marine resource conservation and shipping regulations, the study illustrates how thinking of law through an infrastructural lens reveals its agency and its potential for harm in the global ocean polity. This perspective advances an understanding of ocean justice that accounts for the complex and multi-scalar dynamics required to address the unequal burdens of the Anthropocene.",
           "url": "https://osf.io/4vn6y",
           "doi": "https://doi.org/10.31235/osf.io/4vn6y",
+          "filter": 2
+        },
+        {
+          "title": "L’extrême droite est-elle le porte-voix du malaise des quartiers populaires ? Le mythe des campagnes pour le logement social de Casapound en Italie",
+          "authors": "Caterina Froio; Pietro Castelli Gattinara; Tommaso Vitale",
+          "abstract": "C’est désormais un poncif : l’extrême droite serait une quasi-résultante des problèmes de l’urbanisme, le fruit des classes populaires et moyennes confrontées aux difficultés de l’habitat dégradé en secteur cosmopolite. Cette étude de Caterina Froio, Pietro Castelli Gattinara et Tommaso Vitale analyse en profondeur l’action et l’implantation de CasaPound, mouvement italien considéré comme une référence et un modèle par les radicaux de droite en Europe, dans les quartiers populaires. Elle démontre empiriquement comment des actions fabriquées pour les médias occultent une réalité plus en demi-teintes.",
+          "url": "https://osf.io/38275",
+          "doi": "https://doi.org/10.31235/osf.io/38275",
           "filter": 2
         },
         {
@@ -1184,14 +1231,6 @@
           "filter": 2
         },
         {
-          "title": "Maoist Return or Continuation of  Reform? A Structural Topic Modelling  Analysis of Chinese Government  Reports and Party Communiques",
-          "authors": "Dianyi Yang",
-          "abstract": "Motivated by the wide-spread speculation of a Maoist return under Xi Jinping, this project applies Structural Topic Modelling to the reports on the work of the government and communiques of the plenary sessions of the central committee of the CPC to identify the underlying themes and compare them vertically across different eras of Chinese leadership, and horizontally between the party and government. This project finds no evidence of a realignment with the Mao era in the party communiques or government reports under Xi Jinping. Instead, the reports under Xi Jinping are found to be more similar to those under his immediate predecessors. However, this project documents a divergence in the style of the party communiques and government reports under Xi Jinping, with the former becoming more abstract and ideological, and the latter becoming more concrete and policy-oriented. One source of this divergence is the downplaying of the five-year plans in the party communiques and government reports, which used to be the one of the overlapping themes of both documents.",
-          "url": "https://osf.io/62dvj",
-          "doi": "https://doi.org/10.31235/osf.io/62dvj",
-          "filter": 2
-        },
-        {
           "title": "Exploring the Potential for a Holistic Indicator of Social Sustainability and Quality of Life in Vancouver",
           "authors": "Mana Mohebbian",
           "abstract": "This report investigates the feasibility of developing a holistic indicator to assess and communicate the social sustainability and quality of life in Vancouver. Despite the availability of various specific metrics, there is a noted absence of a comprehensive framework that integrates these metrics to\nprovide a singular, actionable view of the city's progress towards its social\nsustainability goals.\nThe City of Vancouver currently employs 45 population-level indicators under its Healthy City Strategy, demonstrating the city's commitment to transparent and data-driven governance. However, these indicators, while effective individually, do not collectively provide a complete picture of the city's overall\nhealth across various dimensions such as public health, housing, education, and environmental sustainability.\nThe aim of this research was to identify a holistic indicator that encompasses multiple dimensions of social sustainability to simplify assessments and improve strategic planning. \nThrough a desktop review of 70 existing indicators and consultations with experts, two models were identified as particularly promising: the Greater London Authority's (GLA) Wellbeing and Sustainability Measure, and the City of Calgary's Equity Index (CEI). These models offer robust frameworks that prioritize equity, accessibility, and stakeholder involvement, aligning closely with Vancouver's urban development goals.\nThis work highlights the need for an overarching metric that reflects the interdependencies among various domains, ensuring that progress in one area does not undermine another. By leveraging insights from this research, Vancouver can enhance its policy implementation and community engagement, moving closer to achieving a balanced and sustainable urban environment. The proposed holistic indicator will also support the city in benchmarking against other urban centers and refining its\nstrategic initiatives based on quantifiable metrics.",
@@ -1200,7 +1239,7 @@
           "filter": 2
         },
         {
-          "title": "Demographic Transition and Post-Transition Population Dynamics: A Revue of Micro and Macro Economic Models and Interactions",
+          "title": "Demographic Transition and Post-Transition Population Dynamics: A Review of Micro and Macro Economic Models and Interactions",
           "authors": "Eduardo L. G. Rios-Neto",
           "abstract": "This literature review contrasts microeconomic fertility models during the demographic and post-transitional periods, evaluating their implications for macroeconomic growth models. While microeconomic fertility models stress the trade-off between child quality and quantity during the demographic transition, the extensive and intensive margin fertility model applies to the post-transition period, with implications for childlessness and the postponement of childbearing. The impact of micro decisions on economic growth is more substantial during the demographic transition than in the post-transition period. Low or negative population growth during the post-transition period may stall economic growth.",
           "url": "https://osf.io/pqtka",
@@ -1221,30 +1260,6 @@
           "abstract": "The objective of this article is to analyze the contributions of strategic management accounting in decision-making processes. To develop this objective, a case study was carried out in Codensa S.A, a Colombian public service company dedicated to the distribution and commercialization of energy in the country. The data collection and analysis methods were qualitative, using semi-structured interviews with key executives from the areas of Financial Planning and Control, Accounting and Business, with extensive knowledge of business management and more than three years of experience. Likewise, the research was developed by applying content analysis to the information obtained from academic journals and interviews. Finally, in this study it was found that the importance of strategic management accounting in organizations lies in being a support base for managerial decisions, providing tools, methods and analysis that are necessary to direct companies to achieve their strategic objectives. from an internal and external perspective, in the short and long term.",
           "url": "https://osf.io/qc4fp",
           "doi": "https://doi.org/10.31235/osf.io/qc4fp",
-          "filter": 2
-        },
-        {
-          "title": "Use of a critical constructivist, community-engaged approach to understand commercial determinants of breast cancer using online industry documents: The situational scoping method",
-          "authors": "Cristin Kearns",
-          "abstract": "In the digital age, online industry documents have become an available and abundant source to inform qualitative health research on the commercial determinants of health. I offer the situational scoping method as an approach that applies rigorous and transparent methods to conduct an overview of large databases of industry documents by focusing on specific empirical “situations” as the object of study. It is conducted by a collective of transdisciplinary researchers and community members who shape knowledge production based on their unique experience and opinions about which situations are deemed essential for emancipatory action. The situational scoping method is rooted in a critical constructivist epistemology and consists of three stages: 1) identification of a broad range of external events over time perceived by industries as a threat or opportunity to business interests; 2) selection of a sample of external events for further analysis; and 3) social worlds/arenas mapping of industry responses to selected external events. I describe the epistemological and methodological influences, development, and procedures of the situational scoping method drawing from my experience conducting a pilot study with a project team engaged in scoping of documents related to environmental exposures and breast cancer in the University of California, San Francisco Industry Documents Library, which houses millions of documents produced by the tobacco, opioids, chemical, drug, food, and fossil fuel industries. This method enhances traditional tobacco documents research by engaging a collective or researchers and community members, offering a systematic approach to assessing a large corpus of industry documents, employing visual tools, and providing facilitation and research training. This study advances the use of qualitative methods in industry documents research.",
-          "url": "https://osf.io/rp8qn",
-          "doi": "https://doi.org/10.31235/osf.io/rp8qn",
-          "filter": 2
-        },
-        {
-          "title": "Dalla ricerca applicata all’intervento contro la deprivazione alimentare durante la pandemia COVID-19",
-          "authors": "Tommaso Vitale; Carlo Stasolla",
-          "abstract": "Il paper affronta in modo incisivo l’impatto delle misure anti-COVID su alcune comunità Rom residenti nei villaggi di Roma. Gli autori analizzano le condizioni sociali e sanitarie dei “villaggi” durante i primi giorni di quarantena, evidenziando come l’isolamento abbia esacerbato l’accesso limitato ai servizi essenziali e peggiorato le condizioni economiche e di vita di queste popolazioni già vulnerabili.\n\nUtilizzando una metodologia innovativa di interviste telefoniche, resa possibile grazie a un rapporto di fiducia con i residenti, l’Associazione 21 luglio ha raccolto dati preziosi sui problemi quotidiani e sulle misure di auto-tutela adottate dai residenti. L’articolo rivela le gravi carenze nei servizi di base, come l’accesso all’acqua potabile, i dispositivi di protezione e le risorse alimentari, che non solo aggravano le difficoltà materiali ma intensificano anche la segregazione e la marginalità sociale.\n\nLe evidenze raccolte spingono a ripensare le politiche pubbliche di emergenza, promuovendo misure che includano la distribuzione di beni di prima necessità e il supporto educativo, soprattutto per i bambini in età scolare privati della didattica a distanza. Gli autori propongono azioni collaborative e incrementali, come programmi di assistenza alimentare per i bambini da 0 a 3 anni, e sottolineano la necessità di contrastare lo stigma e il razzismo nei confronti delle comunità Rom per costruire legami solidali e interdipendenti con la società circostante.\n\nQuesta ricerca, oltre a offrire una testimonianza sulle dinamiche di esclusione urbana, rappresenta un esempio cruciale di ricerca applicata che ha saputo tradursi in interventi pratici per migliorare la vita delle persone in difficoltà.",
-          "url": "https://osf.io/nzkg4",
-          "doi": "https://doi.org/10.31235/osf.io/nzkg4",
-          "filter": 2
-        },
-        {
-          "title": "The limited impact of extending the school week on educational outcomes in Dutch primary education: a quasi-experimental study using penalized synthetic control analysis",
-          "authors": "Gijs Custers; Erik-Jan van Kesteren; Oisín Ryan",
-          "abstract": "This study uses a quasi-experimental design to investigate the causal impact of an extended school week on educational performance in 22 Dutch primary schools. The intervention has been partly modeled after the prominent Harlem Children’s Zone (HCZ). To assess the impact of the intervention, we leverage register data containing information on all Dutch children finishing primary school in the period 2009 - 2022. Synthetic control analysis is applied to estimate the causal effect for each individual school. The findings show the program has had limited effect on educational outcomes with little variation between schools. Our contribution is in showing how several factors, such as goal switching, lack of participation, and teacher shortages, hamper program effectiveness and discussing to what extent a concept such as the HCZ is transferable to other international contexts. Finally, we also illustrate how the synthetic control method can be applied in educational research.",
-          "url": "https://osf.io/h4m7p",
-          "doi": "https://doi.org/10.31235/osf.io/h4m7p",
           "filter": 2
         }
       ]
