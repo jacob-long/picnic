@@ -1,5 +1,5 @@
 {
-  "update": "2024-11-09",
+  "update": "2024-11-10",
   "content": [
     {
       "journal_full": "Journal of Elections, Public Opinion and Parties",
@@ -10,6 +10,37 @@
           "authors": "Zeth Isaksson",
           "url": "http://dx.doi.org/10.1080/17457289.2024.2421566",
           "doi": "10.1080/17457289.2024.2421566",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Journal of Official Statistics",
+      "journal_short": "JOS",
+      "articles": [
+        {
+          "title": "Improving Real-Time Trend Estimates Using Local Parametrization of Polynomial Regression Filters",
+          "authors": "Alain Quartier-la-Tente",
+          "abstract": "This paper examines and compares real-time estimates of the trend-cycle component using moving averages constructed with local polynomial regression. It enables the reproduction of Henderson’s symmetric and Musgrave’s asymmetric filters used in the X-13ARIMA-SEATS seasonal adjustment algorithm. This paper proposes two extensions of local polynomial filters for real-time trend-cycle estimates: first including a timeliness criterion to minimize the phase shift; second with procedure for parametrizing asymmetric filters locally while they are generally parametrized globally, which can be suboptimal around turning points. An empirical comparison, based on simulated and real data, shows that modeling polynomial trends that are too complex introduces more revisions without reducing the phase shift, and that local parametrization reduces the delay in detecting turning points and reduces revisions. The results are reproducible and all the methods can be easily applied using the R package rjd3filters.",
+          "url": "http://dx.doi.org/10.1177/0282423x241283207",
+          "doi": "10.1177/0282423x241283207",
+          "filter": 0
+        },
+        {
+          "title": "A Monte Carlo Investigation of Confidence Intervals for a Nondecreasing Series",
+          "authors": "Shalima Zalsha, Kirk M. Wolter",
+          "abstract": "We consider the problem of estimating a time series of population means from a series of sample surveys when the means are known to be nondecreasing. We introduce the standard survey estimators of the series of means, which are not guaranteed to be nondecreasing. We employ the Pool Adjacent Violators Algorithm (PAVA) to turn the series of standard survey estimates into a nondecreasing series. We introduce five methods of constructing confidence intervals for the series of non-decreasing means: normal-theory intervals based on the standard survey point estimator of the mean and the Taylor series estimator of its variance; normal-theory intervals based on the nondecreasing PAVA estimator of the mean and a unique jackknife estimator of its variance developed here (jackknife-[Formula: see text]); intervals similar to the aforementioned method but based on Student’s-[Formula: see text] distribution (jackknife-[Formula: see text]); analytical intervals due to Morris; and simultaneous confidence limits due to Korn. We report the results of a Monte Carlo simulation and assess the methods’ performance under various scenarios. Jackknife-[Formula: see text] intervals exhibited coverage probabilities that are near the nominal value. Taylor, jackknife-[Formula: see text], and Korn intervals found coverage below the nominal value while Morris intervals were excessively conservative. Jackknife intervals were much narrower than Taylor intervals.",
+          "url": "http://dx.doi.org/10.1177/0282423x241287663",
+          "doi": "10.1177/0282423x241287663",
+          "filter": 0
+        },
+        {
+          "title": "Modeling Survey Time Series Data with Flow-Observed CARMA Processes",
+          "authors": "Patrick M. Joyce, Tucker S. McElroy",
+          "abstract": "Published survey data often are delivered as estimates computed over an epoch of time. Customers may desire to obtain survey estimates corresponding to epochs, or time points, that differ from the published estimates. This “change of support” problem can be addressed through the use of continuous-time models of the underlying population process, while taking into account the sampling error that survey data is subject to. The application of a Continuous AutoRegressive Moving Average (CARMA) model is investigated as a tool to provide change of support applications, thereby allowing interpolation for published survey estimates. A simulation study provides comparisons of competing estimation methods, and a synthetically constructed data set is developed in order to elucidate real data applications. The proposed method can be successful for change of support problems, despite modeling challenges with the CARMA framework.",
+          "url": "http://dx.doi.org/10.1177/0282423x241286236",
+          "doi": "10.1177/0282423x241286236",
           "filter": 0
         }
       ],
