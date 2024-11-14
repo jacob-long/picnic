@@ -1,6 +1,20 @@
 {
-  "update": "2024-11-13",
+  "update": "2024-11-14",
   "content": [
+    {
+      "journal_full": "Journal of Elections, Public Opinion and Parties",
+      "journal_short": "JEPOP",
+      "articles": [
+        {
+          "title": "The distance between us: the role of ideological proximity in shaping perceptions of inter-partisan relationships",
+          "authors": "Seonghui Lee",
+          "url": "http://dx.doi.org/10.1080/17457289.2024.2427025",
+          "doi": "10.1080/17457289.2024.2427025",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
     {
       "journal_full": "Journal of Official Statistics",
       "journal_short": "JOS",
@@ -11,6 +25,14 @@
           "abstract": "This paper examines and compares real-time estimates of the trend-cycle component using moving averages constructed with local polynomial regression. It enables the reproduction of Henderson’s symmetric and Musgrave’s asymmetric filters used in the X-13ARIMA-SEATS seasonal adjustment algorithm. This paper proposes two extensions of local polynomial filters for real-time trend-cycle estimates: first including a timeliness criterion to minimize the phase shift; second with procedure for parametrizing asymmetric filters locally while they are generally parametrized globally, which can be suboptimal around turning points. An empirical comparison, based on simulated and real data, shows that modeling polynomial trends that are too complex introduces more revisions without reducing the phase shift, and that local parametrization reduces the delay in detecting turning points and reduces revisions. The results are reproducible and all the methods can be easily applied using the R package rjd3filters.",
           "url": "http://dx.doi.org/10.1177/0282423x241283207",
           "doi": "10.1177/0282423x241283207",
+          "filter": 0
+        },
+        {
+          "title": "Using a Stopping Rule to Optimize Cost-Quality Tradeoffs in a Large, Mixed-Mode Survey: A Simulation Study",
+          "authors": "James Wagner, Brady T. West, Brian Kim, Deji Suolang, Curtiss Engstrom, Jennifer Sinibaldi",
+          "abstract": "Rising nonresponse and the increasing costs of conducting surveys are creating pressure on survey organizations to efficiently allocate resources. The challenge is to produce the highest quality data possible within a fixed budget. We use a stopping rule designed to minimize a function of cost and errors. The rule is based on the product of predicted costs and the predicted mean squared error of a survey estimate. We simulate the impact of implementing the stopping rule on the 2019 US Survey of Doctorate Recipients (SDR), which is a longitudinal survey conducted every two years in the US using web, mail, and CATI. We vary the types of models used to generate the input predictions (parametric regression vs. nonparametric tree models) and the timing of the implementation of the rule. We found that the modeling approach made less difference, while the timing of the implementation of the stopping rule made a large difference in outcomes. The rule is multivariate and optimizes outcomes for two variables. It performed better for one variable, leading to reduced costs and only small increases in errors. The other variable had larger error increases.",
+          "url": "http://dx.doi.org/10.1177/0282423x241287452",
+          "doi": "10.1177/0282423x241287452",
           "filter": 0
         },
         {
