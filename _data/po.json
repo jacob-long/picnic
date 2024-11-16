@@ -1,5 +1,5 @@
 {
-  "update": "2024-11-15",
+  "update": "2024-11-16",
   "content": [
     {
       "journal_full": "Journal of Elections, Public Opinion and Parties",
@@ -20,11 +20,11 @@
       "journal_short": "JOS",
       "articles": [
         {
-          "title": "Improving Real-Time Trend Estimates Using Local Parametrization of Polynomial Regression Filters",
-          "authors": "Alain Quartier-la-Tente",
-          "abstract": "This paper examines and compares real-time estimates of the trend-cycle component using moving averages constructed with local polynomial regression. It enables the reproduction of Henderson’s symmetric and Musgrave’s asymmetric filters used in the X-13ARIMA-SEATS seasonal adjustment algorithm. This paper proposes two extensions of local polynomial filters for real-time trend-cycle estimates: first including a timeliness criterion to minimize the phase shift; second with procedure for parametrizing asymmetric filters locally while they are generally parametrized globally, which can be suboptimal around turning points. An empirical comparison, based on simulated and real data, shows that modeling polynomial trends that are too complex introduces more revisions without reducing the phase shift, and that local parametrization reduces the delay in detecting turning points and reduces revisions. The results are reproducible and all the methods can be easily applied using the R package rjd3filters.",
-          "url": "http://dx.doi.org/10.1177/0282423x241283207",
-          "doi": "10.1177/0282423x241283207",
+          "title": "Seasonal Adjustment of Infra-Monthly Time Series with JDemetra+",
+          "authors": "Karsten Webel, Anna Smyk",
+          "abstract": "Both the ongoing digital transformation in many statistical agencies around the world and the COVID-19 pandemic outbreak in 2020 have increased the recognition of and demand for infra-monthly economic time series in official statistics during the past decade. Infra-monthly data often display complex forms of seasonality, such as superimposed seasonal patterns with potentially fractional periodicities, that prevent the application of traditional modeling and seasonal adjustment approaches. For that reason, JDemetra+, the official software for harmonized seasonal adjustments of monthly and quarterly data in Europe, has been augmented recently with several methods tailored to the specifics of infra-monthly data. This includes a modified TRAMO-like routine for data pretreatment and extended versions of the ARIMA model-based and X-11 seasonal adjustment approaches alongside the classic STL method. These methods can be accessed through either the graphical user interface or an R package suite, which also provides additional routines for structural time series modeling. We give a comprehensive description of all those methods and discuss the theoretical properties of their key modifications. Selected capabilities are then illustrated using daily births in France, hourly realized electricity consumption in Germany, and weekly initial claims for unemployment insurance in the United States.",
+          "url": "http://dx.doi.org/10.1177/0282423x241277602",
+          "doi": "10.1177/0282423x241277602",
           "filter": 0
         },
         {
@@ -33,22 +33,6 @@
           "abstract": "Rising nonresponse and the increasing costs of conducting surveys are creating pressure on survey organizations to efficiently allocate resources. The challenge is to produce the highest quality data possible within a fixed budget. We use a stopping rule designed to minimize a function of cost and errors. The rule is based on the product of predicted costs and the predicted mean squared error of a survey estimate. We simulate the impact of implementing the stopping rule on the 2019 US Survey of Doctorate Recipients (SDR), which is a longitudinal survey conducted every two years in the US using web, mail, and CATI. We vary the types of models used to generate the input predictions (parametric regression vs. nonparametric tree models) and the timing of the implementation of the rule. We found that the modeling approach made less difference, while the timing of the implementation of the stopping rule made a large difference in outcomes. The rule is multivariate and optimizes outcomes for two variables. It performed better for one variable, leading to reduced costs and only small increases in errors. The other variable had larger error increases.",
           "url": "http://dx.doi.org/10.1177/0282423x241287452",
           "doi": "10.1177/0282423x241287452",
-          "filter": 0
-        },
-        {
-          "title": "A Monte Carlo Investigation of Confidence Intervals for a Nondecreasing Series",
-          "authors": "Shalima Zalsha, Kirk M. Wolter",
-          "abstract": "We consider the problem of estimating a time series of population means from a series of sample surveys when the means are known to be nondecreasing. We introduce the standard survey estimators of the series of means, which are not guaranteed to be nondecreasing. We employ the Pool Adjacent Violators Algorithm (PAVA) to turn the series of standard survey estimates into a nondecreasing series. We introduce five methods of constructing confidence intervals for the series of non-decreasing means: normal-theory intervals based on the standard survey point estimator of the mean and the Taylor series estimator of its variance; normal-theory intervals based on the nondecreasing PAVA estimator of the mean and a unique jackknife estimator of its variance developed here (jackknife-[Formula: see text]); intervals similar to the aforementioned method but based on Student’s-[Formula: see text] distribution (jackknife-[Formula: see text]); analytical intervals due to Morris; and simultaneous confidence limits due to Korn. We report the results of a Monte Carlo simulation and assess the methods’ performance under various scenarios. Jackknife-[Formula: see text] intervals exhibited coverage probabilities that are near the nominal value. Taylor, jackknife-[Formula: see text], and Korn intervals found coverage below the nominal value while Morris intervals were excessively conservative. Jackknife intervals were much narrower than Taylor intervals.",
-          "url": "http://dx.doi.org/10.1177/0282423x241287663",
-          "doi": "10.1177/0282423x241287663",
-          "filter": 0
-        },
-        {
-          "title": "Modeling Survey Time Series Data with Flow-Observed CARMA Processes",
-          "authors": "Patrick M. Joyce, Tucker S. McElroy",
-          "abstract": "Published survey data often are delivered as estimates computed over an epoch of time. Customers may desire to obtain survey estimates corresponding to epochs, or time points, that differ from the published estimates. This “change of support” problem can be addressed through the use of continuous-time models of the underlying population process, while taking into account the sampling error that survey data is subject to. The application of a Continuous AutoRegressive Moving Average (CARMA) model is investigated as a tool to provide change of support applications, thereby allowing interpolation for published survey estimates. A simulation study provides comparisons of competing estimation methods, and a synthetically constructed data set is developed in order to elucidate real data applications. The proposed method can be successful for change of support problems, despite modeling challenges with the CARMA framework.",
-          "url": "http://dx.doi.org/10.1177/0282423x241286236",
-          "doi": "10.1177/0282423x241286236",
           "filter": 0
         },
         {
@@ -79,6 +63,21 @@
           "authors": "Veronica Lynn Reyna, LaTasha Chaffin, Chris Burbridge",
           "url": "http://dx.doi.org/10.1080/21565503.2024.2423073",
           "doi": "10.1080/21565503.2024.2423073",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Social Science Computer Review",
+      "journal_short": "SSCR",
+      "articles": [
+        {
+          "title": "Cyberbalkanization Without Monotonic Polarization: Temporal Dynamics and User Heterogeneity in Online Debates on Traditional Chinese Medicine",
+          "authors": "Jiao Shen, Deya Xu",
+          "abstract": "This paper examines the polarization and cyberbalkanization of opinions within a Traditional Chinese Medicine (TCM) community on Zhihu, a prominent Chinese social question-answering platform. The study explores the impact of online interactions on opinion dynamics during the COVID-19 pandemic. Utilizing a hybrid content and network analysis approach, the research identifies distinct subcommunities within the TCM debate and analyzes the influence of opinion leaders and user participation. The study finds a high level of cyberbalkanization, with users forming segregated communities based on their views towards TCM. However, contrary to expectations, the overall polarization levels do not increase monotonically over time, despite fluctuations during peak discussion periods. Further analysis reveals that the influx of moderate views from low-engagement users during heated debates counterbalances the extreme rhetoric of high-engagement partisan users. The longitudinal patterns suggest a potential convergence of views between the entrenched and peripheral users over time. These findings highlight the nuanced interplay between cyberbalkanization and polarization within online communities, challenging assumptions of an inevitable polarizing effect. The study underscores the importance of considering user heterogeneity and temporal dynamics when examining opinion polarization in digital spaces, offering insights into the complex forces shaping public discourse in the contemporary media environment.",
+          "url": "http://dx.doi.org/10.1177/08944393241301043",
+          "doi": "10.1177/08944393241301043",
           "filter": 0
         }
       ],
