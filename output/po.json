@@ -1,5 +1,5 @@
 {
-  "update": "2024-11-19",
+  "update": "2024-11-20",
   "content": [
     {
       "journal_full": "Journal of Elections, Public Opinion and Parties",
@@ -28,14 +28,6 @@
           "filter": 0
         },
         {
-          "title": "Using a Stopping Rule to Optimize Cost-Quality Tradeoffs in a Large, Mixed-Mode Survey: A Simulation Study",
-          "authors": "James Wagner, Brady T. West, Brian Kim, Deji Suolang, Curtiss Engstrom, Jennifer Sinibaldi",
-          "abstract": "Rising nonresponse and the increasing costs of conducting surveys are creating pressure on survey organizations to efficiently allocate resources. The challenge is to produce the highest quality data possible within a fixed budget. We use a stopping rule designed to minimize a function of cost and errors. The rule is based on the product of predicted costs and the predicted mean squared error of a survey estimate. We simulate the impact of implementing the stopping rule on the 2019 US Survey of Doctorate Recipients (SDR), which is a longitudinal survey conducted every two years in the US using web, mail, and CATI. We vary the types of models used to generate the input predictions (parametric regression vs. nonparametric tree models) and the timing of the implementation of the rule. We found that the modeling approach made less difference, while the timing of the implementation of the stopping rule made a large difference in outcomes. The rule is multivariate and optimizes outcomes for two variables. It performed better for one variable, leading to reduced costs and only small increases in errors. The other variable had larger error increases.",
-          "url": "http://dx.doi.org/10.1177/0282423x241287452",
-          "doi": "10.1177/0282423x241287452",
-          "filter": 0
-        },
-        {
           "title": "Extending Cochran’s Sample Size Rule to Stratified Simple Random Sampling with Applications to Audit Sampling",
           "authors": "Siyu Qing, Richard Valliant",
           "abstract": "Audit samples are selected by businesses, institutions, government agencies, and other organizations to check the accuracy of financial reports and assess the quality of services provided among other reasons. A standard design used in auditing is stratified simple random sampling. Point estimates and confidence intervals for population values are usual products of an audit. Cochran’s sample size rule and its extension by Sugden, Smith, and Jones provided minimum sample size formulas for a simple random sample to ensure effective normal approximation and adequate coverage for nominal 95% confidence intervals of a standardized or Studentized sample mean. The purpose of this paper is to extend Cochran’s rule and establish a formula for the minimum sample size for the normal approximation and the use of traditional one-sided or two-sided confidence intervals to be acceptable for mean estimation in stratified simple random samples. We concentrate on variables that are at least partially continuous. Simulations are used to examine the performance of our sample size formula with a variety of skewed populations based on ones encountered in auditing.",
@@ -57,6 +49,20 @@
           "abstract": "We explore the impact of the COVID-19 shock on a very high frequency indicator: the Spanish daily sales data compiled by the Tax Agency. Firstly, we present a detailed list of the issues related to its modeling, its decomposition (trend, seasonality, and irregularity) and its final seasonal adjustment, which requires a set of deterministic factors linked mostly to calendar effects. Then, we assess the impact of the COVID-19 shock on these tasks. This assessment provides a timely perspective on the evolution of the shock and the challenges that it posed for modeling and seasonal adjustment, clearly related to its unusual and extreme features. The aim of the paper is eminently empirical and dominated by the need to square the unprecedented shock with the available methods and software in a computing environment centered on the R programming language. The methodology draws heavily on a structural approach and it is currently in use by the Tax Agency to compile and disseminate its daily sales data.",
           "url": "http://dx.doi.org/10.1177/0282423x241285985",
           "doi": "10.1177/0282423x241285985",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Politics, Groups, and Identities",
+      "journal_short": "PGI",
+      "articles": [
+        {
+          "title": "Using civically engaged research to promote young Black and Latino children’s well-being: lessons from a new interdisciplinary community-university, faculty–student collaboration",
+          "authors": "Stephanie Potochnick, Laura Marie Armstrong, Joseph Kangmennaang, Eric Delmelle, Andrew Gadaire, Roger Suclupe, Ariana Shahinfar, Banu Valladares, Jennifer Stamp, Devonya Govan-Hunt, Sarai Ordonez, Lennin Caro, Keri Revens, Emily Mikkelsen, Ian Mikkelsen, Dede Kangnissoukpe, Monique Aguirre, Corinne Guy, Emmerson Sheppard, Catherine Luba, Gisselle Rios Palomares, Sofia Herrera Acosta, Aaryanna Henry, Alejandra Rodriguez, Ryan P. Kilmer",
+          "url": "http://dx.doi.org/10.1080/21565503.2024.2423081",
+          "doi": "10.1080/21565503.2024.2423081",
           "filter": 0
         }
       ],
