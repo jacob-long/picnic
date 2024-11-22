@@ -1,18 +1,10 @@
 {
-  "update": "2024-11-21",
+  "update": "2024-11-22",
   "content": [
     {
       "journal_full": "Journal of Official Statistics",
       "journal_short": "JOS",
       "articles": [
-        {
-          "title": "Seasonal Adjustment of Infra-Monthly Time Series with JDemetra+",
-          "authors": "Karsten Webel, Anna Smyk",
-          "abstract": "Both the ongoing digital transformation in many statistical agencies around the world and the COVID-19 pandemic outbreak in 2020 have increased the recognition of and demand for infra-monthly economic time series in official statistics during the past decade. Infra-monthly data often display complex forms of seasonality, such as superimposed seasonal patterns with potentially fractional periodicities, that prevent the application of traditional modeling and seasonal adjustment approaches. For that reason, JDemetra+, the official software for harmonized seasonal adjustments of monthly and quarterly data in Europe, has been augmented recently with several methods tailored to the specifics of infra-monthly data. This includes a modified TRAMO-like routine for data pretreatment and extended versions of the ARIMA model-based and X-11 seasonal adjustment approaches alongside the classic STL method. These methods can be accessed through either the graphical user interface or an R package suite, which also provides additional routines for structural time series modeling. We give a comprehensive description of all those methods and discuss the theoretical properties of their key modifications. Selected capabilities are then illustrated using daily births in France, hourly realized electricity consumption in Germany, and weekly initial claims for unemployment insurance in the United States.",
-          "url": "http://dx.doi.org/10.1177/0282423x241277602",
-          "doi": "10.1177/0282423x241277602",
-          "filter": 0
-        },
         {
           "title": "The COVID-19 Shock Through the Lens of the Spanish Sales Daily Data: Modeling and Seasonal Adjustment Challenges",
           "authors": "Ángel Cuevas, Enrique M. Quilis",
