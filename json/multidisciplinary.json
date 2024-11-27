@@ -1,5 +1,5 @@
 {
-  "update": "2024-11-26",
+  "update": "2024-11-27",
   "content": [
     {
       "journal_full": "Nature",
@@ -64,27 +64,11 @@
           "filter": "2"
         },
         {
-          "title": "Examining the role of common variants in rare neurodevelopmental conditions",
-          "authors": "Qin Qin Huang, Emilie M. Wigdor, Daniel S. Malawsky, Patrick Campbell, Kaitlin E. Samocha, V. Kartik Chundru, Petr Danecek, Sarah Lindsay, Thomas Marchant, Mahmoud Koko, Sana Amanat, Davide Bonfanti, Eamonn Sheridan, Elizabeth J. Radford, Jeffrey C. Barrett, Caroline F. Wright, Helen V. Firth, Varun Warrier, Alexander Strudwick Young, Matthew E. Hurles, Hilary C. Martin",
-          "abstract": "Although rare neurodevelopmental conditions have a large Mendelian component 1 , common genetic variants also contribute to risk 2,3 . However, little is known about how this polygenic risk is distributed among patients with these conditions and their parents nor its interplay with rare variants. It is also unclear whether polygenic background affects risk directly through alleles transmitted from parents to children, or whether indirect genetic effects mediated through the family environment 4 also play a role. Here we addressed these questions using genetic data from 11,573 patients with rare neurodevelopmental conditions, 9,128 of their parents and 26,869 controls. Common variants explained around 10% of variance in risk. Patients with a monogenic diagnosis had significantly less polygenic risk than those without, supporting a liability threshold model 5 . A polygenic score for neurodevelopmental conditions showed only a direct genetic effect. By contrast, polygenic scores for educational attainment and cognitive performance showed no direct genetic effect, but the non-transmitted alleles in the parents were correlated with the child’s risk, potentially due to indirect genetic effects and/or parental assortment for these traits 4 . Indeed, as expected under parental assortment, we show that common variant predisposition for neurodevelopmental conditions is correlated with the rare variant component of risk. These findings indicate that future studies should investigate the possible role and nature of indirect genetic effects on rare neurodevelopmental conditions, and consider the contribution of common and rare variants simultaneously when studying cognition-related phenotypes.",
-          "url": "http://dx.doi.org/10.1038/s41586-024-08217-y",
-          "doi": "10.1038/s41586-024-08217-y",
-          "filter": "2"
-        },
-        {
           "title": "Genetic defects of brain immunity in childhood herpes simplex encephalitis",
           "authors": "Shen-Ying Zhang, Jean-Laurent Casanova",
           "abstract": "Herpes simplex virus 1 (HSV-1) encephalitis (HSE) is the most common sporadic viral encephalitis in humans. It is life-threatening and has a first peak of incidence in childhood, during primary infection. Children with HSE are not particularly prone to other infections, including HSV-1 infections of tissues other than the brain. About 8–10% of childhood cases are due to monogenic inborn errors of 19 genes, two-thirds of which are recessive, and most of which display incomplete clinical penetrance. Childhood HSE can therefore be sporadic but genetic, enabling new diagnostic and therapeutic approaches. In this Review, we examine essential cellular and molecular mechanisms of cell-intrinsic antiviral immunity in the brain that are disrupted in individuals with HSE. These mechanisms include both known (such as mutations in the TLR3 pathway) and previously unknown (such as the TMEFF1 restriction factor) antiviral pathways, which may be dependent (for example, IFNAR1) or independent (for example, through RIPK3) of type I interferons. They operate in cortical or brainstem neurons, and underlie forebrain and brainstem infections, respectively. Conversely, the most severe inborn errors of leukocytes, including a complete lack of myeloid and/or lymphoid blood cells, do not underlie HSE. Thus congenital defects in intrinsic immunity in brain-resident neurons that underlie HSE broaden natural host defences against HSV-1 from the leukocytes of the immune system to other cells in the organism.",
           "url": "http://dx.doi.org/10.1038/s41586-024-08119-z",
           "doi": "10.1038/s41586-024-08119-z",
-          "filter": "2"
-        },
-        {
-          "title": "Learning high-accuracy error decoding for quantum processors",
-          "authors": "Johannes Bausch, Andrew W. Senior, Francisco J. H. Heras, Thomas Edlich, Alex Davies, Michael Newman, Cody Jones, Kevin Satzinger, Murphy Yuezhen Niu, Sam Blackwell, George Holland, Dvir Kafri, Juan Atalaya, Craig Gidney, Demis Hassabis, Sergio Boixo, Hartmut Neven, Pushmeet Kohli",
-          "abstract": "Building a large-scale quantum computer requires effective strategies to correct errors that inevitably arise in physical quantum systems 1 . Quantum error-correction codes 2 present a way to reach this goal by encoding logical information redundantly into many physical qubits. A key challenge in implementing such codes is accurately decoding noisy syndrome information extracted from redundancy checks to obtain the correct encoded logical information. Here we develop a recurrent, transformer-based neural network that learns to decode the surface code, the leading quantum error-correction code 3 . Our decoder outperforms other state-of-the-art decoders on real-world data from Google’s Sycamore quantum processor for distance-3 and distance-5 surface codes 4 . On distances up to 11, the decoder maintains its advantage on simulated data with realistic noise including cross-talk and leakage, utilizing soft readouts and leakage information. After training on approximate synthetic data, the decoder adapts to the more complex, but unknown, underlying error distribution by training on a limited budget of experimental samples. Our work illustrates the ability of machine learning to go beyond human-designed algorithms by learning from data directly, highlighting machine learning as a strong contender for decoding in quantum computers.",
-          "url": "http://dx.doi.org/10.1038/s41586-024-08148-8",
-          "doi": "10.1038/s41586-024-08148-8",
           "filter": "2"
         },
         {
@@ -119,6 +103,14 @@
           "filter": "2"
         },
         {
+          "title": "Examining the role of common variants in rare neurodevelopmental conditions",
+          "authors": "Qin Qin Huang, Emilie M. Wigdor, Daniel S. Malawsky, Patrick Campbell, Kaitlin E. Samocha, V. Kartik Chundru, Petr Danecek, Sarah Lindsay, Thomas Marchant, Mahmoud Koko, Sana Amanat, Davide Bonfanti, Eamonn Sheridan, Elizabeth J. Radford, Jeffrey C. Barrett, Caroline F. Wright, Helen V. Firth, Varun Warrier, Alexander Strudwick Young, Matthew E. Hurles, Hilary C. Martin",
+          "abstract": "Although rare neurodevelopmental conditions have a large Mendelian component 1 , common genetic variants also contribute to risk 2,3 . However, little is known about how this polygenic risk is distributed among patients with these conditions and their parents nor its interplay with rare variants. It is also unclear whether polygenic background affects risk directly through alleles transmitted from parents to children, or whether indirect genetic effects mediated through the family environment 4 also play a role. Here we addressed these questions using genetic data from 11,573 patients with rare neurodevelopmental conditions, 9,128 of their parents and 26,869 controls. Common variants explained around 10% of variance in risk. Patients with a monogenic diagnosis had significantly less polygenic risk than those without, supporting a liability threshold model 5 . A polygenic score for neurodevelopmental conditions showed only a direct genetic effect. By contrast, polygenic scores for educational attainment and cognitive performance showed no direct genetic effect, but the non-transmitted alleles in the parents were correlated with the child’s risk, potentially due to indirect genetic effects and/or parental assortment for these traits 4 . Indeed, as expected under parental assortment, we show that common variant predisposition for neurodevelopmental conditions is correlated with the rare variant component of risk. These findings indicate that future studies should investigate the possible role and nature of indirect genetic effects on rare neurodevelopmental conditions, and consider the contribution of common and rare variants simultaneously when studying cognition-related phenotypes.",
+          "url": "http://dx.doi.org/10.1038/s41586-024-08217-y",
+          "doi": "10.1038/s41586-024-08217-y",
+          "filter": "2"
+        },
+        {
           "title": "Fibular reduction and the evolution of theropod locomotion",
           "authors": "Armita R. Manafzadeh, Stephen M. Gatesy, John A. Nyakatura, Bhart-Anjan S. Bhullar",
           "abstract": "Since Hampé’s classic developmental experiments in the mid-twentieth century1,2, the reduced avian fibula has sparked sustained curiosity3,4,5,6. The fibula transformed throughout dinosaur evolution from a columnar structure into its splint-like avian form, a change long thought to be of little biomechanical consequence3,6. Here we integrated comparative three-dimensional kinematic analyses with transitional morphologies from the fossil record to refute this assumption and show that the reduced fibula serves a crucial function in enabling extreme knee long-axis rotation (LAR). Extreme LAR is fundamental to avian locomotion and is regularly exploited by living birds to execute complex terrestrial manoeuvres7. We infer that the evolution of this capacity was preceded by restriction of the knee to hinge-like motion in early theropod dinosaurs, driven by the origin of a mid-shank articulation8 that precluded ancestral patterns of tibiofibular motion. Freeing of the fibula from the ankle joint later enabled mobilization of this initially static articulation and, in doing so, established a novel pattern of tibiofibular kinematics essential to the extreme levels of LAR retained by modern birds. Fibular reduction thus ushered in a transition to LAR-dominated three-dimensional limb control, profoundly altering the course of theropod locomotor evolution.",
@@ -127,11 +119,18 @@
           "filter": "2"
         },
         {
-          "title": "Coupling of unactivated alkyl electrophiles using frustrated ion pairs",
-          "authors": "Sven Roediger, Emilien Le Saux, Philip Boehm, Bill Morandi",
-          "abstract": "Cross-electrophile coupling reactions have evolved into a major strategy for rapidly assembling important organic molecules 1 . Two readily accessible electrophiles are coupled to form new C–C bonds, providing a key advantage over traditional cross-coupling strategies that require the preformation of reactive organometallic species. Yet, the formation of C( sp 3 )–C( sp 3 ) bonds that form the core of nearly all organic compounds remains highly challenging with current approaches, calling for the design of innovative new strategies. Here we report a distinct, transition-metal-free platform to form such bonds without the need for activating or stabilizing groups on the coupling partners. The reaction is enabled by an unusual single-electron transfer in a frustrated ion pair, and it can couple fragments containing functional groups that would be challenging in related transition-metal-catalysed processes. Moreover, we could further leverage this new mechanistic manifold in the design of other reactions, showing the broad potential of this type of reactivity. We anticipate that our results will provide a framework for further exploration of this reactivity pattern to tackle challenging problems in organic synthesis.",
-          "url": "http://dx.doi.org/10.1038/s41586-024-08195-1",
-          "doi": "10.1038/s41586-024-08195-1",
+          "title": "Author Correction: Enhanced silica export in a future ocean triggers global diatom decline",
+          "authors": "Jan Taucher, Lennart T. Bach, A. E. Friederike Prowe, Tim Boxhammer, Karin Kvale, Ulf Riebesell",
+          "url": "http://dx.doi.org/10.1038/s41586-024-08425-6",
+          "doi": "10.1038/s41586-024-08425-6",
+          "filter": "2"
+        },
+        {
+          "title": "Learning high-accuracy error decoding for quantum processors",
+          "authors": "Johannes Bausch, Andrew W. Senior, Francisco J. H. Heras, Thomas Edlich, Alex Davies, Michael Newman, Cody Jones, Kevin Satzinger, Murphy Yuezhen Niu, Sam Blackwell, George Holland, Dvir Kafri, Juan Atalaya, Craig Gidney, Demis Hassabis, Sergio Boixo, Hartmut Neven, Pushmeet Kohli",
+          "abstract": "Building a large-scale quantum computer requires effective strategies to correct errors that inevitably arise in physical quantum systems 1 . Quantum error-correction codes 2 present a way to reach this goal by encoding logical information redundantly into many physical qubits. A key challenge in implementing such codes is accurately decoding noisy syndrome information extracted from redundancy checks to obtain the correct encoded logical information. Here we develop a recurrent, transformer-based neural network that learns to decode the surface code, the leading quantum error-correction code 3 . Our decoder outperforms other state-of-the-art decoders on real-world data from Google’s Sycamore quantum processor for distance-3 and distance-5 surface codes 4 . On distances up to 11, the decoder maintains its advantage on simulated data with realistic noise including cross-talk and leakage, utilizing soft readouts and leakage information. After training on approximate synthetic data, the decoder adapts to the more complex, but unknown, underlying error distribution by training on a limited budget of experimental samples. Our work illustrates the ability of machine learning to go beyond human-designed algorithms by learning from data directly, highlighting machine learning as a strong contender for decoding in quantum computers.",
+          "url": "http://dx.doi.org/10.1038/s41586-024-08148-8",
+          "doi": "10.1038/s41586-024-08148-8",
           "filter": "2"
         },
         {
@@ -151,11 +150,11 @@
           "filter": "2"
         },
         {
-          "title": "Liver X receptor unlinks intestinal regeneration and tumorigenesis",
-          "authors": "Srustidhar Das, S. Martina Parigi, Xinxin Luo, Jennifer Fransson, Bianca C. Kern, Ali Okhovat, Oscar E. Diaz, Chiara Sorini, Paulo Czarnewski, Anna T. Webb, Rodrigo A. Morales, Sacha Lebon, Gustavo Monasterio, Francisca Castillo, Kumar P. Tripathi, Ning He, Penelope Pelczar, Nicola Schaltenberg, Marjorie De la Fuente, Francisco López-Köstner, Susanne Nylén, Hjalte List Larsen, Raoul Kuiper, Per Antonson, Marcela A. Hermoso, Samuel Huber, Moshe Biton, Sandra Scharaw, Jan-Åke Gustafsson, Pekka Katajisto, Eduardo J. Villablanca",
-          "abstract": "Uncontrolled regeneration leads to neoplastic transformation 1–3 . The intestinal epithelium requires precise regulation during continuous homeostatic and damage-induced tissue renewal to prevent neoplastic transformation, suggesting that pathways unlinking tumour growth from regenerative processes must exist. Here, by mining RNA-sequencing datasets from two intestinal damage models 4,5 and using pharmacological, transcriptomics and genetic tools, we identified liver X receptor (LXR) pathway activation as a tissue adaptation to damage that reciprocally regulates intestinal regeneration and tumorigenesis. Using single-cell RNA sequencing, intestinal organoids, and gain- and loss-of-function experiments, we demonstrate that LXR activation in intestinal epithelial cells induces amphiregulin ( Areg ), enhancing regenerative responses. This response is coordinated by the LXR-ligand-producing enzyme CYP27A1, which was upregulated in damaged intestinal crypt niches. Deletion of Cyp27a1 impaired intestinal regeneration, which was rescued by exogenous LXR agonists. Notably, in tumour models, Cyp27a1 deficiency led to increased tumour growth, whereas LXR activation elicited anti-tumour responses dependent on adaptive immunity. Consistently, human colorectal cancer specimens exhibited reduced levels of CYP27A1 , LXR target genes, and B and CD8 T cell gene signatures. We therefore identify an epithelial adaptation mechanism to damage, whereby LXR functions as a rheostat, promoting tissue repair while limiting tumorigenesis.",
-          "url": "http://dx.doi.org/10.1038/s41586-024-08247-6",
-          "doi": "10.1038/s41586-024-08247-6",
+          "title": "Coupling of unactivated alkyl electrophiles using frustrated ion pairs",
+          "authors": "Sven Roediger, Emilien Le Saux, Philip Boehm, Bill Morandi",
+          "abstract": "Cross-electrophile coupling reactions have evolved into a major strategy for rapidly assembling important organic molecules 1 . Two readily accessible electrophiles are coupled to form new C–C bonds, providing a key advantage over traditional cross-coupling strategies that require the preformation of reactive organometallic species. Yet, the formation of C( sp 3 )–C( sp 3 ) bonds that form the core of nearly all organic compounds remains highly challenging with current approaches, calling for the design of innovative new strategies. Here we report a distinct, transition-metal-free platform to form such bonds without the need for activating or stabilizing groups on the coupling partners. The reaction is enabled by an unusual single-electron transfer in a frustrated ion pair, and it can couple fragments containing functional groups that would be challenging in related transition-metal-catalysed processes. Moreover, we could further leverage this new mechanistic manifold in the design of other reactions, showing the broad potential of this type of reactivity. We anticipate that our results will provide a framework for further exploration of this reactivity pattern to tackle challenging problems in organic synthesis.",
+          "url": "http://dx.doi.org/10.1038/s41586-024-08195-1",
+          "doi": "10.1038/s41586-024-08195-1",
           "filter": "2"
         },
         {
@@ -167,19 +166,11 @@
           "filter": "2"
         },
         {
-          "title": "Trion sensing of a zero-field composite Fermi liquid",
-          "authors": "Eric Anderson, Jiaqi Cai, Aidan P. Reddy, Heonjoon Park, William Holtzmann, Kai Davis, Takashi Taniguchi, Kenji Watanabe, Tomasz Smolenski, Ataç Imamoğlu, Ting Cao, Di Xiao, Liang Fu, Wang Yao, Xiaodong Xu",
-          "abstract": "The half-filled lowest Landau level is a fascinating platform for researching interacting topological phases. A celebrated example is the composite Fermi liquid, a non-Fermi liquid formed by composite fermions in strong magnetic fields1,2,3,4,5,6,7,8,9,10. Its zero-field counterpart is predicted in a twisted MoTe2 bilayer (tMoTe2)11,12—a recently discovered fractional Chern insulator exhibiting the fractional quantum anomalous Hall effect13,14,15,16. Although transport measurements at ν = −1/2 show signatures consistent with a zero-field composite Fermi liquid14, new probes are crucial to investigate the state and its elementary excitations. Here, by using the unique valley properties of tMoTe2, we report optical signatures of a zero-field composite Fermi liquid. We measured the degree of circular polarization (ρ) of trion photoluminescence versus hole doping and electric field. We found that, within the phase space showing robust ferromagnetism, ρ is near unity for Fermi liquid states. However, ρ is quenched at both integer and fractional Chern insulators, and in a hole doping range near ν = −1/2. Temperature, optical excitation power and electric-field-dependence measurements demonstrate that the quenching of ρ is a direct consequence of an energy gap (pseudogap) for electronic excitations of the Chern insulators (composite Fermi liquid): because the local spin-polarized excitations necessary to form trions are strongly suppressed, trion formation at the corresponding filling factors relies on optically generated unpolarized itinerant holes. Our work highlights a new excitonic probe of zero-field fractional Chern insulator physics, unique to tMoTe2.",
-          "url": "http://dx.doi.org/10.1038/s41586-024-08134-0",
-          "doi": "10.1038/s41586-024-08134-0",
-          "filter": "2"
-        },
-        {
-          "title": "Cephalopod-inspired jetting devices for gastrointestinal drug delivery",
-          "authors": "G. Arrick, D. Sticker, A. Ghazal, Y. Lu, T. Duncombe, D. Gwynne, B. Mouridsen, J. Wainer, J. P. H. Jepsen, T. S. Last, D. Schultz, K. Hess, E. Medina De Alba, S. Min, M. Poulsen, C. Anker, P. Karandikar, H. D. Pedersen, J. Collins, N. E. Egecioglu, S. Tamang, C. Cleveland, K. Ishida, A. H. Uhrenfeldt, J. Kuosmanen, M. Pereverzina, A. Hayward, R. K. Kirk, S. You, C. M. Dalsgaard, S. B. Gunnarsson, I. Patsi, A. Bohr, A. Azzarello, M. R. Frederiksen, P. Herskind, J. Li, N. Roxhed, U. L. Rahbek, J. J. Water, S. T. Buckley, G. Traverso",
-          "abstract": "Needle-based injections currently enable the administration of a wide range of biomacromolecule therapies across the body, including the gastrointestinal tract1,2,3, through recent developments in ingestible robotic devices4,5,6,7. However, needles generally require training, sharps management and disposal, and pose challenges for autonomous ingestible systems. Here, inspired by the jetting systems of cephalopods, we have developed and evaluated microjet delivery systems that can deliver jets in axial and radial directions into tissue, making them suitable for tubular and globular segments of the gastrointestinal tract. Furthermore, they are implemented in both tethered and ingestible formats, facilitating endoscopic applications or patient self-dosing. Our study identified suitable pressure and nozzle dimensions for different segments of the gastrointestinal tract and applied microjets in a variety of devices that support delivery across the various anatomic segments of the gastrointestinal tract. We characterized the ability of these systems to administer macromolecules, including insulin, a glucagon-like peptide-1 (GLP1) analogue and a small interfering RNA (siRNA) in large animal models, achieving exposure levels similar to those achieved with subcutaneous delivery. This research provides key insights into jetting design parameters for gastrointestinal administration, substantially broadening the possibilities for future endoscopic and ingestible drug delivery devices.",
-          "url": "http://dx.doi.org/10.1038/s41586-024-08202-5",
-          "doi": "10.1038/s41586-024-08202-5",
+          "title": "Liver X receptor unlinks intestinal regeneration and tumorigenesis",
+          "authors": "Srustidhar Das, S. Martina Parigi, Xinxin Luo, Jennifer Fransson, Bianca C. Kern, Ali Okhovat, Oscar E. Diaz, Chiara Sorini, Paulo Czarnewski, Anna T. Webb, Rodrigo A. Morales, Sacha Lebon, Gustavo Monasterio, Francisca Castillo, Kumar P. Tripathi, Ning He, Penelope Pelczar, Nicola Schaltenberg, Marjorie De la Fuente, Francisco López-Köstner, Susanne Nylén, Hjalte List Larsen, Raoul Kuiper, Per Antonson, Marcela A. Hermoso, Samuel Huber, Moshe Biton, Sandra Scharaw, Jan-Åke Gustafsson, Pekka Katajisto, Eduardo J. Villablanca",
+          "abstract": "Uncontrolled regeneration leads to neoplastic transformation 1–3 . The intestinal epithelium requires precise regulation during continuous homeostatic and damage-induced tissue renewal to prevent neoplastic transformation, suggesting that pathways unlinking tumour growth from regenerative processes must exist. Here, by mining RNA-sequencing datasets from two intestinal damage models 4,5 and using pharmacological, transcriptomics and genetic tools, we identified liver X receptor (LXR) pathway activation as a tissue adaptation to damage that reciprocally regulates intestinal regeneration and tumorigenesis. Using single-cell RNA sequencing, intestinal organoids, and gain- and loss-of-function experiments, we demonstrate that LXR activation in intestinal epithelial cells induces amphiregulin ( Areg ), enhancing regenerative responses. This response is coordinated by the LXR-ligand-producing enzyme CYP27A1, which was upregulated in damaged intestinal crypt niches. Deletion of Cyp27a1 impaired intestinal regeneration, which was rescued by exogenous LXR agonists. Notably, in tumour models, Cyp27a1 deficiency led to increased tumour growth, whereas LXR activation elicited anti-tumour responses dependent on adaptive immunity. Consistently, human colorectal cancer specimens exhibited reduced levels of CYP27A1 , LXR target genes, and B and CD8 T cell gene signatures. We therefore identify an epithelial adaptation mechanism to damage, whereby LXR functions as a rheostat, promoting tissue repair while limiting tumorigenesis.",
+          "url": "http://dx.doi.org/10.1038/s41586-024-08247-6",
+          "doi": "10.1038/s41586-024-08247-6",
           "filter": "2"
         },
         {
@@ -196,6 +187,22 @@
           "abstract": "Human embryonic bone and joint formation is determined by coordinated differentiation of progenitors in the nascent skeleton. The cell states, epigenetic processes and key regulatory factors that underlie lineage commitment of these cells remain elusive. Here we applied paired transcriptional and epigenetic profiling of approximately 336,000 nucleus droplets and spatial transcriptomics to establish a multi-omic atlas of human embryonic joint and cranium development between 5 and 11 weeks after conception. Using combined modelling of transcriptional and epigenetic data, we characterized regionally distinct limb and cranial osteoprogenitor trajectories across the embryonic skeleton and further described regulatory networks that govern intramembranous and endochondral ossification. Spatial localization of cell clusters in our in situ sequencing data using a new tool, ISS-Patcher, revealed mechanisms of progenitor zonation during bone and joint formation. Through trajectory analysis, we predicted potential non-canonical cellular origins for human chondrocytes from Schwann cells. We also introduce SNP2Cell, a tool to link cell-type-specific regulatory networks to polygenic traits such as osteoarthritis. Using osteolineage trajectories characterized here, we simulated in silico perturbations of genes that cause monogenic craniosynostosis and implicate potential cell states and disease mechanisms. This work forms a detailed and dynamic regulatory atlas of bone and cartilage maturation and advances our fundamental understanding of cell-fate determination in human skeletal development.",
           "url": "http://dx.doi.org/10.1038/s41586-024-08189-z",
           "doi": "10.1038/s41586-024-08189-z",
+          "filter": "2"
+        },
+        {
+          "title": "Cephalopod-inspired jetting devices for gastrointestinal drug delivery",
+          "authors": "G. Arrick, D. Sticker, A. Ghazal, Y. Lu, T. Duncombe, D. Gwynne, B. Mouridsen, J. Wainer, J. P. H. Jepsen, T. S. Last, D. Schultz, K. Hess, E. Medina De Alba, S. Min, M. Poulsen, C. Anker, P. Karandikar, H. D. Pedersen, J. Collins, N. E. Egecioglu, S. Tamang, C. Cleveland, K. Ishida, A. H. Uhrenfeldt, J. Kuosmanen, M. Pereverzina, A. Hayward, R. K. Kirk, S. You, C. M. Dalsgaard, S. B. Gunnarsson, I. Patsi, A. Bohr, A. Azzarello, M. R. Frederiksen, P. Herskind, J. Li, N. Roxhed, U. L. Rahbek, J. J. Water, S. T. Buckley, G. Traverso",
+          "abstract": "Needle-based injections currently enable the administration of a wide range of biomacromolecule therapies across the body, including the gastrointestinal tract1,2,3, through recent developments in ingestible robotic devices4,5,6,7. However, needles generally require training, sharps management and disposal, and pose challenges for autonomous ingestible systems. Here, inspired by the jetting systems of cephalopods, we have developed and evaluated microjet delivery systems that can deliver jets in axial and radial directions into tissue, making them suitable for tubular and globular segments of the gastrointestinal tract. Furthermore, they are implemented in both tethered and ingestible formats, facilitating endoscopic applications or patient self-dosing. Our study identified suitable pressure and nozzle dimensions for different segments of the gastrointestinal tract and applied microjets in a variety of devices that support delivery across the various anatomic segments of the gastrointestinal tract. We characterized the ability of these systems to administer macromolecules, including insulin, a glucagon-like peptide-1 (GLP1) analogue and a small interfering RNA (siRNA) in large animal models, achieving exposure levels similar to those achieved with subcutaneous delivery. This research provides key insights into jetting design parameters for gastrointestinal administration, substantially broadening the possibilities for future endoscopic and ingestible drug delivery devices.",
+          "url": "http://dx.doi.org/10.1038/s41586-024-08202-5",
+          "doi": "10.1038/s41586-024-08202-5",
+          "filter": "2"
+        },
+        {
+          "title": "Trion sensing of a zero-field composite Fermi liquid",
+          "authors": "Eric Anderson, Jiaqi Cai, Aidan P. Reddy, Heonjoon Park, William Holtzmann, Kai Davis, Takashi Taniguchi, Kenji Watanabe, Tomasz Smolenski, Ataç Imamoğlu, Ting Cao, Di Xiao, Liang Fu, Wang Yao, Xiaodong Xu",
+          "abstract": "The half-filled lowest Landau level is a fascinating platform for researching interacting topological phases. A celebrated example is the composite Fermi liquid, a non-Fermi liquid formed by composite fermions in strong magnetic fields1,2,3,4,5,6,7,8,9,10. Its zero-field counterpart is predicted in a twisted MoTe2 bilayer (tMoTe2)11,12—a recently discovered fractional Chern insulator exhibiting the fractional quantum anomalous Hall effect13,14,15,16. Although transport measurements at ν = −1/2 show signatures consistent with a zero-field composite Fermi liquid14, new probes are crucial to investigate the state and its elementary excitations. Here, by using the unique valley properties of tMoTe2, we report optical signatures of a zero-field composite Fermi liquid. We measured the degree of circular polarization (ρ) of trion photoluminescence versus hole doping and electric field. We found that, within the phase space showing robust ferromagnetism, ρ is near unity for Fermi liquid states. However, ρ is quenched at both integer and fractional Chern insulators, and in a hole doping range near ν = −1/2. Temperature, optical excitation power and electric-field-dependence measurements demonstrate that the quenching of ρ is a direct consequence of an energy gap (pseudogap) for electronic excitations of the Chern insulators (composite Fermi liquid): because the local spin-polarized excitations necessary to form trions are strongly suppressed, trion formation at the corresponding filling factors relies on optically generated unpolarized itinerant holes. Our work highlights a new excitonic probe of zero-field fractional Chern insulator physics, unique to tMoTe2.",
+          "url": "http://dx.doi.org/10.1038/s41586-024-08134-0",
+          "doi": "10.1038/s41586-024-08134-0",
           "filter": "2"
         },
         {
@@ -220,6 +227,14 @@
           "abstract": "Animals are often bombarded with visual information and must prioritize specific visual features based on their current needs. The neuronal circuits that detect and relay visual features have been well studied 1–8 . Much less is known about how an animal adjusts its visual attention as its goals or environmental conditions change. During social behaviours, flies need to focus on nearby flies 9–11 . Here we study how the flow of visual information is altered when female Drosophila enter an aggressive state. From the connectome, we identify three state-dependent circuit motifs poised to modify the response of an aggressive female to fly-sized visual objects: convergence of excitatory inputs from neurons conveying select visual features and internal state; dendritic disinhibition of select visual feature detectors; and a switch that toggles between two visual feature detectors. Using cell-type-specific genetic tools, together with behavioural and neurophysiological analyses, we show that each of these circuit motifs is used during female aggression. We reveal that features of this same switch operate in male Drosophila during courtship pursuit, suggesting that disparate social behaviours may share circuit mechanisms. Our study provides a compelling example of using the connectome to infer circuit mechanisms that underlie dynamic processing of sensory signals.",
           "url": "http://dx.doi.org/10.1038/s41586-024-08255-6",
           "doi": "10.1038/s41586-024-08255-6",
+          "filter": "2"
+        },
+        {
+          "title": "Opponent control of reinforcement by striatal dopamine and serotonin",
+          "authors": "Daniel F. Cardozo Pinto, Matthew B. Pomrenze, Michaela Y. Guo, Gavin C. Touponse, Allen P. F. Chen, Brandon S. Bentzley, Neir Eshel, Robert C. Malenka",
+          "abstract": "The neuromodulators dopamine (DA) and serotonin (5-hydroxytryptamine; 5HT) powerfully regulate associative learning1–8. Similarities in the activity and connectivity of these neuromodulatory systems have inspired competing models of how DA and 5HT interact to drive the formation of new associations9–14. However, these hypotheses have not been tested directly because it has not been possible to interrogate and manipulate multiple neuromodulatory systems in a single subject. Here, we establish a mouse model enabling simultaneous genetic access to the brain’s DA and 5HT neurons. Anterograde tracing revealed the nucleus accumbens (NAc) to be a putative hotspot for the integration of convergent DA and 5HT signals. Simultaneous recording of DA and 5HT axon activity, together with genetically encoded DA and 5HT sensor recordings, revealed that rewards increase DA signaling and decrease 5HT signaling in the NAc. Optogenetically dampening DA or 5HT reward responses individually produced modest behavioral deficits in an appetitive conditioning task, while blunting both signals together profoundly disrupted learning and reinforcement. Optogenetically reproducing DA and 5HT reward responses together was sufficient to drive acquisition of new associations and supported reinforcement more potently than either manipulation alone. Together, these results demonstrate that striatal DA and 5HT signals shape learning by exerting opponent control of reinforcement.",
+          "url": "http://dx.doi.org/10.1038/s41586-024-08412-x",
+          "doi": "10.1038/s41586-024-08412-x",
           "filter": "2"
         },
         {
@@ -302,14 +317,6 @@
           "filter": "2"
         },
         {
-          "title": "Communicate the risk as well as the promise of weight-loss drugs",
-          "authors": "Bo Li, Yu Li, Zhihe Zhao, Longjiang Li",
-          "abstract": "Your recent News article on the efficacy of the weight-loss drug semaglutide in reducing pain related to knee osteoarthritis highlights a seminal therapeutic breakthrough (Nature https://doi.org/nq2n; 2024). But writing of “life-changing” benefits might foster public misperceptions and unrealistic expectations.",
-          "url": "http://dx.doi.org/10.1038/d41586-024-03780-w",
-          "doi": "10.1038/d41586-024-03780-w",
-          "filter": "4"
-        },
-        {
           "title": "Leading Nature Index science cities in physical sciences: regional centres drive China’s progress",
           "authors": "Alexia Austin",
           "url": "http://dx.doi.org/10.1038/d41586-024-03525-9",
@@ -338,40 +345,10 @@
           "filter": "4"
         },
         {
-          "title": "China’s regional cities are now major players in world science",
-          "authors": "Jacob Dreyer",
-          "url": "http://dx.doi.org/10.1038/d41586-024-03523-x",
-          "doi": "10.1038/d41586-024-03523-x",
-          "filter": "4"
-        },
-        {
-          "title": "Words won’t reduce the impact of conflict on nature — what’s needed is action",
-          "authors": "Christopher P. Dunn, Brendan Mackey, Kathryn Gwiazdon",
-          "abstract": "Doug Weir and his colleagues are right to urge conservationists, conservation organizations and world leaders to address the environmental impacts of war, including on species and ecosystems (D. Weir et al. Nature 634, 538–541; 2024). Many conservation organizations already have engaged, in words at least. What’s lacking is the will to follow through.",
-          "url": "http://dx.doi.org/10.1038/d41586-024-03781-9",
-          "doi": "10.1038/d41586-024-03781-9",
-          "filter": "4"
-        },
-        {
-          "title": "How students and grandparents could solve the global mental-health crisis",
-          "authors": "Simar Bajaj",
-          "url": "http://dx.doi.org/10.1038/d41586-024-03757-9",
-          "doi": "10.1038/d41586-024-03757-9",
-          "filter": "4"
-        },
-        {
-          "title": "Brain-penetrating molecule might offer a route to treat glioblastoma tumours",
-          "authors": "Mushtaq A. Nengroo, Issam Ben-Sahra",
-          "abstract": "One of the most aggressive brain tumours in adults is glioblastoma. Survival rates are poor despite advances made in treatment. Current therapies, including surgery, radiation therapy and chemotherapy with the drug temozolomide are unable to improve survival times owing to the invasive nature of glioblastoma, the genetic diversity of these tumours and problems arising from treatment resistance1. Furthermore, the blood−brain barrier complicates drug delivery, acting as an obstacle that restricts access for therapeutic agents that target glioblastoma tumours2. Writing in Nature, Chen et al.3 report the identification of a small molecule called gliocidin, which has promising therapeutic potential against glioblastoma through its innovative targeting of tumour metabolism.",
-          "url": "http://dx.doi.org/10.1038/d41586-024-03556-2",
-          "doi": "10.1038/d41586-024-03556-2",
-          "filter": "4"
-        },
-        {
-          "title": "Squid-inspired pills squirt drugs straight into your gut",
-          "authors": "Benjamin Thompson, Emily Bates",
-          "url": "http://dx.doi.org/10.1038/d41586-024-03812-5",
-          "doi": "10.1038/d41586-024-03812-5",
+          "title": "Hopes, fears and uncertainty: life scientists react to Trump’s election victory",
+          "authors": "Amander Clark, Eric Topol, Hank Greely, Salim S. Abdool Karim, Quarraisha Abdool Karim, Ramanan Laxminarayan",
+          "url": "http://dx.doi.org/10.1038/d41586-024-03813-4",
+          "doi": "10.1038/d41586-024-03813-4",
           "filter": "4"
         },
         {
@@ -403,10 +380,18 @@
           "filter": "4"
         },
         {
-          "title": "This malaria vaccine is delivered by a mosquito bite",
-          "authors": "Helena Kudiabor",
-          "url": "http://dx.doi.org/10.1038/d41586-024-03817-0",
-          "doi": "10.1038/d41586-024-03817-0",
+          "title": "Brain-penetrating molecule might offer a route to treat glioblastoma tumours",
+          "authors": "Mushtaq A. Nengroo, Issam Ben-Sahra",
+          "abstract": "One of the most aggressive brain tumours in adults is glioblastoma. Survival rates are poor despite advances made in treatment. Current therapies, including surgery, radiation therapy and chemotherapy with the drug temozolomide are unable to improve survival times owing to the invasive nature of glioblastoma, the genetic diversity of these tumours and problems arising from treatment resistance1. Furthermore, the blood−brain barrier complicates drug delivery, acting as an obstacle that restricts access for therapeutic agents that target glioblastoma tumours2. Writing in Nature, Chen et al.3 report the identification of a small molecule called gliocidin, which has promising therapeutic potential against glioblastoma through its innovative targeting of tumour metabolism.",
+          "url": "http://dx.doi.org/10.1038/d41586-024-03556-2",
+          "doi": "10.1038/d41586-024-03556-2",
+          "filter": "4"
+        },
+        {
+          "title": "Squid-inspired pills squirt drugs straight into your gut",
+          "authors": "Benjamin Thompson, Emily Bates",
+          "url": "http://dx.doi.org/10.1038/d41586-024-03812-5",
+          "doi": "10.1038/d41586-024-03812-5",
           "filter": "4"
         },
         {
@@ -414,6 +399,27 @@
           "authors": "David Gullen",
           "url": "http://dx.doi.org/10.1038/d41586-024-03785-5",
           "doi": "10.1038/d41586-024-03785-5",
+          "filter": "4"
+        },
+        {
+          "title": "How students and grandparents could solve the global mental-health crisis",
+          "authors": "Simar Bajaj",
+          "url": "http://dx.doi.org/10.1038/d41586-024-03757-9",
+          "doi": "10.1038/d41586-024-03757-9",
+          "filter": "4"
+        },
+        {
+          "title": "China’s regional cities are now major players in world science",
+          "authors": "Jacob Dreyer",
+          "url": "http://dx.doi.org/10.1038/d41586-024-03523-x",
+          "doi": "10.1038/d41586-024-03523-x",
+          "filter": "4"
+        },
+        {
+          "title": "This malaria vaccine is delivered by a mosquito bite",
+          "authors": "Helena Kudiabor",
+          "url": "http://dx.doi.org/10.1038/d41586-024-03817-0",
+          "doi": "10.1038/d41586-024-03817-0",
           "filter": "4"
         },
         {
@@ -438,18 +444,18 @@
           "filter": "4"
         },
         {
+          "title": "Turning a scientific lens on the wonderful world of fungi",
+          "authors": "Nicholas P. Money",
+          "url": "http://dx.doi.org/10.1038/d41586-024-03828-x",
+          "doi": "10.1038/d41586-024-03828-x",
+          "filter": "4"
+        },
+        {
           "title": "Forty years of crazy crystals",
           "authors": "Sharon C. Glotzer",
           "abstract": "It was long thought that all crystals are made of atoms ordered into a periodic repeating pattern — analogous to the way in which hexagonal cells form the repeated pattern of a honeycomb, for example, or how smaller cubes make up a Rubik’s Cube. Different types of atom might form different patterns, but the repetition of the pattern in space, and the number of times the pattern can be rotated about its centre and look the same (its rotational symmetry), were considered to be key defining features of a crystal. That understanding was shattered in 1984 by a paper1published in Physical Review Letters by Shechtman and colleagues. They reported a crystal that had no obvious repeating pattern, and which possessed rotational symmetries that violated the rules of crystallography. Their finding led the International Union of Crystallography to rewrite the definition of a crystal just eight years later2.",
           "url": "http://dx.doi.org/10.1038/d41586-024-03772-w",
           "doi": "10.1038/d41586-024-03772-w",
-          "filter": "4"
-        },
-        {
-          "title": "How a silly science prize changed my career",
-          "authors": "Catriona Clarke",
-          "url": "http://dx.doi.org/10.1038/d41586-024-03756-w",
-          "doi": "10.1038/d41586-024-03756-w",
           "filter": "4"
         },
         {
@@ -469,18 +475,10 @@
           "filter": "4"
         },
         {
-          "title": "Quantum computing: physics–AI collaboration quashes quantum errors",
-          "authors": "Nadia Haider",
-          "abstract": "Quantum computing is often touted as having the potential to solve problems that are beyond the capabilities of classical computers — from simulating molecules for drug development to optimizing complex logistics. Yet, a major obstacle stands in the way: quantum processors are prone to errors caused by disturbances from their environment and other sources. Overcoming this challenge is crucial to building a practical quantum computer. Writing in Nature, Bausch et al.1 introduce AlphaQubit, an approach that uses artificial intelligence (AI) to make a huge leap in correcting these quantum errors, pushing researchers closer to achieving scalable quantum computing.",
-          "url": "http://dx.doi.org/10.1038/d41586-024-03557-1",
-          "doi": "10.1038/d41586-024-03557-1",
-          "filter": "4"
-        },
-        {
-          "title": "Can Google Scholar survive the AI revolution?",
-          "authors": "Smriti Mallapaty",
-          "url": "http://dx.doi.org/10.1038/d41586-024-03746-y",
-          "doi": "10.1038/d41586-024-03746-y",
+          "title": "Cellular atlases are unlocking the mysteries of the human body",
+          "authors": "Itai Yanai, Simon Haas, Christoph Lippert, Helene Kretzmer",
+          "url": "http://dx.doi.org/10.1038/d41586-024-03552-6",
+          "doi": "10.1038/d41586-024-03552-6",
           "filter": "4"
         },
         {
@@ -491,10 +489,10 @@
           "filter": "4"
         },
         {
-          "title": "Cellular atlases are unlocking the mysteries of the human body",
-          "authors": "Itai Yanai, Simon Haas, Christoph Lippert, Helene Kretzmer",
-          "url": "http://dx.doi.org/10.1038/d41586-024-03552-6",
-          "doi": "10.1038/d41586-024-03552-6",
+          "title": "Superconductivity researcher who committed misconduct exits university",
+          "authors": "Dan Garisto",
+          "url": "http://dx.doi.org/10.1038/d41586-024-03796-2",
+          "doi": "10.1038/d41586-024-03796-2",
           "filter": "4"
         },
         {
@@ -505,39 +503,11 @@
           "filter": "4"
         },
         {
-          "title": "Superconductivity researcher who committed misconduct exits university",
-          "authors": "Dan Garisto",
-          "url": "http://dx.doi.org/10.1038/d41586-024-03796-2",
-          "doi": "10.1038/d41586-024-03796-2",
-          "filter": "4"
-        },
-        {
-          "title": "‘Heroic interference’ should not be the endgame of coral-reef restoration",
-          "authors": "Mikhail Matz",
-          "abstract": "A Comment article in Nature Climate Change argues that coral reefs are best saved by enabling natural recovery, rather than through “heroic interference” that involves manually outplanting coral fragments (R. P. Streit et al. Nature Clim. Change 14, 773–775; 2024). Meanwhile, in this journal, Lisa Carne argues that, in her coral patch in Belize, outplanted corals grow well, so maybe manual restoration is worth the effort (L. Carne Nature 634, 755; 2024).",
-          "url": "http://dx.doi.org/10.1038/d41586-024-03782-8",
-          "doi": "10.1038/d41586-024-03782-8",
-          "filter": "4"
-        },
-        {
-          "title": "Health of people who are displaced in their own countries is a neglected global crisis",
-          "authors": "David Cantor, Bayard Roberts, Jina Swartz",
-          "url": "http://dx.doi.org/10.1038/d41586-024-03760-0",
-          "doi": "10.1038/d41586-024-03760-0",
-          "filter": "4"
-        },
-        {
-          "title": "How the world will weather Trump’s withdrawal from global agreements",
-          "authors": "David G. Victor",
-          "url": "http://dx.doi.org/10.1038/d41586-024-03755-x",
-          "doi": "10.1038/d41586-024-03755-x",
-          "filter": "4"
-        },
-        {
-          "title": "Daily briefing: NIH braces for reform as Trump administration closes in",
-          "authors": "Flora Graham",
-          "url": "http://dx.doi.org/10.1038/d41586-024-03794-4",
-          "doi": "10.1038/d41586-024-03794-4",
+          "title": "Quantum computing: physics–AI collaboration quashes quantum errors",
+          "authors": "Nadia Haider",
+          "abstract": "Quantum computing is often touted as having the potential to solve problems that are beyond the capabilities of classical computers — from simulating molecules for drug development to optimizing complex logistics. Yet, a major obstacle stands in the way: quantum processors are prone to errors caused by disturbances from their environment and other sources. Overcoming this challenge is crucial to building a practical quantum computer. Writing in Nature, Bausch et al.1 introduce AlphaQubit, an approach that uses artificial intelligence (AI) to make a huge leap in correcting these quantum errors, pushing researchers closer to achieving scalable quantum computing.",
+          "url": "http://dx.doi.org/10.1038/d41586-024-03557-1",
+          "doi": "10.1038/d41586-024-03557-1",
           "filter": "4"
         },
         {
@@ -584,10 +554,10 @@
           "filter": "4"
         },
         {
-          "title": "I defend the planet from asteroid collisions",
-          "authors": "Nikki Forrester",
-          "url": "http://dx.doi.org/10.1038/d41586-024-03831-2",
-          "doi": "10.1038/d41586-024-03831-2",
+          "title": "Is COP29 climate deal a historic breakthrough or let-down? Researchers react",
+          "authors": "Ehsan Masood",
+          "url": "http://dx.doi.org/10.1038/d41586-024-03875-4",
+          "doi": "10.1038/d41586-024-03875-4",
           "filter": "4"
         },
         {
@@ -598,18 +568,10 @@
           "filter": "4"
         },
         {
-          "title": "Does South Korea have what it takes to become a leading space nation?",
-          "authors": "Raphael Rashid",
-          "url": "http://dx.doi.org/10.1038/d41586-024-03579-9",
-          "doi": "10.1038/d41586-024-03579-9",
-          "filter": "4"
-        },
-        {
-          "title": "Nobel-prizewinning economics research says don’t dismantle DEI initiatives",
-          "authors": "Afsaneh Shirani",
-          "abstract": "The award of the 2024 Nobel economics prize to Daron Acemoglu, Simon Johnson and James Robinson recognizes their pioneering work on inequality, and the role of inclusive institutions and governance structures in promoting innovation, sustainable development and long-term prosperity (Nature https://doi.org/nq6q; 2024).",
-          "url": "http://dx.doi.org/10.1038/d41586-024-03779-3",
-          "doi": "10.1038/d41586-024-03779-3",
+          "title": "I defend the planet from asteroid collisions",
+          "authors": "Nikki Forrester",
+          "url": "http://dx.doi.org/10.1038/d41586-024-03831-2",
+          "doi": "10.1038/d41586-024-03831-2",
           "filter": "4"
         },
         {
@@ -642,13 +604,6 @@
           "filter": "4"
         },
         {
-          "title": "Leon Cooper obituary: Nobel laureate who developed theory of superconductivity",
-          "authors": "Georgina Ferry",
-          "url": "http://dx.doi.org/10.1038/d41586-024-03798-0",
-          "doi": "10.1038/d41586-024-03798-0",
-          "filter": "4"
-        },
-        {
           "title": "Leading Nature Index science cities in chemistry: China positions for clean sweep",
           "authors": "Alexia Austin",
           "url": "http://dx.doi.org/10.1038/d41586-024-03524-w",
@@ -667,6 +622,13 @@
           "authors": "Stephanie Melchor",
           "url": "http://dx.doi.org/10.1038/d41586-024-03822-3",
           "doi": "10.1038/d41586-024-03822-3",
+          "filter": "4"
+        },
+        {
+          "title": "I fled the war in Ukraine. Now I work on ways to help the country’s soil heal",
+          "authors": "Ankita Arora",
+          "url": "http://dx.doi.org/10.1038/d41586-024-03567-z",
+          "doi": "10.1038/d41586-024-03567-z",
           "filter": "4"
         },
         {
@@ -719,14 +681,6 @@
       "journal_short": "NatHumBehav",
       "articles": [
         {
-          "title": "Examining the replicability of online experiments selected by a decision market",
-          "authors": "Felix Holzmeister, Magnus Johannesson, Colin F. Camerer, Yiling Chen, Teck-Hua Ho, Suzanne Hoogeveen, Juergen Huber, Noriko Imai, Taisuke Imai, Lawrence Jin, Michael Kirchler, Alexander Ly, Benjamin Mandl, Dylan Manfredi, Gideon Nave, Brian A. Nosek, Thomas Pfeiffer, Alexandra Sarafoglou, Rene Schwaiger, Eric-Jan Wagenmakers, Viking Waldén, Anna Dreber",
-          "abstract": "Here we test the feasibility of using decision markets to select studies for replication and provide evidence about the replicability of online experiments. Social scientists ( n = 162) traded on the outcome of close replications of 41 systematically selected MTurk social science experiments published in PNAS 2015–2018, knowing that the 12 studies with the lowest and the 12 with the highest final market prices would be selected for replication, along with 2 randomly selected studies. The replication rate, based on the statistical significance indicator, was 83% for the top-12 and 33% for the bottom-12 group. Overall, 54% of the studies were successfully replicated, with replication effect size estimates averaging 45% of the original effect size estimates. The replication rate varied between 54% and 62% for alternative replication indicators. The observed replicability of MTurk experiments is comparable to that of previous systematic replication projects involving laboratory experiments.",
-          "url": "http://dx.doi.org/10.1038/s41562-024-02062-9",
-          "doi": "10.1038/s41562-024-02062-9",
-          "filter": "0"
-        },
-        {
           "title": "Period poverty is a continuing global challenge",
           "authors": "Lucy Khofi",
           "url": "http://dx.doi.org/10.1038/s41562-024-01981-x",
@@ -765,14 +719,6 @@
           "filter": "0"
         },
         {
-          "title": "Sharing without clicking on news in social media",
-          "authors": "S. Shyam Sundar, Eugene Cho Snyder, Mengqi Liao, Junjun Yin, Jinping Wang, Guangqing Chi",
-          "abstract": "Social media have enabled laypersons to disseminate, at scale, links to news and public affairs information. Many individuals share such links without first reading the linked information. Here we analysed over 35 million public Facebook posts with uniform resource locators shared between 2017 and 2020, and discovered that such ‘shares without clicks’ (SwoCs) constitute around 75% of forwarded links. Extreme and user-aligned political content received more SwoCs, with partisans engaging in it more than politically neutral users. In addition, analyses with 2,969 false uniform resource locators revealed higher shares and, hence, SwoCs by conservatives (76.94%) than liberals (14.25%), probably because, in our dataset, the vast majority (76–82%) of them originated from conservative news domains. Findings suggest that the virality of political content on social media (including misinformation) is driven by superficial processing of headlines and blurbs rather than systematic processing of core content, which has design implications for promoting deliberate discourse in the online public sphere.",
-          "url": "http://dx.doi.org/10.1038/s41562-024-02067-4",
-          "doi": "10.1038/s41562-024-02067-4",
-          "filter": "0"
-        },
-        {
           "title": "Why current menstrual policies do not work",
           "authors": "Sally King",
           "abstract": "A useful way to evaluate any public policy is to use the ‘what’s the problem represented to be’ approach2: what a policy proposes to do reveals what the creators assume is problematic (needs to change). In the case of most menstrual and menopausal policies to date, this appears to be the menstruating body (and ‘women’ by association), rather than universal menstrual ignorance and taboos, associated discriminatory beliefs and practices, and those who profit from these things.\n\nFor instance, when we talk about ‘period poverty’ (in the Global North) and ‘menstrual hygiene management’ (in the Global South), the policy solution is typically ‘access to disposable period products’. Subsequently, the problem of period poverty or poor menstrual hygiene management is represented as ‘(unmanaged) periods make girls or women miss school or work’3. This, unfortunately, frames periods and female bodies as the problem rather than the government policies and societal gender inequalities that directly contribute to increasing poverty especially among women and girls4; or the fact that most schools (and workplaces) are not fit for people who menstruate5; or the huge profit margins involved in the sale of expensive disposable period products (and other products subject to ‘pink tax’)3.",
@@ -785,13 +731,6 @@
           "authors": "Anne-Linda Camerini",
           "url": "http://dx.doi.org/10.1038/s41562-024-02010-7",
           "doi": "10.1038/s41562-024-02010-7",
-          "filter": "0"
-        },
-        {
-          "title": "Why we should care about trans people and menstruation",
-          "authors": "A. J. Lowik",
-          "url": "http://dx.doi.org/10.1038/s41562-024-02014-3",
-          "doi": "10.1038/s41562-024-02014-3",
           "filter": "0"
         },
         {
@@ -829,6 +768,28 @@
           "abstract": "As one of the fastest-growing sectors in many economies, tourism plays a key role in shaping national economic conditions and growth. The coronavirus disease (COVID-19) pandemic has had profound impacts on tourist behaviour and psychology. Understanding tourists’ behavioural and psychological responses to the pandemic is crucial for tourism businesses to manage and sustain post-COVID-19 tourism recovery. To address whether and how the COVID-19 pandemic influenced tourists’ thoughts and behaviours and the extent to which these changes might persist, we provide a narrative Review of the research on tourist behaviours and the psychological impacts of the pandemic. This Review delves into three themes: tourists’ decision-making behaviour; the psychological impacts of the pandemic on tourists; and tourists’ responses to crisis communication strategies. We argue that crisis communication strategies across sectors, pandemic-induced uncertainties and risks and psychological impacts were the predominant influences on tourists’ travel decisions during the pandemic. We conclude by discussing which changes are likely to be sustained.",
           "url": "http://dx.doi.org/10.1038/s41562-024-02037-w",
           "doi": "10.1038/s41562-024-02037-w",
+          "filter": "0"
+        },
+        {
+          "title": "Evaluating the association between the introduction of mandatory calorie labelling and energy consumed using observational data from the out-of-home food sector in England",
+          "authors": "Megan Polden, Andrew Jones, Michael Essman, Jean Adams, Tom R. P. Bishop, Thomas Burgoine, Stephen J. Sharp, Martin White, Richard Smith, Aisling Donohue, Rozemarijn Witkam, I. Gusti Ngurah Edi Putra, Jane Brealey, Eric Robinson",
+          "abstract": "In April 2022, mandatory kilocalorie (kcal) labelling in the out-of-home food sector was introduced as a policy to reduce obesity in England. Here we examined whether the implementation of this policy was associated with a consumer behaviour change. Large out-of-home food sector outlets subject to kcal labelling legislation were visited pre- and post-implementation, and customer exit surveys were conducted with 6,578 customers from 330 outlets. Kcals purchased and consumed, knowledge of purchased kcals and reported noticing and use of kcal labelling were examined. The results suggested that the introduction of the mandatory kcal labelling policy in England was not associated with a significant decrease in self-reported kcals purchased ( B = 11.31, P = 0.564, 95% confidence interval (CI) −27.15 to 49.77) or consumed ( B = 18.51, P = 0.279, 95% CI −15.01 to 38 52.03). Post-implementation, participants underestimated the energy content of their purchased meal less ( B = 61.21, P = 0.002, 95% CI 21.57 to 100.86) and were more likely to report noticing (odds ratio 2.25, P &lt; 0.001, 95% CI 1.84 to 2.73) and using (odds ratio 2.15, P &lt; 0.001, 95% CI 1.62 to 2.85) kcal labelling, which may have wider public health implications.",
+          "url": "http://dx.doi.org/10.1038/s41562-024-02032-1",
+          "doi": "10.1038/s41562-024-02032-1",
+          "filter": "0"
+        },
+        {
+          "title": "Why we should care about trans people and menstruation",
+          "authors": "A.J. Lowik",
+          "url": "http://dx.doi.org/10.1038/s41562-024-02014-3",
+          "doi": "10.1038/s41562-024-02014-3",
+          "filter": "0"
+        },
+        {
+          "title": "Child literacy in low- and middle-income countries",
+          "authors": "Michelle Kaffenberger",
+          "url": "http://dx.doi.org/10.1038/s41562-024-02056-7",
+          "doi": "10.1038/s41562-024-02056-7",
           "filter": "0"
         }
       ],
@@ -910,30 +871,6 @@
         }
       ],
       "articles_hidden": [
-        {
-          "title": "Deficiency in glutathione peroxidase 4 (GPX4) results in abnormal lens development and newborn cataract",
-          "authors": "Zongbo Wei, Caili Hao, Kazi Rafsan Radeen, Zheng Hao, Kavitha Kettimuthu, Kristal Maner-Smith, Shinya Toyokuni, Xingjun Fan",
-          "abstract": "The human lens is composed of a monolayer of lens epithelial cells (LECs) and elongated fibers that align tightly but are separated by the plasma membrane. The integrity of the lens plasma membrane is crucial for maintaining lens cellular structure, homeostasis, and transparency. Glutathione peroxidase 4 (GPX4), a selenoenzyme, plays a critical role in protecting against lipid peroxidation. This study aims to elucidate the role of GPX4 in lens plasma membrane stability during lens development using in vitro, ex vivo, and in vivo systems. Our findings reveal that GPX4 deficiency triggers lens epithelial apoptosis-independent but ferroptosis-mediated cell death. Blocking lens GPX4 activity during ex vivo culture induces lens opacification, LEC death, and disruption of lens fiber cell arrangement. Deletion of lens-specific Gpx4 results in significant unsaturated phospholipid loss and an increase in oxidized phospholipids. Consequently, lenses with Gpx4 deficiency exhibit massive disruption of lens fiber cell structure, significant loss of LECs via ferroptosis, and formation of newborn cataracts. Remarkably, administering the lipid peroxidation inhibitor, liproxstatin-1, to pregnant mothers at embryonic days 9.5 significantly prevents lipid peroxidation, LEC death, and lens developmental defects. Our study unveils the crucial role of GPX4 in lens development and transparency, and also provides a successful intervention approach to prevent lens developmental defects through lipid peroxidation inhibition.",
-          "url": "http://dx.doi.org/10.1073/pnas.2407842121",
-          "doi": "10.1073/pnas.2407842121",
-          "filter": "2"
-        },
-        {
-          "title": "The mechanism of allosteric regulation of calcium-independent phospholipase A 2 by ATP and calmodulin binding to the ankyrin domain",
-          "authors": "Varnavas D. Mouchlis, Yuan-Hao Hsu, Daiki Hayashi, Jian Cao, Sheng Li, J. Andrew McCammon, Edward A. Dennis",
-          "abstract": "Group VIA calcium-independent phospholipase A 2 (iPLA 2 ) is a member of the PLA 2 superfamily that exhibits calcium-independent activity in contrast to the other two major types, secreted phospholipase A 2 (sPLA 2 ) and cytosolic phospholipase A 2 (cPLA 2 ), which both require calcium for their enzymatic activity. Adenosine triphosphate (ATP) has been reported to allosterically activate iPLA 2 , and this has now been verified with a lipidomics-based mixed-micelle assay, but its mechanism of action has been unknown. Hydrogen/deuterium exchange mass spectrometry (HDX-MS) was employed to identify ATP interaction peptide regions located within the ankyrin repeat domain at which ATP interacts. Molecular dynamics simulations revealed the mechanism by which ATP binds to its site and the main residues that interact. Site-directed mutagenesis was used to verify the importance of these residues in the role of ATP in regulating iPLA 2 activity. Importantly, calcium was found to abolish the enhancing regulatory function of ATP and to promote the inhibitory activity by calmodulin. Given previous evidence that calcium does not bind directly to iPLA 2 , its effect appears to be indirect via association with ATP and/or calmodulin. Using HDX-MS, we found that calmodulin interacts with the N terminus peptide region of iPLA 2 consisting of residues 20 to 28. These two regulatory iPLA 2 sites open the road to the development of potential targets for therapeutic intervention.",
-          "url": "http://dx.doi.org/10.1073/pnas.2411539121",
-          "doi": "10.1073/pnas.2411539121",
-          "filter": "2"
-        },
-        {
-          "title": "CD2 expressing innate lymphoid and T cells are critical effectors of immunopathogenesis in hidradenitis suppurativa",
-          "authors": "Mahendra Pratap Kashyap, Bharat Mishra, Rajesh Sinha, Lin Jin, YiFei Gou, Nilesh Kumar, Kayla F. Goliwas, Safiya Haque, Jessy Deshane, Erik Berglund, David Berglund, Boni E. Elewski, Craig A. Elmets, Mohammad Athar, M. Shahid Mukhtar, Chander Raman",
-          "abstract": "Hidradenitis suppurativa (HS) is a chronic, debilitating inflammatory skin disease with a poorly understood immunopathogenesis. Here, we report that HS lesional skin is characterized by the expansion of innate lymphocytes and T cells expressing CD2, an essential activation receptor and adhesion molecule. Lymphocytes expressing elevated CD2 predominated with unique spatial distribution throughout the epidermis and hypodermis in the HS lesion. CD2 + cells were mainly innate lymphocytes expressing the NK cell marker, CD56, and CD4 + T cells. Importantly, these CD2 + cells interacted with CD58 (LFA3) expressing epidermal keratinocytes and fibroblasts in the hypodermis. Granzyme A bright NKT cells (CD2 + CD3 + CD56 bright ) clustered with α-SMA expressing fibroblasts juxtaposed to epithelialized tunnels and fibrotic regions of the hypodermis. Whereas NK cells (CD2 + CD56 dim ) were perforin + , granzymes A + and B + , and enriched adjacent to hyperplastic follicular epidermis and tunnels of HS showing presence of apoptotic cells. The cytokines IL-12, IL-15, and IL-18, which enhance NK cell maturation and function were significantly elevated in HS. Ex vivo HS skin explant cultures treated with CD2:CD58 interaction-blocking anti-CD2 monoclonal antibody attenuated secretion of inflammatory cytokines/chemokines and suppressed inflammatory gene signature. Additionally, CD2:CD58 blockade altered miRNAs involved in NK/NKT differentiation and/or function. In summary, we show that a cellular network of heterogenous NKT and NK cell populations drives inflammation and is critical in the pathobiology of HS, including tunnel formation and fibrosis. Finally, CD2 blockade is a viable immunotherapeutic approach for the effective management of HS.",
-          "url": "http://dx.doi.org/10.1073/pnas.2409274121",
-          "doi": "10.1073/pnas.2409274121",
-          "filter": "2"
-        },
         {
           "title": "Molecular basis for chemokine recognition and activation of XCR1",
           "authors": "Xuan Zhang, Roman R. Schlimgen, Stephanie Singh, Michael P. Tomani, Brian F. Volkman, Cheng Zhang",
@@ -1038,27 +975,11 @@
           "filter": "2"
         },
         {
-          "title": "IFN-γ-induced Th1-Treg polarization in inflamed brains limits exacerbation of experimental autoimmune encephalomyelitis",
-          "authors": "Masaaki Okamoto, Ayumi Kuratani, Daisuke Okuzaki, Naganori Kamiyama, Takashi Kobayashi, Miwa Sasai, Masahiro Yamamoto",
-          "abstract": "Experimental autoimmune encephalomyelitis (EAE) is the most widely used rodent model for multiple sclerosis. Interferon-γ (IFN-γ) and regulatory T cells (Tregs) are individually well known to play beneficial roles in amelioration of EAE. However, little is known about the relationship between IFN-γ and Tregs during the disease. Here, we show that IFN-γ polarizes Tregs into T helper 1 (Th1)-type Tregs (Th1-Tregs) to recover from EAE. Single-cell RNA sequencing analysis revealed that brain Tregs showed signs of IFN-γ stimulation during EAE. Loss of IFN-γ signaling in Tregs and of T cell-derived IFN-γ impaired the Th1-Treg polarization and worsened the disease. Moreover, selective ablation of Th1-Tregs using an intersectional genetic method promoted proinflammatory features of macrophages in the inflamed brains and exacerbated the EAE. Taken together, our study highlights a critical role of T cell-derived IFN-γ for Th1-Treg polarization in inflamed brain to ameliorate EAE.",
-          "url": "http://dx.doi.org/10.1073/pnas.2401692121",
-          "doi": "10.1073/pnas.2401692121",
-          "filter": "2"
-        },
-        {
           "title": "Calcineurin-fusion facilitates cryo-EM structure determination of a Family A GPCR",
           "authors": "Jun Xu, Geng Chen, Haoqing Wang, Sheng Cao, Jie Heng, Xavier Deupi, Yang Du, Brian K. Kobilka",
           "abstract": "Advances in singe-particle cryo-electron microscopy (cryo-EM) have made it possible to solve the structures of numerous Family A and Family B G protein-coupled receptors (GPCRs) in complex with G proteins and arrestins, as well as several Family C GPCRs. Determination of these structures has been facilitated by the presence of large extramembrane components (such as G protein, arrestin, or Venus flytrap domains) in these complexes that aid in particle alignment during the processing of the cryo-EM data. In contrast, determination of the inactive state structure of Family A GPCRs is more challenging due to the relatively small size of the seven transmembrane domain (7TM) and to the surrounding detergent micelle that, in the absence of other features, make particle alignment impossible. Here, we describe an alternative protein engineering strategy where the heterodimeric protein calcineurin is fused to a GPCR by three points of attachment, the cytoplasmic ends of TM5, TM6, and TM7. This three-point attachment provides a more rigid link with the GPCR transmembrane domain that facilitates particle alignment during data processing, allowing us to determine the structures of the β 2 adrenergic receptor (β 2 AR) in the apo, antagonist-bound, and agonist-bound states. We expect that this fusion strategy may have broad application in cryo-EM structural determination of other Family A GPCRs.",
           "url": "http://dx.doi.org/10.1073/pnas.2414544121",
           "doi": "10.1073/pnas.2414544121",
-          "filter": "2"
-        },
-        {
-          "title": "Small-molecule disruption of androgen receptor–dependent chromatin clusters",
-          "authors": "Sarah E. Kohrt, Emily J. Novak, Subhashish Tapadar, Bocheng Wu, Jonathan Strope, Yaw Asante, Hyunmin Kim, Matthew S. Chang, Douglas Gurdak, Athar Khalil, Michael Rood, Eric Raftery, Diana Stavreva, Holly M. Nguyen, Lisha G. Brown, Maddy Ramser, Cody Peer, Warren M. Meyers, Nicholas Aboreden, Maharshi Chakravortee, Richard Sallari, Peter S. Nelson, Kathleen K. Kelly, Thomas G. W. Graham, Xavier Darzacq, William D. Figg, Adegboyega K. Oyelere, Eva Corey, Remi Adelaiye-Ogala, Berkley E. Gryder",
-          "abstract": "Sustained androgen receptor (AR) signaling during relapse is a central driver of metastatic castration-resistant prostate cancer (mCRPC). Current AR antagonists, such as enzalutamide, fail to provide long-term benefit for the mCRPC patients who have dramatic increases in AR expression. Here, we report AR antagonists with efficacy in AR-overexpressing models. These molecules bind to the ligand-binding domain of the AR, promote AR localization to the nucleus, yet potently and selectively down-regulate AR-target genes. The molecules BG-15a and the pharmacokinetically optimized BG-15n elicit a decrease in cell and tumor growth in vitro and in vivo in models of mCRPC. BG-15a/n treatment causes the collapse of chromatin loops between enhancers and promoters at key genes in the AR-driven epigenome. AR binding in the promoter, as well as 3D chromatin clustering, is needed for genes to respond. BG-15a/n represent promising agents for treating patients with relapsed AR-driven mCRPC tumors.",
-          "url": "http://dx.doi.org/10.1073/pnas.2406239121",
-          "doi": "10.1073/pnas.2406239121",
           "filter": "2"
         },
         {
@@ -1078,22 +999,6 @@
           "filter": "2"
         },
         {
-          "title": "Structural basis for the synergetic neutralization of hepatitis E virus by antibody–antibody interaction",
-          "authors": "Minghua Zheng, Lizhi Zhou, Yang Huang, Xiao Zhang, Zihao Yu, Chengyu Yang, Yuanzhi Chen, Dong Ying, Hong Wang, Zhenqin Chen, Chang Liu, Zimin Tang, Siling Wang, Kaihang Wang, Kaixiang Yang, Yanqing Lin, Tingting Li, Qingbing Zheng, Zizheng Zheng, Jun Zhang, Hai Yu, Shaowei Li, Ying Gu, Ningshao Xia",
-          "abstract": "Neutralizing antibodies (nAbs) play a crucial role in virology, antibody drug development, and vaccine research. In this study, we investigated the synergistic effect of two hepatitis E virus (HEV) nAbs, 8H3, and 8C11, which have exhibited enhanced neutralizing activity in a rhesus monkey model. We presented crystal structures of 8H3 Fab alone and a triple complex of 8C11 Fab and 8H3 Fab simultaneously binding to the HEV E2s protein (8C11:E2s:8H3). Through structural analysis, we identified critical binding sites and fully elucidated the binding footprints of nAb 8H3 in the 8C11:E2s:8H3 complex using site-directed mutagenesis, pinpointing Ile 529, Glu 549, Lys 554, and Ser 566 in the E2s domain, and K66H, S67H, D88H in the 8C11 heavy chain. Interestingly, the synergetic enhancement of 8C11 to 8H3 converted to an antagonistic effect when 8C11 bound to E2s with pretreatment of 8H3, indicating a unidirectional synergistic effect associated with the sequence of antibody involvement. We demonstrated this phenomenon through structural comparisons of E2s:8C11 vs. 8C11:E2s:8H3 crystal structures and molecular dynamics simulations, found that Ile 529 played a key role in the synergistic interplay between these two nAbs. The two-antibody combination showed a more potent antibody-imposed physical disruption mechanism and enhanced coneutralization in an authentic HEV-based cell model. Our study suggests a strategy for synergistic antibody cocktail design with antibody–antibody side-by-side interaction.",
-          "url": "http://dx.doi.org/10.1073/pnas.2408585121",
-          "doi": "10.1073/pnas.2408585121",
-          "filter": "2"
-        },
-        {
-          "title": "Continental freshwater discharge influences sea surface salinity variability near world’s megadeltas",
-          "authors": "Fahad K. Khadim, Augusto Getirana, Rajat Bindlish, Nishan Kumar Biswas, Wanshu Nie, Timothy M. Lahmers, Sujay V. Kumar",
-          "abstract": "Sea surface salinity ( SSS ) is a key parameter in the thermohaline circulation of global oceans. Near the megadeltas, inland streamflow through large catchments plays a crucial role in mediating salinity. While some regional studies have investigated how SSS is impacted through water cycle and climate components, a global scale quantification of inland streamflow contribution on SSS variability is lacking. Here, we utilized remote sensing and observation-driven datasets to quantify the statistical associations between SSS and streamflow ( Q basin ) at 48 megadeltas worldwide. This study uncovers a robust negative association between Q basin and SSS , with correlation coefficients R less than - 0.6 for seasonal data found in 26 of the 48 megadeltas, and less than - 0.4 for deseasoned data in 21 megadeltas. The anticorrelation relationship is more pronounced in large deltas, particularly near tropical climates and in river-influenced deltas. The study also underscores the significant roles of climate, morphological, and anthropogenic stratification in impacting the natural influence of freshwater discharge on SSS . By highlighting the interconnected impacts of alterations in terrestrial water cycle upstream and SSS , this work contributes to enhancing our understanding of global ocean and climate circulation patterns and in tackling environmental issues pertaining to marine ecosystems.",
-          "url": "http://dx.doi.org/10.1073/pnas.2412551121",
-          "doi": "10.1073/pnas.2412551121",
-          "filter": "2"
-        },
-        {
           "title": "Uncovering the mechanical secrets of the squirting cucumber",
           "authors": "Finn Box, Derek E. Moulton, Dominic Vella, Yuvraj Bhagotra, Tristan Lowe, Alain Goriely, Chris J. Thorogood",
           "abstract": "Rapid movement is rare in the plant kingdom, but a prerequisite for ballistic seed dispersal. A particularly dramatic example of rapid motion in plants is the squirting cucumber ( Ecballium elaterium ) which launches its seeds explosively via a high-pressure jet. Despite intriguing scientists for centuries, the exact mechanism of seed dispersal and its effect on subsequent generations remain poorly understood. Here, through a combination of experimentation, high-speed videography, quantitative image analysis, and mathematical modeling, we develop a full mechanical description of the process. We quantify the turgor pressure driving ballistic ejection, and uncover key mechanical interactions between the fruit and stem both prior to and during seed ejection, including the unique feature that fluid is redistributed from fruit to stem prior to ejection, a developmental event that goes against the paradigm of rapid seed ejection but which is of key importance in successful dispersal for Ecballium . Combining modeling elements, we quantify and simulate the ballistic trajectories of seeds, which are dispersed over distances greater than 2,000 times their length. We demonstrate how together these mechanical features contribute to a nearly uniform distribution of seeds away from the parent plant. Parametric variation of key developmental events in the modeling framework indicates how a suite of adaptive features in combination drives the spatial distribution of offspring over consecutive generations, and suggests that ballistic seed dispersal has a stabilizing effect on population dynamics by reducing intraspecific competition.",
@@ -1110,11 +1015,19 @@
           "filter": "2"
         },
         {
-          "title": "A global assessment of plant–mite mutualism and its ecological drivers",
-          "authors": "Andrew Myers, Bruce Martin, Jenna Yonenaga, Anurag A. Agrawal, Marjorie G. Weber",
-          "abstract": "Mutualisms are mediated by adaptive traits of interacting organisms and play a central role in the ecology and evolution of species. Thousands of plant species possess tiny structures called “domatia” that house mites which protect plants from pests, yet these traits remain woefully understudied. Here, we release a worldwide database of species with mite domatia and provide an evaluation of the phylogenetic and geographic distribution of this mutualistic trait. With &gt;2,500 additions based on digital herbarium scans and published reports, we increased the number of known species with domatia by 27% and, importantly, documented their absence in &gt;4,000 species. We show that mite domatia likely evolved hundreds of times among flowering plants, occurring in an estimated ~10% of woody species representing over a quarter of all angiosperm families. Contrary to classic hypotheses about the evolutionary drivers of mutualism, we find that mite domatia evolved more frequently in temperate regions and in deciduous lineages; this pattern is concordant with a large-scale geographic transition from predominantly ant-based plant defense mutualisms in the tropics to mite-based defense mutualisms in temperate climates. Our data also reveal a pattern of evolutionary convergence in domatia morphology, with tuft-form domatia more likely to evolve in dry temperate habitats and pit domatia more likely to evolve in wet tropical environments. We have shown climate-associated drivers of mite domatia evolution, demonstrating their utility and power as an evolutionarily replicated system for the study of plant defense mutualisms.",
-          "url": "http://dx.doi.org/10.1073/pnas.2309475121",
-          "doi": "10.1073/pnas.2309475121",
+          "title": "Structural basis for the synergetic neutralization of hepatitis E virus by antibody–antibody interaction",
+          "authors": "Minghua Zheng, Lizhi Zhou, Yang Huang, Xiao Zhang, Zihao Yu, Chengyu Yang, Yuanzhi Chen, Dong Ying, Hong Wang, Zhenqin Chen, Chang Liu, Zimin Tang, Siling Wang, Kaihang Wang, Kaixiang Yang, Yanqing Lin, Tingting Li, Qingbing Zheng, Zizheng Zheng, Jun Zhang, Hai Yu, Shaowei Li, Ying Gu, Ningshao Xia",
+          "abstract": "Neutralizing antibodies (nAbs) play a crucial role in virology, antibody drug development, and vaccine research. In this study, we investigated the synergistic effect of two hepatitis E virus (HEV) nAbs, 8H3, and 8C11, which have exhibited enhanced neutralizing activity in a rhesus monkey model. We presented crystal structures of 8H3 Fab alone and a triple complex of 8C11 Fab and 8H3 Fab simultaneously binding to the HEV E2s protein (8C11:E2s:8H3). Through structural analysis, we identified critical binding sites and fully elucidated the binding footprints of nAb 8H3 in the 8C11:E2s:8H3 complex using site-directed mutagenesis, pinpointing Ile 529, Glu 549, Lys 554, and Ser 566 in the E2s domain, and K66H, S67H, D88H in the 8C11 heavy chain. Interestingly, the synergetic enhancement of 8C11 to 8H3 converted to an antagonistic effect when 8C11 bound to E2s with pretreatment of 8H3, indicating a unidirectional synergistic effect associated with the sequence of antibody involvement. We demonstrated this phenomenon through structural comparisons of E2s:8C11 vs. 8C11:E2s:8H3 crystal structures and molecular dynamics simulations, found that Ile 529 played a key role in the synergistic interplay between these two nAbs. The two-antibody combination showed a more potent antibody-imposed physical disruption mechanism and enhanced coneutralization in an authentic HEV-based cell model. Our study suggests a strategy for synergistic antibody cocktail design with antibody–antibody side-by-side interaction.",
+          "url": "http://dx.doi.org/10.1073/pnas.2408585121",
+          "doi": "10.1073/pnas.2408585121",
+          "filter": "2"
+        },
+        {
+          "title": "Continental freshwater discharge influences sea surface salinity variability near world’s megadeltas",
+          "authors": "Fahad K. Khadim, Augusto Getirana, Rajat Bindlish, Nishan Kumar Biswas, Wanshu Nie, Timothy M. Lahmers, Sujay V. Kumar",
+          "abstract": "Sea surface salinity ( SSS ) is a key parameter in the thermohaline circulation of global oceans. Near the megadeltas, inland streamflow through large catchments plays a crucial role in mediating salinity. While some regional studies have investigated how SSS is impacted through water cycle and climate components, a global scale quantification of inland streamflow contribution on SSS variability is lacking. Here, we utilized remote sensing and observation-driven datasets to quantify the statistical associations between SSS and streamflow ( Q basin ) at 48 megadeltas worldwide. This study uncovers a robust negative association between Q basin and SSS , with correlation coefficients R less than - 0.6 for seasonal data found in 26 of the 48 megadeltas, and less than - 0.4 for deseasoned data in 21 megadeltas. The anticorrelation relationship is more pronounced in large deltas, particularly near tropical climates and in river-influenced deltas. The study also underscores the significant roles of climate, morphological, and anthropogenic stratification in impacting the natural influence of freshwater discharge on SSS . By highlighting the interconnected impacts of alterations in terrestrial water cycle upstream and SSS , this work contributes to enhancing our understanding of global ocean and climate circulation patterns and in tackling environmental issues pertaining to marine ecosystems.",
+          "url": "http://dx.doi.org/10.1073/pnas.2412551121",
+          "doi": "10.1073/pnas.2412551121",
           "filter": "2"
         },
         {
@@ -1165,19 +1078,11 @@
           "filter": "2"
         },
         {
-          "title": "The 4EHP-mediated translational repression of cGAS impedes the host immune response against DNA viruses",
-          "authors": "Reese Jalal Ladak, Jung-Hyun Choi, Jun Luo, Owen J. Chen, Niaz Mahmood, Alexander J. He, Parisa Naeli, Patric Harris Snell, Esha Bayani, Huy-Dung Hoang, Tommy Alain, Jose G. Teodoro, Jianwei Wang, Xu Zhang, Seyed Mehdi Jafarnejad, Nahum Sonenberg",
-          "abstract": "A critical host response against viral infections entails the activation of innate immune signaling that culminates in the production of antiviral proteins. DNA viruses are sensed by the cytosolic pattern recognition receptor cyclic GMP–AMP synthase (cGAS), which initiates a signaling pathway that results in production of proinflammatory cytokines such as Interferon-β (IFN-β) and activation of the antiviral response. Precise regulation of the antiviral innate immune response is required to avoid deleterious effects of its overactivation. We previously reported that the 4EHP/GIGYF2 translational repressor complex reduces the translation of Ifnb1 mRNA, which encodes IFN-β, upon RNA viral infections. Here, we report a distinct regulatory mechanism by which 4EHP controls replication of DNA viruses by translational repression of the Cgas mRNA, which encodes the DNA viral sensor cGAS. We show that 4EHP is required for effective translational repression of Cgas mRNA triggered by miR-23a. Upon infection, 4EHP deficiency bolsters the elicited innate immune response against the diverse DNA viruses Herpes simplex virus 1 (HSV-1) and Vaccinia Virus (VacV) and concomitantly reduces their rate of replication in vitro and in vivo. This study elucidates an intrinsic regulatory mechanism of the host response to DNA viruses which may provide unique opportunities for countering viral infections.",
-          "url": "http://dx.doi.org/10.1073/pnas.2413018121",
-          "doi": "10.1073/pnas.2413018121",
-          "filter": "2"
-        },
-        {
-          "title": "An E2 ubiquitin-conjugating enzyme links diubiquitinated H2B to H3K27M oncohistone function",
-          "authors": "Alan L. Jiao, Erdem Sendinc, Barry M. Zee, Felice Wallner, Yang Shi",
-          "abstract": "The H3K27M oncogenic histone (oncohistone) mutation drives ~80% of incurable childhood brain tumors known as diffuse midline gliomas (DMGs). The major molecular feature of H3K27M mutant DMGs is a global loss of H3K27 trimethylation (H3K27me3), a phenotype conserved in Caenorhabditis elegans ( C. elegans ). Here, we perform unbiased genome-wide suppressor screens in C. elegans expressing H3K27M and isolate 20 suppressors, all of which at least partially restore H3K27me3. 19/20 suppressor mutations map to the same histone H3.3 gene in which the K27M mutation was originally introduced. Most of these create single amino acid substitutions between residues R26-Y54, which do not disrupt oncohistone expression. Rather, they are predicted to impair interactions with the Polycomb Repressive Complex 2 (PRC2) and are functionally conserved in human cells. Further, we mapped a single extragenic H3K27M suppressor to ubc-20 , an E2 ubiquitin-conjugating enzyme, whose loss rescued H3K27me3 to nearly 50% wild-type levels despite continued oncohistone expression and chromatin incorporation. We demonstrate that ubc-20 is the major enzyme responsible for generating diubiquitinated histone H2B. Our study provides in vivo support for existing models of PRC2 inhibition via direct oncohistone contact and suggests that the effects of H3K27M may be modulated by H2B ubiquitination.",
-          "url": "http://dx.doi.org/10.1073/pnas.2416614121",
-          "doi": "10.1073/pnas.2416614121",
+          "title": "KCTD10 p.C124W variant contributes to schizophrenia by attenuating LLPS-mediated synapse formation",
+          "authors": "Chenjun Mu, Pan Liu, Liang Liu, Yaqing Wang, Kefu Liu, Xiangyu Li, Guozhong Li, Jianbo Cheng, Mengyao Bu, Han Chen, Manpei Tang, Yuanhang Yao, Jun Guan, Tiantian Ma, Zhengrong Zhou, Qingfeng Wu, Jiada Li, Hui Guo, Kun Xia, Zhengmao Hu, Xiaoqing Peng, Bing Lang, Faxiang Li, Xiao-wei Chen, Zhiheng Xu, Ling Yuan",
+          "abstract": "KCTD10, a member of the potassium channel tetramerization domain (KCTD) family, is implicated in neuropsychiatric disorders and functions as a substrate recognition component within the RING-type ubiquitin ligase complex. A rare de novo variant of KCTD10, p.C124W, was identified in schizophrenia cases, yet its underlying pathogenesis remains unexplored. Here, we demonstrate that heterozygous KCTD10 C124W mice display pronounced synaptic abnormalities and exhibit schizophrenia-like behaviors. Mechanistically, we reveal that KCTD10 undergoes liquid–liquid phase separation (LLPS), a process orchestrated by its intrinsically disordered region (IDR). p.C124W mutation disrupts this LLPS capability, leading to diminished degradation of RHOB and subsequent excessive accumulation in the postsynaptic density fractions. Notably, neither IDR deletion nor p.C124W mutation in KCTD10 mitigates the synaptic abnormalities caused by Kctd10 deficiency. Thus, our findings implicate that LLPS may be associated with the pathogenesis of KCTD10-associated brain disorders and highlight the potential of targeting RHOB as a therapeutic strategy for diseases linked to mutations in KCTD10 or RHOB.",
+          "url": "http://dx.doi.org/10.1073/pnas.2400464121",
+          "doi": "10.1073/pnas.2400464121",
           "filter": "2"
         },
         {
@@ -1209,14 +1114,6 @@
           "authors": "Richard Palin, Jon Wade, Brendan Dyck",
           "url": "http://dx.doi.org/10.1073/pnas.2416680121",
           "doi": "10.1073/pnas.2416680121",
-          "filter": "2"
-        },
-        {
-          "title": "KCTD10 p.C124W variant contributes to schizophrenia by attenuating LLPS-mediated synapse formation",
-          "authors": "Chenjun Mu, Pan Liu, Liang Liu, Yaqing Wang, Kefu Liu, Xiangyu Li, Guozhong Li, Jianbo Cheng, Mengyao Bu, Han Chen, Manpei Tang, Yuanhang Yao, Jun Guan, Tiantian Ma, Zhengrong Zhou, Qingfeng Wu, Jiada Li, Hui Guo, Kun Xia, Zhengmao Hu, Xiaoqing Peng, Bing Lang, Faxiang Li, Xiao-wei Chen, Zhiheng Xu, Ling Yuan",
-          "abstract": "KCTD10, a member of the potassium channel tetramerization domain (KCTD) family, is implicated in neuropsychiatric disorders and functions as a substrate recognition component within the RING-type ubiquitin ligase complex. A rare de novo variant of KCTD10, p.C124W, was identified in schizophrenia cases, yet its underlying pathogenesis remains unexplored. Here, we demonstrate that heterozygous KCTD10 C124W mice display pronounced synaptic abnormalities and exhibit schizophrenia-like behaviors. Mechanistically, we reveal that KCTD10 undergoes liquid–liquid phase separation (LLPS), a process orchestrated by its intrinsically disordered region (IDR). p.C124W mutation disrupts this LLPS capability, leading to diminished degradation of RHOB and subsequent excessive accumulation in the postsynaptic density fractions. Notably, neither IDR deletion nor p.C124W mutation in KCTD10 mitigates the synaptic abnormalities caused by Kctd10 deficiency. Thus, our findings implicate that LLPS may be associated with the pathogenesis of KCTD10-associated brain disorders and highlight the potential of targeting RHOB as a therapeutic strategy for diseases linked to mutations in KCTD10 or RHOB.",
-          "url": "http://dx.doi.org/10.1073/pnas.2400464121",
-          "doi": "10.1073/pnas.2400464121",
           "filter": "2"
         },
         {
@@ -1260,43 +1157,11 @@
           "filter": "2"
         },
         {
-          "title": "Identification of movie encoding neurons enables movie recognition AI",
-          "authors": "Masaki Hiramoto, Hollis T. Cline",
-          "abstract": "Natural visual scenes are dominated by spatiotemporal image dynamics, but how the visual system integrates “movie” information over time is unclear. We characterized optic tectal neuronal receptive fields using sparse noise stimuli and reverse correlation analysis. Neurons recognized movies of ~200-600 ms durations with defined start and stop stimuli. Movie durations from start to stop responses were tuned by sensory experience though a hierarchical algorithm. Neurons encoded families of image sequences following trigonometric functions. Spike sequence and information flow suggest that repetitive circuit motifs underlie movie detection. Principles of frog topographic retinotectal plasticity and cortical simple cells are employed in machine learning networks for static image recognition, suggesting that discoveries of principles of movie encoding in the brain, such as how image sequences and duration are encoded, may benefit movie recognition technology. We built and trained a machine learning network that mimicked neural principles of visual system movie encoders. The network, named MovieNet, outperformed current machine learning image recognition networks in classifying natural movie scenes, while reducing data size and steps to complete the classification task. This study reveals how movie sequences and time are encoded in the brain and demonstrates that brain-based movie processing principles enable efficient machine learning.",
-          "url": "http://dx.doi.org/10.1073/pnas.2412260121",
-          "doi": "10.1073/pnas.2412260121",
-          "filter": "2"
-        },
-        {
-          "title": "Compensation to visual impairments and behavioral plasticity in navigating ants",
-          "authors": "Sebastian Schwarz, Leo Clement, Lars Haalck, Benjamin Risse, Antoine Wystrach",
-          "abstract": "Desert ants are known to rely heavily on vision while venturing for food and returning to the nest. During these foraging trips, ants memorize and recognize their visual surroundings, which enables them to recapitulate individually learned routes in a fast and effective manner. The compound eyes are crucial for such visual navigation; however, it remains unclear how information from both eyes are integrated and how ants cope with visual impairment. Here, we manipulated the ants’ visual system by covering one of the two compound eyes and analyzed their ability to recognize familiar views. Monocular ants showed an immediate disruption of their ability to recapitulate their familiar route. However, they were able to compensate for this nonnatural impairment in a few hours by engaging in an extensive route-relearning ontogeny, composed of more learning walks than what naïve ants typically do. This relearning process with one eye forms novel memories, without erasing the previous memories acquired with two eyes. Additionally, ants having learned a route with one eye only are unable to recognize it with two eyes, even though more information is available. Together, this shows that visual memories are encoded and recalled in an egocentric and fundamentally binocular way, where the visual input as a whole must be matched to enable recognition. We show how this kind of visual processing fits with their neural circuitry.",
-          "url": "http://dx.doi.org/10.1073/pnas.2410908121",
-          "doi": "10.1073/pnas.2410908121",
-          "filter": "2"
-        },
-        {
-          "title": "Glucose-independent human cytomegalovirus replication is supported by metabolites that feed upper glycolytic branches",
-          "authors": "Rebekah L. Mokry, John G. Purdy",
-          "abstract": "Viruses with broad tissue distribution and cell tropism successfully replicate in various nutrient environments in the body. Several viruses reprogram metabolism for viral replication. However, many studies focus on metabolic reprogramming in nutrient-rich conditions that do not recapitulate physiological environments in the body. Here, we investigated how viruses may replicate when a metabolite thought to be essential for replication is limited. We use human cytomegalovirus infection in glucose-free conditions as a model to determine how glucose supports virus replication and how physiologically relevant nutrients contribute to glucose-independent virus production. We find that glucose supports viral genome synthesis, viral protein production and glycosylation, and infectious virus production. Notably, supplement of glucose-free cultures with uridine, ribose, or UDP-GlcNAc—metabolites that feed upper glycolytic branches like the pentose phosphate pathway—results in partially restored virus replication, including low levels of infectious virus production. Supplementing lower glycolysis in glucose-free cultures using pyruvate fails to restore virus replication. These results indicate that nutrients can compensate for glucose via feeding upper glycolytic branches to sustain low levels of virus production. More broadly, our findings suggest that viruses may successfully replicate in diverse metabolic niches, including those in the body with low glucose levels, through alternative nutrient usage.",
-          "url": "http://dx.doi.org/10.1073/pnas.2412966121",
-          "doi": "10.1073/pnas.2412966121",
-          "filter": "2"
-        },
-        {
           "title": "Identification of a dengue 2 virus envelope protein receptor in Aedes aegypti critical for viral midgut infection",
           "authors": "Asher M. Kantor, Octavio A. C. Talyuli, William R. Reid, Patricia Hessab Alvarenga, Jasmine Booker, Jingyi Lin, Alexander W. E. Franz, Carolina Barillas-Mury",
           "abstract": "The establishment of a productive dengue virus (DENV) infection in the midgut epithelial cells of Aedes aegypti is critical for the viral transmission cycle. The hypothesis that DENV virions interact directly with specific mosquito midgut proteins was explored. We found that DENV serotype 2 (DENV2) pretreated with trypsin interacted with a single 31 kDa protein, identified as AAEL011180 by protein mass spectrometry. This putative receptor is a highly conserved protein and has orthologs in culicine and anopheline mosquitoes. We confirmed that impairing the expression of AAEL011180 in the midgut of Ae. aegypti females abolished the interaction with DENV2, and the virus also bound to immobilized recombinant purified receptor. Furthermore, recombinant DENV2 surface E glycoprotein bound to recombinant AAEL011180 with high affinity (38.2 nM) in binding kinetic analysis using surface plasmon resonance. The gene for this DENV2 E protein receptor (EPrRec) was disrupted, but since the gene is essential in Ae. aegypti, only heterozygote knockout (ΔEPrRec +/− ) females could be recovered. Further reducing EPrRec mRNA expression in the midgut of ΔEPrRec +/− females by systemic dsRNA injection significantly reduced the prevalence of DENV2 midgut infection. EPrRec also interacts with heat shock protein 70 cognate 3 (Hsc70-3), and silencing Hsc70-3 expression in ΔEPrRec females also reduced the prevalence of DENV2 midgut infection.",
           "url": "http://dx.doi.org/10.1073/pnas.2417750121",
           "doi": "10.1073/pnas.2417750121",
-          "filter": "2"
-        },
-        {
-          "title": "Emergent collective behavior evolves more rapidly than individual behavior among acorn ant species",
-          "authors": "Grant Navid Doering, Matthew M. Prebus, Sachin Suresh, Jordan N. Greer, Reilly Bowden, Timothy A. Linksvayer",
-          "abstract": "Emergence is a fundamental concept in biology and other disciplines, but whether emergent phenotypes evolve similarly to nonemergent phenotypes is unclear. The hypothesized process of emergent evolution posits that evolutionary change in at least some collective behaviors will differ from evolutionary change in the corresponding intrinsic behaviors of isolated individuals. As a result, collective behavior might evolve more rapidly and diversify more between populations compared to individual behavior. To test whether collective behavior evolves emergently, we conducted a large comparative study using 22 ant species and gathered over 1,500 behavioral rhythm time series from hundreds of colonies and isolated individuals, totaling over 1.5 y of behavioral data. We show that analogous traits measured at individual and collective levels exhibit distinct evolutionary patterns. The estimated rates of phenotypic evolution for the rhythmicity of activity in ant colonies were faster than the evolutionary rates of the same behavior measured in isolated individual ants, and total variation across species in collective behavior was higher than variation in individual behavior. We hypothesize that more rapid evolution and higher variation is a widespread feature of emergent phenotypes relative to lower-level phenotypes across complex biological systems.",
-          "url": "http://dx.doi.org/10.1073/pnas.2420078121",
-          "doi": "10.1073/pnas.2420078121",
           "filter": "2"
         },
         {
@@ -1354,6 +1219,22 @@
           "filter": "2"
         },
         {
+          "title": "Emergent collective behavior evolves more rapidly than individual behavior among acorn ant species",
+          "authors": "Grant Navid Doering, Matthew M. Prebus, Sachin Suresh, Jordan N. Greer, Reilly Bowden, Timothy A. Linksvayer",
+          "abstract": "Emergence is a fundamental concept in biology and other disciplines, but whether emergent phenotypes evolve similarly to nonemergent phenotypes is unclear. The hypothesized process of emergent evolution posits that evolutionary change in at least some collective behaviors will differ from evolutionary change in the corresponding intrinsic behaviors of isolated individuals. As a result, collective behavior might evolve more rapidly and diversify more between populations compared to individual behavior. To test whether collective behavior evolves emergently, we conducted a large comparative study using 22 ant species and gathered over 1,500 behavioral rhythm time series from hundreds of colonies and isolated individuals, totaling over 1.5 y of behavioral data. We show that analogous traits measured at individual and collective levels exhibit distinct evolutionary patterns. The estimated rates of phenotypic evolution for the rhythmicity of activity in ant colonies were faster than the evolutionary rates of the same behavior measured in isolated individual ants, and total variation across species in collective behavior was higher than variation in individual behavior. We hypothesize that more rapid evolution and higher variation is a widespread feature of emergent phenotypes relative to lower-level phenotypes across complex biological systems.",
+          "url": "http://dx.doi.org/10.1073/pnas.2420078121",
+          "doi": "10.1073/pnas.2420078121",
+          "filter": "2"
+        },
+        {
+          "title": "Medium-density amorphous ice unveils shear rate as a new dimension in water’s phase diagram",
+          "authors": "Ingrid de Almeida Ribeiro, Debdas Dhabal, Rajat Kumar, Suvo Banik, Subramanian K. R. S. Sankaranarayanan, Valeria Molinero",
+          "abstract": "Recent experiments revealed a new amorphous ice phase, medium-density amorphous ice (MDA), formed by ball-milling ice I h at 77 K [Rosu-Finsen et al. , Science 379 , 474–478 (2023)]. MDA has density between that of low-density amorphous (LDA) and high-density amorphous (HDA) ices, adding to the complexity of water’s phase diagram, known for its glass polyamorphism and two-state thermodynamics. The nature of MDA and its relation to other amorphous ices and liquid water remain unsolved. Here, we use molecular simulations under controlled pressure and shear rate at 77 K to produce and investigate MDA. We find that MDA formed at constant shear rate is a steady-state nonequilibrium shear-driven amorphous ice (SDA), that can be produced by shearing ice I h , LDA, or HDA. Our results suggest that MDA could be obtained by ball-milling water glasses without crystallization interference. Increasing the shear rate at ambient pressure produces SDAs with densities ranging from LDA to HDA, revealing shear rate as a new thermodynamic variable in the nonequilibrium phase diagram of water. Indeed, shearing provides access to amorphous states inaccessible by controlling pressure and temperature alone. SDAs produced with shearing rates as high as 10 6 s −1 sample the same region of the potential energy landscape than hyperquenched glasses with identical density, pressure, and temperature. Intriguingly, SDAs obtained by shearing at ~10 8 s −1 have density, enthalpy, and structure indistinguishable from those of water “instantaneously” quenched from room temperature to 77 K over 10 ps, making them good approximants for the “true glass” of ambient liquid water.",
+          "url": "http://dx.doi.org/10.1073/pnas.2414444121",
+          "doi": "10.1073/pnas.2414444121",
+          "filter": "2"
+        },
+        {
           "title": "The RING-type E3 ligase RIE1 sustains leaf longevity by specifically targeting AtACS7 to fine-tune ethylene production in Arabidopsis",
           "authors": "Xianglin Tang, Yuanyuan Mei, Kaixuan He, Ran Liu, Xiaoyan Lv, Yujia Zhao, Wenjing Li, Qian Wang, Qinshan Gong, Shengnan Li, Chang Xu, Xu Zheng, Qingyu Cao, Dan Wang, Ning Ning Wang",
           "abstract": "Ethylene is widely recognized as a positive regulator of leaf senescence. However, how plants coordinate the biosynthesis of ethylene to meet the requirements of senescence progression has not been determined. The rate-limiting enzyme in the ethylene biosynthesis pathway is ACC synthase. AtACS7 was previously considered one of the major contributors to the synthesis of “senescence ethylene” in Arabidopsis . However, the “brake signal” that fine-tunes the expression of AtACS7 to ensure optimal ethylene production during leaf development has yet to be identified. In the present study, the RING-H2 zinc-finger protein RIE1 was found to specifically interact with and ubiquitinate AtACS7, among all functional ACSs in Arabidopsis , to promote its degradation. Overexpression of RIE1 markedly decreased ethylene biosynthesis and delayed leaf senescence, whereas loss of function of RIE1 significantly increased ethylene emission and accelerated leaf senescence. The ethylene-related phenotypes of RIE1 overexpressing or knockout mutants were effectively rescued by the ethylene precursor ACC or the competitive inhibitor of ACS, respectively. In particular, AtACS7-induced precocious leaf senescence was strongly enhanced by the loss of RIE1 but was significantly attenuated by the overexpression of RIE1 . The specific regions of interaction between AtACS7 and RIE1, as well as the major ubiquitination sites of AtACS7, were further investigated. All results demonstrated that RIE1 functions as an important modulator of ethylene biosynthesis during leaf development by specifically targeting AtACS7 for degradation, thereby enabling plants to produce the optimal levels of ethylene needed.",
@@ -1370,43 +1251,11 @@
           "filter": "2"
         },
         {
-          "title": "CD4 + T cells drive corneal nerve damage but not epitheliopathy in an acute aqueous-deficient dry eye model",
-          "authors": "Alexia Vereertbrugghen, Manuela Pizzano, Agostina Cernutto, Florencia Sabbione, Irene A. Keitelman, Douglas Vera Aguilar, Ariel Podhorzer, Federico Fuentes, Celia Corral-Vázquez, Mauricio Guzmán, Mirta N. Giordano, Analía Trevani, Cintia S. de Paiva, Jeremías G. Galletti",
-          "abstract": "Dry eye disease (DED) is characterized by a dysfunctional tear film in which the corneal epithelium and its abundant nerves are affected by ocular desiccation and inflammation. Although adaptive immunity and specifically CD4 + T cells play a role in DED pathogenesis, the exact contribution of these cells to corneal epithelial and neural damage remains undetermined. To address this, we explored the progression of a surgical DED model in wild-type (WT) and T cell-deficient mice. We observed that adaptive immune-deficient mice developed all aspects of DED comparably to WT mice except for the absence of functional and morphological corneal nerve changes, nerve damage-associated transcriptomic signature in the trigeminal ganglia, and sustained tear cytokine levels. Adoptive transfer of CD4 + T cells from WT DED mice to T cell-deficient mice reproduced corneal nerve damage but not epitheliopathy. Conversely, T cell-deficient mice reconstituted solely with naïve CD4 + T cells developed corneal nerve impairment and epitheliopathy upon DED induction, thus replicating the WT DED phenotype. Collectively, our data show that while corneal neuropathy is driven by CD4 + T cells in DED, corneal epithelial damage develops independently of the adaptive immune response. These findings have implications for T cell-targeting therapies currently in use for DED.",
-          "url": "http://dx.doi.org/10.1073/pnas.2407648121",
-          "doi": "10.1073/pnas.2407648121",
-          "filter": "2"
-        },
-        {
-          "title": "A complex mechanism translating variation of a simple genetic architecture into alternative life histories",
-          "authors": "Jukka-Pekka Verta, Jacqueline E. Moustakas-Verho, Iikki Donner, Morgane Frapin, Annukka Ruokolainen, Paul V. Debes, Jaakko Erkinaro, Craig R. Primmer",
-          "abstract": "Understanding the processes that link genotype to phenotype is a central challenge in biology. Despite progress in discovering genes associated with ecologically relevant traits, a poor understanding of the processes and functions via which molecules mediate evolutionary differences leaves us critically far from linking proximate and ultimate causes of evolution. This knowledge gap is particularly large in multifaceted phenotypes of ecological relevance such as life histories where multiple traits covary and influence fitness. In Atlantic salmon ( Salmo salar ), variation in a key life-history trait, maturation age, is largely linked to the transcription cofactor vestigial-like 3 ( vgll3 ). Here, we show that despite this simple genetic architecture, vgll3 genotype influences maturation age through a complex regulatory mechanism whereby it controls the expression of diverse pubertal signaling pathways. Using a multiomic approach in salmon testes, we show that the vgll3 genotype conferring early maturity up-regulates key genes controlling androgen production, cellular energy and adiposity, and TGF-β signaling, thereby increasing the likelihood of earlier pubertal initiation. By mapping VGLL3 regulatory elements we further show its interaction with distinct transcription factors in a genotype-dependent manner, thus coordinating differential activation of regulatory pathways. This study reveals the proximate mechanisms through which a genetically simple association leads to functionally complex molecular differences in a spectrum of cellular traits, thus explaining the molecular basis of pleiotropy in a large-effect gene. Our results indicate that evolution in correlated phenotypes, as exemplified by alternative life history strategies, can be dictated by the function of major life-history genes.",
-          "url": "http://dx.doi.org/10.1073/pnas.2402386121",
-          "doi": "10.1073/pnas.2402386121",
-          "filter": "2"
-        },
-        {
-          "title": "Understanding the puzzle of angular momentum conservation in beta decay and related processes",
-          "authors": "Gordon Baym, Jen-Chieh Peng, C. J. Pethick",
-          "abstract": "We ask the question of how angular momentum is conserved in electroweak interaction processes. To introduce the problem with a minimum of mathematics, we first raise the same issue in elastic scattering of a circularly polarized photon by an atom, where the scattered photon has a different spin direction than the original photon, and note its presence in scattering of a fully relativistic spin-1/2 particle by a central potential. We then consider inverse beta decay in which an electron is emitted following the capture of a neutrino on a nucleus. While both the incident neutrino and final electron spins are antiparallel to their momenta, the final spin is in a different direction than that of the neutrino—an apparent change of angular momentum. However, prior to measurement of the final particle, in all these cases angular momentum is indeed conserved. The apparent nonconservation of angular momentum arises in the quantum measurement process in which the measuring apparatus does not have an initially well-defined angular momentum, but is localized in the outside world. We generalize the discussion to massive neutrinos and electrons, and examine nuclear beta decay and electron-positron annihilation processes through the same lens, enabling physically transparent derivations of angular and helicity distributions in these reactions.",
-          "url": "http://dx.doi.org/10.1073/pnas.2416768121",
-          "doi": "10.1073/pnas.2416768121",
-          "filter": "2"
-        },
-        {
           "title": "Agonist activation to open the Gα subunit of the GPCR–G protein precoupled complex defines functional agonist activation of TAS2R5",
           "authors": "Moon Young Yang, Khuong Duy Mac, Hannah R. Strzelinski, Samantha A. Hoffman, Donghwa Kim, Soo-Kyung Kim, Judith Su, Stephen B. Liggett, William A. Goddard",
           "abstract": "G protein-coupled receptors (GPCRs) regulate multiple cellular responses and represent highly successful therapeutic targets. The mechanisms by which agonists activate the G protein are unclear for many GPCR families, including the bitter taste receptors (TAS2Rs). We ascertained TAS2R5 properties by live cell-based functional assays, direct binding affinity measurements using optical resonators, and atomistic molecular dynamics simulations. We focus on three agonists that exhibit a wide range of signal transduction in cells despite comparable ligand–receptor binding energies derived from direct experiment and computation. Metadynamics simulations revealed that the critical barrier to activation is ligand-induced opening of the G protein between the α-helical (AH) and Ras-like domains of Gα subunit from a precoupled TAS2R5-G protein state to the fully activated state. A moderate agonist opens the AH-Ras cleft from 22 Å to 31 Å with an energy gain of −4.8 kcal mol −1 , making GDP water-exposed for signaling. A high-potency agonist had an energy gain of −11.1 kcal mol −1 . The low-potency agonist is also exothermic for Gα opening, but with an energy gain of only −1.4 kcal mol −1 . This demonstrates that TAS2R5 agonist-bound functional potencies are derived from energy gains in the transition from a precoupled complex at the level of Gα opening. Our experimental and computational study provides insights into the activation mechanism of signal transduction that provide a basis for rational design of new drugs.",
           "url": "http://dx.doi.org/10.1073/pnas.2409987121",
           "doi": "10.1073/pnas.2409987121",
-          "filter": "2"
-        },
-        {
-          "title": "Medium-density amorphous ice unveils shear rate as a new dimension in water’s phase diagram",
-          "authors": "Ingrid de Almeida Ribeiro, Debdas Dhabal, Rajat Kumar, Suvo Banik, Subramanian K. R. S. Sankaranarayanan, Valeria Molinero",
-          "abstract": "Recent experiments revealed a new amorphous ice phase, medium-density amorphous ice (MDA), formed by ball-milling ice I h at 77 K [Rosu-Finsen et al. , Science 379 , 474–478 (2023)]. MDA has density between that of low-density amorphous (LDA) and high-density amorphous (HDA) ices, adding to the complexity of water’s phase diagram, known for its glass polyamorphism and two-state thermodynamics. The nature of MDA and its relation to other amorphous ices and liquid water remain unsolved. Here, we use molecular simulations under controlled pressure and shear rate at 77 K to produce and investigate MDA. We find that MDA formed at constant shear rate is a steady-state nonequilibrium shear-driven amorphous ice (SDA), that can be produced by shearing ice I h , LDA, or HDA. Our results suggest that MDA could be obtained by ball-milling water glasses without crystallization interference. Increasing the shear rate at ambient pressure produces SDAs with densities ranging from LDA to HDA, revealing shear rate as a new thermodynamic variable in the nonequilibrium phase diagram of water. Indeed, shearing provides access to amorphous states inaccessible by controlling pressure and temperature alone. SDAs produced with shearing rates as high as 10 6 s −1 sample the same region of the potential energy landscape than hyperquenched glasses with identical density, pressure, and temperature. Intriguingly, SDAs obtained by shearing at ~10 8 s −1 have density, enthalpy, and structure indistinguishable from those of water “instantaneously” quenched from room temperature to 77 K over 10 ps, making them good approximants for the “true glass” of ambient liquid water.",
-          "url": "http://dx.doi.org/10.1073/pnas.2414444121",
-          "doi": "10.1073/pnas.2414444121",
           "filter": "2"
         },
         {
@@ -1521,14 +1370,6 @@
           "filter": "2"
         },
         {
-          "title": "Surface restructuring and predictive design of heterogeneous catalysts",
-          "authors": "Franklin Tao, Miquel Salmeron",
-          "abstract": "Heterogeneous catalysts, which often consist of metal nanoparticles loaded on supports such as metal oxides, can undergo several types of restructuring under reaction and catalytic conditions. Advanced characterizations now allow the surface structure of a catalyst in a gas phase to be determined to some extent. Metal nanoparticles may experience changes in shape, surface structure and composition, and atomic packing in response to the pressure of a reactant or product gas, temperature, and reaction between the catalyst surface and gas. Metal oxide supports can partially or fully encapsulate metal nanoparticles, altering their electronic structure and reactivity. Restructuring is a main approach to creating active catalytic sites. The rational design of catalysts must anticipate that such restructurings can occur under reaction or catalytic conditions and gain knowledge of how they occur. It is expected that computational studies can predict such restructurings and that advanced synthesis may be used to prepare pristine catalysts with enhanced resistance to restructurings.",
-          "url": "http://dx.doi.org/10.1126/science.adq0102",
-          "doi": "10.1126/science.adq0102",
-          "filter": "2"
-        },
-        {
           "title": "Chloronitramide anion is a decomposition product of inorganic chloramines",
           "authors": "Julian L. Fairey, Juliana R. Laszakovits, Huong T. Pham, Thien D. Do, Samuel D. Hodges, Kristopher McNeill, David G. Wahman",
           "abstract": "Inorganic chloramines are commonly used drinking water disinfectants intended to safeguard public health and curb regulated disinfection by-product formation. However, inorganic chloramines themselves produce by-products that are poorly characterized. We report chloronitramide anion (Cl–N–NO 2 − ) as a previously unidentified end product of inorganic chloramine decomposition. Analysis of chloraminated US drinking waters found Cl–N–NO 2 − in all samples tested ( n = 40), with a median concentration of 23 micrograms per liter and first and third quartiles of 1.3 and 92 micrograms per liter, respectively. Cl–N–NO 2 − warrants occurrence and toxicity studies in chloraminated water systems that serve more than 113 million people in the US alone.",
@@ -1550,6 +1391,14 @@
           "abstract": "The metal-support interaction is one of the most important pillars in heterogeneous catalysis, but developing a fundamental theory has been challenging because of the intricate interfaces. Based on experimental ‎data, interpretable machine learning, theoretical derivation, and first-principles simulations, we established a ‎general theory of metal-oxide interactions grounded in ‎metal-metal and metal-oxygen interactions. The theory applies to metal nanoparticles and atoms on oxide supports and oxide films on metal supports. We found that for late-transition metal catalysts, metal-metal interactions dominated the oxide support effects and suboxide encapsulation over metal nanoparticles. A principle of strong metal-metal interactions for encapsulation occurrence is formulated and substantiated by extensive ‎experiments including 10 metals and 16 ‎oxides. The valuable insights revealed on (strong) metal-support interaction advance the interfacial design of supported metal catalysts.",
           "url": "http://dx.doi.org/10.1126/science.adp6034",
           "doi": "10.1126/science.adp6034",
+          "filter": "2"
+        },
+        {
+          "title": "Surface restructuring and predictive design of heterogeneous catalysts",
+          "authors": "Franklin Tao, Miquel Salmeron",
+          "abstract": "Heterogeneous catalysts, which often consist of metal nanoparticles loaded on supports such as metal oxides, can undergo several types of restructuring under reaction and catalytic conditions. Advanced characterizations now allow the surface structure of a catalyst in a gas phase to be determined to some extent. Metal nanoparticles may experience changes in shape, surface structure and composition, and atomic packing in response to the pressure of a reactant or product gas, temperature, and reaction between the catalyst surface and gas. Metal oxide supports can partially or fully encapsulate metal nanoparticles, altering their electronic structure and reactivity. Restructuring is a main approach to creating active catalytic sites. The rational design of catalysts must anticipate that such restructurings can occur under reaction or catalytic conditions and gain knowledge of how they occur. It is expected that computational studies can predict such restructurings and that advanced synthesis may be used to prepare pristine catalysts with enhanced resistance to restructurings.",
+          "url": "http://dx.doi.org/10.1126/science.adq0102",
+          "doi": "10.1126/science.adq0102",
           "filter": "2"
         },
         {
@@ -1577,19 +1426,19 @@
           "filter": "2"
         },
         {
-          "title": "Population connectivity shapes the distribution and complexity of chimpanzee cumulative culture",
-          "authors": "Cassandra Gunasekaram, Federico Battiston, Onkar Sadekar, Cecilia Padilla-Iglesias, Maria A. van Noordwijk, Reinhard Furrer, Andrea Manica, Jaume Bertranpetit, Andrew Whiten, Carel P. van Schaik, Lucio Vinicius, Andrea Bamberg Migliano",
-          "abstract": "Although cumulative culture is a hallmark of hominin evolution, its origins can be traced back to our common ancestor with chimpanzees. Here, we investigated the evolutionary origins of chimpanzee cumulative culture and why it remained incipient. To trace cultural transmission among the four chimpanzee subspecies, we compared population networks based on genetic markers of recent migration and shared cultural traits. We show that limited levels of group connectivity favored the emergence of a few instances of cumulative culture in chimpanzees. As in humans, cultural complexification likely happened in steps, with transmission between populations, incremental changes, and repurposing of technologies. We propose that divergence in social patterns led to increased mobility between groups in the genus Homo , resulting in irreversible dependence on cultural exchange and complexification.",
-          "url": "http://dx.doi.org/10.1126/science.adk3381",
-          "doi": "10.1126/science.adk3381",
-          "filter": "2"
-        },
-        {
           "title": "Hidden state inference requires abstract contextual representations in the ventral hippocampus",
           "authors": "Karyna Mishchanchuk, Gabrielle Gregoriou, Albert Qü, Alizée Kastler, Quentin J. M. Huys, Linda Wilbrecht, Andrew F. MacAskill",
           "abstract": "The ability to use subjective, latent contextual representations to influence decision-making is crucial for everyday life. The hippocampus is hypothesized to bind together otherwise abstract combinations of stimuli to represent such latent contexts, to support the process of hidden state inference. Yet evidence for a role of the hippocampus in hidden state inference remains limited. We found that the ventral hippocampus is required for mice to perform hidden state inference during a two-armed bandit task. Hippocampal neurons differentiate the two abstract contexts required for this strategy in a manner similar to the differentiation of spatial locations, and their activity is essential for appropriate dopamine dynamics. These findings offer insight into how latent contextual information is used to optimize decisions, and they emphasize a key role for the hippocampus in hidden state inference.",
           "url": "http://dx.doi.org/10.1126/science.adq5874",
           "doi": "10.1126/science.adq5874",
+          "filter": "2"
+        },
+        {
+          "title": "Population connectivity shapes the distribution and complexity of chimpanzee cumulative culture",
+          "authors": "Cassandra Gunasekaram, Federico Battiston, Onkar Sadekar, Cecilia Padilla-Iglesias, Maria A. van Noordwijk, Reinhard Furrer, Andrea Manica, Jaume Bertranpetit, Andrew Whiten, Carel P. van Schaik, Lucio Vinicius, Andrea Bamberg Migliano",
+          "abstract": "Although cumulative culture is a hallmark of hominin evolution, its origins can be traced back to our common ancestor with chimpanzees. Here, we investigated the evolutionary origins of chimpanzee cumulative culture and why it remained incipient. To trace cultural transmission among the four chimpanzee subspecies, we compared population networks based on genetic markers of recent migration and shared cultural traits. We show that limited levels of group connectivity favored the emergence of a few instances of cumulative culture in chimpanzees. As in humans, cultural complexification likely happened in steps, with transmission between populations, incremental changes, and repurposing of technologies. We propose that divergence in social patterns led to increased mobility between groups in the genus Homo , resulting in irreversible dependence on cultural exchange and complexification.",
+          "url": "http://dx.doi.org/10.1126/science.adk3381",
+          "doi": "10.1126/science.adk3381",
           "filter": "2"
         },
         {
@@ -1609,14 +1458,6 @@
           "filter": "2"
         },
         {
-          "title": "EPA braces for change under Trump",
-          "authors": "Erik Stokstad",
-          "abstract": "Industry looks forward to looser rules, and agency scientists may face pressure",
-          "url": "http://dx.doi.org/10.1126/science.adu7461",
-          "doi": "10.1126/science.adu7461",
-          "filter": "3"
-        },
-        {
           "title": "Prospect of RFK Jr. at HHS alarms biomedical community",
           "authors": "Jocelyn Kaiser, Meredith Wadman",
           "abstract": "Robert F. Kennedy Jr. has vowed to scrutinize proven vaccines and slash staff at research and regulatory agencies",
@@ -1630,6 +1471,14 @@
           "abstract": "Highlights from the Science family of journals",
           "url": "http://dx.doi.org/10.1126/science.adu7167",
           "doi": "10.1126/science.adu7167",
+          "filter": "3"
+        },
+        {
+          "title": "EPA braces for change under Trump",
+          "authors": "Erik Stokstad",
+          "abstract": "Industry looks forward to looser rules, and agency scientists may face pressure",
+          "url": "http://dx.doi.org/10.1126/science.adu7461",
+          "doi": "10.1126/science.adu7461",
           "filter": "3"
         },
         {
@@ -1704,6 +1553,22 @@
           "filter": "3"
         },
         {
+          "title": "Macrophage modulation of tumor immunity",
+          "authors": "Peter Savage",
+          "abstract": "Macrophages deliver polarizing messages to promote immune suppression in tumors",
+          "url": "http://dx.doi.org/10.1126/science.adt5661",
+          "doi": "10.1126/science.adt5661",
+          "filter": "3"
+        },
+        {
+          "title": "Culture in humans and other animals",
+          "authors": "Peter J. Richerson, Robert T. Boyd",
+          "abstract": "Migration provides evidence for cumulative cultural evolution in chimpanzees",
+          "url": "http://dx.doi.org/10.1126/science.adt8896",
+          "doi": "10.1126/science.adt8896",
+          "filter": "3"
+        },
+        {
           "title": "China’s hunger for minerals spurs massive geology survey",
           "authors": "Richard Stone",
           "abstract": "$1 billion SinoProbe II will map the depths with drill rigs and instrument arrays",
@@ -1731,22 +1596,6 @@
           "authors": "Bo Yang, Xiaohui Yuan, Fei Tang, Dichen Liu",
           "url": "http://dx.doi.org/10.1126/science.ads2055",
           "doi": "10.1126/science.ads2055",
-          "filter": "3"
-        },
-        {
-          "title": "Macrophage modulation of tumor immunity",
-          "authors": "Peter Savage",
-          "abstract": "Macrophages deliver polarizing messages to promote immune suppression in tumors",
-          "url": "http://dx.doi.org/10.1126/science.adt5661",
-          "doi": "10.1126/science.adt5661",
-          "filter": "3"
-        },
-        {
-          "title": "Culture in humans and other animals",
-          "authors": "Peter J. Richerson, Robert T. Boyd",
-          "abstract": "Migration provides evidence for cumulative cultural evolution in chimpanzees",
-          "url": "http://dx.doi.org/10.1126/science.adt8896",
-          "doi": "10.1126/science.adt8896",
           "filter": "3"
         }
       ]
@@ -1778,6 +1627,38 @@
           "abstract": "Sleep is essential and highly conserved, yet its regulatory mechanisms remain largely unknown. To identify sleep drive neurons, we imaged Drosophila brains with calcium-modulated photoactivatable ratiometric integrator (CaMPARI). The results indicate that the activity of the protocerebral bridge (PB) correlates with sleep drive. We further identified a key three-layer PB circuit, EPG-SpsP-PEcG, in which the four SpsP neurons in the PB respond to ellipsoid body (EB) signals from EPG neurons and send signals back to the EB through PEcG neurons. This circuit is strengthened by sleep deprivation, indicating a plasticity response to sleep drive. SpsP neurons also receive inputs from the sensorimotor brain region, suggesting that they may encode sleep drive by integrating sensorimotor and navigation cues. Together, our experiments show that the four SpsP neurons and their sleep regulatory circuit play an important and dynamic role in sleep regulation.",
           "url": "http://dx.doi.org/10.1126/sciadv.ads0652",
           "doi": "10.1126/sciadv.ads0652",
+          "filter": "2"
+        },
+        {
+          "title": "Structure of the human TSC:WIPI3 lysosomal recruitment complex",
+          "authors": "Charles Bayly-Jones, Christopher J. Lupton, Laura D’Andrea, Yong-Gang Chang, Gareth D. Jones, Joel R. Steele, Hari Venugopal, Ralf B. Schittenhelm, Michelle L. Halls, Andrew M. Ellisdon",
+          "abstract": "Tuberous sclerosis complex (TSC) is targeted to the lysosomal membrane, where it hydrolyzes RAS homolog–mTORC1 binding (RHEB) from its GTP-bound to GDP-bound state, inhibiting mechanistic target of rapamycin complex 1 (mTORC1). Loss-of-function mutations in TSC cause TSC disease, marked by excessive tumor growth. Here, we overcome a high degree of continuous conformational heterogeneity to determine the 2.8-Å cryo–electron microscopy (cryo-EM) structure of the complete human TSC in complex with the lysosomal recruitment factor WD repeat domain phosphoinositide–interacting protein 3 (WIPI3). We discover a previously undetected amino-terminal TSC1 HEAT repeat dimer that clamps onto a single TSC wing and forms a phosphatidylinositol phosphate (PIP)–binding pocket, which specifically binds monophosphorylated PIPs. These structural advances provide a model by which WIPI3 and PIP-signaling networks coordinate to recruit TSC to the lysosomal membrane to inhibit mTORC1. The high-resolution TSC structure reveals previously unrecognized mutational hotspots and uncovers crucial insights into the mechanisms of TSC dysregulation in disease.",
+          "url": "http://dx.doi.org/10.1126/sciadv.adr5807",
+          "doi": "10.1126/sciadv.adr5807",
+          "filter": "2"
+        },
+        {
+          "title": "Late Archaic large-scale fisheries in the wetlands of the pre-Columbian Maya Lowlands",
+          "authors": "Eleanor Harrison-Buck, Samantha M. Krause, Marieka Brouwer Burg, Mark Willis, Angelina Perrotti, Katie Bailey",
+          "abstract": "Multiproxy data collected from the largest inland wetland in Belize, Central America, demonstrate the presence of large-scale pre-Columbian fish-trapping facilities built by Late Archaic hunter-gatherer-fishers, which continued to be used by their Maya descendants during Formative times (approximately 2000 BCE to 200 CE). This is the earliest large-scale Archaic fish-trapping facility recorded in ancient Mesoamerica. We suggest that such landscape-scale intensification may have been a response to long-term climate disturbance recorded between 2200 and 1900 BCE. Agricultural intensification after 2000 BCE has been credited for supporting the rise of pre-Columbian civilizations in Formative Mesoamerica, but we suggest that some groups relied more heavily on the mass harvesting of aquatic resources. We argue that such early intensification of aquatic food production offered a high value subsistence strategy that was instrumental in the emergence of Formative period sedentarism and the development of complexity among pre-Columbian civilizations like the Maya.",
+          "url": "http://dx.doi.org/10.1126/sciadv.adq1444",
+          "doi": "10.1126/sciadv.adq1444",
+          "filter": "2"
+        },
+        {
+          "title": "Hepatovirus translation requires PDGFA-associated protein 1, an eIF4E-binding protein regulating endoplasmic reticulum stress responses",
+          "authors": "Takayoshi Shirasaki, Erik Lenarcic, Ichiro Misumi, Ling Xie, William G. Fusco, Bryan Yonish, Anshuman Das, Hyejeong Kim, Craig E. Cameron, Mélissa Léger-Abraham, Xian Chen, John M. Cullen, Jason K. Whitmire, You Li, Joseph A. Duncan, Nathaniel J. Moorman, Stanley M. Lemon",
+          "abstract": "The overexpression and misfolding of viral proteins in the endoplasmic reticulum (ER) may cause cellular stress, thereby inducing a cytoprotective, proteostatic host response involving phosphorylation of eukaryotic translation initiation factor 2 subunit alpha (eIF2α). Here, we show that hepatitis A virus, a positive-strand RNA virus responsible for infectious hepatitis, adopts a stress-resistant, eIF2α-independent mechanism of translation to ensure the synthesis of viral proteins within the infected liver. Cap-independent translation directed by the hepatovirus internal ribosome entry site and productive hepatovirus infection of mice both require platelet-derived growth factor subunit A (PDGFA)–associated protein 1 (PDAP1), a small phosphoprotein of unknown function with eIF4E-binding activity. PDAP1 also interacts with eIF1A and is essential for translating stress-resistant host messenger RNAs that evade the proteostatic response to ER stress and that encode proteins promoting the survival of stressed cells.",
+          "url": "http://dx.doi.org/10.1126/sciadv.adq6342",
+          "doi": "10.1126/sciadv.adq6342",
+          "filter": "2"
+        },
+        {
+          "title": "Atomically dispersed nickel in CeO 2 aerogel catalysts completely suppresses methanation in the water-gas shift reaction",
+          "authors": "Travis G. Novak, Austin E. Herzog, Matthew R. Buck, Ronnell J. Spears, Kyle Sendgikoski, Ryan H. DeBlock, Todd H. Brintlinger, Paul A. DeSario, Debra R. Rolison",
+          "abstract": "Nickel-based catalysts are widely studied for water-gas shift (WGS), a key intermediate step in hydrogen production from carbon-based feedstocks. Their viability under practical conditions is limited at high temperatures when Ni aggregates and converts CO to methane, an undesirable side product. Because experimental and computational studies identify undercoordinated Ni step sites as most active toward CH 4 formation, we eliminate Ni step sites by atomically dispersing Ni into networked, nanoparticulate CeO 2 aerogels. The mesoporous catalyst with 2.5 atomic % Ni in CeO 2 is highly active for WGS, converting near-equilibrium levels of CO at 350°C, while no CH 4 is detected at the limit of detection (&lt;2 parts per million). In contrast, supporting low weight percentages of Ni clusters or nanoparticles on CeO 2 aerogels leads to methanation. The CH 4 yield produced by the atomically dispersed Ni-substituted CeO 2 aerogel is over an order of magnitude lower than previously reported Ni-based catalysts claiming methane suppression, marking an important advance in the development of WGS catalysts.",
+          "url": "http://dx.doi.org/10.1126/sciadv.adr9120",
+          "doi": "10.1126/sciadv.adr9120",
           "filter": "2"
         },
         {
@@ -1826,38 +1707,6 @@
           "abstract": "In a hybrid zone between two tropical lekking birds, yellow male plumage of one species has introgressed asymmetrically replacing white plumage of another via sexual selection. Here, we present a detailed analysis of the plumage trait to uncover its physical and genetic bases and trace its evolutionary history. We determine that the carotenoid lutein underlies the yellow phenotype and describe microstructural feather features likely to enhance color appearance. These same features reduce predicted water shedding capacity of feathers, a potential liability in the tropics. Through genome-scale DNA sequencing of hybrids and each species in the genus, we identify BCO2 as the major gene responsible for the color polymorphism. The BCO2 gene tree and genome-wide allele frequency patterns suggest that carotenoid-pigmented collars initially arose in a third species and reached the hybrid zone through historical gene flow. Complex interplay between sexual selection and hybridization has thus shaped phenotypes of these species, where conspicuous sexual traits are key to male reproductive success.",
           "url": "http://dx.doi.org/10.1126/sciadv.adn8339",
           "doi": "10.1126/sciadv.adn8339",
-          "filter": "2"
-        },
-        {
-          "title": "Structure of the human TSC:WIPI3 lysosomal recruitment complex",
-          "authors": "Charles Bayly-Jones, Christopher J. Lupton, Laura D’Andrea, Yong-Gang Chang, Gareth D. Jones, Joel R. Steele, Hari Venugopal, Ralf B. Schittenhelm, Michelle L. Halls, Andrew M. Ellisdon",
-          "abstract": "Tuberous sclerosis complex (TSC) is targeted to the lysosomal membrane, where it hydrolyzes RAS homolog–mTORC1 binding (RHEB) from its GTP-bound to GDP-bound state, inhibiting mechanistic target of rapamycin complex 1 (mTORC1). Loss-of-function mutations in TSC cause TSC disease, marked by excessive tumor growth. Here, we overcome a high degree of continuous conformational heterogeneity to determine the 2.8-Å cryo–electron microscopy (cryo-EM) structure of the complete human TSC in complex with the lysosomal recruitment factor WD repeat domain phosphoinositide–interacting protein 3 (WIPI3). We discover a previously undetected amino-terminal TSC1 HEAT repeat dimer that clamps onto a single TSC wing and forms a phosphatidylinositol phosphate (PIP)–binding pocket, which specifically binds monophosphorylated PIPs. These structural advances provide a model by which WIPI3 and PIP-signaling networks coordinate to recruit TSC to the lysosomal membrane to inhibit mTORC1. The high-resolution TSC structure reveals previously unrecognized mutational hotspots and uncovers crucial insights into the mechanisms of TSC dysregulation in disease.",
-          "url": "http://dx.doi.org/10.1126/sciadv.adr5807",
-          "doi": "10.1126/sciadv.adr5807",
-          "filter": "2"
-        },
-        {
-          "title": "Late Archaic large-scale fisheries in the wetlands of the pre-Columbian Maya Lowlands",
-          "authors": "Eleanor Harrison-Buck, Samantha M. Krause, Marieka Brouwer Burg, Mark Willis, Angelina Perrotti, Katie Bailey",
-          "abstract": "Multiproxy data collected from the largest inland wetland in Belize, Central America, demonstrate the presence of large-scale pre-Columbian fish-trapping facilities built by Late Archaic hunter-gatherer-fishers, which continued to be used by their Maya descendants during Formative times (approximately 2000 BCE to 200 CE). This is the earliest large-scale Archaic fish-trapping facility recorded in ancient Mesoamerica. We suggest that such landscape-scale intensification may have been a response to long-term climate disturbance recorded between 2200 and 1900 BCE. Agricultural intensification after 2000 BCE has been credited for supporting the rise of pre-Columbian civilizations in Formative Mesoamerica, but we suggest that some groups relied more heavily on the mass harvesting of aquatic resources. We argue that such early intensification of aquatic food production offered a high value subsistence strategy that was instrumental in the emergence of Formative period sedentarism and the development of complexity among pre-Columbian civilizations like the Maya.",
-          "url": "http://dx.doi.org/10.1126/sciadv.adq1444",
-          "doi": "10.1126/sciadv.adq1444",
-          "filter": "2"
-        },
-        {
-          "title": "Hepatovirus translation requires PDGFA-associated protein 1, an eIF4E-binding protein regulating endoplasmic reticulum stress responses",
-          "authors": "Takayoshi Shirasaki, Erik Lenarcic, Ichiro Misumi, Ling Xie, William G. Fusco, Bryan Yonish, Anshuman Das, Hyejeong Kim, Craig E. Cameron, Mélissa Léger-Abraham, Xian Chen, John M. Cullen, Jason K. Whitmire, You Li, Joseph A. Duncan, Nathaniel J. Moorman, Stanley M. Lemon",
-          "abstract": "The overexpression and misfolding of viral proteins in the endoplasmic reticulum (ER) may cause cellular stress, thereby inducing a cytoprotective, proteostatic host response involving phosphorylation of eukaryotic translation initiation factor 2 subunit alpha (eIF2α). Here, we show that hepatitis A virus, a positive-strand RNA virus responsible for infectious hepatitis, adopts a stress-resistant, eIF2α-independent mechanism of translation to ensure the synthesis of viral proteins within the infected liver. Cap-independent translation directed by the hepatovirus internal ribosome entry site and productive hepatovirus infection of mice both require platelet-derived growth factor subunit A (PDGFA)–associated protein 1 (PDAP1), a small phosphoprotein of unknown function with eIF4E-binding activity. PDAP1 also interacts with eIF1A and is essential for translating stress-resistant host messenger RNAs that evade the proteostatic response to ER stress and that encode proteins promoting the survival of stressed cells.",
-          "url": "http://dx.doi.org/10.1126/sciadv.adq6342",
-          "doi": "10.1126/sciadv.adq6342",
-          "filter": "2"
-        },
-        {
-          "title": "Atomically dispersed nickel in CeO 2 aerogel catalysts completely suppresses methanation in the water-gas shift reaction",
-          "authors": "Travis G. Novak, Austin E. Herzog, Matthew R. Buck, Ronnell J. Spears, Kyle Sendgikoski, Ryan H. DeBlock, Todd H. Brintlinger, Paul A. DeSario, Debra R. Rolison",
-          "abstract": "Nickel-based catalysts are widely studied for water-gas shift (WGS), a key intermediate step in hydrogen production from carbon-based feedstocks. Their viability under practical conditions is limited at high temperatures when Ni aggregates and converts CO to methane, an undesirable side product. Because experimental and computational studies identify undercoordinated Ni step sites as most active toward CH 4 formation, we eliminate Ni step sites by atomically dispersing Ni into networked, nanoparticulate CeO 2 aerogels. The mesoporous catalyst with 2.5 atomic % Ni in CeO 2 is highly active for WGS, converting near-equilibrium levels of CO at 350°C, while no CH 4 is detected at the limit of detection (&lt;2 parts per million). In contrast, supporting low weight percentages of Ni clusters or nanoparticles on CeO 2 aerogels leads to methanation. The CH 4 yield produced by the atomically dispersed Ni-substituted CeO 2 aerogel is over an order of magnitude lower than previously reported Ni-based catalysts claiming methane suppression, marking an important advance in the development of WGS catalysts.",
-          "url": "http://dx.doi.org/10.1126/sciadv.adr9120",
-          "doi": "10.1126/sciadv.adr9120",
           "filter": "2"
         },
         {
@@ -1997,30 +1846,6 @@
           "filter": "2"
         },
         {
-          "title": "Moiré polar vortex, flat bands, and Lieb lattice in twisted bilayer BaTiO 3",
-          "authors": "Seungjun Lee, D. J. P. de Sousa, Bharat Jalan, Tony Low",
-          "abstract": "Through first-principles calculations based on density functional theory, we investigate the crystal and electronic structures of twisted bilayer BaTiO 3 . Our findings reveal that large stacking fault energy leads to a chiral in-plane vortex pattern that was recently observed in experiments. We also found nonzero out-of-plane local dipole moments, indicating that the strong interlayer interaction might offer a promising strategy to stabilize ferroelectric order in the two-dimensional limit. The vortex pattern in the twisted BaTiO 3 bilayer supports localized electronic states with quasi-flat bands, associated with the interlayer hybridization of oxygen p z orbitals. We found that the associated bandwidth reaches a minimum at ∼19 ∘ twisting, configuring the largest magic angle in moiré systems reported so far. Further, the moiré vortex pattern bears a notable resemblance to two interpenetrating Lieb lattices and the corresponding tight-binding model provides a comprehensive description of the evolution the moiré bands with twist angle and reveals the topological nature.",
-          "url": "http://dx.doi.org/10.1126/sciadv.adq0293",
-          "doi": "10.1126/sciadv.adq0293",
-          "filter": "2"
-        },
-        {
-          "title": "Multifunctional hydrogel electronics for closed-loop antiepileptic treatment",
-          "authors": "Jin Qu, Kai Xie, Shu Chen, Xingdao He, Yuan Wang, Matthew Chamberlin, Xi Zhao, Guangyu Zhu, Chenjie Xu, Peng Shi",
-          "abstract": "Closed-loop strategies offer advanced therapeutic potential through intelligent disease management. Here, we develop a hydrogel-based, single-component, organic electronic device for closed-loop neurotherapy. Fabricated out of conductive hydrogels, the device consists of a flexible array of microneedle electrodes, each of which can be individually addressed to perform electrical recording and control chemical release with sophisticated spatiotemporal control, thus pioneering a smart antiseizure therapeutic system by combining electrical and pharmacological interventions. The recorded neural signal acts as the trigger for a voltage-driven drug release in detected pathological conditions predicted by real-time electrophysiology analysis. When implanted into epileptic animals, the device enables autonomous antiseizure management, where the dosing of antiepileptic drug is controlled in a time-sensitive, region-selective, and dose-adaptive manner, allowing the inhibition of seizure outbursts through the delivery of just-necessary drug dosages. The side effects are minimized with dosages three orders of magnitude lower than the usage in approaches simulating existing clinical treatments.",
-          "url": "http://dx.doi.org/10.1126/sciadv.adq9207",
-          "doi": "10.1126/sciadv.adq9207",
-          "filter": "2"
-        },
-        {
-          "title": "MoZn-based high entropy alloy catalysts enabled dual activation and stabilization in alkaline oxygen evolution",
-          "authors": "Yunjie Mei, Jinli Chen, Qi Wang, Yaqing Guo, Hanwen Liu, Wenhui Shi, Cheng Lin, Yifei Yuan, Yuhua Wang, Bao Yu Xia, Yonggang Yao",
-          "abstract": "It remains a grand challenge to develop electrocatalysts with simultaneously high activity, long durability, and low cost for the oxygen evolution reaction (OER), originating from two competing reaction pathways and often trade-off performances. The adsorbed evolution mechanism (AEM) suffers from sluggish kinetics due to a linear scaling relationship, while the lattice oxygen mechanism (LOM) causes unstable structures due to lattice oxygen escape. We propose a MoZnFeCoNi high-entropy alloy (HEA) incorporating AEM-promoter Mo and LOM-active Zn to achieve dual activation and stabilization for efficient and durable OER. Density functional theory and chemical probe experiments confirmed dual-mechanism activation, with representative Co-Co † -Mo sites facilitating AEM and Zn-O † -Ni sites enhancing LOM, resulting in an ultralow OER overpotential (η 10 = 221 mV). The multielement interaction, high-entropy structure, and carbon network notably enhance structural stability for durable catalysis (&gt;1500 hours at 100 mA cm −2 ). Our work offers a viable approach to concurrently enhance OER activity and stability by designing HEA catalysts to enable dual-mechanism synergy.",
-          "url": "http://dx.doi.org/10.1126/sciadv.adq6758",
-          "doi": "10.1126/sciadv.adq6758",
-          "filter": "2"
-        },
-        {
           "title": "Multiplex digital profiling of DNA methylation heterogeneity for sensitive and cost-effective cancer detection in low-volume liquid biopsies",
           "authors": "Yang Zhao, Christine M. O’Keefe, Jiumei Hu, Conor M. Allan, Weiwen Cui, Hanran Lei, Allyson Chiu, Kuangwen Hsieh, Sonali C. Joyce, James G. Herman, Thomas R. Pisanic, Tza-Huei Wang",
           "abstract": "Molecular alterations in cancerous tissues exhibit intercellular genetic and epigenetic heterogeneity, complicating the performance of diagnostic assays, particularly for early cancer detection. Conventional liquid biopsy methods have limited sensitivity and/or ability to assess epigenetic heterogeneity of rare epiallelic variants cost-effectively. We report an approach, named REM-DREAMing (Ratiometric-Encoded Multiplex Discrimination of Rare EpiAlleles by Melt), which leverages a digital microfluidic platform that incorporates a ratiometric fluorescence multiplex detection scheme and precise digital high-resolution melt analysis to enable low-cost, parallelized analysis of heterogeneous methylation patterns on a molecule-by-molecule basis for the detection of cancer in liquid biopsies. We applied the platform to simultaneously assess intermolecular epigenetic heterogeneity in five methylation biomarkers for improved, blood-based screening for early-stage non–small cell lung cancer. In a cohort of 48 low-volume liquid biopsy specimens from patients with indeterminant pulmonary nodules, we show that assessment of intermolecular methylation density distributions can notably improve the performance of multigene methylation biomarker panels for the early detection of cancer.",
@@ -2069,6 +1894,46 @@
           "filter": "2"
         },
         {
+          "title": "Moiré polar vortex, flat bands, and Lieb lattice in twisted bilayer BaTiO 3",
+          "authors": "Seungjun Lee, D. J. P. de Sousa, Bharat Jalan, Tony Low",
+          "abstract": "Through first-principles calculations based on density functional theory, we investigate the crystal and electronic structures of twisted bilayer BaTiO 3 . Our findings reveal that large stacking fault energy leads to a chiral in-plane vortex pattern that was recently observed in experiments. We also found nonzero out-of-plane local dipole moments, indicating that the strong interlayer interaction might offer a promising strategy to stabilize ferroelectric order in the two-dimensional limit. The vortex pattern in the twisted BaTiO 3 bilayer supports localized electronic states with quasi-flat bands, associated with the interlayer hybridization of oxygen p z orbitals. We found that the associated bandwidth reaches a minimum at ∼19 ∘ twisting, configuring the largest magic angle in moiré systems reported so far. Further, the moiré vortex pattern bears a notable resemblance to two interpenetrating Lieb lattices and the corresponding tight-binding model provides a comprehensive description of the evolution the moiré bands with twist angle and reveals the topological nature.",
+          "url": "http://dx.doi.org/10.1126/sciadv.adq0293",
+          "doi": "10.1126/sciadv.adq0293",
+          "filter": "2"
+        },
+        {
+          "title": "Multifunctional hydrogel electronics for closed-loop antiepileptic treatment",
+          "authors": "Jin Qu, Kai Xie, Shu Chen, Xingdao He, Yuan Wang, Matthew Chamberlin, Xi Zhao, Guangyu Zhu, Chenjie Xu, Peng Shi",
+          "abstract": "Closed-loop strategies offer advanced therapeutic potential through intelligent disease management. Here, we develop a hydrogel-based, single-component, organic electronic device for closed-loop neurotherapy. Fabricated out of conductive hydrogels, the device consists of a flexible array of microneedle electrodes, each of which can be individually addressed to perform electrical recording and control chemical release with sophisticated spatiotemporal control, thus pioneering a smart antiseizure therapeutic system by combining electrical and pharmacological interventions. The recorded neural signal acts as the trigger for a voltage-driven drug release in detected pathological conditions predicted by real-time electrophysiology analysis. When implanted into epileptic animals, the device enables autonomous antiseizure management, where the dosing of antiepileptic drug is controlled in a time-sensitive, region-selective, and dose-adaptive manner, allowing the inhibition of seizure outbursts through the delivery of just-necessary drug dosages. The side effects are minimized with dosages three orders of magnitude lower than the usage in approaches simulating existing clinical treatments.",
+          "url": "http://dx.doi.org/10.1126/sciadv.adq9207",
+          "doi": "10.1126/sciadv.adq9207",
+          "filter": "2"
+        },
+        {
+          "title": "MoZn-based high entropy alloy catalysts enabled dual activation and stabilization in alkaline oxygen evolution",
+          "authors": "Yunjie Mei, Jinli Chen, Qi Wang, Yaqing Guo, Hanwen Liu, Wenhui Shi, Cheng Lin, Yifei Yuan, Yuhua Wang, Bao Yu Xia, Yonggang Yao",
+          "abstract": "It remains a grand challenge to develop electrocatalysts with simultaneously high activity, long durability, and low cost for the oxygen evolution reaction (OER), originating from two competing reaction pathways and often trade-off performances. The adsorbed evolution mechanism (AEM) suffers from sluggish kinetics due to a linear scaling relationship, while the lattice oxygen mechanism (LOM) causes unstable structures due to lattice oxygen escape. We propose a MoZnFeCoNi high-entropy alloy (HEA) incorporating AEM-promoter Mo and LOM-active Zn to achieve dual activation and stabilization for efficient and durable OER. Density functional theory and chemical probe experiments confirmed dual-mechanism activation, with representative Co-Co † -Mo sites facilitating AEM and Zn-O † -Ni sites enhancing LOM, resulting in an ultralow OER overpotential (η 10 = 221 mV). The multielement interaction, high-entropy structure, and carbon network notably enhance structural stability for durable catalysis (&gt;1500 hours at 100 mA cm −2 ). Our work offers a viable approach to concurrently enhance OER activity and stability by designing HEA catalysts to enable dual-mechanism synergy.",
+          "url": "http://dx.doi.org/10.1126/sciadv.adq6758",
+          "doi": "10.1126/sciadv.adq6758",
+          "filter": "2"
+        },
+        {
+          "title": "Acoustic virtual 3D scaffold for direct-interacting tumor organoid–immune cell coculture systems",
+          "authors": "Han Shan, Maike Chen, Shuang Zhao, Xiongwei Wei, Mingde Zheng, Yixin Li, Qibo Lin, Zixi Jiang, Ziyan Chen, Chunlong Fei, Zhaoxi Li, Zeyu Chen, Xiang Chen",
+          "abstract": "Three-dimensional (3D) cell culture has revolutionized life sciences, particularly in organoid technologies. Traditional bioscaffold materials, however, complicate the detachment of tumor organoids and hamper the routine use of organoid–immune cell cocultures. Here, we show an acoustic virtual 3D scaffold (AV-Scaf) method to achieve 3D tumor organoid culture, enabling a direct-interacting tumor organoid–immune cell coculture system. The self-organization process of tumor cells is facilitated by a vortex acoustic field, which enables the cell bioassembly and ion channel activation. This approach can significantly enhance the influx of calcium ions, thereby accelerating intercellular interactions of cellular assemblies. We established scaffold-free melanoma and breast cancer organoids using AV-Scaf and cocultured melanoma organoids with T cells. We found that our coculture system resulted in a high activation state of T cells, characterized by notable up-regulation of granzyme B (2.82 to 17.5%) and interferon-γ (1.36 to 16%). AV-Scaf offers an efficient method for tumor organoid–immune cell studies, advancing cancer research and immunotherapy development.",
+          "url": "http://dx.doi.org/10.1126/sciadv.adr4831",
+          "doi": "10.1126/sciadv.adr4831",
+          "filter": "2"
+        },
+        {
+          "title": "Imaging dendrite growth in solid-state sodium batteries using fluorescence tomography technology",
+          "authors": "Shuaishuai Yang, Na Li, Enyue Zhao, Chengzhi Wang, Jingxin He, Xiong Xiao, Debao Fang, Qing Ni, Xile Han, Xiaobin Xue, Lai Chen, Ning Li, Jingbo Li, Tuan Guo, Yuefeng Su, Haibo Jin",
+          "abstract": "Dendrite growth in solid-state sodium batteries (SSBs) is one of the most concerned issues that critically affect the battery efficiency and cycling performance. Here, by designing a fluorescent Eu 3+ -doped Na 3 Zr 2 Si 2 PO 12 solid electrolyte (SE) to facilitate three-dimensional (3D) optical imaging on a confocal laser scanning microscopy, a fluorescence tomography (FT) method is developed for observing the sodium dendrite growth during charge/discharge cycles of the SSBs in a 3D view. It is quantitatively revealed that small-size sodium islands appear after several cycles, and with the cycles increasing, large-size dendrites in tens of micrometers gradually form until a critical sodium dendrite volume arrives where a short circuit or severe performance deterioration occurs. Furthermore, by regulating the Eu 3+ doping ratio, a record-high sodium plating/stripping cycling stability for more than 1 year (487.5 days) is achieved at 25°C. This work demonstrates an FT method observing sodium dendrite growth in SSBs and will promote the functional design of high-performance SEs.",
+          "url": "http://dx.doi.org/10.1126/sciadv.adr0676",
+          "doi": "10.1126/sciadv.adr0676",
+          "filter": "2"
+        },
+        {
           "title": "Single-cell multi-omics sequencing uncovers region-specific plasticity of glioblastoma for complementary therapeutic targeting",
           "authors": "Xin Wang, Qian Sun, Tianbin Liu, Haoran Lu, Xuyi Lin, Weiwen Wang, Yang Liu, Yunting Huang, Guodong Huang, Haixi Sun, Qianxue Chen, Junmin Wang, Daofeng Tian, Fan’en Yuan, Longqi Liu, Bo Wang, Ying Gu, Baohui Liu, Liang Chen",
           "abstract": "Glioblastoma (GBM) cells are highly heterogeneous and invasive, leading to treatment resistance and relapse. However, the molecular regulation in and distal to tumors remains elusive. Here, we collected paired tissues from the tumor core (TC) and peritumoral brain (PTB) for integrated snRNA-seq and snATAC-seq analyses. Tumor cells infiltrating PTB from TC behave more like oligodendrocyte progenitor cells than astrocytes at the transcriptome level. Dual-omics analyses further suggest that the distal regulatory regions in the tumor genome and specific transcription factors are potential determinants of regional heterogeneity. Notably, while activator protein 1 (AP-1) is active in all GBM states, its activity declines from TC to PTB, with another transcription factor, BACH1, showing the opposite trend. Combined inhibition of AP-1 and BACH1 more efficiently attenuates the tumor progression in mice and prolongs survival than either single-target treatment. Together, our work reveals marked molecular alterations of infiltrated GBM cells and a synergy of combination therapy targeting intratumor heterogeneity in and distal to GBM.",
@@ -2098,22 +1963,6 @@
           "abstract": "Plasmon resonance represents the collective oscillation of free electron gas density and enables enhanced light-matter interactions in nanoscale dimensions. Traditionally, the classical Drude model describes plasmonic excitation, wherein plasma frequency exhibits no spatial dispersion. Here, we show conclusive experimental evidence of the breakdown of plasmon resonance and a consequent metal-insulator transition in an ultrathin refractory plasmonic material, hafnium nitride (HfN). Epitaxial HfN thick films exhibit a low-loss and high-quality Drude-like plasmon resonance in the visible spectral range. However, as the film thickness is reduced to nanoscale dimensions, Coulomb interaction among electrons increases because of electron confinement, leading to the spatial dispersion of plasma frequency. With a further decrease in thickness, electrons lose their ability to shield the incident electric field, turning the medium into a dielectric. The observed metal-insulator transition might carry some signatures of Wigner crystallization and indicates that such transdimensional, between 2D and 3D, films can serve as a promising playground to study strongly correlated electron systems.",
           "url": "http://dx.doi.org/10.1126/sciadv.adr2596",
           "doi": "10.1126/sciadv.adr2596",
-          "filter": "2"
-        },
-        {
-          "title": "Acoustic virtual 3D scaffold for direct-interacting tumor organoid–immune cell coculture systems",
-          "authors": "Han Shan, Maike Chen, Shuang Zhao, Xiongwei Wei, Mingde Zheng, Yixin Li, Qibo Lin, Zixi Jiang, Ziyan Chen, Chunlong Fei, Zhaoxi Li, Zeyu Chen, Xiang Chen",
-          "abstract": "Three-dimensional (3D) cell culture has revolutionized life sciences, particularly in organoid technologies. Traditional bioscaffold materials, however, complicate the detachment of tumor organoids and hamper the routine use of organoid–immune cell cocultures. Here, we show an acoustic virtual 3D scaffold (AV-Scaf) method to achieve 3D tumor organoid culture, enabling a direct-interacting tumor organoid–immune cell coculture system. The self-organization process of tumor cells is facilitated by a vortex acoustic field, which enables the cell bioassembly and ion channel activation. This approach can significantly enhance the influx of calcium ions, thereby accelerating intercellular interactions of cellular assemblies. We established scaffold-free melanoma and breast cancer organoids using AV-Scaf and cocultured melanoma organoids with T cells. We found that our coculture system resulted in a high activation state of T cells, characterized by notable up-regulation of granzyme B (2.82 to 17.5%) and interferon-γ (1.36 to 16%). AV-Scaf offers an efficient method for tumor organoid–immune cell studies, advancing cancer research and immunotherapy development.",
-          "url": "http://dx.doi.org/10.1126/sciadv.adr4831",
-          "doi": "10.1126/sciadv.adr4831",
-          "filter": "2"
-        },
-        {
-          "title": "Imaging dendrite growth in solid-state sodium batteries using fluorescence tomography technology",
-          "authors": "Shuaishuai Yang, Na Li, Enyue Zhao, Chengzhi Wang, Jingxin He, Xiong Xiao, Debao Fang, Qing Ni, Xile Han, Xiaobin Xue, Lai Chen, Ning Li, Jingbo Li, Tuan Guo, Yuefeng Su, Haibo Jin",
-          "abstract": "Dendrite growth in solid-state sodium batteries (SSBs) is one of the most concerned issues that critically affect the battery efficiency and cycling performance. Here, by designing a fluorescent Eu 3+ -doped Na 3 Zr 2 Si 2 PO 12 solid electrolyte (SE) to facilitate three-dimensional (3D) optical imaging on a confocal laser scanning microscopy, a fluorescence tomography (FT) method is developed for observing the sodium dendrite growth during charge/discharge cycles of the SSBs in a 3D view. It is quantitatively revealed that small-size sodium islands appear after several cycles, and with the cycles increasing, large-size dendrites in tens of micrometers gradually form until a critical sodium dendrite volume arrives where a short circuit or severe performance deterioration occurs. Furthermore, by regulating the Eu 3+ doping ratio, a record-high sodium plating/stripping cycling stability for more than 1 year (487.5 days) is achieved at 25°C. This work demonstrates an FT method observing sodium dendrite growth in SSBs and will promote the functional design of high-performance SEs.",
-          "url": "http://dx.doi.org/10.1126/sciadv.adr0676",
-          "doi": "10.1126/sciadv.adr0676",
           "filter": "2"
         }
       ]
