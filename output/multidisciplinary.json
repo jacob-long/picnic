@@ -1,5 +1,5 @@
 {
-  "update": "2024-12-07",
+  "update": "2024-12-08",
   "content": [
     {
       "journal_full": "Nature",
@@ -12,29 +12,6 @@
           "abstract": "Most birds can navigate seamlessly between aerial and terrestrial environments. Whereas the forelimbs evolved into wings primarily for flight, the hindlimbs serve diverse functions such as walking, hopping and leaping, and jumping take-off for transitions into flight1. These capabilities have inspired engineers to aim for similar multimodality in aerial robots, expanding their range of applications across diverse environments. However, challenges remain in reproducing multimodal locomotion, across gaits with distinct kinematics and propulsive characteristics, such as walking and jumping, while preserving lightweight mass for flight. This trade-off between mechanical complexity and versatility2 limits most existing aerial robots to only one additional locomotor mode3,4,5. Here we overcome the complexity–versatility trade-off with RAVEN (Robotic Avian-inspired Vehicle for multiple ENvironments), which uses its bird-inspired multifunctional legs to jump rapidly into flight, walk on the ground, and hop over obstacles and gaps similar to the multimodal locomotion of birds. We show that jumping for take-off contributes substantially to the initial flight take-off speed6,7,8,9 and, remarkably, that it is more energy efficient than taking off without the jump. Our analysis suggests an important trade-off in mass distribution between legs and body among birds adapted for different locomotor strategies, with greater investment in leg mass among terrestrial birds with multimodal gait demands. Multifunctional robot legs expand the opportunities to deploy traditional fixed-wing aircraft in complex terrains through autonomous take-offs and multimodal gaits.",
           "url": "https://doi.org/10.1038/s41586-024-08228-9",
           "doi": "https://doi.org/10.1038/s41586-024-08228-9",
-          "filter": "2"
-        },
-        {
-          "title": "Probabilistic weather forecasting with machine learning",
-          "authors": "Ilan Price, Alvaro Sanchez-Gonzalez, Ferran Alet, Tom R. Andersson, Andrew El-Kadi, Dominic Masters, Timo Ewalds, Jacklynn Stott, Shakir Mohamed, Peter Battaglia, Remi Lam, Matthew Willson",
-          "abstract": "Weather forecasts are fundamentally uncertain, so predicting the range of probable weather scenarios is crucial for important decisions, from warning the public about hazardous weather to planning renewable energy use. Traditionally, weather forecasts have been based on numerical weather prediction (NWP) 1 , which relies on physics-based simulations of the atmosphere. Recent advances in machine learning (ML)-based weather prediction (MLWP) have produced ML-based models with less forecast error than single NWP simulations 2,3 . However, these advances have focused primarily on single, deterministic forecasts that fail to represent uncertainty and estimate risk. Overall, MLWP has remained less accurate and reliable than state-of-the-art NWP ensemble forecasts. Here we introduce GenCast, a probabilistic weather model with greater skill and speed than the top operational medium-range weather forecast in the world, ENS, the ensemble forecast of the European Centre for Medium-Range Weather Forecasts 4 . GenCast is an ML weather prediction method, trained on decades of reanalysis data. GenCast generates an ensemble of stochastic 15-day global forecasts, at 12-h steps and 0.25° latitude–longitude resolution, for more than 80 surface and atmospheric variables, in 8 min. It has greater skill than ENS on 97.2% of 1,320 targets we evaluated and better predicts extreme weather, tropical cyclone tracks and wind power production. This work helps open the next chapter in operational weather forecasting, in which crucial weather-dependent decisions are made more accurately and efficiently.",
-          "url": "https://doi.org/10.1038/s41586-024-08252-9",
-          "doi": "https://doi.org/10.1038/s41586-024-08252-9",
-          "filter": "2"
-        },
-        {
-          "title": "Author Correction: Autoregulation in rats with transplanted supernumerary kidneys",
-          "authors": "Ruben F. Gittes, Marcus Rist, Salvador Treves, Andrew Biewener",
-          "url": "https://doi.org/10.1038/s41586-024-08461-2",
-          "doi": "https://doi.org/10.1038/s41586-024-08461-2",
-          "filter": "2"
-        },
-        {
-          "title": "Near-identical macromolecules spontaneously partition into concentric circles",
-          "authors": "Hao Gong, Yuriko Sakaguchi, Tsutomu Suzuki, Miho Yanagisawa, Takuzo Aida",
-          "abstract": "Although separation is entropically unfavourable, it is often essential for our life1,2. The separation of very similar macromolecules such as deoxyribonucleic acids (DNAs) and their single nucleotide variants is difficult but holds great advantage for the progress of life science3. Here we report that a particular liquid–liquid phase separation (LLPS) at a solid–liquid interface led to the partitioning of DNAs with nearly identical structures. We found this intriguing phenomenon when we did drop-casting onto a glass plate an aqueous ammonium sulfate dispersion of phase-separated droplets comprising a homogeneous mixture of poly(ethylene glycol) (PEG) samples with different termini. Even when the molecular weights of their PEG parts were identical to each other, terminally different PEGs spread competitively at the solid–liquid interface and partitioned into micrometre-scale concentric circles. We found that this competitive spreading was induced by an ammonium sulfate layer spontaneously formed on the glass surface. We successfully extended the above mechanism to partitioning a mixture of nearly identical DNAs into concentric circles followed by their selective extraction using the salting-in effect. We could isolate a human cancer-causing single nucleotide variant in 97% purity from its 1:1 mixture with the original DNA.",
-          "url": "https://doi.org/10.1038/s41586-024-08203-4",
-          "doi": "https://doi.org/10.1038/s41586-024-08203-4",
           "filter": "2"
         },
         {
@@ -62,11 +39,26 @@
           "filter": "2"
         },
         {
-          "title": "RANK drives structured intestinal epithelial expansion during pregnancy",
-          "authors": "Masahiro Onji, Verena Sigl, Thomas Lendl, Maria Novatchkova, Asier Ullate-Agote, Amanda Andersson-Rolf, Ivona Kozieradzki, Rubina Koglgruber, Tsung-Pin Pai, Dominic Lichtscheidl, Komal Nayak, Matthias Zilbauer, Natalia A. Carranza García, Laura Katharina Sievers, Maren Falk-Paulsen, Shane J. F. Cronin, Astrid Hagelkruys, Shinichiro Sawa, Lisa C. Osborne, Philip Rosenstiel, Manolis Pasparakis, Jürgen Ruland, Hiroshi Takayanagi, Hans Clevers, Bon-Kyoung Koo, Josef M. Penninger",
-          "abstract": "During reproduction, multiple species such as insects and all mammals undergo extensive physiological and morphological adaptions to ensure health and survival of the mother and optimal development of the offspring. Here we report that the intestinal epithelium undergoes expansion during pregnancy and lactation in mammals. This enlargement of the intestinal surface area results in a novel geometry of expanded villi. Receptor activator of nuclear factor-κΒ (RANK, encoded by TNFRSF11A ) and its ligand RANKL were identified as a molecular pathway involved in this villous expansion of the small intestine in vivo in mice and in intestinal mouse and human organoids. Mechanistically, RANK–RANKL protects gut epithelial cells from cell death and controls the intestinal stem cell niche through BMP receptor signalling, resulting in the elongation of villi and a prominent increase in the intestinal surface. As a transgenerational consequence, babies born to female mice that lack Rank in the intestinal epithelium show reduced weight and develop glucose intolerance after metabolic stress. Whereas gut epithelial remodelling in pregnancy/lactation is reversible, constitutive expression of an active form of RANK is sufficient to drive intestinal expansion followed by loss of villi and stem cells, and prevents the formation of Apc min -driven small intestinal stem cell tumours. These data identify RANK–RANKL as a pathway that drives intestinal epithelial expansion in pregnancy/lactation, one of the most elusive and fundamental tissue remodelling events in mammalian life history and evolution.",
-          "url": "https://doi.org/10.1038/s41586-024-08284-1",
-          "doi": "https://doi.org/10.1038/s41586-024-08284-1",
+          "title": "Near-identical macromolecules spontaneously partition into concentric circles",
+          "authors": "Hao Gong, Yuriko Sakaguchi, Tsutomu Suzuki, Miho Yanagisawa, Takuzo Aida",
+          "abstract": "Although separation is entropically unfavourable, it is often essential for our life1,2. The separation of very similar macromolecules such as deoxyribonucleic acids (DNAs) and their single nucleotide variants is difficult but holds great advantage for the progress of life science3. Here we report that a particular liquid–liquid phase separation (LLPS) at a solid–liquid interface led to the partitioning of DNAs with nearly identical structures. We found this intriguing phenomenon when we did drop-casting onto a glass plate an aqueous ammonium sulfate dispersion of phase-separated droplets comprising a homogeneous mixture of poly(ethylene glycol) (PEG) samples with different termini. Even when the molecular weights of their PEG parts were identical to each other, terminally different PEGs spread competitively at the solid–liquid interface and partitioned into micrometre-scale concentric circles. We found that this competitive spreading was induced by an ammonium sulfate layer spontaneously formed on the glass surface. We successfully extended the above mechanism to partitioning a mixture of nearly identical DNAs into concentric circles followed by their selective extraction using the salting-in effect. We could isolate a human cancer-causing single nucleotide variant in 97% purity from its 1:1 mixture with the original DNA.",
+          "url": "https://doi.org/10.1038/s41586-024-08203-4",
+          "doi": "https://doi.org/10.1038/s41586-024-08203-4",
+          "filter": "2"
+        },
+        {
+          "title": "Author Correction: Autoregulation in rats with transplanted supernumerary kidneys",
+          "authors": "Ruben F. Gittes, Marcus Rist, Salvador Treves, Andrew Biewener",
+          "url": "https://doi.org/10.1038/s41586-024-08461-2",
+          "doi": "https://doi.org/10.1038/s41586-024-08461-2",
+          "filter": "2"
+        },
+        {
+          "title": "Probabilistic weather forecasting with machine learning",
+          "authors": "Ilan Price, Alvaro Sanchez-Gonzalez, Ferran Alet, Tom R. Andersson, Andrew El-Kadi, Dominic Masters, Timo Ewalds, Jacklynn Stott, Shakir Mohamed, Peter Battaglia, Remi Lam, Matthew Willson",
+          "abstract": "Weather forecasts are fundamentally uncertain, so predicting the range of probable weather scenarios is crucial for important decisions, from warning the public about hazardous weather to planning renewable energy use. Traditionally, weather forecasts have been based on numerical weather prediction (NWP) 1 , which relies on physics-based simulations of the atmosphere. Recent advances in machine learning (ML)-based weather prediction (MLWP) have produced ML-based models with less forecast error than single NWP simulations 2,3 . However, these advances have focused primarily on single, deterministic forecasts that fail to represent uncertainty and estimate risk. Overall, MLWP has remained less accurate and reliable than state-of-the-art NWP ensemble forecasts. Here we introduce GenCast, a probabilistic weather model with greater skill and speed than the top operational medium-range weather forecast in the world, ENS, the ensemble forecast of the European Centre for Medium-Range Weather Forecasts 4 . GenCast is an ML weather prediction method, trained on decades of reanalysis data. GenCast generates an ensemble of stochastic 15-day global forecasts, at 12-h steps and 0.25° latitude–longitude resolution, for more than 80 surface and atmospheric variables, in 8 min. It has greater skill than ENS on 97.2% of 1,320 targets we evaluated and better predicts extreme weather, tropical cyclone tracks and wind power production. This work helps open the next chapter in operational weather forecasting, in which crucial weather-dependent decisions are made more accurately and efficiently.",
+          "url": "https://doi.org/10.1038/s41586-024-08252-9",
+          "doi": "https://doi.org/10.1038/s41586-024-08252-9",
           "filter": "2"
         },
         {
@@ -75,6 +67,14 @@
           "abstract": "Anhedonia, the diminished drive to seek, value, and learn about rewards, is a core feature of major depressive disorder 1–3 . The neural underpinnings of anhedonia and how this emotional state drives behaviour remain unclear. Here we investigated the neural code of anhedonia by taking advantage of the fact that when mice are exposed to traumatic social stress, susceptible animals become socially withdrawn and anhedonic, whereas others remain resilient. By performing high-density electrophysiology to record neural activity patterns in the basolateral amygdala (BLA) and ventral CA1 (vCA1), we identified neural signatures of susceptibility and resilience. When mice actively sought rewards, BLA activity in resilient mice showed robust discrimination between reward choices. By contrast, susceptible mice exhibited a rumination-like signature, in which BLA neurons encoded the intention to switch or stay on a previously chosen reward. Manipulation of vCA1 inputs to the BLA in susceptible mice rescued dysfunctional neural dynamics, amplified dynamics associated with resilience, and reversed anhedonic behaviour. Finally, when animals were at rest, the spontaneous BLA activity of susceptible mice showed a greater number of distinct neural population states. This spontaneous activity allowed us to decode group identity and to infer whether a mouse had a history of stress better than behavioural outcomes alone. This work reveals population-level neural dynamics that explain individual differences in responses to traumatic stress, and suggests that modulating vCA1–BLA inputs can enhance resilience by regulating these dynamics.",
           "url": "https://doi.org/10.1038/s41586-024-08241-y",
           "doi": "https://doi.org/10.1038/s41586-024-08241-y",
+          "filter": "2"
+        },
+        {
+          "title": "RANK drives structured intestinal epithelial expansion during pregnancy",
+          "authors": "Masahiro Onji, Verena Sigl, Thomas Lendl, Maria Novatchkova, Asier Ullate-Agote, Amanda Andersson-Rolf, Ivona Kozieradzki, Rubina Koglgruber, Tsung-Pin Pai, Dominic Lichtscheidl, Komal Nayak, Matthias Zilbauer, Natalia A. Carranza García, Laura Katharina Sievers, Maren Falk-Paulsen, Shane J. F. Cronin, Astrid Hagelkruys, Shinichiro Sawa, Lisa C. Osborne, Philip Rosenstiel, Manolis Pasparakis, Jürgen Ruland, Hiroshi Takayanagi, Hans Clevers, Bon-Kyoung Koo, Josef M. Penninger",
+          "abstract": "During reproduction, multiple species such as insects and all mammals undergo extensive physiological and morphological adaptions to ensure health and survival of the mother and optimal development of the offspring. Here we report that the intestinal epithelium undergoes expansion during pregnancy and lactation in mammals. This enlargement of the intestinal surface area results in a novel geometry of expanded villi. Receptor activator of nuclear factor-κΒ (RANK, encoded by TNFRSF11A ) and its ligand RANKL were identified as a molecular pathway involved in this villous expansion of the small intestine in vivo in mice and in intestinal mouse and human organoids. Mechanistically, RANK–RANKL protects gut epithelial cells from cell death and controls the intestinal stem cell niche through BMP receptor signalling, resulting in the elongation of villi and a prominent increase in the intestinal surface. As a transgenerational consequence, babies born to female mice that lack Rank in the intestinal epithelium show reduced weight and develop glucose intolerance after metabolic stress. Whereas gut epithelial remodelling in pregnancy/lactation is reversible, constitutive expression of an active form of RANK is sufficient to drive intestinal expansion followed by loss of villi and stem cells, and prevents the formation of Apc min -driven small intestinal stem cell tumours. These data identify RANK–RANKL as a pathway that drives intestinal epithelial expansion in pregnancy/lactation, one of the most elusive and fundamental tissue remodelling events in mammalian life history and evolution.",
+          "url": "https://doi.org/10.1038/s41586-024-08284-1",
+          "doi": "https://doi.org/10.1038/s41586-024-08284-1",
           "filter": "2"
         },
         {
@@ -94,17 +94,17 @@
           "filter": "2"
         },
         {
-          "title": "Author Correction: APOE4 impairs myelination via cholesterol dysregulation in oligodendrocytes",
-          "authors": "Joel W. Blanchard, Leyla Anne Akay, Jose Davila-Velderrain, Djuna von Maydell, Hansruedi Mathys, Shawn M. Davidson, Audrey Effenberger, Chih-Yu Chen, Kristal Maner-Smith, Ihab Hajjar, Eric A. Ortlund, Michael Bula, Emre Agbas, Ayesha Ng, Xueqiao Jiang, Martin Kahn, Cristina Blanco-Duque, Nicolas Lavoie, Liwang Liu, Ricardo Reyes, Yuan-Ta Lin, Tak Ko, Lea R’Bibo, William T. Ralvenius, David A. Bennett, Hugh P. Cam, Manolis Kellis, Li-Huei Tsai",
-          "url": "https://doi.org/10.1038/s41586-024-08434-5",
-          "doi": "https://doi.org/10.1038/s41586-024-08434-5",
-          "filter": "2"
-        },
-        {
           "title": "Author Correction: Genetic drivers and cellular selection of female mosaic X chromosome loss",
           "authors": "Aoxing Liu, Giulio Genovese, Yajie Zhao, Matti Pirinen, Seyedeh M. Zekavat, Katherine A. Kentistou, Zhiyu Yang, Kai Yu, Caitlyn Vlasschaert, Xiaoxi Liu, Derek W. Brown, Georgi Hudjashov, Bryan R. Gorman, Joe Dennis, Weiyin Zhou, Yukihide Momozawa, Saiju Pyarajan, Valdislav Tuzov, Fanny-Dhelia Pajuste, Mervi Aavikko, Timo P. Sipilä, Awaisa Ghazal, Wen-Yi Huang, Neal D. Freedman, Lei Song, Eugene J. Gardner, character(0), character(0), Andres Metspalu, Tõnu Esko, Mari Nelis, Lili Milani, character(0), Thomas U. Ahearn, Irene L. Andrulis, Hoda Anton-Culver, Antonis C. Antoniou, Amy Berrington de Gonzalez, Natalia V. Bogdanova, Stig E. Bojesen, Manjeet K. Bolla, Hermann Brenner, Jenny Chang-Claude, Georgia Chenevix-Trench, Sarah V. Colonna, character(0), Fergus J. Couch, Angela Cox, Kamila Czene, Mary B. Daly, Peter Devilee, Thilo Dörk, Alison M. Dunning, Miriam Dwek, Douglas F. Easton, Diana M. Eccles, Peter A. Fasching, Olivia Fletcher, Manuela Gago-Dominguez, Montserrat García-Closas, Mark S. Goldberg, Anna González-Neira, Pascal Guénel, Christopher A. Haiman, Per Hall, Ute Hamann, Antoinette Hollestelle, Reiner Hoppe, John L. Hopper, character(0), Anna Jakubowska, Helena Jernström, Esther M. John, Rudolf Kaaks, Elza K. Khusnutdinova, Cari M. Kitahara, Peter Kraft, Vessela N. Kristensen, Diether Lambrechts, Annika Lindblom, Arto Mannermaa, Usha Menon, Kyriaki Michailidou, Rachel A. Murphy, Heli Nevanlinna, Nadia Obi, Kenneth Offit, Paolo Peterlongo, Paul D. P. Pharoah, Dijana Plaseska-Karanfilska, Gad Rennert, Atocha Romero, Emmanouil Saloustros, Marjanka K. Schmidt, Rita K. Schmutzler, Jennifer Stone, Rulla M. Tamimi, Lauren R. Teras, Mary Beth Terry, Melissa A. Troester, Celine M. Vachon, Qin Wang, Clarice R. Weinberg, Robert Winqvist, Alicja Wolk, character(0), Vijay G. Sankaran, Aarno Palotie, Hanna M. Ollila, Taru Tukiainen, Stephen J. Chanock, Reedik Mägi, Pradeep Natarajan, Mark J. Daly, Alexander Bick, Steven A. McCarroll, Chikashi Terao, Po-Ru Loh, Andrea Ganna, John R. B. Perry, Mitchell J. Machiela",
           "url": "https://doi.org/10.1038/s41586-024-08215-0",
           "doi": "https://doi.org/10.1038/s41586-024-08215-0",
+          "filter": "2"
+        },
+        {
+          "title": "Author Correction: APOE4 impairs myelination via cholesterol dysregulation in oligodendrocytes",
+          "authors": "Joel W. Blanchard, Leyla Anne Akay, Jose Davila-Velderrain, Djuna von Maydell, Hansruedi Mathys, Shawn M. Davidson, Audrey Effenberger, Chih-Yu Chen, Kristal Maner-Smith, Ihab Hajjar, Eric A. Ortlund, Michael Bula, Emre Agbas, Ayesha Ng, Xueqiao Jiang, Martin Kahn, Cristina Blanco-Duque, Nicolas Lavoie, Liwang Liu, Ricardo Reyes, Yuan-Ta Lin, Tak Ko, Lea R’Bibo, William T. Ralvenius, David A. Bennett, Hugh P. Cam, Manolis Kellis, Li-Huei Tsai",
+          "url": "https://doi.org/10.1038/s41586-024-08434-5",
+          "doi": "https://doi.org/10.1038/s41586-024-08434-5",
           "filter": "2"
         },
         {
@@ -145,6 +145,20 @@
           "abstract": "The inclusion of microexons by alternative splicing occurs frequently in neuronal proteins. The roles of these sequences are largely unknown, and changes in their degree of inclusion are associated with neurodevelopmental disorders1. We have previously shown that decreased inclusion of a 24-nucleotide neuron-specific microexon in CPEB4, a RNA-binding protein that regulates translation through cytoplasmic changes in poly(A) tail length, is linked to idiopathic autism spectrum disorder (ASD)2. Why this microexon is required and how small changes in its degree of inclusion have a dominant-negative effect on the expression of ASD-linked genes is unclear. Here we show that neuronal CPEB4 forms condensates that dissolve after depolarization, a transition associated with a switch from translational repression to activation. Heterotypic interactions between the microexon and a cluster of histidine residues prevent the irreversible aggregation of CPEB4 by competing with homotypic interactions between histidine clusters. We conclude that the microexon is required in neuronal CPEB4 to preserve the reversible regulation of CPEB4-mediated gene expression in response to neuronal stimulation.",
           "url": "https://doi.org/10.1038/s41586-024-08289-w",
           "doi": "https://doi.org/10.1038/s41586-024-08289-w",
+          "filter": "2"
+        },
+        {
+          "title": "Author Correction: Global potential for natural regeneration in deforested tropical regions",
+          "authors": "Brooke A. Williams, Hawthorne L. Beyer, Matthew E. Fagan, Robin L. Chazdon, Marina Schmoeller, Starry Sprenkle-Hyppolite, Bronson W. Griscom, James E. M. Watson, Anazélia M. Tedesco, Mariano Gonzalez-Roglich, Gabriel A. Daldegan, Blaise Bodin, Danielle Celentano, Sarah Jane Wilson, Jonathan R. Rhodes, Nikola S. Alexandre, Do-Hyung Kim, Diego Bastos, Renato Crouzeilles",
+          "url": "https://doi.org/10.1038/s41586-024-08481-y",
+          "doi": "https://doi.org/10.1038/s41586-024-08481-y",
+          "filter": "2"
+        },
+        {
+          "title": "Publisher Correction: Spatially restricted immune and microbiota-driven adaptation of the gut",
+          "authors": "Toufic Mayassi, Chenhao Li, Åsa Segerstolpe, Eric M. Brown, Rebecca Weisberg, Toru Nakata, Hiroshi Yano, Paula Herbst, David Artis, Daniel B. Graham, Ramnik J. Xavier",
+          "url": "https://doi.org/10.1038/s41586-024-08446-1",
+          "doi": "https://doi.org/10.1038/s41586-024-08446-1",
           "filter": "2"
         },
         {
@@ -194,13 +208,6 @@
           "filter": "4"
         },
         {
-          "title": "A step-by-step guide to landing your next job in science",
-          "authors": "Linda Nordling",
-          "url": "https://doi.org/10.1038/d41586-024-03926-w",
-          "doi": "https://doi.org/10.1038/d41586-024-03926-w",
-          "filter": "4"
-        },
-        {
           "title": "The liver converts fructose into lipids to fuel tumours",
           "authors": "Hyllana C. D. Medeiros, Sophia Y. Lunt",
           "abstract": "It is well established that tumour cells consume more of the sugar glucose than do non-proliferating normal cells1, a phenomenon known as the Warburg effect. Another type of sugar, fructose, has emerged as an alternative potential fuel for tumour growth. Writing in Nature, Fowle-Grider et al.2 reveal the surprising process that enables cancer cells to benefit from fructose.",
@@ -217,10 +224,10 @@
           "filter": "4"
         },
         {
-          "title": "Why breast cancer treatments might work best just after your period",
-          "authors": "Nick Petrić Howe, Emily Bates",
-          "url": "https://doi.org/10.1038/d41586-024-03986-y",
-          "doi": "https://doi.org/10.1038/d41586-024-03986-y",
+          "title": "Virtual lab powered by ‘AI scientists’ super-charges biomedical research",
+          "authors": "Helena Kudiabor",
+          "url": "https://doi.org/10.1038/d41586-024-01684-3",
+          "doi": "https://doi.org/10.1038/d41586-024-01684-3",
           "filter": "4"
         },
         {
@@ -231,10 +238,17 @@
           "filter": "4"
         },
         {
-          "title": "Virtual lab powered by ‘AI scientists’ super-charges biomedical research",
-          "authors": "Helena Kudiabor",
-          "url": "https://doi.org/10.1038/d41586-024-01684-3",
-          "doi": "https://doi.org/10.1038/d41586-024-01684-3",
+          "title": "Why breast cancer treatments might work best just after your period",
+          "authors": "Nick Petrić Howe, Emily Bates",
+          "url": "https://doi.org/10.1038/d41586-024-03986-y",
+          "doi": "https://doi.org/10.1038/d41586-024-03986-y",
+          "filter": "4"
+        },
+        {
+          "title": "A step-by-step guide to landing your next job in science",
+          "authors": "Linda Nordling",
+          "url": "https://doi.org/10.1038/d41586-024-03926-w",
+          "doi": "https://doi.org/10.1038/d41586-024-03926-w",
           "filter": "4"
         },
         {
@@ -260,13 +274,6 @@
           "filter": "4"
         },
         {
-          "title": "Stress can dull our capacity for joy: mouse brain patterns hint at why",
-          "authors": "Max Kozlov",
-          "url": "https://doi.org/10.1038/d41586-024-03958-2",
-          "doi": "https://doi.org/10.1038/d41586-024-03958-2",
-          "filter": "4"
-        },
-        {
           "title": "Banish the PDF-hunting blues with these AI and digital tools",
           "authors": "Candice P. Chu",
           "url": "https://doi.org/10.1038/d41586-024-03775-7",
@@ -281,6 +288,13 @@
           "filter": "4"
         },
         {
+          "title": "Stress can dull our capacity for joy: mouse brain patterns hint at why",
+          "authors": "Max Kozlov",
+          "url": "https://doi.org/10.1038/d41586-024-03958-2",
+          "doi": "https://doi.org/10.1038/d41586-024-03958-2",
+          "filter": "4"
+        },
+        {
           "title": "Exis memoria",
           "authors": "Hannya Kay",
           "url": "https://doi.org/10.1038/d41586-024-03908-y",
@@ -288,33 +302,10 @@
           "filter": "4"
         },
         {
-          "title": "Bird-inspired leg enables robots to jump into flight",
-          "authors": "Aimy A. Wissa",
-          "abstract": "Many organisms can transition smoothly from one mode of locomotion to another, often by using the same body parts. For example, flying fish use their fins to steer underwater, and these same structures turn into wings when the fish begin to glide above the water’s surface1. Such versatility is an endless source of inspiration for engineers, but using the same locomotor modules to perform different movements can create trade-offs, because these manoeuvres often have opposing requirements2.",
-          "url": "https://doi.org/10.1038/d41586-024-03845-w",
-          "doi": "https://doi.org/10.1038/d41586-024-03845-w",
-          "filter": "4"
-        },
-        {
-          "title": "How provinces and cities can sustain US–China climate cooperation",
-          "authors": "Fan Dai, Jerry Brown, Zhenhua Xie, Yi Wang, Peng Gong",
-          "url": "https://doi.org/10.1038/d41586-024-03919-9",
-          "doi": "https://doi.org/10.1038/d41586-024-03919-9",
-          "filter": "4"
-        },
-        {
           "title": "I help researchers to measure methane at a local level so that we can make global changes",
           "authors": "Oscar Allan",
           "url": "https://doi.org/10.1038/d41586-024-03927-9",
           "doi": "https://doi.org/10.1038/d41586-024-03927-9",
-          "filter": "4"
-        },
-        {
-          "title": "Pandemic policy can learn from arms control",
-          "authors": "Rebecca Katz",
-          "abstract": "Last month, the World Health Organization (WHO) was reduced to the equivalent of playground pleading: ‘But you promised!’ Under an international treaty, some 195 countries are obliged to provide the WHO with information about disease outbreaks on request. So when Tanzania did not respond to queries about potential cases of Ebola, the WHO called the country out publicly in its official outbreak report. In bureaucratic circles, this ‘naming and shaming’ sent shock waves. The two have now made peace; on 18 October, the WHO lauded Tanzania for its cooperation and Ebola preparedness.",
-          "url": "https://doi.org/10.1038/d41586-019-03452-0",
-          "doi": "https://doi.org/10.1038/d41586-019-03452-0",
           "filter": "4"
         },
         {
@@ -334,10 +325,40 @@
           "filter": "4"
         },
         {
+          "title": "How provinces and cities can sustain US–China climate cooperation",
+          "authors": "Fan Dai, Jerry Brown, Zhenhua Xie, Yi Wang, Peng Gong",
+          "url": "https://doi.org/10.1038/d41586-024-03919-9",
+          "doi": "https://doi.org/10.1038/d41586-024-03919-9",
+          "filter": "4"
+        },
+        {
           "title": "Daily briefing: Science could solve some of the world’s biggest problems. Why aren’t governments using it?",
           "authors": "Flora Graham",
           "url": "https://doi.org/10.1038/d41586-024-04013-w",
           "doi": "https://doi.org/10.1038/d41586-024-04013-w",
+          "filter": "4"
+        },
+        {
+          "title": "Bird-inspired leg enables robots to jump into flight",
+          "authors": "Aimy A. Wissa",
+          "abstract": "Many organisms can transition smoothly from one mode of locomotion to another, often by using the same body parts. For example, flying fish use their fins to steer underwater, and these same structures turn into wings when the fish begin to glide above the water’s surface1. Such versatility is an endless source of inspiration for engineers, but using the same locomotor modules to perform different movements can create trade-offs, because these manoeuvres often have opposing requirements2.",
+          "url": "https://doi.org/10.1038/d41586-024-03845-w",
+          "doi": "https://doi.org/10.1038/d41586-024-03845-w",
+          "filter": "4"
+        },
+        {
+          "title": "Daily briefing: Stress-induced joylessness leaves a distinct mark on the brain",
+          "authors": "Flora Graham",
+          "url": "https://doi.org/10.1038/d41586-024-04025-6",
+          "doi": "https://doi.org/10.1038/d41586-024-04025-6",
+          "filter": "4"
+        },
+        {
+          "title": "Pandemic policy can learn from arms control",
+          "authors": "Rebecca Katz",
+          "abstract": "Last month, the World Health Organization (WHO) was reduced to the equivalent of playground pleading: ‘But you promised!’ Under an international treaty, some 195 countries are obliged to provide the WHO with information about disease outbreaks on request. So when Tanzania did not respond to queries about potential cases of Ebola, the WHO called the country out publicly in its official outbreak report. In bureaucratic circles, this ‘naming and shaming’ sent shock waves. The two have now made peace; on 18 October, the WHO lauded Tanzania for its cooperation and Ebola preparedness.",
+          "url": "https://doi.org/10.1038/d41586-019-03452-0",
+          "doi": "https://doi.org/10.1038/d41586-019-03452-0",
           "filter": "4"
         },
         {
@@ -384,13 +405,6 @@
           "filter": "4"
         },
         {
-          "title": "Sick animals suggest COVID pandemic started in Wuhan market",
-          "authors": "Smriti Mallapaty",
-          "url": "https://doi.org/10.1038/d41586-024-03968-0",
-          "doi": "https://doi.org/10.1038/d41586-024-03968-0",
-          "filter": "4"
-        },
-        {
           "title": "Pregnancy restructures the brain to prepare for childbirth and parenthood",
           "authors": "Clare McCormack, Moriah Thomason",
           "abstract": "Brain changes during pregnancy have been mapped in detail for the first time. Writing in Nature Neuroscience, Pritschet et al.1 report a case study of a single participant who completed magnetic resonance imaging (MRI) scans at 26 timepoints: 4 before pregnancy, 15 during pregnancy and 7 in the first 2 years after childbirth. The researchers detect widespread anatomical changes throughout the brain, which might reflect the refinement of neuronal connections in preparation for birth and caring for a child.",
@@ -399,17 +413,24 @@
           "filter": "4"
         },
         {
-          "title": "Microbiome interventions for children raise the ethical stakes",
-          "authors": "Sam Jones",
-          "url": "https://doi.org/10.1038/d41586-024-03971-5",
-          "doi": "https://doi.org/10.1038/d41586-024-03971-5",
+          "title": "Wuhan lab samples hold no close relatives to virus behind COVID",
+          "authors": "Smriti Mallapaty",
+          "url": "https://doi.org/10.1038/d41586-024-03982-2",
+          "doi": "https://doi.org/10.1038/d41586-024-03982-2",
           "filter": "4"
         },
         {
-          "title": "How close is AI to human-level intelligence?",
-          "authors": "Anil Ananthaswamy",
-          "url": "https://doi.org/10.1038/d41586-024-03905-1",
-          "doi": "https://doi.org/10.1038/d41586-024-03905-1",
+          "title": "Loose ends",
+          "authors": "Myna Chang",
+          "url": "https://doi.org/10.1038/d41586-024-04022-9",
+          "doi": "https://doi.org/10.1038/d41586-024-04022-9",
+          "filter": "4"
+        },
+        {
+          "title": "Sick animals suggest COVID pandemic started in Wuhan market",
+          "authors": "Smriti Mallapaty",
+          "url": "https://doi.org/10.1038/d41586-024-03968-0",
+          "doi": "https://doi.org/10.1038/d41586-024-03968-0",
           "filter": "4"
         },
         {
@@ -420,10 +441,24 @@
           "filter": "4"
         },
         {
+          "title": "How close is AI to human-level intelligence?",
+          "authors": "Anil Ananthaswamy",
+          "url": "https://doi.org/10.1038/d41586-024-03905-1",
+          "doi": "https://doi.org/10.1038/d41586-024-03905-1",
+          "filter": "4"
+        },
+        {
           "title": "Watch this bird-inspired drone leap into the air",
           "authors": "Dan Fox",
           "url": "https://doi.org/10.1038/d41586-024-03974-2",
           "doi": "https://doi.org/10.1038/d41586-024-03974-2",
+          "filter": "4"
+        },
+        {
+          "title": "Microbiome interventions for children raise the ethical stakes",
+          "authors": "Sam Jones",
+          "url": "https://doi.org/10.1038/d41586-024-03971-5",
+          "doi": "https://doi.org/10.1038/d41586-024-03971-5",
           "filter": "4"
         },
         {
@@ -469,6 +504,20 @@
           "authors": "Flora Graham",
           "url": "https://doi.org/10.1038/d41586-024-03984-0",
           "doi": "https://doi.org/10.1038/d41586-024-03984-0",
+          "filter": "4"
+        },
+        {
+          "title": "A science mega-programme is taking shape in the EU: what it means for researchers",
+          "authors": "David Matthews",
+          "url": "https://doi.org/10.1038/d41586-024-04017-6",
+          "doi": "https://doi.org/10.1038/d41586-024-04017-6",
+          "filter": "4"
+        },
+        {
+          "title": "Andrew V. Schally obituary: Nobel prizewinner who transformed cancer therapies with research into brain hormones",
+          "authors": "Renzi Cai, Medhi Wangpaichitr",
+          "url": "https://doi.org/10.1038/d41586-024-04047-0",
+          "doi": "https://doi.org/10.1038/d41586-024-04047-0",
           "filter": "4"
         }
       ]
@@ -565,11 +614,27 @@
           "filter": "0"
         },
         {
+          "title": "Patterns of linguistic simplification on social media platforms over time",
+          "authors": "N. Di Marco, Edoardo Loru, Anita Bonetti, Alessandra Olga Grazia Serra, Matteo Cinelli, Walter Quattrociocchi",
+          "abstract": "Understanding the impact of digital platforms on user behavior presents foundational challenges, including issues related to polarization, misinformation dynamics, and variation in news consumption. Comparative analyses across platforms and over different years can provide critical insights into these phenomena. This study investigates the linguistic characteristics of user comments over 34 y, focusing on their complexity and temporal shifts. Using a dataset of approximately 300 million English comments from eight diverse platforms and topics, we examine user communications’ vocabulary size and linguistic richness and their evolution over time. Our findings reveal consistent patterns of complexity across social media platforms and topics, characterized by a nearly universal reduction in text length, diminished lexical richness, and decreased repetitiveness. Despite these trends, users consistently introduce new words into their comments at a nearly constant rate. This analysis underscores that platforms only partially influence the complexity of user comments but, instead, it reflects a broader pattern of linguistic change driven by social triggers, suggesting intrinsic tendencies in users’ online interactions comparable to historically recognized linguistic hybridization and contamination processes.",
+          "url": "https://doi.org/10.1073/pnas.2412105121",
+          "doi": "https://doi.org/10.1073/pnas.2412105121",
+          "filter": "0"
+        },
+        {
           "title": "Animal-sourced foods improve child nutrition in Africa",
           "authors": "Makaiko G. Khonje, Matin Qaim",
           "abstract": "Child undernutrition remains a widespread public health problem in the Global South, especially in Africa. Childhood stunting—meaning linear growth retardation—is a comprehensive and commonly used indicator of chronic child undernutrition and is mostly the result of insufficient nutrient intake, among other factors. Previous research showed that the consumption of animal-sourced foods (ASF), including meat, dairy, eggs, and fish, is associated with lower rates of child stunting, but reliable evidence for Africa is scant. In Africa, average ASF consumption is low. We use representative panel data from five African countries—Ethiopia, Malawi, Nigeria, Tanzania, and Uganda—with over 32,000 observations from children aged 0 to 5 y to show that ASF consumption increases mean child height-for-age Z-scores (HAZ) by 0.30 ( P &lt; 0.01) and reduces the likelihood of stunting by 6.8 percentage points ( P &lt; 0.01), after controlling for confounding factors. The child nutritional benefits of diets containing ASF are larger than those of purely plant-based diets. Nutritious plant-based foods, such as fruits, vegetables, and legumes, can provide most of the nutrients required and also have positive effects on HAZ, but they are sometimes not available and accessible in sufficient quantities all year round, especially in rural areas. Given the large environmental footprints of livestock farming, initiatives to make food systems more sustainable often call for a strong reduction in ASF consumption. While ASF consumption should be reduced where consumption quantities are high, our results suggest that poor households’ access to ASF in Africa should be further improved to help reduce child undernutrition.",
           "url": "https://doi.org/10.1073/pnas.2319009121",
           "doi": "https://doi.org/10.1073/pnas.2319009121",
+          "filter": "0"
+        },
+        {
+          "title": "Conditional cooperation with longer memory",
+          "authors": "Nikoleta E. Glynatsi, Ethan Akin, Martin A. Nowak, Christian Hilbe",
+          "abstract": "Direct reciprocity is a wide-spread mechanism for the evolution of cooperation. In repeated interactions, players can condition their behavior on previous outcomes. A well-known approach is given by reactive strategies, which respond to the coplayer’s previous move. Here, we extend reactive strategies to longer memories. A reactive- n strategy takes into account the sequence of the last n moves of the coplayer. A reactive- n counting strategy responds to how often the coplayer cooperated during the last n rounds. We derive an algorithm to identify the partner strategies within these strategy sets. Partner strategies are those that ensure mutual cooperation without exploitation. We give explicit conditions for all partner strategies among reactive-2, reactive-3 strategies, and reactive- n counting strategies. To further explore the role of memory, we perform evolutionary simulations. We vary several key parameters, such as the cost-to-benefit ratio of cooperation, the error rate, and the strength of selection. Within the strategy sets we consider, we find that longer memory tends to promote cooperation. This positive effect of memory is particularly pronounced when individuals take into account the precise sequence of moves.",
+          "url": "https://doi.org/10.1073/pnas.2420125121",
+          "doi": "https://doi.org/10.1073/pnas.2420125121",
           "filter": "0"
         },
         {
@@ -598,6 +663,22 @@
           "filter": "2"
         },
         {
+          "title": "Alternative splicing of Clock transcript mediates the response of circadian clocks to temperature changes",
+          "authors": "Yao D. Cai, Xianhui Liu, Gary K. Chow, Sergio Hidalgo, Kiya C. Jackson, Cameron D. Vasquez, Zita Y. Gao, Vu H. Lam, Christine A. Tabuloc, Haiyan Zheng, Caifeng Zhao, Joanna C. Chiu",
+          "abstract": "Circadian clocks respond to temperature changes over the calendar year, allowing organisms to adjust their daily biological rhythms to optimize health and fitness. In Drosophila , seasonal adaptations are regulated by temperature-sensitive alternative splicing (AS) of period ( per ) and timeless ( tim ) genes that encode key transcriptional repressors of clock gene expression. Although Clock ( Clk ) gene encodes the critical activator of circadian gene expression, AS of its transcripts and its potential role in temperature regulation of clock function have not been explored. Here, we observed that Clk transcripts undergo temperature-sensitive AS. Specifically, cold temperature leads to the production of an alternative Clk transcript, hereinafter termed Clk -cold, which encodes a CLK isoform with an in-frame deletion of four amino acids proximal to the DNA binding domain. Notably, serine 13 (S13), which we found to be a CK1α-dependent phosphorylation site, is deleted in CLK-cold protein. We demonstrated that upon phosphorylation at CLK(S13), CLK-DNA interaction is reduced, thus decreasing transcriptional activity of CLK. This is in agreement with our findings that CLK occupancy at clock genes and transcriptional output are elevated at cold temperature likely due to higher amounts of CLK-cold isoforms that lack S13 residue. Finally, we showed that PER promotes CK1α-dependent phosphorylation of CLK(S13), supporting kinase-scaffolding role of repressor proteins as a conserved feature in the regulation of eukaryotic circadian clocks. This study provides insights into the complex collaboration between AS and phospho-regulation in shaping temperature responses of the circadian clock.",
+          "url": "https://doi.org/10.1073/pnas.2410680121",
+          "doi": "https://doi.org/10.1073/pnas.2410680121",
+          "filter": "2"
+        },
+        {
+          "title": "Cavity-enhanced superconductivity in MgB 2 from first-principles quantum electrodynamics (QEDFT)",
+          "authors": "I-Te Lu, Dongbin Shin, Mark Kamper Svendsen, Hannes Hübener, Umberto De Giovannini, Simone Latini, Michael Ruggenthaler, Angel Rubio",
+          "abstract": "Strong laser pulses can control superconductivity, inducing nonequilibrium transient pairing by leveraging strong-light matter interaction. Here, we demonstrate theoretically that equilibrium ground-state phonon-mediated superconductive pairing can be affected through the vacuum fluctuating electromagnetic field in a cavity. Using the recently developed ab initio quantum electrodynamical density-functional theory approximation, we specifically investigate the phonon-mediated superconductive behavior of MgB 2 under different cavity setups and find that in the strong light–matter coupling regime its superconducting transition temperature T c can be enhanced at most by ≈ 10% in an in-plane (or out-of-plane) polarized and realistic cavity via photon vacuum fluctuations. The results highlight that strong light–matter coupling in extended systems can profoundly alter material properties in a nonperturbative way by modifying their electronic structure and phononic dispersion at the same time. Our findings indicate a pathway to the experimental realization of light-controlled superconductivity in solid-state materials at equilibrium via cavity materials engineering.",
+          "url": "https://doi.org/10.1073/pnas.2415061121",
+          "doi": "https://doi.org/10.1073/pnas.2415061121",
+          "filter": "2"
+        },
+        {
           "title": "Flow field design and visualization for flow-through type aqueous organic redox flow batteries",
           "authors": "Kang Peng, Chenxiao Jiang, Zirui Zhang, Chao Zhang, Jing Wang, Wanjie Song, Yunxin Ma, Gonggen Tang, Peipei Zuo, Zhengjin Yang, Tongwen Xu",
           "abstract": "Aqueous organic redox flow batteries (AORFBs), which exploit the reversible redox reactions of water-soluble organic electrolytes to store electricity, have emerged as a promising electrochemical energy storage technology. Organic electrolytes possess fast electron-transfer rates that are two or three orders of magnitude faster than those of their inorganic or organometallic counterparts; therefore, their performance at the electrode is limited by mass transport. Direct adoption of conventional cell stacks with flow fields designed for inorganic electrolytes may compromise AORFB performance owing to severe cell polarization. Here, we report the design of a flow field for flow-through type AORFBs based on three-dimensional multiphysics simulation, to realize the uniform distribution of electrolyte flow and flow enhancements within a porous electrode. The electrolyte flow is visualized by operando imaging. Our results show that multistep distributive flow channels at the inlet and point-contact blocks at the outlet are crucial geometrical merits of the flow field, significantly reducing local concentration overpotentials. The prototype pH-neutral TEMPTMA/MV cell at 1.5 M assembled with the optimized flow field exhibits a peak power density of 267.3 mW cm −2 . The flow field design enables charging of the cell at current densities up to 300 mA cm −2 , which is unachievable with the conventional serpentine flow field, where immediate voltage cutoff of the cell occurs. Our results highlight the importance of AORFB cell stack engineering and provide a method to visualize electrolyte flow, which will be appealing to the field of aqueous flow batteries.",
@@ -614,19 +695,27 @@
           "filter": "2"
         },
         {
-          "title": "Alternative splicing of Clock transcript mediates the response of circadian clocks to temperature changes",
-          "authors": "Yao D. Cai, Xianhui Liu, Gary K. Chow, Sergio Hidalgo, Kiya C. Jackson, Cameron D. Vasquez, Zita Y. Gao, Vu H. Lam, Christine A. Tabuloc, Haiyan Zheng, Caifeng Zhao, Joanna C. Chiu",
-          "abstract": "Circadian clocks respond to temperature changes over the calendar year, allowing organisms to adjust their daily biological rhythms to optimize health and fitness. In Drosophila , seasonal adaptations are regulated by temperature-sensitive alternative splicing (AS) of period ( per ) and timeless ( tim ) genes that encode key transcriptional repressors of clock gene expression. Although Clock ( Clk ) gene encodes the critical activator of circadian gene expression, AS of its transcripts and its potential role in temperature regulation of clock function have not been explored. Here, we observed that Clk transcripts undergo temperature-sensitive AS. Specifically, cold temperature leads to the production of an alternative Clk transcript, hereinafter termed Clk -cold, which encodes a CLK isoform with an in-frame deletion of four amino acids proximal to the DNA binding domain. Notably, serine 13 (S13), which we found to be a CK1α-dependent phosphorylation site, is deleted in CLK-cold protein. We demonstrated that upon phosphorylation at CLK(S13), CLK-DNA interaction is reduced, thus decreasing transcriptional activity of CLK. This is in agreement with our findings that CLK occupancy at clock genes and transcriptional output are elevated at cold temperature likely due to higher amounts of CLK-cold isoforms that lack S13 residue. Finally, we showed that PER promotes CK1α-dependent phosphorylation of CLK(S13), supporting kinase-scaffolding role of repressor proteins as a conserved feature in the regulation of eukaryotic circadian clocks. This study provides insights into the complex collaboration between AS and phospho-regulation in shaping temperature responses of the circadian clock.",
-          "url": "https://doi.org/10.1073/pnas.2410680121",
-          "doi": "https://doi.org/10.1073/pnas.2410680121",
+          "title": "Amino acids modulate liquid–liquid phase separation in vitro and in vivo by regulating protein–protein interactions",
+          "authors": "Xufeng Xu, Aleksander A. Rebane, Laura Roset Julia, Kathryn A. Rosowski, Eric R. Dufresne, Francesco Stellacci",
+          "abstract": "Liquid–liquid phase separation (LLPS) is an intracellular process widely used by cells for many key biological functions. It occurs in complex and crowded environments, where amino acids (AAs) are vital components. We have found that AAs render the net interaction between proteins more repulsive. Here, we find that some AAs efficiently suppress LLPS in test tubes (in vitro). We then screen all the proteinogenic AAs and find that three specific AAs, including proline, glutamine, and glycine, significantly suppressed the formation of stress granules (SGs) in U2OS and HeLa cell lines (in vivo) irrespective of stress types. We also observe the effect in primary fibroblast cells, a viable cell model for neurodegenerative disorders. Kinetic studies by live-cell microscopy show that the presence of AAs not only slows down the formation but also decreases the saturating number and prevents the coalescence of SGs. We finally use sedimentation-diffusion equilibrium analytical ultracentrifuge (SE-AUC) to demonstrate that the suppression effects of AAs on LLPS may be due to their modulation in protein–protein and RNA–RNA interactions. Overall, this study reveals an underappreciated role of cellular AAs, which may find biomedical applications, especially in treating SG-associated diseases.",
+          "url": "https://doi.org/10.1073/pnas.2407633121",
+          "doi": "https://doi.org/10.1073/pnas.2407633121",
           "filter": "2"
         },
         {
-          "title": "Cavity-enhanced superconductivity in MgB 2 from first-principles quantum electrodynamics (QEDFT)",
-          "authors": "I-Te Lu, Dongbin Shin, Mark Kamper Svendsen, Hannes Hübener, Umberto De Giovannini, Simone Latini, Michael Ruggenthaler, Angel Rubio",
-          "abstract": "Strong laser pulses can control superconductivity, inducing nonequilibrium transient pairing by leveraging strong-light matter interaction. Here, we demonstrate theoretically that equilibrium ground-state phonon-mediated superconductive pairing can be affected through the vacuum fluctuating electromagnetic field in a cavity. Using the recently developed ab initio quantum electrodynamical density-functional theory approximation, we specifically investigate the phonon-mediated superconductive behavior of MgB 2 under different cavity setups and find that in the strong light–matter coupling regime its superconducting transition temperature T c can be enhanced at most by ≈ 10% in an in-plane (or out-of-plane) polarized and realistic cavity via photon vacuum fluctuations. The results highlight that strong light–matter coupling in extended systems can profoundly alter material properties in a nonperturbative way by modifying their electronic structure and phononic dispersion at the same time. Our findings indicate a pathway to the experimental realization of light-controlled superconductivity in solid-state materials at equilibrium via cavity materials engineering.",
-          "url": "https://doi.org/10.1073/pnas.2415061121",
-          "doi": "https://doi.org/10.1073/pnas.2415061121",
+          "title": "High-temperature high-k polyolefin by rational molecular design",
+          "authors": "Jing Hao, Irene Mutegi, Madhubanti Mukherjee, Harikrishna Sahu, Ashish Khomane, Omer Yassin, Rampi Ramprasad, Gregory A. Sotzing, Yang Cao",
+          "abstract": "Polymer film dielectrics are highly favored for capacitive energy storage due to the inherent advantages of high breakdown strength, low dielectric loss, and ease of processing. High-density renewables conversion and harsh-condition electrification further emphasize the need for high-temperature, high-k polymers. A unique design strategy is developed to augment high-temperature polyolefins with improved dielectric constant, via the integration of phenyl pendants hanging off the rigid bicyclic backbone. The impacts of the pendant polarizability and steric positioning on dielectric constant, bandgap, glass-transition temperature ( T g ), and high-field, high-temperature dielectric characteristics have been investigated. The orientational polarization of the polar phenyl pendants with rotational degree of freedom imparts cyclic olefins with enhanced dielectric constants, while maintaining the large bandgap, and high glass-transition temperature ( T g &gt; 170 °C). Among these synthesized polymers, m-PNB-BP stands out with a remarkable dielectric constant of 4 at a high sub- T g temperature of 150 °C, and a high discharged density of 8.6 J/m 3 at 660 MV/m. This study unveils a different path for designing high-temperature polymers with enhanced dielectric constants, particularly beneficial for capacitive energy storage.",
+          "url": "https://doi.org/10.1073/pnas.2415388121",
+          "doi": "https://doi.org/10.1073/pnas.2415388121",
+          "filter": "2"
+        },
+        {
+          "title": "Structural insights into the assembly and energy transfer of haptophyte photosystem I–light-harvesting supercomplex",
+          "authors": "Fei-Yu He, Long-Sheng Zhao, Xin-Xiao Qu, Kang Li, Jian-Ping Guo, Fang Zhao, Ning Wang, Bing-Yue Qin, Xiu-Lan Chen, Jun Gao, Lu-Ning Liu, Yu-Zhong Zhang",
+          "abstract": "Haptophyta represents a major taxonomic group, with plastids derived from the primary plastids of red algae. Here, we elucidated the cryoelectron microscopy structure of the photosystem I–light-harvesting complex I (PSI–LHCI) supercomplex from the haptophyte Isochrysis galbana . The PSI core comprises 12 subunits, which have evolved differently from red algae and cryptophytes by losing the PsaO subunit while incorporating the PsaK subunit, which is absent in diatoms and dinoflagellates. The PSI core is encircled by 22 fucoxanthin-chlorophyll a / c -binding light-harvesting antenna proteins (iFCPIs) that form a trilayered antenna arrangement. Moreover, a pigment-binding subunit, L iFP , which has not been identified in any other previously characterized PSI–LHCI supercomplexes, was determined in I. galbana PSI–iFCPI, presumably facilitating the interactions and energy transfer between peripheral iFCPIs and the PSI core. Calculation of excitation energy transfer rates by computational simulations revealed that the intricate pigment network formed within PSI–iFCPI ensures efficient transfer of excitation energy. Overall, our study provides a solid structural foundation for understanding the light-harvesting and energy transfer mechanisms in haptophyte PSI–iFCPI and provides insights into the evolution and structural variations of red-lineage PSI–LHCIs.",
+          "url": "https://doi.org/10.1073/pnas.2413678121",
+          "doi": "https://doi.org/10.1073/pnas.2413678121",
           "filter": "2"
         },
         {
@@ -765,6 +854,30 @@
           "filter": "2"
         },
         {
+          "title": "Density amplifiers of cooperation for spatial games",
+          "authors": "Jakub Svoboda, Krishnendu Chatterjee",
+          "abstract": "Spatial games provide a simple and elegant mathematical model to study the evolution of cooperation in networks. In spatial games, individuals reside in vertices, adopt simple strategies, and interact with neighbors to receive a payoff. Depending on their own and neighbors’ payoffs, individuals can change their strategy. The payoff is determined by the Prisoners’ Dilemma, a classical matrix game, where players cooperate or defect. While cooperation is the desired behavior, defection provides a higher payoff for a selfish individual. There are many theoretical and empirical studies related to the role of the network in the evolution of cooperation. However, the fundamental question of whether there exist networks that for low initial cooperation rate ensure a high chance of fixation, i.e., cooperation spreads across the whole population, has remained elusive for spatial games with strong selection. In this work, we answer this fundamental question in the affirmative by presenting network structures that ensure high fixation probability for cooperators in the strong selection regime. Besides, our structures have many desirable properties: (a) they ensure the spread of cooperation even for a low initial density of cooperation and high temptation of defection, (b) they have constant degrees, and (c) the number of steps, until cooperation spreads, is at most quadratic in the size of the network.",
+          "url": "https://doi.org/10.1073/pnas.2405605121",
+          "doi": "https://doi.org/10.1073/pnas.2405605121",
+          "filter": "2"
+        },
+        {
+          "title": "Proteomic characterization of a foraminiferal test’s organic matrix",
+          "authors": "Fiorella Prada, Liti Haramaty, Oded Livnah, Racheli Shaul, Sigal Abramovich, Tali Mass, Yair Rosenthal, Paul G. Falkowski",
+          "abstract": "Foraminifera are unicellular protists capable of precipitating calcite tests, which fossilize and preserve geochemical signatures of past environmental conditions dating back to the Cambrian period. The biomineralization mechanisms responsible for the mineral structures, which are key to interpreting palaeoceanographic signals, are poorly understood. Here, we present an extensive analysis of the test-bound proteins. Using liquid chromatography–tandem mass spectrometry, we identify 373 test-bound proteins in the large benthic foraminifer Amphistegina lobifera , the majority of which are highly acidic and rich in negatively charged residues. We detect proteins involved in vesicle formation and active Ca 2+ trafficking, but in contrast, do not find similar proteins involved in Mg 2+ transport. Considering findings from this study and previous ones, we propose a dual ion transport model involving seawater vacuolization, followed by the active release of Ca 2+ from the initial vacuoles and subsequent uptake into newly formed Ca-rich vesicles that consequently enrich the calcification fluid. We further speculate that Mg 2+ passively leaks through the membrane from the remaining Mg-rich vesicles, into the calcifying fluid, at much lower concentrations than in seawater. This hypothesis could not only explain the low Mg/Ca ratio in foraminiferal tests compared to inorganic calcite, but could possibly also account for its elevated sensitivity to temperature compared with inorganically precipitated CaCO 3 .",
+          "url": "https://doi.org/10.1073/pnas.2417845121",
+          "doi": "https://doi.org/10.1073/pnas.2417845121",
+          "filter": "2"
+        },
+        {
+          "title": "Hapalindole Q suppresses autophagosome−lysosome fusion by promoting YAP1 degradation via chaperon-mediated autophagy",
+          "authors": "Yali Wu, Shaonan Wang, Zhicong Guo, Min Sun, Zhen Xu, Yu Du, Fahui Zhu, Yajuan Su, Zhou Xu, Yi Xu, Xu Gong, Ruan Fang, Jiaojiao Hu, Yan Peng, Zhaowen Ding, Cong Liu, Ang Li, Weiwei He",
+          "abstract": "Autophagy is a conserved catabolic process crucial for maintaining cellular homeostasis and has emerged as a promising therapeutic target for many diseases. Mechanistically novel small-molecule autophagy regulators are highly desirable from a pharmacological point of view. Here, we report the macroautophagy-inhibitory effect of hapalindole Q, a member of the structurally intriguing but biologically understudied hapalindole family of indole terpenoids. This compound promotes the noncanonical degradation of Yes-associated protein 1 (YAP1), the downstream effector of the Hippo signaling pathway, via chaperone-mediated autophagy, disrupting proper distribution of Rab7 and suppressing autophagosome−lysosome fusion in macroautophagy. Its binding to YAP1 is further confirmed by using biophysical techniques. A preliminary structure−activity relationship study reveals that the hapalindole Q scaffold, rather than the isothiocyanate group, is essential for YAP1 binding and degradation. This work not only identifies a macroautophagy inhibitor with a distinct mechanism of action but also provided a molecular scaffold for direct targeting of YAP1, which may benefit the development of therapeutics for both autophagy-related and Hippo−YAP-related diseases.",
+          "url": "https://doi.org/10.1073/pnas.2400809121",
+          "doi": "https://doi.org/10.1073/pnas.2400809121",
+          "filter": "2"
+        },
+        {
           "title": "Fluctuating charge-density-wave correlations in the three-band Hubbard model",
           "authors": "Peizhi Mai, Benjamin Cohen-Stead, Thomas A. Maier, Steven Johnston",
           "abstract": "The high-temperature superconducting cuprates host unidirectional spin- and charge-density-wave orders that can intertwine with superconductivity in nontrivial ways. While the charge components of these stripes have now been observed in nearly all cuprate families, their detailed evolution with doping varies across different materials and at high and low temperatures. We address this problem using nonperturbative determinant quantum Monte Carlo calculations for the three-band Hubbard model. Using an efficient implementation, we can resolve the model’s fluctuating spin and charge modulations and map their evolution as a function of the charge transfer energy and doping. We find that the incommensurability of the charge modulations is decoupled from the spin modulations and decreases with hole doping, consistent with experimental measurements at high temperatures. These findings support the proposal that the high-temperature charge correlations are distinct from the intertwined stripe order observed at low-temperature and in the single-band Hubbard model.",
@@ -884,11 +997,26 @@
           "filter": "2"
         },
         {
-          "title": "Transcriptional reprogramming primes CD8+ T cells toward exhaustion in Myalgic encephalomyelitis/chronic fatigue syndrome",
-          "authors": "David S. Iu, Jessica Maya, Luyen T. Vu, Elizabeth A. Fogarty, Adrian J. McNairn, Faraz Ahmed, Carl J. Franconi, Paul R. Munn, Jennifer K. Grenier, Maureen R. Hanson, Andrew Grimson",
-          "abstract": "Myalgic encephalomyelitis/chronic fatigue syndrome (ME) is a severe, debilitating disease, with substantial evidence pointing to immune dysregulation as a key contributor to pathophysiology. To characterize the gene regulatory state underlying T cell dysregulation in ME, we performed multiomic analysis across T cell subsets by integrating single-cell RNA-seq, RNA-seq, and ATAC-seq and further analyzed CD8+ T cell subpopulations following symptom provocation. Specific subsets of CD8+ T cells, as well as certain innate T cells, displayed the most pronounced dysregulation in ME. We observed upregulation of key transcription factors associated with T cell exhaustion in CD8+ T cell effector memory subsets, as well as an altered chromatin landscape and metabolic reprogramming consistent with an exhausted immune cell state. To validate these observations, we analyzed expression of exhaustion markers using flow cytometry, detecting a higher frequency of exhaustion-associated factors. Together, these data identify T cell exhaustion as a component of ME, a finding which may provide a basis for future therapies, such as checkpoint blockade, metabolic interventions, or drugs that target chronic viral infections.",
-          "url": "https://doi.org/10.1073/pnas.2415119121",
-          "doi": "https://doi.org/10.1073/pnas.2415119121",
+          "title": "Sequence complexity and monomer rigidity control the morphologies and aging dynamics of protein aggregates",
+          "authors": "Ryota Takaki, D. Thirumalai",
+          "abstract": "Understanding the biophysical basis of protein aggregation is important in biology because of the potential link to several misfolding diseases. Although experiments have shown that protein aggregates adopt a variety of morphologies, the dynamics of their formation are less well characterized. Here, we introduce a minimal model to explore the dependence of the aggregation dynamics on the structural and sequence features of the monomers. Using simulations, we demonstrate that sequence complexity (codified in terms of word entropy) and monomer rigidity profoundly influence the dynamics and morphology of the aggregates. Flexible monomers with low sequence complexity (corresponding to repeat sequences) form liquid-like droplets that exhibit ergodic behavior. Strikingly, these aggregates abruptly transition to more ordered structures, reminiscent of amyloid fibrils, when the monomer rigidity is increased. In contrast, aggregates resulting from monomers with high sequence complexity are amorphous and display nonergodic glassy dynamics. The heterogeneous dynamics of the low and high-complexity sequences follow stretched exponential kinetics, which is one of the characteristics of glassy dynamics. Importantly, at nonzero values of the bending rigidities, the aggregates age with the relaxation times that increase with the waiting time. Informed by these findings, we provide insights into aging dynamics in protein condensates and contrast the behavior with the dynamics expected in RNA repeat sequences. Our findings underscore the influence of the monomer characteristics in shaping the morphology and dynamics of protein aggregates, thus providing a foundation for deciphering the general rules governing the behavior of protein condensates.",
+          "url": "https://doi.org/10.1073/pnas.2409973121",
+          "doi": "https://doi.org/10.1073/pnas.2409973121",
+          "filter": "2"
+        },
+        {
+          "title": "“One Health” needs ecology",
+          "authors": "John L. Gittleman",
+          "url": "https://doi.org/10.1073/pnas.2413367121",
+          "doi": "https://doi.org/10.1073/pnas.2413367121",
+          "filter": "2"
+        },
+        {
+          "title": "Navigated range expansion promotes migratory culling",
+          "authors": "Yi Zhang, Qingjuan Hu, Yingtong Su, Pan Chu, Ting Wei, Xuefei Li, Chenli Liu, Xiongfei Fu",
+          "abstract": "Motile organisms can expand into new territories and increase their fitness, while nonmotile viruses usually depend on host migration to spread across long distances. In general, faster host motility facilitates virus transmission. However, recent ecological studies have also shown that animal host migration can reduce viral prevalence by removing infected individuals from the migratory group. Here, we use a bacteria-bacteriophage copropagation system to investigate how host motility affects viral spread during range expansion. We find that phage spread during chemotaxis-driven navigated range expansion decreases as bacterial migration speed increases. Theoretical and experimental analyses show that the navigated migration leads to a spatial sorting of infected and uninfected hosts in the copropagating front of bacteria-bacteriophage, with implications for the number of cells left behind. The preferential loss of infected cells in the copropagating front inhibits viral spread. Further increase in host migration speed leads to a phase transition that eliminates the phage completely. These results illustrate that navigated range expansion of the host can promote the migratory culling of infectious diseases in the migration group.",
+          "url": "https://doi.org/10.1073/pnas.2408303121",
+          "doi": "https://doi.org/10.1073/pnas.2408303121",
           "filter": "2"
         },
         {
@@ -897,6 +1025,37 @@
           "abstract": "Plant-based proteins are promoted as nutritious, environmentally safe, and a key element for food security. Numerous studies using environmental life cycle assessments confirmed plant-based meat alternatives are more environmentally favorable than animal-derived meat. However, most missed other factors from protein extraction and concentration that contribute to environmental impact (both positive and negative). Furthermore, few studies examined the entire environmental impact because they overlooked social and nutritional life cycle assessments. Many publications assumed most environmental impact occurred in crop cultivation before high protein products are manufactured. However, industrial plant-based protein extraction, concentration, and purification require large amounts of natural resources, energy, chemicals, and highly specialized equipment seldom accurately assessed from an environmental, social, and nutritional perspective. This paper presents opinions and perspectives on additional information to consider to fully realize environmental benefits of highly proteinaceous plant-based food ingredients. Elements are also discussed we perceive as “hot spots” for future assessments in presenting a complete picture for minimizing environmental impact and how the numerous actors in this supply chain can transform our food system and secure protein availability for future generations.",
           "url": "https://doi.org/10.1073/pnas.2319003121",
           "doi": "https://doi.org/10.1073/pnas.2319003121",
+          "filter": "2"
+        },
+        {
+          "title": "A corollary discharge circuit in human speech",
+          "authors": "Amirhossein Khalilian-Gourtani, Ran Wang, Xupeng Chen, Leyao Yu, Patricia Dugan, Daniel Friedman, Werner Doyle, Orrin Devinsky, Yao Wang, Adeen Flinker",
+          "abstract": "When we vocalize, our brain distinguishes self-generated sounds from external ones. A corollary discharge signal supports this function in animals; however, in humans, its exact origin and temporal dynamics remain unknown. We report electrocorticographic recordings in neurosurgical patients and a connectivity analysis framework based on Granger causality that reveals major neural communications. We find a reproducible source for corollary discharge across multiple speech production paradigms localized to the ventral speech motor cortex before speech articulation. The uncovered discharge predicts the degree of auditory cortex suppression during speech, its well-documented consequence. These results reveal the human corollary discharge source and timing with far-reaching implication for speech motor-control as well as auditory hallucinations in human psychosis.",
+          "url": "https://doi.org/10.1073/pnas.2404121121",
+          "doi": "https://doi.org/10.1073/pnas.2404121121",
+          "filter": "2"
+        },
+        {
+          "title": "Sculpting new visual categories into the human brain",
+          "authors": "Coraline Rinn Iordan, Victoria J. H. Ritvo, Kenneth A. Norman, Nicholas B. Turk-Browne, Jonathan D. Cohen",
+          "abstract": "Learning requires changing the brain. This typically occurs through experience, study, or instruction. We report an alternate route for humans to acquire visual knowledge, through the direct sculpting of activity patterns in the human brain that mirror those expected to arise through learning. We used neurofeedback from closed-loop real-time functional MRI to create new categories of visual objects in the brain, without the participants’ explicit awareness. After neural sculpting, participants exhibited behavioral and neural biases for the learned, but not for the control categories. The ability to sculpt new perceptual distinctions into the human brain offers a noninvasive research paradigm for causal testing of the link between neural representations and behavior. As such, beyond its current application to perception, our work potentially has broad relevance for advancing understanding in other domains of cognition such as decision-making, memory, and motor control.",
+          "url": "https://doi.org/10.1073/pnas.2410445121",
+          "doi": "https://doi.org/10.1073/pnas.2410445121",
+          "filter": "2"
+        },
+        {
+          "title": "Very broad distribution of β sheet registries of the HIV gp41 fusion peptide supports mutational robustness for fusion and infection",
+          "authors": "Yijin Zhang, Scott D. Schmick, Li Xie, Ujjayini Ghosh, David P. Weliky",
+          "abstract": "HIV, like other membrane-enveloped viruses, has protein spikes that include a fusion peptide (Fp) segment that binds the host cell membrane and plays a critical role in fusion (joining) viral and cell membranes. The HIV Fp is the ~23 N-terminal residues of the gp41 spike protein. Fp adopts intermolecular antiparallel β sheet structure when lipid fraction cholesterol ≈0.3, which is comparable to host cells. Rotational-echo double-resonance NMR was applied to probe the registries (alignments) of adjacent Fp molecules in membrane-bound sheets. The data were fitted to determine quantitative populations, f(t)’s, of individual antiparallel registries indexed by t, the number of residues in the registry. Both wild-type (WT) and fusion-defective V2E Fp sheets have broad but very different registry distributions, each with at least eight populated registries with f(t) &gt; 0.02, and t WT = 16.1 and ⟨t⟩ V2E = 18.5. The broad WT distribution likely improves mutational robustness for HIV, as Fp is a neutralization epitope of the immune system, and Fp mutations are required for immune evasion during chronic HIV infection. V2E fusion is reduced because longer Fp sheets increase separation between initially apposed membranes. The f(t) WT were well-fitted to free energies that were sums of contributions from sheet length, aligned leucines, and sidechain membrane insertion. The f(t) V2E ’s were similarly well-fitted except there wasn’t the insertion contribution. Relative to V2E, WT fusion is enhanced by deeper membrane insertion of Fp with accompanying greater dislocation of neighboring lipids. This study provides a rare quantitative determination of broad molecular structural distributions by experiment.",
+          "url": "https://doi.org/10.1073/pnas.2402953121",
+          "doi": "https://doi.org/10.1073/pnas.2402953121",
+          "filter": "2"
+        },
+        {
+          "title": "Killer meiotic drive executed by two alternative conformations of a single protein",
+          "authors": "Sarah E. Zanders, Gerald R. Smith",
+          "url": "https://doi.org/10.1073/pnas.2420620121",
+          "doi": "https://doi.org/10.1073/pnas.2420620121",
           "filter": "2"
         },
         {
@@ -916,42 +1075,11 @@
           "filter": "2"
         },
         {
-          "title": "Very broad distribution of β sheet registries of the HIV gp41 fusion peptide supports mutational robustness for fusion and infection",
-          "authors": "Yijin Zhang, Scott D. Schmick, Li Xie, Ujjayini Ghosh, David P. Weliky",
-          "abstract": "HIV, like other membrane-enveloped viruses, has protein spikes that include a fusion peptide (Fp) segment that binds the host cell membrane and plays a critical role in fusion (joining) viral and cell membranes. The HIV Fp is the ~23 N-terminal residues of the gp41 spike protein. Fp adopts intermolecular antiparallel β sheet structure when lipid fraction cholesterol ≈0.3, which is comparable to host cells. Rotational-echo double-resonance NMR was applied to probe the registries (alignments) of adjacent Fp molecules in membrane-bound sheets. The data were fitted to determine quantitative populations, f(t)’s, of individual antiparallel registries indexed by t, the number of residues in the registry. Both wild-type (WT) and fusion-defective V2E Fp sheets have broad but very different registry distributions, each with at least eight populated registries with f(t) &gt; 0.02, and t WT = 16.1 and ⟨t⟩ V2E = 18.5. The broad WT distribution likely improves mutational robustness for HIV, as Fp is a neutralization epitope of the immune system, and Fp mutations are required for immune evasion during chronic HIV infection. V2E fusion is reduced because longer Fp sheets increase separation between initially apposed membranes. The f(t) WT were well-fitted to free energies that were sums of contributions from sheet length, aligned leucines, and sidechain membrane insertion. The f(t) V2E ’s were similarly well-fitted except there wasn’t the insertion contribution. Relative to V2E, WT fusion is enhanced by deeper membrane insertion of Fp with accompanying greater dislocation of neighboring lipids. This study provides a rare quantitative determination of broad molecular structural distributions by experiment.",
-          "url": "https://doi.org/10.1073/pnas.2402953121",
-          "doi": "https://doi.org/10.1073/pnas.2402953121",
-          "filter": "2"
-        },
-        {
-          "title": "Killer meiotic drive executed by two alternative conformations of a single protein",
-          "authors": "Sarah E. Zanders, Gerald R. Smith",
-          "url": "https://doi.org/10.1073/pnas.2420620121",
-          "doi": "https://doi.org/10.1073/pnas.2420620121",
-          "filter": "2"
-        },
-        {
-          "title": "A corollary discharge circuit in human speech",
-          "authors": "Amirhossein Khalilian-Gourtani, Ran Wang, Xupeng Chen, Leyao Yu, Patricia Dugan, Daniel Friedman, Werner Doyle, Orrin Devinsky, Yao Wang, Adeen Flinker",
-          "abstract": "When we vocalize, our brain distinguishes self-generated sounds from external ones. A corollary discharge signal supports this function in animals; however, in humans, its exact origin and temporal dynamics remain unknown. We report electrocorticographic recordings in neurosurgical patients and a connectivity analysis framework based on Granger causality that reveals major neural communications. We find a reproducible source for corollary discharge across multiple speech production paradigms localized to the ventral speech motor cortex before speech articulation. The uncovered discharge predicts the degree of auditory cortex suppression during speech, its well-documented consequence. These results reveal the human corollary discharge source and timing with far-reaching implication for speech motor-control as well as auditory hallucinations in human psychosis.",
-          "url": "https://doi.org/10.1073/pnas.2404121121",
-          "doi": "https://doi.org/10.1073/pnas.2404121121",
-          "filter": "2"
-        },
-        {
-          "title": "Navigated range expansion promotes migratory culling",
-          "authors": "Yi Zhang, Qingjuan Hu, Yingtong Su, Pan Chu, Ting Wei, Xuefei Li, Chenli Liu, Xiongfei Fu",
-          "abstract": "Motile organisms can expand into new territories and increase their fitness, while nonmotile viruses usually depend on host migration to spread across long distances. In general, faster host motility facilitates virus transmission. However, recent ecological studies have also shown that animal host migration can reduce viral prevalence by removing infected individuals from the migratory group. Here, we use a bacteria-bacteriophage copropagation system to investigate how host motility affects viral spread during range expansion. We find that phage spread during chemotaxis-driven navigated range expansion decreases as bacterial migration speed increases. Theoretical and experimental analyses show that the navigated migration leads to a spatial sorting of infected and uninfected hosts in the copropagating front of bacteria-bacteriophage, with implications for the number of cells left behind. The preferential loss of infected cells in the copropagating front inhibits viral spread. Further increase in host migration speed leads to a phase transition that eliminates the phage completely. These results illustrate that navigated range expansion of the host can promote the migratory culling of infectious diseases in the migration group.",
-          "url": "https://doi.org/10.1073/pnas.2408303121",
-          "doi": "https://doi.org/10.1073/pnas.2408303121",
-          "filter": "2"
-        },
-        {
-          "title": "Sculpting new visual categories into the human brain",
-          "authors": "Coraline Rinn Iordan, Victoria J. H. Ritvo, Kenneth A. Norman, Nicholas B. Turk-Browne, Jonathan D. Cohen",
-          "abstract": "Learning requires changing the brain. This typically occurs through experience, study, or instruction. We report an alternate route for humans to acquire visual knowledge, through the direct sculpting of activity patterns in the human brain that mirror those expected to arise through learning. We used neurofeedback from closed-loop real-time functional MRI to create new categories of visual objects in the brain, without the participants’ explicit awareness. After neural sculpting, participants exhibited behavioral and neural biases for the learned, but not for the control categories. The ability to sculpt new perceptual distinctions into the human brain offers a noninvasive research paradigm for causal testing of the link between neural representations and behavior. As such, beyond its current application to perception, our work potentially has broad relevance for advancing understanding in other domains of cognition such as decision-making, memory, and motor control.",
-          "url": "https://doi.org/10.1073/pnas.2410445121",
-          "doi": "https://doi.org/10.1073/pnas.2410445121",
+          "title": "Transcriptional reprogramming primes CD8+ T cells toward exhaustion in Myalgic encephalomyelitis/chronic fatigue syndrome",
+          "authors": "David S. Iu, Jessica Maya, Luyen T. Vu, Elizabeth A. Fogarty, Adrian J. McNairn, Faraz Ahmed, Carl J. Franconi, Paul R. Munn, Jennifer K. Grenier, Maureen R. Hanson, Andrew Grimson",
+          "abstract": "Myalgic encephalomyelitis/chronic fatigue syndrome (ME) is a severe, debilitating disease, with substantial evidence pointing to immune dysregulation as a key contributor to pathophysiology. To characterize the gene regulatory state underlying T cell dysregulation in ME, we performed multiomic analysis across T cell subsets by integrating single-cell RNA-seq, RNA-seq, and ATAC-seq and further analyzed CD8+ T cell subpopulations following symptom provocation. Specific subsets of CD8+ T cells, as well as certain innate T cells, displayed the most pronounced dysregulation in ME. We observed upregulation of key transcription factors associated with T cell exhaustion in CD8+ T cell effector memory subsets, as well as an altered chromatin landscape and metabolic reprogramming consistent with an exhausted immune cell state. To validate these observations, we analyzed expression of exhaustion markers using flow cytometry, detecting a higher frequency of exhaustion-associated factors. Together, these data identify T cell exhaustion as a component of ME, a finding which may provide a basis for future therapies, such as checkpoint blockade, metabolic interventions, or drugs that target chronic viral infections.",
+          "url": "https://doi.org/10.1073/pnas.2415119121",
+          "doi": "https://doi.org/10.1073/pnas.2415119121",
           "filter": "2"
         },
         {
@@ -960,6 +1088,14 @@
           "abstract": "Lithium-rich layered oxides (LLOs) hold the promise for high-energy battery cathodes. However, its application has been hindered by voltage decay associated with irreversible reactions at high voltages despite decades of intensive efforts. Here, we first theoretically studied the molecular orbitals of Mn-based Li-rich configurations. We found that the π -bond ring formed within the LiMn 6 structure could participate in stable redox reactions as one unit, but Co could disrupt its symmetry. We thus designed and synthesized Co-free concentration-gradient LLOs (CF-CG-LLOs) materials. The combination of concentration gradient and Co removal leads to exceptional capacity retention without any fading over 100 cycles of the pouch cell. More importantly, it exhibits an extraordinarily low voltage decay of 0.15 mV/cycle, accompanied by a high Coulombic efficiency of 99.86%. This concept and demonstration of CF-CG-LLO cathodes reveal a viable avenue toward low-cost, high-energy-density battery cathodes.",
           "url": "https://doi.org/10.1073/pnas.2412460121",
           "doi": "https://doi.org/10.1073/pnas.2412460121",
+          "filter": "2"
+        },
+        {
+          "title": "Inertia-induced mixing and reaction maximization in laminar porous media flows",
+          "authors": "Michael A. Chen, Sang Hyun Lee, Peter K. Kang",
+          "abstract": "Solute transport and biogeochemical reactions in porous and fractured media flows are controlled by mixing, as are subsurface engineering operations such as contaminant remediation, geothermal energy production, and carbon sequestration. Porous media flows are generally regarded as slow, so the effects of fluid inertia on mixing and reaction are typically ignored. Here, we demonstrate through microfluidic experiments and numerical simulations of mixing-induced reaction that inertial recirculating flows readily emerge in laminar porous media flows and dramatically alter mixing and reaction dynamics. An optimal Reynolds number that maximizes the reaction rate is observed for individual pore throats of different sizes. This reaction maximization is attributed to the effects of recirculation flows on reactant availability, mixing, and reaction completion, which depend on the topology of recirculation relative to the boundary of the reactants or mixing interface. Recirculation enhances mixing and reactant availability, but a further increase in flow velocity reduces the residence time in recirculation, leading to a decrease in reaction rate. The reaction maximization is also confirmed in a flow channel with grain inclusions and randomized porous media. Interestingly, the domain-wide reaction rate shows a dramatic increase with increasing Re in the randomized porous media case. This is because fluid inertia induces complex three-dimensional flows in randomized porous media, which significantly increases transverse spreading and mixing. This study shows how inertial flows control reaction dynamics at the pore scale and beyond, thus having major implications for a wide range of environmental systems.",
+          "url": "https://doi.org/10.1073/pnas.2407145121",
+          "doi": "https://doi.org/10.1073/pnas.2407145121",
           "filter": "2"
         },
         {
@@ -976,14 +1112,6 @@
           "abstract": "Fibrosis drives end-organ damage in many diseases. However, clinical trials targeting individual upstream activators of fibroblasts, such as TGFβ, have largely failed. Here, we target the leukemia inhibitory factor receptor (LIFR) as an “autocrine master amplifier” of multiple upstream activators of lung fibroblasts. In idiopathic pulmonary fibrosis (IPF), the most common fibrotic lung disease, we found that lung myofibroblasts had high LIF expression, and the fibroblasts in fibroblastic foci coexpressed LIF and LIFR. In IPF, fibroblastic foci are the “leading edge” of fibrosis and a key site of disease pathogenesis. TGFβ1, one of the principal drivers of fibrosis, up-regulated LIF expression in IPF fibroblasts. We found that TGFβ1, IL-4, and IL-13 stimulations of fibroblasts require the LIF-LIFR axis to evoke a strong fibrogenic effector response in fibroblasts. In vitro antibody blockade of LIFR on IPF lung fibroblasts reduced the induction of profibrotic genes after TGFβ1 stimulation. Silencing LIF and LIFR reduced profibrotic fibroblast activation following TGFβ1, IL-4, and IL-13 stimulations. We also demonstrated that LIFR amplified profibrotic stimuli in precision-cut lung slices from IPF patients. These LIFR signals were transduced via JAK2, and STAT1 in IPF lung fibroblasts. Together, we find that LIFR drives an autocrine circuit that amplifies and sustains pathogenic activation of IPF fibroblasts. Targeting a single, downstream master amplifier on fibroblasts, like LIFR, is an alternative therapeutic strategy that simultaneously attenuates the profibrotic effects of multiple upstream stimuli.",
           "url": "https://doi.org/10.1073/pnas.2401899121",
           "doi": "https://doi.org/10.1073/pnas.2401899121",
-          "filter": "2"
-        },
-        {
-          "title": "Inertia-induced mixing and reaction maximization in laminar porous media flows",
-          "authors": "Michael A. Chen, Sang Hyun Lee, Peter K. Kang",
-          "abstract": "Solute transport and biogeochemical reactions in porous and fractured media flows are controlled by mixing, as are subsurface engineering operations such as contaminant remediation, geothermal energy production, and carbon sequestration. Porous media flows are generally regarded as slow, so the effects of fluid inertia on mixing and reaction are typically ignored. Here, we demonstrate through microfluidic experiments and numerical simulations of mixing-induced reaction that inertial recirculating flows readily emerge in laminar porous media flows and dramatically alter mixing and reaction dynamics. An optimal Reynolds number that maximizes the reaction rate is observed for individual pore throats of different sizes. This reaction maximization is attributed to the effects of recirculation flows on reactant availability, mixing, and reaction completion, which depend on the topology of recirculation relative to the boundary of the reactants or mixing interface. Recirculation enhances mixing and reactant availability, but a further increase in flow velocity reduces the residence time in recirculation, leading to a decrease in reaction rate. The reaction maximization is also confirmed in a flow channel with grain inclusions and randomized porous media. Interestingly, the domain-wide reaction rate shows a dramatic increase with increasing Re in the randomized porous media case. This is because fluid inertia induces complex three-dimensional flows in randomized porous media, which significantly increases transverse spreading and mixing. This study shows how inertial flows control reaction dynamics at the pore scale and beyond, thus having major implications for a wide range of environmental systems.",
-          "url": "https://doi.org/10.1073/pnas.2407145121",
-          "doi": "https://doi.org/10.1073/pnas.2407145121",
           "filter": "2"
         },
         {
@@ -1026,6 +1154,38 @@
           "filter": "2"
         },
         {
+          "title": "Endo-IP and lyso-IP toolkit for endolysosomal profiling of human-induced neurons",
+          "authors": "Frances V. Hundley, Miguel A. Gonzalez-Lozano, Lena M. Gottschalk, Aslan N. K. Cook, Jiuchun Zhang, Joao A. Paulo, J. Wade Harper",
+          "abstract": "Plasma membrane protein degradation and recycling are regulated by the endolysosomal system, wherein endocytic vesicles bud from the plasma membrane into the cytoplasm and mature into endosomes and then degradative lysosomes. As such, the endolysosomal system plays a critical role in determining the abundance of proteins on the cell surface and influencing cellular identity and function. Highly polarized cells, like neurons, rely on the endolysosomal system for axonal and dendritic specialization and synaptic compartmentalization. The importance of this system to neuronal function is reflected by the prevalence of risk variants in components of the system in several neurodegenerative diseases, ranging from Parkinson’s to Alzheimer’s disease. Nevertheless, our understanding of endocytic cargo and core endolysosomal machinery in neurons is limited, in part due to technical limitations. Here, we develop a toolkit for capturing EEA1-positive endosomes (termed Endo-IP) and TMEM192-positive lysosomes (termed Lyso-IP) in stem cell-derived induced neurons (iNeurons). We demonstrate its utility by revealing the endolysosomal protein landscapes for stem cells and cortical-like iNeurons, and profiling endosomes in response to potassium-mediated neuronal depolarization. Through global profiling of endocytic cargo, we identify hundreds of transmembrane proteins, including neurogenesis and synaptic proteins, as well as endocytic cargo with predicted SNX17 or SNX27 recognition motifs. By contrast, parallel lysosome profiling reveals a simpler protein repertoire, reflecting in part temporally controlled recycling or degradation for many endocytic targets. This system will facilitate mechanistic interrogation of endolysosomal components found as risk factors in neurodegenerative disease.",
+          "url": "https://doi.org/10.1073/pnas.2419079121",
+          "doi": "https://doi.org/10.1073/pnas.2419079121",
+          "filter": "2"
+        },
+        {
+          "title": "Understanding paralogous epilepsy–associated GABA A receptor variants: Clinical implications, mechanisms, and potential pitfalls",
+          "authors": "Anthony S. H. Kan, Ali S. Kusay, Nazanin A. Mohammadi, Susan X. N. Lin, Vivian W. Y. Liao, Gaetan Lesca, Sabrine Souci, Mathieu Milh, Palle Christophersen, Mary Chebib, Rikke S. Møller, Nathan L. Absalom, Anders A. Jensen, Philip K. Ahring",
+          "abstract": "Recent discoveries have revealed that genetic variants in γ-aminobutyric acid type A (GABA A ) receptor subunits can lead to both gain-of-function (GOF) and loss-of-function (LOF) receptors. GABA A receptors, however, have a pseudosymmetrical pentameric assembly, and curiously diverse functional outcomes have been reported for certain homologous variants in paralogous genes (paralogous variants). To investigate this, we assembled a cohort of 11 individuals harboring paralogous M1 proline missense variants in GABRA1 , GABRB2 , GABRB3, and GABRG2. Seven mutations (α1 P260L , α1 P260S , β2 P252L , β3 P253L , β3 P253S , γ2 P282A , and γ2 P282S ) in α1β2/3γ2 receptors were analyzed using electrophysiological examinations and molecular dynamics simulations. All individuals in the cohort were diagnosed with developmental and epileptic encephalopathy, with a median seizure onset age of 3.5 mo, and all exhibited global developmental delay. The clinical data for this cohort aligned with established GABA A receptor GOF but not LOF cohorts. Electrophysiological assessments revealed that all variants caused GOF by increasing GABA sensitivity by 3- to 23-fold. In some cases, this was accompanied by LOF traits such as reduced maximal current amplitude and enhanced receptor desensitization. The specific subunit mutated and whether the mutation occurred in one or two subunits within the pentamer influenced the overall effects. Molecular dynamics simulations confirmed similar structural changes from all mutations, but with position-dependent asymmetry. These findings establish that paralogous variants affecting the 100% conserved proline residue in the M1 transmembrane helix of GABA A R subunits all lead to overall GOF traits. The unexpected asymmetric and mixed effects on receptor function have broader implications for interpreting functional analyses for multimeric ion-channel proteins.",
+          "url": "https://doi.org/10.1073/pnas.2413011121",
+          "doi": "https://doi.org/10.1073/pnas.2413011121",
+          "filter": "2"
+        },
+        {
+          "title": "A genetically encoded anomalous SAXS ruler to probe the dimensions of intrinsically disordered proteins",
+          "authors": "Miao Yu, Andrey Yu. Gruzinov, Hao Ruan, Tom Scheidt, Aritra Chowdhury, Sabrina Giofrè, Ahmed S. A. Mohammed, Joana Caria, Paul F. Sauter, Dmitri I. Svergun, Edward A. Lemke",
+          "abstract": "Intrinsically disordered proteins (IDPs) adopt ensembles of rapidly fluctuating heterogeneous conformations, influencing their binding capabilities and supramolecular transitions. The primary conformational descriptors for understanding IDP ensembles—the radius of gyration ( R G ), measured by small-angle X-ray scattering (SAXS), and the root mean square (rms) end-to-end distance ( R E ), probed by fluorescent resonance energy transfer (FRET)—are often reported to produce inconsistent results regarding IDP expansion as a function of denaturant concentration in the buffer. This ongoing debate surrounding the FRET-SAXS discrepancy raises questions about the overall reliability of either method for quantitatively studying IDP properties. To address this discrepancy, we introduce a genetically encoded anomalous SAXS (ASAXS) ruler, enabling simultaneous and direct measurements of R G and R E without assuming a specific structural model. This ruler utilizes a genetically encoded noncanonical amino acid with two bromine atoms, providing an anomalous X-ray scattering signal for precise distance measurements. Through this approach, we experimentally demonstrate that the ratio between R E and R G varies under different denaturing conditions, highlighting the intrinsic properties of IDPs as the primary source of the observed SAXS-FRET discrepancy rather than shortcomings in either of the two established methods. The developed genetically encoded ASAXS ruler emerges as a versatile tool for both IDPs and folded proteins, providing a unified approach for obtaining complementary and site-specific conformational information in scattering experiments, thereby contributing to a deeper understanding of protein functions.",
+          "url": "https://doi.org/10.1073/pnas.2415220121",
+          "doi": "https://doi.org/10.1073/pnas.2415220121",
+          "filter": "2"
+        },
+        {
+          "title": "Dynamical theory of complex systems with two-way micro–macro causation",
+          "authors": "John Harte, Micah Brush, Kaito Umemura, Pranav Muralikrishnan, Erica A. Newman",
+          "abstract": "In many complex systems encountered in the natural and social sciences, mechanisms governing system dynamics at a microscale depend upon the values of state variables characterizing the system at coarse-grained, macroscale (Goldenfeld and Woese, 2011, Noble et al., 2019, and Chater and Loewenstein, 2023). State variables, in turn, are averages over relevant probability distributions of the microscale variables. Neither inferential Top–Down nor mechanistic Bottom–Up modeling alone can predict responses of such scale-entwined systems to perturbations. We describe and explore the properties of a dynamic theory that combines Top–Down information-theoretic inference with Bottom–Up , state-variable-dependent mechanisms. The theory predicts the functional form of nonstationary probability distributions over microvariables and relates the trajectories of time-evolving macrovariables to the form of those distributions. Analytic expressions for the time evolution of Lagrange multipliers from Maxent solutions allow for rapid calculation of the time trajectories of state variables even in high dimensional systems. Examples of possible applications to scale-entwined systems in nonequilibrium chemical thermodynamics, epidemiology, economics, and ecology exemplify the potential multidisciplinary scope of the theory. A worked-out low-dimension example illustrates the structure of the theory and demonstrates how scale entwinement can result in slowed recovery from perturbations, reddened time series spectra in response to white-noise input, and hysteresis upon parameter displacement and subsequent restoration.",
+          "url": "https://doi.org/10.1073/pnas.2408676121",
+          "doi": "https://doi.org/10.1073/pnas.2408676121",
+          "filter": "2"
+        },
+        {
           "title": "Actin polymerization counteracts prewetting of N-WASP on supported lipid bilayers",
           "authors": "Tina Wiegand, Jinghui Liu, Lutz Vogeley, Isabel LuValle-Burke, Jan Geisler, Anatol W. Fritsch, Anthony A. Hyman, Stephan W. Grill",
           "abstract": "Cortical condensates, transient punctate-like structures rich in actin and the actin nucleation pathway member Neural Wiskott-Aldrich syndrome protein (N-WASP), form during activation of the actin cortex in the Caenorhabditis elegans oocyte. Their emergence and spontaneous dissolution is linked to a phase separation process driven by chemical kinetics. However, the mechanisms that drive the onset of cortical condensate formation near membranes remain unexplored. Here, using a reconstituted phase separation assay of cortical condensate proteins, we demonstrate that the key component, N-WASP, can collectively undergo surface condensation on supported lipid bilayers via a prewetting transition. Actin partitions into the condensates, where it polymerizes and counteracts the N-WASP prewetting transition. Taken together, the dynamics of condensate-assisted cortex formation appear to be controlled by a balance between surface-assisted condensate formation and polymer-driven condensate dissolution. This opens perspectives for understanding how the formation of complex intracellular structures is affected and controlled by phase separation.",
@@ -1039,14 +1199,6 @@
           "abstract": "The p38 MAP kinase (MAPK) signaling pathway plays pivotal roles in various cellular processes. Phosphorylation serves as a canonical way to regulate p38α activation through a phosphorylation cascade. Thus, understanding the mechanism governing p38α phosphorylation is important. The present study demonstrated that p38α undergoes methylation at K165, which promote its phosphorylation in tumor cells. Inhibition of p38α methylation impairs p38α phosphorylation, repressing tumor progression in vitro and in vivo. Mechanistically, KDM5D is a demethylase that interacts with p38α, mediating demethylation at K165 and inhibiting p38α phosphorylation. Moreover, KDM5D is expressed at low levels in non–small cell lung cancer (NSCLC), and high KDM5D expression is positively correlated with cancer survival. KDM5D markedly inhibits cell proliferation and migration via inactivating p38α, thereby slowing cancer progression in xenograft models. In summary, these findings highlight KDM5D as a demethylase of p38α at K165, elucidating a unique role for lysine demethylation in integrating cytoplasmic kinase-signaling cascades. The present results revealed the critical role of KDM5D in suppressing tumor progression, suggesting that KDM5D can serve as a potential drug target for combating hyperactive p38α-driven lung cancer.",
           "url": "https://doi.org/10.1073/pnas.2402022121",
           "doi": "https://doi.org/10.1073/pnas.2402022121",
-          "filter": "2"
-        },
-        {
-          "title": "Endo-IP and lyso-IP toolkit for endolysosomal profiling of human-induced neurons",
-          "authors": "Frances V. Hundley, Miguel A. Gonzalez-Lozano, Lena M. Gottschalk, Aslan N. K. Cook, Jiuchun Zhang, Joao A. Paulo, J. Wade Harper",
-          "abstract": "Plasma membrane protein degradation and recycling are regulated by the endolysosomal system, wherein endocytic vesicles bud from the plasma membrane into the cytoplasm and mature into endosomes and then degradative lysosomes. As such, the endolysosomal system plays a critical role in determining the abundance of proteins on the cell surface and influencing cellular identity and function. Highly polarized cells, like neurons, rely on the endolysosomal system for axonal and dendritic specialization and synaptic compartmentalization. The importance of this system to neuronal function is reflected by the prevalence of risk variants in components of the system in several neurodegenerative diseases, ranging from Parkinson’s to Alzheimer’s disease. Nevertheless, our understanding of endocytic cargo and core endolysosomal machinery in neurons is limited, in part due to technical limitations. Here, we develop a toolkit for capturing EEA1-positive endosomes (termed Endo-IP) and TMEM192-positive lysosomes (termed Lyso-IP) in stem cell-derived induced neurons (iNeurons). We demonstrate its utility by revealing the endolysosomal protein landscapes for stem cells and cortical-like iNeurons, and profiling endosomes in response to potassium-mediated neuronal depolarization. Through global profiling of endocytic cargo, we identify hundreds of transmembrane proteins, including neurogenesis and synaptic proteins, as well as endocytic cargo with predicted SNX17 or SNX27 recognition motifs. By contrast, parallel lysosome profiling reveals a simpler protein repertoire, reflecting in part temporally controlled recycling or degradation for many endocytic targets. This system will facilitate mechanistic interrogation of endolysosomal components found as risk factors in neurodegenerative disease.",
-          "url": "https://doi.org/10.1073/pnas.2419079121",
-          "doi": "https://doi.org/10.1073/pnas.2419079121",
           "filter": "2"
         },
         {
@@ -1112,6 +1264,30 @@
           "url": "https://doi.org/10.1073/pnas.2417390121",
           "doi": "https://doi.org/10.1073/pnas.2417390121",
           "filter": "2"
+        },
+        {
+          "title": "Structural basis of the allosteric regulation of cyanobacterial glucose-6-phosphate dehydrogenase by the redox sensor OpcA",
+          "authors": "Sofia Doello, Dmitry Shvarev, Marius Theune, Jakob Sauerwein, Alexander Klon, Erva Keskin, Marko Boehm, Kirstin Gutekunst, Karl Forchhammer",
+          "abstract": "The oxidative pentose phosphate (OPP) pathway is a fundamental carbon catabolic route for generating reducing power and metabolic intermediates for biosynthetic processes. In addition, its first two reactions form the OPP shunt, which replenishes the Calvin-Benson cycle under certain conditions. Glucose-6-phosphate dehydrogenase (G6PDH) catalyzes the first and rate-limiting reaction of this metabolic route. In photosynthetic organisms, G6PDH is redox-regulated to allow fine-tuning and to prevent futile cycles while carbon is being fixed. In cyanobacteria, regulation of G6PDH requires the redox protein OpcA, but the underlying molecular mechanisms behind this allosteric activation remain elusive. Here, we used enzymatic assays and in vivo interaction analyses to show that OpcA binds G6PDH under different environmental conditions. However, complex formation enhances G6PDH activity when OpcA is oxidized and inhibits it when OpcA is reduced. To understand the molecular basis of this regulation, we used cryogenic electron microscopy to determine the structure of Synechocystis G6PDH and the G6PDH–OpcA complex. OpcA binds the G6PDH tetramer and induces conformational changes in the active site of G6PDH. The redox sensitivity of OpcA is achieved by intramolecular disulfide bridge formation, which influences the allosteric regulation of G6PDH. In vitro assays reveal that the level of G6PDH activation depends on the number of bound OpcA molecules, which implies that this mechanism allows delicate fine-tuning. Our findings unveil a unique molecular mechanism governing the regulation of the OPP in Synechocystis .",
+          "url": "https://doi.org/10.1073/pnas.2411604121",
+          "doi": "https://doi.org/10.1073/pnas.2411604121",
+          "filter": "2"
+        },
+        {
+          "title": "Distinguishing deception from its confounds by improving the validity of fMRI-based neural prediction",
+          "authors": "Sangil Lee, Runxuan Niu, Lusha Zhu, Andrew S. Kayser, Ming Hsu",
+          "abstract": "Deception is a universal human behavior. Yet longstanding skepticism about the validity of measures used to characterize the biological mechanisms underlying deceptive behavior has relegated such studies to the scientific periphery. Here, we address these fundamental questions by applying machine learning methods and functional magnetic resonance imaging (fMRI) to signaling games capturing motivated deception in human participants. First, we develop an approach to test for the presence of confounding processes and validate past skepticism by showing that much of the predictive power of neural predictors trained on deception data comes from processes other than deception. Specifically, we demonstrate that discriminant validity is compromised by the predictor’s ability to predict behavior in a control task that does not involve deception. Second, we show that the presence of confounding signals need not be fatal and that the validity of the neural predictor can be improved by removing confounding signals while retaining those associated with the task of interest. To this end, we develop a “dual-goal tuning” approach in which, beyond the typical goal of predicting the behavior of interest, the predictor also incorporates a second compulsory goal that enforces chance performance in the control task. Together, these findings provide a firmer scientific foundation for understanding the neural basis of a neglected class of behavior, and they suggest an approach for improving validity of neural predictors.",
+          "url": "https://doi.org/10.1073/pnas.2412881121",
+          "doi": "https://doi.org/10.1073/pnas.2412881121",
+          "filter": "2"
+        },
+        {
+          "title": "Ecosystem stability relies on diversity difference between trophic levels",
+          "authors": "Yizhou Liu, Jiliang Hu, Jeff Gore",
+          "abstract": "The stability of ecological communities has a profound impact on humans, ranging from individual health influenced by the microbiome to ecosystem services provided by fisheries. A long-standing goal of ecology is the elucidation of the interplay between biodiversity and ecosystem stability, with some ecologists warning of instability due to loss of species diversity while others arguing that greater diversity will instead lead to instability. Here, by considering a minimal two-level ecosystem with multiple predator and prey species, we show that stability does not depend on absolute diversity but rather on diversity differences between levels. We found that increasing diversity in either level first destabilizes but then stabilizes the community (i.e., a reentrant stability transition). We therefore find that it is the diversity difference between levels that is the key to stability, with the least stable communities having similar diversities in different levels. An analytical stability criterion is derived, demonstrating quantitatively that the critical diversity difference is determined by the correlation between how one level affects another and how it is affected in turn. Our stability criterion also applies to consumer–resource models with other forms of interaction such as cross-feeding. Finally, we show that stability depends on diversity differences in ecosystems with three trophic levels. Our finding of a nonmonotonic dependence of stability on diversity provides a natural explanation for the variety of diversity-stability relationships reported in the literature, and emphasizes the significance of level structure in predicting complex community behaviors.",
+          "url": "https://doi.org/10.1073/pnas.2416740121",
+          "doi": "https://doi.org/10.1073/pnas.2416740121",
+          "filter": "2"
         }
       ]
     },
@@ -1161,14 +1337,6 @@
           "filter": "2"
         },
         {
-          "title": "Target-conditioned diffusion generates potent TNFR superfamily antagonists and agonists",
-          "authors": "Matthias Glögl, Aditya Krishnakumar, Robert J. Ragotte, Inna Goreshnik, Brian Coventry, Asim K. Bera, Alex Kang, Emily Joyce, Green Ahn, Buwei Huang, Wei Yang, Wei Chen, Mariana Garcia Sanchez, Brian Koepnick, David Baker",
-          "abstract": "Despite progress in designing protein-binding proteins, the shape matching of designs to targets is lower than in many native protein complexes, and design efforts have failed for the tumor necrosis factor receptor 1 (TNFR1) and other protein targets with relatively flat and polar surfaces. We hypothesized that free diffusion from random noise could generate shape-matched binders for challenging targets and tested this approach on TNFR1. We obtain designs with low picomolar affinity whose specificity can be completely switched to other family members using partial diffusion. Designs function as antagonists or as superagonists when presented at higher valency for OX40 and 4-1BB. The ability to design high-affinity and high-specificity antagonists and agonists for pharmacologically important targets in silico presages a coming era in protein design in which binders are made by computation rather than immunization or random screening approaches.",
-          "url": "https://doi.org/10.1126/science.adp1779",
-          "doi": "https://doi.org/10.1126/science.adp1779",
-          "filter": "2"
-        },
-        {
           "title": "The complete telomere-to-telomere sequence of a mouse genome",
           "authors": "Junli Liu, Qilin Li, Yixuan Hu, Yi Yu, Kai Zheng, Dengfeng Li, Lexin Qin, Xiaochun Yu",
           "abstract": "The current reference genome of Mus musculus , GRCm39, has major gaps in both euchromatic and heterochromatic regions associated with repetitive sequences. In this work, we have sequenced and assembled the telomere-to-telomere genome of mouse haploid embryonic stem cells. The results reveal more than 7.7% of previously uncovered sequences of the mouse genome, including ribosomal DNA arrays and pericentromeric and subtelomeric regions, as well as an additional 140 genes predicted to be protein-coding. This study helps to address knowledge gaps in the mouse genome.",
@@ -1177,11 +1345,19 @@
           "filter": "2"
         },
         {
-          "title": "Imperfect wound healing sets the stage for chronic diseases",
-          "authors": "Paul Martin, Carlos Pardo-Pastor, R. Gisli Jenkins, Jody Rosenblatt",
-          "abstract": "Although the age of the genome gave us much insight about how our organs fail with disease, it also suggested that diseases do not arise from mutations alone; rather, they develop as we age. In this Review, we examine how wound healing might act to ignite disease. Wound healing works well when we are younger, repairing damage from accidents, environmental assaults, and battles with pathogens. Yet, with age and accumulation of mutations and tissue damage, the repair process can devolve, leading to inflammation, fibrosis, and neoplastic signaling. We discuss healthy wound responses and how our bodies might misappropriate these pathways in disease. Although we focus predominantly on epithelial-based (lung and skin) diseases, similar pathways might operate in cardiac, muscle, and neuronal diseases.",
-          "url": "https://doi.org/10.1126/science.adp2974",
-          "doi": "https://doi.org/10.1126/science.adp2974",
+          "title": "Target-conditioned diffusion generates potent TNFR superfamily antagonists and agonists",
+          "authors": "Matthias Glögl, Aditya Krishnakumar, Robert J. Ragotte, Inna Goreshnik, Brian Coventry, Asim K. Bera, Alex Kang, Emily Joyce, Green Ahn, Buwei Huang, Wei Yang, Wei Chen, Mariana Garcia Sanchez, Brian Koepnick, David Baker",
+          "abstract": "Despite progress in designing protein-binding proteins, the shape matching of designs to targets is lower than in many native protein complexes, and design efforts have failed for the tumor necrosis factor receptor 1 (TNFR1) and other protein targets with relatively flat and polar surfaces. We hypothesized that free diffusion from random noise could generate shape-matched binders for challenging targets and tested this approach on TNFR1. We obtain designs with low picomolar affinity whose specificity can be completely switched to other family members using partial diffusion. Designs function as antagonists or as superagonists when presented at higher valency for OX40 and 4-1BB. The ability to design high-affinity and high-specificity antagonists and agonists for pharmacologically important targets in silico presages a coming era in protein design in which binders are made by computation rather than immunization or random screening approaches.",
+          "url": "https://doi.org/10.1126/science.adp1779",
+          "doi": "https://doi.org/10.1126/science.adp1779",
+          "filter": "2"
+        },
+        {
+          "title": "Molecular basis of FIGNL1 in dissociating RAD51 from DNA and chromatin",
+          "authors": "Alexander Carver, Tai-Yuan Yu, Luke A. Yates, Travis White, Raymond Wang, Katie Lister, Maria Jasin, Xiaodong Zhang",
+          "abstract": "Maintaining genome integrity is an essential and challenging process. RAD51 recombinase, the central player of several crucial processes in repairing DNA and protecting genome integrity, forms filaments on DNA, which are tightly regulated. One of these RAD51 regulators is FIGNL1, that prevents persistent RAD51 foci without or after DNA damage and genotoxic chromatin association in cells. The cryogenic electron microscopy structure of FIGNL1 in complex with RAD51 reveals that FIGNL1 forms a non-planar hexamer and RAD51 N terminus enclosure in the FIGNL1 hexamer pore. Mutations in pore loop or catalytic residues of FIGNL1 render it defective in filament disassembly and are lethal in mouse embryonic stem cells. Our study reveals a unique mechanism for removing RAD51 from bound substrates and provides the molecular basis for FIGNL1 in maintaining genome stability.",
+          "url": "https://doi.org/10.1126/science.adr7920",
+          "doi": "https://doi.org/10.1126/science.adr7920",
           "filter": "2"
         },
         {
@@ -1193,11 +1369,11 @@
           "filter": "2"
         },
         {
-          "title": "Molecular basis of FIGNL1 in dissociating RAD51 from DNA and chromatin",
-          "authors": "Alexander Carver, Tai-Yuan Yu, Luke A. Yates, Travis White, Raymond Wang, Katie Lister, Maria Jasin, Xiaodong Zhang",
-          "abstract": "Maintaining genome integrity is an essential and challenging process. RAD51 recombinase, the central player of several crucial processes in repairing DNA and protecting genome integrity, forms filaments on DNA, which are tightly regulated. One of these RAD51 regulators is FIGNL1, that prevents persistent RAD51 foci without or after DNA damage and genotoxic chromatin association in cells. The cryogenic electron microscopy structure of FIGNL1 in complex with RAD51 reveals that FIGNL1 forms a non-planar hexamer and RAD51 N terminus enclosure in the FIGNL1 hexamer pore. Mutations in pore loop or catalytic residues of FIGNL1 render it defective in filament disassembly and are lethal in mouse embryonic stem cells. Our study reveals a unique mechanism for removing RAD51 from bound substrates and provides the molecular basis for FIGNL1 in maintaining genome stability.",
-          "url": "https://doi.org/10.1126/science.adr7920",
-          "doi": "https://doi.org/10.1126/science.adr7920",
+          "title": "Imperfect wound healing sets the stage for chronic diseases",
+          "authors": "Paul Martin, Carlos Pardo-Pastor, R. Gisli Jenkins, Jody Rosenblatt",
+          "abstract": "Although the age of the genome gave us much insight about how our organs fail with disease, it also suggested that diseases do not arise from mutations alone; rather, they develop as we age. In this Review, we examine how wound healing might act to ignite disease. Wound healing works well when we are younger, repairing damage from accidents, environmental assaults, and battles with pathogens. Yet, with age and accumulation of mutations and tissue damage, the repair process can devolve, leading to inflammation, fibrosis, and neoplastic signaling. We discuss healthy wound responses and how our bodies might misappropriate these pathways in disease. Although we focus predominantly on epithelial-based (lung and skin) diseases, similar pathways might operate in cardiac, muscle, and neuronal diseases.",
+          "url": "https://doi.org/10.1126/science.adp2974",
+          "doi": "https://doi.org/10.1126/science.adp2974",
           "filter": "2"
         },
         {
@@ -1289,6 +1465,21 @@
           "filter": "3"
         },
         {
+          "title": "In Science Journals",
+          "authors": "Corinne Simonti, Caroline Ash, Brent Grocholski, Marc S. Lavine, Bianca Lopez, Michael A. Funk, Sacha Vignieri, Wei Wong, Stella M. Hurtley, L. Bryan Ray, Yury Suleymanov, Mattia Maroso, Claire Olingy, Mark S. Aldenderfer, Catherine Charneski",
+          "abstract": "Highlights from the Science family of journals",
+          "url": "https://doi.org/10.1126/science.adv0402",
+          "doi": "https://doi.org/10.1126/science.adv0402",
+          "filter": "3"
+        },
+        {
+          "title": "EU needs groundwater ecosystems guidelines",
+          "authors": "Tiziana Di Lorenzo, Enrico Lunghi, Cristina Aanei, Florian Altermatt, Roman Alther, Isabel R. Amorim, Raluca I. Băncilă, Adrià Bellvert, Anna Blomberg, Paulo A. V. Borges, Traian Brad, Anton Brancelj, David Brankovits, Pedro Cardoso, Francesco Cerasoli, Claire A. Chauveau, Luís Crespo, Michael Csader, Teo Delić, Mattia Di Cicco, Christophe J. Douady, Louis Duchemin, Arnaud Faille, Barbara Fiasca, Cene Fišer, Jean-Francois Flot, Rosalina Gabriel, Diana M. P. Galassi, Laura Garzoli, Christian Griebler, Clemens Karwautz, Marius I. Kenesz, Lara Konecny-Dupré, Thomas Lilley, Florian Malard, Alejandro Martínez, Melissa B. Meierhofer, Giuseppe Messana, Andrés Millán, Vangelis Mizerakis, Nataša Mori, Veronica Nanni, Giuseppe Nicolosi, Pedro Oromí, Susana Pallarés, Fernando Pereira, Ana Sofia P. S. Reboleira, Mattia Saccò, Alice Salussolia, David Sánchez-Fernández, Serban M. Sarbu, Andrei S̗tefan, Fabio Stoch, Agostina Tabilio Di Camillo, Stefano Taiti, Ilaria Vaccarelli, Valeria Valanne, Maja Zagmajster, Valerija Zakšek, Carina Zittra, Stefano Mammola",
+          "url": "https://doi.org/10.1126/science.ads8140",
+          "doi": "https://doi.org/10.1126/science.ads8140",
+          "filter": "3"
+        },
+        {
           "title": "War-torn Ukraine is breeding drug-resistant bacterial strains",
           "authors": "Richard Stone",
           "abstract": "Urgent action underway to bolster treatments and prevent dangerous microbes from spilling across borders",
@@ -1304,18 +1495,18 @@
           "filter": "3"
         },
         {
-          "title": "EU needs groundwater ecosystems guidelines",
-          "authors": "Tiziana Di Lorenzo, Enrico Lunghi, Cristina Aanei, Florian Altermatt, Roman Alther, Isabel R. Amorim, Raluca I. Băncilă, Adrià Bellvert, Anna Blomberg, Paulo A. V. Borges, Traian Brad, Anton Brancelj, David Brankovits, Pedro Cardoso, Francesco Cerasoli, Claire A. Chauveau, Luís Crespo, Michael Csader, Teo Delić, Mattia Di Cicco, Christophe J. Douady, Louis Duchemin, Arnaud Faille, Barbara Fiasca, Cene Fišer, Jean-Francois Flot, Rosalina Gabriel, Diana M. P. Galassi, Laura Garzoli, Christian Griebler, Clemens Karwautz, Marius I. Kenesz, Lara Konecny-Dupré, Thomas Lilley, Florian Malard, Alejandro Martínez, Melissa B. Meierhofer, Giuseppe Messana, Andrés Millán, Vangelis Mizerakis, Nataša Mori, Veronica Nanni, Giuseppe Nicolosi, Pedro Oromí, Susana Pallarés, Fernando Pereira, Ana Sofia P. S. Reboleira, Mattia Saccò, Alice Salussolia, David Sánchez-Fernández, Serban M. Sarbu, Andrei S̗tefan, Fabio Stoch, Agostina Tabilio Di Camillo, Stefano Taiti, Ilaria Vaccarelli, Valeria Valanne, Maja Zagmajster, Valerija Zakšek, Carina Zittra, Stefano Mammola",
-          "url": "https://doi.org/10.1126/science.ads8140",
-          "doi": "https://doi.org/10.1126/science.ads8140",
+          "title": "On the origins of organisms The Origin of Life Aleksandr I. Oparin Moscovky Rabotchii, 1924.",
+          "authors": "Antonio Lazcano",
+          "abstract": "The heterotrophic theory of the origin of life turns 100",
+          "url": "https://doi.org/10.1126/science.ads5691",
+          "doi": "https://doi.org/10.1126/science.ads5691",
           "filter": "3"
         },
         {
-          "title": "In Science Journals",
-          "authors": "Corinne Simonti, Caroline Ash, Brent Grocholski, Marc S. Lavine, Bianca Lopez, Michael A. Funk, Sacha Vignieri, Wei Wong, Stella M. Hurtley, L. Bryan Ray, Yury Suleymanov, Mattia Maroso, Claire Olingy, Mark S. Aldenderfer, Catherine Charneski",
-          "abstract": "Highlights from the Science family of journals",
-          "url": "https://doi.org/10.1126/science.adv0402",
-          "doi": "https://doi.org/10.1126/science.adv0402",
+          "title": "Extending prosperity to Mexican seas",
+          "authors": "Octavio Aburto-Oropeza, Catalina López-Sagástegui, Alejandro Robles, Exequiel Ezcurra",
+          "url": "https://doi.org/10.1126/science.ads5826",
+          "doi": "https://doi.org/10.1126/science.ads5826",
           "filter": "3"
         },
         {
@@ -1340,21 +1531,6 @@
           "abstract": "A writer reexamines the 20th-century showdown between science and religion",
           "url": "https://doi.org/10.1126/science.ads4948",
           "doi": "https://doi.org/10.1126/science.ads4948",
-          "filter": "3"
-        },
-        {
-          "title": "On the origins of organisms The Origin of Life Aleksandr I. Oparin Moscovky Rabotchii, 1924.",
-          "authors": "Antonio Lazcano",
-          "abstract": "The heterotrophic theory of the origin of life turns 100",
-          "url": "https://doi.org/10.1126/science.ads5691",
-          "doi": "https://doi.org/10.1126/science.ads5691",
-          "filter": "3"
-        },
-        {
-          "title": "Extending prosperity to Mexican seas",
-          "authors": "Octavio Aburto-Oropeza, Catalina López-Sagástegui, Alejandro Robles, Exequiel Ezcurra",
-          "url": "https://doi.org/10.1126/science.ads5826",
-          "doi": "https://doi.org/10.1126/science.ads5826",
           "filter": "3"
         },
         {
@@ -1450,6 +1626,22 @@
           "filter": "0"
         },
         {
+          "title": "Antidepressant use in spatial social networks",
+          "authors": "Balázs Lengyel, Gergő Tóth, Nicholas A. Christakis, Anikó Bíró",
+          "abstract": "Social networks may help individuals maintain their mental health. Most empirical work based on small-scale surveys finds that cohesive social networks are critical for mental well-being, while diverse networks are considered less important. Here, we link data on antidepressant use of 277,344 small-town residents to a nationwide online social network. The data enable us to examine how individuals’ mental health care is related to the spatial characteristics of their social networks including their ties in the local community and connections to distant communities. We find that, besides the cohesion of social networks around home, the diversity of connections to distant places is negatively correlated with the probability of antidepressant use. Spatial diversity of social networks is also associated with decreasing dosage in subsequent years. This relationship is independent from the local access to antidepressants and is more prevalent for young individuals. Structural features of spatial social networks are prospectively associated with depression treatment.",
+          "url": "https://doi.org/10.1126/sciadv.adr0302",
+          "doi": "https://doi.org/10.1126/sciadv.adr0302",
+          "filter": "0"
+        },
+        {
+          "title": "Heat disproportionately kills young people: Evidence from wet-bulb temperature in Mexico",
+          "authors": "Andrew J. Wilson, R. Daniel Bressler, Catherine Ivanovich, Cascade Tuholske, Colin Raymond, Radley M. Horton, Adam Sobel, Patrick Kinney, Tereza Cavazos, Jeffrey G. Shrader",
+          "abstract": "Recent studies project that temperature-related mortality will be the largest source of damage from climate change, with particular concern for the elderly whom it is believed bear the largest heat-related mortality risk. We study heat and mortality in Mexico, a country that exhibits a unique combination of universal mortality microdata and among the most extreme levels of humid heat. Combining detailed measurements of wet-bulb temperature with age-specific mortality data, we find that younger people who are particularly vulnerable to heat: People under 35 years old account for 75% of recent heat-related deaths and 87% of heat-related lost life years, while those 50 and older account for 96% of cold-related deaths and 80% of cold-related lost life years. We develop high-resolution projections of humid heat and associated mortality and find that under the end-of-century SSP 3–7.0 emissions scenario, temperature-related deaths shift from older to younger people. Deaths among under-35-year-olds increase 32% while decreasing by 33% among other age groups.",
+          "url": "https://doi.org/10.1126/sciadv.adq3367",
+          "doi": "https://doi.org/10.1126/sciadv.adq3367",
+          "filter": "0"
+        },
+        {
           "title": "Dual pathways of concealed gun carrying and use from adolescence to adulthood over a 25-year era of change",
           "authors": "Charles C. Lanfear, David S. Kirk, Robert J. Sampson",
           "abstract": "Most homicides in the United States are committed using a handgun, but little research examines gun carrying over critical stages of the life course and changing contexts of violence. Notably, although most of the handgun homicides are committed by adults, most research on concealed gun carrying focuses on adolescents in single cohort studies. Using more than 25 years of longitudinal multicohort data from Chicago, 1994–2021, we show that pathways of concealed gun carrying are distinct between adolescence and adulthood. Adolescent carrying is often age-limited and responsive to direct exposure to gun violence (witnessing and victimization), while adult carrying is a persistent behavior that is less tied to direct exposure. The onset of concealed carry is also a strong predictor of later gun use (shooting or brandishing), and we find distinct patterns of gun use between individuals who first carry in adolescence versus adulthood. We discuss the implications of these dual pathways for research and policies on firearm use.",
@@ -1459,14 +1651,6 @@
         }
       ],
       "articles_hidden": [
-        {
-          "title": "Integrated design of aluminum-enriched high-entropy refractory B2 alloys with synergy of high strength and ductility",
-          "authors": "Jie Qi, Xuesong Fan, Diego Ibarra Hoyos, Michael Widom, Peter K. Liaw, Joseph Poon",
-          "abstract": "Refractory high-entropy alloys (RHEAs) are promising high-temperature structural materials. Their large compositional space poses great design challenges for phase control and high strength-ductility synergy. The present research pioneers using integrated high-throughput machine learning with Monte Carlo simulations supplemented by ab initio calculations to effectively navigate phase selection and mechanical property predictions, developing single-phase ordered B2 aluminum-enriched RHEAs (Al-RHEAs) demonstrating high strength and ductility. These Al-RHEAs achieve remarkable mechanical properties, including compressive yield strengths up to 1.7 gigapascals, fracture strains exceeding 50%, and notable high-temperature strength retention. They also demonstrate a tensile yield strength of 1.0 gigapascals with a ductility of 9%, albeit with B2 ordering. Furthermore, we identify valence electron count domains for alloy ductility and brittleness with the explanation from density functional theory and provide crucial insights into elemental influence on atomic ordering and mechanical performance. The work sets forth a strategic blueprint for high-throughput alloy design and reveals fundamental principles governing the mechanical properties of advanced structural alloys.",
-          "url": "https://doi.org/10.1126/sciadv.adq0083",
-          "doi": "https://doi.org/10.1126/sciadv.adq0083",
-          "filter": "2"
-        },
         {
           "title": "Synthesis of defect-rich La 2 O 2 CO 3 supports for enhanced CO 2 -to-methanol conversion efficiency",
           "authors": "Rui Zhang, Xiao Wang, Ke Wang, Huilin Wang, Xudong Sun, Weidong Shi, Shuyan Song, Hongjie Zhang",
@@ -1500,6 +1684,30 @@
           "filter": "2"
         },
         {
+          "title": "Integrated design of aluminum-enriched high-entropy refractory B2 alloys with synergy of high strength and ductility",
+          "authors": "Jie Qi, Xuesong Fan, Diego Ibarra Hoyos, Michael Widom, Peter K. Liaw, Joseph Poon",
+          "abstract": "Refractory high-entropy alloys (RHEAs) are promising high-temperature structural materials. Their large compositional space poses great design challenges for phase control and high strength-ductility synergy. The present research pioneers using integrated high-throughput machine learning with Monte Carlo simulations supplemented by ab initio calculations to effectively navigate phase selection and mechanical property predictions, developing single-phase ordered B2 aluminum-enriched RHEAs (Al-RHEAs) demonstrating high strength and ductility. These Al-RHEAs achieve remarkable mechanical properties, including compressive yield strengths up to 1.7 gigapascals, fracture strains exceeding 50%, and notable high-temperature strength retention. They also demonstrate a tensile yield strength of 1.0 gigapascals with a ductility of 9%, albeit with B2 ordering. Furthermore, we identify valence electron count domains for alloy ductility and brittleness with the explanation from density functional theory and provide crucial insights into elemental influence on atomic ordering and mechanical performance. The work sets forth a strategic blueprint for high-throughput alloy design and reveals fundamental principles governing the mechanical properties of advanced structural alloys.",
+          "url": "https://doi.org/10.1126/sciadv.adq0083",
+          "doi": "https://doi.org/10.1126/sciadv.adq0083",
+          "filter": "2"
+        },
+        {
+          "title": "Structural and molecular properties of mumps virus inclusion bodies",
+          "authors": "Hiroshi Katoh, Ryuichi Kimura, Tsuyoshi Sekizuka, Kohei Matsuoka, Mika Hosogi, Yuki Kitai, Yukiko Akahori, Fumihiro Kato, Michiyo Kataoka, Hirotaka Kobayashi, Noriyo Nagata, Tadaki Suzuki, Yasuyuki Ohkawa, Shinya Oki, Makoto Takeda",
+          "abstract": "Viral RNA synthesis of mononegaviruses occurs in cytoplasmic membraneless organelles called inclusion bodies (IBs). Here, we report that IBs of mumps virus (MuV), which is the causative agent of mumps and belongs to the family Paramyxoviridae , displayed liquid organelle properties formed by liquid-liquid phase separation. Super-resolution microscopic analysis of MuV IBs demonstrated that nucleocapsid and phospho (P)-proteins formed a cage-like structure and that the viral polymerase adopted a reticular pattern and colocalized with viral RNAs. In addition, we characterized host RNAs localized in MuV IBs by a spatial transcriptome analysis, and found that RNAs containing G-quadruplex motif sequences (G4-RNAs) were concentrated. An in vitro phase separation assay showed that the G4-RNAs interacted with the P protein and enhanced condensation in P droplets. Together, our data show that MuV generates IBs with a characteristic cage-like structure and host G4-RNAs play an important role in forming MuV IBs.",
+          "url": "https://doi.org/10.1126/sciadv.adr0359",
+          "doi": "https://doi.org/10.1126/sciadv.adr0359",
+          "filter": "2"
+        },
+        {
+          "title": "Charting the transcriptomic landscape of primary and metastatic cancers in relation to their origin and target normal tissues",
+          "authors": "Neel Sanghvi, Camilo Calvo-Alcañiz, Padma S. Rajagopal, Stefano Scalera, Valeria Canu, Sanju Sinha, Fiorella Schischlik, Kun Wang, Sanna Madan, Eldad Shulman, Antonios Papanicolau-Sengos, Giovanni Blandino, Eytan Ruppin, Nishanth Ulhas Nair",
+          "abstract": "Metastasis is a leading cause of cancer-related deaths, yet understanding how metastatic tumors adapt from their origin to their target tissues remains a fundamental challenge. To address this, we assessed whether primary and metastatic tumors more closely resemble their tissues of origin or target tissues in terms of gene expression. We analyzed expression profiles from multiple cancer types and normal tissues, including single-cell and bulk RNA sequencing data from both paired and unpaired patient cohorts. Primary tumors were overall more transcriptomically similar to their tissues of origin, while metastases shifted toward their target tissues. However, pathway-level analysis highlighted critical metabolic and immune transcriptomic changes toward target tissues during metastasis in both primary and metastatic tumors. In addition, primary tumors exhibited higher activity in cancer hallmarks such as “Activating Invasion and Metastasis” when compared to metastases. This comprehensive analysis provides a transcriptome-wide view of the processes through which cancer tumors adapt to their metastatic environments before and after metastasis.",
+          "url": "https://doi.org/10.1126/sciadv.adn0220",
+          "doi": "https://doi.org/10.1126/sciadv.adn0220",
+          "filter": "2"
+        },
+        {
           "title": "Nonheme iron catalyst mimics heme-dependent haloperoxidase for efficient bromination and oxidation",
           "authors": "Guodong Zhao, Huiling Dong, Kang Xue, Shaoyan Lou, Rui Qi, Xiaohui Zhang, Zhuo Cao, Qi Qin, Bingqing Yi, Haimin Lei, Rongbiao Tong",
           "abstract": "The [Fe]/H 2 O 2 oxidation system has found wide applications in chemistry and biology. Halogenation with this [Fe]/H 2 O 2 oxidation protocol and halide (X − ) in the biological system is well established with the identification of heme-iron–dependent haloperoxidases. However, mimicking such halogenation process is rarely explored for practical use in organic synthesis. Here, we report the development of a nonheme iron catalyst that mimics the heme-iron–dependent haloperoxidases to catalyze the generation of HOBr from H 2 O 2 /Br − with high efficiency. We discovered that a tridentate terpyridine (TPY) ligand designed for Fenton chemistry was optimal for FeBr 3 to form a stable nonheme iron catalyst [Fe(TPY)Br 3 ], which catalyzed arene bromination, Hunsdiecker-type decarboxylative bromination, bromolactonization, and oxidation of sulfides and thiols. Mechanistic studies revealed that Fenton chemistry ([Fe]/H 2 O 2 ) might operate to generate hydroxyl radical (HO • ), which oxidize bromide ion [Br − ] into reactive HOBr. This nonheme iron catalyst represents a biomimetic model for heme-iron–dependent haloperoxidases with potential applications in organic synthesis, drug discovery, and biology.",
@@ -1529,6 +1737,30 @@
           "abstract": "Landscapes are shaped by tectonic, climatic, and surface processes over geological timescales, but we rarely witness the events of marked landscape change. The moment magnitude 7.5 Noto Peninsula earthquake in central Japan was caused by a large thrust faulting, up to nearly 10 meters of slip, that expanded more than 150 kilometers along the fault zone. The deformation field reconstructed from satellite data and field surveys reveals up to 4.4 meters of uplift and associated coastal advance along the entire northern coast of the peninsula, meter-scale systematic movement of the mountain slopes consistent with slip on flexural faults, and activation of secondary inland faults, suggesting synchronized ruptures. The findings show excellent consistency between the coseismic deformation and geomorphic features and provide a vivid example of the role of a major earthquake in landscape formation.",
           "url": "https://doi.org/10.1126/sciadv.adp9193",
           "doi": "https://doi.org/10.1126/sciadv.adp9193",
+          "filter": "2"
+        },
+        {
+          "title": "Epitope-focused immunogens targeting the hepatitis C virus glycoproteins induce broadly neutralizing antibodies",
+          "authors": "Kumar Nagarathinam, Andreas Scheck, Maurice Labuhn, Luisa J. Ströh, Elisabeth Herold, Barbora Veselkova, Sarah Tune, Johannes T. Cramer, Stéphane Rosset, Sabrina S. Vollers, Dorothea Bankwitz, Matthias Ballmaier, Heike Böning, Edith Roth, Tanvi Khera, Henrike P. Ahsendorf-Abidi, Oliver Dittrich-Breiholz, Jonas Obleser, Michael Nassal, Hans-Martin Jäck, Thomas Pietschmann, Bruno E. Correia, Thomas Krey",
+          "abstract": "Hepatitis C virus (HCV) infection causes ~290,000 annual human deaths despite the highly effective antiviral treatment available. Several viral immune evasion mechanisms have hampered the development of an effective vaccine against HCV, among them the remarkable conformational flexibility within neutralization epitopes in the HCV antigens. Here, we report the design of epitope-focused immunogens displaying two distinct HCV cross-neutralization epitopes. We show that these immunogens induce a pronounced, broadly neutralizing antibody response in laboratory and transgenic human antibody mice. Monoclonal human antibodies isolated from immunized human antibody mice specifically recognized the grafted epitopes and neutralized four diverse HCV strains. Our results highlight a promising strategy for developing HCV immunogens and provide an encouraging paradigm for targeting structurally flexible epitopes to improve the induction of neutralizing antibodies.",
+          "url": "https://doi.org/10.1126/sciadv.ado2600",
+          "doi": "https://doi.org/10.1126/sciadv.ado2600",
+          "filter": "2"
+        },
+        {
+          "title": "Transcription-coupled changes in genomic region proximities during transcriptional bursting",
+          "authors": "Hiroaki Ohishi, Soya Shinkai, Hitoshi Owada, Takeru Fujii, Kazufumi Hosoda, Shuichi Onami, Takashi Yamamoto, Yasuyuki Ohkawa, Hiroshi Ochiai",
+          "abstract": "The orchestration of our genes heavily relies on coordinated communication between enhancers and promoters, yet the mechanisms behind this dynamic interplay during active transcription remain unclear. Here, we investigated enhancer-promoter (E-P) interactions in relation to transcriptional bursting in mouse embryonic stem cells using sequential DNA/RNA/immunofluorescence–fluorescence in situ hybridization analyses. Our data reveal that the active state of specific genes is characterized by specific proximities between different genomic regions and the accumulation of transcriptional regulatory factors. Mathematical simulations suggest that an increase in local viscosity could potentially contribute to stabilizing the duration of these E-P proximities. Our study provides insights into the association among E-P proximity, protein accumulation, and transcriptional dynamics, paving the way for a more nuanced understanding of gene-specific regulatory mechanisms.",
+          "url": "https://doi.org/10.1126/sciadv.adn0020",
+          "doi": "https://doi.org/10.1126/sciadv.adn0020",
+          "filter": "2"
+        },
+        {
+          "title": "Optimal repetitive readout of single solid-state spins determined by Fisher information",
+          "authors": "Zhiyuan Zhao, Shaoyi Xu, Qian Shi, Yu Chen, Xi Kong, Zhiping Yang, Mengqi Wang, Xiangyu Ye, Pei Yu, Ya Wang, Tianyu Xie, Fazhan Shi, Jiangfeng Du",
+          "abstract": "Quantum systems, including superconducting circuits, trapped ions, quantum dots, solid-state defects, etc., have achieved considerable advancements in readout fidelity. However, the widely used threshold method disregards the importance of temporal characteristics of the signal during continuous measurements, leading to information loss. Here, we applied Fisher information to quantify the potential enhancement by using the temporal information. We proposed an optimal data processing method and derived the condition for equality to the error constrained by Fisher information. Applying this method to the single-shot readout of a 13 C nuclear spin of nitrogen-vacancy center marks a 33.8 ± 1.2% error reduction compared to the threshold method, improving the fidelity to 99.649(5)%. The versatility of our method is further demonstrated through the single-shot readout of charge states. This work illustrates the advantage of using photon arrival time for improving readout fidelity without upgrading experimental hardware. The method of using Fisher information to analyze readout fidelity also holds promise for broad applicability to other systems.",
+          "url": "https://doi.org/10.1126/sciadv.adp9228",
+          "doi": "https://doi.org/10.1126/sciadv.adp9228",
           "filter": "2"
         },
         {
@@ -1588,6 +1820,30 @@
           "filter": "2"
         },
         {
+          "title": "Neuronal circuit mechanisms of competitive interaction between action-based and coincidence learning",
+          "authors": "Eyal Rozenfeld, Moshe Parnas",
+          "abstract": "How information is integrated across different forms of learning is crucial to understanding higher cognitive functions. Animals form classic or operant associations between cues and their outcomes. It is believed that a prerequisite for operant conditioning is the formation of a classical association. Thus, both memories coexist and are additive. However, the two memories can result in opposing behavioral responses, which can be disadvantageous. We show that Drosophila classical and operant olfactory conditioning rely on distinct neuronal pathways leading to different behavioral responses. Plasticity in both pathways cannot be formed simultaneously. If plasticity occurs at both pathways, interference between them occurs and learning is disrupted. Activity of the navigation center is required to prevent plasticity in the classical pathway and enable it in the operant pathway. These findings fundamentally challenge hierarchical views of operant and classical learning and show that active processes prevent coexistence of the two memories.",
+          "url": "https://doi.org/10.1126/sciadv.adq3016",
+          "doi": "https://doi.org/10.1126/sciadv.adq3016",
+          "filter": "2"
+        },
+        {
+          "title": "Experimental demonstration of the equivalence of entropic uncertainty with wave-particle duality",
+          "authors": "Daniel Spegel-Lexne, Santiago Gómez, Joakim Argillander, Marcin Pawłowski, Pedro R. Dieguez, Alvaro Alarcón, Guilherme B. Xavier",
+          "abstract": "Wave-particle duality is one of the most notable and counterintuitive features of quantum mechanics, illustrating that two incompatible observables cannot be measured simultaneously with arbitrary precision. In this work, we experimentally demonstrate the equivalence of wave-particle duality and entropic uncertainty relations using orbital angular momentum (OAM) states of light. Our experiment uses an innovative and reconfigurable platform composed of few-mode optical fibers and photonic lanterns, showcasing the versatility of this technology for quantum information processing. Our results provide fundamental insights into the complementarity principle from an informational perspective, with implications for the broader field of quantum technologies.",
+          "url": "https://doi.org/10.1126/sciadv.adr2007",
+          "doi": "https://doi.org/10.1126/sciadv.adr2007",
+          "filter": "2"
+        },
+        {
+          "title": "Atroposelective synthesis of axially chiral imidazo[1,2- a ]pyridines via asymmetric multicomponent reaction",
+          "authors": "Shibin Hong, Wei Liu, Chongyi Zhang, Xiaoyu Yang",
+          "abstract": "Imidazo[1,2- a ]pyridines are privileged heterocycles with diverse applications in medicinal chemistry; however, the catalytic asymmetric synthesis of these heterocyclic structures remains underexplored. Herein, we present an efficient and modular approach for the atroposelective synthesis of axially chiral imidazo[1,2- a ]pyridines via an asymmetric multicomponent reaction. By utilizing a chiral phosphoric acid catalyst, the Groebke-Blackburn-Bienaymé reaction involving various 6-aryl-2-aminopyridines, aldehydes, and isocyanides gave access to a wide range of imidazo[1,2- a ]pyridine atropoisomers with high to excellent yields and enantioselectivities. Extensive control experiments underscored the pivotal role of the remote hydrogen bonding donor on the substrates in achieving high stereoselectivity for these reactions. The versatile derivatizations of these atropisomeric products, especially their role as an analog of NOBINs and their facile conversion into unique 6,6-spirocyclic products, further emphasize the merits of this methodology.",
+          "url": "https://doi.org/10.1126/sciadv.adr6135",
+          "doi": "https://doi.org/10.1126/sciadv.adr6135",
+          "filter": "2"
+        },
+        {
           "title": "Temperature-responsive metamaterials made of highly sensitive thermostat metal strips",
           "authors": "Yi Zhang, Wei Zhong Jiang, Yang Pan, Xing Chi Teng, Hang Hang Xu, Han Yan, Xi Hai Ni, Jun Dong, Dong Han, Wei Qiu Chen, Jie Yang, Yi Min Xie, Yang Lu, Xin Ren",
           "abstract": "Temperature-responsive metamaterials have remarkable shape-morphing ability during thermal energy conversion. However, integrating the thermal shape programmability, wide-working temperature range, fast temperature response, and actuation into metamaterials remains challenging. Here, we introduce using thermostat metal strips to assemble metamaterials with desirable and balanced temperature-responsive properties, and we systematically investigate the thermal deformation performance. Achieving 70 to 80% of the designed strain requires only 5 seconds of heating. A thermal strain of around 30% is achieved for the assembled metamaterials, surpassing other bimetallic metamaterials by a magnitude of 100 to 200. The actuation capacity of thermostat metal strips exceeds 26 times their weight. Further, by leveraging the highly programmable thermal deformation, the tuneable bandgap range is 3847 to 40,000 hertz. These fully integrated mechanical performances in the multiphysics have great application potential, for example, as soft actuators and soft robots in intelligent structure systems, vibration isolation and noise reduction in hypersonic vehicles, and unique thermal deformation in precision instruments.",
@@ -1604,11 +1860,67 @@
           "filter": "2"
         },
         {
-          "title": "Atroposelective synthesis of axially chiral imidazo[1,2- a ]pyridines via asymmetric multicomponent reaction",
-          "authors": "Shibin Hong, Wei Liu, Chongyi Zhang, Xiaoyu Yang",
-          "abstract": "Imidazo[1,2- a ]pyridines are privileged heterocycles with diverse applications in medicinal chemistry; however, the catalytic asymmetric synthesis of these heterocyclic structures remains underexplored. Herein, we present an efficient and modular approach for the atroposelective synthesis of axially chiral imidazo[1,2- a ]pyridines via an asymmetric multicomponent reaction. By utilizing a chiral phosphoric acid catalyst, the Groebke-Blackburn-Bienaymé reaction involving various 6-aryl-2-aminopyridines, aldehydes, and isocyanides gave access to a wide range of imidazo[1,2- a ]pyridine atropoisomers with high to excellent yields and enantioselectivities. Extensive control experiments underscored the pivotal role of the remote hydrogen bonding donor on the substrates in achieving high stereoselectivity for these reactions. The versatile derivatizations of these atropisomeric products, especially their role as an analog of NOBINs and their facile conversion into unique 6,6-spirocyclic products, further emphasize the merits of this methodology.",
-          "url": "https://doi.org/10.1126/sciadv.adr6135",
-          "doi": "https://doi.org/10.1126/sciadv.adr6135",
+          "title": "Dynamic silicone hydrogel gauze coatings with dual anti-blood adhesion mechanism for rapid hemostasis and minimal secondary damage",
+          "authors": "Xiubin Xu, Yanting Chen, Yunlong Li, Xin Li, Jian Bai, Xusheng Jiang, Danfeng Yu, Xu Wu, Xi Yao",
+          "abstract": "Hemostatic materials that can rapidly control bleeding without causing secondary damage or sharp pain upon removal are receiving increasing demands in acute trauma treatments and first-aid supplies. Here, we report the development of a dynamic silicone hydrogel coating on medical gauze to enable rapid hemostasis and synergistic anti-blood adhesion properties. The silicone hydrogel can spontaneously form oriented cross-linked structures on fibrous medical gauze through a solution-processing method to achieve macroscopic superhydrophobicity with microscopic surface slipperiness, resulting in excellent anti-blood adhesion with the on-wound peeling force at ~0 millinewton. The development of dynamic silicone hydrogel coating on medical gauze enables a unique integration of advanced features including instant bleeding control, excellent anti-blood adhesion, and excellent air permeability. The proposed strategy is also suitable for scalable production, making it promising in the applications of trauma management.",
+          "url": "https://doi.org/10.1126/sciadv.ado4944",
+          "doi": "https://doi.org/10.1126/sciadv.ado4944",
+          "filter": "2"
+        },
+        {
+          "title": "An extragenital cell population contributes to urethra closure during mouse penis development",
+          "authors": "Ciro Maurizio Amato, Xin Xu, Humphrey Hung-Chang Yao",
+          "abstract": "The penis, the organ that bears reproductive and psychological importance, is susceptible to birth defects such as hypospadias or incomplete closure of urethra along the penis shaft. We discover that proper urethral closure in mouse embryos requires a unique mesenchymal cell population originated from outside of the penis. These “extragenital” cells, marked by a lineage marker Nr5a1 , migrate from the inguinal region into the embryonic penis and facilitate urethra closure by interacting with adjacent periurethral cells via the epidermal growth factor pathway. Ablation of Nr5a1 + cells leads to severe hypospadias and alters cell differentiation in the penis. This discovery highlights the indispensable role of Nr5a1 + extragenital cells in urethra closure, shedding light on the biology of penis formation and potential implications for human hypospadias.",
+          "url": "https://doi.org/10.1126/sciadv.adp0673",
+          "doi": "https://doi.org/10.1126/sciadv.adp0673",
+          "filter": "2"
+        },
+        {
+          "title": "X-ray–induced acoustic computed tomography: 3D X-ray absorption imaging from a single view",
+          "authors": "Siqi Wang, Prabodh Kumar Pandey, Gerald Lee, Rick J. P. van Bergen, Leshan Sun, Yifei Xu, Liangzhong) Xiang",
+          "abstract": "Computed tomography (CT) scanners are essential for modern imaging but require around 600 projections from various angles. We present x-ray–induced acoustic computed tomography (XACT), a method that uses radiation-induced acoustic waves for three-dimensional (3D) x-ray imaging. These spherical acoustic waves travel through tissue at 1.5 × 10 3 meters per second, much slower than x-rays, allowing ultrasound detectors to capture them and generate 3D images without mechanical scanning. We validate this theory by performing 3D numerical reconstructions of a human breast from a single x-ray projection and experimentally determining 3D structures of objects at different depths. Achieving resolutions of 0.4 millimeters in the XZ plane and 3.5 millimeters in the XY plane at a depth of 16 millimeters, XACT demonstrates the ability to produce 3D images from one x-ray projection, reducing radiation exposure and enabling gantry-free imaging. XACT shows great promise for biomedical and nondestructive testing applications, potentially replacing conventional CT.",
+          "url": "https://doi.org/10.1126/sciadv.ads1584",
+          "doi": "https://doi.org/10.1126/sciadv.ads1584",
+          "filter": "2"
+        },
+        {
+          "title": "Magnetic kirigami dome metasheet with high deformability and stiffness for adaptive dynamic shape-shifting and multimodal manipulation",
+          "authors": "Yinding Chi, Emily E. Evans, Matthew R. Clary, Fangjie Qi, Haoze Sun, Saarah Niesha Cantú, Catherine M. Capodanno, Joseph B. Tracy, Jie Yin",
+          "abstract": "Soft shape-shifting materials offer enhanced adaptability in shape-governed properties and functionalities. However, once morphed, they struggle to reprogram their shapes and simultaneously bear loads for fulfilling multifunctionalities. Here, we report a dynamic spatiotemporal shape-shifting kirigami dome metasheet with high deformability and stiffness that responds rapidly to dynamically changing magnetic fields. The magnetic kirigami dome exhibits over twice higher doming height and 1.5 times larger bending curvature, as well as sevenfold enhanced structural stiffness compared to its continuous counterpart without cuts. The metasheet achieves omnidirectional doming and multimodal translational and rotational wave-like shape-shifting, quickly responding to changing magnetic fields within 2 milliseconds. Using the dynamic shape-shifting and adaptive interactions with objects, we demonstrate its applications in voxelated dynamic displays and remote magnetic multimodal directional and rotary manipulation of nonmagnetic objects without grasping. It shows high-load transportation ability of over 40 times its own weight, as well as versatility in handling objects of different materials (liquid and solid), sizes, shapes, and weights.",
+          "url": "https://doi.org/10.1126/sciadv.adr8421",
+          "doi": "https://doi.org/10.1126/sciadv.adr8421",
+          "filter": "2"
+        },
+        {
+          "title": "Metasurface spectrometers beyond resolution-sensitivity constraints",
+          "authors": "Feng Tang, Jingjun Wu, Tom Albrow-Owen, Hanxiao Cui, Fujia Chen, Yaqi Shi, Lan Zou, Jun Chen, Xuhan Guo, Yijun Sun, Jikui Luo, Bingfeng Ju, Jing Huang, Shuangli Liu, Bo Li, Liming Yang, Eric A. Munro, Wanguo Zheng, Hannah J. Joyce, Hongsheng Chen, Lufeng Che, Shurong Dong, Zhipei Sun, Tawfique Hasan, Xin Ye, Yihao Yang, Zongyin Yang",
+          "abstract": "Conventional spectrometer designs necessitate a compromise between their resolution and sensitivity, especially as device and detector dimensions are scaled down. Here, we report on a miniaturizable spectrometer platform where light throughput onto the detector is instead enhanced as the resolution is increased. This planar, CMOS-compatible platform is based around metasurface encoders designed to exhibit photonic bound states in the continuum, where operational range can be altered or extended simply through adjusting geometric parameters. This system can enhance photon collection efficiency by up to two orders of magnitude versus conventional designs; we demonstrate this sensitivity advantage through ultralow-intensity fluorescent and astrophotonic spectroscopy. This work represents a step forward for the practical utility of spectrometers, affording a route to integrated, chip-based devices that maintain high resolution and SNR without requiring prohibitively long integration times.",
+          "url": "https://doi.org/10.1126/sciadv.adr7155",
+          "doi": "https://doi.org/10.1126/sciadv.adr7155",
+          "filter": "2"
+        },
+        {
+          "title": "Sex-dimorphic tumor growth is regulated by tumor microenvironmental and systemic signals",
+          "authors": "Xianfeng Wang, Hongcun Bao, Yi-Chun Huang, Anindita Barua, Chun-Ming Lai, Jie Sun, Youfang Zhou, Fei Cong, Shangyu Gong, Chih-Hsuan Chang, Wu-Min Deng",
+          "abstract": "Tumor growth and progression involve coordinated regulation by internal, microenvironmental, and systemic signals and often display conspicuous sexual dimorphism. The mechanisms governing the integration and coordination of these signals, along with their sex-based differences, remain largely unknown. Using a Drosophila tumor model originating from nonreproductive tissue, we show that female-biased tumor growth involves multifaceted communications among tumor cells, hemocytes, and neuroendocrine insulin-producing cells (IPCs). Notch-active tumor cells recruit hemocytes carrying the tumor necrosis factor–α (TNF-α) homolog Eiger to the tumor microenvironment (TME), activating the c-Jun N-terminal kinase (JNK) pathway in tumor cells, instigating the sexually dimorphic up-regulation of cytokine Unpaired 2 (Upd2). Upd2, in turn, exerts a distal influence by modulating the release of a Drosophila insulin-like peptide (Dilp2) from IPCs. Dilp2 then activates the insulin signaling in the tumor, thereby fostering sexual-dimorphic tumor growth. Together, these findings reveal a relay mechanism involving the TME and systemic signals that collectively control the sexual dimorphism of tumor growth.",
+          "url": "https://doi.org/10.1126/sciadv.ads4229",
+          "doi": "https://doi.org/10.1126/sciadv.ads4229",
+          "filter": "2"
+        },
+        {
+          "title": "Size-dependent guest-memory switching of the flexible and robust adsorption characteristics of layered metal-organic frameworks",
+          "authors": "Satoshi Watanabe, Shotaro Hiraide, Homare Arima, Akiko Fukuta, Miyuki Mori, Hideki Tanaka, Minoru T. Miyahara",
+          "abstract": "Flexible-robust metal-organic frameworks (MOFs), which exhibit unique hybrid nature comprising both flexible and rigid framework characteristics, exhibit high potential for hydrocarbon separations. However, no clear guidelines have been established to regulate their hybrid characteristics owing to limited understanding of their adsorption mechanism. This study investigates the effects of the particle size of a flexible-robust MOF on its adsorption and structural transition behaviors. The robust nature originates from the structural transition of a metastable guest-free structure, while its flexible nature arises from another guest-free structure. The type of guest-free structure is predominantly determined by the particle size; particles below the critical size are trapped in the metastable guest-free structure. Notably, the critical size varies with the type of guest molecule to be removed; consequently, the difference in critical size results in guest-memory characteristics, enabling guest-free structure switching. These results underscore the importance of controlling the particle size to fine-tune hybrid adsorption characteristics of flexible-robust MOFs.",
+          "url": "https://doi.org/10.1126/sciadv.adr1387",
+          "doi": "https://doi.org/10.1126/sciadv.adr1387",
+          "filter": "2"
+        },
+        {
+          "title": "Plankton food web structure and productivity under ocean alkalinity enhancement",
+          "authors": "Nicolás Sánchez, Silvan U. Goldenberg, Daniel Brüggemann, Cornelia Jaspers, Jan Taucher, Ulf Riebesell",
+          "abstract": "Ocean alkalinity enhancement (OAE) is a nature-based technology for CO 2 removal and storage, but little is known about its environmental safety. We tested a CO 2 -equilibrated OAE deployment in a close-to-natural community using in situ mesocosms in the oligotrophic subtropical North Atlantic and assessed metazoan zooplankton to inform about food web stability, structure, and production. In addition, a literature review complemented experimental results by summarizing physiological responses of marine animals to decreasing proton concentrations, or increased pH. The food web studied proved resistant, and zooplankton physiologically tolerant, to the OAE tested. We observed short-term effects of OAE on zooplankton reproduction and productivity, which were likely trophically mediated. Yet, these did not affect zooplankton populations or their nutritional value as food for fish. Our study demonstrates an environmentally safe OAE application, but also stresses the risks of more intense OAE options, and the vulnerabilities of other marine ecosystems.",
+          "url": "https://doi.org/10.1126/sciadv.ado0264",
+          "doi": "https://doi.org/10.1126/sciadv.ado0264",
           "filter": "2"
         },
         {
@@ -1681,6 +1993,38 @@
           "abstract": "Modeling sea surface wind-waves is crucial for both scientific research and engineering applications. Nowadays, the most accurate wave models are based on numerical methods, which primarily concern the wave spectrum evolution by solving wave action balance partial differential equations. These methods are computationally expensive and limited by incomplete physical representations of wave spectral evolution. Here, we present a deep learning–based wave model trained using observation-merged wave hindcasts. Guided by the physics knowledge that waves are either generated by local current winds or by remote historical winds, this method can directly model significant wave height, bypassing the need for wave spectral information. This feature engineering effectively reduces the complexity of model inputs and outputs. The resulting artificial intelligence method can model 1 year of global significant wave heights at a 0.5° × 0.5° × 1-hour resolution within half an hour on a personal computer, achieving higher accuracy than state-of-the-art numerical wave models.",
           "url": "https://doi.org/10.1126/sciadv.adr3559",
           "doi": "https://doi.org/10.1126/sciadv.adr3559",
+          "filter": "2"
+        },
+        {
+          "title": "Inhibitors of malaria parasite cyclic nucleotide phosphodiesterases block asexual blood-stage development and mosquito transmission",
+          "authors": "Paula-Josefina Gomez-Gonzalez, Antima Gupta, Laura G. Drought, Avnish Patel, John Okombo, Mariëtte van der Watt, Ryan Walker-Gray, Kyra A. Schindler, Anna Y. Burkhard, Tomas Yeo, Sunil K. Narwal, Talia S. Bloxham, Christian Flueck, Eloise M. Walker, Joshua A. Rey, Kate J. Fairhurst, Janette Reader, Heekuk Park, Harry G. Pollard, Lindsay B. Stewart, Luke Brandner-Garrod, Mojca Kristan, Geert-Jan Sterk, Youri M. van Nuland, Emilia Manko, Donelly A. van Schalkwyk, Yang Zheng, Rob Leurs, Koen J. Dechering, Anna Caroline C. Aguiar, Rafael V. C. Guido, Dhelio B. Pereira, Patrick K. Tumwebaze, Samuel L. Nosbya, Philip J. Rosenthal, Roland A. Cooper, Mike Palmer, Tanya Parkinson, Jeremy N. Burrows, Anne-Catrin Uhlemann, Lyn-Marié Birkholtz, Jennifer L. Small-Saunders, James Duffy, David A. Fidock, Alan Brown, Mark Gardner, David A. Baker",
+          "abstract": "Cyclic nucleotide–dependent phosphodiesterases (PDEs) play essential roles in regulating the malaria parasite life cycle, suggesting that they may be promising antimalarial drug targets. PDE inhibitors are used safely to treat a range of noninfectious human disorders. Here, we report three subseries of fast-acting and potent Plasmodium falciparum PDEβ inhibitors that block asexual blood-stage parasite development and that are also active against human clinical isolates. Two of the inhibitor subseries also have potent transmission-blocking activity by targeting PDEs expressed during sexual parasite development. In vitro drug selection experiments generated parasites with moderately reduced susceptibility to the inhibitors. Whole-genome sequencing of these parasites detected no mutations in PDEβ but rather mutations in downstream effectors: either the catalytic or regulatory subunits of cyclic adenosine monophosphate–dependent protein kinase (PKA) or in the 3-phosphoinositide-dependent protein kinase that is required for PKA activation. Several properties of these P. falciparum PDE inhibitor series make them attractive for further progression through the antimalarial drug discovery pipeline.",
+          "url": "https://doi.org/10.1126/sciadv.adq1383",
+          "doi": "https://doi.org/10.1126/sciadv.adq1383",
+          "filter": "2"
+        },
+        {
+          "title": "Ultrathin rubbery bio-optoelectronic stimulators for untethered cardiac stimulation",
+          "authors": "Zhoulyu Rao, Faheem Ershad, Ying-Shi Guan, Fernanda C. Paccola Mesquita, Ernesto Curty da Costa, Marco A. Morales-Garza, Angel Moctezuma-Ramirez, Bin Kan, Yuntao Lu, Shubham Patel, Hyunseok Shim, Kuan Cheng, Wenjie Wu, Tahir Haideri, Xiaojun Lance Lian, Alamgir Karim, Jian Yang, Abdelmotagaly Elgalad, Camila Hochman-Mendez, Cunjiang Yu",
+          "abstract": "Untethered electrical stimulation or pacing of the heart is of critical importance in addressing the pressing needs of cardiovascular diseases in both clinical therapies and fundamental studies. Among various stimulation methods, light illumination–induced electrical stimulation via photoelectric effect without any genetic modifications to beating cells/tissues or whole heart has profound benefits. However, a critical bottleneck lies in the lack of a suitable material with tissue-like mechanical softness and deformability and sufficient optoelectronic performances toward effective stimulation. Here, we introduce an ultrathin (&lt;500 nm), stretchy, and self-adhesive rubbery bio-optoelectronic stimulator (RBOES) in a bilayer construct of a rubbery semiconducting nanofilm and a transparent, stretchable gold nanomesh conductor. The RBOES could maintain its optoelectronic performance when it was stretched by 20%. The RBOES was validated to effectively accelerate the beating of the human induced pluripotent stem cell–derived cardiomyocytes. Furthermore, acceleration of ex vivo perfused rat hearts by optoelectronic stimulation with the self-adhered RBOES was achieved with repetitive pulsed light illumination.",
+          "url": "https://doi.org/10.1126/sciadv.adq5061",
+          "doi": "https://doi.org/10.1126/sciadv.adq5061",
+          "filter": "2"
+        },
+        {
+          "title": "Gene acquisition by giant transposons primes eukaryotes for rapid evolution via horizontal gene transfer",
+          "authors": "Andrew S. Urquhart, Emile Gluck-Thaler, Aaron A. Vogan",
+          "abstract": "Horizontal gene transfer (HGT) disseminates genetic information between species and is a powerful mechanism of adaptation. Yet, we know little about its underlying drivers in eukaryotes. Giant Starship transposons have been implicated as agents of fungal HGT, providing an unprecedented opportunity to reveal the evolutionary parameters behind this process. Here, we characterize the ssf gene cluster, which contributes to formaldehyde resistance, and use it to demonstrate how mobile element evolution shapes fungal adaptation. We found that ssf clusters have been acquired by various distantly related Starships , which each exhibit multiple instances of horizontal transfer across fungal species (at least nine events, including between different taxonomic orders). Many ssf clusters have subsequently integrated into their host’s genome, illustrating how Starships shape the evolutionary trajectory of fungal hosts beyond any single transfer. Our results demonstrate the key role Starships play in mediating rapid and repeated adaptation via HGT, elevating the importance of mobile element evolution in eukaryotic biology.",
+          "url": "https://doi.org/10.1126/sciadv.adp8738",
+          "doi": "https://doi.org/10.1126/sciadv.adp8738",
+          "filter": "2"
+        },
+        {
+          "title": "Laser-induced adhesives with excellent adhesion enhancement and reduction capabilities for transfer printing of microchips",
+          "authors": "Chenglong Li, Shun Zhang, Jing Jiang, Suhao Wang, Shuchang He, Jizhou Song",
+          "abstract": "Transfer printing based on tunable and reversible adhesive that enables the heterogeneous integration of materials is essential for developing envisioned electronic systems. An adhesive with both adhesion enhancement and reduction capabilities in a rapid and selective manner is challenging. Here, we report a laser-induced adhesive, featuring a geometrically simple shape memory polymer layer on a glass backing, with excellent adhesion modulation capability for programmable pickup and noncontact printing of microchips. Selective and rapid laser heating substantially enhances the adhesive’s adhesion strength from kilopascal to megapascal within 10 ms due to the shape fixing effect, allowing for precise and programmable pickup. Conversely, the enhanced adhesion can be quickly reduced and eliminated within 3 ms through the shape recovery effect, enabling noncontact printing. Demonstrations of transfer printing microlight-emitting diodes (LEDs) and mini-LEDs onto various low-adhesive flat, rough, and curved surfaces highlight the unusual capabilities of this adhesive for deterministic assembly.",
+          "url": "https://doi.org/10.1126/sciadv.ads9226",
+          "doi": "https://doi.org/10.1126/sciadv.ads9226",
           "filter": "2"
         }
       ]
