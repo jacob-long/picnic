@@ -1,15 +1,40 @@
 {
-  "update": "2024-12-11",
+  "update": "2024-12-12",
   "content": [
     {
-      "journal_full": "Journal of Elections, Public Opinion and Parties",
-      "journal_short": "JEPOP",
+      "journal_full": "Journal of Survey Statistics and Methodology",
+      "journal_short": "JSSAM",
       "articles": [
         {
-          "title": "Word embeddings on ideology and issues from Swedish parliamentarians’ motions: a comparative approach",
-          "authors": "Annika Fredén, Moa Johansson, Denitsa Saynova",
-          "url": "https://doi.org/10.1080/17457289.2024.2433979",
-          "doi": "https://doi.org/10.1080/17457289.2024.2433979",
+          "title": "Inferring a Population Composition From Survey Data With Nonignorable Nonresponse: Borrowing Information From External Sources",
+          "authors": "Veronica Ballerini, Brunero Liseo",
+          "abstract": "We introduce a method for inference on the composition of a heterogeneous population using survey data, accounting for the possibility that capture heterogeneity is related to key survey variables. To deal with nonignorable nonresponse, we combine different data sources and propose the use of Fisher’s noncentral hypergeometric model in a Bayesian framework. To illustrate the potentialities of our methodology, we present a case study aimed at estimating the distribution of occupation status of Italian graduates one year after graduating, cross-classified by gender and degree program. In our case study, we account for a potential dependence between occupation status and survey response, implying the nonignorable nonresponse. Our findings show that employed people are generally more inclined to answer the questionnaire. Neglecting the nonresponse bias in such contexts might lead to overestimating the employment rate.",
+          "url": "https://doi.org/10.1093/jssam/smae041",
+          "doi": "https://doi.org/10.1093/jssam/smae041",
+          "filter": 0
+        },
+        {
+          "title": "Unconditional Lotteries in Web Surveys—Evidence from a Large-Scale Experiment",
+          "authors": "Helge Holtermann, Siv-Elisabeth Skjelbred, Vegard Wiborg",
+          "abstract": "Extensive research suggests that upfront unconditional payments boost response rates compared to a promised payment conditional upon completion. However, we do not know whether the benefits of unconditionality also apply to lottery incentives, which are now commonly used. This study examines how unconditional lotteries affect response rates by randomly allocating sample members in a large web-survey of Norwegian master’s graduates (N = 11,291) to three groups—no-incentive, unconditional lottery, and conditional lottery—during the winter 2021/2022. Comparing response rates across treatments, we find that the unconditional lottery incentive does not outperform the conditional lottery incentive, but both types of lottery incentives modestly boost the response rate compared to no incentive. Moreover, although respondents differ from the population on some background characteristics, the lottery incentives neither alleviate nor increase this bias.",
+          "url": "https://doi.org/10.1093/jssam/smae044",
+          "doi": "https://doi.org/10.1093/jssam/smae044",
+          "filter": 0
+        },
+        {
+          "title": "Optimal Weights for double Many-To-One Generalized Weight Share Method",
+          "authors": "Estelle Medous",
+          "abstract": "In probabilistic sampling, a sampling frame comprising the target population may not be available. However, indirect sampling can be used when the units on a sampling frame can be linked to the target population, with the values observed in the target population used for estimation. If the target population can only be linked to the sampling frame through an intermediate population, then double indirect sampling is a viable option. In this case, the sampling weights can be obtained with the double generalized weight share method (GWSM). The double GWSM reduces the number of observed links compared to the simple GWSM but can detrimentally affect the precision of the estimator, as in the example of the French postal service (La Poste). In this article, we show the existence of a set of sampling weights that minimize the variance of the double GWSM in specific cases with La Poste as exemplar. These weights ensure that the implementation advantages of the double GWSM are not offset by a loss of precision. When these weights cannot be computed, as is the case in the French postal traffic survey, we propose alternative weights that can be used to improve the precision of the double GWSM estimator. Results are illustrated through Monte Carlo simulations and an application to the French postal traffic survey.",
+          "url": "https://doi.org/10.1093/jssam/smae046",
+          "doi": "https://doi.org/10.1093/jssam/smae046",
+          "filter": 0
+        },
+        {
+          "title": "A New Sampling Framework for Spatial Surveys with Application to the French National Forest Inventory",
+          "authors": "Trinh H K Duong, Olivier Bouriaud, Guillaume Chauvet",
+          "abstract": "The French National Forest Inventory (NFI) employs a two-stage two-phase sampling scheme summarized by the following key steps: first, the territory is divided into a spatial grid, and cells are randomly selected from this grid. Within the selected cells, additional random sampling of points is conducted. Subsequently, classification of the selected points is performed using auxiliary information from photo-interpretation. This information is used to draw a sub-sample that leads to field measurements. We evaluate the efficiency of the French NFI’s sampling design when the Horvitz–Thompson and post-stratified estimators for the total are used in the first and second phases, respectively. Given the complexity of the French NFI’s sampling design, a new theoretical framework is introduced for two-stage two-phase sampling schemes to facilitate design-based inference, combining inference methods for both finite and continuous populations. Horvitz–Thompson type estimators for the total and post-stratified estimators are proposed alongside variance estimators. Their performances are assessed through a simulation study, comparing the French NFI’s sampling design using alternative methods. The results indicate that the strategy formed by the French NFIs sampling design and proposed estimators may be effective in practice. The proposed framework is general and can be applied to other forest and environmental surveys.",
+          "url": "https://doi.org/10.1093/jssam/smae045",
+          "doi": "https://doi.org/10.1093/jssam/smae045",
           "filter": 0
         }
       ],
