@@ -1,33 +1,18 @@
 {
-  "update": "2024-12-12",
+  "update": "2024-12-13",
   "content": [
-    {
-      "journal_full": "Advances in Methods and Practices in Psychological Science",
-      "journal_short": "AMPPS",
-      "articles": [
-        {
-          "title": "A Guide to Prototype Analyses in Cross-Cultural Research: Purpose, Advantages, and Risks",
-          "authors": "Yuning Sun, Elaine L. Kinsella, Eric R. Igou",
-          "abstract": "The prototype approach provides a theoretically supported basis for novel research, detailing “typical” cognitive representations of targets in question (e.g., groups, experiences). Fairly recently, in social and cognitive psychology, this approach has emerged to understand how people categorize and conceptualize everyday phenomena. Although this approach has previously been used to study everyday concepts, it has predominantly been overlooked in cross-cultural research. Prototype analyses are flexible enough to allow for the identification of both universal and culture-specific elements, offering a more comprehensive and nuanced understanding of the concept in question. We highlight theoretical, empirical, and practical reasons why prototype analyses offer an important tool in cross-cultural and interdisciplinary research while also addressing the potential for reducing construct bias in research that spans multiple cultural contexts. The advantages and risks of conducting prototype analyses are discussed in detail along with novel ways of integrating computational approaches with traditional prototype-analyses methods to assist in their implementation.",
-          "url": "https://doi.org/10.1177/25152459241296401",
-          "doi": "https://doi.org/10.1177/25152459241296401",
-          "filter": 0
-        },
-        {
-          "title": "A Methodological Framework for Stimuli Control: Insights From Numerical Cognition",
-          "authors": "Yoel Shilat, Avishai Henik, Hanit Galili, Shir Wasserman, Alon Salzmann, Moti Salti",
-          "abstract": "The stimuli presented in cognitive experiments have a crucial role in the ability to isolate the underlying mechanism from other interweaved mechanisms. New ideas aimed at unveiling cognitive mechanisms are often realized through introducing new stimuli. This, in turn, raises challenges in reconciling results to literature. We demonstrate this challenge in the field of numerical cognition. Stimuli used in this field are designed to present quantity in a non symbolic manner. Physical properties, such as surface area and density, inherently correlate with quantity, masking the mechanism underlying numerical perception. Different generation methods (GMs) are used to control these physical properties. However, the way a GM controls physical properties affects numerical judgments in different ways, compromising comparability and the pursuit of cumulative science. Here, using a novel data-driven approach, we provide a methodological review of non symbolic stimuli GMs developed since 2000. Our results reveal that the field thrives and that a wide variety of GMs are tackling new methodological and theoretical ideas. However, the field lacks a common language and means to integrate new ideas into the literature. These shortcomings impair the interpretability, comparison, replication, and reanalysis of previous studies that have considered new ideas. We present guidelines for GMs relevant also to other fields and tasks involving perceptual decisions, including (a) defining controls explicitly and consistently, (b) justifying controls and discussing their implications, (c) considering stimuli statistical features, and (d) providing complete stimuli set, matching responses, and generation code. We hope these guidelines will promote the integration of findings and increase findings’ explanatory power.",
-          "url": "https://doi.org/10.1177/25152459241249185",
-          "doi": "https://doi.org/10.1177/25152459241249185",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
       "articles": [
+        {
+          "title": "Dance with me? Analyzing interpersonal synchrony and quality of interaction during joint dance",
+          "authors": "Noemí Grinspun, Eden Landesman, Yonnhatan García, Tal-Chen Rabinowitch",
+          "abstract": "This methodological paper examines the assessment of interpersonal synchrony during a joint dancing task between mothers and their children (aged 4 to 5 years) using OpenPose. This pose estimation tool captures movement in naturalistic settings. The study analyzes 45 mother–child dyads, comparing two analytical methods for assessing synchrony, and examines their correlation with the Coding Interactive Behavior (CIB) measure of interaction quality. The first method employs cross-wavelet transform (CWT) coherence to assess synchrony based on vertical head movement. This straightforward and computationally efficient approach reveals a significant correlation between interpersonal synchrony and CIB scores, thus implying its potential as a reliable indicator of interaction quality and suggesting its potential as a measure of interaction quality. The second method, the generalized cross-wavelet transform (GCWT), analyzes synchrony across multiple body parts, offering a more complex and detailed analysis of interpersonal dynamics. However, it did not significantly correlate with the CIB scores. Our findings suggest that focusing on head movement using CWT can effectively capture critical elements of interpersonal synchrony linked to interaction quality. In contrast, despite its richness, the more complex GCWT approach may not align as closely with observed interactive behaviors as the CIB scores indicate. This study underscores the need to balance methodological complexity and ecological validity in research, offering insights into selecting analytical techniques based on research objectives and the nuances of interpersonal dynamics. Our results contribute to the field of interpersonal synchrony research, emphasizing the benefits of efficient methods in understanding mother–child interactions and interaction relationships in general.",
+          "url": "https://doi.org/10.3758/s13428-024-02563-5",
+          "doi": "https://doi.org/10.3758/s13428-024-02563-5",
+          "filter": 0
+        },
         {
           "title": "DerLex: An eye-movement database of derived word reading in English",
           "authors": "Daniel Schmidtke, Julie A. Van Dyke, Victor Kuperman",
@@ -64,6 +49,22 @@
           "url": "https://doi.org/10.3758/s13428-024-02520-2",
           "doi": "https://doi.org/10.3758/s13428-024-02520-2",
           "filter": 0
+        },
+        {
+          "title": "Motor styles in action: Developing a computational framework for operationalization of motor distances",
+          "authors": "Jordi Manuello, Camilla Maronati, Matilde Rocca, Riccardo Guidotti, Tommaso Costa, Andrea Cavallo",
+          "abstract": "Aside from some common movement regularities, significant inter-individual and inter-trial variation within the same individual exists in motor system output. However, there is still a lack of a robust and widely adopted solution for quantifying the degree of similarity between movements. We therefore developed an innovative approach based on the Procrustes transformation to compute 'motor distance' between pairs of kinematic data. As a proof of concept, we tested this on a dataset of reach-to-grasp movements performed by 16 participants while acting with the same confederate. Using the information of wrist velocity, acceleration, and jerk, the proposed technique was able to correctly estimate smaller distances between movements performed by the confederate compared with those of participants. Moreover, the reconstructed pattern of inter-subject distances was consistent when computed either on precision grip prehension or whole hand prehension, suggesting its suitability for the investigation of 'motor styles'. The definition of a solid approach to 'motor distance' computation, therefore, opens the way to new research lines in the field of movement kinematics.",
+          "url": "https://doi.org/10.3758/s13428-024-02530-0",
+          "doi": "https://doi.org/10.3758/s13428-024-02530-0",
+          "filter": 0
+        },
+        {
+          "title": "The PSR corpus: A Persian sentence reading corpus of eye movements",
+          "authors": "Zohre Soleymani Tekbudak, Mehdi Purmohammad, Ayşegül Özkan, Cengiz Acartürk",
+          "abstract": "The present study introduces the Persian Sentence Reading (PSR) Corpus, aiming to expand empirical data for Persian, an under-investigated language in research on oculomotor control in reading. Reading research has largely focused on Latin script languages with a left-to-right reading direction. However, languages with different reading directions, such as right-to-left and top-to-bottom, and particularly Persian script-based languages like Farsi and Dari, have remained understudied. This study pioneers in providing an eye movement dataset for reading Persian sentences, enabling further exploration of the influences of unique Persian characteristics on eye movement patterns during sentence reading. The core objective of the study is to provide data about how word characteristics impact eye movement patterns. The research also investigates the characteristics of the interplay between neighboring words and eye movements on them. By broadening the scope of reading research beyond commonly studied languages, the study aims to contribute to an interdisciplinary approach to reading research, exemplifying investigations through various theoretical and methodological perspectives.",
+          "url": "https://doi.org/10.3758/s13428-024-02517-x",
+          "doi": "https://doi.org/10.3758/s13428-024-02517-x",
+          "filter": 0
         }
       ],
       "articles_hidden": []
@@ -80,17 +81,17 @@
           "filter": 0
         },
         {
-          "title": "Smartphone and the brain: stress and self-control mediate the association between the connectome-based predictive modeling of fMRI brain network and problematic smartphone use",
+          "title": "Smartphone and the brain: Stress and self-control mediate the association between the connectome-based predictive modeling of fMRI brain network and problematic smartphone use",
           "authors": "Bijie Tie, Tianyuan Zhang, Miao He, Li Geng, Qiuyang Feng, Cheng Liu, Xuyang Wang, Yunhong Wang, Dingyue Tian, Yixin Gao, Pengcheng Wang, Wenjing Yang, Jiang Qiu",
           "url": "https://doi.org/10.1016/j.chb.2024.108531",
           "doi": "https://doi.org/10.1016/j.chb.2024.108531",
           "filter": 0
         },
         {
-          "title": "Gamification for Sustainability: A Systematic Review of Applications, Trends, and Opportunities",
-          "authors": "Adrian A. Mabalay",
-          "url": "https://doi.org/10.1016/j.chb.2024.108529",
-          "doi": "https://doi.org/10.1016/j.chb.2024.108529",
+          "title": "Opting out in computer-supported sequential collaboration",
+          "authors": "Maren Mayer, Daniel W. Heck, Joachim Kimmerle",
+          "url": "https://doi.org/10.1016/j.chb.2024.108527",
+          "doi": "https://doi.org/10.1016/j.chb.2024.108527",
           "filter": 0
         },
         {
@@ -108,7 +109,7 @@
           "filter": 0
         },
         {
-          "title": "Decoding a Decade. Trends and Their Evolution in Learning Analytics: A Comprehensive Synthesis",
+          "title": "Decoding a decade. Trends and evolution in learning analytics: A comprehensive synthesis",
           "authors": "Ionut Dorin Stanciu, Ángel Hernández-García, Miguel Ángel Conde, Nicolae Nistor",
           "url": "https://doi.org/10.1016/j.chb.2024.108526",
           "doi": "https://doi.org/10.1016/j.chb.2024.108526",
@@ -157,30 +158,16 @@
       "articles_hidden": []
     },
     {
-      "journal_full": "Journal of Personality and Social Psychology",
-      "journal_short": "JPSP",
-      "articles": [
-        {
-          "title": "Of preferences and priors: Motivated reasoning in partisans’ evaluations of scientific evidence.",
-          "authors": "Jared B. Celniker, Peter H. Ditto",
-          "url": "https://doi.org/10.1037/pspa0000417",
-          "doi": "https://doi.org/10.1037/pspa0000417",
-          "filter": 0
-        },
-        {
-          "title": "Thinking in 3D: A multidimensional mapping of the effects of distance on abstraction.",
-          "authors": "Avi Gamoran, Britt Hadar, Michael Gilead",
-          "url": "https://doi.org/10.1037/pspa0000424",
-          "doi": "https://doi.org/10.1037/pspa0000424",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
       "journal_full": "Multivariate Behavioral Research",
       "journal_short": "MBR",
       "articles": [
+        {
+          "title": "A Gentle Introduction and Application of Feature-Based Clustering with Psychological Time Series",
+          "authors": "Jannis Kreienkamp, Maximilian Agostini, Rei Monden, Kai Epstude, Peter de Jonge, Laura F. Bringmann",
+          "url": "https://doi.org/10.1080/00273171.2024.2432918",
+          "doi": "https://doi.org/10.1080/00273171.2024.2432918",
+          "filter": 0
+        },
         {
           "title": "Using Projective IRT to Evaluate the Effects of Multidimensionality on Unidimensional IRT Model Parameters",
           "authors": "Steven P. Reise, Jared M. Block, Maxwell Mansolf, Mark G. Haviland, Benjamin D. Schalet, Rachel Kimerling",
@@ -228,20 +215,6 @@
       "articles_hidden": []
     },
     {
-      "journal_full": "Psychological Methods",
-      "journal_short": "PM",
-      "articles": [
-        {
-          "title": "A simple statistical framework for small sample studies.",
-          "authors": "D. Samuel Schwarzkopf, Zien Huang",
-          "url": "https://doi.org/10.1037/met0000710",
-          "doi": "https://doi.org/10.1037/met0000710",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
       "journal_full": "Psychology of Music",
       "journal_short": "PsychMusic",
       "articles": [
@@ -250,28 +223,6 @@
           "authors": "Patrik N. Juslin",
           "url": "https://doi.org/10.1177/03057356241302315",
           "doi": "https://doi.org/10.1177/03057356241302315",
-          "filter": 0
-        },
-        {
-          "title": "Harmonic expectancy violations: Testing the effects of familiarity, lead-in time, and ecological validity",
-          "authors": "Claire Arthur",
-          "abstract": "In this article, the impact of three experimental parameters in a harmonic expectancy study are evaluated: stimulus duration (specifically the lead-in time prior to an unexpected event), ecological validity of the stimulus (original recording vs. piano only), and familiarity. This article also presents a novel experimental paradigm for detecting expectancy violations in a real-time listening context with increased ecological validity, as well as a novel quasi-blind stimulus-selection procedure. Results suggest that the importance of the ecological validity of the stimulus may depend on the population of the study (i.e., musicians or non-musicians), and that the role of familiarity ought to be more rigorously examined. Specifically, it appears that the ability to notice a harmonic expectancy violation may be modulated by the degree of prior familiarity with the stimulus. In addition, stimuli with longer lead-in times lead to an increase in the probability of marking a harmonically surprising event. Implications for expectancy-violation theory, computational modeling, prediction error theory, and general stimulus-selection procedures in music perception and cognition research are discussed.",
-          "url": "https://doi.org/10.1177/03057356241284965",
-          "doi": "https://doi.org/10.1177/03057356241284965",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Technology, Mind, and Behavior",
-      "journal_short": "TMB",
-      "articles": [
-        {
-          "title": "Innovations in remote instruction: Impact on students’ socioemotional and cognitive outcomes.",
-          "authors": "Rachel M. Flynn, Fran C. Blumberg",
-          "url": "https://doi.org/10.1037/tmb0000148",
-          "doi": "https://doi.org/10.1037/tmb0000148",
           "filter": 0
         }
       ],
