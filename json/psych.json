@@ -1,6 +1,21 @@
 {
-  "update": "2024-12-14",
+  "update": "2024-12-15",
   "content": [
+    {
+      "journal_full": "Advances in Methods and Practices in Psychological Science",
+      "journal_short": "AMPPS",
+      "articles": [
+        {
+          "title": "A Tutorial on Tailored Simulation-Based Sample-Size Planning for Experimental Designs With Generalized Linear Mixed Models",
+          "authors": "Florian Pargent, Timo K. Koch, Anne-Kathrin Kleine, Eva Lermer, Susanne Gaube",
+          "abstract": "When planning experimental research, determining an appropriate sample size and using suitable statistical models are crucial for robust and informative results. The recent replication crisis underlines the need for more rigorous statistical methodology and adequately powered designs. Generalized linear mixed models (GLMMs) offer a flexible statistical framework to analyze experimental data with complex (e.g., dependent and hierarchical) data structures. However, available methods and software for a priori sample-size planning for GLMMs are often limited to specific designs. Tailored data-simulation approaches offer a more flexible alternative. Based on a practical case study in which we focus on a binomial GLMM with two random intercepts and discrete predictor variables, the current tutorial equips researchers with a step-by-step guide and corresponding code for conducting tailored a priori sample-size planning with GLMMs. We not only focus on power analysis but also explain how to use the precision of parameter estimates to determine appropriate sample sizes. We conclude with an outlook on the increasing importance of simulation-based sample-size planning.",
+          "url": "https://doi.org/10.1177/25152459241287132",
+          "doi": "https://doi.org/10.1177/25152459241287132",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
@@ -89,17 +104,17 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "Do individuals interpret sexting as an indicator of sexual intent and sexual consent?",
-          "authors": "Rylie Yager, Michelle Drouin, Tara L. Cornelius",
-          "url": "https://doi.org/10.1016/j.chb.2024.108530",
-          "doi": "https://doi.org/10.1016/j.chb.2024.108530",
-          "filter": 0
-        },
-        {
           "title": "Neuromodulation via tRNS accelerates learning and enhances in-game performance at a Virtual-Reality First Person Shooter game",
           "authors": "Francesco Neri, Jacopo Della Toffola, Adriano Scoccia, Alberto Benelli, Francesco Lomi, Alessandra Cinti, Carmelo Luca Smeralda, Sara Romanella, Alessandro Giannotta, Simone Rossi, Emiliano Santarnecchi",
           "url": "https://doi.org/10.1016/j.chb.2024.108537",
           "doi": "https://doi.org/10.1016/j.chb.2024.108537",
+          "filter": 0
+        },
+        {
+          "title": "The Curvilinear Effects of Relative Positions in Smartphone App Leaderboards on Physical Activity",
+          "authors": "Yanxiang Yang, Joerg Koenigstorfer",
+          "url": "https://doi.org/10.1016/j.chb.2024.108532",
+          "doi": "https://doi.org/10.1016/j.chb.2024.108532",
           "filter": 0
         },
         {
@@ -117,6 +132,20 @@
           "filter": 0
         },
         {
+          "title": "Tell Me More: Longitudinal Relationships Between Online Self-Disclosure, Co-Rumination, and Psychological Well-Being",
+          "authors": "Anja Stevic, Kevin Koban, Jörg Matthes",
+          "url": "https://doi.org/10.1016/j.chb.2024.108540",
+          "doi": "https://doi.org/10.1016/j.chb.2024.108540",
+          "filter": 0
+        },
+        {
+          "title": "The AI Interface: Designing for the Ideal Machine-Human Experience",
+          "authors": "Aparna Sundar, Tony Russell-Rose, Udo Kruschwitz, Karen Machleit",
+          "url": "https://doi.org/10.1016/j.chb.2024.108539",
+          "doi": "https://doi.org/10.1016/j.chb.2024.108539",
+          "filter": 0
+        },
+        {
           "title": "Team Adaptive Performance in the Metaverse workspace: Team cohesion as a mediator",
           "authors": "Samprada Dekate, Prashant Mehta",
           "url": "https://doi.org/10.1016/j.chb.2024.108535",
@@ -128,13 +157,6 @@
           "authors": "Lini Zhang, Haidong Zhao",
           "url": "https://doi.org/10.1016/j.chb.2024.108533",
           "doi": "https://doi.org/10.1016/j.chb.2024.108533",
-          "filter": 0
-        },
-        {
-          "title": "The AI Interface: Designing for the Ideal Machine-Human Experience",
-          "authors": "Aparna Sundar, Tony Russell-Rose, Udo Kruschwitz, Karen Machleit",
-          "url": "https://doi.org/10.1016/j.chb.2024.108539",
-          "doi": "https://doi.org/10.1016/j.chb.2024.108539",
           "filter": 0
         },
         {
@@ -264,15 +286,38 @@
       "articles_hidden": []
     },
     {
+      "journal_full": "Organizational Research Methods",
+      "journal_short": "ORM",
+      "articles": [
+        {
+          "title": "Measuring Personality When Stakes Are High: Are Graded Paired Comparisons a More Reliable Alternative to Traditional Forced-Choice Methods?",
+          "authors": "Harriet Lingel, Paul-Christian Bürkner, Klaus G. Melchers, Niklas Schulte",
+          "abstract": "In graded paired comparisons (GPCs), two items are compared using a multipoint rating scale. GPCs are expected to reduce faking compared with Likert-type scales and to produce more reliable, less ipsative trait scores than traditional binary forced-choice formats. To investigate the statistical properties of GPCs, we simulated 960 conditions in which we varied six independent factors and additionally implemented conditions with algorithmically optimized item combinations. Using Thurstonian IRT models, good reliabilities and low ipsativity of trait score estimates were achieved for questionnaires with 50% unequally keyed item pairs or equally keyed item pairs with an optimized combination of loadings. However, in conditions with 20% unequally keyed item pairs and equally keyed conditions without optimization, reliabilities were lower with evidence of ipsativity. Overall, more response categories led to higher reliabilities and nearly fully normative trait scores. In an empirical example, we demonstrate the identified mechanisms under both honest and faking conditions and study the effects of social desirability matching on reliability. In sum, our studies inform about the psychometric properties of GPCs under different conditions and make specific recommendations for improving these properties.",
+          "url": "https://doi.org/10.1177/10944281241279790",
+          "doi": "https://doi.org/10.1177/10944281241279790",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Personality and Social Psychology Bulletin",
       "journal_short": "PSPB",
       "articles": [
         {
-          "title": "Multiple Reputations: Selective Attention to Competence and Character",
-          "authors": "Alexandra V. T. de La Trobe, Gordon D. A. Brown, Lukasz Walasek",
-          "abstract": "Reputation is multidimensional, with some traits being more relevant than others in particular contexts. Can people selectively respond to reputational cues relevant to the task at hand? Across three studies, we examined how people weigh cues about helpfulness and competence when forming expectations about strangers’ behavior. Using adapted investment games, we varied whether a stranger’s helpfulness or competence predicted participants’ future payoffs. We found that when helpfulness is task-relevant (Experiments 1 and 2), participants correctly use this cue in investment decisions. When competence matters most (Experiment 3), participants use it as the primary cue. Overall, a high reputation for outcome-irrelevant characteristics did not compensate for a low reputation for the outcome-relevant reputational cue. However, we also find an asymmetric spillover: Decision-makers prefer cooperating with others who are highly competent and highly helpful, regardless of task demands. We discuss our results within the theoretical framework of person perception and theories of reputation.",
-          "url": "https://doi.org/10.1177/01461672241301116",
-          "doi": "https://doi.org/10.1177/01461672241301116",
+          "title": "Stereotype Threat at Work: A Meta-Analysis",
+          "authors": "Courtney von Hippel, Clara Kühner, Sarah P. Coundouris, Amy Lim, Julie D. Henry, Hannes Zacher",
+          "abstract": "Stereotype threat refers to the concern of being judged based on stereotypes about one’s social group. This preregistered meta-analysis examines the correlates of stereotype threat in the workplace ( k = 61 independent samples, N = 40,134). Results showed that stereotype threat was positively related to exhaustion, identity separation, negative affect, turnover intentions, and behavioral coping, and negatively related to career aspirations, job satisfaction, organizational commitment, job engagement, job performance, positive affect, self-efficacy, and work authenticity. In addition, moderator analyses for constructs represented in at least k = 10 samples in the focal analyses showed that relations did not differ for measures of stereotype threat and stigma consciousness. However, the negative relationships between stereotype threat and career aspirations, job satisfaction, and job engagement were stronger for older employees compared with female employees as the stereotyped group. Overall, the findings suggest that stereotype threat constitutes an important stressor in the workplace.",
+          "url": "https://doi.org/10.1177/01461672241297884",
+          "doi": "https://doi.org/10.1177/01461672241297884",
+          "filter": 0
+        },
+        {
+          "title": "The Aversive Racism Theory of Cultural Appropriation: Attributions of Target Intent Suppresses Evaluations of Intergroup Harm",
+          "authors": "Ariel J. Mosley",
+          "abstract": "This research investigates whether racially dominant (White) and minoritized group members (Black) differentially evaluate intergroup harm in ambiguous (vs. overt) acts of cultural appropriation (the aversive racism hypothesis), due to attributions of positive intentions to the target (the intent as justification hypothesis). Four experiments ( N = 1,020, 3 preregistered) and an internal meta-analysis converge to demonstrate that White perceivers evaluated less harm than Black perceivers in ambiguous acts of cultural appropriation. Attributions of positive intent served as a mechanism underlying this effect; naturally occurring variations in positive intent mediated the link between participant race and harm evaluations (Studies 2 and 3), and experimentally manipulating target intent altered harm evaluations as well as motivations for collective action (Study 4). Findings integrate work from multiple academic disciplines with insights from contemporary theories of prejudice to suggest that perceivers’ attributions of positive intent can obscure their evaluations of harm in acts of cultural appropriation.",
+          "url": "https://doi.org/10.1177/01461672241292427",
+          "doi": "https://doi.org/10.1177/01461672241292427",
           "filter": 0
         }
       ],
