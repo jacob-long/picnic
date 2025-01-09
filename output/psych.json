@@ -1,107 +1,127 @@
 {
-  "update": "2024-12-17",
+  "update": "2025-01-09",
   "content": [
-    {
-      "journal_full": "Advances in Methods and Practices in Psychological Science",
-      "journal_short": "AMPPS",
-      "articles": [
-        {
-          "title": "A Tutorial on Tailored Simulation-Based Sample-Size Planning for Experimental Designs With Generalized Linear Mixed Models",
-          "authors": "Florian Pargent, Timo K. Koch, Anne-Kathrin Kleine, Eva Lermer, Susanne Gaube",
-          "abstract": "When planning experimental research, determining an appropriate sample size and using suitable statistical models are crucial for robust and informative results. The recent replication crisis underlines the need for more rigorous statistical methodology and adequately powered designs. Generalized linear mixed models (GLMMs) offer a flexible statistical framework to analyze experimental data with complex (e.g., dependent and hierarchical) data structures. However, available methods and software for a priori sample-size planning for GLMMs are often limited to specific designs. Tailored data-simulation approaches offer a more flexible alternative. Based on a practical case study in which we focus on a binomial GLMM with two random intercepts and discrete predictor variables, the current tutorial equips researchers with a step-by-step guide and corresponding code for conducting tailored a priori sample-size planning with GLMMs. We not only focus on power analysis but also explain how to use the precision of parameter estimates to determine appropriate sample sizes. We conclude with an outlook on the increasing importance of simulation-based sample-size planning.",
-          "url": "https://doi.org/10.1177/25152459241287132",
-          "doi": "https://doi.org/10.1177/25152459241287132",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "Dance with me? Analyzing interpersonal synchrony and quality of interaction during joint dance",
-          "authors": "Noemí Grinspun, Eden Landesman, Yonnhatan García, Tal-Chen Rabinowitch",
-          "abstract": "This methodological paper examines the assessment of interpersonal synchrony during a joint dancing task between mothers and their children (aged 4 to 5 years) using OpenPose. This pose estimation tool captures movement in naturalistic settings. The study analyzes 45 mother–child dyads, comparing two analytical methods for assessing synchrony, and examines their correlation with the Coding Interactive Behavior (CIB) measure of interaction quality. The first method employs cross-wavelet transform (CWT) coherence to assess synchrony based on vertical head movement. This straightforward and computationally efficient approach reveals a significant correlation between interpersonal synchrony and CIB scores, thus implying its potential as a reliable indicator of interaction quality and suggesting its potential as a measure of interaction quality. The second method, the generalized cross-wavelet transform (GCWT), analyzes synchrony across multiple body parts, offering a more complex and detailed analysis of interpersonal dynamics. However, it did not significantly correlate with the CIB scores. Our findings suggest that focusing on head movement using CWT can effectively capture critical elements of interpersonal synchrony linked to interaction quality. In contrast, despite its richness, the more complex GCWT approach may not align as closely with observed interactive behaviors as the CIB scores indicate. This study underscores the need to balance methodological complexity and ecological validity in research, offering insights into selecting analytical techniques based on research objectives and the nuances of interpersonal dynamics. Our results contribute to the field of interpersonal synchrony research, emphasizing the benefits of efficient methods in understanding mother–child interactions and interaction relationships in general.",
-          "url": "https://doi.org/10.3758/s13428-024-02563-5",
-          "doi": "https://doi.org/10.3758/s13428-024-02563-5",
+          "title": "The Visual Integration of Semantic and Spatial Information of Objects in Naturalistic Scenes (VISIONS) database: attentional, conceptual, and perceptual norms",
+          "authors": "Elena Allegretti, Giorgia D’Innocenzo, Moreno I. Coco",
+          "url": "https://doi.org/10.3758/s13428-024-02535-9",
+          "doi": "https://doi.org/10.3758/s13428-024-02535-9",
           "filter": 0
         },
         {
-          "title": "DerLex: An eye-movement database of derived word reading in English",
-          "authors": "Daniel Schmidtke, Julie A. Van Dyke, Victor Kuperman",
-          "url": "https://doi.org/10.3758/s13428-024-02565-3",
-          "doi": "https://doi.org/10.3758/s13428-024-02565-3",
+          "title": "Perception of emotion across cultures: Norms of valence, arousal, and sensory experience for 4923 Chinese words translated from English in Warriner et al. (2013)",
+          "authors": "Wei Yi, Haitao Xu, Kaiwen Man",
+          "url": "https://doi.org/10.3758/s13428-024-02580-4",
+          "doi": "https://doi.org/10.3758/s13428-024-02580-4",
           "filter": 0
         },
         {
-          "title": "The forced-response method: A new chronometric approach to measure conflict processing",
-          "authors": "Taraz G. Lee, Jacob Sellers, John Jonides, Han Zhang",
-          "url": "https://doi.org/10.3758/s13428-024-02516-y",
-          "doi": "https://doi.org/10.3758/s13428-024-02516-y",
+          "title": "How accurately can we estimate spontaneous body kinematics from video recordings? Effect of movement amplitude on OpenPose accuracy",
+          "authors": "Atesh Koul, Giacomo Novembre",
+          "abstract": "Estimating how the human body moves in space and time—body kinematics—has important applications for industry, healthcare, and several research fields. Gold-standard methodologies capturing body kinematics are expensive and impractical for naturalistic recordings as they rely on infrared-reflective wearables and bulky instrumentation. To overcome these limitations, several algorithms have been developed to extract body kinematics from plain video recordings. This comes with a drop in accuracy, which however has not been clearly quantified. To fill this knowledge gap, we analysed a dataset comprising 46 human participants exhibiting spontaneous movements of varying amplitude. Body kinematics were estimated using OpenPose (video-based) and Vicon (infrared-based) motion capture systems simultaneously. OpenPose accuracy was assessed using Vicon estimates as ground truth. We report that OpenPose accuracy is overall moderate and varies substantially across participants and body parts. This is explained by variability in movement amplitude. OpenPose estimates are weak for low-amplitude movements. Conversely, large-amplitude movements (i.e., &gt; ~ 10 cm) yield highly accurate estimates. The relationship between accuracy and movement amplitude is not linear (but mostly exponential or power) and relatively robust to camera–body distance. Together, these results dissect the limits of video-based motion capture and provide useful guidelines for future studies.",
+          "url": "https://doi.org/10.3758/s13428-024-02546-6",
+          "doi": "https://doi.org/10.3758/s13428-024-02546-6",
           "filter": 0
         },
         {
-          "title": "The power of effect size stabilization",
-          "authors": "Benjamin Kowialiewski",
-          "url": "https://doi.org/10.3758/s13428-024-02549-3",
-          "doi": "https://doi.org/10.3758/s13428-024-02549-3",
+          "title": "Quantitative comparison of a mobile, tablet-based eye-tracker and two stationary, video-based eye-trackers",
+          "authors": "Aylin König, Uwe Thomas, Frank Bremmer, Stefan Dowiasch",
+          "abstract": "The analysis of eye movements is a noninvasive, reliable and fast method to detect and quantify brain (dys)function. Here, we investigated the performance of two novel eye-trackers—the Thomas Oculus Motus-research mobile (TOM-rm) and the TOM-research stationary (TOM-rs)—and compared them with the performance of a well-established video-based eye-tracker, i.e., the EyeLink 1000 Plus (EL). The TOM-rm is a fully integrated, tablet-based mobile device that presents visual stimuli and records head-unrestrained eye movements at 30 Hz without additional infrared illumination. The TOM-rs is a stationary, video-based eye-tracker that records eye movements at either high spatial or high temporal resolution. We compared the performance of all three eye-trackers in two different behavioral tasks: pro- and anti-saccade and free viewing. We collected data from 30 human subjects while running all three eye-tracking devices in parallel. Parameters requiring a high spatial or temporal resolution (e.g., saccade latency or gain), as derived from the data, differed significantly between the EL and the TOM-rm in both tasks. Differences between results derived from the TOM-rs and the EL were most likely due to experimental conditions, which could not be optimized for both systems simultaneously. We conclude that the TOM-rm can be used for measuring basic eye-movement parameters, such as the error rate in a typical pro- and anti-saccade task, or the number and position of fixations in a visual foraging task, reliably at comparably low spatial and temporal resolution. The TOM-rs, on the other hand, can provide high-resolution oculomotor data at least on a par with an established reference system.",
+          "url": "https://doi.org/10.3758/s13428-024-02542-w",
+          "doi": "https://doi.org/10.3758/s13428-024-02542-w",
           "filter": 0
         },
         {
-          "title": "Cross-species real-time detection of trends in pupil size fluctuation",
-          "authors": "Sharif I. Kronemer, Victoria E. Gobo, Catherine R. Walsh, Joshua B. Teves, Diana C. Burk, Somayeh Shahsavarani, Javier Gonzalez-Castillo, Peter A. Bandettini",
-          "abstract": "Pupillometry is a popular method because pupil size is easily measured and sensitive to central neural activity linked to behavior, cognition, emotion, and perception. Currently, there is no method for online monitoring phases of pupil size fluctuation. We introduce rtPupilPhase —an open-source software that automatically detects trends in pupil size in real time. This tool enables novel applications of real-time pupillometry for achieving numerous research and translational goals. We validated the performance of rtPupilPhase on human, rodent, and monkey pupil data, and we propose future implementations of real-time pupillometry.",
-          "url": "https://doi.org/10.3758/s13428-024-02545-7",
-          "doi": "https://doi.org/10.3758/s13428-024-02545-7",
+          "title": "Expansion of the SyllabO+ corpus and database: Words, lemmas, and morphology",
+          "authors": "Noémie Auclair-Ouellet, Alexandra Lavoie, Pascale Bédard, Alexandra Barbeau-Morrison, Patrick Drouin, Pascale Tremblay",
+          "url": "https://doi.org/10.3758/s13428-024-02582-2",
+          "doi": "https://doi.org/10.3758/s13428-024-02582-2",
           "filter": 0
         },
         {
-          "title": "Toward an Asian-based bodily movement database for emotional communication",
-          "authors": "Miao Cheng, Chia-huei Tseng, Ken Fujiwara, Shoi Higashiyama, Abby Weng, Yoshifumi Kitamura",
-          "abstract": "Most current databases for bodily emotion expression are created in Western countries, resulting in culturally skewed representations. To address the obvious risk this bias poses to academic comprehension, we attempted to expand the current repertoire of human bodily emotions by recruiting Asian professional performers to wear whole-body suits with 57 retroreflective markers attached to major joints and body segments, and express seven basic emotions with whole-body movements in a motion-capture lab. For each emotion, actors performed three self-created scenarios that covered a broad range of real-life events to elicit the target emotion within 2–5 seconds. Subsequently, a separate group of participants was invited to judge the perceived emotional category from the extracted biological motions (point-light displays with 18 or 57 markers). The results demonstrated that the emotion discrimination accuracy was comparable to Western databases containing standardized performance scenarios. The results provide a significant step toward establishing a database using a novel emotional induction approach based on personalized scenarios. This database will contribute to a more comprehensive understanding of emotional expression across diverse contexts.",
-          "url": "https://doi.org/10.3758/s13428-024-02558-2",
-          "doi": "https://doi.org/10.3758/s13428-024-02558-2",
+          "title": "Semantic alignment: A measure to quantify the degree of semantic equivalence for English–Chinese translation equivalents based on distributional semantics",
+          "authors": "Yufeng Liu, Shifa Chen, Yi Yang",
+          "url": "https://doi.org/10.3758/s13428-024-02527-9",
+          "doi": "https://doi.org/10.3758/s13428-024-02527-9",
           "filter": 0
         },
         {
-          "title": "Predicting high variability in imageability ratings across age groups and its influence on visual word recognition",
-          "authors": "Sandra Aka, Stéphanie Mathey",
-          "url": "https://doi.org/10.3758/s13428-024-02520-2",
-          "doi": "https://doi.org/10.3758/s13428-024-02520-2",
+          "title": "Testing measurement invariance in a conditional likelihood framework by considering multiple covariates simultaneously",
+          "authors": "Clemens Draxler, Andreas Kurz",
+          "abstract": "This article addresses the problem of measurement invariance in psychometrics. In particular, its focus is on the invariance assumption of item parameters in a class of models known as Rasch models. It suggests a mixed-effects or random intercept model for binary data together with a conditional likelihood approach of both estimating and testing the effects of multiple covariates simultaneously. The procedure can also be viewed as a multivariate multiple regression analysis which can be applied in longitudinal designs to investigate effects of covariates over time or different experimental conditions. This work also derives four statistical tests based on asymptotic theory and a parameter-free test suitable in small sample size scenarios. Finally, it outlines generalizations for categorical data in more than two categories. All procedures are illustrated on real-data examples from behavioral research and on a hypothetical data example related to clinical research in a longitudinal design.",
+          "url": "https://doi.org/10.3758/s13428-024-02551-9",
+          "doi": "https://doi.org/10.3758/s13428-024-02551-9",
           "filter": 0
         },
         {
-          "title": "Motor styles in action: Developing a computational framework for operationalization of motor distances",
-          "authors": "Jordi Manuello, Camilla Maronati, Matilde Rocca, Riccardo Guidotti, Tommaso Costa, Andrea Cavallo",
-          "abstract": "Aside from some common movement regularities, significant inter-individual and inter-trial variation within the same individual exists in motor system output. However, there is still a lack of a robust and widely adopted solution for quantifying the degree of similarity between movements. We therefore developed an innovative approach based on the Procrustes transformation to compute 'motor distance' between pairs of kinematic data. As a proof of concept, we tested this on a dataset of reach-to-grasp movements performed by 16 participants while acting with the same confederate. Using the information of wrist velocity, acceleration, and jerk, the proposed technique was able to correctly estimate smaller distances between movements performed by the confederate compared with those of participants. Moreover, the reconstructed pattern of inter-subject distances was consistent when computed either on precision grip prehension or whole hand prehension, suggesting its suitability for the investigation of 'motor styles'. The definition of a solid approach to 'motor distance' computation, therefore, opens the way to new research lines in the field of movement kinematics.",
-          "url": "https://doi.org/10.3758/s13428-024-02530-0",
-          "doi": "https://doi.org/10.3758/s13428-024-02530-0",
+          "title": "Large language models can segment narrative events similarly to humans",
+          "authors": "Sebastian Michelmann, Manoj Kumar, Kenneth A. Norman, Mariya Toneva",
+          "url": "https://doi.org/10.3758/s13428-024-02569-z",
+          "doi": "https://doi.org/10.3758/s13428-024-02569-z",
           "filter": 0
         },
         {
-          "title": "The PSR corpus: A Persian sentence reading corpus of eye movements",
-          "authors": "Zohre Soleymani Tekbudak, Mehdi Purmohammad, Ayşegül Özkan, Cengiz Acartürk",
-          "abstract": "The present study introduces the Persian Sentence Reading (PSR) Corpus, aiming to expand empirical data for Persian, an under-investigated language in research on oculomotor control in reading. Reading research has largely focused on Latin script languages with a left-to-right reading direction. However, languages with different reading directions, such as right-to-left and top-to-bottom, and particularly Persian script-based languages like Farsi and Dari, have remained understudied. This study pioneers in providing an eye movement dataset for reading Persian sentences, enabling further exploration of the influences of unique Persian characteristics on eye movement patterns during sentence reading. The core objective of the study is to provide data about how word characteristics impact eye movement patterns. The research also investigates the characteristics of the interplay between neighboring words and eye movements on them. By broadening the scope of reading research beyond commonly studied languages, the study aims to contribute to an interdisciplinary approach to reading research, exemplifying investigations through various theoretical and methodological perspectives.",
-          "url": "https://doi.org/10.3758/s13428-024-02517-x",
-          "doi": "https://doi.org/10.3758/s13428-024-02517-x",
+          "title": "Trace: A research media player measuring real-time audience engagement",
+          "authors": "Ana Levordashka, Mike Richardson, Rebecca J. Hirst, Iain D. Gilchrist, Danaë Stanton Fraser",
+          "abstract": "Measuring attention and engagement is essential for understanding a wide range of psychological phenomena. Advances in technology have made it possible to measure real-time attention to naturalistic stimuli, providing ecologically valid insight into temporal dynamics. We developed a research protocol called Trace , which records anonymous facial landmarks, expressions, and patterns of movement associated with engagement in screen-based media. Trace runs in a standard internet browser and resembles a contemporary media player. It is embedded in the open-source package PsychoJS (the JavaScript sister library of PsychoPy) hosted via Pavlovia, and can be integrated with a wide range of behavioral research methods. Developed over multiple iterations and tested with over 200 participants in three studies, including the official broadcast of a major theatre production, Trace is a powerful, user-friendly protocol allowing behavioral researchers to capture audience attention and engagement in screen-based media as part of authentic, ecologically valid audience experiences.",
+          "url": "https://doi.org/10.3758/s13428-024-02522-0",
+          "doi": "https://doi.org/10.3758/s13428-024-02522-0",
           "filter": 0
         },
         {
-          "title": "The fundamentals of eye tracking part 1: The link between theory and research question",
-          "authors": "Roy S. Hessels, Antje Nuthmann, Marcus Nyström, Richard Andersson, Diederick C. Niehorster, Ignace T. C. Hooge",
-          "abstract": "Eye tracking technology has become increasingly prevalent in scientific research, offering unique insights into oculomotor and cognitive processes. The present article explores the relationship between scientific theory, the research question, and the use of eye-tracking technology. It aims to guide readers in determining if eye tracking is suitable for their studies and how to formulate relevant research questions. Examples from research on oculomotor control, reading, scene perception, task execution, visual expertise, and instructional design are used to illustrate the connection between theory and eye-tracking data. These examples may serve as inspiration to researchers new to eye tracking. In summarizing the examples, three important considerations emerge: (1) whether the study focuses on describing eye movements or uses them as a proxy for e.g., perceptual, or cognitive processes, (2) the logical chain from theory to predictions, and (3) whether the study is of an observational or idea-testing nature. We provide a generic scheme and a set of specific questions that may help researchers formulate and explicate their research question using eye tracking.",
-          "url": "https://doi.org/10.3758/s13428-024-02544-8",
-          "doi": "https://doi.org/10.3758/s13428-024-02544-8",
+          "title": "Quantifying sighting dominance using on-display projections of monocular and binocular views",
+          "authors": "Giuseppe Notaro, Uri Hasson",
+          "url": "https://doi.org/10.3758/s13428-024-02512-2",
+          "doi": "https://doi.org/10.3758/s13428-024-02512-2",
           "filter": 0
         },
         {
-          "title": "BRAND: Brand recognition and attitude norms database",
-          "authors": "Carolina Raffaelli, Elena Bocchi, Zachary Estes, James S. Adelman",
-          "abstract": "Research involving brands has increased substantially in recent decades. However, no extensive and free dataset of consumer responses to branding stimuli exists. The present research develops and validates such a dataset, which we call the Brand Recognition and Attitude Norms Database ( BRAND ). BRAND is the most comprehensive set of methodologically transparent, freely available, research-relevant consumer responses to branding stimuli, with measures of familiarity (awareness), liking (attitudes), and memory (recognition) of more than 500 top brands and their logos, spanning 32 industries. BRAND includes 5,356 primary datapoints aggregated from 244,400 raw datapoints (i.e., individual familiarity, liking, and memory responses) collected from 2000 US-resident consumers in 2 years (i.e., 2020 and 2024). The data exhibit good reliability, face validity, external validity, robustness across samples and time, cross-validity, and discriminant validity. BRAND can be broadly useful for testing hypotheses involving responses to brands, and for selecting stimuli in any study involving brands or logos. Thus, BRAND can facilitate research not only in consumer behavior and psychology but also in several related academic disciplines (e.g., economics, management, marketing).",
-          "url": "https://doi.org/10.3758/s13428-024-02525-x",
-          "doi": "https://doi.org/10.3758/s13428-024-02525-x",
+          "title": "Validation of the Emotionally Congruent and Incongruent Face–Body Static Set (ECIFBSS)",
+          "authors": "Anne-Sophie Puffet, Simon Rigoulot",
+          "url": "https://doi.org/10.3758/s13428-024-02550-w",
+          "doi": "https://doi.org/10.3758/s13428-024-02550-w",
+          "filter": 0
+        },
+        {
+          "title": "A normative database of Swahili–Chinese paired associates",
+          "authors": "Tian Fan, Wenbo Zhao, Bukuan Sun, Shaohang Liu, Yue Yin, Muzi Xu, Xiao Hu, Chunliang Yang, Liang Luo",
+          "url": "https://doi.org/10.3758/s13428-024-02531-z",
+          "doi": "https://doi.org/10.3758/s13428-024-02531-z",
+          "filter": 0
+        },
+        {
+          "title": "The fundamentals of eye tracking part 4: Tools for conducting an eye tracking study",
+          "authors": "Diederick C. Niehorster, Marcus Nyström, Roy S. Hessels, Richard Andersson, Jeroen S. Benjamins, Dan Witzner Hansen, Ignace T. C. Hooge",
+          "abstract": "Researchers using eye tracking are heavily dependent on software and hardware tools to perform their studies, from recording eye tracking data and visualizing it, to processing and analyzing it. This article provides an overview of available tools for research using eye trackers and discusses considerations to make when choosing which tools to adopt for one’s study.",
+          "url": "https://doi.org/10.3758/s13428-024-02529-7",
+          "doi": "https://doi.org/10.3758/s13428-024-02529-7",
+          "filter": 0
+        },
+        {
+          "title": "Reliability and validity of four cognitive interpretation bias measures in the context of social anxiety",
+          "authors": "Sascha B. Duken, Jun Moriya, Colette Hirsch, Marcella L. Woud, Bram van Bockstaele, Elske Salemink",
+          "abstract": "People with social anxiety disorder tend to interpret ambiguous social information in a negative rather than positive manner. Such interpretation biases may cause and maintain anxiety symptoms. However, there is considerable variability in the observed effects across studies, with some not finding a relationship between interpretation biases and social anxiety. Poor psychometric properties of interpretation bias measures may explain such inconsistent findings. We evaluated the internal consistency, test–retest reliability, convergent validity, and concurrent validity of four interpretation bias measures, ranging from more implicit and automatic to more explicit and reflective: the probe scenario task, the recognition task, the scrambled sentences task, and the interpretation and judgmental bias questionnaire. Young adults ( N = 94) completed interpretation bias measures in two sessions separated by one week. Psychometric properties were poor for the probe scenario and not acceptable for the recognition task. The reliability of the scrambled sentences task and the interpretation and judgmental bias questionnaire was good, and they correlated highly with social anxiety and each other, supporting their concurrent and convergent validity. However, there are methodological challenges that should be considered when measuring interpretation biases, even if psychometric indices suggest high measurement validity. We also discuss likely reasons for poor psychometric properties of some tasks and suggest potential solutions to improve the assessment of implicit and automatic biases in social anxiety in future research.",
+          "url": "https://doi.org/10.3758/s13428-024-02576-0",
+          "doi": "https://doi.org/10.3758/s13428-024-02576-0",
+          "filter": 0
+        },
+        {
+          "title": "The Beyond Reality Image Collection (BRIC)",
+          "authors": "Noga Segal-Gordon, Yoav Bar-Anan",
+          "abstract": "The Beyond Reality Image Collection (BRIC) is a set of 648 photos, some painted by an artist and some generated by artificial intelligence. Unlike previous photosets, the BRIC focused on nonrealistic visuals. This collection includes abstract and non-abstract paintings and nonrealistic photographs depicting objects, scenes, animals, humans, and fantastical creatures with varying degrees of unreal elements. We collected evaluative ratings of the photos, using a convenience sample of 16,208 participants in a total of 25,321 sessions. We used multiple evaluation measures: binary positive/negative and like/dislike categorization, seven-point ratings on these attributes, both under no time pressure and under time pressure, and evaluative priming scores. The mean evaluation of the photos on the different measures was highly correlated, but some photos consistently elicited a discrepant evaluative reaction between the measures. The BRIC is a valuable resource for eliciting evaluative reactions and can contribute to research on evaluative processes and affective responses.",
+          "url": "https://doi.org/10.3758/s13428-024-02586-y",
+          "doi": "https://doi.org/10.3758/s13428-024-02586-y",
+          "filter": 0
+        },
+        {
+          "title": "A multiverse assessment of the reliability of the self-matching task as a measurement of the self-prioritization effect",
+          "authors": "Zheng Liu, Mengzhen Hu, Yuanrui Zheng, Jie Sui, Hu Chuan-Peng",
+          "url": "https://doi.org/10.3758/s13428-024-02538-6",
+          "doi": "https://doi.org/10.3758/s13428-024-02538-6",
           "filter": 0
         }
       ],
@@ -112,104 +132,38 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "SBoCF: A deep learning-based sequential bag of convolutional features for human behavior quantification",
-          "authors": "Baoli Lu, Dinghuang Zhang, Dalin Zhou, Achyut Shankar, Fahad Alasim, Mustufa Haider Abidi",
-          "url": "https://doi.org/10.1016/j.chb.2024.108534",
-          "doi": "https://doi.org/10.1016/j.chb.2024.108534",
+          "title": "Elevated loss sensitivity in the reward circuit in adolescents with video game but not social media addiction",
+          "authors": "Xu He, Yu Chen, Wei Zhang, Chiang-Shan R. Li",
+          "url": "https://doi.org/10.1016/j.chb.2025.108554",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108554",
           "filter": 0
         },
         {
-          "title": "The Curvilinear Effects of Relative Positions in Smartphone App Leaderboards on Physical Activity",
-          "authors": "Yanxiang Yang, Joerg Koenigstorfer",
-          "url": "https://doi.org/10.1016/j.chb.2024.108532",
-          "doi": "https://doi.org/10.1016/j.chb.2024.108532",
+          "title": "Just A Few More Minutes: Longitudinal and Cross-National Perspectives on the Role of Online Identity Bubbles in Addictive Internet Use",
+          "authors": "Iina Savolainen, Julia Brailovskaia, Anu Sirola, Magdalena Celuch, Atte Oksanen",
+          "url": "https://doi.org/10.1016/j.chb.2025.108555",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108555",
           "filter": 0
         },
         {
-          "title": "Neuromodulation via tRNS accelerates learning and enhances in-game performance at a Virtual-Reality First Person Shooter game",
-          "authors": "Francesco Neri, Jacopo Della Toffola, Adriano Scoccia, Alberto Benelli, Francesco Lomi, Alessandra Cinti, Carmelo Luca Smeralda, Sara Romanella, Alessandro Giannotta, Simone Rossi, Emiliano Santarnecchi",
-          "url": "https://doi.org/10.1016/j.chb.2024.108537",
-          "doi": "https://doi.org/10.1016/j.chb.2024.108537",
+          "title": "The Influence of Mobile Augmented Reality on Consumer Behavior: Insights into Affective, Cognitive, and Behavioral Responses",
+          "authors": "Naveen L, Md Irfanuzzaman Khan, Md Abu Saleh, Rabi Narayan Subudhi",
+          "url": "https://doi.org/10.1016/j.chb.2025.108558",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108558",
           "filter": 0
         },
         {
-          "title": "Deprivation’s role in adolescent social media use and its links to life satisfaction",
-          "authors": "Sebastian Kurten, Sakshi Ghai, Candice Odgers, Rogier A. Kievit, Amy Orben",
-          "url": "https://doi.org/10.1016/j.chb.2024.108541",
-          "doi": "https://doi.org/10.1016/j.chb.2024.108541",
+          "title": "Is speed-watching a good idea? Potential metacognitive complications of watching instructional videos at faster speeds.",
+          "authors": "Jode Keehr, Richard Reardon",
+          "url": "https://doi.org/10.1016/j.chb.2025.108556",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108556",
           "filter": 0
         },
         {
-          "title": "Tell Me More: Longitudinal Relationships Between Online Self-Disclosure, Co-Rumination, and Psychological Well-Being",
-          "authors": "Anja Stevic, Kevin Koban, Jörg Matthes",
-          "url": "https://doi.org/10.1016/j.chb.2024.108540",
-          "doi": "https://doi.org/10.1016/j.chb.2024.108540",
-          "filter": 0
-        },
-        {
-          "title": "Google knows me too well! Coping with perceived surveillance in an algorithmic profiling context",
-          "authors": "Dong Zhang, Joanna Strycharz, Sophie C. Boerman, Theo Araujo, Hilde Voorveld",
-          "url": "https://doi.org/10.1016/j.chb.2024.108536",
-          "doi": "https://doi.org/10.1016/j.chb.2024.108536",
-          "filter": 0
-        },
-        {
-          "title": "Opting out in computer-supported sequential collaboration",
-          "authors": "Maren Mayer, Daniel W. Heck, Joachim Kimmerle",
-          "url": "https://doi.org/10.1016/j.chb.2024.108527",
-          "doi": "https://doi.org/10.1016/j.chb.2024.108527",
-          "filter": 0
-        },
-        {
-          "title": "The AI Interface: Designing for the Ideal Machine-Human Experience",
-          "authors": "Aparna Sundar, Tony Russell-Rose, Udo Kruschwitz, Karen Machleit",
-          "url": "https://doi.org/10.1016/j.chb.2024.108539",
-          "doi": "https://doi.org/10.1016/j.chb.2024.108539",
-          "filter": 0
-        },
-        {
-          "title": "Team Adaptive Performance in the Metaverse workspace: Team cohesion as a mediator",
-          "authors": "Samprada Dekate, Prashant Mehta",
-          "url": "https://doi.org/10.1016/j.chb.2024.108535",
-          "doi": "https://doi.org/10.1016/j.chb.2024.108535",
-          "filter": 0
-        },
-        {
-          "title": "Modeling AI-assisted writing: How self-regulated learning influences writing outcomes",
-          "authors": "Fangzhou Jin, Chin-Hsi Lin, Chun Lai",
-          "url": "https://doi.org/10.1016/j.chb.2024.108538",
-          "doi": "https://doi.org/10.1016/j.chb.2024.108538",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Group Processes & Intergroup Relations",
-      "journal_short": "GPIR",
-      "articles": [
-        {
-          "title": "Longitudinal effects of helping war refugees on intergroup threat and fear of war: The role of perceived helping functionality",
-          "authors": "Małgorzata Kossowska, Hoi-Wing Chan, Ying Yi Hong, Ewa Szumowska",
-          "abstract": "This study investigates the longitudinal effects of aiding war refugees on perceptions of intergroup threat and the prospective fear of being affected by military conflict. We hypothesized that engaging in helping behaviors directed towards refugees would prompt individuals to perceive these actions as serving vital self-functions (i.e., satisfying basic psychological needs), which, in turn, could potentially mitigate the intergroup threat perceived in relation to the refugees while amplifying the prospective fear of potential warfare. Data were collected over three waves of a panel study during the initial 2 months of the refugee crisis in Poland arising from Russia’s invasion of Ukraine. Our findings reveal that providing assistance to war refugees at Time 1 resulted in greater perceived personal benefits of helping at Time 2. This enhanced perceived functionality of helping subsequently predicted diminished intergroup refugee threat perceptions (both realistic and symbolic), but also heightened fear levels concerning the potential impact of war at Time 3. These results were consistent across models accounting for lagged-1 and more stringent lagged-2 autoregressive effects. Importantly, the observed temporal relationships regarding realistic threat and fear of war were less robust against individual difference factors. These findings enrich the ongoing discourse on the impacts of aiding individuals fleeing conflict zones and how beliefs about the purpose of such means of assistance shape constructive intergroup relations.",
-          "url": "https://doi.org/10.1177/13684302241297927",
-          "doi": "https://doi.org/10.1177/13684302241297927",
-          "filter": 0
-        },
-        {
-          "title": "Does ethnoracial context diversity predict implicit associations of sexual orientation? Evidence from linked Census Bureau and Implicit Association Test data",
-          "authors": "Mehrgol Tiv, Cody Spence",
-          "abstract": "We examined whether exposure to context diversity in one domain relates to mental associations in another social domain. County-level metrics of racial diversity and segregation computed from restricted-use U.S. Census Bureau American Community Survey data were linked to a geolocated measure of sexual orientation implicit bias from over 825,000 respondents across the United States (2015–2021). Multilevel models revealed that living in more racially diverse counties was related to less stereotypic implicit associations of sexual orientation, and this relationship was moderated by racial segregation. This primary result was evaluated through a series of robustness checks. Weighted models accounting for the nonrepresentative nature of the sample revealed a robust association with diversity but not an interaction with segregation. The negative relationship with diversity was also replicated on a different Implicit Association Test (IAT) measuring implicit attitudes to disability, but the interaction with segregation was again insignificant. These results support the hypothesis that exposure to social diversity in one domain can generalize to intergroup attitudes in another domain. These results also highlight the dynamic interaction between an individual and their social environment, bolstering the need for socially contextualized research on human cognition.",
-          "url": "https://doi.org/10.1177/13684302241290919",
-          "doi": "https://doi.org/10.1177/13684302241290919",
-          "filter": 0
-        },
-        {
-          "title": "Proactivity punished: Nativist bias in advice seeking",
-          "authors": "Denis Trapido",
-          "abstract": "This study theorizes a nativist bias in interpersonal advice seeking within organizations and empirically assesses its effects. Extending the existing discrimination and social networks research, I argue that the effects of nativism—a bias against foreigners—in advice seeking and other network relations cannot be validly inferred from native/nonnative outcome inequalities. Instead, the effects of nativism in social networks are revealed in natives’ asymmetric behaviors and attitudes that disadvantage nonnatives. It is hypothesized that, other things being equal, natives seek task-related advice across the nativity divide less frequently than nonnatives do. In another manifestation of nativism, native advice seeking targets perceive nonnatives who seek their advice as less competent than those nonnatives who do not seek their advice. Consistent evidence of these patterns was found in four separate networks of working professionals. These findings have implications for the study of discriminatory biases in social networks and for countering such biases in organizational and educational settings.",
-          "url": "https://doi.org/10.1177/13684302241297929",
-          "doi": "https://doi.org/10.1177/13684302241297929",
+          "title": "Advanced theory of mind predicts adolescents’ evaluation of source benevolence while reading",
+          "authors": "Yann Dyoniziak, Anna Potocki, Morgane Burnel, Mônica Macedo-Rouet, Jean-François Rouet",
+          "url": "https://doi.org/10.1016/j.chb.2024.108552",
+          "doi": "https://doi.org/10.1016/j.chb.2024.108552",
           "filter": 0
         }
       ],
@@ -220,10 +174,24 @@
       "journal_short": "JESP",
       "articles": [
         {
-          "title": "It is not only whether I approach but also why I approach: A registered report on the role of action framing in approach/avoidance training effects",
-          "authors": "Marine Rougier, Mathias Schmitz, Ivane Nuel, Marie-Pierre Fayant, Baptiste Subra, Theodore Alexopoulos, Vincent Yzerbyt",
-          "url": "https://doi.org/10.1016/j.jesp.2024.104697",
-          "doi": "https://doi.org/10.1016/j.jesp.2024.104697",
+          "title": "“Black-and-White” thinking: Does visual contrast polarize moral judgment? Independent replications and extension of Study 1",
+          "authors": "Kevin Vezirian, Elisa Sarda, Laurent Bègue, Pierre-Jean Laine, Hans IJzerman",
+          "url": "https://doi.org/10.1016/j.jesp.2024.104712",
+          "doi": "https://doi.org/10.1016/j.jesp.2024.104712",
+          "filter": 0
+        },
+        {
+          "title": "Empathic listening satisfies speakers' psychological needs and well-being, but doesn't directly deepen solitude experiences: A registered report",
+          "authors": "Netta Weinstein, Guy Itzchakov",
+          "url": "https://doi.org/10.1016/j.jesp.2024.104716",
+          "doi": "https://doi.org/10.1016/j.jesp.2024.104716",
+          "filter": 0
+        },
+        {
+          "title": "The impact factor: The effect of actual impact information and perceived donation efficacy on donors' repeated donations",
+          "authors": "Liat Levontin, Zohar Gilad, Elizabeth Durango-Cohen, Pablo Durango-Cohen",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104720",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104720",
           "filter": 0
         }
       ],
@@ -234,67 +202,10 @@
       "journal_short": "JPSP",
       "articles": [
         {
-          "title": "Prejudice and stereotypes at regional and individual levels: Related but distinct.",
-          "authors": "Jennifer Suliteanu, Eugene K. Ofosu, Ana Paquin Domingues, Eric Hehman",
-          "url": "https://doi.org/10.1037/pspa0000433",
-          "doi": "https://doi.org/10.1037/pspa0000433",
-          "filter": 0
-        },
-        {
-          "title": "Unlocking the bitter potential of nostalgia: Covariation between and causal effects of nostalgia on envy.",
-          "authors": "David B. Newman, Paul K. Lutz, Matthew E. Sachs, John M. Zelenski",
-          "url": "https://doi.org/10.1037/pspp0000529",
-          "doi": "https://doi.org/10.1037/pspp0000529",
-          "filter": 0
-        },
-        {
-          "title": "Ideas worth spreading? When, how, and for whom information load hurts online talks’ popularity.",
-          "authors": "Amir Sepehri, Rod Duclos, Nasir Haghighi",
-          "url": "https://doi.org/10.1037/pspa0000430",
-          "doi": "https://doi.org/10.1037/pspa0000430",
-          "filter": 0
-        },
-        {
-          "title": "Meaning-making with romantic partners: Shared reality promotes meaning in life by reducing uncertainty.",
-          "authors": "M. Catalina Enestrom, Maya Rossignac-Milon, Amanda L. Forest, John E. Lydon",
-          "url": "https://doi.org/10.1037/pspi0000472",
-          "doi": "https://doi.org/10.1037/pspi0000472",
-          "filter": 0
-        },
-        {
-          "title": "Basic personality and actual criminal convictions.",
-          "authors": "Martina Bader, Lau Lilleholt, Christoph Schild, Benjamin E. Hilbig, Morten Moshagen, Ingo Zettler",
-          "url": "https://doi.org/10.1037/pspp0000537",
-          "doi": "https://doi.org/10.1037/pspp0000537",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Multivariate Behavioral Research",
-      "journal_short": "MBR",
-      "articles": [
-        {
-          "title": "A Gentle Introduction and Application of Feature-Based Clustering with Psychological Time Series",
-          "authors": "Jannis Kreienkamp, Maximilian Agostini, Rei Monden, Kai Epstude, Peter de Jonge, Laura F. Bringmann",
-          "url": "https://doi.org/10.1080/00273171.2024.2432918",
-          "doi": "https://doi.org/10.1080/00273171.2024.2432918",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Organizational Research Methods",
-      "journal_short": "ORM",
-      "articles": [
-        {
-          "title": "Measuring Personality When Stakes Are High: Are Graded Paired Comparisons a More Reliable Alternative to Traditional Forced-Choice Methods?",
-          "authors": "Harriet Lingel, Paul-Christian Bürkner, Klaus G. Melchers, Niklas Schulte",
-          "abstract": "In graded paired comparisons (GPCs), two items are compared using a multipoint rating scale. GPCs are expected to reduce faking compared with Likert-type scales and to produce more reliable, less ipsative trait scores than traditional binary forced-choice formats. To investigate the statistical properties of GPCs, we simulated 960 conditions in which we varied six independent factors and additionally implemented conditions with algorithmically optimized item combinations. Using Thurstonian IRT models, good reliabilities and low ipsativity of trait score estimates were achieved for questionnaires with 50% unequally keyed item pairs or equally keyed item pairs with an optimized combination of loadings. However, in conditions with 20% unequally keyed item pairs and equally keyed conditions without optimization, reliabilities were lower with evidence of ipsativity. Overall, more response categories led to higher reliabilities and nearly fully normative trait scores. In an empirical example, we demonstrate the identified mechanisms under both honest and faking conditions and study the effects of social desirability matching on reliability. In sum, our studies inform about the psychometric properties of GPCs under different conditions and make specific recommendations for improving these properties.",
-          "url": "https://doi.org/10.1177/10944281241279790",
-          "doi": "https://doi.org/10.1177/10944281241279790",
+          "title": "The role of awareness and demand in evaluative learning.",
+          "authors": "Pieter Van Dessel, Sean Hughes, Marco Perugini, Colin Tucker Smith, Zhe-Fei Mao, Jan De Houwer",
+          "url": "https://doi.org/10.1037/pspa0000423",
+          "doi": "https://doi.org/10.1037/pspa0000423",
           "filter": 0
         }
       ],
@@ -305,35 +216,35 @@
       "journal_short": "PSPB",
       "articles": [
         {
-          "title": "Does Lower Psychological Need Satisfaction Foster Conspiracy Belief? Longitudinal Effects Over 3 Years in New Zealand",
-          "authors": "Elianne A. Albath, Rainer Greifeneder, Karen M. Douglas, Aleksandra Cichocka, Mathew D. Marques, Marc S. Wilson, John R. Kerr, Chris G. Sibley, Danny Osborne",
-          "abstract": "Although conspiracy belief may arise from a frustration of psychological needs, research has yet to investigate these relationships over time. Using four annual waves of longitudinal panel data in New Zealand (2019–2022; N = 55,269), we examined the relationship between four psychological needs (namely belonging, control, meaning in life, and self-esteem) and conspiracy belief. Results from four random-intercept cross-lagged panel models reveal stable between-person effects indicating that those whose core needs are less satisfied tend to exhibit higher levels of conspiracy belief across time. Within-person analyses further identify small cross-lagged effects within individuals: decreases in levels of control and belonging, as well as increases in levels of meaning in life, temporally precede increases in conspiracy belief. Within-person fluctuations in conspiracy belief also have negative cross-lagged associations with control (but not with the three other needs). These data provide novel insights into the psychological factors that foster conspiracy belief.",
-          "url": "https://doi.org/10.1177/01461672241292841",
-          "doi": "https://doi.org/10.1177/01461672241292841",
+          "title": "Impartial Intergenerational Beneficence: The Psychology of Feeling (Equal) Intergenerational Concern for All Future Generations",
+          "authors": "Stylianos Syropoulos, Kyle Fiore Law, Gordon Kraft-Todd, Liane Young",
+          "abstract": "Across a series of eight high-powered studies ( N = 6,866), we develop a method for assessing impartial intergenerational beneficence, defined as intergenerational concern for all possible future generations. Across our studies, roughly 20% of participants displayed impartial intergenerational beneficence. Participants with impartial intergenerational beneficence expressed greater perceptions that future threats can be resolved, support for policies seeking to protect future generations of people, and a profound sense of responsibility for the long-term survival and prosperity of humanity. Similarly, associations with various future-oriented attitudes, patterns of prosociality, and longtermism-related behaviors and intentions were noted. This research thus introduces a method to capture impartiality in expressed intergenerational concern and finds that people who display impartial intergenerational concern endorse prosocial principles, such as altruism and utilitarianism, while also being more concerned about their own future, the future of others, and how they will be remembered by others.",
+          "url": "https://doi.org/10.1177/01461672241307800",
+          "doi": "https://doi.org/10.1177/01461672241307800",
           "filter": 0
         },
         {
-          "title": "Stereotype Threat at Work: A Meta-Analysis",
-          "authors": "Courtney von Hippel, Clara Kühner, Sarah P. Coundouris, Amy Lim, Julie D. Henry, Hannes Zacher",
-          "abstract": "Stereotype threat refers to the concern of being judged based on stereotypes about one’s social group. This preregistered meta-analysis examines the correlates of stereotype threat in the workplace ( k = 61 independent samples, N = 40,134). Results showed that stereotype threat was positively related to exhaustion, identity separation, negative affect, turnover intentions, and behavioral coping, and negatively related to career aspirations, job satisfaction, organizational commitment, job engagement, job performance, positive affect, self-efficacy, and work authenticity. In addition, moderator analyses for constructs represented in at least k = 10 samples in the focal analyses showed that relations did not differ for measures of stereotype threat and stigma consciousness. However, the negative relationships between stereotype threat and career aspirations, job satisfaction, and job engagement were stronger for older employees compared with female employees as the stereotyped group. Overall, the findings suggest that stereotype threat constitutes an important stressor in the workplace.",
-          "url": "https://doi.org/10.1177/01461672241297884",
-          "doi": "https://doi.org/10.1177/01461672241297884",
+          "title": "On the Limits of Anonymization for Promoting Diversity in Organizations",
+          "authors": "Linda W. Chang, Edward H. Chang",
+          "abstract": "Anonymization of job applicant resumes is a recommended strategy to increase diversity in organizations, but large-scale tests have shown mixed results. We consider decision-makers’ social dominance orientation (SDO), a measure of anti-egalitarianism/endorsement of group-based hierarchy, to illustrate the limits of anonymization. Across four pre-registered studies ( N = 3,150), we show that (a) lower SDO individuals are less likely to hire individuals from underrepresented groups when job materials are anonymized and (b) they are more likely to opt into using anonymization. Taken together, these results suggest that opt-in anonymization policies may sometimes reduce the diversity of who is selected. Furthermore, people appear to have inaccurate lay beliefs about the consequences of anonymization. Our results suggest policy evaluations of diversity interventions should consider the interaction of heterogeneous treatment effects and selection effects, which may inadvertently lead to outcomes that are contrary to the stated policy goals.",
+          "url": "https://doi.org/10.1177/01461672241304593",
+          "doi": "https://doi.org/10.1177/01461672241304593",
           "filter": 0
         },
         {
-          "title": "The Aversive Racism Theory of Cultural Appropriation: Attributions of Target Intent Suppresses Evaluations of Intergroup Harm",
-          "authors": "Ariel J. Mosley",
-          "abstract": "This research investigates whether racially dominant (White) and minoritized group members (Black) differentially evaluate intergroup harm in ambiguous (vs. overt) acts of cultural appropriation (the aversive racism hypothesis), due to attributions of positive intentions to the target (the intent as justification hypothesis). Four experiments ( N = 1,020, 3 preregistered) and an internal meta-analysis converge to demonstrate that White perceivers evaluated less harm than Black perceivers in ambiguous acts of cultural appropriation. Attributions of positive intent served as a mechanism underlying this effect; naturally occurring variations in positive intent mediated the link between participant race and harm evaluations (Studies 2 and 3), and experimentally manipulating target intent altered harm evaluations as well as motivations for collective action (Study 4). Findings integrate work from multiple academic disciplines with insights from contemporary theories of prejudice to suggest that perceivers’ attributions of positive intent can obscure their evaluations of harm in acts of cultural appropriation.",
-          "url": "https://doi.org/10.1177/01461672241292427",
-          "doi": "https://doi.org/10.1177/01461672241292427",
+          "title": "Perception of Socioeconomic Status: A Meta-Analysis of Manipulations",
+          "authors": "Jacinth J. X. Tan, Amos Y. E. Tai",
+          "abstract": "The causal effects of one’s socioeconomic status (SES) on outcomes are typically examined by experimentally manipulating SES self-perceptions based on one of three SES dimensions—absolute resource, relative resource, and general social position. We investigated the efficacy of these manipulations by systematically meta-analyzing their effects on SES self-perceptions. Based on 107 eligible samples ( N = 26,203), manipulations of SES self-perceptions across the three SES dimensions were effective overall ( g = 0.56–0.95). Explicit priming of absolute resource and relative resource manipulations comparing high versus low SES were consistently effective—although bias-corrected effects were attenuated—suggesting the importance of salient SES information and social comparisons. Moderation tests revealed stronger manipulation effects on SES self-perceptions among samples at earlier life stages (university and younger samples) and with stronger interdependent orientation (lower independence and higher female composition). We discuss implications on understanding the determinants of SES self-perception and designing experimental studies on SES effects.",
+          "url": "https://doi.org/10.1177/01461672241305506",
+          "doi": "https://doi.org/10.1177/01461672241305506",
           "filter": 0
         },
         {
-          "title": "The Probabilistic Price of Life Across Time: Generational and Probabilistic Distance Render a Life Today Worth More Than Ten Tomorrow",
-          "authors": "Kyle Fiore Law, Stylianos Syropoulos, Brendan Bo O’Connor, Liane Young",
-          "abstract": "Is the certainty of saving a life today worth more than the less-certain possibility of saving 10 lives tomorrow? In six pre-registered studies with U.S. samples from Prolific ( N = 5,095), we employed an intergenerational probability discounting task, discovering people discount the value of life as uncertainty and intergenerational distance from the present increase. Specifically, as uncertainty about impacting the future rises, individuals increasingly prioritize saving fewer present lives over more future lives, particularly for more distant future beneficiaries (Studies 1–2b). Experimental evidence (Studies 3a–4) suggests that certainty perceptions drive intergenerational concern, rather than the inverse. Drawing upon seminal research from cognitive science and behavioral economics, these findings address gaps in emerging social psychological inquiry into long-term intergenerational concern, shed light on mechanisms underlying debates on the ethical philosophy of longtermism, and highlight practical implications for decision-makers, stressing the need to increase certainty perceptions surrounding about pro-future actions to enhance intergenerational beneficence.",
-          "url": "https://doi.org/10.1177/01461672241303993",
-          "doi": "https://doi.org/10.1177/01461672241303993",
+          "title": "Seeing Through the Fog: The Ability to Resolve Ambiguity Reduces Dishonesty",
+          "authors": "Michael Puntiroli, Serhiy Kandul, Valéry Bezençon, Bruno Lanz",
+          "abstract": "Ambiguity acts as a veil that can help conceal and justify dishonest behavior. While an individual’s ability to disambiguate information in a task may help remove the veil of ambiguity and thus promote honesty, the relationship between ambiguity, ability, and dishonesty is currently unexplored. To investigate this, we employed an experimental design where participants attempted to resolve an ambiguous task and reported their performance. Results showed that ambiguity and dishonesty increase in unison. Importantly, the participants who resolved ambiguity acted less dishonestly (Study 1). In Studies 2a, 2b, and 3, we increased participants’ ability by briefly training them to disambiguate the information presented in the task. The results showed that participants acted less dishonestly when their ability levels were increased. Overall, the findings indicate that dishonesty can be reduced not only by making tasks less ambiguous but also by enhancing an individual’s ability to successfully resolve ambiguity.",
+          "url": "https://doi.org/10.1177/01461672241305687",
+          "doi": "https://doi.org/10.1177/01461672241305687",
           "filter": 0
         }
       ],
@@ -344,73 +255,17 @@
       "journal_short": "PM",
       "articles": [
         {
-          "title": "Definition and identification of causal ratio effects.",
-          "authors": "Christoph Kiefer, Benedikt Lugauer, Axel Mayer",
-          "url": "https://doi.org/10.1037/met0000711",
-          "doi": "https://doi.org/10.1037/met0000711",
+          "title": "Dynamic structural equation modeling with floor effects.",
+          "authors": "Bengt Muthén, Tihomir Asparouhov, Saul Shiffman",
+          "url": "https://doi.org/10.1037/met0000720",
+          "doi": "https://doi.org/10.1037/met0000720",
           "filter": 0
         },
         {
-          "title": "Bayes factors for logistic (mixed-effect) models.",
-          "authors": "Catriona Silvey, Zoltan Dienes, Elizabeth Wonnacott",
-          "url": "https://doi.org/10.1037/met0000714",
-          "doi": "https://doi.org/10.1037/met0000714",
-          "filter": 0
-        },
-        {
-          "title": "A guided tutorial on linear mixed-effects models for the analysis of accuracies and response times in experiments with fully crossed design.",
-          "authors": "Ottavia M. Epifania, Pasquale Anselmi, Egidio Robusto",
-          "url": "https://doi.org/10.1037/met0000708",
-          "doi": "https://doi.org/10.1037/met0000708",
-          "filter": 0
-        },
-        {
-          "title": "Better power by design: Permuted-subblock randomization boosts power in repeated-measures experiments.",
-          "authors": "Jinghui Liang, Dale J. Barr",
-          "url": "https://doi.org/10.1037/met0000717",
-          "doi": "https://doi.org/10.1037/met0000717",
-          "filter": 0
-        },
-        {
-          "title": "The role of a quadratic term in estimating the average treatment effect from longitudinal randomized controlled trials with missing data.",
-          "authors": "Manshu Yang, Lijuan Wang, Scott E. Maxwell",
-          "url": "https://doi.org/10.1037/met0000709",
-          "doi": "https://doi.org/10.1037/met0000709",
-          "filter": 0
-        },
-        {
-          "title": "Testing bipolarity.",
-          "authors": "Kimberly A. Barchard, James M. Carroll, Shawn Reynolds, James A. Russell",
-          "url": "https://doi.org/10.1037/met0000707",
-          "doi": "https://doi.org/10.1037/met0000707",
-          "filter": 0
-        },
-        {
-          "title": "Planning falsifiable confirmatory research.",
-          "authors": "James E. Kennedy",
-          "url": "https://doi.org/10.1037/met0000639",
-          "doi": "https://doi.org/10.1037/met0000639",
-          "filter": 0
-        },
-        {
-          "title": "Meta-analysis of Monte Carlo simulations examining class enumeration accuracy with mixture models.",
-          "authors": "Tiffany A. Whittaker, Jihyun Lee, Devin Dedrick, Christina Muñoz",
-          "url": "https://doi.org/10.1037/met0000716",
-          "doi": "https://doi.org/10.1037/met0000716",
-          "filter": 0
-        },
-        {
-          "title": "Power analysis to detect misfit in SEMs with many items: Resolving unrecognized problems, relating old and new approaches, and “matching” power analysis approach to data analysis approach.",
-          "authors": "Amy Liang, Sonya K. Sterba",
-          "url": "https://doi.org/10.1037/met0000684",
-          "doi": "https://doi.org/10.1037/met0000684",
-          "filter": 0
-        },
-        {
-          "title": "Building a simpler moderated nonlinear factor analysis model with Markov Chain Monte Carlo estimation.",
-          "authors": "Craig K. Enders, Juan Diego Vera, Brian T. Keller, Agatha Lenartowicz, Sandra K. Loo",
-          "url": "https://doi.org/10.1037/met0000712",
-          "doi": "https://doi.org/10.1037/met0000712",
+          "title": "A causal research pipeline and tutorial for psychologists and social scientists.",
+          "authors": "Matthew James Vowels",
+          "url": "https://doi.org/10.1037/met0000673",
+          "doi": "https://doi.org/10.1037/met0000673",
           "filter": 0
         }
       ],
