@@ -1,10 +1,32 @@
 {
-  "update": "2025-01-10",
+  "update": "2025-01-11",
   "content": [
+    {
+      "journal_full": "Journal of Survey Statistics and Methodology",
+      "journal_short": "JSSAM",
+      "articles": [
+        {
+          "title": "Synthesizing Surveys with Multiple Units of Observation: An Application to the Longitudinal Aging Study in India",
+          "authors": "Joshua Snoke, Erik Meijer, Drystan Phillips, Jenny Wilkens, Jinkook Lee",
+          "abstract": "We present methodology for creating synthetic data and an application to create a publicly releasable synthetic version of the Longitudinal Aging Study in India (LASI). The LASI, a health and retirement survey, is used for research and educational purposes, but it can only be shared under restricted access due to privacy considerations. We present novel methods to synthesize the survey, maintaining three nested levels of observation—individuals, couples, and households—with both continuous and categorical variables and survey weights. We show that the synthetic data maintains the distributional patterns of the confidential data and largely mitigates identification and attribute disclosure risk. We also present a novel method for controlling the risk and utility tradeoff for the synthetic data that take into account the survey sampling rates. Specifically, we down-weight records that have a high likelihood of being uniquely identifiable in the population due to unique demographic information and oversampling. We show this approach reduces both identification and attribute risk for records while preserving better utility over another common approach of coarsening records. Our methods and evaluations provide a foundation for creating a synthetic version of surveys with multiple units of observation, such as the LASI.",
+          "url": "https://doi.org/10.1093/jssam/smae047",
+          "doi": "https://doi.org/10.1093/jssam/smae047",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
     {
       "journal_full": "Politics, Groups, and Identities",
       "journal_short": "PGI",
       "articles": [
+        {
+          "title": "The political power of Muslim social capital in Europe and North America",
+          "authors": "Aubrey Westfall",
+          "url": "https://doi.org/10.1080/21565503.2024.2444897",
+          "doi": "https://doi.org/10.1080/21565503.2024.2444897",
+          "filter": 0
+        },
         {
           "title": "Dear political science: tools for the study of black (life and) politics",
           "authors": "Elizabeth Jordie Davies",
@@ -17,6 +39,13 @@
           "authors": "Jared Clemons",
           "url": "https://doi.org/10.1080/21565503.2024.2444925",
           "doi": "https://doi.org/10.1080/21565503.2024.2444925",
+          "filter": 0
+        },
+        {
+          "title": "System justification and the American alt-right",
+          "authors": "Katherine Sawyer, Kanisha D. Bond, H. Hannah Nam",
+          "url": "https://doi.org/10.1080/21565503.2024.2444901",
+          "doi": "https://doi.org/10.1080/21565503.2024.2444901",
           "filter": 0
         }
       ],

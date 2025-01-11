@@ -1,18 +1,10 @@
 {
-  "update": "2025-01-10",
+  "update": "2025-01-11",
   "content": [
     {
       "journal_full": "American Journal of Political Science",
       "journal_short": "AJPS",
       "articles": [
-        {
-          "title": "Partisan temporal selective news avoidance: Evidence from online trace data",
-          "authors": "Michael Heseltine, Hennes Barnehl, Magdalena Wojcieszak",
-          "abstract": "We assess the phenomenon of partisan temporal selective avoidance, or individuals dynamically altering their news consumption when news is negative toward their in‐ and out‐party. Using nine months of online behavioral data (27,648,770 visits) from 2,462 Americans paired with machine learning classifications, we examine whether changing daily news sentiment toward in‐ and out‐party (macro‐level) and exposure to articles negative toward in‐ or out‐party during one's browsing session (micro‐level) influence news use. We test if partisans change their consumption of (a) news overall, (b) partisan outlets, (c) hard versus soft news, and (d) individual articles. We find support for partisan temporal selective news avoidance; partisans alter the volume, type, and source of news because of changing news sentiment. On the macro‐level, partisan asymmetries emerge, and on the micro‐level negative news about either party reduce news browsing length while increasing hard news and negative news visits for both Democrats and Republicans.",
-          "url": "https://doi.org/10.1111/ajps.12944",
-          "doi": "https://doi.org/10.1111/ajps.12944",
-          "filter": 0
-        },
         {
           "title": "Can norm‐based information campaigns reduce corruption?",
           "authors": "Aaron Erlich, Jordan Gans‐Morse",
@@ -143,10 +135,25 @@
       "journal_short": "PolBehav",
       "articles": [
         {
-          "title": "Backlash or Inclusion? The Political Effects of Co-Ethnic Immigration",
-          "authors": "David Attewell, Andreas Jozwiak, Eroll Kuhn",
-          "url": "https://doi.org/10.1007/s11109-024-09995-x",
-          "doi": "https://doi.org/10.1007/s11109-024-09995-x",
+          "title": "The Static and Dynamic Effects of Political Distrust on Support for Representative Democracy and its Rivals",
+          "authors": "Tom W. G. van der Meer, Lisa A. Janssen",
+          "abstract": "Distrust is widely argued to stimulate support for political and institutional change. Yet, there is little agreement among scholars whether distrust pulls people towards rivaling decision-making models such as direct democracy, technocracy, and authoritarianism. This paper argues that political distrust is an unconditional push-factor away from the status quo (i.e., representative democracy), but that the appeal of any specific alternative decision-making models among distrusters is conditional on their political dispositions. This paper systematically tests rivaling theories on the micro-level relationship between political distrust and support for change, representative democracy, and alternative decision-making models. Crucially, we test to what extent the pull-factor of rivaling models is conditional on citizens’ political efficacy and populist leaning. Moreover, we separate the effects of structurally low trust from that of dynamically declining trust by estimating Random Effects Within Between (REWB) models on three-wave panel survey data across four European countries (the UK, the Netherlands, Sweden, and Portugal). Our findings confirm that distrust unconditionally pushes people away from the status quo, but does not unconditionally pull people towards any alternative model. Rather than technocracy (mixed effects) and authoritarianism (predominantly negative effects), we find that political distrust particularly stimulates support for direct democracy. This positive effect of political distrust on support for direct democracy is particularly strong among efficacious citizens and supporters of populist parties. This aligns with the idea of dissatisfied democrats, whose distrust drives their ambition for more direct influence.",
+          "url": "https://doi.org/10.1007/s11109-024-09994-y",
+          "doi": "https://doi.org/10.1007/s11109-024-09994-y",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Political Geography",
+      "journal_short": "PolGeo",
+      "articles": [
+        {
+          "title": "Making spaces for debate in the digital age",
+          "authors": "Mia M. Bennett, Kate Coddington, Deirdre Conlon, Patricia Ehrkamp, Charis Enns, Filippo Menga, Caroline Nagel, Olivier J. Walther",
+          "url": "https://doi.org/10.1016/j.polgeo.2024.103268",
+          "doi": "https://doi.org/10.1016/j.polgeo.2024.103268",
           "filter": 0
         }
       ],
@@ -234,13 +241,6 @@
       "journal_short": "PubChoice",
       "articles": [
         {
-          "title": "What factors drive cross-country economic freedom convergence?",
-          "authors": "James E. Payne, James W. Saunoris, Saban Nazlioglu, Russell S. Sobel",
-          "url": "https://doi.org/10.1007/s11127-024-01254-1",
-          "doi": "https://doi.org/10.1007/s11127-024-01254-1",
-          "filter": 0
-        },
-        {
           "title": "Correction to: Ruled by robots: preference for algorithmic decision makers and perceptions of their choices",
           "authors": "Marina Chugunova, Wolfgang J. Luhan",
           "url": "https://doi.org/10.1007/s11127-024-01209-6",
@@ -268,6 +268,14 @@
           "abstract": "Open-ended survey questions have a long history in public opinion research and are seeing a renewed interest as computing power and tools of text analysis proliferate. A major challenge in performing text analyses on open-ended responses is that the documents—especially if transcribed or collected through web surveys—may contain measurement error in the form of misspellings which are not easily corrected in a reliable and systematic manner. This paper provides evidence that large language models (LLMs), specifically OpenAI’s GPT-4o, offer a flexible, dependable, and low-cost solution to correcting misspellings in open-ended responses. We demonstrate the efficacy of this approach with open-ended responses about the Democratic and Republican parties from the 1996–2020 American National Election Studies, where GPT is shown to correct 85%–90% of misspellings identified by human coders in a sample of responses. Following spelling correction on ∼50,000 responses, we document several consequential changes to the data. First, we show that spelling correction reduces the number of unique and single-use tokens while increasing the number of words matched to a sentiment dictionary. Then, to highlight the potential benefits and limitations of spelling correction we show improved out-of-sample prediction accuracy from a text-based machine learning classifier. Finally, we show a significantly larger degree of emotionality is captured in the spelling-corrected texts, though the size of this measure’s relationship with a known correlate in political interest remains relatively unchanged. Our findings point to LLMs as an effective tool for reducing measurement error by correcting misspellings in open-ended survey responses.",
           "url": "https://doi.org/10.1177/20531680241311510",
           "doi": "https://doi.org/10.1177/20531680241311510",
+          "filter": 0
+        },
+        {
+          "title": "Collusive and adversarial replication",
+          "authors": "Adam Bouyamourn",
+          "abstract": "I describe a game in which social ties between members of a research community may discourage prospective replicators from debunking papers that misreport results. Here, replication is an entrance decision, as a Replicator chooses whether or not to Replicate a given paper. A high level of social connectedness between members of a research community increases the field-wise False Discovery Rate, a measure of the social welfare associated with a healthy publication process. The moral is that larger, more diverse academic fields with fewer social ties are more likely to have an adversarial culture around replication, and that this improves social welfare. I consider three proposals to improve replication practices: Random auditing, or police-patrol replication; automated unit tests; and a recent proposal to lower the threshold for statistical significance. I argue that random auditing and automated unit tests can improve social welfare, but that the effect of lowering the statistical significance threshold is ambiguous.",
+          "url": "https://doi.org/10.1177/20531680241282828",
+          "doi": "https://doi.org/10.1177/20531680241282828",
           "filter": 0
         }
       ],
@@ -320,6 +328,20 @@
           "filter": 0
         },
         {
+          "title": "Intergroup Interaction and Attitudes to Migrants",
+          "authors": "Mintewab Bezabih, Sosina Bezu, Tigabu Getahun, Ivar Kolstad, Päivi Lujala, Arne Wiig",
+          "url": "https://doi.org/10.1086/730740",
+          "doi": "https://doi.org/10.1086/730740",
+          "filter": 0
+        },
+        {
+          "title": "Measuring and Understanding Parties’ Anti-elite Strategies",
+          "authors": "Hauke Licht, Tarik Abou-Chadi, Pablo Barberá, Whitney Hua",
+          "url": "https://doi.org/10.1086/730711",
+          "doi": "https://doi.org/10.1086/730711",
+          "filter": 0
+        },
+        {
           "title": "Candidate Gender, Campaign Appeals, and Voter Support in Judicial Elections",
           "authors": "Anna Gunderson, Jeong Kim, Elizabeth Lane, Nichole Bauer, Belinda Davis, Kathleen Searles",
           "url": "https://doi.org/10.1086/730721",
@@ -334,10 +356,38 @@
           "filter": 0
         },
         {
+          "title": "Monumental Changes: Confederate Symbol Removals and Racial Attitudes in the United States",
+          "authors": "Roxanne Rahnama",
+          "url": "https://doi.org/10.1086/730713",
+          "doi": "https://doi.org/10.1086/730713",
+          "filter": 0
+        },
+        {
+          "title": "Legislature Resizing with Rent-Seeking Politicians: The Impact of Executive–Legislature Coalitions",
+          "authors": "Anderson Frey",
+          "url": "https://doi.org/10.1086/730744",
+          "doi": "https://doi.org/10.1086/730744",
+          "filter": 0
+        },
+        {
           "title": "Driving While Different: Examining Traffic Stop Outcomes Experienced by Historically Marginalized Communities",
           "authors": "Kelsey Shoub",
           "url": "https://doi.org/10.1086/730727",
           "doi": "https://doi.org/10.1086/730727",
+          "filter": 0
+        },
+        {
+          "title": "Violence, Peace, and Government Intervention in Illicit Drug Markets",
+          "authors": "Martin Castillo-Quintana",
+          "url": "https://doi.org/10.1086/730723",
+          "doi": "https://doi.org/10.1086/730723",
+          "filter": 0
+        },
+        {
+          "title": "Mining Competition and Violent Conflict in Africa: Pitting Against Each Other",
+          "authors": "Anouk S. Rigterink, Tarek Ghani, Juan S. Lozano, Jacob N. Shapiro",
+          "url": "https://doi.org/10.1086/730743",
+          "doi": "https://doi.org/10.1086/730743",
           "filter": 0
         }
       ],
