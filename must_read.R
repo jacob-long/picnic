@@ -76,12 +76,16 @@ gemini_request <- function(prompt) {
 
 response <- gemini_request(paste(sys_prompt1, sys_prompt2, result_string))
 
-cat(response)
+cat("Gemini response:\\n", response)
 
 dois <- trimws(unlist(strsplit(response, ","))) %>%
     gsub("doi:", "", ., fixed = T)
 
+cat("\\ndois:\\n", dois)
+
 articles %>%
   filter(doi %in% dois) -> selected_articles
+
+cat("\\nselected_articles:\\n", selected_articles)
 
 write(toJSON(selected_articles, pretty=TRUE, auto_unbox=TRUE), "output/must_read.json")
