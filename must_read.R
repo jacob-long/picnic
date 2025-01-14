@@ -76,6 +76,8 @@ gemini_request <- function(prompt) {
 
 response <- gemini_request(paste(sys_prompt1, sys_prompt2, result_string))
 
+cat(response)
+
 dois <- trimws(unlist(strsplit(response, ","))) %>%
     gsub("doi:", "", ., fixed = T)
 
