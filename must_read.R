@@ -86,6 +86,7 @@ cat("\\ndois:\\n", dois)
 articles %>%
   filter(doi %in% dois) -> selected_articles
 
-cat("\\nselected_articles:\\n", selected_articles)
+cat("\\nselected_articles:\\n")
+print(selected_articles)
 
 write(toJSON(selected_articles, pretty=TRUE, auto_unbox=TRUE), "output/must_read.json")
