@@ -1,67 +1,107 @@
 {
-  "update": "2025-01-14",
+  "update": "2025-01-31",
   "content": [
+    {
+      "journal_full": "Advances in Methods and Practices in Psychological Science",
+      "journal_short": "AMPPS",
+      "articles": [
+        {
+          "title": "With Low Power Comes Low Credibility? Toward a Principled Critique of Results From Underpowered Tests",
+          "authors": "Lukas L. Lengersdorff, Claus Lamm",
+          "abstract": "Researchers should be motivated to adequately power statistical tests because tests with low power have a low probability of detecting true effects. However, it is also often claimed that significant results obtained by underpowered tests are less likely to reflect a true effect. Here, we critically discuss this “low-power/low-credibility” (LPLC) critique from both frequentist and Bayesian perspectives. Although the LPLC critique is first and foremost a critique of frequentist tests, it is itself not consistent with frequentist theory. In particular, it demands that researchers have some information on the probability that a hypothesis is true before they test it. However, such prior probabilities are dismissed as meaningless in frequentist inference, and we demonstrate that they cannot be meaningfully introduced into frequentist thinking. Even when adopting a Bayesian perspective, however, significant results from tests with low power can provide a nonnegligible amount of support for the tested hypothesis. We conclude that even though low power reduces the chances to obtain significant findings, there is little justification to dismiss already obtained significant findings on the basis of low power alone. However, concerns about low power might often reflect suspicions that findings were produced by questionable research practices. If this is the case, we suggest that communicating these issues transparently rather than using low power as a proxy concern will be more appropriate. We conclude by providing suggestions on how results from tests with low power can be critiqued for the correct reasons and in a constructive manner.",
+          "url": "https://doi.org/10.1177/25152459241296397",
+          "doi": "https://doi.org/10.1177/25152459241296397",
+          "filter": 0
+        },
+        {
+          "title": "An Inception-Cohort Study Quantifying How Many Registered Studies Are Publicly Shared",
+          "authors": "Eline N. F. Ensinck, Daniël Lakens",
+          "abstract": "We quantified how many studies registered on the OSF up to November 2017 are performed but not shared after at least 4 years. Examining a sample of 169 registered research studies, we found that 104 (61.5%) were publicly shared. We estimate that 5,316 out of 9,172 (58%) registered studies on the OSF are publicly shared. Researchers use registries to make unpublished studies public, and the OSF policy to open registrations after a 4-year embargo substantially increases the number of studies that become known to the scientific community. In responses to emails asking researchers why studies remained unpublished, logistical issues (e.g., lack of time, researchers changing jobs) were the most common cause, followed by null results and rejections during peer review. Our exploratory study shows that a substantial amount of studies that researchers perform remain unpublished.",
+          "url": "https://doi.org/10.1177/25152459241296031",
+          "doi": "https://doi.org/10.1177/25152459241296031",
+          "filter": 0
+        },
+        {
+          "title": "Not Another Post Hoc Paper: A New Look at Contrast Analysis and Planned Comparisons",
+          "authors": "Umberto Granziol, Maximilian Rabe, Marcello Gallucci, Andrea Spoto, Giulio Vidotto",
+          "abstract": "Before conducting statistical analyses, scholars and researchers often have specific hypotheses about differences between groups of means. Their hypotheses are frequently tested by applying post hoc comparisons with statistically significant simple or interaction effects. With the exception of exploratory studies, using post hoc comparisons can increase Type I error rates and decrease statistical power. A well-known solution involves planning comparisons before the study. However, the coding of such planned comparisons can be difficult to understand and implement, especially for customized comparisons and interaction effects. In this tutorial, we aim to reduce such difficulties by examining all the possible types of planned comparisons, even the customized ones, for both main and interaction effects. In this tutorial, a Shiny App coded in R and called “appRiori” is presented. appRiori is coded to help in understanding both the logic behind the planned comparisons and the way to interpret them when a model is tested. By using empirical examples on reproducible data, we explain how to code any default planned comparison executable in R. Moreover, through some features of appRiori, the customization of planned comparisons is shown, even on interaction effects, such as the possibility of creating customized contrast through click-and-drop menus. For each step, the R code related to the planned comparison is provided. Implications and fields of use of planned comparisons and appRiori are discussed.",
+          "url": "https://doi.org/10.1177/25152459241293110",
+          "doi": "https://doi.org/10.1177/25152459241293110",
+          "filter": 0
+        },
+        {
+          "title": "Practical Problems Estimating and Reporting Power When Hypotheses Are Embedded in Complex Statistical Models",
+          "authors": "David A. Cole, George Abitante, Hoi Kan, Qimin Liu, Kristopher J. Preacher, Scott E. Maxwell",
+          "abstract": "In both grant proposals and published studies, many research hypotheses (represented by primary parameters) are tested in the context of complex statistical models. The power to detect these primary parameters depends on the values of multiple secondary model parameters that often go unexamined, unreported, and unjustified. The result is that many a priori power analyses are incomplete, ambiguous, potentially subjective, and nearly impossible for others to evaluate. In the current article, we encourage researchers to use plausible values for secondary parameters (PVSPs), in addition to the hoped-for effect sizes for their primary parameters, in their power calculations. More specifically, upper and lower bounds for power are generated based on the highest and lowest plausible values for secondary model parameters. In the article, we demonstrate how to conduct and describe such power estimates for four increasingly complex statistical methods. We further demonstrate how such analyses can inform decisions about resource allocation in ways that improve power in the context of complex statistical models, often revealing that power can be enhanced by methods other than increasing sample size. The PVSP approach can enhance power, improve the transparency of power analyses in grant proposals, reduce the likelihood of funding underpowered research, and alleviate at least one problem underlying the replication crisis.",
+          "url": "https://doi.org/10.1177/25152459241302300",
+          "doi": "https://doi.org/10.1177/25152459241302300",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "Expansion of the SyllabO+ corpus and database: Words, lemmas, and morphology",
-          "authors": "Noémie Auclair-Ouellet, Alexandra Lavoie, Pascale Bédard, Alexandra Barbeau-Morrison, Patrick Drouin, Pascale Tremblay",
-          "url": "https://doi.org/10.3758/s13428-024-02582-2",
-          "doi": "https://doi.org/10.3758/s13428-024-02582-2",
+          "title": "Correction: A modular machine learning tool for holistic and fine-grained behavioral analysis",
+          "authors": "Bruno Michelot, Alexandra Corneyllie, Marc Thevenet, Stefan Duffner, Fabien Perrin",
+          "url": "https://doi.org/10.3758/s13428-025-02602-9",
+          "doi": "https://doi.org/10.3758/s13428-025-02602-9",
           "filter": 0
         },
         {
-          "title": "Semantic alignment: A measure to quantify the degree of semantic equivalence for English–Chinese translation equivalents based on distributional semantics",
-          "authors": "Yufeng Liu, Shifa Chen, Yi Yang",
-          "url": "https://doi.org/10.3758/s13428-024-02527-9",
-          "doi": "https://doi.org/10.3758/s13428-024-02527-9",
+          "title": "EmoAtlas: An emotional network analyzer of texts that merges psychological lexicons, artificial intelligence, and network science",
+          "authors": "Alfonso Semeraro, Salvatore Vilella, Riccardo Improta, Edoardo Sebastiano De Duro, Saif M. Mohammad, Giancarlo Ruffo, Massimo Stella",
+          "url": "https://doi.org/10.3758/s13428-024-02553-7",
+          "doi": "https://doi.org/10.3758/s13428-024-02553-7",
           "filter": 0
         },
         {
-          "title": "Testing measurement invariance in a conditional likelihood framework by considering multiple covariates simultaneously",
-          "authors": "Clemens Draxler, Andreas Kurz",
-          "abstract": "This article addresses the problem of measurement invariance in psychometrics. In particular, its focus is on the invariance assumption of item parameters in a class of models known as Rasch models. It suggests a mixed-effects or random intercept model for binary data together with a conditional likelihood approach of both estimating and testing the effects of multiple covariates simultaneously. The procedure can also be viewed as a multivariate multiple regression analysis which can be applied in longitudinal designs to investigate effects of covariates over time or different experimental conditions. This work also derives four statistical tests based on asymptotic theory and a parameter-free test suitable in small sample size scenarios. Finally, it outlines generalizations for categorical data in more than two categories. All procedures are illustrated on real-data examples from behavioral research and on a hypothetical data example related to clinical research in a longitudinal design.",
-          "url": "https://doi.org/10.3758/s13428-024-02551-9",
-          "doi": "https://doi.org/10.3758/s13428-024-02551-9",
+          "title": "Reformulating the meta-analytical random effects model of the standardized mean difference as a mixture model",
+          "authors": "Manuel Suero, Juan Botella, Juan I. Duran, Desirée Blazquez-Rincón",
+          "abstract": "The classical meta-analytical random effects model (REM) has some weaknesses when applied to the standardized mean difference, g . Essentially, the variance of the studies involved is taken as the conditional variance, given a δ value, instead of the unconditional variance. As a consequence, the estimators of the variances involve a dependency between the g values and their variances that distorts the estimates. The classical REM is expressed as a linear model and the variance of g is obtained through a framework of components of variance. Although the weaknesses of the REM are negligible in practical terms in a wide range of realistic scenarios, all together, they make up an approximate, simplified version of the meta-analytical random effects model. We present an alternative formulation, as a mixture model, and provide formulas for the expected value, variance and skewness of the marginal distribution of g . A Monte Carlo simulation supports the accuracy of the formulas. Then, unbiased estimators of both the mean and the variance of the true effects are proposed, and assessed through Monte Carlo simulations. The advantages of the mixture model formulation over the “classical” formulation are discussed.",
+          "url": "https://doi.org/10.3758/s13428-024-02554-6",
+          "doi": "https://doi.org/10.3758/s13428-024-02554-6",
           "filter": 0
         },
         {
-          "title": "Quantifying sighting dominance using on-display projections of monocular and binocular views",
-          "authors": "Giuseppe Notaro, Uri Hasson",
-          "url": "https://doi.org/10.3758/s13428-024-02512-2",
-          "doi": "https://doi.org/10.3758/s13428-024-02512-2",
+          "title": "Open-source delay discounting assessment software: Development and usability",
+          "authors": "Daniel Augusto Utsumi, Rogério Tavares Gasi, Mônica Carolina Miranda, Emanuel Henrique Gonçalves Querino, Sabine Pompéia",
+          "url": "https://doi.org/10.3758/s13428-025-02598-2",
+          "doi": "https://doi.org/10.3758/s13428-025-02598-2",
           "filter": 0
         },
         {
-          "title": "Author Correction: Analytical power calculations for structural equation modeling: A tutorial and Shiny app",
-          "authors": "Suzanne Jak, Terrence D. Jorgensen, Mathilde G. E. Verdam, Frans J. Oort, Louise Elffers",
-          "url": "https://doi.org/10.3758/s13428-024-02571-5",
-          "doi": "https://doi.org/10.3758/s13428-024-02571-5",
+          "title": "Combining automation and expertise: A semi-automated approach to correcting eye-tracking data in reading tasks",
+          "authors": "Naser Al Madi, Brett Torra, Yixin Li, Najam Tariq",
+          "abstract": "In reading tasks, drift can move fixations from one word to another or even another line, invalidating the eye-tracking recording. Manual correction is time-consuming and subjective, while automated correction is fast – yet limited in accuracy. In this paper, we present Fix8 (Fixate), an open-source GUI tool that offers a novel semi-automated correction approach for eye-tracking data in reading tasks. The proposed approach allows the user to collaborate with an algorithm to produce accurate corrections faster without sacrificing accuracy. Through a usability study ( N = 14) we assess the time benefits of the proposed technique, and measure the correction accuracy in comparison to manual correction. In addition, we assess subjective workload through the NASA Task Load Index, and user opinions through Likert-scale questions. Our results show that, on average, the proposed technique was 44% faster than manual correction without any sacrifice of accuracy. In addition, users reported a preference for the proposed technique, lower workload, and higher perceived performance compared to manual correction. Fix8 is a valuable tool that offers useful features for generating synthetic eye-tracking data, visualization, filters, data converters, and eye-movement analysis in addition to the main contribution in data correction.",
+          "url": "https://doi.org/10.3758/s13428-025-02597-3",
+          "doi": "https://doi.org/10.3758/s13428-025-02597-3",
           "filter": 0
         },
         {
-          "title": "A response time-based mixture item response theory model for dynamic item-response strategies",
-          "authors": "Sijia Huang, Jinwen Luo, Minjeong Jeon",
-          "url": "https://doi.org/10.3758/s13428-024-02555-5",
-          "doi": "https://doi.org/10.3758/s13428-024-02555-5",
+          "title": "The fundamentals of eye tracking part 2: From research question to operationalization",
+          "authors": "Ignace T. C. Hooge, Antje Nuthmann, Marcus Nyström, Diederick C. Niehorster, Gijs A. Holleman, Richard Andersson, Roy S. Hessels",
+          "abstract": "In this article, we discuss operationalizations and examples of experimental design in eye-tracking research. First, we distinguish direct operationalization for entities like saccades, which are closely aligned with their original concepts, and indirect operationalization for concepts not directly measurable, such as attention or mind-wandering. The latter relies on selecting a measurable proxy. Second, we highlight the variability in algorithmic operationalizations and emphasize that changing parameters can affect outcome measures. Transparency in reporting these parameters and algorithms is crucial for comparisons across studies. Third, we provide references to studies for common operationalizations in eye-tracking research and discuss key operationalizations in reading research. Fourth, the IO-model is introduced as a tool to help researchers operationalize difficult concepts. Finally, we present three example experiments with useful methods for eye-tracking research, encouraging readers to consider these examples for inspiration in their own experiments.",
+          "url": "https://doi.org/10.3758/s13428-024-02590-2",
+          "doi": "https://doi.org/10.3758/s13428-024-02590-2",
           "filter": 0
         },
         {
-          "title": "The Beyond Reality Image Collection (BRIC)",
-          "authors": "Noga Segal-Gordon, Yoav Bar-Anan",
-          "abstract": "The Beyond Reality Image Collection (BRIC) is a set of 648 photos, some painted by an artist and some generated by artificial intelligence. Unlike previous photosets, the BRIC focused on nonrealistic visuals. This collection includes abstract and non-abstract paintings and nonrealistic photographs depicting objects, scenes, animals, humans, and fantastical creatures with varying degrees of unreal elements. We collected evaluative ratings of the photos, using a convenience sample of 16,208 participants in a total of 25,321 sessions. We used multiple evaluation measures: binary positive/negative and like/dislike categorization, seven-point ratings on these attributes, both under no time pressure and under time pressure, and evaluative priming scores. The mean evaluation of the photos on the different measures was highly correlated, but some photos consistently elicited a discrepant evaluative reaction between the measures. The BRIC is a valuable resource for eliciting evaluative reactions and can contribute to research on evaluative processes and affective responses.",
-          "url": "https://doi.org/10.3758/s13428-024-02586-y",
-          "doi": "https://doi.org/10.3758/s13428-024-02586-y",
+          "title": "A pre-rule for the sequential probability ratio test in a between-item grid multidimensional computerized classification test",
+          "authors": "Po-Hsien Hu, Ching-Lin Shih, Cheng-Te Chen",
+          "abstract": "The measurement efficiency of a grid multidimensional computerized classification test (grid MCCT), which makes a classification decision per dimension, can be improved by taking the correlations between the dimensions into account in the termination criterion. The higher the correlations, the better the improvement in measurement efficiency. However, a termination criterion utilizing inter-dimensional information (i.e., SPRT-C; Liu et al., 2022) was found to yield lower levels of correct classification rates than not utilizing it (i.e., SPRT-SF; Seitz &amp; Frey, 2013) under the between-item grid MCCT when the cutoff was set at the mean of the latent trait distribution. This study proposes a pre-rule to determine whether the SPRT-SF or SPRT-C should be used during the process of classification test administration. Through a series of simulation studies, the results showed that our proposed method (called P-SPRT) can substantially improve upon the SPRT-C in terms of correct classification rates, while maintaining its high measurement efficiency in terms of test length. This paper concludes with a discussion of the findings and further applications.",
+          "url": "https://doi.org/10.3758/s13428-025-02600-x",
+          "doi": "https://doi.org/10.3758/s13428-025-02600-x",
           "filter": 0
         },
         {
-          "title": "Reliability and validity of four cognitive interpretation bias measures in the context of social anxiety",
-          "authors": "Sascha B. Duken, Jun Moriya, Colette Hirsch, Marcella L. Woud, Bram van Bockstaele, Elske Salemink",
-          "abstract": "People with social anxiety disorder tend to interpret ambiguous social information in a negative rather than positive manner. Such interpretation biases may cause and maintain anxiety symptoms. However, there is considerable variability in the observed effects across studies, with some not finding a relationship between interpretation biases and social anxiety. Poor psychometric properties of interpretation bias measures may explain such inconsistent findings. We evaluated the internal consistency, test–retest reliability, convergent validity, and concurrent validity of four interpretation bias measures, ranging from more implicit and automatic to more explicit and reflective: the probe scenario task, the recognition task, the scrambled sentences task, and the interpretation and judgmental bias questionnaire. Young adults ( N = 94) completed interpretation bias measures in two sessions separated by one week. Psychometric properties were poor for the probe scenario and not acceptable for the recognition task. The reliability of the scrambled sentences task and the interpretation and judgmental bias questionnaire was good, and they correlated highly with social anxiety and each other, supporting their concurrent and convergent validity. However, there are methodological challenges that should be considered when measuring interpretation biases, even if psychometric indices suggest high measurement validity. We also discuss likely reasons for poor psychometric properties of some tasks and suggest potential solutions to improve the assessment of implicit and automatic biases in social anxiety in future research.",
-          "url": "https://doi.org/10.3758/s13428-024-02576-0",
-          "doi": "https://doi.org/10.3758/s13428-024-02576-0",
+          "title": "The trajectory of crime: Integrating mouse-tracking into concealed memory detection",
+          "authors": "Xinyi Julia Xu, Xianqing Liu, Xiaoqing Hu, Haiyan Wu",
+          "url": "https://doi.org/10.3758/s13428-024-02594-y",
+          "doi": "https://doi.org/10.3758/s13428-024-02594-y",
           "filter": 0
         }
       ],
@@ -72,45 +112,95 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "Who is willing to play skill-adapted exergames? Influences of sociodemographic factors and social comparison processes",
-          "authors": "Laura M. König, Martina Kanning, Hanna Hauptmann, Tiare Feuchtner, Danielle Arigo",
-          "url": "https://doi.org/10.1016/j.chb.2025.108562",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108562",
+          "title": "Dare to blow the whistle? The role of cute avatars in a university’s whistleblowing system",
+          "authors": "Lucky Lhaura Van FC, Afred Suci, Sarjon Defit, Hui-Chih Wang, Mustika Sufiati Purwanegara",
+          "url": "https://doi.org/10.1016/j.chb.2025.108567",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108567",
           "filter": 0
         },
         {
-          "title": "The influence of mobile augmented reality on consumer behavior: Insights into affective, cognitive, and behavioral responses",
-          "authors": "Lingam Naveen, Md Irfanuzzaman Khan, Md Abu Saleh, Rabi Narayan Subudhi",
-          "url": "https://doi.org/10.1016/j.chb.2025.108558",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108558",
+          "title": "Smartphone hookup app use (e.g. Tinder) and college student's risky sexual behavior: A model including leisure boredom, sensation seeking, and the moderating role of gender",
+          "authors": "Andrew Lepp, Brian Yim, Jacob E. Barkley",
+          "url": "https://doi.org/10.1016/j.chb.2025.108581",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108581",
           "filter": 0
         },
         {
-          "title": "Longitudinal bidirectional relations between problematic internet game use and nonsuicidal self-injury: The mediating role of internalizing symptoms",
-          "authors": "Xue Gong, Jianhua Zhou, Shihui Hao",
-          "url": "https://doi.org/10.1016/j.chb.2025.108564",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108564",
+          "title": "The “digital personalization effect” (DPE): A quantification of the possible extent to which personalizing content can increase the impact of online manipulations",
+          "authors": "Robert Epstein, Amanda Newland, Li Yu Tang",
+          "url": "https://doi.org/10.1016/j.chb.2025.108578",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108578",
           "filter": 0
         },
         {
-          "title": "What does Leveling Up Bring? A Study on the Ex Post Incentives of the Hierarchical Privilege Levels in Online Brand Communities",
-          "authors": "Dongmei Han, Wenfei Zhao, Zhiliang Pang, Zhengze Wu",
-          "url": "https://doi.org/10.1016/j.chb.2025.108557",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108557",
+          "title": "Enhanced visual attention-based sensorimotor control abilities in long-term first person shooter game players: A gray matter comparison study on different video games",
+          "authors": "Zhenggen Lin, Fujia Jiao, Lingyan Huang, Jie Zhuang, Yu Liu",
+          "url": "https://doi.org/10.1016/j.chb.2025.108582",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108582",
           "filter": 0
         },
         {
-          "title": "Too vulnerable to resist: problematic use of dating apps associated with social appearance anxiety, social interaction anxiety, and rejection sensitivity",
-          "authors": "Yi-Ting Huang, An-Di Gong",
-          "url": "https://doi.org/10.1016/j.chb.2025.108566",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108566",
+          "title": "Metaverse Policing: A Systematic Literature Review of Challenges and Recommendations",
+          "authors": "Milind Tiwari, You Zhou, Andrew Childs, Lennon Y.C. Chang, Jamie Ferrill",
+          "url": "https://doi.org/10.1016/j.chb.2025.108591",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108591",
           "filter": 0
         },
         {
-          "title": "Do discussions in human-computer communities trigger group polarization? Insights from the media evocation paradigm",
-          "authors": "Zehang Xie, Shuoshuo Li, Wu Li",
-          "url": "https://doi.org/10.1016/j.chb.2025.108561",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108561",
+          "title": "Technology-Facilitated Sexual Violence Among Sexual and Gender Minority Youth:",
+          "authors": "Alberto Amadori, Antonella Brighi",
+          "url": "https://doi.org/10.1016/j.chb.2025.108576",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108576",
+          "filter": 0
+        },
+        {
+          "title": "The relationship between loot box buying, gambling, internet gaming, and mental health: Investigating the moderating effect of impulsivity, depression, anxiety, and stress",
+          "authors": "Cristina Villalba-García, Mark D. Griffiths, Zsolt Demetrovics, Andrea Czakó",
+          "url": "https://doi.org/10.1016/j.chb.2025.108579",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108579",
+          "filter": 0
+        },
+        {
+          "title": "The double-edged sword effects of self-objectification on app workers’ proactive service behavior in the gig economy",
+          "authors": "Yuetong Wu, Ming Chi, Yongshun Xu, Yanli Chen",
+          "url": "https://doi.org/10.1016/j.chb.2025.108577",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108577",
+          "filter": 0
+        },
+        {
+          "title": "Why do individuals use online video piracy websites?",
+          "authors": "Min Sung Kim, Seongcheol Kim",
+          "url": "https://doi.org/10.1016/j.chb.2025.108575",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108575",
+          "filter": 0
+        },
+        {
+          "title": "HAPshop: How Haptic Information Affects Consumers’ Purchase Intentions toward Online Products",
+          "authors": "Hwan Kim, Haejoo Han, Kyung Hoon Hyun",
+          "url": "https://doi.org/10.1016/j.chb.2025.108580",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108580",
+          "filter": 0
+        },
+        {
+          "title": "The Role of Flow and Media Multitasking for Problematic Smartphone Use and the different Types of Smartphone Use",
+          "authors": "Lea-Christin Wickord, Claudia Quaiser-Pohl",
+          "url": "https://doi.org/10.1016/j.chb.2025.108583",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108583",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Group Processes & Intergroup Relations",
+      "journal_short": "GPIR",
+      "articles": [
+        {
+          "title": "Thinking about God encourages intergroup prosociality even when conflict is salient",
+          "authors": "Michael H. Pasek, Anne Lehner, Starlett Hartley, Jung Yul Kwon, Adiama Roselyn Mokosoi Israel, Reshmi Wati, Jeremy Ginges",
+          "abstract": "Recent research documents that thinking about God encourages intergroup prosociality among believers. An open question is whether such increased prosociality is dampened by intergroup conflict. We conducted preregistered field experiments with two ethno-religious populations in Fiji: indigenous Christian iTaukei ( N = 324) and Hindu Indo-Fijians ( N = 280). In each study, we manipulated (between-person) whether participants thought about intergroup conflict before completing a dictator game in which we manipulated (within-person) whether participants thought about God’s preferences when allocating real money to an outgroup member. Although participants who reflected on intergroup conflict gave less money away to outgroup members, thinking about God led to significant and comparable increases in intergroup prosociality regardless of whether participants thought about conflict. Results challenge widely-held assumptions about the role of religious belief in intergroup conflict and raise questions about mechanisms that are often theorized to explain the spread of religious beliefs themselves.",
+          "url": "https://doi.org/10.1177/13684302241307011",
+          "doi": "https://doi.org/10.1177/13684302241307011",
           "filter": 0
         }
       ],
@@ -121,95 +211,10 @@
       "journal_short": "JESP",
       "articles": [
         {
-          "title": "The impact factor: The effect of actual impact information and perceived donation efficacy on donors' repeated donations",
-          "authors": "Liat Levontin, Zohar Gilad, Elizabeth Durango-Cohen, Pablo Durango-Cohen",
-          "url": "https://doi.org/10.1016/j.jesp.2025.104720",
-          "doi": "https://doi.org/10.1016/j.jesp.2025.104720",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Journal of Personality and Social Psychology",
-      "journal_short": "JPSP",
-      "articles": [
-        {
-          "title": "Feedback receptivity from people in power reduces gender, sexual orientation, and disability bias concerns.",
-          "authors": "Ella J. Lombard, Katherine Weltzien, Linh N. H. Pham, Sapna Cheryan",
-          "url": "https://doi.org/10.1037/pspa0000427",
-          "doi": "https://doi.org/10.1037/pspa0000427",
-          "filter": 0
-        },
-        {
-          "title": "Associations of personality trait level and change with mortality risk in 11 longitudinal studies.",
-          "authors": "Emily C. Willroth, Emorie Beck, Tomiko B. Yoneda, Christopher R. Beam, Ian J. Deary, Johanna Drewelies, Denis Gerstorf, Martijn Huisman, Mindy J. Katz, Richard B. Lipton, Graciela Muniz Tererra, Nancy L. Pedersen, Chandra A. Reynolds, Avron Spiro, Nicholas A. Turiano, Sherry Willis, Daniel K. Mroczek, Eileen K. Graham",
-          "url": "https://doi.org/10.1037/pspp0000531",
-          "doi": "https://doi.org/10.1037/pspp0000531",
-          "filter": 0
-        },
-        {
-          "title": "Stereotypes and social decisions: The interpersonal consequences of socioeconomic status.",
-          "authors": "Bradley T. Hughes, Rachel Jacobson, Nicholas O. Rule, Sanjay Srivastava",
-          "url": "https://doi.org/10.1037/pspp0000541",
-          "doi": "https://doi.org/10.1037/pspp0000541",
-          "filter": 0
-        },
-        {
-          "title": "Are women really (not) more talkative than men? A registered report of binary gender similarities/differences in daily word use.",
-          "authors": "Colin A. Tidwell, Alexander F. Danvers, Valeria A. Pfeifer, Danielle B. Abel, Eva Alisic, Andrew Beer, Sabrina J. Bierstetel, Kathryn L. Bollich-Ziegler, Michelle Bruni, William R. Calabrese, Christine Chiarello, Burcu Demiray, Sona Dimidjian, Karen L. Fingerman, Maximilian Haas, Deanna M. Kaplan, Yijung K. Kim, Goran Knezevic, Ljiljana B. Lazarevic, Minxia Luo, Alessandra Macbeth, Joseph H. Manson, Jennifer S. Mascaro, Christina Metcalf, Kyle S. Minor, Suzanne Moseley, Angelina J. Polsinelli, Charles L. Raison, James K. Rilling, Megan L. Robbins, David Sbarra, Richard B. Slatcher, Jessie Sun, Mira Vasileva, Simine Vazire, Matthias R. Mehl",
-          "url": "https://doi.org/10.1037/pspp0000534",
-          "doi": "https://doi.org/10.1037/pspp0000534",
-          "filter": 0
-        },
-        {
-          "title": "Active during childhood: Undercontrolled or extraverted in late adolescence? A longitudinal study distinguishing different conceptions of childhood activity.",
-          "authors": "Silje Baardstu, Evalill B. Karevold, Oliver P. John, Filip De Fruyt, Tilmann von Soest",
-          "url": "https://doi.org/10.1037/pspp0000543",
-          "doi": "https://doi.org/10.1037/pspp0000543",
-          "filter": 0
-        },
-        {
-          "title": "Patterns in affect and personality states across the menstrual cycle.",
-          "authors": "Julia Stern, Peter Koval, Khandis Blake",
-          "url": "https://doi.org/10.1037/pspp0000538",
-          "doi": "https://doi.org/10.1037/pspp0000538",
-          "filter": 0
-        },
-        {
-          "title": "The dynamics of self-esteem and depressive symptoms across days, months, and years.",
-          "authors": "Peter Haehner, Charles C. Driver, Christopher J. Hopwood, Maike Luhmann, Karla Fliedner, Wiebke Bleidorn",
-          "url": "https://doi.org/10.1037/pspp0000542",
-          "doi": "https://doi.org/10.1037/pspp0000542",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Multivariate Behavioral Research",
-      "journal_short": "MBR",
-      "articles": [
-        {
-          "title": "Causal Estimands and Multiply Robust Estimation of Mediated-Moderation",
-          "authors": "Xiao Liu, Mark Eddy, Charles R. Martinez",
-          "url": "https://doi.org/10.1080/00273171.2024.2444949",
-          "doi": "https://doi.org/10.1080/00273171.2024.2444949",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Organizational Research Methods",
-      "journal_short": "ORM",
-      "articles": [
-        {
-          "title": "Surveying the Upper Echelons: An Update to Cycyota and Harrison (2006) on Top Manager Response Rates and Recommendations for the Future",
-          "authors": "Cameron J. Borgholthaus, Alaric Bourgoin, Peter D. Harms, Joshua V. White, Tyler N. A. Fezzey",
-          "abstract": "Nearly 2 decades ago, Cycyota and Harrison (2006) documented a concerning trend of declining executive survey response rates and projected a continued decrease in the future. Their seminal work has significantly influenced the methodologies of upper echelons survey research. Our study examines the manner in which Cycyota and Harrison’s paper has impacted the existing upper echelons literature and replicates their study by analyzing peer-reviewed studies published post-2006. We reveal that executive response rates have largely stabilized since Cycyota and Harrison’s initial findings. Furthermore, we expand upon their research by identifying specific geographical contexts and contact methodologies associated with higher (and lower) response rates. Finally, we lend insight into the evolving landscape of executive survey research and offer practical implications for future methodological endeavors in the upper echelons.",
-          "url": "https://doi.org/10.1177/10944281241310574",
-          "doi": "https://doi.org/10.1177/10944281241310574",
+          "title": "Introduction to the special issue on gossip and group processes",
+          "authors": "Bianca Beersma, Kim Peters, Daniel Balliet",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104733",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104733",
           "filter": 0
         }
       ],
@@ -220,56 +225,42 @@
       "journal_short": "PSPB",
       "articles": [
         {
-          "title": "Impartial Intergenerational Beneficence: The Psychology of Feeling (Equal) Intergenerational Concern for All Future Generations",
-          "authors": "Stylianos Syropoulos, Kyle Fiore Law, Gordon Kraft-Todd, Liane Young",
-          "abstract": "Across a series of eight high-powered studies ( N = 6,866), we develop a method for assessing impartial intergenerational beneficence, defined as intergenerational concern for all possible future generations. Across our studies, roughly 20% of participants displayed impartial intergenerational beneficence. Participants with impartial intergenerational beneficence expressed greater perceptions that future threats can be resolved, support for policies seeking to protect future generations of people, and a profound sense of responsibility for the long-term survival and prosperity of humanity. Similarly, associations with various future-oriented attitudes, patterns of prosociality, and longtermism-related behaviors and intentions were noted. This research thus introduces a method to capture impartiality in expressed intergenerational concern and finds that people who display impartial intergenerational concern endorse prosocial principles, such as altruism and utilitarianism, while also being more concerned about their own future, the future of others, and how they will be remembered by others.",
-          "url": "https://doi.org/10.1177/01461672241307800",
-          "doi": "https://doi.org/10.1177/01461672241307800",
+          "title": "Self-Enhancement in Latin America: Is It Linked to Interdependence?",
+          "authors": "Cristina E. Salvador, Sandra Idrovo Carlier, Keiko Ishii, Carolina Torres Castillo, Kevin Nanakdewa, Fernanda Canale Segovia, Alvaro San Martin, Krishna Savani, Shinobu Kitayama",
+          "abstract": "Although individuals of Latin American heritage ( Latin Americans in short) are considered interdependent, they also value traits like uniqueness and positivity, like individuals of European American cultural heritage, who are considered independent. It remains unclear whether this inclination toward positivity extends to a bias in self-perception known as self-enhancement. Moreover, if Latin Americans are indeed self-enhancing, it is uncertain how these tendencies align with their interdependent cultural orientation. In this article, we report three studies ( N = 1,246) with three operationalizations of self-enhancement. We found that Mexicans, Colombians, and Ecuadorians show self-enhancement that is mostly similar in magnitude to European Americans. Notably, Study 3 found that self-enhancement is related to interdependence in Latin America: Unlike European Americans, Latin Americans in Ecuador exhibited stronger self-enhancement when interdependence is primed rather than independence. Our findings suggest that among Latin American individuals, self-enhancement not only exists but also reinforces interdependence.",
+          "url": "https://doi.org/10.1177/01461672241309387",
+          "doi": "https://doi.org/10.1177/01461672241309387",
           "filter": 0
         },
         {
-          "title": "Seeing Through the Fog: The Ability to Resolve Ambiguity Reduces Dishonesty",
-          "authors": "Michael Puntiroli, Serhiy Kandul, Valéry Bezençon, Bruno Lanz",
-          "abstract": "Ambiguity acts as a veil that can help conceal and justify dishonest behavior. While an individual’s ability to disambiguate information in a task may help remove the veil of ambiguity and thus promote honesty, the relationship between ambiguity, ability, and dishonesty is currently unexplored. To investigate this, we employed an experimental design where participants attempted to resolve an ambiguous task and reported their performance. Results showed that ambiguity and dishonesty increase in unison. Importantly, the participants who resolved ambiguity acted less dishonestly (Study 1). In Studies 2a, 2b, and 3, we increased participants’ ability by briefly training them to disambiguate the information presented in the task. The results showed that participants acted less dishonestly when their ability levels were increased. Overall, the findings indicate that dishonesty can be reduced not only by making tasks less ambiguous but also by enhancing an individual’s ability to successfully resolve ambiguity.",
-          "url": "https://doi.org/10.1177/01461672241305687",
-          "doi": "https://doi.org/10.1177/01461672241305687",
+          "title": "Low Relational Mobility Fosters Interpersonal Indecision Through Increased Sensitivity to Social Rejection",
+          "authors": "Kuan-Ju Huang, Igor de Almeida, Yukiko Uchida, Shigehiro Oishi",
+          "abstract": "Relational mobility is a socio-ecological factor that shapes our interpersonal behaviors. Across four studies involving three countries ( N = 2,874), we tested the hypothesis that low relational mobility increases sensitivity to social rejection, which in turn fosters decision avoidance and difficulty in interpersonal situations (i.e., interpersonal indecision). Study 1 showed that countries with low relational mobility reported more subjective difficulties in interpersonal decision-making. Studies 2a and 2b demonstrated that cross-country differences in interpersonal indecision can be mediated by relational mobility and concerns about rejection. Study 3 further revealed that this mechanism is driven by heightened concerns and evaluations of negative relationship outcomes. Study 4 replicated the proposed mechanism using a scale that assesses the general tendency to experience interpersonal indecision. Our findings highlight the importance of socio-ecological context in shaping experiences when navigating interpersonal relationships.",
+          "url": "https://doi.org/10.1177/01461672241312260",
+          "doi": "https://doi.org/10.1177/01461672241312260",
+          "filter": 0
+        },
+        {
+          "title": "Sexual Orientation Disclosure and Strategic Navigation of Interpersonal Invisibility",
+          "authors": "Emily Schwartzman, Rebecca Neel",
+          "abstract": "People with concealable stigmatized identities may strategically share or hide cues to their identity. They may likewise seek or avoid interpersonal invisibility (i.e., being ignored). Despite semantic similarities, identity concealment and invisibility are conceptually distinct, but existing empirical work has not explored whether they are independent—that is, whether people may sometimes reveal to be invisible, or conceal to be visible. To evaluate this distinction, we collected lesbian, gay, and bisexual (LGB) participants’ free-response descriptions of situations where they revealed or concealed their sexual orientation to be visible or invisible (Study 1). Other LGB participants imagined social interactions in which they revealed or concealed their sexual orientation to be visible or invisible and rated their expected emotions in this situation (Study 2). We find that concealment and invisibility can occur independently of one another with separate effects on emotions, and that LGB people use identity disclosure and concealment to strategically navigate interpersonal invisibility.",
+          "url": "https://doi.org/10.1177/01461672241313269",
+          "doi": "https://doi.org/10.1177/01461672241313269",
           "filter": 0
         }
       ],
       "articles_hidden": []
     },
     {
-      "journal_full": "Psychological Methods",
-      "journal_short": "PM",
+      "journal_full": "Psychological Science",
+      "journal_short": "PsychSci",
       "articles": [
         {
-          "title": "Dynamic factor analysis with multivariate time series of multiple individuals: An error-corrected estimation method.",
-          "authors": "Guangjian Zhang, Dayoung Lee, Yilin Li, Anthony Ong",
-          "url": "https://doi.org/10.1037/met0000722",
-          "doi": "https://doi.org/10.1037/met0000722",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Psychology of Music",
-      "journal_short": "PsychMusic",
-      "articles": [
-        {
-          "title": "Please don’t stop the music! A new look at the performance anxiety of musicians with the model of excellencism and perfectionism",
-          "authors": "Patrick Racine, Samuel Vachon Laflamme, Patrick Gaudreau, Frédéric Langlois",
-          "abstract": "Musicians have normalized performance anxiety (PA) to be part of their musical career. Perfectionism has been proposed as a possible personality risk factor for PA. Although perfectionistic concerns have been consistently positively correlated to PA, results have been inconsistent for perfectionistic standards. This inconsistency is potentially attributable to the fact that past studies did not differentiate the pursuit of high standards and the pursuit of perfectionistic standards. In this study, we aimed to compare the levels of PA of students who pursue high standards (excellence) from those who pursue perfection with the model of excellencism and perfectionism. As a supplementary analysis, we have also investigated if different standards predicted different positive and negative affect levels. A total of 94 music students completed questionnaires on perfectionism, PA, and positive and negative affect. They were recruited through their music conservatory ( N = 69) and recruitment ads on Facebook ( N = 25). Results of multiple linear regression demonstrated that only perfectionistic standards were positively and significantly associated with cognitive state anxiety, overall score of PA, and negative affect. Overall, aiming for excellence rather than perfection seemed to help mitigate levels of PA and the negative affect felt by musicians.",
-          "url": "https://doi.org/10.1177/03057356241300538",
-          "doi": "https://doi.org/10.1177/03057356241300538",
-          "filter": 0
-        },
-        {
-          "title": "The cognitive and emotional content of music-evoked autobiographical memories in older adults",
-          "authors": "Teresa Lesiuk, Giulia Ripani",
-          "abstract": "Music can play a significant role in mitigating cognitive deficits in aging adults. When music is long known and has an emotional significance (i.e., autobiographical music), it can trigger memories of past experiences (i.e., Music-Evoked Autobiographical Memories, MEAMs). In this study, we examined the cognitive and emotional content of MEAMs when older adults listened to autobiographical music. To better understand the unique features of MEAMs, we also compared them with responses to non-autobiographical music. Participants ( N = 18; Mean age = 67.7) were asked to listen to (a) a selection of self-selected autobiographical musical pieces and (b) excerpts of researcher-selected songs. Furthermore, participants completed two surveys on their cognitive and emotional responses to music and took part in follow-up interviews. Results indicated that MEAMs elicited positive emotions, which were strongly felt, and triggered memories of life periods with references to themes such as growing up, love relationships and relationships with family, leisure and working times, and stress releasing. Responses to non-autobiographical music triggered different types of cognitive responses, including assimilating new music sounds, and mainly featured references to negative emotional states. MEAMs should be further investigated as a non-pharmacological treatment for age-related cognitive decline and for clinically diagnosed memory disorders.",
-          "url": "https://doi.org/10.1177/03057356241292067",
-          "doi": "https://doi.org/10.1177/03057356241292067",
+          "title": "The Extended Mind in Young Children: Cost-Dependent Trade-Off Between External and Internal Memory",
+          "authors": "Yibiao Liang, Erik Blaser, Jia Ying Yi, Liyang Sai, Zsuzsa Kaldy",
+          "abstract": "Most work on working memory development has children remember a set of items as well as they can. However, this approach sidesteps the extended mind, the integration of external information with memory. Indeed, adults prefer to use external resources (e.g., lists, models) but will remember more as the cost to access them increases. Here, in our shopping game, we investigated this trade-off in 5- to 8-year-olds. Using a touchscreen, children shopped in a virtual store. Their shopping list and the store were not visible simultaneously but could be toggled. We manipulated access cost by varying a delay (0–4 s) before the list’s reappearance. Across three preregistered experiments at two sites (the United States and China, N = 141), a pattern emerged: When it was costlier to do so, children revisited the list less often, studied it longer, and selected more correct items. Also, children recognized the costs, identifying the no-delay condition as easier. Young children showed a cost-dependent trade-off of external-resource use versus working memory.",
+          "url": "https://doi.org/10.1177/09567976241306424",
+          "doi": "https://doi.org/10.1177/09567976241306424",
           "filter": 0
         }
       ],

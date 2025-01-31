@@ -1,16 +1,32 @@
 {
-  "update": "2025-01-14",
+  "update": "2025-01-31",
   "content": [
     {
       "journal_full": "Journal of Official Statistics",
       "journal_short": "JOS",
       "articles": [
         {
-          "title": "A Bayesian Approach to Produce Subnational Population Estimates Using a Population Base Statistical Register",
-          "authors": "Jairo Fúquene-Patiño, Andryu Mendoza, Cesar Cristancho, Mariana Ospina",
-          "abstract": "Subnational Population Estimates (SPE) in Latin America are useful to implement new public policies in subnational areas with internal armed conflicts or difficult to access. In this work, we propose to combine a Population Base Statistical Register (PBSR) and the Official Population Projections (OPP) using a Bayesian approach to produce SPE. Our proposed procedures are useful for computing SPE of the population size or the SPE of the population size in percentage SPE (%). However, we focused on SPE (%) due to some data restrictions and to ensure data confidentiality. In this article, the PBSR is constructed using multiple administrative sources with registers from the health, education, vital statistics systems, tax registration, and, more importantly, the registers of the victims of the current internal armed conflict in Colombia. We also propose new fast Markov chain Monte Carlo algorithms to produce SPE (%) using data augmentation procedures to address the complications caused by the resulting joint posterior containing gamma functions. We implement our proposal to compute SPE (%) by age and sex groups in the municipality of Jamundí in Colombia which is currently affected by poverty, forced displacement, and the internal armed conflict and evaluate the accuracy with a Population Census.",
-          "url": "https://doi.org/10.1177/0282423x241293749",
-          "doi": "https://doi.org/10.1177/0282423x241293749",
+          "title": "On Omitted Variables, Proxies, and Unobserved Effects in Empirical Regression Analysis",
+          "authors": "Shihan Du, Ralf Andreas Wilke, Pia Homrighausen",
+          "abstract": "Any result from regression analysis may be subject to omitted variable bias of unknown magnitude and direction as, in practice, no dataset contains all the variables of the population model. At the same time, many variables are irrelevant and don’t contribute to the analysis. This paper explores which combination of data sources or structures will produce the best results and should be made available to the research community. We present a unified statistical framework that nests and comparable sets of constraints that characterize the effectiveness of these approaches in reducing omitted variable bias. We demonstrate our framework by estimating a wage and labor market transition model using German administrative data with a large set of linked survey variables. Overall, we find that unobserved effects panel data models with a restricted set of regressors are preferable to cross-sectional analysis with an extended set of variables. Consequently, we recommend that data providers supply administrative panel data for key variables instead of conducting extensive cross-sectional surveys.",
+          "url": "https://doi.org/10.1177/0282423x241312644",
+          "doi": "https://doi.org/10.1177/0282423x241312644",
+          "filter": 0
+        },
+        {
+          "title": "Nowcasting in Triple-System Estimation",
+          "authors": "Daan B. Zult, Peter G. M. van der Heijden, Bart F. M. Bakker",
+          "abstract": "Multiple systems estimation uses samples that each cover part of a population to obtain a total population size estimate. Ideally, all available samples are used, but if some samples are available (much) later, one may use only the samples that are available early. Under some regularity conditions, including sample independence, two samples are enough to obtain an asymptotically unbiased population size estimate. However, the assumption of sample independence may be unrealistic, especially when the samples are derived from administrative sources. The assumption of sample independence can be relaxed when using three or more samples, which is therefore generally recommended. This may be a problem if the third sample is available much later than the first two samples. Therefore, in this paper we propose a new approach that deals with this issue by utilizing older samples, using the so-called expectation maximization algorithm. This leads to a population size nowcast estimate that is asymptotically unbiased under more relaxed assumptions than the estimate based on two samples. The resulting nowcasting model is applied to the problem of estimating the number of homeless people in The Netherlands, leading to reasonably accurate nowcast estimates.",
+          "url": "https://doi.org/10.1177/0282423x241311751",
+          "doi": "https://doi.org/10.1177/0282423x241311751",
+          "filter": 0
+        },
+        {
+          "title": "Small Area Estimation for Composite Indicators: The Case of Multidimensional Poverty Incidence",
+          "authors": "Alejandra Arias-Salazar, Andrés Gutiérrez, Stalyn Guerrero-Gómez, Xavier Mancero, Natalia Rojas-Perilla, Hanwen Zhang",
+          "abstract": "This paper proposes a methodology to obtain estimates in small domains when the target is a composite indicator. These indicators are of utmost importance for studying multidimensional phenomena, but little research has been done on how to obtain estimates of these indicators under the small area context. Composite indicators are particularly complex for this purpose since their construction requires different data sources, aggregation procedures, and weighting which makes challenging not only the estimation for small domains but also obtaining uncertainty measures. As case study of our proposal, we estimate the incidence of multidimensional poverty at the municipality level in Colombia by incorporating innovative data sources such as geospatial data. Furthermore, we provide uncertainty measures based on a parametric bootstrap algorithm.",
+          "url": "https://doi.org/10.1177/0282423x241300751",
+          "doi": "https://doi.org/10.1177/0282423x241300751",
           "filter": 0
         }
       ],
@@ -21,46 +37,25 @@
       "journal_short": "JSSAM",
       "articles": [
         {
-          "title": "Synthesizing Surveys with Multiple Units of Observation: An Application to the Longitudinal Aging Study in India",
-          "authors": "Joshua Snoke, Erik Meijer, Drystan Phillips, Jenny Wilkens, Jinkook Lee",
-          "abstract": "We present methodology for creating synthetic data and an application to create a publicly releasable synthetic version of the Longitudinal Aging Study in India (LASI). The LASI, a health and retirement survey, is used for research and educational purposes, but it can only be shared under restricted access due to privacy considerations. We present novel methods to synthesize the survey, maintaining three nested levels of observation—individuals, couples, and households—with both continuous and categorical variables and survey weights. We show that the synthetic data maintains the distributional patterns of the confidential data and largely mitigates identification and attribute disclosure risk. We also present a novel method for controlling the risk and utility tradeoff for the synthetic data that take into account the survey sampling rates. Specifically, we down-weight records that have a high likelihood of being uniquely identifiable in the population due to unique demographic information and oversampling. We show this approach reduces both identification and attribute risk for records while preserving better utility over another common approach of coarsening records. Our methods and evaluations provide a foundation for creating a synthetic version of surveys with multiple units of observation, such as the LASI.",
-          "url": "https://doi.org/10.1093/jssam/smae047",
-          "doi": "https://doi.org/10.1093/jssam/smae047",
+          "title": "A Message from the Editors",
+          "authors": "Emily Berg, Brad Edwards",
+          "url": "https://doi.org/10.1093/jssam/smaf001",
+          "doi": "https://doi.org/10.1093/jssam/smaf001",
           "filter": 0
         }
       ],
       "articles_hidden": []
     },
     {
-      "journal_full": "Politics, Groups, and Identities",
-      "journal_short": "PGI",
+      "journal_full": "Social Science Computer Review",
+      "journal_short": "SSCR",
       "articles": [
         {
-          "title": "The political power of Muslim social capital in Europe and North America",
-          "authors": "Aubrey Westfall",
-          "url": "https://doi.org/10.1080/21565503.2024.2444897",
-          "doi": "https://doi.org/10.1080/21565503.2024.2444897",
-          "filter": 0
-        },
-        {
-          "title": "Dear political science: tools for the study of black (life and) politics",
-          "authors": "Elizabeth Jordie Davies",
-          "url": "https://doi.org/10.1080/21565503.2024.2444910",
-          "doi": "https://doi.org/10.1080/21565503.2024.2444910",
-          "filter": 0
-        },
-        {
-          "title": "Oliver C. Cox, social science, and the Black Radical Tradition: a call for (re)unification",
-          "authors": "Jared Clemons",
-          "url": "https://doi.org/10.1080/21565503.2024.2444925",
-          "doi": "https://doi.org/10.1080/21565503.2024.2444925",
-          "filter": 0
-        },
-        {
-          "title": "System justification and the American alt-right",
-          "authors": "Katherine Sawyer, Kanisha D. Bond, H. Hannah Nam",
-          "url": "https://doi.org/10.1080/21565503.2024.2444901",
-          "doi": "https://doi.org/10.1080/21565503.2024.2444901",
+          "title": "Survey on Deep Learning for Misinformation Detection: Adapting to Recent Events, Multilingual Challenges, and Future Visions",
+          "authors": "Ansam Khraisat,  Manisha, Lennon Chang, Jemal Abawajy",
+          "abstract": "The proliferation of misinformation in the digital age has emerged as a pervasive and pressing challenge, threatening the integrity of information dissemination across online platforms. In response to this growing concern, this survey paper offers a comprehensive analysis of the landscape of misinformation detection methodologies. Our survey delves into the intricacies of model architectures, feature engineering, and data sources, providing insights into the strengths and limitations of each approach. Despite significant advancements in misinformation detection, this survey identifies persistent challenges. The paper accentuates the need for adaptive models that can effectively tackle rapidly evolving events, such as the COVID-19 pandemic. Language adaptability remains another substantial frontier, particularly in the context of low-resource languages like Chinese. Furthermore, it draws attention to the dearth of balanced, multilingual datasets, emphasizing their significance for robust model training and assessment. By addressing emerging challenges and offering a comprehensive view, our paper enriches the understanding of deep learning techniques in misinformation detection.",
+          "url": "https://doi.org/10.1177/08944393251315910",
+          "doi": "https://doi.org/10.1177/08944393251315910",
           "filter": 0
         }
       ],
