@@ -1,32 +1,16 @@
 {
-  "update": "2025-01-31",
+  "update": "2025-02-01",
   "content": [
     {
       "journal_full": "Journal of Official Statistics",
       "journal_short": "JOS",
       "articles": [
         {
-          "title": "On Omitted Variables, Proxies, and Unobserved Effects in Empirical Regression Analysis",
-          "authors": "Shihan Du, Ralf Andreas Wilke, Pia Homrighausen",
-          "abstract": "Any result from regression analysis may be subject to omitted variable bias of unknown magnitude and direction as, in practice, no dataset contains all the variables of the population model. At the same time, many variables are irrelevant and don’t contribute to the analysis. This paper explores which combination of data sources or structures will produce the best results and should be made available to the research community. We present a unified statistical framework that nests and comparable sets of constraints that characterize the effectiveness of these approaches in reducing omitted variable bias. We demonstrate our framework by estimating a wage and labor market transition model using German administrative data with a large set of linked survey variables. Overall, we find that unobserved effects panel data models with a restricted set of regressors are preferable to cross-sectional analysis with an extended set of variables. Consequently, we recommend that data providers supply administrative panel data for key variables instead of conducting extensive cross-sectional surveys.",
-          "url": "https://doi.org/10.1177/0282423x241312644",
-          "doi": "https://doi.org/10.1177/0282423x241312644",
-          "filter": 0
-        },
-        {
           "title": "Nowcasting in Triple-System Estimation",
           "authors": "Daan B. Zult, Peter G. M. van der Heijden, Bart F. M. Bakker",
           "abstract": "Multiple systems estimation uses samples that each cover part of a population to obtain a total population size estimate. Ideally, all available samples are used, but if some samples are available (much) later, one may use only the samples that are available early. Under some regularity conditions, including sample independence, two samples are enough to obtain an asymptotically unbiased population size estimate. However, the assumption of sample independence may be unrealistic, especially when the samples are derived from administrative sources. The assumption of sample independence can be relaxed when using three or more samples, which is therefore generally recommended. This may be a problem if the third sample is available much later than the first two samples. Therefore, in this paper we propose a new approach that deals with this issue by utilizing older samples, using the so-called expectation maximization algorithm. This leads to a population size nowcast estimate that is asymptotically unbiased under more relaxed assumptions than the estimate based on two samples. The resulting nowcasting model is applied to the problem of estimating the number of homeless people in The Netherlands, leading to reasonably accurate nowcast estimates.",
           "url": "https://doi.org/10.1177/0282423x241311751",
           "doi": "https://doi.org/10.1177/0282423x241311751",
-          "filter": 0
-        },
-        {
-          "title": "Small Area Estimation for Composite Indicators: The Case of Multidimensional Poverty Incidence",
-          "authors": "Alejandra Arias-Salazar, Andrés Gutiérrez, Stalyn Guerrero-Gómez, Xavier Mancero, Natalia Rojas-Perilla, Hanwen Zhang",
-          "abstract": "This paper proposes a methodology to obtain estimates in small domains when the target is a composite indicator. These indicators are of utmost importance for studying multidimensional phenomena, but little research has been done on how to obtain estimates of these indicators under the small area context. Composite indicators are particularly complex for this purpose since their construction requires different data sources, aggregation procedures, and weighting which makes challenging not only the estimation for small domains but also obtaining uncertainty measures. As case study of our proposal, we estimate the incidence of multidimensional poverty at the municipality level in Colombia by incorporating innovative data sources such as geospatial data. Furthermore, we provide uncertainty measures based on a parametric bootstrap algorithm.",
-          "url": "https://doi.org/10.1177/0282423x241300751",
-          "doi": "https://doi.org/10.1177/0282423x241300751",
           "filter": 0
         }
       ],

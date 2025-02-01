@@ -1,5 +1,5 @@
 {
-  "update": "2025-01-31",
+  "update": "2025-02-01",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -53,14 +53,6 @@
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "Reformulating the meta-analytical random effects model of the standardized mean difference as a mixture model",
-          "authors": "Manuel Suero, Juan Botella, Juan I. Duran, Desirée Blazquez-Rincón",
-          "abstract": "The classical meta-analytical random effects model (REM) has some weaknesses when applied to the standardized mean difference, g . Essentially, the variance of the studies involved is taken as the conditional variance, given a δ value, instead of the unconditional variance. As a consequence, the estimators of the variances involve a dependency between the g values and their variances that distorts the estimates. The classical REM is expressed as a linear model and the variance of g is obtained through a framework of components of variance. Although the weaknesses of the REM are negligible in practical terms in a wide range of realistic scenarios, all together, they make up an approximate, simplified version of the meta-analytical random effects model. We present an alternative formulation, as a mixture model, and provide formulas for the expected value, variance and skewness of the marginal distribution of g . A Monte Carlo simulation supports the accuracy of the formulas. Then, unbiased estimators of both the mean and the variance of the true effects are proposed, and assessed through Monte Carlo simulations. The advantages of the mixture model formulation over the “classical” formulation are discussed.",
-          "url": "https://doi.org/10.3758/s13428-024-02554-6",
-          "doi": "https://doi.org/10.3758/s13428-024-02554-6",
-          "filter": 0
-        },
-        {
           "title": "Correction: A modular machine learning tool for holistic and fine-grained behavioral analysis",
           "authors": "Bruno Michelot, Alexandra Corneyllie, Marc Thevenet, Stefan Duffner, Fabien Perrin",
           "url": "https://doi.org/10.3758/s13428-025-02602-9",
@@ -72,29 +64,6 @@
           "authors": "Alfonso Semeraro, Salvatore Vilella, Riccardo Improta, Edoardo Sebastiano De Duro, Saif M. Mohammad, Giancarlo Ruffo, Massimo Stella",
           "url": "https://doi.org/10.3758/s13428-024-02553-7",
           "doi": "https://doi.org/10.3758/s13428-024-02553-7",
-          "filter": 0
-        },
-        {
-          "title": "Open-source delay discounting assessment software: Development and usability",
-          "authors": "Daniel Augusto Utsumi, Rogério Tavares Gasi, Mônica Carolina Miranda, Emanuel Henrique Gonçalves Querino, Sabine Pompéia",
-          "url": "https://doi.org/10.3758/s13428-025-02598-2",
-          "doi": "https://doi.org/10.3758/s13428-025-02598-2",
-          "filter": 0
-        },
-        {
-          "title": "The fundamentals of eye tracking part 2: From research question to operationalization",
-          "authors": "Ignace T. C. Hooge, Antje Nuthmann, Marcus Nyström, Diederick C. Niehorster, Gijs A. Holleman, Richard Andersson, Roy S. Hessels",
-          "abstract": "In this article, we discuss operationalizations and examples of experimental design in eye-tracking research. First, we distinguish direct operationalization for entities like saccades, which are closely aligned with their original concepts, and indirect operationalization for concepts not directly measurable, such as attention or mind-wandering. The latter relies on selecting a measurable proxy. Second, we highlight the variability in algorithmic operationalizations and emphasize that changing parameters can affect outcome measures. Transparency in reporting these parameters and algorithms is crucial for comparisons across studies. Third, we provide references to studies for common operationalizations in eye-tracking research and discuss key operationalizations in reading research. Fourth, the IO-model is introduced as a tool to help researchers operationalize difficult concepts. Finally, we present three example experiments with useful methods for eye-tracking research, encouraging readers to consider these examples for inspiration in their own experiments.",
-          "url": "https://doi.org/10.3758/s13428-024-02590-2",
-          "doi": "https://doi.org/10.3758/s13428-024-02590-2",
-          "filter": 0
-        },
-        {
-          "title": "Combining automation and expertise: A semi-automated approach to correcting eye-tracking data in reading tasks",
-          "authors": "Naser Al Madi, Brett Torra, Yixin Li, Najam Tariq",
-          "abstract": "In reading tasks, drift can move fixations from one word to another or even another line, invalidating the eye-tracking recording. Manual correction is time-consuming and subjective, while automated correction is fast – yet limited in accuracy. In this paper, we present Fix8 (Fixate), an open-source GUI tool that offers a novel semi-automated correction approach for eye-tracking data in reading tasks. The proposed approach allows the user to collaborate with an algorithm to produce accurate corrections faster without sacrificing accuracy. Through a usability study ( N = 14) we assess the time benefits of the proposed technique, and measure the correction accuracy in comparison to manual correction. In addition, we assess subjective workload through the NASA Task Load Index, and user opinions through Likert-scale questions. Our results show that, on average, the proposed technique was 44% faster than manual correction without any sacrifice of accuracy. In addition, users reported a preference for the proposed technique, lower workload, and higher perceived performance compared to manual correction. Fix8 is a valuable tool that offers useful features for generating synthetic eye-tracking data, visualization, filters, data converters, and eye-movement analysis in addition to the main contribution in data correction.",
-          "url": "https://doi.org/10.3758/s13428-025-02597-3",
-          "doi": "https://doi.org/10.3758/s13428-025-02597-3",
           "filter": 0
         },
         {
@@ -184,17 +153,17 @@
           "filter": 0
         },
         {
-          "title": "The Role of Flow and Media Multitasking for Problematic Smartphone Use and the different Types of Smartphone Use",
-          "authors": "Lea-Christin Wickord, Claudia Quaiser-Pohl",
-          "url": "https://doi.org/10.1016/j.chb.2025.108583",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108583",
-          "filter": 0
-        },
-        {
           "title": "HAPshop: How Haptic Information Affects Consumers’ Purchase Intentions toward Online Products",
           "authors": "Hwan Kim, Haejoo Han, Kyung Hoon Hyun",
           "url": "https://doi.org/10.1016/j.chb.2025.108580",
           "doi": "https://doi.org/10.1016/j.chb.2025.108580",
+          "filter": 0
+        },
+        {
+          "title": "The role of flow and media multitasking for problematic smartphone use and the different types of smartphone use",
+          "authors": "Lea-Christin Wickord, Claudia Quaiser-Pohl",
+          "url": "https://doi.org/10.1016/j.chb.2025.108583",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108583",
           "filter": 0
         },
         {
@@ -232,6 +201,13 @@
           "url": "https://doi.org/10.1016/j.jesp.2025.104733",
           "doi": "https://doi.org/10.1016/j.jesp.2025.104733",
           "filter": 0
+        },
+        {
+          "title": "More likely or more wrong? - Disentangling the prototype effect of discrimination perception",
+          "authors": "Paul-Michael Heineck, Roland Deutsch",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104731",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104731",
+          "filter": 0
         }
       ],
       "articles_hidden": []
@@ -268,22 +244,6 @@
       "journal_full": "Personality and Social Psychology Bulletin",
       "journal_short": "PSPB",
       "articles": [
-        {
-          "title": "Self-Enhancement in Latin America: Is It Linked to Interdependence?",
-          "authors": "Cristina E. Salvador, Sandra Idrovo Carlier, Keiko Ishii, Carolina Torres Castillo, Kevin Nanakdewa, Fernanda Canale Segovia, Alvaro San Martin, Krishna Savani, Shinobu Kitayama",
-          "abstract": "Although individuals of Latin American heritage ( Latin Americans in short) are considered interdependent, they also value traits like uniqueness and positivity, like individuals of European American cultural heritage, who are considered independent. It remains unclear whether this inclination toward positivity extends to a bias in self-perception known as self-enhancement. Moreover, if Latin Americans are indeed self-enhancing, it is uncertain how these tendencies align with their interdependent cultural orientation. In this article, we report three studies ( N = 1,246) with three operationalizations of self-enhancement. We found that Mexicans, Colombians, and Ecuadorians show self-enhancement that is mostly similar in magnitude to European Americans. Notably, Study 3 found that self-enhancement is related to interdependence in Latin America: Unlike European Americans, Latin Americans in Ecuador exhibited stronger self-enhancement when interdependence is primed rather than independence. Our findings suggest that among Latin American individuals, self-enhancement not only exists but also reinforces interdependence.",
-          "url": "https://doi.org/10.1177/01461672241309387",
-          "doi": "https://doi.org/10.1177/01461672241309387",
-          "filter": 0
-        },
-        {
-          "title": "Low Relational Mobility Fosters Interpersonal Indecision Through Increased Sensitivity to Social Rejection",
-          "authors": "Kuan-Ju Huang, Igor de Almeida, Yukiko Uchida, Shigehiro Oishi",
-          "abstract": "Relational mobility is a socio-ecological factor that shapes our interpersonal behaviors. Across four studies involving three countries ( N = 2,874), we tested the hypothesis that low relational mobility increases sensitivity to social rejection, which in turn fosters decision avoidance and difficulty in interpersonal situations (i.e., interpersonal indecision). Study 1 showed that countries with low relational mobility reported more subjective difficulties in interpersonal decision-making. Studies 2a and 2b demonstrated that cross-country differences in interpersonal indecision can be mediated by relational mobility and concerns about rejection. Study 3 further revealed that this mechanism is driven by heightened concerns and evaluations of negative relationship outcomes. Study 4 replicated the proposed mechanism using a scale that assesses the general tendency to experience interpersonal indecision. Our findings highlight the importance of socio-ecological context in shaping experiences when navigating interpersonal relationships.",
-          "url": "https://doi.org/10.1177/01461672241312260",
-          "doi": "https://doi.org/10.1177/01461672241312260",
-          "filter": 0
-        },
         {
           "title": "Sexual Orientation Disclosure and Strategic Navigation of Interpersonal Invisibility",
           "authors": "Emily Schwartzman, Rebecca Neel",

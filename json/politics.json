@@ -1,18 +1,10 @@
 {
-  "update": "2025-01-31",
+  "update": "2025-02-01",
   "content": [
     {
       "journal_full": "American Political Science Review",
       "journal_short": "APSR",
       "articles": [
-        {
-          "title": "Precolonial Elites and Colonial Redistribution of Political Power",
-          "authors": "ALLISON S. HARTNETT, MOHAMED SALEH",
-          "abstract": "Studies of colonialism often associate indirect colonial rule with continuity of the precolonial institutions. Yet, we know less about how colonialism affected the distribution of power between precolonial domestic elites within nominally continuous institutions. We argue that colonial authorities will redistribute power toward elites that are the most congruent with the colonizer’s objectives. We test our theory on the British occupation of Egypt in 1882. Using an original dataset on members of the Egyptian parliament and a difference-in-differences empirical strategy, we show that the colonial authorities shifted parliamentary representation toward the (congruent) landed elite and away from the (oppositional) rural middle class. This shift was greater in cotton-producing provinces which were more exposed to colonial economic interest. Our results demonstrate that the colonial redistribution of power within precolonial institutions can reengineer the social-structural fabric of colonized societies.",
-          "url": "https://doi.org/10.1017/s0003055424001321",
-          "doi": "https://doi.org/10.1017/s0003055424001321",
-          "filter": 0
-        },
         {
           "title": "Efficacy of Congressional Oversight",
           "authors": "PAMELA BAN, SETH J. HILL",
@@ -45,10 +37,10 @@
       "journal_short": "ElectStud",
       "articles": [
         {
-          "title": "Motivations for partisan attachment in the developing world",
-          "authors": "Ankita Barthwal, Francesca R. Jensenius",
-          "url": "https://doi.org/10.1016/j.electstud.2025.102896",
-          "doi": "https://doi.org/10.1016/j.electstud.2025.102896",
+          "title": "Who cares about the culture war? Evidence from a vote choice conjoint experiment",
+          "authors": "James Breckwoldt",
+          "url": "https://doi.org/10.1016/j.electstud.2025.102895",
+          "doi": "https://doi.org/10.1016/j.electstud.2025.102895",
           "filter": 0
         }
       ],
@@ -73,35 +65,11 @@
       "journal_short": "PA",
       "articles": [
         {
-          "title": "Synthetically generated text for supervised text analysis",
-          "authors": "Andrew Halterman",
-          "abstract": "Large language models are a powerful tool for conducting text analysis in political science, but using them to annotate text has several drawbacks, including high cost, limited reproducibility, and poor explainability. Traditional supervised text classifiers are fast and reproducible, but require expensive hand annotation, which is especially difficult for rare classes. This article proposes using LLMs to generate synthetic training data for training smaller, traditional supervised text models. Synthetic data can augment limited hand annotated data or be used on its own to train a classifier with good performance and greatly reduced cost. I provide a conceptual overview of text generation, guidance on when researchers should prefer different techniques for generating synthetic text, a discussion of ethics, a simple technique for improving the quality of synthetic text, and an illustration of its limitations. I demonstrate the usefulness of synthetic training through three validations: synthetic news articles describing police responses to communal violence in India for training an event detection system, a multilingual corpus of synthetic populist manifesto statements for training a sentence-level populism classifier, and generating synthetic tweets describing the fighting in Ukraine to improve a named entity system.",
-          "url": "https://doi.org/10.1017/pan.2024.31",
-          "doi": "https://doi.org/10.1017/pan.2024.31",
-          "filter": 0
-        },
-        {
-          "title": "The Limits (and Strengths) of Single-Topic Experiments",
-          "authors": "Scott Clifford, Carlisle Rainey",
-          "abstract": "We examine the generalizability of single-topic studies, focusing on how often their confidence intervals capture the typical treatment effect from a larger population of possible studies. We show that the confidence intervals from these single-topic studies capture the typical effect from a population of topics at well below the nominal rate. For a plausible scenario, the confidence interval from a single-topic study might only be half as wide as an interval that captures the typical effect at the nominal rate. We highlight three important conclusions. First, we emphasize that researchers and readers must take care when generalizing the inferences from single-topic studies to a larger population of possible studies. Second, we demonstrate the critical importance of similarity across topics in drawing inferences and encourage researchers to consider designs that explicitly estimate and leverage similarity. Third, we emphasize that, despite their limitations, single-topic experiments have some important advantages.",
-          "url": "https://doi.org/10.1017/pan.2024.20",
-          "doi": "https://doi.org/10.1017/pan.2024.20",
-          "filter": 0
-        },
-        {
           "title": "Positioning Political Texts with Large Language Models by Asking and Averaging",
           "authors": "Gaël Le Mens, Aina Gallego",
           "abstract": "We use instruction-tuned large language models (LLMs) like GPT-4, Llama 3, MiXtral, or Aya to position political texts within policy and ideological spaces. We ask an LLM where a tweet or a sentence of a political text stands on the focal dimension and take the average of the LLM responses to position political actors such as US Senators, or longer texts such as UK party manifestos or EU policy speeches given in 10 different languages. The correlations between the position estimates obtained with the best LLMs and benchmarks based on text coding by experts, crowdworkers, or roll call votes exceed .90. This approach is generally more accurate than the positions obtained with supervised classifiers trained on large amounts of research data. Using instruction-tuned LLMs to position texts in policy and ideological spaces is fast, cost-efficient, reliable, and reproducible (in the case of open LLMs) even if the texts are short and written in different languages. We conclude with cautionary notes about the need for empirical validation.",
           "url": "https://doi.org/10.1017/pan.2024.29",
           "doi": "https://doi.org/10.1017/pan.2024.29",
-          "filter": 0
-        },
-        {
-          "title": "Categorizing Topics Versus Inferring Attitudes: A Theory and Method for Analyzing Open-ended Survey Responses",
-          "authors": "William Hobbs, Jon Green",
-          "abstract": "Past work on closed-ended survey responses demonstrates that inferring stable political attitudes requires separating signal from noise in “top of the head” answers to researchers’ questions. We outline a corresponding theory of the open-ended response, in which respondents make narrow, stand-in statements to convey more abstract, general attitudes. We then present a method designed to infer those attitudes. Our approach leverages co-variation with words used relatively frequently across respondents to infer what else they could have said without substantively changing what they meant—linking narrow themes to each other through associations with contextually prevalent words. This reflects the intuition that a respondent may use different specific statements at different points in time to convey similar meaning. We validate this approach using panel data in which respondents answer the same open-ended questions (concerning healthcare policy, most important problems, and evaluations of political parties) at multiple points in time, showing that our method’s output consistently exhibits higher within-subject correlations than hand-coding of narrow response categories, topic modeling, and large language model output. Finally, we show how large language models can be used to complement—but not, at present, substitute—our “implied word” method.",
-          "url": "https://doi.org/10.1017/pan.2024.23",
-          "doi": "https://doi.org/10.1017/pan.2024.23",
           "filter": 0
         },
         {
@@ -113,15 +81,7 @@
           "filter": 0
         }
       ],
-      "articles_hidden": [
-        {
-          "title": "Acquiescence Bias Inflates Estimates of Conspiratorial Beliefs and Political Misperceptions - CORRIGENDUM",
-          "authors": "Seth J. Hill, Margaret E. Roberts",
-          "url": "https://doi.org/10.1017/pan.2024.27",
-          "doi": "https://doi.org/10.1017/pan.2024.27",
-          "filter": 1
-        }
-      ]
+      "articles_hidden": []
     },
     {
       "journal_full": "Political Behavior",
@@ -139,20 +99,6 @@
           "authors": "Derek Wakefield",
           "url": "https://doi.org/10.1007/s11109-025-10004-y",
           "doi": "https://doi.org/10.1007/s11109-025-10004-y",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Political Geography",
-      "journal_short": "PolGeo",
-      "articles": [
-        {
-          "title": "One glyphosate: Toxic dispossession and the agri-military regime in Colombia",
-          "authors": "Claudia Rivera Amarillo, Lorena Arias-Solano, Diana Ojeda, Sonia Serna Botero",
-          "url": "https://doi.org/10.1016/j.polgeo.2025.103288",
-          "doi": "https://doi.org/10.1016/j.polgeo.2025.103288",
           "filter": 0
         }
       ],
@@ -208,6 +154,13 @@
       "journal_short": "PubChoice",
       "articles": [
         {
+          "title": "Mahmoud Mohieldin, Hanan Amin-Salem, Amira El-Shal, and Eman Moustafa, The political economy of crisis management and reform in Egypt. Switzerland: Palgrave Macmillan, 2024. Xiii + 167 pages. EUR 39.99 (hardcover)",
+          "authors": "Fatih Kırşanlı",
+          "url": "https://doi.org/10.1007/s11127-025-01257-6",
+          "doi": "https://doi.org/10.1007/s11127-025-01257-6",
+          "filter": 0
+        },
+        {
           "title": "Fifty-four thousand deaths, zero electoral impact",
           "authors": "Alper Demirdogen, Emine Olhan",
           "abstract": "The February 2023 earthquake in Turkiye resulted in 54,000 fatalities and over $100 billion in economic losses. We examine whether this catastrophic event influenced incumbent-party support in the subsequent election. In contrast with previous researchers, we find no significant effect on voter turnout or the incumbent party’s vote share, even after accounting for population displacement and infrastructure damage. We argue that this null effect is due to several factors: effective electoral management policies that reduced voting costs despite significant population displacement; a compressed timeline between disaster and elections, which constrained politically motivated aid distribution; extreme political polarization, which led the public to filter their interpretation of the disaster response through partisan lenses; different information flows in state-controlled media and social media; and offsetting electoral responses across regions. Our results offer valuable insights for policy makers, political scientists, and economists studying the political consequences of natural disasters.",
@@ -230,13 +183,6 @@
           "filter": 0
         },
         {
-          "title": "US Enforcement Politics and Remittance Dynamics in Mexico",
-          "authors": "Matthew Smoldt, Valerie Mueller, Cameron G. Thies",
-          "url": "https://doi.org/10.1086/730730",
-          "doi": "https://doi.org/10.1086/730730",
-          "filter": 0
-        },
-        {
           "title": "The “Odd Party Out” Theory of Certiorari",
           "authors": "Adam Bonica, Adam Chilton, Maya Sen",
           "url": "https://doi.org/10.1086/730741",
@@ -244,24 +190,10 @@
           "filter": 0
         },
         {
-          "title": "Good Governance: A Fiduciary Model",
-          "authors": "Nikolas Kirby",
-          "url": "https://doi.org/10.1086/730736",
-          "doi": "https://doi.org/10.1086/730736",
-          "filter": 0
-        },
-        {
           "title": "Negative Political Identities and Costly Political Action",
           "authors": "Katharina Lawall, Stuart J. Turnbull-Dugarte, Florian Foos, Joshua Townsley",
           "url": "https://doi.org/10.1086/730718",
           "doi": "https://doi.org/10.1086/730718",
-          "filter": 0
-        },
-        {
-          "title": "The Costs of Collective Action: An Experimental Study of Risk, Punishment, and Immunity",
-          "authors": "Gloria Cheung, David A Siegel",
-          "url": "https://doi.org/10.1086/730717",
-          "doi": "https://doi.org/10.1086/730717",
           "filter": 0
         }
       ],
