@@ -1,48 +1,16 @@
 {
-  "update": "2025-02-05",
+  "update": "2025-02-06",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
       "journal_short": "AMPPS",
       "articles": [
         {
-          "title": "With Low Power Comes Low Credibility? Toward a Principled Critique of Results From Underpowered Tests",
-          "authors": "Lukas L. Lengersdorff, Claus Lamm",
-          "abstract": "Researchers should be motivated to adequately power statistical tests because tests with low power have a low probability of detecting true effects. However, it is also often claimed that significant results obtained by underpowered tests are less likely to reflect a true effect. Here, we critically discuss this “low-power/low-credibility” (LPLC) critique from both frequentist and Bayesian perspectives. Although the LPLC critique is first and foremost a critique of frequentist tests, it is itself not consistent with frequentist theory. In particular, it demands that researchers have some information on the probability that a hypothesis is true before they test it. However, such prior probabilities are dismissed as meaningless in frequentist inference, and we demonstrate that they cannot be meaningfully introduced into frequentist thinking. Even when adopting a Bayesian perspective, however, significant results from tests with low power can provide a nonnegligible amount of support for the tested hypothesis. We conclude that even though low power reduces the chances to obtain significant findings, there is little justification to dismiss already obtained significant findings on the basis of low power alone. However, concerns about low power might often reflect suspicions that findings were produced by questionable research practices. If this is the case, we suggest that communicating these issues transparently rather than using low power as a proxy concern will be more appropriate. We conclude by providing suggestions on how results from tests with low power can be critiqued for the correct reasons and in a constructive manner.",
-          "url": "https://doi.org/10.1177/25152459241296397",
-          "doi": "https://doi.org/10.1177/25152459241296397",
-          "filter": 0
-        },
-        {
           "title": "ARIADNE: A Scientific Navigator to Find Your Way Through the Resource Labyrinth of Psychological Sciences",
           "authors": "Helena Hartmann, Çağatay Gürsoy, Alexander Lischke, Marie Mueckstein, Matthias F. J. Sperl, Susanne Vogel, Yu-Fang Yang, Gordon B. Feld, Alexandros Kastrinogiannis, Alina Koppold",
           "abstract": "Performing high-quality research is a challenging endeavor, especially for early career researchers, in many fields of psychological science. Most research is characterized by experiential learning, which can be time-consuming, error-prone, and frustrating. Although most institutions provide selected resources to help researchers with their projects, these resources are often expensive, spread out, hard to find, and difficult to compare with one another in terms of reliability, validity, usability, and practicability. A comprehensive overview of resources that are useful for researchers in psychological science is missing. To address this issue, we created ARIADNE: a living and interactive resource navigator that helps to use and search a dynamically updated database of resources ( https://igor-biodgps.github.io/ARIADNE ). In this tutorial, we aim to guide researchers through a standard research project using ARIADNE along the way. The open-access database covers a growing list of resources useful for each step of a research project, from the planning and designing of a study, over the collection and analysis of the data, to the writing and disseminating of the findings. We provide (a) a step-by-step guide on how to perform a research project (in the fields of biological psychology and neuroscience as a case example but with broad application to neighboring fields) and (b) an overview of resources that are useful at different project steps. By explicitly highlighting open-access and open-source resources, we level the playing field for researchers from underprivileged countries or institutions, thereby facilitating open, fair, and reproducible research in the psychological sciences.",
           "url": "https://doi.org/10.1177/25152459241297674",
           "doi": "https://doi.org/10.1177/25152459241297674",
-          "filter": 0
-        },
-        {
-          "title": "An Inception-Cohort Study Quantifying How Many Registered Studies Are Publicly Shared",
-          "authors": "Eline N. F. Ensinck, Daniël Lakens",
-          "abstract": "We quantified how many studies registered on the OSF up to November 2017 are performed but not shared after at least 4 years. Examining a sample of 169 registered research studies, we found that 104 (61.5%) were publicly shared. We estimate that 5,316 out of 9,172 (58%) registered studies on the OSF are publicly shared. Researchers use registries to make unpublished studies public, and the OSF policy to open registrations after a 4-year embargo substantially increases the number of studies that become known to the scientific community. In responses to emails asking researchers why studies remained unpublished, logistical issues (e.g., lack of time, researchers changing jobs) were the most common cause, followed by null results and rejections during peer review. Our exploratory study shows that a substantial amount of studies that researchers perform remain unpublished.",
-          "url": "https://doi.org/10.1177/25152459241296031",
-          "doi": "https://doi.org/10.1177/25152459241296031",
-          "filter": 0
-        },
-        {
-          "title": "Not Another Post Hoc Paper: A New Look at Contrast Analysis and Planned Comparisons",
-          "authors": "Umberto Granziol, Maximilian Rabe, Marcello Gallucci, Andrea Spoto, Giulio Vidotto",
-          "abstract": "Before conducting statistical analyses, scholars and researchers often have specific hypotheses about differences between groups of means. Their hypotheses are frequently tested by applying post hoc comparisons with statistically significant simple or interaction effects. With the exception of exploratory studies, using post hoc comparisons can increase Type I error rates and decrease statistical power. A well-known solution involves planning comparisons before the study. However, the coding of such planned comparisons can be difficult to understand and implement, especially for customized comparisons and interaction effects. In this tutorial, we aim to reduce such difficulties by examining all the possible types of planned comparisons, even the customized ones, for both main and interaction effects. In this tutorial, a Shiny App coded in R and called “appRiori” is presented. appRiori is coded to help in understanding both the logic behind the planned comparisons and the way to interpret them when a model is tested. By using empirical examples on reproducible data, we explain how to code any default planned comparison executable in R. Moreover, through some features of appRiori, the customization of planned comparisons is shown, even on interaction effects, such as the possibility of creating customized contrast through click-and-drop menus. For each step, the R code related to the planned comparison is provided. Implications and fields of use of planned comparisons and appRiori are discussed.",
-          "url": "https://doi.org/10.1177/25152459241293110",
-          "doi": "https://doi.org/10.1177/25152459241293110",
-          "filter": 0
-        },
-        {
-          "title": "Practical Problems Estimating and Reporting Power When Hypotheses Are Embedded in Complex Statistical Models",
-          "authors": "David A. Cole, George Abitante, Hoi Kan, Qimin Liu, Kristopher J. Preacher, Scott E. Maxwell",
-          "abstract": "In both grant proposals and published studies, many research hypotheses (represented by primary parameters) are tested in the context of complex statistical models. The power to detect these primary parameters depends on the values of multiple secondary model parameters that often go unexamined, unreported, and unjustified. The result is that many a priori power analyses are incomplete, ambiguous, potentially subjective, and nearly impossible for others to evaluate. In the current article, we encourage researchers to use plausible values for secondary parameters (PVSPs), in addition to the hoped-for effect sizes for their primary parameters, in their power calculations. More specifically, upper and lower bounds for power are generated based on the highest and lowest plausible values for secondary model parameters. In the article, we demonstrate how to conduct and describe such power estimates for four increasingly complex statistical methods. We further demonstrate how such analyses can inform decisions about resource allocation in ways that improve power in the context of complex statistical models, often revealing that power can be enhanced by methods other than increasing sample size. The PVSP approach can enhance power, improve the transparency of power analyses in grant proposals, reduce the likelihood of funding underpowered research, and alleviate at least one problem underlying the replication crisis.",
-          "url": "https://doi.org/10.1177/25152459241302300",
-          "doi": "https://doi.org/10.1177/25152459241302300",
           "filter": 0
         }
       ],
@@ -53,18 +21,18 @@
       "journal_short": "BRM",
       "articles": [
         {
+          "title": "Computerized continuous scoring of the cognitive style figure test: Embedded figure test as an example",
+          "authors": "Meng Ye, Jingyi Li",
+          "url": "https://doi.org/10.3758/s13428-024-02559-1",
+          "doi": "https://doi.org/10.3758/s13428-024-02559-1",
+          "filter": 0
+        },
+        {
           "title": "A large-scale, gamified online assessment of first impressions: The Who Knows project",
           "authors": "Richard Rau, Michael P. Grosz, Mitja D. Back",
           "abstract": "Interpersonal judgments play a central role in human social interactions, influencing decisions ranging from friendships to presidential elections. Despite extensive research on the accuracy of these judgments, an overreliance on broad personality traits and subjective judgments as criteria for accuracy has hindered progress in this area. Further, most individuals involved in past studies (either as judges or targets) came from ad-hoc student samples which hampers generalizability. This paper introduces Who Knows ( https://whoknows.uni-muenster.de ), an innovative smartphone application designed to address these limitations. Who Knows was developed with the aim to create a comprehensive and reliable database for examining first impressions. It utilizes a gamified approach where users judge personality-related characteristics of strangers based on short video introductions. The project incorporates multifaceted criteria to evaluate judgments, going beyond traditional self-other agreement. Additionally, the app draws on a large pool of highly specific and heterogenous items and allows users to judge a diverse array of targets on their smartphones. The app's design prioritizes user engagement through a responsive interface, feedback mechanisms, and gamification elements, enhancing their motivation to provide judgments. The Who Knows project is ongoing and promises to shed new light on interpersonal perception by offering a vast dataset with diverse items and a large number of participants (as of fall 2024, N = 9,671 users). Researchers are encouraged to access this resource for a wide range of empirical inquiries and to contribute to the project by submitting items or software features to be included in future versions of the app.",
           "url": "https://doi.org/10.3758/s13428-025-02601-w",
           "doi": "https://doi.org/10.3758/s13428-025-02601-w",
-          "filter": 0
-        },
-        {
-          "title": "Computerized continuous scoring of the cognitive style figure test: Embedded figure test as an example",
-          "authors": "Meng Ye, Jingyi Li",
-          "url": "https://doi.org/10.3758/s13428-024-02559-1",
-          "doi": "https://doi.org/10.3758/s13428-024-02559-1",
           "filter": 0
         },
         {
@@ -96,14 +64,6 @@
           "abstract": "Animal behavior analysis software has become an essential tool in the life sciences. However, the currently available tools have some significant shortcomings that limit their use by individuals without programming skills, access to higher informatics resources, or the capability to invest large sums of money. We have developed and validated an easy-to-use and straightforward tracking system named ESTraS to address this issue. This freeware software allows researchers to track and analyze rodent behaviors, offering additional options such as trajectory and angle analysis. Through ESTraS, researchers can utilize unsupervised clustering techniques, such as k -means or hierarchical clustering, to further explore the obtained results. This clustering enables the classification of results based on observed similarities among subjects. The data of this manuscript shows that ESTraS can prove to be extremely valuable, not only by providing essential behavioral analysis tools but also by offering specific data analysis options with just one click.",
           "url": "https://doi.org/10.3758/s13428-024-02537-7",
           "doi": "https://doi.org/10.3758/s13428-024-02537-7",
-          "filter": 0
-        },
-        {
-          "title": "A pre-rule for the sequential probability ratio test in a between-item grid multidimensional computerized classification test",
-          "authors": "Po-Hsien Hu, Ching-Lin Shih, Cheng-Te Chen",
-          "abstract": "The measurement efficiency of a grid multidimensional computerized classification test (grid MCCT), which makes a classification decision per dimension, can be improved by taking the correlations between the dimensions into account in the termination criterion. The higher the correlations, the better the improvement in measurement efficiency. However, a termination criterion utilizing inter-dimensional information (i.e., SPRT-C; Liu et al., 2022) was found to yield lower levels of correct classification rates than not utilizing it (i.e., SPRT-SF; Seitz &amp; Frey, 2013) under the between-item grid MCCT when the cutoff was set at the mean of the latent trait distribution. This study proposes a pre-rule to determine whether the SPRT-SF or SPRT-C should be used during the process of classification test administration. Through a series of simulation studies, the results showed that our proposed method (called P-SPRT) can substantially improve upon the SPRT-C in terms of correct classification rates, while maintaining its high measurement efficiency in terms of test length. This paper concludes with a discussion of the findings and further applications.",
-          "url": "https://doi.org/10.3758/s13428-025-02600-x",
-          "doi": "https://doi.org/10.3758/s13428-025-02600-x",
           "filter": 0
         },
         {
@@ -299,11 +259,11 @@
           "filter": 0
         },
         {
-          "title": "Thinking about God encourages intergroup prosociality even when conflict is salient",
-          "authors": "Michael H. Pasek, Anne Lehner, Starlett Hartley, Jung Yul Kwon, Adiama Roselyn Mokosoi Israel, Reshmi Wati, Jeremy Ginges",
-          "abstract": "Recent research documents that thinking about God encourages intergroup prosociality among believers. An open question is whether such increased prosociality is dampened by intergroup conflict. We conducted preregistered field experiments with two ethno-religious populations in Fiji: indigenous Christian iTaukei ( N = 324) and Hindu Indo-Fijians ( N = 280). In each study, we manipulated (between-person) whether participants thought about intergroup conflict before completing a dictator game in which we manipulated (within-person) whether participants thought about God’s preferences when allocating real money to an outgroup member. Although participants who reflected on intergroup conflict gave less money away to outgroup members, thinking about God led to significant and comparable increases in intergroup prosociality regardless of whether participants thought about conflict. Results challenge widely-held assumptions about the role of religious belief in intergroup conflict and raise questions about mechanisms that are often theorized to explain the spread of religious beliefs themselves.",
-          "url": "https://doi.org/10.1177/13684302241307011",
-          "doi": "https://doi.org/10.1177/13684302241307011",
+          "title": "Identifying antecedents and mechanisms of age-based stereotype threat",
+          "authors": "Sophie Coulon, Courtney von Hippel, Kim Peters",
+          "abstract": "Older employees are stereotyped at work (e.g., as technophobic), making them susceptible to stereotype threat, or the concern of being reduced to a negative stereotype. Although consequences of age-based stereotype threat have been identified (e.g., poorer job attitudes), far less is known about workplace triggers and underlying mechanism. Three studies aimed to identify the workplace antecedents and mechanism underlying stereotype threat. Together, Studies 1a and 1b identified 10 potential antecedents associated with stereotype threat (e.g., being overlooked for training). Mediation analysis revealed that experiencing any of the potential antecedents was associated with increased age salience, which, in turn, was associated with greater feelings of stereotype threat. Study 2 manipulated three of the potential antecedents through short videos and found that experiencing the antecedents led to increased age salience and stereotype threat. This experimental approach complemented the cross-sectional nature of Studies 1a and 1b, providing evidence for the proposed causal pathways.",
+          "url": "https://doi.org/10.1177/13684302241311533",
+          "doi": "https://doi.org/10.1177/13684302241311533",
           "filter": 0
         },
         {
@@ -413,11 +373,43 @@
       "journal_short": "PSPB",
       "articles": [
         {
+          "title": "Evidence for a Curvilinear Effect of Psychological Discomfort on Dominant Group Members’ Engagement in Allyship",
+          "authors": "Olivia A. Foster-Gimbel, L. Taylor Phillips",
+          "abstract": "Psychological discomfort can motivate, demotivate, or even backfire upon efforts to encourage allyship. We consider the intensity of such discomfort to test curvilinear relationships between psychological discomfort and Whites’ engagement in equity efforts. Across four pre-registered studies ( N = 4,563), we find support for our curvilinear model. First, we explore the relationship between collective discomfort and allyship intentions. While we find that collective discomfort is linearly associated with greater allyship, we find little evidence of diminishing returns. Second, we find a curvilinear relationship between collective discomfort and defensive reactions: Both low and high discomfort was associated with increasing defensive reactions to evidence of racial inequity (victimhood claiming, stigma reversal) than moderate discomfort. Thus, we provide empirical support for the idea that dominant group members who experience high (vs. moderate) discomfort in the face of social inequality may be less likely to support equity. We offer insights on how to manage this issue",
+          "url": "https://doi.org/10.1177/01461672241312269",
+          "doi": "https://doi.org/10.1177/01461672241312269",
+          "filter": 0
+        },
+        {
           "title": "Political, Cultural, or Religious: How Do People Construe Religious Identity in Post-Conflict Societies?",
           "authors": "Gülseli Baysu, Özden Melis Uluğ",
           "abstract": "This study investigates the understudied aspect of the multi-faceted nature of religious identity and its implications for intergroup outcomes vital to (post-)conflict settings. Three studies were conducted in Northern Ireland to address this gap using a mixed-method approach. Study 1 involved 519 Catholic and Protestant participants who provided open-ended responses regarding religious identity construals as religious, cultural, or political. Qualitative content analysis yielded 17 items related to Catholic/Protestant identity construals. Study 2 included 276 participants who rated these 17 items, and factor analyses identified a subset of 14 items representing the three identity construals. Finally, Study 3 ( N = 300) validated the newly-developed scale and examined how different combinations of religious, cultural, and political identities related to forgiveness, collective action, and allyship. The results indicate the reliable measurement of religious identity construals across the three dimensions and contribute to understanding religious identity and its implications for conflict and peace.",
           "url": "https://doi.org/10.1177/01461672251313831",
           "doi": "https://doi.org/10.1177/01461672251313831",
+          "filter": 0
+        },
+        {
+          "title": "Intellectual Humility Predicts Empathic Accuracy and Empathic Resilience",
+          "authors": "Michal Lehmann, Shir Genzer, Nur Kassem, Daryl R. Van Tongeren, Anat Perry",
+          "abstract": "Three preregistered studies ( N = 533) investigated the relationship between intellectual humility (IH) and cognitive and emotional empathy. Study 1 ( n = 212) revealed a positive association between IH and empathic accuracy (EA), especially toward the outgroup. Study 2 ( n = 112) replicated the significant association between IH and EA. Study 3 ( n = 209) employed a manipulation to enhance IH to demonstrate causality. We found evidence for an indirect effect, wherein the manipulation increased state IH, which was associated with greater EA. A mini meta-analysis revealed that, on average, individuals with higher levels of IH exhibit increased EA, showing a greater understanding of others’ emotional states. Moreover, IH predicts empathic resilience—buffering against personal distress while maintaining or increasing empathic concern for others. These findings highlight the positive influence of IH on empathy, emphasizing its potential for fostering deeper connections and better understanding in social interactions.",
+          "url": "https://doi.org/10.1177/01461672241313427",
+          "doi": "https://doi.org/10.1177/01461672241313427",
+          "filter": 0
+        },
+        {
+          "title": "Human Values Across the Lifespan: Age-Graded Differences at Three Hierarchical Levels and What We Can Learn From Them",
+          "authors": "Andrés Gvirtz, Matteo Montecchi, Amy Selby, Friedrich M. Götz",
+          "abstract": "Personality-development research is flourishing. Here, we extend these efforts horizontally (new constructs) and vertically (new levels within the same construct) by charting out age-graded differences in Schwarz’s human values across 80,814 individuals. Conducting a systematic investigation of cross-sectional age-graded differences in human values—from late teenage years to post-retirement—featuring 36 analytical model choices and 180,000 simulation-based decisions, our analyses replicate some earlier findings (e.g., increasing self- and growth-focus during adolescence and increasing security concerns during adulthood), while also highlighting complex and previously unappreciated dynamics. As such, while it is a common practice to aggregate specific values into parsimonious higher-order concepts to ease interpretation, this may risk overlooking meaningful trends in lower-order value development. Specifically, revealing unique and asynchronous patterns for value nuances, we find that aggregation (a) leads to a loss of critical information, (b) creates conflicting results when nuances diverge, and (c) significantly reduces predictive power.",
+          "url": "https://doi.org/10.1177/01461672241312570",
+          "doi": "https://doi.org/10.1177/01461672241312570",
+          "filter": 0
+        },
+        {
+          "title": "How Karma Harms and Helps Generosity Toward Those in Need",
+          "authors": "Cindel J. M. White, Aiyana K. Willard",
+          "abstract": "Three preregistered cross-cultural studies ( N = 6,049 across India, Singapore, and the United States) tested how belief in karma shapes victim blaming and helping. Study 1 found that belief in karmic causality positively predicts a variety of system-justifying beliefs that legitimate social inequalities, but experimental reminders of karma also encouraged generosity toward others experiencing financial hardship. Studies 2 and 3 tested whether karma framing had different effects on generosity toward different recipients, who varied in their level of need and reason for need. Thinking about karma changed the importance of recipient characteristics, with need being less predictive and external attributions more predictive of giving when thinking about karma. Overall, experimental reminders of karma only reliably increased generosity toward recipients whose financial need was no fault of their own, showing that karmic beliefs draw attention to the reasons for people’s bad fortune, and evoke responses to misfortune that are sensitive to naturalistic explanations.",
+          "url": "https://doi.org/10.1177/01461672251313829",
+          "doi": "https://doi.org/10.1177/01461672251313829",
           "filter": 0
         }
       ],
@@ -470,17 +462,17 @@
           "filter": 0
         },
         {
-          "title": "Linear mixed models and latent growth curve models for group comparison studies contaminated by outliers.",
-          "authors": "Fabio Mason, Eva Cantoni, Paolo Ghisletta",
-          "url": "https://doi.org/10.1037/met0000643",
-          "doi": "https://doi.org/10.1037/met0000643",
-          "filter": 0
-        },
-        {
           "title": "Everything has its price: Foundations of cost-sensitive machine learning and its application in psychology.",
           "authors": "Philipp Sterner, David Goretzko, Florian Pargent",
           "url": "https://doi.org/10.1037/met0000586",
           "doi": "https://doi.org/10.1037/met0000586",
+          "filter": 0
+        },
+        {
+          "title": "Linear mixed models and latent growth curve models for group comparison studies contaminated by outliers.",
+          "authors": "Fabio Mason, Eva Cantoni, Paolo Ghisletta",
+          "url": "https://doi.org/10.1037/met0000643",
+          "doi": "https://doi.org/10.1037/met0000643",
           "filter": 0
         },
         {
@@ -512,11 +504,11 @@
       "journal_short": "PsychSci",
       "articles": [
         {
-          "title": "The Extended Mind in Young Children: Cost-Dependent Trade-Off Between External and Internal Memory",
-          "authors": "Yibiao Liang, Erik Blaser, Jia Ying Yi, Liyang Sai, Zsuzsa Kaldy",
-          "abstract": "Most work on working memory development has children remember a set of items as well as they can. However, this approach sidesteps the extended mind, the integration of external information with memory. Indeed, adults prefer to use external resources (e.g., lists, models) but will remember more as the cost to access them increases. Here, in our shopping game, we investigated this trade-off in 5- to 8-year-olds. Using a touchscreen, children shopped in a virtual store. Their shopping list and the store were not visible simultaneously but could be toggled. We manipulated access cost by varying a delay (0–4 s) before the list’s reappearance. Across three preregistered experiments at two sites (the United States and China, N = 141), a pattern emerged: When it was costlier to do so, children revisited the list less often, studied it longer, and selected more correct items. Also, children recognized the costs, identifying the no-delay condition as easier. Young children showed a cost-dependent trade-off of external-resource use versus working memory.",
-          "url": "https://doi.org/10.1177/09567976241306424",
-          "doi": "https://doi.org/10.1177/09567976241306424",
+          "title": "Worse Weather Amplifies Social Media Activity",
+          "authors": "Kelton Minor, Esteban Moro, Nick Obradovich",
+          "abstract": "Humanity spends an increasing proportion of its time interacting online, yet—given the importance of social media to human welfare—the external factors that regularly shape online behavior remain markedly understudied. Do environmental factors alter rates of online social activity? We conducted two large natural experiments to investigate how worse weather conditions affect social-media use in the United States, analyzing over 3.5 billion posts from Facebook and Twitter (now X) between 2009 and 2016. We found that extreme temperatures and added precipitation each independently amplified social-media activity, effects that persisted within individuals. Compounded weather extremes produced markedly larger increases in social-media activity. Days colder than −5 °C with 1.5 to 2 cm of precipitation elevated social-media activity by 35%, nearly triple the surge seen on New Year’s Eve in New York City. Our study highlights that environmental conditions play a critical—but overlooked—role in shaping digital social interaction.",
+          "url": "https://doi.org/10.1177/09567976241306099",
+          "doi": "https://doi.org/10.1177/09567976241306099",
           "filter": 0
         }
       ],
