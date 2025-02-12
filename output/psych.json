@@ -1,16 +1,16 @@
 {
-  "update": "2025-02-11",
+  "update": "2025-02-12",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
       "journal_short": "AMPPS",
       "articles": [
         {
-          "title": "Research With the Reluctant: Challenges and Strategies",
-          "authors": "E. B. Gross, Susan A. Gelman",
-          "abstract": "Although psychological research often relies on convenience samples, the most informative participants may be individuals who are reluctant to engage because of vulnerability, mistrust of the research process, and/or disagreement with a study’s goals. Although this concern is particularly urgent for certain research questions, it is relevant for all researchers because relying solely on easy-to-reach participants limits a study’s validity and generalizability and may substantially hollow out or even render unanswerable some research questions. We review a number of challenges for conducting research with “reluctant but informative” participants and strategies to meet and overcome these challenges. We argue that engaging reluctant participants requires attention at every phase of the research process, including study design and planning, participant recruitment and testing, data analysis and interpretation, and reporting and broader impacts. We also illustrate with our own recent experiences conducting research on children’s gender concepts in rural, conservative U.S. communities that expressed skepticism about the value of this research. Although every study is different, notable across all projects are the need to respect both individual participants and their communities and to balance competing desiderata. Finally, we discuss the importance of transparency around sample composition and constraints to generalizability and the potential utility of collaborative research both across research institutions and between researchers and participant communities.",
-          "url": "https://doi.org/10.1177/25152459241304775",
-          "doi": "https://doi.org/10.1177/25152459241304775",
+          "title": "Measuring Variation in Gaze Following Across Communities, Ages, and Individuals: A Showcase of TANGO-CC (Task for Assessing iNdividual differences in Gaze understanding-Open-Cross-Cultural)",
+          "authors": "Julia Christin Prein, Florian M. Bednarski, Ardain Dzabatou, Michael C. Frank, Annette M. E. Henderson, Josefine Kalbitz, Patricia Kanngiesser, Dilara Keşşafoğlu, Bahar Köymen, Maira V. Manrique-Hernandez, Shirley Magazi, Lizbeth Mújica-Manrique, Julia Ohlendorf, Damilola Olaoba, Wesley R. Pieters, Sarah Pope-Caldwell, Umay Sen, Katie Slocombe, Robert Z. Sparks, Roman Stengelin, Jahnavi Sunderarajan, Kirsten Sutherland, Florence Tusiime, Wilson Vieira, Zhen Zhang, Yufei Zong, Daniel B. M. Haun, Manuel Bohn",
+          "abstract": "Cross-cultural studies are crucial for investigating the cultural variability and universality of cognitive developmental processes. However, cross-cultural assessment tools in cognition across languages and communities are limited. In this article, we describe a gaze-following task designed to measure basic social cognition across individuals, ages, and communities (the Task for Assessing iNdividual differences in Gaze understanding-Open-Cross-Cultural; TANGO-CC). The task was developed and psychometrically assessed in one cultural setting and, with input of local collaborators, adapted for cross-cultural data collection. Minimal language demands and the web-app implementation allow fast and easy contextual adaptations to each community. TANGO-CC captures individual- and community-level variation and shows good internal consistency in a data set of 2.5- to 11-year-old children from 17 diverse communities. Within-communities variation outweighed between-communities variation. We provide an open-source website for researchers to customize and use the task ( https://ccp-odc.eva.mpg.de/tango-cc ). TANGO-CC can be used to assess basic social cognition in diverse communities and provides a roadmap for researching community-level and individual-level differences across cultures.",
+          "url": "https://doi.org/10.1177/25152459241308170",
+          "doi": "https://doi.org/10.1177/25152459241308170",
           "filter": 0
         },
         {
@@ -19,6 +19,14 @@
           "abstract": "The use of ecological-momentary-assessment (EMA) data to study individuals in their everyday lives is popular in many areas of social and life sciences. At the same time, EMA data sets are complex, the psychometric properties of EMA items are often not investigated systematically, and scales are often neither standardized nor validated beyond their face validity. Here, we present different descriptive statistics and data-visualization techniques to increase the understanding of the performance of EMA items. We apply these techniques to a wide range of items used in a large EMA data set (599 participants, 360 time points) collected in the WARN-D study to investigate their distributions, contextual influences, change over time, sources of variability, and relationship with classical static measures of psychopathology. We discuss the theoretical and substantive implications of our findings and provide researchers with R code that they can adapt to their own EMA data, as well as literature recommendations for each topic. We hope to inspire more researchers to share in-depth descriptive summaries of their experience-sampling data such that the field can move forward in understanding the performance of EMA measures across contexts.",
           "url": "https://doi.org/10.1177/25152459241286877",
           "doi": "https://doi.org/10.1177/25152459241286877",
+          "filter": 0
+        },
+        {
+          "title": "Research With the Reluctant: Challenges and Strategies",
+          "authors": "E. B. Gross, Susan A. Gelman",
+          "abstract": "Although psychological research often relies on convenience samples, the most informative participants may be individuals who are reluctant to engage because of vulnerability, mistrust of the research process, and/or disagreement with a study’s goals. Although this concern is particularly urgent for certain research questions, it is relevant for all researchers because relying solely on easy-to-reach participants limits a study’s validity and generalizability and may substantially hollow out or even render unanswerable some research questions. We review a number of challenges for conducting research with “reluctant but informative” participants and strategies to meet and overcome these challenges. We argue that engaging reluctant participants requires attention at every phase of the research process, including study design and planning, participant recruitment and testing, data analysis and interpretation, and reporting and broader impacts. We also illustrate with our own recent experiences conducting research on children’s gender concepts in rural, conservative U.S. communities that expressed skepticism about the value of this research. Although every study is different, notable across all projects are the need to respect both individual participants and their communities and to balance competing desiderata. Finally, we discuss the importance of transparency around sample composition and constraints to generalizability and the potential utility of collaborative research both across research institutions and between researchers and participant communities.",
+          "url": "https://doi.org/10.1177/25152459241304775",
+          "doi": "https://doi.org/10.1177/25152459241304775",
           "filter": 0
         }
       ],
@@ -29,25 +37,10 @@
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "ESTraS, an easy and simple tracking system for assessing rodent behavior",
-          "authors": "A. Morcuende, T. Femenía, J. Manzanares, A. Gasparyan",
-          "abstract": "Animal behavior analysis software has become an essential tool in the life sciences. However, the currently available tools have some significant shortcomings that limit their use by individuals without programming skills, access to higher informatics resources, or the capability to invest large sums of money. We have developed and validated an easy-to-use and straightforward tracking system named ESTraS to address this issue. This freeware software allows researchers to track and analyze rodent behaviors, offering additional options such as trajectory and angle analysis. Through ESTraS, researchers can utilize unsupervised clustering techniques, such as k -means or hierarchical clustering, to further explore the obtained results. This clustering enables the classification of results based on observed similarities among subjects. The data of this manuscript shows that ESTraS can prove to be extremely valuable, not only by providing essential behavioral analysis tools but also by offering specific data analysis options with just one click.",
-          "url": "https://doi.org/10.3758/s13428-024-02537-7",
-          "doi": "https://doi.org/10.3758/s13428-024-02537-7",
-          "filter": 0
-        },
-        {
           "title": "Correction: A large-scale database of Mandarin Chinese word associations from the Small World of Words Project",
           "authors": "Bing Li, Ziyi Ding, Simon De Deyne, Qing Cai",
           "url": "https://doi.org/10.3758/s13428-025-02603-8",
           "doi": "https://doi.org/10.3758/s13428-025-02603-8",
-          "filter": 0
-        },
-        {
-          "title": "The Mandarin Chinese auditory emotions stimulus database: A validated corpus of monosyllabic Chinese characters",
-          "authors": "Mengyuan Li, Na Li, Anqi Zhou, Huiru Yan, Qiuhong Li, Chifen Ma, Chao Wu",
-          "url": "https://doi.org/10.3758/s13428-025-02607-4",
-          "doi": "https://doi.org/10.3758/s13428-025-02607-4",
           "filter": 0
         },
         {
@@ -87,11 +80,11 @@
       "journal_short": "GPIR",
       "articles": [
         {
-          "title": "Identifying antecedents and mechanisms of age-based stereotype threat",
-          "authors": "Sophie Coulon, Courtney von Hippel, Kim Peters",
-          "abstract": "Older employees are stereotyped at work (e.g., as technophobic), making them susceptible to stereotype threat, or the concern of being reduced to a negative stereotype. Although consequences of age-based stereotype threat have been identified (e.g., poorer job attitudes), far less is known about workplace triggers and underlying mechanism. Three studies aimed to identify the workplace antecedents and mechanism underlying stereotype threat. Together, Studies 1a and 1b identified 10 potential antecedents associated with stereotype threat (e.g., being overlooked for training). Mediation analysis revealed that experiencing any of the potential antecedents was associated with increased age salience, which, in turn, was associated with greater feelings of stereotype threat. Study 2 manipulated three of the potential antecedents through short videos and found that experiencing the antecedents led to increased age salience and stereotype threat. This experimental approach complemented the cross-sectional nature of Studies 1a and 1b, providing evidence for the proposed causal pathways.",
-          "url": "https://doi.org/10.1177/13684302241311533",
-          "doi": "https://doi.org/10.1177/13684302241311533",
+          "title": "Collective narcissism of White supremacy and minority resistance",
+          "authors": "Oliver Keenan, Agnieszka Golec de Zavala",
+          "abstract": "In four cross-sectional studies ( N = 2,228; three preregistered), we hypothesized and found that U.S. American and White collective narcissism is associated with opposition to racial equality, whereas racial collective narcissism among Blacks and Latinx in the United States (US) is associated with support for racial equality. In Studies 1 and 2, American national and White racial collective narcissism was positively associated with support for state repression of the Black Lives Matter (BLM) movement, antiegalitarianism, and legitimization of racial inequality. Black racial collective narcissism was negatively associated with the same variables. In Studies 3 and 4, American national and White racial collective narcissism was positively associated with antiegalitarianism, support for the alt-right movement, and opposition to policies to advance racial minorities. Latinx racial collective narcissism was negatively associated with the same variables. In sum, in the US, national collective narcissism among Whites and racial minorities and White racial collective narcissism hinder the pursuit of racial equality. However, Black and Latinx racial collective narcissism is associated with pursuit of racial equality.",
+          "url": "https://doi.org/10.1177/13684302241305370",
+          "doi": "https://doi.org/10.1177/13684302241305370",
           "filter": 0
         },
         {
@@ -139,27 +132,11 @@
           "filter": 0
         },
         {
-          "title": "Intellectual Humility Predicts Empathic Accuracy and Empathic Resilience",
-          "authors": "Michal Lehmann, Shir Genzer, Nur Kassem, Daryl R. Van Tongeren, Anat Perry",
-          "abstract": "Three preregistered studies ( N = 533) investigated the relationship between intellectual humility (IH) and cognitive and emotional empathy. Study 1 ( n = 212) revealed a positive association between IH and empathic accuracy (EA), especially toward the outgroup. Study 2 ( n = 112) replicated the significant association between IH and EA. Study 3 ( n = 209) employed a manipulation to enhance IH to demonstrate causality. We found evidence for an indirect effect, wherein the manipulation increased state IH, which was associated with greater EA. A mini meta-analysis revealed that, on average, individuals with higher levels of IH exhibit increased EA, showing a greater understanding of others’ emotional states. Moreover, IH predicts empathic resilience—buffering against personal distress while maintaining or increasing empathic concern for others. These findings highlight the positive influence of IH on empathy, emphasizing its potential for fostering deeper connections and better understanding in social interactions.",
-          "url": "https://doi.org/10.1177/01461672241313427",
-          "doi": "https://doi.org/10.1177/01461672241313427",
-          "filter": 0
-        },
-        {
           "title": "Human Values Across the Lifespan: Age-Graded Differences at Three Hierarchical Levels and What We Can Learn From Them",
           "authors": "Andrés Gvirtz, Matteo Montecchi, Amy Selby, Friedrich M. Götz",
           "abstract": "Personality-development research is flourishing. Here, we extend these efforts horizontally (new constructs) and vertically (new levels within the same construct) by charting out age-graded differences in Schwarz’s human values across 80,814 individuals. Conducting a systematic investigation of cross-sectional age-graded differences in human values—from late teenage years to post-retirement—featuring 36 analytical model choices and 180,000 simulation-based decisions, our analyses replicate some earlier findings (e.g., increasing self- and growth-focus during adolescence and increasing security concerns during adulthood), while also highlighting complex and previously unappreciated dynamics. As such, while it is a common practice to aggregate specific values into parsimonious higher-order concepts to ease interpretation, this may risk overlooking meaningful trends in lower-order value development. Specifically, revealing unique and asynchronous patterns for value nuances, we find that aggregation (a) leads to a loss of critical information, (b) creates conflicting results when nuances diverge, and (c) significantly reduces predictive power.",
           "url": "https://doi.org/10.1177/01461672241312570",
           "doi": "https://doi.org/10.1177/01461672241312570",
-          "filter": 0
-        },
-        {
-          "title": "How Karma Harms and Helps Generosity Toward Those in Need",
-          "authors": "Cindel J. M. White, Aiyana K. Willard",
-          "abstract": "Three preregistered cross-cultural studies ( N = 6,049 across India, Singapore, and the United States) tested how belief in karma shapes victim blaming and helping. Study 1 found that belief in karmic causality positively predicts a variety of system-justifying beliefs that legitimate social inequalities, but experimental reminders of karma also encouraged generosity toward others experiencing financial hardship. Studies 2 and 3 tested whether karma framing had different effects on generosity toward different recipients, who varied in their level of need and reason for need. Thinking about karma changed the importance of recipient characteristics, with need being less predictive and external attributions more predictive of giving when thinking about karma. Overall, experimental reminders of karma only reliably increased generosity toward recipients whose financial need was no fault of their own, showing that karmic beliefs draw attention to the reasons for people’s bad fortune, and evoke responses to misfortune that are sensitive to naturalistic explanations.",
-          "url": "https://doi.org/10.1177/01461672251313829",
-          "doi": "https://doi.org/10.1177/01461672251313829",
           "filter": 0
         }
       ],
@@ -181,6 +158,13 @@
           "authors": "Mikey Biddlestone, Ricky Green, Karen M. Douglas, Flávio Azevedo, Robbie M. Sutton, Aleksandra Cichocka",
           "url": "https://doi.org/10.1037/bul0000463",
           "doi": "https://doi.org/10.1037/bul0000463",
+          "filter": 0
+        },
+        {
+          "title": "Teacher–student relationships and student outcomes: A systematic second-order meta-analytic review.",
+          "authors": "Valentin Emslander, Doris Holzberger, Sverre Berg Ofstad, Antoine Fischbach, Ronny Scherer",
+          "url": "https://doi.org/10.1037/bul0000461",
+          "doi": "https://doi.org/10.1037/bul0000461",
           "filter": 0
         }
       ],
@@ -205,6 +189,13 @@
           "filter": 0
         },
         {
+          "title": "Missing not at random intensive longitudinal data with dynamic structural equation models.",
+          "authors": "Daniel McNeish",
+          "url": "https://doi.org/10.1037/met0000742",
+          "doi": "https://doi.org/10.1037/met0000742",
+          "filter": 0
+        },
+        {
           "title": "A peculiarity in psychological measurement practices.",
           "authors": "Mark White",
           "url": "https://doi.org/10.1037/met0000731",
@@ -226,11 +217,11 @@
       "journal_short": "PsychSci",
       "articles": [
         {
-          "title": "Worse Weather Amplifies Social Media Activity",
-          "authors": "Kelton Minor, Esteban Moro, Nick Obradovich",
-          "abstract": "Humanity spends an increasing proportion of its time interacting online, yet—given the importance of social media to human welfare—the external factors that regularly shape online behavior remain markedly understudied. Do environmental factors alter rates of online social activity? We conducted two large natural experiments to investigate how worse weather conditions affect social-media use in the United States, analyzing over 3.5 billion posts from Facebook and Twitter (now X) between 2009 and 2016. We found that extreme temperatures and added precipitation each independently amplified social-media activity, effects that persisted within individuals. Compounded weather extremes produced markedly larger increases in social-media activity. Days colder than −5 °C with 1.5 to 2 cm of precipitation elevated social-media activity by 35%, nearly triple the surge seen on New Year’s Eve in New York City. Our study highlights that environmental conditions play a critical—but overlooked—role in shaping digital social interaction.",
-          "url": "https://doi.org/10.1177/09567976241306099",
-          "doi": "https://doi.org/10.1177/09567976241306099",
+          "title": "Becoming an Ovambo Adult: Growing Into Agentic Communalism in Sub-Saharan Africa",
+          "authors": "Selma N. Uugwanga, Luzelle Naudé, Amber Gayle Thalmayer",
+          "abstract": "What does it take to become an adult in Africa? Life-span-development literature includes little exploration on this transition outside Western countries. A qualitative approach was used to identify locally relevant topics and variables in an understudied African context. Fifty 18- to 25-year-old Ovambo Namibians from rural and urban areas were interviewed. Results of reflexive thematic analysis suggest the significance of gender and birth order in defining adult roles and the completion of one’s education as a new rite of passage. Full adult personhood means providing for and engaging with a larger community as well as one’s children and extended family, reflecting the ongoing relevance of African communalism in today’s society. Youth in Namibia, and likely in sub-Saharan Africa more broadly, balance traditional and contemporary demands as they come of age in a postindependence, globalizing society. Our findings reflect the centrality of community and the intermingled nature of agentic and communal values in this process.",
+          "url": "https://doi.org/10.1177/09567976241311920",
+          "doi": "https://doi.org/10.1177/09567976241311920",
           "filter": 0
         }
       ],
@@ -256,10 +247,24 @@
       "journal_short": "PPM",
       "articles": [
         {
+          "title": "A developmental approach to body image and social media: An examination of Instagram following and attitudes toward cosmetic modification.",
+          "authors": "Stephanie Philip, James Collett, Alexander De Foe",
+          "url": "https://doi.org/10.1037/ppm0000578",
+          "doi": "https://doi.org/10.1037/ppm0000578",
+          "filter": 0
+        },
+        {
           "title": "“But they don’t look like someone with an eating disorder”: A content analysis of representation in TV and film portrayals of characters with eating disorders.",
           "authors": "Katrina T. Webber, Kirstie M. Farrar, Makenzie S. Schroeder",
           "url": "https://doi.org/10.1037/ppm0000576",
           "doi": "https://doi.org/10.1037/ppm0000576",
+          "filter": 0
+        },
+        {
+          "title": "Jealousy, threat, and romantic rivals in parasocial romantic relationships.",
+          "authors": "Jessica R. Frampton, Jesse Fox, Brooke Bennington",
+          "url": "https://doi.org/10.1037/ppm0000589",
+          "doi": "https://doi.org/10.1037/ppm0000589",
           "filter": 0
         },
         {
@@ -288,6 +293,13 @@
           "authors": "Matthew Katsaros, Caroline Nobo, Tom R. Tyler",
           "url": "https://doi.org/10.1037/tmb0000149.supp",
           "doi": "https://doi.org/10.1037/tmb0000149.supp",
+          "filter": 0
+        },
+        {
+          "title": "Advances in measurement and analysis in mobile and social media research.",
+          "authors": "Nicholas David Bowman",
+          "url": "https://doi.org/10.1037/tmb0000151",
+          "doi": "https://doi.org/10.1037/tmb0000151",
           "filter": 0
         }
       ],
