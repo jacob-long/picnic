@@ -1,5 +1,5 @@
 {
-  "update": "2025-02-14",
+  "update": "2025-02-15",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -14,11 +14,19 @@
           "filter": 0
         },
         {
-          "title": "Understanding Ecological-Momentary-Assessment Data: A Tutorial on Exploring Item Performance in Ecological-Momentary-Assessment Data",
-          "authors": "Björn S. Siepe, Carlotta L. Rieble, Rayyan Tutunji, Aljoscha Rimpler, Julius März, Ricarda K. K. Proppert, Eiko I. Fried",
-          "abstract": "The use of ecological-momentary-assessment (EMA) data to study individuals in their everyday lives is popular in many areas of social and life sciences. At the same time, EMA data sets are complex, the psychometric properties of EMA items are often not investigated systematically, and scales are often neither standardized nor validated beyond their face validity. Here, we present different descriptive statistics and data-visualization techniques to increase the understanding of the performance of EMA items. We apply these techniques to a wide range of items used in a large EMA data set (599 participants, 360 time points) collected in the WARN-D study to investigate their distributions, contextual influences, change over time, sources of variability, and relationship with classical static measures of psychopathology. We discuss the theoretical and substantive implications of our findings and provide researchers with R code that they can adapt to their own EMA data, as well as literature recommendations for each topic. We hope to inspire more researchers to share in-depth descriptive summaries of their experience-sampling data such that the field can move forward in understanding the performance of EMA measures across contexts.",
-          "url": "https://doi.org/10.1177/25152459241286877",
-          "doi": "https://doi.org/10.1177/25152459241286877",
+          "title": "dockerHDDM: A User-Friendly Environment for Bayesian Hierarchical Drift-Diffusion Modeling",
+          "authors": "Wanke Pan, Haiyang Geng, Lei Zhang, Alexander Fengler, Michael J. Frank, Ru-Yuan Zhang, Hu Chuan-Peng",
+          "abstract": "Drift-diffusion models (DDMs) are pivotal in understanding evidence-accumulation processes during decision-making across psychology, behavioral economics, neuroscience, and psychiatry. Hierarchical DDMs (HDDMs), a Python library for hierarchical Bayesian estimation of DDMs, has been widely used among researchers, including researchers with limited coding proficiency, in fitting DDMs and other sequential sampling models. However, issues of compatibility in installation and lack of support for more recent Bayesian-modeling functionalities pose serious challenges for new users, limiting broader adaptation and reproducibility of HDDMs. To address these issues, we created dockerHDDM, a user-friendly computational environment for HDDMs with new features. dockerHDDM brings three improvements: (a) easy to install once docker is installed, ensuring reproducibility and saving time for researchers; (b) compatible with machines with Apple chips; (c) seamless integration with ArviZ, a state-of-the-art Bayesian-modeling library. This tutorial serves as a practical, hands-on guide for researchers to leverage dockerHDDM’s capabilities in conducting efficient Bayesian hierarchical analysis of DDMs. The notebook presented here and in the docker image will enable researchers with various programming levels to model their data with HDDMs.",
+          "url": "https://doi.org/10.1177/25152459241298700",
+          "doi": "https://doi.org/10.1177/25152459241298700",
+          "filter": 0
+        },
+        {
+          "title": "Preregistration of Psychology Meta-Analyses: A Cross-Sectional Study of Prevalence and Practice",
+          "authors": "Alejandro Sandoval-Lentisco, Miriam Tortajada, Rubén López-Nicolás, José A. López-López, E. J. Wagenmakers, Julio Sánchez-Meca, Tom E. Hardwicke",
+          "abstract": "Meta-analyses play an influential role in synthesizing the existing evidence on a particular topic. Consequently, it is especially important that meta-analyses are conducted and reported to the highest standards and that the risk of bias is minimized. Preregistration can help detect and reduce bias arising from opportunistic use of “researcher degrees of freedom.” However, little is known about the prevalence and practice of the preregistration of meta-analyses in psychology. In this study, we first measured the prevalence of preregistration in all psychology meta-analyses published in 2021. Next, for 100 randomly selected preregistered meta-analyses, we evaluated the preregistration’s coverage of key meta-analytic decisions and the extent to which published meta-analyses deviated from their preregistered protocols. Of all 1,403 eligible psychology meta-analyses published in 2021, 382 (27%) were preregistered. In our random sample, we found that key PRISMA-P decision items were often omitted from preregistered protocols—out of the 23 decision items that were examined, the median number of items covered was 13 (interquartile range [IQR] = 11–14). We also found that all 100 preregistered meta-analyses contained at least one deviation from the preregistered protocol ( Mdn = 9, IQR = 6.75–11) and that most deviations were undisclosed ( Mdn = 8, IQR = 6–11). These findings suggest that the infrequent use and poor implementation of preregistration in psychology meta-analyses undermines its potential to reduce bias and increase transparency.",
+          "url": "https://doi.org/10.1177/25152459241300113",
+          "doi": "https://doi.org/10.1177/25152459241300113",
           "filter": 0
         },
         {
@@ -27,6 +35,14 @@
           "abstract": "Although psychological research often relies on convenience samples, the most informative participants may be individuals who are reluctant to engage because of vulnerability, mistrust of the research process, and/or disagreement with a study’s goals. Although this concern is particularly urgent for certain research questions, it is relevant for all researchers because relying solely on easy-to-reach participants limits a study’s validity and generalizability and may substantially hollow out or even render unanswerable some research questions. We review a number of challenges for conducting research with “reluctant but informative” participants and strategies to meet and overcome these challenges. We argue that engaging reluctant participants requires attention at every phase of the research process, including study design and planning, participant recruitment and testing, data analysis and interpretation, and reporting and broader impacts. We also illustrate with our own recent experiences conducting research on children’s gender concepts in rural, conservative U.S. communities that expressed skepticism about the value of this research. Although every study is different, notable across all projects are the need to respect both individual participants and their communities and to balance competing desiderata. Finally, we discuss the importance of transparency around sample composition and constraints to generalizability and the potential utility of collaborative research both across research institutions and between researchers and participant communities.",
           "url": "https://doi.org/10.1177/25152459241304775",
           "doi": "https://doi.org/10.1177/25152459241304775",
+          "filter": 0
+        },
+        {
+          "title": "Understanding Ecological-Momentary-Assessment Data: A Tutorial on Exploring Item Performance in Ecological-Momentary-Assessment Data",
+          "authors": "Björn S. Siepe, Carlotta L. Rieble, Rayyan Tutunji, Aljoscha Rimpler, Julius März, Ricarda K. K. Proppert, Eiko I. Fried",
+          "abstract": "The use of ecological-momentary-assessment (EMA) data to study individuals in their everyday lives is popular in many areas of social and life sciences. At the same time, EMA data sets are complex, the psychometric properties of EMA items are often not investigated systematically, and scales are often neither standardized nor validated beyond their face validity. Here, we present different descriptive statistics and data-visualization techniques to increase the understanding of the performance of EMA items. We apply these techniques to a wide range of items used in a large EMA data set (599 participants, 360 time points) collected in the WARN-D study to investigate their distributions, contextual influences, change over time, sources of variability, and relationship with classical static measures of psychopathology. We discuss the theoretical and substantive implications of our findings and provide researchers with R code that they can adapt to their own EMA data, as well as literature recommendations for each topic. We hope to inspire more researchers to share in-depth descriptive summaries of their experience-sampling data such that the field can move forward in understanding the performance of EMA measures across contexts.",
+          "url": "https://doi.org/10.1177/25152459241286877",
+          "doi": "https://doi.org/10.1177/25152459241286877",
           "filter": 0
         }
       ],
@@ -37,25 +53,10 @@
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "Correction: A large-scale database of Mandarin Chinese word associations from the Small World of Words Project",
-          "authors": "Bing Li, Ziyi Ding, Simon De Deyne, Qing Cai",
-          "url": "https://doi.org/10.3758/s13428-025-02603-8",
-          "doi": "https://doi.org/10.3758/s13428-025-02603-8",
-          "filter": 0
-        },
-        {
           "title": "Reliability representativeness: How well does coefficient alpha summarize reliability across the score distribution?",
           "authors": "Daniel McNeish, Denis Dumas",
           "url": "https://doi.org/10.3758/s13428-025-02611-8",
           "doi": "https://doi.org/10.3758/s13428-025-02611-8",
-          "filter": 0
-        },
-        {
-          "title": "To interact or not to interact: The pros and cons of including interactions in linear regression models",
-          "authors": "Aljoscha Rimpler, Henk A.L. Kiers, Don van Ravenzwaaij",
-          "abstract": "Interaction effects are very common in the psychological literature. However, interaction effects are typically very small and often fail to replicate. In this study, we conducted a simulation comparing the generalizability and estimability of two linear regression models: one correctly specified to account for interaction effects and one misspecified including simple effects only. We manipulated noise levels, predictor variable correlations, and different sets of regression weights, resulting in 9216 different conditions. From each dataset, we drew 1000 samples of N = 25, 50, 100, 250, 500, and 1000, resulting in a total of 55,296,000 analyses for each model. Our results show that misspecification can drastically bias regression estimates, sometimes leading to zero or reversed simple effects. Furthermore, we found that when models are generalized to the entire population, the difference between the explained variance in the sample and in the population is often smaller for the misspecified model than for the correctly specified model. However, the comparison between models shows that the correctly specified model explains the data at the population level better overall. These results emphasize the importance of theory in modeling choices and show that it is important to provide a rationale for why interactions are included or excluded in an analysis.",
-          "url": "https://doi.org/10.3758/s13428-025-02613-6",
-          "doi": "https://doi.org/10.3758/s13428-025-02613-6",
           "filter": 0
         }
       ],
@@ -73,10 +74,17 @@
           "filter": 0
         },
         {
-          "title": "The Psychophysiology of Instagram – Brief bouts of Instagram use elicit appetitive arousal and attentional immersion followed by aversive arousal when use is stopped",
-          "authors": "Michael Wadsley, Niklas Ihssen",
-          "url": "https://doi.org/10.1016/j.chb.2025.108597",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108597",
+          "title": "Student perspectives on banning mobile phones in South Australian secondary schools: A large-scale qualitative analysis",
+          "authors": "Eran Bar, Marcela Radunz, Christina R. Galanis, Blake Quinney, Tracey D. Wade, Daniel L. King",
+          "url": "https://doi.org/10.1016/j.chb.2025.108603",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108603",
+          "filter": 0
+        },
+        {
+          "title": "Avatar-mediated communication in collaborative Virtual Environments: A study on users’ attention allocation and perception of social interactions",
+          "authors": "Chen Li, Yixin Dai, Guang Chen, Jing Liu, Ping Li, Horace Ho-shing Ip",
+          "url": "https://doi.org/10.1016/j.chb.2025.108598",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108598",
           "filter": 0
         },
         {
@@ -84,6 +92,13 @@
           "authors": "Allen S. Brown, Christopher R. Dishop, Andrew Kuznetsov, Ping-Ya Chao, Anita Williams Woolley",
           "url": "https://doi.org/10.1016/j.chb.2025.108605",
           "doi": "https://doi.org/10.1016/j.chb.2025.108605",
+          "filter": 0
+        },
+        {
+          "title": "Enhancing the Emotional Aspects of Language Education through Generative Artificial Intelligence (GenAI): A Qualitative Investigation",
+          "authors": "Lucas Kohnke, Benjamin Luke Moorhouse",
+          "url": "https://doi.org/10.1016/j.chb.2025.108600",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108600",
           "filter": 0
         },
         {
@@ -106,6 +121,13 @@
           "url": "https://doi.org/10.1016/j.chb.2025.108607",
           "doi": "https://doi.org/10.1016/j.chb.2025.108607",
           "filter": 0
+        },
+        {
+          "title": "Balancing Consistency and Performance in Edge-Cloud Transaction Management",
+          "authors": "Ahmad al-qerem, Ali Mohd Ali, Ahmad Nabot, Issam Jebreen, Mohammad Alauthman, Someah Alangari, Ammar Almomani, Vinay Chamola, Amjad Aldweesh",
+          "url": "https://doi.org/10.1016/j.chb.2025.108601",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108601",
+          "filter": 0
         }
       ],
       "articles_hidden": []
@@ -120,6 +142,14 @@
           "abstract": "In four cross-sectional studies ( N = 2,228; three preregistered), we hypothesized and found that U.S. American and White collective narcissism is associated with opposition to racial equality, whereas racial collective narcissism among Blacks and Latinx in the United States (US) is associated with support for racial equality. In Studies 1 and 2, American national and White racial collective narcissism was positively associated with support for state repression of the Black Lives Matter (BLM) movement, antiegalitarianism, and legitimization of racial inequality. Black racial collective narcissism was negatively associated with the same variables. In Studies 3 and 4, American national and White racial collective narcissism was positively associated with antiegalitarianism, support for the alt-right movement, and opposition to policies to advance racial minorities. Latinx racial collective narcissism was negatively associated with the same variables. In sum, in the US, national collective narcissism among Whites and racial minorities and White racial collective narcissism hinder the pursuit of racial equality. However, Black and Latinx racial collective narcissism is associated with pursuit of racial equality.",
           "url": "https://doi.org/10.1177/13684302241305370",
           "doi": "https://doi.org/10.1177/13684302241305370",
+          "filter": 0
+        },
+        {
+          "title": "A personal but shared burden: Developing a multiple-group internalized stigma scale (MGISS)",
+          "authors": "Diego Castro, Pranjal Mehta, David M. Frost",
+          "abstract": "Individuals from different marginalized groups can internalize negative social beliefs about themselves and their groups. However, a scale that allows for direct comparisons of internalized stigma across multiple groups has not yet been developed. This paper presents the development and validation of the Multiple-Group Internalized Stigma Scale (MGISS). Participants were recruited from four stigmatized groups representing the possible combinations of the stigma characteristics of mutability and concealability (i.e., Black or Indigenous, lesbian, gay or bisexual, higher body-weight, and working-class people). Study 1 developed the scale across the four groups and in English- and Spanish-speaking countries (i.e., the UK and Chile, N = 238). Study 2 replicated the results with a larger sample of emerging adults in Chile ( N = 729). The MGISS demonstrated good levels of reliability and validity, with two factors: self-focused and group-focused. Levels of internalized stigma were higher among groups with mutable characteristics and were associated with higher levels of felt stigma and psychological distress. The MGISS provides a valuable tool for research on prejudice and stigma, particularly in studies involving multiple marginalized groups.",
+          "url": "https://doi.org/10.1177/13684302241312674",
+          "doi": "https://doi.org/10.1177/13684302241312674",
           "filter": 0
         },
         {
@@ -235,6 +265,20 @@
           "filter": 0
         },
         {
+          "title": "Relative importance analysis in multiple mediator models.",
+          "authors": "Xun Zhu, Xin Gu",
+          "url": "https://doi.org/10.1037/met0000725",
+          "doi": "https://doi.org/10.1037/met0000725",
+          "filter": 0
+        },
+        {
+          "title": "How many factors to retain in exploratory factor analysis? A critical overview of factor retention methods.",
+          "authors": "David Goretzko",
+          "url": "https://doi.org/10.1037/met0000733",
+          "doi": "https://doi.org/10.1037/met0000733",
+          "filter": 0
+        },
+        {
           "title": "Reassessing the fitting propensity of factor models.",
           "authors": "Wes Bonifay, Li Cai, Carl F. Falk, Kristopher J. Preacher",
           "url": "https://doi.org/10.1037/met0000735",
@@ -256,10 +300,31 @@
           "filter": 0
         },
         {
+          "title": "Efficient design of cluster randomized trials and individually randomized group treatment trials.",
+          "authors": "Math J. J. M. Candel, Gerard J. P. van Breukelen",
+          "url": "https://doi.org/10.1037/met0000727",
+          "doi": "https://doi.org/10.1037/met0000727",
+          "filter": 0
+        },
+        {
+          "title": "Fit indices are insensitive to multiple minor violations of perfect simple structure in confirmatory factor analysis.",
+          "authors": "Victoria Savalei, Muhua Huang",
+          "url": "https://doi.org/10.1037/met0000718",
+          "doi": "https://doi.org/10.1037/met0000718",
+          "filter": 0
+        },
+        {
           "title": "Reliability in unidimensional ordinal data: A comparison of continuous and ordinal estimators.",
           "authors": "Eunseong Cho, Sébastien Béland",
           "url": "https://doi.org/10.1037/met0000739",
           "doi": "https://doi.org/10.1037/met0000739",
+          "filter": 0
+        },
+        {
+          "title": "Bayesian inference for evidence accumulation models with regressors.",
+          "authors": "Viet Hung Dao, David Gunawan, Robert Kohn, Minh-Ngoc Tran, Guy E. Hawkins, Scott D. Brown",
+          "url": "https://doi.org/10.1037/met0000669",
+          "doi": "https://doi.org/10.1037/met0000669",
           "filter": 0
         }
       ],
