@@ -1,5 +1,5 @@
 {
-  "update": "2025-02-15",
+  "update": "2025-02-16",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -30,19 +30,19 @@
           "filter": 0
         },
         {
-          "title": "Research With the Reluctant: Challenges and Strategies",
-          "authors": "E. B. Gross, Susan A. Gelman",
-          "abstract": "Although psychological research often relies on convenience samples, the most informative participants may be individuals who are reluctant to engage because of vulnerability, mistrust of the research process, and/or disagreement with a study’s goals. Although this concern is particularly urgent for certain research questions, it is relevant for all researchers because relying solely on easy-to-reach participants limits a study’s validity and generalizability and may substantially hollow out or even render unanswerable some research questions. We review a number of challenges for conducting research with “reluctant but informative” participants and strategies to meet and overcome these challenges. We argue that engaging reluctant participants requires attention at every phase of the research process, including study design and planning, participant recruitment and testing, data analysis and interpretation, and reporting and broader impacts. We also illustrate with our own recent experiences conducting research on children’s gender concepts in rural, conservative U.S. communities that expressed skepticism about the value of this research. Although every study is different, notable across all projects are the need to respect both individual participants and their communities and to balance competing desiderata. Finally, we discuss the importance of transparency around sample composition and constraints to generalizability and the potential utility of collaborative research both across research institutions and between researchers and participant communities.",
-          "url": "https://doi.org/10.1177/25152459241304775",
-          "doi": "https://doi.org/10.1177/25152459241304775",
-          "filter": 0
-        },
-        {
           "title": "Understanding Ecological-Momentary-Assessment Data: A Tutorial on Exploring Item Performance in Ecological-Momentary-Assessment Data",
           "authors": "Björn S. Siepe, Carlotta L. Rieble, Rayyan Tutunji, Aljoscha Rimpler, Julius März, Ricarda K. K. Proppert, Eiko I. Fried",
           "abstract": "The use of ecological-momentary-assessment (EMA) data to study individuals in their everyday lives is popular in many areas of social and life sciences. At the same time, EMA data sets are complex, the psychometric properties of EMA items are often not investigated systematically, and scales are often neither standardized nor validated beyond their face validity. Here, we present different descriptive statistics and data-visualization techniques to increase the understanding of the performance of EMA items. We apply these techniques to a wide range of items used in a large EMA data set (599 participants, 360 time points) collected in the WARN-D study to investigate their distributions, contextual influences, change over time, sources of variability, and relationship with classical static measures of psychopathology. We discuss the theoretical and substantive implications of our findings and provide researchers with R code that they can adapt to their own EMA data, as well as literature recommendations for each topic. We hope to inspire more researchers to share in-depth descriptive summaries of their experience-sampling data such that the field can move forward in understanding the performance of EMA measures across contexts.",
           "url": "https://doi.org/10.1177/25152459241286877",
           "doi": "https://doi.org/10.1177/25152459241286877",
+          "filter": 0
+        },
+        {
+          "title": "Research With the Reluctant: Challenges and Strategies",
+          "authors": "E. B. Gross, Susan A. Gelman",
+          "abstract": "Although psychological research often relies on convenience samples, the most informative participants may be individuals who are reluctant to engage because of vulnerability, mistrust of the research process, and/or disagreement with a study’s goals. Although this concern is particularly urgent for certain research questions, it is relevant for all researchers because relying solely on easy-to-reach participants limits a study’s validity and generalizability and may substantially hollow out or even render unanswerable some research questions. We review a number of challenges for conducting research with “reluctant but informative” participants and strategies to meet and overcome these challenges. We argue that engaging reluctant participants requires attention at every phase of the research process, including study design and planning, participant recruitment and testing, data analysis and interpretation, and reporting and broader impacts. We also illustrate with our own recent experiences conducting research on children’s gender concepts in rural, conservative U.S. communities that expressed skepticism about the value of this research. Although every study is different, notable across all projects are the need to respect both individual participants and their communities and to balance competing desiderata. Finally, we discuss the importance of transparency around sample composition and constraints to generalizability and the potential utility of collaborative research both across research institutions and between researchers and participant communities.",
+          "url": "https://doi.org/10.1177/25152459241304775",
+          "doi": "https://doi.org/10.1177/25152459241304775",
           "filter": 0
         }
       ],
@@ -57,6 +57,14 @@
           "authors": "Daniel McNeish, Denis Dumas",
           "url": "https://doi.org/10.3758/s13428-025-02611-8",
           "doi": "https://doi.org/10.3758/s13428-025-02611-8",
+          "filter": 0
+        },
+        {
+          "title": "Development and evaluation of Dona, a privacy-preserving donation platform for messaging data from WhatsApp, Facebook, and Instagram",
+          "authors": "Olya Hakobyan, Paul-Julius Hillmann, Florian Martin, Erwin Böttinger, Hanna Drimalla",
+          "abstract": "Social interactions are a fundamental aspect of human life, yet, their objective and naturalistic measurement remains challenging for scientific research. This challenge can be addressed using digital communication data. To this end, we have developed Dona, an open-source platform for donating messaging data from WhatsApp, Facebook, and Instagram. Given the highly sensitive nature of messaging data, we ensure participant privacy through rigorous data minimization. Dona removes all sensitive information on the user side prior to donation, retaining only de-identified meta-data such as message length and timestamps. This paper presents an overview of the platform, a deployment guide, and example use cases. In addition, we evaluate the informativeness of minimized messaging data for studying social interactions with two approaches. First, we conducted a user study in which 85 participants donated their data, received visualizations of their messaging behavior and evaluated the informativeness of this visual feedback. Second, we performed a quantitative analysis using over 1500 donated chats to confirm whether minimized messaging data captures known aspects of human interactions, such as interaction balance, heterogeneity, and burstiness. The results demonstrate that minimized, de-identified messaging data reflects informative interaction features as assessed by both self-reports and objective metrics. In conclusion, Dona is a donation platform well suited for sensitive contexts in which researchers aim to balance participant privacy with the acquisition of objective and informative data on social interactions.",
+          "url": "https://doi.org/10.3758/s13428-024-02593-z",
+          "doi": "https://doi.org/10.3758/s13428-024-02593-z",
           "filter": 0
         }
       ],
@@ -161,14 +169,6 @@
           "filter": 0
         },
         {
-          "title": "Impression formation through social interaction: The effect of ethnicity in the Dutch context",
-          "authors": "Iris J. Traast, Bertjan Doosje, David M. Amodio",
-          "abstract": "Research conducted in the United States shows that White Americans form more positive impressions of White than Black interaction partners through instrumental learning. We asked whether this pattern generalizes to the cultural context of the Netherlands, which differs in norms for expressing intergroup bias. In three preregistered studies ( Ns = 66, 83, 80), White Dutch participants played a money-sharing game, based on a reward reinforcement task, with White and Moroccan partners. Although players shared at different rates, average sharing rates for White and Moroccan players were equated. Unexpectedly, and despite anti-Moroccan explicit and implicit attitudes, participants displayed a pro-Moroccan choice preference across studies. Nevertheless, computational modeling indicated the same learning effects of ethnicity as in past research: ethnicity biased initial reward expectations, and these were updated via group-specific learning rates. We discuss potential explanations for this unexpected pattern and broader implications for cross-cultural research on intergroup social cognition.",
-          "url": "https://doi.org/10.1177/13684302241305054",
-          "doi": "https://doi.org/10.1177/13684302241305054",
-          "filter": 0
-        },
-        {
           "title": "Context-specific mechanisms of (negative) secondary transfer effects? A longitudinal investigation",
           "authors": "Nils T. Henschel, Lukas Kötting, Ulrich Kühnen, Klaus Boehnke",
           "abstract": "The secondary transfer effect (STE) suggests that contact with members of an (primary) outgroup generalizes, affecting attitudes towards uninvolved (secondary) outgroups. The literature suggests contextually different processes by outgroup similarity. Our three-wave longitudinal study is the first piece of STE research that applies random intercept cross-legged panel models to explore this contextuality, tackling several research deficiencies: (a) the overfocus on positive contact, (b) reliance on cross-sectional designs, (c) limited knowledge regarding underlying processes, (d) scarcity of comparative studies investigating mediators or intergroup settings jointly. We study three STE mediators from positive and negative contact (attitude generalization, multiculturalism, primary outgroup threat) across different primary outgroups (Muslims, n = 385; Sinti and Roma, n = 396), keeping contextual setting (Germany), temporal setting (2016–2017), and secondary outgroup (refugees) constant. While between-person rank differences emerged, we found no evidence for the theorized within-person changes over time, and we discuss this in terms of theoretical, methodological, and contextual interpretations.",
@@ -191,6 +191,14 @@
           "url": "https://doi.org/10.1177/13684302241311544",
           "doi": "https://doi.org/10.1177/13684302241311544",
           "filter": 0
+        },
+        {
+          "title": "Local color: Perceived racial demographics of more and less rural locations",
+          "authors": "Michael J. Sargent, Mara Casey Tieken",
+          "abstract": "In previous work, respondents overestimated the size of the US Black population, while underestimating the White population. In the present study, we examined perceptions of the racial composition of more specific locations within the US, comparing relatively rural and urban locations to one another. We expected that observers would see more rural places as having smaller Black populations, and larger White populations, compared to less rural places, but these perceived differences would exist independent of actual variation in racial makeup. In three samples, US residents judged 70 locations, estimating their racial demographics, rurality/urbanness, and desirability. Study 1 ( N = 241) tested an all-White sample; Study 2 tested a White subsample ( n = 246) and a Black subsample ( n = 263).As expected, more rural locations were judged as having larger White populations and smaller Black populations than less rural locations, beyond any actual differences in racial composition. These results support the conclusion that the mental images that Black and White respondents have of rural and urban America are characterized by stereotypes of their populations. Public Significance Statement Academic and public scholarship has assumed that the meaning of the idea of “rural” is racialized, such that places judged as rural are thought of as White, and places judged as urban are thought of as Black, beyond any actual racial differences among locations. The present data confirm the operation of such biases, demonstrating them among both Black and White observers. The data also speak to how observers estimate the size of Black and White populations in specific locations, supporting the following conclusion: people’s judgments of the racial composition of the residents of places are a product of multiple, not entirely consistent, processes.",
+          "url": "https://doi.org/10.1177/13684302251315076",
+          "doi": "https://doi.org/10.1177/13684302251315076",
+          "filter": 0
         }
       ],
       "articles_hidden": []
@@ -204,6 +212,13 @@
           "authors": "Dylan Molenaar, Raoul P. P. P. Grasman, Mariana Cúri",
           "url": "https://doi.org/10.1080/00273171.2025.2456598",
           "doi": "https://doi.org/10.1080/00273171.2025.2456598",
+          "filter": 0
+        },
+        {
+          "title": "A Tutorial on the Use of Artificial Intelligence Tools for Facial Emotion Recognition in R",
+          "authors": "Austin Wyman, Zhiyong Zhang",
+          "url": "https://doi.org/10.1080/00273171.2025.2455497",
+          "doi": "https://doi.org/10.1080/00273171.2025.2455497",
           "filter": 0
         },
         {
