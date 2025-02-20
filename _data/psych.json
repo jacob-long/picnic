@@ -1,5 +1,5 @@
 {
-  "update": "2025-02-19",
+  "update": "2025-02-20",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -29,6 +29,30 @@
       "journal_short": "BRM",
       "articles": [
         {
+          "title": "Survey measures of metacognitive monitoring are often false",
+          "authors": "Kit S. Double",
+          "abstract": "Metacognitive monitoring is an extremely important ability that predicts a wide range of outcomes. However, do people have insight into their own metacognitive monitoring capacity? This study measured participants' perceived metacognitive monitoring abilities using a novel psychometrically validated questionnaire (Study 1) and then examined how well survey responses aligned with online measures of metacognitive monitoring (resolution, discrimination, sensitivity, efficiency) taken from confidence ratings participants made while performing a perceptual decision-making task and Raven’s Progressive Matrices (Study 2). We found a negative correlation between the questionnaire responses and many of the online measures of metacognitive monitoring – those who reported being better at metacognitive monitoring, in fact tended to be worse according to the online metacognitive ratings. This occurred because, in general, high self-perceptions of monitoring ability were, in fact, related to higher confidence and lower cognitive performance. These findings suggest that we may have inaccurate insights into our own metacognitive monitoring capacity and questionnaire-based measures of metacognitive abilities may be problematic as they may represent unrealistic self-perceptions.",
+          "url": "https://doi.org/10.3758/s13428-025-02621-6",
+          "doi": "https://doi.org/10.3758/s13428-025-02621-6",
+          "filter": 0
+        },
+        {
+          "title": "Open-access network science: Investigating phonological similarity networks based on the SUBTLEX-US lexicon",
+          "authors": "John Alderete, Sarbjot Mann, Paul Tupper",
+          "abstract": "Network science tools are becoming increasingly important to psycholinguistics, but few open-access data sets exist for exploring network properties of even well-studied languages like English. We constructed several phonological similarity networks (neighbors differ in exactly one consonant or vowel phoneme) using words from a lexicon based on the SUBTLEX-US English corpus, distinguishing networks by size and word representation (i.e., lemma vs. word form). The resulting networks are shown to exhibit many familiar characteristics, including small-world properties, broad degree distributions, and robustness to node removal, regardless of network size and word representation. We also validated the SUBTLEX phonological networks by showing that they exhibit contrasts in degree and clustering coefficient comparable to the same contrasts found in prior studies and exhibit familiar trends after extraction of a backbone network of nodes important to network centrality. The data release ( https://github.com/aldo-git-bit/phonological-similarity-networks-SUBTLEX ) includes 17 adjacency lists that can be further explored using the networkX package in Python, a package of files for building new adjacency lists from scratch, and several scripts that allow users to analyze and extend these results.",
+          "url": "https://doi.org/10.3758/s13428-025-02610-9",
+          "doi": "https://doi.org/10.3758/s13428-025-02610-9",
+          "filter": 0
+        },
+        {
+          "title": "Distribution-free Bayesian analyses with the DFBA statistical package",
+          "authors": "Richard A. Chechile, Daniel H. Barch",
+          "abstract": "Nonparametric (or distribution-free) statistics have been widely used in psychological research because behavioral data can be messy and inconsistent with the Gaussian model for measurement error. Distribution-free procedures only use categorical or rank information, so they avoid the problems of outliers and violations of distributional assumptions. Yet frequentist nonparametric procedures are still subject to the limitation of relative frequency theory, which stems from the founding assumption that population parameters cannot be represented by probability distributions. Bayesian statistical methods, by contrast, allow for prior and posterior probability distributions for population parameters, so they rigorously provide experimental scientists with a probability representation of the population parameters of interest. The Bayesian counterpart for a set of distribution-free statistical methods is a relatively recent development. This paper is a detailed discussion of the DFBA package of R functions, which is designed for doing distribution-free Bayesian analyses for the common nonparametric procedures. Included in the package are functions that enable the user to explore the relative power for computer-based data that can be sampled from nine different probability models. The distribution-free procedures have almost the same power as the t  test when the data are normally distributed, but for eight other alternative probability models, the distribution-free Bayesian procedures have greater power than the frequentist t .",
+          "url": "https://doi.org/10.3758/s13428-025-02605-6",
+          "doi": "https://doi.org/10.3758/s13428-025-02605-6",
+          "filter": 0
+        },
+        {
           "title": "PREVIC: An adaptive parent report measure of expressive vocabulary in children between 3 and 8 years of age",
           "authors": "Manuel Bohn, Julia Prein, Jonas Engicht, Daniel Haun, Natalia Gagarina, Tobias Koch",
           "abstract": "Parent report measures have proven to be a valuable research tool for studying early language development. Caregivers are given a list of words and are asked which of them their child has already used. However, most available measures are not suited for children beyond infancy, come with substantial licensing costs or lack a clear psychometric foundation. Here, we present the PREVIC (Parent Report of Expressive Vocabulary in Children), an open-access, high-quality vocabulary checklist for German-speaking children between 3 and 8 years of age. The PREVIC was constructed leveraging the advantages of item response theory: we designed a large initial item pool of 379 words and collected data from 1190 caregivers of children between 3 and 8 years of age. Based on these data, we computed a range of fit indices for each item (word) and used an automated item selection algorithm to compile a final pool that contains items that (a) vary in difficulty and (b) fit the Rasch (one-parameter logistic) model. The resulting task is highly reliable and shows convergent validity. The IRT-based construction allowed us to design an adaptive version of the task that substantially reduces the task duration while retaining measurement precision. The task – including the adaptive version – was implemented as a website and is freely accessible online ( https://ccp-odc.eva.mpg.de/previc-demo/ ). The PREVIC fills an important gap in the toolkit of researchers interested in language development and provides an ideal starting point for developing converging measures in other languages.",
@@ -45,11 +69,11 @@
           "filter": 0
         },
         {
-          "title": "Survey measures of metacognitive monitoring are often false",
-          "authors": "Kit S. Double",
-          "abstract": "Metacognitive monitoring is an extremely important ability that predicts a wide range of outcomes. However, do people have insight into their own metacognitive monitoring capacity? This study measured participants' perceived metacognitive monitoring abilities using a novel psychometrically validated questionnaire (Study 1) and then examined how well survey responses aligned with online measures of metacognitive monitoring (resolution, discrimination, sensitivity, efficiency) taken from confidence ratings participants made while performing a perceptual decision-making task and Raven’s Progressive Matrices (Study 2). We found a negative correlation between the questionnaire responses and many of the online measures of metacognitive monitoring – those who reported being better at metacognitive monitoring, in fact tended to be worse according to the online metacognitive ratings. This occurred because, in general, high self-perceptions of monitoring ability were, in fact, related to higher confidence and lower cognitive performance. These findings suggest that we may have inaccurate insights into our own metacognitive monitoring capacity and questionnaire-based measures of metacognitive abilities may be problematic as they may represent unrealistic self-perceptions.",
-          "url": "https://doi.org/10.3758/s13428-025-02621-6",
-          "doi": "https://doi.org/10.3758/s13428-025-02621-6",
+          "title": "Jiwar: A database and calculator for word neighborhood measures in 40 languages",
+          "authors": "Alaa Alzahrani",
+          "abstract": "The majority of neighborhood calculators are restricted to one language. The limited availability of multilingual neighborhood calculators could pose challenges for conducting psycholinguistic research on low-resource languages. Therefore, this study introduced Jiwar, a database and calculator for neighborhood information across three levels (orthographic, phonological, and phonographic) across 40 languages. The database contains information for 24 linguistic and neighborhood measures, while the Python-based calculator allows users to compute more than 46 neighborhood measures for words and nonwords. This study further examined the Jiwar calculator’s instrument reliability and validity. Correlations with previous datasets across several languages suggested the strong reliability of two key Jiwar measures. Multiple-linear regression models revealed that a subset of Jiwar measures significantly predicted behavioral results in lexical decision and visual naming tasks, indicating the validity of the Jiwar calculator. Jiwar is an open-source, Python-based tool that is designed to expand to more languages and functions.",
+          "url": "https://doi.org/10.3758/s13428-025-02612-7",
+          "doi": "https://doi.org/10.3758/s13428-025-02612-7",
           "filter": 0
         }
       ],
@@ -60,13 +84,6 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "Using Artificial Intelligence for Predictive Analysis of Dementia Awareness Among Community Adult Learners and Evaluation of Dementia-Friendliness in Community Environments",
-          "authors": "Chia-Hui Hou, Yi-Hui Liu",
-          "url": "https://doi.org/10.1016/j.chb.2025.108604",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108604",
-          "filter": 0
-        },
-        {
           "title": "Student perspectives on banning mobile phones in South Australian secondary schools: A large-scale qualitative analysis",
           "authors": "Eran Bar, Marcela Radunz, Christina R. Galanis, Blake Quinney, Tracey D. Wade, Daniel L. King",
           "url": "https://doi.org/10.1016/j.chb.2025.108603",
@@ -74,17 +91,10 @@
           "filter": 0
         },
         {
-          "title": "Avatar-mediated communication in collaborative Virtual Environments: A study on users’ attention allocation and perception of social interactions",
+          "title": "Avatar-mediated communication in collaborative virtual environments: A study on users’ attention allocation and perception of social interactions",
           "authors": "Chen Li, Yixin Dai, Guang Chen, Jing Liu, Ping Li, Horace Ho-shing Ip",
           "url": "https://doi.org/10.1016/j.chb.2025.108598",
           "doi": "https://doi.org/10.1016/j.chb.2025.108598",
-          "filter": 0
-        },
-        {
-          "title": "Beyond Efficiency: Trust, AI, and Surprise in Knowledge Work Environments",
-          "authors": "Allen S. Brown, Christopher R. Dishop, Andrew Kuznetsov, Ping-Ya Chao, Anita Williams Woolley",
-          "url": "https://doi.org/10.1016/j.chb.2025.108605",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108605",
           "filter": 0
         },
         {
@@ -95,24 +105,10 @@
           "filter": 0
         },
         {
-          "title": "Learning about Abstract Systems: Understanding Children’s Journey in Grasping Internet Principles Across Age Groups in a Mixed-Methods Experimental Study",
-          "authors": "Cyril Brom, Anna Yaghobová, Anna Drobná, Marek Urban, Daniel Šťastný, Andrea diSessa",
-          "url": "https://doi.org/10.1016/j.chb.2025.108602",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108602",
-          "filter": 0
-        },
-        {
           "title": "Restrictions in Social Media Engagement and User’s Fairness Perception",
           "authors": "Seung Hwan “Shawn” Lee, Kyoung-Nan Kwon",
           "url": "https://doi.org/10.1016/j.chb.2025.108609",
           "doi": "https://doi.org/10.1016/j.chb.2025.108609",
-          "filter": 0
-        },
-        {
-          "title": "Exploring the effect of AI warm response on consumer reuse intention in service failure",
-          "authors": "Cuicui Wang, Liangting Ni, Bei Yuan, Momo Tang",
-          "url": "https://doi.org/10.1016/j.chb.2025.108606",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108606",
           "filter": 0
         },
         {
@@ -128,6 +124,13 @@
           "url": "https://doi.org/10.1016/j.chb.2025.108601",
           "doi": "https://doi.org/10.1016/j.chb.2025.108601",
           "filter": 0
+        },
+        {
+          "title": "Longitudinal relationship between gaming disorder symptoms, hyperactivity/inattention symptoms and aggression among Chinese adolescents: Within-person and between-person effects",
+          "authors": "Shuai Chen, Jinqian Liao, Xu Wang, Jiayi Li, Yanling Liu, Wei Zhang",
+          "url": "https://doi.org/10.1016/j.chb.2025.108608",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108608",
+          "filter": 0
         }
       ],
       "articles_hidden": []
@@ -142,38 +145,6 @@
           "abstract": "Individuals from different marginalized groups can internalize negative social beliefs about themselves and their groups. However, a scale that allows for direct comparisons of internalized stigma across multiple groups has not yet been developed. This paper presents the development and validation of the Multiple-Group Internalized Stigma Scale (MGISS). Participants were recruited from four stigmatized groups representing the possible combinations of the stigma characteristics of mutability and concealability (i.e., Black or Indigenous, lesbian, gay or bisexual, higher body-weight, and working-class people). Study 1 developed the scale across the four groups and in English- and Spanish-speaking countries (i.e., the UK and Chile, N = 238). Study 2 replicated the results with a larger sample of emerging adults in Chile ( N = 729). The MGISS demonstrated good levels of reliability and validity, with two factors: self-focused and group-focused. Levels of internalized stigma were higher among groups with mutable characteristics and were associated with higher levels of felt stigma and psychological distress. The MGISS provides a valuable tool for research on prejudice and stigma, particularly in studies involving multiple marginalized groups.",
           "url": "https://doi.org/10.1177/13684302241312674",
           "doi": "https://doi.org/10.1177/13684302241312674",
-          "filter": 0
-        },
-        {
-          "title": "Far-right movements in the Western world: How media exposure relates to normative beliefs and attitudes toward the far-right",
-          "authors": "Hema Preya Selvanathan, Bernhard Leidner, Stylianos Syropoulos, Winnifred Louis, Levi Adelman, Aphrodite Baka, Christina Bauer, Martijn Blikmans, Maja Becker, Eszter Beran, Michał Bilewicz, Peggy Chekroun, Tobias Greitemeyer, Bettina Hannover, Inga Jasinskaja-Lahti, Peter Kardos, Mengyao Li, Torun Lindholm, Steve Loughnan, Theresa Mros, Maria Paola Paladino, Marina Papadopoulou, Daniel R. Rovenpor, Kathrin Sadus, Jeroen Vaes, Alain Van Hiel, Martijn van Zomeren",
-          "abstract": "Considering the rise of far-right groups in Western countries, we examined whether exposure to media coverage on the far-right is associated with attitudes toward it, using surveys in 15 Western democratic countries (total N = 2,576). We hypothesized that greater media exposure to the far-right will be associated with greater perceived prevalence and acceptability of it, which will in turn be associated with divergent attitudes. On the one hand, greater perceived prevalence may be associated with more unfavorable attitudes toward the far-right (a threat response). On the other hand, greater perceived acceptability may be associated with more favorable attitudes toward the far-right (a normalization response). Overall, there was more evidence for a threat response than a normalization response: media exposure was consistently related to greater perceived prevalence (but not acceptability) of the far-right. This research underscores the importance of studying the consequences of the rise of the far-right.",
-          "url": "https://doi.org/10.1177/13684302241309554",
-          "doi": "https://doi.org/10.1177/13684302241309554",
-          "filter": 0
-        },
-        {
-          "title": "Context-specific mechanisms of (negative) secondary transfer effects? A longitudinal investigation",
-          "authors": "Nils T. Henschel, Lukas Kötting, Ulrich Kühnen, Klaus Boehnke",
-          "abstract": "The secondary transfer effect (STE) suggests that contact with members of an (primary) outgroup generalizes, affecting attitudes towards uninvolved (secondary) outgroups. The literature suggests contextually different processes by outgroup similarity. Our three-wave longitudinal study is the first piece of STE research that applies random intercept cross-legged panel models to explore this contextuality, tackling several research deficiencies: (a) the overfocus on positive contact, (b) reliance on cross-sectional designs, (c) limited knowledge regarding underlying processes, (d) scarcity of comparative studies investigating mediators or intergroup settings jointly. We study three STE mediators from positive and negative contact (attitude generalization, multiculturalism, primary outgroup threat) across different primary outgroups (Muslims, n = 385; Sinti and Roma, n = 396), keeping contextual setting (Germany), temporal setting (2016–2017), and secondary outgroup (refugees) constant. While between-person rank differences emerged, we found no evidence for the theorized within-person changes over time, and we discuss this in terms of theoretical, methodological, and contextual interpretations.",
-          "url": "https://doi.org/10.1177/13684302241311538",
-          "doi": "https://doi.org/10.1177/13684302241311538",
-          "filter": 0
-        },
-        {
-          "title": "The effect of work engagement on job satisfaction and turnover intentions: The mediating role of group versus organisational identity",
-          "authors": "Roberto Gutierrez, Shai Nash, John Drury, Mark Slaski",
-          "abstract": "The relationship between work engagement, job satisfaction, turnover intentions, and identity within organisations was investigated. Social identity theory (SIT) proposes that individuals derive part of their self-concept from their group memberships, and previous research has shown that individuals derive a degree of engagement and job satisfaction based on their identification with the organisation where they work. Based on SIT, we propose that identity can be considered a resource in organisations and mediate the relationship between engagement and job satisfaction (Study 1) and turnover intentions (Study 2). Confirming our predictions, group identity, but not organisational identity, was a significant mediator in both studies. The results also showed that organisational identity (the endorsement of the organisation) is relevant but not independently from group identity (the relationships with immediate coworkers). Simply promoting organisational identity has limited effects on the relationship between work engagement and job satisfaction and turnover intentions.",
-          "url": "https://doi.org/10.1177/13684302241311546",
-          "doi": "https://doi.org/10.1177/13684302241311546",
-          "filter": 0
-        },
-        {
-          "title": "Intergroup contact in the context of gender. A critical review of the literature and opportunities for future research",
-          "authors": "Gosia Mikołajczak, Alexandra N. Fisher, Michelle K. Ryan",
-          "abstract": "Compared to other intergroup contexts, gendered contact is more prevalent yet relatively understudied in contact research. We critically review available studies examining cross-gender contact—including contact between women and men, and contact involving genders outside of the gender binary—and its impact on outgroup attitudes and support for social change. We then outline future directions for gendered contact research with a focus on (a) assessing interpersonal and intergroup dynamics within cross-gendered relationships; (b) understanding the conditions that facilitate gendered contact that is both harmonious and support social change toward gender equality; and (c) conceptual and methodological considerations necessary to study gendered contact. Finally, we discuss the theoretical and practical importance of gendered contact research for advancing intergroup contact theory and gender equality.",
-          "url": "https://doi.org/10.1177/13684302241311544",
-          "doi": "https://doi.org/10.1177/13684302241311544",
           "filter": 0
         },
         {
@@ -209,14 +180,35 @@
       "articles_hidden": []
     },
     {
+      "journal_full": "Journal of Personality and Social Psychology",
+      "journal_short": "JPSP",
+      "articles": [
+        {
+          "title": "U.S. citizens’ judgments of moral transgressions against fellow citizens, refugees, and undocumented immigrants.",
+          "authors": "Laura K. Soter, Victoria Ramirez, Walter Sinnott-Armstrong",
+          "url": "https://doi.org/10.1037/pspi0000490",
+          "doi": "https://doi.org/10.1037/pspi0000490",
+          "filter": 0
+        },
+        {
+          "title": "Money matters for future well-being: A latent growth analysis and meta-analytic integration of associations between income, financial satisfaction, and 22 well-being variables across three data sets.",
+          "authors": "Vincent Y. S. Oh",
+          "url": "https://doi.org/10.1037/pspp0000552",
+          "doi": "https://doi.org/10.1037/pspp0000552",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Multivariate Behavioral Research",
       "journal_short": "MBR",
       "articles": [
         {
-          "title": "Autoencoders for Amortized Joint Maximum Likelihood Estimation of Confirmatory Item Factor Models",
-          "authors": "Dylan Molenaar, Raoul P. P. P. Grasman, Mariana Cúri",
-          "url": "https://doi.org/10.1080/00273171.2025.2456598",
-          "doi": "https://doi.org/10.1080/00273171.2025.2456598",
+          "title": "Model Selection for Mixed-Effects Location-Scale Models with Confidence Interval for LOO or WAIC Difference",
+          "authors": "Yue Liu, Fan Fang, Hongyun Liu",
+          "url": "https://doi.org/10.1080/00273171.2025.2462033",
+          "doi": "https://doi.org/10.1080/00273171.2025.2462033",
           "filter": 0
         },
         {
@@ -225,27 +217,19 @@
           "url": "https://doi.org/10.1080/00273171.2025.2455497",
           "doi": "https://doi.org/10.1080/00273171.2025.2455497",
           "filter": 0
-        },
-        {
-          "title": "TDCM: An R Package for Estimating Longitudinal Diagnostic Classification Models",
-          "authors": "Matthew J. Madison, Minjeong Jeon, Michael Cotterell, Sergio Haab, Selay Zor",
-          "url": "https://doi.org/10.1080/00273171.2025.2453454",
-          "doi": "https://doi.org/10.1080/00273171.2025.2453454",
-          "filter": 0
         }
       ],
       "articles_hidden": []
     },
     {
-      "journal_full": "Personality and Social Psychology Bulletin",
-      "journal_short": "PSPB",
+      "journal_full": "Psychological Bulletin",
+      "journal_short": "PsychBull",
       "articles": [
         {
-          "title": "Implications of Divine Forgiveness for Conciliatory Behavior: Understanding How Feeling Forgiven by God Influences Apologies Via Self-Forgiveness, Gratitude, and Humility",
-          "authors": "Justin M. Ludwig, Jonah Koetke, Karina Schumann",
-          "abstract": "In the current research, we tested the downstream effects of divine forgiveness (i.e., perceived forgiveness by God) on interpersonal apology behavior through two counteracting pathways: an inhibiting pathway through self-forgiveness and a facilitating pathway through gratitude and humility. In Study 1 ( N = 435), using recalled offenses, we found that higher perceived divine forgiveness was positively associated with self-forgiveness, which in turn was negatively associated with apology behavior. In Study 2 ( N = 531), using recalled offenses and an experimental design, we replicated our findings from Study 1 whereby divine forgiveness (vs. control) promoted greater self-forgiveness, which in turn was negatively associated with apology behavior. However, we found positive indirect effects of divine forgiveness on apology behavior via the serial mediators of gratitude and humility. Together, these studies offer insight into how divine forgiveness can both hinder and encourage transgressors’ constructive responses to conflict through different psychological mechanisms.",
-          "url": "https://doi.org/10.1177/01461672241312265",
-          "doi": "https://doi.org/10.1177/01461672241312265",
+          "title": "The gender convergence effect in older age: A meta-analytic review comparing modern attitudes toward younger, middle-aged, and older women and men.",
+          "authors": "Angela Shakeri, Michael S. North",
+          "url": "https://doi.org/10.1037/bul0000467",
+          "doi": "https://doi.org/10.1037/bul0000467",
           "filter": 0
         }
       ],
@@ -270,6 +254,20 @@
           "filter": 0
         },
         {
+          "title": "Robust Bayesian meta-regression: Model-averaged moderation analysis in the presence of publication bias.",
+          "authors": "František Bartoš, Maximilian Maier, T. D. Stanley, Eric-Jan Wagenmakers",
+          "url": "https://doi.org/10.1037/met0000737",
+          "doi": "https://doi.org/10.1037/met0000737",
+          "filter": 0
+        },
+        {
+          "title": "Information theory, machine learning, and Bayesian networks in the analysis of dichotomous and Likert responses for questionnaire psychometric validation.",
+          "authors": "Matteo Orsoni, Mariagrazia Benassi, Marco Scutari",
+          "url": "https://doi.org/10.1037/met0000713",
+          "doi": "https://doi.org/10.1037/met0000713",
+          "filter": 0
+        },
+        {
           "title": "Efficient design of cluster randomized trials and individually randomized group treatment trials.",
           "authors": "Math J. J. M. Candel, Gerard J. P. van Breukelen",
           "url": "https://doi.org/10.1037/met0000727",
@@ -288,6 +286,28 @@
           "authors": "Viet Hung Dao, David Gunawan, Robert Kohn, Minh-Ngoc Tran, Guy E. Hawkins, Scott D. Brown",
           "url": "https://doi.org/10.1037/met0000669",
           "doi": "https://doi.org/10.1037/met0000669",
+          "filter": 0
+        },
+        {
+          "title": "Meta-analyzing nonpreregistered and preregistered studies.",
+          "authors": "Robbie C. M. van Aert",
+          "url": "https://doi.org/10.1037/met0000719",
+          "doi": "https://doi.org/10.1037/met0000719",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Psychological Science",
+      "journal_short": "PsychSci",
+      "articles": [
+        {
+          "title": "Perceiving Topological Relations",
+          "authors": "Sami R. Yousif, Elizabeth M. Brannon",
+          "abstract": "There are many ways to describe and represent the visuospatial world. A space can be described by its euclidean properties—the size of objects, the angles of boundaries, the distances between them. A space can also be described in nonspatial terms: One could explain the layout of a city by the order of its streets. Somewhere in between, topological representations—such as those commonly depicted in public-transit maps—capture coarse relational structure without precise euclidean detail, offering a relatively efficient, low-dimensional way of capturing spatial content. Here, we ask whether human adults quickly and automatically perceive such relations. In six experiments, we show that differences in simple topological features influence a range of visual tasks from object matching to number estimation to visual search. We discuss the possibility that topological relations are a kind of visual primitive that supports visuospatial representation.",
+          "url": "https://doi.org/10.1177/09567976241309615",
+          "doi": "https://doi.org/10.1177/09567976241309615",
           "filter": 0
         }
       ],
