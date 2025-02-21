@@ -1,29 +1,6 @@
 {
-  "update": "2025-02-20",
+  "update": "2025-02-21",
   "content": [
-    {
-      "journal_full": "Advances in Methods and Practices in Psychological Science",
-      "journal_short": "AMPPS",
-      "articles": [
-        {
-          "title": "dockerHDDM: A User-Friendly Environment for Bayesian Hierarchical Drift-Diffusion Modeling",
-          "authors": "Wanke Pan, Haiyang Geng, Lei Zhang, Alexander Fengler, Michael J. Frank, Ru-Yuan Zhang, Hu Chuan-Peng",
-          "abstract": "Drift-diffusion models (DDMs) are pivotal in understanding evidence-accumulation processes during decision-making across psychology, behavioral economics, neuroscience, and psychiatry. Hierarchical DDMs (HDDMs), a Python library for hierarchical Bayesian estimation of DDMs, has been widely used among researchers, including researchers with limited coding proficiency, in fitting DDMs and other sequential sampling models. However, issues of compatibility in installation and lack of support for more recent Bayesian-modeling functionalities pose serious challenges for new users, limiting broader adaptation and reproducibility of HDDMs. To address these issues, we created dockerHDDM, a user-friendly computational environment for HDDMs with new features. dockerHDDM brings three improvements: (a) easy to install once docker is installed, ensuring reproducibility and saving time for researchers; (b) compatible with machines with Apple chips; (c) seamless integration with ArviZ, a state-of-the-art Bayesian-modeling library. This tutorial serves as a practical, hands-on guide for researchers to leverage dockerHDDM’s capabilities in conducting efficient Bayesian hierarchical analysis of DDMs. The notebook presented here and in the docker image will enable researchers with various programming levels to model their data with HDDMs.",
-          "url": "https://doi.org/10.1177/25152459241298700",
-          "doi": "https://doi.org/10.1177/25152459241298700",
-          "filter": 0
-        },
-        {
-          "title": "Preregistration of Psychology Meta-Analyses: A Cross-Sectional Study of Prevalence and Practice",
-          "authors": "Alejandro Sandoval-Lentisco, Miriam Tortajada, Rubén López-Nicolás, José A. López-López, E. J. Wagenmakers, Julio Sánchez-Meca, Tom E. Hardwicke",
-          "abstract": "Meta-analyses play an influential role in synthesizing the existing evidence on a particular topic. Consequently, it is especially important that meta-analyses are conducted and reported to the highest standards and that the risk of bias is minimized. Preregistration can help detect and reduce bias arising from opportunistic use of “researcher degrees of freedom.” However, little is known about the prevalence and practice of the preregistration of meta-analyses in psychology. In this study, we first measured the prevalence of preregistration in all psychology meta-analyses published in 2021. Next, for 100 randomly selected preregistered meta-analyses, we evaluated the preregistration’s coverage of key meta-analytic decisions and the extent to which published meta-analyses deviated from their preregistered protocols. Of all 1,403 eligible psychology meta-analyses published in 2021, 382 (27%) were preregistered. In our random sample, we found that key PRISMA-P decision items were often omitted from preregistered protocols—out of the 23 decision items that were examined, the median number of items covered was 13 (interquartile range [IQR] = 11–14). We also found that all 100 preregistered meta-analyses contained at least one deviation from the preregistered protocol ( Mdn = 9, IQR = 6.75–11) and that most deviations were undisclosed ( Mdn = 8, IQR = 6–11). These findings suggest that the infrequent use and poor implementation of preregistration in psychology meta-analyses undermines its potential to reduce bias and increase transparency.",
-          "url": "https://doi.org/10.1177/25152459241300113",
-          "doi": "https://doi.org/10.1177/25152459241300113",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
@@ -37,19 +14,19 @@
           "filter": 0
         },
         {
-          "title": "Open-access network science: Investigating phonological similarity networks based on the SUBTLEX-US lexicon",
-          "authors": "John Alderete, Sarbjot Mann, Paul Tupper",
-          "abstract": "Network science tools are becoming increasingly important to psycholinguistics, but few open-access data sets exist for exploring network properties of even well-studied languages like English. We constructed several phonological similarity networks (neighbors differ in exactly one consonant or vowel phoneme) using words from a lexicon based on the SUBTLEX-US English corpus, distinguishing networks by size and word representation (i.e., lemma vs. word form). The resulting networks are shown to exhibit many familiar characteristics, including small-world properties, broad degree distributions, and robustness to node removal, regardless of network size and word representation. We also validated the SUBTLEX phonological networks by showing that they exhibit contrasts in degree and clustering coefficient comparable to the same contrasts found in prior studies and exhibit familiar trends after extraction of a backbone network of nodes important to network centrality. The data release ( https://github.com/aldo-git-bit/phonological-similarity-networks-SUBTLEX ) includes 17 adjacency lists that can be further explored using the networkX package in Python, a package of files for building new adjacency lists from scratch, and several scripts that allow users to analyze and extend these results.",
-          "url": "https://doi.org/10.3758/s13428-025-02610-9",
-          "doi": "https://doi.org/10.3758/s13428-025-02610-9",
-          "filter": 0
-        },
-        {
           "title": "Distribution-free Bayesian analyses with the DFBA statistical package",
           "authors": "Richard A. Chechile, Daniel H. Barch",
           "abstract": "Nonparametric (or distribution-free) statistics have been widely used in psychological research because behavioral data can be messy and inconsistent with the Gaussian model for measurement error. Distribution-free procedures only use categorical or rank information, so they avoid the problems of outliers and violations of distributional assumptions. Yet frequentist nonparametric procedures are still subject to the limitation of relative frequency theory, which stems from the founding assumption that population parameters cannot be represented by probability distributions. Bayesian statistical methods, by contrast, allow for prior and posterior probability distributions for population parameters, so they rigorously provide experimental scientists with a probability representation of the population parameters of interest. The Bayesian counterpart for a set of distribution-free statistical methods is a relatively recent development. This paper is a detailed discussion of the DFBA package of R functions, which is designed for doing distribution-free Bayesian analyses for the common nonparametric procedures. Included in the package are functions that enable the user to explore the relative power for computer-based data that can be sampled from nine different probability models. The distribution-free procedures have almost the same power as the t  test when the data are normally distributed, but for eight other alternative probability models, the distribution-free Bayesian procedures have greater power than the frequentist t .",
           "url": "https://doi.org/10.3758/s13428-025-02605-6",
           "doi": "https://doi.org/10.3758/s13428-025-02605-6",
+          "filter": 0
+        },
+        {
+          "title": "Open-access network science: Investigating phonological similarity networks based on the SUBTLEX-US lexicon",
+          "authors": "John Alderete, Sarbjot Mann, Paul Tupper",
+          "abstract": "Network science tools are becoming increasingly important to psycholinguistics, but few open-access data sets exist for exploring network properties of even well-studied languages like English. We constructed several phonological similarity networks (neighbors differ in exactly one consonant or vowel phoneme) using words from a lexicon based on the SUBTLEX-US English corpus, distinguishing networks by size and word representation (i.e., lemma vs. word form). The resulting networks are shown to exhibit many familiar characteristics, including small-world properties, broad degree distributions, and robustness to node removal, regardless of network size and word representation. We also validated the SUBTLEX phonological networks by showing that they exhibit contrasts in degree and clustering coefficient comparable to the same contrasts found in prior studies and exhibit familiar trends after extraction of a backbone network of nodes important to network centrality. The data release ( https://github.com/aldo-git-bit/phonological-similarity-networks-SUBTLEX ) includes 17 adjacency lists that can be further explored using the networkX package in Python, a package of files for building new adjacency lists from scratch, and several scripts that allow users to analyze and extend these results.",
+          "url": "https://doi.org/10.3758/s13428-025-02610-9",
+          "doi": "https://doi.org/10.3758/s13428-025-02610-9",
           "filter": 0
         },
         {
@@ -98,10 +75,10 @@
           "filter": 0
         },
         {
-          "title": "Enhancing the Emotional Aspects of Language Education through Generative Artificial Intelligence (GenAI): A Qualitative Investigation",
-          "authors": "Lucas Kohnke, Benjamin Luke Moorhouse",
-          "url": "https://doi.org/10.1016/j.chb.2025.108600",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108600",
+          "title": "Effects of smartphone restriction on cue-related neural activity",
+          "authors": "Mike M. Schmitgen, Gudrun M. Henemann, Julian Koenig, Marie-Luise Otte, Jakob P. Rosero, Patrick Bach, Sophie H. Haage, Nadine D. Wolf, Robert C. Wolf",
+          "url": "https://doi.org/10.1016/j.chb.2025.108610",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108610",
           "filter": 0
         },
         {
@@ -112,10 +89,10 @@
           "filter": 0
         },
         {
-          "title": "An Optimal Approach for Predicting Cognitive Performance in Education Based on Deep Learning",
-          "authors": "Deming Li, Nie Tang, Meredith Chandler, Emilio Nanni",
-          "url": "https://doi.org/10.1016/j.chb.2025.108607",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108607",
+          "title": "Enhancing the Emotional Aspects of Language Education through Generative Artificial Intelligence (GenAI): A Qualitative Investigation",
+          "authors": "Lucas Kohnke, Benjamin Luke Moorhouse",
+          "url": "https://doi.org/10.1016/j.chb.2025.108600",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108600",
           "filter": 0
         },
         {
@@ -131,6 +108,13 @@
           "url": "https://doi.org/10.1016/j.chb.2025.108608",
           "doi": "https://doi.org/10.1016/j.chb.2025.108608",
           "filter": 0
+        },
+        {
+          "title": "Examining the Spectrum of Problematic Online Behaviors in Chinese Adolescents: A Network Analysis of Smartphone, Gaming, and Social Media Use",
+          "authors": "Shuangli Zhang, Sheng Tao, Yan-Li Zhang, Jun Zhou, Jie Wei, Min Chen, Qiang Hu, Hui Zheng, Zi-Liang Wang",
+          "url": "https://doi.org/10.1016/j.chb.2025.108611",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108611",
+          "filter": 0
         }
       ],
       "articles_hidden": []
@@ -139,14 +123,6 @@
       "journal_full": "Group Processes & Intergroup Relations",
       "journal_short": "GPIR",
       "articles": [
-        {
-          "title": "A personal but shared burden: Developing a multiple-group internalized stigma scale (MGISS)",
-          "authors": "Diego Castro, Pranjal Mehta, David M. Frost",
-          "abstract": "Individuals from different marginalized groups can internalize negative social beliefs about themselves and their groups. However, a scale that allows for direct comparisons of internalized stigma across multiple groups has not yet been developed. This paper presents the development and validation of the Multiple-Group Internalized Stigma Scale (MGISS). Participants were recruited from four stigmatized groups representing the possible combinations of the stigma characteristics of mutability and concealability (i.e., Black or Indigenous, lesbian, gay or bisexual, higher body-weight, and working-class people). Study 1 developed the scale across the four groups and in English- and Spanish-speaking countries (i.e., the UK and Chile, N = 238). Study 2 replicated the results with a larger sample of emerging adults in Chile ( N = 729). The MGISS demonstrated good levels of reliability and validity, with two factors: self-focused and group-focused. Levels of internalized stigma were higher among groups with mutable characteristics and were associated with higher levels of felt stigma and psychological distress. The MGISS provides a valuable tool for research on prejudice and stigma, particularly in studies involving multiple marginalized groups.",
-          "url": "https://doi.org/10.1177/13684302241312674",
-          "doi": "https://doi.org/10.1177/13684302241312674",
-          "filter": 0
-        },
         {
           "title": "Local color: Perceived racial demographics of more and less rural locations",
           "authors": "Michael J. Sargent, Mara Casey Tieken",
@@ -184,6 +160,13 @@
       "journal_short": "JPSP",
       "articles": [
         {
+          "title": "Stress reactivity and sociocultural learning: More stress-reactive individuals are quicker at learning sociocultural norms from experiential feedback.",
+          "authors": "Shilpa Madan, Krishna Savani, Pranjal H. Mehta, Desiree Y. Phua, Ying-Yi Hong, Michael W. Morris",
+          "url": "https://doi.org/10.1037/pspi0000487",
+          "doi": "https://doi.org/10.1037/pspi0000487",
+          "filter": 0
+        },
+        {
           "title": "U.S. citizens’ judgments of moral transgressions against fellow citizens, refugees, and undocumented immigrants.",
           "authors": "Laura K. Soter, Victoria Ramirez, Walter Sinnott-Armstrong",
           "url": "https://doi.org/10.1037/pspi0000490",
@@ -195,6 +178,13 @@
           "authors": "Vincent Y. S. Oh",
           "url": "https://doi.org/10.1037/pspp0000552",
           "doi": "https://doi.org/10.1037/pspp0000552",
+          "filter": 0
+        },
+        {
+          "title": "Narcissists’ experience of ostracism.",
+          "authors": "Christiane M. Büttner, Selma C. Rudert, Elianne A. Albath, Chris G. Sibley, Rainer Greifeneder",
+          "url": "https://doi.org/10.1037/pspp0000547",
+          "doi": "https://doi.org/10.1037/pspp0000547",
           "filter": 0
         }
       ],
@@ -240,17 +230,17 @@
       "journal_short": "PM",
       "articles": [
         {
-          "title": "Relative importance analysis in multiple mediator models.",
-          "authors": "Xun Zhu, Xin Gu",
-          "url": "https://doi.org/10.1037/met0000725",
-          "doi": "https://doi.org/10.1037/met0000725",
+          "title": "Evaluating statistical fit of confirmatory bifactor models: Updated recommendations and a review of current practice.",
+          "authors": "Sijia Li, Victoria Savalei",
+          "url": "https://doi.org/10.1037/met0000730",
+          "doi": "https://doi.org/10.1037/met0000730",
           "filter": 0
         },
         {
-          "title": "How many factors to retain in exploratory factor analysis? A critical overview of factor retention methods.",
-          "authors": "David Goretzko",
-          "url": "https://doi.org/10.1037/met0000733",
-          "doi": "https://doi.org/10.1037/met0000733",
+          "title": "Is a less wrong model always more useful? Methodological considerations for using ant colony optimization in measure development.",
+          "authors": "Yixiao Dong, Denis Dumas",
+          "url": "https://doi.org/10.1037/met0000734",
+          "doi": "https://doi.org/10.1037/met0000734",
           "filter": 0
         },
         {
@@ -265,27 +255,6 @@
           "authors": "Matteo Orsoni, Mariagrazia Benassi, Marco Scutari",
           "url": "https://doi.org/10.1037/met0000713",
           "doi": "https://doi.org/10.1037/met0000713",
-          "filter": 0
-        },
-        {
-          "title": "Efficient design of cluster randomized trials and individually randomized group treatment trials.",
-          "authors": "Math J. J. M. Candel, Gerard J. P. van Breukelen",
-          "url": "https://doi.org/10.1037/met0000727",
-          "doi": "https://doi.org/10.1037/met0000727",
-          "filter": 0
-        },
-        {
-          "title": "Fit indices are insensitive to multiple minor violations of perfect simple structure in confirmatory factor analysis.",
-          "authors": "Victoria Savalei, Muhua Huang",
-          "url": "https://doi.org/10.1037/met0000718",
-          "doi": "https://doi.org/10.1037/met0000718",
-          "filter": 0
-        },
-        {
-          "title": "Bayesian inference for evidence accumulation models with regressors.",
-          "authors": "Viet Hung Dao, David Gunawan, Robert Kohn, Minh-Ngoc Tran, Guy E. Hawkins, Scott D. Brown",
-          "url": "https://doi.org/10.1037/met0000669",
-          "doi": "https://doi.org/10.1037/met0000669",
           "filter": 0
         },
         {
@@ -318,19 +287,25 @@
       "journal_short": "PsychMusic",
       "articles": [
         {
-          "title": "Impact of cross-modal priming using emotional music on facial emotion recognition among autistic children",
-          "authors": "Fengrui Xu, Xiaoyue Ding, Gong-Liang Zhang, Dianzhi Liu, Jingyi Liu, Deming Shu",
-          "abstract": "To examine the impact of music as a cross-modal prime on facial emotion recognition ability in autistic children, this study compares the priming effect of music with that of faces as an intramodal prime and nonverbal sounds as the same cross-modal prime. The response time and accuracy of facial emotion recognition (happy and sad) were compared among 21 neurotypical children and 17 autistic children under various priming stimuli. A data analysis revealed that autistic children exhibited worse recognition of facial emotional expressions and demonstrated longer reaction time than neurotypical children. Unlike the other two stimuli (facial expressions and nonverbal sounds), music as a cross-modal prime resulted in slightly higher response accuracy for emotionally congruent conditions compared with emotionally incongruent conditions among autistic children. Furthermore, reaction time was significantly prolonged under emotionally congruent conditions than under emotionally incongruent conditions. This suggests that autistic children demonstrate a greater propensity to allocate additional time to improve the accuracy of their judgments under congruent conditions compared with incongruent conditions. Therefore, music intervention has significant potential for supporting autistic children to empathize with faces by playing emotionally congruent music and improving their facial emotion recognition abilities.",
-          "url": "https://doi.org/10.1177/03057356251315661",
-          "doi": "https://doi.org/10.1177/03057356251315661",
-          "filter": 0
-        },
-        {
           "title": "Examining the relationships among self-efficacy, intrinsic motivation, and self-worth of adolescent singers in structural equation modeling",
           "authors": "Kexin Xu",
           "abstract": "The purpose of this study was to understand the relationships among self-efficacy, intrinsic motivation, and self-worth of adolescent singers, and how each construct functions in high school choir. The second purpose was to understand the degree to which these constructs predicted singing participation after high school graduation. Participants consisted of 215 high school students enrolled in choir from five public high schools in the United States. The majority of participants reported their self-identified gender as female (61.9%, n = 133), with 27.0% reporting as male ( n = 58), and 11.2% preferring to indicate other ( n = 24). IBM SPSS Statistics 28 and Lavaan were used for data analysis. Physiological states were the only significant predictor of singing self-efficacy, p &lt; .05. A significant and positive relationship was found between self-efficacy and intrinsic motivation for singing. Structural equation modeling was used to examine the effect of self-worth on the relationship between self-efficacy and intrinsic motivation, revealing a significant and negative interaction effect in the model, p &lt; .001. Furthermore, the moderation model was a significantly better fit than the direct effect model, p &lt; .001. Participants’ plans to continue participating in singing were positively related to intrinsic motivation and mastery experiences.",
           "url": "https://doi.org/10.1177/03057356251315690",
           "doi": "https://doi.org/10.1177/03057356251315690",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Psychology of Popular Media",
+      "journal_short": "PPM",
+      "articles": [
+        {
+          "title": "Dysregulated gaming and emotion regulation flexibility.",
+          "authors": "Devin Bonk, Katherine A. Tamminen",
+          "url": "https://doi.org/10.1037/ppm0000591",
+          "doi": "https://doi.org/10.1037/ppm0000591",
           "filter": 0
         }
       ],
