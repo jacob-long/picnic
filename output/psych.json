@@ -1,6 +1,29 @@
 {
-  "update": "2025-02-21",
+  "update": "2025-02-22",
   "content": [
+    {
+      "journal_full": "Advances in Methods and Practices in Psychological Science",
+      "journal_short": "AMPPS",
+      "articles": [
+        {
+          "title": "A Guide to Causal Inference in Life-Event Studies",
+          "authors": "Mario Lawes, Stephen G. West, Michael Eid",
+          "abstract": "There is considerable interest in studying the impact of major life events (e.g., marriage, job loss) on people’s lives. This line of research is inherently causal: Its goal is to study whether life events cause changes in the examined outcomes. However, because major life events cannot be randomly assigned, studies in this area necessarily rely on longitudinal observational data. In this article, we provide guidelines for researchers interested in studying life events in an explicitly causal framework. Although focused on life-event studies for substantive context, many recommendations also apply to longitudinal observational studies more broadly. We begin by emphasizing the importance of clearly specifying the causal estimand and describe conditions in which the defined causal estimand can be identified. Then, we discuss the features and challenges of the two main analytical approaches to causal inference in life-event studies: difference-in-difference designs with a (matched) comparison group that attempt to separate event-related changes from normative changes and within-person designs that control for all time-invariant person-level confounders. We describe how the desired causal effect can be estimated in these designs and provide recommendations for when to apply each modeling strategy. In addition, we present methods for conducting sensitivity analysis, probing the robustness of the estimated causal effects, and evaluating the generalizability of the results. We conclude by describing how new specialized panel studies can be designed to examine the impact of various life events in more controlled settings.",
+          "url": "https://doi.org/10.1177/25152459241302015",
+          "doi": "https://doi.org/10.1177/25152459241302015",
+          "filter": 0
+        },
+        {
+          "title": "VALID: A Checklist-Based Approach for Improving Validity in Psychological Research",
+          "authors": "Susanne Kerschbaumer, Martin Voracek, Balazs Aczél, Samantha F. Anderson, Brandon M. Booth, Erin M. Buchanan, Rickard Carlsson, Daniel W. Heck, Anu Pauliina Hiekkaranta, Rink Hoekstra, Julian D. Karch, Ginette Lafit, Zhicheng Lin, Siwei Liu, David P. MacKinnon, Emma L. McGorray, David Moreau, Marietta Papadatou-Pastou, Helena Paterson, Robert A. Perera, Daniel J. Schad, David K. Sewell, Moin Syed, Louis Tay, Jorge N. Tendeiro, Michael D. Toland, Wolf Vanpaemel, Don van Ravenzwaaij, Lieke Voncken, Ulrich S. Tran",
+          "abstract": "In response to the replication and confidence crisis across various empirical disciplines, ensuring the validity of research has gained attention. High validity is crucial for obtaining replicable and robust study outcomes when both exploring new questions and replicating previous findings. In this study, we aimed to address this issue by developing a comprehensive checklist to assist researchers in enhancing and monitoring the validity of their research. After systematically analyzing previous findings on validity, a comprehensive list of potential checklist items was compiled. Over the course of three rounds, more than 30 interdisciplinary and psychological-science experts participated in a Delphi study. Experts rated items on their importance and were given the opportunity to propose novel items as well as improve existing ones. This process resulted in a final set of 91 items, organized according to common stages of a research project. The VALID checklist is accessible online ( https://www.validchecklist.com/ ) and provides researchers with an adaptable, versatile tool to monitor and improve the validity of their research and to suit their specific needs. By focusing on adaptiveness during its development, VALID encompasses 331 unique checklist versions, making it a one-stop solution suitable for a wide range of projects, designs, and requirements.",
+          "url": "https://doi.org/10.1177/25152459241306432",
+          "doi": "https://doi.org/10.1177/25152459241306432",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
@@ -38,11 +61,10 @@
           "filter": 0
         },
         {
-          "title": "Development and evaluation of Dona, a privacy-preserving donation platform for messaging data from WhatsApp, Facebook, and Instagram",
-          "authors": "Olya Hakobyan, Paul-Julius Hillmann, Florian Martin, Erwin Böttinger, Hanna Drimalla",
-          "abstract": "Social interactions are a fundamental aspect of human life, yet, their objective and naturalistic measurement remains challenging for scientific research. This challenge can be addressed using digital communication data. To this end, we have developed Dona, an open-source platform for donating messaging data from WhatsApp, Facebook, and Instagram. Given the highly sensitive nature of messaging data, we ensure participant privacy through rigorous data minimization. Dona removes all sensitive information on the user side prior to donation, retaining only de-identified meta-data such as message length and timestamps. This paper presents an overview of the platform, a deployment guide, and example use cases. In addition, we evaluate the informativeness of minimized messaging data for studying social interactions with two approaches. First, we conducted a user study in which 85 participants donated their data, received visualizations of their messaging behavior and evaluated the informativeness of this visual feedback. Second, we performed a quantitative analysis using over 1500 donated chats to confirm whether minimized messaging data captures known aspects of human interactions, such as interaction balance, heterogeneity, and burstiness. The results demonstrate that minimized, de-identified messaging data reflects informative interaction features as assessed by both self-reports and objective metrics. In conclusion, Dona is a donation platform well suited for sensitive contexts in which researchers aim to balance participant privacy with the acquisition of objective and informative data on social interactions.",
-          "url": "https://doi.org/10.3758/s13428-024-02593-z",
-          "doi": "https://doi.org/10.3758/s13428-024-02593-z",
+          "title": "Testing for group differences in multilevel vector autoregressive models",
+          "authors": "Jonas M. B. Haslbeck, Sacha Epskamp, Lourens J. Waldorp",
+          "url": "https://doi.org/10.3758/s13428-024-02541-x",
+          "doi": "https://doi.org/10.3758/s13428-024-02541-x",
           "filter": 0
         },
         {
@@ -61,17 +83,10 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "Student perspectives on banning mobile phones in South Australian secondary schools: A large-scale qualitative analysis",
-          "authors": "Eran Bar, Marcela Radunz, Christina R. Galanis, Blake Quinney, Tracey D. Wade, Daniel L. King",
-          "url": "https://doi.org/10.1016/j.chb.2025.108603",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108603",
-          "filter": 0
-        },
-        {
-          "title": "Avatar-mediated communication in collaborative virtual environments: A study on users’ attention allocation and perception of social interactions",
-          "authors": "Chen Li, Yixin Dai, Guang Chen, Jing Liu, Ping Li, Horace Ho-shing Ip",
-          "url": "https://doi.org/10.1016/j.chb.2025.108598",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108598",
+          "title": "Cognitive effort in virtual worlds in the metaverse versus instant messaging: Disruptive impacts on team performance and strategies for recovery",
+          "authors": "Surinder Kahai",
+          "url": "https://doi.org/10.1016/j.chb.2025.108620",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108620",
           "filter": 0
         },
         {
@@ -89,20 +104,6 @@
           "filter": 0
         },
         {
-          "title": "Enhancing the Emotional Aspects of Language Education through Generative Artificial Intelligence (GenAI): A Qualitative Investigation",
-          "authors": "Lucas Kohnke, Benjamin Luke Moorhouse",
-          "url": "https://doi.org/10.1016/j.chb.2025.108600",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108600",
-          "filter": 0
-        },
-        {
-          "title": "Balancing consistency and performance in edge-cloud transaction management",
-          "authors": "Ahmad Al-Qerem, Ali Mohd Ali, Ahmad Nabot, Issam Jebreen, Mohammad Alauthman, Someah Alangari, Ammar Almomani, Vinay Chamola, Amjad Aldweesh",
-          "url": "https://doi.org/10.1016/j.chb.2025.108601",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108601",
-          "filter": 0
-        },
-        {
           "title": "Longitudinal relationship between gaming disorder symptoms, hyperactivity/inattention symptoms and aggression among Chinese adolescents: Within-person and between-person effects",
           "authors": "Shuai Chen, Jinqian Liao, Xu Wang, Jiayi Li, Yanling Liu, Wei Zhang",
           "url": "https://doi.org/10.1016/j.chb.2025.108608",
@@ -114,6 +115,13 @@
           "authors": "Shuangli Zhang, Sheng Tao, Yan-Li Zhang, Jun Zhou, Jie Wei, Min Chen, Qiang Hu, Hui Zheng, Zi-Liang Wang",
           "url": "https://doi.org/10.1016/j.chb.2025.108611",
           "doi": "https://doi.org/10.1016/j.chb.2025.108611",
+          "filter": 0
+        },
+        {
+          "title": "Technostress among teachers: A systematic literature review and future research agenda",
+          "authors": "Dong Yang, Jialin Liu, Huanhuan Wang, Peng Chen, Chaoyi Wang, Ahmed Hosny Saleh Metwally",
+          "url": "https://doi.org/10.1016/j.chb.2025.108619",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108619",
           "filter": 0
         }
       ],
@@ -200,12 +208,28 @@
           "url": "https://doi.org/10.1080/00273171.2025.2462033",
           "doi": "https://doi.org/10.1080/00273171.2025.2462033",
           "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Personality and Social Psychology Bulletin",
+      "journal_short": "PSPB",
+      "articles": [
+        {
+          "title": "Retrospective Perceptions of Life Satisfaction Change: Evaluation Strategies and Correspondence With Measured Change",
+          "authors": "Annika Z. Wei, Brett Q. Ford, Emily C. Willroth",
+          "abstract": "Life satisfaction has been shown to change over time, but we know little about how people perceive those changes. In preregistered analyses, the current research investigated the degree of correspondence between people’s retrospective perceptions of life satisfaction change and their measured life satisfaction change (Sample A analytic N = 359; Sample B analytic N = 336). On average, retrospective perceptions of change were moderately correlated with measured change ( r = .20–.25). When evaluating their life satisfaction change, participants reported that they focused more on the present compared to the past, considered their life circumstances more than their feelings, and engaged in careful consideration more than relying on gut instinct. Findings suggest people have some insight into changes in their life satisfaction. Consistent with the individual differences in evaluating life satisfaction (IDELS) model, people engaged in a variety of evaluation strategies and differed from one another in the degree to which they used each strategy.",
+          "url": "https://doi.org/10.1177/01461672251319060",
+          "doi": "https://doi.org/10.1177/01461672251319060",
+          "filter": 0
         },
         {
-          "title": "A Tutorial on the Use of Artificial Intelligence Tools for Facial Emotion Recognition in R",
-          "authors": "Austin Wyman, Zhiyong Zhang",
-          "url": "https://doi.org/10.1080/00273171.2025.2455497",
-          "doi": "https://doi.org/10.1080/00273171.2025.2455497",
+          "title": "Willingness for Cross-Class Contact of Different Social Classes and the Mediating Role of Negative Contact Expectations",
+          "authors": "Feng Wu, Yuanji Zhang, Yufang Zhao, Chao Zhang, Xingyang Ma",
+          "abstract": "The probability of cross-class contact between individuals from different social classes is significantly lower than that of random chance contact. However, it remains unclear whether individuals from lower or higher social classes are more reluctant to engage in cross-class contact. This study found that individuals with a lower subjective social class (SSC) were less willing to engage in cross-class contact than those with a higher SSC (Studies 1–2). This disparity in willingness persists even after controlling for expression bias and can be explained by negative contact expectations (Study 3). By manipulating negative contact expectations, a substantial increase in willingness to engage in such interactions can be achieved (Study 4). By focusing on the relationship between SSC and willingness for cross-class contact, this study has profound implications for enhancing intergroup interactions and assisting individuals with a low SSC in overcoming social challenges.",
+          "url": "https://doi.org/10.1177/01461672251316690",
+          "doi": "https://doi.org/10.1177/01461672251316690",
           "filter": 0
         }
       ],
