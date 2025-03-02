@@ -1,10 +1,18 @@
 {
-  "update": "2025-03-01",
+  "update": "2025-03-02",
   "content": [
     {
       "journal_full": "Journal of Official Statistics",
       "journal_short": "JOS",
       "articles": [
+        {
+          "title": "Averaging Non-Probability Online Surveys to Avoid Maximal Estimation Error",
+          "authors": "Alexander Murray-Watters, Stefan Zins, Joseph W. Sakshaug, Carina Cornesse",
+          "abstract": "Data from online non-probability samples are often analyzed as if they were based on a simple random sample drawn from the general population. As the exact sampling frame for these non-probability samples are usually unknown, there is no general method to construct unbiased estimators. This raises the question of whether estimates based on online non-probability samples are consistent across sample vendors and concerning estimates based on probability samples. To address this question, we analyze data collected from eight different online non-probability sample vendors and one online probability-based sample. We find that estimates from the different non-probability samples can be very inconsistent. We suggest averaging estimates across multiple vendor samples to avoid the risk of a maximum estimation error. We evaluate several averaging approaches, including a LASSO regression procedure which identifies a subset of vendors that, when averaged, produce estimates that are more consistent with the reference probability-based estimates, compared to any single vendor. Our results show that estimates based on different vendors’ samples display different selection biases, but there is also some commonality among some vendor-specific estimates, thus there could be strong gains in estimation precision by averaging across a selection of multiple non-probability sample vendors.",
+          "url": "https://doi.org/10.1177/0282423x241312775",
+          "doi": "https://doi.org/10.1177/0282423x241312775",
+          "filter": 0
+        },
         {
           "title": "Comparison of Approaches for Variance Estimation with Application to a Survey on Discrimination",
           "authors": "María Guadarrama Sanz, Jean-Yves Bienvenue, Guillaume Chauvet",
@@ -28,17 +36,17 @@
           "filter": 0
         },
         {
-          "title": "The politics of oppression and power: applying the work of Dr. Mae Coates King to the criminal legal system",
-          "authors": "Keesha M. Middlemass",
-          "url": "https://doi.org/10.1080/21565503.2025.2466569",
-          "doi": "https://doi.org/10.1080/21565503.2025.2466569",
-          "filter": 0
-        },
-        {
           "title": "Disability and candidate recruitment in congressional elections",
           "authors": "Jacob Smith",
           "url": "https://doi.org/10.1080/21565503.2025.2469231",
           "doi": "https://doi.org/10.1080/21565503.2025.2469231",
+          "filter": 0
+        },
+        {
+          "title": "The politics of oppression and power: applying the work of Dr. Mae Coates King to the criminal legal system",
+          "authors": "Keesha M. Middlemass",
+          "url": "https://doi.org/10.1080/21565503.2025.2466569",
+          "doi": "https://doi.org/10.1080/21565503.2025.2466569",
           "filter": 0
         },
         {
@@ -60,6 +68,13 @@
           "authors": "Hanna Kim",
           "url": "https://doi.org/10.1080/21565503.2025.2469239",
           "doi": "https://doi.org/10.1080/21565503.2025.2469239",
+          "filter": 0
+        },
+        {
+          "title": "Black agency and Black political attitudes: examining major questions with contemporary data",
+          "authors": "Christine Slaughter",
+          "url": "https://doi.org/10.1080/21565503.2025.2466548",
+          "doi": "https://doi.org/10.1080/21565503.2025.2466548",
           "filter": 0
         },
         {
