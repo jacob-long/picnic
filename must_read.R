@@ -59,11 +59,11 @@ Measurement issues in communication and political science
 
 Also consider articles that present novel theoretical frameworks, introduce innovative research designs, or apply established theories to new contexts. Look for work that bridges multiple disciplines or applies insights from one field to another. Importantly, flag articles that challenge existing paradigms or present counterintuitive findings, as these might spark new research ideas.\n"
 
-sys_prompt2 <- "Now, I present new articles for you to choose from based on these instructions. Provide only 25 DOI numbers in response, formatted as follows: 'doi1,doi2,...,doi25'.\n"
+sys_prompt2 <- "Now, I present new articles for you to choose from based on these instructions. Provide only 25 DOI numbers in response, formatted as follows: 'doi1,doi2,...,doi25'. Do not include anything else in your response besides the DOIs.\n"
 
 source("credentials.R")
 
-api_url <- "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent"
+api_url <- "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-thinking-exp-01-21:generateContent"
 gemini_request <- function(prompt, max_retries = 3) {
   body <- list(
     contents = list(
