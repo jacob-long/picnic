@@ -1,16 +1,16 @@
 {
-  "update": "2025-03-04",
+  "update": "2025-03-05",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
       "journal_short": "AMPPS",
       "articles": [
         {
-          "title": "Sample-Size Planning in Item-Response Theory: A Tutorial",
-          "authors": "Ulrich Schroeders, Timo Gnambs",
-          "abstract": "Although item-response-theory (IRT) models offer well-established psychometric advantages over traditional scoring methods, they remain underused in practice. Following a brief introduction to the IRT framework, we emphasize its major advantages and explore potential applications in various research areas. The main part of this tutorial provides a comprehensive, step-by-step guide to Monte Carlo simulation-based sample-size estimation in IRT, which is essential for obtaining precise estimates of item and person parameters, structural effects, and model fit. Accurate a priori sample-size estimation is also crucial for effective study planning, especially in preregistration and registered reports. We highlight 10 key decisions, organized into four areas: (a) determining the data-generation model, (b) defining the test design and the process of missing values, (c) selecting the IRT model and parameters of interest, and (d) setting up and running the Monte Carlo simulation. The procedure is illustrated with examples from educational, personality, and clinical psychology. An extensively annotated and easily customizable syntax is available in an online repository.",
-          "url": "https://doi.org/10.1177/25152459251314798",
-          "doi": "https://doi.org/10.1177/25152459251314798",
+          "title": "The Social-Relations Model for Asymmetric-Block-Design Data: A Tutorial With R",
+          "authors": "Avraham N. Kluger, Robert A. Ackerman, David A. Kenny, Thomas E. Malloy, Paul W. Eastwick",
+          "abstract": "We provide a guide to estimating social-relations-model (SRM) parameters for data collected with the asymmetric block design using R. SRM estimates reflect how people differ in the social behaviors they emit and elicit from others and the extent to which they behave differently with each unique partner. Such analyses have proven useful in studies of the power of leaders, negotiation effectiveness, and personality perception, to name a few. The SRM parameters can be estimated for data collected with various designs; the most common design is the round-robin. A less used design in SRM studies is the asymmetric block design, which involves measurements taken from dyadic interactions of individuals from two different social categories (e.g., speed-dating studies in which different-gendered participants interact). In this guide, we show how to estimate SRM parameters for asymmetric block design by specifying mixed-effect models with two R packages: glmmTMB and brms. Specifically, we show how to calculate SRM estimates for (a) one continuous outcome, (b) multiple measures of a continuous outcome, (c) bivariate correlations for two continuous outcomes, (d) one dichotomous outcome, (e) bivariate and multivariate associations between continuous SRM variables and one dichotomous outcome (in supplementary work-around), and (f) data from mother and child interactions rather than the more common speed-dating data. In all analyses, we illustrate how to model both fixed and random effects to allow testing additional fixed effects, such as group characteristics and the order of interaction between participants.",
+          "url": "https://doi.org/10.1177/25152459241279522",
+          "doi": "https://doi.org/10.1177/25152459241279522",
           "filter": 0
         }
       ],
@@ -36,17 +36,17 @@
           "filter": 0
         },
         {
-          "title": "SUBTLEX-AR: Arabic word distributional characteristics based on movie subtitles",
-          "authors": "Sami Boudelaa, Manuel Carreiras, Nazrin Jariya, Manuel Perea",
-          "url": "https://doi.org/10.3758/s13428-024-02560-8",
-          "doi": "https://doi.org/10.3758/s13428-024-02560-8",
-          "filter": 0
-        },
-        {
           "title": "Structural after measurement (SAM) approaches for accommodating latent quadratic and interaction effects",
           "authors": "Yves Rosseel, Elissa Burghgraeve, Wen Wei Loh, Karin Schermelleh-Engel",
           "url": "https://doi.org/10.3758/s13428-024-02532-y",
           "doi": "https://doi.org/10.3758/s13428-024-02532-y",
+          "filter": 0
+        },
+        {
+          "title": "SUBTLEX-AR: Arabic word distributional characteristics based on movie subtitles",
+          "authors": "Sami Boudelaa, Manuel Carreiras, Nazrin Jariya, Manuel Perea",
+          "url": "https://doi.org/10.3758/s13428-024-02560-8",
+          "doi": "https://doi.org/10.3758/s13428-024-02560-8",
           "filter": 0
         },
         {
@@ -80,14 +80,14 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "An Assistant or A Friend? The role of parasocial relationship of Human-Computer interaction",
+          "title": "An assistant or A friend? The role of parasocial relationship of human-computer interaction",
           "authors": "Tiejun Qi, Hongshen Liu, Zhihui Huang",
           "url": "https://doi.org/10.1016/j.chb.2025.108625",
           "doi": "https://doi.org/10.1016/j.chb.2025.108625",
           "filter": 0
         },
         {
-          "title": "Cyberhate Among Ukrainian Adolescents in War-Torn Ukraine: A Study of Exposure, Victimization, and Perpetration",
+          "title": "Cyberhate among Ukrainian adolescents in war-torn Ukraine: A study of exposure, victimization, and perpetration",
           "authors": "Julia Levin, Nadine Cruz Neri, Jan Retelsdorf",
           "url": "https://doi.org/10.1016/j.chb.2025.108626",
           "doi": "https://doi.org/10.1016/j.chb.2025.108626",
@@ -98,13 +98,6 @@
           "authors": "Lina Christin Brockmeier, Jan Keller, Tilman Dingler, Natalia Paduszynska, Aleksandra Luszczynska, Theda Radtke",
           "url": "https://doi.org/10.1016/j.chb.2025.108624",
           "doi": "https://doi.org/10.1016/j.chb.2025.108624",
-          "filter": 0
-        },
-        {
-          "title": "Communicating Through #Hashtags: Influencing Perceptions of Personality and Trust",
-          "authors": "Pallavi Khurana, Archana Krishnan",
-          "url": "https://doi.org/10.1016/j.chb.2025.108623",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108623",
           "filter": 0
         },
         {
@@ -157,17 +150,17 @@
           "filter": 0
         },
         {
-          "title": "Doctoral capstone theories as indicators of university rankings: Insights from a machine learning approach",
-          "authors": "Ionut Dorin Stanciu, Nicolae Nistor",
-          "url": "https://doi.org/10.1016/j.chb.2024.108504",
-          "doi": "https://doi.org/10.1016/j.chb.2024.108504",
-          "filter": 0
-        },
-        {
           "title": "Who needs What Support? Exploring the relationship between intergenerational support and digital media use among Chinese older adults: A latent profile analysis",
           "authors": "Shoukui Cui, Yinqiu Zhao, Ruifeng Qie",
           "url": "https://doi.org/10.1016/j.chb.2024.108506",
           "doi": "https://doi.org/10.1016/j.chb.2024.108506",
+          "filter": 0
+        },
+        {
+          "title": "Doctoral capstone theories as indicators of university rankings: Insights from a machine learning approach",
+          "authors": "Ionut Dorin Stanciu, Nicolae Nistor",
+          "url": "https://doi.org/10.1016/j.chb.2024.108504",
+          "doi": "https://doi.org/10.1016/j.chb.2024.108504",
           "filter": 0
         },
         {
@@ -215,10 +208,10 @@
       "journal_short": "JESP",
       "articles": [
         {
-          "title": "Investigating the morning morality effect and its mediating and moderating factors",
-          "authors": "Janis H. Zickfeld, Ana Sofía Ramirez Gonzalez, Panagiotis Mitkidis",
-          "url": "https://doi.org/10.1016/j.jesp.2024.104698",
-          "doi": "https://doi.org/10.1016/j.jesp.2024.104698",
+          "title": "Closets breed suspicion: Environments that stigmatize concealable identities cast doubt on claims to non-stigmatized identities",
+          "authors": "Harrison Oakes, Richard P. Eibach, Hilary B. Bergsieker",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104736",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104736",
           "filter": 0
         },
         {
@@ -304,6 +297,13 @@
           "url": "https://doi.org/10.1037/pspa0000441",
           "doi": "https://doi.org/10.1037/pspa0000441",
           "filter": 0
+        },
+        {
+          "title": "Because it is fun! Individual differences in effort enjoyment belief relate to behavioral and physiological indicators of effort-seeking.",
+          "authors": "Christopher Mlynski, Georgia Clay, Kata Sik, Julia Jankowski, Veronika Job",
+          "url": "https://doi.org/10.1037/pspa0000443",
+          "doi": "https://doi.org/10.1037/pspa0000443",
+          "filter": 0
         }
       ],
       "articles_hidden": []
@@ -354,6 +354,48 @@
           "url": "https://doi.org/10.1037/met0000740",
           "doi": "https://doi.org/10.1037/met0000740",
           "filter": 0
+        },
+        {
+          "title": "Experiments in daily life: When causal within-person effects do (not) translate into between-person differences.",
+          "authors": "Andreas B. Neubauer, Peter Koval, Michael J. Zyphur, Ellen L. Hamaker",
+          "url": "https://doi.org/10.1037/met0000741",
+          "doi": "https://doi.org/10.1037/met0000741",
+          "filter": 0
+        },
+        {
+          "title": "Network science in psychology.",
+          "authors": "Tracy Sweet, Selena Wang",
+          "url": "https://doi.org/10.1037/met0000745",
+          "doi": "https://doi.org/10.1037/met0000745",
+          "filter": 0
+        },
+        {
+          "title": "Yes stormtrooper, these are the droids you are looking for: Identifying and preliminarily evaluating bot and fraud detection strategies in online psychological research.",
+          "authors": "Thomas J. Shaw, Cory J. Cascalheira, Emily C. Helminen, Cal D. Brisbin, Skyler D. Jackson, Melissa Simone, Tami P. Sullivan, Abigail W. Batchelder, Jillian R. Scheer",
+          "url": "https://doi.org/10.1037/met0000724",
+          "doi": "https://doi.org/10.1037/met0000724",
+          "filter": 0
+        },
+        {
+          "title": "Iterated community detection in psychological networks.",
+          "authors": "M. A. Werner, J. de Ron, E. I. Fried, D. J. Robinaugh",
+          "url": "https://doi.org/10.1037/met0000744",
+          "doi": "https://doi.org/10.1037/met0000744",
+          "filter": 0
+        },
+        {
+          "title": "Impact of temporal order selection on clustering intensive longitudinal data based on vector autoregressive models.",
+          "authors": "Yaqi Li, Hairong Song, Bertus Jeronimus",
+          "url": "https://doi.org/10.1037/met0000747",
+          "doi": "https://doi.org/10.1037/met0000747",
+          "filter": 0
+        },
+        {
+          "title": "Unidim: An index of scale homogeneity and unidimensionality.",
+          "authors": "William Revelle, David Condon",
+          "url": "https://doi.org/10.1037/met0000729",
+          "doi": "https://doi.org/10.1037/met0000729",
+          "filter": 0
         }
       ],
       "articles_hidden": []
@@ -377,6 +419,13 @@
       "journal_full": "Psychology of Popular Media",
       "journal_short": "PPM",
       "articles": [
+        {
+          "title": "Investigating the effect of full and partial social media abstinence on fear of missing out and well-being outcomes: A daily diary experimental approach.",
+          "authors": "Andree Hartanto, K. T. A. Sandeeshwara Kasturiratna, Meenakshi Kothari, Adalia Y. H. Goh, Frosch Y. X. Quek, Nadyanna M. Majeed",
+          "url": "https://doi.org/10.1037/ppm0000583",
+          "doi": "https://doi.org/10.1037/ppm0000583",
+          "filter": 0
+        },
         {
           "title": "Online appearance preoccupation in and beyond adolescence: A longitudinal study of social media use, anxiety, and depression as correlates of growth and stability.",
           "authors": "Melanie J. Zimmer-Gembeck, Veya Seekis, Amanda L. Duffy",
