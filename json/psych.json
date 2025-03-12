@@ -1,25 +1,18 @@
 {
-  "update": "2025-03-10",
+  "update": "2025-03-12",
   "content": [
-    {
-      "journal_full": "Advances in Methods and Practices in Psychological Science",
-      "journal_short": "AMPPS",
-      "articles": [
-        {
-          "title": "The Social-Relations Model for Asymmetric-Block-Design Data: A Tutorial With R",
-          "authors": "Avraham N. Kluger, Robert A. Ackerman, David A. Kenny, Thomas E. Malloy, Paul W. Eastwick",
-          "abstract": "We provide a guide to estimating social-relations-model (SRM) parameters for data collected with the asymmetric block design using R. SRM estimates reflect how people differ in the social behaviors they emit and elicit from others and the extent to which they behave differently with each unique partner. Such analyses have proven useful in studies of the power of leaders, negotiation effectiveness, and personality perception, to name a few. The SRM parameters can be estimated for data collected with various designs; the most common design is the round-robin. A less used design in SRM studies is the asymmetric block design, which involves measurements taken from dyadic interactions of individuals from two different social categories (e.g., speed-dating studies in which different-gendered participants interact). In this guide, we show how to estimate SRM parameters for asymmetric block design by specifying mixed-effect models with two R packages: glmmTMB and brms. Specifically, we show how to calculate SRM estimates for (a) one continuous outcome, (b) multiple measures of a continuous outcome, (c) bivariate correlations for two continuous outcomes, (d) one dichotomous outcome, (e) bivariate and multivariate associations between continuous SRM variables and one dichotomous outcome (in supplementary work-around), and (f) data from mother and child interactions rather than the more common speed-dating data. In all analyses, we illustrate how to model both fixed and random effects to allow testing additional fixed effects, such as group characteristics and the order of interaction between participants.",
-          "url": "https://doi.org/10.1177/25152459241279522",
-          "doi": "https://doi.org/10.1177/25152459241279522",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
       "articles": [
+        {
+          "title": "Exploring the development of face recognition across childhood via logistic mixed-effects modelling of the standardised Cambridge Face Memory Test",
+          "authors": "Louise Ewing, Nadja Althaus, Emily K. Farran, Michael Papasavva, Inês Mares, Marie L. Smith",
+          "abstract": "Individual differences in face identity recognition abilities are present across the lifespan but require developmentally differentiated methods of assessment. Here, we examine the empirical validity of a widely used face identity recognition measure, the Cambridge Face Memory Test for Children (CFMT-C). Logistic mixed-effects modelling of a large data set (607 children, 5–12 years) replicates and extends the findings of the only previous normative study of the CFMT-C (Croydon et al., Neuropsychologia , 62 , 60–67, 2014). This novel, analytical approach enables us to take into account sources of variability typically overlooked in a classical analysis. We consider variability introduced by the task, alongside variability across children, to provide the first comprehensive characterisation of the interactive effects of factors inherent to participants (e.g. age, gender, and ethnicity), and the test (stage: face learning, simple recognition, harder recognition) on face memory performance. In line with past findings, we clearly observed age-related improvement in the task. Additionally, and for the first time, we report that this developmental effect is significantly more pronounced in the later, harder stages of the task; that there is an effect of gender, with females having better performance; and that consideration of participant ethnicity or testing context did not alter the best fitting model of these data. These results highlight the value of applying multilevel statistical models to characterise the factors driving performance variability, providing evidence of the divergence in recognition abilities across genders and confirming the stability of the CFMT-C in assessing face recognition abilities across variable experimental contexts and with diverse participant groups.",
+          "url": "https://doi.org/10.3758/s13428-025-02629-y",
+          "doi": "https://doi.org/10.3758/s13428-025-02629-y",
+          "filter": 0
+        },
         {
           "title": "Polytomous explanatory item response models for item discrimination: Assessing negative-framing effects in social-emotional learning surveys",
           "authors": "Joshua B. Gilbert, Lijin Zhang, Esther Ulitzsch, Benjamin W. Domingue",
@@ -32,6 +25,29 @@
           "authors": "Ejike Edeh, Xinya Liang, Chunhua Cao",
           "url": "https://doi.org/10.3758/s13428-025-02609-2",
           "doi": "https://doi.org/10.3758/s13428-025-02609-2",
+          "filter": 0
+        },
+        {
+          "title": "The role of individual differences and attitude in willingness to participate in TMS studies",
+          "authors": "C. Lolansen, C. J. Howard, S. Mitra, S. P. Badham",
+          "abstract": "Finding neurophysiological research participants can be challenging, especially when the technology used in the research study is less known, such as transcranial magnetic stimulation (TMS). Despite this well-known phenomenon, there is limited literature investigating the factors involved in willingness to participate and perceived barriers from the potential participants’ perspective. This paper explored the relationship between individual differences, attitudes toward TMS, and willingness to participate in TMS research alongside perceived barriers to participation and concerns when considering participating. The findings suggest that participants who had more positive attitudes towards TMS were more willing to participate. Participants frequently reported being concerned about safety, including risks and side effects. For barriers in terms of safety parameters, the number of participants who were eligible based on their TMS safety screening questionnaire was low, particularly for older adults. These findings are discussed in the context of the literature, and practical guidelines are provided for researchers looking to plan TMS recruitment.",
+          "url": "https://doi.org/10.3758/s13428-025-02623-4",
+          "doi": "https://doi.org/10.3758/s13428-025-02623-4",
+          "filter": 0
+        },
+        {
+          "title": "A tutorial on bayesian multiple-group comparisons of latent growth curve models with count distributed variables",
+          "authors": "Jasper Bendler, Jost Reinecke",
+          "abstract": "Moderation effects in longitudinal structural equation models are often analysed using latent variable product terms, which can be complex and difficult to estimate, especially in large models with many panel waves. An alternative approach for categorical moderation variables is the simpler technique of multiple-group comparisons. This method allows for straightforward model specification and precise differentiation of effects in complex models. This tutorial demonstrates multiple-group comparisons using examples based on developmental trajectories of juvenile delinquency. These trajectories are modelled via a latent growth curve approach, treating the variables as count data and applying Bayesian estimation using the software M plus . The results are processed using the R programming language. This method addresses challenges associated with maximum likelihood estimation, particularly for latent growth models with count variables and additional exogenous latent variables. The analysis examines group differences by gender and school type in the trajectories of an unconditional growth model. It also examines the effect of legal norm acceptance on these trajectories using a conditional growth model. The moderating effects of gender and school type on these effects are analysed separately. The results reveal group differences of gender and school type for the unconditional growth model, while the conditional growth model highlights a moderating effect of school type on the relationship between legal norm acceptance and growth trajectories.",
+          "url": "https://doi.org/10.3758/s13428-025-02624-3",
+          "doi": "https://doi.org/10.3758/s13428-025-02624-3",
+          "filter": 0
+        },
+        {
+          "title": "Correction to Tuerlinckx, Maris, Ratcliff, and De Boeck (2001)",
+          "authors": "Francis Tuerlinckx",
+          "url": "https://doi.org/10.3758/s13428-025-02614-5",
+          "doi": "https://doi.org/10.3758/s13428-025-02614-5",
           "filter": 0
         }
       ],
@@ -49,25 +65,10 @@
           "filter": 0
         },
         {
-          "title": "Who is to blame for AV crashes? Public perceptions of blame attribution using text mining based on social media",
-          "authors": "Heyuan Sun, Yutong Chen, Ying Zhang",
-          "url": "https://doi.org/10.1016/j.chb.2025.108627",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108627",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Group Processes & Intergroup Relations",
-      "journal_short": "GPIR",
-      "articles": [
-        {
-          "title": "Intersection of biases: In-group positivity for racially diverse ambiguous facial expressions",
-          "authors": "Jordan E. Pierce, Macey Grisso, Maital Neta",
-          "abstract": "Emotional expressions offer important social cues about the expresser’s intentions and risks or rewards in the environment. The current study investigated how individual differences in interpretation of ambiguous facial expressions (valence bias) are impacted by intergroup racial biases. In an online study of 409 racially diverse US participants, we found that across racial groups, participants judged in-group faces more positively than out-group faces regardless of expression (happy, angry, or surprised). Furthermore, valence bias generalized from a set of all-White faces to a set of racially diverse faces (Asian, Black, Hispanic, and White). Within the latter task, valence judgments differed as a function of stimulus model race, with more negative judgments of Asian and Black surprised faces. Thus, both individual valence bias and intergroup racial bias influenced emotion judgments, suggesting that these biases intersect in shaping social perceptions and decision-making.",
-          "url": "https://doi.org/10.1177/13684302251320362",
-          "doi": "https://doi.org/10.1177/13684302251320362",
+          "title": "Accepting Cookies: Nudging, Deceptive Patterns and Personal Preference",
+          "authors": "Frank Papenmeier, Josephine Halama, Carl Reichert",
+          "url": "https://doi.org/10.1016/j.chb.2025.108641",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108641",
           "filter": 0
         }
       ],
@@ -83,27 +84,6 @@
           "url": "https://doi.org/10.1016/j.jesp.2025.104721",
           "doi": "https://doi.org/10.1016/j.jesp.2025.104721",
           "filter": 0
-        },
-        {
-          "title": "Closets breed suspicion: Environments that stigmatize concealable identities cast doubt on claims to non-stigmatized identities",
-          "authors": "Harrison Oakes, Richard P. Eibach, Hilary B. Bergsieker",
-          "url": "https://doi.org/10.1016/j.jesp.2025.104736",
-          "doi": "https://doi.org/10.1016/j.jesp.2025.104736",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Journal of Personality and Social Psychology",
-      "journal_short": "JPSP",
-      "articles": [
-        {
-          "title": "Because it is fun! Individual differences in effort enjoyment belief relate to behavioral and physiological indicators of effort-seeking.",
-          "authors": "Christopher Mlynski, Georgia Clay, Kata Sik, Julia Jankowski, Veronika Job",
-          "url": "https://doi.org/10.1037/pspa0000443",
-          "doi": "https://doi.org/10.1037/pspa0000443",
-          "filter": 0
         }
       ],
       "articles_hidden": []
@@ -113,34 +93,6 @@
       "journal_short": "PM",
       "articles": [
         {
-          "title": "Experiments in daily life: When causal within-person effects do (not) translate into between-person differences.",
-          "authors": "Andreas B. Neubauer, Peter Koval, Michael J. Zyphur, Ellen L. Hamaker",
-          "url": "https://doi.org/10.1037/met0000741",
-          "doi": "https://doi.org/10.1037/met0000741",
-          "filter": 0
-        },
-        {
-          "title": "Network science in psychology.",
-          "authors": "Tracy Sweet, Selena Wang",
-          "url": "https://doi.org/10.1037/met0000745",
-          "doi": "https://doi.org/10.1037/met0000745",
-          "filter": 0
-        },
-        {
-          "title": "Yes stormtrooper, these are the droids you are looking for: Identifying and preliminarily evaluating bot and fraud detection strategies in online psychological research.",
-          "authors": "Thomas J. Shaw, Cory J. Cascalheira, Emily C. Helminen, Cal D. Brisbin, Skyler D. Jackson, Melissa Simone, Tami P. Sullivan, Abigail W. Batchelder, Jillian R. Scheer",
-          "url": "https://doi.org/10.1037/met0000724",
-          "doi": "https://doi.org/10.1037/met0000724",
-          "filter": 0
-        },
-        {
-          "title": "Iterated community detection in psychological networks.",
-          "authors": "M. A. Werner, J. de Ron, E. I. Fried, D. J. Robinaugh",
-          "url": "https://doi.org/10.1037/met0000744",
-          "doi": "https://doi.org/10.1037/met0000744",
-          "filter": 0
-        },
-        {
           "title": "A tutorial on estimating dynamic treatment regimes from observational longitudinal data using lavaan.",
           "authors": "Wen Wei Loh, Terrence D. Jorgensen",
           "url": "https://doi.org/10.1037/met0000748",
@@ -148,17 +100,10 @@
           "filter": 0
         },
         {
-          "title": "Impact of temporal order selection on clustering intensive longitudinal data based on vector autoregressive models.",
-          "authors": "Yaqi Li, Hairong Song, Bertus Jeronimus",
-          "url": "https://doi.org/10.1037/met0000747",
-          "doi": "https://doi.org/10.1037/met0000747",
-          "filter": 0
-        },
-        {
-          "title": "Unidim: An index of scale homogeneity and unidimensionality.",
-          "authors": "William Revelle, David Condon",
-          "url": "https://doi.org/10.1037/met0000729",
-          "doi": "https://doi.org/10.1037/met0000729",
+          "title": "Unsupervised [randomly responding] survey bot detection: In search of high classification accuracy.",
+          "authors": "Carl F. Falk, Amaris Huang, Michael John Ilagan",
+          "url": "https://doi.org/10.1037/met0000746",
+          "doi": "https://doi.org/10.1037/met0000746",
           "filter": 0
         }
       ],
@@ -168,13 +113,6 @@
       "journal_full": "Psychology of Popular Media",
       "journal_short": "PPM",
       "articles": [
-        {
-          "title": "Investigating the effect of full and partial social media abstinence on fear of missing out and well-being outcomes: A daily diary experimental approach.",
-          "authors": "Andree Hartanto, K. T. A. Sandeeshwara Kasturiratna, Meenakshi Kothari, Adalia Y. H. Goh, Frosch Y. X. Quek, Nadyanna M. Majeed",
-          "url": "https://doi.org/10.1037/ppm0000583",
-          "doi": "https://doi.org/10.1037/ppm0000583",
-          "filter": 0
-        },
         {
           "title": "Development and validation of the Tech With Care Index for teens.",
           "authors": "Sara Konrath, Carrie James, Emily Weinstein, Beck Tench",
