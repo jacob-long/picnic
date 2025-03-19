@@ -1,18 +1,10 @@
 {
-  "update": "2025-03-17",
+  "update": "2025-03-19",
   "content": [
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
       "articles": [
-        {
-          "title": "Exploring the development of face recognition across childhood via logistic mixed-effects modelling of the standardised Cambridge Face Memory Test",
-          "authors": "Louise Ewing, Nadja Althaus, Emily K. Farran, Michael Papasavva, Inês Mares, Marie L. Smith",
-          "abstract": "Individual differences in face identity recognition abilities are present across the lifespan but require developmentally differentiated methods of assessment. Here, we examine the empirical validity of a widely used face identity recognition measure, the Cambridge Face Memory Test for Children (CFMT-C). Logistic mixed-effects modelling of a large data set (607 children, 5–12 years) replicates and extends the findings of the only previous normative study of the CFMT-C (Croydon et al., Neuropsychologia , 62 , 60–67, 2014). This novel, analytical approach enables us to take into account sources of variability typically overlooked in a classical analysis. We consider variability introduced by the task, alongside variability across children, to provide the first comprehensive characterisation of the interactive effects of factors inherent to participants (e.g. age, gender, and ethnicity), and the test (stage: face learning, simple recognition, harder recognition) on face memory performance. In line with past findings, we clearly observed age-related improvement in the task. Additionally, and for the first time, we report that this developmental effect is significantly more pronounced in the later, harder stages of the task; that there is an effect of gender, with females having better performance; and that consideration of participant ethnicity or testing context did not alter the best fitting model of these data. These results highlight the value of applying multilevel statistical models to characterise the factors driving performance variability, providing evidence of the divergence in recognition abilities across genders and confirming the stability of the CFMT-C in assessing face recognition abilities across variable experimental contexts and with diverse participant groups.",
-          "url": "https://doi.org/10.3758/s13428-025-02629-y",
-          "doi": "https://doi.org/10.3758/s13428-025-02629-y",
-          "filter": 0
-        },
         {
           "title": "Revised network loadings",
           "authors": "Alexander P. Christensen, Hudson Golino, Francisco J. Abad, Luis Eduardo Garrido",
@@ -29,18 +21,26 @@
           "filter": 0
         },
         {
-          "title": "The role of individual differences and attitude in willingness to participate in TMS studies",
-          "authors": "C. Lolansen, C. J. Howard, S. Mitra, S. P. Badham",
-          "abstract": "Finding neurophysiological research participants can be challenging, especially when the technology used in the research study is less known, such as transcranial magnetic stimulation (TMS). Despite this well-known phenomenon, there is limited literature investigating the factors involved in willingness to participate and perceived barriers from the potential participants’ perspective. This paper explored the relationship between individual differences, attitudes toward TMS, and willingness to participate in TMS research alongside perceived barriers to participation and concerns when considering participating. The findings suggest that participants who had more positive attitudes towards TMS were more willing to participate. Participants frequently reported being concerned about safety, including risks and side effects. For barriers in terms of safety parameters, the number of participants who were eligible based on their TMS safety screening questionnaire was low, particularly for older adults. These findings are discussed in the context of the literature, and practical guidelines are provided for researchers looking to plan TMS recruitment.",
-          "url": "https://doi.org/10.3758/s13428-025-02623-4",
-          "doi": "https://doi.org/10.3758/s13428-025-02623-4",
-          "filter": 0
-        },
-        {
           "title": "Unraveling other-race face perception with GAN-based image reconstruction",
           "authors": "Moaz Shoura, Dirk B. Walther, Adrian Nestor",
           "url": "https://doi.org/10.3758/s13428-025-02636-z",
           "doi": "https://doi.org/10.3758/s13428-025-02636-z",
+          "filter": 0
+        },
+        {
+          "title": "Performance of location-scale models in meta-analysis: A simulation study",
+          "authors": "Desirée Blázquez-Rincón, José Antonio López-López, Wolfgang Viechtbauer",
+          "abstract": "Location-scale models in the field of meta-analysis allow researchers to simultaneously study the influence of moderator variables on the mean (location) and variance (scale) of the distribution of true effects. However, the increased complexity of such models can make model fitting challenging. Moreover, the statistical properties of the estimation and inference methods for such models have not been systematically examined in the meta-analytic context. We therefore conducted a Monte Carlo simulation study to compare different estimation methods (maximum or restricted maximum likelihood estimation), significance tests (Wald-type, permutation, and likelihood-ratio tests), and methods for constructing confidence intervals (Wald-type and profile-likelihood intervals) for the scale coefficients of such models. When restricted maximum likelihood estimation was used, slightly closer to nominal rejection rates and narrower confidence intervals were obtained. The permutation test yielded type I error rates closest to the nominal level, whereas the likelihood-ratio test obtained the highest statistical power. In most scenarios, profile-likelihood intervals showed lower coverage probabilities than the Wald-type method but closer to the nominal 95% level. Finally, slightly higher rejection rates and coverage probabilities were obtained when a dichotomous moderator was examined rather than a continuous one. Despite the need to use some constraints on the parameter space for the scale coefficients and the possibility of non-convergence of some procedures that may affect the fitting of the specified models, location-scale models proved to be a valid and useful tool for modeling the heterogeneity parameter in meta-analysis.",
+          "url": "https://doi.org/10.3758/s13428-025-02622-5",
+          "doi": "https://doi.org/10.3758/s13428-025-02622-5",
+          "filter": 0
+        },
+        {
+          "title": "Samply Stream API: The AI-enhanced method for real-time event data streaming",
+          "authors": "Yury Shevchenko, Ulf-Dietrich Reips",
+          "abstract": "This manuscript introduces a novel method for conducting behavioral and social research by streaming real-time information to participants and manipulating content for experimental purposes via AI. We present an extension of the Samply software, which facilitates the integration of event-related data with mobile surveys and experiments. To assess the feasibility of this method, we conducted an experiment where news headlines were modified by a Chat-GPT algorithm and streamed to participants via the Samply Stream API and mobile push notifications. Feedback from participants indicated that most did not experience technical problems. There was no significant difference in readability across original, paraphrased, and misinformation-injected news conditions, with only 1.2% of all news items reported as unreadable. Participants reported significantly less familiarity with misinformation-injected news (84% unfamiliarity) compared to original and paraphrased news (73% unfamiliarity), suggesting successful manipulation of information without compromising readability. Dropout and non-response rates were comparable to those in other experience sampling studies. The streaming method offers significant potential for various applications, including public opinion research, healthcare, marketing, and environmental monitoring. By enabling the real-time collection of contextually relevant data, this method has the potential to enhance the external validity of behavioral research and provides a powerful tool for studying human behavior in naturalistic settings.",
+          "url": "https://doi.org/10.3758/s13428-025-02634-1",
+          "doi": "https://doi.org/10.3758/s13428-025-02634-1",
           "filter": 0
         },
         {
@@ -50,21 +50,6 @@
           "url": "https://doi.org/10.3758/s13428-025-02632-3",
           "doi": "https://doi.org/10.3758/s13428-025-02632-3",
           "filter": 0
-        },
-        {
-          "title": "A tutorial on bayesian multiple-group comparisons of latent growth curve models with count distributed variables",
-          "authors": "Jasper Bendler, Jost Reinecke",
-          "abstract": "Moderation effects in longitudinal structural equation models are often analysed using latent variable product terms, which can be complex and difficult to estimate, especially in large models with many panel waves. An alternative approach for categorical moderation variables is the simpler technique of multiple-group comparisons. This method allows for straightforward model specification and precise differentiation of effects in complex models. This tutorial demonstrates multiple-group comparisons using examples based on developmental trajectories of juvenile delinquency. These trajectories are modelled via a latent growth curve approach, treating the variables as count data and applying Bayesian estimation using the software M plus . The results are processed using the R programming language. This method addresses challenges associated with maximum likelihood estimation, particularly for latent growth models with count variables and additional exogenous latent variables. The analysis examines group differences by gender and school type in the trajectories of an unconditional growth model. It also examines the effect of legal norm acceptance on these trajectories using a conditional growth model. The moderating effects of gender and school type on these effects are analysed separately. The results reveal group differences of gender and school type for the unconditional growth model, while the conditional growth model highlights a moderating effect of school type on the relationship between legal norm acceptance and growth trajectories.",
-          "url": "https://doi.org/10.3758/s13428-025-02624-3",
-          "doi": "https://doi.org/10.3758/s13428-025-02624-3",
-          "filter": 0
-        },
-        {
-          "title": "Correction to Tuerlinckx, Maris, Ratcliff, and De Boeck (2001)",
-          "authors": "Francis Tuerlinckx",
-          "url": "https://doi.org/10.3758/s13428-025-02614-5",
-          "doi": "https://doi.org/10.3758/s13428-025-02614-5",
-          "filter": 0
         }
       ],
       "articles_hidden": []
@@ -73,13 +58,6 @@
       "journal_full": "Computers in Human Behavior",
       "journal_short": "CHB",
       "articles": [
-        {
-          "title": "Third-party punishment and its neural mechanisms in the digital age: An fNIRS investigation of subjective social class and moral orientation",
-          "authors": "Zhanyu Yu, Yue He",
-          "url": "https://doi.org/10.1016/j.chb.2025.108640",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108640",
-          "filter": 0
-        },
         {
           "title": "Using a Two-Stage Method to Understand the Critical Factors Influencing Customers’ Intention to Switch from Traditional to Artificial Intelligence Based Banking Services: A Perspective Based on the Push–Pull–Mooring Model",
           "authors": "Jiunn-Woei Lian, Cai-Wei Li",
@@ -95,13 +73,6 @@
           "filter": 0
         },
         {
-          "title": "Black Immersive Virtuality: Racialized Experiences of Avatar Embodiment and Customization Among Black Users in Social VR",
-          "authors": "Cyan DeVeaux, Eugy Han, Zora Hudson, Jordan Egelman, James A. Landay, Jeremy N. Bailenson",
-          "url": "https://doi.org/10.1016/j.chb.2025.108639",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108639",
-          "filter": 0
-        },
-        {
           "title": "Virtual reality versus classic presentations of mass media campaigns: Effectiveness and psychological mechanisms using the example of environmental protection",
           "authors": "Daniel Zimmermann, Paulina Wolf, Kai Kaspar",
           "url": "https://doi.org/10.1016/j.chb.2025.108643",
@@ -113,13 +84,6 @@
           "authors": "Natale Canale, Frank J. Elgar, Erika Pivetta, Tommaso Galeotti, Claudia Marino, Joël Billieux, Daniel L. King, Michela Lenzi, Paola Dalmasso, Giacomo Lazzeri, Paola Nardone, Arianna Camporese, Alessio Vieno",
           "url": "https://doi.org/10.1016/j.chb.2025.108644",
           "doi": "https://doi.org/10.1016/j.chb.2025.108644",
-          "filter": 0
-        },
-        {
-          "title": "Accepting Cookies: Nudging, Deceptive Patterns and Personal Preference",
-          "authors": "Frank Papenmeier, Josephine Halama, Carl Reichert",
-          "url": "https://doi.org/10.1016/j.chb.2025.108641",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108641",
           "filter": 0
         }
       ],
@@ -182,6 +146,13 @@
           "filter": 0
         },
         {
+          "title": "Missing Data in Discrete Time State-Space Modeling of Ecological Momentary Assessment Data: A Monte-Carlo Study of Imputation Methods",
+          "authors": "L. R. Slipetz, A. Falk, T. R. Henry",
+          "url": "https://doi.org/10.1080/00273171.2025.2469055",
+          "doi": "https://doi.org/10.1080/00273171.2025.2469055",
+          "filter": 0
+        },
+        {
           "title": "Correcting for Differences in Measurement Unreliability in Meta-Analysis of Variances",
           "authors": "Katrin Jansen, Steffen Nestler",
           "url": "https://doi.org/10.1080/00273171.2025.2469789",
@@ -196,19 +167,19 @@
       "journal_short": "ORM",
       "articles": [
         {
-          "title": "Shedding Light on the Black Box: Integrating Prediction Models and Explainability Using Explainable Machine Learning",
-          "authors": "Yucheng Zhang, Yuyan Zheng, Dan Wang, Xiaowei Gu, Michael J. Zyphur, Lin Xiao, Shudi Liao, Yangyang Deng",
-          "abstract": "In contemporary organizational research, when dealing with large heterogeneous datasets and complex relationships, statistical modeling focused on developing substantive explanations typically results in low predictive accuracy. In contrast, machine learning (ML) exhibits remarkable strength for prediction, but suffers from an unexplainable analytical process and output—thus ML is often known as a “black box” approach. The recent development of explainable machine learning (XML) integrates high predictive accuracy with explainability, which combines the advantages inherent in both statistical modeling and ML paradigms. This paper compares XML with statistical modeling and the traditional ML approaches, focusing on an advanced application of XML known as evolving fuzzy system (EFS), which enhances model transparency by clarifying the unique contribution of each modeled predictor. In an illustrative study, we demonstrate two EFS-based XML models and conduct comparative analyses among XML, ML, and statistical models with a commonly-used database in organizational research. Our study offers a thorough description of analysis procedures for implementing XML in organizational research, along with best-practice recommendations for each step as well as Python code to aid future research using XML. Finally, we discuss the benefits of XML for organizational research and its potential development.",
-          "url": "https://doi.org/10.1177/10944281251323248",
-          "doi": "https://doi.org/10.1177/10944281251323248",
-          "filter": 0
-        },
-        {
           "title": "What Are Mechanisms? Ways of Conceptualizing and Studying Causal Mechanisms",
           "authors": "Joep P. Cornelissen, Mirjam Werner",
           "abstract": "Over the last two decades, much of management research has converged on the belief that one of its major aims is to identify the causal mechanisms that produce the phenomena that researchers seek to explain. In this paper, we review and synthesize the literature that has amassed around causal mechanisms. We do so by detailing the different methodological perspectives that are featured in management research, which we label as the contextual, constitutive, and interventionist perspectives. For each of these perspectives, we examine what it theoretically presupposes a mechanism to be, how this connects to methodological choices, and how this shapes the kind of mechanism-based explanations that each perspective offers. We also explore the main inferential challenges for each of these perspectives and offer specific methodological guidance in response. In this way, we aim to offer a common plank for theorizing and research on causal mechanisms in ways that recognize and harness the productive differences across different epistemologies and methodological traditions.",
           "url": "https://doi.org/10.1177/10944281251318727",
           "doi": "https://doi.org/10.1177/10944281251318727",
+          "filter": 0
+        },
+        {
+          "title": "Shedding Light on the Black Box: Integrating Prediction Models and Explainability Using Explainable Machine Learning",
+          "authors": "Yucheng Zhang, Yuyan Zheng, Dan Wang, Xiaowei Gu, Michael J. Zyphur, Lin Xiao, Shudi Liao, Yangyang Deng",
+          "abstract": "In contemporary organizational research, when dealing with large heterogeneous datasets and complex relationships, statistical modeling focused on developing substantive explanations typically results in low predictive accuracy. In contrast, machine learning (ML) exhibits remarkable strength for prediction, but suffers from an unexplainable analytical process and output—thus ML is often known as a “black box” approach. The recent development of explainable machine learning (XML) integrates high predictive accuracy with explainability, which combines the advantages inherent in both statistical modeling and ML paradigms. This paper compares XML with statistical modeling and the traditional ML approaches, focusing on an advanced application of XML known as evolving fuzzy system (EFS), which enhances model transparency by clarifying the unique contribution of each modeled predictor. In an illustrative study, we demonstrate two EFS-based XML models and conduct comparative analyses among XML, ML, and statistical models with a commonly-used database in organizational research. Our study offers a thorough description of analysis procedures for implementing XML in organizational research, along with best-practice recommendations for each step as well as Python code to aid future research using XML. Finally, we discuss the benefits of XML for organizational research and its potential development.",
+          "url": "https://doi.org/10.1177/10944281251323248",
+          "doi": "https://doi.org/10.1177/10944281251323248",
           "filter": 0
         }
       ],
@@ -247,13 +218,6 @@
           "url": "https://doi.org/10.1037/met0000752",
           "doi": "https://doi.org/10.1037/met0000752",
           "filter": 0
-        },
-        {
-          "title": "Unsupervised [randomly responding] survey bot detection: In search of high classification accuracy.",
-          "authors": "Carl F. Falk, Amaris Huang, Michael John Ilagan",
-          "url": "https://doi.org/10.1037/met0000746",
-          "doi": "https://doi.org/10.1037/met0000746",
-          "filter": 0
         }
       ],
       "articles_hidden": []
@@ -263,19 +227,67 @@
       "journal_short": "PsychSci",
       "articles": [
         {
-          "title": "Deconfounding Sex and Sex of Partner in Mate-Preference Research",
-          "authors": "Ashley J. Coventry, Selina Mixner, Benjamin Gelbart, Kathryn V. Walter, Daniel Conroy-Beam, Tamsin C. German",
-          "abstract": "Much of the previous research examining sex differences in human mate preferences has relied exclusively on heterosexual participants. Consequently, prior work overlooks a critical limitation: In heterosexual populations, participant sex and partner sex are perfectly confounded. Here, we tease apart this fundamental problem by separately examining ideal preferences for male and female partners across two studies—one using a large bisexual sample ( n = 442) and another using a sample of both bisexual and heterosexual participants ( n = 380). The results revealed that sex differences in mate preferences were largely driven by the participants’ own sex. However, both males and females set higher standards overall for the traits of male partners. These findings suggest that a person’s mate-preference psychology is shaped by both one’s own sex and the sex of the target being evaluated. More broadly, these results expand our understanding of the proximate psychology underlying human mate preferences.",
-          "url": "https://doi.org/10.1177/09567976251319038",
-          "doi": "https://doi.org/10.1177/09567976251319038",
-          "filter": 0
-        },
-        {
           "title": "The Effects of Group Affiliation Versus Individuating Information on Direct and Indirect Measures of the Evaluation of Novel Individual Group Members",
           "authors": "Mayan Navon, Yoav Bar-Anan",
           "abstract": "Automatic evaluation has emerged as a central concept in contemporary thinking about prejudice. The current research tested a quintessential aspect of prejudice: whether group affiliation dominates the automatic evaluation of individual group members even when diagnostic evaluative information about the individuals is available. Participants read a list of descriptions about the behaviors of two individuals: one from a typically liked group and one from a typically disliked group. The list portrayed one individual more positively than the other, and we manipulated the extremity and direction of that difference. We conducted six studies ( N = 11,572) with samples consisting of U.S. adults across different regions and group types (age, gender, and race) and two indirect measures that purportedly measure automatic evaluation: the implicit association test (IAT) and the evaluative priming task (EPT). Group affiliation (relative to personal characteristics) influenced the IAT and the EPT more than it influenced the self-reported evaluation. These results may suggest that the automatic evaluation of individuals is more prejudiced than nonautomatic evaluation.",
           "url": "https://doi.org/10.1177/09567976251315689",
           "doi": "https://doi.org/10.1177/09567976251315689",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Technology, Mind, and Behavior",
+      "journal_short": "TMB",
+      "articles": [
+        {
+          "title": "“Are bad things bad?”: Technopsychology and the problem of unacknowledged normativity.",
+          "authors": "Jesper Aagaard",
+          "url": "https://doi.org/10.1037/tmb0000160",
+          "doi": "https://doi.org/10.1037/tmb0000160",
+          "filter": 0
+        },
+        {
+          "title": "(Mobile) self-enhancement in selective exposure: The complex relationship between negative self-threat and downward comparison.",
+          "authors": "Morgan Quinn Ross, Chris Cosma, Silvia Knobloch-Westerwick",
+          "url": "https://doi.org/10.1037/tmb0000157",
+          "doi": "https://doi.org/10.1037/tmb0000157",
+          "filter": 0
+        },
+        {
+          "title": "Humans and generative AI.",
+          "authors": "Jaime Banks, Nicole C. Krämer, Rhonda N. McEwen",
+          "url": "https://doi.org/10.1037/tmb0000162",
+          "doi": "https://doi.org/10.1037/tmb0000162",
+          "filter": 0
+        },
+        {
+          "title": "Investigating the impact of linguistic features of text on readers’ phenomenological experiences.",
+          "authors": "Püren Öncel, Shelby L. Smith, Laura K. Allen, Caitlin Mills",
+          "url": "https://doi.org/10.1037/tmb0000156",
+          "doi": "https://doi.org/10.1037/tmb0000156",
+          "filter": 0
+        },
+        {
+          "title": "Supplemental Material for Investigating the impact of linguistic features of text on readers’ phenomenological experiences.",
+          "authors": "Püren Öncel, Shelby L. Smith, Laura K. Allen, Caitlin Mills",
+          "url": "https://doi.org/10.1037/tmb0000156.supp",
+          "doi": "https://doi.org/10.1037/tmb0000156.supp",
+          "filter": 0
+        },
+        {
+          "title": "Supplemental Material for (Mobile) self-enhancement in selective exposure: The complex relationship between negative self-threat and downward comparison.",
+          "authors": "Morgan Quinn Ross, Chris Cosma, Silvia Knobloch-Westerwick",
+          "url": "https://doi.org/10.1037/tmb0000157.supp",
+          "doi": "https://doi.org/10.1037/tmb0000157.supp",
+          "filter": 0
+        },
+        {
+          "title": "Brain-based predictive modeling of mind wandering and involuntary thought: The idiographic approach.",
+          "authors": "Lotus Shareef-Trudeau, David Lydon-Staley, John Medaglia, Aaron Kucyi",
+          "url": "https://doi.org/10.1037/tmb0000155",
+          "doi": "https://doi.org/10.1037/tmb0000155",
           "filter": 0
         }
       ],
