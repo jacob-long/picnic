@@ -1,5 +1,5 @@
 {
-  "update": "2025-03-19",
+  "update": "2025-03-20",
   "content": [
     {
       "journal_full": "Behavior Research Methods",
@@ -21,13 +21,6 @@
           "filter": 0
         },
         {
-          "title": "Unraveling other-race face perception with GAN-based image reconstruction",
-          "authors": "Moaz Shoura, Dirk B. Walther, Adrian Nestor",
-          "url": "https://doi.org/10.3758/s13428-025-02636-z",
-          "doi": "https://doi.org/10.3758/s13428-025-02636-z",
-          "filter": 0
-        },
-        {
           "title": "Performance of location-scale models in meta-analysis: A simulation study",
           "authors": "Desirée Blázquez-Rincón, José Antonio López-López, Wolfgang Viechtbauer",
           "abstract": "Location-scale models in the field of meta-analysis allow researchers to simultaneously study the influence of moderator variables on the mean (location) and variance (scale) of the distribution of true effects. However, the increased complexity of such models can make model fitting challenging. Moreover, the statistical properties of the estimation and inference methods for such models have not been systematically examined in the meta-analytic context. We therefore conducted a Monte Carlo simulation study to compare different estimation methods (maximum or restricted maximum likelihood estimation), significance tests (Wald-type, permutation, and likelihood-ratio tests), and methods for constructing confidence intervals (Wald-type and profile-likelihood intervals) for the scale coefficients of such models. When restricted maximum likelihood estimation was used, slightly closer to nominal rejection rates and narrower confidence intervals were obtained. The permutation test yielded type I error rates closest to the nominal level, whereas the likelihood-ratio test obtained the highest statistical power. In most scenarios, profile-likelihood intervals showed lower coverage probabilities than the Wald-type method but closer to the nominal 95% level. Finally, slightly higher rejection rates and coverage probabilities were obtained when a dichotomous moderator was examined rather than a continuous one. Despite the need to use some constraints on the parameter space for the scale coefficients and the possibility of non-convergence of some procedures that may affect the fitting of the specified models, location-scale models proved to be a valid and useful tool for modeling the heterogeneity parameter in meta-analysis.",
@@ -44,11 +37,33 @@
           "filter": 0
         },
         {
+          "title": "Unraveling other-race face perception with GAN-based image reconstruction",
+          "authors": "Moaz Shoura, Dirk B. Walther, Adrian Nestor",
+          "url": "https://doi.org/10.3758/s13428-025-02636-z",
+          "doi": "https://doi.org/10.3758/s13428-025-02636-z",
+          "filter": 0
+        },
+        {
           "title": "A toolbox for calculating quantitative image properties in aesthetics research",
           "authors": "Christoph Redies, Ralf Bartho, Lisa Koßmann, Branka Spehar, Ronald Hübner, Johan Wagemans, Gregor U. Hayn-Leichsenring",
           "abstract": "Over the past two decades, researchers in the field of visual aesthetics have studied numerous quantitative (objective) image properties and how they relate to visual aesthetic appreciation. However, results are difficult to compare between research groups. One reason is that researchers use different sets of image properties in their studies. However, even if the same properties are used, the image pre-processing techniques may differ, and researchers often use their own customized scripts to calculate the image properties. To provide better accessibility and comparability of research results in visual experimental aesthetics, we developed an open-access and easy-to-use toolbox called Aesthetics Toolbox . The Toolbox allows users to calculate a well-defined set of quantitative image properties popular in contemporary research. The properties include image dimensions, lightness and color statistics, complexity, symmetry, balance, Fourier spectrum properties, fractal dimension, self-similarity, as well as entropy measures and CNN-based variances. Compatible with most devices, the Toolbox provides an intuitive click-and-drop web interface. In the Toolbox, we integrated the original scripts of four different research groups and translated them into Python 3. To ensure that results were consistent across analyses, we took care that results from the Python versions of the scripts were the same as those from the original scripts. The toolbox, detailed documentation, and a link to the cloud version are available via GitHub: https://github.com/RBartho/Aesthetics-Toolbox . In summary, we developed a toolbox that helps to standardize and simplify the calculation of quantitative image properties for visual aesthetics research.",
           "url": "https://doi.org/10.3758/s13428-025-02632-3",
           "doi": "https://doi.org/10.3758/s13428-025-02632-3",
+          "filter": 0
+        },
+        {
+          "title": "Ready to ROC? A tutorial on simulation-based power analyses for null hypothesis significance, minimum-effect, and equivalence testing for ROC curve analyses",
+          "authors": "Paul Riesthuis, Henry Otgaar, Charlotte Bücken",
+          "abstract": "The receiver operating characteristic (ROC) curve and its corresponding (partial) area under the curve (AUC) are frequently used statistical tools in psychological research to assess the discriminability of a test, method, intervention, or procedure. In this paper, we provide a tutorial on conducting simulation-based power analyses for ROC curve and (p)AUC analyses in R. We also created a Shiny app and the R package “ ROCpower ” to perform such power analyses. In our tutorial, we highlight the importance of setting the smallest effect size of interest (SESOI) for which researchers want to conduct their power analysis. The SESOI is the smallest effect that is practically or theoretically relevant for a specific field of research or study. We provide how such a SESOI can be established and how it changes hypotheses from simply establishing whether there is a statistically significant effect (i.e., null-hypothesis significance testing) to whether the effects are practically or theoretically important (i.e., minimum-effect testing) or whether the effect is too small to care about (i.e., equivalence testing). We show how power analyses for these different hypothesis tests can be conducted via a confidence interval-focused approach. This confidence interval-focused, simulation-based power analysis can be adapted to different research designs and questions and improves the reproducibility of power analyses.",
+          "url": "https://doi.org/10.3758/s13428-025-02646-x",
+          "doi": "https://doi.org/10.3758/s13428-025-02646-x",
+          "filter": 0
+        },
+        {
+          "title": "Appropriate modeling of endogeneity in cross-lagged models: Efficacy of auxiliary and model-implied instrumental variables",
+          "authors": "Junyan Fang, Zhonglin Wen, Kit-Tai Hau, Xitong Huang",
+          "url": "https://doi.org/10.3758/s13428-025-02631-4",
+          "doi": "https://doi.org/10.3758/s13428-025-02631-4",
           "filter": 0
         }
       ],
@@ -59,17 +74,17 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "Using a Two-Stage Method to Understand the Critical Factors Influencing Customers’ Intention to Switch from Traditional to Artificial Intelligence Based Banking Services: A Perspective Based on the Push–Pull–Mooring Model",
-          "authors": "Jiunn-Woei Lian, Cai-Wei Li",
-          "url": "https://doi.org/10.1016/j.chb.2025.108645",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108645",
-          "filter": 0
-        },
-        {
           "title": "Physical characteristics of digital characters influence group categorization and recognition of affective states",
           "authors": "Jacqueline Nguyen Phuong Trieu, Marie-Hélène Tessier, Clémentine Pouliot, Carole Bélanger, Yvan Leanza, Philip L. Jackson",
           "url": "https://doi.org/10.1016/j.chb.2025.108638",
           "doi": "https://doi.org/10.1016/j.chb.2025.108638",
+          "filter": 0
+        },
+        {
+          "title": "Using a Two-Stage Method to Understand the Critical Factors Influencing Customers’ Intention to Switch from Traditional to Artificial Intelligence Based Banking Services: A Perspective Based on the Push–Pull–Mooring Model",
+          "authors": "Jiunn-Woei Lian, Cai-Wei Li",
+          "url": "https://doi.org/10.1016/j.chb.2025.108645",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108645",
           "filter": 0
         },
         {
@@ -80,10 +95,10 @@
           "filter": 0
         },
         {
-          "title": "Problem gaming and adolescents’ health and well-being: Evidence from a large nationally representative sample in Italy",
-          "authors": "Natale Canale, Frank J. Elgar, Erika Pivetta, Tommaso Galeotti, Claudia Marino, Joël Billieux, Daniel L. King, Michela Lenzi, Paola Dalmasso, Giacomo Lazzeri, Paola Nardone, Arianna Camporese, Alessio Vieno",
-          "url": "https://doi.org/10.1016/j.chb.2025.108644",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108644",
+          "title": "Predicting the onset of acute performance decline in esports",
+          "authors": "Karthikeyan Manikandan, Krishna Suketh Madduri, Justin Irby, Aurel Coza",
+          "url": "https://doi.org/10.1016/j.chb.2025.108648",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108648",
           "filter": 0
         }
       ],
@@ -93,14 +108,6 @@
       "journal_full": "Group Processes & Intergroup Relations",
       "journal_short": "GPIR",
       "articles": [
-        {
-          "title": "Is it about time? Counteracting the negative effect of virtuality on team performance with team density",
-          "authors": "Martijn Jungst, Lorraine Uhlaner",
-          "abstract": "The use of virtual and online tools has become commonplace in organizations to remain competitive in a global and dynamic environment. To understand the impact of these tools on team performance, we examine virtuality through a dynamic lens and test a model that links two team characteristics—virtuality and team density—to team performance across performance episodes. Using data from 36 temporary graduate student teams in a classroom setting, random coefficient growth modeling shows that team density attenuates the negative relationship between virtuality and team performance more strongly over time. Our findings highlight the importance of using a dynamic approach to understand how virtuality and team density affect team performance over time. We discuss the theoretical implications of conceptualizing virtuality from a time-sensitive perspective.",
-          "url": "https://doi.org/10.1177/13684302251322753",
-          "doi": "https://doi.org/10.1177/13684302251322753",
-          "filter": 0
-        },
         {
           "title": "Social judgement of defensive and secure social identities among advantaged and disadvantaged groups",
           "authors": "Gaëlle Marinthe, Peggy Chekroun, Vincent Dru, Mélanie Kader-Issack, Clément Vallée, Patrick Mollaret",
@@ -115,20 +122,6 @@
           "abstract": "A popular intervention for increasing support for peace in violent intergroup conflicts is to describe the peaceful resolution of other conflicts. In four experiments, we tested the effectiveness of this approach in the context of the Israeli–Palestinian conflict by exposing Jewish-Israelis to information about the Northern Ireland conflict and peace process, or about tourism in Northern Ireland as a control. We found that learning about the historical peace process generally led participants to view conflicts as more malleable, their own conflict as less unique, and led to unfreezing of conflict-related beliefs. However, it neither increased hope nor consistently boosted support for conciliatory policies. We explored boundary conditions and found effects were often stronger among leftist and centrist compared with rightists. Moreover, explicitly drawing analogies between conflicts at the outset proved ineffective, whereas exposing participants to the historical conflict and peace process without mentioning the proximal conflict was more successful.",
           "url": "https://doi.org/10.1177/13684302251319689",
           "doi": "https://doi.org/10.1177/13684302251319689",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Journal of Experimental Social Psychology",
-      "journal_short": "JESP",
-      "articles": [
-        {
-          "title": "The plurality effect: People are more dishonest toward group than individual targets",
-          "authors": "Hsuan-Che (Brad) Huang, Ruodan Shao, Ann E. Tenbrunsel, Kristina A. Diekmann, Daniel P. Skarlicki",
-          "url": "https://doi.org/10.1016/j.jesp.2025.104746",
-          "doi": "https://doi.org/10.1016/j.jesp.2025.104746",
           "filter": 0
         }
       ],
@@ -167,6 +160,14 @@
       "journal_short": "ORM",
       "articles": [
         {
+          "title": "Efficient Processing of Long Sequence Text Data in Transformer: An Examination of Five Different Approaches",
+          "authors": "Zihao Jia, Philseok Lee",
+          "abstract": "The advent of machine learning and artificial intelligence has profoundly transformed organizational research, especially with the growing application of natural language processing (NLP). Despite these advances, managing long-sequence text input data remains a persistent and significant challenge in NLP analysis within organizational studies. This study introduces five different approaches for handling long sequence text data: term frequency-inverse document frequency with a random forest algorithm (TF-IDF-RF), Longformer, GPT-4o, truncation with averaged scores and our proposed construct-relevant text-selection approach. We also present analytical strategies for each approach and evaluate their effectiveness by comparing the psychometric properties of the predicted scores. Among them, GPT-4o, the truncation with averaged scores, and the proposed text-selection approach generally demonstrate slightly superior psychometric properties compared to TF-IDF-RF and Longformer. However, no single approach consistently outperforms the others across all psychometric criteria. The discussion explores the practical considerations, limitations, and potential directions for future research on these methods, enriching the dialogue on effective long-sequence text management in NLP-driven organizational research.",
+          "url": "https://doi.org/10.1177/10944281251326062",
+          "doi": "https://doi.org/10.1177/10944281251326062",
+          "filter": 0
+        },
+        {
           "title": "What Are Mechanisms? Ways of Conceptualizing and Studying Causal Mechanisms",
           "authors": "Joep P. Cornelissen, Mirjam Werner",
           "abstract": "Over the last two decades, much of management research has converged on the belief that one of its major aims is to identify the causal mechanisms that produce the phenomena that researchers seek to explain. In this paper, we review and synthesize the literature that has amassed around causal mechanisms. We do so by detailing the different methodological perspectives that are featured in management research, which we label as the contextual, constitutive, and interventionist perspectives. For each of these perspectives, we examine what it theoretically presupposes a mechanism to be, how this connects to methodological choices, and how this shapes the kind of mechanism-based explanations that each perspective offers. We also explore the main inferential challenges for each of these perspectives and offer specific methodological guidance in response. In this way, we aim to offer a common plank for theorizing and research on causal mechanisms in ways that recognize and harness the productive differences across different epistemologies and methodological traditions.",
@@ -180,29 +181,6 @@
           "abstract": "In contemporary organizational research, when dealing with large heterogeneous datasets and complex relationships, statistical modeling focused on developing substantive explanations typically results in low predictive accuracy. In contrast, machine learning (ML) exhibits remarkable strength for prediction, but suffers from an unexplainable analytical process and output—thus ML is often known as a “black box” approach. The recent development of explainable machine learning (XML) integrates high predictive accuracy with explainability, which combines the advantages inherent in both statistical modeling and ML paradigms. This paper compares XML with statistical modeling and the traditional ML approaches, focusing on an advanced application of XML known as evolving fuzzy system (EFS), which enhances model transparency by clarifying the unique contribution of each modeled predictor. In an illustrative study, we demonstrate two EFS-based XML models and conduct comparative analyses among XML, ML, and statistical models with a commonly-used database in organizational research. Our study offers a thorough description of analysis procedures for implementing XML in organizational research, along with best-practice recommendations for each step as well as Python code to aid future research using XML. Finally, we discuss the benefits of XML for organizational research and its potential development.",
           "url": "https://doi.org/10.1177/10944281251323248",
           "doi": "https://doi.org/10.1177/10944281251323248",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Personality and Social Psychology Bulletin",
-      "journal_short": "PSPB",
-      "articles": [
-        {
-          "title": "Hungry Ghosts Eat Casino Chips: Associations Between Dispositional Greed and Gambling",
-          "authors": "Joshua Weller, Marcel Zeelenberg, Barbara Summers",
-          "abstract": "Dispositional greed is characterized as the insatiable desire for more. Although greed may be a driving force for wealth accumulation, it can also relate to increased financial difficulties and risk-taking. Across two studies in different countries, The Netherlands (Study 1, N = 1,118) and England, Study 2, N = 4,855), we tested the degree to which dispositional greed was associated with gambling outcomes. Greedy individuals reported greater gambling participation and more negative gambling-related consequences. Moreover, Study 2 found that greed was associated with maladaptive gambling-related cognitions (e.g., cognitive distortions, positive expectations, and the perceived inability to stop) beyond that explained by trait motor impulsiveness. In addition, dispositionally greedy individuals reported being more focused on financial motivations for gambling, having greater confidence in winning, and less concern with realized losses. The current study demonstrates links between dispositional greed and risk-taking in a real-world context, highlighting biased decision-making cognitions for greedy individuals.",
-          "url": "https://doi.org/10.1177/01461672251315200",
-          "doi": "https://doi.org/10.1177/01461672251315200",
-          "filter": 0
-        },
-        {
-          "title": "Social-Environmental Constraints on the Development of a Concealable Stigmatized Identity Predict Psychological Distress",
-          "authors": "Andrew C. Cortopassi, Gandalf Nicolas",
-          "abstract": "People who are stigmatized along concealable features (e.g., individuals reporting adverse childhood experiences) often experience challenges to the self-concept, which can promote psychological distress. Developing a stigmatized identity might counter these effects, but the internality of concealable features can forestall this process: individuals may look to similarly-stigmatized others, but if these group members remain concealed (i.e., are not “out”), they are less identifiable as guides for development. In two studies ( N total = 845), less outness among similarly-stigmatized others in the social environment predicted increased distress—but only for individuals reporting low progress in processes of positive meaning-making (Studies 1 and 2) and exploration (Study 2). The interaction held when controlling for stigmatizing views endorsed by non-stigmatized counterparts (Study 2). Findings highlight similarly-stigmatized others as important constituents of the social environment: low group visibility and accessibility may uniquely contribute to distress for individuals at early phases of developing a positive and clear stigmatized identity.",
-          "url": "https://doi.org/10.1177/01461672251317817",
-          "doi": "https://doi.org/10.1177/01461672251317817",
           "filter": 0
         }
       ],
@@ -232,6 +210,22 @@
           "abstract": "Automatic evaluation has emerged as a central concept in contemporary thinking about prejudice. The current research tested a quintessential aspect of prejudice: whether group affiliation dominates the automatic evaluation of individual group members even when diagnostic evaluative information about the individuals is available. Participants read a list of descriptions about the behaviors of two individuals: one from a typically liked group and one from a typically disliked group. The list portrayed one individual more positively than the other, and we manipulated the extremity and direction of that difference. We conducted six studies ( N = 11,572) with samples consisting of U.S. adults across different regions and group types (age, gender, and race) and two indirect measures that purportedly measure automatic evaluation: the implicit association test (IAT) and the evaluative priming task (EPT). Group affiliation (relative to personal characteristics) influenced the IAT and the EPT more than it influenced the self-reported evaluation. These results may suggest that the automatic evaluation of individuals is more prejudiced than nonautomatic evaluation.",
           "url": "https://doi.org/10.1177/09567976251315689",
           "doi": "https://doi.org/10.1177/09567976251315689",
+          "filter": 0
+        },
+        {
+          "title": "Co-Occurrence and Causality Among ADHD, Dyslexia, and Dyscalculia",
+          "authors": "Elsje van Bergen, Eveline L. de Zeeuw, Sara A. Hart, Dorret I. Boomsma, Eco J. C. de Geus, Kees-Jan Kan",
+          "abstract": "ADHD, dyslexia, and dyscalculia often co-occur, and the underlying continuous traits are correlated (ADHD symptoms, reading, spelling, and math skills). This may be explained by trait-to-trait causal effects, shared genetic and environmental factors, or both. We studied a sample of ≤ 19,125 twin children and 2,150 siblings from the Netherlands Twin Register, assessed at ages 7 and 10. Children with a condition, compared to those without that condition, were 2.1 to 3.1 times more likely to have a second condition. Still, most children (77.3%) with ADHD, dyslexia, or dyscalculia had just one condition. Cross-lagged modeling suggested that reading causally influences spelling (β = 0.44). For all other trait combinations, cross-lagged modeling suggested that the trait correlations are attributable to genetic influences common to all traits, rather than causal influences. Thus, ADHD, dyslexia, and dyscalculia seem to co-occur because of correlated genetic risks, rather than causality.",
+          "url": "https://doi.org/10.1177/09567976241293999",
+          "doi": "https://doi.org/10.1177/09567976241293999",
+          "filter": 0
+        },
+        {
+          "title": "Differentiation in Cognitive Abilities Beyond g : The Emergence of Domain-Specific Variance in Childhood",
+          "authors": "Lisa Bardach, Robert Kalinowski, Drew H. Bailey",
+          "abstract": "Understanding how the structure of cognitive abilities changes depending on age and ability (age and ability differentiation) has critical implications for cognitive-ability assessments and cognitive-developmental theories. Most differentiation research has focused on general intelligence; however, we argue that the investments children make in specific domains and school-taught subjects should rather affect their domain-specific ability structures. Leveraging a representative longitudinal sample of 17,979 U.S. children who were assessed in mathematics, reading, science, working memory, and cognitive flexibility, we found that loadings on a general intelligence factor remained similar, whereas most domain-specific factor loadings increased over time. Hence, age and ability differentiation are conceptually distinct, with the former pertaining to specific abilities and the latter to general intelligence. We find some evidence that domain-specific abilities can compensate for lower general intelligence. Overall, our results encourage a nuanced understanding of children’s cognitive development.",
+          "url": "https://doi.org/10.1177/09567976251321382",
+          "doi": "https://doi.org/10.1177/09567976251321382",
           "filter": 0
         }
       ],
