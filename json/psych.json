@@ -1,23 +1,16 @@
 {
-  "update": "2025-03-20",
+  "update": "2025-03-23",
   "content": [
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "Revised network loadings",
-          "authors": "Alexander P. Christensen, Hudson Golino, Francisco J. Abad, Luis Eduardo Garrido",
-          "abstract": "Psychometric assessment is the foundation of psychological research, where the accuracy of outcomes and their interpretations depend on measurement. Due to the widespread application of factor models, factor loadings are fundamental to modern psychometric assessment. Recent advances in network psychometrics introduced network loadings which aim to provide network models with a metric similar to factor loadings to assess measurement quality when the data are generated from a factor model. Our study revisits and refines the original network loadings to account for properties of (regularized) partial correlation networks, such as the reduction of partial correlation size as the number of variables increase, that were not considered previously. Using a simulation study, the revised network loadings demonstrated greater congruence with the simulated factor loadings across conditions relative to the original formulation. The simulation also evaluated how well correlations between factors can be captured by scores estimated with network loadings. The results show that not only can these network scores adequately estimate the simulated correlations between factors, they can do so without the need for rotation, a standard requirement for factor loadings. The consequence is that researchers do not need to choose a rotation with the revised network loadings, reducing the analytic degrees of freedom and eliminating this common source of variability in factor analysis. We discuss the interpretation of network loadings when data are believed to be generated from a network model and how they may fit into a network theory of measurement.",
-          "url": "https://doi.org/10.3758/s13428-025-02640-3",
-          "doi": "https://doi.org/10.3758/s13428-025-02640-3",
-          "filter": 0
-        },
-        {
-          "title": "Affective and non-affective psycholinguistic norms for 500 Chinese three-character idiomatic expressions",
-          "authors": "Yanlu Zhong, Yimei Shao, Wei Yi",
-          "url": "https://doi.org/10.3758/s13428-025-02633-2",
-          "doi": "https://doi.org/10.3758/s13428-025-02633-2",
+          "title": "What you see is not what you get: Observed scale score comparisons misestimate true group differences",
+          "authors": "Bjarne Schmalbach, Ileana Schmalbach, Jochen Hardt",
+          "abstract": "Social sciences of all kinds are interested in latent variables, their measurement, and how they differ between groups. The present study argues the importance of analyzing mean differences between groups using the latent variable approach. Using an open-access repository of widely applied personality questionnaires ( N = 999,033), we evaluate the extent to which the commonly used observed sum score is susceptible to measurement error. Our findings show that Cohen’s d values based on the observed variance significantly misestimate the true group difference (based on just the factor score variance) in 33 of the 70 studied cases, and by an average of 25.0% (or 0.048 standard deviations). There was no meaningful relationship between the effect size discrepancy and scale reliability as measured by McDonald’s ω. We discuss the implications of these results and outline concrete steps that applied researchers can take to improve their analyses.",
+          "url": "https://doi.org/10.3758/s13428-025-02639-w",
+          "doi": "https://doi.org/10.3758/s13428-025-02639-w",
           "filter": 0
         },
         {
@@ -37,21 +30,6 @@
           "filter": 0
         },
         {
-          "title": "Unraveling other-race face perception with GAN-based image reconstruction",
-          "authors": "Moaz Shoura, Dirk B. Walther, Adrian Nestor",
-          "url": "https://doi.org/10.3758/s13428-025-02636-z",
-          "doi": "https://doi.org/10.3758/s13428-025-02636-z",
-          "filter": 0
-        },
-        {
-          "title": "A toolbox for calculating quantitative image properties in aesthetics research",
-          "authors": "Christoph Redies, Ralf Bartho, Lisa Koßmann, Branka Spehar, Ronald Hübner, Johan Wagemans, Gregor U. Hayn-Leichsenring",
-          "abstract": "Over the past two decades, researchers in the field of visual aesthetics have studied numerous quantitative (objective) image properties and how they relate to visual aesthetic appreciation. However, results are difficult to compare between research groups. One reason is that researchers use different sets of image properties in their studies. However, even if the same properties are used, the image pre-processing techniques may differ, and researchers often use their own customized scripts to calculate the image properties. To provide better accessibility and comparability of research results in visual experimental aesthetics, we developed an open-access and easy-to-use toolbox called Aesthetics Toolbox . The Toolbox allows users to calculate a well-defined set of quantitative image properties popular in contemporary research. The properties include image dimensions, lightness and color statistics, complexity, symmetry, balance, Fourier spectrum properties, fractal dimension, self-similarity, as well as entropy measures and CNN-based variances. Compatible with most devices, the Toolbox provides an intuitive click-and-drop web interface. In the Toolbox, we integrated the original scripts of four different research groups and translated them into Python 3. To ensure that results were consistent across analyses, we took care that results from the Python versions of the scripts were the same as those from the original scripts. The toolbox, detailed documentation, and a link to the cloud version are available via GitHub: https://github.com/RBartho/Aesthetics-Toolbox . In summary, we developed a toolbox that helps to standardize and simplify the calculation of quantitative image properties for visual aesthetics research.",
-          "url": "https://doi.org/10.3758/s13428-025-02632-3",
-          "doi": "https://doi.org/10.3758/s13428-025-02632-3",
-          "filter": 0
-        },
-        {
           "title": "Ready to ROC? A tutorial on simulation-based power analyses for null hypothesis significance, minimum-effect, and equivalence testing for ROC curve analyses",
           "authors": "Paul Riesthuis, Henry Otgaar, Charlotte Bücken",
           "abstract": "The receiver operating characteristic (ROC) curve and its corresponding (partial) area under the curve (AUC) are frequently used statistical tools in psychological research to assess the discriminability of a test, method, intervention, or procedure. In this paper, we provide a tutorial on conducting simulation-based power analyses for ROC curve and (p)AUC analyses in R. We also created a Shiny app and the R package “ ROCpower ” to perform such power analyses. In our tutorial, we highlight the importance of setting the smallest effect size of interest (SESOI) for which researchers want to conduct their power analysis. The SESOI is the smallest effect that is practically or theoretically relevant for a specific field of research or study. We provide how such a SESOI can be established and how it changes hypotheses from simply establishing whether there is a statistically significant effect (i.e., null-hypothesis significance testing) to whether the effects are practically or theoretically important (i.e., minimum-effect testing) or whether the effect is too small to care about (i.e., equivalence testing). We show how power analyses for these different hypothesis tests can be conducted via a confidence interval-focused approach. This confidence interval-focused, simulation-based power analysis can be adapted to different research designs and questions and improves the reproducibility of power analyses.",
@@ -65,6 +43,21 @@
           "url": "https://doi.org/10.3758/s13428-025-02631-4",
           "doi": "https://doi.org/10.3758/s13428-025-02631-4",
           "filter": 0
+        },
+        {
+          "title": "ESM-Q: A consensus-based quality assessment tool for experience sampling method items",
+          "authors": "Gudrun Eisele, Anu Hiekkaranta, Yoram K. Kunkels, Marije aan het Rot, Wouter van Ballegooijen, Sara Laureen Bartels, Jojanneke A. Bastiaansen, Patrick N. Beymer, Lauren M. Bylsma, Ryan W. Carpenter, William D. Ellison, Aaron J. Fisher, Thomas Forkmann, Madelyn R. Frumkin, Daniel Fulford, Kristin Naragon-Gainey, Talya Greene, Vera E. Heininga, Andrew Jones, Elise K. Kalokerinos, Peter Kuppens, Kathryn L Modecki, Fabiola Müller, Andreas B. Neubauer, Vanessa Panaite, Maude Schneider, Jessie Sun, Stephen J. Wilson, Caroline Zygar-Hoffmann, Inez Myin-Germeys, Olivia J. Kirtley",
+          "url": "https://doi.org/10.3758/s13428-025-02626-1",
+          "doi": "https://doi.org/10.3758/s13428-025-02626-1",
+          "filter": 0
+        },
+        {
+          "title": "Sample size matters when estimating test–retest reliability of behaviour",
+          "authors": "Brendan Williams, Lily FitzGibbon, Daniel Brady, Anastasia Christakou",
+          "abstract": "Intraclass correlation coefficients (ICCs) are a commonly used metric in test–retest reliability research to assess a measure’s ability to quantify systematic between-subject differences. However, estimates of between-subject differences are also influenced by factors including within-subject variability, random errors, and measurement bias. Here, we use data collected from a large online sample ( N = 150) to (1) quantify test–retest reliability of behavioural and computational measures of reversal learning using ICCs, and (2) use our dataset as the basis for a simulation study investigating the effects of sample size on variance component estimation and the association between estimates of variance components and ICC measures. In line with previously published work, we find reliable behavioural and computational measures of reversal learning, a commonly used assay of behavioural flexibility. Reliable estimates of between-subject, within-subject (across-session), and error variance components for behavioural and computational measures (with ± .05 precision and 80% confidence) required sample sizes ranging from 10 to over 300 (behavioural median N : between-subject = 167, within-subject = 34, error = 103; computational median N : between-subject = 68, within-subject = 20, error = 45). These sample sizes exceed those often used in reliability studies, suggesting that sample sizes larger than are commonly used for reliability studies (circa 30) are required to robustly estimate reliability of task performance measures. Additionally, we found that ICC estimates showed highly positive and highly negative correlations with between-subject and error variance components, respectively, as might be expected, which remained relatively stable across sample sizes. However, ICC estimates were weakly or not correlated with within-subject variance, providing evidence for the importance of variance decomposition for reliability studies.",
+          "url": "https://doi.org/10.3758/s13428-025-02599-1",
+          "doi": "https://doi.org/10.3758/s13428-025-02599-1",
+          "filter": 0
         }
       ],
       "articles_hidden": []
@@ -74,24 +67,10 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "Physical characteristics of digital characters influence group categorization and recognition of affective states",
-          "authors": "Jacqueline Nguyen Phuong Trieu, Marie-Hélène Tessier, Clémentine Pouliot, Carole Bélanger, Yvan Leanza, Philip L. Jackson",
-          "url": "https://doi.org/10.1016/j.chb.2025.108638",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108638",
-          "filter": 0
-        },
-        {
-          "title": "Using a Two-Stage Method to Understand the Critical Factors Influencing Customers’ Intention to Switch from Traditional to Artificial Intelligence Based Banking Services: A Perspective Based on the Push–Pull–Mooring Model",
-          "authors": "Jiunn-Woei Lian, Cai-Wei Li",
-          "url": "https://doi.org/10.1016/j.chb.2025.108645",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108645",
-          "filter": 0
-        },
-        {
-          "title": "Virtual reality versus classic presentations of mass media campaigns: Effectiveness and psychological mechanisms using the example of environmental protection",
-          "authors": "Daniel Zimmermann, Paulina Wolf, Kai Kaspar",
-          "url": "https://doi.org/10.1016/j.chb.2025.108643",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108643",
+          "title": "Autonomous Technology in the Marketplace: the impact of enjoyment on consumer responses",
+          "authors": "Simoni F. Rohden, Carla Freitas Silveira Netto, Lélis Balestrin Espartel",
+          "url": "https://doi.org/10.1016/j.chb.2025.108647",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108647",
           "filter": 0
         },
         {
@@ -99,6 +78,20 @@
           "authors": "Karthikeyan Manikandan, Krishna Suketh Madduri, Justin Irby, Aurel Coza",
           "url": "https://doi.org/10.1016/j.chb.2025.108648",
           "doi": "https://doi.org/10.1016/j.chb.2025.108648",
+          "filter": 0
+        },
+        {
+          "title": "Decoding Digital Consumerism of Fashion Brands: Exploring the Role of Electronic Semiotics and Symbolic Interactionism on Instagram",
+          "authors": "Muhammad Naeem, Wilson Ozuem, Silvia Ranfagni,  Howell",
+          "url": "https://doi.org/10.1016/j.chb.2025.108642",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108642",
+          "filter": 0
+        },
+        {
+          "title": "Are Social Media Platforms Blurring the Lines Between Coercive Control and Healthy Relationship? A study investigating perceptions of coercive control",
+          "authors": "Holly Scothorne, Calli Tzani, Maria Ioannou, David Lester, Lucas Rogers, Thomas James Vaughan Williams, John Synnott, Greta Darmanin",
+          "url": "https://doi.org/10.1016/j.chb.2025.108649",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108649",
           "filter": 0
         }
       ],
@@ -109,19 +102,53 @@
       "journal_short": "GPIR",
       "articles": [
         {
-          "title": "Social judgement of defensive and secure social identities among advantaged and disadvantaged groups",
-          "authors": "Gaëlle Marinthe, Peggy Chekroun, Vincent Dru, Mélanie Kader-Issack, Clément Vallée, Patrick Mollaret",
-          "abstract": "This research integrates social judgement and social identity theories to examine evaluations of defensive (narcissistic) and secure social identity (vs. lack of identification) expressed by targets with varying group statuses (advantaged vs. disadvantaged). Across three studies (total N = 2,915), we manipulated target group status and forms of identity. In socioeconomic groups (Study 1), an advantaged target with a defensive identity was deemed assertive, while a disadvantaged counterpart was perceived as moral. Unexpectedly, in ethnocultural groups (Studies 2–3), the disadvantaged target expressing a defensive identity was judged equally or more assertive than the advantaged target. Notably, defensive identity from a disadvantaged target consistently garnered higher moral judgement than from an advantaged target. These results highlight that defensive identity can receive positive evaluations and confer elevated status. Nonetheless, we observed differential evaluation strategies depending on intergroup settings, suggesting system justification in socioeconomic groups versus ingroup favouritism in U.S. ethnic groups.",
-          "url": "https://doi.org/10.1177/13684302251317351",
-          "doi": "https://doi.org/10.1177/13684302251317351",
+          "title": "Toxic team climate: The causal role of psychopathic personality and lack of teamwork knowledge in dysfunctional team outcomes",
+          "authors": "Michael A. Baysinger, James M. LeBreton, Michael A. Campion",
+          "abstract": "We identify the central role of toxic team climate in understanding dysfunctional work teams. We develop and test a model identifying team-level psychopathic personality and teamwork knowledge as proximal contributors to the creation of toxic team climates, which mediates the effects to create dysfunctional team outcomes. We also tested an alternative model that treats teamwork knowledge as a moderator of the relationship between team psychopathy and toxic team climate. Using a four-wave longitudinal design, we evaluated these models in a sample of 508 business students comprising 107 student teams (35 MBA and 72 undergraduate) completing semester-long team projects. Results indicate that (1) teams with relatively higher levels of psychopathy and lower levels of teamwork knowledge were more likely to have toxic team climates, (2) teams with more toxic climates had higher levels of social loafing and interpersonal deviance, and lower team performance and satisfaction, and (3) the effects of psychopathy on dysfunctional outcomes were mediated by toxic team climate, but the effects of teamwork knowledge were not. In addition, teamwork knowledge moderated the relationship between team psychopathy and toxic team climate by reducing its effects. The study yields implications for the management of toxic work teams.",
+          "url": "https://doi.org/10.1177/13684302251314375",
+          "doi": "https://doi.org/10.1177/13684302251314375",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Journal of Personality and Social Psychology",
+      "journal_short": "JPSP",
+      "articles": [
+        {
+          "title": "Are moral people happier? Answers from reputation-based measures of moral character.",
+          "authors": "Jessie Sun, Wen Wu, Geoffrey P. Goodwin",
+          "url": "https://doi.org/10.1037/pspp0000539",
+          "doi": "https://doi.org/10.1037/pspp0000539",
           "filter": 0
         },
         {
-          "title": "Examining the impact of learning about a resolved conflict on attitudes in an ongoing conflict: Evidence from the Israeli–Palestinian context",
-          "authors": "Deborah Shulman, Michal Reifen-Tagar, Noa Omri, Eran Halperin",
-          "abstract": "A popular intervention for increasing support for peace in violent intergroup conflicts is to describe the peaceful resolution of other conflicts. In four experiments, we tested the effectiveness of this approach in the context of the Israeli–Palestinian conflict by exposing Jewish-Israelis to information about the Northern Ireland conflict and peace process, or about tourism in Northern Ireland as a control. We found that learning about the historical peace process generally led participants to view conflicts as more malleable, their own conflict as less unique, and led to unfreezing of conflict-related beliefs. However, it neither increased hope nor consistently boosted support for conciliatory policies. We explored boundary conditions and found effects were often stronger among leftist and centrist compared with rightists. Moreover, explicitly drawing analogies between conflicts at the outset proved ineffective, whereas exposing participants to the historical conflict and peace process without mentioning the proximal conflict was more successful.",
-          "url": "https://doi.org/10.1177/13684302251319689",
-          "doi": "https://doi.org/10.1177/13684302251319689",
+          "title": "Terminal decline of satisfaction in romantic relationships: Evidence from four longitudinal studies.",
+          "authors": "Janina Larissa Bühler, Ulrich Orth",
+          "url": "https://doi.org/10.1037/pspp0000551",
+          "doi": "https://doi.org/10.1037/pspp0000551",
+          "filter": 0
+        },
+        {
+          "title": "Enhancing others through information selection: Establishing the phenomenon and its preconditions.",
+          "authors": "Xi Shen, Allison Earl, Dolores Albarracin",
+          "url": "https://doi.org/10.1037/pspa0000439",
+          "doi": "https://doi.org/10.1037/pspa0000439",
+          "filter": 0
+        },
+        {
+          "title": "The landscape of personality psychology in the new millennium: A systematic keyword analysis of journal articles from 2000 to 2021.",
+          "authors": "John F. Rauthmann, Niclas Kuper",
+          "url": "https://doi.org/10.1037/pspp0000532",
+          "doi": "https://doi.org/10.1037/pspp0000532",
+          "filter": 0
+        },
+        {
+          "title": "Differences and similarities in psychological characteristics between cultural groups circum Mediterranean.",
+          "authors": "Ayse K. Uskul, Paul H. P. Hanel, Alexander Kirchner-Häusler, Vivian L. Vignoles, Shuxian Jin, Rosa Rodriguez-Bailón, Vanessa A. Castillo, Susan E. Cross, Meral Gezici Yalçın, Charles Harb, Shenel Husnu, Keiko Ishii, Panagiota Karamaouna, Konstantinos Kafetsios, Evangelia Kateri, Juan Matamoros-Lima, Rania Miniesy, Jinkyung Na, Zafer Özkan, Stefano Pagliaro, Charis Psaltis, Dina Rabie, Manuel Teresi, Yukiko Uchida",
+          "url": "https://doi.org/10.1037/pspa0000434",
+          "doi": "https://doi.org/10.1037/pspa0000434",
           "filter": 0
         }
       ],
@@ -132,13 +159,6 @@
       "journal_short": "MBR",
       "articles": [
         {
-          "title": "Exploring the Effects of Sampling Variability, Scale Variability, and Node Aggregation on the Consistency of Estimated Networks",
-          "authors": "Arianne Herrera-Bennett, Mijke Rhemtulla",
-          "url": "https://doi.org/10.1080/00273171.2024.2414479",
-          "doi": "https://doi.org/10.1080/00273171.2024.2414479",
-          "filter": 0
-        },
-        {
           "title": "Missing Data in Discrete Time State-Space Modeling of Ecological Momentary Assessment Data: A Monte-Carlo Study of Imputation Methods",
           "authors": "L. R. Slipetz, A. Falk, T. R. Henry",
           "url": "https://doi.org/10.1080/00273171.2025.2469055",
@@ -146,10 +166,10 @@
           "filter": 0
         },
         {
-          "title": "Correcting for Differences in Measurement Unreliability in Meta-Analysis of Variances",
-          "authors": "Katrin Jansen, Steffen Nestler",
-          "url": "https://doi.org/10.1080/00273171.2025.2469789",
-          "doi": "https://doi.org/10.1080/00273171.2025.2469789",
+          "title": "Bayesian Growth Curve Modeling with Measurement Error in Time",
+          "authors": "Lijin Zhang, Wen Qu, Zhiyong Zhang",
+          "url": "https://doi.org/10.1080/00273171.2025.2473937",
+          "doi": "https://doi.org/10.1080/00273171.2025.2473937",
           "filter": 0
         }
       ],
@@ -166,21 +186,68 @@
           "url": "https://doi.org/10.1177/10944281251326062",
           "doi": "https://doi.org/10.1177/10944281251326062",
           "filter": 0
-        },
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Personality and Social Psychology Bulletin",
+      "journal_short": "PSPB",
+      "articles": [
         {
-          "title": "What Are Mechanisms? Ways of Conceptualizing and Studying Causal Mechanisms",
-          "authors": "Joep P. Cornelissen, Mirjam Werner",
-          "abstract": "Over the last two decades, much of management research has converged on the belief that one of its major aims is to identify the causal mechanisms that produce the phenomena that researchers seek to explain. In this paper, we review and synthesize the literature that has amassed around causal mechanisms. We do so by detailing the different methodological perspectives that are featured in management research, which we label as the contextual, constitutive, and interventionist perspectives. For each of these perspectives, we examine what it theoretically presupposes a mechanism to be, how this connects to methodological choices, and how this shapes the kind of mechanism-based explanations that each perspective offers. We also explore the main inferential challenges for each of these perspectives and offer specific methodological guidance in response. In this way, we aim to offer a common plank for theorizing and research on causal mechanisms in ways that recognize and harness the productive differences across different epistemologies and methodological traditions.",
-          "url": "https://doi.org/10.1177/10944281251318727",
-          "doi": "https://doi.org/10.1177/10944281251318727",
+          "title": "Cultural Differences in Vicarious Optimism",
+          "authors": "Andreas Kappes, Xinyuan Yan, Molly J. Crockett, Yina Ma",
+          "abstract": "Prosocial behavior is affected by the beliefs people have about others. The maintenance of these beliefs is biased: people are vicariously optimistic when updating beliefs about the future of others they care about. This vicarious optimism influences prosocial behavior and might be shaped by the culture people live in. We investigated this question by measuring learning from good and bad news for oneself, friends, and strangers in a pre-registered study of Chinese and American participants ( N = 963). American participants showed a stronger bias for better-than-expected “good news” over worse-than-expected “bad news” when learning about themselves (optimism bias) and others (vicarious optimism) compared to Chinese participants. Chinese participants showed vicarious optimism only when learning about a friend, while American participants showed the most vicarious optimism when learning about an identifiable stranger. Our results provide evidence that culture might shape social behavior by biasing learning about the future of others.",
+          "url": "https://doi.org/10.1177/01461672251319566",
+          "doi": "https://doi.org/10.1177/01461672251319566",
           "filter": 0
         },
         {
-          "title": "Shedding Light on the Black Box: Integrating Prediction Models and Explainability Using Explainable Machine Learning",
-          "authors": "Yucheng Zhang, Yuyan Zheng, Dan Wang, Xiaowei Gu, Michael J. Zyphur, Lin Xiao, Shudi Liao, Yangyang Deng",
-          "abstract": "In contemporary organizational research, when dealing with large heterogeneous datasets and complex relationships, statistical modeling focused on developing substantive explanations typically results in low predictive accuracy. In contrast, machine learning (ML) exhibits remarkable strength for prediction, but suffers from an unexplainable analytical process and output—thus ML is often known as a “black box” approach. The recent development of explainable machine learning (XML) integrates high predictive accuracy with explainability, which combines the advantages inherent in both statistical modeling and ML paradigms. This paper compares XML with statistical modeling and the traditional ML approaches, focusing on an advanced application of XML known as evolving fuzzy system (EFS), which enhances model transparency by clarifying the unique contribution of each modeled predictor. In an illustrative study, we demonstrate two EFS-based XML models and conduct comparative analyses among XML, ML, and statistical models with a commonly-used database in organizational research. Our study offers a thorough description of analysis procedures for implementing XML in organizational research, along with best-practice recommendations for each step as well as Python code to aid future research using XML. Finally, we discuss the benefits of XML for organizational research and its potential development.",
-          "url": "https://doi.org/10.1177/10944281251323248",
-          "doi": "https://doi.org/10.1177/10944281251323248",
+          "title": "Rigidity-of-the-Right and Ideological Extremism in Belief Superiority: Evidence From National Surveys in Indonesia",
+          "authors": "Whinda Yustisia, Victor Ottati, Joevarian Hudiyana, Mario Muhammad Noer Fauzan, Khaerullah Fadhli Arasy Hasan, Salma Moaz, Kadek Dwita Apriani",
+          "abstract": "Previous research in the United States has examined the Rigidity of the Right and Ideological Extremism hypotheses as they pertain to belief superiority. The former hypothesis predicts that conservatives possess higher levels of belief superiority than liberals, whereas the second hypothesis predicts that belief superiority is higher for ideologically extreme individuals than more moderate individuals. This study aims to examine these hypotheses in Indonesia. Unlike the United States, Indonesian political ideology often emphasizes the dichotomy between secular and religious beliefs. However, we expect similar results due to shared similarities, especially with regard to adherence to traditional values and authorities. We also investigated whether the relationship between ideology and belief superiority varied based on political expertise. Across two national surveys, we found evidence for both the Rigidity of the Right hypothesis and the Ideological Extremism hypothesis. These findings remained significant even after controlling for dogmatism. Political expertise did not consistently moderate these relationships. We discuss the implications of these results for the debates surrounding ideological extremism versus the right-rigidity hypothesis in political psychology.",
+          "url": "https://doi.org/10.1177/01461672251319114",
+          "doi": "https://doi.org/10.1177/01461672251319114",
+          "filter": 0
+        },
+        {
+          "title": "U.S. Adults Believe That “Children” Are Color-Evasive and “Black Children” Process Race Early",
+          "authors": "Leigh S. Wilton, Jess Sullivan, Evan P. Apfelbaum",
+          "abstract": "Across five pre-registered studies (three main text, two supplement, one single-paper meta-analysis; N total = 5,051), we test how adults’ beliefs about children’s engagement with race are shaped by children’s specified race. We argue that specifying a child’s race activates race-specific considerations that disrupt adults’ default assumption that “children” (in generic terms) do not notice race or racial differences. As a result, adults perceive both Black children and White children as significantly more likely to notice race than “children.” We also argue that the particular racial group specified shapes adults’ perceptions of when race-related capacities develop. This causes adults to perceive Black children as developing race-related capacities earlier than both White children and “children.” We connect these effects to differences in the timing and content of adult-child conversations about race and racism, showing that how adults construe children can change when and how they talk with them about race.",
+          "url": "https://doi.org/10.1177/01461672251321545",
+          "doi": "https://doi.org/10.1177/01461672251321545",
+          "filter": 0
+        },
+        {
+          "title": "Self-Invitation Hesitation: How and Why People Fail to Ask to Join the Plans of Others",
+          "authors": "Julian Givi, Daniel M. Grossman, Colleen P. Kirk, Constantine Sedikides",
+          "abstract": "Spending time with others affords numerous benefits. One way a person can spend time with others is through a self-invitation—asking to join the plans of others. We address the psychological processes involved with self-invitations to everyday social activities from both the self-inviter’s perspective and the perspective of those with the plans (“plan-holders”). Across eight studies (seven preregistered), we demonstrate that potential self-inviters fail to ask to join the plans of others as often as plan-holders would prefer, because potential self-inviters overestimate how irritated plan-holders would be by such self-invitations. Further, we show that these asymmetries are rooted in differing viewpoints about the mindsets of plan-holders when they originally made the plans. Namely, potential self-inviters exaggerate the likelihood that plan-holders had already considered inviting them but decided against it (vs. made plans without considering inviting them). We conclude by discussing the various implications of our findings.",
+          "url": "https://doi.org/10.1177/01461672251324232",
+          "doi": "https://doi.org/10.1177/01461672251324232",
+          "filter": 0
+        },
+        {
+          "title": "Balancing Stereotypically Compatible and Incompatible Identities",
+          "authors": "Anna Woodcock, Blaine Pedersen, Paul R. Hernandez, P. Wesley Schultz",
+          "abstract": "Social stereotypes have been linked with gender and racial disparities in science, technology, engineering, and mathematics (STEM) fields. Developing a domain identity in a STEM field is linked with persistence and success among students from negatively stereotyped groups. However, these students often report a conflict between their group and domain identities. Across two studies we apply balanced identity design theory and latent profile analysis (LPA) to understand how individuals navigate stereotypically incompatible identities. In Study 1, we find that novice STEM majors from negatively stereotyped groups are less likely to hold identity balance than their positively stereotyped counterparts. However, in a separate sample of students approaching graduation in Study 2, the groups converge; both predominantly achieving identity balance. LPA identified three predominant clusters of identity balanced students which differentially predicted academic achievement and well-being for negatively compared with positively stereotyped students. This underscores the importance of understanding balanced identities for addressing underrepresentation in STEM.",
+          "url": "https://doi.org/10.1177/01461672251322088",
+          "doi": "https://doi.org/10.1177/01461672251322088",
+          "filter": 0
+        },
+        {
+          "title": "What Are My Friends Really Like? How We Change Our Perceptions of Familiar Others’ Traits and Actions",
+          "authors": "Benjamin M. Silver, Wangjing Yu, Niall Bolger, Lila Davachi, Kevin N. Ochsner",
+          "abstract": "In everyday life, our perceptions of others’ traits are influenced by a combination of their actions and our relationship with them. We enrolled 142 participants in a virtual escape room to examine (a) whether an unfamiliar task changed perceptions of friends’ traits, (b) which types of prior relationships influenced trait perceptions, and (c) the relative importance of perceptions of actions in assessing traits. Higher pregame similarity ratings led to increases in perceptions of competence, while higher pregame liking ratings led to increases in perceptions of sociability. In addition, objective performance mattered for competence ratings, whereas subjective perceptions of performance mattered for sociability ratings. Our findings demonstrate the importance of real-world relationships not only for how we change our beliefs about others’ traits but also for perceptions of the very actions we use as evidence for those beliefs.",
+          "url": "https://doi.org/10.1177/01461672251320476",
+          "doi": "https://doi.org/10.1177/01461672251320476",
+          "filter": 0
+        },
+        {
+          "title": "Racial Knowledge and the Tenets of Critical Race Theory: Is Opposition to CRT Due to Ignorance?",
+          "authors": "Scott Eidelman, Mejdy Jabr, Emily Vance, Marie Altgilbers Roweton, Austin Eubanks",
+          "abstract": "Is racial ignorance a cause of lay opposition to critical race theory (CRT)? In Study 1, undergraduates completed a test of racial knowledge and indicated support for CRT tenets (e.g., that racism is common and structural; that race is socially constructed and intersectional). Accurate racial knowledge, determined by signal detection analysis, predicted tenet support, even when controlling for racial prejudice, social dominance, and political conservatism. In three experiments, White undergraduates learned critical knowledge about race vs. poverty or transportation (Studies 2 and 3, respectively) or structural racism vs. pig intelligence (Study 4). In each, critical racial knowledge increased CRT tenet support. In Study 1, racial knowledge predicted blind patriotism negatively but constructive patriotism positively. Acquiring critical racial knowledge in Studies 2–4 did not lead participants to distance from America, despite claims of cultural critics. Teaching critical knowledge about race may be an effective means to promote racial understanding.",
+          "url": "https://doi.org/10.1177/01461672251321993",
+          "doi": "https://doi.org/10.1177/01461672251321993",
           "filter": 0
         }
       ],
@@ -191,10 +258,10 @@
       "journal_short": "PM",
       "articles": [
         {
-          "title": "Adjusting for nonrepresentativeness in continuous norming using multilevel regression and poststratification.",
-          "authors": "Klazien de Vries, Marieke E. Timmerman, Anja F. Ernst, Casper J. Albers",
-          "url": "https://doi.org/10.1037/met0000752",
-          "doi": "https://doi.org/10.1037/met0000752",
+          "title": "Bayesian nonparametric latent class analysis with different item types.",
+          "authors": "Meng Qiu, Sally Paganin, Ilsang Ohn, Lizhen Lin",
+          "url": "https://doi.org/10.1037/met0000728",
+          "doi": "https://doi.org/10.1037/met0000728",
           "filter": 0
         }
       ],
@@ -205,19 +272,27 @@
       "journal_short": "PsychSci",
       "articles": [
         {
-          "title": "The Effects of Group Affiliation Versus Individuating Information on Direct and Indirect Measures of the Evaluation of Novel Individual Group Members",
-          "authors": "Mayan Navon, Yoav Bar-Anan",
-          "abstract": "Automatic evaluation has emerged as a central concept in contemporary thinking about prejudice. The current research tested a quintessential aspect of prejudice: whether group affiliation dominates the automatic evaluation of individual group members even when diagnostic evaluative information about the individuals is available. Participants read a list of descriptions about the behaviors of two individuals: one from a typically liked group and one from a typically disliked group. The list portrayed one individual more positively than the other, and we manipulated the extremity and direction of that difference. We conducted six studies ( N = 11,572) with samples consisting of U.S. adults across different regions and group types (age, gender, and race) and two indirect measures that purportedly measure automatic evaluation: the implicit association test (IAT) and the evaluative priming task (EPT). Group affiliation (relative to personal characteristics) influenced the IAT and the EPT more than it influenced the self-reported evaluation. These results may suggest that the automatic evaluation of individuals is more prejudiced than nonautomatic evaluation.",
-          "url": "https://doi.org/10.1177/09567976251315689",
-          "doi": "https://doi.org/10.1177/09567976251315689",
-          "filter": 0
-        },
-        {
           "title": "Co-Occurrence and Causality Among ADHD, Dyslexia, and Dyscalculia",
           "authors": "Elsje van Bergen, Eveline L. de Zeeuw, Sara A. Hart, Dorret I. Boomsma, Eco J. C. de Geus, Kees-Jan Kan",
           "abstract": "ADHD, dyslexia, and dyscalculia often co-occur, and the underlying continuous traits are correlated (ADHD symptoms, reading, spelling, and math skills). This may be explained by trait-to-trait causal effects, shared genetic and environmental factors, or both. We studied a sample of ≤ 19,125 twin children and 2,150 siblings from the Netherlands Twin Register, assessed at ages 7 and 10. Children with a condition, compared to those without that condition, were 2.1 to 3.1 times more likely to have a second condition. Still, most children (77.3%) with ADHD, dyslexia, or dyscalculia had just one condition. Cross-lagged modeling suggested that reading causally influences spelling (β = 0.44). For all other trait combinations, cross-lagged modeling suggested that the trait correlations are attributable to genetic influences common to all traits, rather than causal influences. Thus, ADHD, dyslexia, and dyscalculia seem to co-occur because of correlated genetic risks, rather than causality.",
           "url": "https://doi.org/10.1177/09567976241293999",
           "doi": "https://doi.org/10.1177/09567976241293999",
+          "filter": 0
+        },
+        {
+          "title": "Does Religious-Service Attendance Increase Mental Health? A Random-Intercept Cross-Lagged Panel Analysis Across 18 Years",
+          "authors": "Gabriele Prati",
+          "abstract": "The study aimed to investigate the within-person relationship between religious-service attendance and mental health using data from the British Household Panel Survey ( N = 29,298), a longitudinal survey of adult British households between 1991 and 2009. The outcome variables were mental health (as measured with the General Health Questionnaire) and life satisfaction. Using random-intercept cross-lagged panel models over 10 waves of data spanning over 18 years, the associations between religious-service attendance and mental health at the within-person level were mostly nonsignificant. The few significant findings indicated that an increase in religious-service attendance is associated subsequently with either higher or lower levels of mental health, suggesting both detrimental and beneficial effects. A series of robustness analyses (including the use of marginal structural models) mainly supported these findings. The results suggest that there is a need to question the assumption that religious-service attendance provides mental health benefits.",
+          "url": "https://doi.org/10.1177/09567976251325449",
+          "doi": "https://doi.org/10.1177/09567976251325449",
+          "filter": 0
+        },
+        {
+          "title": "Reluctance to Downplay: Asymmetric Sensitivity to Differences in the Severity of Moral Transgressions",
+          "authors": "Amanda E. Geiser, Ike Silver, Deborah A. Small",
+          "abstract": "A common-sense moral intuition is that bad acts should be condemned according to severity. Yet seven experiments ( N = 6,075 U.S. adults) show that the extent to which people differentiate between transgressions hinges on the direction of comparison. When scaling up from a less severe transgression to a more severe one, people readily express stronger condemnation of the worse transgression. But when scaling down from a more severe transgression to a less severe one, they differentiate less, often condemning the lesser transgression just as strongly as one that is transparently worse. Indicating that one transgression is less bad than another can be construed as downplaying such transgressions, signaling bad moral character. Supporting this account, the asymmetry is larger for judgments that implicate moral character and for transgressions that seem especially important to condemn. Observers’ moral-character judgments reveal a similar pattern, suggesting that the asymmetry is reinforced by social incentives.",
+          "url": "https://doi.org/10.1177/09567976251314972",
+          "doi": "https://doi.org/10.1177/09567976251314972",
           "filter": 0
         },
         {
@@ -232,6 +307,27 @@
       "articles_hidden": []
     },
     {
+      "journal_full": "Psychology of Popular Media",
+      "journal_short": "PPM",
+      "articles": [
+        {
+          "title": "Reality check: A qualitative study of mental well-being among participants.",
+          "authors": "Christine Chapais",
+          "url": "https://doi.org/10.1037/ppm0000597",
+          "doi": "https://doi.org/10.1037/ppm0000597",
+          "filter": 0
+        },
+        {
+          "title": "Mood repair following eudaimonic media selection.",
+          "authors": "Danyang Zhao, Arthur A. Raney",
+          "url": "https://doi.org/10.1037/ppm0000594",
+          "doi": "https://doi.org/10.1037/ppm0000594",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Technology, Mind, and Behavior",
       "journal_short": "TMB",
       "articles": [
@@ -240,6 +336,27 @@
           "authors": "Jesper Aagaard",
           "url": "https://doi.org/10.1037/tmb0000160",
           "doi": "https://doi.org/10.1037/tmb0000160",
+          "filter": 0
+        },
+        {
+          "title": "Does statistical evidence change case-based perception of the effectiveness of earthquake early warning?",
+          "authors": "Kazuya Nakayachi, Ryosuke Yokoi, Julia S. Becker",
+          "url": "https://doi.org/10.1037/tmb0000158",
+          "doi": "https://doi.org/10.1037/tmb0000158",
+          "filter": 0
+        },
+        {
+          "title": "Supplemental Material for Does statistical evidence change case-based perception of the effectiveness of earthquake early warning?",
+          "authors": "Kazuya Nakayachi, Ryosuke Yokoi, Julia S. Becker",
+          "url": "https://doi.org/10.1037/tmb0000158.supp",
+          "doi": "https://doi.org/10.1037/tmb0000158.supp",
+          "filter": 0
+        },
+        {
+          "title": "Perceived shared understanding between humans and artificial intelligence: Development and validation of a self-report scale.",
+          "authors": "Qingyu Liang, Jaime Banks",
+          "url": "https://doi.org/10.1037/tmb0000161",
+          "doi": "https://doi.org/10.1037/tmb0000161",
           "filter": 0
         },
         {
@@ -271,6 +388,13 @@
           "filter": 0
         },
         {
+          "title": "Brain-based predictive modeling of mind wandering and involuntary thought: The idiographic approach.",
+          "authors": "Lotus Shareef-Trudeau, David Lydon-Staley, John Medaglia, Aaron Kucyi",
+          "url": "https://doi.org/10.1037/tmb0000155",
+          "doi": "https://doi.org/10.1037/tmb0000155",
+          "filter": 0
+        },
+        {
           "title": "Supplemental Material for (Mobile) self-enhancement in selective exposure: The complex relationship between negative self-threat and downward comparison.",
           "authors": "Morgan Quinn Ross, Chris Cosma, Silvia Knobloch-Westerwick",
           "url": "https://doi.org/10.1037/tmb0000157.supp",
@@ -278,10 +402,10 @@
           "filter": 0
         },
         {
-          "title": "Brain-based predictive modeling of mind wandering and involuntary thought: The idiographic approach.",
-          "authors": "Lotus Shareef-Trudeau, David Lydon-Staley, John Medaglia, Aaron Kucyi",
-          "url": "https://doi.org/10.1037/tmb0000155",
-          "doi": "https://doi.org/10.1037/tmb0000155",
+          "title": "Supplemental Material for Perceived shared understanding between humans and artificial intelligence: Development and validation of a self-report scale.",
+          "authors": "Qingyu Liang, Jaime Banks",
+          "url": "https://doi.org/10.1037/tmb0000161.supp",
+          "doi": "https://doi.org/10.1037/tmb0000161.supp",
           "filter": 0
         }
       ],
