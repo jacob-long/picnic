@@ -1,31 +1,30 @@
 {
-  "update": "2025-03-20",
+  "update": "2025-03-23",
   "content": [
     {
-      "journal_full": "Journal of Official Statistics",
-      "journal_short": "JOS",
+      "journal_full": "Journal of Elections, Public Opinion and Parties",
+      "journal_short": "JEPOP",
       "articles": [
         {
-          "title": "Performance Measures for Sample Selection Bias Correction by Weighting",
-          "authors": "An-Chiao Liu, Sander Scholtus, Katrijn Van Deun, Ton de Waal",
-          "abstract": "When estimating a population parameter by a nonprobability sample, that is, a sample without a known sampling mechanism, the estimate may suffer from sample selection bias. To correct selection bias, one of the often-used methods is assigning a set of unit weights to the nonprobability sample, and estimating the target parameter by a weighted sum. Such weights are often obtained with classification methods. However, a tailor-made framework to evaluate the quality of the assigned weights is missing in the literature, and the evaluation framework for prediction may not be suitable for population parameter estimation by weighting. We try to fill in the gap by discussing several promising performance measures, which are inspired by classical calibration and measures of selection bias. In this paper, we assume that the population parameter of interest is the population mean of a target variable. A simulation study and real data examples show that some performance measures have a strong positive relationship with the mean squared error and/or error of the estimated population mean. These performance measures may be helpful for model selection when constructing weights by logistic regression or machine learning algorithms.",
-          "url": "https://doi.org/10.1177/0282423x251318463",
-          "doi": "https://doi.org/10.1177/0282423x251318463",
+          "title": "Are some parties immune from scandal? Party family, scandal exposure, and party evaluation",
+          "authors": "Debra Leiter, Beth Vonnahme",
+          "url": "https://doi.org/10.1080/17457289.2025.2474423",
+          "doi": "https://doi.org/10.1080/17457289.2025.2474423",
           "filter": 0
         }
       ],
       "articles_hidden": []
     },
     {
-      "journal_full": "Social Science Computer Review",
-      "journal_short": "SSCR",
+      "journal_full": "Journal of Official Statistics",
+      "journal_short": "JOS",
       "articles": [
         {
-          "title": "Exploring the Use of a Large Language Model for Inductive Content Analysis in a Discourse Network Analysis Study",
-          "authors": "Steve Randerson, Thomas Graydon-Guy, En-Yi Lin, Sally Casswell",
-          "abstract": "Large language models show promising capability in some qualitative content analysis tasks; however, research reporting their performance in identifying initial codes that underpin subsequent analysis is scarce. This paper explores the suitability of GPT-4 to assist in building a codebook for a discourse network analysis (DNA) of a recent alcohol policy reform. DNA is a codebook-driven approach to identifying groupings of actors who use similar policy framings. The paper uses GPT-4 to identify initial codes (‘concepts’) and related quotes in 108 news articles and interviews. The results produced by GPT-4 are compared to a codebook prepared by researchers. GPT-4 identified over two-thirds of the concepts found by the researchers, and it was highly accurate in screening out a large volume of irrelevant media items. However, GPT-4 also provided many irrelevant concepts that required researcher review and removal. The discussion reflects on the implications for using GPT-4 in codebook preparation for DNA and other situations, including the need for human involvement and sample testing to understand its strengths and limitations, which may limit efficiency gains.",
-          "url": "https://doi.org/10.1177/08944393251326175",
-          "doi": "https://doi.org/10.1177/08944393251326175",
+          "title": "Combining Administrative and Survey Data to Correct Coverage Errors in Register-Based Statistics: A Bayesian Approach",
+          "authors": "Veronica Ballerini, Marco Di Zio, Brunero Liseo, Simona Toti",
+          "abstract": "The statistical production process of many National Institutes is increasingly exploiting the integration of administrative data and sample surveys. Administrative data are generally affected by errors; among others, under and over-coverage may introduce bias in the statistics produced. In this paper, we propose a method to make inference on the population sizes at different aggregation levels by leveraging administrative data in the presence of coverage errors. We introduce a Bayesian statistical model for integrating nonprobability (register-based) and probability samples. The use of a Bayesian model allows a natural quantification of the uncertainty of estimates through the posterior distribution of the unknown target parameters. Although the framework we discuss is quite general, we will mainly refer to the setting of the Italian Permanent Census. We first assess the model performance using simulated data closely related to the real one; then, we provide results for the real data.",
+          "url": "https://doi.org/10.1177/0282423x241312739",
+          "doi": "https://doi.org/10.1177/0282423x241312739",
           "filter": 0
         }
       ],
