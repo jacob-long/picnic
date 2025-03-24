@@ -1,5 +1,5 @@
 {
-  "update": "2025-03-23",
+  "update": "2025-03-24",
   "content": [
     {
       "journal_full": "Behavior Research Methods",
@@ -11,6 +11,13 @@
           "abstract": "Social sciences of all kinds are interested in latent variables, their measurement, and how they differ between groups. The present study argues the importance of analyzing mean differences between groups using the latent variable approach. Using an open-access repository of widely applied personality questionnaires ( N = 999,033), we evaluate the extent to which the commonly used observed sum score is susceptible to measurement error. Our findings show that Cohen’s d values based on the observed variance significantly misestimate the true group difference (based on just the factor score variance) in 33 of the 70 studied cases, and by an average of 25.0% (or 0.048 standard deviations). There was no meaningful relationship between the effect size discrepancy and scale reliability as measured by McDonald’s ω. We discuss the implications of these results and outline concrete steps that applied researchers can take to improve their analyses.",
           "url": "https://doi.org/10.3758/s13428-025-02639-w",
           "doi": "https://doi.org/10.3758/s13428-025-02639-w",
+          "filter": 0
+        },
+        {
+          "title": "ESM-Q: A consensus-based quality assessment tool for experience sampling method items",
+          "authors": "Gudrun Eisele, Anu Hiekkaranta, Yoram K. Kunkels, Marije aan het Rot, Wouter van Ballegooijen, Sara Laureen Bartels, Jojanneke A. Bastiaansen, Patrick N. Beymer, Lauren M. Bylsma, Ryan W. Carpenter, William D. Ellison, Aaron J. Fisher, Thomas Forkmann, Madelyn R. Frumkin, Daniel Fulford, Kristin Naragon-Gainey, Talya Greene, Vera E. Heininga, Andrew Jones, Elise K. Kalokerinos, Peter Kuppens, Kathryn L Modecki, Fabiola Müller, Andreas B. Neubauer, Vanessa Panaite, Maude Schneider, Jessie Sun, Stephen J. Wilson, Caroline Zygar-Hoffmann, Inez Myin-Germeys, Olivia J. Kirtley",
+          "url": "https://doi.org/10.3758/s13428-025-02626-1",
+          "doi": "https://doi.org/10.3758/s13428-025-02626-1",
           "filter": 0
         },
         {
@@ -30,6 +37,14 @@
           "filter": 0
         },
         {
+          "title": "Sample size matters when estimating test–retest reliability of behaviour",
+          "authors": "Brendan Williams, Lily FitzGibbon, Daniel Brady, Anastasia Christakou",
+          "abstract": "Intraclass correlation coefficients (ICCs) are a commonly used metric in test–retest reliability research to assess a measure’s ability to quantify systematic between-subject differences. However, estimates of between-subject differences are also influenced by factors including within-subject variability, random errors, and measurement bias. Here, we use data collected from a large online sample ( N = 150) to (1) quantify test–retest reliability of behavioural and computational measures of reversal learning using ICCs, and (2) use our dataset as the basis for a simulation study investigating the effects of sample size on variance component estimation and the association between estimates of variance components and ICC measures. In line with previously published work, we find reliable behavioural and computational measures of reversal learning, a commonly used assay of behavioural flexibility. Reliable estimates of between-subject, within-subject (across-session), and error variance components for behavioural and computational measures (with ± .05 precision and 80% confidence) required sample sizes ranging from 10 to over 300 (behavioural median N : between-subject = 167, within-subject = 34, error = 103; computational median N : between-subject = 68, within-subject = 20, error = 45). These sample sizes exceed those often used in reliability studies, suggesting that sample sizes larger than are commonly used for reliability studies (circa 30) are required to robustly estimate reliability of task performance measures. Additionally, we found that ICC estimates showed highly positive and highly negative correlations with between-subject and error variance components, respectively, as might be expected, which remained relatively stable across sample sizes. However, ICC estimates were weakly or not correlated with within-subject variance, providing evidence for the importance of variance decomposition for reliability studies.",
+          "url": "https://doi.org/10.3758/s13428-025-02599-1",
+          "doi": "https://doi.org/10.3758/s13428-025-02599-1",
+          "filter": 0
+        },
+        {
           "title": "Ready to ROC? A tutorial on simulation-based power analyses for null hypothesis significance, minimum-effect, and equivalence testing for ROC curve analyses",
           "authors": "Paul Riesthuis, Henry Otgaar, Charlotte Bücken",
           "abstract": "The receiver operating characteristic (ROC) curve and its corresponding (partial) area under the curve (AUC) are frequently used statistical tools in psychological research to assess the discriminability of a test, method, intervention, or procedure. In this paper, we provide a tutorial on conducting simulation-based power analyses for ROC curve and (p)AUC analyses in R. We also created a Shiny app and the R package “ ROCpower ” to perform such power analyses. In our tutorial, we highlight the importance of setting the smallest effect size of interest (SESOI) for which researchers want to conduct their power analysis. The SESOI is the smallest effect that is practically or theoretically relevant for a specific field of research or study. We provide how such a SESOI can be established and how it changes hypotheses from simply establishing whether there is a statistically significant effect (i.e., null-hypothesis significance testing) to whether the effects are practically or theoretically important (i.e., minimum-effect testing) or whether the effect is too small to care about (i.e., equivalence testing). We show how power analyses for these different hypothesis tests can be conducted via a confidence interval-focused approach. This confidence interval-focused, simulation-based power analysis can be adapted to different research designs and questions and improves the reproducibility of power analyses.",
@@ -43,21 +58,6 @@
           "url": "https://doi.org/10.3758/s13428-025-02631-4",
           "doi": "https://doi.org/10.3758/s13428-025-02631-4",
           "filter": 0
-        },
-        {
-          "title": "ESM-Q: A consensus-based quality assessment tool for experience sampling method items",
-          "authors": "Gudrun Eisele, Anu Hiekkaranta, Yoram K. Kunkels, Marije aan het Rot, Wouter van Ballegooijen, Sara Laureen Bartels, Jojanneke A. Bastiaansen, Patrick N. Beymer, Lauren M. Bylsma, Ryan W. Carpenter, William D. Ellison, Aaron J. Fisher, Thomas Forkmann, Madelyn R. Frumkin, Daniel Fulford, Kristin Naragon-Gainey, Talya Greene, Vera E. Heininga, Andrew Jones, Elise K. Kalokerinos, Peter Kuppens, Kathryn L Modecki, Fabiola Müller, Andreas B. Neubauer, Vanessa Panaite, Maude Schneider, Jessie Sun, Stephen J. Wilson, Caroline Zygar-Hoffmann, Inez Myin-Germeys, Olivia J. Kirtley",
-          "url": "https://doi.org/10.3758/s13428-025-02626-1",
-          "doi": "https://doi.org/10.3758/s13428-025-02626-1",
-          "filter": 0
-        },
-        {
-          "title": "Sample size matters when estimating test–retest reliability of behaviour",
-          "authors": "Brendan Williams, Lily FitzGibbon, Daniel Brady, Anastasia Christakou",
-          "abstract": "Intraclass correlation coefficients (ICCs) are a commonly used metric in test–retest reliability research to assess a measure’s ability to quantify systematic between-subject differences. However, estimates of between-subject differences are also influenced by factors including within-subject variability, random errors, and measurement bias. Here, we use data collected from a large online sample ( N = 150) to (1) quantify test–retest reliability of behavioural and computational measures of reversal learning using ICCs, and (2) use our dataset as the basis for a simulation study investigating the effects of sample size on variance component estimation and the association between estimates of variance components and ICC measures. In line with previously published work, we find reliable behavioural and computational measures of reversal learning, a commonly used assay of behavioural flexibility. Reliable estimates of between-subject, within-subject (across-session), and error variance components for behavioural and computational measures (with ± .05 precision and 80% confidence) required sample sizes ranging from 10 to over 300 (behavioural median N : between-subject = 167, within-subject = 34, error = 103; computational median N : between-subject = 68, within-subject = 20, error = 45). These sample sizes exceed those often used in reliability studies, suggesting that sample sizes larger than are commonly used for reliability studies (circa 30) are required to robustly estimate reliability of task performance measures. Additionally, we found that ICC estimates showed highly positive and highly negative correlations with between-subject and error variance components, respectively, as might be expected, which remained relatively stable across sample sizes. However, ICC estimates were weakly or not correlated with within-subject variance, providing evidence for the importance of variance decomposition for reliability studies.",
-          "url": "https://doi.org/10.3758/s13428-025-02599-1",
-          "doi": "https://doi.org/10.3758/s13428-025-02599-1",
-          "filter": 0
         }
       ],
       "articles_hidden": []
@@ -67,7 +67,7 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "Autonomous Technology in the Marketplace: the impact of enjoyment on consumer responses",
+          "title": "Autonomous technology in the marketplace: The impact of enjoyment on consumer responses",
           "authors": "Simoni F. Rohden, Carla Freitas Silveira Netto, Lélis Balestrin Espartel",
           "url": "https://doi.org/10.1016/j.chb.2025.108647",
           "doi": "https://doi.org/10.1016/j.chb.2025.108647",
@@ -102,11 +102,33 @@
       "journal_short": "GPIR",
       "articles": [
         {
+          "title": "An investigation of how gender shapes the appearance and judgment of apologetic faces",
+          "authors": "Meghan George, Joshua R. Guilfoyle, C. Ward Struthers, Jennifer R. Steele",
+          "abstract": "Do people have mental representations of what apologetic faces look like? Do representations differ by gender? We used reverse correlation to (a) generate images that approximate mental representations of apologetic faces, (b) determine whether these images are rated highly on apology-related characteristics, and (c) see if ratings differ by gender of the image generator, target face, and/or image rater. Faces generated from male and female base faces to look apologetic were rated as more apologetic, remorseful, and sad than the base face, demonstrating these mental representations can be approximated using reverse correlation. Findings suggest visually represented apologies express multiple apology-related characteristics. Study 2 revealed the visual templates of faces generated by the gender ingroup appeared more apologetic than those of the gender outgroup; women-generated female faces were most apologetic, and men-generated female faces were least apologetic. Findings highlight gender differences in mental representation, but not perception, of female apologetic faces.",
+          "url": "https://doi.org/10.1177/13684302251322754",
+          "doi": "https://doi.org/10.1177/13684302251322754",
+          "filter": 0
+        },
+        {
           "title": "Toxic team climate: The causal role of psychopathic personality and lack of teamwork knowledge in dysfunctional team outcomes",
           "authors": "Michael A. Baysinger, James M. LeBreton, Michael A. Campion",
           "abstract": "We identify the central role of toxic team climate in understanding dysfunctional work teams. We develop and test a model identifying team-level psychopathic personality and teamwork knowledge as proximal contributors to the creation of toxic team climates, which mediates the effects to create dysfunctional team outcomes. We also tested an alternative model that treats teamwork knowledge as a moderator of the relationship between team psychopathy and toxic team climate. Using a four-wave longitudinal design, we evaluated these models in a sample of 508 business students comprising 107 student teams (35 MBA and 72 undergraduate) completing semester-long team projects. Results indicate that (1) teams with relatively higher levels of psychopathy and lower levels of teamwork knowledge were more likely to have toxic team climates, (2) teams with more toxic climates had higher levels of social loafing and interpersonal deviance, and lower team performance and satisfaction, and (3) the effects of psychopathy on dysfunctional outcomes were mediated by toxic team climate, but the effects of teamwork knowledge were not. In addition, teamwork knowledge moderated the relationship between team psychopathy and toxic team climate by reducing its effects. The study yields implications for the management of toxic work teams.",
           "url": "https://doi.org/10.1177/13684302251314375",
           "doi": "https://doi.org/10.1177/13684302251314375",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Journal of Experimental Social Psychology",
+      "journal_short": "JESP",
+      "articles": [
+        {
+          "title": "Perceived outgroup entitativity mediates stronger effects of intergroup contact for majority than minority status groups",
+          "authors": "Sybille Neji, Miles Hewstone, Chloe Bracegirdle, Oliver Christ",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104748",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104748",
           "filter": 0
         }
       ],
@@ -158,6 +180,13 @@
       "journal_full": "Multivariate Behavioral Research",
       "journal_short": "MBR",
       "articles": [
+        {
+          "title": "Toward a Psychology of Individuals: The Ergodicity Information Index and a Bottom-up Approach for Finding Generalizations",
+          "authors": "Hudson Golino, John Nesselroade, Alexander P. Christensen",
+          "url": "https://doi.org/10.1080/00273171.2025.2454901",
+          "doi": "https://doi.org/10.1080/00273171.2025.2454901",
+          "filter": 0
+        },
         {
           "title": "Missing Data in Discrete Time State-Space Modeling of Ecological Momentary Assessment Data: A Monte-Carlo Study of Imputation Methods",
           "authors": "L. R. Slipetz, A. Falk, T. R. Henry",
@@ -219,11 +248,11 @@
           "filter": 0
         },
         {
-          "title": "Self-Invitation Hesitation: How and Why People Fail to Ask to Join the Plans of Others",
-          "authors": "Julian Givi, Daniel M. Grossman, Colleen P. Kirk, Constantine Sedikides",
-          "abstract": "Spending time with others affords numerous benefits. One way a person can spend time with others is through a self-invitation—asking to join the plans of others. We address the psychological processes involved with self-invitations to everyday social activities from both the self-inviter’s perspective and the perspective of those with the plans (“plan-holders”). Across eight studies (seven preregistered), we demonstrate that potential self-inviters fail to ask to join the plans of others as often as plan-holders would prefer, because potential self-inviters overestimate how irritated plan-holders would be by such self-invitations. Further, we show that these asymmetries are rooted in differing viewpoints about the mindsets of plan-holders when they originally made the plans. Namely, potential self-inviters exaggerate the likelihood that plan-holders had already considered inviting them but decided against it (vs. made plans without considering inviting them). We conclude by discussing the various implications of our findings.",
-          "url": "https://doi.org/10.1177/01461672251324232",
-          "doi": "https://doi.org/10.1177/01461672251324232",
+          "title": "What Are My Friends Really Like? How We Change Our Perceptions of Familiar Others’ Traits and Actions",
+          "authors": "Benjamin M. Silver, Wangjing Yu, Niall Bolger, Lila Davachi, Kevin N. Ochsner",
+          "abstract": "In everyday life, our perceptions of others’ traits are influenced by a combination of their actions and our relationship with them. We enrolled 142 participants in a virtual escape room to examine (a) whether an unfamiliar task changed perceptions of friends’ traits, (b) which types of prior relationships influenced trait perceptions, and (c) the relative importance of perceptions of actions in assessing traits. Higher pregame similarity ratings led to increases in perceptions of competence, while higher pregame liking ratings led to increases in perceptions of sociability. In addition, objective performance mattered for competence ratings, whereas subjective perceptions of performance mattered for sociability ratings. Our findings demonstrate the importance of real-world relationships not only for how we change our beliefs about others’ traits but also for perceptions of the very actions we use as evidence for those beliefs.",
+          "url": "https://doi.org/10.1177/01461672251320476",
+          "doi": "https://doi.org/10.1177/01461672251320476",
           "filter": 0
         },
         {
@@ -235,11 +264,11 @@
           "filter": 0
         },
         {
-          "title": "What Are My Friends Really Like? How We Change Our Perceptions of Familiar Others’ Traits and Actions",
-          "authors": "Benjamin M. Silver, Wangjing Yu, Niall Bolger, Lila Davachi, Kevin N. Ochsner",
-          "abstract": "In everyday life, our perceptions of others’ traits are influenced by a combination of their actions and our relationship with them. We enrolled 142 participants in a virtual escape room to examine (a) whether an unfamiliar task changed perceptions of friends’ traits, (b) which types of prior relationships influenced trait perceptions, and (c) the relative importance of perceptions of actions in assessing traits. Higher pregame similarity ratings led to increases in perceptions of competence, while higher pregame liking ratings led to increases in perceptions of sociability. In addition, objective performance mattered for competence ratings, whereas subjective perceptions of performance mattered for sociability ratings. Our findings demonstrate the importance of real-world relationships not only for how we change our beliefs about others’ traits but also for perceptions of the very actions we use as evidence for those beliefs.",
-          "url": "https://doi.org/10.1177/01461672251320476",
-          "doi": "https://doi.org/10.1177/01461672251320476",
+          "title": "Self-Invitation Hesitation: How and Why People Fail to Ask to Join the Plans of Others",
+          "authors": "Julian Givi, Daniel M. Grossman, Colleen P. Kirk, Constantine Sedikides",
+          "abstract": "Spending time with others affords numerous benefits. One way a person can spend time with others is through a self-invitation—asking to join the plans of others. We address the psychological processes involved with self-invitations to everyday social activities from both the self-inviter’s perspective and the perspective of those with the plans (“plan-holders”). Across eight studies (seven preregistered), we demonstrate that potential self-inviters fail to ask to join the plans of others as often as plan-holders would prefer, because potential self-inviters overestimate how irritated plan-holders would be by such self-invitations. Further, we show that these asymmetries are rooted in differing viewpoints about the mindsets of plan-holders when they originally made the plans. Namely, potential self-inviters exaggerate the likelihood that plan-holders had already considered inviting them but decided against it (vs. made plans without considering inviting them). We conclude by discussing the various implications of our findings.",
+          "url": "https://doi.org/10.1177/01461672251324232",
+          "doi": "https://doi.org/10.1177/01461672251324232",
           "filter": 0
         },
         {
@@ -388,17 +417,17 @@
           "filter": 0
         },
         {
-          "title": "Brain-based predictive modeling of mind wandering and involuntary thought: The idiographic approach.",
-          "authors": "Lotus Shareef-Trudeau, David Lydon-Staley, John Medaglia, Aaron Kucyi",
-          "url": "https://doi.org/10.1037/tmb0000155",
-          "doi": "https://doi.org/10.1037/tmb0000155",
-          "filter": 0
-        },
-        {
           "title": "Supplemental Material for (Mobile) self-enhancement in selective exposure: The complex relationship between negative self-threat and downward comparison.",
           "authors": "Morgan Quinn Ross, Chris Cosma, Silvia Knobloch-Westerwick",
           "url": "https://doi.org/10.1037/tmb0000157.supp",
           "doi": "https://doi.org/10.1037/tmb0000157.supp",
+          "filter": 0
+        },
+        {
+          "title": "Brain-based predictive modeling of mind wandering and involuntary thought: The idiographic approach.",
+          "authors": "Lotus Shareef-Trudeau, David Lydon-Staley, John Medaglia, Aaron Kucyi",
+          "url": "https://doi.org/10.1037/tmb0000155",
+          "doi": "https://doi.org/10.1037/tmb0000155",
           "filter": 0
         },
         {
