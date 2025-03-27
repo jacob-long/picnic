@@ -1,20 +1,6 @@
 {
-  "update": "2025-03-24",
+  "update": "2025-03-27",
   "content": [
-    {
-      "journal_full": "Journal of Elections, Public Opinion and Parties",
-      "journal_short": "JEPOP",
-      "articles": [
-        {
-          "title": "Are some parties immune from scandal? Party family, scandal exposure, and party evaluation",
-          "authors": "Debra Leiter, Beth Vonnahme",
-          "url": "https://doi.org/10.1080/17457289.2025.2474423",
-          "doi": "https://doi.org/10.1080/17457289.2025.2474423",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
     {
       "journal_full": "Journal of Official Statistics",
       "journal_short": "JOS",
@@ -25,6 +11,21 @@
           "abstract": "The statistical production process of many National Institutes is increasingly exploiting the integration of administrative data and sample surveys. Administrative data are generally affected by errors; among others, under and over-coverage may introduce bias in the statistics produced. In this paper, we propose a method to make inference on the population sizes at different aggregation levels by leveraging administrative data in the presence of coverage errors. We introduce a Bayesian statistical model for integrating nonprobability (register-based) and probability samples. The use of a Bayesian model allows a natural quantification of the uncertainty of estimates through the posterior distribution of the unknown target parameters. Although the framework we discuss is quite general, we will mainly refer to the setting of the Italian Permanent Census. We first assess the model performance using simulated data closely related to the real one; then, we provide results for the real data.",
           "url": "https://doi.org/10.1177/0282423x241312739",
           "doi": "https://doi.org/10.1177/0282423x241312739",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Social Science Computer Review",
+      "journal_short": "SSCR",
+      "articles": [
+        {
+          "title": "Electoral Forecasting in Volatile Party System Settings: Assessing and Improving Pre-Election Poll Predictions in Italy",
+          "authors": "Kenneth Bunker",
+          "abstract": "This study examines electoral forecasting in volatile party systems, focusing on factors contributing to deviations between poll predictions and actual election outcomes. Using Italy as a case study, it identifies biases in polling data and proposes a method to enhance estimator accuracy in a context of stable institutions and volatile electoral dynamics. Data from three Italian general elections are analyzed to evaluate discrepancies between pre-electoral polls and results, assessing key factors such as timing of data collection, survey methodology, sample size, and party system fragmentation. Employing a Bayesian inference process via a Markov chain Monte Carlo (MCMC) adaptive Metropolis-Hastings (MH) algorithm, the study demonstrates that pre-electoral estimates can be significantly improved using the Two-Stage Model (TSM). By consistently outperforming traditional poll predictions, the TSM offers a robust framework for addressing polling biases. These findings advance political forecasting by improving accuracy in both consolidated democracies and volatile electoral contexts, while emphasizing the need for future research on dynamic polling methods and fundamentals-based models.",
+          "url": "https://doi.org/10.1177/08944393251328309",
+          "doi": "https://doi.org/10.1177/08944393251328309",
           "filter": 0
         }
       ],
