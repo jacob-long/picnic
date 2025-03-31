@@ -1,23 +1,24 @@
 {
-  "update": "2025-03-27",
+  "update": "2025-03-31",
   "content": [
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "ESM-Q: A consensus-based quality assessment tool for experience sampling method items",
-          "authors": "Gudrun Eisele, Anu Hiekkaranta, Yoram K. Kunkels, Marije aan het Rot, Wouter van Ballegooijen, Sara Laureen Bartels, Jojanneke A. Bastiaansen, Patrick N. Beymer, Lauren M. Bylsma, Ryan W. Carpenter, William D. Ellison, Aaron J. Fisher, Thomas Forkmann, Madelyn R. Frumkin, Daniel Fulford, Kristin Naragon-Gainey, Talya Greene, Vera E. Heininga, Andrew Jones, Elise K. Kalokerinos, Peter Kuppens, Kathryn L Modecki, Fabiola Müller, Andreas B. Neubauer, Vanessa Panaite, Maude Schneider, Jessie Sun, Stephen J. Wilson, Caroline Zygar-Hoffmann, Inez Myin-Germeys, Olivia J. Kirtley",
-          "url": "https://doi.org/10.3758/s13428-025-02626-1",
-          "doi": "https://doi.org/10.3758/s13428-025-02626-1",
+          "title": "Accounting for item calibration error in computerized adaptive testing",
+          "authors": "Aron Fink, Christoph König, Andreas Frey",
+          "abstract": "In computerized adaptive testing (CAT), item parameter estimates derived from calibration studies are considered to be known and are used as fixed values for adaptive item selection and ability estimation. This is not completely accurate because these item parameter estimates contain a certain degree of error. If this error is random, the typical CAT procedure leads to standard errors of the final ability estimates that are too small. If the calibration error is large, it has been shown that the accuracy of the ability estimates is negatively affected due to the capitalization on chance problem, especially for extreme ability levels. In order to find a solution for this fundamental problem of CAT, we conducted a Monte Carlo simulation study to examine three approaches that can be used to consider the uncertainty of item parameter estimates in CAT. The first two approaches used a measurement error modeling approach in which item parameters were treated as covariates that contained errors. The third approach was fully Bayesian. Each of the approaches was compared with regard to the quality of the resulting ability estimates. The results indicate that each of the three approaches is capable of reducing bias and the mean squared error (MSE) of the ability estimates, especially for high item calibration errors. The Bayesian approach clearly outperformed the other approaches. We recommend the Bayesian approach, especially for application areas in which the recruitment of a large calibration sample is infeasible.",
+          "url": "https://doi.org/10.3758/s13428-025-02649-8",
+          "doi": "https://doi.org/10.3758/s13428-025-02649-8",
           "filter": 0
         },
         {
-          "title": "Sample size matters when estimating test–retest reliability of behaviour",
-          "authors": "Brendan Williams, Lily FitzGibbon, Daniel Brady, Anastasia Christakou",
-          "abstract": "Intraclass correlation coefficients (ICCs) are a commonly used metric in test–retest reliability research to assess a measure’s ability to quantify systematic between-subject differences. However, estimates of between-subject differences are also influenced by factors including within-subject variability, random errors, and measurement bias. Here, we use data collected from a large online sample ( N = 150) to (1) quantify test–retest reliability of behavioural and computational measures of reversal learning using ICCs, and (2) use our dataset as the basis for a simulation study investigating the effects of sample size on variance component estimation and the association between estimates of variance components and ICC measures. In line with previously published work, we find reliable behavioural and computational measures of reversal learning, a commonly used assay of behavioural flexibility. Reliable estimates of between-subject, within-subject (across-session), and error variance components for behavioural and computational measures (with ± .05 precision and 80% confidence) required sample sizes ranging from 10 to over 300 (behavioural median N : between-subject = 167, within-subject = 34, error = 103; computational median N : between-subject = 68, within-subject = 20, error = 45). These sample sizes exceed those often used in reliability studies, suggesting that sample sizes larger than are commonly used for reliability studies (circa 30) are required to robustly estimate reliability of task performance measures. Additionally, we found that ICC estimates showed highly positive and highly negative correlations with between-subject and error variance components, respectively, as might be expected, which remained relatively stable across sample sizes. However, ICC estimates were weakly or not correlated with within-subject variance, providing evidence for the importance of variance decomposition for reliability studies.",
-          "url": "https://doi.org/10.3758/s13428-025-02599-1",
-          "doi": "https://doi.org/10.3758/s13428-025-02599-1",
+          "title": "An introduction to Sequential Monte Carlo for Bayesian inference and model comparison—with examples for psychology and behavioral science",
+          "authors": "Max Hinne",
+          "abstract": "Bayesian inference is becoming an increasingly popular framework for statistics in the behavioral sciences. However, its application is hampered by its computational intractability – almost all Bayesian analyses require a form of approximation. While some of these approximate inference algorithms, such as Markov chain Monte Carlo (MCMC), have become well known throughout the literature, other approaches exist that are not as widespread. Here, we provide an introduction to another family of approximate inference techniques known as Sequential Monte Carlo (SMC). We show that SMC brings a number of benefits, which we illustrate in three different examples: linear regression and variable selection for depression, growth curve mixture modeling of grade point averages, and in computational modeling of the Iowa Gambling Task. These use cases demonstrate that SMC is efficient in exploring posterior distributions, reaching similar predictive performance as state-of-the-art MCMC approaches in less wall-clock time. Moreover, they show that SMC is effective in dealing with multi-modal distributions, and that SMC not only approximates the posterior distribution but simultaneously provides a useful estimate of the marginal likelihood, which is the essential quantity in Bayesian model comparison. All of this comes at no additional effort from the end user.",
+          "url": "https://doi.org/10.3758/s13428-025-02642-1",
+          "doi": "https://doi.org/10.3758/s13428-025-02642-1",
           "filter": 0
         }
       ],
@@ -28,31 +29,38 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "Autonomous technology in the marketplace: The impact of enjoyment on consumer responses",
-          "authors": "Simoni F. Rohden, Carla Freitas Silveira Netto, Lélis Balestrin Espartel",
-          "url": "https://doi.org/10.1016/j.chb.2025.108647",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108647",
+          "title": "How Dataveillance Shapes User Behavior: The Role of Perceived Value in Disclosure and Discontinuation",
+          "authors": "Jooyoung Kim, Hangjung Zo, Jongkun Jun",
+          "url": "https://doi.org/10.1016/j.chb.2025.108655",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108655",
           "filter": 0
         },
         {
-          "title": "Quasi-Virtual Intimacy: An Exploration of Cosplay Commission as a New Form of Virtual-Reality Interaction",
+          "title": "Me, my avatar, and my sneakers: The effect of avatar customization on the psychological ownership of virtual fashion items",
+          "authors": "Do Yuon Kim, Ju Yeun Jang",
+          "url": "https://doi.org/10.1016/j.chb.2025.108653",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108653",
+          "filter": 0
+        },
+        {
+          "title": "Identifying Distinct Types of Internet Use that Predict the Likelihood of Planning or Committing a Terrorist Attack: Findings from an Analysis of Individuals Convicted on Terrorism(-related) Charges in England and Wales",
+          "authors": "Dr Sandy Schumann, Dr Jonathan Kenyon, Dr Jens Binder",
+          "url": "https://doi.org/10.1016/j.chb.2025.108646",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108646",
+          "filter": 0
+        },
+        {
+          "title": "Quasi-virtual intimacy: An exploration of cosplay commission as a new form of virtual-reality interaction",
           "authors": "Hsinchieh Chen, Jingyi Zhang, Xiaomeng Zhang, Ni Zeng",
           "url": "https://doi.org/10.1016/j.chb.2025.108651",
           "doi": "https://doi.org/10.1016/j.chb.2025.108651",
           "filter": 0
         },
         {
-          "title": "Decoding Digital Consumerism of Fashion Brands: Exploring the Role of Electronic Semiotics and Symbolic Interactionism on Instagram",
-          "authors": "Muhammad Naeem, Wilson Ozuem, Silvia Ranfagni,  Howell",
-          "url": "https://doi.org/10.1016/j.chb.2025.108642",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108642",
-          "filter": 0
-        },
-        {
-          "title": "Are Social Media Platforms Blurring the Lines Between Coercive Control and Healthy Relationship? A study investigating perceptions of coercive control",
-          "authors": "Holly Scothorne, Calli Tzani, Maria Ioannou, David Lester, Lucas Rogers, Thomas James Vaughan Williams, John Synnott, Greta Darmanin",
-          "url": "https://doi.org/10.1016/j.chb.2025.108649",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108649",
+          "title": "Young people and false information: A scoping review of responses, influential factors, consequences, and prevention programs",
+          "authors": "Maxime Kops, Catherine Schittenhelm, Sebastian Wachs",
+          "url": "https://doi.org/10.1016/j.chb.2025.108650",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108650",
           "filter": 0
         }
       ],
@@ -63,19 +71,11 @@
       "journal_short": "GPIR",
       "articles": [
         {
-          "title": "An investigation of how gender shapes the appearance and judgment of apologetic faces",
-          "authors": "Meghan George, Joshua R. Guilfoyle, C. Ward Struthers, Jennifer R. Steele",
-          "abstract": "Do people have mental representations of what apologetic faces look like? Do representations differ by gender? We used reverse correlation to (a) generate images that approximate mental representations of apologetic faces, (b) determine whether these images are rated highly on apology-related characteristics, and (c) see if ratings differ by gender of the image generator, target face, and/or image rater. Faces generated from male and female base faces to look apologetic were rated as more apologetic, remorseful, and sad than the base face, demonstrating these mental representations can be approximated using reverse correlation. Findings suggest visually represented apologies express multiple apology-related characteristics. Study 2 revealed the visual templates of faces generated by the gender ingroup appeared more apologetic than those of the gender outgroup; women-generated female faces were most apologetic, and men-generated female faces were least apologetic. Findings highlight gender differences in mental representation, but not perception, of female apologetic faces.",
-          "url": "https://doi.org/10.1177/13684302251322754",
-          "doi": "https://doi.org/10.1177/13684302251322754",
-          "filter": 0
-        },
-        {
-          "title": "Toxic team climate: The causal role of psychopathic personality and lack of teamwork knowledge in dysfunctional team outcomes",
-          "authors": "Michael A. Baysinger, James M. LeBreton, Michael A. Campion",
-          "abstract": "We identify the central role of toxic team climate in understanding dysfunctional work teams. We develop and test a model identifying team-level psychopathic personality and teamwork knowledge as proximal contributors to the creation of toxic team climates, which mediates the effects to create dysfunctional team outcomes. We also tested an alternative model that treats teamwork knowledge as a moderator of the relationship between team psychopathy and toxic team climate. Using a four-wave longitudinal design, we evaluated these models in a sample of 508 business students comprising 107 student teams (35 MBA and 72 undergraduate) completing semester-long team projects. Results indicate that (1) teams with relatively higher levels of psychopathy and lower levels of teamwork knowledge were more likely to have toxic team climates, (2) teams with more toxic climates had higher levels of social loafing and interpersonal deviance, and lower team performance and satisfaction, and (3) the effects of psychopathy on dysfunctional outcomes were mediated by toxic team climate, but the effects of teamwork knowledge were not. In addition, teamwork knowledge moderated the relationship between team psychopathy and toxic team climate by reducing its effects. The study yields implications for the management of toxic work teams.",
-          "url": "https://doi.org/10.1177/13684302251314375",
-          "doi": "https://doi.org/10.1177/13684302251314375",
+          "title": "Equality or generosity: The role of between-group competition in children’s resource allocation with in-group collaborators",
+          "authors": "Xue Xiao, Yanfang Li",
+          "abstract": "This research examined the effect of between-group competitive relationships and group status (win/loss outcomes) on children’s tendency to make generous or equal allocations to in-group collaborators. Children aged 3–8 years ( N = 298 in Study 1; N = 264 in Study 2) were asked to complete between-group competitive games and were further asked to allocate between themselves and their in-group collaborators. The results showed that, with age, children made more equal allocations to in-group collaborators in the win condition, whereas they made more generous allocations to in-group collaborators in the loss condition. The results revealed that, with age, children prioritized fair allocations with collaborators when winning while emphasizing friendly relationships when losing, indicating the complexity of children’s allocations with in-group collaborators following between-group competition.",
+          "url": "https://doi.org/10.1177/13684302251320356",
+          "doi": "https://doi.org/10.1177/13684302251320356",
           "filter": 0
         },
         {
@@ -94,10 +94,10 @@
       "journal_short": "JESP",
       "articles": [
         {
-          "title": "Perceived outgroup entitativity mediates stronger effects of intergroup contact for majority than minority status groups",
-          "authors": "Sybille Neji, Miles Hewstone, Chloe Bracegirdle, Oliver Christ",
-          "url": "https://doi.org/10.1016/j.jesp.2025.104748",
-          "doi": "https://doi.org/10.1016/j.jesp.2025.104748",
+          "title": "Effects of moral stereotypes on the formation and persistence of group preferences",
+          "authors": "Inga K. Rösler, Isabel Kerber, David M. Amodio",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104750",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104750",
           "filter": 0
         }
       ],
@@ -108,38 +108,24 @@
       "journal_short": "JPSP",
       "articles": [
         {
-          "title": "Are moral people happier? Answers from reputation-based measures of moral character.",
-          "authors": "Jessie Sun, Wen Wu, Geoffrey P. Goodwin",
-          "url": "https://doi.org/10.1037/pspp0000539",
-          "doi": "https://doi.org/10.1037/pspp0000539",
+          "title": "The structure of self-related core beliefs.",
+          "authors": "Patrick Mussel",
+          "url": "https://doi.org/10.1037/pspp0000553",
+          "doi": "https://doi.org/10.1037/pspp0000553",
           "filter": 0
         },
         {
-          "title": "Terminal decline of satisfaction in romantic relationships: Evidence from four longitudinal studies.",
-          "authors": "Janina Larissa Bühler, Ulrich Orth",
-          "url": "https://doi.org/10.1037/pspp0000551",
-          "doi": "https://doi.org/10.1037/pspp0000551",
+          "title": "Familial similarity and heritability of personality traits and life satisfaction are higher than shown in typical single-method studies.",
+          "authors": "René Mõttus, character(0), Christian Kandler, Michelle Luciano, Tõnu Esko, Uku Vainik",
+          "url": "https://doi.org/10.1037/pspp0000550",
+          "doi": "https://doi.org/10.1037/pspp0000550",
           "filter": 0
         },
         {
-          "title": "Enhancing others through information selection: Establishing the phenomenon and its preconditions.",
-          "authors": "Xi Shen, Allison Earl, Dolores Albarracin",
-          "url": "https://doi.org/10.1037/pspa0000439",
-          "doi": "https://doi.org/10.1037/pspa0000439",
-          "filter": 0
-        },
-        {
-          "title": "The landscape of personality psychology in the new millennium: A systematic keyword analysis of journal articles from 2000 to 2021.",
-          "authors": "John F. Rauthmann, Niclas Kuper",
-          "url": "https://doi.org/10.1037/pspp0000532",
-          "doi": "https://doi.org/10.1037/pspp0000532",
-          "filter": 0
-        },
-        {
-          "title": "Differences and similarities in psychological characteristics between cultural groups circum Mediterranean.",
-          "authors": "Ayse K. Uskul, Paul H. P. Hanel, Alexander Kirchner-Häusler, Vivian L. Vignoles, Shuxian Jin, Rosa Rodriguez-Bailón, Vanessa A. Castillo, Susan E. Cross, Meral Gezici Yalçın, Charles Harb, Shenel Husnu, Keiko Ishii, Panagiota Karamaouna, Konstantinos Kafetsios, Evangelia Kateri, Juan Matamoros-Lima, Rania Miniesy, Jinkyung Na, Zafer Özkan, Stefano Pagliaro, Charis Psaltis, Dina Rabie, Manuel Teresi, Yukiko Uchida",
-          "url": "https://doi.org/10.1037/pspa0000434",
-          "doi": "https://doi.org/10.1037/pspa0000434",
+          "title": "Desire for status is positively associated with overconfidence: A replication and extension of study 5 in C. Anderson, Brion, et al. (2012).",
+          "authors": "Lewend Mayiwar, Erik Løhre, Subramanya Prasad Chandrashekar, Thorvald Hærem",
+          "url": "https://doi.org/10.1037/pspa0000444",
+          "doi": "https://doi.org/10.1037/pspa0000444",
           "filter": 0
         }
       ],
@@ -150,10 +136,17 @@
       "journal_short": "MBR",
       "articles": [
         {
-          "title": "Toward a Psychology of Individuals: The Ergodicity Information Index and a Bottom-up Approach for Finding Generalizations",
-          "authors": "Hudson Golino, John Nesselroade, Alexander P. Christensen",
-          "url": "https://doi.org/10.1080/00273171.2025.2454901",
-          "doi": "https://doi.org/10.1080/00273171.2025.2454901",
+          "title": "Development of a Method for Handling Doubly-Censored Data in a Latent Growth Curve Modeling Framework",
+          "authors": "Sooyong Lee, Tiffany A. Whittaker",
+          "url": "https://doi.org/10.1080/00273171.2025.2478071",
+          "doi": "https://doi.org/10.1080/00273171.2025.2478071",
+          "filter": 0
+        },
+        {
+          "title": "Multilevel Latent Class Analysis: State-of-the-Art Methodologies and Their Implementation in the R Package multilevLCA",
+          "authors": "Johan Lyrvall, Roberto Di Mari, Zsuzsa Bakk, Jennifer Oser, Jouni Kuha",
+          "url": "https://doi.org/10.1080/00273171.2025.2473935",
+          "doi": "https://doi.org/10.1080/00273171.2025.2473935",
           "filter": 0
         }
       ],
@@ -172,6 +165,30 @@
           "filter": 0
         },
         {
+          "title": "Attachment Orientations Predict the Likelihood of Choosing to be Childfree and the Reasons for Not Wanting Children",
+          "authors": "Sara Glass, R. Chris Fraley",
+          "abstract": "The current research sought to answer three questions regarding the decision to be childfree using a multi-national sample of over 18,000 people, over 2,000 of whom were childfree. First, we explored the diverse reasons people may have for deciding to be childfree and the rates at which those reasons are endorsed. Next, we investigated the association between attachment orientations and the decision to be childfree. Greater attachment avoidance toward parents was the strongest predictor of being childfree. Attachment anxiety tended to be related to choosing to be childfree due to concerns about health and safety, whereas attachment avoidance tended to be related to choosing to be childfree for personal lifestyle reasons. Overall, these data suggest that people have multiple reasons for choosing childfree lifestyles and that some of these reasons may be grounded in the security of their attachment relationships.",
+          "url": "https://doi.org/10.1177/01461672251322842",
+          "doi": "https://doi.org/10.1177/01461672251322842",
+          "filter": 0
+        },
+        {
+          "title": "Historical Consciousness: Recollections of Major Historical Events in the Personal Life Story",
+          "authors": "Sebnem Ture, Cavan V. Bonner, Mary Yuan, Dan P. McAdams",
+          "abstract": "How do people incorporate collective major historical events into their personal life stories? This study investigates the concept of historical consciousness, which is the extent to which individuals integrate the recollection of major historical events into their narrative identity in personally meaningful ways. A sample of 134 midlife adults were asked to describe in detail two major historical events, social movements, or societal changes that impacted them and explain their personal significance. Individual differences in the degree to which the participants incorporated these collective events into their narrative identities were coded on a dimension running from “tuning history out” (low scores) to “witnessing history” (medium) to “living history” (high). Scores on the narrative measure of historical consciousness were positively associated with extraversion, identification with all humanity, indicators of psychosocial adjustment (i.e., generativity and psychological well-being), and civic and political engagement behaviors.",
+          "url": "https://doi.org/10.1177/01461672251321018",
+          "doi": "https://doi.org/10.1177/01461672251321018",
+          "filter": 0
+        },
+        {
+          "title": "Social Class, Control, and Culture: Individuals with Low Socioeconomic Status Perceive Less Control in Relationally Immobile Societies",
+          "authors": "Kuan-Ju Huang",
+          "abstract": "Studies have shown that individuals with high socioeconomic status (SES) perceive a greater sense of control than those with lower SES. However, no studies have examined how sociocultural contexts affect perceived control of individuals from different SES backgrounds. Studies 1 and 2 found that the association between SES and sense of control was stronger in countries with low relational mobility (e.g. East Asia, the Middle East, and North Africa) compared to those with high relational mobility (e.g. Latin America), largely due to lower perceived control among low-SES individuals in immobile societies. Study 3 demonstrated that self-reported relational mobility mediated the cross-country differences in SES-control associations. Study 4 experimentally manipulated relational mobility to establish its causal effect on the SES-control association. These findings suggest that social environments that afford less-flexible social networks exacerbate SES disparities in perceived control and highlight how social ecology may disproportionately impact individuals with lower SES.",
+          "url": "https://doi.org/10.1177/01461672251328722",
+          "doi": "https://doi.org/10.1177/01461672251328722",
+          "filter": 0
+        },
+        {
           "title": "A Longitudinal Examination of Children’s Friendships Across Racial Status and Gender and Their Intergroup Prosocial Behavior",
           "authors": "Sonya Xinyue Xiao, Haining Ren, May Ling Halim, Carol Lynn Martin, Dawn DeLay, Richard A. Fabes, Laura D. Hanish, Krista Oswalt",
           "abstract": "In this research, we examined (a) the primary effects of intergroup friendships: whether having a friend of a different gender/racial status benefits children’s gender/racial status-based prosocial behavior and (b) the secondary transfer of intergroup friendships: whether friendships from one domain (e.g., gender) would extend to improved prosocial behavior toward outgroup members of another domain (e.g., race). Participants were 603 third- to fifth-grade students ( M age = 9.06, SD = .90; 47.9% girls; 52.4% racially minoritized). Peer nominations of prosocial behavior and friendships were collected twice in 1 year. Longitudinal path analyses focused on intergender friendships showed support for both the primary and secondary transfer effects on enhanced intergroup prosocial behavior. Analyses focused on racial status showed the primary effects of these friendships on enhanced interracial prosocial behavior, whereas the secondary transfer effects were less consistent. These findings provide a basis for interventions to promote equity in prosociality toward diverse others.",
@@ -180,41 +197,27 @@
           "filter": 0
         },
         {
-          "title": "What Are My Friends Really Like? How We Change Our Perceptions of Familiar Others’ Traits and Actions",
-          "authors": "Benjamin M. Silver, Wangjing Yu, Niall Bolger, Lila Davachi, Kevin N. Ochsner",
-          "abstract": "In everyday life, our perceptions of others’ traits are influenced by a combination of their actions and our relationship with them. We enrolled 142 participants in a virtual escape room to examine (a) whether an unfamiliar task changed perceptions of friends’ traits, (b) which types of prior relationships influenced trait perceptions, and (c) the relative importance of perceptions of actions in assessing traits. Higher pregame similarity ratings led to increases in perceptions of competence, while higher pregame liking ratings led to increases in perceptions of sociability. In addition, objective performance mattered for competence ratings, whereas subjective perceptions of performance mattered for sociability ratings. Our findings demonstrate the importance of real-world relationships not only for how we change our beliefs about others’ traits but also for perceptions of the very actions we use as evidence for those beliefs.",
-          "url": "https://doi.org/10.1177/01461672251320476",
-          "doi": "https://doi.org/10.1177/01461672251320476",
+          "title": "How Should I Feel About This? Investigating the Emotions and Processes Involved in Indulging in Guilty Pleasures",
+          "authors": "LaCount J. Togans, Allen R. McConnell",
+          "abstract": "Many circumstances trigger mixed feelings, and understanding how people navigate ambivalent affective states sheds light on how social motivations guide behavior. We adopted a discrete, functionalist account of emotion to explore the positive and negative emotions experienced when indulging in guilty pleasures (GPs) and how these outcomes implicate cognitive dissonance and self-presentation processes. Study 1 randomly assigned participants to reflect on a GP or their previous morning routine, whereas Studies 2 ( student sample ) and 3 ( general population sample ) assessed participants’ GPs, emotions experienced, and self-presentation concerns. Across these studies, GPs elicited positive emotions of amusement, contentment, and enthusiasm, and negative emotions of guilt, embarrassment, and shame, highlighting their ambivalent nature. Participants consistently reported being less likely to share their GPs with more interpersonally distant audiences (e.g., strangers, acquaintances, grandparents) than closer audiences (e.g., friends, immediate family). These findings suggest that cognitive dissonance and self-presentation processes are implicated in GP behaviors.",
+          "url": "https://doi.org/10.1177/01461672251327440",
+          "doi": "https://doi.org/10.1177/01461672251327440",
           "filter": 0
         },
         {
-          "title": "Balancing Stereotypically Compatible and Incompatible Identities",
-          "authors": "Anna Woodcock, Blaine Pedersen, Paul R. Hernandez, P. Wesley Schultz",
-          "abstract": "Social stereotypes have been linked with gender and racial disparities in science, technology, engineering, and mathematics (STEM) fields. Developing a domain identity in a STEM field is linked with persistence and success among students from negatively stereotyped groups. However, these students often report a conflict between their group and domain identities. Across two studies we apply balanced identity design theory and latent profile analysis (LPA) to understand how individuals navigate stereotypically incompatible identities. In Study 1, we find that novice STEM majors from negatively stereotyped groups are less likely to hold identity balance than their positively stereotyped counterparts. However, in a separate sample of students approaching graduation in Study 2, the groups converge; both predominantly achieving identity balance. LPA identified three predominant clusters of identity balanced students which differentially predicted academic achievement and well-being for negatively compared with positively stereotyped students. This underscores the importance of understanding balanced identities for addressing underrepresentation in STEM.",
-          "url": "https://doi.org/10.1177/01461672251322088",
-          "doi": "https://doi.org/10.1177/01461672251322088",
+          "title": "How Do Dishonest Reputation Upgrading Cues Affect Reputation-Based Cooperation? The Roles of Trust and Perceived Trustworthiness",
+          "authors": "Yanyan Chen, Junhui Wu, Yugang Li, Baizhou Wu, Shenghua Luan",
+          "abstract": "The efficiency of reputation in promoting cooperation relies on reputation accuracy. Yet, people often dishonestly upgrade their reputation for potential benefits. To date, it remains unclear whether reputation-based cooperation would break down when reputation systems contain cues of dishonest reputation upgrading and whether trust and perceived trustworthiness could explain this effect. We addressed these questions across three studies (total N = 643) using hypothetical scenarios and incentivized games. In each study, participants interacted with high- and low-reputation targets with or without exposure to cues of dishonest reputation upgrading. Overall, compared to the baseline condition, dishonest reputation upgrading cues undermine cooperation with high-reputation targets, which was explained by lower trust and perceived trustworthiness in these targets. These findings suggest that reputation becomes a less reliable cue for cooperative decisions in reputation systems tainted by dishonest upgrading, reducing the trustworthiness of high-reputation targets and their attractiveness for cooperation.",
+          "url": "https://doi.org/10.1177/01461672251324550",
+          "doi": "https://doi.org/10.1177/01461672251324550",
           "filter": 0
         },
         {
-          "title": "Racial Knowledge and the Tenets of Critical Race Theory: Is Opposition to CRT Due to Ignorance?",
-          "authors": "Scott Eidelman, Mejdy Jabr, Emily Vance, Marie Altgilbers Roweton, Austin Eubanks",
-          "abstract": "Is racial ignorance a cause of lay opposition to critical race theory (CRT)? In Study 1, undergraduates completed a test of racial knowledge and indicated support for CRT tenets (e.g., that racism is common and structural; that race is socially constructed and intersectional). Accurate racial knowledge, determined by signal detection analysis, predicted tenet support, even when controlling for racial prejudice, social dominance, and political conservatism. In three experiments, White undergraduates learned critical knowledge about race vs. poverty or transportation (Studies 2 and 3, respectively) or structural racism vs. pig intelligence (Study 4). In each, critical racial knowledge increased CRT tenet support. In Study 1, racial knowledge predicted blind patriotism negatively but constructive patriotism positively. Acquiring critical racial knowledge in Studies 2–4 did not lead participants to distance from America, despite claims of cultural critics. Teaching critical knowledge about race may be an effective means to promote racial understanding.",
-          "url": "https://doi.org/10.1177/01461672251321993",
-          "doi": "https://doi.org/10.1177/01461672251321993",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Psychological Methods",
-      "journal_short": "PM",
-      "articles": [
-        {
-          "title": "Bayesian nonparametric latent class analysis with different item types.",
-          "authors": "Meng Qiu, Sally Paganin, Ilsang Ohn, Lizhen Lin",
-          "url": "https://doi.org/10.1037/met0000728",
-          "doi": "https://doi.org/10.1037/met0000728",
+          "title": "Elevated Power Promotes Prosocial Behavior More Than Elevated Status",
+          "authors": "Britt Hadar, Almog Simchon, Michael Gilead, Pamela K. Smith",
+          "abstract": "Power and status are fundamental elements of social hierarchy, yet their influence on prosocial behavior remains unclear. To distinguish between prosocial and self-serving motives, we focused on behaviors that provide no benefit to the actor’s status and may even harm it. We hypothesized that high power increases such behaviors compared to high status. In Studies 1a-2 ( N = 824), participants in high-power roles were more likely to prevent harm or provide help at the expense of their reputation compared to those in high-status roles (Studies 1a-2), and those in low-power or low-status roles (Study 1a). In Study 3 ( N = 150), greater perceived power was linked to increased anonymous resource allocation in a dictator game, while greater perceived status was linked to decreased allocation. Study 4 ( N = 1,135) found that higher Twitter status was associated with delayed prosocial speaking up. These findings suggest that elevated power is more conducive to prosocial behavior than elevated status.",
+          "url": "https://doi.org/10.1177/01461672251324678",
+          "doi": "https://doi.org/10.1177/01461672251324678",
           "filter": 0
         }
       ],
@@ -231,13 +234,20 @@
           "url": "https://doi.org/10.1177/09567976251325518",
           "doi": "https://doi.org/10.1177/09567976251325518",
           "filter": 0
-        },
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Psychology of Music",
+      "journal_short": "PsychMusic",
+      "articles": [
         {
-          "title": "Does Religious-Service Attendance Increase Mental Health? A Random-Intercept Cross-Lagged Panel Analysis Across 18 Years",
-          "authors": "Gabriele Prati",
-          "abstract": "The study aimed to investigate the within-person relationship between religious-service attendance and mental health using data from the British Household Panel Survey ( N = 29,298), a longitudinal survey of adult British households between 1991 and 2009. The outcome variables were mental health (as measured with the General Health Questionnaire) and life satisfaction. Using random-intercept cross-lagged panel models over 10 waves of data spanning over 18 years, the associations between religious-service attendance and mental health at the within-person level were mostly nonsignificant. The few significant findings indicated that an increase in religious-service attendance is associated subsequently with either higher or lower levels of mental health, suggesting both detrimental and beneficial effects. A series of robustness analyses (including the use of marginal structural models) mainly supported these findings. The results suggest that there is a need to question the assumption that religious-service attendance provides mental health benefits.",
-          "url": "https://doi.org/10.1177/09567976251325449",
-          "doi": "https://doi.org/10.1177/09567976251325449",
+          "title": "The mock concert: How early-career performers decipher and develop stage mastery",
+          "authors": "Olivia Urbaniak, Helen F. Mitchell",
+          "abstract": "Expert performers understand the impact of sight and sound on the concert stage and project performativity to captivate their audiences. Early-career performers embarking on a professional performance career can benefit from experts’ strategies to develop their performance skills and enhance stagecraft. The aim of this study was to develop and trial a mock concert as experiential learning for professional stagecraft. Three early-career pianists performed in a mock concert for an audience of their peers. The audience noted their impressions of performances, and all engaged in a focus group discussion. Responses were transcribed and analyzed thematically. The audience articulated their visual impressions and appraised performers’ stagecraft and performativity. The audience was drawn to distinctive and memorable stage demeanour that complemented musical expressiveness. Performers revealed their strategies for performativity to enhance concert preparation, project confidence, and achieve professionalism. The mock concert was an effective way to decipher the sight and sound of stage mastery in a practical learning opportunity for early-career performers.",
+          "url": "https://doi.org/10.1177/03057356251320864",
+          "doi": "https://doi.org/10.1177/03057356251320864",
           "filter": 0
         }
       ],
@@ -248,52 +258,31 @@
       "journal_short": "PPM",
       "articles": [
         {
-          "title": "Reality check: A qualitative study of mental well-being among participants.",
-          "authors": "Christine Chapais",
-          "url": "https://doi.org/10.1037/ppm0000597",
-          "doi": "https://doi.org/10.1037/ppm0000597",
+          "title": "How anthropomorphic animal representations in nature documentaries are related to entertainment experience and persuasive effects.",
+          "authors": "Fabian Mayer, Liana Rupp",
+          "url": "https://doi.org/10.1037/ppm0000595",
+          "doi": "https://doi.org/10.1037/ppm0000595",
           "filter": 0
         },
         {
-          "title": "Mood repair following eudaimonic media selection.",
-          "authors": "Danyang Zhao, Arthur A. Raney",
-          "url": "https://doi.org/10.1037/ppm0000594",
-          "doi": "https://doi.org/10.1037/ppm0000594",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Technology, Mind, and Behavior",
-      "journal_short": "TMB",
-      "articles": [
-        {
-          "title": "Does statistical evidence change case-based perception of the effectiveness of earthquake early warning?",
-          "authors": "Kazuya Nakayachi, Ryosuke Yokoi, Julia S. Becker",
-          "url": "https://doi.org/10.1037/tmb0000158",
-          "doi": "https://doi.org/10.1037/tmb0000158",
+          "title": "I love you, but I have got to cancel you: Psychological consequences of participation in cancel culture.",
+          "authors": "Rebecca Tukachinsky Forster, Daniel H. Spitz",
+          "url": "https://doi.org/10.1037/ppm0000598",
+          "doi": "https://doi.org/10.1037/ppm0000598",
           "filter": 0
         },
         {
-          "title": "Supplemental Material for Does statistical evidence change case-based perception of the effectiveness of earthquake early warning?",
-          "authors": "Kazuya Nakayachi, Ryosuke Yokoi, Julia S. Becker",
-          "url": "https://doi.org/10.1037/tmb0000158.supp",
-          "doi": "https://doi.org/10.1037/tmb0000158.supp",
+          "title": "Longer-term interventions to reduce social media time do not improve mental health: A reply to Thrul et al. (2025).",
+          "authors": "Christopher J. Ferguson",
+          "url": "https://doi.org/10.1037/ppm0000592",
+          "doi": "https://doi.org/10.1037/ppm0000592",
           "filter": 0
         },
         {
-          "title": "Perceived shared understanding between humans and artificial intelligence: Development and validation of a self-report scale.",
-          "authors": "Qingyu Liang, Jaime Banks",
-          "url": "https://doi.org/10.1037/tmb0000161",
-          "doi": "https://doi.org/10.1037/tmb0000161",
-          "filter": 0
-        },
-        {
-          "title": "Supplemental Material for Perceived shared understanding between humans and artificial intelligence: Development and validation of a self-report scale.",
-          "authors": "Qingyu Liang, Jaime Banks",
-          "url": "https://doi.org/10.1037/tmb0000161.supp",
-          "doi": "https://doi.org/10.1037/tmb0000161.supp",
+          "title": "Social media reduction or abstinence interventions are providing mental health benefits—Reanalysis of a published meta-analysis.",
+          "authors": "Johannes Thrul, Janardan Devkota, Dahlia AlJuboori, Timothy Regan, Saud Alomairah, Carol Vidal",
+          "url": "https://doi.org/10.1037/ppm0000574",
+          "doi": "https://doi.org/10.1037/ppm0000574",
           "filter": 0
         }
       ],
