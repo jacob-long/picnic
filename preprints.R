@@ -32,13 +32,20 @@ call_gemini_api <- function(system_prompt, user_text, model = "gemini-1.5-flash-
     
     api_url <- paste0("https://generativelanguage.googleapis.com/v1beta/models/", model, ":generateContent?key=", api_key)
     
-    # Construct the request body according to Gemini API format
+    # Construct the request body according to Gemini API format with roles
     request_body <- list(
-        contents = list(
-            list(parts = list(list(text = system_prompt))),
-            list(parts = list(list(text = user_text)))
+        # Use systemInstruction for the system prompt
+        systemInstruction = list(
+             parts = list(list(text = system_prompt))
         ),
-        # Optional: Add generationConfig if needed (e.g., temperature, max output tokens)
+        # Use contents for the user prompt with the 'user' role
+        contents = list(
+            list(
+                role = "user",
+                parts = list(list(text = user_text))
+            )
+        ),
+        # Optional: Add generationConfig if needed
         generationConfig = list(
             temperature = 0.2, # Adjust as needed for classification
             maxOutputTokens = 10 # Expecting short response ("Yes"/"No")
