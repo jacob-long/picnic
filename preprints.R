@@ -12,16 +12,21 @@ source("./parameters/prompts.R")
 
 # Function to call Google Gemini API
 call_gemini_api <- function(system_prompt, user_text, model = "gemini-1.5-flash-latest") { # Using standard identifier, adjust if needed
-    # Prioritize GitHub Actions environment variable, then local R variable
-    api_key <- Sys.getenv("GEMINI_APIKEY") # Check environment variable first
+    # Attempt to retrieve API key: Env Var GEMINI_APIKEY -> Env Var GEMINI_API_KEY -> R Var GEMINI_API_KEY
+    api_key <- Sys.getenv("GEMINI_APIKEY")
     
     if (api_key == "") {
-      # If env var is empty, check for R variable (for local testing)
-      if (exists("GEMINI_API_KEY") && !is.null(GEMINI_API_KEY) && GEMINI_API_KEY != "") {
-        api_key <- GEMINI_API_KEY
+      api_key <- Sys.getenv("GEMINI_API_KEY") # Check alternative env var name
+    }
+      
+    if (api_key == "") {
+      # If both env vars are empty, check for R variable (for local testing)
+      if (exists("gemini_apikey") && !is.null(gemini_apikey) && gemini_apikey != "") {
+        api_key <- gemini_apikey
+        warning("Using GEMINI_API_KEY from R environment (credentials.R).") # Add warning for local use
       } else {
-        # If neither is found, stop
-        stop("Gemini API Key not found. Set GEMINI_APIKEY env var or GEMINI_API_KEY in credentials.R")
+        # If none are found, stop with a more informative message
+        stop("Gemini API Key not found. Checked Sys.getenv('GEMINI_APIKEY'), Sys.getenv('GEMINI_API_KEY'), and R variable 'GEMINI_API_KEY'. Ensure the secret/variable is correctly set.")
       }
     }
     
