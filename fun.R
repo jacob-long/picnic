@@ -344,10 +344,31 @@ get_all_osf_preprints <- function(provider, start_date = as.Date(Sys.time()) - 7
       authors <- if (!is.null(contributors_response$result)) {
         contributors_data <- resp_body_json(contributors_response$result)
         author_names <- map_chr(contributors_data$data, function(contributor) {
+          # Safely extract user attributes
           user_data <- contributor$embeds$users$data$attributes
-          paste(user_data$given_name, user_data$middle_names, user_data$family_name) %>%
-            trimws() %>%
-            gsub("\\s+", " ", .)
+          
+          # Check if user_data exists and is a list/environment
+          if (!is.null(user_data) && is.list(user_data)) {
+            # Extract names, replacing NULL with empty string for safe pasting
+            given <- ifelse(is.null(user_data$given_name), "", user_data$given_name)
+            middle <- ifelse(is.null(user_data$middle_names), "", user_data$middle_names)
+            family <- ifelse(is.null(user_data$family_name), "", user_data$family_name)
+            
+            # Construct full name
+            full_name <- paste(given, middle, family) %>%
+              trimws() %>%
+              gsub("\\s+", " ", .)
+              
+            # Return name if not empty, otherwise NA
+            if (full_name != "") {
+              return(full_name)
+            } else {
+              return(NA_character_) # Return NA if name components were missing/empty
+            }
+          } else {
+            # Return NA if user_data structure is missing
+            return(NA_character_)
+          }
         })
         paste(author_names, collapse = "; ")
       } else {
