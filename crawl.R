@@ -8,6 +8,30 @@ source("fun.R")
 source("credentials.R")
 source("./parameters/prompts.R")
 
+# Function to fetch URL with retry logic for 429 errors
+fetch_with_retry <- function(url, user_agent_string, max_retries = 5, initial_delay = 5) {
+    current_retry <- 0
+    delay <- initial_delay
+    
+    while (current_retry < max_retries) {
+        response <- httr::GET(url, httr::user_agent(user_agent_string), httr::timeout(30)) # Added timeout
+        status <- httr::status_code(response)
+        
+        if (status == 429) {
+            current_retry <- current_retry + 1
+            warning(paste("Rate limit hit (429) for URL:", url, "| Retry", current_retry, "of", max_retries, "after", delay, "seconds."))
+            Sys.sleep(delay)
+            delay <- delay * 2 # Exponential backoff
+        } else {
+            # Return response for non-429 status codes (including success and other errors)
+            return(response)
+        }
+    }
+    
+    warning(paste("Max retries reached for URL:", url))
+    return(response) # Return the last response even if it was 429
+}
+
 now <- Sys.time()
 crawl_start_date <- as.Date(now) - 7
 crawl_end_date <- as.Date(now) - 1
@@ -58,11 +82,24 @@ if (nrow(subset(out, filter == 0 & is.na(abstract))) > 0) {
         # Get the URL
         url <- no_abs$url[i]
         # Visit the URL
-        response <- GET(url, 
-                user_agent(user_agent))
-        if (status_code(response) %in% c(403, 404)) {
+        # Visit the URL using the robust fetch function
+        response <- fetch_with_retry(url, user_agent)
+        
+        # Check status code after retries
+        status <- status_code(response)
+        if (status %in% c(403, 404, 429)) { # Also skip if max retries for 429 were hit
+            warning(paste("Skipping URL due to status code", status, ":", url))
             next
         }
+        
+        # Check for non-200 status codes that aren't handled above
+        if (status != 200) {
+            warning(paste("Non-200 status code", status, "for URL:", url))
+            # Optionally decide whether to skip or try to proceed
+            # For now, let's try to proceed cautiously
+        }
+
+        # Original GET call and basic status check removed, replaced by fetch_with_retry above.
         # Get the final URL after DOI redirect
         final_url <- response$url
         # Grab the page
@@ -80,6 +117,9 @@ if (nrow(subset(out, filter == 0 & is.na(abstract))) > 0) {
         if (!is.null(abstract) && !is.na(abstract)) {
             out$abstract[out$url == url] <- abstract
         }
+        
+        # Add a small delay to be polite to servers
+        Sys.sleep(1) # Pause for 1 second between requests
     }
 }
 
