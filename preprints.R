@@ -12,12 +12,20 @@ source("./parameters/prompts.R")
 
 # Function to call Google Gemini API
 call_gemini_api <- function(system_prompt, user_text, model = "gemini-1.5-flash-latest") { # Using standard identifier, adjust if needed
-    # Check if GEMINI_API_KEY exists
-    if (!exists("GEMINI_APIKEY") || is.null(gemini_apikey) || gemini_apikey == "") {
-        stop("GEMINI_APIKEY not found or is empty. Please define it in credentials.R")
+    # Prioritize GitHub Actions environment variable, then local R variable
+    api_key <- Sys.getenv("GEMINI_APIKEY") # Check environment variable first
+    
+    if (api_key == "") {
+      # If env var is empty, check for R variable (for local testing)
+      if (exists("GEMINI_API_KEY") && !is.null(GEMINI_API_KEY) && GEMINI_API_KEY != "") {
+        api_key <- GEMINI_API_KEY
+      } else {
+        # If neither is found, stop
+        stop("Gemini API Key not found. Set GEMINI_APIKEY env var or GEMINI_API_KEY in credentials.R")
+      }
     }
     
-    api_url <- paste0("https://generativelanguage.googleapis.com/v1beta/models/", model, ":generateContent?key=", GEMINI_API_KEY)
+    api_url <- paste0("https://generativelanguage.googleapis.com/v1beta/models/", model, ":generateContent?key=", api_key)
     
     # Construct the request body according to Gemini API format
     request_body <- list(
