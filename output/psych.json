@@ -1,5 +1,5 @@
 {
-  "update": "2025-04-09",
+  "update": "2025-04-10",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -21,29 +21,6 @@
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "On a generalizable approach for sample size determination in Bayesian t tests",
-          "authors": "Tsz Keung Wong, Jorge N. Tendeiro",
-          "abstract": "The Bayes factor is often proposed as a superior replacement to p  values in testing null hypotheses for various reasons, with the availability of many user-friendly and easily accessible statistical software tools facilitating the use of Bayesian tests. Meanwhile, Bayes factor design analysis (BFDA), the counterpart of power analysis, is also proposed to ensure the maximum efficiency and informativeness of a study. Despite tools for conducting BFDA being limited and mostly relying on Monte Carlo methodology, methods based on root-finding algorithms have been recently developed (e.g., Pawel and Held, 2025), overcoming weaknesses of simulation approaches. This paper builds on these advancements by presenting a method generalizing the existing approach for conducting BFDA for sample size determination in t tests. The major advantage of the current method is that it does not assume normality of the effect size estimate, allowing more flexibility in the specification of the design and analysis priors. We developed and showcase a user-friendly Shiny app for facilitating the use of BFDA, illustrated with an empirical example. Furthermore, using our method, we explore the operating characteristics of the Bayes factors using various priors.",
-          "url": "https://doi.org/10.3758/s13428-025-02654-x",
-          "doi": "https://doi.org/10.3758/s13428-025-02654-x",
-          "filter": 0
-        },
-        {
-          "title": "Quantifying and explaining heterogeneity in meta-analytic structural equation modeling: Methods and illustrations",
-          "authors": "Zijun Ke, Han Du, Rebecca Y. M. Cheung, Yingtian Liang, Junling Liu, Wenqin Chen",
-          "url": "https://doi.org/10.3758/s13428-025-02647-w",
-          "doi": "https://doi.org/10.3758/s13428-025-02647-w",
-          "filter": 0
-        },
-        {
-          "title": "Development and validation of the Interoceptive States Vocalisations (ISV) and Interoceptive States Point Light Displays (ISPLD) databases",
-          "authors": "Federica Biotti, Lily Sidnick, Anna L Hatton, Diar Abdlkarim, Alan Wing, Janet Treasure, Francesca Happé, Rebecca Brewer",
-          "abstract": "The ability to perceive others’ emotions and one’s own interoceptive states has been the subject of extensive research. Very little work, however, has investigated the ability to recognise others’ interoceptive states, such as whether an individual is feeling breathless, nauseated, or fatigued. This is likely owing to the dearth of stimuli available for use in research studies, despite the clear relevance of this ability to social interaction and effective caregiving. This paper describes the development and validation of two stimulus sets for use in research into the perception of others’ interoceptive states. The Interoceptive States Vocalisations (ISV) database and the Interoceptive States Point Light Displays (ISPLD) database include 191 vocalisation and 159 point light display stimuli. Both stimulus sets underwent two phases of validation, and all stimuli were scored in terms of their quality and recognisability, using five different measures. The ISV also includes control stimuli featuring non-interoceptive vocalisations. Some interoceptive states were consistently recognised better than others, but variability was observed within, as well as between, stimulus categories. Stimuli are freely available for use in research, and are presented alongside all stimulus quality scores, in order for researchers to select the most appropriate stimuli based on individual research questions.",
-          "url": "https://doi.org/10.3758/s13428-024-02514-0",
-          "doi": "https://doi.org/10.3758/s13428-024-02514-0",
-          "filter": 0
-        },
-        {
           "title": "The simulation-cum-ROC approach: A new approach to generate tailored cutoffs for fit indices through simulation and ROC analysis",
           "authors": "Katharina Groskurth, Nivedita Bhaktha, Clemens M. Lechner",
           "abstract": "To evaluate model fit in structural equation modeling, researchers commonly compare fit indices against fixed cutoff values (e.g., CFI ≥ .950). However, methodologists have cautioned against overgeneralizing cutoffs, highlighting that cutoffs permit valid judgments of model fit only in empirical settings similar to the simulation scenarios from which these cutoffs originate. This is because fit indices are not only sensitive to misspecification but are also susceptible to various model, estimation, and data characteristics. As a solution, methodologists have proposed four principal approaches to obtain so-called tailored cutoffs, which are generated specifically for a given setting. Here, we review these approaches. We find that none of these approaches provides guidelines on which fit index (out of all fit indices of interest) is best suited for evaluating whether the model fits the data in the setting of interest. Therefore, we propose a novel approach combining a Monte Carlo simulation with receiver operating characteristic (ROC) analysis. This so-called simulation-cum-ROC approach generates tailored cutoffs and additionally identifies the most reliable fit indices in the setting of interest. We provide R code and a Shiny app for an easy implementation of the approach. No prior knowledge of Monte Carlo simulations or ROC analysis is needed to generate tailored cutoffs with the simulation-cum-ROC approach.",
@@ -52,26 +29,10 @@
           "filter": 0
         },
         {
-          "title": "LEyes: A lightweight framework for deep learning-based eye tracking using synthetic eye images",
-          "authors": "Sean Anthony Byrne, Virmarie Maquiling, Marcus Nyström, Enkelejda Kasneci, Diederick C. Niehorster",
-          "abstract": "Deep learning methods have significantly advanced the field of gaze estimation, yet the development of these algorithms is often hindered by a lack of appropriate publicly accessible training datasets. Moreover, models trained on the few available datasets often fail to generalize to new datasets due to both discrepancies in hardware and biological diversity among subjects. To mitigate these challenges, the research community has frequently turned to synthetic datasets, although this approach also has drawbacks, such as the computational resource and labor-intensive nature of creating photorealistic representations of eye images to be used as training data. In response, we introduce “Light Eyes” (LEyes), a novel framework that diverges from traditional photorealistic methods by utilizing simple synthetic image generators to train neural networks for detecting key image features like pupils and corneal reflections, diverging from traditional photorealistic approaches. LEyes facilitates the generation of synthetic data on the fly that is adaptable to any recording device and enhances the efficiency of training neural networks for a wide range of gaze-estimation tasks. Presented evaluations show that LEyes, in many cases, outperforms existing methods in accurately identifying and localizing pupils and corneal reflections across diverse datasets. Additionally, models trained using LEyes data outperform standard eye trackers while employing more cost-effective hardware, offering a promising avenue to overcome the current limitations in gaze estimation technology.",
-          "url": "https://doi.org/10.3758/s13428-025-02645-y",
-          "doi": "https://doi.org/10.3758/s13428-025-02645-y",
-          "filter": 0
-        },
-        {
-          "title": "The first use of strict substitution colorimetry for collecting data on threshold perceptual color differences in humans",
-          "authors": "Sergey Gladilin, Maria Gracheva, Ivan Konovalenko, Ilya Nikolaev, Anna Nikolaeva, Mikhail Tchobanou",
-          "url": "https://doi.org/10.3758/s13428-025-02651-0",
-          "doi": "https://doi.org/10.3758/s13428-025-02651-0",
-          "filter": 0
-        },
-        {
-          "title": "The Validated Touch-Video Database",
-          "authors": "Sophie Smit, Anina N. Rich",
-          "abstract": "Visually observing a touch quickly reveals who is being touched, how it might feel, and the broader social or emotional context, shaping our interpretation of such interactions. Investigating these dimensions is essential for understanding how tactile experiences are processed individually and how we empathise with observed sensations in others. Here, we expand available resources for studying visually perceived touch by providing a wide-ranging set of dynamic interactions that specifically focus on the sensory qualities of touch. The Validated Touch-Video Database (VTD) consists of a set of 90 videos depicting tactile interactions with a stationary left hand, viewed from a first-person perspective. In each video, a second hand makes contact either directly (e.g., with fingers or an open palm) or using an object (e.g., a soft brush or scissors), with variations across dimensions such as hedonic qualities, arousal, threat, touch type, and the object used. Validation by 350 participants (283 women, 66 men, 1 non-binary) involved categorising the videos as ‘neutral’, ‘pleasant’, ‘unpleasant’, or ‘painful’ and rating arousal and threat levels. Our findings reveal high inter-subject agreement, with painful touch videos eliciting the highest arousal and threat ratings, while neutral touch videos serve as a baseline. Exploratory analyses indicate that women rated the videos as more threatening and painful than men, suggesting potential gender differences in the visual perception of negatively valenced touch stimuli. The VTD provides a comprehensive resource for researchers investigating the sensory and emotional dimensions of observed touch.",
-          "url": "https://doi.org/10.3758/s13428-025-02655-w",
-          "doi": "https://doi.org/10.3758/s13428-025-02655-w",
+          "title": "VOC-ADO: A lexical database for French-speaking adolescents",
+          "authors": "Manuel Gimenes, Eric Lambert, Louise Chaussoy, Maximiliano A. Wilson, Pauline Quémart",
+          "url": "https://doi.org/10.3758/s13428-025-02656-9",
+          "doi": "https://doi.org/10.3758/s13428-025-02656-9",
           "filter": 0
         },
         {
@@ -83,10 +44,11 @@
           "filter": 0
         },
         {
-          "title": "VOC-ADO: A lexical database for French-speaking adolescents",
-          "authors": "Manuel Gimenes, Eric Lambert, Louise Chaussoy, Maximiliano A. Wilson, Pauline Quémart",
-          "url": "https://doi.org/10.3758/s13428-025-02656-9",
-          "doi": "https://doi.org/10.3758/s13428-025-02656-9",
+          "title": "The Validated Touch-Video Database",
+          "authors": "Sophie Smit, Anina N. Rich",
+          "abstract": "Visually observing a touch quickly reveals who is being touched, how it might feel, and the broader social or emotional context, shaping our interpretation of such interactions. Investigating these dimensions is essential for understanding how tactile experiences are processed individually and how we empathise with observed sensations in others. Here, we expand available resources for studying visually perceived touch by providing a wide-ranging set of dynamic interactions that specifically focus on the sensory qualities of touch. The Validated Touch-Video Database (VTD) consists of a set of 90 videos depicting tactile interactions with a stationary left hand, viewed from a first-person perspective. In each video, a second hand makes contact either directly (e.g., with fingers or an open palm) or using an object (e.g., a soft brush or scissors), with variations across dimensions such as hedonic qualities, arousal, threat, touch type, and the object used. Validation by 350 participants (283 women, 66 men, 1 non-binary) involved categorising the videos as ‘neutral’, ‘pleasant’, ‘unpleasant’, or ‘painful’ and rating arousal and threat levels. Our findings reveal high inter-subject agreement, with painful touch videos eliciting the highest arousal and threat ratings, while neutral touch videos serve as a baseline. Exploratory analyses indicate that women rated the videos as more threatening and painful than men, suggesting potential gender differences in the visual perception of negatively valenced touch stimuli. The VTD provides a comprehensive resource for researchers investigating the sensory and emotional dimensions of observed touch.",
+          "url": "https://doi.org/10.3758/s13428-025-02655-w",
+          "doi": "https://doi.org/10.3758/s13428-025-02655-w",
           "filter": 0
         }
       ],
@@ -111,10 +73,10 @@
           "filter": 0
         },
         {
-          "title": "ChatGPT-Enhanced Mobile Instant Messaging in Online Learning: Effects on Student Outcomes and Perceptions",
-          "authors": "Yueh-Min Huang, Pei-Hua Chen, Hsin-Yu Lee, Frode Eika Sandnes, Ting-Ting Wu",
-          "url": "https://doi.org/10.1016/j.chb.2025.108659",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108659",
+          "title": "Digital technology use and well-being in young children: A systematic review and meta-analysis",
+          "authors": "Jacquelyn Harverson, Louise Paatsch, Jeromy Anglim, Sharon Horwood",
+          "url": "https://doi.org/10.1016/j.chb.2025.108660",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108660",
           "filter": 0
         },
         {
@@ -125,10 +87,10 @@
           "filter": 0
         },
         {
-          "title": "Digital technology use and well-being in young children: A systematic review and meta-analysis",
-          "authors": "Jacquelyn Harverson, Louise Paatsch, Jeromy Anglim, Sharon Horwood",
-          "url": "https://doi.org/10.1016/j.chb.2025.108660",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108660",
+          "title": "ChatGPT-enhanced mobile instant messaging in online learning: Effects on student outcomes and perceptions",
+          "authors": "Yueh-Min Huang, Pei-Hua Chen, Hsin-Yu Lee, Frode Eika Sandnes, Ting-Ting Wu",
+          "url": "https://doi.org/10.1016/j.chb.2025.108659",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108659",
           "filter": 0
         },
         {
@@ -150,6 +112,13 @@
           "authors": "Qi Ai, Yansheng Mao, Huimin Huang",
           "url": "https://doi.org/10.1016/j.chb.2025.108666",
           "doi": "https://doi.org/10.1016/j.chb.2025.108666",
+          "filter": 0
+        },
+        {
+          "title": "Investigating the Cognitive Enhancement Effects of Multisensory VR Reminiscence Therapy on Older Adults: Analyzing the Impact of Sensory Combinations",
+          "authors": "I-Jui Lee, Xin-Ting Pan",
+          "url": "https://doi.org/10.1016/j.chb.2025.108668",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108668",
           "filter": 0
         },
         {
@@ -222,149 +191,6 @@
           "authors": "Rémy A. Furrer, Timothy D. Wilson, Daniel T. Gilbert",
           "url": "https://doi.org/10.1037/pspa0000447",
           "doi": "https://doi.org/10.1037/pspa0000447",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Multivariate Behavioral Research",
-      "journal_short": "MBR",
-      "articles": [
-        {
-          "title": "Measurement Invariance and Confirmatory Measurement Modeling of a Psychological Flexibility Questionnaire Across Likert and Expanded Response Formats",
-          "authors": "Ti Hsu, Lesa Hoffman, Emily B. K. Thomas",
-          "url": "https://doi.org/10.1080/00273171.2025.2442258",
-          "doi": "https://doi.org/10.1080/00273171.2025.2442258",
-          "filter": 0
-        },
-        {
-          "title": "On Zero-Count Correction Strategies in Tetrachoric Correlation Estimation",
-          "authors": "Jeongwon Choi, Hao Wu",
-          "url": "https://doi.org/10.1080/00273171.2024.2442249",
-          "doi": "https://doi.org/10.1080/00273171.2024.2442249",
-          "filter": 0
-        },
-        {
-          "title": "Cross-Domain Latent Growth Curve Analysis in the Presence of Missing Data and Small Samples",
-          "authors": "Parisa Rafiee, Manshu Yang",
-          "url": "https://doi.org/10.1080/00273171.2025.2443364",
-          "doi": "https://doi.org/10.1080/00273171.2025.2443364",
-          "filter": 0
-        },
-        {
-          "title": "Variational Inference as Tractable Approximation for Bayesian Models of Psychological Change Processes",
-          "authors": "Julia R. Fischer, Nilàm Ram",
-          "url": "https://doi.org/10.1080/00273171.2025.2442255",
-          "doi": "https://doi.org/10.1080/00273171.2025.2442255",
-          "filter": 0
-        },
-        {
-          "title": "Causal Assumptions of the Two-Wave Longitudinal Mediation Model",
-          "authors": "Jiwoo Kim, Felix Thoemmes",
-          "url": "https://doi.org/10.1080/00273171.2025.2443360",
-          "doi": "https://doi.org/10.1080/00273171.2025.2443360",
-          "filter": 0
-        },
-        {
-          "title": "Implementation of the Correspondence Test as an S-Curve",
-          "authors": "Patrick Sheehan",
-          "url": "https://doi.org/10.1080/00273171.2025.2443367",
-          "doi": "https://doi.org/10.1080/00273171.2025.2443367",
-          "filter": 0
-        },
-        {
-          "title": "Mapping the Garden of Forking Paths in Multilevel Models",
-          "authors": "Mairead Shaw, Célia Bergé, Amanda Pruss, Jessica Kay Flake",
-          "url": "https://doi.org/10.1080/00273171.2025.2443366",
-          "doi": "https://doi.org/10.1080/00273171.2025.2443366",
-          "filter": 0
-        },
-        {
-          "title": "Improving Subgrouping Accuracy in Dynamic Network Models Through Feature Selection",
-          "authors": "Di Jody Zhou, Sebastian Castro-Alvarez, Siwei Liu",
-          "url": "https://doi.org/10.1080/00273171.2025.2443368",
-          "doi": "https://doi.org/10.1080/00273171.2025.2443368",
-          "filter": 0
-        },
-        {
-          "title": "Evaluating Solutions to the Label-Switching Issue When Estimating Latent Variable Models with the NUTS Algorithm",
-          "authors": "Nathan DePuy, Jonathan Templin",
-          "url": "https://doi.org/10.1080/00273171.2025.2442254",
-          "doi": "https://doi.org/10.1080/00273171.2025.2442254",
-          "filter": 0
-        },
-        {
-          "title": "Examining the Feasibility of Weighting Opt-In Surveys to Accommodate the Effects of Nonresponse",
-          "authors": "Ashani Jayasekera",
-          "url": "https://doi.org/10.1080/00273171.2025.2442265",
-          "doi": "https://doi.org/10.1080/00273171.2025.2442265",
-          "filter": 0
-        },
-        {
-          "title": "State Space Models with Moderated Effects of Text Data",
-          "authors": "Samuel D. Aragones, Emilio Ferrer",
-          "url": "https://doi.org/10.1080/00273171.2025.2442166",
-          "doi": "https://doi.org/10.1080/00273171.2025.2442166",
-          "filter": 0
-        },
-        {
-          "title": "Modeling Disengaged Survey Responding with Response Times as Predictors",
-          "authors": "Jieyuan Dong, Yang Liu, Hongyun Liu",
-          "url": "https://doi.org/10.1080/00273171.2025.2442263",
-          "doi": "https://doi.org/10.1080/00273171.2025.2442263",
-          "filter": 0
-        },
-        {
-          "title": "Computerized Adaptive Testing Using Bayesian Explanatory Diagnostic Classification Models",
-          "authors": "Ae Kyong Jung, Jonathan Templin",
-          "url": "https://doi.org/10.1080/00273171.2025.2442266",
-          "doi": "https://doi.org/10.1080/00273171.2025.2442266",
-          "filter": 0
-        },
-        {
-          "title": "Incorporating Qualitative Distinctions in Within-Person Effect Analyses",
-          "authors": "Xiaohui Luo, Yang Liu, Hongyun Liu",
-          "url": "https://doi.org/10.1080/00273171.2025.2443362",
-          "doi": "https://doi.org/10.1080/00273171.2025.2443362",
-          "filter": 0
-        },
-        {
-          "title": "Detecting a Transition Point in the Slope-Intercept Relation in Linear Latent Growth Models",
-          "authors": "Dayeon Lee, Gregory R. Hancock",
-          "url": "https://doi.org/10.1080/00273171.2025.2443361",
-          "doi": "https://doi.org/10.1080/00273171.2025.2443361",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Personality and Social Psychology Bulletin",
-      "journal_short": "PSPB",
-      "articles": [
-        {
-          "title": "The Complex Misestimation of Others’ Emotions: Underestimation of Emotional Prevalence Versus Overestimation of Emotional Intensity and Their Associations with Well-Being",
-          "authors": "Ho Ching Ip, Gilad Feldman",
-          "abstract": "Jordan et al., 2011, demonstrated that people underestimated the prevalence of others’ negative emotional experiences and that these were associated with higher well-being. We conducted a preregistered replication of Studies 1b and 3 by Jordan et al., 2011 ( N = 594) with adjustments and added extensions. Building on their methodology, we examined both prevalence and intensity of emotional experiences, and our findings suggest a much more complex story with surprising effects. We found an underestimation of the prevalence of negative emotions, but also unexpectedly of an underestimation of the prevalence of positive emotions, with stronger effects for negative than for positive emotions. However, we found an opposite effect for emotional intensity; people overestimated the intensity of both positive and negative emotional experiences, again with stronger effects for negative. Surprisingly, associations between prevalence estimations and well-being were in the opposite direction to the target article’s. Materials, data, and code: https://osf.io/bwmtr/",
-          "url": "https://doi.org/10.1177/01461672251327169",
-          "doi": "https://doi.org/10.1177/01461672251327169",
-          "filter": 0
-        },
-        {
-          "title": "The Growth Mindset of Beauty Promotes Risk-Taking Propensity and Behavior",
-          "authors": "Natalie T. Faust, Iris W. Hung",
-          "abstract": "Beauty has pervasive implications for success in various domains of life. Given this broad and visible nature, whether and how a belief in the improvability of this important human attribute influences judgment and decision-making is largely unknown. We found that beauty implicit theories can produce strong cross-domain impact on risk-taking behavior. Using both hypothetical choices and real behaviors in one cross-country survey and nine experiments, including three supplementary studies ( N = 4,015), we found that (a) incremental theorists, who believed that beauty is malleable and improvable, took greater risks than entity theorists, who believed that beauty is fixed, and (b) an incremental belief of beauty heightens a sense of optimism that one will achieve positive outcomes in various domains of life, which consequently promotes risk-seeking behavior. These findings demonstrate that domain-specific implicit theory (i.e. beauty in our case) can affect behavior beyond that domain (non-beauty related risk-taking).",
-          "url": "https://doi.org/10.1177/01461672251327605",
-          "doi": "https://doi.org/10.1177/01461672251327605",
-          "filter": 0
-        },
-        {
-          "title": "Further Evidence for Awareness of Implicit Attitudes: Accurate Prediction of Implicit Evaluations Extends Across Different Implicit Measures and Different Prediction Tasks",
-          "authors": "Michael R. Andreychik, Samantha C. Fuchs",
-          "abstract": "Calling into question the pervasive assumption that people lack awareness of their own implicit evaluations, a growing body of research has demonstrated that people are quite accurate when predicting how they will perform on implicit measures. However, given both the theoretical and practical implications of understanding the extent to which people are aware of the cognitions reflected on implicit measures, it is crucial to examine the generality of this finding. Across four studies using two different measures of implicit evaluations, two different prediction tasks, and multiple target categories, we replicated the key finding that people are quite accurate in predicting their performance on implicit measures. Combining these results with those from existing work strongly suggests that people’s ability to accurately predict their performance on implicit measures is not simply an artifact of the particular measure used to tap implicit evaluations or the particular way in which predictions are assessed.",
-          "url": "https://doi.org/10.1177/01461672251328064",
-          "doi": "https://doi.org/10.1177/01461672251328064",
           "filter": 0
         }
       ],
