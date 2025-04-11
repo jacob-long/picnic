@@ -1,10 +1,18 @@
 {
-  "update": "2025-04-10",
+  "update": "2025-04-11",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
       "journal_short": "AMPPS",
       "articles": [
+        {
+          "title": "How Not to Fool Ourselves About Heterogeneity of Treatment Effects",
+          "authors": "Paul T. von Hippel, Brendan A. Schuetze",
+          "abstract": "Researchers across many fields have called for greater attention to heterogeneity of treatment effects—shifting focus from the average effect to variation in effects between different treatments, studies, or subgroups. True heterogeneity is important, but many reports of heterogeneity have proved to be false, nonreplicable, or overestimated. In this review, we catalog ways that past researchers fooled themselves about heterogeneity and recommend ways that we, as researchers, can stop fooling ourselves about heterogeneity in the future. We make 18 specific recommendations. The most common themes are to (a) seek heterogeneity only when the mechanism offers clear motivation and the data offer adequate power, (b) shy away from seeking “no-but” heterogeneity when there is no main effect, (c) separate the noise of estimation error from the signal of true heterogeneity, (d) shrink variation in estimates toward zero, (e) increase p values and widen confidence intervals when conducting multiple tests, (f) estimate interactions rather than subgroup effects, and (g) check whether findings of heterogeneity are sensitive to changes in model or measurement. We also resolve long-standing debates about centering interactions in linear models and estimating interactions in nonlinear models, such as logistic, ordinal, and interval regression. If researchers follow these recommendations, the search for heterogeneity should yield more trustworthy results in the future.",
+          "url": "https://doi.org/10.1177/25152459241304347",
+          "doi": "https://doi.org/10.1177/25152459241304347",
+          "filter": 0
+        },
         {
           "title": "One Decade Into the Replication Crisis, How Have Psychological Results Changed?",
           "authors": "Paul C. Bogdan",
@@ -21,6 +29,22 @@
       "journal_short": "BRM",
       "articles": [
         {
+          "title": "Mapping the complexity of motor variability: From individual space of variability to motor fingerprints",
+          "authors": "J. Manuello, T. Ciceri, V. Longatelli, C. Maronati, E. Biffi, A. Cavallo, L. Casartelli",
+          "abstract": "Traditional average-based metrics have long been considered the gold standard in behavioral and brain research. However, recent advances emphasize the importance of examining the dispersion around the mean to uncover the nuances of individual differences and challenge simplistic assumptions. Thus, the study of variability is becoming increasingly central across a wide range of domains. Here, we tackle the composite architecture of motor variability by proposing a new geometric method to model it. Three independent gait datasets are used to: i) develop the method (Dataset 1), ii) evaluate its performance when transitioning from optoelectronic cameras to inertial measurement units (Dataset 2), and iii) generalize it in an experimental design with cognitive manipulations (Dataset 3). The method is based on the Procrustes transformation and multidimensional scaling. This geometric approach allows us to define the individual space of variability (i.e., the amount of bidimensional space covered by each individual’s trial-by-trial data). In turn, it provides robust evidence to identify each individual unique and specific motor signature ( motor fingerprint). Our approach represents a fundamental shift from previous research: It is not the value of kinematic parameters per se that defines an individual’s motor signature, but rather the distinct way in which each individual varies these parameters, i.e., the dispersion of the distribution of their kinematic data. This novel perspective provides a single-subject-weighted proxy for motor signature, based on the characteristic dispersion of each individual’s data. The potential applications of this new method in research and clinical settings represent a fascinating future challenge.",
+          "url": "https://doi.org/10.3758/s13428-025-02635-0",
+          "doi": "https://doi.org/10.3758/s13428-025-02635-0",
+          "filter": 0
+        },
+        {
+          "title": "A lexical database of British Sign Language (BSL) and German Sign Language (DGS): Iconicity ratings, iconic strategies, and concreteness norms",
+          "authors": "Gerardo Ortega, Annika Schiefner, Nia Lazarus, Pamela Perniss",
+          "abstract": "Iconicity, understood as a resemblance relationship between meaning and form, is an important variable that has important psycholinguistic effects in lexical processing and language learning across modalities of language. With the growing interest in iconicity, clear operationalizations in terms of the different ways in which iconicity is construed and measured are critical for establishing its broader psycholinguistic profile. This study reports a normed database of iconicity ratings for the same concepts in British Sign Language (BSL) and German Sign Language (DGS). As a related dimension, we also report the type of iconic mapping strategy, i.e., a nominal variable that reflects the different ways in which signs make form-meaning associations for each sign. Finally, we include concreteness ratings for the same concepts. Data from deaf and hearing signers show that iconicity ratings are strongly correlated across both languages, with different distributions across the different strategies, and skewed towards the iconic end of the scale for all groups except German hearing non-signers. Concreteness ratings in BSL and DGS are correlated, though more weakly, and skewed towards the concrete end of the scale. Interestingly, this differs from findings for spoken languages, where concreteness ratings exhibit substantially stronger correlations and abstract concepts are more predominantly represented. We also find that iconicity and concreteness ratings have a moderate positive and strong positive correlation in BSL and DGS, respectively. These results will be useful in psycholinguistic research and highlight differences that can be attributed to the manual-visual modality of signs.",
+          "url": "https://doi.org/10.3758/s13428-025-02660-z",
+          "doi": "https://doi.org/10.3758/s13428-025-02660-z",
+          "filter": 0
+        },
+        {
           "title": "The simulation-cum-ROC approach: A new approach to generate tailored cutoffs for fit indices through simulation and ROC analysis",
           "authors": "Katharina Groskurth, Nivedita Bhaktha, Clemens M. Lechner",
           "abstract": "To evaluate model fit in structural equation modeling, researchers commonly compare fit indices against fixed cutoff values (e.g., CFI ≥ .950). However, methodologists have cautioned against overgeneralizing cutoffs, highlighting that cutoffs permit valid judgments of model fit only in empirical settings similar to the simulation scenarios from which these cutoffs originate. This is because fit indices are not only sensitive to misspecification but are also susceptible to various model, estimation, and data characteristics. As a solution, methodologists have proposed four principal approaches to obtain so-called tailored cutoffs, which are generated specifically for a given setting. Here, we review these approaches. We find that none of these approaches provides guidelines on which fit index (out of all fit indices of interest) is best suited for evaluating whether the model fits the data in the setting of interest. Therefore, we propose a novel approach combining a Monte Carlo simulation with receiver operating characteristic (ROC) analysis. This so-called simulation-cum-ROC approach generates tailored cutoffs and additionally identifies the most reliable fit indices in the setting of interest. We provide R code and a Shiny app for an easy implementation of the approach. No prior knowledge of Monte Carlo simulations or ROC analysis is needed to generate tailored cutoffs with the simulation-cum-ROC approach.",
@@ -29,10 +53,10 @@
           "filter": 0
         },
         {
-          "title": "VOC-ADO: A lexical database for French-speaking adolescents",
-          "authors": "Manuel Gimenes, Eric Lambert, Louise Chaussoy, Maximiliano A. Wilson, Pauline Quémart",
-          "url": "https://doi.org/10.3758/s13428-025-02656-9",
-          "doi": "https://doi.org/10.3758/s13428-025-02656-9",
+          "title": "A new person-fit statistic for the detection of aberrant responses in polytomous cognitive diagnostic models",
+          "authors": "Xuliang Gao, Minmin Hou, Fang Wang, Jinyu Zhou",
+          "url": "https://doi.org/10.3758/s13428-025-02659-6",
+          "doi": "https://doi.org/10.3758/s13428-025-02659-6",
           "filter": 0
         },
         {
@@ -44,11 +68,10 @@
           "filter": 0
         },
         {
-          "title": "The Validated Touch-Video Database",
-          "authors": "Sophie Smit, Anina N. Rich",
-          "abstract": "Visually observing a touch quickly reveals who is being touched, how it might feel, and the broader social or emotional context, shaping our interpretation of such interactions. Investigating these dimensions is essential for understanding how tactile experiences are processed individually and how we empathise with observed sensations in others. Here, we expand available resources for studying visually perceived touch by providing a wide-ranging set of dynamic interactions that specifically focus on the sensory qualities of touch. The Validated Touch-Video Database (VTD) consists of a set of 90 videos depicting tactile interactions with a stationary left hand, viewed from a first-person perspective. In each video, a second hand makes contact either directly (e.g., with fingers or an open palm) or using an object (e.g., a soft brush or scissors), with variations across dimensions such as hedonic qualities, arousal, threat, touch type, and the object used. Validation by 350 participants (283 women, 66 men, 1 non-binary) involved categorising the videos as ‘neutral’, ‘pleasant’, ‘unpleasant’, or ‘painful’ and rating arousal and threat levels. Our findings reveal high inter-subject agreement, with painful touch videos eliciting the highest arousal and threat ratings, while neutral touch videos serve as a baseline. Exploratory analyses indicate that women rated the videos as more threatening and painful than men, suggesting potential gender differences in the visual perception of negatively valenced touch stimuli. The VTD provides a comprehensive resource for researchers investigating the sensory and emotional dimensions of observed touch.",
-          "url": "https://doi.org/10.3758/s13428-025-02655-w",
-          "doi": "https://doi.org/10.3758/s13428-025-02655-w",
+          "title": "VOC-ADO: A lexical database for French-speaking adolescents",
+          "authors": "Manuel Gimenes, Eric Lambert, Louise Chaussoy, Maximiliano A. Wilson, Pauline Quémart",
+          "url": "https://doi.org/10.3758/s13428-025-02656-9",
+          "doi": "https://doi.org/10.3758/s13428-025-02656-9",
           "filter": 0
         }
       ],
@@ -70,13 +93,6 @@
           "authors": "Shan-Mei Chang, Dai-Yi Wang, Zheng-Hong Guan",
           "url": "https://doi.org/10.1016/j.chb.2025.108662",
           "doi": "https://doi.org/10.1016/j.chb.2025.108662",
-          "filter": 0
-        },
-        {
-          "title": "Digital technology use and well-being in young children: A systematic review and meta-analysis",
-          "authors": "Jacquelyn Harverson, Louise Paatsch, Jeromy Anglim, Sharon Horwood",
-          "url": "https://doi.org/10.1016/j.chb.2025.108660",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108660",
           "filter": 0
         },
         {
@@ -122,33 +138,10 @@
           "filter": 0
         },
         {
-          "title": "Reconnecting with nature to disconnect from screens: The relationship and mechanism of nature exposure and problematic short-form video use among adolescents",
+          "title": "Reconnecting with nature to disconnect from screens: The relationship between nature exposure and problematic short-form video use among adolescents and its underlying mechanisms",
           "authors": "Wenwu Dai, Hongxia Wang, Zhihui Yang, Yuanyuan Gao, Xiuchao Wei",
           "url": "https://doi.org/10.1016/j.chb.2025.108661",
           "doi": "https://doi.org/10.1016/j.chb.2025.108661",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Group Processes & Intergroup Relations",
-      "journal_short": "GPIR",
-      "articles": [
-        {
-          "title": "Revisiting constructive disruption: Protest tactics, resistant bystanders, and the limits of support in issue-based social movements",
-          "authors": "Maor Shani, Daniel Lobenhofer, Maarten H. W. van Zalk",
-          "abstract": "The constructive disruption hypothesis proposes that nonnormative-nonviolent protest tactics can persuade resistant advantaged groups to grant concessions by balancing disruption with constructive intentions. We extended this hypothesis from asymmetrical intergroup contexts to two issue-based domains ( N = 457), animal welfare activism (Study 1) and religious blasphemy protests (Study 2). Although protest tactics did not directly affect support among resistant participants, we revealed significant indirect pathways through constructive disruption. Constructive intentions consistently predicted increased support, while disruption enhanced support among resistant bystanders (Study 1) or all participants (Study 2), even for violent protests, but decreased support among those open to change (Study 1). Response surface analyses revealed that in animal rights protests, optimal support emerged from combining high constructive intentions with moderate disruption among resistant bystanders, while religious blasphemy protests showed predominantly additive effects. These findings suggest that constructive disruption’s effectiveness varies by context and audience characteristics.",
-          "url": "https://doi.org/10.1177/13684302251322760",
-          "doi": "https://doi.org/10.1177/13684302251322760",
-          "filter": 0
-        },
-        {
-          "title": "Open-mindedness predicts racial, political, and socioeconomic diversity of real-world friendship networks",
-          "authors": "Yeji Park, Kate M. Turetsky, Angela L. Duckworth, Eli Tsukayama",
-          "abstract": "Even in environments offering ample opportunities to interact with people from diverse backgrounds, people differ in their tendency to form intergroup friendships. Whereas some develop intergroup friendships, others prefer befriending ingroup members, contributing to prejudice and polarization. We identify open-mindedness—an inclination to engage with and understand different perspectives—as an individual difference predicting the racial, political, and socioeconomic diversity of real-world friendship networks. In a longitudinal study of 1,423 eighth–ninth graders, more open-minded adolescents developed more racially diverse friendship networks over 2 years. Two additional studies (total N = 1,585 adults) replicated and extended this finding: Open-mindedness predicted greater racial, political, and socioeconomic diversity of friends, and was more consistently associated with friendship diversity than Big Five openness to experience. The associations between open-mindedness and friendship diversity were partly explained by open-minded individuals’ lower avoidance of interaction with outgroup members. Building open-mindedness may be one individual-level approach to promote friendships across divides.",
-          "url": "https://doi.org/10.1177/13684302251324887",
-          "doi": "https://doi.org/10.1177/13684302251324887",
           "filter": 0
         }
       ],
@@ -159,10 +152,24 @@
       "journal_short": "JESP",
       "articles": [
         {
+          "title": "Exploring the gender-portion association in stereotypes, cognition, and treatment",
+          "authors": "Elisabeth Irvine, William Li, Jordan Axt",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104755",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104755",
+          "filter": 0
+        },
+        {
           "title": "Undoing harm: The communicative content of action-oriented and person-oriented punishment",
           "authors": "Christian Mott, Larisa Heiphetz Solomon",
           "url": "https://doi.org/10.1016/j.jesp.2025.104749",
           "doi": "https://doi.org/10.1016/j.jesp.2025.104749",
+          "filter": 0
+        },
+        {
+          "title": "When everything is at stake: Understanding support for radical collective actions and collective victimhood through anger in a post-conflict setting",
+          "authors": "Islam Borinca, Russell Spears",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104752",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104752",
           "filter": 0
         }
       ],
@@ -197,6 +204,20 @@
       "articles_hidden": []
     },
     {
+      "journal_full": "Multivariate Behavioral Research",
+      "journal_short": "MBR",
+      "articles": [
+        {
+          "title": "Regularized Variational Bayesian Approximations for Variable Selection in Extended Multiple-Indicators Multiple-Causes Models",
+          "authors": "Yi Jin, Jinsong Chen",
+          "url": "https://doi.org/10.1080/00273171.2025.2483253",
+          "doi": "https://doi.org/10.1080/00273171.2025.2483253",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Psychological Methods",
       "journal_short": "PM",
       "articles": [
@@ -212,21 +233,6 @@
           "authors": "Sijing (S. J. ) Shao, Ziqian Xu, Qimin Liu, Kenneth McClure, Ross Jacobucci, Scott E. Maxwell, Zhiyong Zhang",
           "url": "https://doi.org/10.1037/met0000754",
           "doi": "https://doi.org/10.1037/met0000754",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Psychological Science",
-      "journal_short": "PsychSci",
-      "articles": [
-        {
-          "title": "Where Do Children Look When Watching Videos With Same-Language Subtitles?",
-          "authors": "Anastasiya Lopukhina, Walter J. B. van Heuven, Rebecca Crowley, Kathleen Rastle",
-          "abstract": "Influential campaigns in the United Kingdom and the United States have argued that same-language television subtitles may help children learn to read. In this study, we investigated the extent to which primary-school children pay attention to and read subtitles and whether this is related to their reading proficiency. We tracked the eye movements of 180 British children in Years 1 to 6 who watched videos with and without subtitles. Results showed that attention to subtitles was associated with reading proficiency: Superior readers were more likely to look at subtitles than less proficient readers and spent more time on them. When children looked at words in the subtitles, they showed evidence of reading them. We conclude that some degree of reading fluency may be necessary before children pay attention to subtitles. However, by the third or fourth year of reading instruction, most children read sufficiently quickly to follow same-language subtitles and potentially learn from them.",
-          "url": "https://doi.org/10.1177/09567976251325789",
-          "doi": "https://doi.org/10.1177/09567976251325789",
           "filter": 0
         }
       ],
