@@ -1,9 +1,9 @@
 name: crawl2
 
 on: 
-   workflow_dispatch:
-   schedule:
-     - cron: "0 2 * * *"
+  workflow_dispatch:
+  schedule:
+    - cron: "0 2 * * *"
 
 jobs:
   crawl:
@@ -38,7 +38,9 @@ jobs:
       - name: Install required R packages
         working-directory: ./main_folder
         run: |
-          install.packages(c("httr", "jsonlite", "rvest", "dplyr", "purrr", "bit")) # Explicitly install `bit`
+          install.packages(c("httr", "jsonlite", "rvest", "dplyr", "purrr"))
+          # Install `bit` separately to handle potential compilation issues
+          install.packages("bit", type = "source")
         shell: Rscript {0}
 
       - name: Create and populate credentials file with secrets
@@ -49,9 +51,9 @@ jobs:
           echo 'gemini_apikey="'"$MAPPED_GEMINI_APIKEY"'"' >> credentials.R
         shell: bash
         env:
-          MAPPED_OPENAI_APIKEY : ${{ secrets.OPENAI_APIKEY }}
-          MAPPED_CROSSREF_EMAIL : ${{ secrets.CROSSREF_EMAIL }}
-          MAPPED_GEMINI_APIKEY : ${{ secrets.GEMINI_APIKEY }}
+          MAPPED_OPENAI_APIKEY: ${{ secrets.OPENAI_APIKEY }}
+          MAPPED_CROSSREF_EMAIL: ${{ secrets.CROSSREF_EMAIL }}
+          MAPPED_GEMINI_APIKEY: ${{ secrets.GEMINI_APIKEY }}
 
       - name: Get data and produce JSON
         working-directory: ./main_folder
@@ -65,7 +67,7 @@ jobs:
           Rscript preprints.R
           Rscript must_read.R
 
-      - name: Commit results main branch 
+      - name: Commit results to main branch 
         working-directory: ./main_folder
         run: |
           git config --local user.email "actions@github.com"
