@@ -39,8 +39,8 @@ jobs:
         working-directory: ./main_folder
         run: |
           install.packages(c("httr", "jsonlite", "rvest", "dplyr", "purrr"))
-          # Install `bit` separately to handle potential compilation issues
-          install.packages("bit", type = "source")
+          # Install `bit` without forcing source compilation to avoid build issues
+          install.packages("bit")
         shell: Rscript {0}
 
       - name: Create and populate credentials file with secrets
