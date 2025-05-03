@@ -11,39 +11,53 @@ jobs:
     env:
       RENV_PATHS_ROOT: ~/.local/share/renv
     steps:
+      # Step 1: Check out the repository
       - name: Check out repository
         uses: actions/checkout@v4
         with:
           path: main_folder
           ref: main
           
+      # Step 2: Install system dependencies
       - name: Install system dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev
           sudo apt-get install -y libfontconfig1-dev
-          sudo apt-get install -y build-essential # Add build tools for compiling C packages
-          sudo apt-get install -y gfortran        # Add Fortran compiler for R package dependencies
-      
+          sudo apt-get install -y build-essential
+          sudo apt-get install -y gfortran
+
+      # Step 3: Set up R
       - name: Setup R
         uses: r-lib/actions/setup-r@v2
         with:
           r-version: 'release'
 
+      # Step 4: Set up renv
       - name: Setup renv
         uses: r-lib/actions/setup-renv@v2
         with:
           cache-version: 1
           working-directory: main_folder
 
-      - name: Install required R packages
+      # Step 5: Restore dependencies using renv
+      - name: Restore dependencies with renv
         working-directory: ./main_folder
         run: |
-          install.packages(c("httr", "jsonlite", "rvest", "dplyr", "purrr"))
-          # Install `bit` without forcing source compilation to avoid build issues
-          install.packages("bit", type = "binary")
+          options(error = traceback) # Enable verbose error logging
+          renv::restore()            # Restore dependencies from renv.lock
         shell: Rscript {0}
 
+      # Step 6: Install the bit package as a binary (fallback in case renv fails)
+      - name: Install `bit` package (binary)
+        working-directory: ./main_folder
+        run: |
+          options(error = traceback) # Enable verbose error logging
+          install.packages("bit", type = "binary")
+        shell: Rscript {0}
+        continue-on-error: true      # Allow the workflow to continue if this step fails
+
+      # Step 7: Create and populate credentials file with secrets
       - name: Create and populate credentials file with secrets
         working-directory: ./main_folder
         run: |
@@ -56,9 +70,11 @@ jobs:
           MAPPED_CROSSREF_EMAIL: ${{ secrets.CROSSREF_EMAIL }}
           MAPPED_GEMINI_APIKEY: ${{ secrets.GEMINI_APIKEY }}
 
+      # Step 8: Run R scripts
       - name: Get data and produce JSON
         working-directory: ./main_folder
         run: |
+          options(error = traceback) # Enable verbose error logging
           Rscript crawl.R "sociology"
           Rscript crawl.R "communication"
           Rscript crawl.R "politics"
@@ -68,6 +84,7 @@ jobs:
           Rscript preprints.R
           Rscript must_read.R
 
+      # Step 9: Commit results to the main branch
       - name: Commit results to main branch 
         working-directory: ./main_folder
         run: |
