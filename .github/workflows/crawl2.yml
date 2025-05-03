@@ -24,8 +24,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev
           sudo apt-get install -y libfontconfig1-dev
-          sudo apt-get install -y build-essential
-          sudo apt-get install -y gfortran
+          sudo apt-get install -y build-essential gfortran
 
       # Step 3: Set up R
       - name: Setup R
@@ -33,31 +32,30 @@ jobs:
         with:
           r-version: 'release'
 
-      # Step 4: Set up renv
-      - name: Setup renv
+      # Step 4: Set up renv and remove outdated lock file
+      - name: Set up renv
         uses: r-lib/actions/setup-renv@v2
         with:
           cache-version: 1
           working-directory: main_folder
 
-      # Step 5: Restore dependencies using renv
-      - name: Restore dependencies with renv
+      - name: Remove outdated renv.lock
         working-directory: ./main_folder
         run: |
-          options(error = traceback) # Enable verbose error logging
-          renv::restore()            # Restore dependencies from renv.lock
-        shell: Rscript {0}
+          if [ -f renv.lock ]; then
+            rm renv.lock
+          fi
 
-      # Step 6: Install the bit package as a binary (fallback in case renv fails)
-      - name: Install `bit` package (binary)
+      # Step 5: Reinitialize renv and regenerate renv.lock
+      - name: Reinitialize renv and install packages
         working-directory: ./main_folder
         run: |
-          options(error = traceback) # Enable verbose error logging
-          install.packages("bit", type = "binary")
-        shell: Rscript {0}
-        continue-on-error: true      # Allow the workflow to continue if this step fails
+          options(error = traceback)
+          renv::init(bare = TRUE)
+          install.packages(c("httr", "jsonlite", "rvest", "dplyr", "purrr"))
+          renv::snapshot()
 
-      # Step 7: Create and populate credentials file with secrets
+      # Step 6: Create and populate credentials file with secrets
       - name: Create and populate credentials file with secrets
         working-directory: ./main_folder
         run: |
@@ -70,11 +68,11 @@ jobs:
           MAPPED_CROSSREF_EMAIL: ${{ secrets.CROSSREF_EMAIL }}
           MAPPED_GEMINI_APIKEY: ${{ secrets.GEMINI_APIKEY }}
 
-      # Step 8: Run R scripts
+      # Step 7: Run R scripts
       - name: Get data and produce JSON
         working-directory: ./main_folder
         run: |
-          options(error = traceback) # Enable verbose error logging
+          options(error = traceback)
           Rscript crawl.R "sociology"
           Rscript crawl.R "communication"
           Rscript crawl.R "politics"
@@ -84,7 +82,7 @@ jobs:
           Rscript preprints.R
           Rscript must_read.R
 
-      # Step 9: Commit results to the main branch
+      # Step 8: Commit results to the main branch
       - name: Commit results to main branch 
         working-directory: ./main_folder
         run: |
