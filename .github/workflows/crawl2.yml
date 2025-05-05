@@ -55,7 +55,7 @@ jobs:
       - name: Get data and produce JSON
         working-directory: ./main_folder
         run: |
-          options(error = traceback)
+          Rscript -e 'options(error=traceback)'
           Rscript crawl.R "sociology"
           Rscript crawl.R "communication"
           Rscript crawl.R "politics"
@@ -65,7 +65,7 @@ jobs:
           Rscript preprints.R
           Rscript must_read.R
 
-        shell: Rscript {0}
+        shell: bash
 
       # Step 7: Commit results to the main branch
       - name: Commit results to main branch
