@@ -31,36 +31,14 @@ jobs:
         with:
           r-version: 'release'
 
-      # Step 4: Set up renv and remove outdated lock file
+      # Step 4: Set up renv (caches packages and restores the environment from renv.lock)
       - name: Set up renv
         uses: r-lib/actions/setup-renv@v2
         with:
           cache-version: 1
           working-directory: main_folder
 
-      - name: Remove outdated renv.lock
-        working-directory: ./main_folder
-        run: |
-          if [ -f renv.lock ]; then
-            rm renv.lock
-          fi
-
-      # Step 5: Pre-install bit package to address compilation issue
-      - name: Pre-install bit package
-        working-directory: ./main_folder
-        run: |
-          Rscript -e 'install.packages("bit", repos="https://cloud.r-project.org")'
-
-      # Step 6: Reinitialize renv and install additional packages
-      - name: Reinitialize renv and install packages
-        working-directory: ./main_folder
-        run: |
-          options(error = traceback)
-          renv::init(bare = TRUE)
-          install.packages(c("httr", "jsonlite", "rvest", "dplyr", "purrr"))
-          renv::snapshot()
-
-      # Step 7: Create and populate credentials file with secrets
+      # Step 5: Create and populate credentials file with secrets
       - name: Create and populate credentials file with secrets
         working-directory: ./main_folder
         run: |
@@ -73,7 +51,7 @@ jobs:
           MAPPED_CROSSREF_EMAIL: ${{ secrets.CROSSREF_EMAIL }}
           MAPPED_GEMINI_APIKEY: ${{ secrets.GEMINI_APIKEY }}
 
-      # Step 8: Run R scripts
+      # Step 6: Run R scripts
       - name: Get data and produce JSON
         working-directory: ./main_folder
         run: |
@@ -87,8 +65,10 @@ jobs:
           Rscript preprints.R
           Rscript must_read.R
 
-      # Step 9: Commit results to the main branch
-      - name: Commit results to main branch 
+        shell: Rscript {0}
+
+      # Step 7: Commit results to the main branch
+      - name: Commit results to main branch
         working-directory: ./main_folder
         run: |
           git config --local user.email "actions@github.com"
