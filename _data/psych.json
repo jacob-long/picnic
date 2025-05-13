@@ -1,6 +1,21 @@
 {
-  "update": "2025-05-10",
+  "update": "2025-05-13",
   "content": [
+    {
+      "journal_full": "Advances in Methods and Practices in Psychological Science",
+      "journal_short": "AMPPS",
+      "articles": [
+        {
+          "title": "Multilab Replications Provide Theoretical and Methodological Insight but Not Necessarily About the Studies They Seek to Replicate: Comment on Rife et al. (2025)",
+          "authors": "David A. Lishner, Christopher L. Groves",
+          "abstract": "Rife et al. conducted a multilab replication of Trafimow and Hughes (Experiment 3) to examine whether mortality salience produces higher death-thought accessibility immediately after imagining one’s own death or after a time delay. Like Trafimow and Huges, Rife et al. found that thinking about death without delay produced higher death-thought accessibility than when thinking about death with delay or thinking about dental pain. This pattern occurred regardless of whether participants were randomly assigned the original Trafimow and Hughes word-generation death-thought-accessibility measure or assigned a word-fragment death-thought-accessibility measure more commonly used in the literature. However, we argue that regardless of whether multilab replications produce results consistent with the original replicated study, they offer weak insight into the integrity and empirical plausibility of the original study. Instead, multilab replications provide valuable theoretical and methodological information regarding the span of effect created by the procedural elements shared among the set of replication studies. This information, in turn, permits clearer theoretical inference when using similar procedural elements to investigate theoretically related phenomena. Moreover, multilab replications are often conceived as a defense against false-positive empirical results and theoretical interpretations, but Rife et al.’s results reveal they may be better suited for protecting against false-negative empirical results and theoretical interpretations.",
+          "url": "https://doi.org/10.1177/25152459251336134",
+          "doi": "https://doi.org/10.1177/25152459251336134",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
@@ -10,6 +25,22 @@
           "authors": "Camila Bruder, Pauline Larrouy-Maestri",
           "url": "https://doi.org/10.3758/s13428-025-02687-2",
           "doi": "https://doi.org/10.3758/s13428-025-02687-2",
+          "filter": 0
+        },
+        {
+          "title": "Validating the Chinese version of the Apathy Motivation Index and network analysis of apathy subtypes in a healthy Chinese sample",
+          "authors": "Xingyu Zhao, Liping Cui, Yunlin Sun, Lei Wang, Ke Wu, Qiangyan Che, Junyu Mao, Liuzhenxiong Yu, Pingping Liu, Panpan Hu, Kai Wang, Fengqiong Yu, Rong Ye",
+          "abstract": "Apathy is a neuropsychiatric syndrome associated with various negative outcomes in patients with motivational disorders, commonly examined in multiple dimensions including cognitive, behavioral, and emotional domains. While there are some tools to measure apathy in China, there is a lack of appropriate instruments specifically designed to assess social motivation for a more comprehensive definition of apathy. Moreover, there is limited research on the complex interrelations among the intrinsic domains of apathy. Therefore, we developed the Chinese version of the Apathy Motivation Index (AMI) and assessed its reliability and validity in a sample of 758 participants. Network analysis was employed to explore the relationships among different domains of apathy. The Chinese version of the AMI classifies apathy into three domains, namely, behavioral activation, social motivation, and emotional sensitivity, which is consistent with the original scale; it also has good reliability and validity, making it suitable for measuring apathy and motivation in both healthy and patient populations. Additionally, network analysis revealed that apathy within the behavioral activation domain critically contributes to the overall measurement of apathy, while the social motivation dimension may serve as a bridge connecting other dimensions. Our study offers a reliable instrument to investigate apathy in Chinese-speaking individuals and could provide new insights for a better understanding of apathy in neuropsychiatric disorders.",
+          "url": "https://doi.org/10.3758/s13428-025-02686-3",
+          "doi": "https://doi.org/10.3758/s13428-025-02686-3",
+          "filter": 0
+        },
+        {
+          "title": "Feature-based behavior coding for efficient exploratory analysis using pose estimation",
+          "authors": "Eigo Nishimura",
+          "abstract": "This paper introduces feature-based behavior coding (FBBC), an efficient method for exploratory analysis in behavioral research using pose estimation techniques. FBBC addresses the challenges of traditional behavioral coding methods, particularly in the exploratory stages of research when coding schemes are not yet well defined. By leveraging keypoint detection and dimensionality reduction, FBBC transforms video data into interpretable feature time series, enabling researchers to analyze diverse postural patterns more efficiently. Also presented is Behavior Senpai, an open-source software implementation of FBBC that integrates automated feature extraction with human insight. A case study demonstrates FBBC’s ability to classify complex postures by combining multiple features and manual clustering. While the current iteration focuses on instantaneous posture classification, the framework shows potential for expansion to action classification. FBBC offers increased flexibility in developing coding schemes and reduces the time-consuming nature of repetitive observations. This approach represents a considerable advancement in behavioral research, bridging traditional methods with modern machine-learning techniques. As FBBC is adopted and refined, it will contribute to more comprehensive and insightful behavioral analyses across the psychological and behavioral sciences.",
+          "url": "https://doi.org/10.3758/s13428-025-02702-6",
+          "doi": "https://doi.org/10.3758/s13428-025-02702-6",
           "filter": 0
         },
         {
@@ -35,13 +66,6 @@
           "filter": 0
         },
         {
-          "title": "The Second Database of Emotional Videos from Ottawa (DEVO-2): Over 1300 brief video clips rated on valence, arousal, impact, and familiarity",
-          "authors": "Patrick S. R. Davidson, Alex W. Castro, Steven Carton, Vanessa Cunha, Charles A. Collin",
-          "url": "https://doi.org/10.3758/s13428-025-02652-z",
-          "doi": "https://doi.org/10.3758/s13428-025-02652-z",
-          "filter": 0
-        },
-        {
           "title": "A multiverse analysis of cleaning and analyzing procedures of eye movement data during reading",
           "authors": "Hayward J. Godwin, Charlotte E. Lee, Denis Drieghe",
           "abstract": "Eye movements during reading experiments involve careful cleaning of raw data into a processed format that can then be analyzed. Through the process of cleaning and analyzing these datasets, there are many decisions that researchers make. As a result, there is a wide range of possible approaches that can be taken when analyzing datasets from reading and eye movement experiments. At present, little is known regarding the consequences of these decisions and in a worst-case scenario, specific approaches to cleaning and analyzing these datasets could “create” effects that would otherwise not be present in the datasets. Here, we addressed these issues by conducting a multiverse analysis of a range of reasonable and defensible analyses that researchers in this field might conduct. We examined a total of 1,890 different data cleaning and analytic pipelines to explore how different decisions researchers make when cleaning and analyzing their data influence perhaps the most well-known effect in eye movements and reading research: the word frequency effect. More specifically, the impact on the size of the word frequency effect during sentence reading (Lee et al. Journal of Experimental Psychology: Learning, Memory, and Cognition , 2025) was explored. The frequency effect was found to be extremely robust and present in almost all cases, but the magnitude varied substantially, with 36% of the size of the effect being due to specific choices made during data cleaning and analysis. Recommendations for further work and greater transparency in the field are set out based on our findings.",
@@ -61,20 +85,6 @@
           "authors": "Carole Bélanger, Clémentine Pouliot, Marie-Hélène Tessier, Audrey Marcoux, Alex Cousineau, Jacqueline Nguyen Phuong Trieu, Philip L. Jackson",
           "url": "https://doi.org/10.1016/j.chb.2025.108702",
           "doi": "https://doi.org/10.1016/j.chb.2025.108702",
-          "filter": 0
-        },
-        {
-          "title": "Conversational dynamics in social virtual reality: A large-scale, longitudinal study of speech acts and nonverbal behavior",
-          "authors": "Monique Santoso, Portia Wang, Eugy Han, Jeremy N. Bailenson",
-          "url": "https://doi.org/10.1016/j.chb.2025.108691",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108691",
-          "filter": 0
-        },
-        {
-          "title": "Screen time woes: Social media posting, scrolling, externalizing behaviors, and anxiety in adolescents",
-          "authors": "Eun Jung Choi, Ella Christiaans, Emma G. Duerden",
-          "url": "https://doi.org/10.1016/j.chb.2025.108688",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108688",
           "filter": 0
         },
         {
@@ -127,28 +137,21 @@
       "articles_hidden": []
     },
     {
-      "journal_full": "Journal of Personality and Social Psychology",
-      "journal_short": "JPSP",
+      "journal_full": "Journal of Experimental Social Psychology",
+      "journal_short": "JESP",
       "articles": [
         {
-          "title": "Asymmetric polarization: The perception that Republicans pose harm to disadvantaged groups drives Democrats’ greater dislike of Republicans in social contexts.",
-          "authors": "Krishnan Nair, Rajen A. Anderson, Trevor Spelman, Mohsen Mosleh, Maryam Kouchaki",
-          "url": "https://doi.org/10.1037/pspi0000495",
-          "doi": "https://doi.org/10.1037/pspi0000495",
+          "title": "Third-party punishment, vigilante justice, or karma? Understanding the dynamics of interpersonal and cosmic justice",
+          "authors": "Cindel J.M. White, Julia W. Van de Vondervoort",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104761",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104761",
           "filter": 0
         },
         {
-          "title": "The uniquely powerful impact of explicit, blatant dehumanization on support for intergroup violence.",
-          "authors": "Alexander P. Landry, Isaias Ghezae, Ramzi Abou-Ismail, Sarah Spooner, River J. August, Charlotte Mair, Anya Ragnhildstveit, Wim Van den Noortgate, Michele J. Gelfand, Paul Seli",
-          "url": "https://doi.org/10.1037/pspi0000492",
-          "doi": "https://doi.org/10.1037/pspi0000492",
-          "filter": 0
-        },
-        {
-          "title": "Lifestyle polarization on a college campus: Do liberals and conservatives behave differently in everyday life?",
-          "authors": "Sanaz Talaifar, Diana Jordan, Samuel D. Gosling, Gabriella M. Harari",
-          "url": "https://doi.org/10.1037/pspp0000545",
-          "doi": "https://doi.org/10.1037/pspp0000545",
+          "title": "Population base rates as anchors in social categorization under uncertainty",
+          "authors": "Antonio G. Viera, Robert J. Rydell, Kurt Hugenberg, Edward R. Hirt",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104760",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104760",
           "filter": 0
         }
       ],
@@ -173,14 +176,6 @@
       "journal_short": "PSPB",
       "articles": [
         {
-          "title": "How Do People Think About the Relationship Between Science and Religion? A Cross-Cultural Psychometric Investigation",
-          "authors": "Joshua A. Wilt, Julie J. Exline, Gulnaz Anjum",
-          "abstract": "Few studies have systematically measured positions about the relationships between science and religion, and existing work has primarily focused on Christian samples from Western cultures. We collected data from individuals living in Australia, China, and the United States, encompassing both adults and undergraduates (total N = 985). We employed existing self-report instruments and novel items to measure positions about science and religion as well as individual attitudes toward science and religion (i.e., not in relation to one another). Exploratory factor and cluster analysis showed that, across samples, position dimensions included multiple facets of compatibility, both in general and specific terms, alongside a single conflict dimension. Correlations and moderated regressions showed that compatibility dimensions corresponded with depolarized attitudes toward science and religion, whereas the conflict dimension correlated with polarized attitudes. These results supported preregistered hypotheses. This study takes a step toward assessing positions more comprehensively, offering insights into their meanings.",
-          "url": "https://doi.org/10.1177/01461672251335535",
-          "doi": "https://doi.org/10.1177/01461672251335535",
-          "filter": 0
-        },
-        {
           "title": "“Pay Me Back”: Testing the Implications of Long-Term Changes and Partner Similarity in Exchange Orientation Within Intimate Relationships",
           "authors": "Haeyoung Gideon Park, Matthew D. Johnson, Amie M. Gordon, Emily A. Impett",
           "abstract": "Past research on intimate relationships suggests that exchange orientation—the tendency to expect direct reciprocation when providing a benefit—predicts lower relationship well-being. However, limited research has examined the long-term associations of this link or the effects of partner similarity in exchange orientation. The present research addressed this gap by employing a set of rigorous analyses on longitudinal data spanning 13 years from a national sample of romantic couples in Germany ( N = 7,293 couples). Latent curve models with structured residuals (LCM-SR) revealed that romantic partners, on average, experienced a general decline in exchange orientation over the course of their relationship. Partners who showed slower declines in exchange orientation experienced steeper declines in relationship satisfaction. Within-person increases in exchange orientation predicted future decreases in relationship satisfaction. Dyadic response surface analyses (DRSA) indicated no evidence of similarity effects. Overall, these findings corroborate the adverse effects of exchange orientation on intimate relationships.",
@@ -197,27 +192,11 @@
           "filter": 0
         },
         {
-          "title": "Dating in Later Life: Do the Advantages of Age Depend on the Relational Context?",
-          "authors": "Lisa A. Neff, Jennifer S. Beer",
-          "abstract": "Dating in later life is increasingly prevalent, yet research on older adults’ experiences within their newly formed relationships is scarce. Although older adults are often more adept in minimizing their reactivity when relational tensions arise, integrating insights from theories of aging and relationship development suggests that older adults’ advantage over younger adults may diminish, or even reverse, when examining reactivity in newly formed dating relationships. Married and dating couples ( N = 282; aged 30–88) completed a 21-day daily diary task. Multilevel modeling was used to estimate individuals’ negative affect, physical health symptoms, and relationship satisfaction on days of greater tension with a partner. Age was not associated with reactivity among married couples. Among dating couples, age was associated with emotional reactivity (women only) and physical reactivity, but not relational reactivity, such that older individuals experienced greater increases in emotional distress and physical health problems on higher tension days compared to younger individuals.",
-          "url": "https://doi.org/10.1177/01461672251332763",
-          "doi": "https://doi.org/10.1177/01461672251332763",
-          "filter": 0
-        },
-        {
           "title": "Context Norms Shape Perceived Motives of Organizational Diversity Statements",
           "authors": "Kimberly E. Chaney, Emma Wedell, Izilda Pereira-Jorge, Marley B. Forbes",
           "abstract": "Diversity statements have become common practice for organizations; might this norm backfire for norm-adhering organizations? The present research examines if awareness of diversity statement norms across organizations leads to perceptions of an organization’s diversity statement as mere norm adherence. Across four experiments recruiting Black and LGBTQ+ U.S. participants ( N = 1,326), we find that when diversity statements are the norm across organizations, an organization’s diversity statement is viewed as more externally motivated and marginalized group members report lower anticipated belonging and perceive the organization as less committed to diversity than when organizational diversity statements are not the norm. We further examine perceptions of organizations that violate a diversity statement norm and how the strength of the norm impacts perceptions. By incorporating research on attributions and egalitarian norm perceptions, the present research affords novel insights into perceptions of organizational diversity commitments with implications for marginalized group members’ anticipated belonging.",
           "url": "https://doi.org/10.1177/01461672251330694",
           "doi": "https://doi.org/10.1177/01461672251330694",
-          "filter": 0
-        },
-        {
-          "title": "Who Negotiates? The Political Psychology of Price Negotiations",
-          "authors": "Archer Yue Pan, Manoj Thomas",
-          "abstract": "Price negotiation is often a zero-sum interaction where one party’s gain is another’s loss. In such contexts, a buyer’s willingness to negotiate can depend on the perceived justifiability of negotiation. This research examines how political ideology shapes these perceptions. Two archival studies ( N = 56,615) and four preregistered studies ( N = 3,157) show that conservative buyers are more likely to negotiate prices for houses and used cars. Conservatives also hold stronger beliefs that buyers should negotiate prices regardless of the seller’s identity—be it a professional dealer, an ordinary seller, a stranger, or a friend. This heightened propensity to justify price negotiation is rooted in conservatives’ endorsement of free-market ideology, which motivates and even moralizes the pursuit of economic self-interest in marketplace interactions. These findings offer a nuanced account of interactions in the marketplace, demonstrating that marketplace behaviors are influenced not only by economic considerations but also by ideological beliefs.",
-          "url": "https://doi.org/10.1177/01461672251335697",
-          "doi": "https://doi.org/10.1177/01461672251335697",
           "filter": 0
         }
       ],
@@ -228,11 +207,19 @@
       "journal_short": "PsychSci",
       "articles": [
         {
-          "title": "Signal Intrusion Explains Divergent Effects of Visual Distraction on Working Memory",
-          "authors": "Ziyao Zhang, Jarrod A. Lewis-Peacock",
-          "abstract": "Perceptual distraction distorts visual working memories. Recent research has shown divergent effects of distraction on memory performance, including attractive biases, impairment of memory precision, and an increase in the guess rate, indicating multiple mechanisms of distraction interference. Here we propose a novel signal-intrusion model based on the TCC (target-confusability-competition) framework to reconcile those discrepant results. We hypothesized that sensory interference is driven by the integration of a target signal and an intrusive distractor signal. Model comparisons showed that this TCC-intrusion model had a superior fit to memory error distributions across three delayed-estimation tasks with distraction ( N = 220 adults) compared with other candidate models. According to the model, distractor intrusions decreased along with target-distractor dissimilarity, in accordance with the sensory-recruitment hypothesis. Moreover, TCC-intrusion successfully replicated divergent effects of distraction on memory bias, precision, and guess rate using this one intrusion mechanism. Together, these results suggest that perceptual distractors affect working memories through a unified mechanism of signal intrusion.",
-          "url": "https://doi.org/10.1177/09567976251331039",
-          "doi": "https://doi.org/10.1177/09567976251331039",
+          "title": "Doubling-Back Aversion: A Reluctance to Make Progress by Undoing It",
+          "authors": "Kristine Y. Cho, Clayton R. Critcher",
+          "abstract": "Four studies ( N = 2,524 U.S.-based adults recruited from the University of California, Berkeley, or Amazon Mechanical Turk) provide support for doubling-back aversion, a reluctance to pursue more efficient means to a goal when they entail undoing progress already made. These effects emerged in diverse contexts, both as participants physically navigated a virtual-reality world and as they completed different performance tasks. Doubling back was decomposed into two components: the deletion of progress already made and the addition to the proportion of a task that was left to complete. Each contributed independently to doubling-back aversion. These effects were robustly explained by shifts in subjective construals of both one’s past and future efforts that would result from doubling back, not by changes in perceptions of the relative length of different routes to an end state. Participants’ aversion to feeling their past efforts were a waste encouraged them to pursue less efficient means. We end by discussing how doubling-back aversion is distinct from established phenomena (e.g., the sunk-cost fallacy).",
+          "url": "https://doi.org/10.1177/09567976251331053",
+          "doi": "https://doi.org/10.1177/09567976251331053",
+          "filter": 0
+        },
+        {
+          "title": "The Ethnic and Political Divide in the Preference for Strong Leaders",
+          "authors": "Krishnan Nair, Marlon Mooijman, Maryam Kouchaki",
+          "abstract": "The prevailing view among scholars has been that the preference for strong leaders is an idiosyncratic feature of right-wing individuals. However, it is unclear whether this inference is accurate given that prior research has largely overlooked the role of ethnicity. We analyzed data from the United States and Western Europe ( N = 34,443) and found that ethnic minorities (and right-wing individuals) preferred strong leaders to a greater extent than Whites (and left-wing individuals). Notably, ethnic minorities across diverse ethnic and political backgrounds were closer to right-wing Whites on strong-leader preference than to left-wing Whites. Our work also provides some evidence, using both measurement-of-mediation (Studies 1–4) and experimental mediation (preregistered Studies 5 and 6), that generalized trust helps explain group differences in strong-leader preference. In sum, our research illustrates the unique nature of left-wing Whites’ leadership preferences, and highlights the importance of testing social science theories using diverse participant samples.",
+          "url": "https://doi.org/10.1177/09567976251327217",
+          "doi": "https://doi.org/10.1177/09567976251327217",
           "filter": 0
         },
         {
@@ -249,6 +236,14 @@
       "journal_full": "Psychology of Music",
       "journal_short": "PsychMusic",
       "articles": [
+        {
+          "title": "Comparing the emotional effects of semantic content and vocal expression of lyrics",
+          "authors": "Nathan Pond",
+          "abstract": "Despite a growing literature suggesting that the lyrics of music may have an emotional effect, there are as of yet no studies examining which elements of lyrics influence emotional experience. The present study explored the emotional effect of lyrics sung without a melodic accompaniment, examining whether the vocal expression or the semantic content of the lyrics had a greater influence on emotional state. A sample of 170 participants were presented four variants of sung lyrics, representing all possible combinations of vocal expression (happy; sad) and semantic content (happy; sad) condition, with emotional state being measured using the Brief Mood Introspection Scale (BMIS) following each presentation. A 2 × 2 repeated-measures analysis of covariance (ANCOVA) revealed that, after controlling for familiarity with the song, both the emotional valence of the vocal expression and the semantic content influenced emotional experience, though the vocal expression did so to a greater magnitude. Therefore, the vocal expression of lyrics may have the dominant effect on emotions, though the semantic content still has a minor influence.",
+          "url": "https://doi.org/10.1177/03057356251334142",
+          "doi": "https://doi.org/10.1177/03057356251334142",
+          "filter": 0
+        },
         {
           "title": "The melody in the mind: Associations between earworms, schizotypy, and subclinical obsessive-compulsive disorder",
           "authors": "Flóra Fülöp, Ferenc Honbolygó",
@@ -277,13 +272,6 @@
           "authors": "Nadine Schlicker, Fabian Lechner, Katja Wehrle, Berit Greulich, Martin C. Hirsch, Markus Langer",
           "url": "https://doi.org/10.1037/tmb0000164",
           "doi": "https://doi.org/10.1037/tmb0000164",
-          "filter": 0
-        },
-        {
-          "title": "How do video games affect mental health? A narrative review of 13 proposed mechanisms.",
-          "authors": "Nick Ballou, Thomas Hakman, Matti Vuorre, Kristoffer Magnusson, Andrew K. Przybylski",
-          "url": "https://doi.org/10.1037/tmb0000152",
-          "doi": "https://doi.org/10.1037/tmb0000152",
           "filter": 0
         }
       ],
