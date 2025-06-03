@@ -1,5 +1,5 @@
 {
-  "update": "2025-06-02",
+  "update": "2025-06-03",
   "content": [
     {
       "journal_full": "American Journal of Sociology",
@@ -48,14 +48,6 @@
           "abstract": "Many strategies for preventing and containing the spread of COVID-19 require wide-scale public cooperation backed by informal social control. Yet, fear of infection may either motivate or impede individuals’ willingness to intervene when they observe others flouting the rules. This study aims to evaluate how the risk of exposure to COVID-19 in the immediate residential setting affects an individual’s willingness to exercise informal social control in the neighborhood. Using longitudinal household survey data collected before and during the COVID-19 pandemic in Hong Kong, respondents were linked to confirmed cases of COVID-19 through spatiotemporal information to measure their risk of exposure to COVID-19. The findings show that the risk of exposure to COVID-19 in individuals’ immediate residential setting had weakened informal social control and that this relationship was mediated by neighborhood social cohesion. Our findings reveal how public health crises alter the social behavior of residents and neighborhood dynamics in an urban setting, emphasizing the need for policies that foster social cohesion and strengthen community resilience.",
           "url": "https://doi.org/10.1093/sf/soaf067",
           "doi": "https://doi.org/10.1093/sf/soaf067",
-          "filter": 0
-        },
-        {
-          "title": "Tainted leave: a survey-experimental investigation of flexibility stigma in Japanese workplaces",
-          "authors": "Hilary J Holbrow",
-          "abstract": "Scholars posit that the flexibility stigma—a belief that workers who use flexible workplace policies, such as parental and sick leave—exacerbates gender inequality. However, a large body of research argues that the smaller number of men who take leaves face even more severe stigma than women because they violate norms of masculinity as well as the employers’ expectation that employees prioritize paid work. Empirical evidence in support of this claim comes largely from studies that estimate stigma using proxy measures such as leave uptake rates and pay inequality for leave takers. This study tests the gender deviance perspective more directly using survey experimental methods, in a setting where we would expect stigmatization of male leave takers to be particularly high—among workers in four elite firms in Japan. Drawing on data from over 8,000 employees, the results reveal that, even where the male breadwinner ideology is deeply entrenched, men’s leaves are no more stigmatized than women’s. To the contrary, there are no gender differences in stigmatization of sick leave, and women who take parental leave face more severe stigmatization than men. The results undercut claims that men face greater stigma when they take similar leaves as women, demonstrate the fallibility of proxy measures of stigma, and highlight how, in large Japanese firms, women remain doubly disadvantaged by the flexibility stigma.",
-          "url": "https://doi.org/10.1093/sf/soaf063",
-          "doi": "https://doi.org/10.1093/sf/soaf063",
           "filter": 0
         },
         {
@@ -108,6 +100,13 @@
           "url": "https://doi.org/10.1016/j.ssresearch.2025.103214",
           "doi": "https://doi.org/10.1016/j.ssresearch.2025.103214",
           "filter": 0
+        },
+        {
+          "title": "The effects of clan culture on multidimensional poverty of older adults in China",
+          "authors": "Shuang Yu, Manfei Yang, Yinhe Liang",
+          "url": "https://doi.org/10.1016/j.ssresearch.2025.103213",
+          "doi": "https://doi.org/10.1016/j.ssresearch.2025.103213",
+          "filter": 0
         }
       ],
       "articles_hidden": []
@@ -125,11 +124,43 @@
           "filter": 0
         },
         {
+          "title": "Quantifying Narrative Similarity Across Languages",
+          "authors": "Hannah Waight, Solomon Messing, Anton Shirikov, Margaret E. Roberts, Jonathan Nagler, Jason Greenfield, Megan A. Brown, Kevin Aslett, Joshua A. Tucker",
+          "abstract": "How can one understand the spread of ideas across text data? This is a key measurement problem in sociological inquiry, from the study of how interest groups shape media discourse, to the spread of policy across institutions, to the diffusion of organizational structures and institution themselves. To study how ideas and narratives diffuse across text, we must first develop a method to identify whether texts share the same information and narratives, rather than the same broad themes or exact features. We propose a novel approach to measure this quantity of interest, which we call “narrative similarity,” by using large language models to distill texts to their core ideas and then compare the similarity of claims rather than of words, phrases, or sentences. The result is an estimand much closer to narrative similarity than what is possible with past relevant alternatives, including exact text reuse, which returns lexically similar documents; topic modeling, which returns topically similar documents; or an array of alternative approaches. We devise an approach to providing out-of-sample measures of performance (precision, recall, F1) and show that our approach outperforms relevant alternatives by a large margin. We apply our approach to an important case study: The spread of Russian claims about the development of a Ukrainian bioweapons program in U.S. mainstream and fringe news websites. While we focus on news in this application, our approach can be applied more broadly to the study of propaganda, misinformation, diffusion of policy and cultural objects, among other topics.",
+          "url": "https://doi.org/10.1177/00491241251340080",
+          "doi": "https://doi.org/10.1177/00491241251340080",
+          "filter": 0
+        },
+        {
+          "title": "Simulating Subjects: The Promise and Peril of Artificial Intelligence Stand-Ins for Social Agents and Interactions",
+          "authors": "Austin C. Kozlowski, James Evans",
+          "abstract": "Large language models (LLMs), through their exposure to massive collections of online text, learn to reproduce the perspectives and linguistic styles of diverse social and cultural groups. This capability suggests a powerful social scientific application—the simulation of empirically realistic, culturally situated human subjects. Synthesizing recent research in artificial intelligence and computational social science, we outline a methodological foundation for simulating human subjects and their social interactions. We then identify six characteristics of current models that are likely to impair the realistic simulation of human subjects: bias, uniformity, atemporality, disembodiment, linguistic cultures, and alien intelligence. For each of these areas, we discuss promising approaches for overcoming their associated shortcomings. Given the rate of change of these models, we advocate for an ongoing methodological program for the simulation of human subjects that keeps pace with rapid technical progress, and caution that validation against human subjects data remains essential to ensure simulation accuracy.",
+          "url": "https://doi.org/10.1177/00491241251337316",
+          "doi": "https://doi.org/10.1177/00491241251337316",
+          "filter": 0
+        },
+        {
+          "title": "An Optimal Stratification Method for Addressing Nonresponse Bias in Bayesian Adaptive Survey Design",
+          "authors": "Yongchao Ma, Nino Mushkudiani, Barry Schouten",
+          "abstract": "In a probability sampling survey, adaptive data collection strategies may be used to obtain a response set that minimizes nonresponse bias within budget constraints. Previous research has stratified the target population into subgroups defined by categories of auxiliary variables observed for the entire population, and tailored strategies to obtain similar response rates across subgroups. However, if the auxiliary variables are weakly correlated with the target survey variables, optimizing data collection for these subgroups may not reduce nonresponse bias and may actually increase the variance of survey estimates. In this paper, we propose a stratification method to identify subgroups by: (1) predicting values of target survey variables from auxiliary variables, and (2) forming subgroups with different response propensities based on the predicted values of target survey variables. By tailoring different data collection strategies to these subgroups, we can obtain a response set with less variation in response propensities across subgroups that are directly relevant to the target survey variables. Given this rationale, we also propose to measure nonresponse bias by the coefficient of variation of response propensities estimated from the predicted target survey variables. A case study using the Dutch Health Survey shows that the proposed stratification method generally produces less variation in response propensities with respect to the predicted target survey variables compared to traditional methods, thereby leading to a response set that better resembles the population.",
+          "url": "https://doi.org/10.1177/00491241251345463",
+          "doi": "https://doi.org/10.1177/00491241251345463",
+          "filter": 0
+        },
+        {
           "title": "Using Large Language Models for Qualitative Analysis can Introduce Serious Bias",
           "authors": "Julian Ashwin, Aditya Chhabra, Vijayendra Rao",
           "abstract": "Large language models (LLMs) are quickly becoming ubiquitous, but their implications for social science research are not yet well understood. We ask whether LLMs can help code and analyse large-N qualitative data from open-ended interviews, with an application to transcripts of interviews with Rohingya refugees and their Bengali hosts in Bangladesh. We find that using LLMs to annotate and code text can introduce bias that can lead to misleading inferences. By bias we mean that the errors that LLMs make in coding interview transcripts are not random with respect to the characteristics of the interview subjects. Training simpler supervised models on high-quality human codes leads to less measurement error and bias than LLM annotations. Given that high quality codes are necessary in order to assess whether an LLM introduces bias, we argue that it may be preferable to train a bespoke model on a subset of transcripts coded by trained sociologists rather than use an LLM.",
           "url": "https://doi.org/10.1177/00491241251338246",
           "doi": "https://doi.org/10.1177/00491241251338246",
+          "filter": 0
+        },
+        {
+          "title": "The Causal Effect of Parent Occupation on Child Occupation: A Multivalued Treatment with Positivity Constraints",
+          "authors": "Ian Lundberg, Daniel Molitor, Jennie E. Brand",
+          "abstract": "To what degree does parent occupation cause a child’s occupational attainment? We articulate this causal question in the potential outcomes framework. Empirically, we show that adjustment for only two confounding variables substantially reduces the estimated association between parent and child occupation in a U.S. cohort. Methodologically, we highlight complications that arise when the treatment variable (parent occupation) can take many categorical values. A central methodological hurdle is positivity: some occupations (e.g., lawyer) are simply never held by some parents (e.g., those who did not complete college). We show how to overcome this hurdle by reporting summaries within subgroups that focus attention on the causal quantities that can be credibly estimated. Future research should build on the longstanding tradition of descriptive mobility research to answer causal questions.",
+          "url": "https://doi.org/10.1177/00491241251338412",
+          "doi": "https://doi.org/10.1177/00491241251338412",
           "filter": 0
         }
       ],
@@ -139,14 +170,6 @@
       "journal_full": "Socius",
       "journal_short": "Socius",
       "articles": [
-        {
-          "title": "Birds of a Feather: Exploring Peer Influence and Academic Progress in Norwegian Secondary Schools",
-          "authors": "Thomas Lorentzen",
-          "abstract": "The author examines how peer influence acts as a catalyst for individual academic growth or decline, focusing on grade-rank changes between lower secondary and upper secondary education. The aim is to identify school-level factors that either promote or hinder learning, emphasizing the role of peer ability and country background segregation. Using population-based register data from Norway and using fixed-effects and multilevel random-effects models, the analysis reveals that girls tend to improve more than boys in the theoretical subjects found within academic tracks, while boys excel in practical subjects within vocational tracks. Although country-based segregation is less critical than peer ability, some negative effects of segregation are evident, particularly for non-Western students and subjects requiring language proficiency. Interestingly, students show significant grade-rank improvement in schools with lower peer ability levels. These findings suggest that in terms of grade improvement, attending schools with lower ability peers can be beneficial, particularly for girls.",
-          "url": "https://doi.org/10.1177/23780231251338963",
-          "doi": "https://doi.org/10.1177/23780231251338963",
-          "filter": 0
-        },
         {
           "title": "Neutralization and Violence in Gaza: How Jewish College Students in the United States and Israel Justify and Contest Military Engagement",
           "authors": "Amy Adamczyk",
