@@ -1,18 +1,10 @@
 {
-  "update": "2025-06-03",
+  "update": "2025-06-06",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
       "journal_short": "AMPPS",
       "articles": [
-        {
-          "title": "An Expert Guide to Planning Experimental Tasks For Evidence-Accumulation Modeling",
-          "authors": "Russell J. Boag, Reilly J. Innes, Niek Stevenson, Giwon Bahg, Jerome R. Busemeyer, Gregory E. Cox, Chris Donkin, Michael J. Frank, Guy E. Hawkins, Andrew Heathcote, Craig Hedge, Veronika Lerche, Simon D. Lilburn, Gordon D. Logan, Dora Matzke, Steven Miletić, Adam F. Osth, Thomas J. Palmeri, Per B. Sederberg, Henrik Singmann, Philip L. Smith, Tom Stafford, Mark Steyvers, Luke Strickland, Jennifer S. Trueblood, Konstantinos Tsetsos, Brandon M. Turner, Marius Usher, Leendert van Maanen, Don van Ravenzwaaij, Joachim Vandekerckhove, Andreas Voss, Emily R. Weichart, Gabriel Weindel, Corey N. White, Nathan J. Evans, Scott D. Brown, Birte U. Forstmann",
-          "abstract": "Evidence-accumulation models (EAMs) are powerful tools for making sense of human and animal decision-making behavior. EAMs have generated significant theoretical advances in psychology, behavioral economics, and cognitive neuroscience and are increasingly used as a measurement tool in clinical research and other applied settings. Obtaining valid and reliable inferences from EAMs depends on knowing how to establish a close match between model assumptions and features of the task/data to which the model is applied. However, this knowledge is rarely articulated in the EAM literature, leaving beginners to rely on the private advice of mentors and colleagues and inefficient trial-and-error learning. In this article, we provide practical guidance for designing tasks appropriate for EAMs, relating experimental manipulations to EAM parameters, planning appropriate sample sizes, and preparing data and conducting an EAM analysis. Our advice is based on prior methodological studies and the our substantial collective experience with EAMs. By encouraging good task-design practices and warning of potential pitfalls, we hope to improve the quality and trustworthiness of future EAM research and applications.",
-          "url": "https://doi.org/10.1177/25152459251336127",
-          "doi": "https://doi.org/10.1177/25152459251336127",
-          "filter": 0
-        },
         {
           "title": "The Design of Current Replication Studies: A Systematic Literature Review on the Variation of Study Characteristics",
           "authors": "Jerome Hoffmann, Mathias Twardawski, Johanna M. Höhs, Anne Gast, Steffi Pohl, Marie-Ann Sengewald",
@@ -30,11 +22,11 @@
           "filter": 0
         },
         {
-          "title": "The Benefits of Reporting Critical-Effect-Size Values",
-          "authors": "Ambra Perugini, Filippo Gambarota, Enrico Toffalini, Daniël Lakens, Massimiliano Pastore, Livio Finos, character(0), Gianmarco Altoè",
-          "abstract": "Critical-effect-size values represent the smallest detectable effect that can reach statistical significance given a specific sample size, alpha level, and test statistic. It can be useful to calculate the critical effect size when designing a study and evaluate whether such effects are plausible. Reporting critical-effect-size values may be useful when the sample size has not been planned a priori, there is uncertainty about the expected sample size that can be collected, or researchers plan to analyze the data with a statistical hypothesis test. To assist researchers in calculating critical-effect-size values, we developed an R package that allows researchers to report critical-effect-size values for group comparisons, correlations, linear regressions, and meta-analyses. Reflecting on critical-effect-size values could benefit researchers during the planning phase of the study by helping them to understand the limitations of their research design. Critical-effect-size values are also useful when evaluating studies performed by other researchers when a priori power analyses were not performed, especially when nonsignificant results are observed.",
-          "url": "https://doi.org/10.1177/25152459251335298",
-          "doi": "https://doi.org/10.1177/25152459251335298",
+          "title": "Thinking Clearly About Age, Period, and Cohort Effects",
+          "authors": "Julia M. Rohrer",
+          "abstract": "Psychological researchers are interested in how things change over time and routinely make claims about age effects (e.g., personality maturation), cohort effects (e.g., generational differences in narcissism), and sometimes, period effects (e.g., secular trends in mental health). The age-period-cohort identification problem means that these claims are not possible based on the data alone: Any possible temporal pattern can be explained by an infinite number of combinations of age, period, and cohort effects. This concern holds regardless of the study design (it also applies to longitudinal designs covering multiple cohorts) and the number of observations available (it also applies if researchers observe the whole population). Researchers usually rely on statistical models that impose constraints to pick one specific decomposition of effects. Unfortunately, these constraints often remain opaque, resulting in a lack of scrutiny of the underlying assumptions. How can researchers reason more transparently and systematically about age, period, and cohort? Here, I summarize advances in the understanding of the precise nature of the identification problem, provide an overview of ways to move forward, and highlight one approach that is particularly transparent about assumptions: bounding analysis, a framework developed by sociologists Ethan Fosse and Christopher Winship. To illustrate this approach, I analyze how age, period, and cohort affect attitudes toward working mothers in the German General Social Survey.",
+          "url": "https://doi.org/10.1177/25152459251342750",
+          "doi": "https://doi.org/10.1177/25152459251342750",
           "filter": 0
         }
       ],
@@ -45,17 +37,34 @@
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "Cognition ratings for 8826 english words",
-          "authors": "Hannah T. Corenblum, Penny M. Pexman",
-          "url": "https://doi.org/10.3758/s13428-025-02663-w",
-          "doi": "https://doi.org/10.3758/s13428-025-02663-w",
+          "title": "Correction: The complexity of measuring reliability in learning tasks: An illustration using the Alternating Serial Reaction Time Task",
+          "authors": "Bence C. Farkas, Attila Krajcsi, Karolina Janacsek, Dezso Nemeth",
+          "url": "https://doi.org/10.3758/s13428-025-02670-x",
+          "doi": "https://doi.org/10.3758/s13428-025-02670-x",
           "filter": 0
         },
         {
-          "title": "Maximin criterion for item selection in computerized adaptive testing",
-          "authors": "Jyun-Hong Chen, Hsiu-Yi Chao",
-          "url": "https://doi.org/10.3758/s13428-025-02673-8",
-          "doi": "https://doi.org/10.3758/s13428-025-02673-8",
+          "title": "forceplate: An R package for processing raw force-plate time-series data",
+          "authors": "Raphael Hartmann, Anton Koger, Elisa R. Straub, Leif Johannsen, Iring Koch, Denise N. Stephan, Hermann Müller, Andrea Kiesel",
+          "abstract": "Evidence supporting the interaction between cognitive and motor processes is increasing. Conventional approaches to analyze balance control aggregate sway data over seconds up to minutes, which presents a challenge in discerning the impact of single cognitive processes on balance control. In this paper, we propose a novel, event-related approach to investigate how cognitive task performance affects balance control on small time scales using a force plate. A force plate continuously measures forces and moments in each spatial dimension over time. To facilitate the processing of the resulting time-series data, we developed an R-package called . This package segments the data so that each trial, corresponding to a cognitive task, has its own time-series data. A low-pass filter can be applied to remove artifacts (e.g., muscle twitches or electrical noise), and a baseline correction can be performed to improve the comparability of trials. For each trial’s time-series data, user-defined descriptive statistics (e.g., mean or standard deviation) can be calculated for user-defined time bins around an event (e.g., stimulus or response onset). The package generates a dataset with one or more measures per trial (depending on the number of time bins) that can be used for further analysis, such as a (mixed-effects) analysis of variance. The R-package and the described underlying procedure aim to establish a standard to process force-plate data collected in the context of cognitive experiments for the event-related approach. This facilitates the processing of force-plate data and enhances comparability between studies.",
+          "url": "https://doi.org/10.3758/s13428-025-02657-8",
+          "doi": "https://doi.org/10.3758/s13428-025-02657-8",
+          "filter": 0
+        },
+        {
+          "title": "Creating a social virtual reality application for psychological research: A tutorial",
+          "authors": "Marius Rubo",
+          "abstract": "Social virtual reality (VR) setups allow two or more individuals to interact in a shared virtual environment while embodying computerized avatars. Such setups allow for detailed investigations into social-cognitive processes, can extend the functionality of existing single-user VR applications and can be used to design novel educational settings and psychotherapeutic treatments. While researchers may use commercially available social VR applications in addressing a range of research questions, an in-house software solution is typically developed when a research project requires more flexible experimental control or should conform to the highest data security standards. This tutorial demonstrates the construction of a social VR application based on an example software that mimics a VR setup but can be run and explored on an individual computer. Information flow emphasizes transparency to allow researchers to flexibly adapt the software to their own environment and research demands. The software is designed for use in controlled laboratory environments but can be extended for use in field research.",
+          "url": "https://doi.org/10.3758/s13428-025-02693-4",
+          "doi": "https://doi.org/10.3758/s13428-025-02693-4",
+          "filter": 0
+        },
+        {
+          "title": "gazeMapper: A tool for automated world-based analysis of gaze data from one or multiple wearable eye trackers",
+          "authors": "Diederick C. Niehorster, Roy S. Hessels, Marcus Nyström, Jeroen S. Benjamins, Ignace T. C. Hooge",
+          "abstract": "The problem: wearable eye trackers deliver eye-tracking data on a scene video that is acquired by a camera affixed to the participant’s head. Analyzing and interpreting such head-centered data is difficult and laborious manual work. Automated methods to map eye-tracking data to a world-centered reference frame (e.g., screens and tabletops) are available. These methods usually make use of fiducial markers. However, such mapping methods may be difficult to implement, expensive, and eye tracker-specific. The solution: here we present gazeMapper, an open-source tool for automated mapping and processing of eye-tracking data. gazeMapper can: (1) Transform head-centered data to planes in the world, (2) synchronize recordings from multiple participants, (3) determine data quality measures, e.g., accuracy and precision. gazeMapper comes with a GUI application (Windows, macOS, and Linux) and supports 11 different wearable eye trackers from AdHawk, Meta, Pupil, SeeTrue, SMI, Tobii, and Viewpointsystem. It is also possible to sidestep the GUI and use gazeMapper as a Python library directly.",
+          "url": "https://doi.org/10.3758/s13428-025-02704-4",
+          "doi": "https://doi.org/10.3758/s13428-025-02704-4",
           "filter": 0
         },
         {
@@ -67,18 +76,42 @@
           "filter": 0
         },
         {
+          "title": "Investigating the effect of transformer encoder architecture to improve the reliability of classroom observation ratings on high-inference discourse",
+          "authors": "Jinnie Shin, Wallace N. Pinto, Bowen Wang",
+          "url": "https://doi.org/10.3758/s13428-025-02711-5",
+          "doi": "https://doi.org/10.3758/s13428-025-02711-5",
+          "filter": 0
+        },
+        {
+          "title": "EMTeC: A corpus of eye movements on machine-generated texts",
+          "authors": "Lena S. Bolliger, Patrick Haller, Isabelle C. R. Cretton, David R. Reich, Tannon Kew, Lena A. Jäger",
+          "abstract": "The E ye movements on M achine-generated Te xts C orpus (EMTeC) is a naturalistic eye-movements-while-reading corpus of 107 native English speakers reading machine-generated texts. The texts are generated by three large language models using five different decoding strategies, and they fall into six different text-type categories. EMTeC entails the eye movement data at all stages of pre-processing, i.e., the raw coordinate data sampled at 2000 Hz, the fixation sequences, and the reading measures. It further provides both the original and a corrected version of the fixation sequences, accounting for vertical calibration drift. Moreover, the corpus includes the language models’ internals that underlie the generation of the stimulus texts: the transition scores, the attention scores, and the hidden states. The stimuli are annotated for a range of linguistic features both at text and at word level. We anticipate EMTeC to be utilized for a variety of use cases such as, but not restricted to, the investigation of reading behavior on machine-generated text and the impact of different decoding strategies; reading behavior on different text types; the development of new pre-processing, data filtering, and drift correction algorithms; the cognitive interpretability and enhancement of language models; and the assessment of the predictive power of surprisal and entropy for human reading times. The data at all stages of pre-processing, the model internals, and the code to reproduce the stimulus generation, data pre-processing, and analyses can be accessed via https://github.com/DiLi-Lab/EMTeC/ .",
+          "url": "https://doi.org/10.3758/s13428-025-02677-4",
+          "doi": "https://doi.org/10.3758/s13428-025-02677-4",
+          "filter": 0
+        },
+        {
+          "title": "TittaLSL: A toolbox for creating networked eye-tracking experiments in Python and MATLAB with Tobii eye trackers",
+          "authors": "Diederick C. Niehorster, Marcus Nyström",
+          "abstract": "Studying the behavior of multiple participants using networked eye-tracking setups is of increasing interest to researchers. However, to conduct such studies, researchers have had to create complicated ad hoc solutions for streaming gaze over a local network. Here we present TittaLSL, a toolbox that enables creating networked multi-participant experiments using Tobii eye trackers with minimal programming effort. An evaluation using 600-Hz gaze streams sent between 15 different eye-tracking stations revealed that the end-to-end latency, including the eye tracker’s gaze estimation processes, achieved by TittaLSL was 3.05 ms. This was only 0.10 ms longer than when gaze samples were received from a locally connected eye tracker. We think that these latencies are low enough that TittaLSL is suitable for the majority of networked eye-tracking experiments, even when the gaze needs to be shown in real time.",
+          "url": "https://doi.org/10.3758/s13428-025-02714-2",
+          "doi": "https://doi.org/10.3758/s13428-025-02714-2",
+          "filter": 0
+        },
+        {
+          "title": "Lettuce entertain you: Assessing Sandwich Builder as a measure of auditory short-term memory",
+          "authors": "Drew J. McLaughlin, Arthur G. Samuel",
+          "abstract": "Numerous language models propose a critical role of auditory short-term memory in spoken language processing, making reliable estimations of individual listeners’ memory capacities essential in linguistic research. Although a variety of cognitive tasks exist for assessing both visual and auditory short-term capacities in a laboratory environment (e.g., digit span), these types of tasks are typically not engaging for the participant. In the current study, we assess the validity and reliability of a novel “gamified” short-term memory assessment tool called Sandwich Builder . In Sandwich Builder , the participant completes 12 trials of a sandwich-building game. In each trial, a drive-thru customer’s sandwich order is presented auditorily, including a list of 1 to 10 sandwich ingredients (e.g., salami, cheddar cheese, mayo, and olives). The participant needs to remember these sandwich ingredients and then build the customer’s sandwich by selecting the necessary ingredients in the correct order. We evaluate Sandwich Builder as an estimate of auditory short-term memory, finding significant correlations with other classic short-term memory measures. Additionally, we measure affect (i.e., mood), fatigue, and motivation following Sandwich Builder as compared to classic tasks: Participants leave Sandwich Builder in a better mood, less fatigued, and more motivated than they leave other memory tasks. Sandwich Builder shows strong convergent, discriminant, and predictive validity, and moderate-to-good test–retest reliability. Finally, we examine the practicality of Sandwich Builder as a measure of individual differences in speech perception research, providing expected power curves for two common paradigms. Altogether, we robustly demonstrate the utility of Sandwich Builder , which is openly available online.",
+          "url": "https://doi.org/10.3758/s13428-025-02707-1",
+          "doi": "https://doi.org/10.3758/s13428-025-02707-1",
+          "filter": 0
+        },
+        {
           "title": "How efficient is translation in language testing? Deriving valid student vocabulary tests in Spanish (StuVoc1-Esp and StuVoc2-Esp) from established English tests",
           "authors": "Beatriz Bermúdez-Margaretto, Marc Brysbaert",
           "abstract": "This study examined the efficiency of item translation in a challenging language-testing situation. We created a Spanish translation of recently developed English vocabulary tests to assess word knowledge in Spanish-speaking students and highly educated adults, a group for whom it is a challenge to find words that some people know and others do not. The English tests were multiple-choice tests based on meaning recognition and consisted of a total of 150 items. From these, we were able to create two Spanish tests with 37 questions each. We constructed and validated the tests in two separate studies, including another established vocabulary test (Lextale-Esp, based on form recognition), general knowledge tests, and a test for reading comprehension. Two online studies with 161 and 196 participants confirmed that both vocabulary tests have reliability above .75 (.86 when combined) and correlate more highly with general knowledge and reading comprehension than Lextale-Esp. This shows that test translation is an efficient way to find useful items for language tests in different languages. All materials (including the general knowledge tests and the reading comprehension test) are freely available for research purposes.",
           "url": "https://doi.org/10.3758/s13428-025-02708-0",
           "doi": "https://doi.org/10.3758/s13428-025-02708-0",
-          "filter": 0
-        },
-        {
-          "title": "Talk to your data: Introducing text embedding similarity analysis (TESA) in psychological research",
-          "authors": "Juul Vossen, Evy Kuijpers, Joeri Hofmans",
-          "url": "https://doi.org/10.3758/s13428-025-02698-z",
-          "doi": "https://doi.org/10.3758/s13428-025-02698-z",
           "filter": 0
         },
         {
@@ -96,10 +129,17 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "Hotbed of Stigmatization or Source of Support: A Multimodal Analysis of Mental Health-Related Videos on Douyin",
-          "authors": "Peiying Wu, Sheng Zou, Changfeng Chen, Yunya Song",
-          "url": "https://doi.org/10.1016/j.chb.2025.108716",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108716",
+          "title": "Knowledge Types and Cognitive Processing Modes Associated with Online News Credibility Assessment: An Interview Study",
+          "authors": "Nicolae Nistor, Benedikt Artmann, Dilara Isik, Nora Neziri, Dorin Stanciu",
+          "url": "https://doi.org/10.1016/j.chb.2025.108721",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108721",
+          "filter": 0
+        },
+        {
+          "title": "How Do Source Evaluation Criteria Develop? A Microgenetic Study of Growth of Epistemic Ideals",
+          "authors": "Sarit Barzilai, Clark A. Chinn",
+          "url": "https://doi.org/10.1016/j.chb.2025.108729",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108729",
           "filter": 0
         },
         {
@@ -110,10 +150,10 @@
           "filter": 0
         },
         {
-          "title": "Understanding stigmatization in digital sex work: Perceptions of camsite members and models",
-          "authors": "Margaret Bennett-Brown, Amanda N. Gesselman, Melissa Blundell Osorio, Ellen M. Kaufman, Jessica T. Campbell",
-          "url": "https://doi.org/10.1016/j.chb.2025.108719",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108719",
+          "title": "Hotbed of stigmatization or source of support: A multimodal analysis of mental health-related videos on Douyin",
+          "authors": "Peiying Wu, Sheng Zou, Changfeng Chen, Yunya Song",
+          "url": "https://doi.org/10.1016/j.chb.2025.108716",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108716",
           "filter": 0
         },
         {
@@ -166,6 +206,13 @@
           "filter": 0
         },
         {
+          "title": "The Role of Trust as the Facilitator and Contingency Factor in the Adoption of Digital Healthcare Services: A Telemedicine Context",
+          "authors": "Phatthira Wissawaswaengsuk, Prashant Kumar, Björn Frank, Yuosre F. Badir",
+          "url": "https://doi.org/10.1016/j.chb.2025.108722",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108722",
+          "filter": 0
+        },
+        {
           "title": "Balancing consistency and performance in edge-cloud transaction management",
           "authors": "Ahmad Al-Qerem, Ali Mohd Ali, Ahmad Nabot, Issam Jebreen, Mohammad Alauthman, Someah Alangari, Ammar Almomani, Vinay Chamola, Amjad Aldweesh",
           "url": "https://doi.org/10.1016/j.chb.2025.108601",
@@ -187,17 +234,17 @@
           "filter": 0
         },
         {
-          "title": "Student perspectives on banning mobile phones in South Australian secondary schools: A large-scale qualitative analysis",
-          "authors": "Eran Bar, Marcela Radunz, Christina R. Galanis, Blake Quinney, Tracey D. Wade, Daniel L. King",
-          "url": "https://doi.org/10.1016/j.chb.2025.108603",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108603",
-          "filter": 0
-        },
-        {
           "title": "An assistant or A friend? The role of parasocial relationship of human-computer interaction",
           "authors": "Tiejun Qi, Hongshen Liu, Zhihui Huang",
           "url": "https://doi.org/10.1016/j.chb.2025.108625",
           "doi": "https://doi.org/10.1016/j.chb.2025.108625",
+          "filter": 0
+        },
+        {
+          "title": "Student perspectives on banning mobile phones in South Australian secondary schools: A large-scale qualitative analysis",
+          "authors": "Eran Bar, Marcela Radunz, Christina R. Galanis, Blake Quinney, Tracey D. Wade, Daniel L. King",
+          "url": "https://doi.org/10.1016/j.chb.2025.108603",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108603",
           "filter": 0
         },
         {
@@ -233,42 +280,21 @@
       ]
     },
     {
-      "journal_full": "Journal of Experimental Social Psychology",
-      "journal_short": "JESP",
-      "articles": [
-        {
-          "title": "Secrets lurking in the background: Investigating the underlying effects of secrets in everyday life",
-          "authors": "Alisa Bedrov, Shelly L. Gable",
-          "url": "https://doi.org/10.1016/j.jesp.2025.104766",
-          "doi": "https://doi.org/10.1016/j.jesp.2025.104766",
-          "filter": 0
-        },
-        {
-          "title": "Cross-cultural perceptions of racial ambiguity: Testing the universality of the ingroup overexclusion effect",
-          "authors": "Mohammad S. Wiswall, Xin Tan, Jacqueline M. Chen, Sarah E. Gaither",
-          "url": "https://doi.org/10.1016/j.jesp.2025.104764",
-          "doi": "https://doi.org/10.1016/j.jesp.2025.104764",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
       "journal_full": "Journal of Personality and Social Psychology",
       "journal_short": "JPSP",
       "articles": [
         {
-          "title": "Beliefs about what disadvantaged groups would do with power shape advantaged groups’ (un)willingness to relinquish it.",
-          "authors": "Frank Jake Kachanoff, Jennifer Sheehy-Skeffington, Arnold Ho, Jennifer Richeson, Nour Kteily",
-          "url": "https://doi.org/10.1037/pspi0000493",
-          "doi": "https://doi.org/10.1037/pspi0000493",
+          "title": "Automatic implicit motive codings are at least as accurate as humans’ and 99% faster.",
+          "authors": "August Håkan Nilsson, J. Malte Runge, Adithya V. Ganesan, Carl Viggo N. G. Lövenstierne, Nikita Soni, Oscar N. E. Kjell",
+          "url": "https://doi.org/10.1037/pspp0000544",
+          "doi": "https://doi.org/10.1037/pspp0000544",
           "filter": 0
         },
         {
-          "title": "Punitive but discerning: Reputation can fuel ambiguously deserved punishment, but does not erode sensitivity to nuance.",
-          "authors": "Jillian J. Jordan, Nour S. Kteily",
-          "url": "https://doi.org/10.1037/pspa0000435",
-          "doi": "https://doi.org/10.1037/pspa0000435",
+          "title": "Feedback receptivity from people in power reduces gender, sexual orientation, and disability bias concerns.",
+          "authors": "Ella J. Lombard, Katherine Weltzien, Linh N. H. Pham, Sapna Cheryan",
+          "url": "https://doi.org/10.1037/pspa0000427",
+          "doi": "https://doi.org/10.1037/pspa0000427",
           "filter": 0
         }
       ],
@@ -279,10 +305,10 @@
       "journal_short": "MBR",
       "articles": [
         {
-          "title": "Ideal Point or Dominance Process? Unfolding Tree Approaches to Likert Scale Data with Multi-Process Models",
-          "authors": "Biao Zeng, Hongbo Wen, Minjeong Jeon",
-          "url": "https://doi.org/10.1080/00273171.2025.2496505",
-          "doi": "https://doi.org/10.1080/00273171.2025.2496505",
+          "title": "Ruling out Latent Time-Varying Confounders in Two-Variable Multi-Wave Studies",
+          "authors": "David A. Kenny, D. Betsy McCoach",
+          "url": "https://doi.org/10.1080/00273171.2025.2503829",
+          "doi": "https://doi.org/10.1080/00273171.2025.2503829",
           "filter": 0
         },
         {
@@ -296,15 +322,21 @@
       "articles_hidden": []
     },
     {
-      "journal_full": "Personality and Social Psychology Bulletin",
-      "journal_short": "PSPB",
+      "journal_full": "Psychological Bulletin",
+      "journal_short": "PsychBull",
       "articles": [
         {
-          "title": "How Individual Differences in Empathy Predict Moments of Empathy in Everyday Life",
-          "authors": "Gregory J. Depow, Michael Inzlicht",
-          "abstract": "Do trait empathy measures predict how people experience empathy in daily life? Despite considerable research on empathy, we know surprisingly little about how trait measures relate to real-world empathic experiences. In this preregistered analysis of 7,343 experience sampling surveys from a near-representative sample of 246 U.S. adults, we map the connections between validated trait empathy measures and state experiences of empathy. Each component of state empathy—including emotion sharing, perspective taking, and compassion—was significantly predicted by theoretically relevant trait measures. However, trait empathy explained limited variance in daily experiences overall, ranging from just 3% for emotion sharing to 15% for perceived empathic efficacy. Adding emotional valence as a predictor improved model fit and variance explained for most state experiences, highlighting the crucial role of context. Our findings validate trait empathy measures while revealing their limitations in predicting real-world experiences.",
-          "url": "https://doi.org/10.1177/01461672251333823",
-          "doi": "https://doi.org/10.1177/01461672251333823",
+          "title": "Procedural skill retention and decay: A meta-analytic review.",
+          "authors": "Corey E. Tatel, Phillip L. Ackerman",
+          "url": "https://doi.org/10.1037/bul0000481",
+          "doi": "https://doi.org/10.1037/bul0000481",
+          "filter": 0
+        },
+        {
+          "title": "Acoustic exaggeration of vowels in infant-directed speech: A multimethod meta-analytic review.",
+          "authors": "Irena Lovčević, Titia Benders, Sho Tsuji, Riccardo Fusaroli",
+          "url": "https://doi.org/10.1037/bul0000479",
+          "doi": "https://doi.org/10.1037/bul0000479",
           "filter": 0
         }
       ],
@@ -315,17 +347,10 @@
       "journal_short": "PM",
       "articles": [
         {
-          "title": "Aggregating evidence for a central theory from diverse studies using the generalized order-restricted information criterion.",
-          "authors": "R. M. Kuiper, Eli-Boaz Clapper",
-          "url": "https://doi.org/10.1037/met0000755",
-          "doi": "https://doi.org/10.1037/met0000755",
-          "filter": 0
-        },
-        {
-          "title": "When predictors sum to a constant: Trade-off effect analysis using a regression model based on isometric log-ratio transformation.",
-          "authors": "Jieyuan Dong, Hongyun Liu",
-          "url": "https://doi.org/10.1037/met0000668",
-          "doi": "https://doi.org/10.1037/met0000668",
+          "title": "Estimating causal effects on psychological networks using item response theory.",
+          "authors": "Joshua B. Gilbert, Benjamin W. Domingue, James S. Kim",
+          "url": "https://doi.org/10.1037/met0000764",
+          "doi": "https://doi.org/10.1037/met0000764",
           "filter": 0
         },
         {
@@ -413,41 +438,32 @@
       "journal_short": "PsychSci",
       "articles": [
         {
-          "title": "Are There Really People With No Inner Voice? Commentary on Nedergaard and Lupyan (2024)",
-          "authors": "Andreas Lind",
-          "abstract": "The idea that some people completely lack inner speech is of both scientific and popular interest. In a recent study, Nedergaard and Lupyan compared self-reporting high and low inner-speech-prevalence groups and found that participants in the low-prevalence group performed worse on a verbal working memory test and responded more slowly and less accurately during rhyme judgments. These results represent an original contribution to the study of inner speech. However, the authors go on to draw the unfounded conclusion that their findings, together with previous empirical and anecdotal data, show that some people have no inner speech at all. They have coined the term anendophasia for this trait. This commentary examines Nedergaard and Lupyan’s claim of demonstrated anendophasia; I conclude they present no compelling evidence that some individuals lack inner speech.",
-          "url": "https://doi.org/10.1177/09567976251335583",
-          "doi": "https://doi.org/10.1177/09567976251335583",
-          "filter": 0
-        },
-        {
-          "title": "Using the Nested Structure of Knowledge to Infer What Others Know",
-          "authors": "Edgar Dubourg, Thomas Dheilly, Hugo Mercier, Olivier Morin",
-          "abstract": "Humans rely on more knowledgeable individuals to acquire information. But when we are ignorant, how are we to tell who is knowledgeable? We propose that human knowledge is nested: People who know only a few things tend to know very common pieces of information, whereas rare pieces of information are known only by people who know many things, including common things. This leads to the possibility of reliably inferring knowledgeability from minimal cues. In this study ( N = 848 U.S. adults recruited online), we show that individuals can accurately gauge others’ knowledgeability on the basis of very limited information, relying on their ability to estimate the rarity of different pieces of knowledge and on the fact that knowing a rare piece of information indicates a high likelihood of knowing more information in the same theme. Even participants who are largely ignorant of a theme can infer how knowledgeable other individuals are on the basis of the possession of a single piece of knowledge.",
-          "url": "https://doi.org/10.1177/09567976251339633",
-          "doi": "https://doi.org/10.1177/09567976251339633",
+          "title": "On the Robustness and Provenance of the Gambler’s Fallacy",
+          "authors": "Yang Xiang, Kevin Dorst, Samuel J. Gershman",
+          "abstract": "The gambler’s fallacy is typically defined as the false belief that a random event is less likely to occur if it has occurred recently. Although forms of this fallacy have been documented numerous times, past work either has not actually measured probabilistic predictions but rather point predictions or used sequences that were not independent. To address these problems, we conducted a series of high-powered, preregistered studies in which we asked 750 adult Amazon Mechanical Turk workers from the United States to report probabilistic predictions for truly independent sequences. In contrast to point predictions, which generated a significant gambler’s fallacy, probabilistic predictions were not found to lead to a gambler’s fallacy. Moreover, the point predictions could not be reconstructed by sampling from the probability judgments. This suggests that the gambler’s fallacy originates at the decision stage rather than in probabilistic reasoning, as posited by several leading theories. New theories of the gambler’s fallacy may be needed to explain these findings.",
+          "url": "https://doi.org/10.1177/09567976251344570",
+          "doi": "https://doi.org/10.1177/09567976251344570",
           "filter": 0
         }
       ],
       "articles_hidden": []
     },
     {
-      "journal_full": "Psychology of Music",
-      "journal_short": "PsychMusic",
+      "journal_full": "Psychology of Popular Media",
+      "journal_short": "PPM",
       "articles": [
         {
-          "title": "Concertmasters’ leading-tone intonation: Do they perform as they assess?",
-          "authors": "Sheng-Ying Isabella Weng, Erkki Huovinen, Sven Ahlbäck",
-          "abstract": "Melodic intonation is generally considered a central expressive means in musical performance. In Western classical music, relationships between intonation in perception and performance have shown to be less straightforward than one might expect. In this study, we investigated leading-tone intonation for solo violin, as perceived and performed by six accomplished violinists. We selected excerpts from classical violin repertoire, each of which included ascending semitone intervals leading up to tonally stable tones. Each violinist performed the excerpts and participated in a listening study and a semi-structured interview. Prior recordings of the excerpts, manipulated in terms of the pitch of the leading tones, were used in the listening study to obtain information about each participant’s accepted perceptual range of leading-tone intonation. The violinists’ preferred semitone sizes were between 80 and 90 cents, on average, both in their perceptual preferences and their performance practice. This group average appeared to approximate the “standard” of leading-tone intonation that the participants consistently mentioned in their verbal protocols. However, the perceptual preferences and the performance intonation also varied both within and between individuals. Given the overall sharp standard of leading-tone intonation, even an equal-tempered leading tone might sometimes represent an expressive gesture in the violinists’ artistic practice.",
-          "url": "https://doi.org/10.1177/03057356251319220",
-          "doi": "https://doi.org/10.1177/03057356251319220",
+          "title": "Exploring the impact of work from home on the effects of social media: A moderated mediation analysis of psychological well-being.",
+          "authors": "Biying Wu-Ouyang",
+          "url": "https://doi.org/10.1037/ppm0000608",
+          "doi": "https://doi.org/10.1037/ppm0000608",
           "filter": 0
         },
         {
-          "title": "Editorial: Welcome by the new Editors-in-Chief",
-          "authors": "Nikki Moran, Michelle Phillips",
-          "url": "https://doi.org/10.1177/03057356251340891",
-          "doi": "https://doi.org/10.1177/03057356251340891",
+          "title": "Romantic ideas and ideals in popular music: A content analysis of the Taylor Swift musical catalog.",
+          "authors": "McKell A. Jorgensen-Wells, Jane Shawcroft, Laramie D. Taylor, Erin Spencer",
+          "url": "https://doi.org/10.1037/ppm0000606",
+          "doi": "https://doi.org/10.1037/ppm0000606",
           "filter": 0
         }
       ],
