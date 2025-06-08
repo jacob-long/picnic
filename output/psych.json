@@ -1,26 +1,10 @@
 {
-  "update": "2025-06-06",
+  "update": "2025-06-08",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
       "journal_short": "AMPPS",
       "articles": [
-        {
-          "title": "The Design of Current Replication Studies: A Systematic Literature Review on the Variation of Study Characteristics",
-          "authors": "Jerome Hoffmann, Mathias Twardawski, Johanna M. Höhs, Anne Gast, Steffi Pohl, Marie-Ann Sengewald",
-          "abstract": "In what aspects do replication studies differ from their primary studies? This question is central for providing insights into the reasons for the nonreplicability of psychological effects. So far, research on potential explanations for the nonreplicability of effects has mainly focused on publication bias and methodological challenges related to measurement error or statistical inference. The recently developed causal-replication framework directs attention toward controlling for differences in study characteristics, including variations in treatment conditions, outcome measures, recruitment, causal estimates, time, location, population, and setting. To contribute to this aim, we conducted a systematic literature review to investigate the design practices of current replication studies. We preregistered the assessment of study characteristics in a detailed review protocol and investigated the available information and intended or unintended variations across primary and replication studies. To do this, we compiled a database of studies that aimed to replicate a causal effect of a clearly stated primary study and that were published in impactful social- and cognitive-psychological journals between January 2017 and August 2022. Our review results highlight that compared with the primary study, authors of replication studies predominantly focus on controlling specific study characteristics in (i.e., methods, procedures, analysis) while often neglecting other study characteristics, such as population or setting. Furthermore, the results indicate that in most replication studies, multiple study characteristics are varied in the study comparison or are insufficiently reported. Accordingly, we discuss prevalent variations, reporting standards, and strategies for planning future replication studies.",
-          "url": "https://doi.org/10.1177/25152459251328273",
-          "doi": "https://doi.org/10.1177/25152459251328273",
-          "filter": 0
-        },
-        {
-          "title": "On the Statistical Analysis of Studies With Attention Checks",
-          "authors": "Maya B. Mathur",
-          "abstract": "Attention checks are often used to identify and exclude participants who may be responding carelessly. There has been little statistical guidance on the analysis of such studies and on when it is indeed valid to simply exclude inattentive participants. To address this, I first formalize attention checks as measures intended to identify participants whose responses are free of measurement error. Measurement error could arise not only because of careless responding but also if some participants fail to receive the experimental manipulation in its intended form because they did not attend to its contents. I discuss the statistical assumptions under which it is valid to simply exclude inattentive participants. In randomized experiments, this standard analysis may lead to bias if (a) the dependent variable affects attentiveness or (b) there are variables that affect both attentiveness and the dependent variable. The latter assumption is stringent and is likely to be violated in many studies. I suggest a straightforward modification to the standard approach, that is, controlling for variables that affect both attentiveness and the dependent variable. This covariate-adjusted approach requires considerably less stringent assumptions. In two worked examples, I reanalyze previously published experiments on (a) a documentary intended to reduce consumption of meat and animal products and (b) flag-priming effects on political conservatism.",
-          "url": "https://doi.org/10.1177/25152459251338041",
-          "doi": "https://doi.org/10.1177/25152459251338041",
-          "filter": 0
-        },
         {
           "title": "Thinking Clearly About Age, Period, and Cohort Effects",
           "authors": "Julia M. Rohrer",
@@ -36,6 +20,14 @@
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
       "articles": [
+        {
+          "title": "Advancing preference testing in humans and animals",
+          "authors": "Dana Pfefferle, Steven R. Talbot, Pia Kahnau, Lauren C. Cassidy, Ralf R. Brockhausen, Anne Jaap, Veronika Deikun, Pinar Yurt, Alexander Gail, Stefan Treue, Lars Lewejohann",
+          "abstract": "Preference tests help to determine how highly individuals value different options to choose from. During preference testing, two or more options are presented simultaneously, and options are ranked based on the choices made. Presented options, however, influence each other, where the amount of influence increases with the number of options. Multiple binary choice tests can reduce this degree of influence, but conventional analysis methods do not reveal the relative strengths of preference, i.e., the preference difference between options. Here, we demonstrate that multiple binary comparisons can be used not only to rank but also to scale preferences among many options (i.e., their worth value). We analyzed human image preference data with known valence scores to develop and validate our approach to determine how known valence ranges (high vs. low) converge on a scaled representation of preference data. Our approach allowed us to assess the valence of ranked options in mice and rhesus macaques. By conducting simulations, we developed an approach to incorporate additional option choices into existing rank orders without the need to conduct binary choice tests with all original options, thus reducing the number of animal experiments needed. Two quality measures, consensus error and intransitivity ratio, allow for assessing the achieved confidence of the scaled ranking and better tailoring of measurements required to improve it further. The software is available as an R package (“simsalRbim”). Our approach optimizes preference testing, e.g., in welfare assessment, and allows us to efficiently and quantitatively assess the relative value of options presented to animals.",
+          "url": "https://doi.org/10.3758/s13428-025-02668-5",
+          "doi": "https://doi.org/10.3758/s13428-025-02668-5",
+          "filter": 0
+        },
         {
           "title": "Correction: The complexity of measuring reliability in learning tasks: An illustration using the Alternating Serial Reaction Time Task",
           "authors": "Bence C. Farkas, Attila Krajcsi, Karolina Janacsek, Dezso Nemeth",
@@ -68,14 +60,6 @@
           "filter": 0
         },
         {
-          "title": "Enhancing the quality and reproducibility of research: Preferred Evaluation of Cognitive and Neuropsychological Studies - The PECANS statement for human studies",
-          "authors": "C. Costa, R. Pezzetta, E. Toffalini, M. Grassi, G Cona, C Miniussi, P. J. Bauer, S. Borgomaneri, M. Brysbaert, C. D. Chambers, N. Edelstyn, A. Eerland, S. J. Gilbert, M. A. Nitsche, R. A. Poldrack, A. Puce, K. R. Ridderinkhof, T. Y. Swaab, C. Umiltà, M. Wiener, C. Scarpazza, character(0), Salvatore M. Aglioti, Georg W. Alpers, Ettore Ambrosini, Giorgio Arcara, Alessio Avenanti, Valentina Bambini, Linden J. Ball, Fabiana Battista, Silvia Benavides-Varela, Aaron S. Benjamin, Mark A. Bellgrove, Nadia Bolognini, Mario Bonato, Sabrina Brigadoi, Louise A. Brown Nicholls, Erin M. Buchanan, Francesca Burgio, Christian Beste, Krista Byers-Heinlein, Giuseppe Carrà, James F. Cavanagh, Stephen D. Christman, Alessandro D’Ausilio, Arnaud D’Argembeau, Daniela D’Imperio, Theresa M. Desrochers, Malte Elson, Jan B. Engelmann, Ulrich Ettinger, Vanessa Era, Tommaso Feraco, Gereon R. Fink, Martina Fusaro, Gabriele Fusco, Gareth M. Gaskell, Andreina Giustiniani, Alessandro Guida, Ahmad R. Hariri, Derek Houston, Mark W. Howe, Scott A. Huettel, Yi Huang, Roxane J. Itier, Laura Jobson, Philipp Kanske, Swathi Kiran, Claus Lamm, Victor A. F. Lamme, Daniel Lakens, Tiziana Lanciano, Christopher R. Madan, Ivan Mangiulli, Dante Mantini, Fabio Masina, Jason B. Mattingley, Randy J. McCarthy, Robert D. McIntosh, Giulia Melis, Luca Menghini, Vladimir Miskovic, Simone Migliore, Maria Montefinese, Klaus Oberauer, Suzanne Oosterwijk, Maria S. Panasiti, Lorenzo Però, Bradley S. Peterson, Ana P. Pinheiro, Giorgia Ponsi, Giuseppina Porciello, Athanassios Protopapas, Maria Pyasik, Vincent M. Reid, Walter Schaeken, Michael Schepisi, Laura D. Scherer, Michele Scandola, Alexander J. Shackman, Julia Simner, Jacqueline C. Snow, Alessandra S. Souza, Joel S. Snyder, Denes Szucs, Benjamin A. Tabak, Emma C. Tecwyn, Cynthia K. Thompson, Lisa Toffoli, Mattie Tops, Loren L. Toussaint, Elizabeth W. Twamley, Lucina Q. Uddin, Markus Ullsperger, Antonino Vallesi, Anna E. Van’t Veer, Don Van Ravenzwaaij, Carmelo Vázquez, Simine Vazire, Essi Viding, Eric M. Wassermann, Sarah Weigelt, Christina E. Wierenga, Melody Wiseheart, Martijn E. Wokke, Steven P. Woods, Naohide Yamamoto, Jeffrey M. Zacks, Laura Zapparoli, Cristina Zogmaister",
-          "abstract": "Are scientific papers providing all essential details necessary to ensure the replicability of study protocols? Are authors effectively conveying study design, data analysis, and the process of drawing inferences from their results? These represent only a fraction of the pressing questions that cognitive psychology and neuropsychology face in addressing the “crisis of confidence.” This crisis has highlighted numerous shortcomings in the journey from research to publication. To address these shortcomings, we introduce PECANS (Preferred Evaluation of Cognitive And Neuropsychological Studies), a comprehensive checklist tool designed to guide the planning, execution, evaluation, and reporting of experimental research. PECANS emerged from a rigorous consensus-building process through the Delphi method. We convened a panel of international experts specialized in cognitive psychology and neuropsychology research practices. Through two rounds of iterative voting and a proof-of-concept phase, PECANS evolved into its final form. The PECANS checklist is intended to serve various stakeholders in the fields of cognitive sciences and neuropsychology, including: (i) researchers seeking to ensure and enhance reproducibility and rigor in their research; (ii) journal editors and reviewers assessing the quality of reports; (iii) ethics committees and funding agencies; (iv) students approaching methodology and scientific writing. PECANS is a versatile tool intended not only to improve the quality and transparency of individual research projects but also to foster a broader culture of rigorous scientific inquiry across the academic and research community.",
-          "url": "https://doi.org/10.3758/s13428-025-02705-3",
-          "doi": "https://doi.org/10.3758/s13428-025-02705-3",
-          "filter": 0
-        },
-        {
           "title": "Investigating the effect of transformer encoder architecture to improve the reliability of classroom observation ratings on high-inference discourse",
           "authors": "Jinnie Shin, Wallace N. Pinto, Bowen Wang",
           "url": "https://doi.org/10.3758/s13428-025-02711-5",
@@ -105,21 +89,6 @@
           "url": "https://doi.org/10.3758/s13428-025-02707-1",
           "doi": "https://doi.org/10.3758/s13428-025-02707-1",
           "filter": 0
-        },
-        {
-          "title": "How efficient is translation in language testing? Deriving valid student vocabulary tests in Spanish (StuVoc1-Esp and StuVoc2-Esp) from established English tests",
-          "authors": "Beatriz Bermúdez-Margaretto, Marc Brysbaert",
-          "abstract": "This study examined the efficiency of item translation in a challenging language-testing situation. We created a Spanish translation of recently developed English vocabulary tests to assess word knowledge in Spanish-speaking students and highly educated adults, a group for whom it is a challenge to find words that some people know and others do not. The English tests were multiple-choice tests based on meaning recognition and consisted of a total of 150 items. From these, we were able to create two Spanish tests with 37 questions each. We constructed and validated the tests in two separate studies, including another established vocabulary test (Lextale-Esp, based on form recognition), general knowledge tests, and a test for reading comprehension. Two online studies with 161 and 196 participants confirmed that both vocabulary tests have reliability above .75 (.86 when combined) and correlate more highly with general knowledge and reading comprehension than Lextale-Esp. This shows that test translation is an efficient way to find useful items for language tests in different languages. All materials (including the general knowledge tests and the reading comprehension test) are freely available for research purposes.",
-          "url": "https://doi.org/10.3758/s13428-025-02708-0",
-          "doi": "https://doi.org/10.3758/s13428-025-02708-0",
-          "filter": 0
-        },
-        {
-          "title": "Validation of the Russian version of the realistic moral vignettes for studies of moral judgments",
-          "authors": "Zorina Rakhmankulova, Rustam Asgarov, Eliana Monahhova, Semyon Mening, Isak B. Blank, Vasily Klucharev",
-          "url": "https://doi.org/10.3758/s13428-025-02709-z",
-          "doi": "https://doi.org/10.3758/s13428-025-02709-z",
-          "filter": 0
         }
       ],
       "articles_hidden": []
@@ -129,7 +98,7 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "Knowledge Types and Cognitive Processing Modes Associated with Online News Credibility Assessment: An Interview Study",
+          "title": "Knowledge types and cognitive processing modes associated with online news credibility assessment: An interview study",
           "authors": "Nicolae Nistor, Benedikt Artmann, Dilara Isik, Nora Neziri, Dorin Stanciu",
           "url": "https://doi.org/10.1016/j.chb.2025.108721",
           "doi": "https://doi.org/10.1016/j.chb.2025.108721",
@@ -143,17 +112,24 @@
           "filter": 0
         },
         {
-          "title": "Help me, Doctor AI? A Cross-National Experiment on the Effects of Disease Threat and Stigma on AI Health Information-Seeking Intentions",
-          "authors": "Anne Reinhardt, Jörg Matthes, Ljubisa Bojic, Helle T. Maindal, Corina Paraschiv, Knud Ryom",
-          "url": "https://doi.org/10.1016/j.chb.2025.108718",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108718",
-          "filter": 0
-        },
-        {
           "title": "Hotbed of stigmatization or source of support: A multimodal analysis of mental health-related videos on Douyin",
           "authors": "Peiying Wu, Sheng Zou, Changfeng Chen, Yunya Song",
           "url": "https://doi.org/10.1016/j.chb.2025.108716",
           "doi": "https://doi.org/10.1016/j.chb.2025.108716",
+          "filter": 0
+        },
+        {
+          "title": "Who Watches Porn? Demographic Insights from Web Tracking Data",
+          "authors": "Alberto Martinez-Serra, Ana Sofia Cardenal",
+          "url": "https://doi.org/10.1016/j.chb.2025.108731",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108731",
+          "filter": 0
+        },
+        {
+          "title": "The Role of Trust as the Facilitator and Contingency Factor in the Adoption of Digital Healthcare Services: A Telemedicine Context",
+          "authors": "Phatthira Wissawaswaengsuk, Prashant Kumar, Björn Frank, Yuosre F. Badir",
+          "url": "https://doi.org/10.1016/j.chb.2025.108722",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108722",
           "filter": 0
         },
         {
@@ -203,13 +179,6 @@
           "authors": "Seung Hwan \"Shawn\" Lee, Kyoung-Nan Kwon",
           "url": "https://doi.org/10.1016/j.chb.2025.108609",
           "doi": "https://doi.org/10.1016/j.chb.2025.108609",
-          "filter": 0
-        },
-        {
-          "title": "The Role of Trust as the Facilitator and Contingency Factor in the Adoption of Digital Healthcare Services: A Telemedicine Context",
-          "authors": "Phatthira Wissawaswaengsuk, Prashant Kumar, Björn Frank, Yuosre F. Badir",
-          "url": "https://doi.org/10.1016/j.chb.2025.108722",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108722",
           "filter": 0
         },
         {
@@ -280,14 +249,84 @@
       ]
     },
     {
+      "journal_full": "Journal of Experimental Social Psychology",
+      "journal_short": "JESP",
+      "articles": [
+        {
+          "title": "Through the lens of race: Accounting for majority-minority relations in cross-race categorization and individuation",
+          "authors": "Verena Heidrich, Roland Imhoff",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104763",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104763",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Journal of Personality and Social Psychology",
       "journal_short": "JPSP",
       "articles": [
+        {
+          "title": "Goal harmony.",
+          "authors": "Jiabi Wang, Ayelet Fishbach",
+          "url": "https://doi.org/10.1037/pspa0000452",
+          "doi": "https://doi.org/10.1037/pspa0000452",
+          "filter": 0
+        },
+        {
+          "title": "She sees the trees, he sees the forest: Descriptive gender stereotypes of concreteness and abstractness.",
+          "authors": "Samantha J. Dodson, Rachael D. Goodwin, Cheryl J. Wakslak, Kristina A. Diekmann, Jesse Graham",
+          "url": "https://doi.org/10.1037/pspa0000453",
+          "doi": "https://doi.org/10.1037/pspa0000453",
+          "filter": 0
+        },
+        {
+          "title": "Detecting social biases using mental state inference.",
+          "authors": "Mika Asaba, Isaac Davis, Julia Leonard, Julian Jara-Ettinger",
+          "url": "https://doi.org/10.1037/pspa0000451",
+          "doi": "https://doi.org/10.1037/pspa0000451",
+          "filter": 0
+        },
         {
           "title": "Automatic implicit motive codings are at least as accurate as humans’ and 99% faster.",
           "authors": "August Håkan Nilsson, J. Malte Runge, Adithya V. Ganesan, Carl Viggo N. G. Lövenstierne, Nikita Soni, Oscar N. E. Kjell",
           "url": "https://doi.org/10.1037/pspp0000544",
           "doi": "https://doi.org/10.1037/pspp0000544",
+          "filter": 0
+        },
+        {
+          "title": "Stress reactivity and sociocultural learning: More stress-reactive individuals are quicker at learning sociocultural norms from experiential feedback.",
+          "authors": "Shilpa Madan, Krishna Savani, Pranjal H. Mehta, Desiree Y. Phua, Ying-Yi Hong, Michael W. Morris",
+          "url": "https://doi.org/10.1037/pspi0000487",
+          "doi": "https://doi.org/10.1037/pspi0000487",
+          "filter": 0
+        },
+        {
+          "title": "The ecology of relatedness: How living around family (or not) matters.",
+          "authors": "Oliver Sng, Minyoung Choi, Joshua M. Ackerman",
+          "url": "https://doi.org/10.1037/pspa0000428",
+          "doi": "https://doi.org/10.1037/pspa0000428",
+          "filter": 0
+        },
+        {
+          "title": "Meaning-making with romantic partners: Shared reality promotes meaning in life by reducing uncertainty.",
+          "authors": "M. Catalina Enestrom, Maya Rossignac-Milon, Amanda L. Forest, John E. Lydon",
+          "url": "https://doi.org/10.1037/pspi0000472",
+          "doi": "https://doi.org/10.1037/pspi0000472",
+          "filter": 0
+        },
+        {
+          "title": "Familial similarity and heritability of personality traits and life satisfaction are higher than shown in typical single-method studies.",
+          "authors": "René Mõttus, character(0), Christian Kandler, Michelle Luciano, Tõnu Esko, Uku Vainik",
+          "url": "https://doi.org/10.1037/pspp0000550",
+          "doi": "https://doi.org/10.1037/pspp0000550",
+          "filter": 0
+        },
+        {
+          "title": "Methods reflect values: Evaluating the shortcomings of the average for measuring population well-being.",
+          "authors": "Sofia L. Panasiuk, Anthony McCanny, Felix Cheung",
+          "url": "https://doi.org/10.1037/pspp0000549",
+          "doi": "https://doi.org/10.1037/pspp0000549",
           "filter": 0
         },
         {
@@ -304,6 +343,13 @@
       "journal_full": "Multivariate Behavioral Research",
       "journal_short": "MBR",
       "articles": [
+        {
+          "title": "Causal Inference with Unobserved Confounding: Leveraging Negative Control Outcomes Using Lavaan",
+          "authors": "Wen Wei Loh",
+          "url": "https://doi.org/10.1080/00273171.2025.2507742",
+          "doi": "https://doi.org/10.1080/00273171.2025.2507742",
+          "filter": 0
+        },
         {
           "title": "Ruling out Latent Time-Varying Confounders in Two-Variable Multi-Wave Studies",
           "authors": "David A. Kenny, D. Betsy McCoach",
@@ -347,10 +393,31 @@
       "journal_short": "PM",
       "articles": [
         {
+          "title": "Continuous-time structural equation model forests.",
+          "authors": "Pablo F. Cáncer, Manuel Arnold, Eduardo Estrada, Manuel C. Voelkle",
+          "url": "https://doi.org/10.1037/met0000766",
+          "doi": "https://doi.org/10.1037/met0000766",
+          "filter": 0
+        },
+        {
           "title": "Estimating causal effects on psychological networks using item response theory.",
           "authors": "Joshua B. Gilbert, Benjamin W. Domingue, James S. Kim",
           "url": "https://doi.org/10.1037/met0000764",
           "doi": "https://doi.org/10.1037/met0000764",
+          "filter": 0
+        },
+        {
+          "title": "Improved estimation of autoregressive models through contextual impulses and robust modeling.",
+          "authors": "Janne K. Adolf, Eva Ceulemans",
+          "url": "https://doi.org/10.1037/met0000761",
+          "doi": "https://doi.org/10.1037/met0000761",
+          "filter": 0
+        },
+        {
+          "title": "Utilizing primary study quality in meta-analyses in psychology: A step-by-step tutorial.",
+          "authors": "Ronny Scherer, Valentin Emslander",
+          "url": "https://doi.org/10.1037/met0000751",
+          "doi": "https://doi.org/10.1037/met0000751",
           "filter": 0
         },
         {
@@ -457,6 +524,13 @@
           "authors": "Biying Wu-Ouyang",
           "url": "https://doi.org/10.1037/ppm0000608",
           "doi": "https://doi.org/10.1037/ppm0000608",
+          "filter": 0
+        },
+        {
+          "title": "Spontaneous narratives of adolescents about their perceived impact of social media use on their psychological well-being and mental health.",
+          "authors": "Hibai Lopez-Gonzalez, Adrien Faure-Carvallo, Cristina Colomé, Juan-José Boté-Vericad",
+          "url": "https://doi.org/10.1037/ppm0000609",
+          "doi": "https://doi.org/10.1037/ppm0000609",
           "filter": 0
         },
         {
