@@ -1,5 +1,5 @@
 {
-  "update": "2025-06-08",
+  "update": "2025-06-12",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -29,65 +29,25 @@
           "filter": 0
         },
         {
-          "title": "Correction: The complexity of measuring reliability in learning tasks: An illustration using the Alternating Serial Reaction Time Task",
-          "authors": "Bence C. Farkas, Attila Krajcsi, Karolina Janacsek, Dezso Nemeth",
-          "url": "https://doi.org/10.3758/s13428-025-02670-x",
-          "doi": "https://doi.org/10.3758/s13428-025-02670-x",
+          "title": "How low can you go? Tracking eye movements during reading at different sampling rates",
+          "authors": "Bernhard Angele, Zeynep Gunes Ozkan, Marina Serrano-Carot, Jon Andoni Duñabeitia",
+          "abstract": "Eye-movement research has revolutionized our understanding of reading, but the use of eye-tracking techniques in investigating the reading process is still limited by the cost of high-precision eye-tracking, which limits research to laboratories with sufficient resources. It is important to evaluate to what extent cognitive processes during reading can be measured with less expensive eye-tracking devices. One such way may be to use devices with a lower sampling rate, which are much less expensive than high-sampling rate eye-trackers. We recorded readers’ eye movements during reading at different sampling rates and show that it is possible to measure the classic effect of word frequency on fixation duration, reflecting ongoing cognitive processing during reading, at sampling rates ranging from 250 to 2000 Hz. We simulate even lower sampling rates and show that, with a sufficiently large sample size, it is possible to detect the effect of word frequency even at very low sampling rates (30–125 Hz). Our results demonstrate that, in principle, low sampling rates are not an obstacle to studying the effects of cognitive processing during reading.",
+          "url": "https://doi.org/10.3758/s13428-025-02713-3",
+          "doi": "https://doi.org/10.3758/s13428-025-02713-3",
           "filter": 0
         },
         {
-          "title": "forceplate: An R package for processing raw force-plate time-series data",
-          "authors": "Raphael Hartmann, Anton Koger, Elisa R. Straub, Leif Johannsen, Iring Koch, Denise N. Stephan, Hermann Müller, Andrea Kiesel",
-          "abstract": "Evidence supporting the interaction between cognitive and motor processes is increasing. Conventional approaches to analyze balance control aggregate sway data over seconds up to minutes, which presents a challenge in discerning the impact of single cognitive processes on balance control. In this paper, we propose a novel, event-related approach to investigate how cognitive task performance affects balance control on small time scales using a force plate. A force plate continuously measures forces and moments in each spatial dimension over time. To facilitate the processing of the resulting time-series data, we developed an R-package called . This package segments the data so that each trial, corresponding to a cognitive task, has its own time-series data. A low-pass filter can be applied to remove artifacts (e.g., muscle twitches or electrical noise), and a baseline correction can be performed to improve the comparability of trials. For each trial’s time-series data, user-defined descriptive statistics (e.g., mean or standard deviation) can be calculated for user-defined time bins around an event (e.g., stimulus or response onset). The package generates a dataset with one or more measures per trial (depending on the number of time bins) that can be used for further analysis, such as a (mixed-effects) analysis of variance. The R-package and the described underlying procedure aim to establish a standard to process force-plate data collected in the context of cognitive experiments for the event-related approach. This facilitates the processing of force-plate data and enhances comparability between studies.",
-          "url": "https://doi.org/10.3758/s13428-025-02657-8",
-          "doi": "https://doi.org/10.3758/s13428-025-02657-8",
+          "title": "A comprehensive study of template-based frequency detection methods in SSVEP-based brain–computer interfaces",
+          "authors": "Mohammad Norizadeh Cherloo, Homa Kashefi Amiri, Amir Mohammad Mijani, Liang Zhan, Mohammad Reza Daliri",
+          "url": "https://doi.org/10.3758/s13428-025-02710-6",
+          "doi": "https://doi.org/10.3758/s13428-025-02710-6",
           "filter": 0
         },
         {
-          "title": "Creating a social virtual reality application for psychological research: A tutorial",
-          "authors": "Marius Rubo",
-          "abstract": "Social virtual reality (VR) setups allow two or more individuals to interact in a shared virtual environment while embodying computerized avatars. Such setups allow for detailed investigations into social-cognitive processes, can extend the functionality of existing single-user VR applications and can be used to design novel educational settings and psychotherapeutic treatments. While researchers may use commercially available social VR applications in addressing a range of research questions, an in-house software solution is typically developed when a research project requires more flexible experimental control or should conform to the highest data security standards. This tutorial demonstrates the construction of a social VR application based on an example software that mimics a VR setup but can be run and explored on an individual computer. Information flow emphasizes transparency to allow researchers to flexibly adapt the software to their own environment and research demands. The software is designed for use in controlled laboratory environments but can be extended for use in field research.",
-          "url": "https://doi.org/10.3758/s13428-025-02693-4",
-          "doi": "https://doi.org/10.3758/s13428-025-02693-4",
-          "filter": 0
-        },
-        {
-          "title": "gazeMapper: A tool for automated world-based analysis of gaze data from one or multiple wearable eye trackers",
-          "authors": "Diederick C. Niehorster, Roy S. Hessels, Marcus Nyström, Jeroen S. Benjamins, Ignace T. C. Hooge",
-          "abstract": "The problem: wearable eye trackers deliver eye-tracking data on a scene video that is acquired by a camera affixed to the participant’s head. Analyzing and interpreting such head-centered data is difficult and laborious manual work. Automated methods to map eye-tracking data to a world-centered reference frame (e.g., screens and tabletops) are available. These methods usually make use of fiducial markers. However, such mapping methods may be difficult to implement, expensive, and eye tracker-specific. The solution: here we present gazeMapper, an open-source tool for automated mapping and processing of eye-tracking data. gazeMapper can: (1) Transform head-centered data to planes in the world, (2) synchronize recordings from multiple participants, (3) determine data quality measures, e.g., accuracy and precision. gazeMapper comes with a GUI application (Windows, macOS, and Linux) and supports 11 different wearable eye trackers from AdHawk, Meta, Pupil, SeeTrue, SMI, Tobii, and Viewpointsystem. It is also possible to sidestep the GUI and use gazeMapper as a Python library directly.",
-          "url": "https://doi.org/10.3758/s13428-025-02704-4",
-          "doi": "https://doi.org/10.3758/s13428-025-02704-4",
-          "filter": 0
-        },
-        {
-          "title": "Investigating the effect of transformer encoder architecture to improve the reliability of classroom observation ratings on high-inference discourse",
-          "authors": "Jinnie Shin, Wallace N. Pinto, Bowen Wang",
-          "url": "https://doi.org/10.3758/s13428-025-02711-5",
-          "doi": "https://doi.org/10.3758/s13428-025-02711-5",
-          "filter": 0
-        },
-        {
-          "title": "EMTeC: A corpus of eye movements on machine-generated texts",
-          "authors": "Lena S. Bolliger, Patrick Haller, Isabelle C. R. Cretton, David R. Reich, Tannon Kew, Lena A. Jäger",
-          "abstract": "The E ye movements on M achine-generated Te xts C orpus (EMTeC) is a naturalistic eye-movements-while-reading corpus of 107 native English speakers reading machine-generated texts. The texts are generated by three large language models using five different decoding strategies, and they fall into six different text-type categories. EMTeC entails the eye movement data at all stages of pre-processing, i.e., the raw coordinate data sampled at 2000 Hz, the fixation sequences, and the reading measures. It further provides both the original and a corrected version of the fixation sequences, accounting for vertical calibration drift. Moreover, the corpus includes the language models’ internals that underlie the generation of the stimulus texts: the transition scores, the attention scores, and the hidden states. The stimuli are annotated for a range of linguistic features both at text and at word level. We anticipate EMTeC to be utilized for a variety of use cases such as, but not restricted to, the investigation of reading behavior on machine-generated text and the impact of different decoding strategies; reading behavior on different text types; the development of new pre-processing, data filtering, and drift correction algorithms; the cognitive interpretability and enhancement of language models; and the assessment of the predictive power of surprisal and entropy for human reading times. The data at all stages of pre-processing, the model internals, and the code to reproduce the stimulus generation, data pre-processing, and analyses can be accessed via https://github.com/DiLi-Lab/EMTeC/ .",
-          "url": "https://doi.org/10.3758/s13428-025-02677-4",
-          "doi": "https://doi.org/10.3758/s13428-025-02677-4",
-          "filter": 0
-        },
-        {
-          "title": "TittaLSL: A toolbox for creating networked eye-tracking experiments in Python and MATLAB with Tobii eye trackers",
-          "authors": "Diederick C. Niehorster, Marcus Nyström",
-          "abstract": "Studying the behavior of multiple participants using networked eye-tracking setups is of increasing interest to researchers. However, to conduct such studies, researchers have had to create complicated ad hoc solutions for streaming gaze over a local network. Here we present TittaLSL, a toolbox that enables creating networked multi-participant experiments using Tobii eye trackers with minimal programming effort. An evaluation using 600-Hz gaze streams sent between 15 different eye-tracking stations revealed that the end-to-end latency, including the eye tracker’s gaze estimation processes, achieved by TittaLSL was 3.05 ms. This was only 0.10 ms longer than when gaze samples were received from a locally connected eye tracker. We think that these latencies are low enough that TittaLSL is suitable for the majority of networked eye-tracking experiments, even when the gaze needs to be shown in real time.",
-          "url": "https://doi.org/10.3758/s13428-025-02714-2",
-          "doi": "https://doi.org/10.3758/s13428-025-02714-2",
-          "filter": 0
-        },
-        {
-          "title": "Lettuce entertain you: Assessing Sandwich Builder as a measure of auditory short-term memory",
-          "authors": "Drew J. McLaughlin, Arthur G. Samuel",
-          "abstract": "Numerous language models propose a critical role of auditory short-term memory in spoken language processing, making reliable estimations of individual listeners’ memory capacities essential in linguistic research. Although a variety of cognitive tasks exist for assessing both visual and auditory short-term capacities in a laboratory environment (e.g., digit span), these types of tasks are typically not engaging for the participant. In the current study, we assess the validity and reliability of a novel “gamified” short-term memory assessment tool called Sandwich Builder . In Sandwich Builder , the participant completes 12 trials of a sandwich-building game. In each trial, a drive-thru customer’s sandwich order is presented auditorily, including a list of 1 to 10 sandwich ingredients (e.g., salami, cheddar cheese, mayo, and olives). The participant needs to remember these sandwich ingredients and then build the customer’s sandwich by selecting the necessary ingredients in the correct order. We evaluate Sandwich Builder as an estimate of auditory short-term memory, finding significant correlations with other classic short-term memory measures. Additionally, we measure affect (i.e., mood), fatigue, and motivation following Sandwich Builder as compared to classic tasks: Participants leave Sandwich Builder in a better mood, less fatigued, and more motivated than they leave other memory tasks. Sandwich Builder shows strong convergent, discriminant, and predictive validity, and moderate-to-good test–retest reliability. Finally, we examine the practicality of Sandwich Builder as a measure of individual differences in speech perception research, providing expected power curves for two common paradigms. Altogether, we robustly demonstrate the utility of Sandwich Builder , which is openly available online.",
-          "url": "https://doi.org/10.3758/s13428-025-02707-1",
-          "doi": "https://doi.org/10.3758/s13428-025-02707-1",
+          "title": "Kalimah norms: Ratings for 2,467 modern standard Arabic words on two scales",
+          "authors": "Alaa Alzahrani, Wafa Aljuaythin, Hassan Alshumrani, Alaa Mamoun Saleh, Mohamed M. Mostafa",
+          "url": "https://doi.org/10.3758/s13428-025-02692-5",
+          "doi": "https://doi.org/10.3758/s13428-025-02692-5",
           "filter": 0
         }
       ],
@@ -98,24 +58,10 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "Knowledge types and cognitive processing modes associated with online news credibility assessment: An interview study",
-          "authors": "Nicolae Nistor, Benedikt Artmann, Dilara Isik, Nora Neziri, Dorin Stanciu",
-          "url": "https://doi.org/10.1016/j.chb.2025.108721",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108721",
-          "filter": 0
-        },
-        {
           "title": "How Do Source Evaluation Criteria Develop? A Microgenetic Study of Growth of Epistemic Ideals",
           "authors": "Sarit Barzilai, Clark A. Chinn",
           "url": "https://doi.org/10.1016/j.chb.2025.108729",
           "doi": "https://doi.org/10.1016/j.chb.2025.108729",
-          "filter": 0
-        },
-        {
-          "title": "Hotbed of stigmatization or source of support: A multimodal analysis of mental health-related videos on Douyin",
-          "authors": "Peiying Wu, Sheng Zou, Changfeng Chen, Yunya Song",
-          "url": "https://doi.org/10.1016/j.chb.2025.108716",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108716",
           "filter": 0
         },
         {
@@ -133,125 +79,40 @@
           "filter": 0
         },
         {
-          "title": "Cognitive effort in virtual worlds in the metaverse versus instant messaging: Disruptive impacts on team performance and strategies for recovery",
-          "authors": "Surinder Kahai",
-          "url": "https://doi.org/10.1016/j.chb.2025.108620",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108620",
-          "filter": 0
-        },
-        {
-          "title": "Swipe right to consent: How dating app usage by young adults contributes to sexual objectification and sexual consent miscommunication",
-          "authors": "Andrea M. Smith, Adriana S. Mucedola, Katelyn La, Rebecca R. Ortiz, Yu Tian",
-          "url": "https://doi.org/10.1016/j.chb.2025.108621",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108621",
-          "filter": 0
-        },
-        {
-          "title": "An optimal approach for predicting cognitive performance in education based on deep learning",
-          "authors": "Deming Li, Nie Tang, Meredith Chandler, Emilio Nanni",
-          "url": "https://doi.org/10.1016/j.chb.2025.108607",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108607",
-          "filter": 0
-        },
-        {
-          "title": "From human-machine collaboration to deviation: Understanding the catastrophe and resilience mechanisms of human-machine behaviors in intelligent environments",
-          "authors": "Haoran Wang, Bin Hu, Yanting Duan",
-          "url": "https://doi.org/10.1016/j.chb.2025.108622",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108622",
-          "filter": 0
-        },
-        {
-          "title": "Effects of smartphone restriction on cue-related neural activity",
-          "authors": "Mike M. Schmitgen, Gudrun M. Henemann, Julian Koenig, Marie-Luise Otte, Jakob P. Rosero, Patrick Bach, Sophie H. Haage, Nadine D. Wolf, Robert C. Wolf",
-          "url": "https://doi.org/10.1016/j.chb.2025.108610",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108610",
-          "filter": 0
-        },
-        {
-          "title": "Using artificial intelligence for predictive analysis of dementia awareness among community adult learners and evaluation of dementia-friendliness in community environments",
-          "authors": "Chia-Hui Hou, Yi-Hui Liu",
-          "url": "https://doi.org/10.1016/j.chb.2025.108604",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108604",
-          "filter": 0
-        },
-        {
-          "title": "Restrictions in social media engagement and User's fairness perception",
-          "authors": "Seung Hwan \"Shawn\" Lee, Kyoung-Nan Kwon",
-          "url": "https://doi.org/10.1016/j.chb.2025.108609",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108609",
-          "filter": 0
-        },
-        {
-          "title": "Balancing consistency and performance in edge-cloud transaction management",
-          "authors": "Ahmad Al-Qerem, Ali Mohd Ali, Ahmad Nabot, Issam Jebreen, Mohammad Alauthman, Someah Alangari, Ammar Almomani, Vinay Chamola, Amjad Aldweesh",
-          "url": "https://doi.org/10.1016/j.chb.2025.108601",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108601",
-          "filter": 0
-        },
-        {
-          "title": "Longitudinal relationship between gaming disorder symptoms, hyperactivity/inattention symptoms and aggression among Chinese adolescents: Within-person and between-person effects",
-          "authors": "Shuai Chen, Jinqian Liao, Xu Wang, Jiayi Li, Yanling Liu, Wei Zhang",
-          "url": "https://doi.org/10.1016/j.chb.2025.108608",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108608",
-          "filter": 0
-        },
-        {
-          "title": "Examining the spectrum of problematic online behaviors in Chinese adolescents: A network analysis of smartphone, gaming, and social media use",
-          "authors": "Shuangli Zhang, Sheng Tao, Yan-Li Zhang, Jun Zhou, Jie Wei, Min Chen, Qiang Hu, Hui Zheng, Zi-Liang Wang",
-          "url": "https://doi.org/10.1016/j.chb.2025.108611",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108611",
-          "filter": 0
-        },
-        {
-          "title": "An assistant or A friend? The role of parasocial relationship of human-computer interaction",
-          "authors": "Tiejun Qi, Hongshen Liu, Zhihui Huang",
-          "url": "https://doi.org/10.1016/j.chb.2025.108625",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108625",
-          "filter": 0
-        },
-        {
-          "title": "Student perspectives on banning mobile phones in South Australian secondary schools: A large-scale qualitative analysis",
-          "authors": "Eran Bar, Marcela Radunz, Christina R. Galanis, Blake Quinney, Tracey D. Wade, Daniel L. King",
-          "url": "https://doi.org/10.1016/j.chb.2025.108603",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108603",
-          "filter": 0
-        },
-        {
-          "title": "Avatar-mediated communication in collaborative virtual environments: A study on users’ attention allocation and perception of social interactions",
-          "authors": "Chen Li, Yixin Dai, Guang Chen, Jing Liu, Ping Li, Horace Ho-shing Ip",
-          "url": "https://doi.org/10.1016/j.chb.2025.108598",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108598",
-          "filter": 0
-        },
-        {
-          "title": "Beyond efficiency: Trust, AI, and surprise in knowledge work environments",
-          "authors": "Allen S. Brown, Christopher R. Dishop, Andrew Kuznetsov, Ping-Ya Chao, Anita Williams Woolley",
-          "url": "https://doi.org/10.1016/j.chb.2025.108605",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108605",
-          "filter": 0
-        },
-        {
-          "title": "Enhancing the emotional aspects of language education through generative artificial intelligence (GenAI): A qualitative investigation",
-          "authors": "Lucas Kohnke, Benjamin Luke Moorhouse",
-          "url": "https://doi.org/10.1016/j.chb.2025.108600",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108600",
+          "title": "Do cognitive assessment games leave infrequent video game players behind? Evaluating frequent and infrequent players’ gaming experience and data quality",
+          "authors": "Benny Markovitch, Jonas C.C. Kamps, Panos Markopoulos, Max V. Birk",
+          "url": "https://doi.org/10.1016/j.chb.2025.108720",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108720",
           "filter": 0
         }
       ],
-      "articles_hidden": [
-        {
-          "title": "Corrigendum to ‘Network analysis of internet addiction and depression among Chinese college students during the COVID-19 pandemic: A longitudinal study’ [Computers in Human Behavior, 138 (2023), 107424]",
-          "authors": "Yue Zhao, Diyang Qu, Shiyun Chen, Xinli Chi",
-          "url": "https://doi.org/10.1016/j.chb.2025.108599",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108599",
-          "filter": 1
-        }
-      ]
+      "articles_hidden": []
     },
     {
       "journal_full": "Journal of Experimental Social Psychology",
       "journal_short": "JESP",
       "articles": [
+        {
+          "title": "Talk is cheap: The role of (in)sincere allyship cues from men on women's identity-safety and retention at work",
+          "authors": "Charlotte E. Moser, Nyla R. Branscombe, Gregg A. Muragishi",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104767",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104767",
+          "filter": 0
+        },
+        {
+          "title": "People judge third-party anger as a signal of moral character",
+          "authors": "Xi Shen, Rajen A. Anderson, David A. Pizarro",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104765",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104765",
+          "filter": 0
+        },
+        {
+          "title": "Moral fixedness: Morality seems less changeable than competence and warmth",
+          "authors": "Jinseok S. Chun, Michael S. North",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104776",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104776",
+          "filter": 0
+        },
         {
           "title": "Through the lens of race: Accounting for majority-minority relations in cross-race categorization and individuation",
           "authors": "Verena Heidrich, Roland Imhoff",
@@ -288,52 +149,10 @@
           "filter": 0
         },
         {
-          "title": "Automatic implicit motive codings are at least as accurate as humans’ and 99% faster.",
-          "authors": "August Håkan Nilsson, J. Malte Runge, Adithya V. Ganesan, Carl Viggo N. G. Lövenstierne, Nikita Soni, Oscar N. E. Kjell",
-          "url": "https://doi.org/10.1037/pspp0000544",
-          "doi": "https://doi.org/10.1037/pspp0000544",
-          "filter": 0
-        },
-        {
-          "title": "Stress reactivity and sociocultural learning: More stress-reactive individuals are quicker at learning sociocultural norms from experiential feedback.",
-          "authors": "Shilpa Madan, Krishna Savani, Pranjal H. Mehta, Desiree Y. Phua, Ying-Yi Hong, Michael W. Morris",
-          "url": "https://doi.org/10.1037/pspi0000487",
-          "doi": "https://doi.org/10.1037/pspi0000487",
-          "filter": 0
-        },
-        {
-          "title": "The ecology of relatedness: How living around family (or not) matters.",
-          "authors": "Oliver Sng, Minyoung Choi, Joshua M. Ackerman",
-          "url": "https://doi.org/10.1037/pspa0000428",
-          "doi": "https://doi.org/10.1037/pspa0000428",
-          "filter": 0
-        },
-        {
-          "title": "Meaning-making with romantic partners: Shared reality promotes meaning in life by reducing uncertainty.",
-          "authors": "M. Catalina Enestrom, Maya Rossignac-Milon, Amanda L. Forest, John E. Lydon",
-          "url": "https://doi.org/10.1037/pspi0000472",
-          "doi": "https://doi.org/10.1037/pspi0000472",
-          "filter": 0
-        },
-        {
-          "title": "Familial similarity and heritability of personality traits and life satisfaction are higher than shown in typical single-method studies.",
-          "authors": "René Mõttus, character(0), Christian Kandler, Michelle Luciano, Tõnu Esko, Uku Vainik",
-          "url": "https://doi.org/10.1037/pspp0000550",
-          "doi": "https://doi.org/10.1037/pspp0000550",
-          "filter": 0
-        },
-        {
-          "title": "Methods reflect values: Evaluating the shortcomings of the average for measuring population well-being.",
-          "authors": "Sofia L. Panasiuk, Anthony McCanny, Felix Cheung",
-          "url": "https://doi.org/10.1037/pspp0000549",
-          "doi": "https://doi.org/10.1037/pspp0000549",
-          "filter": 0
-        },
-        {
-          "title": "Feedback receptivity from people in power reduces gender, sexual orientation, and disability bias concerns.",
-          "authors": "Ella J. Lombard, Katherine Weltzien, Linh N. H. Pham, Sapna Cheryan",
-          "url": "https://doi.org/10.1037/pspa0000427",
-          "doi": "https://doi.org/10.1037/pspa0000427",
+          "title": "People overestimate how harshly they are evaluated for disengaging from passion pursuit.",
+          "authors": "Zachariah Berry, Brian J. Lucas, Jon M. Jachimowicz",
+          "url": "https://doi.org/10.1037/pspa0000455",
+          "doi": "https://doi.org/10.1037/pspa0000455",
           "filter": 0
         }
       ],
@@ -351,17 +170,17 @@
           "filter": 0
         },
         {
-          "title": "Ruling out Latent Time-Varying Confounders in Two-Variable Multi-Wave Studies",
-          "authors": "David A. Kenny, D. Betsy McCoach",
-          "url": "https://doi.org/10.1080/00273171.2025.2503829",
-          "doi": "https://doi.org/10.1080/00273171.2025.2503829",
+          "title": "Estimating IRT Models Under Gaussian Mixture Modeling of Latent Traits: An Application of MSAEM Algorithm",
+          "authors": "Siyao Cheng, Xiangbin Meng",
+          "url": "https://doi.org/10.1080/00273171.2025.2512345",
+          "doi": "https://doi.org/10.1080/00273171.2025.2512345",
           "filter": 0
         },
         {
-          "title": "Modeling Cycles, Trends and Time-Varying Effects in Dynamic Structural Equation Models with Regression Splines",
-          "authors": "Ø. Sørensen, E. M. McCormick",
-          "url": "https://doi.org/10.1080/00273171.2025.2507297",
-          "doi": "https://doi.org/10.1080/00273171.2025.2507297",
+          "title": "Rnest: An R Package for the Next Eigenvalue Sufficiency Test for Factor Analysis",
+          "authors": "Pier-Olivier Caron",
+          "url": "https://doi.org/10.1080/00273171.2025.2512343",
+          "doi": "https://doi.org/10.1080/00273171.2025.2512343",
           "filter": 0
         }
       ],
@@ -372,17 +191,31 @@
       "journal_short": "PsychBull",
       "articles": [
         {
-          "title": "Procedural skill retention and decay: A meta-analytic review.",
-          "authors": "Corey E. Tatel, Phillip L. Ackerman",
-          "url": "https://doi.org/10.1037/bul0000481",
-          "doi": "https://doi.org/10.1037/bul0000481",
+          "title": "Electronic screen use and children’s socioemotional problems: A systematic review and meta-analysis of longitudinal studies.",
+          "authors": "Roberta Pires Vasconcellos, Taren Sanders, Chris Lonsdale, Philip Parker, James Conigrave, Samantha Tang, Borja del Pozo Cruz, Stuart J. H. Biddle, Rachael Taylor, Christine Innes-Hughes, Katariina Salmela-Aro, Diego Vasconcellos, Katrina Wilhite, Ella Tremaine, Bridget Booker, Michael Noetel",
+          "url": "https://doi.org/10.1037/bul0000468",
+          "doi": "https://doi.org/10.1037/bul0000468",
           "filter": 0
         },
         {
-          "title": "Acoustic exaggeration of vowels in infant-directed speech: A multimethod meta-analytic review.",
-          "authors": "Irena Lovčević, Titia Benders, Sho Tsuji, Riccardo Fusaroli",
-          "url": "https://doi.org/10.1037/bul0000479",
-          "doi": "https://doi.org/10.1037/bul0000479",
+          "title": "Effectiveness of psychotherapy: Synthesis of a “meta-analytic research domain” across world regions and 12 mental health problems.",
+          "authors": "Mathias Harrer, Clara Miguel, Wouter van Ballegooijen, Marketa Ciharova, Constantin Yves Plessen, Paula Kuper, Antonia A. Sprenger, Claudia Buntrock, Davide Papola, Ioana A. Cristea, Nino de Ponti, Đorđe Bašić, Darin Pauley, Ellen Driessen, Soledad Quero, Jorge Grimaldos, Sara Fernández Buendía, Cristina Botella, Jessica L. Hamblen, Paula P. Schnurr, Sadie E. Larsen, Rory A. Pfund, Emma Motrico, Irene Gómez-Gómez, Kim Setkowski, Minoo Matbouriahi, Yingying Wang, Josine Rawee, Heleen Riper, Annemieke van Straten, Marit Sijbrandij, Stefan Leucht, Toshi A. Furukawa, Eirini Karyotaki, Pim Cuijpers",
+          "url": "https://doi.org/10.1037/bul0000465",
+          "doi": "https://doi.org/10.1037/bul0000465",
+          "filter": 0
+        },
+        {
+          "title": "How physical activity context relates to cognition across the lifespan: A systematic review and meta-analysis.",
+          "authors": "Myrto F. Mavilidi, Spyridoula Vazou, David R. Lubans, Katie Robinson, Andrew J. Woods, Valentin Benzing, Sofia Anzeneder, Katherine B. Owen, Celia Álvarez-Bueno, Levi Wade, Jade Burley, George Thomas, Anthony D. Okely, Caterina Pesce",
+          "url": "https://doi.org/10.1037/bul0000478",
+          "doi": "https://doi.org/10.1037/bul0000478",
+          "filter": 0
+        },
+        {
+          "title": "AI aversion or appreciation? A capability–personalization framework and a meta-analytic review.",
+          "authors": "Xin Qin, Xiang Zhou, Chen Chen, Dongyuan Wu, Hansen Zhou, Xiaowei Dong, Limei Cao, Jackson G. Lu",
+          "url": "https://doi.org/10.1037/bul0000477",
+          "doi": "https://doi.org/10.1037/bul0000477",
           "filter": 0
         }
       ],
@@ -400,13 +233,6 @@
           "filter": 0
         },
         {
-          "title": "Estimating causal effects on psychological networks using item response theory.",
-          "authors": "Joshua B. Gilbert, Benjamin W. Domingue, James S. Kim",
-          "url": "https://doi.org/10.1037/met0000764",
-          "doi": "https://doi.org/10.1037/met0000764",
-          "filter": 0
-        },
-        {
           "title": "Improved estimation of autoregressive models through contextual impulses and robust modeling.",
           "authors": "Janne K. Adolf, Eva Ceulemans",
           "url": "https://doi.org/10.1037/met0000761",
@@ -418,83 +244,6 @@
           "authors": "Ronny Scherer, Valentin Emslander",
           "url": "https://doi.org/10.1037/met0000751",
           "doi": "https://doi.org/10.1037/met0000751",
-          "filter": 0
-        },
-        {
-          "title": "Evaluating avoidable heterogeneity in exploratory factor analysis results.",
-          "authors": "Patrick D. Manapat, Samantha F. Anderson, Michael C. Edwards",
-          "url": "https://doi.org/10.1037/met0000589",
-          "doi": "https://doi.org/10.1037/met0000589",
-          "filter": 0
-        },
-        {
-          "title": "A tool to simulate and visualize dyadic interaction dynamics.",
-          "authors": "Sophie W. Berkhout, Noémi K. Schuurman, Ellen L. Hamaker",
-          "url": "https://doi.org/10.1037/met0000575",
-          "doi": "https://doi.org/10.1037/met0000575",
-          "filter": 0
-        },
-        {
-          "title": "Meta-analyzing the multiverse: A peek under the hood of selective reporting.",
-          "authors": "Anton Olsson-Collentine, Robbie C. M. van Aert, Marjan Bakker, Jelte Wicherts",
-          "url": "https://doi.org/10.1037/met0000559",
-          "doi": "https://doi.org/10.1037/met0000559",
-          "filter": 0
-        },
-        {
-          "title": "Bayesian penalty methods for evaluating measurement invariance in moderated nonlinear factor analysis.",
-          "authors": "Holger Brandt, Siyuan Marco Chen, Daniel J. Bauer",
-          "url": "https://doi.org/10.1037/met0000552",
-          "doi": "https://doi.org/10.1037/met0000552",
-          "filter": 0
-        },
-        {
-          "title": "The receiver operating characteristic area under the curve (or mean ridit) as an effect size.",
-          "authors": "Michael Smithson",
-          "url": "https://doi.org/10.1037/met0000601",
-          "doi": "https://doi.org/10.1037/met0000601",
-          "filter": 0
-        },
-        {
-          "title": "Simulation-based design optimization for statistical power: Utilizing machine learning.",
-          "authors": "Felix Zimmer, Rudolf Debelak",
-          "url": "https://doi.org/10.1037/met0000611",
-          "doi": "https://doi.org/10.1037/met0000611",
-          "filter": 0
-        },
-        {
-          "title": "A factored regression model for composite scores with item-level missing data.",
-          "authors": "Egamaria Alacam, Craig K. Enders, Han Du, Brian T. Keller",
-          "url": "https://doi.org/10.1037/met0000584",
-          "doi": "https://doi.org/10.1037/met0000584",
-          "filter": 0
-        },
-        {
-          "title": "A default Bayes factor for testing null hypotheses about the fixed effects of linear two-level models.",
-          "authors": "Nikola Sekulovski, Herbert Hoijtink",
-          "url": "https://doi.org/10.1037/met0000573",
-          "doi": "https://doi.org/10.1037/met0000573",
-          "filter": 0
-        },
-        {
-          "title": "A true score imputation method to account for psychometric measurement error.",
-          "authors": "Maxwell Mansolf",
-          "url": "https://doi.org/10.1037/met0000578",
-          "doi": "https://doi.org/10.1037/met0000578",
-          "filter": 0
-        },
-        {
-          "title": "A Bayesian classifier for fractal characterization of short behavioral series.",
-          "authors": "Alessandro Solfo, Cees van Leeuwen",
-          "url": "https://doi.org/10.1037/met0000562",
-          "doi": "https://doi.org/10.1037/met0000562",
-          "filter": 0
-        },
-        {
-          "title": "Why the use of segmented regression analysis to explore change in relations between variables is problematic: A simulation study.",
-          "authors": "Moritz Breit, Julian Preuß, Vsevolod Scherrer, Franzis Preckel",
-          "url": "https://doi.org/10.1037/met0000576",
-          "doi": "https://doi.org/10.1037/met0000576",
           "filter": 0
         }
       ],
@@ -520,10 +269,10 @@
       "journal_short": "PPM",
       "articles": [
         {
-          "title": "Exploring the impact of work from home on the effects of social media: A moderated mediation analysis of psychological well-being.",
-          "authors": "Biying Wu-Ouyang",
-          "url": "https://doi.org/10.1037/ppm0000608",
-          "doi": "https://doi.org/10.1037/ppm0000608",
+          "title": "Keep your head in the game: Retrospective imaginative involvement with video game narratives.",
+          "authors": "Koji Yoshimura, Philippe de Villemor Chauveau",
+          "url": "https://doi.org/10.1037/ppm0000607",
+          "doi": "https://doi.org/10.1037/ppm0000607",
           "filter": 0
         },
         {
@@ -531,13 +280,6 @@
           "authors": "Hibai Lopez-Gonzalez, Adrien Faure-Carvallo, Cristina Colomé, Juan-José Boté-Vericad",
           "url": "https://doi.org/10.1037/ppm0000609",
           "doi": "https://doi.org/10.1037/ppm0000609",
-          "filter": 0
-        },
-        {
-          "title": "Romantic ideas and ideals in popular music: A content analysis of the Taylor Swift musical catalog.",
-          "authors": "McKell A. Jorgensen-Wells, Jane Shawcroft, Laramie D. Taylor, Erin Spencer",
-          "url": "https://doi.org/10.1037/ppm0000606",
-          "doi": "https://doi.org/10.1037/ppm0000606",
           "filter": 0
         }
       ],
