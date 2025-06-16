@@ -1,16 +1,16 @@
 {
-  "update": "2025-06-12",
+  "update": "2025-06-16",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
       "journal_short": "AMPPS",
       "articles": [
         {
-          "title": "Thinking Clearly About Age, Period, and Cohort Effects",
-          "authors": "Julia M. Rohrer",
-          "abstract": "Psychological researchers are interested in how things change over time and routinely make claims about age effects (e.g., personality maturation), cohort effects (e.g., generational differences in narcissism), and sometimes, period effects (e.g., secular trends in mental health). The age-period-cohort identification problem means that these claims are not possible based on the data alone: Any possible temporal pattern can be explained by an infinite number of combinations of age, period, and cohort effects. This concern holds regardless of the study design (it also applies to longitudinal designs covering multiple cohorts) and the number of observations available (it also applies if researchers observe the whole population). Researchers usually rely on statistical models that impose constraints to pick one specific decomposition of effects. Unfortunately, these constraints often remain opaque, resulting in a lack of scrutiny of the underlying assumptions. How can researchers reason more transparently and systematically about age, period, and cohort? Here, I summarize advances in the understanding of the precise nature of the identification problem, provide an overview of ways to move forward, and highlight one approach that is particularly transparent about assumptions: bounding analysis, a framework developed by sociologists Ethan Fosse and Christopher Winship. To illustrate this approach, I analyze how age, period, and cohort affect attitudes toward working mothers in the German General Social Survey.",
-          "url": "https://doi.org/10.1177/25152459251342750",
-          "doi": "https://doi.org/10.1177/25152459251342750",
+          "title": "Mixed-Methods Research in Psychology: Rationales and Research Designs",
+          "authors": "Moin Syed, Dulce Wilkinson Westberg",
+          "abstract": "Psychological science has long maintained a preference for quantitative methods over qualitative methods. The allegiance to one methodological family and the rejection of another means that at least, in part, the field’s methods are constraining the universe of research questions it is willing to ask. In this article, we provide an overview of mixed-methods research, which involves the use and integration of both qualitative and quantitative methods, and why psychology should do more of it. The focal audience is quantitatively oriented researchers who are interested in—and perhaps even skeptical of—the role of qualitative methods for their work. The article consists of three general sections: (a) a brief discussion of philosophical issues underlying the application of mixed-methods research in psychology, (b) a deeper examination of what constitutes “quantitative” and “qualitative” research, and (c) a description of four major mixed-methods-research designs that hold promise for psychology research. We provide researchers with broad conceptual foundations and concrete tools for how research questions in psychology can be mapped to different mixed-methods designs, helping correct for researchers’ lack of exposure and/or negative preconceptions that have inhibited uptake in the field.",
+          "url": "https://doi.org/10.1177/25152459251343919",
+          "doi": "https://doi.org/10.1177/25152459251343919",
           "filter": 0
         }
       ],
@@ -21,14 +21,6 @@
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "Advancing preference testing in humans and animals",
-          "authors": "Dana Pfefferle, Steven R. Talbot, Pia Kahnau, Lauren C. Cassidy, Ralf R. Brockhausen, Anne Jaap, Veronika Deikun, Pinar Yurt, Alexander Gail, Stefan Treue, Lars Lewejohann",
-          "abstract": "Preference tests help to determine how highly individuals value different options to choose from. During preference testing, two or more options are presented simultaneously, and options are ranked based on the choices made. Presented options, however, influence each other, where the amount of influence increases with the number of options. Multiple binary choice tests can reduce this degree of influence, but conventional analysis methods do not reveal the relative strengths of preference, i.e., the preference difference between options. Here, we demonstrate that multiple binary comparisons can be used not only to rank but also to scale preferences among many options (i.e., their worth value). We analyzed human image preference data with known valence scores to develop and validate our approach to determine how known valence ranges (high vs. low) converge on a scaled representation of preference data. Our approach allowed us to assess the valence of ranked options in mice and rhesus macaques. By conducting simulations, we developed an approach to incorporate additional option choices into existing rank orders without the need to conduct binary choice tests with all original options, thus reducing the number of animal experiments needed. Two quality measures, consensus error and intransitivity ratio, allow for assessing the achieved confidence of the scaled ranking and better tailoring of measurements required to improve it further. The software is available as an R package (“simsalRbim”). Our approach optimizes preference testing, e.g., in welfare assessment, and allows us to efficiently and quantitatively assess the relative value of options presented to animals.",
-          "url": "https://doi.org/10.3758/s13428-025-02668-5",
-          "doi": "https://doi.org/10.3758/s13428-025-02668-5",
-          "filter": 0
-        },
-        {
           "title": "How low can you go? Tracking eye movements during reading at different sampling rates",
           "authors": "Bernhard Angele, Zeynep Gunes Ozkan, Marina Serrano-Carot, Jon Andoni Duñabeitia",
           "abstract": "Eye-movement research has revolutionized our understanding of reading, but the use of eye-tracking techniques in investigating the reading process is still limited by the cost of high-precision eye-tracking, which limits research to laboratories with sufficient resources. It is important to evaluate to what extent cognitive processes during reading can be measured with less expensive eye-tracking devices. One such way may be to use devices with a lower sampling rate, which are much less expensive than high-sampling rate eye-trackers. We recorded readers’ eye movements during reading at different sampling rates and show that it is possible to measure the classic effect of word frequency on fixation duration, reflecting ongoing cognitive processing during reading, at sampling rates ranging from 250 to 2000 Hz. We simulate even lower sampling rates and show that, with a sufficiently large sample size, it is possible to detect the effect of word frequency even at very low sampling rates (30–125 Hz). Our results demonstrate that, in principle, low sampling rates are not an obstacle to studying the effects of cognitive processing during reading.",
@@ -37,10 +29,25 @@
           "filter": 0
         },
         {
+          "title": "The Israeli Face Database (IFD): A multi-ethnic database of faces with supporting social norming data",
+          "authors": "Maayan Trzewik, Mayan Navon, Tal Moran, Hadas Wardi, Adi Langer, Bat-Sheva Hadad, Carmel Sofer, Niv Reggev",
+          "abstract": "Human faces and their representations play a key role in social interactions. Consequently, face images are widely used as stimuli across psychological research. However, most available face databases primarily represent Western, predominantly White populations, raising concerns about the generalizability of findings derived from such nondiverse stimuli sets. The current work addresses this problem by introducing the Israeli Face Database (IFD), a novel database presenting face images of real individuals from an ethnically diverse population underrepresented in psychological research on face perception—people residing in Israel. The IFD features multiple highly controlled images per face identity, presenting several facial expressions. Additionally, we provide detailed demographic data on the face identities, expression validation data rated by Israeli participants, and social norming data rated by both Israeli and US-based participants. Validation data (Study 1) confirmed that the expression images in the IFD accurately convey their intended expressions. Norming data analysis (Study 2) revealed that judgments of IFD faces were broadly consistent across cultures, with notable variations in perceived typicality and perceived ethnic diversity. These results highlight the IFD’s strong psychometric properties and its ability to capture nuanced cultural and individual differences in face perception. We propose that the IFD can serve as a valuable tool for diversifying stimuli in social-psychological research.",
+          "url": "https://doi.org/10.3758/s13428-025-02723-1",
+          "doi": "https://doi.org/10.3758/s13428-025-02723-1",
+          "filter": 0
+        },
+        {
           "title": "A comprehensive study of template-based frequency detection methods in SSVEP-based brain–computer interfaces",
           "authors": "Mohammad Norizadeh Cherloo, Homa Kashefi Amiri, Amir Mohammad Mijani, Liang Zhan, Mohammad Reza Daliri",
           "url": "https://doi.org/10.3758/s13428-025-02710-6",
           "doi": "https://doi.org/10.3758/s13428-025-02710-6",
+          "filter": 0
+        },
+        {
+          "title": "My friend MIROSLAV: A hackable open-source hardware and software platform for high-throughput monitoring of rodent activity in the home cage",
+          "authors": "Davor Virag, Jan Homolak, Ivan Kodvanj, Ana-Marija Virag, Ana Babić Perhoč, Patrik Meglić, Petra Šoštarić Mužić, Ana Knezović, Jelena Osmanović Barilar, Mario Cifrek, Vladimir Trkulja, Melita Šalković-Petrišić",
+          "url": "https://doi.org/10.3758/s13428-025-02719-x",
+          "doi": "https://doi.org/10.3758/s13428-025-02719-x",
           "filter": 0
         },
         {
@@ -58,24 +65,24 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "How Do Source Evaluation Criteria Develop? A Microgenetic Study of Growth of Epistemic Ideals",
-          "authors": "Sarit Barzilai, Clark A. Chinn",
-          "url": "https://doi.org/10.1016/j.chb.2025.108729",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108729",
+          "title": "Impact of mindset types and social community compositions on opinion dynamics: A large language model-based multi-agent simulation study",
+          "authors": "Guozhu Ding, Zuer Liu, Shan Li, Jie Cao, Zhuohai Ye",
+          "url": "https://doi.org/10.1016/j.chb.2025.108730",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108730",
           "filter": 0
         },
         {
-          "title": "Who Watches Porn? Demographic Insights from Web Tracking Data",
-          "authors": "Alberto Martinez-Serra, Ana Sofia Cardenal",
-          "url": "https://doi.org/10.1016/j.chb.2025.108731",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108731",
+          "title": "From efficiency to immersion: understanding generational differences in avatar interactions",
+          "authors": "Shashank Singh Pawar, Anubhav A. Mishra",
+          "url": "https://doi.org/10.1016/j.chb.2025.108732",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108732",
           "filter": 0
         },
         {
-          "title": "The Role of Trust as the Facilitator and Contingency Factor in the Adoption of Digital Healthcare Services: A Telemedicine Context",
-          "authors": "Phatthira Wissawaswaengsuk, Prashant Kumar, Björn Frank, Yuosre F. Badir",
-          "url": "https://doi.org/10.1016/j.chb.2025.108722",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108722",
+          "title": "Enhancing user satisfaction in the reporting of online sexual harassment on social media: The role of anthropomorphic design in mitigating negative emotions and building trust",
+          "authors": "Yuying Tan, Sara Pabian, Heidi Vandebosch, Karolien Poels",
+          "url": "https://doi.org/10.1016/j.chb.2025.108733",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108733",
           "filter": 0
         },
         {
@@ -114,10 +121,17 @@
           "filter": 0
         },
         {
-          "title": "Through the lens of race: Accounting for majority-minority relations in cross-race categorization and individuation",
-          "authors": "Verena Heidrich, Roland Imhoff",
-          "url": "https://doi.org/10.1016/j.jesp.2025.104763",
-          "doi": "https://doi.org/10.1016/j.jesp.2025.104763",
+          "title": "Testing the effects of political rhetoric towards muslims as a facilitator and barrier for intergroup contact",
+          "authors": "John Shayegh, Becky Choma",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104780",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104780",
+          "filter": 0
+        },
+        {
+          "title": "Revisiting the effect of discrepant perceptual fluency on truth judgments",
+          "authors": "Semih C. Aktepe, Daniel W. Heck",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104774",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104774",
           "filter": 0
         }
       ],
@@ -128,24 +142,31 @@
       "journal_short": "JPSP",
       "articles": [
         {
-          "title": "Goal harmony.",
-          "authors": "Jiabi Wang, Ayelet Fishbach",
-          "url": "https://doi.org/10.1037/pspa0000452",
-          "doi": "https://doi.org/10.1037/pspa0000452",
+          "title": "Within-person variability and couple synchrony in state relationship satisfaction: Testing predictors and implications.",
+          "authors": "Louisa Scheling, Cornelia Wrzus, Rebekka Weidmann, Robert Philip Burriss, Jenna Wünsche, Alexander Grob, Janina Larissa Bühler",
+          "url": "https://doi.org/10.1037/pspp0000559",
+          "doi": "https://doi.org/10.1037/pspp0000559",
           "filter": 0
         },
         {
-          "title": "She sees the trees, he sees the forest: Descriptive gender stereotypes of concreteness and abstractness.",
-          "authors": "Samantha J. Dodson, Rachael D. Goodwin, Cheryl J. Wakslak, Kristina A. Diekmann, Jesse Graham",
-          "url": "https://doi.org/10.1037/pspa0000453",
-          "doi": "https://doi.org/10.1037/pspa0000453",
+          "title": "IQ, genes, and miscalibrated expectations.",
+          "authors": "Chris Dawson",
+          "url": "https://doi.org/10.1037/pspp0000567",
+          "doi": "https://doi.org/10.1037/pspp0000567",
           "filter": 0
         },
         {
-          "title": "Detecting social biases using mental state inference.",
-          "authors": "Mika Asaba, Isaac Davis, Julia Leonard, Julian Jara-Ettinger",
-          "url": "https://doi.org/10.1037/pspa0000451",
-          "doi": "https://doi.org/10.1037/pspa0000451",
+          "title": "What explains personality change intervention effects?",
+          "authors": "Michael D. Krämer, Christopher J. Hopwood, Travis J. Miller, Wiebke Bleidorn",
+          "url": "https://doi.org/10.1037/pspp0000565",
+          "doi": "https://doi.org/10.1037/pspp0000565",
+          "filter": 0
+        },
+        {
+          "title": "Multimodal person evaluation: First impressions from faces, voices, and names.",
+          "authors": "Mila Mileva",
+          "url": "https://doi.org/10.1037/pspa0000454",
+          "doi": "https://doi.org/10.1037/pspa0000454",
           "filter": 0
         },
         {
@@ -159,28 +180,71 @@
       "articles_hidden": []
     },
     {
-      "journal_full": "Multivariate Behavioral Research",
-      "journal_short": "MBR",
+      "journal_full": "Personality and Social Psychology Bulletin",
+      "journal_short": "PSPB",
       "articles": [
         {
-          "title": "Causal Inference with Unobserved Confounding: Leveraging Negative Control Outcomes Using Lavaan",
-          "authors": "Wen Wei Loh",
-          "url": "https://doi.org/10.1080/00273171.2025.2507742",
-          "doi": "https://doi.org/10.1080/00273171.2025.2507742",
+          "title": "More Biased, Yet More Informed? Documenting Me-Search Stigma Primarily Linked to Researchers’ Own Group Memberships",
+          "authors": "Erdem O. Meral, Corinne A. Moss-Racusin, Jojanneke van der Toorn",
+          "abstract": "“Me-searchers” study topics directly or indirectly relevant to themselves—such as social groups they belong to—and are often stigmatized as being more biased (though sometimes more informed) than those researching topics unrelated to their own experience. This study explores how queer and straight researchers are perceived when studying anti-queer bias or other topics through three pre-registered experiments ( N = 823). When both studied anti-queer bias, the queer me-searcher was perceived as more biased, and the straight researcher was perceived as less informed than identical (straight and queer) researchers studying a different topic. Target researchers motivated by social justice (vs. theoretical) implications were also perceived as more biased. Crucially, we identified and tested three conceptual accounts about why and how me-searchers are stigmatized. Supporting the existence of me-search stigma, our results suggest that not only me-searchers but also allied researchers are stereotyped when studying prejudice and discrimination.",
+          "url": "https://doi.org/10.1177/01461672251339690",
+          "doi": "https://doi.org/10.1177/01461672251339690",
           "filter": 0
         },
         {
-          "title": "Estimating IRT Models Under Gaussian Mixture Modeling of Latent Traits: An Application of MSAEM Algorithm",
-          "authors": "Siyao Cheng, Xiangbin Meng",
-          "url": "https://doi.org/10.1080/00273171.2025.2512345",
-          "doi": "https://doi.org/10.1080/00273171.2025.2512345",
+          "title": "Motive Attributions Shape Judgments of Whistleblowers’ Moral Characters",
+          "authors": "Franziska Brotzeller, Gijs van Houwelingen, Mario Gollwitzer, Moritz Fischer",
+          "abstract": "Public perceptions of whistleblowers are polarized: While some praise them as heroes, others view them as traitors. We argue that such perceptions are rooted in motives attributed to whistleblowers and tested this idea in three studies. A first qualitative study ( N = 201) revealed four main motives attributed in whistleblowing situations: prosocial, competitive, individualistic, and deontic. In two subsequent scenario studies (total N = 867), we manipulated how an actor responded to an organizational wrongdoing (type of whistleblowing: no, internal, external, or public whistleblowing) and measured motive attributions and judgments of the actor’s moral character. The type of whistleblowing impacted moral character judgments, mediated by motive attributions. Specifically, the type of whistleblowing impacted all four motive attributions and, in turn, prosocial, competitive, and deontic attributions were associated with moral character judgments.",
+          "url": "https://doi.org/10.1177/01461672251340111",
+          "doi": "https://doi.org/10.1177/01461672251340111",
           "filter": 0
         },
         {
-          "title": "Rnest: An R Package for the Next Eigenvalue Sufficiency Test for Factor Analysis",
-          "authors": "Pier-Olivier Caron",
-          "url": "https://doi.org/10.1080/00273171.2025.2512343",
-          "doi": "https://doi.org/10.1080/00273171.2025.2512343",
+          "title": "The Mismeasure of Culture: Why Measurement Invariance Is Rarely Appropriate for Comparative Research in Psychology",
+          "authors": "Kodai Kusano, Jaime L. Napier, John T. Jost",
+          "abstract": "Despite growing recognition of the need for cross-national or cross-cultural validation of measures in social psychological research, a tension persists between proponents of measurement invariance and practitioners frustrated with stringent standards and ambiguous recommendations. This article critiques common applications of measurement invariance standards and proposes an alternative method for establishing cross-group validity. We highlight how measurement invariance emerged from concerns about fairness in high-stakes individual selections and is based on meta-theoretical assumptions usually irrelevant for drawing cross-societal comparisons. Using the General System Justification Scale as an example, we demonstrate how reliance on a nomological network can ensure meaningful group differences without meeting invariance criteria and show how non-invariance is preferable to approximate (or partial) invariance. We recommend that psychologists interested in cross-group comparisons isolate construct-relevant factors from method bias. Doing so requires defining a priori the goal of scale use and what is “societal” or “cultural” about what is being measured.",
+          "url": "https://doi.org/10.1177/01461672251341402",
+          "doi": "https://doi.org/10.1177/01461672251341402",
+          "filter": 0
+        },
+        {
+          "title": "Exploring the Link Between Identity Avoidance and Perceived Self-Knowledge",
+          "authors": "Lydia Needy, Kianna M. Arthur, Leslie Fernandez, Yige Yin, Tonglin Jiang, Rebecca J. Schlegel, Joshua A. Hicks",
+          "abstract": "Individuals with concealable stigmatized identities (CSIs) may employ avoidance strategies to hide their identities. While seemingly protective, identity avoidance may negatively impact perceived self-knowledge (i.e., self-concept clarity and self-alienation). Across six studies ( N = 1,945) with U.S. and Chinese university samples, we found that those with CSIs consistently reported lower levels of perceived self-knowledge than those without (Studies 1a–1d). CSI avoidance was also uniquely associated with decreased levels of perceived self-knowledge, even when controlling for relevant factors. Experimental manipulations (Studies 2 and 3) of concealable identity salience yielded mixed evidence for direct effects on perceived self-knowledge, but consistent indirect effects through identity avoidance. The results emphasize the negative impact avoidance-based concealment may have on perceived self-knowledge among individuals with CSIs, urging future research on mitigating factors and cognitive mechanisms.",
+          "url": "https://doi.org/10.1177/01461672251343114",
+          "doi": "https://doi.org/10.1177/01461672251343114",
+          "filter": 0
+        },
+        {
+          "title": "Curb Your Positive Stereotypes: Counter-Stereotypical Interventions Improve Attention to Inequality and Discrimination Against Asian Americans",
+          "authors": "Nattavudh Powdthavee",
+          "abstract": "Despite 1 in 10 Asian Americans living in poverty, their struggles are often overlooked due to the persistence of “model minority” stereotypes. This study investigates whether counter-stereotypical narratives—emphasizing either economic hardship or psychological challenges—can reduce stereotype-driven misperceptions and improve recognition of the inequalities faced by Asian Americans. Using a nationally representative U.S. sample ( N = 2,983), these interventions moderated both trait-based beliefs (e.g., Asian Americans are inherently hardworking) and structural beliefs (e.g., Asian Americans experience less discrimination than other minority groups). Follow-up studies revealed that participants exposed to the interventions were less likely to overestimate the incomes of low-income Asian Americans, displayed lower bias in recognizing inequality in resource allocation, and were more likely to identify discrimination in hiring situations. These findings suggest that stereotype-challenging messages can foster more accurate and empathetic perceptions—without diminishing positive regard—by raising awareness of the structural disadvantages faced by Asian Americans.",
+          "url": "https://doi.org/10.1177/01461672251341608",
+          "doi": "https://doi.org/10.1177/01461672251341608",
+          "filter": 0
+        },
+        {
+          "title": "Group Typology Shapes Social Network Representations",
+          "authors": "Yi Zhang, Danfeng Ai, Jade Li Wang, Lei Ji, Jipeng Duan, Ying Zhou, Jun Yin",
+          "abstract": "Efficiently representing social networks is challenging, but cognitive schemas can help address this challenge. This study examined whether network schemas related to group typology influence social network representations. In Experiment 1, participants, who were given only group-type information and the number of relationships without network structure, freely constructed friendship networks, forming more interconnected and centralized structures for task groups than social categories. Experiment 2 provided identical partial friendship network data across group types, yet group-type labels biased participants’ inferences about potential future friendships, producing network structures similar to those in Experiment 1. In Experiment 3, participants who memorized friendships from social networks—either from a task group or social category—showed greater accuracy when the memorized network structure aligned with the group type that activated corresponding schemas. These results suggest that individuals utilize group-related schemas to represent social networks, with task groups having closer and more centralized connections than social categories do.",
+          "url": "https://doi.org/10.1177/01461672251345186",
+          "doi": "https://doi.org/10.1177/01461672251345186",
+          "filter": 0
+        },
+        {
+          "title": "The Prospective Association Between Life Satisfaction and Physical Pain: Evidence From Longitudinal and Cohort Data",
+          "authors": "Lucía Macchia, Liam Delaney, Michael Daly",
+          "abstract": "Life satisfaction and physical pain are key aspects of human well-being. Yet, evidence on the direction of their association and potential explanatory factors is relatively scarce. We address these questions across two studies. In Study 1, we explore the cross-lagged association between life satisfaction and physical pain using 22 waves from Australian longitudinal data (Household, Income and Labour Dynamics of Australia; N = 233,854), individual fixed effects regressions, and Random Intercept Cross-Lagged Panel Models. We found a bidirectional relationship between life satisfaction and pain, which is virtually identical across both methods. In Study 2, we use data from the 1970 British Cohort Study ( N = 4,002) and Ordinary Least Squares regressions with a wide set of covariates. We found that people who reported greater life satisfaction at age 26 (vs. lower) reported lower physical pain at age 46. We document factors that partially explain this link, including psychological distress and past unemployment.",
+          "url": "https://doi.org/10.1177/01461672251343960",
+          "doi": "https://doi.org/10.1177/01461672251343960",
+          "filter": 0
+        },
+        {
+          "title": "The Impact of Incidental Emotion on Prosocial Behavior: A Multilevel Meta-Analysis",
+          "authors": "Yijin He, Yulin Tan, Qingguo Ma, Tao Liu, Jing Yu",
+          "abstract": "Theoretical models suggest that incidental emotions, which are unrelated to the task at hand or situation, could influence prosocial behaviors. However, inconsistent effects across studies highlight the need for a comprehensive quantitative synthesis. Results based on 219 effect sizes from 108 studies (total N = 15,355 participants) revealed: (a) a small but significant overall causal effect of positive emotions on prosocial behavior (after publication bias correction), while negative emotions showed more complex result patterns; (b) beyond valence-based approach, emotions with the same valence but different social functions had distinct effects on prosocial behaviors; and (c) discrete emotions within the same social function clusters, showed varying effects. Overall, these effects are appreciably different not only between clusters but also within clusters. Moderation analyses identified methodological factors explaining heterogeneity in previous findings. We discussed the theoretical and practical implications of these results.",
+          "url": "https://doi.org/10.1177/01461672251344396",
+          "doi": "https://doi.org/10.1177/01461672251344396",
           "filter": 0
         }
       ],
@@ -212,6 +276,13 @@
           "filter": 0
         },
         {
+          "title": "Trust and subjective well-being across the lifespan: A multilevel meta-analysis of cross-sectional and longitudinal associations.",
+          "authors": "Shanshan Bi, Marlies Maes, Gonneke W. J. M. Stevens, Coriena de Heer, Jian-Bin Li, Yue Sun, Catrin Finkenauer",
+          "url": "https://doi.org/10.1037/bul0000480",
+          "doi": "https://doi.org/10.1037/bul0000480",
+          "filter": 0
+        },
+        {
           "title": "AI aversion or appreciation? A capability–personalization framework and a meta-analytic review.",
           "authors": "Xin Qin, Xiang Zhou, Chen Chen, Dongyuan Wu, Hansen Zhou, Xiaowei Dong, Limei Cao, Jackson G. Lu",
           "url": "https://doi.org/10.1037/bul0000477",
@@ -226,39 +297,40 @@
       "journal_short": "PM",
       "articles": [
         {
-          "title": "Continuous-time structural equation model forests.",
-          "authors": "Pablo F. Cáncer, Manuel Arnold, Eduardo Estrada, Manuel C. Voelkle",
-          "url": "https://doi.org/10.1037/met0000766",
-          "doi": "https://doi.org/10.1037/met0000766",
+          "title": "Dynamic measurement invariance cutoffs for two-group fit index differences.",
+          "authors": "Daniel McNeish",
+          "url": "https://doi.org/10.1037/met0000767",
+          "doi": "https://doi.org/10.1037/met0000767",
           "filter": 0
         },
         {
-          "title": "Improved estimation of autoregressive models through contextual impulses and robust modeling.",
-          "authors": "Janne K. Adolf, Eva Ceulemans",
-          "url": "https://doi.org/10.1037/met0000761",
-          "doi": "https://doi.org/10.1037/met0000761",
-          "filter": 0
-        },
-        {
-          "title": "Utilizing primary study quality in meta-analyses in psychology: A step-by-step tutorial.",
-          "authors": "Ronny Scherer, Valentin Emslander",
-          "url": "https://doi.org/10.1037/met0000751",
-          "doi": "https://doi.org/10.1037/met0000751",
+          "title": "Neural text embeddings in psychological research: A guide with examples in R.",
+          "authors": "Louis Teitelbaum, Almog Simchon",
+          "url": "https://doi.org/10.1037/met0000768",
+          "doi": "https://doi.org/10.1037/met0000768",
           "filter": 0
         }
       ],
       "articles_hidden": []
     },
     {
-      "journal_full": "Psychological Science",
-      "journal_short": "PsychSci",
+      "journal_full": "Psychology of Music",
+      "journal_short": "PsychMusic",
       "articles": [
         {
-          "title": "On the Robustness and Provenance of the Gambler’s Fallacy",
-          "authors": "Yang Xiang, Kevin Dorst, Samuel J. Gershman",
-          "abstract": "The gambler’s fallacy is typically defined as the false belief that a random event is less likely to occur if it has occurred recently. Although forms of this fallacy have been documented numerous times, past work either has not actually measured probabilistic predictions but rather point predictions or used sequences that were not independent. To address these problems, we conducted a series of high-powered, preregistered studies in which we asked 750 adult Amazon Mechanical Turk workers from the United States to report probabilistic predictions for truly independent sequences. In contrast to point predictions, which generated a significant gambler’s fallacy, probabilistic predictions were not found to lead to a gambler’s fallacy. Moreover, the point predictions could not be reconstructed by sampling from the probability judgments. This suggests that the gambler’s fallacy originates at the decision stage rather than in probabilistic reasoning, as posited by several leading theories. New theories of the gambler’s fallacy may be needed to explain these findings.",
-          "url": "https://doi.org/10.1177/09567976251344570",
-          "doi": "https://doi.org/10.1177/09567976251344570",
+          "title": "The first cut is the deepest: Exploring the importance of early musical experiences in the development of musical identities",
+          "authors": "Christian Ferlaino, Raymond MacDonald",
+          "abstract": "This article investigates the role of early experiences in shaping the musical identities of 15 individuals with a diverse range of self-reported musical skills, ranging from none to professional level. Participant interviews were recorded, transcribed, and analysed for emerging and superordinate themes. Topics covered in the interviews included participants’ relationship with music, significant early musical memories, and experiences with music-making (particularly early experiences). Twelve of the 15 participants also attended a series of music workshops in either Italy (Calabria) or Scotland (Glasgow). The workshops were focused on integrating both musically experienced and inexperienced participants in collaborative musical activities. Analysis revealed 13 emergent themes that were grouped into three superordinate themes: early exposure and family influence; experiences with music education; participation and playfulness. These themes highlight how participants’ early experiences of music are remembered in detail and represent important moments in the participants’ lives. Early listening experiences were reported as positive and linked with family memories. Early musical education experiences were often reported as negative leading to lifelong self-beliefs of being ‘unmusical’. Results suggest that positive experience with musical engagement can overcome the debilitating effects of early negative experience of music, highlighting musical identities as dynamic (amenable to change) and situated (context-dependent).",
+          "url": "https://doi.org/10.1177/03057356251336147",
+          "doi": "https://doi.org/10.1177/03057356251336147",
+          "filter": 0
+        },
+        {
+          "title": "Risks and protective factors for injury among musicians: The impact of motivation, self-efficacy and rumination",
+          "authors": "Roberta Antonini Philippe, Marine Tâche, Chloé Jaunin, Jean-François Arcier, Benjamin Caumeil",
+          "abstract": "Musical performances require significant physical effort and musculoskeletal injuries are an integral part of musicians’ careers. The physical strains of performances are often accompanied by psychological stresses that can accelerate the development of particular physical injuries. This study aimed to understand the protective or deleterious effects of motivation, self-efficacy and rumination. We conducted a cross-sectional study of data collected retrospectively from 121 musical artists. Participants completed sociodemographic, medical, and psychological questionnaires. The artists were divided into previously injured ( n = 66, 54.5%) and not previously injured ( n = 55, 45.5%) groups. Significant inter-group differences were found for age ( p &lt; .05), years of performing ( p &lt; .01), and hours of practising ( p &lt; .001). No differences were found for sex and total musical practice. Overall, 74.1% of the periods lost to injury lasted under 30 days. Almost all injuries (98.4%) involved the upper limbs or trunk, most frequently hands (15.3%) and wrists (15.3%). Muscles (39.7%) and tendons (26.5%) were the usual tissues damaged. The previously injured and not previously injured groups showed no differences regarding the dimensions of motivation ( p &gt; .05), self-efficacy ( p &gt; .05 ) or rumination. However, there were significant inter-group differences for the subdimensions of integrated motivation ( p &lt; .05), introjected motivation ( p &lt; .05), and the intrusiveness of repetitive negative thinking ( p &lt; .05). The present study’s epidemiological data highlighted the need to provide musicians with better support for their physical preparedness. Promoting more comprehensive care for this population and improving their biopsychosocial well-being could improve their ability to manage stress and injuries and implement effective coping strategies.",
+          "url": "https://doi.org/10.1177/03057356251344952",
+          "doi": "https://doi.org/10.1177/03057356251344952",
           "filter": 0
         }
       ],
@@ -276,10 +348,10 @@
           "filter": 0
         },
         {
-          "title": "Spontaneous narratives of adolescents about their perceived impact of social media use on their psychological well-being and mental health.",
-          "authors": "Hibai Lopez-Gonzalez, Adrien Faure-Carvallo, Cristina Colomé, Juan-José Boté-Vericad",
-          "url": "https://doi.org/10.1037/ppm0000609",
-          "doi": "https://doi.org/10.1037/ppm0000609",
+          "title": "Relatedness need frustration mediates the association between belongingness needs and problematic social media use in a nationally representative adult sample.",
+          "authors": "Ágnes Zsila, Bulcsu Bognár, Reza Shabahang",
+          "url": "https://doi.org/10.1037/ppm0000611",
+          "doi": "https://doi.org/10.1037/ppm0000611",
           "filter": 0
         }
       ],
