@@ -1,16 +1,16 @@
 {
-  "update": "2025-06-19",
+  "update": "2025-06-21",
   "content": [
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "The Israeli Face Database (IFD): A multi-ethnic database of faces with supporting social norming data",
-          "authors": "Maayan Trzewik, Mayan Navon, Tal Moran, Hadas Wardi, Adi Langer, Bat-Sheva Hadad, Carmel Sofer, Niv Reggev",
-          "abstract": "Human faces and their representations play a key role in social interactions. Consequently, face images are widely used as stimuli across psychological research. However, most available face databases primarily represent Western, predominantly White populations, raising concerns about the generalizability of findings derived from such nondiverse stimuli sets. The current work addresses this problem by introducing the Israeli Face Database (IFD), a novel database presenting face images of real individuals from an ethnically diverse population underrepresented in psychological research on face perception—people residing in Israel. The IFD features multiple highly controlled images per face identity, presenting several facial expressions. Additionally, we provide detailed demographic data on the face identities, expression validation data rated by Israeli participants, and social norming data rated by both Israeli and US-based participants. Validation data (Study 1) confirmed that the expression images in the IFD accurately convey their intended expressions. Norming data analysis (Study 2) revealed that judgments of IFD faces were broadly consistent across cultures, with notable variations in perceived typicality and perceived ethnic diversity. These results highlight the IFD’s strong psychometric properties and its ability to capture nuanced cultural and individual differences in face perception. We propose that the IFD can serve as a valuable tool for diversifying stimuli in social-psychological research.",
-          "url": "https://doi.org/10.3758/s13428-025-02723-1",
-          "doi": "https://doi.org/10.3758/s13428-025-02723-1",
+          "title": "Comparing perceptual judgments in large multimodal models and humans",
+          "authors": "Billy Dickson, Sahaj Singh Maini, Craig Sanders, Robert Nosofsky, Zoran Tiganj",
+          "abstract": "Cognitive scientists commonly collect participants' judgments regarding perceptual characteristics of stimuli to develop and evaluate models of attention, memory, learning, and decision-making. For instance, to model human responses in tasks of category learning and item recognition, researchers often collect perceptual judgments of images in order to embed the images in multidimensional feature spaces. This process is time-consuming and costly. Recent advancements in large multimodal models (LMMs) provide a potential alternative because such models can respond to prompts that include both text and images and could potentially replace human participants. To test whether the available LMMs can indeed be useful for this purpose, we evaluated their judgments on a dataset consisting of rock images that has been widely used by cognitive scientists. The dataset includes human perceptual judgments along 10 dimensions considered important for classifying rock images. Among the LMMs that we investigated, GPT-4o exhibited the strongest positive correlation with human responses and demonstrated promising alignment with the mean ratings from human participants, particularly for elementary dimensions such as lightness, chromaticity, shininess, and fine/coarse grain texture. However, its correlations with human ratings were lower for more abstract and rock-specific emergent dimensions such as organization and pegmatitic structure. Although there is room for further improvement, the model already appears to be approaching the level of consensus observed across human groups for the perceptual features examined here. Our study provides a benchmark for evaluating future LMMs on human perceptual judgment data.",
+          "url": "https://doi.org/10.3758/s13428-025-02728-w",
+          "doi": "https://doi.org/10.3758/s13428-025-02728-w",
           "filter": 0
         },
         {
@@ -18,6 +18,13 @@
           "authors": "Emmanuel Alcalá, Pablo Saavedra, Frida García-Rangel, Rodrigo Sosa, Víctor Reyes, Jonathan Buriticá",
           "url": "https://doi.org/10.3758/s13428-025-02720-4",
           "doi": "https://doi.org/10.3758/s13428-025-02720-4",
+          "filter": 0
+        },
+        {
+          "title": "Smartphone eye-tracking with deep learning: Data quality and field testing",
+          "authors": "Gancheng Zhu, Zehao Huang, Xiaoting Duan, Shuai Zhang, Rong Wang, Yongkai Li, Zhiguo Wang",
+          "url": "https://doi.org/10.3758/s13428-025-02718-y",
+          "doi": "https://doi.org/10.3758/s13428-025-02718-y",
           "filter": 0
         },
         {
@@ -29,10 +36,11 @@
           "filter": 0
         },
         {
-          "title": "My friend MIROSLAV: A hackable open-source hardware and software platform for high-throughput monitoring of rodent activity in the home cage",
-          "authors": "Davor Virag, Jan Homolak, Ivan Kodvanj, Ana-Marija Virag, Ana Babić Perhoč, Patrik Meglić, Petra Šoštarić Mužić, Ana Knezović, Jelena Osmanović Barilar, Mario Cifrek, Vladimir Trkulja, Melita Šalković-Petrišić",
-          "url": "https://doi.org/10.3758/s13428-025-02719-x",
-          "doi": "https://doi.org/10.3758/s13428-025-02719-x",
+          "title": "Recovering knot placements in Bayesian piecewise growth models with missing data",
+          "authors": "Ihnwhi Heo, Fan Jia, Sarah Depaoli",
+          "abstract": "Bayesian piecewise growth models (PGMs) are useful tools to capture nonlinear trends comprised of distinct developmental phases. An important parameter in Bayesian PGMs is the knot location – the time at which transitions arise between phases. While researchers can specify knot locations when they are known a priori, a more flexible approach is to estimate knot locations based on data. The Bayesian estimation of knot locations is largely affected by prior distributions and missing data; however, little is known about the impact of these two factors in recovering knot placements. In the current article, we conducted a Monte Carlo simulation study to examine the impact of different prior specifications and the presence of missing data on the recovery of knot placements in Bayesian PGMs. Simulation results indicated that in small sample sizes, knot location estimates were dictated by prior distributions. Even with larger sample sizes, the estimates remained sensitive to informative and inaccurate prior specifications. The presence of missing data complicated the recovery linked to certain priors. While negative consequences, such as bias in parameter estimates, were caused by a larger amount of missing data, this could be alleviated by informative and accurate priors. These findings emphasize the critical role and intertwined influence of prior distributions and missing data in reaching conclusions about changepoints. We present an illustrative example using real data with missing values to demonstrate the Bayesian estimation of knot locations under realistic scenarios. Recommendations for applied researchers are discussed.",
+          "url": "https://doi.org/10.3758/s13428-025-02716-0",
+          "doi": "https://doi.org/10.3758/s13428-025-02716-0",
           "filter": 0
         }
       ],
@@ -50,14 +58,7 @@
           "filter": 0
         },
         {
-          "title": "Enhancing user satisfaction in the reporting of online sexual harassment on social media: The role of anthropomorphic design in mitigating negative emotions and building trust",
-          "authors": "Yuying Tan, Sara Pabian, Heidi Vandebosch, Karolien Poels",
-          "url": "https://doi.org/10.1016/j.chb.2025.108733",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108733",
-          "filter": 0
-        },
-        {
-          "title": "Uncovering Vulnerability to Fraud and Scams among Adult Victims in Online and Offline Contexts: A Systematic Review",
+          "title": "Uncovering vulnerability to fraud and scams among adult victims in online and offline contexts: A systematic review",
           "authors": "Chiara Barbara Dadà, Laura Colautti, Alessia Rosi, Elena Cavallini, Alessandro Antonietti, Paola Iannello",
           "url": "https://doi.org/10.1016/j.chb.2025.108734",
           "doi": "https://doi.org/10.1016/j.chb.2025.108734",
@@ -86,17 +87,17 @@
       "journal_short": "JESP",
       "articles": [
         {
-          "title": "Testing the effects of political rhetoric towards muslims as a facilitator and barrier for intergroup contact",
-          "authors": "John Shayegh, Becky Choma",
-          "url": "https://doi.org/10.1016/j.jesp.2025.104780",
-          "doi": "https://doi.org/10.1016/j.jesp.2025.104780",
+          "title": "People overshoot when choosing resource pools",
+          "authors": "Christopher K. Hsee, Xilin Li, Ying Zeng",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104775",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104775",
           "filter": 0
         },
         {
-          "title": "Revisiting the effect of discrepant perceptual fluency on truth judgments",
-          "authors": "Semih C. Aktepe, Daniel W. Heck",
-          "url": "https://doi.org/10.1016/j.jesp.2025.104774",
-          "doi": "https://doi.org/10.1016/j.jesp.2025.104774",
+          "title": "Organizational norms and gender identity contexts shape when pronoun-sharing is perceived as disingenuous allyship: Evidence of a normative eclipsing effect",
+          "authors": "Izilda Pereira-Jorge, Kimberly E. Chaney, Flora Blanchette, Alexandra Garr-Schultz",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104782",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104782",
           "filter": 0
         },
         {
@@ -104,41 +105,6 @@
           "authors": "Rachel S. Rubinstein, Lee Jussim",
           "url": "https://doi.org/10.1016/j.jesp.2025.104779",
           "doi": "https://doi.org/10.1016/j.jesp.2025.104779",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Journal of Personality and Social Psychology",
-      "journal_short": "JPSP",
-      "articles": [
-        {
-          "title": "Within-person variability and couple synchrony in state relationship satisfaction: Testing predictors and implications.",
-          "authors": "Louisa Scheling, Cornelia Wrzus, Rebekka Weidmann, Robert Philip Burriss, Jenna Wünsche, Alexander Grob, Janina Larissa Bühler",
-          "url": "https://doi.org/10.1037/pspp0000559",
-          "doi": "https://doi.org/10.1037/pspp0000559",
-          "filter": 0
-        },
-        {
-          "title": "IQ, genes, and miscalibrated expectations.",
-          "authors": "Chris Dawson",
-          "url": "https://doi.org/10.1037/pspp0000567",
-          "doi": "https://doi.org/10.1037/pspp0000567",
-          "filter": 0
-        },
-        {
-          "title": "What explains personality change intervention effects?",
-          "authors": "Michael D. Krämer, Christopher J. Hopwood, Travis J. Miller, Wiebke Bleidorn",
-          "url": "https://doi.org/10.1037/pspp0000565",
-          "doi": "https://doi.org/10.1037/pspp0000565",
-          "filter": 0
-        },
-        {
-          "title": "Multimodal person evaluation: First impressions from faces, voices, and names.",
-          "authors": "Mila Mileva",
-          "url": "https://doi.org/10.1037/pspa0000454",
-          "doi": "https://doi.org/10.1037/pspa0000454",
           "filter": 0
         }
       ],
@@ -225,40 +191,13 @@
           "url": "https://doi.org/10.1177/01461672251344396",
           "doi": "https://doi.org/10.1177/01461672251344396",
           "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Psychological Bulletin",
-      "journal_short": "PsychBull",
-      "articles": [
-        {
-          "title": "Trust and subjective well-being across the lifespan: A multilevel meta-analysis of cross-sectional and longitudinal associations.",
-          "authors": "Shanshan Bi, Marlies Maes, Gonneke W. J. M. Stevens, Coriena de Heer, Jian-Bin Li, Yue Sun, Catrin Finkenauer",
-          "url": "https://doi.org/10.1037/bul0000480",
-          "doi": "https://doi.org/10.1037/bul0000480",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Psychological Methods",
-      "journal_short": "PM",
-      "articles": [
-        {
-          "title": "Dynamic measurement invariance cutoffs for two-group fit index differences.",
-          "authors": "Daniel McNeish",
-          "url": "https://doi.org/10.1037/met0000767",
-          "doi": "https://doi.org/10.1037/met0000767",
-          "filter": 0
         },
         {
-          "title": "Neural text embeddings in psychological research: A guide with examples in R.",
-          "authors": "Louis Teitelbaum, Almog Simchon",
-          "url": "https://doi.org/10.1037/met0000768",
-          "doi": "https://doi.org/10.1037/met0000768",
+          "title": "A Replication and Extension of Three Studies Investigating Escalation of Commitment and Regret Aversion",
+          "authors": "Nandita Dhanda, Ignazio Ziano, Kam Hoi Ching, Angela Kwun Lan Phuong, Yuen Ting Lo, Man Kin Yip, Bill Jiaxin Shi, Boley Cheng",
+          "abstract": "This article presents preregistered replications of three influential studies in the field of escalation of commitment and regret aversion. In Study 1, we found partial support for Staw’s (1976) article on the effects of personal responsibility and consequences on the escalation of commitment. Study 2 failed to replicate Zeelenberg et al. (1996) article examining the role of feedback on risk preferences. The extension of study 2 found a small correlation between the tendency to experience regret and risk preferences of participants in the Safe ONLY condition. In Study 3, we failed to replicate Wong and Kwong’s (2007) results that showed a causal effect of personal responsibility and regret possibility on the escalation of commitment. Moreover, study 3’s extension found no support for individual differences in neuroticism on the escalation of commitment. The impact of this replication on our understanding of decision-making processes and the factors that contribute to individuals’ commitment to their choices will be discussed.",
+          "url": "https://doi.org/10.1177/01461672251345021",
+          "doi": "https://doi.org/10.1177/01461672251345021",
           "filter": 0
         }
       ],
@@ -284,33 +223,19 @@
       "journal_short": "PsychMusic",
       "articles": [
         {
-          "title": "The first cut is the deepest: Exploring the importance of early musical experiences in the development of musical identities",
-          "authors": "Christian Ferlaino, Raymond MacDonald",
-          "abstract": "This article investigates the role of early experiences in shaping the musical identities of 15 individuals with a diverse range of self-reported musical skills, ranging from none to professional level. Participant interviews were recorded, transcribed, and analysed for emerging and superordinate themes. Topics covered in the interviews included participants’ relationship with music, significant early musical memories, and experiences with music-making (particularly early experiences). Twelve of the 15 participants also attended a series of music workshops in either Italy (Calabria) or Scotland (Glasgow). The workshops were focused on integrating both musically experienced and inexperienced participants in collaborative musical activities. Analysis revealed 13 emergent themes that were grouped into three superordinate themes: early exposure and family influence; experiences with music education; participation and playfulness. These themes highlight how participants’ early experiences of music are remembered in detail and represent important moments in the participants’ lives. Early listening experiences were reported as positive and linked with family memories. Early musical education experiences were often reported as negative leading to lifelong self-beliefs of being ‘unmusical’. Results suggest that positive experience with musical engagement can overcome the debilitating effects of early negative experience of music, highlighting musical identities as dynamic (amenable to change) and situated (context-dependent).",
-          "url": "https://doi.org/10.1177/03057356251336147",
-          "doi": "https://doi.org/10.1177/03057356251336147",
-          "filter": 0
-        },
-        {
           "title": "Risks and protective factors for injury among musicians: The impact of motivation, self-efficacy and rumination",
           "authors": "Roberta Antonini Philippe, Marine Tâche, Chloé Jaunin, Jean-François Arcier, Benjamin Caumeil",
           "abstract": "Musical performances require significant physical effort and musculoskeletal injuries are an integral part of musicians’ careers. The physical strains of performances are often accompanied by psychological stresses that can accelerate the development of particular physical injuries. This study aimed to understand the protective or deleterious effects of motivation, self-efficacy and rumination. We conducted a cross-sectional study of data collected retrospectively from 121 musical artists. Participants completed sociodemographic, medical, and psychological questionnaires. The artists were divided into previously injured ( n = 66, 54.5%) and not previously injured ( n = 55, 45.5%) groups. Significant inter-group differences were found for age ( p &lt; .05), years of performing ( p &lt; .01), and hours of practising ( p &lt; .001). No differences were found for sex and total musical practice. Overall, 74.1% of the periods lost to injury lasted under 30 days. Almost all injuries (98.4%) involved the upper limbs or trunk, most frequently hands (15.3%) and wrists (15.3%). Muscles (39.7%) and tendons (26.5%) were the usual tissues damaged. The previously injured and not previously injured groups showed no differences regarding the dimensions of motivation ( p &gt; .05), self-efficacy ( p &gt; .05 ) or rumination. However, there were significant inter-group differences for the subdimensions of integrated motivation ( p &lt; .05), introjected motivation ( p &lt; .05), and the intrusiveness of repetitive negative thinking ( p &lt; .05). The present study’s epidemiological data highlighted the need to provide musicians with better support for their physical preparedness. Promoting more comprehensive care for this population and improving their biopsychosocial well-being could improve their ability to manage stress and injuries and implement effective coping strategies.",
           "url": "https://doi.org/10.1177/03057356251344952",
           "doi": "https://doi.org/10.1177/03057356251344952",
           "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Psychology of Popular Media",
-      "journal_short": "PPM",
-      "articles": [
+        },
         {
-          "title": "Relatedness need frustration mediates the association between belongingness needs and problematic social media use in a nationally representative adult sample.",
-          "authors": "Ágnes Zsila, Bulcsu Bognár, Reza Shabahang",
-          "url": "https://doi.org/10.1037/ppm0000611",
-          "doi": "https://doi.org/10.1037/ppm0000611",
+          "title": "Feel flows: Language use patterns in the lyrics of Brian Wilson of the Beach Boys",
+          "authors": "Valeria A Pfeifer, Ava G Naffah, Matthias R Mehl",
+          "abstract": "Brian Wilson of The Beach Boys is considered one of the most prolific artists of the 20th century. At the same time, he is also known for his persisting struggles with mental health. Considering that most of his 60+-year career consists of published songs and lyrics, he makes an interesting case study to understand the dynamics of language use in relation to psychological experiences over the course of an individual’s life and career. We identified song lyrics for which he is credited as (co-)writer and analyzed their lyrics ( N = 250) using the Linguistic Inquiry and Word Count (LIWC) program. Considering features previously associated with mental health (I-talk, Emotional Tone, Analytic language and Cognitive Processes words) over time, we found that I-talk and Cognitive Processes showed an initial increase, followed by a plateau (in 1967), while Emotional Tone showed a cubic relationship with time, being sensitive to changes in Brian Wilson’s life. Analytic language was highly variable and did not show any patterns. Our data suggest that even carefully crafted language, such as song lyrics, can carry information about the writer’s mental health and that considering language use over the course of an individual’s lifespan can provide crucial insights into psychological processes.",
+          "url": "https://doi.org/10.1177/03057356251342808",
+          "doi": "https://doi.org/10.1177/03057356251342808",
           "filter": 0
         }
       ],
