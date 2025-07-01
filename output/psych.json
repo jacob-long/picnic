@@ -1,15 +1,32 @@
 {
-  "update": "2025-06-29",
+  "update": "2025-07-01",
   "content": [
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "Examining the tradeoffs of exposure control and collateral information with multidimensional forced-choice computerized adaptive testing",
-          "authors": "Naidan Tu, Sean Joo, Stephen Stark",
-          "url": "https://doi.org/10.3758/s13428-025-02712-4",
-          "doi": "https://doi.org/10.3758/s13428-025-02712-4",
+          "title": "PoTeC: A German naturalistic eye-tracking-while-reading corpus",
+          "authors": "Deborah N. Jakobi, Thomas Kern, David R. Reich, Patrick Haller, Lena A. Jäger",
+          "abstract": "The Po tsdam Te xtbook C orpus (PoTeC) is a naturalistic eye-tracking-while-reading corpus containing data from 75 participants reading 12 scientific texts. PoTeC is the first naturalistic eye-tracking-while-reading corpus that contains eye-movements from domain experts as well as novices in a within-participant manipulation: It is based on a 2 $$\\times $$ × 2 $$\\times $$ × 2 fully crossed factorial design, which includes the participants’ level of studies and the participants’ discipline of studies as between-subjects factors and the text domain as a within-subjects factor. The participants’ reading comprehension was assessed by a series of text comprehension questions and their domain knowledge was tested by text-independent background questions for each of the texts. The materials are annotated for a variety of linguistic features at different levels. We envision PoTeC to be used for a wide range of studies including but not limited to analyses of expert and non-expert reading strategies. The corpus and all the accompanying data at all stages of the preprocessing pipeline and all code used to preprocess the data is made available via GitHub: https://github.com/DiLi-Lab/PoTeC and OSF: https://osf.io/dn5hp/ . The data is furthermore integrated into the open-source package , which can be used in Python and R: https://github.com/aeye-lab/pymovements .",
+          "url": "https://doi.org/10.3758/s13428-024-02536-8",
+          "doi": "https://doi.org/10.3758/s13428-024-02536-8",
+          "filter": 0
+        },
+        {
+          "title": "The Pictures by Category and Similarity (PiCS) database: A multidimensional scaling database of 1200 images across 20 categories",
+          "authors": "Arryn Robbins, Michael C. Hout, Ashley Ercolino, Joseph Schmidt, Hayward J. Godwin, Justin MacDonald",
+          "abstract": "Visual similarity is an essential concept in vision science, and the methods used to quantify similarity have recently expanded in the areas of human-derived ratings and computer vision methodologies. Researchers who want to manipulate similarity between images (e.g., in a visual search, categorization, or memory task) often use the aforementioned methods, which require substantial, additional data collection prior to the primary task of interest. To alleviate this problem, we have developed an openly available database that uses multidimensional scaling (MDS) to model the similarity among 1200 items spread across 20 object categories, thereby allowing researchers to utilize similarity ratings within and between categories. In this article, we document the development of this database, including (1) collecting similarity ratings using the spatial arrangement method across two sites, (2) our computational approach with MDS, and (3) validation of the MDS space by comparing SpAM-derived distances to direct similarity ratings. The database and similarity data provided between items (and across categories) will be useful to researchers wanting to manipulate or control similarity in their studies.",
+          "url": "https://doi.org/10.3758/s13428-025-02732-0",
+          "doi": "https://doi.org/10.3758/s13428-025-02732-0",
+          "filter": 0
+        },
+        {
+          "title": "A Japanese LDA model for automatic clustering analysis of semantic verbal fluency tests",
+          "authors": "Masahiro Yoshihara, Yoshihiro Itaguchi",
+          "abstract": "In the semantic variant of verbal fluency tests (VFTs), clustering analysis has become popular for examining the semantic structure. While the computational psycholinguistics approach has recently drawn attention to increasing the reproducibility of clustering analysis, such an approach is not available in all languages. To make the computational approach available in the Japanese language, we constructed a Japanese latent Dirichlet allocation (LDA) model. Our LDA model enables researchers and clinicians to objectively quantify the associative relationships of words, thereby making it possible to automatically detect semantic clusters. We conducted the semantic VFT with healthy young Japanese adults to examine the validity of our LDA model. We performed clustering analyses using the computational approach with our LDA model and the conventional manual approach with human coders. The results showed that the LDA model identified semantic clusters, as did the human coders. In addition, we demonstrated for the first time that response intervals within a cluster were significantly shorter than those outside of clusters, regardless of the clustering approaches. This indicates that both approaches reflect a broadly accepted assumption that closer semantic relations require less processing time. However, LDA-based clustering produced, on average, larger clusters than human-based clustering did, indicating that the LDA model captured semantic relationships between words that human coders would not recognize. Taken together, the present results demonstrated the validity of our LDA model. We hope that our LDA model fosters the use of the computational linguistic approach in semantic VFTs with Japanese participants.",
+          "url": "https://doi.org/10.3758/s13428-025-02696-1",
+          "doi": "https://doi.org/10.3758/s13428-025-02696-1",
           "filter": 0
         },
         {
@@ -21,11 +38,11 @@
           "filter": 0
         },
         {
-          "title": "Simplified Chinese lexicon project: A lexical decision database with 8105 characters and 4864 pseudocharacters",
-          "authors": "Yixia Wang, Yanxue Wang, Qi Chen, Emmanuel Keuleers",
-          "abstract": "This paper presents the Simplified Chinese Lexicon Project (SCLP), which collects lexical decision data for all 8105 characters in the List of Commonly Used Standard Chinese Characters and for 4864 pseudocharacters, which were generated using a novel method that leveraged the hierarchical nature of Chinese characters. We compared the collected data to existing megastudies on Chinese characters, and found that the newly collected data performed similarly in terms of reliability. The comprehensive coverage of simplified Chinese characters in the present study added to the existing studies by allowing for a more fine-grained investigation of the effects of a variety of character attributes on visual processing. We illustrated these advantages by performing virtual experiments on visual complexity and on the interplay between neighborhood size and regularity. Our results indicated that characters with higher visual complexity were harder to recognize, in line with previous findings, while regular characters took longer to process when the neighborhood size was small. In addition, we present a new evaluation of the interaction between character frequency and subcomponent frequency, resulting in a three-way interaction among character frequency, radical frequency, and residual component frequency. Extending the investigation of subcomponent frequency to the analysis of pseudocharacters, we found that the interaction of radical frequency and residual component frequency also modulated pseudocharacter rejection. To support researchers in conducting behavioral experiments or statistical modeling, we provide both trial-level data and experiment materials.",
-          "url": "https://doi.org/10.3758/s13428-025-02701-7",
-          "doi": "https://doi.org/10.3758/s13428-025-02701-7",
+          "title": "Resolving anxiety-like behaviour inconsistencies in the elevated plus maze by tracking exploration depth and timing",
+          "authors": "Matthew D. Zelko, Stephen R. Robinson, Elisa L. Hill-Yardin, Helen Nasser",
+          "abstract": "The anxiety-like behaviour provoked by the elevated plus maze is primarily measured by the degree to which a rodent explores or avoids the risker, unenclosed arms. Measures such as arm entries and total time spent within the arm are conventionally used, but their analysis often produces inconsistent inferences about the level of anxiety-like behaviour being observed. This inconsistency occurs because the measures do not correlate with one another, raising the question of how validly they capture both the exploratory and avoidance motivations that typify anxiety-like behaviour. Given this inconsistency, we propose a new measure, Novel Exploration Growth, that captures avoidance and exploratory behaviours within the maze. The growth of novel exploration tracks the first visit to discrete areas of the maze over time. The absolute amount of novel exploration, combined with the phasic nature of the exploration, reveals behavioural phenotypes with both avoidance and exploration quantified in a single time series. By addressing both motivations evoked by the maze through a single coherent measure, we provide a superior estimation of anxiety-like behaviour and resolve inconsistencies that arise when applying conventional measures alone.",
+          "url": "https://doi.org/10.3758/s13428-025-02738-8",
+          "doi": "https://doi.org/10.3758/s13428-025-02738-8",
           "filter": 0
         }
       ],
@@ -47,13 +64,6 @@
           "authors": "Sebastian Scherr, Bolin Cao, Li Crystal Jiang, Tetsuro Kobayashi",
           "url": "https://doi.org/10.1016/j.chb.2025.108738",
           "doi": "https://doi.org/10.1016/j.chb.2025.108738",
-          "filter": 0
-        },
-        {
-          "title": "Does Algorithmic Recommendation Complement or Substitute Advertising and Influencers? Consumer Attitudes Toward Recommendation Information and the Formation of Purchase Intentions",
-          "authors": "Tetsuya Aoki, Ayako Matsui",
-          "url": "https://doi.org/10.1016/j.chb.2025.108735",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108735",
           "filter": 0
         },
         {
@@ -114,24 +124,10 @@
           "filter": 0
         },
         {
-          "title": "Observers (and transgressors) prefer creative punishments.",
-          "authors": "Timothy G. Kundro, Salvatore J. Affinito, Daniela Rodriguez-Mincey",
-          "url": "https://doi.org/10.1037/pspa0000457",
-          "doi": "https://doi.org/10.1037/pspa0000457",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Multivariate Behavioral Research",
-      "journal_short": "MBR",
-      "articles": [
-        {
-          "title": "Disaggregating Associations of Between-Person Differences in Change over Time from Within-Person Associations in Longitudinal Data",
-          "authors": "Lesa Hoffman",
-          "url": "https://doi.org/10.1080/00273171.2025.2519348",
-          "doi": "https://doi.org/10.1080/00273171.2025.2519348",
+          "title": "Development of life satisfaction in immigrant youth: The role of transition decisions and cultural identification.",
+          "authors": "Jürgen Baumert, Michael Becker, Malte Jansen, Gabriel Nagy, Olaf Köller",
+          "url": "https://doi.org/10.1037/pspp0000566",
+          "doi": "https://doi.org/10.1037/pspp0000566",
           "filter": 0
         }
       ],
@@ -173,25 +169,51 @@
           "filter": 0
         },
         {
+          "title": "Intergroup Competition, Group Members’ Narcissism, and Competitive Perceptions as Determinants of Group Creativity",
+          "authors": "Guihyun Park, Jose C. Yong, Beng-Chong Lim",
+          "abstract": "Mixed findings on the effects of intergroup competition on group creativity indicate the need for more sophisticated models that can accommodate individual differences in how people respond to competitive cues and contribute to group performance. This study examined group members’ narcissism, competitive perceptions, and discussion-facilitating behaviors as antecedents for the group creative process. A sample of 92 three-person groups ( N = 276 participants) was randomly assigned to either the low, medium, or high intergroup competition condition and tasked with developing a creative action plan. There was a curvilinear effect of narcissism on the relationship between intergroup competition and competitive perceptions, demonstrating narcissistic group members’ heightened sensitivity to competition. Also, narcissism strengthened the positive relationship between competitive perceptions and discussion-facilitating behavior. Finally, group members’ discussion-facilitating behavior led to greater group creativity through group idea elaboration. Overall, our findings suggest that narcissism amplifies the performance-facilitating effects of intergroup competition for group creativity.",
+          "url": "https://doi.org/10.1177/01461672251345514",
+          "doi": "https://doi.org/10.1177/01461672251345514",
+          "filter": 0
+        },
+        {
           "title": "Self-Regulation Via Visual Fixation: Effects of Strategic Shifting of Attentional Scope on Running Intensity",
           "authors": "Emily Balcetis, Jordan S. Daley, Corey Guenther, Matthew Riccio, Jason Kemp, Emmanuel Lapitan, Joshua Pesantes, Andrew Voigt, Yuanqi Gu, Shana Cole",
           "abstract": "Does the shifting of visual attention serve as a self-regulatory strategy by people persist through effortful tasks to complete goals? Across six studies ( n = 1,590) focusing on running goals, runners increasingly narrowed and decreasingly widened attention over time as they neared a goal (Studies 1, 2, and 4). Suggesting its effectiveness, narrowing rather than widening attention increased effort investment; runners experimentally assigned to narrow rather than widen attentional scope (Studies 3A and 3B) at the beginning rather than the end (Study 3C) ran faster paces (Studies 3A, 3B, and 3C) and invested more effort as indexed by heart rate (Study 3B). Better runners, including elite competitive runners (Study 1) and faster runners as indexed by self-reported pace (Study 2) and competition performance times (Study 4) tended to rely on attentional narrowing. We discuss the implications of attentional scope shifting as a general regulatory control strategy.",
           "url": "https://doi.org/10.1177/01461672251343392",
           "doi": "https://doi.org/10.1177/01461672251343392",
           "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Psychological Methods",
-      "journal_short": "PM",
-      "articles": [
+        },
         {
-          "title": "Moving from exploratory to confirmatory network analysis: An evaluation of structural equation modeling fit indices and cutoff values in network psychometrics.",
-          "authors": "Xinkai Du, Nora Skjerdingstad, René Freichel, Omid V. Ebrahimi, Ria H. A. Hoekstra, Sacha Epskamp",
-          "url": "https://doi.org/10.1037/met0000760",
-          "doi": "https://doi.org/10.1037/met0000760",
+          "title": "The Comparative Status Hypothesis: Inferences About Discrimination Vary Based on Identity Salience",
+          "authors": "Elizabeth A. Quinn-Jensen, Anh L. K. Tran, Sara E. Burke, Brenda Major, Zoe Liberman",
+          "abstract": "Past research examining when people label an outcome as discrimination has largely ignored contextual factors beyond the victim–perpetrator dyad. We contend that the person who benefits from the outcome—referred to here as competitor—also influences how likely someone is to be labeled a victim of discrimination. Specifically, we argue that because people hold multiple social identities, which vary in their perceived status, the identity of a target’s competitor can change how likely the same target is to be seen as a victim. In three studies, we show that White U.S. adults were more likely to infer that a target had faced discrimination when the target’s competitor highlighted a lower status aspect of the target’s identity. This pattern was seen for targets from multiple backgrounds, including Asian men, White women, and Asian women. These results highlight the importance of moving beyond the victim-perpetrator dyad when considering whether an outcome is seen as discrimination.",
+          "url": "https://doi.org/10.1177/01461672251347735",
+          "doi": "https://doi.org/10.1177/01461672251347735",
+          "filter": 0
+        },
+        {
+          "title": "A Multi-Goal, Multi-Action, Cognitive-Affective Model for Understanding Gatekeepers’ Intention to Report Deviant Close-Others",
+          "authors": "Minzheng Hou, Ariel Zhi Zhen Lee, Lile Jia",
+          "abstract": "Reporting a close-other to authorities can save lives from extreme deviant behaviors but it also poses a dilemma as gatekeepers struggle between their relationship and societal obligations. We propose and test a multi-goal, multi-action, cognitive-affective model to elucidate this decision-making process. Across various contexts (hate crimes, problem gambling, and violent extremism), gatekeepers’ motivational strength to report and not report their close-other and their anticipated regret toward both actions simultaneously contributed to the variance of reporting intentions (30–70%). Notably, a future time perspective increased reporting intentions by elevating the motivational strength of all societal obligations (e.g., concern for innocent others) and one relationship obligation (helping the close-other). Our findings suggest that a more balanced weighting underlies the multi-goal dynamic of dilemmatic decision-making, and that the reporting decision is a nuanced blend of concerns for both societal welfare and the well-being of loved ones. Theoretical and practical implications are discussed.",
+          "url": "https://doi.org/10.1177/01461672251346031",
+          "doi": "https://doi.org/10.1177/01461672251346031",
+          "filter": 0
+        },
+        {
+          "title": "Ideological favoritism and In-Group Favoritism: A Double Dissociation of U.S. Progressives and Conservatives",
+          "authors": "Johanna Woitzel, Alex Koch",
+          "abstract": "People appreciate others who seem similar to themselves. Two well-documented similarity-attraction effects are in-group favoritism (i.e., preference for in-groups over out-groups) and ideological favoritism (i.e., preference for the groups whose ideologies align [vs. conflict] with one’s own beliefs). There is debate about whether ideological favoritism is stronger among conservatives, progressives, or neither, and research has yet to explore ideological asymmetry in in-group favoritism. Across five studies ( N total = 6,631), we confirmed a double dissociation: ideological favoritism was stronger among U.S. progressives, whereas in-group favoritism was stronger among U.S. conservatives. This pattern was robust across different samples of perceivers and groups and across various measures of aligned ideological beliefs, shared group membership, and attitudes toward the groups (i.e., judgments and feelings). We discuss potential explanations for the double dissociation. Certain psychological differences between conservatives and progressives (e.g., community orientation and cosmopolitanism) may direct their attention to different markers of allegiance.",
+          "url": "https://doi.org/10.1177/01461672251345519",
+          "doi": "https://doi.org/10.1177/01461672251345519",
+          "filter": 0
+        },
+        {
+          "title": "Friends on the Other Side: Receptiveness to Opposing Views Predicts Formation of Politically Heterogeneous Relationships",
+          "authors": "Brian P. Reschke, Julia A. Minson, Hannah Riley Bowles, Mathijs de Vaan, Sameer B. Srivastava",
+          "abstract": "Growing evidence points to the corrosive influence of partisanship on society. We examine the relationship between “receptiveness to opposing views” (i.e., an individual difference in the willingness to engage with information from opposing perspectives) and the propensity to form positive and close collaborative relationships with ideologically opposed others. Across three studies varying in sampling and methodological approaches—a retrospective network study, a time-lagged field study, and an experiment—we find that individual and mutual receptiveness mitigate the negative influence of ideological opposition on relationship formation and willingness to collaborate. We find evidence that receptiveness is distinctively influential as compared to related personality characteristics (e.g., extraversion, self-monitoring, agreeableness, openness, and intellectual humility). These findings contribute to our understanding of how individual differences shape social network formation and collaboration across ideological divides.",
+          "url": "https://doi.org/10.1177/01461672251346066",
+          "doi": "https://doi.org/10.1177/01461672251346066",
           "filter": 0
         }
       ],
@@ -201,14 +223,6 @@
       "journal_full": "Psychological Science",
       "journal_short": "PsychSci",
       "articles": [
-        {
-          "title": "How Convincing Is a Crowd? Quantifying the Persuasiveness of a Consensus for Different Individuals and Types of Claims",
-          "authors": "Manikya Alister, Keith Ransom, Saoirse Connor Desai, Ee Von Soh, Brett Hayes, Andrew Perfors",
-          "abstract": "A powerful cue when reasoning is whether an apparent consensus has been reached. However, we do not yet know how the strength of this cue varies between different individuals and types of claims. In the current study ( N = 78 U.S. adults, recruited from Prolific), we evaluated this with a realistic mock social-media paradigm in which each participant evaluated 60 diverse, real-world claims based on posts from people who either disagreed with each other, formed a consensus independently, or formed a consensus using shared sources. Almost all participants revised their beliefs to align with the consensus; many also qualitatively changed their minds. A consensus was also more persuasive for claims more likely to have a ground truth (i.e., more knowable claims). Although most people were insensitive to consensus independence, some were more persuaded by a consensus formed independently, whereas some were equally convinced by a consensus formed using the same sources.",
-          "url": "https://doi.org/10.1177/09567976251344549",
-          "doi": "https://doi.org/10.1177/09567976251344549",
-          "filter": 0
-        },
         {
           "title": "Cognitive Abilities and Educational Attainment as Antecedents of Mental Disorders: A Total Population Study of Males",
           "authors": "Magnus Nordmo, Hans Fredrik Sunde, Thomas H. Kleppestø, Morten Nordmo, Avshalom Caspi, Terrie E. Moffitt, Fartein Ask Torvik",
@@ -248,17 +262,10 @@
       "journal_short": "PPM",
       "articles": [
         {
-          "title": "Inspiration for perspiration? Two experiments testing the psychological effects of fitspiration.",
-          "authors": "Kathrin Karsay, Marina F. Thomas, Jörg Matthes",
-          "url": "https://doi.org/10.1037/ppm0000605",
-          "doi": "https://doi.org/10.1037/ppm0000605",
-          "filter": 0
-        },
-        {
-          "title": "The relationships between video games and cognitive, motor, emotional, and social development across the lifespan: An umbrella review.",
-          "authors": "Kevin Rebecchi, Chloé Nguyen, Quentin Hallez, Anna Rita Galiano",
-          "url": "https://doi.org/10.1037/ppm0000612",
-          "doi": "https://doi.org/10.1037/ppm0000612",
+          "title": "From online to offline: Pathways from active social media use to proenvironmental behaviors through the lens of construal level theory.",
+          "authors": "Nan Zhang, Dajun Li",
+          "url": "https://doi.org/10.1037/ppm0000614",
+          "doi": "https://doi.org/10.1037/ppm0000614",
           "filter": 0
         },
         {
@@ -266,13 +273,6 @@
           "authors": "Jacqueline Nesi, Kaitlyn Burnell, Kara A. Fox, Emma Armstrong-Carter, Nathan H. Field, Maria T. Maza, Shedrick L. Garrett, Zelal Kilic, Elizabeth A. Nick, Margaret Nail, Yael Turk, Mitchell J. Prinstein, Eva H. Telzer",
           "url": "https://doi.org/10.1037/ppm0000601",
           "doi": "https://doi.org/10.1037/ppm0000601",
-          "filter": 0
-        },
-        {
-          "title": "The impact of acute and cumulative exposure to violent film on social cognition in university students.",
-          "authors": "Mary B. Ritchie, Carly T. Smith, Shannon A. H. Compton, Nathan Hostetler, Lindsay Oliver, Derek G. V. Mitchell",
-          "url": "https://doi.org/10.1037/ppm0000610",
-          "doi": "https://doi.org/10.1037/ppm0000610",
           "filter": 0
         }
       ],
