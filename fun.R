@@ -114,6 +114,19 @@ add_standard_filter <- function(data){
 # Helpers 
 ##########
 
+perform_with_retries <- function(req, max_attempts = 3, base_delay = 2) {
+  for (attempt in seq_len(max_attempts)) {
+    resp <- tryCatch(req_perform(req), error = function(e) e)
+    # If not error and not HTTP 429, return the response
+    if (!inherits(resp, "error") && (is.null(resp_status(resp)) || resp_status(resp) != 429)) {
+      return(resp)
+    }
+    # Exponential backoff
+    if (attempt < max_attempts) Sys.sleep(base_delay ^ attempt)
+  }
+  return(NULL) # return NULL if all attempts fail
+}
+
 render_json <- function(df,date){
 
     df <- split(df, df$journal_full)
@@ -313,25 +326,24 @@ get_all_osf_preprints <- function(provider, start_date = as.Date(Sys.time()) - 7
   base_url <- "https://api.osf.io/v2/preprints/"
   all_preprints <- data.frame()
   next_page_url <- NULL
-  
+
   while (nrow(all_preprints) < max_results) {
     query <- list(
       "filter[provider]" = provider,
       "filter[date_created][gte]" = as.character(start_date),
       "page[size]" = 100
     )
-    
+
+    # Use retry logic for main API request
     if (!is.null(next_page_url)) {
-      response <- request(next_page_url) %>%
-        req_perform()
+      response <- perform_with_retries(request(next_page_url))
     } else {
-      response <- request(base_url) %>%
-        req_url_query(!!!query) %>%
-        req_perform()
+      response <- perform_with_retries(request(base_url) %>% req_url_query(!!!query))
     }
-    
-    if (resp_is_error(response)) {
-      stop("Error in API request: ", resp_status_desc(response))
+    # If the response is NULL (all attempts failed), skip task
+    if (is.null(response)) {
+      warning("OSF API unavailable or rate limited; skipping preprint retrieval.")
+      return(all_preprints)
     }
     
     data <- resp_body_json(response)
@@ -339,7 +351,7 @@ get_all_osf_preprints <- function(provider, start_date = as.Date(Sys.time()) - 7
     preprints <- map_df(data$data, function(item) {
       # Get contributors
       contributors_url <- item$relationships$contributors$links$related$href
-      contributors_response <- safely(req_perform)(request(contributors_url))
+      contributors_response <- safely(function(req) perform_with_retries(req))(request(contributors_url))
       
       authors <- if (!is.null(contributors_response$result)) {
         contributors_data <- resp_body_json(contributors_response$result)
