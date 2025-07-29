@@ -1,5 +1,5 @@
 {
-  "update": "2025-07-28",
+  "update": "2025-07-29",
   "content": [
     {
       "journal_full": "American Political Science Review",
@@ -25,16 +25,23 @@
       "articles_hidden": []
     },
     {
+      "journal_full": "British Journal of Political Science",
+      "journal_short": "BJPOL",
+      "articles": [],
+      "articles_hidden": [
+        {
+          "title": "Do Citizens Stereotype Muslims as an Illiberal Bogeyman ? Evidence from a Double-List Experiment – ERRATUM",
+          "authors": "Stuart J. Turnbull-Dugarte, Alberto López Ortega, Michael Hunklinger",
+          "url": "https://doi.org/10.1017/s0007123425100689",
+          "doi": "https://doi.org/10.1017/s0007123425100689",
+          "filter": 1
+        }
+      ]
+    },
+    {
       "journal_full": "Electoral Studies",
       "journal_short": "ElectStud",
       "articles": [
-        {
-          "title": "Do the rich ditch politics? Evidence from Sweden",
-          "authors": "Anton Brännlund, Rafael Ahlskog",
-          "url": "https://doi.org/10.1016/j.electstud.2025.102966",
-          "doi": "https://doi.org/10.1016/j.electstud.2025.102966",
-          "filter": 0
-        },
         {
           "title": "How nuclear power hurts the Greens: Evidence from German nuclear power plants",
           "authors": "António Valentim, Heike Klüver, Cornelius Erfort",
@@ -47,6 +54,13 @@
           "authors": "Masaaki Higashijima, Naoki Shimizu, Hidekuni Washida, Yuki Yanai",
           "url": "https://doi.org/10.1016/j.electstud.2025.102964",
           "doi": "https://doi.org/10.1016/j.electstud.2025.102964",
+          "filter": 0
+        },
+        {
+          "title": "Not just who, but how: Further probing the connection between primary election dissatisfaction and general election voting behavior",
+          "authors": "Elizabeth N. Simas, Lucas Lothamer",
+          "url": "https://doi.org/10.1016/j.electstud.2025.102969",
+          "doi": "https://doi.org/10.1016/j.electstud.2025.102969",
           "filter": 0
         }
       ],
@@ -68,37 +82,15 @@
       "articles_hidden": []
     },
     {
-      "journal_full": "Political Analysis",
-      "journal_short": "PA",
-      "articles": [
-        {
-          "title": "Estimating the Local Average Treatment Effect Without the Exclusion Restriction",
-          "authors": "Zachary Markovich",
-          "abstract": "Existing approaches to conducting inference about the Local Average Treatment Effect or LATE require assumptions that are considered tenuous in many applied settings. In particular, Instrumental Variable techniques require monotonicity and the exclusion restriction while principal score methods rest on some form of the principal ignorability assumption. This paper provides new results showing that an estimator within the class of principal score methods allows conservative inference about the LATE without invoking such assumptions. I term this estimator the Compliance Probability Weighting estimator and show that, under very mild assumptions, it provides an asymptotically conservative estimator for the LATE. I apply this estimator to a recent survey experiment and provide evidence of a stronger effect for the subset of compliers than the original authors had uncovered.",
-          "url": "https://doi.org/10.1017/pan.2025.10005",
-          "doi": "https://doi.org/10.1017/pan.2025.10005",
-          "filter": 0
-        },
-        {
-          "title": "Balancing Precision and Retention in Experimental Design",
-          "authors": "Gustavo Diaz, Erin Rossiter",
-          "abstract": "In experimental social science, precise treatment effect estimation is of utmost importance, and researchers can make design choices to increase precision. Specifically, block-randomized and pre-post designs are promoted as effective means to increase precision. However, implementing these designs requires pre-treatment covariates, and collecting this information may decrease sample sizes, which in and of itself harms precision. Therefore, despite the literature’s recommendation to use block-randomized and pre-post designs, it remains unclear when to expect these designs to increase precision in applied settings. We use real-world data to demonstrate a counterintuitive result: precision gains from block-randomized or pre-post designs can withstand significant sample loss that may arise during implementation. Our findings underscore the importance of incorporating researchers’ practical concerns into existing experimental design advice.",
-          "url": "https://doi.org/10.1017/pan.2025.10008",
-          "doi": "https://doi.org/10.1017/pan.2025.10008",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
       "journal_full": "Political Behavior",
       "journal_short": "PolBehav",
       "articles": [
         {
-          "title": "“How Colleges Can Increase Civic Engagement”",
-          "authors": "Tali Mendelberg, Claire Willeck",
-          "url": "https://doi.org/10.1007/s11109-025-10048-0",
-          "doi": "https://doi.org/10.1007/s11109-025-10048-0",
+          "title": "A Waste of Time? Partisan Deliberative Bias as a Barrier to Political Crosstalk",
+          "authors": "Bryan McLaughlin, Nathaniel Geiger, Pedro H. P. Rocha",
+          "abstract": "Americans are increasingly unwilling to talk about politics with out-partisans. One potential barrier to such cross-cutting partisan conversations may be partisans’ tendency to stereotype out-partisans as lacking the deliberative traits necessary to have a productive conversation (i.e., partisan deliberative bias ). Here, three studies examine the presence of partisan deliberative bias, its relationship to cross-cutting political talk, and potential pathways to reducing partisan deliberative bias. Study 1 (two-wave panel; Wave-2 N = 695) provides evidence that partisans perceive out-partisans possess less deliberative traits than in-partisans and these perceptions are related to reduced cross-cutting political talk (at Time 2). Study 2 (experimental; N = 417) provides evidence that exposing individuals to more examples of out-partisans who display deliberative traits (vs. anti-deliberative traits) leads to increased perceptions that out-partisans possess deliberative traits, which is associated with greater willingness to engage in a political conversation. Study 3 (experimental; N = 825) provides evidence that a deliberative bias-correcting intervention can reduce stereotypes about out-party members’ deliberative traits. Further, findings from an alternative model that includes in-group favoritism suggest that perceptions of deliberative traits are significantly related to cross-cutting political talk even when accounting for affective polarization. Findings across all three studies are similar for Republican and Democratic participants. Taken holistically, these results highlight the prevalence of partisan deliberative bias, suggest that such bias reduces cross-cutting conversations, and provide preliminary evidence for the effectiveness of interventions to address this bias.",
+          "url": "https://doi.org/10.1007/s11109-025-10068-w",
+          "doi": "https://doi.org/10.1007/s11109-025-10068-w",
           "filter": 0
         }
       ],
@@ -113,6 +105,21 @@
           "authors": "M. Beatrice Fazi, Sam Kinsley, Elke Schwarz, Gillian Rose, Olivia Mason",
           "url": "https://doi.org/10.1016/j.polgeo.2025.103392",
           "doi": "https://doi.org/10.1016/j.polgeo.2025.103392",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Political Psychology",
+      "journal_short": "PolPsyc",
+      "articles": [
+        {
+          "title": "Out‐party, out of luck: Partisan biases in public support for due process in corruption investigations",
+          "authors": "Pedro C. Magalhães, Luís de Sousa, Nuno Garoupa, Rui Costa‐Lopes",
+          "abstract": "This study examines how public support for due process in corruption investigations is affected by partisan biases. Using a survey experiment conducted with a representative sample of Portuguese voters, it finds that voters' support for legally enshrined due process rights is conditional on their partisan alignment with the corruption suspects. Specifically, respondents exhibit greater support for due process protections for in‐party than for out‐party suspects, with out‐party derogation prevailing. By focusing on public attitudes towards legal fairness and horizontal accountability, these results expand our understanding of the role of partisan loyalties in accountability for corruption beyond their better‐known role in electoral processes.",
+          "url": "https://doi.org/10.1111/pops.70063",
+          "doi": "https://doi.org/10.1111/pops.70063",
           "filter": 0
         }
       ],
@@ -187,15 +194,7 @@
           "filter": 0
         }
       ],
-      "articles_hidden": [
-        {
-          "title": "Erratum",
-          "authors": "Zhenhuan Lei, Junlong Aaron Zhou",
-          "url": "https://doi.org/10.1086/737344",
-          "doi": "https://doi.org/10.1086/737344",
-          "filter": 1
-        }
-      ]
+      "articles_hidden": []
     }
   ]
 }
