@@ -1,26 +1,10 @@
 {
-  "update": "2025-07-28",
+  "update": "2025-07-29",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
       "journal_short": "AMPPS",
       "articles": [
-        {
-          "title": "Bridging Traditional-Statistics and Machine-Learning Approaches in Psychology: Navigating Small Samples, Measurement Error, Nonindependent Observations, and Missing Data",
-          "authors": "Rosa Lavelle-Hill, Gavin Smith, Kou Murayama",
-          "abstract": "In recent years, machine learning has propagated into different aspects of psychological research, and supervised machine-learning methods have increasingly been used as a tool for predicting human behavior or psychological characteristics when there is a large number of possible predictors. However, researchers often face practical challenges when using machine-learning methods on psychological data. In this article, we identify and discuss four key challenges that often arise when applying machine learning to data collected for psychological research. The four challenge areas cover (a) limited sample size, (b) measurement error, (c) nonindependent data, and (d) missing data. Such challenges are extensively discussed in the “traditional” statistical literature but are often not explicitly addressed, or at least not to the same extent, in the applied-machine-learning community. We present how each of these challenges is dealt with first from a traditional-statistics perspective and then from a machine-learning perspective and discuss the strengths and weaknesses of these solutions by comparing the approaches. We argue that the boundary between traditional statistics and machine learning is fluid and emphasize the need for cross-disciplinary collaboration to better tackle these core challenges and improve replicability.",
-          "url": "https://doi.org/10.1177/25152459251345696",
-          "doi": "https://doi.org/10.1177/25152459251345696",
-          "filter": 0
-        },
-        {
-          "title": "Large Language Models for Psychological Assessment: A Comprehensive Overview",
-          "authors": "Jocelyn Brickman, Mehak Gupta, Joshua R. Oltmanns",
-          "abstract": "Large language models (LLMs) are extraordinary tools demonstrating potential to improve the understanding of psychological characteristics. They provide an unprecedented opportunity to supplement self-report in psychology research and practice with scalable behavioral assessment. However, they also pose unique risks and challenges. In this article, we provide an overview and guide for psychological scientists to evaluate LLMs for psychological assessment. In the first section, we briefly review the development of transformer-based LLMs and discuss their advances in natural language processing. In the second section, we describe the experimental design process, including techniques for language data collection, audio processing and transcription, text preprocessing, and model selection, and analytic matters, such as model output, model evaluation, hyperparameter tuning, model visualization, and topic modeling. At each stage, we describe options, important decisions, and resources for further in-depth learning and provide examples from different areas of psychology. In the final section, we discuss important broader ethical and implementation issues and future directions for researchers using this methodology. The reader will develop an understanding of essential ideas and an ability to navigate the process of using LLMs for psychological assessment.",
-          "url": "https://doi.org/10.1177/25152459251343582",
-          "doi": "https://doi.org/10.1177/25152459251343582",
-          "filter": 0
-        },
         {
           "title": "From Embeddings to Explainability: A Tutorial on Large-Language-Model-Based Text Analysis for Behavioral Scientists",
           "authors": "Rudolf Debelak, Timo K. Koch, Matthias Aßenmacher, Clemens Stachl",
@@ -45,6 +29,14 @@
           "filter": 0
         },
         {
+          "title": "Bayesian sample size determination for longitudinal intervention studies with linear and log-linear growth",
+          "authors": "Ulrich Lösener, Mirjam Moerbeek",
+          "abstract": "A priori sample size determination (SSD) is essential for designing cost-efficient trials and in avoiding underpowered studies. In addition, reporting a solid justification for a certain sample size is required by most ethics committees and many funding agencies. Often, SSD is based on null hypothesis significance testing (NHST), an approach that has received severe criticism in the past decades. As an alternative, Bayesian hypothesis evaluation using Bayes factors has been developed. Bayes factors quantify the relative support in the data for a pair of competing hypotheses without suffering from some of the drawbacks of NHST. SSD for Bayesian hypothesis testing relies on simulations and has only been studied recently. Available software for this is limited to simple models such as ANOVA and the t  test, in which observations are assumed to be independent from each other. However, this assumption is rendered untenable in longitudinal experiments where observations are nested within individuals. In that case, a multilevel model should be used. This paper provides researchers with a valuable tool for performing SSD for multilevel models with longitudinal data in a Bayesian framework, along with the necessary theoretical background and concrete empirical examples. The open-source R function that enables researchers to tailor the simulation to their trial at hand can be found on the GitHub page of the first author.",
+          "url": "https://doi.org/10.3758/s13428-025-02749-5",
+          "doi": "https://doi.org/10.3758/s13428-025-02749-5",
+          "filter": 0
+        },
+        {
           "title": "Watching movies in VR: A research ecosystem for the study of screen media effects",
           "authors": "Faith A. Delle, Gary Bente, Nolan Jahn, Juncheng Wu",
           "abstract": "We introduce a virtual reality (VR) research ecosystem for the study of screen media effects and present a study providing evidence for its usability and validity. The study tested whether responses to affect-laden films presented on a standard TV within a physical space can be replicated in a virtual environment. The virtual setting was developed using Vizard 7.0, an open-access and customizable solution for media research. Using a between-subjects design, 70 participants were randomly assigned to either a TV or VR condition. Both groups were exposed to the same set of nine movie clips, encompassing three emotional categories (scary, funny, sad). While participants in the TV condition watched the clips on a physical 65″ TV, participants in the VR condition watched the clips on a virtual screen in the VR living room using a Meta Quest 2 VR headset. Continuous ratings of perceived emotional intensity and physiological measures of arousal (skin conductance level, heart rate, pulse volume amplitude) served as dependent variables. Overall, results confirmed the convergent validity between the two experimental conditions, revealing high correlations for all process variables across all stimuli. Results also demonstrated distinct responses to the clips of different emotional tones that were consistent across the experimental conditions. The findings encourage the use of VR for the study of screen media effects, demonstrating convergent validity with real-world scenarios while offering significant advantages, such as standardization and portability of the experimental setup as well as high levels of experimental control over reception setting variables.",
@@ -53,19 +45,19 @@
           "filter": 0
         },
         {
-          "title": "A novel method for modeling tonic and phasic pupil dynamics in humans",
-          "authors": "Matthias Mittner, Josephine Maria Groot",
-          "abstract": "The human pupil is a widely used physiological metric in psychology and neuroscience. Changes in pupil diameter (PD) are thought to reflect changes in locus coeruleus-norepinephrine (LC/NE) activity, which is associated with cognitive and behavioral optimization. Here, we present a novel algorithm to decompose the pupil signal into its tonic and phasic components. We evaluate the utility and validity of the algorithms using both artificially generated data and an existing dataset from a fast-paced finger-tapping task. Results show that the novel algorithm outperforms traditional approaches on simulated data. We further demonstrate that our algorithm provides more conclusive evidence for relationships between mind wandering reports and pupil predictors compared to traditional window-averaging. Finally, we demonstrate that the novel and traditional estimates contain distinct information regarding neuroimaging correlates and task performance.",
-          "url": "https://doi.org/10.3758/s13428-025-02755-7",
-          "doi": "https://doi.org/10.3758/s13428-025-02755-7",
-          "filter": 0
-        },
-        {
           "title": "A sharing practices review of the visual search and eye movements literature reveals recommendations for our field and others",
           "authors": "Hayward J. Godwin, Haden Dewis, Peter T. Darch, Michael C. Hout, Daniel Ernst, Philippa Broadbent, Megan Papesh, Jeremy M. Wolfe",
           "abstract": "The sharing of research outputs is an important endeavor, one that is increasingly required by funders and publishers alike. Here, we catalogued and examined data sharing practices, using our own field of visual search and eye movement behavior as an example. To find outputs from scientific research, we conducted two searches: a Literature Search and a repository search. Overall, we found that researchers in our field generally shared outputs that enabled others to analytically reproduce published results. It was rare for researchers to share outputs that enabled direct replications of their work, and it was also rare for researchers to share raw data that would enable secondary data analyses. Comparing the results of our two searches of the literature, we found that a lack of metadata substantially reduced the rates at which outputs could be found and used. Based on our findings, we present a set of recommendations summarized in our ‘Find It – Access It – Reuse It’ scorecard. The scorecard is intended to assist researchers in sharing outputs in a manner that will enable others to better find, access, and understand them – and this includes researchers in other fields beyond our own.",
           "url": "https://doi.org/10.3758/s13428-025-02759-3",
           "doi": "https://doi.org/10.3758/s13428-025-02759-3",
+          "filter": 0
+        },
+        {
+          "title": "A novel method for modeling tonic and phasic pupil dynamics in humans",
+          "authors": "Matthias Mittner, Josephine Maria Groot",
+          "abstract": "The human pupil is a widely used physiological metric in psychology and neuroscience. Changes in pupil diameter (PD) are thought to reflect changes in locus coeruleus-norepinephrine (LC/NE) activity, which is associated with cognitive and behavioral optimization. Here, we present a novel algorithm to decompose the pupil signal into its tonic and phasic components. We evaluate the utility and validity of the algorithms using both artificially generated data and an existing dataset from a fast-paced finger-tapping task. Results show that the novel algorithm outperforms traditional approaches on simulated data. We further demonstrate that our algorithm provides more conclusive evidence for relationships between mind wandering reports and pupil predictors compared to traditional window-averaging. Finally, we demonstrate that the novel and traditional estimates contain distinct information regarding neuroimaging correlates and task performance.",
+          "url": "https://doi.org/10.3758/s13428-025-02755-7",
+          "doi": "https://doi.org/10.3758/s13428-025-02755-7",
           "filter": 0
         },
         {
@@ -103,13 +95,6 @@
           "url": "https://doi.org/10.1016/j.chb.2025.108758",
           "doi": "https://doi.org/10.1016/j.chb.2025.108758",
           "filter": 0
-        },
-        {
-          "title": "Virtual or human influencers as endorsers? Behavioral and EEG evidence of how influencer type affects purchase intention of new products",
-          "authors": "Qingxi Yao, Yunli Liu, Bin Hu, Jia Jin",
-          "url": "https://doi.org/10.1016/j.chb.2025.108754",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108754",
-          "filter": 0
         }
       ],
       "articles_hidden": []
@@ -118,6 +103,13 @@
       "journal_full": "Journal of Experimental Social Psychology",
       "journal_short": "JESP",
       "articles": [
+        {
+          "title": "Using two-sided messages to facilitate misinformation correction for strongly held beliefs",
+          "authors": "Mengran Xu, Richard E. Petty",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104807",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104807",
+          "filter": 0
+        },
         {
           "title": "Face perception in context: Allocentric distance in perceptions of facial gender",
           "authors": "Spencer Dobbs, Lindsay Goolsby, Wesley Mysinger, Max Weisbuch",
@@ -130,13 +122,6 @@
           "authors": "Johannes Michael Lautenbacher, Immo Fritsche, Tina-Marie Hoke, Wanda Eckert",
           "url": "https://doi.org/10.1016/j.jesp.2025.104803",
           "doi": "https://doi.org/10.1016/j.jesp.2025.104803",
-          "filter": 0
-        },
-        {
-          "title": "Group and personal rejection are similarly linked to extreme intergroup attitudes",
-          "authors": "Luis Marcos-Vidal, Boryana Todorova, Scott Atran, Clara Pretus",
-          "url": "https://doi.org/10.1016/j.jesp.2025.104788",
-          "doi": "https://doi.org/10.1016/j.jesp.2025.104788",
           "filter": 0
         }
       ],
@@ -161,19 +146,13 @@
           "url": "https://doi.org/10.1177/01461672251352895",
           "doi": "https://doi.org/10.1177/01461672251352895",
           "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Psychological Methods",
-      "journal_short": "PM",
-      "articles": [
+        },
         {
-          "title": "Robust detection of signed outliers in multivariate data with applications to early identification of risk for autism.",
-          "authors": "Jesus E. Delgado, Jed T. Elison, Nathaniel E. Helwig",
-          "url": "https://doi.org/10.1037/met0000775",
-          "doi": "https://doi.org/10.1037/met0000775",
+          "title": "Threat Perceptions and Closeness to Refugees: A Three-Wave Longitudinal Study",
+          "authors": "Zafer Özkan, Małgorzata Kossowska, Ewa Szumowska, Jolanta Perek-Białas, Paulina Szwed",
+          "abstract": "This study examines the longitudinal interplay between individuals’ perceptions of two types of intergroup threats—realistic and symbolic—and their feelings of closeness toward Ukrainian war refugees, using a three-wave design and a random intercept cross-lagged panel model. By disentangling within-person dynamics from between-person effects, the findings reveal that stronger-than-usual feelings of closeness predicted reduced perceptions of both realistic and symbolic threats over time. Conversely, heightened perceptions of realistic threat significantly undermine feelings of closeness, whereas symbolic threat demonstrates no substantial influence on subsequent closeness. These results underscore the centrality of realistic threats, reflecting concerns such as economic competition and resource allocation strains, in shaping intergroup attitudes in the studied context. By distinguishing between within- and between-person variances, and adopting a longitudinal framework, this study provides novel insights into the mechanisms underlying intergroup relations, offering a robust empirical contribution to the field.",
+          "url": "https://doi.org/10.1177/01461672251352899",
+          "doi": "https://doi.org/10.1177/01461672251352899",
           "filter": 0
         }
       ],
@@ -220,6 +199,27 @@
           "abstract": "This scoping review addresses empirical work on pedagogical approaches to promoting self-regulated learning (SRL) in musical instrument learning. This work sought to investigate (1) the types of approaches that were considered by studies to be SRL promoters, (2) how they were applied, and (3) the effects of each type of approach on student learning and performance. Following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses for Scoping Reviews (PRISMA-ScR), we searched four databases and 30 specialised journals. This process returned 934 records. After analysing these records, we selected 17 studies that met our inclusion criteria. The results show a variety of pedagogical approaches to developing SRL skills. Teaching practices ranged from self-regulation instructions to tools such as practice journals and digital tools (e.g., electronic portfolios, software applications). Most of the selected studies demonstrated the beneficial effect of SRL teaching approaches on students’ outcomes. Thus, the findings suggest that both pedagogical approaches (self-regulation instruction and tools) can foster SRL. Furthermore, the findings indicate a gap in research on self-regulation pedagogical approaches in different contexts beyond face-to-face teaching, including online and hybrid environments. In addition, the effects of long-term interventions utilising these approaches on students’ learning remain underexplored.",
           "url": "https://doi.org/10.1177/03057356251348414",
           "doi": "https://doi.org/10.1177/03057356251348414",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Psychology of Popular Media",
+      "journal_short": "PPM",
+      "articles": [
+        {
+          "title": "A cognitive behavioral therapy-based microintervention to reduce the negative impact of Instagram use on well-being: A randomized controlled trial.",
+          "authors": "Zoe Herriman, Rachel M. Roberts, Amanda M. Taylor, Amy Slater",
+          "url": "https://doi.org/10.1037/ppm0000619",
+          "doi": "https://doi.org/10.1037/ppm0000619",
+          "filter": 0
+        },
+        {
+          "title": "Social media addiction moderates links between perceptions of freedom and mental health in the United States and Germany.",
+          "authors": "Cameron J. Bunker, Jürgen Margraf, Julia Brailovskaia",
+          "url": "https://doi.org/10.1037/ppm0000618",
+          "doi": "https://doi.org/10.1037/ppm0000618",
           "filter": 0
         }
       ],
