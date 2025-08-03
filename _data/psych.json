@@ -1,5 +1,5 @@
 {
-  "update": "2025-08-02",
+  "update": "2025-08-03",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -29,13 +29,6 @@
           "filter": 0
         },
         {
-          "title": "Right-sizing growth mixture models as multi-group growth and confirmatory factor models",
-          "authors": "Phillip K. Wood, Wolfgang Wiedermann, Douglas Steinley",
-          "url": "https://doi.org/10.3758/s13428-025-02722-2",
-          "doi": "https://doi.org/10.3758/s13428-025-02722-2",
-          "filter": 0
-        },
-        {
           "title": "When is enough enough? Empirical guidelines to determine participant sample size for scene viewing studies",
           "authors": "Alex J. Hoogerbrugge, Ignace T. C. Hooge, Roy S. Hessels, Christoph Strauch",
           "abstract": "Eye tracking is widely used to study where spatial attention is allocated across stimuli. However, determining a sufficient and efficient number of participants for such studies remains a challenge. While clear guidelines have been established for many classical statistical tests, no straightforward participant sample size guidelines exist for the comparison of gaze distribution maps and area-of-interest analyses – two of the most prominent analyses in scene viewing studies. Just how many participants should be included for reliable and reproducible gaze estimations? We here utilized gaze data to a single static image, viewed by 1248 individuals (dataset 1), and gaze data to 200+ images, viewed by 84 participants each (dataset 2). Researchers can assess which of these datasets and analysis types most resemble their setup and determine their sample size accordingly. Although we cannot provide a one-size-fits-all sample size recommendation, we show progressively diminishing returns for a range of sample sizes and for two typical study types. For example, when using Normalized Saliency Score as a metric of distribution map similarity, a 5% relative increase requires increases in sample size from 13 $$\\rightarrow $$ → 20 $$\\rightarrow $$ → 34 participants (based on dataset 1) or from 10 $$\\rightarrow $$ → 16 $$\\rightarrow $$ → 32 participants (based on dataset 2). Alternatively, when analyzing the number of visits to certain areas of interest, a 25% decrease in outcome variance requires increases in sample size from 13 $$\\rightarrow $$ → 24 $$\\rightarrow $$ → 44. We provide easy-to-use guidelines and reference tables to determine scene viewing participant sample size for academics and industry professionals alike.",
@@ -44,11 +37,10 @@
           "filter": 0
         },
         {
-          "title": "Bayesian sample size determination for longitudinal intervention studies with linear and log-linear growth",
-          "authors": "Ulrich Lösener, Mirjam Moerbeek",
-          "abstract": "A priori sample size determination (SSD) is essential for designing cost-efficient trials and in avoiding underpowered studies. In addition, reporting a solid justification for a certain sample size is required by most ethics committees and many funding agencies. Often, SSD is based on null hypothesis significance testing (NHST), an approach that has received severe criticism in the past decades. As an alternative, Bayesian hypothesis evaluation using Bayes factors has been developed. Bayes factors quantify the relative support in the data for a pair of competing hypotheses without suffering from some of the drawbacks of NHST. SSD for Bayesian hypothesis testing relies on simulations and has only been studied recently. Available software for this is limited to simple models such as ANOVA and the t  test, in which observations are assumed to be independent from each other. However, this assumption is rendered untenable in longitudinal experiments where observations are nested within individuals. In that case, a multilevel model should be used. This paper provides researchers with a valuable tool for performing SSD for multilevel models with longitudinal data in a Bayesian framework, along with the necessary theoretical background and concrete empirical examples. The open-source R function that enables researchers to tailor the simulation to their trial at hand can be found on the GitHub page of the first author.",
-          "url": "https://doi.org/10.3758/s13428-025-02749-5",
-          "doi": "https://doi.org/10.3758/s13428-025-02749-5",
+          "title": "Right-sizing growth mixture models as multi-group growth and confirmatory factor models",
+          "authors": "Phillip K. Wood, Wolfgang Wiedermann, Douglas Steinley",
+          "url": "https://doi.org/10.3758/s13428-025-02722-2",
+          "doi": "https://doi.org/10.3758/s13428-025-02722-2",
           "filter": 0
         },
         {
@@ -56,6 +48,14 @@
           "authors": "Florian Lange, Alex Rieger",
           "url": "https://doi.org/10.3758/s13428-025-02769-1",
           "doi": "https://doi.org/10.3758/s13428-025-02769-1",
+          "filter": 0
+        },
+        {
+          "title": "Bayesian sample size determination for longitudinal intervention studies with linear and log-linear growth",
+          "authors": "Ulrich Lösener, Mirjam Moerbeek",
+          "abstract": "A priori sample size determination (SSD) is essential for designing cost-efficient trials and in avoiding underpowered studies. In addition, reporting a solid justification for a certain sample size is required by most ethics committees and many funding agencies. Often, SSD is based on null hypothesis significance testing (NHST), an approach that has received severe criticism in the past decades. As an alternative, Bayesian hypothesis evaluation using Bayes factors has been developed. Bayes factors quantify the relative support in the data for a pair of competing hypotheses without suffering from some of the drawbacks of NHST. SSD for Bayesian hypothesis testing relies on simulations and has only been studied recently. Available software for this is limited to simple models such as ANOVA and the t  test, in which observations are assumed to be independent from each other. However, this assumption is rendered untenable in longitudinal experiments where observations are nested within individuals. In that case, a multilevel model should be used. This paper provides researchers with a valuable tool for performing SSD for multilevel models with longitudinal data in a Bayesian framework, along with the necessary theoretical background and concrete empirical examples. The open-source R function that enables researchers to tailor the simulation to their trial at hand can be found on the GitHub page of the first author.",
+          "url": "https://doi.org/10.3758/s13428-025-02749-5",
+          "doi": "https://doi.org/10.3758/s13428-025-02749-5",
           "filter": 0
         },
         {
@@ -181,17 +181,17 @@
       "journal_short": "JESP",
       "articles": [
         {
-          "title": "Using two-sided messages to facilitate misinformation correction for strongly held beliefs",
-          "authors": "Mengran Xu, Richard E. Petty",
-          "url": "https://doi.org/10.1016/j.jesp.2025.104807",
-          "doi": "https://doi.org/10.1016/j.jesp.2025.104807",
-          "filter": 0
-        },
-        {
           "title": "What types of gratitude expressions promote prosocial behavior?: A registered report",
           "authors": "Anurada U. Amarasekera, Kelton L. Travis, Kristina K. Castaneto, Tiara A. Cash, Lara B. Aknin",
           "url": "https://doi.org/10.1016/j.jesp.2025.104805",
           "doi": "https://doi.org/10.1016/j.jesp.2025.104805",
+          "filter": 0
+        },
+        {
+          "title": "Using two-sided messages to facilitate misinformation correction for strongly held beliefs",
+          "authors": "Mengran Xu, Richard E. Petty",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104807",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104807",
           "filter": 0
         },
         {
@@ -312,6 +312,22 @@
           "abstract": "Artificial intelligence (AI) brings immediate benefits but also raises potential risks. Despite much discussion on AI threat, how subtle linguistic cues, such as first-person pronouns, influence its perception remains unclear. Proposing a scope-expansion perspective, we examine whether “we” versus “I” pronoun use increases perceived AI threat by broadening regulatory scope, particularly when AI threat is psychologically distant. Analyses of two large AI-related text corpora (Studies 1A and 1B) and four experiments ( N = 1,451) revealed that using “we” versus “I” pronouns positively predicted and heightened perceived AI threat among English (Studies 1–4) and Chinese (Studies 3 and 5) speakers. This effect, explained by a broader regulatory scope (Studies 3 and 5), was stronger for psychologically distant (vs. close) AI threat (Studies 4 and 5) and among English (vs. Chinese) speakers (Study 3). These findings expand the role of first-person pronouns and enhance our understanding of public perceptions of AI threat.",
           "url": "https://doi.org/10.1177/01461672251356107",
           "doi": "https://doi.org/10.1177/01461672251356107",
+          "filter": 0
+        },
+        {
+          "title": "Differential Value-Wellness Associations in the Unequal World: Social-Focused Values for the Privileged, Personal-Focused Values for the Disadvantaged",
+          "authors": "Sijia Chen, Shengquan Ye, Zewei Ma",
+          "abstract": "Amid increasing global inequality and diverse value systems, this study examined how economic resources at both individual and country levels moderate the associations between values and wellness (i.e., subjective well-being and health). Using data from the World Values Survey across 75 countries, the findings challenged the prevailing assumption that a social focus is inherently more adaptive for the economically disadvantaged. Instead, results suggested that personal-focused values were more advantageous in low (vs. high)-resource contexts. At the country level, the negative association between self-enhancement and wellness was attenuated or reversed in lower HDI countries. At the individual level, self-enhancement and openness to change were more positively—or less negatively—associated with wellness among lower-class individuals, while self-transcendence and conservation were more strongly associated with wellness among higher-class individuals. These findings highlight the context-dependent nature of value-wellness relationships and the social responsibility of those from more affluent backgrounds.",
+          "url": "https://doi.org/10.1177/01461672251352006",
+          "doi": "https://doi.org/10.1177/01461672251352006",
+          "filter": 0
+        },
+        {
+          "title": "Perceptions of Safety and Threat in the Environment: The STEP Scale",
+          "authors": "Lora E. Park, Deborah E. Ward, Kristin Naragon-Gainey, Elizabeth A. Canning, Nicole Koefler, Zaviera A. Panlilio, Valerie Vessels, Gabriela Pascuzzi",
+          "abstract": "The Safety and Threat in Environment Perceptions (STEP) scale assesses perceptions of environments as safe (welcoming, inclusive) or threatening (critical, intimidating). We first evaluated the factor structure of the scale and demonstrated its unique predictive validity in classrooms (Studies 1 and 2), gyms (Studies 3 and 4), and the workplace (Study 5). When seeing classrooms with stereotypically masculine (vs. neutral) objects, women perceived less safety, which predicted less engagement, interest, and intentions to recruit others. When seeing an unwelcoming (vs. welcoming) gym, women (vs. men) perceived less safety, which predicted less engagement, interest, and intentions to recruit others, especially when the gym contained masculine (vs. feminine or gender-balanced) social cues. When seeing a boardroom with unwelcoming (vs. no) social cues, both men and women perceived greater threat, which predicted less intentions to recruit others. Together, these findings suggest that the STEP scale is a useful measure for assessing perceived safety and threat in any environment.",
+          "url": "https://doi.org/10.1177/01461672251344359",
+          "doi": "https://doi.org/10.1177/01461672251344359",
           "filter": 0
         },
         {
