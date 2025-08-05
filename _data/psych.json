@@ -1,5 +1,5 @@
 {
-  "update": "2025-08-04",
+  "update": "2025-08-05",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -21,19 +21,18 @@
       "journal_short": "BRM",
       "articles": [
         {
+          "title": "Praditor: A DBSCAN-based automation for speech onset detection",
+          "authors": "Zhengyuan Liu, Xinqi Yu, Wing Chung Hu, Yunxiao Ma, Ruiming Wang, Haoyun Zhang",
+          "url": "https://doi.org/10.3758/s13428-025-02776-2",
+          "doi": "https://doi.org/10.3758/s13428-025-02776-2",
+          "filter": 0
+        },
+        {
           "title": "A combinatorial set of 3,125 cartoon characters based on five attributes for research on categorization, judgment, decision-making, and memory with adults and children",
           "authors": "Arndt Bröder, Monika Undorf, Mihail Gututui",
           "abstract": "A combinatorial set of pictorial stimuli generated from five five-valued attributes is presented (and shared freely under the CC BY-NC-ND license, https://osf.io/dq2k8 ) which can be used in various cognitive research areas like categorization, multiple cue probability learning, judgment, decision-making, memory, or metamemory. The stimuli consist of five different cartoon characters combined with four five-valued attributes, namely five different hats, shoes, equipment, and jackets. The characters were created in a way to make them suitable for research with children and adults alike. In four studies, we assessed the similarity structure and attribute salience via similarity judgments (Study 1) and validated the extracted attribute salience in a judgment task (Study 2) and the similarity in a recognition memory task with adults (Study 3) and 6- to 8-year-old children (Study 4). Obtaining a random sample of 12,251 similarity ratings from 51 online participants in Study 1 allowed us to quantify the salience of attributes by analyzing perceived similarity via multilevel regression. We provide similarity values extrapolated from the regression model for all 4,881,152 stimulus pairs to allow for similarity-controlled stimulus selection. Study 2 validated the salience estimates for all attributes by showing their influence on learning speed and accuracy in a cue learning paradigm. Study 3 demonstrated the validity of the extrapolated similarity values by showing their impact on recognition performance, and Study 4 showed the suitability of the stimuli for research on children.",
           "url": "https://doi.org/10.3758/s13428-025-02758-4",
           "doi": "https://doi.org/10.3758/s13428-025-02758-4",
-          "filter": 0
-        },
-        {
-          "title": "When is enough enough? Empirical guidelines to determine participant sample size for scene viewing studies",
-          "authors": "Alex J. Hoogerbrugge, Ignace T. C. Hooge, Roy S. Hessels, Christoph Strauch",
-          "abstract": "Eye tracking is widely used to study where spatial attention is allocated across stimuli. However, determining a sufficient and efficient number of participants for such studies remains a challenge. While clear guidelines have been established for many classical statistical tests, no straightforward participant sample size guidelines exist for the comparison of gaze distribution maps and area-of-interest analyses – two of the most prominent analyses in scene viewing studies. Just how many participants should be included for reliable and reproducible gaze estimations? We here utilized gaze data to a single static image, viewed by 1248 individuals (dataset 1), and gaze data to 200+ images, viewed by 84 participants each (dataset 2). Researchers can assess which of these datasets and analysis types most resemble their setup and determine their sample size accordingly. Although we cannot provide a one-size-fits-all sample size recommendation, we show progressively diminishing returns for a range of sample sizes and for two typical study types. For example, when using Normalized Saliency Score as a metric of distribution map similarity, a 5% relative increase requires increases in sample size from 13 $$\\rightarrow $$ → 20 $$\\rightarrow $$ → 34 participants (based on dataset 1) or from 10 $$\\rightarrow $$ → 16 $$\\rightarrow $$ → 32 participants (based on dataset 2). Alternatively, when analyzing the number of visits to certain areas of interest, a 25% decrease in outcome variance requires increases in sample size from 13 $$\\rightarrow $$ → 24 $$\\rightarrow $$ → 44. We provide easy-to-use guidelines and reference tables to determine scene viewing participant sample size for academics and industry professionals alike.",
-          "url": "https://doi.org/10.3758/s13428-025-02754-8",
-          "doi": "https://doi.org/10.3758/s13428-025-02754-8",
           "filter": 0
         },
         {
@@ -51,27 +50,11 @@
           "filter": 0
         },
         {
-          "title": "Bayesian sample size determination for longitudinal intervention studies with linear and log-linear growth",
-          "authors": "Ulrich Lösener, Mirjam Moerbeek",
-          "abstract": "A priori sample size determination (SSD) is essential for designing cost-efficient trials and in avoiding underpowered studies. In addition, reporting a solid justification for a certain sample size is required by most ethics committees and many funding agencies. Often, SSD is based on null hypothesis significance testing (NHST), an approach that has received severe criticism in the past decades. As an alternative, Bayesian hypothesis evaluation using Bayes factors has been developed. Bayes factors quantify the relative support in the data for a pair of competing hypotheses without suffering from some of the drawbacks of NHST. SSD for Bayesian hypothesis testing relies on simulations and has only been studied recently. Available software for this is limited to simple models such as ANOVA and the t  test, in which observations are assumed to be independent from each other. However, this assumption is rendered untenable in longitudinal experiments where observations are nested within individuals. In that case, a multilevel model should be used. This paper provides researchers with a valuable tool for performing SSD for multilevel models with longitudinal data in a Bayesian framework, along with the necessary theoretical background and concrete empirical examples. The open-source R function that enables researchers to tailor the simulation to their trial at hand can be found on the GitHub page of the first author.",
-          "url": "https://doi.org/10.3758/s13428-025-02749-5",
-          "doi": "https://doi.org/10.3758/s13428-025-02749-5",
-          "filter": 0
-        },
-        {
           "title": "Reward as a facet of word meaning: Ratings of motivation for 8,601 English words",
           "authors": "Doina-Irina Giurgea, Penny M. Pexman, Richard J. Binney",
           "abstract": "Semantic representations arise from a distillation of multiple sources of information, including sensory, motor, affective, interoceptive, linguistic and cognitive experience. Experience of reward is a highly salient aspect of many human activities, and yet its contribution to semantic processing is not well understood. To address this, the present study took a psycholinguistic approach to measuring and evaluating associations with reward as a facet of word meaning. Behavioural and neurophysiological data suggest that reward processing involves multiple stages and mechanisms. For instance, systems associated with the experience and anticipation of pleasure in response to a reward appear distinct from motivational processes that underlie the pursuit of a stimulus. We sought to collect a novel set of word ratings that capture the full extent of reward-related experience. Initial explorations revealed that reward/pleasure ratings are highly correlated with existing norms of emotional valence. Ratings of association with motivation, however, were only moderately correlated with valence, suggesting they capture distinct semantic information. We therefore conducted a preregistered large-scale study to obtain motivation ratings for 8,601 words. Our analyses suggest these ratings capture aspects of word meaning which are distinct from other semantic dimensions, such as concreteness and valence. Moreover, they explain unique variance in participant performance on lexical, semantic, and recognition memory tasks. We combined motivation and emotional valence ratings to provide a composite measure that might approximate a more general ‘reward’ construct. However, this did not explain additional variance compared to the individual variables. We discuss the implications of these results for neurocognitive theories of semantics.",
           "url": "https://doi.org/10.3758/s13428-025-02762-8",
           "doi": "https://doi.org/10.3758/s13428-025-02762-8",
-          "filter": 0
-        },
-        {
-          "title": "How adults’ experience with words changes over time: Insights from five years of the Wesleyan Word Experience Project",
-          "authors": "Barbara J. Juhasz, Grace Devanny, Abby Frankenberg, Ava Galdenzi, Lumen Constance Hirwa, Wiralpach Nawabutsitthirat, Meiwen Shao",
-          "abstract": "This study explored how adults’ experiences with words may change over time. Ratings of age-of-acquisition (AoA) and familiarity were collected on 499 words from introductory psychology students each semester, for a total of 5 years. Over the course of ten semesters, ratings were collected from more than 1000 students. One goal of this multi-year project was to explore whether it is possible to assess lexical change for particular words. Regression analyses were used to track the trajectory of the words. Based on the analyses, words were categorized into three different groups: words that remain consistent in AoA and familiarity, those with upward trajectories, and those with downward trajectories. A total of 63 words were identified as undergoing experience-based lexical change. The project also explored how AoA and familiarity relate to each other over time as well as each variable’s interrater reliability over the course of 5 years. Both AoA and familiarity had strong correlations when comparing ratings collected from the first five semesters of the project with ratings collected from the last five semesters of the project. These correlations were significantly higher than the correlation between the two variables, supporting the idea that they are separate constructs. Average familiarity and AoA for the entire set of words did not differ as a function of time. In addition, AoA was found to have the highest correlation with itself, providing evidence that college undergraduates consistently apply the rating scale when asked to assess the age at which words are first learned.",
-          "url": "https://doi.org/10.3758/s13428-025-02765-5",
-          "doi": "https://doi.org/10.3758/s13428-025-02765-5",
           "filter": 0
         },
         {
@@ -210,13 +193,6 @@
           "filter": 0
         },
         {
-          "title": "Using two-sided messages to facilitate misinformation correction for strongly held beliefs",
-          "authors": "Mengran Xu, Richard E. Petty",
-          "url": "https://doi.org/10.1016/j.jesp.2025.104807",
-          "doi": "https://doi.org/10.1016/j.jesp.2025.104807",
-          "filter": 0
-        },
-        {
           "title": "Status- and foreignness-based discrimination experiences shape feelings of similarity among people of color",
           "authors": "Linda X. Zou, Samuel Ngum",
           "url": "https://doi.org/10.1016/j.jesp.2025.104794",
@@ -229,6 +205,13 @@
           "url": "https://doi.org/10.1016/j.jesp.2025.104810",
           "doi": "https://doi.org/10.1016/j.jesp.2025.104810",
           "filter": 0
+        },
+        {
+          "title": "Nice to meet you.(!) Gendered norms in punctuation usage",
+          "authors": "Yidan Yin, Gil Appel, Cheryl Jan Wakslak",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104812",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104812",
+          "filter": 0
         }
       ],
       "articles_hidden": []
@@ -238,10 +221,24 @@
       "journal_short": "JPSP",
       "articles": [
         {
+          "title": "Overestimation in the aggregation of emotional intensity of social media content.",
+          "authors": "Jonas Paul Schöne, Matthew D. Rocklage, Brian Parkinson, Amit Goldenberg",
+          "url": "https://doi.org/10.1037/pspa0000458",
+          "doi": "https://doi.org/10.1037/pspa0000458",
+          "filter": 0
+        },
+        {
           "title": "“Just getting along, together”: The relationship between narratives of interdependence and psychological well-being among American adults with disabilities during the first 3 years of the COVID-19 pandemic.",
           "authors": "Jonathan M. Adler, Robert B. Manning, Katie Pieterse, Henry Raffles Cowan, Kathleen R. Bogart, Sarah R. Lowe, Michelle R. Nario-Redmond, Joan M. Ostrove, Katie Wang",
           "url": "https://doi.org/10.1037/pspp0000571",
           "doi": "https://doi.org/10.1037/pspp0000571",
+          "filter": 0
+        },
+        {
+          "title": "Stable profiles of contact and prejudice: Few people report co-occurring increases in intergroup contact and decreases in prejudice over time.",
+          "authors": "Alexander W. O'Donnell, Maria-Therese Friehs, Patrick F. Kotzur, Lewis Nitschinsk, Morgana Lizzio-Wilson, Chris G. Sibley, Fiona Kate Barlow",
+          "url": "https://doi.org/10.1037/pspi0000500",
+          "doi": "https://doi.org/10.1037/pspi0000500",
           "filter": 0
         },
         {
@@ -318,6 +315,20 @@
       "articles_hidden": []
     },
     {
+      "journal_full": "Multivariate Behavioral Research",
+      "journal_short": "MBR",
+      "articles": [
+        {
+          "title": "How to Get MAD: Generating Uniformly Sampled Correlation Matrices with a Fixed Mean Absolute Discrepancy",
+          "authors": "Niels G. Waller",
+          "url": "https://doi.org/10.1080/00273171.2025.2516513",
+          "doi": "https://doi.org/10.1080/00273171.2025.2516513",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Personality and Social Psychology Bulletin",
       "journal_short": "PSPB",
       "articles": [
@@ -346,6 +357,14 @@
           "filter": 0
         },
         {
+          "title": "Letting Go of the Negative, Holding on to the Positive? Within-Person Trajectories of Affective Habituation to Negative and Positive Stimuli",
+          "authors": "Elizabeth Yartsev, Oliver P. John, Özlem N. Ayduk",
+          "abstract": "The differential affective habituation hypothesis argues that affective reactions decrease faster for positive than for negative information due to the greater evolutionary importance of threat over reward. However, limited evidence and low-powered studies hinder strong conclusions about this hypothesis from the extant literature, a gap the present research aimed to address. Because anxiety entails heightened threat anticipation, a second aim was to examine if higher anxiety intensifies this differential habituation pattern (i.e., anxiety potentiation hypothesis ). Two experiments ( N 1 = 104, N 2 = 211) provided within-subject exposure to International Affective Picture System (IAPS) images, manipulated stimulus valence, and assessed anxiety at baseline (Studies 1 and 2) or following an anxiety manipulation (Study 2). Results supported both hypotheses, highlighting the importance of examining positive habituation as a key mechanism in psychological functioning and suggesting that, despite its potential survival function, differential habituation may carry psychological costs.",
+          "url": "https://doi.org/10.1177/01461672251348486",
+          "doi": "https://doi.org/10.1177/01461672251348486",
+          "filter": 0
+        },
+        {
           "title": "Perceptions of Safety and Threat in the Environment: The STEP Scale",
           "authors": "Lora E. Park, Deborah E. Ward, Kristin Naragon-Gainey, Elizabeth A. Canning, Nicole Koefler, Zaviera A. Panlilio, Valerie Vessels, Gabriela Pascuzzi",
           "abstract": "The Safety and Threat in Environment Perceptions (STEP) scale assesses perceptions of environments as safe (welcoming, inclusive) or threatening (critical, intimidating). We first evaluated the factor structure of the scale and demonstrated its unique predictive validity in classrooms (Studies 1 and 2), gyms (Studies 3 and 4), and the workplace (Study 5). When seeing classrooms with stereotypically masculine (vs. neutral) objects, women perceived less safety, which predicted less engagement, interest, and intentions to recruit others. When seeing an unwelcoming (vs. welcoming) gym, women (vs. men) perceived less safety, which predicted less engagement, interest, and intentions to recruit others, especially when the gym contained masculine (vs. feminine or gender-balanced) social cues. When seeing a boardroom with unwelcoming (vs. no) social cues, both men and women perceived greater threat, which predicted less intentions to recruit others. Together, these findings suggest that the STEP scale is a useful measure for assessing perceived safety and threat in any environment.",
@@ -359,6 +378,20 @@
           "abstract": "We explored the relationship between socio-demographic characteristics and superstition endorsement, distinguishing between the practice of and belief in superstitions, as well as between positive and negative superstitions. We examined specifically whether analytic thinking style, anxiety, and intolerance of uncertainty account for socio-demographic variability in these dimensions of endorsement and to what extent stress from macro-level threatening circumstances moderates these effects. Two pre-registered studies conducted in Israel ( N = 751) and the United States ( N = 566) revealed that whereas relations of superstition endorsement with socio-demographic characteristics varied across samples, those with the psychological factors were quite robust. In both samples, analytic thinking style consistently mediated these relationships, intolerance of uncertainty mediated some of them, while anxiety mediated none. Experienced stress positively correlated with superstition endorsement, but evidence for its moderating role on the observed indirect effects was weak. These findings provide insights into the psychological and contextual factors shaping superstition endorsement.",
           "url": "https://doi.org/10.1177/01461672251348772",
           "doi": "https://doi.org/10.1177/01461672251348772",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Psychological Bulletin",
+      "journal_short": "PsychBull",
+      "articles": [
+        {
+          "title": "The global decline in sexism: A multilevel meta-analytic review of trends in countries’ hostile sexism, benevolent sexism, and gender inequality over time.",
+          "authors": "Matthew D. Hammond, Nishtha Singh, Johannes A. Karl",
+          "url": "https://doi.org/10.1037/bul0000485",
+          "doi": "https://doi.org/10.1037/bul0000485",
           "filter": 0
         }
       ],
@@ -405,17 +438,17 @@
       "journal_short": "PPM",
       "articles": [
         {
-          "title": "A cognitive behavioral therapy-based microintervention to reduce the negative impact of Instagram use on well-being: A randomized controlled trial.",
-          "authors": "Zoe Herriman, Rachel M. Roberts, Amanda M. Taylor, Amy Slater",
-          "url": "https://doi.org/10.1037/ppm0000619",
-          "doi": "https://doi.org/10.1037/ppm0000619",
+          "title": "Children’s vocabulary, math, and social-emotional learning from interactive media: The role of choice, agency, and repetition in app design.",
+          "authors": "Allyson L. Snyder, Drew P. Cingel, Sofia V. Rhea, Jane Shawcroft, Samantha L. Vigil, Katherine Ong",
+          "url": "https://doi.org/10.1037/ppm0000621",
+          "doi": "https://doi.org/10.1037/ppm0000621",
           "filter": 0
         },
         {
-          "title": "Social media addiction moderates links between perceptions of freedom and mental health in the United States and Germany.",
-          "authors": "Cameron J. Bunker, Jürgen Margraf, Julia Brailovskaia",
-          "url": "https://doi.org/10.1037/ppm0000618",
-          "doi": "https://doi.org/10.1037/ppm0000618",
+          "title": "Comparison of listening experiences by podcast styles: Monologue versus dialogue.",
+          "authors": "Jimpei Hitsuwari, Takayoshi Hayashi, Haruki Moriya, Yoichi Ohtake",
+          "url": "https://doi.org/10.1037/ppm0000622",
+          "doi": "https://doi.org/10.1037/ppm0000622",
           "filter": 0
         }
       ],
