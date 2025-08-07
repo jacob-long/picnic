@@ -1,5 +1,5 @@
 {
-  "update": "2025-08-06",
+  "update": "2025-08-07",
   "content": [
     {
       "journal_full": "American Journal of Political Science",
@@ -34,14 +34,6 @@
           "abstract": "Tax collection is difficult in low-income countries, and bureaucracies exist alongside non-state actors that extract revenue and provide services informally. Might weak states leverage these actors’ strengths to collect taxes, or should they invest in building fiscal capacity on their own? We conducted a field experiment in Lagos, Nigeria that randomly assigned market vendors to tax appeals delivered by state or non-state agents. Contrary to expectations, non-state actors were not effective messengers. Tax appeals delivered by representatives of marketplace associations, an important social intermediary in this context, were ineffective even at higher levels of trust and message credibility. Messages delivered by state agents, however, were sometimes effective in spurring registration and tax payments, especially among ethnic minorities. This study underlines the importance of social intermediaries in shaping the social contract, and it draws attention to the uneven effects of these kinds of institutions within populations.",
           "url": "https://doi.org/10.1017/s0007123424000255",
           "doi": "https://doi.org/10.1017/s0007123424000255",
-          "filter": 0
-        },
-        {
-          "title": "Spraying Conflict: Aerial Drug Eradication and Armed Violence in Colombia",
-          "authors": "Juan Felipe Campos-Contreras, Camilo Nieto-Matiz, Luis L. Schenoni",
-          "abstract": "How do state interventions targeting illicit economies influence armed violence? Using Colombia as a critical case, we argue that aerial spraying of coca crops exacerbates violence by destabilizing local power dynamics and disrupting interactions among armed actors, civilians, and the state. Using municipal-level data from 2000 to 2015, we find that aerial spraying increases overall levels of violence in affected areas. Aerial spraying, we find, propitiates retaliatory violence against the state, stimulates turf wars between armed organizations, and produces civilian victimization. Moreover, we show that paramilitaries and criminal organizations respond more sharply to aerial spraying, escalating retaliation against the state and violence against civilians. By contrast, insurgent violence remains more consistent, driven by ideological goals and largely independent of eradication efforts. These findings reveal how fleeting large-scale interventions can inadvertently fuel conflict by altering the strategic equilibria of violent actors in illicit economies.",
-          "url": "https://doi.org/10.1017/s000712342500033x",
-          "doi": "https://doi.org/10.1017/s000712342500033x",
           "filter": 0
         },
         {
@@ -228,6 +220,14 @@
           "url": "https://doi.org/10.1017/xps.2025.10007",
           "doi": "https://doi.org/10.1017/xps.2025.10007",
           "filter": 0
+        },
+        {
+          "title": "Pro-equality initiatives increase expressed sexism among men but may improve trust among women football fans",
+          "authors": "Victor Araújo, Malu A.C. Gatto",
+          "abstract": "Globally, prejudicial attitudes toward women persist. By taking anti-discriminatory stances, value-oriented organizations – e.g., political parties and religious denominations – can tap into group identities to shape their members’ attitudes. We know much less about the role of organizations that are not inherently value-oriented – such as sports teams – in accomplishing the same. Yet, as various campaigns by sports teams worldwide indicate, this is precisely what non-value-oriented organizations increasingly attempt to do. Can football team fandom be leveraged to promote gender-egalitarian attitudes? We address this question with data from a national survey in Brazil and a survey experiment conducted in partnership with a major Brazilian football club. We find that while football team identity is salient and may be leveraged to change displayed social attitudes, the Club’s anti-sexism campaign inadvertently increased men’s expressed prejudice toward women in football – although it may have also improved institutional trust among women.",
+          "url": "https://doi.org/10.1017/xps.2025.10009",
+          "doi": "https://doi.org/10.1017/xps.2025.10009",
+          "filter": 0
         }
       ],
       "articles_hidden": []
@@ -252,14 +252,6 @@
       "journal_short": "PA",
       "articles": [
         {
-          "title": "Bin-Conditional Conformal Prediction of Fatalities from Armed Conflict",
-          "authors": "David Randahl, Jonathan P. Williams, Håvard Hegre",
-          "abstract": "Forecasting of armed conflicts is a critical area of research with the potential to save lives and mitigate suffering. While existing forecasting models offer valuable point predictions, they often lack individual-level uncertainty estimates, limiting their usefulness for decision-making. Several approaches exist to estimate uncertainty, such as parametric and Bayesian prediction intervals, bootstrapping, quantile regression, but these methods often rely on restrictive assumptions, struggle to provide well-calibrated intervals across the full range of outcomes, or are computationally intensive. Conformal prediction offers a model-agnostic alternative that guarantees a user-specified level of coverage but typically provides only marginal coverage, potentially resulting in non-uniform coverage across different regions of the outcome space. In this article, we introduce a novel extension called bin-conditional conformal prediction (BCCP), which enhances standard conformal prediction (SCP) by ensuring consistent coverage rates across user-defined subsets (bins) of the outcome variable. We apply BCCP to simulated data as well as the forecasting of fatalities from armed conflicts, and demonstrate that it provides well-calibrated uncertainty estimates across various ranges of the outcome. Compared to SCP, BCCP offers improved local coverage, though this comes at the cost of slightly wider prediction intervals.",
-          "url": "https://doi.org/10.1017/pan.2025.10010",
-          "doi": "https://doi.org/10.1017/pan.2025.10010",
-          "filter": 0
-        },
-        {
           "title": "Detecting Formatted Text: Data Collection Using Computer Vision",
           "authors": "Jonathan Colner",
           "abstract": "Research in political science has begun to explore how to use large language and object detection models to analyze text and visual data. However, few studies have explored how to use these tools for data extraction. Instead, researchers interested in extracting text from poorly formatted sources typically rely on optical character recognition and regular expressions or extract each item by hand. This letter describes a workflow process for structured text extraction using free models and software. I discuss the type of data best suited to this method, its usefulness within political science, and the steps required to convert the text into a usable dataset. Finally, I demonstrate the method by extracting agenda items from city council meeting minutes. I find the method can accurately extract subsections of text from a document and requires only a few hand labeled documents to adequately train.",
@@ -275,10 +267,11 @@
       "journal_short": "PolBehav",
       "articles": [
         {
-          "title": "Disagreements About Threats to Electoral Integrity: Beliefs About the Severity and Frequency of Fraudulent, Uncounted, and Forgone Votes in the 2020 and 2024 Elections",
-          "authors": "Gregory A. Huber, John J. Cho, Scott E. Bokemper, Alan S. Gerber, William J. Brady, Killian McLoughlin, Molly J. Crockett",
-          "url": "https://doi.org/10.1007/s11109-025-10066-y",
-          "doi": "https://doi.org/10.1007/s11109-025-10066-y",
+          "title": "The Effects of Voting by Mail on Correct Voting",
+          "authors": "Jennifer Wolak, Carey E. Stapleton",
+          "abstract": "The share of Americans voting by mail surged in 2020. For those casting a mail-in ballot, their voting experience was different from those who voted in-person. When voting by mail, people can make their choices at their own pace at a time convenient to them, conducting additional research if they wish to do so. We propose that when people vote by mail, they are more likely to successfully identify the candidates that are best aligned with their preferences. Using cross-sectional and causal inference approaches, we show that people who voted by mail in 2020 were more likely to vote correctly than those who cast their ballots in-person. Vote-by-mail was more than just a way to minimize health risks during the coronavirus pandemic – it also had civic dividends. When people vote by mail, they are more likely to choose candidates aligned with their stated preferences.",
+          "url": "https://doi.org/10.1007/s11109-025-10067-x",
+          "doi": "https://doi.org/10.1007/s11109-025-10067-x",
           "filter": 0
         }
       ],
@@ -384,37 +377,6 @@
           "authors": "Frank I. Müller",
           "url": "https://doi.org/10.1016/j.polgeo.2025.103368",
           "doi": "https://doi.org/10.1016/j.polgeo.2025.103368",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "PS: Political Science & Politics",
-      "journal_short": "PS",
-      "articles": [
-        {
-          "title": "Large Language Models Are Democracy Coders with Attitudes",
-          "authors": "Nils B. Weidmann, Mats Faulborn, David García",
-          "abstract": "Current political developments worldwide illustrate that research on democratic backsliding is as important as ever. A recent exchange in Political Science &amp; Politics (February 2024) highlighted again that the measurement of democracy remains a challenge. With many democracy indicators consisting of subjective assessments rather than factual observations, trends in democracy over time could be due to human biases in the coding of these indicators rather than empirical facts. This article leverages two cutting-edge Large Language Models (LLMs) for the coding of democracy indicators from the V-Dem project. With access to huge amounts of information, these models may be able to rate the many “soft” characteristics of regimes at substantially lower costs. Whereas LLM-generated codings largely align with expert coders for many countries, we show that when these models deviate from human assessments, they do so in different but consistent ways. Some LLMs are too pessimistic and others consistently overestimate the democratic quality of these countries. Although the combination of the two LLM codings can alleviate this concern, we conclude that it is difficult to replace human coders with LLMs because the extent and direction of these attitudes is not known a priori.",
-          "url": "https://doi.org/10.1017/s1049096525101248",
-          "doi": "https://doi.org/10.1017/s1049096525101248",
-          "filter": 0
-        },
-        {
-          "title": "Introducing the American Women Political Leaders’ Operational Codes Dataset",
-          "authors": "Baris Kesgin, Katherine Graham McCormick",
-          "abstract": "Although women leaders assume prominent national offices in the United States (and the world), one of the well-established specializations in political science and psychology (i.e., leadership studies) is inundated with male-centric benchmarks. This research often relies on a reference group to develop leaders’ profiles in comparison to other elites. They are predominantly populated, however, with male leaders. This article suggests a remedy and introduces a women leaders reference group for operational code analysis, which is a quantitative approach measuring leaders’ beliefs about politics. We gathered American women leaders’ speeches from the Iowa State University Archives of Women’s Political Communication. Using an automated content analysis, we developed a norming group exclusively for American female politicians in national politics. Whereas our findings indicate noticeable differences and suggest similarities with existing reference groups, we aspire to initiate a conversation and hope that more data will follow and shed more light on women leaders. This reference group can serve as a crucial tool in providing contextualized political-personality profiles of American women leaders and also provide an illustrative example to bridge leadership and gender studies in advancing the study of women leaders in the United States (and beyond).",
-          "url": "https://doi.org/10.1017/s1049096525101194",
-          "doi": "https://doi.org/10.1017/s1049096525101194",
-          "filter": 0
-        },
-        {
-          "title": "The Albatross: Student Loan Debt and Support for Joe Biden in the 2024 Election",
-          "authors": "William Harrison, Jacob Smith",
-          "abstract": "Student debt heavily shapes the life decisions and outlook of those living with it. This article examines the relationship between undergraduates’ views of President Joe Biden’s actions on student debt and their support for him in the 2024 election prior to his dropping out of the race. Using a representative survey from a large private university in the Northeast, we assess how student views of Biden’s handling of student loan relief correlated with voting intentions among registered student voters. Our analysis reveals that students who believed the Biden administration adequately addressed student debt were significantly more likely to support him compared to those who believed he had done too little. Additionally, our findings suggest that whereas increased student debt relief could have bolstered Biden’s support among liberal and very liberal students, its impact on moderate and conservative students was more limited. This study highlights the electoral implications of student debt relief policies, particularly in shaping young voters’ preferences, and it underscores the potential for targeted economic benefits to influence voter behavior in a highly polarized political environment.",
-          "url": "https://doi.org/10.1017/s1049096525101236",
-          "doi": "https://doi.org/10.1017/s1049096525101236",
           "filter": 0
         }
       ],
