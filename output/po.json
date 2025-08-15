@@ -1,15 +1,68 @@
 {
-  "update": "2025-08-14",
+  "update": "2025-08-15",
   "content": [
     {
-      "journal_full": "Journal of Elections, Public Opinion and Parties",
-      "journal_short": "JEPOP",
+      "journal_full": "Journal of Official Statistics",
+      "journal_short": "JOS",
       "articles": [
         {
-          "title": "Accidental knowledge: passive gains in political knowledge and electoral accountability",
-          "authors": "Emily Anderson",
-          "url": "https://doi.org/10.1080/17457289.2025.2537641",
-          "doi": "https://doi.org/10.1080/17457289.2025.2537641",
+          "title": "STAHL: Seasonal, Trend, and Holiday Decomposition with Loess",
+          "authors": "Vincent Haller, Sebastien Daniel, Benoit Bellone",
+          "abstract": "We introduce a novel seasonal adjustment methodology developed by Quantcube Technology, termed Seasonal, Trend, and Holiday Decomposition with Loess (STAHL). This method builds upon the STL procedure outlined by Cleveland et al. and is tailored for application to time series across varying frequencies. Initially, we detail the innovations introduced by STAHL, which include the spectral identification of multiple seasonal frequencies and the systematized preprocessing different seasonal series. This preprocessing encompasses resampling, real-time handling of missing values, and other necessary adjustments. Additionally, we illustrate how the holiday decomposition component effectively manages the variability of moving holiday events. In addition to this, we introduce the Barnacle procedure, to deal with before and after effects of holiday. Subsequently, we provide empirical demonstrations using high frequency data. Specifically, we utilize US Weekly initial claims data to exemplify real-time adjustments during the unprecedented COVID-19 period, with comparisons to the series adjusted by the US Department of Labor. Furthermore, daily Google search data for the term “Easter bunny” illustrate our method’s capability in handling moving holiday effects. We also perform a simulation study to compare the performance of STAHL with existing high frequency seasonal adjustment methodologies.",
+          "url": "https://doi.org/10.1177/0282423x251344219",
+          "doi": "https://doi.org/10.1177/0282423x251344219",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Journal of Survey Statistics and Methodology",
+      "journal_short": "JSSAM",
+      "articles": [
+        {
+          "title": "Accounting for Mismatch Error in Small Area Estimation with Linked Data",
+          "authors": "Enrico Fabrizi, Nicola Salvati, Martin Slawski",
+          "abstract": "In small area estimation, different data sources are integrated in order to produce reliable estimates of target parameters (e.g., a mean or a proportion) for a collection of small subsets (areas) of a finite population. Regression models such as the linear mixed effects model or M-quantile regression are often used to improve the precision of survey sample estimates by leveraging auxiliary information for which means or totals are known at the area level. In many applications, the unit-level linkage of records from different sources is probabilistic and potentially error-prone. In this article, we present adjustments of the small area predictors that are based on either the linear mixed effects model or M-quantile regression to account for the presence of linkage error. These adjustments are developed from a two-component mixture model that hinges on the assumption of independence of the target and auxiliary variable given incorrect linkage. Estimation and inference is based on composite likelihoods and machinery revolving around the Expectation-Maximization Algorithm. For each of the two regression methods, we propose modified small area predictors and approximations for their mean squared errors. The empirical performance of the proposed approaches is studied in both design-based and model-based simulations that include comparisons to a variety of baselines.",
+          "url": "https://doi.org/10.1093/jssam/smaf011",
+          "doi": "https://doi.org/10.1093/jssam/smaf011",
+          "filter": 0
+        },
+        {
+          "title": "Question Form Matters: Examining Trust in Government through Open and Closed Survey Items",
+          "authors": "Jana Bernhard-Harrer, Katharina Pfaff",
+          "abstract": "How we ask questions in surveys significantly impacts the answers. While previous research has examined differences between open-ended and closed-ended survey responses, our understanding remains fragmented, especially considering the growing interest in open-ended questions spurred by advances in automated text analysis. We explore how computational text analysis methods––particularly large language models––can efficiently analyze open-ended responses with promising sentiment and actor identification results, though topic classification remains more challenging. Then, we systematically compare open-ended and closed-ended responses on trust in the Austrian coalition government to assess how different formats shape the expression of political trust. We find significant discrepancies between the trust levels indicated in closed-ended questions and the trust described in open-ended responses, with paired t-tests also revealing statistically significant differences. These findings highlight that question format affects how respondents express their views, raising important considerations about the usefulness and validity of trust measures. They highlight the unique value of open-ended questions in capturing nuanced perspectives often missed by closed-ended formats. This has broader implications for survey design: including open-ended questions could enrich data quality and provide deeper insights into public opinion.",
+          "url": "https://doi.org/10.1093/jssam/smaf014",
+          "doi": "https://doi.org/10.1093/jssam/smaf014",
+          "filter": 0
+        },
+        {
+          "title": "Small Area Estimation of Child Trafficking Proportions in Chiefdoms of Sierra Leone and Overall Ranking of the Chiefdoms",
+          "authors": "Gauri S Datta, Jiacheng Li, Hui Yi, David Okech",
+          "abstract": "Human trafficking and child trafficking are serious violations of human rights. Child trafficking is a despicable form of crime inflicted on the most vulnerable segment of the society. Availability of reliable estimates of the prevalence of child trafficking for various subpopulations is the first priority in tackling this problem. In our study, subpopulations are children of age 5–17 years living in small geographic regions (or chiefdoms) in Sierra Leone. We develop improved estimates of the true rates of prevalence and identify the most adversely affected regions by estimating the unknown true ranks. These estimates shed light on the severity of the problem and bring attention to the critically affected regions (i.e., chiefdoms). Using household survey data from Sierra Leone, we propose a unit-level hierarchical Bayes probit regression model to reliably estimate the prevalence rates of trafficking in the chiefdoms. Using Markov chain Monte Carlo generated samples of the small area characteristics from the posterior distribution of the hierarchical Bayes model, we compute point and interval estimates of the prevalence rates, and a set of probability distributions for the unknown true ranks of the small areas in terms of their prevalence rates.",
+          "url": "https://doi.org/10.1093/jssam/smaf013",
+          "doi": "https://doi.org/10.1093/jssam/smaf013",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Politics, Groups, and Identities",
+      "journal_short": "PGI",
+      "articles": [
+        {
+          "title": "Escaping the multicultural trap: strategic litigation and the decriminalization of same-sex relations in Mauritius",
+          "authors": "Stephen Brown",
+          "url": "https://doi.org/10.1080/21565503.2025.2543300",
+          "doi": "https://doi.org/10.1080/21565503.2025.2543300",
+          "filter": 0
+        },
+        {
+          "title": "Promoting LGBTI rights in foreign policy: strategies for action while avoiding backlash",
+          "authors": "Phillip M. Ayoub, Elise Rainer",
+          "url": "https://doi.org/10.1080/21565503.2025.2543302",
+          "doi": "https://doi.org/10.1080/21565503.2025.2543302",
           "filter": 0
         }
       ],
@@ -19,6 +72,14 @@
       "journal_full": "Public Opinion Quarterly",
       "journal_short": "POQ",
       "articles": [
+        {
+          "title": "How the Age-Friendly Domains Apply to Low-Income Cities and Guide Improvements: Perspectives of Long-Term Residents in New Jersey",
+          "authors": "Amanda Jones-Layman, Francine P Cartwright, Seran Schug, Jennifer Kitson, Lisa Siegert, Rachel Pruchno",
+          "abstract": "The WHO defined age-friendly cities (AFCs) as places with policies, services, settings, and structures that enable people to age in place. Although AFCs have gained attention recently, little is known about the applicability of age-friendly domains to low-income cities. We conducted flexible semistructured interviews with 28 adults aged 65 and older who had lived in New Jersey cities with high poverty rates and low median incomes for at least 15 years. Participants described their neighborhoods in ways that mapped onto the eight AFC domains. Themes of agency and safety linked the domains. Participants suggested ways to change neighborhoods in low-income cities that would make them age friendly. Findings suggest that the AFC domains have utility as a framework for how older long-term residents of low-income cities describe their neighborhoods. They provide unique information about how these domains relate to one another and identify strategies for making low-income places better environments for older people.",
+          "url": "https://doi.org/10.1093/poq/nfaf027",
+          "doi": "https://doi.org/10.1093/poq/nfaf027",
+          "filter": 0
+        },
         {
           "title": "To Report or Not to Report? A Qualitative Analysis of Journalists’ Perspectives on Harm to Public Opinion",
           "authors": "Ricardo R Ferreira, Jean-François Daoust",
@@ -33,6 +94,22 @@
           "abstract": "Opioid use disorder and mortality due to opioid overdose pose significant public health problems in the United States, particularly among American Indian/Alaska Native (AI/AN) communities that experience disproportionately high rates of opioid overdose deaths. Such health inequities are related to centuries of ongoing colonization and oppression that inform social determinants of health today. Using medications to treat opioid use disorder (MOUD) has broad support among health professionals due to substantial evidence of its effectiveness and benefits to patients. However, most AI/ANs who need MOUD never receive it. This analysis sought to identify concerns related to the use of MOUD and how they inform barriers to implementing MOUD in a rural AI reservation community. Secondary analysis of qualitative data was conducted using reflexive thematic analysis. Findings reveal key themes related to conditions for when to use MOUD, recovery, distrust of Western medicine, and individual viewpoints on MOUD. Implications of these findings for reducing barriers to MOUD in AI/AN communities are discussed.",
           "url": "https://doi.org/10.1093/poq/nfaf030",
           "doi": "https://doi.org/10.1093/poq/nfaf030",
+          "filter": 0
+        },
+        {
+          "title": "Qualitative Methods for Research on a Hard-to-Reach and Vulnerable Population in Burma",
+          "authors": "Jieun Baek",
+          "abstract": "This article examines the qualitative research methods employed to conduct fieldwork on a hard-to-reach and vulnerable population in Burma between June 2017 and December 2019. The study focuses on interviewing democracy activists, many of whom were former political prisoners, to investigate the motivations of “first movers”—individuals who initiate high-risk dissent in authoritarian regimes without the safety of numbers or the guarantee of support. The study employed a narrative-driven grounded theory approach to explore the question: In the high-risk environment of authoritarian regimes, why do some people dissent while others do not? While the substantive findings and theory will be discussed in a forthcoming publication, this article focuses on the research design encompassing data collection strategies, case selection, scope conditions, ethics, sampling methods (including a combination of purposive and snowball sampling), elicitation techniques, triangulation in qualitative analysis, and the critical importance of analytic reflexivity and researcher positionality. Key methodological decisions are synthesized into a qualitative research design checklist, providing a practical framework for scholars investigating similarly complex and sensitive topics. By sharing the challenges, strategies, and lessons learned, this article aims to contribute to the growing body of literature on qualitative methods for researching hard-to-reach populations and politically sensitive questions.",
+          "url": "https://doi.org/10.1093/poq/nfaf034",
+          "doi": "https://doi.org/10.1093/poq/nfaf034",
+          "filter": 0
+        },
+        {
+          "title": "Participants’ Reported Discomfort with Live Video as a Mode for Answering a Sensitive Survey Question",
+          "authors": "Shlomit Okon, Rebecca S Dolgin, Michael F Schober",
+          "abstract": "This study uses qualitative thematic analysis to explore a dataset of open-ended textual responses from 369 online panelists explaining why they rated feeling more or less uncomfortable being asked the same sensitive survey question (“How many sex partners have you had in the last 12 months?”) in a hypothetical live video interview versus in two other interviewer-administered survey modes (in person and by phone) and two self-administered survey modes (a web survey and a “prerecorded video” interview in which participants enter their answers after playing a video of the interviewer asking the question). Different participants reported finding the very same features of live video—for example, social copresence with the interviewer, seeing and being seen, a sense of privacy and anonymity—as leading to greater discomfort or greater comfort. The mixed-method analyses, which build on participants’ quantitative ratings of discomfort in the different modes, reveal video-specific concerns that are likely to be important to understand as video interviewing emerges as a new survey mode. These include the potential for a live video interview to be recorded and other household members to overhear (for some participants more concerning than in person or on the phone), and more nuanced distinctions about wanting to see or not see the interviewer and wanting to be seen or not be seen by the interviewer. Exploratory analyses suggest that participants’ video experience in other contexts and some demographic characteristics may correlate with different levels of self-reported discomfort with live video relative to other interviewing modes.",
+          "url": "https://doi.org/10.1093/poq/nfaf031",
+          "doi": "https://doi.org/10.1093/poq/nfaf031",
           "filter": 0
         },
         {
@@ -60,19 +137,33 @@
           "filter": 0
         },
         {
-          "title": "Qualitative Methods for Research on a Hard-to-Reach and Vulnerable Population in Burma",
-          "authors": "Jieun Baek",
-          "abstract": "This article examines the qualitative research methods employed to conduct fieldwork on a hard-to-reach and vulnerable population in Burma between June 2017 and December 2019. The study focuses on interviewing democracy activists, many of whom were former political prisoners, to investigate the motivations of “first movers”—individuals who initiate high-risk dissent in authoritarian regimes without the safety of numbers or the guarantee of support. The study employed a narrative-driven grounded theory approach to explore the question: In the high-risk environment of authoritarian regimes, why do some people dissent while others do not? While the substantive findings and theory will be discussed in a forthcoming publication, this article focuses on the research design encompassing data collection strategies, case selection, scope conditions, ethics, sampling methods (including a combination of purposive and snowball sampling), elicitation techniques, triangulation in qualitative analysis, and the critical importance of analytic reflexivity and researcher positionality. Key methodological decisions are synthesized into a qualitative research design checklist, providing a practical framework for scholars investigating similarly complex and sensitive topics. By sharing the challenges, strategies, and lessons learned, this article aims to contribute to the growing body of literature on qualitative methods for researching hard-to-reach populations and politically sensitive questions.",
-          "url": "https://doi.org/10.1093/poq/nfaf034",
-          "doi": "https://doi.org/10.1093/poq/nfaf034",
+          "title": "Qualitative Research: Advancing the Social and Behavioral Sciences",
+          "authors": "Margaret R Roller, Zachary R Smith",
+          "url": "https://doi.org/10.1093/poq/nfaf035",
+          "doi": "https://doi.org/10.1093/poq/nfaf035",
           "filter": 0
         },
         {
-          "title": "Participants’ Reported Discomfort with Live Video as a Mode for Answering a Sensitive Survey Question",
-          "authors": "Shlomit Okon, Rebecca S Dolgin, Michael F Schober",
-          "abstract": "This study uses qualitative thematic analysis to explore a dataset of open-ended textual responses from 369 online panelists explaining why they rated feeling more or less uncomfortable being asked the same sensitive survey question (“How many sex partners have you had in the last 12 months?”) in a hypothetical live video interview versus in two other interviewer-administered survey modes (in person and by phone) and two self-administered survey modes (a web survey and a “prerecorded video” interview in which participants enter their answers after playing a video of the interviewer asking the question). Different participants reported finding the very same features of live video—for example, social copresence with the interviewer, seeing and being seen, a sense of privacy and anonymity—as leading to greater discomfort or greater comfort. The mixed-method analyses, which build on participants’ quantitative ratings of discomfort in the different modes, reveal video-specific concerns that are likely to be important to understand as video interviewing emerges as a new survey mode. These include the potential for a live video interview to be recorded and other household members to overhear (for some participants more concerning than in person or on the phone), and more nuanced distinctions about wanting to see or not see the interviewer and wanting to be seen or not be seen by the interviewer. Exploratory analyses suggest that participants’ video experience in other contexts and some demographic characteristics may correlate with different levels of self-reported discomfort with live video relative to other interviewing modes.",
-          "url": "https://doi.org/10.1093/poq/nfaf031",
-          "doi": "https://doi.org/10.1093/poq/nfaf031",
+          "title": "Using Semi-Structured Interviews to Better Understand Nonresponse to a Government-Sponsored, Mail-Based Survey of Households",
+          "authors": "Rebecca L Medway, Melissa Scardaville, Paula Dias, Christopher Paek",
+          "abstract": "Given the global nature of the survey nonresponse phenomenon, researchers have devoted considerable attention to understanding the factors that contribute to it. However, much remains unknown about sample members’ reasons for nonresponse and the best way to address those concerns. For self-administered surveys in particular, which often rely on sample members responding to the request without the encouragement of an interviewer or researcher, it is crucial to better understand the attitudinal and environmental barriers that stop sample members from responding. In addition, relatively little existing work involves speaking directly with nonrespondents to a particular survey to hear from them about how the survey request fits into the bigger picture of their life. Drawing on qualitative data collected from 70 semistructured interviews conducted with individuals living in households that did not respond to a large-scale federal government mail survey, we present findings related to three domains of nonresponse: time use, attitudes toward the government, and privacy concerns. We find that these domains remain as relevant today as they were in prior decades, though the ways people experience them may be different. While themes emerge from our study that are relevant to survey research in general, we also expect that the exact way these and other domains are experienced and interact with survey response decisions will differ by population and by survey. We encourage survey researchers to incorporate qualitative methods into their survey design process so that the resulting design and materials are more likely to reflect the needs and issues facing each survey's population.",
+          "url": "https://doi.org/10.1093/poq/nfaf026",
+          "doi": "https://doi.org/10.1093/poq/nfaf026",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Social Science Computer Review",
+      "journal_short": "SSCR",
+      "articles": [
+        {
+          "title": "Navigating the Risks of Using Large Language Models for Text Annotation in Social Science Research",
+          "authors": "Hao Lin, Yongjun Zhang",
+          "abstract": "Large language models (LLMs) have the potential to revolutionize computational social science, particularly in automated textual analysis. In this paper, we conduct a systematic evaluation of the promises and risks associated with using LLMs for text classification tasks, using social movement studies as an example. We propose a framework for social scientists to incorporate LLMs into text annotation, either as the primary coding decision-maker or as a coding assistant. This framework offers researchers tools to develop the potential best-performing prompt, and to systematically examine and report the validity and reliability of LLMs as a methodological tool. Additionally, we evaluate and discuss its epistemic risks associated with validity, reliability, replicability, and transparency. We conclude with several practical guidelines for using LLMs in text annotation tasks and offer recommendations for more effectively communicating epistemic risks in research.",
+          "url": "https://doi.org/10.1177/08944393251366243",
+          "doi": "https://doi.org/10.1177/08944393251366243",
           "filter": 0
         }
       ],
