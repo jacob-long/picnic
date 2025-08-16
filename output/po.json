@@ -1,21 +1,6 @@
 {
-  "update": "2025-08-15",
+  "update": "2025-08-16",
   "content": [
-    {
-      "journal_full": "Journal of Official Statistics",
-      "journal_short": "JOS",
-      "articles": [
-        {
-          "title": "STAHL: Seasonal, Trend, and Holiday Decomposition with Loess",
-          "authors": "Vincent Haller, Sebastien Daniel, Benoit Bellone",
-          "abstract": "We introduce a novel seasonal adjustment methodology developed by Quantcube Technology, termed Seasonal, Trend, and Holiday Decomposition with Loess (STAHL). This method builds upon the STL procedure outlined by Cleveland et al. and is tailored for application to time series across varying frequencies. Initially, we detail the innovations introduced by STAHL, which include the spectral identification of multiple seasonal frequencies and the systematized preprocessing different seasonal series. This preprocessing encompasses resampling, real-time handling of missing values, and other necessary adjustments. Additionally, we illustrate how the holiday decomposition component effectively manages the variability of moving holiday events. In addition to this, we introduce the Barnacle procedure, to deal with before and after effects of holiday. Subsequently, we provide empirical demonstrations using high frequency data. Specifically, we utilize US Weekly initial claims data to exemplify real-time adjustments during the unprecedented COVID-19 period, with comparisons to the series adjusted by the US Department of Labor. Furthermore, daily Google search data for the term “Easter bunny” illustrate our method’s capability in handling moving holiday effects. We also perform a simulation study to compare the performance of STAHL with existing high frequency seasonal adjustment methodologies.",
-          "url": "https://doi.org/10.1177/0282423x251344219",
-          "doi": "https://doi.org/10.1177/0282423x251344219",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
     {
       "journal_full": "Journal of Survey Statistics and Methodology",
       "journal_short": "JSSAM",
@@ -149,21 +134,6 @@
           "abstract": "Given the global nature of the survey nonresponse phenomenon, researchers have devoted considerable attention to understanding the factors that contribute to it. However, much remains unknown about sample members’ reasons for nonresponse and the best way to address those concerns. For self-administered surveys in particular, which often rely on sample members responding to the request without the encouragement of an interviewer or researcher, it is crucial to better understand the attitudinal and environmental barriers that stop sample members from responding. In addition, relatively little existing work involves speaking directly with nonrespondents to a particular survey to hear from them about how the survey request fits into the bigger picture of their life. Drawing on qualitative data collected from 70 semistructured interviews conducted with individuals living in households that did not respond to a large-scale federal government mail survey, we present findings related to three domains of nonresponse: time use, attitudes toward the government, and privacy concerns. We find that these domains remain as relevant today as they were in prior decades, though the ways people experience them may be different. While themes emerge from our study that are relevant to survey research in general, we also expect that the exact way these and other domains are experienced and interact with survey response decisions will differ by population and by survey. We encourage survey researchers to incorporate qualitative methods into their survey design process so that the resulting design and materials are more likely to reflect the needs and issues facing each survey's population.",
           "url": "https://doi.org/10.1093/poq/nfaf026",
           "doi": "https://doi.org/10.1093/poq/nfaf026",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Social Science Computer Review",
-      "journal_short": "SSCR",
-      "articles": [
-        {
-          "title": "Navigating the Risks of Using Large Language Models for Text Annotation in Social Science Research",
-          "authors": "Hao Lin, Yongjun Zhang",
-          "abstract": "Large language models (LLMs) have the potential to revolutionize computational social science, particularly in automated textual analysis. In this paper, we conduct a systematic evaluation of the promises and risks associated with using LLMs for text classification tasks, using social movement studies as an example. We propose a framework for social scientists to incorporate LLMs into text annotation, either as the primary coding decision-maker or as a coding assistant. This framework offers researchers tools to develop the potential best-performing prompt, and to systematically examine and report the validity and reliability of LLMs as a methodological tool. Additionally, we evaluate and discuss its epistemic risks associated with validity, reliability, replicability, and transparency. We conclude with several practical guidelines for using LLMs in text annotation tasks and offer recommendations for more effectively communicating epistemic risks in research.",
-          "url": "https://doi.org/10.1177/08944393251366243",
-          "doi": "https://doi.org/10.1177/08944393251366243",
           "filter": 0
         }
       ],
