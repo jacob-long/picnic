@@ -1,5 +1,5 @@
 {
-  "update": "2025-08-16",
+  "update": "2025-08-17",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -51,18 +51,18 @@
           "filter": 0
         },
         {
+          "title": "Cognitive modeling of lure discriminability in the Mnemonic Similarity Task",
+          "authors": "Tianye Ma, Weiwei Zhang",
+          "url": "https://doi.org/10.3758/s13428-025-02785-1",
+          "doi": "https://doi.org/10.3758/s13428-025-02785-1",
+          "filter": 0
+        },
+        {
           "title": "Comparing likelihood-based and likelihood-free approaches to fitting and comparing models of intertemporal choice",
           "authors": "Peter D. Kvam, Konstantina Sokratous, Anderson K. Fitch, Jasmin Vassileva",
           "abstract": "Machine learning methods have recently begun to be used for fitting and comparing cognitive models, yet they have mainly focused on methods for dealing with models that lack tractable likelihoods. Evaluating how these approaches compare to traditional likelihood-based methods is critical to understanding the utility of machine learning for modeling and determining what role it might play in the development of new models and theories. In this paper, we systematically benchmark neural network approaches against likelihood-based approaches to model fitting and comparison, focusing on intertemporal choice modeling as an illustrative application. By applying each approach to intertemporal choice data from participants with substance use problems, we show that there is convergence between neural network and Bayesian methods when it comes to making inferences about latent processes and related substance use outcomes. For model comparison, however, classification networks significantly outperformed likelihood-based metrics. Next, we explored two extensions of this approach, using recurrent layers to allow them to fit data with variable stimuli and numbers of trials, and using dropout layers to allow for posterior sampling. We ultimately suggest that neural networks are better suited to fast parameter estimation and posterior sampling, applications to large data sets, and model comparison, while Bayesian MCMC methods should be preferred for flexible applications to smaller data sets featuring many conditions or experimental designs.",
           "url": "https://doi.org/10.3758/s13428-025-02779-z",
           "doi": "https://doi.org/10.3758/s13428-025-02779-z",
-          "filter": 0
-        },
-        {
-          "title": "Cognitive modeling of lure discriminability in the Mnemonic Similarity Task",
-          "authors": "Tianye Ma, Weiwei Zhang",
-          "url": "https://doi.org/10.3758/s13428-025-02785-1",
-          "doi": "https://doi.org/10.3758/s13428-025-02785-1",
           "filter": 0
         },
         {
@@ -92,13 +92,6 @@
           "authors": "Haofeng Ling, Shu M. Yu, Susana Jimenez‐Murcia, Hui Zhou, Hengyue Zhang, Ruimei Sun, Anise M.S. Wu",
           "url": "https://doi.org/10.1016/j.chb.2025.108771",
           "doi": "https://doi.org/10.1016/j.chb.2025.108771",
-          "filter": 0
-        },
-        {
-          "title": "Delving Into the Psychology of Machines: Exploring the Structure of Self-Regulated Learning via LLM-Generated Survey Responses",
-          "authors": "Leonie V.D.E. Vogelsmeier, Eduardo Oliveira, Kamila Misiejuk, Sonsoles López-Pernas, Mohammed Saqr",
-          "url": "https://doi.org/10.1016/j.chb.2025.108769",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108769",
           "filter": 0
         }
       ],
