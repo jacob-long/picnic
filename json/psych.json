@@ -1,5 +1,5 @@
 {
-  "update": "2025-08-21",
+  "update": "2025-08-22",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -11,6 +11,14 @@
           "abstract": "Statistical-mediation analysis is a widely used method in psychological research that helps understand the intermediate variables, known as mediators ( M ), by which an independent variable ( X ) causes an outcome variable ( Y ). A major contribution to statistical-mediation analysis has been the incorporation of causal methods because it allows a clear definition of the causal direct and mediated effects and the specification of the assumptions to interpret such effects as causal. Modern causal approaches to mediation analysis encourage routinely investigating the extent to which unobserved confounders may explain the observed mediated effects. The recommendation acknowledges that even when X represents random assignment, participants are not usually randomly assigned to levels of M ; hence, unobserved confounders may bias the M to Y relation ( b -path). In this article, we describe unobserved pretreatment confounding of the M to Y relation in experimental mediation studies and three sensitivity-analysis methods to assess unmeasured pretreatment confounding of the M to Y relation: the correlated-residuals method, the left-out-variables-error method, and the phantom-variable method. We report the results of a simulation study that compares the routine application of the three sensitivity-analysis methods. Results generally indicate that larger effect sizes of the population b -path are less susceptible to confounding bias for all sensitivity methods. Thus, an initial approach to investigating confounding bias in experimental mediation studies is to assess the effect size of the path relating M to Y , and more details can be obtained by applying one of the three sensitivity-analysis methods.",
           "url": "https://doi.org/10.1177/25152459251355586",
           "doi": "https://doi.org/10.1177/25152459251355586",
+          "filter": 0
+        },
+        {
+          "title": "From Experiments to Policy Insights: Generalizing Causal Effects From Study Samples to Target Populations",
+          "authors": "Wen Wei Loh, Dongning Ren",
+          "abstract": "Psychological science holds substantial promise for informing policy decisions but faces challenges in realizing its potential. One widely recognized challenge is bridging the gap between the nonrepresentative study samples commonly used to evaluate interventions and the broader populations that policymakers aim to serve. To address this challenge, we introduce causal effect generalizability, an approach from causal inference and epidemiology, in the form of an accessible, nontechnical tutorial for psychological and behavioral scientists. We use publicly available data from a real-world psychology intervention study to illustrate why causal effects in a nonrepresentative study sample may systematically differ from those in a broader population. We provide a step-by-step guide with user-friendly R functions, enabling researchers to generalize causal effects from a study sample back to the full target population. This approach allows researchers to assess intervention effects in broader populations, offering valuable insights to guide evidence-based policy development. We hope this nontechnical introductory material will assist scholars in enhancing the policy relevance and real-world impact of psychological science.",
+          "url": "https://doi.org/10.1177/25152459251359623",
+          "doi": "https://doi.org/10.1177/25152459251359623",
           "filter": 0
         },
         {
@@ -75,19 +83,19 @@
           "filter": 0
         },
         {
-          "title": "Informative data visualization with raincloud plots in JASP",
-          "authors": "Vincent L. Ott, Don van den Bergh, Bruno Boutin, Johnny van Doorn, František Bartoš, Nicholas Judd, Jordy van Langen, Luke Korthals, Rogier Kievit, Laura Groot, Eric-Jan Wagenmakers",
-          "abstract": "Proper data visualization helps researchers draw correct conclusions from their data and facilitates a more complete and transparent report of the results. In factorial designs, so-called raincloud plots have recently attracted attention as a particularly informative data visualization technique; raincloud plots can simultaneously show summary statistics (i.e., a box plot), a density estimate (i.e., the cloud), and the individual data points (i.e., the raindrops). Here we first present a ‘raincloud quartet’ that underscores the added value of raincloud plots over the traditional presentation of means and confidence intervals. The added value of raincloud plots appears to be increasingly recognized: a focused literature review of plots in Psychonomic Bulletin &amp; Review shows that 9% of plots in 2023 were raincloud plots. Another 29% of plots (vs. 2% in 2013) contained individual data points (i.e., raindrops), indicating a strong trend towards transparent and informative data visualization. To further encourage this trend and make raincloud plotting easy and practical for a broader group of researchers and students, we implemented a comprehensive suite of raincloud plots in JASP, an open-source statistics program with an intuitive graphical user interface. Examples from two factorial research designs illustrate how the JASP raincloud plots support a correct and comprehensive interpretation of the data.",
-          "url": "https://doi.org/10.3758/s13428-025-02773-5",
-          "doi": "https://doi.org/10.3758/s13428-025-02773-5",
-          "filter": 0
-        },
-        {
           "title": "A systematic evaluation of Dutch large language models’ surprisal estimates in sentence, paragraph and book reading",
           "authors": "Sam Boeve, Louisa Bogaerts",
           "abstract": "Studies using computational estimates of word predictability from neural language models have garnered strong evidence in favour of surprisal theory. Upon encountering a word, readers experience a processing difficulty that is a linear function of that word’s surprisal. Evidence for this effect has been established in the English language or using multilingual models to estimate surprisal across languages. At the same time, many language-specific models of unknown psychometric quality are made openly available. Here, we provide a systematic evaluation of the surprisal estimates of a collection of large language models, specifically designed for Dutch, examining how well they account for reading times in corpora of sentence, paragraph and book reading. We compare their performance to multilingual models and an N-gram model. While models’ predictive power for reading times varied considerably across corpora, GPT-2-based models demonstrated superior overall performance. We show that Dutch large language models exhibit the same inverse scaling trend observed for English, with the surprisal estimates of smaller models showing a better fit to reading times than those of the largest models. We also replicate the linear effect of surprisal on reading times for Dutch. Both effects, however, depended on the corpus used for evaluation. Overall, these results offer a psychometric leaderboard of Dutch large language models and challenge the notion of a one-size-fits-all language model for psycholinguistic research. The surprisal estimates derived from all neural language models across the three corpora, along with the code to extract the surprisal, are made publicly available ( https://osf.io/wr4qf/ ).",
           "url": "https://doi.org/10.3758/s13428-025-02774-4",
           "doi": "https://doi.org/10.3758/s13428-025-02774-4",
+          "filter": 0
+        },
+        {
+          "title": "Informative data visualization with raincloud plots in JASP",
+          "authors": "Vincent L. Ott, Don van den Bergh, Bruno Boutin, Johnny van Doorn, František Bartoš, Nicholas Judd, Jordy van Langen, Luke Korthals, Rogier Kievit, Laura Groot, Eric-Jan Wagenmakers",
+          "abstract": "Proper data visualization helps researchers draw correct conclusions from their data and facilitates a more complete and transparent report of the results. In factorial designs, so-called raincloud plots have recently attracted attention as a particularly informative data visualization technique; raincloud plots can simultaneously show summary statistics (i.e., a box plot), a density estimate (i.e., the cloud), and the individual data points (i.e., the raindrops). Here we first present a ‘raincloud quartet’ that underscores the added value of raincloud plots over the traditional presentation of means and confidence intervals. The added value of raincloud plots appears to be increasingly recognized: a focused literature review of plots in Psychonomic Bulletin &amp; Review shows that 9% of plots in 2023 were raincloud plots. Another 29% of plots (vs. 2% in 2013) contained individual data points (i.e., raindrops), indicating a strong trend towards transparent and informative data visualization. To further encourage this trend and make raincloud plotting easy and practical for a broader group of researchers and students, we implemented a comprehensive suite of raincloud plots in JASP, an open-source statistics program with an intuitive graphical user interface. Examples from two factorial research designs illustrate how the JASP raincloud plots support a correct and comprehensive interpretation of the data.",
+          "url": "https://doi.org/10.3758/s13428-025-02773-5",
+          "doi": "https://doi.org/10.3758/s13428-025-02773-5",
           "filter": 0
         },
         {
@@ -127,17 +135,40 @@
           "filter": 0
         },
         {
+          "title": "From Pixels to Action: Virtual Influencers Promoting Pro-Environmental Behavior through Anthropomorphism, Credibility, and Strategic Messaging",
+          "authors": "Meina Liu, Xiaoli Wu",
+          "url": "https://doi.org/10.1016/j.chb.2025.108778",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108778",
+          "filter": 0
+        },
+        {
           "title": "Down the Rabbit Hole of Sexting: How Sexting Behavior Influences Social Avoidance of People with Social Appearance Anxiety via Body Surveillance and Self-Disillusionment",
           "authors": "Sihao Yang, Shengzhe Yang, Vincent Huang",
           "url": "https://doi.org/10.1016/j.chb.2025.108773",
           "doi": "https://doi.org/10.1016/j.chb.2025.108773",
           "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Group Processes & Intergroup Relations",
+      "journal_short": "GPIR",
+      "articles": [
+        {
+          "title": "The value of leaders we trust and leaders who make us stronger: Exploring the distinct contributions of different components of identity leadership to group member outcomes",
+          "authors": "Kira Bibic, Svenja B. Frenzel, Rudolf Kerschreiter, Jeremy Wilson-Lemoine, Niklas Steffens, S. Alexander Haslam, Lucas Monzani, Serap Arslan Akfirat, Christine Joy A. Ballada, Tahir Bazarov, John Jamir Benzon R. Aruta, Lorenzo Avanzi, Aldijana Bunjak, Matej Černe, Charlotte M. Edelmann, Olga Epitropaki, Katrien Fransen, Cristina García-Ael, Steffen Giessner, Ilka H. Gleibs, Dorota Godlewska-Werner, Ronit Kark, Ana Laguia Gonzalez, Hodar Lam, Anna Lupina-Wegener, Yannis Markovits, Mazlan Maskor, Fernando Jorge Molero Alonso, Juan A. Moriano Leon, Pedro Neves, Daniela Pauknerová, Sylwiusz Retowski, Christine Roland-Lévy, Adil Samekin, Sebastian Schuh, Tomoki Sekiguchi, Lynda Jiwen Song, Joana Story, Jeroen Stouten, Liliya Sultanova, Srinivasan Tatachari, Lisanne van Bunderen, Dina Van Dijk, Sut I Wong, Xin‘an Zhang, Rolf van Dick",
+          "abstract": "This study investigates the critical role of social identity in leadership, specifically examining identity leadership (IL) and the unique contributions of its four subdimensions: identity prototypicality, identity advancement, identity entrepreneurship, and identity impresarioship. To date, research has largely focused on the global construct of identity leadership and shown that in organizational contexts, it is a predictor of a range of outcomes, including group members’ burnout and organizational citizenship. However, the distinct roles of the four subdimensions remain little understood. Extending earlier findings, we address this gap by testing the hypothesis that the four subdimensions are differentially implicated in two key mechanisms that underlie the relationship between IL and group outcomes: (a) trust in the leader and (b) team identification. The present study explores this proposition by using structural equation modeling with latent factors to test a mediation model in 2020–2021 data from the Global Identity Leadership Development project (GILD; N = 7,855). As hypothesized, we found that identity prototypicality and identity advancement predominantly predicted greater trust in the leader, whereas identity entrepreneurship primarily predicted greater team identification. Contrary to our hypothesis, identity impresarioship showed a negative relation with trust. In turn, both trust in the leader and team identification were positively associated with organizational citizenship behavior (OCB), and negatively with burnout. We conclude by reflecting on the implications of these findings for both the theory and practice of leadership.",
+          "url": "https://doi.org/10.1177/13684302251341818",
+          "doi": "https://doi.org/10.1177/13684302251341818",
+          "filter": 0
         },
         {
-          "title": "Predicting online group opinions: A hypergraph-enhanced structure deep clustering with LSTM",
-          "authors": "Jiayu Liu, Qingsheng Liu, He Li, Wang Shen, Yongqiang Sun, Lu Yu, Linlin Zhu, Qianru Shi",
-          "url": "https://doi.org/10.1016/j.chb.2025.108770",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108770",
+          "title": "Does nationalism compensate for perceived ethnic disadvantage? The moderating effect of SDO",
+          "authors": "Tamino Konur, Ramzi Abou-Ismail, Aleksandra Cichocka, Chris G. Sibley, Nikhil K. Sengupta",
+          "abstract": "Contemporary right-wing populist rhetoric paradoxically criticizes society as disadvantaging the ethnic majority relative to minorities, while simultaneously emphasizing the superiority of one’s own nation over others. Recent studies suggest that national superiority beliefs compensate for the perceived loss of ingroup advantage among ethnic-majority groups. A critical test of this idea would be whether ethnic-majority individuals with a higher need for group-based dominance show a stronger link between perceived ethnic deprivation and nationalism. Here, we assessed people’s need for dominance using the social dominance orientation (SDO) scale and tested our moderation hypothesis in two community samples in the UK and NZ (total N = 37,510). We found that white people perceiving their ethnic group as deprived predicts higher nationalism and does so more strongly for those higher on SDO. This suggests that part of the appeal of white nationalism may be about maintaining ethnic advantage, rather than economic grievances.",
+          "url": "https://doi.org/10.1177/13684302251358696",
+          "doi": "https://doi.org/10.1177/13684302251358696",
           "filter": 0
         }
       ],
@@ -148,10 +179,17 @@
       "journal_short": "JESP",
       "articles": [
         {
-          "title": "Why do some people refuse to compromise their positions on politicized practices? The role of need for closure",
-          "authors": "Namrata Goyal, Krishna Savani, Michael W. Morris",
-          "url": "https://doi.org/10.1016/j.jesp.2025.104816",
-          "doi": "https://doi.org/10.1016/j.jesp.2025.104816",
+          "title": "Norm-enhanced prebunking for actively open-minded thinking indirectly improves misinformation discernment and reduces conspiracy beliefs",
+          "authors": "Mikey Biddlestone, Carolin-Theresa Ziemer, Rakoen Maertens, Jon Roozenbeek, Sander van der Linden",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104818",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104818",
+          "filter": 0
+        },
+        {
+          "title": "The do-gooder dilemma: A self/other asymmetry in the perceived emotional costs of self-reporting good deeds",
+          "authors": "Jerry Richardson, Paul Bloom, Shaun Nichols, David Pizarro",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104808",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104808",
           "filter": 0
         },
         {
@@ -169,10 +207,24 @@
       "journal_short": "JPSP",
       "articles": [
         {
+          "title": "Moral absolutism drives support for bans: Unpacking ideological differences in the moral philosophies of conservatives and liberals.",
+          "authors": "Namrata Goyal, Lorenzo De Gregori, Yuqi Liu, Krishna Savani",
+          "url": "https://doi.org/10.1037/pspa0000464",
+          "doi": "https://doi.org/10.1037/pspa0000464",
+          "filter": 0
+        },
+        {
           "title": "Social bias blind spots: Attractiveness bias is seemingly tolerated because people fail to notice the bias.",
           "authors": "Bastian Jaeger, Gabriele Paolacci, Johannes Boegershausen",
           "url": "https://doi.org/10.1037/pspa0000459",
           "doi": "https://doi.org/10.1037/pspa0000459",
+          "filter": 0
+        },
+        {
+          "title": "Words don’t come easy: How lexical difficulty of items and vocabulary of subjects (not) affect personality assessment.",
+          "authors": "Elisa Altgassen, Catherine Schittenhelm, Oliver Wilhelm",
+          "url": "https://doi.org/10.1037/pspp0000572",
+          "doi": "https://doi.org/10.1037/pspp0000572",
           "filter": 0
         }
       ],
@@ -188,6 +240,20 @@
           "abstract": "Awe is an emotion elicited from experiencing great vastness that dramatically expands a person’s frame of reference. In this way, awe has been found to have numerous effects on the self, including feeling “small.” While smallness has previously been confounded with insignificance, little research has fully examined awe’s effects on existential significance (or insignificance). Four within-person experiments tested the effects of awe on subjective perceptions of the size of the self and personal significance. Before and after awe (vs. control), participants completed reports of metaphorical self- and world size and significance. Across studies, awe shrinks the self without making one feel insignificant. Within-person, participants generally report greater significance across all conditions, not specific to awe. Study 4 also examines if fear-based inductions affect significance. This opens future research questions pertaining to awe’s existential consequences on perceptions of the self and world.",
           "url": "https://doi.org/10.1177/01461672251359336",
           "doi": "https://doi.org/10.1177/01461672251359336",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Psychological Methods",
+      "journal_short": "PM",
+      "articles": [
+        {
+          "title": "Coefficient of agreement between two raters corrected for category prevalence: Alternative to kappa.",
+          "authors": "Rashid Saif Almehrizi",
+          "url": "https://doi.org/10.1037/met0000732",
+          "doi": "https://doi.org/10.1037/met0000732",
           "filter": 0
         }
       ],
