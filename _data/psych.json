@@ -1,24 +1,24 @@
 {
-  "update": "2025-08-23",
+  "update": "2025-08-24",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
       "journal_short": "AMPPS",
       "articles": [
         {
-          "title": "From Experiments to Policy Insights: Generalizing Causal Effects From Study Samples to Target Populations",
-          "authors": "Wen Wei Loh, Dongning Ren",
-          "abstract": "Psychological science holds substantial promise for informing policy decisions but faces challenges in realizing its potential. One widely recognized challenge is bridging the gap between the nonrepresentative study samples commonly used to evaluate interventions and the broader populations that policymakers aim to serve. To address this challenge, we introduce causal effect generalizability, an approach from causal inference and epidemiology, in the form of an accessible, nontechnical tutorial for psychological and behavioral scientists. We use publicly available data from a real-world psychology intervention study to illustrate why causal effects in a nonrepresentative study sample may systematically differ from those in a broader population. We provide a step-by-step guide with user-friendly R functions, enabling researchers to generalize causal effects from a study sample back to the full target population. This approach allows researchers to assess intervention effects in broader populations, offering valuable insights to guide evidence-based policy development. We hope this nontechnical introductory material will assist scholars in enhancing the policy relevance and real-world impact of psychological science.",
-          "url": "https://doi.org/10.1177/25152459251359623",
-          "doi": "https://doi.org/10.1177/25152459251359623",
-          "filter": 0
-        },
-        {
           "title": "Three Sensitivity-Analysis Methods to Assess Unmeasured Pretreatment Confounding Bias in Experimental Mediation Analysis",
           "authors": "Diana Alvarez-Bartolo, David P. MacKinnon",
           "abstract": "Statistical-mediation analysis is a widely used method in psychological research that helps understand the intermediate variables, known as mediators ( M ), by which an independent variable ( X ) causes an outcome variable ( Y ). A major contribution to statistical-mediation analysis has been the incorporation of causal methods because it allows a clear definition of the causal direct and mediated effects and the specification of the assumptions to interpret such effects as causal. Modern causal approaches to mediation analysis encourage routinely investigating the extent to which unobserved confounders may explain the observed mediated effects. The recommendation acknowledges that even when X represents random assignment, participants are not usually randomly assigned to levels of M ; hence, unobserved confounders may bias the M to Y relation ( b -path). In this article, we describe unobserved pretreatment confounding of the M to Y relation in experimental mediation studies and three sensitivity-analysis methods to assess unmeasured pretreatment confounding of the M to Y relation: the correlated-residuals method, the left-out-variables-error method, and the phantom-variable method. We report the results of a simulation study that compares the routine application of the three sensitivity-analysis methods. Results generally indicate that larger effect sizes of the population b -path are less susceptible to confounding bias for all sensitivity methods. Thus, an initial approach to investigating confounding bias in experimental mediation studies is to assess the effect size of the path relating M to Y , and more details can be obtained by applying one of the three sensitivity-analysis methods.",
           "url": "https://doi.org/10.1177/25152459251355586",
           "doi": "https://doi.org/10.1177/25152459251355586",
+          "filter": 0
+        },
+        {
+          "title": "From Experiments to Policy Insights: Generalizing Causal Effects From Study Samples to Target Populations",
+          "authors": "Wen Wei Loh, Dongning Ren",
+          "abstract": "Psychological science holds substantial promise for informing policy decisions but faces challenges in realizing its potential. One widely recognized challenge is bridging the gap between the nonrepresentative study samples commonly used to evaluate interventions and the broader populations that policymakers aim to serve. To address this challenge, we introduce causal effect generalizability, an approach from causal inference and epidemiology, in the form of an accessible, nontechnical tutorial for psychological and behavioral scientists. We use publicly available data from a real-world psychology intervention study to illustrate why causal effects in a nonrepresentative study sample may systematically differ from those in a broader population. We provide a step-by-step guide with user-friendly R functions, enabling researchers to generalize causal effects from a study sample back to the full target population. This approach allows researchers to assess intervention effects in broader populations, offering valuable insights to guide evidence-based policy development. We hope this nontechnical introductory material will assist scholars in enhancing the policy relevance and real-world impact of psychological science.",
+          "url": "https://doi.org/10.1177/25152459251359623",
+          "doi": "https://doi.org/10.1177/25152459251359623",
           "filter": 0
         },
         {
@@ -135,13 +135,6 @@
           "filter": 0
         },
         {
-          "title": "From Pixels to Action: Virtual Influencers Promoting Pro-Environmental Behavior through Anthropomorphism, Credibility, and Strategic Messaging",
-          "authors": "Meina Liu, Xiaoli Wu",
-          "url": "https://doi.org/10.1016/j.chb.2025.108778",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108778",
-          "filter": 0
-        },
-        {
           "title": "Adolescents' Engagement in Sexting as a Normative Behavior: Profiles of Consensual and Coerced Sexting",
           "authors": "Michal Dolev-Cohen, Hila Shaul",
           "url": "https://doi.org/10.1016/j.chb.2025.108777",
@@ -149,10 +142,24 @@
           "filter": 0
         },
         {
+          "title": "From Pixels to Action: Virtual Influencers Promoting Pro-Environmental Behavior through Anthropomorphism, Credibility, and Strategic Messaging",
+          "authors": "Meina Liu, Xiaoli Wu",
+          "url": "https://doi.org/10.1016/j.chb.2025.108778",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108778",
+          "filter": 0
+        },
+        {
           "title": "Down the Rabbit Hole of Sexting: How Sexting Behavior Influences Social Avoidance of People with Social Appearance Anxiety via Body Surveillance and Self-Disillusionment",
           "authors": "Sihao Yang, Shengzhe Yang, Vincent Huang",
           "url": "https://doi.org/10.1016/j.chb.2025.108773",
           "doi": "https://doi.org/10.1016/j.chb.2025.108773",
+          "filter": 0
+        },
+        {
+          "title": "Catch me if you search: When contextual web search results affect the detection of hallucinations",
+          "authors": "Mahjabin Nahar, Eun-Ju Lee, Jin Won Park, Dongwon Lee",
+          "url": "https://doi.org/10.1016/j.chb.2025.108763",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108763",
           "filter": 0
         }
       ],
@@ -162,6 +169,14 @@
       "journal_full": "Group Processes & Intergroup Relations",
       "journal_short": "GPIR",
       "articles": [
+        {
+          "title": "The role of opinion diversity in the hostile media effect: Partisan exposure on social media, affective polarization, and political participation",
+          "authors": "Seungsu Lee, Jaeho Cho",
+          "abstract": "This study examines the moderating role of the context of social opinion in hostile media perception and its effect on partisan audiences in polarized politics. An online experiment ( N = 574), conducted in the US, manipulated the number of congruent/incongruent comments and emojis on social media posts discussing abortion (i.e., pro-choice versus pro-life Facebook posts) to create three distinct opinion contexts (i.e., congruent, balanced, and incongruent). The results indicate that perceived bias gaps between pro-attitudinal and counter-attitudinal posts were reduced in the condition of incongruent context. Furthermore, the study found that the incongruent context mitigates discomfort toward out-party supporters and political participation intention through reducing the perceived bias, whereas the congruent context intensifies them. Implications for media bias perceptions and political polarization are discussed in terms of intergroup relations.",
+          "url": "https://doi.org/10.1177/13684302251357489",
+          "doi": "https://doi.org/10.1177/13684302251357489",
+          "filter": 0
+        },
         {
           "title": "Understanding the psychological effects of political news engagement among Latinos: Vicarious discrimination and anxiety during the 2020 election",
           "authors": "Manal Aboargob, Alyssa M. Ramirez, Hannah I. Volpert-Esmond",
@@ -176,6 +191,14 @@
           "abstract": "This study investigates the critical role of social identity in leadership, specifically examining identity leadership (IL) and the unique contributions of its four subdimensions: identity prototypicality, identity advancement, identity entrepreneurship, and identity impresarioship. To date, research has largely focused on the global construct of identity leadership and shown that in organizational contexts, it is a predictor of a range of outcomes, including group members’ burnout and organizational citizenship. However, the distinct roles of the four subdimensions remain little understood. Extending earlier findings, we address this gap by testing the hypothesis that the four subdimensions are differentially implicated in two key mechanisms that underlie the relationship between IL and group outcomes: (a) trust in the leader and (b) team identification. The present study explores this proposition by using structural equation modeling with latent factors to test a mediation model in 2020–2021 data from the Global Identity Leadership Development project (GILD; N = 7,855). As hypothesized, we found that identity prototypicality and identity advancement predominantly predicted greater trust in the leader, whereas identity entrepreneurship primarily predicted greater team identification. Contrary to our hypothesis, identity impresarioship showed a negative relation with trust. In turn, both trust in the leader and team identification were positively associated with organizational citizenship behavior (OCB), and negatively with burnout. We conclude by reflecting on the implications of these findings for both the theory and practice of leadership.",
           "url": "https://doi.org/10.1177/13684302251341818",
           "doi": "https://doi.org/10.1177/13684302251341818",
+          "filter": 0
+        },
+        {
+          "title": "Social norms of prejudice confrontations impact anticipated costs and benefits of confronting prejudice",
+          "authors": "Izilda Pereira-Jorge, Kimberly E. Chaney",
+          "abstract": "The current research examined the impact of perceived social norms of confronting interpersonal prejudice on White people’s perceived barriers and intentions to confront prejudice. The present research ( N total = 1,057) manipulated injunctive (Study 1) and descriptive (Studies 1–3) social norms of confronting prejudice via group consensus information and group behavior. Across studies, descriptive confronting norms facilitated perceptions of fewer anticipated social costs (Studies 1, 3) and greater social benefits (Studies 1–3) relative to the absence of a confronting norm (Studies 2–3) or an injunctive norm of confronting prejudice (Study 1). While social norms of prejudice confrontation did not directly impact White people’s intentions to confront prejudice (Study 1–3) or a specific instance of anti-Asian bias (Studies 2, 3), social norms did indirectly elicit greater intentions to confront prejudice through expectations of reduced social costs and increased social benefits (Studies 1, 2, 3).",
+          "url": "https://doi.org/10.1177/13684302251355900",
+          "doi": "https://doi.org/10.1177/13684302251355900",
           "filter": 0
         },
         {
@@ -212,6 +235,13 @@
           "authors": "Zhu Feng, Jin Wook Chang, Daniel A. Newark",
           "url": "https://doi.org/10.1016/j.jesp.2025.104819",
           "doi": "https://doi.org/10.1016/j.jesp.2025.104819",
+          "filter": 0
+        },
+        {
+          "title": "On the relation between boredom and social behavior: A registered report",
+          "authors": "Thekla Müller-Boysen, Sergio Pirla, Stefan Pfattheicher",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104804",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104804",
           "filter": 0
         }
       ],
