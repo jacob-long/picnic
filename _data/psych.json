@@ -1,21 +1,6 @@
 {
-  "update": "2025-08-28",
+  "update": "2025-08-29",
   "content": [
-    {
-      "journal_full": "Advances in Methods and Practices in Psychological Science",
-      "journal_short": "AMPPS",
-      "articles": [
-        {
-          "title": "From Experiments to Policy Insights: Generalizing Causal Effects From Study Samples to Target Populations",
-          "authors": "Wen Wei Loh, Dongning Ren",
-          "abstract": "Psychological science holds substantial promise for informing policy decisions but faces challenges in realizing its potential. One widely recognized challenge is bridging the gap between the nonrepresentative study samples commonly used to evaluate interventions and the broader populations that policymakers aim to serve. To address this challenge, we introduce causal effect generalizability, an approach from causal inference and epidemiology, in the form of an accessible, nontechnical tutorial for psychological and behavioral scientists. We use publicly available data from a real-world psychology intervention study to illustrate why causal effects in a nonrepresentative study sample may systematically differ from those in a broader population. We provide a step-by-step guide with user-friendly R functions, enabling researchers to generalize causal effects from a study sample back to the full target population. This approach allows researchers to assess intervention effects in broader populations, offering valuable insights to guide evidence-based policy development. We hope this nontechnical introductory material will assist scholars in enhancing the policy relevance and real-world impact of psychological science.",
-          "url": "https://doi.org/10.1177/25152459251359623",
-          "doi": "https://doi.org/10.1177/25152459251359623",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
@@ -26,6 +11,14 @@
           "abstract": "This study critically examines the cognitive and theoretical foundations of the alpha parameter within the Lévy flight model (LFM), an extension of the diffusion decision model (DDM) that incorporates heavy-tailed noise distributions. The alpha parameter, which modulates the tail of these distributions, is assessed for its test–retest reliability – an essential criterion for its classification as a cognitive style measure. Utilizing data from three previous studies, we observed that alpha demonstrates consistent reliability across tasks and time points, supporting its role as a trait-like characteristic. Our observation regarding the interrelations between LFM parameters showed that although most parameters exhibited weak correlations, reflecting their representation of distinct aspects of data, moderate correlations were observed between alpha and both threshold and non-decision time. Furthermore, investigating practice effects, we observed consistent reductions in non-decision time, threshold, and often alpha across sessions, accompanied by a corresponding increase in drift rate in demanding tasks. Notably, alpha showed a strong relationship with the mean reaction time of error responses, indicating its critical role in explaining fast error responses. Additionally, our examination of the predicted decision-time distribution found that lower alpha values correspond to shorter response times in the first quartile of both correct and error responses, highlighting its impact on capturing the dynamics of fast decision-making. Employing the BayesFlow framework for parameter estimation, we evaluated its precision across varying trial counts. These findings offer insights for future research on LFM and similar models.",
           "url": "https://doi.org/10.3758/s13428-025-02784-2",
           "doi": "https://doi.org/10.3758/s13428-025-02784-2",
+          "filter": 0
+        },
+        {
+          "title": "Latent variable sequence identification for cognitive models with neural network estimators",
+          "authors": "Ti-Fen Pan, Jing-Jing Li, Bill Thompson, Anne GE Collins",
+          "abstract": "Extracting time-varying latent variables from computational cognitive models plays a key role in uncovering the dynamic cognitive processes that drive behaviors. However, existing methods are limited to inferring latent variable sequences in a relatively narrow class of cognitive models. For example, a broad class of relevant cognitive models with intractable likelihood is currently out of reach of standard techniques, based on maximum a posteriori parameter estimation. Here, we present a simulation-based approach that leverages recurrent neural networks to map experimental data directly to the targeted latent variable space. We first show in simulations that our approach achieves competitive performance in inferring latent variable sequences in both likelihood-tractable and intractable models. We then demonstrate its applicability in real world datasets. Furthermore, the approach is practical to standard-size, individual data, generalizable across different computational models, and adaptable for continuous and discrete latent spaces. Our work underscores that combining recurrent neural networks and simulated data to identify model latent variable sequences broadens the scope of cognitive models researchers can explore, enabling testing a wider range of theories.",
+          "url": "https://doi.org/10.3758/s13428-025-02794-0",
+          "doi": "https://doi.org/10.3758/s13428-025-02794-0",
           "filter": 0
         },
         {
@@ -58,13 +51,6 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "From Pixels to Action: Virtual Influencers Promoting Pro-Environmental Behavior through Anthropomorphism, Credibility, and Strategic Messaging",
-          "authors": "Meina Liu, Xiaoli Wu",
-          "url": "https://doi.org/10.1016/j.chb.2025.108778",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108778",
-          "filter": 0
-        },
-        {
           "title": "Adolescents' engagement in sexting as a normative behavior: Profiles of consensual and coerced sexting",
           "authors": "Michal Dolev-Cohen, Hila Shaul",
           "url": "https://doi.org/10.1016/j.chb.2025.108777",
@@ -76,6 +62,13 @@
           "authors": "Mahjabin Nahar, Eun-Ju Lee, Jin Won Park, Dongwon Lee",
           "url": "https://doi.org/10.1016/j.chb.2025.108763",
           "doi": "https://doi.org/10.1016/j.chb.2025.108763",
+          "filter": 0
+        },
+        {
+          "title": "Sexting motivations and health outcomes in adolescent sexual minority males",
+          "authors": "Christoph Rosa, Elise Bragard, Celia B. Fisher",
+          "url": "https://doi.org/10.1016/j.chb.2025.108787",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108787",
           "filter": 0
         }
       ],
@@ -102,27 +95,11 @@
           "filter": 0
         },
         {
-          "title": "The value of leaders we trust and leaders who make us stronger: Exploring the distinct contributions of different components of identity leadership to group member outcomes",
-          "authors": "Kira Bibic, Svenja B. Frenzel, Rudolf Kerschreiter, Jeremy Wilson-Lemoine, Niklas Steffens, S. Alexander Haslam, Lucas Monzani, Serap Arslan Akfirat, Christine Joy A. Ballada, Tahir Bazarov, John Jamir Benzon R. Aruta, Lorenzo Avanzi, Aldijana Bunjak, Matej Černe, Charlotte M. Edelmann, Olga Epitropaki, Katrien Fransen, Cristina García-Ael, Steffen Giessner, Ilka H. Gleibs, Dorota Godlewska-Werner, Ronit Kark, Ana Laguia Gonzalez, Hodar Lam, Anna Lupina-Wegener, Yannis Markovits, Mazlan Maskor, Fernando Jorge Molero Alonso, Juan A. Moriano Leon, Pedro Neves, Daniela Pauknerová, Sylwiusz Retowski, Christine Roland-Lévy, Adil Samekin, Sebastian Schuh, Tomoki Sekiguchi, Lynda Jiwen Song, Joana Story, Jeroen Stouten, Liliya Sultanova, Srinivasan Tatachari, Lisanne van Bunderen, Dina Van Dijk, Sut I Wong, Xin‘an Zhang, Rolf van Dick",
-          "abstract": "This study investigates the critical role of social identity in leadership, specifically examining identity leadership (IL) and the unique contributions of its four subdimensions: identity prototypicality, identity advancement, identity entrepreneurship, and identity impresarioship. To date, research has largely focused on the global construct of identity leadership and shown that in organizational contexts, it is a predictor of a range of outcomes, including group members’ burnout and organizational citizenship. However, the distinct roles of the four subdimensions remain little understood. Extending earlier findings, we address this gap by testing the hypothesis that the four subdimensions are differentially implicated in two key mechanisms that underlie the relationship between IL and group outcomes: (a) trust in the leader and (b) team identification. The present study explores this proposition by using structural equation modeling with latent factors to test a mediation model in 2020–2021 data from the Global Identity Leadership Development project (GILD; N = 7,855). As hypothesized, we found that identity prototypicality and identity advancement predominantly predicted greater trust in the leader, whereas identity entrepreneurship primarily predicted greater team identification. Contrary to our hypothesis, identity impresarioship showed a negative relation with trust. In turn, both trust in the leader and team identification were positively associated with organizational citizenship behavior (OCB), and negatively with burnout. We conclude by reflecting on the implications of these findings for both the theory and practice of leadership.",
-          "url": "https://doi.org/10.1177/13684302251341818",
-          "doi": "https://doi.org/10.1177/13684302251341818",
-          "filter": 0
-        },
-        {
           "title": "Social norms of prejudice confrontations impact anticipated costs and benefits of confronting prejudice",
           "authors": "Izilda Pereira-Jorge, Kimberly E. Chaney",
           "abstract": "The current research examined the impact of perceived social norms of confronting interpersonal prejudice on White people’s perceived barriers and intentions to confront prejudice. The present research ( N total = 1,057) manipulated injunctive (Study 1) and descriptive (Studies 1–3) social norms of confronting prejudice via group consensus information and group behavior. Across studies, descriptive confronting norms facilitated perceptions of fewer anticipated social costs (Studies 1, 3) and greater social benefits (Studies 1–3) relative to the absence of a confronting norm (Studies 2–3) or an injunctive norm of confronting prejudice (Study 1). While social norms of prejudice confrontation did not directly impact White people’s intentions to confront prejudice (Study 1–3) or a specific instance of anti-Asian bias (Studies 2, 3), social norms did indirectly elicit greater intentions to confront prejudice through expectations of reduced social costs and increased social benefits (Studies 1, 2, 3).",
           "url": "https://doi.org/10.1177/13684302251355900",
           "doi": "https://doi.org/10.1177/13684302251355900",
-          "filter": 0
-        },
-        {
-          "title": "Does nationalism compensate for perceived ethnic disadvantage? The moderating effect of SDO",
-          "authors": "Tamino Konur, Ramzi Abou-Ismail, Aleksandra Cichocka, Chris G. Sibley, Nikhil K. Sengupta",
-          "abstract": "Contemporary right-wing populist rhetoric paradoxically criticizes society as disadvantaging the ethnic majority relative to minorities, while simultaneously emphasizing the superiority of one’s own nation over others. Recent studies suggest that national superiority beliefs compensate for the perceived loss of ingroup advantage among ethnic-majority groups. A critical test of this idea would be whether ethnic-majority individuals with a higher need for group-based dominance show a stronger link between perceived ethnic deprivation and nationalism. Here, we assessed people’s need for dominance using the social dominance orientation (SDO) scale and tested our moderation hypothesis in two community samples in the UK and NZ (total N = 37,510). We found that white people perceiving their ethnic group as deprived predicts higher nationalism and does so more strongly for those higher on SDO. This suggests that part of the appeal of white nationalism may be about maintaining ethnic advantage, rather than economic grievances.",
-          "url": "https://doi.org/10.1177/13684302251358696",
-          "doi": "https://doi.org/10.1177/13684302251358696",
           "filter": 0
         }
       ],
@@ -132,20 +109,6 @@
       "journal_full": "Journal of Experimental Social Psychology",
       "journal_short": "JESP",
       "articles": [
-        {
-          "title": "Norm-enhanced prebunking for actively open-minded thinking indirectly improves misinformation discernment and reduces conspiracy beliefs",
-          "authors": "Mikey Biddlestone, Carolin-Theresa Ziemer, Rakoen Maertens, Jon Roozenbeek, Sander van der Linden",
-          "url": "https://doi.org/10.1016/j.jesp.2025.104818",
-          "doi": "https://doi.org/10.1016/j.jesp.2025.104818",
-          "filter": 0
-        },
-        {
-          "title": "The do-gooder dilemma: A self/other asymmetry in the perceived emotional costs of self-reporting good deeds",
-          "authors": "Jerry Richardson, Paul Bloom, Shaun Nichols, David Pizarro",
-          "url": "https://doi.org/10.1016/j.jesp.2025.104808",
-          "doi": "https://doi.org/10.1016/j.jesp.2025.104808",
-          "filter": 0
-        },
         {
           "title": "Evaluative conditioning with multiple unconditioned stimuli – Integration at judgment?",
           "authors": "Florian Weber, Hans Alves, Tobias Vogel, Moritz Ingendahl",
@@ -175,17 +138,10 @@
       "journal_short": "JPSP",
       "articles": [
         {
-          "title": "Moral absolutism drives support for bans: Unpacking ideological differences in the moral philosophies of conservatives and liberals.",
-          "authors": "Namrata Goyal, Lorenzo De Gregori, Yuqi Liu, Krishna Savani",
-          "url": "https://doi.org/10.1037/pspa0000464",
-          "doi": "https://doi.org/10.1037/pspa0000464",
-          "filter": 0
-        },
-        {
-          "title": "Words don’t come easy: How lexical difficulty of items and vocabulary of subjects (not) affect personality assessment.",
-          "authors": "Elisa Altgassen, Catherine Schittenhelm, Oliver Wilhelm",
-          "url": "https://doi.org/10.1037/pspp0000572",
-          "doi": "https://doi.org/10.1037/pspp0000572",
+          "title": "Politically extreme individuals exhibit similar neural processing despite ideological differences.",
+          "authors": "Daantje de Bruin, Oriel FeldmanHall",
+          "url": "https://doi.org/10.1037/pspa0000460",
+          "doi": "https://doi.org/10.1037/pspa0000460",
           "filter": 0
         }
       ],
@@ -212,11 +168,56 @@
           "filter": 0
         },
         {
+          "title": "When Leader’s Forgiveness Backfires: Consequences on Trust and a Potential Mitigation Strategy",
+          "authors": "Minjoo Joo",
+          "abstract": "When leaders forgive, does it influence follower trust? This study examines whether forgiveness creates an integrity–benevolence dilemma for leaders, potentially reducing follower trust. Across three studies ( N = 1,235), findings reveal that forgiveness has a dual impact: it decreases integrity-based trust while enhancing benevolence-based trust. These findings were consistent across studies with controlled scenarios depicting typical organizational misconduct and a behavioral experiment with real stakes. Moreover, the negative impact of forgiveness on integrity-based trust was more pronounced in cases involving moral transgressions rather than competence, and when the consequences of the misconduct were severe (Study 1). However, when leaders explicitly articulated the moral principles behind their forgiveness, the negative effect on integrity was mitigated (Studies 2 and 3). These findings offer theoretical insights into leader forgiveness and trust as well as practical guidance for leaders to manage the forgiveness dilemma effectively.",
+          "url": "https://doi.org/10.1177/01461672251354896",
+          "doi": "https://doi.org/10.1177/01461672251354896",
+          "filter": 0
+        },
+        {
           "title": "Seeing Beyond Whose Prejudice? Effects of Perpetrator Race on People of Color’s Willingness to Engage in Solidarity Efforts With Perpetrators of Racism",
           "authors": "Minh Duc Pham, Kimberly E. Chaney",
           "abstract": "Applying the stigma-based solidarity framework in an interpersonal context, the current research examined the role of perpetrator race/ethnicity in people of color’s willingness to engage with outgroup perpetrators of racism in anti-racism solidarity. Five experiments ( N = 1,957) demonstrated that Asian, Latinx, and Black U.S. participants were more willing to discuss race, educate about ingroup-relevant racism, and work together to combat ingroup-relevant racism with perpetrators of color than with White perpetrators. This intraminority solidarity was explained by perceived greater shared discrimination experiences and anticipated greater comfort discussing discrimination with perpetrators of color. Current findings advance a nuanced understanding of intraminority relations.",
           "url": "https://doi.org/10.1177/01461672251358519",
           "doi": "https://doi.org/10.1177/01461672251358519",
+          "filter": 0
+        },
+        {
+          "title": "Perceived Zero-Sum Competition Between Asian Americans and Black Americans",
+          "authors": "Jin X. Goh, Taylor Douglas",
+          "abstract": "The 2023 Supreme Court decisions on affirmative action revealed the frayed relations between Asian and Black Americans. The gains that Black Americans have made were seen as coming at the expense of Asian Americans, suggesting a potential zero-sum perception. Three studies ( N = 1,475 CloudResearch online participants) examined the extent to which Asian, Black, and White Americans perceived a zero-sum competition between Asian and Black people. Studies 1 and 2 showed that Asian and White participants were more likely than Black participants to endorse the zero-sum belief that Asian Americans are losing to Black Americans. Studies 2 and 3 showed that participants perceived Asian Americans as losing more to White than Black people. Study 3 found that when Asian Americans perceived the Asian-Black relations in zero-sum terms, they were less supportive of Black people and perceived less support from Black people, but belief in Asian-White competition predicted stronger pro-Black sentiments.",
+          "url": "https://doi.org/10.1177/01461672251365061",
+          "doi": "https://doi.org/10.1177/01461672251365061",
+          "filter": 0
+        },
+        {
+          "title": "Testing Education and Accountability as Moderators of the Self-Interest Bias in Moral Character Judgments",
+          "authors": "Yong Lu, Katarzyna Miazek, Konrad Bocian",
+          "abstract": "The self-interest bias describes an inclination of people to evaluate transgressors morally better when the latter’s actions serve the former’s interests. Effective interventions to mitigate this type of self-serving bias remain underexplored. The current research investigates education and accountability as potential moderators of this bias. In preregistered Study 1 ( N = 668), as predicted, educating participants about the self-interest bias eliminated its effect on their moral character judgments. However, across three preregistered accountability studies ( N = 2,239), holding participants accountable for their judgments did not attenuate the bias. Similarly, in preregistered Study 5 ( N = 641), we found no evidence of a combined effect of education and accountability on reducing the bias. These findings suggest that while increasing awareness through education may effectively reduce biased moral judgments, accountability, especially when lacking external scrutiny or consequences, does not. Theoretical implications, methodological limitations, and future research opportunities are discussed.",
+          "url": "https://doi.org/10.1177/01461672251364308",
+          "doi": "https://doi.org/10.1177/01461672251364308",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Psychological Bulletin",
+      "journal_short": "PsychBull",
+      "articles": [
+        {
+          "title": "Do immediate judgments of learning alter memory performance? A meta-analytical review.",
+          "authors": "Franziska Ingendahl, Vered Halamish, Monika Undorf",
+          "url": "https://doi.org/10.1037/bul0000487",
+          "doi": "https://doi.org/10.1037/bul0000487",
+          "filter": 0
+        },
+        {
+          "title": "A meta-analytic reassessment of the vicious cycle of psychopathology and stressful life events: Commentary on Rnic et al. (2023).",
+          "authors": "Junhua Dang, Shanshan Xiao",
+          "url": "https://doi.org/10.1037/bul0000475",
+          "doi": "https://doi.org/10.1037/bul0000475",
           "filter": 0
         }
       ],
@@ -227,10 +228,10 @@
       "journal_short": "PM",
       "articles": [
         {
-          "title": "Coefficient of agreement between two raters corrected for category prevalence: Alternative to kappa.",
-          "authors": "Rashid Saif Almehrizi",
-          "url": "https://doi.org/10.1037/met0000732",
-          "doi": "https://doi.org/10.1037/met0000732",
+          "title": "Truncating the likelihood allows outlier exclusion without overestimating the evidence in the Bayes factor t test.",
+          "authors": "Henrik R. Godmann, František Bartoš, Eric-Jan Wagenmakers",
+          "url": "https://doi.org/10.1037/met0000782",
+          "doi": "https://doi.org/10.1037/met0000782",
           "filter": 0
         }
       ],
@@ -256,11 +257,27 @@
       "journal_short": "PsychMusic",
       "articles": [
         {
+          "title": "Slow pentatonic sequences facilitate sleep onset",
+          "authors": "Marco Costa, Alice Andreose, Francesco Barzetta, Alessia Beracci, Marco Fabbri, Raffaele Ferri, Valeria Gigli, Federica Giudetti, Martina Grimaldi, Monica Martoni, Vincenzo Natale, Nicola Prodi, Lorenzo Tonetti, Chiara Visentin, Miranda Occhionero",
+          "abstract": "Previous literature on the effects of musical stimuli in facilitating sleep onset has produced mixed results. This study aimed to test the efficacy of very slow pentatonic melodic sequences in facilitating sleep onset compared with a silence control condition. Twenty-two participants slept for four nights in a sleep lab with polysomnographic recording. The four nights included a first adaptation night and three experimental nights. Two nights included musical stimulation with speed in the delta and sub-delta range (1 Hz and 0.2 Hz, respectively), and one night included silence (control). The two musical stimulations consisted of pentatonic melodic sequences. Music was played from lights off until the onset of the slow-wave sleep (SWS) stage. Sleep onset latency, N1 duration, N2 latency, first N2 duration, SWS latency, sleep architecture, and spectral power of the interval from lights off to sleep onset were assessed from polysomnographic recordings. The results showed shorter latencies for sleep onset, N2, and SWS latencies with 0.2 Hz pentatonic sequences. Spectral analysis of the electroencephalography (EEG) data from lights off to sleep onset showed a significant increase in delta EEG oscillations in both musical conditions. Very slow musical stimulation can facilitate sleep onset.",
+          "url": "https://doi.org/10.1177/03057356251359079",
+          "doi": "https://doi.org/10.1177/03057356251359079",
+          "filter": 0
+        },
+        {
           "title": "Creating together: Musicians’ descriptions of relational aspects of their profession",
           "authors": "Nicola J Baker, Clemence Due, John Baranoff, Luke W Dollman",
           "abstract": "Previous research suggests that making music together has a positive effect on wellbeing. In contrast, research focussed on professional musicians indicates they experience higher than general population average rates of anxiety and depression symptoms. In addition, despite the creative process of ensemble music-making being a joint endeavour, current approaches to addressing mental wellbeing largely focus on self-reported physical and psychological symptoms and suggest individual solutions. In response, the aim of this research is to understand how professional orchestral musicians themselves perceive mental wellbeing (both their own and that of other musicians they know), with a particular focus on relational aspects. Semi-structured interviews were conducted with 18 musicians from full-time professional orchestras across Australia and were analysed using reflexive thematic analysis. This study contributes to knowledge about wellbeing for professional orchestral musicians by demonstrating a range of relational issues and how they impact the individual wellbeing of musicians both positively and negatively. In particular, the interconnectedness of experience and the impact of close, longstanding work relationships are discussed, as well as the contrast between experiences of secrecy and open communication.",
           "url": "https://doi.org/10.1177/03057356251362191",
           "doi": "https://doi.org/10.1177/03057356251362191",
+          "filter": 0
+        },
+        {
+          "title": "Old instruments or new? Listeners’ preferences for Baroque violin music performed on period and modern instruments",
+          "authors": "D. Gregory Springer, Tyler J. Goehring",
+          "abstract": "When performing music of earlier eras, musicians commonly perform on period instruments, yet there is limited empirical evidence regarding listeners’ perceptions of those instruments compared with modern instruments. In two experiments, we examined listeners’ preferences for Baroque violin music performed on period and modern instruments. In Experiment 1, collegiate musicians listened to an excerpt from Telemann’s Concerto à 4 Violini No. 1 performed both on period instruments and modern instruments and indicated which performance they preferred. Results revealed a small but nonsignificant preference for the period instruments and participants explained that their preferences were primarily due to elements related to tuning, intonation, and key. In Experiment 2, participants listened to both recordings and rated their enjoyment and perceived performance quality. However, participants heard one of the three types of framing information (congruent, incongruent, or none) regarding the instruments used in the recording (period vs. modern instruments). Participants provided significantly higher enjoyment ratings when they were told they were listening to period instrument recordings, whether or not they actually heard period instruments. However, significant condition by order interaction effects indicate that participants’ perceptions were further influenced by the order of recordings.",
+          "url": "https://doi.org/10.1177/03057356251364857",
+          "doi": "https://doi.org/10.1177/03057356251364857",
           "filter": 0
         }
       ],
