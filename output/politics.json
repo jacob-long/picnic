@@ -1,5 +1,5 @@
 {
-  "update": "2025-08-28",
+  "update": "2025-08-29",
   "content": [
     {
       "journal_full": "American Journal of Political Science",
@@ -11,6 +11,29 @@
           "abstract": "How do voters respond to economic crises: Do they turn against the incumbent, reward a certain political camp, polarize to the extremes, or perhaps continue to vote much like before? Analyzing extensive data on electorates, parties, and individuals in 24 countries for over half a century, we document a systematic pattern whereby economic crises tend to disproportionately favor the right. Three main forces underlie this pattern. First, voters tend to decrease support for the party heading the government when the crisis erupts. Second, after crises, voters tend to assign greater importance to issues typically owned by the right. Third, when center‐right parties preside over a crisis, voters often drift further rightward to nationalist parties rather than defect to the left. The far‐right thus serves as an effective vehicle for keeping the center‐right in power even when facing postcrisis disaffection by its voters.",
           "url": "https://doi.org/10.1111/ajps.70008",
           "doi": "https://doi.org/10.1111/ajps.70008",
+          "filter": 0
+        },
+        {
+          "title": "Testing the stability and temporal order of People of Color Identity and People of Color Solidarity : New evidence from a survey panel of Asian, Black, Latino, and multiracial adults",
+          "authors": "Andrew M. Engelhardt, Efrén Pérez, Seth K. Goldman, Yuen J. Huo, Tatishe Nteta, Linda R. Tropp",
+          "abstract": "Two crucial variables in the study of people of color (PoC) are identity and solidarity . Existing work construes identity as more stable than solidarity , with identity shifting solidarity between PoC. However, this view rests on cross‐sectional evidence, limiting researchers’ ability to formally appraise these key variables’ stability and sequence. We report the first longitudinal evidence on these matters by leveraging a unique two‐wave survey of Asian, Black, Latino, and multiracial adults. First, contrary to the current conceptualization, we find PoC solidarity is as stable as PoC identity , suggesting two alternate but durable sources of political unity among these groups. Second, consistent with its present conceptualization, we show PoC identity is associated with shifts in solidarity , but not vice versa. Third, we offer evidence that the dynamics between these variables hold uniformly across different PoC subgroups, highlighting this mega‐group's coherence and political relevance. We conclude by discussing our results’ implications for US inter‐minority politics.",
+          "url": "https://doi.org/10.1111/ajps.70009",
+          "doi": "https://doi.org/10.1111/ajps.70009",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "American Political Science Review",
+      "journal_short": "APSR",
+      "articles": [
+        {
+          "title": "Hidden Majoritarianism and Women’s Career Progression in Proportional Representation Systems",
+          "authors": "DANIEL M. SMITH, ALEXANDRA CIRONE, DAWN L. TEELE, GARY W. COX, JON H. FIVA",
+          "abstract": "The share of women in politics is higher, on average, under closed-list proportional representation (PR) electoral systems compared to majoritarian systems. Yet, even in PR systems, progress toward gender parity has been slow and uneven. We argue that women’s representation and career progression under PR might be impeded when single-occupant positions, such as local mayor and list leader, serve as important stepping stones in political career paths. Using a century of detailed candidate-level data from Norway, we investigate (1) whether gaps in women’s representation emerge at these “majoritarian stepping stones” and (2) how access to these positions affects women’s progression into higher offices. Our empirical analysis reveals that gender gaps indeed emerge at majoritarian stepping stones. However, we also document how Norwegian parties have employed workarounds—promoting women occupants of these positions at higher rates than men—to mitigate the adverse effects of this hidden majoritarianism on women’s representation in higher offices.",
+          "url": "https://doi.org/10.1017/s0003055425100786",
+          "doi": "https://doi.org/10.1017/s0003055425100786",
           "filter": 0
         }
       ],
@@ -58,6 +81,20 @@
           "abstract": "Political scientists lack a generally accepted definition of bargaining complexity, and attempts to quantify the complexity of political negotiations as such are rare. We argue that bargaining complexity is best defined as the amount of choice facing the negotiating actors, and best operationalized as the entropy of the probability distribution across potential bargaining outcomes. We apply this general approach to 343 government formation processes in advanced democracies, predicting the selection probability of each potential government using a state-of-the-art government formation model that integrates both arithmetic factors based on the number and size of parties and interparty relations, such as ideological dispersion and pre-electoral coalitions. We then demonstrate how to use our measure to disentangle between different determinants of bargaining complexity. Lastly, we show that bargaining complexity is robustly related to how many potential governments and partners were considered but ultimately set aside during negotiations and to the resulting cabinet’s durability.",
           "url": "https://doi.org/10.1017/s0007123425000109",
           "doi": "https://doi.org/10.1017/s0007123425000109",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Electoral Studies",
+      "journal_short": "ElectStud",
+      "articles": [
+        {
+          "title": "Issue congruence outweighs geography: Understanding the appeal of Bündnis Sahra Wagenknecht (BSW) in east and west Germany",
+          "authors": "Jan Philipp Thomeczek, Aiko Wagner",
+          "url": "https://doi.org/10.1016/j.electstud.2025.102986",
+          "doi": "https://doi.org/10.1016/j.electstud.2025.102986",
           "filter": 0
         }
       ],
@@ -128,6 +165,14 @@
           "filter": 0
         },
         {
+          "title": "Probabilistic Record Linkage Using Pretrained Text Embeddings",
+          "authors": "Joseph T. Ornstein",
+          "abstract": "Pretrained text embeddings are a fast and scalable method for determining whether two texts have similar meaning, capturing not only lexical similarity, but semantic similarity as well. In this article, I show how to incorporate these measures into a probabilistic record linkage procedure that yields considerable improvements in both precision and recall over existing methods. The procedure even allows researchers to link datasets across different languages. I validate the approach with a series of political science applications, and provide open-source statistical software for researchers to efficiently implement the proposed method.",
+          "url": "https://doi.org/10.1017/pan.2025.10016",
+          "doi": "https://doi.org/10.1017/pan.2025.10016",
+          "filter": 0
+        },
+        {
           "title": "Decomposing Network Influence: Social Influence Regression",
           "authors": "Shahryar Minhas, Peter D. Hoff",
           "abstract": "Understanding network influence and its determinants are key challenges in political science and network analysis. Traditional latent variable models position actors within a social space based on network dependencies but often do not elucidate the underlying factors driving these interactions. To overcome this limitation, we propose the social influence regression (SIR) model, an extension of vector autoregression tailored for relational data that incorporates exogenous covariates into the estimation of influence patterns. The SIR model captures influence dynamics via a pair of $n \\times n$ matrices that quantify how the actions of one actor affect the future actions of another. This framework not only provides a statistical mechanism for explaining actor influence based on observable traits but also improves computational efficiency through an iterative block coordinate descent method. We showcase the SIR model’s capabilities by applying it to monthly conflict events between countries, using data from the Integrated Crisis Early Warning System (ICEWS). Our findings demonstrate the SIR model’s ability to elucidate complex influence patterns within networks by linking them to specific covariates. This paper’s main contributions are: (1) introducing a model that explains third-order dependencies through exogenous covariates and (2) offering an efficient estimation approach that scales effectively with large, complex networks.",
@@ -172,32 +217,10 @@
       "journal_short": "PolGeo",
       "articles": [
         {
-          "title": "Local and indigenous knowledge systems on nature-based solutions: Addressing Green Colonialism in Mangrove restoration of the Indian Sundarbans",
-          "authors": "Mehebub Sahana",
-          "url": "https://doi.org/10.1016/j.polgeo.2025.103405",
-          "doi": "https://doi.org/10.1016/j.polgeo.2025.103405",
-          "filter": 0
-        },
-        {
           "title": "Residual urbanism: sanitary infrastructures and the governance of waste in Rio de Janeiro",
           "authors": "Mariana Cavalcanti, Maria Raquel Passos Lima",
           "url": "https://doi.org/10.1016/j.polgeo.2025.103406",
           "doi": "https://doi.org/10.1016/j.polgeo.2025.103406",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Political Psychology",
-      "journal_short": "PolPsyc",
-      "articles": [
-        {
-          "title": "Debunking misinformation on critical race theory",
-          "authors": "Mackenzie Devaney, Christopher Federico, Eugene Borgida",
-          "abstract": "There continues to be a pressing need to design and test effective corrections in response to political misinformation, as citizens must have accurate information to be able to meaningfully participate in politics. Critical race theory (CRT) is an issue marked by widespread misinformation and controversy, leading to efforts in multiple states to ban CRT. In a three‐wave panel design with a nationally diverse U.S. sample, a correction of misinformation about CRT was tested. Participants were randomly assigned to one of three conditions: (1) a control condition; (2) a misinformation‐only treatment; or (3) a misinformation plus correction treatment. Those in the misinformation plus correction condition had significantly higher accuracy scores than those in the control and misinformation‐only conditions. Moreover, this increased accuracy in the misinformation with correction condition was stronger among those most predisposed to accept CRT misinformation, that is, participants who scored high on a measure of unawareness of institutional discrimination. In contrast, participants' attitudes toward CRT bans were unaffected by the treatments, suggesting that correction can improve accuracy but does not change related opinions.",
-          "url": "https://doi.org/10.1111/pops.70065",
-          "doi": "https://doi.org/10.1111/pops.70065",
           "filter": 0
         }
       ],
@@ -269,6 +292,14 @@
           "url": "https://doi.org/10.1017/s1049096525101303",
           "doi": "https://doi.org/10.1017/s1049096525101303",
           "filter": 0
+        },
+        {
+          "title": "Ethical Considerations for SoTL Research in Political Science Education",
+          "authors": "Jeremy Moulton, Rebecca Tapscott",
+          "abstract": "In recent years, political science has expanded its focus on pedagogy, developing its own subfield in the Scholarship of Teaching and Learning (SoTL). Although this research is seemingly low risk, it nevertheless raises distinctive ethical questions. It also is increasingly subject to rigorous ethics review, often justified as necessary to protect students as a vulnerable category. Until recently, the field has made little comment on which ethical issues political scientists should be attuned to when designing SoTL studies. Building on the wider literature on ethics and SoTL research, this article presents research findings on how political science students view their own experiences of becoming participants in SoTL research, and it highlights several resultant ethical considerations. We accompany these findings with recommendations for conducting ethically sound SoTL research on political science education.",
+          "url": "https://doi.org/10.1017/s1049096525101285",
+          "doi": "https://doi.org/10.1017/s1049096525101285",
+          "filter": 0
         }
       ],
       "articles_hidden": []
@@ -311,6 +342,13 @@
           "authors": "Jason Brennan, Christopher Freiman",
           "url": "https://doi.org/10.1086/734272",
           "doi": "https://doi.org/10.1086/734272",
+          "filter": 0
+        },
+        {
+          "title": "How Street-Level Bureaucrats’ Traits Affect Community Leaders’ Assessments of the Government",
+          "authors": "Nico Ravanilla, Dotan Haim, Matthew Nanes",
+          "url": "https://doi.org/10.1086/734550",
+          "doi": "https://doi.org/10.1086/734550",
           "filter": 0
         }
       ],
