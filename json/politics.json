@@ -1,5 +1,5 @@
 {
-  "update": "2025-09-01",
+  "update": "2025-09-02",
   "content": [
     {
       "journal_full": "American Journal of Political Science",
@@ -44,6 +44,14 @@
       "journal_short": "BJPOL",
       "articles": [
         {
+          "title": "Anti-homeless Hostile Design as Wrongful Discrimination",
+          "authors": "Andreas Albertsen, Carl Knight",
+          "abstract": "Philosophical accounts of discrimination distinguish the question of what discrimination is from the question of its wrongfulness. This article addresses these two questions in the context of anti-homeless hostile design of public spaces. Regarding the first question, all forms of anti-homeless hostile design amount to discrimination, with typical cases (for example, anti-homeless spikes or benches) being direct discrimination, but with some cases (for example, CCTV not intended to target the homeless) being indirect discrimination. Regarding the second question, it is argued that all major accounts of the wrongness of discrimination identify the usual, directly discriminatory hostile design as wrongful on account of its harmful or disrespectful character. Most accounts also consider the less common indirectly discriminatory hostile design to be possibly wrongful, especially given the severe disadvantages faced by the homeless in contemporary cities.",
+          "url": "https://doi.org/10.1017/s0007123424000796",
+          "doi": "https://doi.org/10.1017/s0007123424000796",
+          "filter": 0
+        },
+        {
           "title": "Executive Policymaking Coalitions, Veto Activation, and Collective Action Problems",
           "authors": "Nicholas G. Napolio",
           "abstract": "Thousands of federal policies have been produced by coalitions of executive agencies over the last few decades. Despite this, little attention has been paid to why agencies collaborate. The decision among relatively autonomous agencies to collaborate and therefore cede some of their power demands theoretical attention. I argue that agencies form coalitions to overcome legislative oversight attempts by activating veto points and exploiting collective action problems in Congress. Using data on dozens of agencies over twenty-four years, I find that agencies form policy-making coalitions when it helps them activate veto points and exploit collective action problems among their overseers in Congress: namely, committee freeriding in oversight and legislative gridlock in lawmaking. These collective action problems, in turn, inhibit Congressional attempts to overturn bureaucratically led policies and therefore allow agency policies to stick. Agencies form coalitions actively in order to insulate their policies against congressional oversight.",
@@ -73,6 +81,14 @@
           "abstract": "Disadvantaged minority groups can gain support for their cause by convincing majority members of their experienced adversity. We theorize and empirically test the efficacy of different types of evidence, varying in character (statistical versus personal) and ambiguity (manifest versus ambiguous), vis-à-vis raising majority members’ awareness of ethnic minority discrimination. Reflecting the combination of these two dimensions, we develop four treatments based on real evidence/stories and test several pre-registered hypotheses regarding their efficacy in two survey-experimental studies conducted in Denmark. We find that manifest types of evidence – from an audit study and a personal story exhibiting explicit discrimination – are the most effective in raising majority members’ awareness of ethnic minority discrimination. Further, the effect of the personal story extends to increased support for anti-discrimination policies and higher donations to an immigrant NGO, highlighting how personal stories can increase majorities’ awareness of and willingness to act on the adversity experienced by minorities.",
           "url": "https://doi.org/10.1017/s0007123425100525",
           "doi": "https://doi.org/10.1017/s0007123425100525",
+          "filter": 0
+        },
+        {
+          "title": "Detecting Group Mentions in Political Rhetoric A Supervised Learning Approach",
+          "authors": "Hauke Licht, Ronja Sczepanski",
+          "abstract": "Politicians appeal to social groups to court their electoral support. However, quantifying which groups politicians refer to, claim to represent, or address in their public communication presents researchers with challenges. We propose a supervised learning approach for extracting group mentions from political texts. We first collect human annotations to determine the passages of a text that refer to social groups. We then fine-tune a transformer language model for contextualized supervised classification at the word level. Applied to unlabeled texts, our approach enables researchers to automatically detect and extract word spans that contain group mentions. We illustrate our approach in two applications, generating new empirical insights into how British parties use social groups in their rhetoric. Our method allows for detecting and extracting mentions of social groups from various sources of texts, creating new possibilities for empirical research in political science.",
+          "url": "https://doi.org/10.1017/s0007123424000954",
+          "doi": "https://doi.org/10.1017/s0007123424000954",
           "filter": 0
         },
         {
@@ -112,6 +128,22 @@
       "journal_short": "JEPS",
       "articles": [
         {
+          "title": "Misinformation Among Migrants: Evidence from Mexico and Colombia",
+          "authors": "Antonella Bandiera, Daniel Rojas",
+          "abstract": "This paper examines the effectiveness of media literacy interventions in countering misinformation among in-transit migrants in Mexico and Colombia. We conducted experiments to assess whether well-known strategies for fighting misinformation are effective for this understudied yet particularly vulnerable population. We evaluate the impact of digital media literacy tips on migrants’ ability to identify false information and their intentions to share migration-related content. We find that these interventions can effectively decrease migrants’ intentions to share misinformation. We also find suggestive evidence that asking participants to consider accuracy may inadvertently influence their sharing behavior by acting as a behavioral nudge, rather than simply eliciting their sharing intentions. Additionally, the interventions reduced trust in social media as an information source while maintaining trust in official channels. The findings suggest that incorporating digital literacy tips into official websites could be a cost-effective strategy to reduce misinformation circulation among migrant populations.",
+          "url": "https://doi.org/10.1017/xps.2025.10015",
+          "doi": "https://doi.org/10.1017/xps.2025.10015",
+          "filter": 0
+        },
+        {
+          "title": "Do Immigrants’ Partisan Preferences Influence Americans’ Support for Immigration?",
+          "authors": "Daniel McDowell, David A. Steinberg",
+          "abstract": "This study examines whether Americans are more supportive of immigration when migrants share their partisan preferences. To address this question, we embedded a preregistered experiment in a nationally representative survey that was fielded the week before the 2024 US Presidential Election. The main experimental treatment provided information that some immigrant groups tend to favor Donald Trump and the Republican Party. This information reduced support for immigration among Democrats and increased support for immigration among Republicans. Our findings suggest that immigrants’ political identities impact public support for immigration. They also suggest that Trump’s apparent gains among immigrant voters in the 2024 election have the potential to reduce partisan polarization over immigration in the future.",
+          "url": "https://doi.org/10.1017/xps.2025.10013",
+          "doi": "https://doi.org/10.1017/xps.2025.10013",
+          "filter": 0
+        },
+        {
           "title": "How Language Shapes Belief in Misinformation: A Study Among Multilinguals in Ukraine",
           "authors": "Aaron Erlich, Kevin Aslett, Sarah Graham, Joshua A. Tucker",
           "abstract": "Scholarship has identified key determinants of people’s belief in misinformation predominantly from English-language contexts. However, multilingual citizens often consume news media in multiple languages. We study how the language of consumption affects belief in misinformation and true news articles in multilingual environments. We suggest that language may pass on specific cues affecting how bilinguals evaluate information. In a ten-week survey experiment with bilingual adults in Ukraine, we measured if subjects evaluating information in their less-preferred language were less likely to believe it. We find those who prefer Ukrainian are less likely to believe both false and true stories written in Russian by approximately 0.2 standard deviation units. Conversely, those who prefer Russian show increased belief in false stories in Ukrainian, though this effect is less robust. A secondary digital media literacy intervention does not increase discernment as it reduces belief in both true and false stories equally.",
@@ -120,24 +152,26 @@
           "filter": 0
         }
       ],
-      "articles_hidden": []
+      "articles_hidden": [
+        {
+          "title": "Partisanship Unmasked? The Role of Politics and Social Norms in COVID-19 Mask-Wearing Behavior – CORRIGENDUM",
+          "authors": "John Carey, Brendan Nyhan, Joseph B. Phillips, Jason Reifler",
+          "url": "https://doi.org/10.1017/xps.2025.10016",
+          "doi": "https://doi.org/10.1017/xps.2025.10016",
+          "filter": 1
+        }
+      ]
     },
     {
       "journal_full": "Party Politics",
       "journal_short": "PP",
       "articles": [
         {
-          "title": "Book review: This is only the beginning. The making of a new left, from anti-austerity to the fall of Corbyn ChessumMichael. This is Only the Beginning. The Making of a New Left, From Anti-Austerity to the Fall of Corbyn. London: Bloomsbury Academic, 2025. £25 (hbk), £14.99 (pbk), xiv +266 pp, ISBN 07556-4128-4; 1350464841.",
-          "authors": "Luke March",
-          "url": "https://doi.org/10.1177/13540688251372879",
-          "doi": "https://doi.org/10.1177/13540688251372879",
-          "filter": 0
-        },
-        {
-          "title": "Votes at 16: Empowering young people and revitalising democracy in Britain BenKisbyJeromeLee. Votes at 16: Empowering Young People and Revitalising Democracy in Britain. London: Bloomsbury Publishing, 2025; £40.50 (hbk); £13.49 (pbk), 185 pp. ISBN 10 1350499757; 13 9781350499775.",
-          "authors": "Thomas Loughran",
-          "url": "https://doi.org/10.1177/13540688251371442",
-          "doi": "https://doi.org/10.1177/13540688251371442",
+          "title": "How do voters seek political information during real-world election campaigns?",
+          "authors": "Mohamed Nasr",
+          "abstract": "This paper examines the dynamics of voter information seeking during real-world election campaigns, a crucial yet relatively underexplored area of political behavior. Drawing on theories of information processing, I propose a model of information seeking driven by the need to resolve informational deficits, shaped by two fundamental party-level characteristics: incumbency status and programmatic change. Firstly, I expect voters to seek information more actively about opposition parties than about governing parties, as the former lack the highly visible track record of governing parties. Secondly, voters tend to seek more information when established non-governing parties undergo a significant programmatic reconfiguration. To empirically test these hypotheses, I compile a unique dataset comprising Google search data related to the main political parties of 11 liberal democracies between 2004 and 2023. The results reveal that voters consistently demonstrate a greater propensity to search for information about opposition parties than incumbent parties during election campaigns, particularly when the opposition implements substantial programmatic changes. These findings have crucial implications for understanding how voters search for political information about political parties in real-world electoral competitions and how party-level characteristics can drive this behavior.",
+          "url": "https://doi.org/10.1177/13540688251375302",
+          "doi": "https://doi.org/10.1177/13540688251375302",
           "filter": 0
         },
         {
@@ -146,14 +180,6 @@
           "abstract": "Literature focusing on the impact of moral rhetoric suggests that the moral justification of a party position can convince and polarize voters. Thus far existing work pays little attention to the role of partisan sources in explaining these effects. This study looks at the interaction between moral rhetoric and party cues in three Western European multiparty systems: Austria, Germany and the Netherlands. Making use of two studies, combining automated content analyses (170,786 manifesto statements), election surveys ( n = 17,140) and a survey experiment ( n = 1125) I find that that moral appeals can have positive as well as negative effects, many of which are dependent upon the source of the appeal. Ideological proximity turns out to be a more relevant moderator than partisanship.",
           "url": "https://doi.org/10.1177/13540688251370049",
           "doi": "https://doi.org/10.1177/13540688251370049",
-          "filter": 0
-        },
-        {
-          "title": "Age and representation styles: Are young candidates more likely to prioritize their voters over their own opinion or their party?",
-          "authors": "Julius Diener",
-          "abstract": "How do young politicians perceive their function as representatives? Do they prioritize their own, their party’s or their voters’ views? I argue that young politicians should be more genuinely motivated to prioritize the views of voters due to their experience of belonging to an underrepresented group. I use data from a candidate survey in Germany 2021 to estimate the probability that politicians report prioritizing their voters’ views across different candidate ages. I find that, while all candidates are most likely to focus on their own views, young candidates are more likely than their older colleagues to prioritize the views of voters over their own or their party’s. Variation in incumbency and prior political experience explains parts of this effect. This finding advances our understanding of how young politicians perceive their function as representatives and the role young politicians play in substantive youth representation.",
-          "url": "https://doi.org/10.1177/13540688251371605",
-          "doi": "https://doi.org/10.1177/13540688251371605",
           "filter": 0
         }
       ],
@@ -229,6 +255,83 @@
           "authors": "Daniel J. Hopkins, Gall Sigler",
           "url": "https://doi.org/10.1007/s11109-025-10070-2",
           "doi": "https://doi.org/10.1007/s11109-025-10070-2",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Political Geography",
+      "journal_short": "PolGeo",
+      "articles": [
+        {
+          "title": "Green national paradox? How the far right turned Sweden from a (reputed) pioneer of climate mitigation to an obstructor",
+          "authors": "Andreas Malm, Kristoffer Ekberg, Christina Englund, Johanne Tagmose Grønkjær, Martin Charlier, Olivia Medin, Ståle Holgersen",
+          "url": "https://doi.org/10.1016/j.polgeo.2025.103390",
+          "doi": "https://doi.org/10.1016/j.polgeo.2025.103390",
+          "filter": 0
+        },
+        {
+          "title": "Local and indigenous knowledge systems on nature-based solutions: Addressing Green Colonialism in Mangrove restoration of the Indian Sundarbans",
+          "authors": "Mehebub Sahana",
+          "url": "https://doi.org/10.1016/j.polgeo.2025.103405",
+          "doi": "https://doi.org/10.1016/j.polgeo.2025.103405",
+          "filter": 0
+        },
+        {
+          "title": "Violent environments and the low-carbon energy transition: Cautionary tales from Costa Rica and Papua New Guinea",
+          "authors": "Emily Benton Hite, Sarah Posner, Jerry K. Jacka",
+          "url": "https://doi.org/10.1016/j.polgeo.2025.103389",
+          "doi": "https://doi.org/10.1016/j.polgeo.2025.103389",
+          "filter": 0
+        },
+        {
+          "title": "Where do we go? Explaining democratic capital location preferences",
+          "authors": "David M. Willumsen",
+          "url": "https://doi.org/10.1016/j.polgeo.2025.103385",
+          "doi": "https://doi.org/10.1016/j.polgeo.2025.103385",
+          "filter": 0
+        },
+        {
+          "title": "Towards a global perspective on interrelated green hydrogen transitions: The case of Colombia",
+          "authors": "Kristina Dietz, Felix Malte Dorn, Etienne Schneider",
+          "url": "https://doi.org/10.1016/j.polgeo.2025.103395",
+          "doi": "https://doi.org/10.1016/j.polgeo.2025.103395",
+          "filter": 0
+        },
+        {
+          "title": "Domains of dominance: Political territorial control and conflict-related violence in postwar Abidjan",
+          "authors": "Sebastian van Baalen, Thao-Nguyen Ha",
+          "url": "https://doi.org/10.1016/j.polgeo.2025.103393",
+          "doi": "https://doi.org/10.1016/j.polgeo.2025.103393",
+          "filter": 0
+        },
+        {
+          "title": "Urbanisation, democracy, and political regime transformations",
+          "authors": "Nick Dorward, Sean Fox, Kristian Hoelscher",
+          "url": "https://doi.org/10.1016/j.polgeo.2025.103382",
+          "doi": "https://doi.org/10.1016/j.polgeo.2025.103382",
+          "filter": 0
+        },
+        {
+          "title": "Playing empire at home: Het Beursspel and Dutch popular colonial geopolitics in the 1940s",
+          "authors": "Xavier Guillaume, Jesse van Amelsvoort",
+          "url": "https://doi.org/10.1016/j.polgeo.2025.103404",
+          "doi": "https://doi.org/10.1016/j.polgeo.2025.103404",
+          "filter": 0
+        },
+        {
+          "title": "Residual urbanism: sanitary infrastructures and the governance of waste in Rio de Janeiro",
+          "authors": "Mariana Cavalcanti, Maria Raquel Passos Lima",
+          "url": "https://doi.org/10.1016/j.polgeo.2025.103406",
+          "doi": "https://doi.org/10.1016/j.polgeo.2025.103406",
+          "filter": 0
+        },
+        {
+          "title": "Seizing the means of innovation: On the relationship between Marxism and ecomodernism",
+          "authors": "Govand Khalid Azeez, Jonathan Symons",
+          "url": "https://doi.org/10.1016/j.polgeo.2025.103388",
+          "doi": "https://doi.org/10.1016/j.polgeo.2025.103388",
           "filter": 0
         }
       ],
@@ -322,13 +425,6 @@
           "abstract": "Fall 2022 was marked by a dramatic change in Russian information space. After months of boasting about the military campaign in Ukraine, Kremlin propagandists admitted certain military defeats and began to blame senior military command. I explain the change by reference to propaganda, asymmetric information, and informational autocrats. The propagandists could not conceal the defeats because war bloggers and military barons were disseminating information while mobilization was signaling lack of military progress, both of which reduced information asymmetries. Meanwhile, mobilization imposed costs on the public and incentivized increased monitoring of the war, threatening to undermine support of Putin, Russia’s informational autocrat. In response, Putin’s regime successfully shifted blame to military command, enabled by information asymmetries regarding the actions and structure of the military, which prevented the public from holding Putin accountable.",
           "url": "https://doi.org/10.1007/s11127-025-01324-y",
           "doi": "https://doi.org/10.1007/s11127-025-01324-y",
-          "filter": 0
-        },
-        {
-          "title": "Public choice and national defense: lessons for the Russian–Ukrainian war",
-          "authors": "Nathan P. Goodman, Jennifer Brick Murtazashvili, Ilia Murtazashvili, Ali Palida",
-          "url": "https://doi.org/10.1007/s11127-025-01322-0",
-          "doi": "https://doi.org/10.1007/s11127-025-01322-0",
           "filter": 0
         },
         {
