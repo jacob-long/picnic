@@ -87,7 +87,7 @@ if (nrow(subset(out, filter == 0 & is.na(abstract))) > 0) {
         
         # Check status code after retries
         status <- status_code(response)
-        if (status %in% c(403, 404, 429)) { # Also skip if max retries for 429 were hit
+        if (status %in% c(403, 404, 409, 429)) { # Also skip if max retries for 429 were hit
             warning(paste("Skipping URL due to status code", status, ":", url))
             next
         }
