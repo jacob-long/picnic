@@ -110,7 +110,7 @@ for (i in seq_len(nrow(preprints))) {
     gemini_response_text <- call_gemini_api(prompt_comm_classifier,
                                             paste("Title:", preprints$title[i], "\n",
                                                   "Abstract:", preprints$abstract[i]),
-                                            model = "gemini-2.0-flash") # Use requested model if different identifier needed
+                                            model = "gemini-2.5-flash") # Use requested model if different identifier needed
     # Parse the Gemini response text (assuming it returns "Yes" or "No")
     # Handle potential NULL response if API call failed or text extraction didn't work
     if (is.null(gemini_response_text)) {
