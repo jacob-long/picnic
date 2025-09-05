@@ -1,16 +1,46 @@
 {
-  "update": "2025-09-04",
+  "update": "2025-09-05",
   "content": [
+    {
+      "journal_full": "Advances in Methods and Practices in Psychological Science",
+      "journal_short": "AMPPS",
+      "articles": [
+        {
+          "title": "On Partial Versus Full Mediation and the Importance of Effect Sizes",
+          "authors": "Thomas Ledermann, Myriam Rudaz, Matthew S. Fritz",
+          "abstract": "Theoretical models involving one or multiple intervening variables often posit whether a cause influences an outcome both directly and indirectly or only indirectly. In testing mediation, this distinction of partial and full mediation has become a subject of debate because of statistical issues. We extend the critique on this notion and provide insights into what a statistically significant direct effect between a cause and an outcome in a mediation model can mean. We also evaluate different effect size measures for direct and indirect effects and offer practical recommendations for assessing mediation mechanisms, which we illustrate using different examples. The broader relevance of these recommendations beyond mediation analysis is discussed.",
+          "url": "https://doi.org/10.1177/25152459251355585",
+          "doi": "https://doi.org/10.1177/25152459251355585",
+          "filter": 0
+        },
+        {
+          "title": "Citing Decisions in Psychology: A Roadblock to Cumulative and Inclusive Science",
+          "authors": "Katherine M. Lawson, Brett A. Murphy, Jovani Azpeitia, Ella J. Lombard, Terrènce J. Pope",
+          "abstract": "Citations are the main avenue through which scholarly contributions are recognized. However, decisions about what to cite (or not cite) are often made without much systematic thought. Suboptimal citing practices undermine psychological science. Yet psychological science as a field has yet to comprehensively discuss ways to improve authors’ citing decisions. We outline the importance of citing for promoting the cumulativeness of the scientific endeavor, which encompasses promoting diversity, equity, and inclusion in the field. We describe how psychologists make citing decisions and some negative consequences when citation decisions are negligent (or even fraudulent). Moreover, we describe how citations driven by insular professional networks can reinforce historical exclusion and result in reference sections that reflect a failure to meaningfully search and engage with existing literature. Then, we review some potential causes of problematic citing behaviors, which include factors that manifest at the level of the individual, such as a desire to elevate one’s own professional profile, and systemic factors, such as the exponential growth in published literature. Finally, we offer strategies for the field, journals, labs, and individuals to improve citations. In framing our arguments and recommendations, we refer to empirical data collected on citing decisions from editorial-board members ( N = 213) at 23 psychology journals.",
+          "url": "https://doi.org/10.1177/25152459251351287",
+          "doi": "https://doi.org/10.1177/25152459251351287",
+          "filter": 0
+        },
+        {
+          "title": "Bridging Null Hypothesis Testing and Estimation: A Practical Guide to Statistical Conclusion Drawing From Research in Psychology",
+          "authors": "Henk A. L. Kiers, Jorge N. Tendeiro",
+          "abstract": "A well-known problem of null hypothesis significance testing is that it cannot be used to find support for the null hypothesis. A common solution for this is to replace the exact 0 value by an interval associated with values that are close to 0. This approach is denoted as equivalence testing and is a special case of procedures that test intervals of values against each other. Smiley et al. recently published a unified framework of statistical inference and suggested a straightforward method of testing all sorts of interval-based hypotheses in a unified way. In the present article, we discuss three alternative general approaches, based on Bayesian analysis, that have the advantage that the ensuing probabilities can be interpreted as probabilities of the population parameters rather than probabilities of the data (as is the case with frequentist methods). These methods (in some form) have been previously suggested, but here, we bring them together and show how they can be used for Smiley et al.’s full unified framework of statistical inference, now complementing it with three Bayesian counterparts. In particular, we show how each of the methods works in the analysis of a leading example data set involving a test on proportions. Subsequently, their relative pros and cons are discussed, and it is explained how the methods can be used for many statistical-analysis questions in practice using R and/or JASP. This is illustrated on an empirical data set for comparing means of two groups.",
+          "url": "https://doi.org/10.1177/25152459251365960",
+          "doi": "https://doi.org/10.1177/25152459251365960",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "Latent variable sequence identification for cognitive models with neural network estimators",
-          "authors": "Ti-Fen Pan, Jing-Jing Li, Bill Thompson, Anne GE Collins",
-          "abstract": "Extracting time-varying latent variables from computational cognitive models plays a key role in uncovering the dynamic cognitive processes that drive behaviors. However, existing methods are limited to inferring latent variable sequences in a relatively narrow class of cognitive models. For example, a broad class of relevant cognitive models with intractable likelihood is currently out of reach of standard techniques, based on maximum a posteriori parameter estimation. Here, we present a simulation-based approach that leverages recurrent neural networks to map experimental data directly to the targeted latent variable space. We first show in simulations that our approach achieves competitive performance in inferring latent variable sequences in both likelihood-tractable and intractable models. We then demonstrate its applicability in real world datasets. Furthermore, the approach is practical to standard-size, individual data, generalizable across different computational models, and adaptable for continuous and discrete latent spaces. Our work underscores that combining recurrent neural networks and simulated data to identify model latent variable sequences broadens the scope of cognitive models researchers can explore, enabling testing a wider range of theories.",
-          "url": "https://doi.org/10.3758/s13428-025-02794-0",
-          "doi": "https://doi.org/10.3758/s13428-025-02794-0",
+          "title": "Correction: Fabla: A voice-based ecological assessment method for securely collecting spoken responses to researcher questions",
+          "authors": "Deanna M. Kaplan, Santiago J. Arconada Alvarez, Roman Palitsky, Hyoann Choi, Gari D. Clifford, Melese Crozier, Boadie W. Dunlop, George H. Grant, Morgan N. Greenleaf, Leslie M. Johnson, Jessica Maples-Keller, Holly F. Levin-Aspenson, Jennifer S. Mascaro, Ariel McDowall, Nicole S. Pozzo, Charles L. Raison, Ali John Zarrabi, Barbara O. Rothbaum, Wilbur A. Lam",
+          "url": "https://doi.org/10.3758/s13428-025-02818-9",
+          "doi": "https://doi.org/10.3758/s13428-025-02818-9",
           "filter": 0
         },
         {
@@ -18,6 +48,14 @@
           "authors": "Yang Ba, Michelle V. Mancenido, Erin K. Chiou, Rong Pan",
           "url": "https://doi.org/10.3758/s13428-025-02804-1",
           "doi": "https://doi.org/10.3758/s13428-025-02804-1",
+          "filter": 0
+        },
+        {
+          "title": "A pipeline for stochastic and controlled generation of realistic language input for simulating infant language acquisition",
+          "authors": "Okko Räsänen, Daniil Kocharov",
+          "abstract": "Computational models of early language development involve implementing theories of learning as functional learning algorithms, exposing these models to realistic language input, and comparing learning outcomes to those in infants. While recent research has made major strides in developing more powerful learning models and evaluation protocols grounded in infant data, models are still predominantly trained with non-naturalistic input data, such as crowd-sourced read speech or text transcripts. This is due to the lack of suitable child-directed speech (CDS) corpora in terms of scale and quality. In parallel, the question of how properties and individual variability in language input affect learning outcomes is an active area of empirical research, underlining the need for realistic yet controllable data for modeling such phenomena. This paper presents a solution to the training data problem through stochastic generation of naturalistic CDS data using statistical models, thereby enabling controlled computational simulations with naturalistic input. We provide a proof-of-concept demonstration of the approach by showing how naturalistic CDS transcripts can be generated with a language model conditioned on recipient information (here, infant age), and how text-to-speech systems can be used to convert the transcripts to high-quality speech with a controllable speaking style. We also conduct modeling experiments with generated speech corpora by varying different aspects of the data, showing how this maps into different learning outcomes, thereby demonstrating the feasibility of the approach for controlled language learning simulations. Finally, we discuss the limitations of using synthetic data in general, and of the present proof-of-concept pipeline in particular.",
+          "url": "https://doi.org/10.3758/s13428-025-02772-6",
+          "doi": "https://doi.org/10.3758/s13428-025-02772-6",
           "filter": 0
         }
       ],
@@ -27,6 +65,13 @@
       "journal_full": "Computers in Human Behavior",
       "journal_short": "CHB",
       "articles": [
+        {
+          "title": "Beyond gameplay: Unpacking non-functional purchase intention in MMOGs through community and self-presentation lenses",
+          "authors": "Thi-Hang Hoang, Jen-Ruei Fu",
+          "url": "https://doi.org/10.1016/j.chb.2025.108772",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108772",
+          "filter": 0
+        },
         {
           "title": "Bystander Behavior in Traditional and Cyberbullying in Late Childhood: Profiles, Developmental Paths, and Their Associations with Psychosocial Adjustment",
           "authors": "Xin Tian, E.Scott Huebner, Lili Tian",
@@ -46,13 +91,6 @@
           "authors": "Claudia Marino, Michela Bersia, Jana Furstova, Tommaso Galeotti, Regina J.J.M. van den Eijnden, Meyran Boniel-Nissim, William Pickett, Michela Lenzi, Natale Canale, Charli Eriksson, Henri Lahti, Kristine Ozolina, Wendy Craig, Alessio Vieno",
           "url": "https://doi.org/10.1016/j.chb.2025.108789",
           "doi": "https://doi.org/10.1016/j.chb.2025.108789",
-          "filter": 0
-        },
-        {
-          "title": "Sexting motivations and health outcomes in adolescent sexual minority males",
-          "authors": "Christoph Rosa, Elise Bragard, Celia B. Fisher",
-          "url": "https://doi.org/10.1016/j.chb.2025.108787",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108787",
           "filter": 0
         },
         {
@@ -260,17 +298,17 @@
           "filter": 0
         },
         {
-          "title": "Revisiting the effect of discrepant perceptual fluency on truth judgments",
-          "authors": "Semih C. Aktepe, Daniel W. Heck",
-          "url": "https://doi.org/10.1016/j.jesp.2025.104774",
-          "doi": "https://doi.org/10.1016/j.jesp.2025.104774",
-          "filter": 0
-        },
-        {
           "title": "From ostracized to pleased: How fair and unfair social exclusion activates schadenfreude",
           "authors": "Sarah Mohammadi, Andrew H. Hales",
           "url": "https://doi.org/10.1016/j.jesp.2025.104786",
           "doi": "https://doi.org/10.1016/j.jesp.2025.104786",
+          "filter": 0
+        },
+        {
+          "title": "Revisiting the effect of discrepant perceptual fluency on truth judgments",
+          "authors": "Semih C. Aktepe, Daniel W. Heck",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104774",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104774",
           "filter": 0
         },
         {
@@ -287,13 +325,6 @@
       "journal_full": "Journal of Personality and Social Psychology",
       "journal_short": "JPSP",
       "articles": [
-        {
-          "title": "Politically extreme individuals exhibit similar neural processing despite ideological differences.",
-          "authors": "Daantje de Bruin, Oriel FeldmanHall",
-          "url": "https://doi.org/10.1037/pspa0000460",
-          "doi": "https://doi.org/10.1037/pspa0000460",
-          "filter": 0
-        },
         {
           "title": "Inference from social evaluation.",
           "authors": "Zachary J. Davis, Kelsey R. Allen, Max Kleiman-Weiner, Julian Jara-Ettinger, Tobias Gerstenberg",
@@ -370,6 +401,13 @@
           "url": "https://doi.org/10.1080/00273171.2025.2545367",
           "doi": "https://doi.org/10.1080/00273171.2025.2545367",
           "filter": 0
+        },
+        {
+          "title": "Equilibrium Causal Models: Connecting Dynamical Systems Modeling and Cross-Sectional Data Analysis",
+          "authors": "O. Ryan, F. Dablander",
+          "url": "https://doi.org/10.1080/00273171.2025.2522733",
+          "doi": "https://doi.org/10.1080/00273171.2025.2522733",
+          "filter": 0
         }
       ],
       "articles_hidden": []
@@ -379,14 +417,6 @@
       "journal_short": "PSPB",
       "articles": [
         {
-          "title": "Culture and the Social Clock: Cultural Differences in the Optimal Timing of Life",
-          "authors": "Lu Zang, Heejung Kim",
-          "abstract": "People typically hold personal views regarding the appropriate age ranges for significant life events, such as starting college, getting married, or having kids. Such socially prescribed timetables have been termed the social clock. In this paper, we investigate how and why the rigidity (or flexibility) of the social clock may vary across cultures. In three studies (two preregistered), participants from China and the United States were asked to provide the earliest and the latest ages they think appropriate for engaging in several life events. We operationalized the social clock’s rigidity as the width of the time windows for these life events. We found notable cultural differences: The social clock was more rigid in China than in the United States, and filial piety beliefs are likely explanations for these differences. We further assessed the anticipated negative self-conscious emotions associated with deviation from the social clocks. Societal implications and future directions were discussed.",
-          "url": "https://doi.org/10.1177/01461672251362514",
-          "doi": "https://doi.org/10.1177/01461672251362514",
-          "filter": 0
-        },
-        {
           "title": "Perceived Zero-Sum Competition Between Asian Americans and Black Americans",
           "authors": "Jin X. Goh, Taylor Douglas",
           "abstract": "The 2023 Supreme Court decisions on affirmative action revealed the frayed relations between Asian and Black Americans. The gains that Black Americans have made were seen as coming at the expense of Asian Americans, suggesting a potential zero-sum perception. Three studies ( N = 1,475 CloudResearch online participants) examined the extent to which Asian, Black, and White Americans perceived a zero-sum competition between Asian and Black people. Studies 1 and 2 showed that Asian and White participants were more likely than Black participants to endorse the zero-sum belief that Asian Americans are losing to Black Americans. Studies 2 and 3 showed that participants perceived Asian Americans as losing more to White than Black people. Study 3 found that when Asian Americans perceived the Asian-Black relations in zero-sum terms, they were less supportive of Black people and perceived less support from Black people, but belief in Asian-White competition predicted stronger pro-Black sentiments.",
@@ -395,11 +425,11 @@
           "filter": 0
         },
         {
-          "title": "When Leader’s Forgiveness Backfires: Consequences on Trust and a Potential Mitigation Strategy",
-          "authors": "Minjoo Joo",
-          "abstract": "When leaders forgive, does it influence follower trust? This study examines whether forgiveness creates an integrity–benevolence dilemma for leaders, potentially reducing follower trust. Across three studies ( N = 1,235), findings reveal that forgiveness has a dual impact: it decreases integrity-based trust while enhancing benevolence-based trust. These findings were consistent across studies with controlled scenarios depicting typical organizational misconduct and a behavioral experiment with real stakes. Moreover, the negative impact of forgiveness on integrity-based trust was more pronounced in cases involving moral transgressions rather than competence, and when the consequences of the misconduct were severe (Study 1). However, when leaders explicitly articulated the moral principles behind their forgiveness, the negative effect on integrity was mitigated (Studies 2 and 3). These findings offer theoretical insights into leader forgiveness and trust as well as practical guidance for leaders to manage the forgiveness dilemma effectively.",
-          "url": "https://doi.org/10.1177/01461672251354896",
-          "doi": "https://doi.org/10.1177/01461672251354896",
+          "title": "Culture and the Social Clock: Cultural Differences in the Optimal Timing of Life",
+          "authors": "Lu Zang, Heejung Kim",
+          "abstract": "People typically hold personal views regarding the appropriate age ranges for significant life events, such as starting college, getting married, or having kids. Such socially prescribed timetables have been termed the social clock. In this paper, we investigate how and why the rigidity (or flexibility) of the social clock may vary across cultures. In three studies (two preregistered), participants from China and the United States were asked to provide the earliest and the latest ages they think appropriate for engaging in several life events. We operationalized the social clock’s rigidity as the width of the time windows for these life events. We found notable cultural differences: The social clock was more rigid in China than in the United States, and filial piety beliefs are likely explanations for these differences. We further assessed the anticipated negative self-conscious emotions associated with deviation from the social clocks. Societal implications and future directions were discussed.",
+          "url": "https://doi.org/10.1177/01461672251362514",
+          "doi": "https://doi.org/10.1177/01461672251362514",
           "filter": 0
         },
         {
@@ -418,20 +448,6 @@
       "journal_short": "PsychBull",
       "articles": [
         {
-          "title": "Do immediate judgments of learning alter memory performance? A meta-analytical review.",
-          "authors": "Franziska Ingendahl, Vered Halamish, Monika Undorf",
-          "url": "https://doi.org/10.1037/bul0000487",
-          "doi": "https://doi.org/10.1037/bul0000487",
-          "filter": 0
-        },
-        {
-          "title": "A meta-analytic reassessment of the vicious cycle of psychopathology and stressful life events: Commentary on Rnic et al. (2023).",
-          "authors": "Junhua Dang, Shanshan Xiao",
-          "url": "https://doi.org/10.1037/bul0000475",
-          "doi": "https://doi.org/10.1037/bul0000475",
-          "filter": 0
-        },
-        {
           "title": "Exposure to community violence and biomarkers of allostatic load: A systematic review and meta-analysis.",
           "authors": "Bria Gresham, Mirinda M. Morency, Frederique Corcoran, Jacob J. Kunkel, Amy Riegelman",
           "url": "https://doi.org/10.1037/bul0000488",
@@ -442,37 +458,29 @@
       "articles_hidden": []
     },
     {
-      "journal_full": "Psychological Methods",
-      "journal_short": "PM",
+      "journal_full": "Psychological Science",
+      "journal_short": "PsychSci",
       "articles": [
         {
-          "title": "Truncating the likelihood allows outlier exclusion without overestimating the evidence in the Bayes factor t test.",
-          "authors": "Henrik R. Godmann, František Bartoš, Eric-Jan Wagenmakers",
-          "url": "https://doi.org/10.1037/met0000782",
-          "doi": "https://doi.org/10.1037/met0000782",
+          "title": "Assortative Mating Is a Natural Consequence of Heritable Variation in Preferences and Preferred Traits",
+          "authors": "Kaitlyn T. Harper, Brendan P. Zietsch",
+          "abstract": "Assortative mating—the tendency to choose partners similar to oneself—is a ubiquitous phenomenon in mate choice. Despite numerous proposed explanations, a parsimonious mechanism has been overlooked: When individuals choose mates on the basis of heritable traits and preferences, offspring inherit a trait and the corresponding preference from each parent, creating genetic correlations that link having a trait to preferring that same trait. We evaluated this mechanism with an agent-based model simulating 100 generations in which agents, with traits and preferences each uniquely determined by 40 loci, chose reproductive partners based on preferences. Genetic correlations formed between preferences and preferred traits, as well as between partner traits (i.e., assortative mating), demonstrating that heritable variation in preferences and preferred traits is sufficient to drive assortative mating. We presented a toy model here, so we cannot speak to the robustness of such genetic correlations or to the relative explanatory power of this mechanism over others.",
+          "url": "https://doi.org/10.1177/09567976251365900",
+          "doi": "https://doi.org/10.1177/09567976251365900",
           "filter": 0
         }
       ],
       "articles_hidden": []
     },
     {
-      "journal_full": "Psychology of Music",
-      "journal_short": "PsychMusic",
+      "journal_full": "Psychology of Popular Media",
+      "journal_short": "PPM",
       "articles": [
         {
-          "title": "Slow pentatonic sequences facilitate sleep onset",
-          "authors": "Marco Costa, Alice Andreose, Francesco Barzetta, Alessia Beracci, Marco Fabbri, Raffaele Ferri, Valeria Gigli, Federica Giudetti, Martina Grimaldi, Monica Martoni, Vincenzo Natale, Nicola Prodi, Lorenzo Tonetti, Chiara Visentin, Miranda Occhionero",
-          "abstract": "Previous literature on the effects of musical stimuli in facilitating sleep onset has produced mixed results. This study aimed to test the efficacy of very slow pentatonic melodic sequences in facilitating sleep onset compared with a silence control condition. Twenty-two participants slept for four nights in a sleep lab with polysomnographic recording. The four nights included a first adaptation night and three experimental nights. Two nights included musical stimulation with speed in the delta and sub-delta range (1 Hz and 0.2 Hz, respectively), and one night included silence (control). The two musical stimulations consisted of pentatonic melodic sequences. Music was played from lights off until the onset of the slow-wave sleep (SWS) stage. Sleep onset latency, N1 duration, N2 latency, first N2 duration, SWS latency, sleep architecture, and spectral power of the interval from lights off to sleep onset were assessed from polysomnographic recordings. The results showed shorter latencies for sleep onset, N2, and SWS latencies with 0.2 Hz pentatonic sequences. Spectral analysis of the electroencephalography (EEG) data from lights off to sleep onset showed a significant increase in delta EEG oscillations in both musical conditions. Very slow musical stimulation can facilitate sleep onset.",
-          "url": "https://doi.org/10.1177/03057356251359079",
-          "doi": "https://doi.org/10.1177/03057356251359079",
-          "filter": 0
-        },
-        {
-          "title": "Old instruments or new? Listeners’ preferences for Baroque violin music performed on period and modern instruments",
-          "authors": "D. Gregory Springer, Tyler J. Goehring",
-          "abstract": "When performing music of earlier eras, musicians commonly perform on period instruments, yet there is limited empirical evidence regarding listeners’ perceptions of those instruments compared with modern instruments. In two experiments, we examined listeners’ preferences for Baroque violin music performed on period and modern instruments. In Experiment 1, collegiate musicians listened to an excerpt from Telemann’s Concerto à 4 Violini No. 1 performed both on period instruments and modern instruments and indicated which performance they preferred. Results revealed a small but nonsignificant preference for the period instruments and participants explained that their preferences were primarily due to elements related to tuning, intonation, and key. In Experiment 2, participants listened to both recordings and rated their enjoyment and perceived performance quality. However, participants heard one of the three types of framing information (congruent, incongruent, or none) regarding the instruments used in the recording (period vs. modern instruments). Participants provided significantly higher enjoyment ratings when they were told they were listening to period instrument recordings, whether or not they actually heard period instruments. However, significant condition by order interaction effects indicate that participants’ perceptions were further influenced by the order of recordings.",
-          "url": "https://doi.org/10.1177/03057356251364857",
-          "doi": "https://doi.org/10.1177/03057356251364857",
+          "title": "Writing and reading fan fiction: The roles of self and social media.",
+          "authors": "Clara B. Rebello, Sonia Ghir, Kiana Reddock, Angelie Ignacio, Gerald C. Cupchik",
+          "url": "https://doi.org/10.1037/ppm0000613",
+          "doi": "https://doi.org/10.1037/ppm0000613",
           "filter": 0
         }
       ],
