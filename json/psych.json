@@ -1,5 +1,5 @@
 {
-  "update": "2025-09-05",
+  "update": "2025-09-06",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -37,10 +37,33 @@
       "journal_short": "BRM",
       "articles": [
         {
+          "title": "An introduction to the Item Response Warehouse (IRW): A resource for enhancing data usage in psychometrics",
+          "authors": "Benjamin W. Domingue, Mika Braginsky, Lucy Caffrey-Maffei, Joshua B. Gilbert, Klint Kanopka, Radhika Kapoor, Hansol Lee, Yiqing Liu, Savira Nadela, Guanzhong Pan, Lijin Zhang, Susu Zhang, Michael C. Frank",
+          "abstract": "The Item Response Warehouse (IRW) is a collection and standardization of a large volume of item response datasets in a free and open-source platform for researchers. We describe key elements of the data standardization process and provide a brief description of the over 900 datasets in the current iteration of the IRW (version 28.2). We describe how to access the data through both the website and an API, and offer a brief tutorial with example R code illustrating how to download data from the IRW and use it in standard psychometric analyses. While we are continuing to develop the IRW, this presentation may help researchers utilize data from this resource for work in psychometrics and related fields.",
+          "url": "https://doi.org/10.3758/s13428-025-02796-y",
+          "doi": "https://doi.org/10.3758/s13428-025-02796-y",
+          "filter": 0
+        },
+        {
+          "title": "Constructing a cross-race face identity triad test",
+          "authors": "Géraldine Jeckeln, Alice J. O’Toole",
+          "url": "https://doi.org/10.3758/s13428-025-02809-w",
+          "doi": "https://doi.org/10.3758/s13428-025-02809-w",
+          "filter": 0
+        },
+        {
           "title": "Correction: Fabla: A voice-based ecological assessment method for securely collecting spoken responses to researcher questions",
           "authors": "Deanna M. Kaplan, Santiago J. Arconada Alvarez, Roman Palitsky, Hyoann Choi, Gari D. Clifford, Melese Crozier, Boadie W. Dunlop, George H. Grant, Morgan N. Greenleaf, Leslie M. Johnson, Jessica Maples-Keller, Holly F. Levin-Aspenson, Jennifer S. Mascaro, Ariel McDowall, Nicole S. Pozzo, Charles L. Raison, Ali John Zarrabi, Barbara O. Rothbaum, Wilbur A. Lam",
           "url": "https://doi.org/10.3758/s13428-025-02818-9",
           "doi": "https://doi.org/10.3758/s13428-025-02818-9",
+          "filter": 0
+        },
+        {
+          "title": "Modeling within-level latent interaction effects in multilevel vector-autoregressive models",
+          "authors": "Jana Holtmann, Kenneth Koslowski",
+          "abstract": "The study of time-dependent within-person dynamics has gained popularity in recent years through the use of multilevel (latent) time-series models. However, due to the complexity of the models, model applications are usually limited with respect to the inclusion of time-varying moderating factors on the longitudinal within-person relations between variables. That is, in common applications of multilevel time-series models, the within-person dynamics of constructs over time are regarded as being insensitive to changes in other time-varying factors or changes in contexts. We illustrate an extension of multilevel latent time-series models that incorporate latent interaction effects at the dynamic within-person level. We build on previous work that incorporated time-varying observed or latent moderator variables for the dynamic parameters in vector autoregressive models and provide a tutorial for the application of the models, implemented and estimated using Bayesian estimation via Markov chain Monte Carlo techniques. The models are illustrated by two empirical applications that investigate the temporal dynamics of negative affect, rumination, and mindful attention. The performance of different models with varying complexity is investigated via several simulation studies to provide recommendations regarding the models’ applicability for applied researchers. Required sample sizes range between at least 25 time points for around 50 persons in the simplest fixed-effects models and at least 100 time points for at least 100 persons in random-effects factor models, depending on the expected effect sizes of the dynamic parameters.",
+          "url": "https://doi.org/10.3758/s13428-025-02694-3",
+          "doi": "https://doi.org/10.3758/s13428-025-02694-3",
           "filter": 0
         },
         {
@@ -80,14 +103,7 @@
           "filter": 0
         },
         {
-          "title": "Human-Machine Communication Privacy Management, Privacy Fatigue, and the Conditional Effects of Algorithm Awareness on Privacy Co-ownership in the Social Media Context",
-          "authors": "Matthew.J.A. Craig",
-          "url": "https://doi.org/10.1016/j.chb.2025.108786",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108786",
-          "filter": 0
-        },
-        {
-          "title": "Global change in adolescent social media use (2018-2022): An ecological analysis across 28 countries",
+          "title": "Global change in adolescent social media use (2018–2022): An ecological analysis across 28 countries",
           "authors": "Claudia Marino, Michela Bersia, Jana Furstova, Tommaso Galeotti, Regina J.J.M. van den Eijnden, Meyran Boniel-Nissim, William Pickett, Michela Lenzi, Natale Canale, Charli Eriksson, Henri Lahti, Kristine Ozolina, Wendy Craig, Alessio Vieno",
           "url": "https://doi.org/10.1016/j.chb.2025.108789",
           "doi": "https://doi.org/10.1016/j.chb.2025.108789",
@@ -298,17 +314,17 @@
           "filter": 0
         },
         {
-          "title": "From ostracized to pleased: How fair and unfair social exclusion activates schadenfreude",
-          "authors": "Sarah Mohammadi, Andrew H. Hales",
-          "url": "https://doi.org/10.1016/j.jesp.2025.104786",
-          "doi": "https://doi.org/10.1016/j.jesp.2025.104786",
-          "filter": 0
-        },
-        {
           "title": "Revisiting the effect of discrepant perceptual fluency on truth judgments",
           "authors": "Semih C. Aktepe, Daniel W. Heck",
           "url": "https://doi.org/10.1016/j.jesp.2025.104774",
           "doi": "https://doi.org/10.1016/j.jesp.2025.104774",
+          "filter": 0
+        },
+        {
+          "title": "From ostracized to pleased: How fair and unfair social exclusion activates schadenfreude",
+          "authors": "Sarah Mohammadi, Andrew H. Hales",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104786",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104786",
           "filter": 0
         },
         {
@@ -417,27 +433,11 @@
       "journal_short": "PSPB",
       "articles": [
         {
-          "title": "Perceived Zero-Sum Competition Between Asian Americans and Black Americans",
-          "authors": "Jin X. Goh, Taylor Douglas",
-          "abstract": "The 2023 Supreme Court decisions on affirmative action revealed the frayed relations between Asian and Black Americans. The gains that Black Americans have made were seen as coming at the expense of Asian Americans, suggesting a potential zero-sum perception. Three studies ( N = 1,475 CloudResearch online participants) examined the extent to which Asian, Black, and White Americans perceived a zero-sum competition between Asian and Black people. Studies 1 and 2 showed that Asian and White participants were more likely than Black participants to endorse the zero-sum belief that Asian Americans are losing to Black Americans. Studies 2 and 3 showed that participants perceived Asian Americans as losing more to White than Black people. Study 3 found that when Asian Americans perceived the Asian-Black relations in zero-sum terms, they were less supportive of Black people and perceived less support from Black people, but belief in Asian-White competition predicted stronger pro-Black sentiments.",
-          "url": "https://doi.org/10.1177/01461672251365061",
-          "doi": "https://doi.org/10.1177/01461672251365061",
-          "filter": 0
-        },
-        {
           "title": "Culture and the Social Clock: Cultural Differences in the Optimal Timing of Life",
           "authors": "Lu Zang, Heejung Kim",
           "abstract": "People typically hold personal views regarding the appropriate age ranges for significant life events, such as starting college, getting married, or having kids. Such socially prescribed timetables have been termed the social clock. In this paper, we investigate how and why the rigidity (or flexibility) of the social clock may vary across cultures. In three studies (two preregistered), participants from China and the United States were asked to provide the earliest and the latest ages they think appropriate for engaging in several life events. We operationalized the social clock’s rigidity as the width of the time windows for these life events. We found notable cultural differences: The social clock was more rigid in China than in the United States, and filial piety beliefs are likely explanations for these differences. We further assessed the anticipated negative self-conscious emotions associated with deviation from the social clocks. Societal implications and future directions were discussed.",
           "url": "https://doi.org/10.1177/01461672251362514",
           "doi": "https://doi.org/10.1177/01461672251362514",
-          "filter": 0
-        },
-        {
-          "title": "Testing Education and Accountability as Moderators of the Self-Interest Bias in Moral Character Judgments",
-          "authors": "Yong Lu, Katarzyna Miazek, Konrad Bocian",
-          "abstract": "The self-interest bias describes an inclination of people to evaluate transgressors morally better when the latter’s actions serve the former’s interests. Effective interventions to mitigate this type of self-serving bias remain underexplored. The current research investigates education and accountability as potential moderators of this bias. In preregistered Study 1 ( N = 668), as predicted, educating participants about the self-interest bias eliminated its effect on their moral character judgments. However, across three preregistered accountability studies ( N = 2,239), holding participants accountable for their judgments did not attenuate the bias. Similarly, in preregistered Study 5 ( N = 641), we found no evidence of a combined effect of education and accountability on reducing the bias. These findings suggest that while increasing awareness through education may effectively reduce biased moral judgments, accountability, especially when lacking external scrutiny or consequences, does not. Theoretical implications, methodological limitations, and future research opportunities are discussed.",
-          "url": "https://doi.org/10.1177/01461672251364308",
-          "doi": "https://doi.org/10.1177/01461672251364308",
           "filter": 0
         }
       ],
