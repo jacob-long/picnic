@@ -1,10 +1,33 @@
 {
-  "update": "2025-09-11",
+  "update": "2025-09-12",
   "content": [
+    {
+      "journal_full": "Advances in Methods and Practices in Psychological Science",
+      "journal_short": "AMPPS",
+      "articles": [
+        {
+          "title": "A Practical Guide to Specifying Random Effects in Longitudinal Dyadic Multilevel Modeling",
+          "authors": "Kareena S. del Rosario, Tessa V. West",
+          "abstract": "Analyzing over-time dyadic data can be challenging, particularly when using multilevel models with complex random-effect structures. In this tutorial, we discuss the best practices of model specification for longitudinal dyadic multilevel modeling, providing a practical guide to specifying (and respecifying) random effects with both theoretical and practical considerations in mind. We begin by defining random effects in the context of repeated-measures dyadic data and address common issues such as nonconvergence. Then, using two models—the dyadic growth-curve and the stability and influence model—we demonstrate how to apply these guidelines in both SAS and R. The dyadic growth-curve model provides a straightforward example, whereas the stability and influence model illustrates common challenges when dealing with complex random-effect structures and convergence issues. In the first exercise, we explain how to customize the variance-covariance matrix for these analyses in SAS. In the second exercise, we adapt these analyses for R and discuss how to implement the sum-and-difference approach for indistinguishable dyads. We conclude with a discussion of alternative models and go over the utility of data simulation during study design, helping readers plan and select the best approach for their research.",
+          "url": "https://doi.org/10.1177/25152459251351286",
+          "doi": "https://doi.org/10.1177/25152459251351286",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
       "articles": [
+        {
+          "title": "Parameter estimation of hyper-spherical diffusion models with a time-dependent threshold: An integral equation method",
+          "authors": "Amir Hosein Hadian Rasanan, Nathan J. Evans, Jamal Amani Rad, Jörg Rieskamp",
+          "abstract": "Over the past several decades, decision-making research has been dominated by the study of binary choice tasks, with key models assuming that people remain equally cautious regardless of how long they have spent on the choice problem. Recent research has begun to place a greater focus on studying tasks with a continuous-response scale, as well as models that allow for decreases in caution over decision time; however, these research topics have remained separate from one another. For instance, proposed models of continuous-response scales have assumed constant caution over time, and studies investigating whether caution decreases over time have focused on binary choice tasks. One reason for this separation is the lack of methodology for estimating the parameters of the decision models with time-dependent parameters for continuous responses. This paper aims to provide a stable and efficient parameter estimation technique for hyper-spherical diffusion models with a time-dependent threshold. Here, we propose an integral equation method for estimating the first-passage time distribution of hyper-spherical diffusion models. We assessed the robustness of our method through parameter recovery studies for constant and time-dependent threshold models, with our results demonstrating efficient and precise estimates for the parameters in both situations.",
+          "url": "https://doi.org/10.3758/s13428-025-02810-3",
+          "doi": "https://doi.org/10.3758/s13428-025-02810-3",
+          "filter": 0
+        },
         {
           "title": "An introduction to the Item Response Warehouse (IRW): A resource for enhancing data usage in psychometrics",
           "authors": "Benjamin W. Domingue, Mika Braginsky, Lucy Caffrey-Maffei, Joshua B. Gilbert, Klint Kanopka, Radhika Kapoor, Hansol Lee, Yiqing Liu, Savira Nadela, Guanzhong Pan, Lijin Zhang, Susu Zhang, Michael C. Frank",
@@ -21,6 +44,13 @@
           "filter": 0
         },
         {
+          "title": "Automatic infant 2D pose estimation from videos: Comparing seven deep neural network methods",
+          "authors": "Filipe Gama, Matěj Mísař, Lukáš Navara, Sergiu T. Popescu, Matej Hoffmann",
+          "url": "https://doi.org/10.3758/s13428-025-02816-x",
+          "doi": "https://doi.org/10.3758/s13428-025-02816-x",
+          "filter": 0
+        },
+        {
           "title": "Improving applications of a design-comparable effect size in single-case designs",
           "authors": "Yi-Kai Chen, Tong-Rong Yang, Li-Ting Chen, Cheng-Yu Hsieh, Che Cheng, Po-Ju Wu, Chao-Ying Joanne Peng",
           "url": "https://doi.org/10.3758/s13428-025-02715-1",
@@ -28,10 +58,11 @@
           "filter": 0
         },
         {
-          "title": "Correction: Fabla: A voice-based ecological assessment method for securely collecting spoken responses to researcher questions",
-          "authors": "Deanna M. Kaplan, Santiago J. Arconada Alvarez, Roman Palitsky, Hyoann Choi, Gari D. Clifford, Melese Crozier, Boadie W. Dunlop, George H. Grant, Morgan N. Greenleaf, Leslie M. Johnson, Jessica Maples-Keller, Holly F. Levin-Aspenson, Jennifer S. Mascaro, Ariel McDowall, Nicole S. Pozzo, Charles L. Raison, Ali John Zarrabi, Barbara O. Rothbaum, Wilbur A. Lam",
-          "url": "https://doi.org/10.3758/s13428-025-02818-9",
-          "doi": "https://doi.org/10.3758/s13428-025-02818-9",
+          "title": "The Emotional Crying Behavior Dataset (ECBD): A comprehensive resource to study the multifaceted nature of emotional crying",
+          "authors": "Monika Wróbel, Janis Zickfeld, Paweł Ciesielski",
+          "abstract": "Emotional crying is a complex and multifaceted expression that is frequently observed in humans. Its communicative effects have been recently studied in more detail. However, many studies focus on just one specific feature of emotional crying, most often emotional tears, neglecting the complex nature of the expression. Reports about crying episodes observe that tears most commonly occur in combination with other features such as facial expressions, vocalizations, gestures, and varied temporal dynamics. This shortcoming in research is mostly explained by a lack of adequately controlled stimuli depicting different crying features. Here, we provide a solution for this problem by introducing the Emotional Crying Behavior Dataset (ECBD), an openly available resource of 500 videos depicting 10 actors posing variations in tear intensity, facial expression intensity, vocalizations, gestures, and temporal dynamics, and the combination thereof. We present two studies ( N = 2,729) providing evidence for the validity of the dataset. In addition, we developed a static supplementary resource (ECBD-S) with 70 pictures depicting variations in tears and facial expression intensity that was successfully validated across two studies ( N = 601). Overall, our findings support the validity of this new stimulus set that closes a gap in the research on the interpersonal effects of emotional crying. The dataset is openly available for non-commercial research purposes at https://zenodo.org/records/15147817 .",
+          "url": "https://doi.org/10.3758/s13428-025-02766-4",
+          "doi": "https://doi.org/10.3758/s13428-025-02766-4",
           "filter": 0
         },
         {
@@ -43,11 +74,10 @@
           "filter": 0
         },
         {
-          "title": "A pipeline for stochastic and controlled generation of realistic language input for simulating infant language acquisition",
-          "authors": "Okko Räsänen, Daniil Kocharov",
-          "abstract": "Computational models of early language development involve implementing theories of learning as functional learning algorithms, exposing these models to realistic language input, and comparing learning outcomes to those in infants. While recent research has made major strides in developing more powerful learning models and evaluation protocols grounded in infant data, models are still predominantly trained with non-naturalistic input data, such as crowd-sourced read speech or text transcripts. This is due to the lack of suitable child-directed speech (CDS) corpora in terms of scale and quality. In parallel, the question of how properties and individual variability in language input affect learning outcomes is an active area of empirical research, underlining the need for realistic yet controllable data for modeling such phenomena. This paper presents a solution to the training data problem through stochastic generation of naturalistic CDS data using statistical models, thereby enabling controlled computational simulations with naturalistic input. We provide a proof-of-concept demonstration of the approach by showing how naturalistic CDS transcripts can be generated with a language model conditioned on recipient information (here, infant age), and how text-to-speech systems can be used to convert the transcripts to high-quality speech with a controllable speaking style. We also conduct modeling experiments with generated speech corpora by varying different aspects of the data, showing how this maps into different learning outcomes, thereby demonstrating the feasibility of the approach for controlled language learning simulations. Finally, we discuss the limitations of using synthetic data in general, and of the present proof-of-concept pipeline in particular.",
-          "url": "https://doi.org/10.3758/s13428-025-02772-6",
-          "doi": "https://doi.org/10.3758/s13428-025-02772-6",
+          "title": "From semantic knowledge to semantic features: French semantic feature production norms for 360 concepts",
+          "authors": "Widad Rachdi, Stéphanie Mathey, Christelle Robert",
+          "url": "https://doi.org/10.3758/s13428-025-02814-z",
+          "doi": "https://doi.org/10.3758/s13428-025-02814-z",
           "filter": 0
         }
       ],
@@ -58,10 +88,45 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "Beyond gameplay: Unpacking non-functional purchase intention in MMOGs through community and self-presentation lenses",
-          "authors": "Thi-Hang Hoang, Jen-Ruei Fu",
-          "url": "https://doi.org/10.1016/j.chb.2025.108772",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108772",
+          "title": "Beyond the Dichotomy of Use and Not-Use: Forms and Motivations of User Non-Use Behaviors Toward AI Customer Service",
+          "authors": "Junchen Yao, Dongqi Yan, Hongzhong Zhang",
+          "url": "https://doi.org/10.1016/j.chb.2025.108793",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108793",
+          "filter": 0
+        },
+        {
+          "title": "Unpacking Media Channel Effects on AI Perception: A Network Analysis of AI Information Exposure Across Channels, Overload, Literacy, and Anxiety among Chinese Users",
+          "authors": "Sha Sarah Qiu, Luxi Zhang, Fei You, Xinshu Zhao",
+          "url": "https://doi.org/10.1016/j.chb.2025.108790",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108790",
+          "filter": 0
+        },
+        {
+          "title": "From Mistrust to Confidence: How NeuroTech Improves Privacy for Mistrusted Digital Environments in a Formerly Incarcerated Population",
+          "authors": "Eric Durnell, Ryan T. Howell, Karynna Okabe-Miyamoto, Martin Zizi",
+          "url": "https://doi.org/10.1016/j.chb.2025.108794",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108794",
+          "filter": 0
+        },
+        {
+          "title": "“I Like Community More Than Influencers”: Unraveling the Influence of Followers on Parasocial Interaction and Attachment with Virtual Influencers",
+          "authors": "Jiyoung Bang, Sangman Han",
+          "url": "https://doi.org/10.1016/j.chb.2025.108796",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108796",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Journal of Experimental Social Psychology",
+      "journal_short": "JESP",
+      "articles": [
+        {
+          "title": "Keeping the goal in sight and in mind: The association between visual attention and motivational mindsets among runners",
+          "authors": "Emily Balcetis, Jordan S. Daley, Bradley Tao, Bryce Lexow",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104822",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104822",
           "filter": 0
         }
       ],
@@ -79,10 +144,32 @@
           "filter": 0
         },
         {
-          "title": "Equilibrium Causal Models: Connecting Dynamical Systems Modeling and Cross-Sectional Data Analysis",
-          "authors": "O. Ryan, F. Dablander",
-          "url": "https://doi.org/10.1080/00273171.2025.2522733",
-          "doi": "https://doi.org/10.1080/00273171.2025.2522733",
+          "title": "Mixed-Effects Frequency-Adjusted Borders Ordinal Forest: A Tree Ensemble Method for Ordinal Prediction with Hierarchical Data",
+          "authors": "Philip Buczak",
+          "url": "https://doi.org/10.1080/00273171.2025.2547416",
+          "doi": "https://doi.org/10.1080/00273171.2025.2547416",
+          "filter": 0
+        },
+        {
+          "title": "How to Model Ambulatory Assessments Measured at Different Frequencies: An N = 1 Approach",
+          "authors": "Sophie W. Berkhout, Noémi K. Schuurman, Ellen L. Hamaker",
+          "url": "https://doi.org/10.1080/00273171.2025.2552303",
+          "doi": "https://doi.org/10.1080/00273171.2025.2552303",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Personality and Social Psychology Bulletin",
+      "journal_short": "PSPB",
+      "articles": [
+        {
+          "title": "Demotivating Justice: White Americans’ Outrage at Individual Bigotry May Reduce Action to Address Systematic Racial Inequity",
+          "authors": "Zachary K. Rothschild, Myles Hugee",
+          "abstract": "These studies examine whether expressing outrage at a prejudiced individual may undermine justice-insensitive White Americans’ motivation to engage in more costly actions addressing systemic racism. Study 1 ( N = 896) manipulated White privilege salience and the opportunity to express outrage before measuring donations to a racial justice organization. Reminders of racial privilege increased White collective guilt, and donations among White U.S. participants low (but not high) in justice sensitivity. However, the opportunity to express outrage at another’s prejudicial behavior negated privilege-induced reparative action. A second preregistered study ( N = 1344) found this effect only when outrage was directed at a racialized (vs. non-racialized) injustice. A third preregistered study ( N = 1133) replicated the effects using a more controlled manipulation of outrage expression and more ecologically valid outcomes. Findings suggest that salient racial privilege may motivate some White Americans to address systemic racism, but expressing outrage at another’s bigotry may undermine this process.",
+          "url": "https://doi.org/10.1177/01461672251361264",
+          "doi": "https://doi.org/10.1177/01461672251361264",
           "filter": 0
         }
       ],
@@ -93,25 +180,19 @@
       "journal_short": "PsychSci",
       "articles": [
         {
-          "title": "Assortative Mating Is a Natural Consequence of Heritable Variation in Preferences and Preferred Traits",
-          "authors": "Kaitlyn T. Harper, Brendan P. Zietsch",
-          "abstract": "Assortative mating—the tendency to choose partners similar to oneself—is a ubiquitous phenomenon in mate choice. Despite numerous proposed explanations, a parsimonious mechanism has been overlooked: When individuals choose mates on the basis of heritable traits and preferences, offspring inherit a trait and the corresponding preference from each parent, creating genetic correlations that link having a trait to preferring that same trait. We evaluated this mechanism with an agent-based model simulating 100 generations in which agents, with traits and preferences each uniquely determined by 40 loci, chose reproductive partners based on preferences. Genetic correlations formed between preferences and preferred traits, as well as between partner traits (i.e., assortative mating), demonstrating that heritable variation in preferences and preferred traits is sufficient to drive assortative mating. We presented a toy model here, so we cannot speak to the robustness of such genetic correlations or to the relative explanatory power of this mechanism over others.",
-          "url": "https://doi.org/10.1177/09567976251365900",
-          "doi": "https://doi.org/10.1177/09567976251365900",
+          "title": "Sexual Identity Development Milestones, Latent Profiles, and Proximal Minority Stressors in Australia’s Generation Z",
+          "authors": "William Warton, Michelle L. Byrne, Kelly-Ann Allen",
+          "abstract": "This study examined the sequence and timing of sexual identity development (SID) milestones among Generation Z LGBTQ+ Australians, focusing on variations across subgroups and their relationship with minority stressors. The study included 490 Australian LGBTQ+ individuals aged 16 to 26, predominantly White ( n = 389) and assigned female at birth ( n = 402), with a balanced distribution between cisgender and gender-diverse participants. Demographic differences in the timing and achievement of SID milestones were found for sexual and gender identity. Latent profile analysis identified four distinct profiles, highlighting identity-centered and sex-centered sequences. Differences in rejection sensitivity, emotion dysregulation, and self-acceptance of sexual identity were noted across these profiles, but not for internalized homonegativity. Our findings indicate that SID trajectories do not strictly conform to discrete sexual or gender identity categories. The cross-sectional design limits causality inference, and findings are not generalizable to all LGBTQ+ young people or Generation Z more broadly.",
+          "url": "https://doi.org/10.1177/09567976251372130",
+          "doi": "https://doi.org/10.1177/09567976251372130",
           "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Psychology of Popular Media",
-      "journal_short": "PPM",
-      "articles": [
+        },
         {
-          "title": "Writing and reading fan fiction: The roles of self and social media.",
-          "authors": "Clara B. Rebello, Sonia Ghir, Kiana Reddock, Angelie Ignacio, Gerald C. Cupchik",
-          "url": "https://doi.org/10.1037/ppm0000613",
-          "doi": "https://doi.org/10.1037/ppm0000613",
+          "title": "Pseudo Effects: How Method Biases Can Produce Spurious Findings About Close Relationships",
+          "authors": "Samantha Joel, John K. Sakaluk, James J. Kim, Devinder Khera, Helena Yuchen Qin, Sarah C. E. Stanton",
+          "abstract": "Research on interpersonal relationships frequently relies on accurate self-reporting across various relationship facets (e.g., conflict, trust, appreciation). Yet shared method biases—which may greatly inflate associations between measures—are rarely accounted for during measurement validation or hypothesis testing. To examine how method biases can affect relationship research, we embarked on the ironic exploration of a new construct— Pseudo —comprised of irrelevant relationship evaluations (e.g., “My relationship has very good Saturn”). Pseudo was moderately associated with common relationship measures (e.g., satisfaction, commitment) and predicted those measures 3 weeks later. Results of a dyadic longitudinal study suggested that Pseudo taps into method biases, particularly sentiment override (i.e., people’s tendency to project their global relationship sentiments onto every relationship evaluation). We conclude that psychometric standards must be sufficiently rigorous to distinguish genuine constructs and associations from methodological artifacts that can otherwise pose a serious validity threat.",
+          "url": "https://doi.org/10.1177/09567976251370262",
+          "doi": "https://doi.org/10.1177/09567976251370262",
           "filter": 0
         }
       ],
