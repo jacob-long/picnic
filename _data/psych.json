@@ -1,16 +1,16 @@
 {
-  "update": "2025-09-16",
+  "update": "2025-09-17",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
       "journal_short": "AMPPS",
       "articles": [
         {
-          "title": "A Practical Guide to Specifying Random Effects in Longitudinal Dyadic Multilevel Modeling",
-          "authors": "Kareena S. del Rosario, Tessa V. West",
-          "abstract": "Analyzing over-time dyadic data can be challenging, particularly when using multilevel models with complex random-effect structures. In this tutorial, we discuss the best practices of model specification for longitudinal dyadic multilevel modeling, providing a practical guide to specifying (and respecifying) random effects with both theoretical and practical considerations in mind. We begin by defining random effects in the context of repeated-measures dyadic data and address common issues such as nonconvergence. Then, using two models—the dyadic growth-curve and the stability and influence model—we demonstrate how to apply these guidelines in both SAS and R. The dyadic growth-curve model provides a straightforward example, whereas the stability and influence model illustrates common challenges when dealing with complex random-effect structures and convergence issues. In the first exercise, we explain how to customize the variance-covariance matrix for these analyses in SAS. In the second exercise, we adapt these analyses for R and discuss how to implement the sum-and-difference approach for indistinguishable dyads. We conclude with a discussion of alternative models and go over the utility of data simulation during study design, helping readers plan and select the best approach for their research.",
-          "url": "https://doi.org/10.1177/25152459251351286",
-          "doi": "https://doi.org/10.1177/25152459251351286",
+          "title": "A Window Into the State of the Science: Current Reporting Practices Related to Generalizability in MRI and Functional-MRI Studies",
+          "authors": "Arianna M. Gard, Deena Shariq, Alison A. Albrecht, Alaina Lurie, Hyung Cho Kim, Colter Mitchell, Luke W. Hyde",
+          "abstract": "Concerns for the replicability, reliability, and generalizability of MRI and functional MRI (fMRI) research have led to debates over the contributions of sample size, open-science practices, and recruitment methods, particularly in the psychological sciences. Key to understanding the state of a science is an assessment of reporting practices. In this structured review, we evaluated select reporting practices across three domains: (a) demographic (e.g., age), (b) methodological (e.g., inclusion/exclusion criteria), and (c) open science and generalizability (e.g., preregistration, target-population identification). Included were 919 published MRI and fMRI studies from 2019 in nine top-ranked journals. Reporting across domains was infrequent; participant racial-ethnic identity (14.8%), reasons for missing imaging data (31.2%), and identification of a target population (19.4%) were particularly low. Reporting likelihood varied by study characteristics (e.g., journal) and was correlated across domains. Finally, study sample size but not reporting frequency was positively associated with 2-year citation counts. Results call for recentering transparency in reporting practices in MRI and fMRI studies, with direct implications for study generalizability.",
+          "url": "https://doi.org/10.1177/25152459251372115",
+          "doi": "https://doi.org/10.1177/25152459251372115",
           "filter": 0
         }
       ],
@@ -29,6 +29,21 @@
           "filter": 0
         },
         {
+          "title": "Computerized Open-Source Navon Test (COSNaT): Normative data for the assessment of global processing abilities and simultanagnosia in the Italian population",
+          "authors": "Laura Veronelli, Roberta Daini, Marcello Gallucci, Carlo Toneatto, Silvia Pino, Lucia Ghielmi, Silvia Primativo",
+          "abstract": "Disorders in global processing abilities may be evident when posterior cortical regions are damaged due to a focal brain lesion or neurodegenerative diseases, such as posterior cortical atrophy (PCA). While in severe cases global processing deficits are evident as simultanagnosia, subtle impairments may be present early, as in patients with multi-domain mild cognitive impairment (MCI). The aim of the present study is to provide norms for the Computerized Open-Source Navon Test (COSNaT), which has already been validated in clinical populations. After a baseline that requires identifying large and small standard letters, the test measures the ability to identify the global and local levels of incongruent Navon’s hierarchical letters. A total of 200 neurologically unimpaired participants (113 F, 56.5%) with a mean age of 57.2 years (range 20–90) and a mean education of 14.1 years (range 5–28) took part in the study. The influence of demographic variables (age, education, sex) on participants’ performance was evaluated using measures of errors and response times (global, local, and delta global/local). Raw scores, regression-based adjustments for age and education levels, and equivalent scores were provided for each index. The present study provides norms in the Italian population for the COSNaT, which has been shown to be sensitive in detecting global processing impairments and simultanagnosia in different clinical populations (PCA, amnestic MCI). The computerized test may contribute to a more accurate clinical characterization of the neuropsychological profile of patients with different etiologies, as well as in prodromal stages of neurodegenerative diseases.",
+          "url": "https://doi.org/10.3758/s13428-025-02811-2",
+          "doi": "https://doi.org/10.3758/s13428-025-02811-2",
+          "filter": 0
+        },
+        {
+          "title": "Bayesian factor mixture modeling with response time for detecting careless respondents",
+          "authors": "Lijin Zhang, Esther Ulitzsch, Benjamin W. Domingue",
+          "url": "https://doi.org/10.3758/s13428-025-02797-x",
+          "doi": "https://doi.org/10.3758/s13428-025-02797-x",
+          "filter": 0
+        },
+        {
           "title": "Automatic infant 2D pose estimation from videos: Comparing seven deep neural network methods",
           "authors": "Filipe Gama, Matěj Mísař, Lukáš Navara, Sergiu T. Popescu, Matej Hoffmann",
           "url": "https://doi.org/10.3758/s13428-025-02816-x",
@@ -44,10 +59,26 @@
           "filter": 0
         },
         {
+          "title": "Measuring agreement among several raters classifying subjects into one or more (hierarchical) categories: A generalization of Fleiss’ kappa",
+          "authors": "Filip Moons, Ellen Vandervieren",
+          "abstract": "Cohen’s and Fleiss’ kappa are well-known measures of inter-rater agreement, but they restrict each rater to selecting only one category per subject. This limitation is consequential in contexts where subjects may belong to multiple categories, such as psychiatric diagnoses involving multiple disorders or classifying interview snippets into multiple codes of a codebook. We propose a generalized version of Fleiss’ kappa, which accommodates multiple raters assigning subjects to one or more nominal categories. Our proposed $$\\kappa $$ κ statistic can incorporate category weights based on their importance and account for hierarchical category structures, such as primary disorders with sub-disorders. The new $$\\kappa $$ κ statistic can also manage missing data and variations in the number of raters per subject or category. We review existing methods that allow for multiple category assignments and detail the derivation of our measure, proving its equivalence to Fleiss’ kappa when raters select a single category per subject. The paper discusses the assumptions, premises, and potential paradoxes of the new measure, as well as the range of possible values and guidelines for interpretation. The measure was developed to investigate the reliability of a new mathematics assessment method, of which an example is elaborated. The paper concludes with a worked-out example of psychiatrists diagnosing patients with multiple disorders. All calculations are provided as R script and an Excel sheet to facilitate access to the new $$\\kappa $$ κ statistic.",
+          "url": "https://doi.org/10.3758/s13428-025-02746-8",
+          "doi": "https://doi.org/10.3758/s13428-025-02746-8",
+          "filter": 0
+        },
+        {
           "title": "From semantic knowledge to semantic features: French semantic feature production norms for 360 concepts",
           "authors": "Widad Rachdi, Stéphanie Mathey, Christelle Robert",
           "url": "https://doi.org/10.3758/s13428-025-02814-z",
           "doi": "https://doi.org/10.3758/s13428-025-02814-z",
+          "filter": 0
+        },
+        {
+          "title": "Using machine learning to automate the collection, transcription, and analysis of verbal-report data",
+          "authors": "Tehilla Ostrovsky, Paul Ungermann, Chris Donkin",
+          "abstract": "What people think and say during experiments is important for our understanding of the human mind. However, the collection and analysis of verbal-report data in experiments are relatively costly and are thus grossly underutilized. Here, we aim to reduce such costs by providing software that collects, transcribes, and analyzes verbal-report data. Verbal data are collected using jsPsych (De Leeuw, Behavior Research Methods , 47 , 1–12, 2015), making it suitable for both online and lab-based experiments. The transcription and analyses rely on classical machine-learning methods as well as deep learning approaches (e.g., large language models), making them substantially more efficient than current methods using human coders. We demonstrate how to use the software we provide in a case study via a simple memory experiment. This collection of software was designed to be modular, allowing for the update and replacement of various components with superior models, as well as the easy addition of new methods. It is our sincere hope that this approach popularizes the collection of verbal-report data in psychology experiments.",
+          "url": "https://doi.org/10.3758/s13428-025-02800-5",
+          "doi": "https://doi.org/10.3758/s13428-025-02800-5",
           "filter": 0
         }
       ],
@@ -65,38 +96,68 @@
           "filter": 0
         },
         {
-          "title": "Unpacking Media Channel Effects on AI Perception: A Network Analysis of AI Information Exposure Across Channels, Overload, Literacy, and Anxiety among Chinese Users",
-          "authors": "Sha Sarah Qiu, Luxi Zhang, Fei You, Xinshu Zhao",
-          "url": "https://doi.org/10.1016/j.chb.2025.108790",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108790",
-          "filter": 0
-        },
-        {
           "title": "Beauty vs. Vibe: Deconstructing visual appeal in online dating with large multimodal models",
           "authors": "Junkyu Jang, Soonjae Kwon, Sung-Hyuk Park",
           "url": "https://doi.org/10.1016/j.chb.2025.108792",
           "doi": "https://doi.org/10.1016/j.chb.2025.108792",
           "filter": 0
+        }
+      ],
+      "articles_hidden": [
+        {
+          "title": "Corrigendum to ‘Digital engagement and its association with adverse psychiatric symptoms: A longitudinal cohort study utilizing latent class analysis’ [Computers in Human Behavior 133C (2022) 107290]",
+          "authors": "Ross Brannigan, Carlos J. Gil-Hernández, Olivia McEvoy, Frances Cronin, Debbi Stanistreet, Richard Layte",
+          "url": "https://doi.org/10.1016/j.chb.2025.108757",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108757",
+          "filter": 1
         },
         {
-          "title": "“I Like Community More Than Influencers”: Unraveling the Influence of Followers on Parasocial Interaction and Attachment with Virtual Influencers",
-          "authors": "Jiyoung Bang, Sangman Han",
-          "url": "https://doi.org/10.1016/j.chb.2025.108796",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108796",
+          "title": "Corrigendum to “AI-driven personalization: Unraveling consumer perceptions in social media engagement” [Computers in Human Behavior 165 (2025) 108549]",
+          "authors": "Tanawat Teepapal",
+          "url": "https://doi.org/10.1016/j.chb.2025.108797",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108797",
+          "filter": 1
+        }
+      ]
+    },
+    {
+      "journal_full": "Group Processes & Intergroup Relations",
+      "journal_short": "GPIR",
+      "articles": [
+        {
+          "title": "Similar yet distinct effects of short-term and long-term social exclusion on behavioral inhibition",
+          "authors": "Mengsi Xu, Jiayu Wen, Zhiai Li",
+          "abstract": "Understanding the relationship between social exclusion and behavioral inhibition is essential for mitigating its detrimental effects and developing targeted interventions. This study examines the impact of short- and long-term social exclusion on reactive and intentional inhibition through three experiments. Experiment 1 utilized the Cyberball game to induce a short-term experience of exclusion, Experiment 2 employed the Future Life Alone paradigm to evoke imagined long-term exclusion, and Experiment 3 used a questionnaire to identify individuals who had experienced actual long-term exclusion. Reactive and intentional inhibition were assessed using the Free Two-Choice Oddball Task. Three key findings emerged: First, both short- and long-term social exclusion significantly impaired intentional inhibition. Second, diffusion model analyses revealed distinct mechanisms underlying these impairments: short-term social exclusion increased the tendency toward standard responses during free-choice trials, while long-term exclusion led to more conservative response criteria. Third, reactive inhibition was unaffected by short-term or imagined long-term exclusion but was impaired by actual long-term exclusion. Collectively, these findings suggest that although short- and long-term exclusion share some similarities in their effects on behavioral inhibition, they also exhibit notable differences. This study provides novel insights into the influence of social exclusion on behavioral inhibition, with theoretical, methodological, and practical implications.",
+          "url": "https://doi.org/10.1177/13684302251372904",
+          "doi": "https://doi.org/10.1177/13684302251372904",
           "filter": 0
         }
       ],
       "articles_hidden": []
     },
     {
-      "journal_full": "Journal of Experimental Social Psychology",
-      "journal_short": "JESP",
+      "journal_full": "Journal of Personality and Social Psychology",
+      "journal_short": "JPSP",
       "articles": [
         {
-          "title": "Keeping the goal in sight and in mind: The association between visual attention and motivational mindsets among runners",
-          "authors": "Emily Balcetis, Jordan S. Daley, Bradley Tao, Bryce Lexow",
-          "url": "https://doi.org/10.1016/j.jesp.2025.104822",
-          "doi": "https://doi.org/10.1016/j.jesp.2025.104822",
+          "title": "N-equality: Inequality increases with the number of allocation recipients.",
+          "authors": "Stephen M. Garcia, Avishalom Tor",
+          "url": "https://doi.org/10.1037/pspi0000504",
+          "doi": "https://doi.org/10.1037/pspi0000504",
+          "filter": 0
+        },
+        {
+          "title": "ML-SPEAK: A theory-guided machine learning method for studying and predicting conversational turn-taking patterns.",
+          "authors": "Lisa R. O'Bryan, Madeline Navarro, Juan Segundo Hevia, Santiago Segarra",
+          "url": "https://doi.org/10.1037/pspp0000575",
+          "doi": "https://doi.org/10.1037/pspp0000575",
+          "filter": 0
+        },
+        {
+          "title": "Pluralistic ignorance of stigma impedes take-up of welfare benefits.",
+          "authors": "Alice Lee-Yoon, Sherry J. Wu, Jason C. Chin, Heather M. Caruso, Eugene M. Caruso",
+          "url": "https://doi.org/10.1037/pspa0000466",
+          "doi": "https://doi.org/10.1037/pspa0000466",
           "filter": 0
         }
       ],
@@ -107,10 +168,10 @@
       "journal_short": "MBR",
       "articles": [
         {
-          "title": "Mixed-Effects Frequency-Adjusted Borders Ordinal Forest: A Tree Ensemble Method for Ordinal Prediction with Hierarchical Data",
-          "authors": "Philip Buczak",
-          "url": "https://doi.org/10.1080/00273171.2025.2547416",
-          "doi": "https://doi.org/10.1080/00273171.2025.2547416",
+          "title": "Dynamics Between Asynchronously Measured Variables: A Multilevel Approach to Momentary Affect and Morning Sleep Reports",
+          "authors": "Sophie W. Berkhout, Noémi K. Schuurman, Koen Niemeijer, Peter Kuppens, Ellen L. Hamaker",
+          "url": "https://doi.org/10.1080/00273171.2025.2551370",
+          "doi": "https://doi.org/10.1080/00273171.2025.2551370",
           "filter": 0
         },
         {
@@ -124,15 +185,35 @@
       "articles_hidden": []
     },
     {
-      "journal_full": "Personality and Social Psychology Bulletin",
-      "journal_short": "PSPB",
+      "journal_full": "Psychological Bulletin",
+      "journal_short": "PsychBull",
       "articles": [
         {
-          "title": "Demotivating Justice: White Americans’ Outrage at Individual Bigotry May Reduce Action to Address Systematic Racial Inequity",
-          "authors": "Zachary K. Rothschild, Myles Hugee",
-          "abstract": "These studies examine whether expressing outrage at a prejudiced individual may undermine justice-insensitive White Americans’ motivation to engage in more costly actions addressing systemic racism. Study 1 ( N = 896) manipulated White privilege salience and the opportunity to express outrage before measuring donations to a racial justice organization. Reminders of racial privilege increased White collective guilt, and donations among White U.S. participants low (but not high) in justice sensitivity. However, the opportunity to express outrage at another’s prejudicial behavior negated privilege-induced reparative action. A second preregistered study ( N = 1344) found this effect only when outrage was directed at a racialized (vs. non-racialized) injustice. A third preregistered study ( N = 1133) replicated the effects using a more controlled manipulation of outrage expression and more ecologically valid outcomes. Findings suggest that salient racial privilege may motivate some White Americans to address systemic racism, but expressing outrage at another’s bigotry may undermine this process.",
-          "url": "https://doi.org/10.1177/01461672251361264",
-          "doi": "https://doi.org/10.1177/01461672251361264",
+          "title": "Internalized racism, stress, and health: A comprehensive meta-analytic structural equation model test of the internalized racism framework.",
+          "authors": "Drexler James, Alicia M. Bowling, Mariola Moeyaert, Kaavya Iyer",
+          "url": "https://doi.org/10.1037/bul0000486",
+          "doi": "https://doi.org/10.1037/bul0000486",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Psychological Methods",
+      "journal_short": "PM",
+      "articles": [
+        {
+          "title": "Exploratory graph analysis trees—A network-based approach to investigate measurement invariance with numerous covariates.",
+          "authors": "David Goretzko, Philipp Sterner",
+          "url": "https://doi.org/10.1037/met0000796",
+          "doi": "https://doi.org/10.1037/met0000796",
+          "filter": 0
+        },
+        {
+          "title": "On the uncanny relationship between nonnormality and moderated multiple regression.",
+          "authors": "Oscar L. Olvera Astivia, Xijuan Zhang, Edward Kroc, Bruno D. Zumbo",
+          "url": "https://doi.org/10.1037/met0000797",
+          "doi": "https://doi.org/10.1037/met0000797",
           "filter": 0
         }
       ],
@@ -156,6 +237,51 @@
           "abstract": "Research on interpersonal relationships frequently relies on accurate self-reporting across various relationship facets (e.g., conflict, trust, appreciation). Yet shared method biases—which may greatly inflate associations between measures—are rarely accounted for during measurement validation or hypothesis testing. To examine how method biases can affect relationship research, we embarked on the ironic exploration of a new construct— Pseudo —comprised of irrelevant relationship evaluations (e.g., “My relationship has very good Saturn”). Pseudo was moderately associated with common relationship measures (e.g., satisfaction, commitment) and predicted those measures 3 weeks later. Results of a dyadic longitudinal study suggested that Pseudo taps into method biases, particularly sentiment override (i.e., people’s tendency to project their global relationship sentiments onto every relationship evaluation). We conclude that psychometric standards must be sufficiently rigorous to distinguish genuine constructs and associations from methodological artifacts that can otherwise pose a serious validity threat.",
           "url": "https://doi.org/10.1177/09567976251370262",
           "doi": "https://doi.org/10.1177/09567976251370262",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Psychology of Music",
+      "journal_short": "PsychMusic",
+      "articles": [
+        {
+          "title": "Impacts of emotional self-awareness, emotional regulation, and performance anxiety on stage confidence in Chinese music students",
+          "authors": "Peng Yan, Yinghua Jin, Kyung Hyun Suh",
+          "abstract": "This study investigated the relationship between emotional self-awareness and confidence in stage performance among Chinese music students with a particular focus on the mediating effects of emotional regulation and performance anxiety. The participants were 426 Chinese students majoring in music and who regularly performed on stage. The double mediating effect was analyzed using PROCESS Macro 4.2 Model 6. The results revealed that emotional self-awareness was positively correlated with both emotional regulation and confidence in stage performance. However, emotional self-awareness was not significantly correlated with performance anxiety. Further analysis indicated that emotional regulation was positively correlated with confidence in stage performance, but was not significantly correlated with performance anxiety. Interestingly, performance anxiety among music majors was positively correlated with confidence in stage performance. The study also found that emotional regulation and performance anxiety sequentially mediate the relationship between emotional self-awareness and confidence in stage performance. These findings suggest that enhancing emotional self-awareness and regulation skills could be highly beneficial for improving stage performance confidence among music students. Such improvements can lead to better performance outcomes and positive performance experiences. This study provides valuable insights for educational and psychological interventions aimed at supporting the professional development of music students.",
+          "url": "https://doi.org/10.1177/03057356251365184",
+          "doi": "https://doi.org/10.1177/03057356251365184",
+          "filter": 0
+        },
+        {
+          "title": "Perfectionism and impostor phenomenon among undergraduate music education majors",
+          "authors": "Brian A Silvey, Jessica Nápoles, D Gregory Springer, Mark Montemayor",
+          "abstract": "Music students and music teachers are subject to a variety of stressors that can negatively affect their health and well-being. In the current study, we aimed to investigate the incidence of perfectionism and impostor phenomenon (IP) among undergraduate music education majors. A secondary purpose was to examine the degree to which perfectionist tendencies (self-oriented perfectionism, other-oriented perfectionism, and socially prescribed perfectionism) and selected demographic variables (gender identity, year in school, first-generation college student status, enrollment in a university honors program, and music education focus) predict IP. Participants ( N = 135) were a convenience sample of undergraduate music education majors in the United States who completed the Hewitt and Flett Multidimensional Perfectionism Scale and the Clance Impostor Phenomenon Scale. Results of descriptive and multiple regression analyses revealed that all three subscales of perfectionism and first-generation college student status significantly predicted IP scores. We interpret these findings based on prior literature on perfectionism and IP, and we offer recommendations for ways that university music faculty can support their students to reduce the negative effects associated with perfectionism and IP.",
+          "url": "https://doi.org/10.1177/03057356251369510",
+          "doi": "https://doi.org/10.1177/03057356251369510",
+          "filter": 0
+        },
+        {
+          "title": "Social identity, collective self-esteem, and musical preferences in electronic dance music culture: The role of emotions",
+          "authors": "Xavier Mínguez-Alcaide, Magdalena Bobowik",
+          "abstract": "Research on the relationship between identification factors and musical preference show contradictory results. Some studies do not find relationship between these, while others show that social identification predicts stronger music preference. The present study further delves into that controversy in the understudied context of Electronic Dance Music (EDM). Furthermore, we examine the role of two categories of emotions, namely, vitality (representing energy, joy, and power) and sublimity (representing feelings of transcendence, tranquility, or nostalgia) in the relationship between identification factors and EDM preference. To test these ideas, we conducted two studies, including a correlational survey study with a sample of 222 EDM fans in the Basque Country and a qualitative study using a focus group methodology with 25 members of the same community. Results show that stronger musical identification is associated with preference for EDM only indirectly via vitality emotions and to a lesser degree, sublimity emotions. In contrast, the more negative (and not positive) musical collective self-esteem, the stronger was the preference for EDM, and again this link was explained via mostly vitality emotions. The qualitative study corroborated the existence and acceptance of negative collective self-esteem among EDM fans, an aspect related to the strong stigma generated by the Basque society.",
+          "url": "https://doi.org/10.1177/03057356251361754",
+          "doi": "https://doi.org/10.1177/03057356251361754",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Psychology of Popular Media",
+      "journal_short": "PPM",
+      "articles": [
+        {
+          "title": "The effects of memes on perceptions and decision making: Insights from fuzzy-trace theory.",
+          "authors": "Wylie Brace, Christopher R. Wolfe",
+          "url": "https://doi.org/10.1037/ppm0000632",
+          "doi": "https://doi.org/10.1037/ppm0000632",
           "filter": 0
         }
       ],
