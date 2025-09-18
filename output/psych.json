@@ -1,5 +1,5 @@
 {
-  "update": "2025-09-17",
+  "update": "2025-09-18",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -21,14 +21,6 @@
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "Parameter estimation of hyper-spherical diffusion models with a time-dependent threshold: An integral equation method",
-          "authors": "Amir Hosein Hadian Rasanan, Nathan J. Evans, Jamal Amani Rad, Jörg Rieskamp",
-          "abstract": "Over the past several decades, decision-making research has been dominated by the study of binary choice tasks, with key models assuming that people remain equally cautious regardless of how long they have spent on the choice problem. Recent research has begun to place a greater focus on studying tasks with a continuous-response scale, as well as models that allow for decreases in caution over decision time; however, these research topics have remained separate from one another. For instance, proposed models of continuous-response scales have assumed constant caution over time, and studies investigating whether caution decreases over time have focused on binary choice tasks. One reason for this separation is the lack of methodology for estimating the parameters of the decision models with time-dependent parameters for continuous responses. This paper aims to provide a stable and efficient parameter estimation technique for hyper-spherical diffusion models with a time-dependent threshold. Here, we propose an integral equation method for estimating the first-passage time distribution of hyper-spherical diffusion models. We assessed the robustness of our method through parameter recovery studies for constant and time-dependent threshold models, with our results demonstrating efficient and precise estimates for the parameters in both situations.",
-          "url": "https://doi.org/10.3758/s13428-025-02810-3",
-          "doi": "https://doi.org/10.3758/s13428-025-02810-3",
-          "filter": 0
-        },
-        {
           "title": "Computerized Open-Source Navon Test (COSNaT): Normative data for the assessment of global processing abilities and simultanagnosia in the Italian population",
           "authors": "Laura Veronelli, Roberta Daini, Marcello Gallucci, Carlo Toneatto, Silvia Pino, Lucia Ghielmi, Silvia Primativo",
           "abstract": "Disorders in global processing abilities may be evident when posterior cortical regions are damaged due to a focal brain lesion or neurodegenerative diseases, such as posterior cortical atrophy (PCA). While in severe cases global processing deficits are evident as simultanagnosia, subtle impairments may be present early, as in patients with multi-domain mild cognitive impairment (MCI). The aim of the present study is to provide norms for the Computerized Open-Source Navon Test (COSNaT), which has already been validated in clinical populations. After a baseline that requires identifying large and small standard letters, the test measures the ability to identify the global and local levels of incongruent Navon’s hierarchical letters. A total of 200 neurologically unimpaired participants (113 F, 56.5%) with a mean age of 57.2 years (range 20–90) and a mean education of 14.1 years (range 5–28) took part in the study. The influence of demographic variables (age, education, sex) on participants’ performance was evaluated using measures of errors and response times (global, local, and delta global/local). Raw scores, regression-based adjustments for age and education levels, and equivalent scores were provided for each index. The present study provides norms in the Italian population for the COSNaT, which has been shown to be sensitive in detecting global processing impairments and simultanagnosia in different clinical populations (PCA, amnestic MCI). The computerized test may contribute to a more accurate clinical characterization of the neuropsychological profile of patients with different etiologies, as well as in prodromal stages of neurodegenerative diseases.",
@@ -44,33 +36,11 @@
           "filter": 0
         },
         {
-          "title": "Automatic infant 2D pose estimation from videos: Comparing seven deep neural network methods",
-          "authors": "Filipe Gama, Matěj Mísař, Lukáš Navara, Sergiu T. Popescu, Matej Hoffmann",
-          "url": "https://doi.org/10.3758/s13428-025-02816-x",
-          "doi": "https://doi.org/10.3758/s13428-025-02816-x",
-          "filter": 0
-        },
-        {
-          "title": "The Emotional Crying Behavior Dataset (ECBD): A comprehensive resource to study the multifaceted nature of emotional crying",
-          "authors": "Monika Wróbel, Janis Zickfeld, Paweł Ciesielski",
-          "abstract": "Emotional crying is a complex and multifaceted expression that is frequently observed in humans. Its communicative effects have been recently studied in more detail. However, many studies focus on just one specific feature of emotional crying, most often emotional tears, neglecting the complex nature of the expression. Reports about crying episodes observe that tears most commonly occur in combination with other features such as facial expressions, vocalizations, gestures, and varied temporal dynamics. This shortcoming in research is mostly explained by a lack of adequately controlled stimuli depicting different crying features. Here, we provide a solution for this problem by introducing the Emotional Crying Behavior Dataset (ECBD), an openly available resource of 500 videos depicting 10 actors posing variations in tear intensity, facial expression intensity, vocalizations, gestures, and temporal dynamics, and the combination thereof. We present two studies ( N = 2,729) providing evidence for the validity of the dataset. In addition, we developed a static supplementary resource (ECBD-S) with 70 pictures depicting variations in tears and facial expression intensity that was successfully validated across two studies ( N = 601). Overall, our findings support the validity of this new stimulus set that closes a gap in the research on the interpersonal effects of emotional crying. The dataset is openly available for non-commercial research purposes at https://zenodo.org/records/15147817 .",
-          "url": "https://doi.org/10.3758/s13428-025-02766-4",
-          "doi": "https://doi.org/10.3758/s13428-025-02766-4",
-          "filter": 0
-        },
-        {
           "title": "Measuring agreement among several raters classifying subjects into one or more (hierarchical) categories: A generalization of Fleiss’ kappa",
           "authors": "Filip Moons, Ellen Vandervieren",
           "abstract": "Cohen’s and Fleiss’ kappa are well-known measures of inter-rater agreement, but they restrict each rater to selecting only one category per subject. This limitation is consequential in contexts where subjects may belong to multiple categories, such as psychiatric diagnoses involving multiple disorders or classifying interview snippets into multiple codes of a codebook. We propose a generalized version of Fleiss’ kappa, which accommodates multiple raters assigning subjects to one or more nominal categories. Our proposed $$\\kappa $$ κ statistic can incorporate category weights based on their importance and account for hierarchical category structures, such as primary disorders with sub-disorders. The new $$\\kappa $$ κ statistic can also manage missing data and variations in the number of raters per subject or category. We review existing methods that allow for multiple category assignments and detail the derivation of our measure, proving its equivalence to Fleiss’ kappa when raters select a single category per subject. The paper discusses the assumptions, premises, and potential paradoxes of the new measure, as well as the range of possible values and guidelines for interpretation. The measure was developed to investigate the reliability of a new mathematics assessment method, of which an example is elaborated. The paper concludes with a worked-out example of psychiatrists diagnosing patients with multiple disorders. All calculations are provided as R script and an Excel sheet to facilitate access to the new $$\\kappa $$ κ statistic.",
           "url": "https://doi.org/10.3758/s13428-025-02746-8",
           "doi": "https://doi.org/10.3758/s13428-025-02746-8",
-          "filter": 0
-        },
-        {
-          "title": "From semantic knowledge to semantic features: French semantic feature production norms for 360 concepts",
-          "authors": "Widad Rachdi, Stéphanie Mathey, Christelle Robert",
-          "url": "https://doi.org/10.3758/s13428-025-02814-z",
-          "doi": "https://doi.org/10.3758/s13428-025-02814-z",
           "filter": 0
         },
         {
@@ -214,29 +184,6 @@
           "authors": "Oscar L. Olvera Astivia, Xijuan Zhang, Edward Kroc, Bruno D. Zumbo",
           "url": "https://doi.org/10.1037/met0000797",
           "doi": "https://doi.org/10.1037/met0000797",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Psychological Science",
-      "journal_short": "PsychSci",
-      "articles": [
-        {
-          "title": "Sexual Identity Development Milestones, Latent Profiles, and Proximal Minority Stressors in Australia’s Generation Z",
-          "authors": "William Warton, Michelle L. Byrne, Kelly-Ann Allen",
-          "abstract": "This study examined the sequence and timing of sexual identity development (SID) milestones among Generation Z LGBTQ+ Australians, focusing on variations across subgroups and their relationship with minority stressors. The study included 490 Australian LGBTQ+ individuals aged 16 to 26, predominantly White ( n = 389) and assigned female at birth ( n = 402), with a balanced distribution between cisgender and gender-diverse participants. Demographic differences in the timing and achievement of SID milestones were found for sexual and gender identity. Latent profile analysis identified four distinct profiles, highlighting identity-centered and sex-centered sequences. Differences in rejection sensitivity, emotion dysregulation, and self-acceptance of sexual identity were noted across these profiles, but not for internalized homonegativity. Our findings indicate that SID trajectories do not strictly conform to discrete sexual or gender identity categories. The cross-sectional design limits causality inference, and findings are not generalizable to all LGBTQ+ young people or Generation Z more broadly.",
-          "url": "https://doi.org/10.1177/09567976251372130",
-          "doi": "https://doi.org/10.1177/09567976251372130",
-          "filter": 0
-        },
-        {
-          "title": "Pseudo Effects: How Method Biases Can Produce Spurious Findings About Close Relationships",
-          "authors": "Samantha Joel, John K. Sakaluk, James J. Kim, Devinder Khera, Helena Yuchen Qin, Sarah C. E. Stanton",
-          "abstract": "Research on interpersonal relationships frequently relies on accurate self-reporting across various relationship facets (e.g., conflict, trust, appreciation). Yet shared method biases—which may greatly inflate associations between measures—are rarely accounted for during measurement validation or hypothesis testing. To examine how method biases can affect relationship research, we embarked on the ironic exploration of a new construct— Pseudo —comprised of irrelevant relationship evaluations (e.g., “My relationship has very good Saturn”). Pseudo was moderately associated with common relationship measures (e.g., satisfaction, commitment) and predicted those measures 3 weeks later. Results of a dyadic longitudinal study suggested that Pseudo taps into method biases, particularly sentiment override (i.e., people’s tendency to project their global relationship sentiments onto every relationship evaluation). We conclude that psychometric standards must be sufficiently rigorous to distinguish genuine constructs and associations from methodological artifacts that can otherwise pose a serious validity threat.",
-          "url": "https://doi.org/10.1177/09567976251370262",
-          "doi": "https://doi.org/10.1177/09567976251370262",
           "filter": 0
         }
       ],
