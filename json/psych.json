@@ -1,10 +1,25 @@
 {
-  "update": "2025-09-18",
+  "update": "2025-09-19",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
       "journal_short": "AMPPS",
       "articles": [
+        {
+          "title": "How Do Psychology Journals Handle Postpublication Critique? A Cross-Sectional Study of Policy and Practice",
+          "authors": "Annie Whamond, Simine Vazire, Beth Clarke, Nicholas Moodie, Sarah Schiavone, Robert T. Thibault, Tom E. Hardwicke",
+          "abstract": "Postpublication critique, such as letters to the editor, can contribute to the validity and trustworthiness of scientific research. We conducted a cross-sectional analysis of the policy and practice of postpublication critique in (a) randomly selected ( N = 100) and (b) prominent ( N = 100) psychology journals. In 2023, an explicit submission option for postpublication critique was available at 23% (95% confidence interval [CI] = [16%, 32%]) of randomly sampled psychology journals and 38% of the most prominent psychology journals. Journals sometimes imposed limits on the length and time allowed to submit critiques. We manually inspected two random samples of empirical articles published in 2020 (articles per sample: N = 101), estimating the prevalence of postpublication critique to be 0% (95% CI = [0%, 3.7%]) in psychology journals generally and 1% (95% CI = [0.2%, 5.4%]) in the most prominent psychology journals. The policy and practice of postpublication critique is seriously neglected in psychology journals.",
+          "url": "https://doi.org/10.1177/25152459251366102",
+          "doi": "https://doi.org/10.1177/25152459251366102",
+          "filter": 0
+        },
+        {
+          "title": "Realistic Expectations for Replications: Expecting Too Little Is Just as Bad as Expecting Too Much",
+          "authors": "Frieder Göppert, Kriti Bhatia, Sascha Meyen, Volker H. Franz",
+          "url": "https://doi.org/10.1177/25152459251369846",
+          "doi": "https://doi.org/10.1177/25152459251369846",
+          "filter": 0
+        },
         {
           "title": "A Window Into the State of the Science: Current Reporting Practices Related to Generalizability in MRI and Functional-MRI Studies",
           "authors": "Arianna M. Gard, Deena Shariq, Alison A. Albrecht, Alaina Lurie, Hyung Cho Kim, Colter Mitchell, Luke W. Hyde",
@@ -36,6 +51,14 @@
           "filter": 0
         },
         {
+          "title": "Algorithmic gaze annotation for mobile eye-tracking",
+          "authors": "Daniel Mueller, David Mann",
+          "abstract": "Mobile eye-tracking is increasingly used to study human behavior in situ; however, the analysis of the footage is typically performed manually and therefore is slow and laborious. The aim of this study was to examine the extent to which the footage obtained using mobile eye-tracking could be annotated automatically using computer vision algorithms. We developed an open-source Python package that combined two computer vision algorithms to automatically annotate human-body-related areas of interest when two participants interacted with each other. To validate the algorithm, three experienced human raters coded the gaze direction with respect to one of seven a priori defined areas of interest during the task. To test the reliability of the algorithm, the agreement between the human raters was compared with the results obtained from the algorithm. A total of 1,188 frames from 13 trials were compared, with the results revealing substantial agreement between the algorithm and human raters (Krippendorff’s alpha = 0.61). The algorithm strictly annotated whether gaze was within or outside of the specified areas of interest, whereas human raters seemed to apply a tolerance when gaze was lying slightly outside the areas of interest. In sum, the computer algorithmic approach appears to provide a valid means of automatically annotating mobile eye-tracking footage in highly dynamic contexts. The possibility of automatically annotating eye-tracking footage of human interactions allows for automatic assessment of visual attention, gaze, and intentions across sectors such as educational settings, pedestrian navigation, and sport.",
+          "url": "https://doi.org/10.3758/s13428-025-02803-2",
+          "doi": "https://doi.org/10.3758/s13428-025-02803-2",
+          "filter": 0
+        },
+        {
           "title": "Measuring agreement among several raters classifying subjects into one or more (hierarchical) categories: A generalization of Fleiss’ kappa",
           "authors": "Filip Moons, Ellen Vandervieren",
           "abstract": "Cohen’s and Fleiss’ kappa are well-known measures of inter-rater agreement, but they restrict each rater to selecting only one category per subject. This limitation is consequential in contexts where subjects may belong to multiple categories, such as psychiatric diagnoses involving multiple disorders or classifying interview snippets into multiple codes of a codebook. We propose a generalized version of Fleiss’ kappa, which accommodates multiple raters assigning subjects to one or more nominal categories. Our proposed $$\\kappa $$ κ statistic can incorporate category weights based on their importance and account for hierarchical category structures, such as primary disorders with sub-disorders. The new $$\\kappa $$ κ statistic can also manage missing data and variations in the number of raters per subject or category. We review existing methods that allow for multiple category assignments and detail the derivation of our measure, proving its equivalence to Fleiss’ kappa when raters select a single category per subject. The paper discusses the assumptions, premises, and potential paradoxes of the new measure, as well as the range of possible values and guidelines for interpretation. The measure was developed to investigate the reliability of a new mathematics assessment method, of which an example is elaborated. The paper concludes with a worked-out example of psychiatrists diagnosing patients with multiple disorders. All calculations are provided as R script and an Excel sheet to facilitate access to the new $$\\kappa $$ κ statistic.",
@@ -44,11 +67,26 @@
           "filter": 0
         },
         {
+          "title": "Correction: The Polish Vocabulary Size Test: A novel adaptive test for receptive vocabulary assessment",
+          "authors": "Danil Fokin, Monika Płużyczka, Grigory Golovin",
+          "url": "https://doi.org/10.3758/s13428-025-02825-w",
+          "doi": "https://doi.org/10.3758/s13428-025-02825-w",
+          "filter": 0
+        },
+        {
           "title": "Using machine learning to automate the collection, transcription, and analysis of verbal-report data",
           "authors": "Tehilla Ostrovsky, Paul Ungermann, Chris Donkin",
           "abstract": "What people think and say during experiments is important for our understanding of the human mind. However, the collection and analysis of verbal-report data in experiments are relatively costly and are thus grossly underutilized. Here, we aim to reduce such costs by providing software that collects, transcribes, and analyzes verbal-report data. Verbal data are collected using jsPsych (De Leeuw, Behavior Research Methods , 47 , 1–12, 2015), making it suitable for both online and lab-based experiments. The transcription and analyses rely on classical machine-learning methods as well as deep learning approaches (e.g., large language models), making them substantially more efficient than current methods using human coders. We demonstrate how to use the software we provide in a case study via a simple memory experiment. This collection of software was designed to be modular, allowing for the update and replacement of various components with superior models, as well as the easy addition of new methods. It is our sincere hope that this approach popularizes the collection of verbal-report data in psychology experiments.",
           "url": "https://doi.org/10.3758/s13428-025-02800-5",
           "doi": "https://doi.org/10.3758/s13428-025-02800-5",
+          "filter": 0
+        },
+        {
+          "title": "Optimeet: A computational tool to enhance participant attendance in group research",
+          "authors": "Lukas W. Mayer, Desislava Bocheva, Joanne Hinds, Olivia Brown, Lukasz Piwek, David A. Ellis",
+          "abstract": "Across disciplines, research often relies on groups of people to participate in experiments or attend events at the same time. Typically, researchers try to maximize attendance by manually identifying a set of times that suit the diaries of many individuals. However, this is inefficient, is prone to error, and can lead to a final sample that is not large enough to provide meaningful inferences. While current scheduling tools are useful for individual-based research, enabling participants to select times convenient to them within a researcher's preset parameters, they are less useful in research that requires specific or flexible group sizes. In response, we present Optimeet , a web application that allows researchers to upload participants’ availability data and generate an optimal allocation schedule for multiple groups. We describe the function of the underlying applet, which identifies a schedule to maximize attendance by treating it as a computational problem involving combinatorial optimization (Experiment 1). Our solution relies on an empirical comparison of parameter-free heuristics to make allocation decisions that make the best use of participants’ availabilities and the derivation of appropriate performance metrics. Of the algorithms evaluated, one consistently outperformed comparable versions of existing tools, which we verified in a further exercise (Experiment 2) involving a large human sample ( N = 5,289). We consider the methodological utility and practical value of these developments, and include detailed documentation, code, and a video tutorial so that researchers can rapidly employ Optimeet to support group research.",
+          "url": "https://doi.org/10.3758/s13428-025-02745-9",
+          "doi": "https://doi.org/10.3758/s13428-025-02745-9",
           "filter": 0
         }
       ],
@@ -59,17 +97,17 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "Beyond the Dichotomy of Use and Not-Use: Forms and Motivations of User Non-Use Behaviors Toward AI Customer Service",
-          "authors": "Junchen Yao, Dongqi Yan, Hongzhong Zhang",
-          "url": "https://doi.org/10.1016/j.chb.2025.108793",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108793",
-          "filter": 0
-        },
-        {
           "title": "Beauty vs. Vibe: Deconstructing visual appeal in online dating with large multimodal models",
           "authors": "Junkyu Jang, Soonjae Kwon, Sung-Hyuk Park",
           "url": "https://doi.org/10.1016/j.chb.2025.108792",
           "doi": "https://doi.org/10.1016/j.chb.2025.108792",
+          "filter": 0
+        },
+        {
+          "title": "Similar but Different: The Differential Implications of Augmented and Virtual Reality Experiences for Raising Engagement towards Climate Change Actions",
+          "authors": "Luisa Alex, Robert Mai, Philipp A. Rauschnabel",
+          "url": "https://doi.org/10.1016/j.chb.2025.108798",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108798",
           "filter": 0
         }
       ],
@@ -95,11 +133,33 @@
       "journal_short": "GPIR",
       "articles": [
         {
+          "title": "White power on trial: Perceptions of antiracism organizations focusing on power versus discrimination",
+          "authors": "Minh Duc Pham, Kimberly E. Chaney",
+          "abstract": "The present research integrates lay theories of activism and inequity-framing literatures to investigate how Black and White Americans perceive antiracism organizations with different expressed goals (i.e., tackling White power/privilege, tackling discrimination, or increasing people of color’s strengths). White Americans perceived a power-focused (vs. discrimination-focused and strength-focused) organization as less valuable, expressed less interest in engaging the organization in their local community, and perceived the organization as less effective at responding to people of color’s needs and reducing discrimination (Studies 1–2; N = 799). In contrast, Black Americans perceived nonsignificant or significantly smaller differences across organizational goals. When Black Americans’ perceptions were communicated to White Americans, White people’s perceptions of a power-focused organization were significantly improved (Study 3; N = 471). Findings highlight a need and a novel strategy to educate White people toward dismantling White power and privilege.",
+          "url": "https://doi.org/10.1177/13684302251357864",
+          "doi": "https://doi.org/10.1177/13684302251357864",
+          "filter": 0
+        },
+        {
           "title": "Similar yet distinct effects of short-term and long-term social exclusion on behavioral inhibition",
           "authors": "Mengsi Xu, Jiayu Wen, Zhiai Li",
           "abstract": "Understanding the relationship between social exclusion and behavioral inhibition is essential for mitigating its detrimental effects and developing targeted interventions. This study examines the impact of short- and long-term social exclusion on reactive and intentional inhibition through three experiments. Experiment 1 utilized the Cyberball game to induce a short-term experience of exclusion, Experiment 2 employed the Future Life Alone paradigm to evoke imagined long-term exclusion, and Experiment 3 used a questionnaire to identify individuals who had experienced actual long-term exclusion. Reactive and intentional inhibition were assessed using the Free Two-Choice Oddball Task. Three key findings emerged: First, both short- and long-term social exclusion significantly impaired intentional inhibition. Second, diffusion model analyses revealed distinct mechanisms underlying these impairments: short-term social exclusion increased the tendency toward standard responses during free-choice trials, while long-term exclusion led to more conservative response criteria. Third, reactive inhibition was unaffected by short-term or imagined long-term exclusion but was impaired by actual long-term exclusion. Collectively, these findings suggest that although short- and long-term exclusion share some similarities in their effects on behavioral inhibition, they also exhibit notable differences. This study provides novel insights into the influence of social exclusion on behavioral inhibition, with theoretical, methodological, and practical implications.",
           "url": "https://doi.org/10.1177/13684302251372904",
           "doi": "https://doi.org/10.1177/13684302251372904",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Journal of Experimental Social Psychology",
+      "journal_short": "JESP",
+      "articles": [
+        {
+          "title": "How diversity and disadvantage frames shape employee reactions to affirmative action: Social identity threat, stereotype threat, and fairness perceptions",
+          "authors": "Samantha M. Greig, Courtney von Hippel, Tyler Okimoto",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104831",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104831",
           "filter": 0
         }
       ],
@@ -138,17 +198,17 @@
       "journal_short": "MBR",
       "articles": [
         {
+          "title": "Regularized Cross-Sectional Network Modeling with Missing Data: A Comparison of Methods",
+          "authors": "Carl F. Falk, Joshua Starr",
+          "url": "https://doi.org/10.1080/00273171.2025.2551373",
+          "doi": "https://doi.org/10.1080/00273171.2025.2551373",
+          "filter": 0
+        },
+        {
           "title": "Dynamics Between Asynchronously Measured Variables: A Multilevel Approach to Momentary Affect and Morning Sleep Reports",
           "authors": "Sophie W. Berkhout, Noémi K. Schuurman, Koen Niemeijer, Peter Kuppens, Ellen L. Hamaker",
           "url": "https://doi.org/10.1080/00273171.2025.2551370",
           "doi": "https://doi.org/10.1080/00273171.2025.2551370",
-          "filter": 0
-        },
-        {
-          "title": "How to Model Ambulatory Assessments Measured at Different Frequencies: An N = 1 Approach",
-          "authors": "Sophie W. Berkhout, Noémi K. Schuurman, Ellen L. Hamaker",
-          "url": "https://doi.org/10.1080/00273171.2025.2552303",
-          "doi": "https://doi.org/10.1080/00273171.2025.2552303",
           "filter": 0
         }
       ],
