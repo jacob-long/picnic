@@ -1,5 +1,5 @@
 {
-  "update": "2025-09-20",
+  "update": "2025-09-21",
   "content": [
     {
       "journal_full": "Journal of Elections, Public Opinion and Parties",
@@ -34,6 +34,14 @@
       "journal_full": "Social Science Computer Review",
       "journal_short": "SSCR",
       "articles": [
+        {
+          "title": "Leveraging VLLMs for Visual Clustering: Image-to-Text Mapping Shows Increased Semantic Capabilities and Interpretability",
+          "authors": "Luigi Arminio, Matteo Magnani, Matías Piqueras, Luca Rossi, Alexandra Segerberg",
+          "abstract": "As visual content becomes increasingly prominent on social media, automated image categorization is vital for computational social science efforts to identify emerging visual themes and narratives in online debates. However, the methods based on convolutional neural networks (CNNs) currently used in the field are unable to fully capture the connotative meaning of images, and struggle to produce easily interpretable clusters. In response to these challenges, we test an approach that leverages the ability of Vision-and-Large-Language-Models (VLLMs) to generate image descriptions that incorporate connotative interpretations of the input images. In particular, we use a VLLM to generate connotative textual descriptions of a set of images related to climate debate, and cluster the images based on these textual descriptions. In parallel, we cluster the same images using a more traditional approach based on CNNs. In doing so, we compare the connotative semantic validity of clusters generated using VLLMs with those produced using CNNs, and assess their interpretability. The results show that the approach based on VLLMs greatly improves the quality score for connotative clustering. Moreover, VLLM-based approaches, leveraging textual information as a step towards clustering, offer a high level of interpretability of the results.",
+          "url": "https://doi.org/10.1177/08944393251376703",
+          "doi": "https://doi.org/10.1177/08944393251376703",
+          "filter": 0
+        },
         {
           "title": "Demystifying Misconceptions in Social Bots Research",
           "authors": "Stefano Cresci, Kai-Cheng Yang, Angelo Spognardi, Roberto Di Pietro, Filippo Menczer, Marinella Petrocchi",
