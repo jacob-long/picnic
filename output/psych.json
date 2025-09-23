@@ -1,5 +1,5 @@
 {
-  "update": "2025-09-22",
+  "update": "2025-09-23",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -36,13 +36,6 @@
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "Bayesian factor mixture modeling with response time for detecting careless respondents",
-          "authors": "Lijin Zhang, Esther Ulitzsch, Benjamin W. Domingue",
-          "url": "https://doi.org/10.3758/s13428-025-02797-x",
-          "doi": "https://doi.org/10.3758/s13428-025-02797-x",
-          "filter": 0
-        },
-        {
           "title": "Algorithmic gaze annotation for mobile eye-tracking",
           "authors": "Daniel Mueller, David Mann",
           "abstract": "Mobile eye-tracking is increasingly used to study human behavior in situ; however, the analysis of the footage is typically performed manually and therefore is slow and laborious. The aim of this study was to examine the extent to which the footage obtained using mobile eye-tracking could be annotated automatically using computer vision algorithms. We developed an open-source Python package that combined two computer vision algorithms to automatically annotate human-body-related areas of interest when two participants interacted with each other. To validate the algorithm, three experienced human raters coded the gaze direction with respect to one of seven a priori defined areas of interest during the task. To test the reliability of the algorithm, the agreement between the human raters was compared with the results obtained from the algorithm. A total of 1,188 frames from 13 trials were compared, with the results revealing substantial agreement between the algorithm and human raters (Krippendorff’s alpha = 0.61). The algorithm strictly annotated whether gaze was within or outside of the specified areas of interest, whereas human raters seemed to apply a tolerance when gaze was lying slightly outside the areas of interest. In sum, the computer algorithmic approach appears to provide a valid means of automatically annotating mobile eye-tracking footage in highly dynamic contexts. The possibility of automatically annotating eye-tracking footage of human interactions allows for automatic assessment of visual attention, gaze, and intentions across sectors such as educational settings, pedestrian navigation, and sport.",
@@ -55,14 +48,6 @@
           "authors": "Ying Hu, Ruyu Pan, Yaqi Xiao, Zihan Zhu, Geraldine Jeckeln, Xiaolan Fu",
           "url": "https://doi.org/10.3758/s13428-025-02815-y",
           "doi": "https://doi.org/10.3758/s13428-025-02815-y",
-          "filter": 0
-        },
-        {
-          "title": "Measuring agreement among several raters classifying subjects into one or more (hierarchical) categories: A generalization of Fleiss’ kappa",
-          "authors": "Filip Moons, Ellen Vandervieren",
-          "abstract": "Cohen’s and Fleiss’ kappa are well-known measures of inter-rater agreement, but they restrict each rater to selecting only one category per subject. This limitation is consequential in contexts where subjects may belong to multiple categories, such as psychiatric diagnoses involving multiple disorders or classifying interview snippets into multiple codes of a codebook. We propose a generalized version of Fleiss’ kappa, which accommodates multiple raters assigning subjects to one or more nominal categories. Our proposed $$\\kappa $$ κ statistic can incorporate category weights based on their importance and account for hierarchical category structures, such as primary disorders with sub-disorders. The new $$\\kappa $$ κ statistic can also manage missing data and variations in the number of raters per subject or category. We review existing methods that allow for multiple category assignments and detail the derivation of our measure, proving its equivalence to Fleiss’ kappa when raters select a single category per subject. The paper discusses the assumptions, premises, and potential paradoxes of the new measure, as well as the range of possible values and guidelines for interpretation. The measure was developed to investigate the reliability of a new mathematics assessment method, of which an example is elaborated. The paper concludes with a worked-out example of psychiatrists diagnosing patients with multiple disorders. All calculations are provided as R script and an Excel sheet to facilitate access to the new $$\\kappa $$ κ statistic.",
-          "url": "https://doi.org/10.3758/s13428-025-02746-8",
-          "doi": "https://doi.org/10.3758/s13428-025-02746-8",
           "filter": 0
         },
         {
@@ -96,6 +81,27 @@
       "journal_short": "CHB",
       "articles": [
         {
+          "title": "Facial Emotion Recognition from Feature Loss Media: Human versus Machine Learning Algorithms",
+          "authors": "Diwakar Y. Dube, Mathy Vandhana Sannasi, Markos Kyritsis, Stephen R. Gulliver",
+          "url": "https://doi.org/10.1016/j.chb.2025.108806",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108806",
+          "filter": 0
+        },
+        {
+          "title": "A study of danmu: Detecting emotional coherence in music videos through synchronized EEG analysis",
+          "authors": "Yuqing Liu, Bu Zhong, Jiaxuan Wang, Yao Song",
+          "url": "https://doi.org/10.1016/j.chb.2025.108803",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108803",
+          "filter": 0
+        },
+        {
+          "title": "Personality Perception Through Prosodic Features and Eye Movements: A Cognitive Constructionism Approach Using a Social Robot",
+          "authors": "Ritsuko Iwai, Yusuke Takahashi, Carlos Toshinori Ishi, Taiken Shintani, Takatsune Kumada",
+          "url": "https://doi.org/10.1016/j.chb.2025.108795",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108795",
+          "filter": 0
+        },
+        {
           "title": "Similar but Different: The Differential Implications of Augmented and Virtual Reality Experiences for Raising Engagement towards Climate Change Actions",
           "authors": "Luisa Alex, Robert Mai, Philipp A. Rauschnabel",
           "url": "https://doi.org/10.1016/j.chb.2025.108798",
@@ -103,7 +109,28 @@
           "filter": 0
         },
         {
-          "title": "The Development of Social, Gender, and Migration-related Disparities in Digital Competencies during Adolescence",
+          "title": "Substitution or Augmentation? How Organisational AI Adoption Approaches Influence the Willingness to Stay of Caregivers",
+          "authors": "Li Jiang, Xuli Wang, Yuguang Xie, Junhong Zhu, Dongxiao Gu",
+          "url": "https://doi.org/10.1016/j.chb.2025.108801",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108801",
+          "filter": 0
+        },
+        {
+          "title": "Image Memorability Predicts Social Media Virality and Externally-Associated Commenting",
+          "authors": "Shikang Peng, Wilma A. Bainbridge",
+          "url": "https://doi.org/10.1016/j.chb.2025.108799",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108799",
+          "filter": 0
+        },
+        {
+          "title": "Embracing the Metaverse: User Perception and Acceptance of the Metaverse in Education",
+          "authors": "Patricia Baudier, Tony De Vassoigne, Mitra Arami, Arnaud Delannoy, Rony Germon",
+          "url": "https://doi.org/10.1016/j.chb.2025.108804",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108804",
+          "filter": 0
+        },
+        {
+          "title": "The development of social, gender, and migration-related disparities in digital competencies during adolescence",
           "authors": "Timo Gnambs, Anna Hawrot",
           "url": "https://doi.org/10.1016/j.chb.2025.108800",
           "doi": "https://doi.org/10.1016/j.chb.2025.108800",
@@ -187,27 +214,6 @@
           "url": "https://doi.org/10.1037/pspp0000576",
           "doi": "https://doi.org/10.1037/pspp0000576",
           "filter": 0
-        },
-        {
-          "title": "N-equality: Inequality increases with the number of allocation recipients.",
-          "authors": "Stephen M. Garcia, Avishalom Tor",
-          "url": "https://doi.org/10.1037/pspi0000504",
-          "doi": "https://doi.org/10.1037/pspi0000504",
-          "filter": 0
-        },
-        {
-          "title": "ML-SPEAK: A theory-guided machine learning method for studying and predicting conversational turn-taking patterns.",
-          "authors": "Lisa R. O'Bryan, Madeline Navarro, Juan Segundo Hevia, Santiago Segarra",
-          "url": "https://doi.org/10.1037/pspp0000575",
-          "doi": "https://doi.org/10.1037/pspp0000575",
-          "filter": 0
-        },
-        {
-          "title": "Pluralistic ignorance of stigma impedes take-up of welfare benefits.",
-          "authors": "Alice Lee-Yoon, Sherry J. Wu, Jason C. Chin, Heather M. Caruso, Eugene M. Caruso",
-          "url": "https://doi.org/10.1037/pspa0000466",
-          "doi": "https://doi.org/10.1037/pspa0000466",
-          "filter": 0
         }
       ],
       "articles_hidden": []
@@ -221,13 +227,6 @@
           "authors": "Carl F. Falk, Joshua Starr",
           "url": "https://doi.org/10.1080/00273171.2025.2551373",
           "doi": "https://doi.org/10.1080/00273171.2025.2551373",
-          "filter": 0
-        },
-        {
-          "title": "Dynamics Between Asynchronously Measured Variables: A Multilevel Approach to Momentary Affect and Morning Sleep Reports",
-          "authors": "Sophie W. Berkhout, Noémi K. Schuurman, Koen Niemeijer, Peter Kuppens, Ellen L. Hamaker",
-          "url": "https://doi.org/10.1080/00273171.2025.2551370",
-          "doi": "https://doi.org/10.1080/00273171.2025.2551370",
           "filter": 0
         },
         {
@@ -256,71 +255,29 @@
       "articles_hidden": []
     },
     {
-      "journal_full": "Psychological Bulletin",
-      "journal_short": "PsychBull",
-      "articles": [
-        {
-          "title": "Internalized racism, stress, and health: A comprehensive meta-analytic structural equation model test of the internalized racism framework.",
-          "authors": "Drexler James, Alicia M. Bowling, Mariola Moeyaert, Kaavya Iyer",
-          "url": "https://doi.org/10.1037/bul0000486",
-          "doi": "https://doi.org/10.1037/bul0000486",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
       "journal_full": "Psychological Methods",
       "journal_short": "PM",
       "articles": [
-        {
-          "title": "Exploratory graph analysis trees—A network-based approach to investigate measurement invariance with numerous covariates.",
-          "authors": "David Goretzko, Philipp Sterner",
-          "url": "https://doi.org/10.1037/met0000796",
-          "doi": "https://doi.org/10.1037/met0000796",
-          "filter": 0
-        },
         {
           "title": "Crowdsourcing multiverse analyses to explore the impact of different data-processing and analysis decisions: A tutorial.",
           "authors": "Tom Heyman, Ekaterina Pronizius, Savannah C. Lewis, Oguz A. Acar, Matúš Adamkovič, Ettore Ambrosini, Jan Antfolk, Krystian Barzykowski, Ernest Baskin, Carlota Batres, Leanne Boucher, Jordane Boudesseul, Eduard Brandstätter, W. Matthew Collins, Dušica Filipović Ðurđević, Ciara Egan, Vanessa Era, Paulo Ferreira, Chiara Fini, Patricia Garrido-Vásquez, Hendrik Godbersen, Pablo Gomez, Aurelien Graton, Necdet Gurkan, Zhiran He, Dave C. Johnson, Pavol Kačmár, Chris Koch, Marta Kowal, Tomas Kratochvil, Marco Marelli, Fernando Marmolejo-Ramos, Martín Martínez, Alan Mattiassi, Nicholas P. Maxwell, Maria Montefinese, Coby Morvinski, Maital Neta, Yngwie A. Nielsen, Sebastian Ocklenburg, Jaš Onič, Marietta Papadatou-Pastou, Adam J. Parker, Mariola Paruzel-Czachura, Yuri G. Pavlov, Manuel Perea, Gerit Pfuhl, Tanja C. Roembke, Jan P. Röer, Timo B. Roettger, Susana Ruiz-Fernandez, Kathleen Schmidt, Cynthia S. Q. Siew, Christian K. Tamnes, Jack E. Taylor, Rémi Thériault, José L. Ulloa, Miguel A. Vadillo, Michael E. W. Varnum, Martin R. Vasilev, Steven Verheyen, Giada Viviani, Sebastian Wallot, Yuki Yamada, Yueyuan Zheng, Erin M. Buchanan",
           "url": "https://doi.org/10.1037/met0000770",
           "doi": "https://doi.org/10.1037/met0000770",
           "filter": 0
-        },
-        {
-          "title": "On the uncanny relationship between nonnormality and moderated multiple regression.",
-          "authors": "Oscar L. Olvera Astivia, Xijuan Zhang, Edward Kroc, Bruno D. Zumbo",
-          "url": "https://doi.org/10.1037/met0000797",
-          "doi": "https://doi.org/10.1037/met0000797",
-          "filter": 0
         }
       ],
       "articles_hidden": []
     },
     {
-      "journal_full": "Psychology of Music",
-      "journal_short": "PsychMusic",
+      "journal_full": "Psychological Science",
+      "journal_short": "PsychSci",
       "articles": [
         {
-          "title": "Social identity, collective self-esteem, and musical preferences in electronic dance music culture: The role of emotions",
-          "authors": "Xavier Mínguez-Alcaide, Magdalena Bobowik",
-          "abstract": "Research on the relationship between identification factors and musical preference show contradictory results. Some studies do not find relationship between these, while others show that social identification predicts stronger music preference. The present study further delves into that controversy in the understudied context of Electronic Dance Music (EDM). Furthermore, we examine the role of two categories of emotions, namely, vitality (representing energy, joy, and power) and sublimity (representing feelings of transcendence, tranquility, or nostalgia) in the relationship between identification factors and EDM preference. To test these ideas, we conducted two studies, including a correlational survey study with a sample of 222 EDM fans in the Basque Country and a qualitative study using a focus group methodology with 25 members of the same community. Results show that stronger musical identification is associated with preference for EDM only indirectly via vitality emotions and to a lesser degree, sublimity emotions. In contrast, the more negative (and not positive) musical collective self-esteem, the stronger was the preference for EDM, and again this link was explained via mostly vitality emotions. The qualitative study corroborated the existence and acceptance of negative collective self-esteem among EDM fans, an aspect related to the strong stigma generated by the Basque society.",
-          "url": "https://doi.org/10.1177/03057356251361754",
-          "doi": "https://doi.org/10.1177/03057356251361754",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Psychology of Popular Media",
-      "journal_short": "PPM",
-      "articles": [
-        {
-          "title": "The effects of memes on perceptions and decision making: Insights from fuzzy-trace theory.",
-          "authors": "Wylie Brace, Christopher R. Wolfe",
-          "url": "https://doi.org/10.1037/ppm0000632",
-          "doi": "https://doi.org/10.1037/ppm0000632",
+          "title": "The Anticipated Relational Effects of Confronting Bias (or not) in Interracial Friendships",
+          "authors": "Ashley L. Berkebile-Weinberg, Riana M. Brown, Casey E. McMahon, Maureen A. Craig",
+          "abstract": "Most biased comments people experience are from friends. However, little is known about how people process experiences in which a friend expresses bias and how the relationship might be affected. The current research examines the anticipated relational effects of confronting (vs. not confronting) a friend’s bias, using adult participants in the United States. Asian participants who imagined confronting a White friend’s biased comment (or a stranger’s: see Study 1) anticipated higher friendship or relationship quality compared with those who imagined not having that confrontation. This effect remained regardless of whether bias was directed toward participants’ in-group or toward an out-group (see Study 2). The closer people felt to their friend, the more confronting (vs. not confronting) elicited higher friendship quality. Experimentally testing for mechanism demonstrated that the effect of confronting is driven by greater anticipated understanding (see Study 3). This work reveals that Asian people expect that confronting a friend’s bias will elicit greater understanding and buffer against negative interpersonal effects. Statement of Relevance The majority of biased comments people hear are from friends (Dickter &amp; Newton, 2013), and 40% of Americans report confronting a friend or family member for a biased comment (Horowitz et al., 2019). Yet, how people think about confronting a friend (or not) is unknown. Relationship quality can be improved by mutual understanding (Reis et al., 2017), and confronting can provide an opportunity to express oneself and establish understanding with close others. Further, a proposed starting point for healing racial division is to start a conversation and talk to one’s friends (Song, 2019). Thus, it is essential to understand how racial minorities expect their interracial relationships to be impacted when they confront others about bias. Ultimately, our research helps explain why minority-group members might choose to confront bias from a close friend—namely, that they expect it to be less detrimental for their friendship than to stay silent.",
+          "url": "https://doi.org/10.1177/09567976251372125",
+          "doi": "https://doi.org/10.1177/09567976251372125",
           "filter": 0
         }
       ],
