@@ -1,38 +1,24 @@
 {
-  "update": "2025-09-24",
+  "update": "2025-09-25",
   "content": [
-    {
-      "journal_full": "Advances in Methods and Practices in Psychological Science",
-      "journal_short": "AMPPS",
-      "articles": [
-        {
-          "title": "How Do Psychology Journals Handle Postpublication Critique? A Cross-Sectional Study of Policy and Practice",
-          "authors": "Annie Whamond, Simine Vazire, Beth Clarke, Nicholas Moodie, Sarah Schiavone, Robert T. Thibault, Tom E. Hardwicke",
-          "abstract": "Postpublication critique, such as letters to the editor, can contribute to the validity and trustworthiness of scientific research. We conducted a cross-sectional analysis of the policy and practice of postpublication critique in (a) randomly selected ( N = 100) and (b) prominent ( N = 100) psychology journals. In 2023, an explicit submission option for postpublication critique was available at 23% (95% confidence interval [CI] = [16%, 32%]) of randomly sampled psychology journals and 38% of the most prominent psychology journals. Journals sometimes imposed limits on the length and time allowed to submit critiques. We manually inspected two random samples of empirical articles published in 2020 (articles per sample: N = 101), estimating the prevalence of postpublication critique to be 0% (95% CI = [0%, 3.7%]) in psychology journals generally and 1% (95% CI = [0.2%, 5.4%]) in the most prominent psychology journals. The policy and practice of postpublication critique is seriously neglected in psychology journals.",
-          "url": "https://doi.org/10.1177/25152459251366102",
-          "doi": "https://doi.org/10.1177/25152459251366102",
-          "filter": 0
-        },
-        {
-          "title": "Realistic Expectations for Replications: Expecting Too Little Is Just as Bad as Expecting Too Much",
-          "authors": "Frieder Göppert, Kriti Bhatia, Sascha Meyen, Volker H. Franz",
-          "url": "https://doi.org/10.1177/25152459251369846",
-          "doi": "https://doi.org/10.1177/25152459251369846",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "Algorithmic gaze annotation for mobile eye-tracking",
-          "authors": "Daniel Mueller, David Mann",
-          "abstract": "Mobile eye-tracking is increasingly used to study human behavior in situ; however, the analysis of the footage is typically performed manually and therefore is slow and laborious. The aim of this study was to examine the extent to which the footage obtained using mobile eye-tracking could be annotated automatically using computer vision algorithms. We developed an open-source Python package that combined two computer vision algorithms to automatically annotate human-body-related areas of interest when two participants interacted with each other. To validate the algorithm, three experienced human raters coded the gaze direction with respect to one of seven a priori defined areas of interest during the task. To test the reliability of the algorithm, the agreement between the human raters was compared with the results obtained from the algorithm. A total of 1,188 frames from 13 trials were compared, with the results revealing substantial agreement between the algorithm and human raters (Krippendorff’s alpha = 0.61). The algorithm strictly annotated whether gaze was within or outside of the specified areas of interest, whereas human raters seemed to apply a tolerance when gaze was lying slightly outside the areas of interest. In sum, the computer algorithmic approach appears to provide a valid means of automatically annotating mobile eye-tracking footage in highly dynamic contexts. The possibility of automatically annotating eye-tracking footage of human interactions allows for automatic assessment of visual attention, gaze, and intentions across sectors such as educational settings, pedestrian navigation, and sport.",
-          "url": "https://doi.org/10.3758/s13428-025-02803-2",
-          "doi": "https://doi.org/10.3758/s13428-025-02803-2",
+          "title": "Experimenter evidence unmasking as a confound in optional stopping",
+          "authors": "Renata Sadibolova, Devin B. Terhune",
+          "abstract": "Optional stopping refers to the practice of repeatedly performing a statistical analysis on a dataset as new data are collected until a pre-specified decision criterion is reached. This procedure is often adopted because of its effectiveness in optimizing data collection. Discussions of optional stopping to date have primarily centred around statistical issues, with relatively little consideration of any methodological implications of this procedure. Building on recent work drawing attention to methodological biases arising from the use of optional stopping, we highlight experimenter awareness of the current evidence state during data collection ( experimenter evidence unmasking ) as a salient methodological confound of optional stopping. We argue that experimenter evidence unmasking has the potential to influence an experimenter to implicitly or explicitly modify their behaviour in ways that can reduce the internal validity of an experiment. We conclude by offering recommendations for circumventing this confound and for the transparent reporting of experimenter evidence masking procedures.",
+          "url": "https://doi.org/10.3758/s13428-025-02813-0",
+          "doi": "https://doi.org/10.3758/s13428-025-02813-0",
+          "filter": 0
+        },
+        {
+          "title": "duet: An R package for dyadic analysis of motion data generated by OpenPose",
+          "authors": "Themis N. Efthimiou, Catherine J. Crompton",
+          "abstract": "Research into dyadic social interactions has expanded significantly, enabling a deeper understanding of the dynamic processes underlying interpersonal communication. As the use of larger datasets becomes increasingly common in this field, the need for scalable and efficient analytical tools has grown. Automated coding methods, such as those provided by OpenPose, an open-source software for detecting and tracking human motion, offer significant advantages for analysing the movement of two individuals during an interaction. However, the processing and analysis of large quantities of JSON output files generated by OpenPose remain a considerable challenge. To address this, we introduce duet , an R package designed to streamline the processing and analysis of OpenPose output data, particularly in the context of dyadic interactions. The package provides a suite of functions for data cleaning, interpolation, kinematic analysis, and visualisation, offering researchers a comprehensive and user-friendly workflow. By simplifying the handling of OpenPose data, duet aims to facilitate large-scale, automated analysis of dyadic social interactions, with minimal coding experience, thereby advancing methodological capabilities in social and behavioural sciences.",
+          "url": "https://doi.org/10.3758/s13428-025-02817-w",
+          "doi": "https://doi.org/10.3758/s13428-025-02817-w",
           "filter": 0
         },
         {
@@ -43,18 +29,19 @@
           "filter": 0
         },
         {
-          "title": "Correction: The Polish Vocabulary Size Test: A novel adaptive test for receptive vocabulary assessment",
-          "authors": "Danil Fokin, Monika Płużyczka, Grigory Golovin",
-          "url": "https://doi.org/10.3758/s13428-025-02825-w",
-          "doi": "https://doi.org/10.3758/s13428-025-02825-w",
-          "filter": 0
-        },
-        {
           "title": "Multiverse simulation to explore the impact of analytical choices on type I and type II errors in a reaction time study",
           "authors": "Miklos Bognar, Marton A. Varga, Don van Ravenzwaaij, Zoltan Kekecs, James A. Grange, Mate Gyurkovics, Balazs Aczel",
           "abstract": "Researcher degrees of freedom in data analysis present significant challenges in social sciences, where different analytical decisions can lead to varying conclusions. In this work, we propose an example of an exploratory multiverse simulation to empirically compare various decision pathways to identify an effect’s sensitivity to different analytical choices. The approach is demonstrated on the congruency sequence effect (CSE), a well-studied phenomenon in cognitive control research. We reviewed existing literature to identify common non-theory-specific analytical decisions, such as outlier exclusion criteria and hypothesis testing methods, and incorporated these into our simulation framework. Using 20,000 simulated datasets, we compared the true positive rates (TPR) and false positive rates (FPR) across 50 different decision pathways, resulting in a total of 1 million analyses. Our results indicate substantial differences in power and type I error rates across the analytical pathways, with some posing a significant risk of producing high false positives. The findings underscore the importance of running extensive simulations to investigate different data handling and hypothesis testing approaches in certain research fields. This case study serves as an example for conducting similar simulation procedures in research fields characterized by high variability in analytical decisions when investigating an otherwise widely accepted effect.",
           "url": "https://doi.org/10.3758/s13428-025-02807-y",
           "doi": "https://doi.org/10.3758/s13428-025-02807-y",
+          "filter": 0
+        },
+        {
+          "title": "Exploring the synthesis of mouse cursor tracking and drift diffusion modeling in a perceptual decision-making task",
+          "authors": "Oliver Grenke, Stefan Scherbaum, Martin Schoemann",
+          "abstract": "Process tracing and process modeling are the two primary behavioral approaches for uncovering human decision-making processes. However, both approaches face significant limitations: process tracing offers a large and oftentimes confusing number of measures, while process modeling relies on a minimal number of comparable trials for reliable model fitting. In our study, we explore how we can combine mouse cursor tracking and the drift diffusion model (DDM) in order to both reduce the number of cursor measures and circumvent the minimal trial amount requirements of DDM fitting. One hundred three participants completed 90 trials in a random dot kinematogram (RDK). A total of 18 cursor measures were taken from the mouse cursor tracking literature and used to predict drift rate, threshold separation, and non-decision time of the DDM via partial least squares regression. Four cursor measures contributed significantly to the prediction of the DDM parameters. When reducing the available trials, these cursor measures, in combination with response time and accuracy, performed better and remained more stable in the prediction of DDM parameters than model fitting. Our results lower the barrier for applying mouse cursor tracking for novice researchers by highlighting important cursor measures and their mapping to psychological constructs of decision-making, while also offering an approach for behavioral scientists to investigate DDM components in experimental setups with a restricted number of trials.",
+          "url": "https://doi.org/10.3758/s13428-025-02805-0",
+          "doi": "https://doi.org/10.3758/s13428-025-02805-0",
           "filter": 0
         },
         {
@@ -69,14 +56,6 @@
           "authors": "Themis Nikolas Efthimiou, Monica Perusquía-Hernández, Arthur Elsenaar, Marc Mehu, Sebastian Korb",
           "url": "https://doi.org/10.3758/s13428-025-02836-7",
           "doi": "https://doi.org/10.3758/s13428-025-02836-7",
-          "filter": 0
-        },
-        {
-          "title": "Optimeet: A computational tool to enhance participant attendance in group research",
-          "authors": "Lukas W. Mayer, Desislava Bocheva, Joanne Hinds, Olivia Brown, Lukasz Piwek, David A. Ellis",
-          "abstract": "Across disciplines, research often relies on groups of people to participate in experiments or attend events at the same time. Typically, researchers try to maximize attendance by manually identifying a set of times that suit the diaries of many individuals. However, this is inefficient, is prone to error, and can lead to a final sample that is not large enough to provide meaningful inferences. While current scheduling tools are useful for individual-based research, enabling participants to select times convenient to them within a researcher's preset parameters, they are less useful in research that requires specific or flexible group sizes. In response, we present Optimeet , a web application that allows researchers to upload participants’ availability data and generate an optimal allocation schedule for multiple groups. We describe the function of the underlying applet, which identifies a schedule to maximize attendance by treating it as a computational problem involving combinatorial optimization (Experiment 1). Our solution relies on an empirical comparison of parameter-free heuristics to make allocation decisions that make the best use of participants’ availabilities and the derivation of appropriate performance metrics. Of the algorithms evaluated, one consistently outperformed comparable versions of existing tools, which we verified in a further exercise (Experiment 2) involving a large human sample ( N = 5,289). We consider the methodological utility and practical value of these developments, and include detailed documentation, code, and a video tutorial so that researchers can rapidly employ Optimeet to support group research.",
-          "url": "https://doi.org/10.3758/s13428-025-02745-9",
-          "doi": "https://doi.org/10.3758/s13428-025-02745-9",
           "filter": 0
         }
       ],
@@ -108,13 +87,6 @@
           "filter": 0
         },
         {
-          "title": "Similar but Different: The Differential Implications of Augmented and Virtual Reality Experiences for Raising Engagement towards Climate Change Actions",
-          "authors": "Luisa Alex, Robert Mai, Philipp A. Rauschnabel",
-          "url": "https://doi.org/10.1016/j.chb.2025.108798",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108798",
-          "filter": 0
-        },
-        {
           "title": "Substitution or Augmentation? How Organisational AI Adoption Approaches Influence the Willingness to Stay of Caregivers",
           "authors": "Li Jiang, Xuli Wang, Yuguang Xie, Junhong Zhu, Dongxiao Gu",
           "url": "https://doi.org/10.1016/j.chb.2025.108801",
@@ -129,6 +101,13 @@
           "filter": 0
         },
         {
+          "title": "Psychological Insights into Enhanced Online Learning: Investigating the Role of Danmaku Interaction and Cognitive Styles",
+          "authors": "Lei Han, Chunze Xu, Mengshi Xiao, Qing Lv, Li Wang, Zhong Liu, Fengqiang Gao, Yanwei Dang, Min Jou",
+          "url": "https://doi.org/10.1016/j.chb.2025.108802",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108802",
+          "filter": 0
+        },
+        {
           "title": "Wealth, Digital Overuse, and the Changing Landscape of Digital Inequality1",
           "authors": "Soyoung Park",
           "url": "https://doi.org/10.1016/j.chb.2025.108805",
@@ -136,7 +115,7 @@
           "filter": 0
         },
         {
-          "title": "Embracing the Metaverse: User Perception and Acceptance of the Metaverse in Education",
+          "title": "Embracing the Metaverse: User perception and acceptance of the Metaverse in education",
           "authors": "Patricia Baudier, Tony De Vassoigne, Mitra Arami, Arnaud Delannoy, Rony Germon",
           "url": "https://doi.org/10.1016/j.chb.2025.108804",
           "doi": "https://doi.org/10.1016/j.chb.2025.108804",
@@ -153,36 +132,21 @@
       "articles_hidden": []
     },
     {
-      "journal_full": "Group Processes & Intergroup Relations",
-      "journal_short": "GPIR",
-      "articles": [
-        {
-          "title": "White power on trial: Perceptions of antiracism organizations focusing on power versus discrimination",
-          "authors": "Minh Duc Pham, Kimberly E. Chaney",
-          "abstract": "The present research integrates lay theories of activism and inequity-framing literatures to investigate how Black and White Americans perceive antiracism organizations with different expressed goals (i.e., tackling White power/privilege, tackling discrimination, or increasing people of color’s strengths). White Americans perceived a power-focused (vs. discrimination-focused and strength-focused) organization as less valuable, expressed less interest in engaging the organization in their local community, and perceived the organization as less effective at responding to people of color’s needs and reducing discrimination (Studies 1–2; N = 799). In contrast, Black Americans perceived nonsignificant or significantly smaller differences across organizational goals. When Black Americans’ perceptions were communicated to White Americans, White people’s perceptions of a power-focused organization were significantly improved (Study 3; N = 471). Findings highlight a need and a novel strategy to educate White people toward dismantling White power and privilege.",
-          "url": "https://doi.org/10.1177/13684302251357864",
-          "doi": "https://doi.org/10.1177/13684302251357864",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
       "journal_full": "Journal of Experimental Social Psychology",
       "journal_short": "JESP",
       "articles": [
-        {
-          "title": "How diversity and disadvantage frames shape employee reactions to affirmative action: Social identity threat, stereotype threat, and fairness perceptions",
-          "authors": "Samantha M. Greig, Courtney von Hippel, Tyler Okimoto",
-          "url": "https://doi.org/10.1016/j.jesp.2025.104831",
-          "doi": "https://doi.org/10.1016/j.jesp.2025.104831",
-          "filter": 0
-        },
         {
           "title": "Masculinity contest cultures lead to self-group distancing in women",
           "authors": "Jenny Veldman, Andrea C. Vial",
           "url": "https://doi.org/10.1016/j.jesp.2025.104832",
           "doi": "https://doi.org/10.1016/j.jesp.2025.104832",
+          "filter": 0
+        },
+        {
+          "title": "Generalization of rejection and acceptance in social networks",
+          "authors": "Yi Zhang, Leor M. Hackel",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104834",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104834",
           "filter": 0
         },
         {
@@ -227,13 +191,6 @@
       "journal_full": "Multivariate Behavioral Research",
       "journal_short": "MBR",
       "articles": [
-        {
-          "title": "Regularized Cross-Sectional Network Modeling with Missing Data: A Comparison of Methods",
-          "authors": "Carl F. Falk, Joshua Starr",
-          "url": "https://doi.org/10.1080/00273171.2025.2551373",
-          "doi": "https://doi.org/10.1080/00273171.2025.2551373",
-          "filter": 0
-        },
         {
           "title": "Residual Structural Equation Modeling with Nonnormal Distribution",
           "authors": "Ming-Chi Tseng",
