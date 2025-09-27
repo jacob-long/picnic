@@ -1,5 +1,5 @@
 {
-  "update": "2025-09-26",
+  "update": "2025-09-27",
   "content": [
     {
       "journal_full": "American Sociological Review",
@@ -20,14 +20,6 @@
       "journal_full": "Social Forces",
       "journal_short": "SocForces",
       "articles": [
-        {
-          "title": "Rethinking migrant reception in the age of color-blind racism: an experimental approach",
-          "authors": "Michael Middleton",
-          "abstract": "A large and robust literature has emerged in recent years that looks at the acceptance of migrants into Western countries. Surprisingly, these studies have consistently found that residents in Western countries accept non-White migrants at virtually the same level as White migrants. Missing from these studies is an engagement with racism in its modern form, which is often more “color-blind,” or hidden, rather than overtly expressed, and thus can be more difficult to capture. In this study, I ask the following questions: (1) What role do racialization processes play in attitudes toward migrants? and (2) Do these processes vary across different questions of acceptance? To answer these questions, this study utilizes Duboisian insight to argue that, while White attitudes toward non-White migrants may be positive in the abstract, when Whites are forced to give up their symbolic and material power in the process, this positive reception wanes. The study utilizes a conjoint design experimental online survey to test the acceptance of migrants applying for refugee status across multiple outcomes: (1) legal acceptance, which measures the acceptance across the physical border, and (2) symbolic acceptance, which measures the acceptance into American society. These findings replicate prior research in finding no significant difference between the legal acceptance of White and non-White migrants among White respondents. However, when the acceptance outcome becomes symbolic, this parity dissipates. This study contributes to the literature by adding a symbolic layer to migrant acceptance in the United States, an important distinction in the era of color-blind racism.",
-          "url": "https://doi.org/10.1093/sf/soaf147",
-          "doi": "https://doi.org/10.1093/sf/soaf147",
-          "filter": 0
-        },
         {
           "title": "Unpacking the nexus of Islamic religiosity and attitudes towards individual liberties and gender equality: a person-centered analysis among Dutch Muslims",
           "authors": "Marija Dangubić, Fenella Fleischmann",
@@ -88,11 +80,19 @@
       "journal_short": "SociolMethodsRes",
       "articles": [
         {
-          "title": "Simulation-Based Sensitivity Analysis in Optimal Treatment Regimes and Causal Decomposition With Individualized Interventions",
-          "authors": "Soojin Park, Suyeon Kang, Chioun Lee",
-          "abstract": "Causal decomposition analysis aims to assess the effect of modifying risk factors on reducing social disparities in outcomes. Recently, this analysis has incorporated individual characteristics when modifying risk factors by utilizing optimal treatment regimes (OTRs). Since the newly defined individualized effects rely on the no omitted confounding assumption, developing sensitivity analyses to account for potential omitted confounding is essential. Moreover, OTRs and individualized effects are primarily based on binary risk factors, and no formal approach currently exists to benchmark the strength of omitted confounding using observed covariates for binary risk factors. To address this gap, we extend a simulation-based sensitivity analysis that simulates unmeasured confounders, addressing two sources of bias emerging from deriving OTRs and estimating individualized effects. Additionally, we propose a formal bounding strategy that benchmarks the strength of omitted confounding for binary risk factors. Using the High School Longitudinal Study 2009 (HSLS:09), we demonstrate this sensitivity analysis and benchmarking method.",
-          "url": "https://doi.org/10.1177/00491241251377741",
-          "doi": "https://doi.org/10.1177/00491241251377741",
+          "title": "Causal Inference for Latent Markov Models Using the Parametric G-Formula",
+          "authors": "Felix J. Clouth, Maarten J. Bijlsma, Steffen Pauws, Jeroen K. Vermunt",
+          "abstract": "The parametric g-formula can be used to estimate causal effects of time-varying exposures on observable outcomes. It resolves intermediate confounding in such settings by specifying several parametric models, one each for every time-varying variable, and by performing micro-simulations. However, its restriction to applications with observable outcomes limits its usability for social sciences where variables of interest are often unobservable constructs. In such cases, measurement models are needed. We propose a new approach utilizing bias-adjusted three-step latent Markov models (LMMs) within the parametric g-formula. LMMs estimate the probability of membership in an unobservable state conditional on observed indicator variables. By replacing the parametric models in the g-formula with LMMs, micro-simulations are performed as usual to estimate a causal effect of the time-varying exposure. We illustrate this new approach by estimating the average treatment effect of unemployment on several unobservable mental health states utilizing longitudinal data from the Longitudinal Internet studies for the Social Sciences panel.",
+          "url": "https://doi.org/10.1177/00491241251377068",
+          "doi": "https://doi.org/10.1177/00491241251377068",
+          "filter": 0
+        },
+        {
+          "title": "Migration Status Gradients in Immigrant Poverty: A Comparison of Imputation Methods",
+          "authors": "Cody Spence, James D. Bachmeier, Claire E. Altman, Jennifer Van Hook, Kendal Lowrey",
+          "abstract": "Research on the stratifying effects of migration status has increased sharply in the last two decades, although efforts have been hampered by the near absence of representative data that include detailed migration status measures. Researchers have developed various statistical and logical imputation methods that have produced widely varying estimates. In this article, we introduce a new indicator of migration status constructed from two federal surveys matched to the Social Security Administration's Numident file, a database that includes all citizens and legal residents of the United States. In models predicting poverty, our measure produces estimates comparable to those based on respondents’ own self-reports, in one federal survey, of their migration status. Both the administrative and survey-based measures produce poverty gradients that diverge from those produced by logic-based measures. Our findings contribute to mounting evidence of bias in the use of certain kinds of logic-based algorithms to impute migration status and demonstrate the promise of administrative record linkages in migration status research.",
+          "url": "https://doi.org/10.1177/00491241251379461",
+          "doi": "https://doi.org/10.1177/00491241251379461",
           "filter": 0
         }
       ],
