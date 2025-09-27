@@ -1,10 +1,42 @@
 {
-  "update": "2025-09-26",
+  "update": "2025-09-27",
   "content": [
     {
       "journal_full": "American Political Science Review",
       "journal_short": "APSR",
       "articles": [
+        {
+          "title": "What Happens When You Can’t Check the Box? Categorization Threat and Public Opinion among Middle Eastern and North African Americans",
+          "authors": "AMANDA SAHAR D’URSO",
+          "abstract": "Middle Eastern and North African (MENA) Americans are politically visible yet institutionally invisible, long categorized as “white” by the U.S. government despite neither self-categorizing nor racially assigned as such. Most forms—across public and private sectors—still lack a “MENA” category option. What are the political consequences of institutional invisibility? Across two survey experiments and in-depth interviews, I find that exclusion from official identity categories triggers the experience of categorization threat, a psychological response rarely linked to political behavior. When MENA Americans experience categorization threat, they respond by expressing opinions on politics in ways that attempt to signal and assert their MENA identity and, to a lesser extent, Person of Color (POC) identity. Such identity assertion demonstrates that bureaucratic categorization influences expressions of public opinion on politics, not simply how people self-categorize. Researching the effects of category exclusion on public opinions creates opportunities for more accurate and democratic scholarship.",
+          "url": "https://doi.org/10.1017/s0003055425100919",
+          "doi": "https://doi.org/10.1017/s0003055425100919",
+          "filter": 0
+        },
+        {
+          "title": "How Partisan Are U.S. Local Elections? Evidence from 2020 Cast Vote Records",
+          "authors": "ALEKSANDRA CONEVSKA, SHIGEO HIRANO, SHIRO KURIWAKI, JEFFREY B. LEWIS, CAN MUTLU, JAMES M. SNYDER",
+          "abstract": "Analyzing nominally partisan contests, previous literature has argued that state and local politics have nationalized. Here we use individual ballots from the 2020 general elections covering over 50 million voters to study the relationship between individual national partisanship and voting in over 5,700 contested down-ballot contests, including nonpartisan races and ballot measures. Voting in partisan contests can be explained by voter’s national partisanship, consistent with existing literature. However, we find that voting for local nonpartisan offices and ballot measures is much less partisan. National partisanship explains more than 80% of the within-contest variation in voting for partisan state and local offices but less than 10% for local nonpartisan contests and local ballot measures. The degree of partisanship in local spending measures varies by the type of service—for example, education, roads, public safety, housing. Finally, we find evidence of structure in the pattern of votes on local spending measures.",
+          "url": "https://doi.org/10.1017/s0003055425100920",
+          "doi": "https://doi.org/10.1017/s0003055425100920",
+          "filter": 0
+        },
+        {
+          "title": "The Political Transformation of Corporate America, 2001–2022",
+          "authors": "REILLY S. STEEL",
+          "abstract": "This article reconciles conflicting views about the political landscape of corporate America with new data on the revealed political preferences of 97,469 corporate directors and executives at 9,005 different U.S. companies. Driven largely by turnover, I find that average observed ideology for directors and executives has shifted meaningfully to the left over time, changing from modestly conservative in 2001 to roughly centrist by 2022. This finding supports a middle-ground position between conventional wisdom casting “big business” as a conservative stronghold and revisionist views holding the opposite. Counterfactual simulations and a difference-in-differences design suggest multifaceted reasons for these changes, and hand-collected data on corporate stances on LGBTQ-related legislation suggest a strong connection between corporate political activity and individual views. Overall, this transformation has profound implications for American politics, as the individuals comprising one of the most powerful interest groups—corporate elites—appear to be fracturing ideologically and to some degree even switching sides.",
+          "url": "https://doi.org/10.1017/s0003055425100993",
+          "doi": "https://doi.org/10.1017/s0003055425100993",
+          "filter": 0
+        },
+        {
+          "title": "Land, Power, and Property Rights: The Political Economy of Land Titling in Sub-Saharan Africa",
+          "authors": "MATTHEW K. RIBAR",
+          "abstract": "Only 15% of African households possess a formal title for their agricultural land, despite the widespread availability of titles and their documented benefits. Local politics combine with national land regimes to explain this empirical anomaly. I combine 170,216 household-level observations of titling across 22 African countries with a novel geospatial measure of land values and the returns to agricultural investment. Households in areas with high returns to potential agricultural investment title more. However, in countries with centralized land tenure regimes, strong customary institutions attenuate this relationship; in countries with decentralized land regimes, strong customary institutions reinforce it. I use a case study in Côte d’Ivoire, including an original survey of 801 households and 194 customary elites, to trace these mechanisms at work. This research documents granular variation in the uptake of land titles, illustrates how local politics explain this variation, and outlines conditions under which customary elites impede development.",
+          "url": "https://doi.org/10.1017/s0003055425100981",
+          "doi": "https://doi.org/10.1017/s0003055425100981",
+          "filter": 0
+        },
         {
           "title": "Storm from the Steppes: Warfare and Succession Institutions in Pre-Modern Eurasia, 1000–1799 CE",
           "authors": "DANIEL STEVEN SMITH",
@@ -42,11 +74,11 @@
       "journal_short": "PA",
       "articles": [
         {
-          "title": "Codebook LLMs: Evaluating LLMs as Measurement Tools for Political Science Concepts",
-          "authors": "Andrew Halterman, Katherine A. Keith",
-          "abstract": "Codebooks—documents that operationalize concepts and outline annotation procedures—are used almost universally by social scientists when coding political texts. To code these texts automatically, researchers are increasingly turning to generative large language models (LLMs). However, there is limited empirical evidence on whether “off-the-shelf” LLMs faithfully follow real-world codebook operationalizations and measure complex political constructs with sufficient accuracy. To address this, we gather and curate three real-world political science codebooks—covering protest events, political violence, and manifestos—along with their unstructured texts and human-coded labels. We also propose a five-stage framework for codebook-LLM measurement: Preparing a codebook for both humans and LLMs, testing LLMs’ basic capabilities on a codebook, evaluating zero-shot measurement accuracy (i.e., off-the-shelf performance), analyzing errors, and further (parameter-efficient) supervised training of LLMs. We provide an empirical demonstration of this framework using our three codebook datasets and several pre-trained 7–12 billion open-weight LLMs. We find current open-weight LLMs have limitations in following codebooks zero-shot, but that supervised instruction-tuning can substantially improve performance. Rather than suggesting the “best” LLM, our contribution lies in our codebook datasets, evaluation framework, and guidance for applied researchers who wish to implement their own codebook-LLM measurement projects.",
-          "url": "https://doi.org/10.1017/pan.2025.10017",
-          "doi": "https://doi.org/10.1017/pan.2025.10017",
+          "title": "Meaning Beyond Numbers: Introducing the Plot Staircase to Measure Graphical Preferences",
+          "authors": "Talbot M. Andrews, Justin Curl, Markus Prior",
+          "abstract": "People regularly get information about the political world in visual form, such as graphs of past economic growth, nonverbal cues from politicians, or projections of future climate change. Visual characteristics affect people’s preferences, but it is difficult to measure the extent of this effect precisely and concisely in surveys. We present a new adaptive design that measures the impact of visual characteristics on people’s preferences: The plot staircase. We apply it to graphs of time series data, identifying the effect of the slope of a sequence on evaluations of the sequence. The plot staircase replicates the existing finding that people have a strong preference for increasing trends. Using fewer survey questions than past approaches, it measures at the individual level how much overall welfare a survey respondent is willing to sacrifice for an increasing trend. We demonstrate the flexibility of the plot staircase across domains (economic growth, jobs creation, and the COVID-19 vaccine rollout) and across sequence characteristics. Survey measurement is more difficult for concepts that cannot be represented textually or numerically; our method enables researchers to measure preferences for graphical properties not reducible to the individual pieces of information.",
+          "url": "https://doi.org/10.1017/pan.2025.10015",
+          "doi": "https://doi.org/10.1017/pan.2025.10015",
           "filter": 0
         }
       ],
@@ -82,6 +114,21 @@
       ]
     },
     {
+      "journal_full": "Political Psychology",
+      "journal_short": "PolPsyc",
+      "articles": [
+        {
+          "title": "Integrating insights into radicalization: A text‐mining systematic review",
+          "authors": "Anna Knorr, Nikita Podolin, Gabriele Di Cicco, Małgorzata Kossowska",
+          "abstract": "The study of radicalization encompasses a broad spectrum of perspectives, with scholars from diverse disciplines – ranging from psychology, sociology, political science, criminology, to economics – contributing to its multifaceted comprehension. Despite this substantial body of empirical research, the knowledge is fragmented across disciplines, emphasizing the need for integration to establish a cohesive framework. As laying the groundwork for a unified framework begins with identifying relevant phenomena, this systematic review analyzed 4019 research articles using text mining to detect phenomena associated with radicalization. Author keywords and abstracts were analyzed by examining term frequency as an indicator of relevance and term co‐occurrence as an indicator of association. The results reflect themes commonly featured in theory, such as ideology, identity, and social networks, but also identified themes not well developed in theory. Macro‐level phenomena, including the role of the state, economy, elections, policy, and regional factors, as well as micro‐ and meso‐level phenomena like the internet, social media, adolescence, personality, language, education, and mental health, are not sufficiently embedded in theory. The findings further provide the first empirical evidence confirming the fragmentation of research on radicalization. This review represents a crucial step toward synthesizing existing knowledge and advancing a unified understanding of radicalization.",
+          "url": "https://doi.org/10.1111/pops.70070",
+          "doi": "https://doi.org/10.1111/pops.70070",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Political Science Research and Methods",
       "journal_short": "PSRM",
       "articles": [
@@ -91,21 +138,6 @@
           "abstract": "This paper puts forward a theoretically derived measure of firm-level political influence defined over a sample of firms from a diverse set of countries, permitting new inferences into state-business relations. We derive this measure from original surveys of 27,613 firms in 41 countries, which include information on several interactions with political actors. Using a Bayesian item response theory measurement model that incorporates non-ignorable missing data, we estimate influence scores that incorporate survey data on diverse mechanisms by which firms attempt to obtain influence. From the measurement model, we learn that membership in a business association contains the most positive information about a firm’s influence, while bribes, state ownership, firm size, and a reliance on collective lobbying tend to be substitutes for influence in equilibrium. Empirically, we are able to show for the first time how such influence is distributed across different types of political regimes using a measurement model, leading to intriguing hypotheses about how the costs and benefits of political activity structure corporate influence-seeking.",
           "url": "https://doi.org/10.1017/psrm.2025.10046",
           "doi": "https://doi.org/10.1017/psrm.2025.10046",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "PS: Political Science & Politics",
-      "journal_short": "PS",
-      "articles": [
-        {
-          "title": "Statistical Intuition without Coding (or Teachers)",
-          "authors": "Natalie Ayers, Gary King, Zagreb Mukerjee, Dominic Skinnion",
-          "abstract": "Teaching political methodology classes typically requires a set of technical, instructor-led lectures on sophisticated statistical concepts (such as probability modeling, inference, and proper interpretation), followed by chances for students to iteratively adjust methodological specifications, parameters, and data sets so they can understand how each combination affects the results. Iteration is essential to learning complicated concepts, but until now has required simultaneous mastery of a statistical programming language (such as R), which makes learning both harder. Teaching R the semester before would make methods classes easier but also delay research experiences and demotivate our students eager to begin substantive research. We address both problems through a new type of interactive teaching tool that lets students iterate while learning the big conceptual picture and all its separate parts, without having to simultaneously become programmers. We make this tool available for use in classes now (via one click in a web browser) and as an example of a new type of more friendly methods instruction for students and instructors alike.",
-          "url": "https://doi.org/10.1017/s1049096525000113",
-          "doi": "https://doi.org/10.1017/s1049096525000113",
           "filter": 0
         }
       ],
@@ -183,41 +215,6 @@
       "journal_full": "The Journal of Politics",
       "journal_short": "JOP",
       "articles": [
-        {
-          "title": "Differently Divisive Sexism, Racial Resentment, and Support for Candidates with Incongruent Views",
-          "authors": "Gabriel Borelli, Rafaela Dancygier, Daniel Hopkins, Ryan Bell, Jeremy Roth",
-          "url": "https://doi.org/10.1086/738701",
-          "doi": "https://doi.org/10.1086/738701",
-          "filter": 0
-        },
-        {
-          "title": "A Testament to Hope: The Natural Law Politics of Phillis Wheatley Peters’ Poetry",
-          "authors": "Matthew K. Reising",
-          "url": "https://doi.org/10.1086/738697",
-          "doi": "https://doi.org/10.1086/738697",
-          "filter": 0
-        },
-        {
-          "title": "Does the Messenger Shape the Message’s Effect? Race, Black Lives Matter, and the Efficacy of Social Movement Messages",
-          "authors": "Paul Franz Testa, Tarah Williams, Kylee Britzman, Karra McCray Gibson, Matthew Hibbing",
-          "url": "https://doi.org/10.1086/738699",
-          "doi": "https://doi.org/10.1086/738699",
-          "filter": 0
-        },
-        {
-          "title": "Placebo-Augmented PICA Design (PICA-2): Assessing the Influence of Foreign Propaganda",
-          "authors": "Naoki Egami, Donald P Green, Eunji Kim, Daniel C Mattingly",
-          "url": "https://doi.org/10.1086/738700",
-          "doi": "https://doi.org/10.1086/738700",
-          "filter": 0
-        },
-        {
-          "title": "How Framing Gender Diversity in Government Affects Perceptions of Substantive Representation",
-          "authors": "Lauren Wright, Jonathan Mummolo, Madeleine Marr",
-          "url": "https://doi.org/10.1086/734536",
-          "doi": "https://doi.org/10.1086/734536",
-          "filter": 0
-        },
         {
           "title": "Elections, Right-Wing Populism, and Political-Economic Polarization: The Role of Institutions and Political Outsiders",
           "authors": "Valentina Gonzalez-Rostani",
