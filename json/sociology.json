@@ -1,5 +1,5 @@
 {
-  "update": "2025-10-03",
+  "update": "2025-10-04",
   "content": [
     {
       "journal_full": "American Sociological Review",
@@ -213,19 +213,19 @@
       "journal_short": "SociolMethodsRes",
       "articles": [
         {
-          "title": "Causal Inference for Latent Markov Models Using the Parametric G-Formula",
-          "authors": "Felix J. Clouth, Maarten J. Bijlsma, Steffen Pauws, Jeroen K. Vermunt",
-          "abstract": "The parametric g-formula can be used to estimate causal effects of time-varying exposures on observable outcomes. It resolves intermediate confounding in such settings by specifying several parametric models, one each for every time-varying variable, and by performing micro-simulations. However, its restriction to applications with observable outcomes limits its usability for social sciences where variables of interest are often unobservable constructs. In such cases, measurement models are needed. We propose a new approach utilizing bias-adjusted three-step latent Markov models (LMMs) within the parametric g-formula. LMMs estimate the probability of membership in an unobservable state conditional on observed indicator variables. By replacing the parametric models in the g-formula with LMMs, micro-simulations are performed as usual to estimate a causal effect of the time-varying exposure. We illustrate this new approach by estimating the average treatment effect of unemployment on several unobservable mental health states utilizing longitudinal data from the Longitudinal Internet studies for the Social Sciences panel.",
-          "url": "https://doi.org/10.1177/00491241251377068",
-          "doi": "https://doi.org/10.1177/00491241251377068",
+          "title": "Causal Duration Analysis Based on Survival Probability Ratio",
+          "authors": "Jin-young Choi, Rangmi Myung, Myoung-jae Lee",
+          "abstract": "For causal effects of a binary treatment on a right-censored duration, the widely used proportional hazard contrasts are non-causal with unrealistic restrictions. This article proposes an alternative flexible causal approach, where we estimate the cumulative hazard, not the hazard itself, using an additive or “exponential-additive” specification with freely time-varying parameters. Our approach includes the proportional hazard as a highly special case that allows only monotonic survival probability ratios (SPR’s), while our approach allows any shape of SPR’s. An empirical analysis on recidivism using the duration until re-arrest after prison release on parole/probation is provided, where the SPR trajectory is not monotonic, but has an inverted-U shape over time.",
+          "url": "https://doi.org/10.1177/00491241251382457",
+          "doi": "https://doi.org/10.1177/00491241251382457",
           "filter": 0
         },
         {
-          "title": "Migration Status Gradients in Immigrant Poverty: A Comparison of Imputation Methods",
-          "authors": "Cody Spence, James D. Bachmeier, Claire E. Altman, Jennifer Van Hook, Kendal Lowrey",
-          "abstract": "Research on the stratifying effects of migration status has increased sharply in the last two decades, although efforts have been hampered by the near absence of representative data that include detailed migration status measures. Researchers have developed various statistical and logical imputation methods that have produced widely varying estimates. In this article, we introduce a new indicator of migration status constructed from two federal surveys matched to the Social Security Administration's Numident file, a database that includes all citizens and legal residents of the United States. In models predicting poverty, our measure produces estimates comparable to those based on respondents’ own self-reports, in one federal survey, of their migration status. Both the administrative and survey-based measures produce poverty gradients that diverge from those produced by logic-based measures. Our findings contribute to mounting evidence of bias in the use of certain kinds of logic-based algorithms to impute migration status and demonstrate the promise of administrative record linkages in migration status research.",
-          "url": "https://doi.org/10.1177/00491241251379461",
-          "doi": "https://doi.org/10.1177/00491241251379461",
+          "title": "Beyond the Diagonal Reference Model: Critiques and New Directions in the Analysis of Mobility Effects",
+          "authors": "Ethan Fosse, Fabian T. Pfeffer",
+          "abstract": "Over the past decade there has been a striking increase in the number of quantitative studies examining the effects of social mobility, with almost all based on the diagonal reference model (DRM). We make four main contributions to this rapidly expanding literature. First, we show that under plausible values of mobility effects, the DRM will, in many cases, implicitly force the underlying mobility linear effect toward zero. In addition, we show both mathematically and through simulations that the mobility effects estimated by the DRM are sensitive to the size and sign of the origin and destination linear effects, often in ways that are unlikely to be intuitive to applied researchers. This finding clarifies why, contrary to expectations, applied researchers have generally found mixed evidence of mobility effects. Second, we generalize the identification problem of conventional mobility effect models by showing that the DRM and related methods can be viewed as special cases of a bounding analysis, where identification is achieved by invoking extremely strong assumptions. Finally, and importantly, we present a new framework for the analysis of mobility tables based on the identification and estimation of joint parameter sets, introducing what we call the structural and dynamic inequality model. We show that this model is fully identified, relies on much weaker assumptions than conventional models of mobility effects, and can be treated both as a descriptive model and, if additional assumptions are invoked, as a causal model. We conclude with an agenda for further research on the consequences of socioeconomic mobility.",
+          "url": "https://doi.org/10.1177/00491241251358895",
+          "doi": "https://doi.org/10.1177/00491241251358895",
           "filter": 0
         }
       ],
