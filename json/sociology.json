@@ -1,5 +1,5 @@
 {
-  "update": "2025-10-10",
+  "update": "2025-10-11",
   "content": [
     {
       "journal_full": "American Sociological Review",
@@ -88,6 +88,13 @@
       "journal_short": "SSR",
       "articles": [
         {
+          "title": "Dual language immersion programs and their neighborhoods: Issues of program access and representation within Los Angeles Unified School District",
+          "authors": "Sarah Asson, Erica Frankenberg, Clémence Darriet, Lucrecia Santibañez, Claudia Cervantes-Soon, Francesca López",
+          "url": "https://doi.org/10.1016/j.ssresearch.2025.103255",
+          "doi": "https://doi.org/10.1016/j.ssresearch.2025.103255",
+          "filter": 0
+        },
+        {
           "title": "Online social class cues and employability: Experimental evidence from Germany",
           "authors": "Diana Roxana Galos, Joris Frese",
           "url": "https://doi.org/10.1016/j.ssresearch.2025.103258",
@@ -107,14 +114,6 @@
           "abstract": "Over the past decade there has been a striking increase in the number of quantitative studies examining the effects of social mobility, with almost all based on the diagonal reference model (DRM). We make four main contributions to this rapidly expanding literature. First, we show that under plausible values of mobility effects, the DRM will, in many cases, implicitly force the underlying mobility linear effect toward zero. In addition, we show both mathematically and through simulations that the mobility effects estimated by the DRM are sensitive to the size and sign of the origin and destination linear effects, often in ways that are unlikely to be intuitive to applied researchers. This finding clarifies why, contrary to expectations, applied researchers have generally found mixed evidence of mobility effects. Second, we generalize the identification problem of conventional mobility effect models by showing that the DRM and related methods can be viewed as special cases of a bounding analysis, where identification is achieved by invoking extremely strong assumptions. Finally, and importantly, we present a new framework for the analysis of mobility tables based on the identification and estimation of joint parameter sets, introducing what we call the structural and dynamic inequality model. We show that this model is fully identified, relies on much weaker assumptions than conventional models of mobility effects, and can be treated both as a descriptive model and, if additional assumptions are invoked, as a causal model. We conclude with an agenda for further research on the consequences of socioeconomic mobility.",
           "url": "https://doi.org/10.1177/00491241251358895",
           "doi": "https://doi.org/10.1177/00491241251358895",
-          "filter": 0
-        },
-        {
-          "title": "Causal Duration Analysis Based on Survival Probability Ratio",
-          "authors": "Jin-young Choi, Rangmi Myung, Myoung-jae Lee",
-          "abstract": "For causal effects of a binary treatment on a right-censored duration, the widely used proportional hazard contrasts are non-causal with unrealistic restrictions. This article proposes an alternative flexible causal approach, where we estimate the cumulative hazard, not the hazard itself, using an additive or “exponential-additive” specification with freely time-varying parameters. Our approach includes the proportional hazard as a highly special case that allows only monotonic survival probability ratios (SPR’s), while our approach allows any shape of SPR’s. An empirical analysis on recidivism using the duration until re-arrest after prison release on parole/probation is provided, where the SPR trajectory is not monotonic, but has an inverted-U shape over time.",
-          "url": "https://doi.org/10.1177/00491241251382457",
-          "doi": "https://doi.org/10.1177/00491241251382457",
           "filter": 0
         }
       ],
