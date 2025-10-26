@@ -1,5 +1,5 @@
 {
-  "update": "2025-10-25",
+  "update": "2025-10-26",
   "content": [
     {
       "journal_full": "MediArxiv",
@@ -36,6 +36,22 @@
       "journal_full": "PsyArxiv",
       "journal_short": "PsyArxiv",
       "articles": [
+        {
+          "title": "Single-trial EEG-based classification reveals Instrument-Specific Timbre Perception via traditional Machine Learning Classifiers",
+          "authors": "Praveena Satkunarajah; Sarah D. Power; Benjamin Zendel",
+          "abstract": "Many users of hearing aids report challenges when listening to music. In the future, it may be possible to develop hearing aids that monitor brain activity in real-time and adapt their output to the volitions of the user. In music, this could mean selectively amplifying the sound of the instrument the listener wants to hear. The first steps in this research is to determine whether machine learning can be used to identify which instrument an individual is listening to based only on a brief EEG signal. In this work, participants were presented with a series of brief tones that varied in timbre (Trombone, Clarinet, Cello, Piano and Pure Tone) while their ongoing EEG was recorded from 73 electrodes. To distinguish between EEG responses to the five different musical instruments, we investigated the use of three different classifiers – Linear Discriminant Analysis (LDA), Gradient Boosting (GB), and k-NN, and four different sets of features – raw EEG, ERP-based features, harmonics-based features and regularity-based features. N1 and P2 components of the ERP were analyzed for differences between instruments. All three classifiers performed significantly above chance (i.e., approximately 20% for 5 classes) when trained using the raw EEG features (LDA: 37%, GB: 35%, k-NN: 26%). It may be possible to improve these results with more advanced classification algorithms or different transformations of features. Statistical analysis found the Cello to have contributed to the largest P2 amplitude and Pure Tone to the smallest, and for Cello to have contributed to the earliest N1 latency and Clarinet the latest.",
+          "url": "https://osf.io/tu9cg_v1",
+          "doi": "https://doi.org/10.31234/osf.io/tu9cg_v1",
+          "filter": 0
+        },
+        {
+          "title": "Beyond (Irresolvable) Causal Opacity: The Instrumental Logic of Magical Rituals",
+          "authors": "Ze Hong",
+          "abstract": "The cognitive science of religion has predominantly framed ritual as goal-demoted and causally opaque, serving primarily affiliative functions. This paper challenges this dominant framework, arguing that it fails to account for magical rituals, which are explicitly goal-oriented from the practitioner's perspective. I propose the \"folk-technology model,\" which treats magic not as symbolic or opaque action but as an instrumental, problem-solving practice. The paper critiques the concept of \"irresolvable causal opacity\" by presenting three lines of evidence: first, the natural/supernatural dichotomy that underpins the concept of irresolvability is a modern Western construct often absent in the societies in question; second, many magical practices are underpinned by detailed, if scientifically inaccurate, causal theories; and third, the apparent lack of articulated theory among laypeople often reflects practical knowledge and a social distribution of expertise rather than inherent opacity. The folk-technology model is further supported by widespread ethnographic evidence of instrumental tinkering, efficacy testing, and pragmatic adaptation in practices ranging from Azande oracles and Melanesian cargo cults to contemporary AI divination. This reframing challenges classic dichotomies between technical and performative action, generates novel, testable predictions about the structure of magical systems, and revitalizes intellectualist theories of magic within a modern cognitive and (cultural) evolutionary context.",
+          "url": "https://osf.io/7ghsq_v1",
+          "doi": "https://doi.org/10.31234/osf.io/7ghsq_v1",
+          "filter": 0
+        },
         {
           "title": "The Relationship Between Structured Analytic Techniques and Intelligence Analysis Quality: Evidence from Content Analysis",
           "authors": "Matthew Martin",
@@ -438,7 +454,7 @@
         },
         {
           "title": "Songbirds as a Model for Auditory Hallucinations",
-          "authors": "Milad",
+          "authors": "Yekani",
           "abstract": "Auditory hallucinations, especially the perception of voices in the absence of external stimuli, are a hallmark of psychotic disorders like schizophrenia. Modeling these complex phenomena in animals is challenging, as traditional rodent models rely on indirect behavioral proxies and simple stimuli. Here, I propose that songbirds, with their sophisticated vocal communication and well-mapped neural circuitry for auditory processing, offer a novel model for studying auditory hallucinations. We hypothesize that songbirds can experience hallucination-like perceptions of vocalizations under specific conditions, driven by neural mechanisms of predictive coding and neuromodulation analogous to those in mammals. In this article, we outline supporting evidence for this hypothesis, drawing comparisons between songbirds and traditional mammalian models. We discuss how pharmacological manipulations – extensively used in rodent models – could be applied or adapted to songbirds to induce and investigate hallucination-like events. We then propose a methodological framework to test these ideas, including behavioral paradigms (e.g., detecting illusory calls embedded in noise). Discussion of this framework highlights the strengths of songbirds (rich vocal behaviors, accessible neural circuits) and addresses potential limitations (evolutionary distance and differing brain anatomy). By emphasizing predictive coding and circuit-level mechanisms, we argue that songbirds can fill an essential gap in auditory hallucination research, offering a complementary model alongside rodents and primates. This hypothesis, if validated, would broaden our understanding of hallucinations and open new experimental avenues for probing the neural basis of psychosis.",
           "url": "https://osf.io/ht7pv_v1",
           "doi": "https://doi.org/10.31234/osf.io/ht7pv_v1",
@@ -1675,54 +1691,6 @@
           "url": "https://osf.io/t9ev7_v1",
           "doi": "https://doi.org/10.31234/osf.io/t9ev7_v1",
           "filter": 0
-        },
-        {
-          "title": "Affective Valence Represents Value During Reinforcement Learning",
-          "authors": "Daniel Parr; Seth Madlon-Kay; Gregory Russell Samanez-Larkin; Kevin S LaBar",
-          "abstract": "Affective valence and reinforcement learning (RL) are increasingly recognized to be closely connected, yet the exact nature of their relationship remains unclear. Here, we investigated how RL-related computations contribute to affective valence and how affective valence contributes to RL. Applying an original computational method, we found that affective experience during RL is best explained by a combination of three prominent theoretical perspectives: valence is determined by reward, prediction errors, and counterfactual comparisons. To account for these findings, we hypothesized that the valence of affective responses represents (i.e., encodes, tracks) the value of the eliciting stimulus, and contributes to RL alongside reward per se. We confirmed this hypothesis across three RL tasks, showing that decision-makers prefer choice options associated with more positive affect in addition to preferring options associated with greater reward. Altogether, our results establish a unifying model of the valence-RL relationship with key implications for the mechanisms of affective experience and human RL. Moreover, they validate a powerful new computational framework for future research on these topics.",
-          "url": "https://osf.io/3whj7_v1",
-          "doi": "https://doi.org/10.31234/osf.io/3whj7_v1",
-          "filter": 0
-        },
-        {
-          "title": "Navigating the pitfalls of teaching open science to undergraduate students",
-          "authors": "Steven Verheyen; Tom Heyman",
-          "abstract": "Open science (OS) practices are increasingly integrated into undergraduate psychology curricula. While OS can enhance students’ scientific literacy, engagement, and attitudes toward research, its teaching also introduces challenges. This narrative review synthesizes published experiences and recommendations concerning OS education for undergraduate psychology students, identifying common pitfalls and strategies to mitigate them. Eleven pitfalls were identified: the overwhelming variety of OS practices, high technical demands, substantial time investment, insufficient support, perceived competitive disadvantage, potential disengagement, worries about public mistakes, inconsistencies between teaching and practice, risks of academic misconduct, erosion of trust in science, and inclusivity concerns. To address these challenges, educators are encouraged to scaffold learning through replication and preregistration exercises, create authentic assignments, foster collaboration and student authorship, increase feedback literacy and epistemic humility, embed OS across the curriculum, and pay attention to inclusivity. We conclude that teaching OS to undergraduates is both feasible and valuable, provided educators anticipate its challenges and make deliberate pedagogical choices. Viewing OS as a buffet of practices rather than a prescriptive set of rules can help align educational choices with course goals and student readiness. The availability of open educational resources and international teaching communities further supports the integration of OS into undergraduate psychology education, allowing students to experience firsthand the benefits of transparency, collaboration, and rigorous scientific practice.",
-          "url": "https://osf.io/qynpx_v1",
-          "doi": "https://doi.org/10.31234/osf.io/qynpx_v1",
-          "filter": 0
-        },
-        {
-          "title": "higher-order theories of consciousness",
-          "authors": "David Rosenthal",
-          "abstract": "Many perceptions, thoughts, and emotions occur consciously.  But many others occur without being conscious.  Higher-order (HO) theories of consciousness seek to explain how mental states that are conscious differ from those that are not.  That would tell us what it is for a mental state to be conscious.  All HO theories rest on the commonsense observation that whenever a mental state is conscious, one is in some way aware of being in that state.  So they see awareness of being in a mental state as a necessary condition for that state to be conscious.  The reliance on this condition distinguishes HO theories from other theories of consciousness.  There are several versions of a HO theory, which differ mainly in how they explain our awareness of mental states when those states are conscious.",
-          "url": "https://osf.io/8txh3_v1",
-          "doi": "https://doi.org/10.31234/osf.io/8txh3_v1",
-          "filter": 0
-        },
-        {
-          "title": "Promoting and Evaluating Intelligence Assessment Quality:  A Meliorist Perspective through an Accountability Lens",
-          "authors": "David R. Mandel",
-          "abstract": "Intelligence studies scholars have discussed multiple criteria for promoting and evaluating intelligence assessment quality. These criteria are examined through the lens of accountability pressures and strategies for dealing with such pressures. The criteria discussed are described in terms of the central distinction between process-based and outcome-based accountability strategies. The essay concludes with a Meliorist proposal that reframes the aim of intelligence assessment as an effort to elevate policy debates through well-reasoned analyses. A key theme is that analytic practices which have not been subjected to rigorous empirical testing to determine their efficacy should be greeted with skepticism.",
-          "url": "https://osf.io/2fnur_v1",
-          "doi": "https://doi.org/10.31234/osf.io/2fnur_v1",
-          "filter": 0
-        },
-        {
-          "title": "Trait Self-Control and Health Behavior: Meta-Analysis and Test of a Mediational Model",
-          "authors": "Martin S Hagger; Sabryna Vasilika Sas; Jessica Balla; Thaís Zanatta Benoit; Rabia Majeed; Pierpaolo Primoceri; Stephanie R. Smith; Kyra Hamilton",
-          "abstract": "Objective: Pervasive evidence supports consistent associations between trait self-control and health behavior, yet few studies have tested the underlying mechanisms. We leveraged meta-analytically synthesized data from the extant research to test a mediational model specifying indirect effects of trait self-control on health behavior mediated by social cognition theory constructs and intention as a candidate mechanism. We also tested effects of moderators on model effects: behavior control process (impulsive vs. reflective), behavior type, trait self-control and behavior measure type, and measurement lag. Method: Studies reporting relations among trait self-control, social cognition constructs (attitude, subjective norm, perceived behavioral control), intention, and health behavior were identified in a systematic database search. Our proposed model was fit to the pooled correlation matrix among these variables using multilevel meta-analytic structural equation modeling. Results: Findings supported model predictions including indirect effects of trait self-control on health behavior directed through attitude, perceived behavioral control, and intentions, and a residual direct effect indicating partial mediation. Moderator analysis revealed larger direct and indirect trait self-control-health behavior effects in studies targeting behaviors under impulsive process control relative to those under reflective control. Analyses of behavior type, behavior and self-control measure type and measurement lag moderators did not reveal systematic variation in model effects. Conclusion: Findings provide preliminary support for the model signaling a candidate mechanism for trait self-control-health behavior relations and providing prior effect size and variability estimates that could be expected in future studies. Impulse-related behaviors represent a key moderating condition that magnifies trait self-control-behavior effects.",
-          "url": "https://osf.io/7sdn3_v1",
-          "doi": "https://doi.org/10.31234/osf.io/7sdn3_v1",
-          "filter": 0
-        },
-        {
-          "title": "Evaluating Large Language Models for Belief Inference: Mapping Belief Networks at Scale",
-          "authors": "Trisevgeni Papakonstantinou; Antonina Zhiteneva; Ana Ma; Derek Powell; Zachary Horne",
-          "abstract": "Beliefs are interconnected, influencing how people process and update what they think. To study the interconnectedness of beliefs at scale, we introduce a novel analytical pipeline leveraging a finetuned GPT-4o model to infer belief structures from large-scale social media data. We evaluate the model's performance by (1) comparing it to human annotated data (2) and its inferences to human-generated survey data. Our results show that a fine-tuned GPT-4o model can effectively recover belief structures, allowing for a level of scalability and efficiency that is impossible using traditional survey methods of data collection. This work demonstrates the potential for large language models to perform belief inference tasks and provides a framework for future research on the analysis of belief structures.",
-          "url": "https://osf.io/dht9j_v1",
-          "doi": "https://doi.org/10.31234/osf.io/dht9j_v1",
-          "filter": 0
         }
       ],
       "articles_hidden": []
@@ -1732,11 +1700,83 @@
       "journal_short": "SocArxiv",
       "articles": [
         {
+          "title": "Evaluating the Risks of Preventive Attack in the Race for Advanced AI",
+          "authors": "Zachary Burdette; Hiwot Demelash",
+          "abstract": "Will the race for advanced artificial intelligence make war more likely? If technology futurists are right that the advent of artificial general intelligence (AGI) will radically alter the global balance of power, could AGI development tempt states to resort to war to secure those advantages for themselves or to deny them to their rivals? The authors developed a framework of variables that shape pressures for preventive military action and considered how these variables apply to the development of AGI. The authors analyzed three scenarios for preventive military action. The findings suggest that, in absolute terms, the probability of war is low, but preventive attacks appear relatively more likely to occur in an attempt to preserve a monopoly on AGI than in an attempt to prevent one.",
+          "url": "https://osf.io/dx3aw_v2",
+          "doi": "https://doi.org/10.31235/osf.io/dx3aw_v2",
+          "filter": 0
+        },
+        {
+          "title": "Societalizing the energy crisis – How Germany and Austria’s far right delegitimized support for Ukraine after February 24 2022",
+          "authors": "Till Hilmar",
+          "abstract": "This chapter examines how the far right in Germany and Austria responded to Russia’s full-\nscale invasion of Ukraine of February 2022 by societalizing the ensuing energy crisis. Rather\nthan addressing the war as a breach to European values, and a fundamental realignment of\nrelations between Eastern and Western Europe, far-right actors depicted rising energy prices\nand inflation as breaches to national values, in particular industrial power in Germany and\nneutrality in Austria. Through a process of societalization – the dramatization of institutional\nproblems into moral crises threatening society at large –, economic strain was transformed into\na collective moral grievance, allowing far right actors to redirect public anxiety away from\nUkraine and toward domestic narratives of decline. The chapter demonstrates how the relevant\nparties mobilized existing cultural codes of economic power, national independence, and anti-\nEU sentiment to delegitimize support for Ukraine. It argues that civil sphere theory must more\ndirectly engage with the cultural framing of economic crises, especially in times of polycrisis,\nwhere certain actors infuse material disruptions with symbolic meaning to undermine\ndemocratic cohesion.",
+          "url": "https://osf.io/y2ftq_v1",
+          "doi": "https://doi.org/10.31235/osf.io/y2ftq_v1",
+          "filter": 0
+        },
+        {
+          "title": "Next-Generation Mortality Forecasting with Deep Learning",
+          "authors": "Paige Park",
+          "abstract": "Deep learning is transforming fields like chemistry, engineering, and medicine, but its application to social science fields like demography remains limited. This study explores deep learning as an emerging approach to mortality forecasting, a core area in demographic research. This paper addresses why and how deep learning performs better than three well-known baselines for mortality forecasting. First, it explores the relationship between model architecture and data pooling. Second, it provides a detailed country-level performance analysis, identifying contexts where deep learning underperforms and exploring possible remedies. Third, it discusses the broader applicability and potential of deep learning methods in demography. The findings underscore the potential of deep learning to enhance demographic forecasting and invite broader reflection on the role of computational and AI-driven methods in population studies.",
+          "url": "https://osf.io/sqphx_v2",
+          "doi": "https://doi.org/10.31235/osf.io/sqphx_v2",
+          "filter": 0
+        },
+        {
+          "title": "In it for the long run",
+          "authors": "Rasmus Henriksen Klokker",
+          "abstract": "Studying teacher career paths offers valuable insights into how teachers´ career decisons impact\neducational inequality. However knowledge on teachers´ career paths across long time horizons is scarce.\nIn this study, I investigate how teachers’ teachers transition between schools in which students have\ndifferent levels of SES, or opt out of teaching, and how these transitions shape teachers career paths\nacross 35 years. Using Danish register data 13283 teachers who graduated between 1980 and 1985, I\nemploy sequence analysis and cluster analysis to map out teacher career paths over 35 years. The main\nfinding of the paper concerns the identification of four distinct types of career paths: 1) Teachers working\nalmost exclusively outside of public elementary schools, 2) Teachers primarily working in schools serving\nless affluent students, 3) Teachers primarily working in schools serving affluent students and 4) Teachers\nworking in schools serving middle-class students. Further, the analysis reveals that teacher career paths\nare highly stable. Once teachers begin their careers in a particular type of school, they tend to remain\nin that type throughout their careers. This contradicts the theoretical expectation that teachers would\nswitch schools or types of schools as they gain experience. Lastly, teacher characteristics such as high\nschool GPA, gender, and age at graduation show weak associations with the type of career path teachers\nfollow. The paper contributes to the literature on teacher sorting by providing a long-term view of teacher\ncareers, emphasizing early career decisions’ lasting effects. It also challenges the idea that teacher sorting\npatterns evolve dynamically throughout",
+          "url": "https://osf.io/ng6am_v1",
+          "doi": "https://doi.org/10.31235/osf.io/ng6am_v1",
+          "filter": 0
+        },
+        {
+          "title": "Let Them Eat Large Language Models: Artificial Intelligence and Austerity in the Neoliberal University",
+          "authors": "Martha Kenney; Martha Lincoln",
+          "abstract": "This article examines the expansion of generative artificial intelligence (genAI) into higher education. We argue that genAI’s incursion into university systems represents an effort by Silicon Valley to capture lucrative new markets for their products, as well as enhanced credibility by association. Drawing on our experience as faculty in the California State University (CSU) system—the first university system to contract with OpenAI to provide ChatGPT Edu system-wide—we assess the rhetoric that justifies and legitimizes genAI contracts in higher education. We suggest that the uncritical adoption of genAI in higher education poses problems for labor conditions, the integrity of intellectual property, and student learning on campuses, particularly under the conditions of austerity that are commonly found in public universities.",
+          "url": "https://osf.io/6z5pa_v1",
+          "doi": "https://doi.org/10.31235/osf.io/6z5pa_v1",
+          "filter": 0
+        },
+        {
           "title": "Human Capital, Unequal Opportunities, and Productivity Convergence: A Global Historical Perspective, 1800–2100",
           "authors": "Nitin Bharti; Amory Gethin; Thanasak Jenmana; Zhexun Mo; Thomas Piketty; Li Yang; Carolyn Fisher",
           "abstract": "This paper constructs a new global historical database on public expenditure and revenue and their components—particularly education and health expenditure—covering all world regions over the 1800-2025 period. We document a large rise of human capital expenditure (as % of GDP) in all parts of the world in the long run, but with enormous and persistent inequality between regions. Public education expenditure per school-age individual in Sub-Saharan Africa is about 3% of the level observed in Europe and North America in 2025 in PPP terms (versus 6% in 1980 and 4% in 1950). We also find a large impact of human capital expenditure on productivity growth over the 1800–2025 period, especially for public education and for poor countries. Estimated returns using our macro-historical database are around 10% or more, in line with micro studies. Finally, we present simulations based on alternative human capital expenditure trajectories over the 2025–2100 period. In particular, we analyze the conditions under which convergence in human capital expenditure could lead to global productivity convergence by 2100 (around 100€ per hour in all regions in our benchmark scenario). (Stone Center on Socio-Economic Inequality Working Paper)",
           "url": "https://osf.io/ftjys_v1",
           "doi": "https://doi.org/10.31235/osf.io/ftjys_v1",
+          "filter": 0
+        },
+        {
+          "title": "Partisan Expressive Responding: Lessons from Two Decades of Research",
+          "authors": "Matthew H. Graham",
+          "abstract": "Research on partisan expressive responding suggests that the beliefs people express in surveys are more partisan than their underlying perceptions. This article examines expressive responding's scope and importance through a meta-reanalysis of 44 studies from 25 articles. On average, treatments designed to reduce expressive responding shrink measured partisan bias by about 25 percent. Across the 242 survey questions in the data, treatments increase the correlation between the average Democrat and Republican from 0.81 to 0.86. Contrary to expectations derived from the two leading theories of expressive responding, misreporting (''cheerleading'') and congenial inference, there is no evidence that expressive responding increases in partisan identity strength or educational attainment. As research on expressive responding enters its third decade, greater emphasis on design-based tests of mechanisms may help build a firmer understanding of expressive responding’s nature and substantive importance---namely, whether the forces that produce expressive responding in surveys also shape real-world political judgments.",
+          "url": "https://osf.io/3mpfu_v1",
+          "doi": "https://doi.org/10.31235/osf.io/3mpfu_v1",
+          "filter": 0
+        },
+        {
+          "title": "The Weight of a Name",
+          "authors": "Vaanya Gupta; Vedant Bajpai",
+          "abstract": "This research examines the practice of marital surname change as a site where identity, autonomy, and tradition intersect. While often dismissed as a personal choice, the act carries cultural and psycho-political weight. This study specifically draws attention to Indian society and its practices regarding surname change. Existing studies have largely talk about the emotional and social aspects of surname change practices and fail to focus on the real-life consequences that people face when met with such a choice. To address this gap, a mixed-methods approach was employed, combining survey data from 301 respondents with two qualitative interviews. The findings reveal that surname change is seldom a neutral act; instead reflecting enduring patriarchal expectations that define legitimacy and belonging. Yet, younger participants demonstrate emerging alternatives, with hyphenated, dual, or invented surnames that challenge conventional lineage models. By analysing these evolving practices, this study argues that the politics of naming remain a mirror of social hierarchies while also offering new ways for achieving some degree of equality and self-definition in contemporary cultural and familial life through a chain of uncomfortable questioning.",
+          "url": "https://osf.io/veycr_v1",
+          "doi": "https://doi.org/10.31235/osf.io/veycr_v1",
+          "filter": 0
+        },
+        {
+          "title": "Intergenerational Inequalities in Economic Volatility",
+          "authors": "Edvin Syk; Max Thaning; Rense Nieuwenhuis",
+          "abstract": "Income volatility has increased in many Western countries, with recent evidence suggesting more pronounced increases at the top of the income distribution. \nWe study heterogeneous patterns of labor market volatility across the life course in Sweden, examining how volatility differs by parental education. \nDrawing on data from the Swedish Level-of-Living Survey (1995–2021), linked to administrative registers and covering 11,466 individuals, we use arc percentage change measures to capture earnings fluctuations, including periods of zero earnings.\nOur findings reveal that individuals from advantaged backgrounds experience higher labor market volatility throughout their working lives, particularly during early career stages.\nHowever, this volatility differs qualitatively: advantaged groups experience substantially more positive income changes, with upward movements outweighing negative shocks.\nSuggesting that rising volatility at the top partly reflects income mobility, rather than insecurity.",
+          "url": "https://osf.io/jvd4e_v1",
+          "doi": "https://doi.org/10.31235/osf.io/jvd4e_v1",
+          "filter": 0
+        },
+        {
+          "title": "Beyond Skill Training: Teaching Social Work 'Rituals' Through Large Language Model (LLM) Simulated Role-Play",
+          "authors": "Gerard Chung; Pak-Hang Wong; Cheung Johnson Chun-Sing; Jeric Yim; Sophie Cheng; Darren Tay; Zheng Liren",
+          "abstract": "This teaching note presents a pedagogical framework for integrating Large Language\nModel (LLM)-powered role-playing tools into social work education that moves beyond skills-\nfocused approaches to incorporate relational and embodied dimensions of practice. Using\nSWAT:Role Play, a text-based simulation tool where students engage with simulated service\nuser personas, we propose pedagogical design considerations for LLM role-playing. While\nfeatures like unlimited practice opportunities, immediate feedback, and systematic assessment\nalign with Deliberate Practice models, student testing revealed recognition of the absent \"human\ntouch\" essential to professional practice. Drawing on concepts of technology-driven moral\ndeskilling (Wong, 2024), we argue that designing simulation tools primarily around skill\nacquisition risks fragmenting social work practice into isolated components, negating the\nstructured immersion into holistic professional practice that social work demands. To address\nthis challenge, we propose \"ritualizing the machine\" through intentional design principles that\ndevelop students' \"ritual fluency,\" their ability to navigate complete client encounters with\nappropriate relational and contextual responsiveness. We suggest teaching strategies including\npre-session visual context and ritual preparation, during-session temporal pressure and boundary\nchallenges, and post-session reflection on relational impact. These recommendations help social\nwork educators use LLMs to simulate role-playing that effectively integrates technical\ncompetence with relational sensitivity",
+          "url": "https://osf.io/ve762_v1",
+          "doi": "https://doi.org/10.31235/osf.io/ve762_v1",
           "filter": 0
         },
         {
@@ -1844,6 +1884,14 @@
           "filter": 0
         },
         {
+          "title": "Unobservable Assumptions: Is “Self-Control” a Reflective Measure, Formative Construct, or Measurement Fiction?",
+          "authors": "Jonathan R. Brauer; Jacob C. Day; Amanda Graham",
+          "abstract": "Criminologists typically invoke theoretical constructs within an implicit reflective measurement paradigm, assuming constructs represent unified entities causing observable indicators. Yet measurement model choices embed fundamental theoretical commitments rarely subjected to systematic examination. Using self-control as a paradigmatic example, we analyze an abbreviated 12-item Grasmick et al. (1993) scale across 30 countries in the ISRD-2 data through confirmatory factor analysis, network analysis, and predictive concordance assessment. Results challenge unidimensional reflective assumptions: modest model fit masks substantial item-level heterogeneity; systematic cross-cultural measurement non-invariance emerges; network structures suggest complex interdependencies rather than common-cause relationships; and substantial individual-level prediction discordance reveals a “correlation paradox” where aggregate statistical success corresponds to individual-level theoretical failure. These patterns suggest alternative structures—multidimensional reflective, formative, or fictional—merit consideration. Persistent anomalies may reflect theorists struggling to articulate complex conceptualizations within disciplines lacking appropriate measurement vocabularies. Rather than advocating specific approaches, we argue for explicit measurement choices and appropriate validation methods. The disconnect between aggregate success and individual-level validity may characterize research programs trapped in degenerating development patterns.",
+          "url": "https://osf.io/5hwgv_v1",
+          "doi": "https://doi.org/10.31235/osf.io/5hwgv_v1",
+          "filter": 0
+        },
+        {
           "title": "Speed-Quality Tradeoffs Shape the Structure of Decision-Making Collectives",
           "authors": "Chanuwas Aswamenakul; Paul E. Smaldino; Tyler Marghetis",
           "abstract": "Many human groups employ hierarchical decision-making, in which only a few individuals hold the power to make decisions for the collective. A common explanation for the prevalence of hierarchical decision-making is that it provides group-level benefits by speeding up the decision-making process. However, groups can often do better by taking more time to explore a problem space or generate ideas. These contrasting accounts suggest that hierarchical or egalitarian decision structures may emerge under different circumstances. To more clearly distinguish between these circumstances, we studied an evolutionary model of group decision-making that includes both intra-group and inter-group dynamics. We show that the emergent social structure depends critically on the trade-off between speed and decision quality: scenarios that demand rapid decisions favor the evolution of skewed, hierarchical structures, while scenarios that reward extended deliberation favor the evolution of flat, egalitarian structures. Our results suggest that, instead of inevitably becoming centralized and hierarchical, groups and organizations are likely to evolve social structures that reflect the relationship between the speed and the quality of decisions they collectively make.",
@@ -1921,6 +1969,14 @@
           "abstract": "Abstrak\nPenyaluran bantuan sosial di Provinsi Aceh pada tahun 2024 melalui Program\nKeluarga Harapan (PKH) dan Bantuan Pangan Non-Tunai (BPNT) menunjukkan\nkinerja yang cukup efektif meskipun masih terdapat beberapa tantangan. Penelitian\nini bertujuan mengevaluasi efektivitas penyaluran bantuan sosial oleh Dinas Sosial\nAceh dengan mengukur ketepatan sasaran, ketepatan waktu, ketepatan jumlah, dan\nefisiensi distribusi. Pendekatan kualitatif deskriptif digunakan dengan\npengumpulan data melalui wawancara dan studi dokumentasi. Hasil menunjukkan\nbahwa tingkat realisasi penyaluran PKH dan BPNT berada di kisaran 91-93%,\nketepatan sasaran mencapai sekitar 92%, dan ketepatan waktu mencapai 100%.\nNamun, terdapat ketimpangan efektivitas antar kabupaten/kota serta keterbatasan\ndalam transparansi dan akuntabilitas yang menghambat deteksi penyimpangan.\nImplikasi penelitian ini menekankan perlunya pemutakhiran data penerima secara\nberkala, peningkatan kapasitas daerah dengan capaian rendah, diversifikasi jalur\ndistribusi, dan penguatan sistem monitoring dan evaluasi untuk meningkatkan\nefektivitas dan transparansi penyaluran bantuan sosial di masa mendatang.\nKata Kunci: Bantuan Sosial, PKH, BPNT, Efektivitas, Ketepatan Sasaran,\nTransparansi\nAbstract\nThe distribution of social assistance in Aceh Province in 2024 through the Family\nHope Program (PKH) and Non-Cash Food Assistance (BPNT) has demonstrated\nfairly effective performance despite some challenges. This study aims to evaluate\nthe effectiveness of social assistance distribution by the Aceh Social Service by\nassessing targeting accuracy, timeliness, accuracy of amount, and distribution\nefficiency. A qualitative descriptive approach was employed, collecting data\nthrough interviews with relevant staff and documentary studies of the 2024 social\nassistance distribution. The results show that the realization of PKH and BPNT\ndistribution ranges between 91% and 93%, targeting accuracy reaches\napproximately 92%, and timeliness achieves 100%. However, disparities exist\namong districts/cities, alongside limitations in transparency and accountability\nthat hinder the detection of irregularities. The findings imply the need for regular\nupdates of recipient data, capacity building in low-achieving areas, diversification\nof distribution channels, and strengthening monitoring and evaluation systems to\nenhance the effectiveness and transparency of social assistance distribution in the\nfuture.\nKeywords: Social Service, PKH, BPNT, effectiveness, targeting accuracy,\ntransparency",
           "url": "https://osf.io/j5mws_v1",
           "doi": "https://doi.org/10.31235/osf.io/j5mws_v1",
+          "filter": 0
+        },
+        {
+          "title": "Penerapan Sistem Informasi Manajemen Kinerja (SiManja) pada Bidang Penyimpanan, Pengolahan, dan Pelestarian Bahan Perpustakaan di Dinas Perpustakaan dan Arsip Aceh",
+          "authors": "Zahriatul Aini; Nailaturrahmi; Abdul Rahman; Syarifah Raihannatul Jannah",
+          "abstract": "Abstrak. Sistem Informasi Manajemen Kinerja (SiManja) merupakan perangkat lunak berbasis web yang dirancang untuk\nmemonitor, mengendalikan, dan mengevaluasi manajemen kinerja secara efektif, efisien, dan transparan. Penelitian ini bertujuan untuk\nmengkaji implementasi SiManja dalam bidang penyimpanan, pengolahan, dan pelestarian bahan perpustakaan di Dinas Perpustakaan\ndan Arsip Aceh. Metode penelitian yang digunakan adalah deskriptif kualitatif, dengan data yang diperoleh melalui wawancara dengan\n10 pegawai, observasi lapangan, dan analisis dokumen internal. Hasil penelitian menunjukkan bahwa penerapan SiManja membantu\nmeningkatkan kedisiplinan pegawai dengan pengisian Sasaran Kinerja Pegawai (SKP) yang lebih sistematis dan terorganisir. Namun,\nbeberapa kendala teknis seperti kesulitan memahami aplikasi masih ditemukan. Dengan pelatihan berkelanjutan dan panduan yang\nlebih sederhana, efektivitas sistem dapat lebih ditingkatkan.\nKata kunci: Sistem Informasi Manajemen; Manajemen Kinerja; Repositori Arsip; SiManja\n\nAbstract. Performance Management Information System (SiManja) is a web-based software designed to monitor, control, and\nevaluate performance management effectively, efficiently, and transparently. This study aims to examine the implementation of SiManja in\nthe field of storage, processing, and preservation of library materials at the Aceh Library and Archives Service. The research method used\nis descriptive qualitative, with data obtained through interviews with 10 employees, field observations, and internal document analysis. The\nresults of the study indicate that the implementation of SiManja helps improve employee discipline by filling in Employee Performance\nTargets (SKP) more systematically and organized. However, some technical obstacles such as difficulty understanding the application are\nstill found. With continuous training and simpler guidance, the effectiveness of the system can be further improved.\nKeywords: Management Information System; Performance Management; Archival Repository; SiManja.",
+          "url": "https://osf.io/k8n56_v1",
+          "doi": "https://doi.org/10.31235/osf.io/k8n56_v1",
           "filter": 0
         },
         {
@@ -2289,38 +2345,6 @@
           "abstract": "This document explores the concepts associated with glitchy writing, which defies conventional academic structures and methodologies. Inspired by Paul Klee's Open Book (1930) and incorporating a variety of collaborative and experimental practices, this work rethinks the boundaries of academic writing by incorporating anarchive concepts, posthuman philosophy, and glitch aesthetics. Drawing on joint studies, theoretical divergences, and intertextual explorations, this paper challenges the norms of linear article structures and proposes a remix approach to scholarly production. Informed by Deleuze and Guattari's (1987) rhizomatic thinking and Erin Manning's (2016) notion of 'minor gestures,' this work emphasizes the dynamic and evolving nature of knowledge production.",
           "url": "https://osf.io/6msf3_v2",
           "doi": "https://doi.org/10.31235/osf.io/6msf3_v2",
-          "filter": 0
-        },
-        {
-          "title": "Partisan prejudice and workplace communication: An empirical roadmap",
-          "authors": "Alvin Zhou; Yphtach Lelkes",
-          "abstract": "Political polarization, particularly in its affective form, increasingly shapes how individuals perceive, interact, and collaborate in organizations. This essay argues that partisan prejudice—a growing affective divide between supporters of opposing parties—has become an underexamined but consequential force in workplace communication. We outline an empirical roadmap for advancing research at this intersection. First, we call for descriptive work documenting how polarization manifests in organizations, including inequalities in political expression and the emergence of partisan signaling in daily interactions. Second, we highlight the need to examine how polarization influences workplace communication, from dyadic exchanges to organizational networks, using diverse methodological approaches such as surveys, experiments, and computational analyses. Finally, we encourage research that reverses the causal arrow by investigating how workplace communication might mitigate or exacerbate polarization, considering factors such as leadership communication, virtual collaboration, and diversity initiatives. By integrating theories of polarization and organizational communication, this framework aims to guide systematic inquiry into how political divisions are reproduced—or potentially repaired—through the communicative fabric of work.",
-          "url": "https://osf.io/6ue4f_v1",
-          "doi": "https://doi.org/10.31235/osf.io/6ue4f_v1",
-          "filter": 0
-        },
-        {
-          "title": "The Paradox of Inequality that isn’t: Rising Economic Inequality Depresses and Polarises Citizens’ Belief in Meritocracy",
-          "authors": "NA; Markus Gangl",
-          "abstract": "This study examines how rising income inequality has been impacting individuals' belief in merit-based success, using three decades of survey data from 39 advanced capitalist democracies. Challenging the seminal finding of a \"paradox of inequality,\" we find no evidence of a positive effect of inequality on meritocratic beliefs across countries. Instead, we identify a substantively moderate but robustly negative effect of inequality on perceptions of meritocracy from within-country changes over time: as inequality rises, citizens’ belief in meritocracy declines. We further uncover that inequality does not merely induce a mean shift, but affects the shape of the distribution of meritocracy beliefs insofar as we find the proportion of sceptical perceptions of meritocratic realities to be increasing with higher levels of inequality. Our findings thus suggest that growing inequality undermines citizens’ trust in procedural fairness and contributes to an increased polarisation of attitudes and beliefs at the heart of open societies.",
-          "url": "https://osf.io/zh72m_v1",
-          "doi": "https://doi.org/10.31235/osf.io/zh72m_v1",
-          "filter": 0
-        },
-        {
-          "title": "AI and the Reproduction of Educational Inequalities: A Sociological Perspective",
-          "authors": "Elena-María García-Alonso",
-          "abstract": "This paper examines how Artificial Intelligence (AI) shapes the reproduction of educational inequalities from a sociological perspective. It argues that AI systems are not neutral tools but socio-technical artifacts embedded in power relations that influence knowledge, pedagogical practices, and structures of legitimacy.\nThe analysis highlights three dimensions through which inequality is reproduced: digital divides that go beyond access and include skills and algorithmic literacy; structural and cultural biases embedded in AI processes such as admission, assessment, and adaptive learning; and algorithmic governmentality, which governs education through surveillance, metrics, and automated feedback, producing new forms of subjectivity oriented toward efficiency rather than critical thinking.\nThe article concludes that AI in education is an ethical and political challenge. It calls for inclusive and contextualized platform design, critical training for teachers, participatory co-design of evaluation systems, and governance mechanisms that ensure transparency and accountability. From the sociology of education, promoting digital environments that are democratic, inclusive, and emancipatory is essential to achieve educational justice in the age of AI.",
-          "url": "https://osf.io/daqtw_v1",
-          "doi": "https://doi.org/10.31235/osf.io/daqtw_v1",
-          "filter": 0
-        },
-        {
-          "title": "Imagining the Invisible Antifa In the Black Lives Matter Protest Cycle",
-          "authors": "kerby goff; John D. McCarthy",
-          "abstract": "Framing contests often ensue around levels of protest violence and who the perpetrators are, and such frames can be out of step with the actual violent or peaceful nature of protests. During the 2020 racial justice protests, many capitalized on dramatic images of violence and property damage to frame the protests as violent with the left-wing group Antifa as the culprit. Drawing on event data and news reports covering the 2020 racial justice protests and comparing to historical U.S. protest data, we examine the central claims of this framing contest. We find that this wave of racial justice protests was more peaceful than Civil Rights protests of the 1960’s and that Antifa was present at only a handful of events which turned violent. We also find that media attention to Antifa corresponded with declining support for BLM, suggesting that scapegoating Antifa led to a decline in support of the movement.",
-          "url": "https://osf.io/5f6b3_v1",
-          "doi": "https://doi.org/10.31235/osf.io/5f6b3_v1",
           "filter": 0
         }
       ],
