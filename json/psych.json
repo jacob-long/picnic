@@ -1,22 +1,30 @@
 {
-  "update": "2025-11-05",
+  "update": "2025-11-06",
   "content": [
+    {
+      "journal_full": "Advances in Methods and Practices in Psychological Science",
+      "journal_short": "AMPPS",
+      "articles": [
+        {
+          "title": "A Tutorial on Distribution-Free Uncertainty Quantification Using Conformal Prediction",
+          "authors": "Tim Kaiser, Philipp Herzog",
+          "abstract": "Statistical prediction models are ubiquitous in psychological research and practice. Increasingly, machine-learning models are used. Quantifying the uncertainty of such predictions is rarely considered, partly because prediction intervals are not defined for many of the algorithms used. However, generating and reporting prediction models without information on the uncertainty of the predictions carries the risk of overinterpreting their accuracy. Conventional methods for prediction intervals (e.g., those defined for ordinary least squares regression) are sensitive to violations of several distributional assumptions. In this tutorial, we introduce conformal prediction, a model-agnostic, distribution-free method for generating prediction intervals with guaranteed marginal coverage, to psychological research. We start by introducing the basic rationale of prediction intervals using a motivating example. Then, we proceed to conformal prediction, which is illustrated in three increasingly complex examples using publicly available data and R code.",
+          "url": "https://doi.org/10.1177/25152459251380452",
+          "doi": "https://doi.org/10.1177/25152459251380452",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "Validating the directional command flanker task: An auditory analog of the arrows flanker",
-          "authors": "Lauren Petley, Julia Brzac, Lauren Meyers, Sarah Jane Gascoyne",
-          "url": "https://doi.org/10.3758/s13428-025-02839-4",
-          "doi": "https://doi.org/10.3758/s13428-025-02839-4",
-          "filter": 0
-        },
-        {
-          "title": "ClozCHI: A cloze test for measuring L2 Chinese proficiency from novice to advanced levels",
-          "authors": "Jianyong Cai, Yuting Han, Xin Jiang",
-          "url": "https://doi.org/10.3758/s13428-025-02834-9",
-          "doi": "https://doi.org/10.3758/s13428-025-02834-9",
+          "title": "Bridging numerical and verbal probabilities: Construction and application of the Chinese Lexicon of Verbal Probability",
+          "authors": "Xiao-Yang Sui, Jia-Wen Niu, Xiaoqian Liu, Li-Lin Rao",
+          "url": "https://doi.org/10.3758/s13428-025-02853-6",
+          "doi": "https://doi.org/10.3758/s13428-025-02853-6",
           "filter": 0
         },
         {
@@ -24,14 +32,6 @@
           "authors": "Karina Navarro, Karin Schermelleh-Engel",
           "url": "https://doi.org/10.3758/s13428-025-02792-2",
           "doi": "https://doi.org/10.3758/s13428-025-02792-2",
-          "filter": 0
-        },
-        {
-          "title": "Contrast analysis for competing hypotheses: A tutorial using the R package cofad",
-          "authors": "Mirka Henninger, Simone Malejka, Johannes Titz",
-          "abstract": "Researchers in psychology traditionally use analysis of variance to examine differences between multiple groups or conditions. A less well-known, but valuable alternative is contrast analysis — a simple statistical method for testing directional, theoretically motivated hypotheses that are defined prior to data collection. In this article, we review the core concepts of contrast analysis for testing hypotheses in between-subjects and within-subjects designs. We also outline and demonstrate the largely unknown possibility of directly testing two competing contrasts against each other. In the tutorial part of the article, we show how such competing-contrast analyses can be conducted in the free, open-source software using the package . Because competing-contrast analysis is a straightforward, flexible, highly powered, and hypothesis-driven approach, it is a valuable tool to extend the understanding of cognitive and behavioral processes in psychological research.",
-          "url": "https://doi.org/10.3758/s13428-025-02833-w",
-          "doi": "https://doi.org/10.3758/s13428-025-02833-w",
           "filter": 0
         },
         {
@@ -43,17 +43,18 @@
           "filter": 0
         },
         {
-          "title": "MATCH: A toolbox to assess the primary color of real-world objects and generate color-matching stimuli",
-          "authors": "Jessica N. Goetz, Mark B. Neider",
-          "url": "https://doi.org/10.3758/s13428-025-02856-3",
-          "doi": "https://doi.org/10.3758/s13428-025-02856-3",
-          "filter": 0
-        },
-        {
           "title": "Joint modeling with generalized item response theory model family and response time model: Enhancing model structural flexibility and data-fitting adequacy",
           "authors": "Jing Lu, Xue Wang, Jiwei Zhang",
           "url": "https://doi.org/10.3758/s13428-025-02855-4",
           "doi": "https://doi.org/10.3758/s13428-025-02855-4",
+          "filter": 0
+        },
+        {
+          "title": "A drift-diffusion model of temporal generalization outperforms existing models and captures modality differences and learning effects",
+          "authors": "Nir Ofir, Ayelet N. Landau",
+          "abstract": "Multiple systems in the brain track the passage of time and can adapt their activity to temporal requirements. While the neural implementation of timing varies widely between neural substrates and behavioral tasks, at the algorithmic level, many of these behaviors can be described using drift-diffusion models of decision-making. In this work, wedevelop a drift-diffusion model to fit performance in the temporal generalization task, in which participants are required to categorize an interval as being the same or different compared to a standard, or reference, duration. The model includes a drift-diffusion process which starts with interval onset, representing the internal estimate of elapsed duration, and two boundaries. If the drift-diffusion process at interval offset is between the boundaries, the interval is categorized as equal to the standard. If it is below the lower boundary or above the upper boundary, the interval is categorized as different. This model outperformed previous models in fitting the data of single participants and in parameter recovery analyses. We also used the drift-diffusion model to analyze data from two experiments, one comparing performance between vision and audition and another examining the effect of learning. We found that decision boundaries can be modified independently: While the upper boundary was higher in vision than in audition, the lower boundary decreased with learning in the task. In both experiments, timing noise was positively correlated with upper boundaries across participants, which reflects an accuracy-maximizing strategy in the task.",
+          "url": "https://doi.org/10.3758/s13428-025-02819-8",
+          "doi": "https://doi.org/10.3758/s13428-025-02819-8",
           "filter": 0
         },
         {
@@ -72,10 +73,10 @@
           "filter": 0
         },
         {
-          "title": "Errors-in-variables regression as a viable approach to mediation analysis with random error-tainted measurements: Estimation, effectiveness, and an easy-to-use implementation",
-          "authors": "Andrew F. Hayes, Paul D. Allison, Sean M. Alexander",
-          "url": "https://doi.org/10.3758/s13428-025-02783-3",
-          "doi": "https://doi.org/10.3758/s13428-025-02783-3",
+          "title": "A tutorial on fine-tuning pretrained language models: Applications in social and behavioral science research",
+          "authors": "Yu Wang, Wen Qu",
+          "url": "https://doi.org/10.3758/s13428-025-02868-z",
+          "doi": "https://doi.org/10.3758/s13428-025-02868-z",
           "filter": 0
         },
         {
@@ -105,13 +106,6 @@
           "authors": "Tailia Malloy, Fei Fang, Cleotilde Gonzalez",
           "url": "https://doi.org/10.1016/j.chb.2025.108760",
           "doi": "https://doi.org/10.1016/j.chb.2025.108760",
-          "filter": 0
-        },
-        {
-          "title": "Self-disclosure in instant messaging: Do disclosure depth and dating style influence romantic jealousy?",
-          "authors": "Lei Yang, Yun Li, Siyu Bian, Shaohui Quan, Xiaolong Hu, Nan Lin, Dongjun Zhang, Jing Zhang, Lujun Shen",
-          "url": "https://doi.org/10.1016/j.chb.2025.108846",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108846",
           "filter": 0
         },
         {
@@ -178,17 +172,17 @@
           "filter": 0
         },
         {
-          "title": "Explaining the use of AI chatbots as context alignment: Motivations behind the use of AI chatbots across contexts and culture",
-          "authors": "Sebastian Scherr, Bolin Cao, Li Crystal Jiang, Tetsuro Kobayashi",
-          "url": "https://doi.org/10.1016/j.chb.2025.108738",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108738",
-          "filter": 0
-        },
-        {
           "title": "From efficiency to immersion: understanding generational differences in avatar interactions",
           "authors": "Shashank Singh Pawar, Anubhav A. Mishra",
           "url": "https://doi.org/10.1016/j.chb.2025.108732",
           "doi": "https://doi.org/10.1016/j.chb.2025.108732",
+          "filter": 0
+        },
+        {
+          "title": "Explaining the use of AI chatbots as context alignment: Motivations behind the use of AI chatbots across contexts and culture",
+          "authors": "Sebastian Scherr, Bolin Cao, Li Crystal Jiang, Tetsuro Kobayashi",
+          "url": "https://doi.org/10.1016/j.chb.2025.108738",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108738",
           "filter": 0
         },
         {
@@ -213,13 +207,6 @@
           "filter": 0
         },
         {
-          "title": "Exploring approachability in social virtual reality: Scaffolding social translucence",
-          "authors": "Katharina Burger",
-          "url": "https://doi.org/10.1016/j.chb.2025.108739",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108739",
-          "filter": 0
-        },
-        {
           "title": "Introduction of the AI-Interaction Positivity Scale and its relations to satisfaction with life and trust in ChatGPT",
           "authors": "Christian Montag, Jon D. Elhai",
           "url": "https://doi.org/10.1016/j.chb.2025.108705",
@@ -231,6 +218,13 @@
           "authors": "Tetsuya Aoki, Ayako Matsui",
           "url": "https://doi.org/10.1016/j.chb.2025.108735",
           "doi": "https://doi.org/10.1016/j.chb.2025.108735",
+          "filter": 0
+        },
+        {
+          "title": "Exploring approachability in social virtual reality: Scaffolding social translucence",
+          "authors": "Katharina Burger",
+          "url": "https://doi.org/10.1016/j.chb.2025.108739",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108739",
           "filter": 0
         },
         {
@@ -360,6 +354,13 @@
           "filter": 0
         },
         {
+          "title": "Do cognitive assessment games leave infrequent video game players behind? Evaluating frequent and infrequent players’ gaming experience and data quality",
+          "authors": "Benny Markovitch, Jonas C.C. Kamps, Panos Markopoulos, Max V. Birk",
+          "url": "https://doi.org/10.1016/j.chb.2025.108720",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108720",
+          "filter": 0
+        },
+        {
           "title": "Gosh! It is truly happening to me: Embodying adverse health outcomes through immersive virtual reality to promote perceived risk and healthy behaviors",
           "authors": "Dai-Yun Wu, Jih-Hsuan Tammy Lin",
           "url": "https://doi.org/10.1016/j.chb.2025.108749",
@@ -367,10 +368,10 @@
           "filter": 0
         },
         {
-          "title": "Do cognitive assessment games leave infrequent video game players behind? Evaluating frequent and infrequent players’ gaming experience and data quality",
-          "authors": "Benny Markovitch, Jonas C.C. Kamps, Panos Markopoulos, Max V. Birk",
-          "url": "https://doi.org/10.1016/j.chb.2025.108720",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108720",
+          "title": "Retraction notice to “An optimal approach for predicting cognitive performance in education based on deep learning” [Computers in Human Behavior 167 (2025) 108607]",
+          "authors": "Deming Li, Nie Tang, Meredith Chandler, Emilio Nanni",
+          "url": "https://doi.org/10.1016/j.chb.2025.108742",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108742",
           "filter": 0
         },
         {
@@ -385,13 +386,6 @@
           "authors": "Joon Soo Lim, Nalae Hong, Erika Schneider",
           "url": "https://doi.org/10.1016/j.chb.2025.108761",
           "doi": "https://doi.org/10.1016/j.chb.2025.108761",
-          "filter": 0
-        },
-        {
-          "title": "Retraction notice to “An optimal approach for predicting cognitive performance in education based on deep learning” [Computers in Human Behavior 167 (2025) 108607]",
-          "authors": "Deming Li, Nie Tang, Meredith Chandler, Emilio Nanni",
-          "url": "https://doi.org/10.1016/j.chb.2025.108742",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108742",
           "filter": 0
         },
         {
@@ -463,6 +457,13 @@
           "authors": "Blake Quinney, Elena Zubielevitch, Tyler G. Okimoto",
           "url": "https://doi.org/10.1016/j.jesp.2025.104848",
           "doi": "https://doi.org/10.1016/j.jesp.2025.104848",
+          "filter": 0
+        },
+        {
+          "title": "Effects of awe on self-transcendence: A registered report study",
+          "authors": "Chenxiao Zhao, Marret K. Noordewier, Michiel van Elk",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104839",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104839",
           "filter": 0
         },
         {
@@ -799,11 +800,11 @@
           "filter": 0
         },
         {
-          "title": "The Vicissitudes of Paternalistic Stereotypes: Is Warmth Toward Socially Protected Groups Authentic?",
-          "authors": "Vincent Yzerbyt, Odile Rohmer, Laurent Cambon",
-          "abstract": "The present endeavor examines whether paternalistic stereotypes, associating some low-status groups with low competence but high warmth, are always genuine. We propose that not all individuals are sincere in their evaluations as their judgments of warmth are likely driven by normative concerns. Study 1 ( N = 201) confirmed the relationship between paternalistic stereotypes and perceived normative protection. Three additional studies manipulated participants’ beliefs about whether their true opinion could be uncovered or was socially expected. Specifically, individuals with high external motivation to respond without prejudice rated socially protected groups more harshly, especially on warmth, when they faced a bogus pipeline (Study 2, N = 160) or when norms emphasized honesty (Studies 3a and 3b, Ns = 137 and 247). These findings show the greater versatility of warmth compared to competence evaluations and provide new insights into why members of protected groups may continue to experience discrimination.",
-          "url": "https://doi.org/10.1177/01461672251378535",
-          "doi": "https://doi.org/10.1177/01461672251378535",
+          "title": "Evidence for the Sexuality-as-Gendered Framework From Interpersonal Contact",
+          "authors": "P.J. Henry, Matthew Nielson, Kate Hawks",
+          "abstract": "People’s beliefs about sexual minorities are intertwined with their beliefs about gender (i.e., the sexuality-as-gendered framework), leading to the prediction that the amount of friendly contact with sexual minorities will be related to one’s beliefs about gender. We test this prediction across two studies (total N = 860), to show that reported friendships with sexual minorities relate not only to beliefs about sexual minorities, but also to attitudes toward people who are gender atypical, beliefs about traditional gender roles and norms, and endorsement of different versions of sexism. Our findings indicate that the sexuality-as-gendered framework involves not only people’s cognitions in terms of beliefs and attitudes, but also the types of interpersonal relationships they maintain.",
+          "url": "https://doi.org/10.1177/01461672251380308",
+          "doi": "https://doi.org/10.1177/01461672251380308",
           "filter": 0
         },
         {
@@ -812,14 +813,6 @@
           "abstract": "Although both Democrats and Republicans tend to be more tolerant of democratic norm violations that benefit their own party, this pattern is not always symmetrical, even when political stakes appear identical. Two experiments ( N = 2,352) tested competing explanations: that partisans differ in democratic commitment, their tendency to rationalize violations as legitimate, or the values they prioritize (e.g., voter access vs. election integrity). Both parties rationalized weaker opposition to beneficial violations as more democratic. However, Republicans in Study 1 were more responsive to partisan advantage without showing similarly greater democratic rationalization and more tolerant of mail-in voting restrictions regardless of partisan benefit. These differences disappeared in Study 2 when different violations were tested, suggesting such asymmetries are issue-specific rather than fixed. Overall, the findings suggest that partisan gaps in support for democratic norm violations reflect the politicization of particular practices more than stable differences in commitment to democracy.",
           "url": "https://doi.org/10.1177/01461672251372671",
           "doi": "https://doi.org/10.1177/01461672251372671",
-          "filter": 0
-        },
-        {
-          "title": "Resource Possession in the Mind’s Eye: Ideological Convergence and Divergence in the Perceptions of Poor People",
-          "authors": "Wilson N. Merrell, Lei Fan, Jennifer Sheehy-Skeffington, Lotte Thomsen",
-          "abstract": "Social hierarchies ultimately concern resource possession, yet psychological processes for regulating resource-related tensions remain underexplored. We examine how support for intergroup equality (egalitarianism) relates to explicit attitudes toward, and mental images of, the resource poor. In Study 1 ( N = 625), egalitarians report more favorable attitudes toward the resource poor than anti-egalitarians. However, using the reverse correlation paradigm, both groups generate similarly negative mental images of this group, as shown by pixel luminance comparisons (Study 1) and evaluated by independent raters of person-perceptual (Study 2, N = 394) and coalitional traits (Study 3, N = 348). While ideology did not shape image generation, it did influence image evaluation: egalitarian raters showed less polarization between resource-poor and resource-rich faces than anti-egalitarian raters. These findings suggest that despite ideological differences in explicit attitudes (divergence), egalitarians, and anti-egalitarians share similarly negative mental representations (convergence) of the resource poor, highlighting a nuanced interplay between social perception and hierarchy regulation.",
-          "url": "https://doi.org/10.1177/01461672251371787",
-          "doi": "https://doi.org/10.1177/01461672251371787",
           "filter": 0
         }
       ],
@@ -884,6 +877,21 @@
           "abstract": "In Eskreis-Winkler and Fishbach (2019), failure stymies learning: People learn less from failure than success. The commentary proposes that the failure to learn from failure could be due to a tendency to respond consistently. Although a consistent response pattern explains why people struggle to learn from failure in some paradigms, we argue that it does not explain the results of the original paradigm. Certain consistency mechanisms require that people assume they should be consistent with their initial intuition instead of updating as they learn new information. This assumption does not apply to the original paradigm. We discuss how the commentary helps sharpen the criteria for assessing learning from failure and the role of consistency as one potential barrier to learning.",
           "url": "https://doi.org/10.1177/09567976251391180",
           "doi": "https://doi.org/10.1177/09567976251391180",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Psychology of Music",
+      "journal_short": "PsychMusic",
+      "articles": [
+        {
+          "title": "Exploring the role of music listening in cultivating self-compassion",
+          "authors": "Sabrina M McKenzie, Amanda E Krause, Solange Glasser, Margaret S Osborne",
+          "abstract": "Music listening can impact emotional well-being. However, self-compassion, an aspect strongly related to emotional well-being, is rarely discussed in music listening literature. Therefore, this study explored self-compassionate and uncompassionate music listening experiences within the context of the COVID-19 pandemic. Two hundred and ninety-six Australian university students ( M age = 19.32) completed a mixed-methods music listening and self-compassion questionnaire. The questionnaire included the Self-Compassion Short Form Scale along with an author-adapted version exploring the influence of music listening. Additional, open-ended questions probed self-compassionate and uncompassionate music listening experiences. Most participants (81.76%) reported self-compassionate experiences through listening to music during the pandemic. Template analysis examining people’s self-compassionate and uncompassionate music listening experiences resulted in an overlap of themes including emotional experience, connection , and music styles . Distinct patterns were found, such as positive outcomes in self-compassionate responses and negative outcomes in uncompassionate experiences. The inclusion of emotional release within uncompassionate responses demonstrates the complexity of the relationship between music listening and self-compassion. These findings highlight the need for further exploration into music listening and self-compassion, particularly in an everyday context beyond the pandemic.",
+          "url": "https://doi.org/10.1177/03057356251381818",
+          "doi": "https://doi.org/10.1177/03057356251381818",
           "filter": 0
         }
       ],
