@@ -1,35 +1,6 @@
 {
-  "update": "2025-11-07",
+  "update": "2025-11-08",
   "content": [
-    {
-      "journal_full": "Journal of Survey Statistics and Methodology",
-      "journal_short": "JSSAM",
-      "articles": [
-        {
-          "title": "Robust Extension of the Multivariate Fay-Herriot Model for Data with Outliers",
-          "authors": "Annop Angkunsit, Jiraphan Suntornchost",
-          "abstract": "Outliers commonly arise in real situations, particularly in small areas where outliers could occur due to model errors or survey errors. In this study, we investigate a robust approach for handling outliers in a multivariate small area model, where there are multiple response variables of interest. Specifically, we consider the multivariate Fay-Herriot (MFH) model, which commonly assumes multivariate normal distributions for area random effects and sampling errors. However, it is known that the normality assumption is usually sensitive to outliers or data with heavy tails. Therefore, we propose the multivariate t-distribution as the alternative underlying distribution, called the Mt-FH model. We also construct parameter estimation methods for the model by considering generalizations of the likelihood function and the EM algorithm to enhance the accuracy and avoid computational issues. In particular, we propose two parameter estimation methods for the model based on the (profile) Lq-likelihood approach and the expectation conditional maximization (ECM) algorithm, called the MLq-ECM and profile MLq-ECM. We conduct a simulation study to investigate the efficiency of the Mt-FH model and the (profile) MLq-ECM methods in handling outliers and deviations of the data from the normality assumption. The outlier patterns considered in our study are the mean shift and variance shift patterns. The simulation results based on biases and mean squared errors suggest that the Mt-FH models can improve the MFH model in the presence of outliers. Finally, we assess the performance of the Mt-FH model through an analysis of the welfare variables in Thailand. The results based on the AIC and the percentage reduction of the MSE estimator highlight the advantages of the Mt-FH model over the MFH model. Furthermore, the integration of the MLq-ECM approach further strengthens the performance of the Mt-FH model.",
-          "url": "https://doi.org/10.1093/jssam/smaf026",
-          "doi": "https://doi.org/10.1093/jssam/smaf026",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Politics, Groups, and Identities",
-      "journal_short": "PGI",
-      "articles": [
-        {
-          "title": "The attitudinal and organizational roots of LGB incorporation in the Democratic Party, 1980–2012",
-          "authors": "Andrew Proctor",
-          "url": "https://doi.org/10.1080/21565503.2025.2570709",
-          "doi": "https://doi.org/10.1080/21565503.2025.2570709",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
     {
       "journal_full": "Public Opinion Quarterly",
       "journal_short": "POQ",
@@ -49,6 +20,22 @@
       "journal_full": "Social Science Computer Review",
       "journal_short": "SSCR",
       "articles": [
+        {
+          "title": "Media Visibility and Information-Seeking: Analyzing the Impact of News Coverage on Wikipedia Pageviews of Estonian MPs (2015–2023)",
+          "authors": "Tatiana Lupacheva",
+          "abstract": "The news media are a primary but limited source of political information for voters. This article examines how the media coverage of members of parliament (MPs) prompts people to seek more information about MPs—an important element of voters’ political knowledge and democratic accountability. I use all available online content from four major Estonian newspapers during 2015–2023 ( ∼ 140,000 articles) and pre-trained transformer models to classify the sentiment and policy issues of news articles that mention MPs. I match media data with MPs’ Wikipedia pageviews on a daily basis over two legislative terms. First, the results show that media visibility of MPs is associated with more views of their Wikipedia page on the same day. Second, news articles with negative sentiment have a greater impact on information-seeking than those with a positive or neutral tone. Third, the impact of MPs' media appearances on information-seeking is dependent on the policy context as well as party affiliation. The findings have implications for understanding the consequences of political communication and democratic representation in the digital age.",
+          "url": "https://doi.org/10.1177/08944393251394710",
+          "doi": "https://doi.org/10.1177/08944393251394710",
+          "filter": 0
+        },
+        {
+          "title": "AI’s Sociological Era",
+          "authors": "Jenny L. Davis, Mona Sloane",
+          "abstract": "Artificial Intelligence (AI) is a social structure cloaked in technical blackboxes and polarizing narratives. Sociology is the study of society from a structural perspective, delineating the interplays between individuals, organizations, institutions, and cultures. Sociology’s disciplinary lens is necessary to understand AI’s infrastructural force, reflecting and shaping politics, economies, knowledge, and interpersonal spheres. Yet to date, the field of AI research has been dominated by computer science and engineering, underutilizing the explanatory power of sociological theories and methods honed by the discipline over more than a century. Building on a collection of papers that illustrate AI as both a product and driver of social patterns and processes, we demonstrate that the diffusion of AI necessitates sociological analyses now more than ever, positioning sociology at the forefront of AI studies’ next era.",
+          "url": "https://doi.org/10.1177/08944393251394690",
+          "doi": "https://doi.org/10.1177/08944393251394690",
+          "filter": 0
+        },
         {
           "title": "Using Artificial Intelligence to Generate Visual Vignettes in Factorial Survey Experiments",
           "authors": "Nicole Schwitter",
