@@ -1,5 +1,5 @@
 {
-  "update": "2025-11-10",
+  "update": "2025-11-11",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -44,13 +44,6 @@
           "filter": 0
         },
         {
-          "title": "Joint modeling with generalized item response theory model family and response time model: Enhancing model structural flexibility and data-fitting adequacy",
-          "authors": "Jing Lu, Xue Wang, Jiwei Zhang",
-          "url": "https://doi.org/10.3758/s13428-025-02855-4",
-          "doi": "https://doi.org/10.3758/s13428-025-02855-4",
-          "filter": 0
-        },
-        {
           "title": "A drift-diffusion model of temporal generalization outperforms existing models and captures modality differences and learning effects",
           "authors": "Nir Ofir, Ayelet N. Landau",
           "abstract": "Multiple systems in the brain track the passage of time and can adapt their activity to temporal requirements. While the neural implementation of timing varies widely between neural substrates and behavioral tasks, at the algorithmic level, many of these behaviors can be described using drift-diffusion models of decision-making. In this work, wedevelop a drift-diffusion model to fit performance in the temporal generalization task, in which participants are required to categorize an interval as being the same or different compared to a standard, or reference, duration. The model includes a drift-diffusion process which starts with interval onset, representing the internal estimate of elapsed duration, and two boundaries. If the drift-diffusion process at interval offset is between the boundaries, the interval is categorized as equal to the standard. If it is below the lower boundary or above the upper boundary, the interval is categorized as different. This model outperformed previous models in fitting the data of single participants and in parameter recovery analyses. We also used the drift-diffusion model to analyze data from two experiments, one comparing performance between vision and audition and another examining the effect of learning. We found that decision boundaries can be modified independently: While the upper boundary was higher in vision than in audition, the lower boundary decreased with learning in the task. In both experiments, timing noise was positively correlated with upper boundaries across participants, which reflects an accuracy-maximizing strategy in the task.",
@@ -59,10 +52,10 @@
           "filter": 0
         },
         {
-          "title": "Publisher Correction: A systematic review of latent class analysis in psychology: Examining the gap between guidelines and research practice",
-          "authors": "Angela Sorgente, Rossella Caliciuri, Matteo Robba, Margherita Lanz, Bruno D. Zumbo",
-          "url": "https://doi.org/10.3758/s13428-025-02871-4",
-          "doi": "https://doi.org/10.3758/s13428-025-02871-4",
+          "title": "Why you shouldn’t trust data collected on MTurk",
+          "authors": "Cameron S. Kay",
+          "url": "https://doi.org/10.3758/s13428-025-02852-7",
+          "doi": "https://doi.org/10.3758/s13428-025-02852-7",
           "filter": 0
         },
         {
@@ -73,32 +66,34 @@
           "filter": 0
         },
         {
-          "title": "Autoscribe: An automated tool for creating transcribed TextGrids from audio-recorded conversations",
-          "authors": "Tyson S. Barrett, Camille J. Wynn, Lotte Eijk, Katerina A. Tetzloff, Stephanie A. Borrie",
-          "abstract": "One major difficulty in conversational research is the time required to segment and transcribe conversational recordings. While recent advances have improved automatic speech recognition technologies, one limitation of current tools is that they are generally catered toward speech that occurs in monologues rather than conversation. Accordingly, the purpose of this project was to develop and validate an automated user-friendly tool for transcribing conversations. This tool, called Autoscribe, converts dyadic conversational audio recordings into Praat TextGrids with time-aligned turn boundaries between speech and non-speech segments and transcripts of all spoken dialogue output. Here we describe the development of this tool as well as its validation on two conversational corpora. Results showed that Autoscribe decreased the amount of active working time needed for TextGrid creation by over 70%. Average transcription accuracy was 92% and average utterance boundary placement of 95%. Thus, Autoscribe affords a practical research tool that drastically reduces the time and resource intensitivity needed for conversational segmentation and transcription.",
-          "url": "https://doi.org/10.3758/s13428-025-02850-9",
-          "doi": "https://doi.org/10.3758/s13428-025-02850-9",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Computers in Human Behavior",
-      "journal_short": "CHB",
-      "articles": [
-        {
-          "title": "Improving online anti-phishing training using cognitive large language models",
-          "authors": "Tailia Malloy, Fei Fang, Cleotilde Gonzalez",
-          "url": "https://doi.org/10.1016/j.chb.2025.108760",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108760",
+          "title": "Dimensionality reduction techniques in pupillometry research: A primer for behavioral scientists",
+          "authors": "Serena Castellotti, Irene Petrizzo, Roberto Arrighi, Elvio Blini",
+          "abstract": "The measurement of pupil size is a classic tool in psychophysiology, but its popularity has recently surged due to the rapid developments of the eye-tracking industry. Concurrently, several authors have outlined a wealth of strategies for tackling pupillary recordings analytically. The consensus is that the “temporal” aspect of changes in pupil size is key, and that the analytical approach should be mindful of the temporal factor. Here we take a more radical stance on the matter by suggesting that, by the time significant changes in pupil size are detected, it is already too late . We suggest that these changes are indeed the result of distinct, core physiological processes that originate several hundreds of milliseconds before that moment and altogether shape the observed signal. These processes can be recovered indirectly by leveraging dimensionality reduction techniques. Here we therefore outline key concepts of temporal principal components analysis and related rotations to show that they reveal a latent, low-dimensional space that represents these processes very efficiently: a pupillary manifold. We elaborate on why assessing the pupillary manifold provides an alternative, appealing analytical solution for data analysis. In particular, dimensionality reduction returns scores that are (1) mindful of the relevant physiology underlying the observed changes in pupil size, (2) extremely handy and manageable for statistical modelling, and (3) devoid of several arbitrary choices. We elaborate on these points in the form of a tutorial paper for the functions provided in the accompanying R library “Pupilla.”",
+          "url": "https://doi.org/10.3758/s13428-025-02786-0",
+          "doi": "https://doi.org/10.3758/s13428-025-02786-0",
           "filter": 0
         },
         {
-          "title": "Both AI-generated and Human Influencers Can Correct Misinformation: Investigating the Effectiveness of Corrections for Polarized and Non-Polarized Issues",
-          "authors": "Christian von Sikorski, Pascal Merz, Raffael Heiss, Michaela Bassler, Clara Buyny, Svenja Hildebrand, Christoph Streller, Evelyn Wicki",
-          "url": "https://doi.org/10.1016/j.chb.2025.108845",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108845",
+          "title": "A practice-oriented guide to statistical inference in linear modeling for non-normal or heteroskedastic error distributions",
+          "authors": "Hanna Rajh-Weber, Stefan Ernest Huber, Martin Arendasy",
+          "abstract": "Selecting an appropriate statistical method is a challenge frequently encountered by applied researchers, especially if assumptions for classical, parametric approaches are violated. To provide some guidelines and support, we compared classical hypothesis tests with their typical distributional assumptions of normality and homoskedasticity with common and easily accessible alternative inference methods (HC3, HC4, and six bootstrap methods) in the framework of ordinary least squares (OLS) regression. The method’s performance was assessed for four different regression models with varying levels of non-normality and heteroskedasticity of errors, and for five different sample sizes ranging from 25 to 500 cases. For each scenario, 10,000 samples of observations were generated. Type I error and coverage rates, power, and standard error bias were examined to assess the methods’ performance. No method considered here performed satisfactorily on all accounts. Using HC3 or HC4 standard errors, or a wild bootstrap procedure with percentile confidence intervals, could yield reliable results in many, but not all, scenarios. We suppose that, in the case of assumption violations, researchers might refer to a method that performed best in a scenario most similar to their data situation. To aid the selection of an appropriate method, we provide tables comparing relative performances in all considered scenarios.",
+          "url": "https://doi.org/10.3758/s13428-025-02801-4",
+          "doi": "https://doi.org/10.3758/s13428-025-02801-4",
+          "filter": 0
+        },
+        {
+          "title": "In-lab versus web-based eye-tracking in decision-making: A systematic comparison on multiple display-size conditions mimicking common electronic devices",
+          "authors": "Sebastián Muñoz, Vladimir Maksimenko, Bastian Henriquez-Jara, Prateek Bansal, Omar David Perez",
+          "url": "https://doi.org/10.3758/s13428-025-02867-0",
+          "doi": "https://doi.org/10.3758/s13428-025-02867-0",
+          "filter": 0
+        },
+        {
+          "title": "Correcting for selection bias after conditioning on a sum score in the Ising model",
+          "authors": "Jesse Boot, Jill de Ron, Jonas Haslbeck, Sacha Epskamp",
+          "abstract": "In psychological studies, it is common practice to select a sample based on the sum score of the modeled variables (e.g., based on symptom severity when investigating the associations between those same symptoms). However, this practice introduces bias if the sum score selection imperfectly defines the population of interest. Here, we propose a correction for this type of selection bias in the Ising model, a popular network model for binary data. Possible applications of our correction are when one wants to obtain (1) full population estimates when only the sum score subset of the data is available, and (2) improved estimates of a subpopulation, if we observe a mixture of populations that differ from each other in the sum score. In a simulation study, we verify that our correction recovers the network structure of the desired population after a sum score selection using both a node-wise regression and a multivariate estimation of the Ising model. In an example, we show how our correction can be used in practice using empirical data on symptoms of major depression from the National Comorbidity Study Replication ( N = 9,282). We implemented our correction in four commonly used R packages for estimating the Ising model, namely IsingFit , IsingSampler , psychonetrics, and bootnet.",
+          "url": "https://doi.org/10.3758/s13428-025-02820-1",
+          "doi": "https://doi.org/10.3758/s13428-025-02820-1",
           "filter": 0
         }
       ],
@@ -159,17 +154,17 @@
       "journal_short": "MBR",
       "articles": [
         {
-          "title": "Detecting Model Misfit in Structural Equation Modeling with Machine Learning—A Proof of Concept",
-          "authors": "Melanie Viola Partsch, David Goretzko",
-          "url": "https://doi.org/10.1080/00273171.2025.2552304",
-          "doi": "https://doi.org/10.1080/00273171.2025.2552304",
-          "filter": 0
-        },
-        {
           "title": "The Effects of Data Preprocessing Choices on Behavioral RCT Outcomes: A Multiverse Analysis",
           "authors": "Giuseppe A. Veltri",
           "url": "https://doi.org/10.1080/00273171.2025.2575399",
           "doi": "https://doi.org/10.1080/00273171.2025.2575399",
+          "filter": 0
+        },
+        {
+          "title": "Correlated Residuals in Lagged-Effects Models: What They (Do Not) Represent in the Case of a Continuous-Time Process",
+          "authors": "R. M. Kuiper, E. L. Hamaker",
+          "url": "https://doi.org/10.1080/00273171.2025.2557274",
+          "doi": "https://doi.org/10.1080/00273171.2025.2557274",
           "filter": 0
         }
       ],
@@ -179,6 +174,14 @@
       "journal_full": "Personality and Social Psychology Bulletin",
       "journal_short": "PSPB",
       "articles": [
+        {
+          "title": "Becoming Speciesist: How Children and Adults Differ in Valuing Animals by Species and Cognitive Capacity",
+          "authors": "Lucius Caviola, Matti Wilks, Claudia Suárez-Yera, Carter Allen, Guy Kahane, Luke McGuire, Nadira S. Faber, Antonio J. Rojas-Tejada, María Sánchez-Castelló, Jorge L. Ordóñez-Carrasco, Paul Bloom",
+          "abstract": "Children morally prioritize humans over animals less than adults do. Is this because children are less speciesist—meaning they place less moral weight on mere species membership? Or is it because they give less weight to differences in cognitive capacity between humans and other animals? We investigated this in two experiments, presenting children and adult participants in the United States and Spain with moral trade-off dilemmas. These dilemmas involved individuals who varied in species membership (human vs. monkey) and cognitive capacity. Across both cultures, children were less likely than adults to prioritize humans over animals, regardless of cognitive capacity. In addition, participants tended to prioritize individuals with higher cognitive capacities, regardless of species membership—though this effect was less robust in children. Our findings suggest that children in these Western contexts are indeed less speciesist than adults, though they do not rule out developmental changes in the moral weight assigned to cognitive capacity.",
+          "url": "https://doi.org/10.1177/01461672251373108",
+          "doi": "https://doi.org/10.1177/01461672251373108",
+          "filter": 0
+        },
         {
           "title": "Does Maximizing Good Make People Look Bad?",
           "authors": "Andres Montealegre, Lance S. Bush, David Moss, David A. Pizarro, William Jimenez-Leal",
@@ -193,14 +196,6 @@
           "abstract": "Recent perspectives have challenged the view that left-wingers are less likely to derogate out-group members. Building on research demonstrating heightened out-group derogation by Progressive (vs. Traditional Liberal) left-wingers, we examined whether Progressives and Traditional Liberals differentially tolerate in-group dissenters on the issue of gender identity. Using reverse correlation, Study 1 found that the Progressive-generated face of J.K. Rowling (a prominent gender critical left-winger) was evaluated negatively, while the Traditional Liberal–generated face was evaluated positively. Study 2 found that in both abstract (general description) and concrete (public figure) presentations, faces of left-wing in-group members expressing gender critical views were judged more negatively than self-identification faces, with Progressive-generated gender critical faces evaluated more negatively than Traditional Liberals–generated faces. Replicating Study 1, the Rowling face generated by Traditional Liberals was evaluated positively. These findings suggest an ideological asymmetry of derogation within left-wing kinds, offering evidence of opposing representations of a dissenting in-group target.",
           "url": "https://doi.org/10.1177/01461672251378189",
           "doi": "https://doi.org/10.1177/01461672251378189",
-          "filter": 0
-        },
-        {
-          "title": "I Get Knocked Down but I Get Up Again: Autonomous Motivation Sustains Identification and Collective Action After (Specific) Failure",
-          "authors": "Lisette Yip, Emma F. Thomas, Catherine Amiot, Léïla Eisner, Morgana Lizzio-Wilson, Winnifred R. Louis, Craig McGarty, Fathali Moghaddam",
-          "abstract": "Movements often experience setbacks while striving to achieve (or prevent) social change. We examined whether autonomous motivation—which captures supporters’ internalized commitment to a cause—would sustain identification with the movement and collective action after experiencing failure (vs. success) outcomes following the marriage equality vote in Australia (Study 1; N = 186), and an experimental induction of movement failure (Study 2; N = 137). Autonomous motivation positively predicted identification and collective action, but there was no evidence of moderation by outcome. In Study 3 ( N = 377), we experimentally manipulated outcomes (success/failure) and framing (specific/broad) of the climate action movement. We found evidence of a three-way interaction such that the effects of autonomous motivation on identification were strongest after a specific campaign failure. We conclude that autonomous motivation can help to buffer the demotivating effects of a specific failure as well as sustaining identification and commitment to action broadly.",
-          "url": "https://doi.org/10.1177/01461672251381184",
-          "doi": "https://doi.org/10.1177/01461672251381184",
           "filter": 0
         },
         {
@@ -223,35 +218,14 @@
       "articles_hidden": []
     },
     {
-      "journal_full": "Psychological Bulletin",
-      "journal_short": "PsychBull",
-      "articles": [
-        {
-          "title": "Acute effects of fasting on cognitive performance: A systematic review and meta-analysis.",
-          "authors": "Christoph Bamberg, David Moreau",
-          "url": "https://doi.org/10.1037/bul0000492",
-          "doi": "https://doi.org/10.1037/bul0000492",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
       "journal_full": "Psychological Methods",
       "journal_short": "PM",
       "articles": [
         {
-          "title": "How to analyze visual data using zero-shot learning: An overview and tutorial.",
-          "authors": "Benjamin Riordan, Joshua Millward, Zhen He, Dan Anderson-Luxford, Samatha Pararath Salim, Maree Patsouras, Emmanuel Kuntsche",
-          "url": "https://doi.org/10.1037/met0000801",
-          "doi": "https://doi.org/10.1037/met0000801",
-          "filter": 0
-        },
-        {
-          "title": "Comparison of latent growth curves: A parameter constancy test.",
-          "authors": "Jesús F. Rosel, Sara Puchol, Marcel Elipe, Patricia Flor, Francisco H. Machancoses, Juan J. Canales",
-          "url": "https://doi.org/10.1037/met0000788",
-          "doi": "https://doi.org/10.1037/met0000788",
+          "title": "Estimating ordinal factor analysis and item response theory models: A comparison of full- and limited-information techniques.",
+          "authors": "Eunseong Cho",
+          "url": "https://doi.org/10.1037/met0000802",
+          "doi": "https://doi.org/10.1037/met0000802",
           "filter": 0
         }
       ],
@@ -308,10 +282,17 @@
       "journal_short": "PPM",
       "articles": [
         {
-          "title": "The expansion of the chūnibyō experience in Thailand.",
-          "authors": "Weerapong Polnigongit, Chanon Jindaborisut, Kornrathak Chuenmuneewong, Roongkan Musakophas, Parawan Pijitrattana",
-          "url": "https://doi.org/10.1037/ppm0000639",
-          "doi": "https://doi.org/10.1037/ppm0000639",
+          "title": "Exploring reciprocity, well-being, and continuation intention in massively multiplayer online games.",
+          "authors": "Donggyu Kim",
+          "url": "https://doi.org/10.1037/ppm0000643",
+          "doi": "https://doi.org/10.1037/ppm0000643",
+          "filter": 0
+        },
+        {
+          "title": "Video games as conduits for radicalization: Impact of exposure to extremist recruitment and authoritarianism on sexist attitudes and aggression.",
+          "authors": "Anantha Ubaradka, Christopher J. Ferguson, Sanjram Premjit Khanganba",
+          "url": "https://doi.org/10.1037/ppm0000642",
+          "doi": "https://doi.org/10.1037/ppm0000642",
           "filter": 0
         }
       ],
