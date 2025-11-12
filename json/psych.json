@@ -1,5 +1,5 @@
 {
-  "update": "2025-11-11",
+  "update": "2025-11-12",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -36,14 +36,6 @@
           "filter": 0
         },
         {
-          "title": "Continuous Rating Scale Analytics (CoRSA): A tool for analyzing continuous and discrete data with item response theory",
-          "authors": "Yeh-Tai Chou, Yao-Ting Sung, Wei-Hung Yang",
-          "abstract": "The use of continuous rating scales such as the visual analogue scale (VAS) in research has increased, yet they are less popular than discrete scales like the Likert scale. The non-popularity of continuous scales is primarily due to the lack of validated analytical tools and user-friendly interfaces, which have also jointly resulted in a lack of sufficient theoretical and empirical research supporting confidence in using continuous rating formats. This research aims to address these gaps through four studies. The first study proposed an algorithm and developed the Continuous Rating Scale Analytics (CoRSA) to estimate parameters for the continuous rating scale model (Müller, Psychometrika , 52 , 165–181, 1987). The second study evaluated CoRSA’s efficacy in analyzing continuous scores compared to pcIRT (Hohensinn, Journal of Statistical Software , 84 , 1–14, 2018) and discrete scores against ConQuest (Adams et al., 2020). Results showed superior parameter recovery with CoRSA for continuous data and comparable outcomes for discrete data. The third study analyzed empirical data from career interest and work value assessments using both VAS and Likert scales with CoRSA, demonstrating good model-data fit and validating CoRSA’s effectiveness in rescaling data to interval measurements. Finally, the fourth study integrated CoRSA into the VAS-RRP 2.0 platform (Sung &amp; Wu, Behavior Research Methods , 50 , 1694–1715, 2018) to enhance accessibility and usability, allowing researchers and practitioners unfamiliar with statistical procedures to easily analyze continuous data. These findings confirm CoRSA as a valid tool for analyzing both continuous and discrete data, enhancing the utility of continuous rating formats in diverse research contexts.",
-          "url": "https://doi.org/10.3758/s13428-025-02848-3",
-          "doi": "https://doi.org/10.3758/s13428-025-02848-3",
-          "filter": 0
-        },
-        {
           "title": "A drift-diffusion model of temporal generalization outperforms existing models and captures modality differences and learning effects",
           "authors": "Nir Ofir, Ayelet N. Landau",
           "abstract": "Multiple systems in the brain track the passage of time and can adapt their activity to temporal requirements. While the neural implementation of timing varies widely between neural substrates and behavioral tasks, at the algorithmic level, many of these behaviors can be described using drift-diffusion models of decision-making. In this work, wedevelop a drift-diffusion model to fit performance in the temporal generalization task, in which participants are required to categorize an interval as being the same or different compared to a standard, or reference, duration. The model includes a drift-diffusion process which starts with interval onset, representing the internal estimate of elapsed duration, and two boundaries. If the drift-diffusion process at interval offset is between the boundaries, the interval is categorized as equal to the standard. If it is below the lower boundary or above the upper boundary, the interval is categorized as different. This model outperformed previous models in fitting the data of single participants and in parameter recovery analyses. We also used the drift-diffusion model to analyze data from two experiments, one comparing performance between vision and audition and another examining the effect of learning. We found that decision boundaries can be modified independently: While the upper boundary was higher in vision than in audition, the lower boundary decreased with learning in the task. In both experiments, timing noise was positively correlated with upper boundaries across participants, which reflects an accuracy-maximizing strategy in the task.",
@@ -52,10 +44,26 @@
           "filter": 0
         },
         {
+          "title": "The impact of dichotomization on network recovery",
+          "authors": "Nikola Sekulovski, Tessa F. Blanken, Jonas M. B. Haslbeck, Maarten Marsman",
+          "abstract": "Graphical models have become an important method for studying the network structure of multivariate psychological data. Accurate recovery of the underlying network structure is paramount and requires that the models are appropriate for the data at hand. Traditionally, Gaussian graphical models for continuous data and Ising models for binary data have dominated the literature. However, psychological research often relies on ordinal data from Likert scale items, creating a model-data mismatch. This paper examines the effect of dichotomizing ordinal variables on network recovery, as opposed to analyzing the data at its original level of measurement, using a Bayesian analysis of the ordinal Markov random field model. This model is implemented in the R package . Our analysis shows that dichotomization results in a loss of information, which affects the accuracy of network recovery. This is particularly true when considering the interplay between the dichotomization cutoffs used and the distribution of the ordinal categories. In addition, we demonstrate a difference in accuracy when using dichotomized data, depending on whether edges are included or excluded in the true network, which highlights the effectiveness of the ordinal model in recovering conditional independence relationships. These findings underscore the importance of using models that deal directly with ordinal data to ensure more reliable and valid inferred network structures in psychological research.",
+          "url": "https://doi.org/10.3758/s13428-025-02861-6",
+          "doi": "https://doi.org/10.3758/s13428-025-02861-6",
+          "filter": 0
+        },
+        {
           "title": "Why you shouldn’t trust data collected on MTurk",
           "authors": "Cameron S. Kay",
           "url": "https://doi.org/10.3758/s13428-025-02852-7",
           "doi": "https://doi.org/10.3758/s13428-025-02852-7",
+          "filter": 0
+        },
+        {
+          "title": "Quantifying word informativeness and its impact on eye-movement reading behavior: Cross-linguistic variability and individual differences",
+          "authors": "Inbal Kimchi, Sascha Schroeder, Noam Siegelman",
+          "abstract": "The importance or centrality of a linguistic unit to a larger unit’s meaning is known to affect reading behavior. However, there is an ongoing debate on how to quantify a unit’s degree of importance or centrality, with previous quantifications using either subjective ratings or computational solutions with limited interpretability. Here we introduce a novel measure, which we term “informativeness”, to assess the significance of a word to the meaning of the sentence in which it appears. Our measure is based on the comparison of vectorial representations of the full sentence with a revised sentence without the target word, resulting in an easily interpretable and objective quantification. We show that our new measure correlates in expected ways with other psycholinguistic variables (e.g., frequency, length, predictability), and, importantly, uniquely predicts eye-movement reading behavior in large-scale datasets of first (L1) and second language (L2) readers (from the Multilingual Eye-tracking Corpus, MECO). We also show that the effects of informativeness generalize to diverse writing systems, and are stronger for poorer than better readers. Together, our work provides new avenues for investigating informativeness effects, towards a deeper understanding of the way it impacts reading behavior.",
+          "url": "https://doi.org/10.3758/s13428-025-02878-x",
+          "doi": "https://doi.org/10.3758/s13428-025-02878-x",
           "filter": 0
         },
         {
@@ -126,13 +134,6 @@
           "filter": 0
         },
         {
-          "title": "Refusing to forgive can have psychological benefits",
-          "authors": "Blake Quinney, Elena Zubielevitch, Tyler G. Okimoto",
-          "url": "https://doi.org/10.1016/j.jesp.2025.104848",
-          "doi": "https://doi.org/10.1016/j.jesp.2025.104848",
-          "filter": 0
-        },
-        {
           "title": "Effects of awe on self-transcendence: A registered report study",
           "authors": "Chenxiao Zhao, Marret K. Noordewier, Michiel van Elk",
           "url": "https://doi.org/10.1016/j.jesp.2025.104839",
@@ -153,13 +154,6 @@
       "journal_full": "Multivariate Behavioral Research",
       "journal_short": "MBR",
       "articles": [
-        {
-          "title": "The Effects of Data Preprocessing Choices on Behavioral RCT Outcomes: A Multiverse Analysis",
-          "authors": "Giuseppe A. Veltri",
-          "url": "https://doi.org/10.1080/00273171.2025.2575399",
-          "doi": "https://doi.org/10.1080/00273171.2025.2575399",
-          "filter": 0
-        },
         {
           "title": "Correlated Residuals in Lagged-Effects Models: What They (Do Not) Represent in the Case of a Continuous-Time Process",
           "authors": "R. M. Kuiper, E. L. Hamaker",
@@ -183,11 +177,11 @@
           "filter": 0
         },
         {
-          "title": "Does Maximizing Good Make People Look Bad?",
-          "authors": "Andres Montealegre, Lance S. Bush, David Moss, David A. Pizarro, William Jimenez-Leal",
-          "abstract": "Despite the potential to significantly increase the impact of donations, people often fail to prioritize the cost-effectiveness of charities. This paper examines an explanation for why people may donate less effectively due to reputational concerns that favor empathizing with donation recipients rather than deliberating about the cost-effectiveness of charities. Across seven studies, we find that “deliberators” are perceived as less moral and less desirable as social partners than “empathizers.” Moreover, people accurately anticipate the reputational costs of deliberation and are more likely to donate to causes that evoke more empathy but are less cost-effective when reputational concerns are highlighted. Our findings suggest that there are disincentives for selecting charities by deliberating about their cost-effectiveness, as people are more rewarded for signaling socially valued moral traits than for prioritizing charitable impact.",
-          "url": "https://doi.org/10.1177/01461672251361210",
-          "doi": "https://doi.org/10.1177/01461672251361210",
+          "title": "Interpreting Microaggressions: The Role of Discourse Context, Recipient Status, and Observers’ Political Orientation",
+          "authors": "Thomas Holtgraves, Rishi Sarin, Rebecca Wood, Emily Cronk, Ana Júlia Nogueira Mourão",
+          "abstract": "Microaggressions require an inferential process for their aggressive intent to be recognized. Using approaches from pragmatics, especially relevance theory, we conducted experiments to examine factors predicted to influence perceptions of an utterance as a microaggression. Participants read scenarios describing an interaction between two people and indicated their perceptions of a target remark. We expected and found that an utterance was more likely to be perceived as a microaggression if (a) it occurred in a context for which its relevance was not clear, thereby prompting observers to infer an aggressive intent, and (b) the recipient was a person of marginalized status. Furthermore, these effects were larger for participants with a more liberal political orientation relative to those who were more conservative. This was due, in part, to variability in Theory of Mind capabilities and beliefs about microaggressions associated with political orientation.",
+          "url": "https://doi.org/10.1177/01461672251377809",
+          "doi": "https://doi.org/10.1177/01461672251377809",
           "filter": 0
         },
         {
@@ -199,19 +193,19 @@
           "filter": 0
         },
         {
-          "title": "Health Behaviors Are Moralized When Perceived to Cause Harm",
-          "authors": "Samuel Pratt, Daniel L. Rosenfeld, Amelia Goranson, A. Janet Tomiyama, Paschal Sheeran, Kurt Gray",
-          "abstract": "People readily moralize health, whether by criticizing smokers or treating exercise as noble. Drawing from the theory of dyadic morality, we theorized that people moralize health most strongly when they perceive poor health as a source of suffering. Through five studies (total N = 2,055), we show that perceived harm can drive the moralization of health. We identified three types of harm—personal, interpersonal, and collective—that people perceive as relevant to health and created a 15-item measure to capture each (Study 1). Perceived interpersonal harm reliably predicted moralizations of health, whether health was conceived broadly (Study 2) or as a concrete health issue (e.g., smoking, eating healthfully, disease prevention; Study 3). Experimentally manipulating the interpersonal harmfulness of a health behavior caused participants to moralize it (Studies 4 and 5), whereas disgust had no unique effect (Study 4). We suggest that perceived harm plays a key role in moralizing health.",
-          "url": "https://doi.org/10.1177/01461672251372823",
-          "doi": "https://doi.org/10.1177/01461672251372823",
-          "filter": 0
-        },
-        {
           "title": "Evidence for the Sexuality-as-Gendered Framework From Interpersonal Contact",
           "authors": "P.J. Henry, Matthew Nielson, Kate Hawks",
           "abstract": "People’s beliefs about sexual minorities are intertwined with their beliefs about gender (i.e., the sexuality-as-gendered framework), leading to the prediction that the amount of friendly contact with sexual minorities will be related to one’s beliefs about gender. We test this prediction across two studies (total N = 860), to show that reported friendships with sexual minorities relate not only to beliefs about sexual minorities, but also to attitudes toward people who are gender atypical, beliefs about traditional gender roles and norms, and endorsement of different versions of sexism. Our findings indicate that the sexuality-as-gendered framework involves not only people’s cognitions in terms of beliefs and attitudes, but also the types of interpersonal relationships they maintain.",
           "url": "https://doi.org/10.1177/01461672251380308",
           "doi": "https://doi.org/10.1177/01461672251380308",
+          "filter": 0
+        },
+        {
+          "title": "Meaning and Attention Intertwined: Experimental and Experience-Sampling Findings",
+          "authors": "Katy Y. Y. Tam, Wijnand A. P. van Tilburg, Christian S. Chan, Michael Inzlicht",
+          "abstract": "How does one attain meaning? Though pivotal to well-being, this question has been explored mainly within symbolic and philosophical domains, with little focus on its cognitive processes. We present a theoretical integration of meaning and attention, followed by five studies investigating their relationship in lab experiments and everyday life (total N = 1,654). Experimental findings indicate that meaning increased attention (Studies 1 and 3), and attention increased meaning, but only when meaning could be found in a stimulus (Studies 2a, 2b, and 3). An experience-sampling study further reveals a positive meaning–attention association at dispositional, situational, and cross-levels (Study 4). Across varied daily activities, participants reported greater meaning when they paid more attention. These studies also explored the interplay of meaning and attention with boredom, negative emotions, and subjective well-being. Together, our results suggest that paying attention during everyday activities can, in some instances, enhance the experience of meaning.",
+          "url": "https://doi.org/10.1177/01461672251383966",
+          "doi": "https://doi.org/10.1177/01461672251383966",
           "filter": 0
         }
       ],
@@ -249,14 +243,6 @@
           "abstract": "What are the risky choices people face in our complex and fast-changing world? This article reports on a series of population surveys in Switzerland ( N = 4,380) that collected those risky choices that are relevant in people’s everyday lives. Using this empirical basis, we developed an inventory consisting of 100 unique real-life choices to address open questions regarding the structure, life domains, and stability of the current ecology of risk. Moreover, a follow-up study ( N = 933) indicated some degree of generalizability of the construct of risk preference to the newly identified real-life choices. The five key insights that emerged from our analyses may be useful for researchers studying decision-making under risk and uncertainty (e.g., what criteria to use when developing novel measurement instruments) and policymaking in applied settings (e.g., addressing how swiftly the risks of modern life change).",
           "url": "https://doi.org/10.1177/09567976251384975",
           "doi": "https://doi.org/10.1177/09567976251384975",
-          "filter": 0
-        },
-        {
-          "title": "Reply to “A Tendency to Answer Consistently Can Generate Apparent Failures to Learn From Failure”",
-          "authors": "Lauren Eskreis-Winkler, Ayelet Fishbach",
-          "abstract": "In Eskreis-Winkler and Fishbach (2019), failure stymies learning: People learn less from failure than success. The commentary proposes that the failure to learn from failure could be due to a tendency to respond consistently. Although a consistent response pattern explains why people struggle to learn from failure in some paradigms, we argue that it does not explain the results of the original paradigm. Certain consistency mechanisms require that people assume they should be consistent with their initial intuition instead of updating as they learn new information. This assumption does not apply to the original paradigm. We discuss how the commentary helps sharpen the criteria for assessing learning from failure and the role of consistency as one potential barrier to learning.",
-          "url": "https://doi.org/10.1177/09567976251391180",
-          "doi": "https://doi.org/10.1177/09567976251391180",
           "filter": 0
         }
       ],
