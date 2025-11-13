@@ -1,18 +1,10 @@
 {
-  "update": "2025-11-12",
+  "update": "2025-11-13",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
       "journal_short": "AMPPS",
       "articles": [
-        {
-          "title": "A Tutorial on Distribution-Free Uncertainty Quantification Using Conformal Prediction",
-          "authors": "Tim Kaiser, Philipp Herzog",
-          "abstract": "Statistical prediction models are ubiquitous in psychological research and practice. Increasingly, machine-learning models are used. Quantifying the uncertainty of such predictions is rarely considered, partly because prediction intervals are not defined for many of the algorithms used. However, generating and reporting prediction models without information on the uncertainty of the predictions carries the risk of overinterpreting their accuracy. Conventional methods for prediction intervals (e.g., those defined for ordinary least squares regression) are sensitive to violations of several distributional assumptions. In this tutorial, we introduce conformal prediction, a model-agnostic, distribution-free method for generating prediction intervals with guaranteed marginal coverage, to psychological research. We start by introducing the basic rationale of prediction intervals using a motivating example. Then, we proceed to conformal prediction, which is illustrated in three increasingly complex examples using publicly available data and R code.",
-          "url": "https://doi.org/10.1177/25152459251380452",
-          "doi": "https://doi.org/10.1177/25152459251380452",
-          "filter": 0
-        },
         {
           "title": "Do Musicians Have Better Short-Term Memory Than Nonmusicians? A Multilab Study",
           "authors": "Massimo Grassi, Francesca Talamini, Gianmarco Altoè, Elvira Brattico, Anne Caclin, Barbara Carretti, Véronique Drai-Zerbib, Laura Ferreri, Filippo Gambarota, Jessica Grahn, Lucrezia Guiotto Nai Fovino, Marco Roccato, Antoni Rodriguez-Fornells, Swathi Swaminathan, Barbara Tillmann, Peter Vuust, Jonathan Wilbiks, Marcel Zentner, Karla Aguilar, Christ B. Aryanto, Frederico C. Assis Leite, Aíssa M. Baldé, Deniz Başkent, Laura Bishop, Graziela Kalsi, Fleur L. Bouwer, Axelle Calcus, Giulio Carraturo, Victor Cepero-Escribano, Antonia Čerič, Antonio Criscuolo, Léo Dairain, Simone Dalla Bella, Oscar Daniel, Anne Danielsen, Anne-Isabelle de Parcevaux, Delphine Dellacherie, Tor Endestad, Juliana L. d. B. Fialho, Caitlin Fitzpatrick, Anna Fiveash, Juliette Fortier, Noah R. Fram, Eleonora Fullone, Stefanie Gloggengießer, Lucia Gonzalez Sanchez, Reyna L. Gordon, Mathilde Groussard, Assal Habibi, Heidi M. U. Hansen, Eleanor E. Harding, Kirsty Hawkins, Steffen A. Herff, Veikka P. Holma, Kelly Jakubowski, Maria G. Jol, Aarushi Kalsi, Veronica Kandro, Rosaliina Kelo, Sonja A. Kotz, Gangothri S. Ladegam, Bruno Laeng, André Lee, Miriam Lense, César F. Lima, Simon P. Limmer, Chengran K. Liu, Paulina d. C. Martín Sánchez, Langley McEntyre, Jessica P. Michael, Daniel Mirman, Daniel Müllensiefen, Niloufar Najafi, Jaakko Nokkala, Ndassi Nzonlang, Maria Gabriela M. Oliveira, Katie Overy, Andrew J. Oxenham, Edoardo Passarotto, Marie-Elisabeth Plasse, Herve Platel, Alice Poissonnier, Neha Rajappa, Michaela Ritchie, Italo Ramon Rodrigues Menezes, Rafael Román-Caballero, Paula Roncaglia, Farrah Y. Sa’adullah, Suvi Saarikallio, Daniela Sammler, Séverine Samson, E. G. Schellenberg, Nora R. Serres, L. R. Slevc, Ragnya-Norasoa Souffiane, Florian J. Strauch, Hannah Strauss, Nicholas Tantengco, Mari Tervaniemi, Rachel Thompson, Renee Timmers, Petri Toiviainen, Laurel J. Trainor, Clara Tuske, Jed Villanueva, Claudia C. von Bastian, Kelly L. Whiteford, Emily A. Wood, Florian Worschech, Ana Zappa",
@@ -28,21 +20,6 @@
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
       "articles": [
-        {
-          "title": "Bridging numerical and verbal probabilities: Construction and application of the Chinese Lexicon of Verbal Probability",
-          "authors": "Xiao-Yang Sui, Jia-Wen Niu, Xiaoqian Liu, Li-Lin Rao",
-          "url": "https://doi.org/10.3758/s13428-025-02853-6",
-          "doi": "https://doi.org/10.3758/s13428-025-02853-6",
-          "filter": 0
-        },
-        {
-          "title": "A drift-diffusion model of temporal generalization outperforms existing models and captures modality differences and learning effects",
-          "authors": "Nir Ofir, Ayelet N. Landau",
-          "abstract": "Multiple systems in the brain track the passage of time and can adapt their activity to temporal requirements. While the neural implementation of timing varies widely between neural substrates and behavioral tasks, at the algorithmic level, many of these behaviors can be described using drift-diffusion models of decision-making. In this work, wedevelop a drift-diffusion model to fit performance in the temporal generalization task, in which participants are required to categorize an interval as being the same or different compared to a standard, or reference, duration. The model includes a drift-diffusion process which starts with interval onset, representing the internal estimate of elapsed duration, and two boundaries. If the drift-diffusion process at interval offset is between the boundaries, the interval is categorized as equal to the standard. If it is below the lower boundary or above the upper boundary, the interval is categorized as different. This model outperformed previous models in fitting the data of single participants and in parameter recovery analyses. We also used the drift-diffusion model to analyze data from two experiments, one comparing performance between vision and audition and another examining the effect of learning. We found that decision boundaries can be modified independently: While the upper boundary was higher in vision than in audition, the lower boundary decreased with learning in the task. In both experiments, timing noise was positively correlated with upper boundaries across participants, which reflects an accuracy-maximizing strategy in the task.",
-          "url": "https://doi.org/10.3758/s13428-025-02819-8",
-          "doi": "https://doi.org/10.3758/s13428-025-02819-8",
-          "filter": 0
-        },
         {
           "title": "The impact of dichotomization on network recovery",
           "authors": "Nikola Sekulovski, Tessa F. Blanken, Jonas M. B. Haslbeck, Maarten Marsman",
@@ -64,13 +41,6 @@
           "abstract": "The importance or centrality of a linguistic unit to a larger unit’s meaning is known to affect reading behavior. However, there is an ongoing debate on how to quantify a unit’s degree of importance or centrality, with previous quantifications using either subjective ratings or computational solutions with limited interpretability. Here we introduce a novel measure, which we term “informativeness”, to assess the significance of a word to the meaning of the sentence in which it appears. Our measure is based on the comparison of vectorial representations of the full sentence with a revised sentence without the target word, resulting in an easily interpretable and objective quantification. We show that our new measure correlates in expected ways with other psycholinguistic variables (e.g., frequency, length, predictability), and, importantly, uniquely predicts eye-movement reading behavior in large-scale datasets of first (L1) and second language (L2) readers (from the Multilingual Eye-tracking Corpus, MECO). We also show that the effects of informativeness generalize to diverse writing systems, and are stronger for poorer than better readers. Together, our work provides new avenues for investigating informativeness effects, towards a deeper understanding of the way it impacts reading behavior.",
           "url": "https://doi.org/10.3758/s13428-025-02878-x",
           "doi": "https://doi.org/10.3758/s13428-025-02878-x",
-          "filter": 0
-        },
-        {
-          "title": "A tutorial on fine-tuning pretrained language models: Applications in social and behavioral science research",
-          "authors": "Yu Wang, Wen Qu",
-          "url": "https://doi.org/10.3758/s13428-025-02868-z",
-          "doi": "https://doi.org/10.3758/s13428-025-02868-z",
           "filter": 0
         },
         {
@@ -134,17 +104,17 @@
           "filter": 0
         },
         {
-          "title": "Effects of awe on self-transcendence: A registered report study",
-          "authors": "Chenxiao Zhao, Marret K. Noordewier, Michiel van Elk",
-          "url": "https://doi.org/10.1016/j.jesp.2025.104839",
-          "doi": "https://doi.org/10.1016/j.jesp.2025.104839",
-          "filter": 0
-        },
-        {
           "title": "Ostracism and opinion extremization",
           "authors": "Emma Halfmann, Christoph Kenntemich, Selma C. Rudert, Jan A. Häusser",
           "url": "https://doi.org/10.1016/j.jesp.2025.104843",
           "doi": "https://doi.org/10.1016/j.jesp.2025.104843",
+          "filter": 0
+        },
+        {
+          "title": "The self-interest bias in moral character judgment persists regardless of cognitive resource availability",
+          "authors": "Katarzyna Miazek, Konrad Bocian",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104846",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104846",
           "filter": 0
         }
       ],
@@ -185,6 +155,14 @@
           "filter": 0
         },
         {
+          "title": "When Do Real-World Rejections Motivate People to Seek out Symbolic Social Bonds? Insights From the Risk-Regulation Model",
+          "authors": "Sandra L. Murray, Shira Gabriel, Veronica M. Lamarche, Mark D. Seery, James K. McNulty, Deborah E. Ward, Esha Naidu",
+          "abstract": "Lack of belonging can negatively affect mental and physical health, but experiences with social rejection are routine. Two studies examined whether being unable to mitigate the risk of rejection in real-world relationships motivates people to defensively immerse themselves in symbolic social bonds with celebrities and fictional characters. Study 1 (four daily diary samples) and Study 2 (cross-sectional sample) operationalized the ability to mitigate risk (i.e., the ability to self-protect) through the amount of time spent in the physical company of potentially hurtful/rejecting close others. In both studies, unmitigated risk (i.e., spending more time with potentially hurtful/rejecting close others) predicted increased/greater engagement with symbolic social bonds. These studies are the first to reveal specific characteristics of social rejection experiences that motivate escape into symbolic social bonds.",
+          "url": "https://doi.org/10.1177/01461672251384699",
+          "doi": "https://doi.org/10.1177/01461672251384699",
+          "filter": 0
+        },
+        {
           "title": "The Face of Left-Wing Dissent: Progressives and Traditional Liberals Generate Divergently Negative and Positive Representations of J.K. Rowling",
           "authors": "Elena A. Magazin, Geoffrey Haddock, Travis Proulx",
           "abstract": "Recent perspectives have challenged the view that left-wingers are less likely to derogate out-group members. Building on research demonstrating heightened out-group derogation by Progressive (vs. Traditional Liberal) left-wingers, we examined whether Progressives and Traditional Liberals differentially tolerate in-group dissenters on the issue of gender identity. Using reverse correlation, Study 1 found that the Progressive-generated face of J.K. Rowling (a prominent gender critical left-winger) was evaluated negatively, while the Traditional Liberal–generated face was evaluated positively. Study 2 found that in both abstract (general description) and concrete (public figure) presentations, faces of left-wing in-group members expressing gender critical views were judged more negatively than self-identification faces, with Progressive-generated gender critical faces evaluated more negatively than Traditional Liberals–generated faces. Replicating Study 1, the Rowling face generated by Traditional Liberals was evaluated positively. These findings suggest an ideological asymmetry of derogation within left-wing kinds, offering evidence of opposing representations of a dissenting in-group target.",
@@ -193,19 +171,19 @@
           "filter": 0
         },
         {
-          "title": "Evidence for the Sexuality-as-Gendered Framework From Interpersonal Contact",
-          "authors": "P.J. Henry, Matthew Nielson, Kate Hawks",
-          "abstract": "People’s beliefs about sexual minorities are intertwined with their beliefs about gender (i.e., the sexuality-as-gendered framework), leading to the prediction that the amount of friendly contact with sexual minorities will be related to one’s beliefs about gender. We test this prediction across two studies (total N = 860), to show that reported friendships with sexual minorities relate not only to beliefs about sexual minorities, but also to attitudes toward people who are gender atypical, beliefs about traditional gender roles and norms, and endorsement of different versions of sexism. Our findings indicate that the sexuality-as-gendered framework involves not only people’s cognitions in terms of beliefs and attitudes, but also the types of interpersonal relationships they maintain.",
-          "url": "https://doi.org/10.1177/01461672251380308",
-          "doi": "https://doi.org/10.1177/01461672251380308",
-          "filter": 0
-        },
-        {
           "title": "Meaning and Attention Intertwined: Experimental and Experience-Sampling Findings",
           "authors": "Katy Y. Y. Tam, Wijnand A. P. van Tilburg, Christian S. Chan, Michael Inzlicht",
           "abstract": "How does one attain meaning? Though pivotal to well-being, this question has been explored mainly within symbolic and philosophical domains, with little focus on its cognitive processes. We present a theoretical integration of meaning and attention, followed by five studies investigating their relationship in lab experiments and everyday life (total N = 1,654). Experimental findings indicate that meaning increased attention (Studies 1 and 3), and attention increased meaning, but only when meaning could be found in a stimulus (Studies 2a, 2b, and 3). An experience-sampling study further reveals a positive meaning–attention association at dispositional, situational, and cross-levels (Study 4). Across varied daily activities, participants reported greater meaning when they paid more attention. These studies also explored the interplay of meaning and attention with boredom, negative emotions, and subjective well-being. Together, our results suggest that paying attention during everyday activities can, in some instances, enhance the experience of meaning.",
           "url": "https://doi.org/10.1177/01461672251383966",
           "doi": "https://doi.org/10.1177/01461672251383966",
+          "filter": 0
+        },
+        {
+          "title": "The Role of Uncertainty Mindsets in Shaping Diversity Attitudes and Their Downstream Effects on Commitment to Societal Change and Right-Wing Populist Voting",
+          "authors": "Ruri Takizawa, Stefanie Marx-Fleck, Alina Gerlach, Gudela Grote",
+          "abstract": "How people respond to uncertainty has far-reaching socio-political consequences. When perceived as fixed and threatening, individuals may gravitate toward ideologies that undermine intergroup relations and social cohesion. We examined whether fostering an uncertainty-as-enabling mindset (viewing uncertainty as malleable and an opportunity) promotes positive diversity attitudes and indirectly affects commitment to societal change and support for right-wing populism. During Germany’s 2025 federal election, we ran a 3-month online study with German citizens ( N = 745). Participants who received an uncertainty mindset intervention (vs. control) reported a higher uncertainty-as-enabling mindset, which was linked to stronger commitment to societal change through higher perceived productivity of diversity and lower aversion to intergroup contact. The mindset was also linked to a lower likelihood of voting for a right-wing populist party via the same pathways. Shifting how individuals appraise uncertainty may thus be a promising strategy for strengthening democratic resilience by cultivating openness to diversity.",
+          "url": "https://doi.org/10.1177/01461672251386487",
+          "doi": "https://doi.org/10.1177/01461672251386487",
           "filter": 0
         }
       ],
@@ -243,21 +221,6 @@
           "abstract": "What are the risky choices people face in our complex and fast-changing world? This article reports on a series of population surveys in Switzerland ( N = 4,380) that collected those risky choices that are relevant in people’s everyday lives. Using this empirical basis, we developed an inventory consisting of 100 unique real-life choices to address open questions regarding the structure, life domains, and stability of the current ecology of risk. Moreover, a follow-up study ( N = 933) indicated some degree of generalizability of the construct of risk preference to the newly identified real-life choices. The five key insights that emerged from our analyses may be useful for researchers studying decision-making under risk and uncertainty (e.g., what criteria to use when developing novel measurement instruments) and policymaking in applied settings (e.g., addressing how swiftly the risks of modern life change).",
           "url": "https://doi.org/10.1177/09567976251384975",
           "doi": "https://doi.org/10.1177/09567976251384975",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Psychology of Music",
-      "journal_short": "PsychMusic",
-      "articles": [
-        {
-          "title": "Exploring the role of music listening in cultivating self-compassion",
-          "authors": "Sabrina M McKenzie, Amanda E Krause, Solange Glasser, Margaret S Osborne",
-          "abstract": "Music listening can impact emotional well-being. However, self-compassion, an aspect strongly related to emotional well-being, is rarely discussed in music listening literature. Therefore, this study explored self-compassionate and uncompassionate music listening experiences within the context of the COVID-19 pandemic. Two hundred and ninety-six Australian university students ( M age = 19.32) completed a mixed-methods music listening and self-compassion questionnaire. The questionnaire included the Self-Compassion Short Form Scale along with an author-adapted version exploring the influence of music listening. Additional, open-ended questions probed self-compassionate and uncompassionate music listening experiences. Most participants (81.76%) reported self-compassionate experiences through listening to music during the pandemic. Template analysis examining people’s self-compassionate and uncompassionate music listening experiences resulted in an overlap of themes including emotional experience, connection , and music styles . Distinct patterns were found, such as positive outcomes in self-compassionate responses and negative outcomes in uncompassionate experiences. The inclusion of emotional release within uncompassionate responses demonstrates the complexity of the relationship between music listening and self-compassion. These findings highlight the need for further exploration into music listening and self-compassion, particularly in an everyday context beyond the pandemic.",
-          "url": "https://doi.org/10.1177/03057356251381818",
-          "doi": "https://doi.org/10.1177/03057356251381818",
           "filter": 0
         }
       ],
