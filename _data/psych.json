@@ -1,10 +1,26 @@
 {
-  "update": "2025-11-14",
+  "update": "2025-11-15",
   "content": [
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
       "articles": [
+        {
+          "title": "The HeCz corpus: A large, richly annotated reading corpus of newspaper headlines in Czech",
+          "authors": "Jan Chromý, Markéta Ceháková, James Brand",
+          "abstract": "Large behavioral datasets that provide detailed data on reading processes are valuable resources for a range of researchers working in linguistics, psychology and cognitive science. This paper presents the HeCz corpus, which comprises self-paced reading data for 1919 newspaper headlines (23,634 words) in Czech, with each headline being accompanied by a yes–no comprehension question, resulting in a rich dataset of reading times for each individual word and comprehension accuracy. The corpus is novel in terms of the sheer scale of data collection, with 1872 native Czech speakers, each reading approximately 120 headlines, with 1162 of those participants also completing the experiment again in a re-testing session using the same stimuli approximately 1 month later. There is participant level meta-data also available relating to basic demographic information, reading habits and a profile of their mood state prior to completing the experiment. Beyond the behavioral and demographic data, we also include a range of linguistic annotations for several variables, e.g., frequency, surprisal, morphological tagging. To better understand how these variables might impact processing, we present exploratory analyses where we predicted the reading times for words, with the results indicating important roles for linguistic, demographic, and methodological variables. Given the range of multidisciplinary applications of the HeCz corpus, we hope that it will provide a valuable and unprecedented resource for a range of research applications related to reading processes.",
+          "url": "https://doi.org/10.3758/s13428-025-02863-4",
+          "doi": "https://doi.org/10.3758/s13428-025-02863-4",
+          "filter": 0
+        },
+        {
+          "title": "Missing data in microrandomized trials: Challenges and opportunities",
+          "authors": "Shiyu Zhang, John J. Dziak, Lizbeth Benson, Jamie R. T. Yap, Dusti R. Jones, Cho Y. Lam, Lindsey N. Potter, David W. Wetter, Inbal Nahum-Shani",
+          "abstract": "The vision of leveraging digital technologies to deliver real-time psychological interventions in everyday settings is realized via just-in-time adaptive interventions (JITAI) – an intervention design that guides the use of rapidly changing information about a person’s internal states and contexts to decide whether and how to intervene in daily life. Microrandomized trials (MRTs) were developed as an experimental design to address scientific questions about how to best construct JITAIs, enabling scientists to investigate whether, what type, and under what conditions, intervention delivery can promote behavior change. However, missing data present challenges to the ability of MRTs to inform the development of JITAIs. This article articulates the multiple sources of missing data that can manifest in MRT studies, discusses how such missing data can impact (1) bias, (2) variance, and (3) the future implementation of JITAIs, and discusses strategies for both minimizing missing data in an MRT design and handling missing data when they occur. The overarching goal is to provide a conceptual framework that will guide future investigators in anticipating missing data and making informed decisions to manage them. Throughout, we illustrate concepts using existing data from the Mobile Assistance for Regulating Smoking (MARS) study. MARS ( n = 99) involved a 10-day MRT that included up to six randomizations per person per day.",
+          "url": "https://doi.org/10.3758/s13428-025-02885-y",
+          "doi": "https://doi.org/10.3758/s13428-025-02885-y",
+          "filter": 0
+        },
         {
           "title": "The impact of dichotomization on network recovery",
           "authors": "Nikola Sekulovski, Tessa F. Blanken, Jonas M. B. Haslbeck, Maarten Marsman",
@@ -57,21 +73,6 @@
           "abstract": "In psychological studies, it is common practice to select a sample based on the sum score of the modeled variables (e.g., based on symptom severity when investigating the associations between those same symptoms). However, this practice introduces bias if the sum score selection imperfectly defines the population of interest. Here, we propose a correction for this type of selection bias in the Ising model, a popular network model for binary data. Possible applications of our correction are when one wants to obtain (1) full population estimates when only the sum score subset of the data is available, and (2) improved estimates of a subpopulation, if we observe a mixture of populations that differ from each other in the sum score. In a simulation study, we verify that our correction recovers the network structure of the desired population after a sum score selection using both a node-wise regression and a multivariate estimation of the Ising model. In an example, we show how our correction can be used in practice using empirical data on symptoms of major depression from the National Comorbidity Study Replication ( N = 9,282). We implemented our correction in four commonly used R packages for estimating the Ising model, namely IsingFit , IsingSampler , psychonetrics, and bootnet.",
           "url": "https://doi.org/10.3758/s13428-025-02820-1",
           "doi": "https://doi.org/10.3758/s13428-025-02820-1",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Group Processes & Intergroup Relations",
-      "journal_short": "GPIR",
-      "articles": [
-        {
-          "title": "Comparing White and Black athlete racial activism: Examining NFL and NBA players’ choice of social justice uniform messages",
-          "authors": "Jennifer L. Howell, Kate A. Ratliff, Colin Tucker Smith",
-          "abstract": "Black racial justice activists often report that White activists engage in more tepid activism that fails to directly point out systemic racism. We examined whether this trend manifested in professional athletes’ decisions regarding social justice messages they display on their uniforms. We tested whether the helmet decal (NFL) and jersey slogan (NBA) choices made by athletes as they participated in league-wide uniform modifications to promote social justice differed as a function of player race. We found that White NFL players were less likely than Black NFL players to choose specific victim names (e.g., “Breonna Taylor”), were more likely to choose generic phrases de-emphasizing racism (e.g., “It Takes All of Us”), and were less likely to choose generic phrases highlighting racism (e.g., “End Racism”). Similarly, White NBA players were more likely than Black NBA players to choose phrases that de-emphasized racism (e.g., “Peace”), and less likely to choose those that emphasized racism (e.g., “Antiracist”).",
-          "url": "https://doi.org/10.1177/13684302251378039",
-          "doi": "https://doi.org/10.1177/13684302251378039",
           "filter": 0
         }
       ],
@@ -140,19 +141,19 @@
           "filter": 0
         },
         {
-          "title": "When Do Real-World Rejections Motivate People to Seek out Symbolic Social Bonds? Insights From the Risk-Regulation Model",
-          "authors": "Sandra L. Murray, Shira Gabriel, Veronica M. Lamarche, Mark D. Seery, James K. McNulty, Deborah E. Ward, Esha Naidu",
-          "abstract": "Lack of belonging can negatively affect mental and physical health, but experiences with social rejection are routine. Two studies examined whether being unable to mitigate the risk of rejection in real-world relationships motivates people to defensively immerse themselves in symbolic social bonds with celebrities and fictional characters. Study 1 (four daily diary samples) and Study 2 (cross-sectional sample) operationalized the ability to mitigate risk (i.e., the ability to self-protect) through the amount of time spent in the physical company of potentially hurtful/rejecting close others. In both studies, unmitigated risk (i.e., spending more time with potentially hurtful/rejecting close others) predicted increased/greater engagement with symbolic social bonds. These studies are the first to reveal specific characteristics of social rejection experiences that motivate escape into symbolic social bonds.",
-          "url": "https://doi.org/10.1177/01461672251384699",
-          "doi": "https://doi.org/10.1177/01461672251384699",
-          "filter": 0
-        },
-        {
           "title": "Who Did I Swipe On? Accuracy and Self-Presentation in Online Dating",
           "authors": "Sarra Jiwa, Norhan Elsaadawy, Erika N. Carlson",
           "abstract": "Many people use online dating profiles to meet partners and screen potential dates. Unlike other online contexts, targets might be more motivated to misrepresent their personality, making accuracy difficult. How strongly are people motivated to misrepresent themselves, how transparent is personality, and which individual differences might explain these processes? Online daters (targets, N = 180) submitted their profiles, described their personality and the impression they wanted to convey. Judges ( N = 196) viewed these profiles and rated targets’ personalities. Overall, targets wanted to be seen accurately and positively, and they successfully presented desired personas without their personality leaking through, suggesting being seen accurately is within targets’ control. Some processes were related to outcomes (e.g., swiping decisions) and explained by individual differences (e.g., attachment). These findings highlight the importance of considering self-presentational goals in online dating and when indexing accuracy in general.",
           "url": "https://doi.org/10.1177/01461672251386488",
           "doi": "https://doi.org/10.1177/01461672251386488",
+          "filter": 0
+        },
+        {
+          "title": "When Do Real-World Rejections Motivate People to Seek out Symbolic Social Bonds? Insights From the Risk-Regulation Model",
+          "authors": "Sandra L. Murray, Shira Gabriel, Veronica M. Lamarche, Mark D. Seery, James K. McNulty, Deborah E. Ward, Esha Naidu",
+          "abstract": "Lack of belonging can negatively affect mental and physical health, but experiences with social rejection are routine. Two studies examined whether being unable to mitigate the risk of rejection in real-world relationships motivates people to defensively immerse themselves in symbolic social bonds with celebrities and fictional characters. Study 1 (four daily diary samples) and Study 2 (cross-sectional sample) operationalized the ability to mitigate risk (i.e., the ability to self-protect) through the amount of time spent in the physical company of potentially hurtful/rejecting close others. In both studies, unmitigated risk (i.e., spending more time with potentially hurtful/rejecting close others) predicted increased/greater engagement with symbolic social bonds. These studies are the first to reveal specific characteristics of social rejection experiences that motivate escape into symbolic social bonds.",
+          "url": "https://doi.org/10.1177/01461672251384699",
+          "doi": "https://doi.org/10.1177/01461672251384699",
           "filter": 0
         },
         {
