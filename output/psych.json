@@ -1,5 +1,5 @@
 {
-  "update": "2025-11-17",
+  "update": "2025-11-18",
   "content": [
     {
       "journal_full": "Behavior Research Methods",
@@ -30,49 +30,11 @@
           "filter": 0
         },
         {
-          "title": "Why you shouldn’t trust data collected on MTurk",
-          "authors": "Cameron S. Kay",
-          "url": "https://doi.org/10.3758/s13428-025-02852-7",
-          "doi": "https://doi.org/10.3758/s13428-025-02852-7",
-          "filter": 0
-        },
-        {
           "title": "Quantifying word informativeness and its impact on eye-movement reading behavior: Cross-linguistic variability and individual differences",
           "authors": "Inbal Kimchi, Sascha Schroeder, Noam Siegelman",
           "abstract": "The importance or centrality of a linguistic unit to a larger unit’s meaning is known to affect reading behavior. However, there is an ongoing debate on how to quantify a unit’s degree of importance or centrality, with previous quantifications using either subjective ratings or computational solutions with limited interpretability. Here we introduce a novel measure, which we term “informativeness”, to assess the significance of a word to the meaning of the sentence in which it appears. Our measure is based on the comparison of vectorial representations of the full sentence with a revised sentence without the target word, resulting in an easily interpretable and objective quantification. We show that our new measure correlates in expected ways with other psycholinguistic variables (e.g., frequency, length, predictability), and, importantly, uniquely predicts eye-movement reading behavior in large-scale datasets of first (L1) and second language (L2) readers (from the Multilingual Eye-tracking Corpus, MECO). We also show that the effects of informativeness generalize to diverse writing systems, and are stronger for poorer than better readers. Together, our work provides new avenues for investigating informativeness effects, towards a deeper understanding of the way it impacts reading behavior.",
           "url": "https://doi.org/10.3758/s13428-025-02878-x",
           "doi": "https://doi.org/10.3758/s13428-025-02878-x",
-          "filter": 0
-        },
-        {
-          "title": "Dimensionality reduction techniques in pupillometry research: A primer for behavioral scientists",
-          "authors": "Serena Castellotti, Irene Petrizzo, Roberto Arrighi, Elvio Blini",
-          "abstract": "The measurement of pupil size is a classic tool in psychophysiology, but its popularity has recently surged due to the rapid developments of the eye-tracking industry. Concurrently, several authors have outlined a wealth of strategies for tackling pupillary recordings analytically. The consensus is that the “temporal” aspect of changes in pupil size is key, and that the analytical approach should be mindful of the temporal factor. Here we take a more radical stance on the matter by suggesting that, by the time significant changes in pupil size are detected, it is already too late . We suggest that these changes are indeed the result of distinct, core physiological processes that originate several hundreds of milliseconds before that moment and altogether shape the observed signal. These processes can be recovered indirectly by leveraging dimensionality reduction techniques. Here we therefore outline key concepts of temporal principal components analysis and related rotations to show that they reveal a latent, low-dimensional space that represents these processes very efficiently: a pupillary manifold. We elaborate on why assessing the pupillary manifold provides an alternative, appealing analytical solution for data analysis. In particular, dimensionality reduction returns scores that are (1) mindful of the relevant physiology underlying the observed changes in pupil size, (2) extremely handy and manageable for statistical modelling, and (3) devoid of several arbitrary choices. We elaborate on these points in the form of a tutorial paper for the functions provided in the accompanying R library “Pupilla.”",
-          "url": "https://doi.org/10.3758/s13428-025-02786-0",
-          "doi": "https://doi.org/10.3758/s13428-025-02786-0",
-          "filter": 0
-        },
-        {
-          "title": "A practice-oriented guide to statistical inference in linear modeling for non-normal or heteroskedastic error distributions",
-          "authors": "Hanna Rajh-Weber, Stefan Ernest Huber, Martin Arendasy",
-          "abstract": "Selecting an appropriate statistical method is a challenge frequently encountered by applied researchers, especially if assumptions for classical, parametric approaches are violated. To provide some guidelines and support, we compared classical hypothesis tests with their typical distributional assumptions of normality and homoskedasticity with common and easily accessible alternative inference methods (HC3, HC4, and six bootstrap methods) in the framework of ordinary least squares (OLS) regression. The method’s performance was assessed for four different regression models with varying levels of non-normality and heteroskedasticity of errors, and for five different sample sizes ranging from 25 to 500 cases. For each scenario, 10,000 samples of observations were generated. Type I error and coverage rates, power, and standard error bias were examined to assess the methods’ performance. No method considered here performed satisfactorily on all accounts. Using HC3 or HC4 standard errors, or a wild bootstrap procedure with percentile confidence intervals, could yield reliable results in many, but not all, scenarios. We suppose that, in the case of assumption violations, researchers might refer to a method that performed best in a scenario most similar to their data situation. To aid the selection of an appropriate method, we provide tables comparing relative performances in all considered scenarios.",
-          "url": "https://doi.org/10.3758/s13428-025-02801-4",
-          "doi": "https://doi.org/10.3758/s13428-025-02801-4",
-          "filter": 0
-        },
-        {
-          "title": "In-lab versus web-based eye-tracking in decision-making: A systematic comparison on multiple display-size conditions mimicking common electronic devices",
-          "authors": "Sebastián Muñoz, Vladimir Maksimenko, Bastian Henriquez-Jara, Prateek Bansal, Omar David Perez",
-          "url": "https://doi.org/10.3758/s13428-025-02867-0",
-          "doi": "https://doi.org/10.3758/s13428-025-02867-0",
-          "filter": 0
-        },
-        {
-          "title": "Correcting for selection bias after conditioning on a sum score in the Ising model",
-          "authors": "Jesse Boot, Jill de Ron, Jonas Haslbeck, Sacha Epskamp",
-          "abstract": "In psychological studies, it is common practice to select a sample based on the sum score of the modeled variables (e.g., based on symptom severity when investigating the associations between those same symptoms). However, this practice introduces bias if the sum score selection imperfectly defines the population of interest. Here, we propose a correction for this type of selection bias in the Ising model, a popular network model for binary data. Possible applications of our correction are when one wants to obtain (1) full population estimates when only the sum score subset of the data is available, and (2) improved estimates of a subpopulation, if we observe a mixture of populations that differ from each other in the sum score. In a simulation study, we verify that our correction recovers the network structure of the desired population after a sum score selection using both a node-wise regression and a multivariate estimation of the Ising model. In an example, we show how our correction can be used in practice using empirical data on symptoms of major depression from the National Comorbidity Study Replication ( N = 9,282). We implemented our correction in four commonly used R packages for estimating the Ising model, namely IsingFit , IsingSampler , psychonetrics, and bootnet.",
-          "url": "https://doi.org/10.3758/s13428-025-02820-1",
-          "doi": "https://doi.org/10.3758/s13428-025-02820-1",
           "filter": 0
         }
       ],
@@ -82,6 +44,13 @@
       "journal_full": "Computers in Human Behavior",
       "journal_short": "CHB",
       "articles": [
+        {
+          "title": "“Immersive Virtual Reality Learning and Cognitive Load: A multiple-Day Field Study”",
+          "authors": "Benjamin De Witte, Vincent Reynaert, Danny Kieken, Joseph Jabbour, Catherine Demarey, Anne Dumoulin, Jalal Possik",
+          "url": "https://doi.org/10.1016/j.chb.2025.108853",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108853",
+          "filter": 0
+        },
         {
           "title": "Neural Correlates of Social Exclusion in Individuals with Excessive Smartphone Use",
           "authors": "Gudrun M. Henemann, Mike M. Schmitgen, Sophie H. Haage, Jakob P. Rosero, Patrick Bach, Nadine D. Wolf, Julian Koenig, Robert C. Wolf",
@@ -96,6 +65,13 @@
       "journal_full": "Journal of Experimental Social Psychology",
       "journal_short": "JESP",
       "articles": [
+        {
+          "title": "Taking advantage: Predictions and moral judgments of leveraging outside options in ultimatum games",
+          "authors": "Sifana Sohail, Yarrow Dunham",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104852",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104852",
+          "filter": 0
+        },
         {
           "title": "The self-interest bias in moral character judgment persists regardless of cognitive resource availability",
           "authors": "Katarzyna Miazek, Konrad Bocian",
@@ -128,31 +104,9 @@
       "articles_hidden": []
     },
     {
-      "journal_full": "Multivariate Behavioral Research",
-      "journal_short": "MBR",
-      "articles": [
-        {
-          "title": "Correlated Residuals in Lagged-Effects Models: What They (Do Not) Represent in the Case of a Continuous-Time Process",
-          "authors": "R. M. Kuiper, E. L. Hamaker",
-          "url": "https://doi.org/10.1080/00273171.2025.2557274",
-          "doi": "https://doi.org/10.1080/00273171.2025.2557274",
-          "filter": 0
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
       "journal_full": "Personality and Social Psychology Bulletin",
       "journal_short": "PSPB",
       "articles": [
-        {
-          "title": "Becoming Speciesist: How Children and Adults Differ in Valuing Animals by Species and Cognitive Capacity",
-          "authors": "Lucius Caviola, Matti Wilks, Claudia Suárez-Yera, Carter Allen, Guy Kahane, Luke McGuire, Nadira S. Faber, Antonio J. Rojas-Tejada, María Sánchez-Castelló, Jorge L. Ordóñez-Carrasco, Paul Bloom",
-          "abstract": "Children morally prioritize humans over animals less than adults do. Is this because children are less speciesist—meaning they place less moral weight on mere species membership? Or is it because they give less weight to differences in cognitive capacity between humans and other animals? We investigated this in two experiments, presenting children and adult participants in the United States and Spain with moral trade-off dilemmas. These dilemmas involved individuals who varied in species membership (human vs. monkey) and cognitive capacity. Across both cultures, children were less likely than adults to prioritize humans over animals, regardless of cognitive capacity. In addition, participants tended to prioritize individuals with higher cognitive capacities, regardless of species membership—though this effect was less robust in children. Our findings suggest that children in these Western contexts are indeed less speciesist than adults, though they do not rule out developmental changes in the moral weight assigned to cognitive capacity.",
-          "url": "https://doi.org/10.1177/01461672251373108",
-          "doi": "https://doi.org/10.1177/01461672251373108",
-          "filter": 0
-        },
         {
           "title": "Interpreting Microaggressions: The Role of Discourse Context, Recipient Status, and Observers’ Political Orientation",
           "authors": "Thomas Holtgraves, Rishi Sarin, Rebecca Wood, Emily Cronk, Ana Júlia Nogueira Mourão",
@@ -183,6 +137,14 @@
           "abstract": "Generalized morality refers to the use of prior knowledge of others’ morality to infer unknown aspects of morality, which is a crucial heuristic for obtaining cooperative partners in a large society. This research investigated how information is used for generalized morality. It was predicted that group-level generalized morality, or moral stereotyping, would come first when the information is limited, thereby people rely on a surface cue. As information increases, they come to use individual-level generalized morality, which is shown by Jackson et al. Following Jackson et al., the current research employed an agent-based modeling (Study 1) and human study (Study 2). Study 1 found that participants used moral stereotyping first in their interactions when the visual cue-morality association was salient. Study 2 also showed the same trend. This research worked as a replication of the previous study and as an important extension to understanding how moral cognition develops.",
           "url": "https://doi.org/10.1177/01461672251384355",
           "doi": "https://doi.org/10.1177/01461672251384355",
+          "filter": 0
+        },
+        {
+          "title": "The Soothing Effect of a Stable World: Social Behavior of Individuals Varying on Social Anxiety Under Fixed and Growth Mindsets About Impression Formation",
+          "authors": "Liad Uziel",
+          "abstract": "Social anxiety (SA) entails perceiving interactions as threatening and is linked to detrimental social outcomes. This study tested whether individuals scoring higher on SA navigate interactions better when believing the impressions people form of others are relatively fixed (fixed mindset), thereby making interactions feel more controlled and less demanding. A Preliminary Study established that holding a fixed mindset attenuates how demanding interactions feel among individuals higher on SA. Three experiments manipulated impression formation mindsets. In Study 1, higher SA was associated with making a negative impression in a self-presentation task following a growth mindset induction (belief that impressions are malleable) but not following a fixed mindset induction. This pattern was repeated in Study 2 involving a stress-inducing self-presentation task. In Study 3, following a fixed mindset induction, SA predicted better real-life social experiences. In conclusion, a fixed model of impression formation may improve social functioning among individuals predisposed to SA.",
+          "url": "https://doi.org/10.1177/01461672251378537",
+          "doi": "https://doi.org/10.1177/01461672251378537",
           "filter": 0
         },
         {
@@ -224,6 +186,14 @@
           "url": "https://doi.org/10.1177/01461672251382714",
           "doi": "https://doi.org/10.1177/01461672251382714",
           "filter": 0
+        },
+        {
+          "title": "What’s in It for Me? Beliefs About Relative Costs to Well-Being Explain Why People Deprioritize Moral Improvements",
+          "authors": "Jessie Sun, Jonathan Z. Berman",
+          "abstract": "Most people are interested in improving themselves, but they show less interest in improving on moral traits. Why don’t people particularly want to be more moral, and why do people prioritize improving certain traits more than others? Across four preregistered studies of U.K.-based CloudResearch ( N Study 1 = 252; N Supplemental = 110) and Behavioral Research Lab ( N Study 2a = 303, N Study 2b = 301) participants, we test four classes of explanations. Results rule out explanations based on the ideas that moral traits are seen as more difficult to change and as either more or less causally central. Instead, people are less interested in moral improvements because they believe (a) that they are already highly moral and (b) that nonmoral improvements would more effectively improve their happiness and goal attainment. These results clarify the perceived tradeoffs between well-being and morality and show that personal well-being is a central motivation for personality change.",
+          "url": "https://doi.org/10.1177/01461672251367068",
+          "doi": "https://doi.org/10.1177/01461672251367068",
+          "filter": 0
         }
       ],
       "articles_hidden": []
@@ -259,13 +229,6 @@
           "url": "https://doi.org/10.1037/met0000794",
           "doi": "https://doi.org/10.1037/met0000794",
           "filter": 0
-        },
-        {
-          "title": "Estimating ordinal factor analysis and item response theory models: A comparison of full- and limited-information techniques.",
-          "authors": "Eunseong Cho",
-          "url": "https://doi.org/10.1037/met0000802",
-          "doi": "https://doi.org/10.1037/met0000802",
-          "filter": 0
         }
       ],
       "articles_hidden": []
@@ -275,17 +238,10 @@
       "journal_short": "PPM",
       "articles": [
         {
-          "title": "Exploring reciprocity, well-being, and continuation intention in massively multiplayer online games.",
-          "authors": "Donggyu Kim",
-          "url": "https://doi.org/10.1037/ppm0000643",
-          "doi": "https://doi.org/10.1037/ppm0000643",
-          "filter": 0
-        },
-        {
-          "title": "Video games as conduits for radicalization: Impact of exposure to extremist recruitment and authoritarianism on sexist attitudes and aggression.",
-          "authors": "Anantha Ubaradka, Christopher J. Ferguson, Sanjram Premjit Khanganba",
-          "url": "https://doi.org/10.1037/ppm0000642",
-          "doi": "https://doi.org/10.1037/ppm0000642",
+          "title": "Journey in the digital era: Exploring doomscrolling, algorithmic literacy, and subjective well-being.",
+          "authors": "Nehir Yasan-Ak, Tuba Livberber, Tuğba Kamalı-Arslantaş",
+          "url": "https://doi.org/10.1037/ppm0000644",
+          "doi": "https://doi.org/10.1037/ppm0000644",
           "filter": 0
         }
       ],
