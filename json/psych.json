@@ -1,10 +1,17 @@
 {
-  "update": "2025-11-18",
+  "update": "2025-11-19",
   "content": [
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
       "articles": [
+        {
+          "title": "A modified hidden Markov model for detecting insufficient effort responses in questionnaires",
+          "authors": "Hangqi Xu, Jiawei Xiong, Feiming Li",
+          "url": "https://doi.org/10.3758/s13428-025-02888-9",
+          "doi": "https://doi.org/10.3758/s13428-025-02888-9",
+          "filter": 0
+        },
         {
           "title": "The HeCz corpus: A large, richly annotated reading corpus of newspaper headlines in Czech",
           "authors": "Jan Chromý, Markéta Ceháková, James Brand",
@@ -22,19 +29,24 @@
           "filter": 0
         },
         {
-          "title": "The impact of dichotomization on network recovery",
-          "authors": "Nikola Sekulovski, Tessa F. Blanken, Jonas M. B. Haslbeck, Maarten Marsman",
-          "abstract": "Graphical models have become an important method for studying the network structure of multivariate psychological data. Accurate recovery of the underlying network structure is paramount and requires that the models are appropriate for the data at hand. Traditionally, Gaussian graphical models for continuous data and Ising models for binary data have dominated the literature. However, psychological research often relies on ordinal data from Likert scale items, creating a model-data mismatch. This paper examines the effect of dichotomizing ordinal variables on network recovery, as opposed to analyzing the data at its original level of measurement, using a Bayesian analysis of the ordinal Markov random field model. This model is implemented in the R package . Our analysis shows that dichotomization results in a loss of information, which affects the accuracy of network recovery. This is particularly true when considering the interplay between the dichotomization cutoffs used and the distribution of the ordinal categories. In addition, we demonstrate a difference in accuracy when using dichotomized data, depending on whether edges are included or excluded in the true network, which highlights the effectiveness of the ordinal model in recovering conditional independence relationships. These findings underscore the importance of using models that deal directly with ordinal data to ensure more reliable and valid inferred network structures in psychological research.",
-          "url": "https://doi.org/10.3758/s13428-025-02861-6",
-          "doi": "https://doi.org/10.3758/s13428-025-02861-6",
+          "title": "Cross-cultural adaptation of the Language and Social Background Questionnaire: Psychometric properties emerging from the Persian version",
+          "authors": "Mehri Maleki, Fatemeh Jahanjoo, Samin Shibafar, Gelavizh Karimijavan, Mohammad Hassan Torabi, Farnoush Jarollahi",
+          "url": "https://doi.org/10.3758/s13428-025-02831-y",
+          "doi": "https://doi.org/10.3758/s13428-025-02831-y",
           "filter": 0
         },
         {
-          "title": "Quantifying word informativeness and its impact on eye-movement reading behavior: Cross-linguistic variability and individual differences",
-          "authors": "Inbal Kimchi, Sascha Schroeder, Noam Siegelman",
-          "abstract": "The importance or centrality of a linguistic unit to a larger unit’s meaning is known to affect reading behavior. However, there is an ongoing debate on how to quantify a unit’s degree of importance or centrality, with previous quantifications using either subjective ratings or computational solutions with limited interpretability. Here we introduce a novel measure, which we term “informativeness”, to assess the significance of a word to the meaning of the sentence in which it appears. Our measure is based on the comparison of vectorial representations of the full sentence with a revised sentence without the target word, resulting in an easily interpretable and objective quantification. We show that our new measure correlates in expected ways with other psycholinguistic variables (e.g., frequency, length, predictability), and, importantly, uniquely predicts eye-movement reading behavior in large-scale datasets of first (L1) and second language (L2) readers (from the Multilingual Eye-tracking Corpus, MECO). We also show that the effects of informativeness generalize to diverse writing systems, and are stronger for poorer than better readers. Together, our work provides new avenues for investigating informativeness effects, towards a deeper understanding of the way it impacts reading behavior.",
-          "url": "https://doi.org/10.3758/s13428-025-02878-x",
-          "doi": "https://doi.org/10.3758/s13428-025-02878-x",
+          "title": "Spower: A general-purpose Monte Carlo simulation power analysis program",
+          "authors": "R. Philip Chalmers",
+          "url": "https://doi.org/10.3758/s13428-025-02787-z",
+          "doi": "https://doi.org/10.3758/s13428-025-02787-z",
+          "filter": 0
+        },
+        {
+          "title": "Correction: SUBTLEX-AR: Arabic word distributional characteristics based on movie subtitles",
+          "authors": "Sami Boudelaa, Manuel Carreiras, Nazrin Jariya, Manuel Perea",
+          "url": "https://doi.org/10.3758/s13428-025-02899-6",
+          "doi": "https://doi.org/10.3758/s13428-025-02899-6",
           "filter": 0
         }
       ],
@@ -80,6 +92,13 @@
           "filter": 0
         },
         {
+          "title": "Individuating rather than group information dominates evaluations of members from newly learned social groups",
+          "authors": "Mayan Navon, Kate A. Ratliff, Olivier Corneille",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104851",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104851",
+          "filter": 0
+        },
+        {
           "title": "Neural dynamics of attentional Bias: How facial width-to-height ratio interacts with emotion to influence attentional capture and suppression",
           "authors": "Liwei Wang, Haixin Yang, Xinyue Zhang, Yuan Ma, Hailing Wang",
           "url": "https://doi.org/10.1016/j.jesp.2025.104850",
@@ -104,15 +123,29 @@
       "articles_hidden": []
     },
     {
+      "journal_full": "Multivariate Behavioral Research",
+      "journal_short": "MBR",
+      "articles": [
+        {
+          "title": "Bayesian Multilevel Compositional Data Analysis with the R Package multilevelcoda",
+          "authors": "Flora Le, Dorothea Dumuid, Tyman E. Stanford, Joshua F. Wiley",
+          "url": "https://doi.org/10.1080/00273171.2025.2565598",
+          "doi": "https://doi.org/10.1080/00273171.2025.2565598",
+          "filter": 0
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Personality and Social Psychology Bulletin",
       "journal_short": "PSPB",
       "articles": [
         {
-          "title": "Interpreting Microaggressions: The Role of Discourse Context, Recipient Status, and Observers’ Political Orientation",
-          "authors": "Thomas Holtgraves, Rishi Sarin, Rebecca Wood, Emily Cronk, Ana Júlia Nogueira Mourão",
-          "abstract": "Microaggressions require an inferential process for their aggressive intent to be recognized. Using approaches from pragmatics, especially relevance theory, we conducted experiments to examine factors predicted to influence perceptions of an utterance as a microaggression. Participants read scenarios describing an interaction between two people and indicated their perceptions of a target remark. We expected and found that an utterance was more likely to be perceived as a microaggression if (a) it occurred in a context for which its relevance was not clear, thereby prompting observers to infer an aggressive intent, and (b) the recipient was a person of marginalized status. Furthermore, these effects were larger for participants with a more liberal political orientation relative to those who were more conservative. This was due, in part, to variability in Theory of Mind capabilities and beliefs about microaggressions associated with political orientation.",
-          "url": "https://doi.org/10.1177/01461672251377809",
-          "doi": "https://doi.org/10.1177/01461672251377809",
+          "title": "When Do Real-World Rejections Motivate People to Seek out Symbolic Social Bonds? Insights From the Risk-Regulation Model",
+          "authors": "Sandra L. Murray, Shira Gabriel, Veronica M. Lamarche, Mark D. Seery, James K. McNulty, Deborah E. Ward, Esha Naidu",
+          "abstract": "Lack of belonging can negatively affect mental and physical health, but experiences with social rejection are routine. Two studies examined whether being unable to mitigate the risk of rejection in real-world relationships motivates people to defensively immerse themselves in symbolic social bonds with celebrities and fictional characters. Study 1 (four daily diary samples) and Study 2 (cross-sectional sample) operationalized the ability to mitigate risk (i.e., the ability to self-protect) through the amount of time spent in the physical company of potentially hurtful/rejecting close others. In both studies, unmitigated risk (i.e., spending more time with potentially hurtful/rejecting close others) predicted increased/greater engagement with symbolic social bonds. These studies are the first to reveal specific characteristics of social rejection experiences that motivate escape into symbolic social bonds.",
+          "url": "https://doi.org/10.1177/01461672251384699",
+          "doi": "https://doi.org/10.1177/01461672251384699",
           "filter": 0
         },
         {
@@ -121,14 +154,6 @@
           "abstract": "Many people use online dating profiles to meet partners and screen potential dates. Unlike other online contexts, targets might be more motivated to misrepresent their personality, making accuracy difficult. How strongly are people motivated to misrepresent themselves, how transparent is personality, and which individual differences might explain these processes? Online daters (targets, N = 180) submitted their profiles, described their personality and the impression they wanted to convey. Judges ( N = 196) viewed these profiles and rated targets’ personalities. Overall, targets wanted to be seen accurately and positively, and they successfully presented desired personas without their personality leaking through, suggesting being seen accurately is within targets’ control. Some processes were related to outcomes (e.g., swiping decisions) and explained by individual differences (e.g., attachment). These findings highlight the importance of considering self-presentational goals in online dating and when indexing accuracy in general.",
           "url": "https://doi.org/10.1177/01461672251386488",
           "doi": "https://doi.org/10.1177/01461672251386488",
-          "filter": 0
-        },
-        {
-          "title": "When Do Real-World Rejections Motivate People to Seek out Symbolic Social Bonds? Insights From the Risk-Regulation Model",
-          "authors": "Sandra L. Murray, Shira Gabriel, Veronica M. Lamarche, Mark D. Seery, James K. McNulty, Deborah E. Ward, Esha Naidu",
-          "abstract": "Lack of belonging can negatively affect mental and physical health, but experiences with social rejection are routine. Two studies examined whether being unable to mitigate the risk of rejection in real-world relationships motivates people to defensively immerse themselves in symbolic social bonds with celebrities and fictional characters. Study 1 (four daily diary samples) and Study 2 (cross-sectional sample) operationalized the ability to mitigate risk (i.e., the ability to self-protect) through the amount of time spent in the physical company of potentially hurtful/rejecting close others. In both studies, unmitigated risk (i.e., spending more time with potentially hurtful/rejecting close others) predicted increased/greater engagement with symbolic social bonds. These studies are the first to reveal specific characteristics of social rejection experiences that motivate escape into symbolic social bonds.",
-          "url": "https://doi.org/10.1177/01461672251384699",
-          "doi": "https://doi.org/10.1177/01461672251384699",
           "filter": 0
         },
         {
@@ -153,14 +178,6 @@
           "abstract": "Slippery slope arguments (SSAs) contend that a small, innocuous change will lead to cascading negative consequences. Although SSAs are common in political discourse, they have received little empirical attention in this context. In 15 studies (including samples from four countries and a study of natural language usage on the social media site Reddit), we examine who may be most prone to slippery slope thinking and why people in general may engage in such thinking. We consider whether individuals of different political ideologies exhibit different degrees of support for SSAs. We test three competing hypotheses that it is (a) political extremists, (b) political liberals, or (c) political conservatives that more strongly endorse SSAs. We consistently find that conservatives endorse SSAs more due to ideological differences in intuitive thinking. We additionally find evidence of these ideological differences in social media behavior, and that slippery slope thinking has consequences for punitive attitudes.",
           "url": "https://doi.org/10.1177/01461672251391893",
           "doi": "https://doi.org/10.1177/01461672251391893",
-          "filter": 0
-        },
-        {
-          "title": "Meaning and Attention Intertwined: Experimental and Experience-Sampling Findings",
-          "authors": "Katy Y. Y. Tam, Wijnand A. P. van Tilburg, Christian S. Chan, Michael Inzlicht",
-          "abstract": "How does one attain meaning? Though pivotal to well-being, this question has been explored mainly within symbolic and philosophical domains, with little focus on its cognitive processes. We present a theoretical integration of meaning and attention, followed by five studies investigating their relationship in lab experiments and everyday life (total N = 1,654). Experimental findings indicate that meaning increased attention (Studies 1 and 3), and attention increased meaning, but only when meaning could be found in a stimulus (Studies 2a, 2b, and 3). An experience-sampling study further reveals a positive meaning–attention association at dispositional, situational, and cross-levels (Study 4). Across varied daily activities, participants reported greater meaning when they paid more attention. These studies also explored the interplay of meaning and attention with boredom, negative emotions, and subjective well-being. Together, our results suggest that paying attention during everyday activities can, in some instances, enhance the experience of meaning.",
-          "url": "https://doi.org/10.1177/01461672251383966",
-          "doi": "https://doi.org/10.1177/01461672251383966",
           "filter": 0
         },
         {
