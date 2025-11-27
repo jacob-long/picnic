@@ -1,16 +1,31 @@
 {
-  "update": "2025-11-25",
+  "update": "2025-11-27",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
       "journal_short": "AMPPS",
       "articles": [
         {
+          "title": "Gather Demographic Data About Gender, Sexuality, and Relational Identities: Asking the Right Questions",
+          "authors": "Eleanor J. Junkins, Jaime Derringer",
+          "abstract": "In this tutorial, we suggest ways to improve current practices for measuring gender identity, sexual orientation, and demographics about relationships based on previous datasets and a newly collected survey of people’s behavior and perceptions of alternative-response formats. We apply lessons learned from racial identity/ethnicity to suggest broader principles of improving demographic measurement. We offer guides to meet the expectations of diverse stakeholders, including participants. The response options we recommend were curated to balance global identities and emerging trends to be applicable for online international research and in-person psychology research conducted primarily by U.S. institutions. We also offer practical suggestions for researchers to handle more complex data, including multiselect response options, which tend to be preferred by participants. Improved demographic data allow researchers to more fully capture multidimensional and complex social identities that are related to social inequities. In sum, the current tutorial is a guide to and discussion about challenges in collecting demographic data on social identities in which we use illustrative data to address important points related to measuring gender, sexuality, and relational demographics, specifically.",
+          "url": "https://doi.org/10.1177/25152459251391186",
+          "doi": "https://doi.org/10.1177/25152459251391186",
+          "filter": 0
+        },
+        {
           "title": "Meeting the Bare Minimum: Quality Assessment of Idiographic Temporal Networks Using Power Analysis and Predictive-Accuracy Analysis",
           "authors": "Yong Zhang, Jordan Revol, Ginette Lafit, Anja F. Ernst, Josip Razum, Eva Ceulemans, Laura F. Bringmann",
           "abstract": "The network theory of psychopathology inspired clinicians and researchers to use idiographic networks to study how symptoms of an individual interact over time, hoping to find the target symptom(s) for intervention to most effectively break this self-sustaining network. These networks are often based on the vector-autoregressive (VAR) model and rely on intensive longitudinal data collected in patients’ daily lives. Nowadays, one major challenge these networks are faced with is that they are used without sufficient quality assessments. Because VAR-based temporal networks are complex and highly parameterized, they can easily face problems of low statistical power and overfitting, especially when the time series available is short. In this study, we review existing idiographic-network studies with a focus on the number of variables and time points used in the analysis and show that the “big network, short time series” problem is prevalent. As potential solutions, we propose two simulation-based methods that aim to find the optimal number of time points to be collected: power analysis and predictive-accuracy analysis. Two applications of both methods are demonstrated: (a) “a priori”—informing the sample-size planning of future network studies and (b) “retrospective”—evaluating whether the sample size of existing network studies was large enough to avoid problems of low statistical power and overfitting. Results confirmed the observation that the sample sizes in past network studies are often insufficient, suggesting that findings of existing network studies should be critically assessed. Future idiographic-network studies are thus strongly advised to make more guided decisions on sample size using the proposed methods.",
           "url": "https://doi.org/10.1177/25152459251372116",
           "doi": "https://doi.org/10.1177/25152459251372116",
+          "filter": 0
+        },
+        {
+          "title": "Taking Stock of Advances in Methods and Practices in Psychological Science at the End of the Beginning",
+          "authors": "David A. Sbarra",
+          "url": "https://doi.org/10.1177/25152459251393205",
+          "doi": "https://doi.org/10.1177/25152459251393205",
           "filter": 0
         }
       ],
@@ -20,13 +35,6 @@
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
       "articles": [
-        {
-          "title": "A modified hidden Markov model for detecting insufficient effort responses in questionnaires",
-          "authors": "Hangqi Xu, Jiawei Xiong, Feiming Li",
-          "url": "https://doi.org/10.3758/s13428-025-02888-9",
-          "doi": "https://doi.org/10.3758/s13428-025-02888-9",
-          "filter": 0
-        },
         {
           "title": "Visual attention graph",
           "authors": "Kai-Fu Yang, Yong-Jie Li",
@@ -42,18 +50,17 @@
           "filter": 0
         },
         {
-          "title": "The best fixation target revisited: New insights from retinal eye tracking",
-          "authors": "Diederick C. Niehorster, Szymon Tamborski, Marcus Nyström, Robert Konklewski, Valentyna Pryhodiuk, Krzysztof Tołpa, Roy S. Hessels, Maciej Szkulmowski, Ignace T. C. Hooge",
-          "abstract": "In many tasks, participants are instructed to fixate a target. While maintaining fixation, the eyes nonetheless make small fixational eye movements, such as microsaccades and drift. Previous work has examined the effect of fixation point design on fixation stability and the amount and spatial extent of fixational eye movements. However, much of this work used video-based eye trackers, which have insufficient resolution and suffer from artefacts that make them unsuitable for this topic of study. Here, we therefore use a retinal eye tracker, which offers superior resolution and does not suffer from the same artifacts to reexamine what fixation point design minimizes fixational eye movements. Participants were shown five fixation targets in two target polarity conditions, while the overall spatial spread of their gaze position during fixation, as well as their microsaccades and fixational drift, were examined. We found that gaze was more stable for white-on-black than black-on-grey fixation targets. Gaze was also more stable (lower spatial spread, microsaccade, and drift displacement) for fixation targets with a small central feature but these targets also yielded higher microsaccade rates than larger fixation targets without such a small central feature. In conclusion, there is not a single best fixation target that minimizes all aspects of fixational eye movements. Instead, if one wishes to optimize for minimal spatial spread of the gaze position, microsaccade or drift displacements, we recommend using a target with a small central feature. If one instead wishes to optimize for the lowest microsaccade rate, we recommend using a larger target without a small central feature.",
-          "url": "https://doi.org/10.3758/s13428-025-02890-1",
-          "doi": "https://doi.org/10.3758/s13428-025-02890-1",
-          "filter": 0
-        },
-        {
           "title": "Beyond performance: A POMDP-based machine learning framework for expert cognition",
           "authors": "Hao He, Yucheng Duan",
           "url": "https://doi.org/10.3758/s13428-025-02875-0",
           "doi": "https://doi.org/10.3758/s13428-025-02875-0",
+          "filter": 0
+        },
+        {
+          "title": "Hierarchical Bayesian estimation for cognitive models using Particle Metropolis within Gibbs (PMwG): A tutorial",
+          "authors": "Caroline Kuhne, Quentin F. Gronau, Reilly J. Innes, Gavin Cooper, Niek Stevenson, Jon-Paul Cavallaro, Scott D. Brown, Guy E. Hawkins",
+          "url": "https://doi.org/10.3758/s13428-025-02866-1",
+          "doi": "https://doi.org/10.3758/s13428-025-02866-1",
           "filter": 0
         },
         {
@@ -65,47 +72,10 @@
           "filter": 0
         },
         {
-          "title": "Cross-cultural adaptation of the Language and Social Background Questionnaire: Psychometric properties emerging from the Persian version",
-          "authors": "Mehri Maleki, Fatemeh Jahanjoo, Samin Shibafar, Gelavizh Karimijavan, Mohammad Hassan Torabi, Farnoush Jarollahi",
-          "url": "https://doi.org/10.3758/s13428-025-02831-y",
-          "doi": "https://doi.org/10.3758/s13428-025-02831-y",
-          "filter": 0
-        },
-        {
-          "title": "Spower: A general-purpose Monte Carlo simulation power analysis program",
-          "authors": "R. Philip Chalmers",
-          "url": "https://doi.org/10.3758/s13428-025-02787-z",
-          "doi": "https://doi.org/10.3758/s13428-025-02787-z",
-          "filter": 0
-        },
-        {
-          "title": "Correction: SUBTLEX-AR: Arabic word distributional characteristics based on movie subtitles",
-          "authors": "Sami Boudelaa, Manuel Carreiras, Nazrin Jariya, Manuel Perea",
-          "url": "https://doi.org/10.3758/s13428-025-02899-6",
-          "doi": "https://doi.org/10.3758/s13428-025-02899-6",
-          "filter": 0
-        },
-        {
           "title": "Assessing the validity evidence for habit measures based on time pressure",
           "authors": "Pablo Martínez-López, Antonio Vázquez-Millán, Francisco Garre-Frutos, David Luque",
           "url": "https://doi.org/10.3758/s13428-025-02865-2",
           "doi": "https://doi.org/10.3758/s13428-025-02865-2",
-          "filter": 0
-        },
-        {
-          "title": "The ADVANCE toolkit: Automated descriptive video annotation in naturalistic child environments",
-          "authors": "Naomi K. Middelmann, Jean-Paul Calbimonte, Emily B. Wake, Manon E. Jaquerod, Nastia Junod, Jennifer Glaus, Olga Sidiropoulou, Kerstin J. Plessen, Micah M. Murray, Matthew J. Vowels",
-          "abstract": "Video recordings are commonplace for observing human and animal behaviours, including interindividual interactions. In studies of humans, analyses for clinical applications remain particularly cumbersome, requiring human-based annotation that is time-consuming, bias-prone, and cost-ineffective. Attempts to use machine learning to address these limitations still oftentimes require highly standardised environments, scripted scenarios, and forward-facing individuals. Here, we provide the ADVANCE toolkit, an automated video annotation pipeline. The versatility of ADVANCE is demonstrated with schoolchildren and adults in an unscripted clinical setting within an art classroom environment that included 2–5 individuals, dynamic occlusions, and large variations in actions. We accurately detected each individual, tracked them simultaneously throughout the duration of the recording (including when an individual left and re-entered the field of view), estimated the position of their skeletal joints, and labelled their poses. By resolving challenges of manual annotation, we radically enhance the ability to extract information from video recordings across different scenarios and settings. This toolkit reduces clinical workload and enhances the ethological validity of video-based assessments, offering scalable solutions for behaviour analyses in naturalistic contexts.",
-          "url": "https://doi.org/10.3758/s13428-025-02883-0",
-          "doi": "https://doi.org/10.3758/s13428-025-02883-0",
-          "filter": 0
-        },
-        {
-          "title": "The Magic Curiosity Arousing Tricks (MagicCATs) database in Italian younger and middle-aged adults: Descriptive statistics and rule-based machine learning",
-          "authors": "Caterina Padulo, Michela Ponticorvo, Beth Fairfield",
-          "abstract": "Epistemic emotions, and in particular curiosity, seem to enhance memory for both the specific information that stimulates the individual’s curiosity and information presented in close temporal proximity. Most studies on memory and curiosity have adopted trivia questions to elicit curiosity. However, the amount and range of interest that trivia questions elicit are unclear, and there is no established, universal trivia item pool guaranteed to elicit comparable levels of curiosity across individuals of all ages. Thus, one substantial challenge when studying curiosity is systematically inducing it in controlled experimental settings. Recently, an innovative database called Magic Curiosity Arousing Tricks (MagicCATs) has been published. This database includes 166 short magic-trick video clips that adopt different materials and is designed to induce curiosity, surprise, and interest. Here, we aimed to validate this dataset in the Italian population by reporting the basic characteristics and the norms of the magic-trick video clips in younger and middle-aged adults. We also carried out association rule learning, a rule-based machine learning and data mining method to aid understanding of the co-occurrences between the different epistemic emotions and aid researchers in stimulus selection. Association rules underline relationships or associations between the variables in our datasets and can be used in association with descriptive statistics for stimulus selection in psychological experiments.",
-          "url": "https://doi.org/10.3758/s13428-025-02884-z",
-          "doi": "https://doi.org/10.3758/s13428-025-02884-z",
           "filter": 0
         }
       ],
@@ -117,7 +87,7 @@
       "articles": [
         {
           "title": "The impact of message framing on end-user security:An experimental approach to prevent identity theft via smishing",
-          "authors": "C.Jordan Howell, Caitlyn N. Muniz, George Burruss, Taylor Fisher, Kaylee Eckelman, David Maimon",
+          "authors": "C. Jordan Howell, Caitlyn N. Muniz, George Burruss, Taylor Fisher, Kaylee Eckelman, David Maimon",
           "url": "https://doi.org/10.1016/j.chb.2025.108864",
           "doi": "https://doi.org/10.1016/j.chb.2025.108864",
           "filter": 0
@@ -144,7 +114,7 @@
           "filter": 0
         },
         {
-          "title": "The Illusion of Reality: How AI-Generated Images (AIGIs) Are Fooling Social Media Users",
+          "title": "The illusion of reality: How AI-generated images (AIGIs) are fooling social media users",
           "authors": "Márk Miskolczi",
           "url": "https://doi.org/10.1016/j.chb.2025.108876",
           "doi": "https://doi.org/10.1016/j.chb.2025.108876",
@@ -179,7 +149,7 @@
           "filter": 0
         },
         {
-          "title": "Human-Bot Symbiosis and Misinformation Propagation: Exploring the Mechanisms of Social Bot Participation from the Perspective of Emotional Contagion",
+          "title": "Human-bot symbiosis and misinformation propagation: Exploring the mechanisms of social bot participation from the perspective of emotional contagion",
           "authors": "Shiying Zhang, Qing Ke, Linyi Zhang, Xuhong Zhang, Aijie Li",
           "url": "https://doi.org/10.1016/j.chb.2025.108865",
           "doi": "https://doi.org/10.1016/j.chb.2025.108865",
@@ -250,6 +220,13 @@
           "filter": 0
         },
         {
+          "title": "Reducing paternalistic bias toward ethnic minority girls",
+          "authors": "Hanna Szekeres, Eva Gati, Ivuoma N. Onyeador, Anna Kende, Bertjan Doosje",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104855",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104855",
+          "filter": 0
+        },
+        {
           "title": "Structuring success: How issue-packaging agendas foster better joint outcomes in multi-issue negotiations",
           "authors": "Hong Zhang, Ingmar Geiger, Johann M. Majer, Roman Trötschel",
           "url": "https://doi.org/10.1016/j.jesp.2025.104856",
@@ -264,17 +241,10 @@
           "filter": 0
         },
         {
-          "title": "A longitudinal test of the effectiveness of four interventions to reduce discrimination",
-          "authors": "Eliane Roy, Anya Williamson, Jordan Axt",
-          "url": "https://doi.org/10.1016/j.jesp.2025.104847",
-          "doi": "https://doi.org/10.1016/j.jesp.2025.104847",
-          "filter": 0
-        },
-        {
-          "title": "Individuating rather than group information dominates evaluations of members from newly learned social groups",
-          "authors": "Mayan Navon, Kate A. Ratliff, Olivier Corneille",
-          "url": "https://doi.org/10.1016/j.jesp.2025.104851",
-          "doi": "https://doi.org/10.1016/j.jesp.2025.104851",
+          "title": "If only I had not fallen down the rabbit hole: Counterfactual thinking reduces engagement with conspiracy theories",
+          "authors": "Valentin Mang, Kevin Winter, Kai Epstude, Bob M. Fennis",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104849",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104849",
           "filter": 0
         }
       ],
@@ -313,13 +283,6 @@
           "filter": 0
         },
         {
-          "title": "Bayesian Multilevel Compositional Data Analysis with the R Package multilevelcoda",
-          "authors": "Flora Le, Dorothea Dumuid, Tyman E. Stanford, Joshua F. Wiley",
-          "url": "https://doi.org/10.1080/00273171.2025.2565598",
-          "doi": "https://doi.org/10.1080/00273171.2025.2565598",
-          "filter": 0
-        },
-        {
           "title": "Demystifying Posterior Distributions: A Tutorial on Their Derivation",
           "authors": "Han Du, Fang Liu, Zhiyong Zhang, Craig Enders",
           "url": "https://doi.org/10.1080/00273171.2025.2570250",
@@ -348,13 +311,6 @@
           "filter": 0
         },
         {
-          "title": "Sample Size Determination for Optimal and Sub-Optimal Designs in Simplified Parametric Test Norming",
-          "authors": "Francesco Innocenti, Alberto Cassese",
-          "url": "https://doi.org/10.1080/00273171.2025.2580712",
-          "doi": "https://doi.org/10.1080/00273171.2025.2580712",
-          "filter": 0
-        },
-        {
           "title": "Integrated Trend and Lagged Modeling of Multi-Subject, Multilevel, and Short Time Series",
           "authors": "Xiaoyue Xiong, Yanling Li, Michael D. Hunter, Sy-Miin Chow",
           "url": "https://doi.org/10.1080/00273171.2025.2587286",
@@ -368,6 +324,14 @@
       "journal_full": "Personality and Social Psychology Bulletin",
       "journal_short": "PSPB",
       "articles": [
+        {
+          "title": "Enumeration or Exclusion? Demographic Forms and Latine Identity Threat",
+          "authors": "Brenda C. Straka, Miguel Martinez, Sarah E. Gaither",
+          "abstract": "Four studies examine whether demographic forms elicit social identity threat and institutional exclusion for Latine Americans before and after the 2020 Presidential election and leading up to the 2024 election. Using a mock-Census form and widely used ethnicity/racial designations, we manipulated the framing of Latine identity through a two-item (category listed separately) versus a single-item (combined) format, and also varied the inclusion of a citizenship question. Overall, Latine Americans who completed a two-item versus a single-item mock-Census form experienced greater social identity threat, institutional exclusion (e.g., threatened belonging), more negative external perceptions of Latine Americans, and lower Latine and American identification. Reactions to the citizenship question were particularly attenuated by study timepoint and sociopolitical context but also revealed a concern over confirming negative stereotypes about Latine Americans related to immigration and citizenship status. Results suggest Latine Americans face identity threat through demographic forms, and this may affect their sense of belonging within the United States.",
+          "url": "https://doi.org/10.1177/01461672251387589",
+          "doi": "https://doi.org/10.1177/01461672251387589",
+          "filter": 0
+        },
         {
           "title": "Maximizers Abandon More Before Decisions, Regret More After Decisions, and Re-Maximize More for Second-Time Decisions: Real-World Analysis of Online Consumer Behaviors",
           "authors": "Xiaoyu Ge, Xiaomeng Zhang, Qianyi Li, Zhao Zhang, Yubo Hou",
