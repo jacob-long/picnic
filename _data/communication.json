@@ -1,5 +1,5 @@
 {
-  "update": "2025-11-29",
+  "update": "2025-11-30",
   "content": [
     {
       "journal_full": "Communication Research Reports",
@@ -49,11 +49,27 @@
       "journal_short": "Conv",
       "articles": [
         {
+          "title": "Semantic variation and translation issues in positively evaluative Korean homographs",
+          "authors": "Qian Hu, Yan Xie",
+          "abstract": "In order to develop one for a morphologically difficult language like Korean, the paper investigates the problem of homograph disambiguation in NMT. Homographs – words with a common form but several meanings and context differences – cause significant issues for NMT systems because they often assign meanings at random, leading to translation errors. This work introduces UTagger, a tool that uses the Standard Korean Language Dictionary (SKLD) to provide homographs distinct sense-codes in order to resolve homograph ambiguity. These sense-codes are then integrated into the parallel corpus, where each indexed homograph is treated as an individual word by the NMT system, minimizing ambiguity-related translation errors. The addition of UTagger improves the quality performances of the translation systems with BLEU, TER, and DLRATIO measures, according to experiments conducted on Korean-English and Korean-Vietnamese translation pairings. The outcome shows that for languages with complex morphology, UTagger enhances translation accuracy and dependability. The study concludes with a discussion of extending the application of UTagger to a wider range of homographs, particularly favourable evaluations, and outlines future work to further enhance UTagger, including enhancing its capacity to adapt to various languages and dialects.",
+          "url": "https://doi.org/10.1177/13548565251403090",
+          "doi": "https://doi.org/10.1177/13548565251403090",
+          "filter": 0
+        },
+        {
           "title": "Do androids dream of adventure games? Blade Runner , Hollywood and video game adaptation",
           "authors": "Kyle Barrett",
           "abstract": "Although Blade Runner (1982) initially failed at the box office, Ridley Scott’s cyberpunk/neo-noir film has since become a seminal work, widely regarded for its enduring influence and inspiration. The release of Blade Runner: The Director’s Cut (1992) removed elements Scott considered to be producer-imposed weaknesses, a vision fully realised in Blade Runner: The Final Cut (2007). A belated sequel, Blade Runner 2049 (Denis Villeneuve, 2017), also underperformed commercially but reaffirmed the enduring relevance of Scott’s dystopian future, one drenched in perpetual rain, climate disaster, overpopulation, and moral decline. While Blade Runner has been extensively examined across philosophical, aesthetic, and cultural contexts, this article shifts focus to its lesser-studied 1997 videogame adaptation by Westwood Studios. By transposing Scott’s cinematic universe into a point-and-click adventure format, the game, in some respects, enhances the film by addressing the challenges of adapting cinematic narratives into interactive media.",
           "url": "https://doi.org/10.1177/13548565251404981",
           "doi": "https://doi.org/10.1177/13548565251404981",
+          "filter": 0
+        },
+        {
+          "title": "Virtual production in news media: Transforming storytelling, audience engagement, and ethical practices in the digital age",
+          "authors": "Ioanna Georgia Eskiadi, Nikolaos Panagiotou",
+          "abstract": "This study examines the transformative potential of Virtual Production (VP) technologies within news media organizations. By leveraging tools such as real-time game engines, LED walls, and Extended Reality (XR), VP redefines storytelling, enhances audience engagement, and alters journalistic workflows. This research focuses on case studies of innovative media organizations that have integrated VP, analyzing its impact on immersive journalism practices, audience interaction, and ethical considerations. The qualitative thematic analysis reveals how VP fosters participatory news consumption, aligns with the expectations of digital-native audiences, and addresses the complexities of integrating AI and blockchain tools in production. Findings highlight VP’s capacity to democratize content creation and promote inclusivity while also discussing the challenges of infrastructure investment, energy consumption, and accessibility. This paper offers a roadmap for news organizations to adopt VP technologies, emphasizing their role in shaping the future of journalism in the digital age.",
+          "url": "https://doi.org/10.1177/13548565251393886",
+          "doi": "https://doi.org/10.1177/13548565251393886",
           "filter": 0
         }
       ],
@@ -63,13 +79,6 @@
       "journal_full": "Cyberpsychology, Behavior, and Social Networking",
       "journal_short": "CBSN",
       "articles": [
-        {
-          "title": "The Augmented Exam Room: When AI Listens In—and Reshapes Trust",
-          "authors": "Brenda K. Wiederhold",
-          "url": "https://doi.org/10.1177/21522715251398398",
-          "doi": "https://doi.org/10.1177/21522715251398398",
-          "filter": 0
-        },
         {
           "title": "Resilience You Can Train: The Brain–Gut Connection in Stress Adaptation",
           "authors": "Brenda K. Wiederhold",
@@ -84,13 +93,6 @@
       "journal_full": "Digital Journalism",
       "journal_short": "DigJ",
       "articles": [
-        {
-          "title": "Authoritarian Algorithmic Publics: Conceptualising the Nexus of Authoritarianism and Digital Innovation Uptake in Russian News Media",
-          "authors": "Olga Dovbysh, Mariëlle Wijermars",
-          "url": "https://doi.org/10.1080/21670811.2025.2592077",
-          "doi": "https://doi.org/10.1080/21670811.2025.2592077",
-          "filter": 0
-        },
         {
           "title": "Spatiotemporal Unfixing, Image-Flow &amp; Palinode in Photography of the Ukraine War",
           "authors": "Jennifer Good",
@@ -205,13 +207,6 @@
           "authors": "Jan Simon Danko, Oren Golan, Katja Rost",
           "url": "https://doi.org/10.1080/1369118x.2025.2594586",
           "doi": "https://doi.org/10.1080/1369118x.2025.2594586",
-          "filter": 0
-        },
-        {
-          "title": "Ethics of algorithmic invasiveness in beauty apps: an online experimental survey of public perspectives",
-          "authors": "Yves Saint James Aquino, Tobias Rohrbach, Patti Shih",
-          "url": "https://doi.org/10.1080/1369118x.2025.2590550",
-          "doi": "https://doi.org/10.1080/1369118x.2025.2590550",
           "filter": 0
         },
         {
@@ -438,6 +433,14 @@
           "url": "https://doi.org/10.1177/10776990251385978",
           "doi": "https://doi.org/10.1177/10776990251385978",
           "filter": 0
+        },
+        {
+          "title": "Countering Post-Truth: A Comparative Study of Journalists Responses to Disinformation Challenges",
+          "authors": "Jacopo Custodi, Hans-Joerg Trenz, Martin Moland",
+          "abstract": "This study explores how journalists respond to post-truth challenges through qualitative interviews with professionals from seven European countries. It examines their perceptions of disinformation, key obstacles, and effective countermeasures. Findings reveal diverse practices and regulatory contexts, showing how digitalization, political polarization, and economic pressures undermine journalism and spread false information. Simultaneously, emerging strategies offer opportunities to restore trust and strengthen democratic public spheres. By analyzing journalists’ perspectives, this study contributes to discussions on media resilience and innovation in the digital age.",
+          "url": "https://doi.org/10.1177/10776990251393745",
+          "doi": "https://doi.org/10.1177/10776990251393745",
+          "filter": 0
         }
       ],
       "articles_hidden": []
@@ -446,6 +449,13 @@
       "journal_full": "Journalism Studies",
       "journal_short": "JournStud",
       "articles": [
+        {
+          "title": "Lost in Translation? How Structural, Individual, and Professional Factors Hinder AI Adoption in Investigative Journalism",
+          "authors": "Jessy De Cooker, Danielle Arets, Marius Brugman, Bart Wernaart, Marieke Van Vliet, Tim Van Leeuwerden",
+          "url": "https://doi.org/10.1080/1461670x.2025.2595290",
+          "doi": "https://doi.org/10.1080/1461670x.2025.2595290",
+          "filter": 0
+        },
         {
           "title": "Sandbox Journalism: The Role of Media Labs as Innovation Drivers in European News Organisations",
           "authors": "Ana Cecília Bisso Nunes, Hannes Cools, Ana Marta Flores, Colin Porlezza, Sonja Kretzschmar, Julia Eyrich, Giulia Ferri, Jose A. García-Avilés, Jane B. Singer",
@@ -596,11 +606,27 @@
           "filter": 0
         },
         {
+          "title": "Reconceptualising political influencers: An alternative means of definition and analysis",
+          "authors": "Elizabeth Dubois, Katharine Dommett",
+          "abstract": "Recent interest in online political influencers has resulted in an array of competing definitions of who counts as a political influencer. Contending the value of a more porous and resilient definition able to recognise a spectrum of online political influence, we interrogate scholarship on opinion leadership, influentials, micro-celebrities, and social media influencer studies to reveal a range of identifying traits that can characterise different types of political influencers. Introducing a new approach to categorising these varied manifestations, we discuss six key attributes: personalised communication, compensation, audience size, political topical focus, control, and formal political role. Showing how this approach can be deployed to capture different manifestations of political influencers, we aim to build understanding that is resilient to change over time and that can support comparative empirical work.",
+          "url": "https://doi.org/10.1177/14614448251395272",
+          "doi": "https://doi.org/10.1177/14614448251395272",
+          "filter": 0
+        },
+        {
           "title": "Utilizing information communication technologies (ICTs) during the process of disaffiliating from the ultra-Orthodox community",
           "authors": "Yossi David, Baruch Shomron",
           "abstract": "The ultra-Orthodox community is characterized by high levels of commitment to community and religion and insulation from the outside world. Leaving such a community resembles the process of migration, in which the individual encounters new cultures, norms, and behaviors. This presents challenges with integration and disaffiliated community members do indeed often lack the tools, skills, and knowledge to successfully integrate into their new societies. Through qualitative in-depth interviews, we examine the role of information communication technologies (ICTs) and media in the processes of disaffiliation from ultra-Orthodox communities. Findings reveal the enablers and constraints these individuals experience in their journey and shed light on the importance of media and ICTs in individuals’ attempts to build new lives outside the ultra-Orthodox community. This study contributes to a better understanding of the role of media and ICTs in the lives of people undergoing major life changes, such as disaffiliation from the ultra-Orthodox community.",
           "url": "https://doi.org/10.1177/14614448251393375",
           "doi": "https://doi.org/10.1177/14614448251393375",
+          "filter": 0
+        },
+        {
+          "title": "‘Influence’ in the (post-)digital age: Girls’ experiences of online influencer culture",
+          "authors": "Emily Setty, Robyn Muir, Rosie Macpherson",
+          "abstract": "This paper examines how girls aged 9–15 engage with online influencer culture, focusing on interplays between digital and non-digital normative ecologies. Drawing on school-based workshops, we explore tensions between authenticity, normative ideals and self-presentation in girls’ interactions with influencers. Participants expressed agency in content consumption alongside pressures to conform, shaped by social interactions online and offline. We argue that influencer culture perpetuates dominant femininity norms through reciprocal dynamics between influencers and audiences. Girls navigated this terrain ambivalently, often endorsing authenticity and diversity while feeling constrained by normative expectations. We propose a post-digital literacy framework to conceptualise girls’ critically engagements with influence as part of everyday life, highlighting implications for education and digital practice.",
+          "url": "https://doi.org/10.1177/14614448251392918",
+          "doi": "https://doi.org/10.1177/14614448251392918",
           "filter": 0
         }
       ],
@@ -656,13 +682,6 @@
       "journal_short": "PRR",
       "articles": [
         {
-          "title": "“My body, my choice”: Discursive brandjacking and the strategic reframing of protest language",
-          "authors": "Katharina Wolf, Petra Theunissen",
-          "url": "https://doi.org/10.1016/j.pubrev.2025.102652",
-          "doi": "https://doi.org/10.1016/j.pubrev.2025.102652",
-          "filter": 0
-        },
-        {
           "title": "Punish or forgive? Exploring the mediating role of perceived CEO attitude on the interaction of emotional crisis communication and crisis type",
           "authors": "James Ndone, Qi Zheng, Rongting Niu, Yan Jin, Margaret Duffy",
           "url": "https://doi.org/10.1016/j.pubrev.2025.102651",
@@ -682,14 +701,6 @@
           "abstract": "Mounting socio-environmental crises have prompted calls for post-normal sustainability science, emphasising complexity, uncertainty, and epistemic pluralism, and framing science communication as dialogical and reflexive. However, previous research has identified a gap between these ideals and actual practices, where conventional norms of objectivity and expert authority often prevail. Drawing on Irwin’s (2021) framework of socio-technical orders of thinking, we analyse interviews with 12 leading Danish sustainability scientists. Our thematic analysis shows that scientists pragmatically navigate between first-order (expert-led), second-order (inclusive), and third-order (reflexive and power-aware) modes of thinking. While third-order thinking emerges as integral to sustainability science, traditional assumptions about authority and neutrality continue to shape scientists’ communication practices. These findings invite science communication scholars to view sustainability science as a fertile ground for developing and testing pluralistic, reflexive, and power-aware communication models, while also learning from the situated practices of scientists who already navigate these complexities in context.",
           "url": "https://doi.org/10.1177/09636625251390482",
           "doi": "https://doi.org/10.1177/09636625251390482",
-          "filter": 0
-        },
-        {
-          "title": "‘A fiction author can do anything, we’re bound by the facts’: The risks and opportunities of taking advantage of cognitive biases in storytelling for science communication",
-          "authors": "Hannah Little, Juliet Dunstone",
-          "abstract": "Storytelling is a growing topic in science communication research, highlighting the importance of learning from existing storytelling research from other disciplines. Storytelling research in cultural evolution has identified a number of cognitive biases in how we transmit information: stories are remembered and passed on more faithfully when they contain social and survival information, negative information or counterintuitive information. In this article, we review this cultural evolution literature and present findings from a set of interviews with science communication professionals. We asked science communicators about the potential benefits and risks that may come about when using cognitive biases within science communication storytelling. Science communicators reported already using some cognitive biases in their practice. Participants also expressed concerns about some tactics that might contradict objectives of science communication, threaten the integrity of science and science communication and risk the welfare of audiences. We map the benefits and risks reported using a thematic analysis.",
-          "url": "https://doi.org/10.1177/09636625251387445",
-          "doi": "https://doi.org/10.1177/09636625251387445",
           "filter": 0
         }
       ],
@@ -734,6 +745,13 @@
           "authors": "Lin Yue",
           "url": "https://doi.org/10.1016/j.tele.2025.102345",
           "doi": "https://doi.org/10.1016/j.tele.2025.102345",
+          "filter": 0
+        },
+        {
+          "title": "Rethinking the ethical role in cyberloafing behavior: Organizational culture, interpersonal Justice, and compassion",
+          "authors": "Pablo Zoghbi-Manrique-de-Lara",
+          "url": "https://doi.org/10.1016/j.tele.2025.102347",
+          "doi": "https://doi.org/10.1016/j.tele.2025.102347",
           "filter": 0
         }
       ],
