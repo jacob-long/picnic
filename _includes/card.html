@@ -24,6 +24,15 @@
         disabled>Abstract</button>
     {% endif %}
     <a href="{{ article.url }}" target="_blank" class="btn btn-light btn-sm rounded-pill">Full text</a>
+    <div class="btn-group">
+        <button type="button" class="btn btn-light btn-sm rounded-pill dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Cite
+        </button>
+        <ul class="dropdown-menu">
+            <li><button class="dropdown-item cite-btn" data-format="bibtex">Copy BibTeX</button></li>
+            <li><button class="dropdown-item cite-btn" data-format="ris">Copy RIS</button></li>
+        </ul>
+    </div>
     <div class="collapse collapse-article" id="{{ article.doi }}">
         <div class="card-text">
         {{ article.abstract }}
