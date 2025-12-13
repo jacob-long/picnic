@@ -1,0 +1,71 @@
+# Communication Paper Picnic Configuration
+# =========================================
+
+# Crawling settings
+crawl:
+  # Number of days to look back for new articles
+  lookback_days: 7
+  # Maximum rows to fetch per API call
+  max_rows: 1000
+
+# Disciplines to crawl
+disciplines:
+  - communication
+  - politics
+  - po
+  - psych
+  - sociology
+  - multidisciplinary
+
+# Preprint servers to monitor
+preprint_servers:
+  - PsyArxiv
+  - SocArxiv
+  - MetaArxiv
+  - MediArxiv
+
+# API settings
+api:
+  crossref:
+    base_url: "https://api.crossref.org"
+    timeout: 30
+
+  openai:
+    endpoint: "https://api.openai.com/v1/chat/completions"
+    model: "gpt-4o-mini"
+    timeout: 60
+
+  gemini:
+    base_url: "https://generativelanguage.googleapis.com/v1beta/models"
+    classification_model: "gemini-2.5-flash"
+    must_read_model: "gemini-3-pro-preview"
+    classification_temperature: 0.2
+    must_read_temperature: 1.0
+    max_output_tokens: 10
+
+  osf:
+    base_url: "https://api.osf.io/v2/preprints/"
+    page_size: 100
+
+# Retry settings
+retry:
+  max_attempts: 3
+  base_delay: 2
+  fetch_max_retries: 5
+  fetch_initial_delay: 5
+
+# Filter settings
+filters:
+  # Minimum abstract length for Science magazine articles
+  science_min_abstract_length: 200
+
+# Must-read selection
+must_read:
+  # Number of articles to select
+  count: 25
+
+# Output paths
+paths:
+  parameters: "./parameters"
+  output: "./output"
+  memory: "./memory"
