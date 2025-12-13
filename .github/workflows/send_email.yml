@@ -1,0 +1,114 @@
+name: send_email
+
+on:
+  workflow_dispatch:
+    inputs:
+      frequency:
+        description: 'Email frequency tier (daily, weekly, monthly)'
+        required: true
+        default: 'weekly'
+        type: choice
+        options:
+          - daily
+          - weekly
+          - monthly
+      dry_run:
+        description: 'Dry run (no emails sent)'
+        required: false
+        default: false
+        type: boolean
+  schedule:
+    # Daily at 3 AM UTC (after 2 AM crawl)
+    - cron: "0 3 * * *"
+
+jobs:
+  send_email:
+    runs-on: ubuntu-latest
+    env:
+      RENV_PATHS_ROOT: ~/.local/share/renv
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev
+
+      - name: Setup R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: 'release'
+
+      - name: Set up renv
+        uses: r-lib/actions/setup-renv@v2
+        with:
+          cache-version: 1
+
+      - name: Determine frequency and check if should run
+        id: check_schedule
+        run: |
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            echo "frequency=${{ github.event.inputs.frequency }}" >> $GITHUB_OUTPUT
+            echo "should_run=true" >> $GITHUB_OUTPUT
+            if [ "${{ github.event.inputs.dry_run }}" == "true" ]; then
+              echo "dry_run=--dry-run" >> $GITHUB_OUTPUT
+            else
+              echo "dry_run=" >> $GITHUB_OUTPUT
+            fi
+          else
+            # Scheduled run - determine what to send based on day
+            DAY_OF_WEEK=$(date +%u)  # 1=Monday, 7=Sunday
+            DAY_OF_MONTH=$(date +%d)
+
+            # Daily emails run every day
+            echo "frequency=daily" >> $GITHUB_OUTPUT
+            echo "should_run=true" >> $GITHUB_OUTPUT
+            echo "dry_run=" >> $GITHUB_OUTPUT
+
+            # Weekly emails run on Mondays (day 1)
+            if [ "$DAY_OF_WEEK" == "1" ]; then
+              echo "run_weekly=true" >> $GITHUB_OUTPUT
+            else
+              echo "run_weekly=false" >> $GITHUB_OUTPUT
+            fi
+
+            # Monthly emails run on the 1st
+            if [ "$DAY_OF_MONTH" == "01" ]; then
+              echo "run_monthly=true" >> $GITHUB_OUTPUT
+            else
+              echo "run_monthly=false" >> $GITHUB_OUTPUT
+            fi
+          fi
+
+      - name: Send daily digest
+        if: steps.check_schedule.outputs.should_run == 'true' && (github.event_name == 'workflow_dispatch' && github.event.inputs.frequency == 'daily' || github.event_name == 'schedule')
+        env:
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+        run: |
+          Rscript send_email.R daily ${{ steps.check_schedule.outputs.dry_run }}
+
+      - name: Send weekly digest
+        if: steps.check_schedule.outputs.run_weekly == 'true' || (github.event_name == 'workflow_dispatch' && github.event.inputs.frequency == 'weekly')
+        env:
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+        run: |
+          Rscript send_email.R weekly ${{ steps.check_schedule.outputs.dry_run }}
+
+      - name: Send monthly digest
+        if: steps.check_schedule.outputs.run_monthly == 'true' || (github.event_name == 'workflow_dispatch' && github.event.inputs.frequency == 'monthly')
+        env:
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+        run: |
+          Rscript send_email.R monthly ${{ steps.check_schedule.outputs.dry_run }}
+
+      - name: Commit updated timestamps
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add memory/last_email_*.txt || true
+          git diff --staged --quiet || git commit -m "Update email sent timestamps"
+          git push origin || true
