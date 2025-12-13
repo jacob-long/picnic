@@ -109,7 +109,8 @@ response <- gemini_request(paste(sys_prompt1, sys_prompt2, result_string))
 cat("Gemini response:\\n", response)
 
 dois <- trimws(unlist(strsplit(response, ","))) %>%
-    gsub("(https?://doi.org/|https?://dx.doi.org/|doi:)", "", ., perl = TRUE)
+    gsub("(https?://doi.org/|https?://dx.doi.org/|doi:)", "", ., perl = TRUE) %>%
+    trimws()
 
 cat("\\ndois:\\n", dois)
 
