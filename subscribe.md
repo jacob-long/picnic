@@ -134,8 +134,8 @@ layout: main
 </div>
 
 <script>
-// Configuration - UPDATE THIS with your Buttondown newsletter ID
-const BUTTONDOWN_USERNAME = 'paper-picnic';
+// Buttondown newsletter ID
+const BUTTONDOWN_USERNAME = 'jacoblong';
 
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('subscribe-form');
