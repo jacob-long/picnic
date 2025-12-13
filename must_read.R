@@ -109,12 +109,12 @@ response <- gemini_request(paste(sys_prompt1, sys_prompt2, result_string))
 cat("Gemini response:\\n", response)
 
 dois <- trimws(unlist(strsplit(response, ","))) %>%
-    gsub("doi:", "", ., fixed = T)
+    gsub("(https?://doi.org/|https?://dx.doi.org/|doi:)", "", ., perl = TRUE)
 
 cat("\\ndois:\\n", dois)
 
 # Convert DOI URLs/prefixes to just DOI
-doi_clean <- function(x) gsub("(https?://doi.org/|doi:)", "", x)
+doi_clean <- function(x) gsub("(https?://doi.org/|https?://dx.doi.org/|doi:)", "", x, perl = TRUE)
 
 articles$doic <- doi_clean(articles$doi)
 
