@@ -63,7 +63,7 @@ sys_prompt2 <- "Now, I present new articles for you to choose from based on thes
 
 source("credentials.R")
 
-api_url <- "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-preview-03-25:generateContent"
+api_url <- "https://generativelanguage.googleapis.com/v1beta/models/gemini-3-pro-preview:generateContent"
 gemini_request <- function(prompt, max_retries = 3) {
   body <- list(
     contents = list(
