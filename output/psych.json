@@ -11,7 +11,8 @@
           "abstract": "Longitudinal studies with time-varying treatments or exposures make it hard to figure out “what effect” is being estimated. Drawing on causal inference, we clarify this by distinguishing between total, direct, and—centrally—joint effects, defined within the potential-outcomes framework and illustrated with directed acyclic graphs. Joint effects extend average treatment effects to repeated interventions, providing a practical measure of combined intervention effects over time. Using a worked example on smartphone use and sleep quality, we demonstrate how different estimands answer different questions, why single total effects can sometimes mislead in longitudinal settings, and how joint effects capture strategy-level consequences across time. A key practical takeaway is that joint effects can be estimated in both experimental and observational studies. In the latter, it typically suffices to adjust only for variables that govern treatment decisions at each time point rather than modeling the entire causal system. Building on this, we propose covariate-driven treatment assignment (information-restriction designs in which decisions depend only on observed covariates) as a practical route to causal inference in nonexperimental psychology, and we connect these designs to estimation via g-methods from epidemiology. We provide open materials, including R code, to support adoption.",
           "url": "https://doi.org/10.1177/25152459251391174",
           "doi": "https://doi.org/10.1177/25152459251391174",
-          "filter": 0
+          "filter": 0,
+          "created": "2025-12-10"
         },
         {
           "title": "Investigating the Barriers and Enablers to Data-Sharing Behaviors: A Qualitative Registered Report",
@@ -19,7 +20,8 @@
           "abstract": "“Data sharing” describes the process of making research data available for reuse. The availability of research data is the basis of transparent, effective research systems that democratize access to knowledge and advance discovery. Despite a broad recognition of the value of data sharing across the sector, many researchers are not yet engaging meaningfully with data-sharing behaviors. Through a behavioral lens, in this qualitative Registered Report, we aimed to identify the barriers and enablers to data sharing experienced by researchers working at a UK university. Data were collected using a theoretically informed 26-item interview schedule (capability, opportunity, motivation–behavior [COM-B] model; theoretical-domains framework [TDF]). Fourteen participants across a range of career levels and disciplines were recruited to take part in semistructured interviews focused on data-sharing behaviors and their influences. Transcripts were analyzed using thematic template analysis based on the COM-B constructs and TDF domains. Results indicated that quantitative data-sharing behaviors were performed differently to qualitative behaviors, which affected the required skills. However, the barriers experienced were similar across all disciplines. These barriers included a lack of time to undertake data-sharing activities, concerns over General Data Protection Regulation/correct deidentification of data, and limited infrastructure. Enablers included researchers’ drive to be seen as open researchers. This identity matters to them for both the good of research and what it signals about them. It is a key enabling factor, potentially driving behavior even in the absence of other factors. Mandating data-sharing activities could encourage more widespread behaviors. However, such mandates need to be both discipline-specific and supported by institutions providing adequate resources.",
           "url": "https://doi.org/10.1177/25152459251385960",
           "doi": "https://doi.org/10.1177/25152459251385960",
-          "filter": 0
+          "filter": 0,
+          "created": "2025-12-11"
         }
       ],
       "articles_hidden": []
@@ -34,7 +36,8 @@
           "abstract": "Neural network modeling has played a central role in psycholinguistic studies of lexical processing, but the recent advent of large language models (LLMs) offers a different approach that may yield new insights into the mental lexicon. Four LLMs were prompted across three experiments to test how they generate psycholinguistic ratings of words in comparison with humans. LLM ratings, averaged across varying list contexts, were found to be highly correlated with human ratings, and differences in correlation strengths were partly explained by differences in rating ambiguity. LLM context manipulations strengthened correlations with human ratings through better calibration, and variability in LLM ratings was correlated with human inter-rater variability. Additional results from testing LLM generation of word naming latencies showed functional deviations from factors that underlie human word naming, indicating that lexical function assembly in LLMs is currently limited by patterns of co-occurrence in textual data. Patterns at finer-grained timescales are needed in the training data to model online lexical processes. We conclude that LLMs used context to guide the assembly of generalized lexical functions, rather than recalling ratings and latencies from training data.",
           "url": "https://doi.org/10.3758/s13428-025-02898-7",
           "doi": "https://doi.org/10.3758/s13428-025-02898-7",
-          "filter": 0
+          "filter": 0,
+          "created": "2025-12-8"
         },
         {
           "title": "Extensions of multinomial processing tree models for continuous variables: A simulation study comparing parametric and non-parametric approaches",
@@ -42,7 +45,8 @@
           "abstract": "Both parametric and non-parametric extensions of the multinomial processing tree (MPT) models have been proposed for jointly modeling discrete and continuous variables. Since the two approaches have not yet been compared systematically, we assess their power and robustness in three simulation studies focusing on the weapon identification task. In this context, two statistically equivalent MPT models have been proposed, namely, the preemptive-conflict-resolution model (PCRM) and the default-interventionist model (DIM), which differ only in their assumptions regarding the order of latent processes (i.e., response times, RTs). The first simulation evaluates the calibration and statistical power of the nonstandard goodness-of-fit test for the parametric approach (i.e., the Dzhaparidze–Nikulin statistic), as well as the ability of different distributional assumptions to fit simulated RT data. The second simulation compares nested models to study the power for testing hypotheses about RTs within each model. The third simulation focuses on model-recovery performance for the two non-nested models. In all three simulations, we manipulated the size and nature of discrepancies (location/scale or shape) between latent RT distributions, sample size, and parametric assumptions. Results show that the parametric approach has higher statistical power but is also sensitive to misspecifications of distributional assumptions. In contrast, the non-parametric approach is more robust but less powerful, especially with small samples. We provide recommendations on when to use each approach and highlight the importance of properly specifying and selecting extended MPT models.",
           "url": "https://doi.org/10.3758/s13428-025-02896-9",
           "doi": "https://doi.org/10.3758/s13428-025-02896-9",
-          "filter": 0
+          "filter": 0,
+          "created": "2025-12-8"
         },
         {
           "title": "Tobit modeling for dependent-sample t-tests and moderated regression with ceiling or floor data",
@@ -50,7 +54,8 @@
           "abstract": "Ceiling or floor effects pose analytic challenges in behavioral and psychological research. In this study, we developed novel Tobit modeling approaches, estimated using maximum likelihood (ML) or Bayesian methods, to address these effects for widely used statistical analyses, including the dependent-sample t -test and moderated regression. Simulation studies were conducted to compare the performance of the proposed modeling approaches to the conventional approach where ceiling or floor data are treated as if true values. The conventional approach was found to yield biased estimates, inflated Type I error rates, and poor confidence interval coverage, even with as little as 10% ceiling data. In contrast, the proposed approaches with either ML or Bayesian estimation provided accurate estimates and inference results across most studied conditions (e.g., with 30% ceiling data). Real data examples further illustrated the impact of modeling choices. To facilitate implementations of the proposed Tobit modeling approaches, we provide simulated datasets along with R and Mplus scripts online. Implications of the findings and future research directions were discussed.",
           "url": "https://doi.org/10.3758/s13428-025-02904-y",
           "doi": "https://doi.org/10.3758/s13428-025-02904-y",
-          "filter": 0
+          "filter": 0,
+          "created": "2025-12-10"
         },
         {
           "title": "Synthesis and perceptual scaling of high-resolution naturalistic images using Stable Diffusion",
@@ -58,15 +63,8 @@
           "abstract": "Naturalistic scenes are of key interest for visual perception, but controlling their perceptual and semantic properties is challenging. Previous work on naturalistic scenes has frequently focused on collections of discrete images with considerable physical differences between stimuli. However, it is often desirable to assess representations of naturalistic images that vary along a continuum. Traditionally, perceptually continuous variations of naturalistic stimuli have been obtained by morphing a source image into a target image. This produces transitions driven mainly by low-level physical features and can result in semantically ambiguous outcomes. More recently, generative adversarial networks (GANs) have been used to generate continuous perceptual variations within a stimulus category. Here, we extend and generalize this approach using a different machine learning approach, a text-to-image diffusion model (Stable Diffusion XL), to generate a freely customizable stimulus set of photorealistic images that are characterized by gradual transitions, with each image representing a unique exemplar within a prompted category. We demonstrate the approach by generating a set of 108 object scenes from six categories. For each object scene, we generate ten variants that are ordered along a perceptual continuum. This ordering was first estimated using a machine learning model of perceptual similarity (LPIPS) and then subsequently validated with a large online sample of human participants. In a subsequent experiment, we show that this ordering is also predictive of stimulus confusability in a working memory task. Our image set is suited for studies investigating the graded encoding of naturalistic stimuli in visual perception, attention, and memory.",
           "url": "https://doi.org/10.3758/s13428-025-02889-8",
           "doi": "https://doi.org/10.3758/s13428-025-02889-8",
-          "filter": 0
-        },
-        {
-          "title": "SocioLex-CZ: Normative estimates for socio-semantic dimensions of meaning for 2,999 words and 1,000 images",
-          "authors": "Mikuláš Preininger, James Brand, Adam Kříž, Markéta Ceháková",
-          "abstract": "When we encounter words, we activate not only the social information provided by the speaker, but also the rich semantics of the words’ meaning, and quantifying this information is a key challenge for the cognitive and behavioural sciences. Although there are many resources available that quantify affective and sensorimotor information, there are relatively few resources available that provide information on social dimensions of meaning. We present the SocioLex-CZ norms, where the primary focus is on socio-semantic dimensions of meaning. Across two experiments, we introduce normative estimates along five dimensions—gender, political alignment, location, valence and age—for a large set of Czech words (Experiment 1) and images (Experiment 2) from 1,709 participants. We provide a series of analyses demonstrating that the norms have good reliability, and present exploratory analyses examining how the variables interact with one another within and between words/images. These norms present a valuable dataset that quantifies socio-semantic representations at scale, which we hope will be used for a range of novel and multidisciplinary applications, thereby opening up new pathways for innovative research. We make the data, code and analysis available at https://osf.io/pv9md/ and also provide an interactive web app at https://tinyurl.com/sociolex-cz-app .",
-          "url": "https://doi.org/10.3758/s13428-025-02907-9",
-          "doi": "https://doi.org/10.3758/s13428-025-02907-9",
-          "filter": 0
+          "filter": 0,
+          "created": "2025-12-10"
         },
         {
           "title": "ThreatSim: A novel stimuli database of threatening and nonthreatening image pairs rated for similarity",
@@ -74,7 +72,17 @@
           "abstract": "Researchers often require validated and well-rounded sets of image stimuli. For those interested in understanding the various visual attentional biases toward threatening stimuli, a dataset containing a variety of such objects is urgently needed. Here, our goal was to create an image database of animate and inanimate objects, including those that people find threatening and those that are visually similar to them but are not considered threatening. To do this, we recruited participants ( N = 77) for an online survey in which they were asked to name threatening objects and try to come up with a visually similar counterpart. We then used the survey results to create a list of 32 objects, including eight from each crossing of threatening versus nonthreatening and animate versus inanimate. We obtained 20 exemplar images from each category (640 unique images in total, all copyright-free and openly shared). An independent sample of participants ( N = 191) judged the similarity of these images using the spatial arrangement method. Data were then modeled using multidimensional scaling. Our results present modeling outcomes using a “map” of animate and inanimate objects (separately) that spatially conveys the perceived similarity relationships between them. We expect that this image set will be widely used in future visual attention studies and more.",
           "url": "https://doi.org/10.3758/s13428-025-02906-w",
           "doi": "https://doi.org/10.3758/s13428-025-02906-w",
-          "filter": 0
+          "filter": 0,
+          "created": "2025-12-10"
+        },
+        {
+          "title": "SocioLex-CZ: Normative estimates for socio-semantic dimensions of meaning for 2,999 words and 1,000 images",
+          "authors": "Mikuláš Preininger, James Brand, Adam Kříž, Markéta Ceháková",
+          "abstract": "When we encounter words, we activate not only the social information provided by the speaker, but also the rich semantics of the words’ meaning, and quantifying this information is a key challenge for the cognitive and behavioural sciences. Although there are many resources available that quantify affective and sensorimotor information, there are relatively few resources available that provide information on social dimensions of meaning. We present the SocioLex-CZ norms, where the primary focus is on socio-semantic dimensions of meaning. Across two experiments, we introduce normative estimates along five dimensions—gender, political alignment, location, valence and age—for a large set of Czech words (Experiment 1) and images (Experiment 2) from 1,709 participants. We provide a series of analyses demonstrating that the norms have good reliability, and present exploratory analyses examining how the variables interact with one another within and between words/images. These norms present a valuable dataset that quantifies socio-semantic representations at scale, which we hope will be used for a range of novel and multidisciplinary applications, thereby opening up new pathways for innovative research. We make the data, code and analysis available at https://osf.io/pv9md/ and also provide an interactive web app at https://tinyurl.com/sociolex-cz-app .",
+          "url": "https://doi.org/10.3758/s13428-025-02907-9",
+          "doi": "https://doi.org/10.3758/s13428-025-02907-9",
+          "filter": 0,
+          "created": "2025-12-8"
         },
         {
           "title": "Introducing the kollaR package: A user-friendly open-access solution for eye-tracking analysis and visualization",
@@ -82,7 +90,8 @@
           "abstract": "Eye tracking has become an increasingly important tool in cognitive and developmental research, providing insights into processes that are difficult to measure otherwise. The majority of eye-tracking studies rely on accurate identification of fixations and saccades in raw data using event classification algorithms (sometimes called fixation filters). Subsequently, it is common to analyze whether fixations or saccades fall into specific areas of interest (AOI). The choice of algorithms can significantly influence study outcomes, especially in special populations such as young children or individuals with neurodevelopmental conditions, where data quality is often compromised by factors such as signal loss, poor calibration, or movement artifacts. It is therefore crucial to examine how available fixation classification algorithms affect the data set at hand as part of the eye-tracking analysis. Here, we introduce the kollaR package, an open-source R library for performing the main steps of an eye-tracking analysis from event classification to AOI-based analyses and visualizations of individual or group-level data for publications. The kollaR package was specifically designed to facilitate the selection and comparison of different event classification algorithms through visualizations. In a validation analysis, we show that results from fixation classification in kollaR are consistent with those from other software implementations of the same algorithms. We demonstrate the use of kollaR with real data from typically developing individuals and individuals with neurodevelopmental conditions, and illustrate how potential threats to validity can be identified in both high- and low-quality data.",
           "url": "https://doi.org/10.3758/s13428-025-02903-z",
           "doi": "https://doi.org/10.3758/s13428-025-02903-z",
-          "filter": 0
+          "filter": 0,
+          "created": "2025-12-8"
         },
         {
           "title": "The individual-level precision of implicit measures",
@@ -90,7 +99,8 @@
           "abstract": "Implicit measures are used extensively in psychological science. One fundamental goal of these measures is to provide information diagnostic of an individual’s attitudes or beliefs. After 25 years of research, this goal has not been achieved. We argue that this is because psychologists have not yet even quantified the individual-level precision of implicit measures, much less calibrated them to it. In this paper, we examine the individual-level precision of six different implicit measures across three different attitude domains (race, politics, and self-esteem) using a very large open dataset. Despite some variation, we find that there is substantial room for improvement for the precision of implicit measures as measures of individual attitudes. We recommend that researchers who wish to make theoretical inferences about individuals directly quantify individual-level precision to calibrate their tasks appropriately, both in the context of implicit measures and with tasks in psychological science more broadly.",
           "url": "https://doi.org/10.3758/s13428-025-02873-2",
           "doi": "https://doi.org/10.3758/s13428-025-02873-2",
-          "filter": 0
+          "filter": 0,
+          "created": "2025-12-8"
         }
       ],
       "articles_hidden": []
@@ -104,28 +114,32 @@
           "authors": "Firoj Al-Mamun, Moneerah Mohammad ALmerab, Mohammed A. Mamun",
           "url": "https://doi.org/10.1016/j.chb.2025.108890",
           "doi": "https://doi.org/10.1016/j.chb.2025.108890",
-          "filter": 0
+          "filter": 0,
+          "created": "2025-12-6"
         },
         {
-          "title": "For Whom Does Online Social Support Matter Most? Exploring the Joint Moderating Roles of Depressive Symptoms and Physical Functioning in the Relationship between Online Social Support and Quality of Life",
+          "title": "For whom does online social support matter most? Exploring the joint moderating roles of depressive symptoms and physical functioning in the relationship between online social support and quality of life",
           "authors": "Juwon Hwang",
           "url": "https://doi.org/10.1016/j.chb.2025.108893",
           "doi": "https://doi.org/10.1016/j.chb.2025.108893",
-          "filter": 0
+          "filter": 0,
+          "created": "2025-12-10"
         },
         {
           "title": "Risk profiles for the perpetration of non-consensual sharing of sexual content among Spanish adolescents: a cross-sectional and longitudinal study",
           "authors": "Estrella Durán-Guerrero, Virginia Sánchez-Jiménez, Noelia Muñoz-Fernández",
           "url": "https://doi.org/10.1016/j.chb.2025.108889",
           "doi": "https://doi.org/10.1016/j.chb.2025.108889",
-          "filter": 0
+          "filter": 0,
+          "created": "2025-12-11"
         },
         {
           "title": "Altered uncertainty processing during adaptive learning in internet gaming disorder",
           "authors": "Yi-Xu Pang, Lei Zhang, Yuan-Wei Yao, Marc N. Potenza, Lu Liu",
           "url": "https://doi.org/10.1016/j.chb.2025.108882",
           "doi": "https://doi.org/10.1016/j.chb.2025.108882",
-          "filter": 0
+          "filter": 0,
+          "created": "2025-12-10"
         }
       ],
       "articles_hidden": []
@@ -140,7 +154,8 @@
           "abstract": "Conspiracy endorsement has previously been linked to national narcissism—an unrealistic belief in the greatness of the national in-group. In this research, we explore the role of the need for uniqueness in explaining why national narcissists seize on conspiracy theories. In Study 1 ( N = 1,000), we found that a self-attributed need for uniqueness mediated the link between national narcissism and conspiracy beliefs. In Study 2 ( N = 387), we introduced the novel concept in the form of a group-attributed need for uniqueness and found its role in explaining the relationship between national narcissism and conspiracy beliefs. In Study 3 ( N = 799), we considered both types of the need for uniqueness and observed only group-attributed need for uniqueness as a significant mediator of the relationship between national narcissism and conspiracy beliefs. In Study 4 ( N = 1,616), we experimentally increased national narcissism and observed its positive effect on conspiracy beliefs targeting in-group (vs. out-group) members. This effect was mediated by group-attributed need for uniqueness. Results shed light on psychological motives that may drive conspiracy beliefs among collective narcissists.",
           "url": "https://doi.org/10.1177/13684302251391148",
           "doi": "https://doi.org/10.1177/13684302251391148",
-          "filter": 0
+          "filter": 0,
+          "created": "2025-12-8"
         },
         {
           "title": "Beyond national identity: The positive role of local identity in shaping attitudes to international and internal migration",
@@ -148,7 +163,8 @@
           "abstract": "Research on the link between social identification and attitudes toward immigration has primarily focused on national identification and international migrants, often overlooking the local level. Combining social identity theory and a place identity perspective on intergroup dynamics, we examine national and local identification, as well as their interplay, as determinants of attitudes toward international and internal migration. Our analysis is based on nationally representative samples from Austria, Czechia, Germany, Hungary, Poland, and Slovakia ( N = 10,765) from the Central European Social Survey (2021–2022). We found that national identity was associated with more negative attitudes toward international migration, but not internal migration. In contrast, local identity was linked to more welcoming attitudes toward both international and internal migration, and it neutralized the negative effect of national identity on attitudes toward international migration. Overall, our findings highlight the inclusive role of local identity in shaping immigration attitudes, particularly in contexts characterized by high anti-immigrant sentiment.",
           "url": "https://doi.org/10.1177/13684302251391155",
           "doi": "https://doi.org/10.1177/13684302251391155",
-          "filter": 0
+          "filter": 0,
+          "created": "2025-12-8"
         },
         {
           "title": "Intergroup relations after being ostracized and included by one’s own two in-groups",
@@ -156,7 +172,8 @@
           "abstract": "Despite the rise in exogamous marriages, little is known about how adolescents with parents from two different religious backgrounds experience social exclusion and acceptance. Two experimental ostracism-inducing studies examined needs satisfaction among Israeli adolescents aged 12–19 with a Muslim mother–Jewish father or vice versa when excluded or included by members of either parent’s group. The control groups consisted of adolescents with two Muslim or two Jewish parents. When playing Cyberball against ostensibly Jewish or Muslim opponents, the control participants showed a classic in-group effect: lower needs satisfaction when excluded and higher when included by their in-group. By contrast, split-identity adolescents reported the lowest needs satisfaction when excluded by either group, but the highest when included by members of the community in which they lived (Study 1: Muslim; Study 2: Jewish). The findings underscore the importance of social context for identity formation and intergroup relations and point to interventions to reduce conflict and support split-identity youth.",
           "url": "https://doi.org/10.1177/13684302251394642",
           "doi": "https://doi.org/10.1177/13684302251394642",
-          "filter": 0
+          "filter": 0,
+          "created": "2025-12-11"
         }
       ],
       "articles_hidden": []
@@ -170,7 +187,8 @@
           "authors": "Ziyu Zhang, Tingji Chen",
           "url": "https://doi.org/10.1016/j.jesp.2025.104864",
           "doi": "https://doi.org/10.1016/j.jesp.2025.104864",
-          "filter": 0
+          "filter": 0,
+          "created": "2025-12-11"
         }
       ],
       "articles_hidden": []
@@ -184,35 +202,40 @@
           "authors": "Laura K. Soter, Susan A. Gelman, Fan Yang",
           "url": "https://doi.org/10.1037/pspa0000474",
           "doi": "https://doi.org/10.1037/pspa0000474",
-          "filter": 0
+          "filter": 0,
+          "created": "2025-12-8"
         },
         {
           "title": "Self-essentialism underlies social projection to unfamiliar similar others.",
           "authors": "Charles Chu, Lydia Needy, Rebecca Schlegel",
           "url": "https://doi.org/10.1037/pspa0000475",
           "doi": "https://doi.org/10.1037/pspa0000475",
-          "filter": 0
+          "filter": 0,
+          "created": "2025-12-8"
         },
         {
           "title": "Allocator-recipient asymmetries in resource allocation preferences: A focus on bequests.",
           "authors": "Chang-Yuan Lee, Tanjim Hossain",
           "url": "https://doi.org/10.1037/pspi0000509",
           "doi": "https://doi.org/10.1037/pspi0000509",
-          "filter": 0
+          "filter": 0,
+          "created": "2025-12-8"
         },
         {
           "title": "Individualism–collectivism: Reconstructing Hofstede’s dimension of cultural differences.",
           "authors": "Plamen Akaliyski, Vivian L. Vignoles, Christian Welzel, Michael Minkov",
           "url": "https://doi.org/10.1037/pspp0000580",
           "doi": "https://doi.org/10.1037/pspp0000580",
-          "filter": 0
+          "filter": 0,
+          "created": "2025-12-11"
         },
         {
           "title": "Personality and mortality risk: A systematic review and meta-analysis of longitudinal data.",
           "authors": "Máire McGeehan, Angelina R. Sutin, Stephen Gallagher, Antonio Terracciano, Nicholas A. Turiano, Elayne Ahern, Emma M. Kirwan, Martina Luchetti, Eileen K. Graham, Páraic S. O'Súilleabháin",
           "url": "https://doi.org/10.1037/pspp0000577",
           "doi": "https://doi.org/10.1037/pspp0000577",
-          "filter": 0
+          "filter": 0,
+          "created": "2025-12-8"
         }
       ],
       "articles_hidden": []
@@ -227,7 +250,8 @@
           "abstract": "The principle of impartial beneficence (IB) holds that we should strive to maximize others’ well-being regardless of their relationship to us. But does endorsement of IB in principle translate to more uniform concern for others irrespective of relationship type? Three pre-registered studies in online samples of U.S. participants (total N =1,716) found IB endorsement predicts greater and more uniform concern for others across social relationships varying in social distance: in care prescriptions (Study 1), as well as blame judgments (Study 2) and guilt expressions (Study 3) when care norms are violated or care is not provided. Heightened concern for others in socially distant relationships was not “offset” by less concern for those in close ones. IB was not associated with a motive to be generally admired, but was linked to a motive to form communal relationships. Across different types of moral judgments, a commitment to IB thus entails caring much more than average about the well-being of socially distant others, while maintaining a high level of concern for socially close ones.",
           "url": "https://doi.org/10.1177/01461672251379518",
           "doi": "https://doi.org/10.1177/01461672251379518",
-          "filter": 0
+          "filter": 0,
+          "created": "2025-12-12"
         }
       ],
       "articles_hidden": []
@@ -241,7 +265,8 @@
           "authors": "Paul Dudgeon",
           "url": "https://doi.org/10.1037/met0000780",
           "doi": "https://doi.org/10.1037/met0000780",
-          "filter": 0
+          "filter": 0,
+          "created": "2025-12-8"
         }
       ],
       "articles_hidden": []
@@ -256,7 +281,8 @@
           "abstract": "To navigate the world, our minds must represent not only how things are now (perception) but also how they are about to be (prediction). However, perception and prediction blur together for objects in motion, a classic finding known as “representational momentum.” If you glance at a photo of a person diving into a lake, you will tend to remember them closer to the water than they really were. In seven experiments (with adult participants from the United States) we show that this phenomenon transcends motion: Our minds make predictions that distort our memories about changes that involve no motion whatsoever, including changes in brightness, color saturation, and proportion. Additionally, we use representational momentum to map the limits of automatic prediction, showing that there are no analogous effects for changes in hue. Our automatic predictions distort our memories in many domains—not just motion—and the presence or absence of these distortions expose the inner workings of perception, cognition, and memory.",
           "url": "https://doi.org/10.1177/09567976251395074",
           "doi": "https://doi.org/10.1177/09567976251395074",
-          "filter": 0
+          "filter": 0,
+          "created": "2025-12-8"
         }
       ],
       "articles_hidden": []
@@ -270,14 +296,16 @@
           "authors": "Elizabeth W. Chan, Natalie S. T. Cheung, Jessie Y. S. Choy, Felix Cheung",
           "url": "https://doi.org/10.1037/tmb0000180.supp",
           "doi": "https://doi.org/10.1037/tmb0000180.supp",
-          "filter": 0
+          "filter": 0,
+          "created": "2025-12-8"
         },
         {
           "title": "Links between adolescent time-use sequences and well-being.",
           "authors": "Elizabeth W. Chan, Natalie S. T. Cheung, Jessie Y. S. Choy, Felix Cheung",
           "url": "https://doi.org/10.1037/tmb0000180",
           "doi": "https://doi.org/10.1037/tmb0000180",
-          "filter": 0
+          "filter": 0,
+          "created": "2025-12-8"
         }
       ],
       "articles_hidden": []
