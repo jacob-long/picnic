@@ -1,5 +1,5 @@
 {
-  "update": "2025-12-15",
+  "update": "2025-12-16",
   "content": [
     {
       "journal_full": "American Journal of Political Science",
@@ -43,17 +43,26 @@
       "articles_hidden": []
     },
     {
-      "journal_full": "Annual Review of Political Science",
-      "journal_short": "AnnuRev",
+      "journal_full": "British Journal of Political Science",
+      "journal_short": "BJPOL",
       "articles": [
         {
-          "title": "Did Globalization Undermine Governance and Spur a Backlash?",
-          "authors": "Judith L. Goldstein, Edward D. Mansfield",
-          "abstract": "A substantial literature on the decline in support for liberal trade policies and globalization has emerged. Most of these accounts, however, do not adequately address the puzzling issue of why it took so long for governments to respond to rising discontent stemming from trade globalization's economic effects. The literature we review suggests that government actions during this era were shaped by neoliberal principles that established powerful ideological and institutional constraints. To promote trade and growth, political leaders and policymakers were committed to reducing government's footprint in the economy. That commitment inhibited both their interest in and ability to respond to globalization's impact, fostering an environment ripe for antiglobalist political entrepreneurs. We argue that the neoliberal cast of the contemporary era of trade globalization, together with the associated rules-based multilateral regime that restricted member states’ flexibility, may have sown the seeds of the backlash against it.",
-          "url": "https://doi.org/10.1146/annurev-polisci-032624-022357",
-          "doi": "https://doi.org/10.1146/annurev-polisci-032624-022357",
+          "title": "Parties’ Ideological Cores and Peripheries: Examining How Parties Balance Adaptation and Continuity in Their Manifestos",
+          "authors": "Annika Werner, Fabian Habersack",
+          "abstract": "How do political parties balance policy adaptation with ideological continuity? While spatial models emphasise external factors driving party behaviour, less attention has been given to internal party choices. This article innovates by proposing that parties differentiate between and make distinct strategical decisions regarding their ideological core and peripheral policy areas. We argue that parties maintain continuity in their ideological core while exhibiting greater flexibility in modifying their periphery. Using the Manifesto Project Corpus and an XLM-RoBERTa-based language model, we analyse manifesto sections to distinguish core from peripheral segments. Our findings show that parties take clearer stances in their ideological core while adapting their periphery more flexibly, with niche parties displaying this pattern more strongly than mainstream parties. Electoral setbacks lead parties to adopt more extreme peripheries, while cores remain stable. These results highlight the strategic importance of the core–periphery distinction in party communication and suggest that studies of party competition should consider where policy shifts occur within parties’ electoral programmes.",
+          "url": "https://doi.org/10.1017/s0007123425101154",
+          "doi": "https://doi.org/10.1017/s0007123425101154",
           "filter": 0,
-          "created": "2025-12-8"
+          "created": "2025-12-15"
+        },
+        {
+          "title": "Gendered Political Contexts, Emotions, and Engagement: A Case Study of the 2016 US Presidential Election",
+          "authors": "Stephanie L. DeMora, Jennifer L. Merolla, Maricruz Ariana Osorio, Christian Lindke, Sean Long",
+          "abstract": "The 2016 election serves as an important case study in understanding how gendered political contexts can shape emotional reactions and engagement, particularly among women. Two important features of that election, Trump’s treatment of women and Clinton’s historic run for office, influenced emotional reactions to politics in distinct ways. We used two experimental designs in which participants were randomly assigned to read vignettes about Trump’s treatment of women or Clinton’s historic run for office. Reading about the former led to higher anger, especially among Democratic women and men, while reading about the latter increased enthusiasm among highly educated women. These elevated emotions increased intended future engagement. We conducted a third study in which we induced anger about Trump’s treatment of women and found that it led to greater intended engagement.",
+          "url": "https://doi.org/10.1017/s0007123425101166",
+          "doi": "https://doi.org/10.1017/s0007123425101166",
+          "filter": 0,
+          "created": "2025-12-15"
         }
       ],
       "articles_hidden": []
@@ -101,6 +110,15 @@
           "doi": "https://doi.org/10.1017/s1475676525100418",
           "filter": 0,
           "created": "2025-12-9"
+        },
+        {
+          "title": "Populism and governmentalism as thin-centered ideologies: Emotions and frames on social media",
+          "authors": "Giuliano Formisano, Jörg Friedrichs, Florian S. Schaffner, Niklas Stoehr",
+          "abstract": "No existing model of political rhetoric fully captures the complex interplay between the mainstream-populism divide and appealing to emotions like fear and anger. We present a new conceptualization and procedure that defines populism in relation to governmentalism, operationalizes both through communication frames, and allows for the analysis of emotions. We separate governmentalist-populist contestation from contestation between government and opposition, solving a longstanding theoretical and empirical problem. Analyzing one million tweets by politicians and their audiences, we fine-tune and employ supervised machine learning (transformer models) to classify populist and governmentalist communication. We find that populist tweets appeal more to anger and more to fear than governmentalist tweets. While we deploy our approach for tweets about Coronavirus in the UK, the procedure is transferable to other contexts and communication platforms.",
+          "url": "https://doi.org/10.1017/s147567652510042x",
+          "doi": "https://doi.org/10.1017/s147567652510042x",
+          "filter": 0,
+          "created": "2025-12-15"
         },
         {
           "title": "Too honest and humble to run for office? Citizens’ personality traits, nascent ambition, and recruitment – ADDENDUM",
@@ -156,17 +174,25 @@
       "articles_hidden": []
     },
     {
+      "journal_full": "Political Analysis",
+      "journal_short": "PA",
+      "articles": [
+        {
+          "title": "Political DEBATE: Efficient Zero-Shot and Few-Shot Classifiers for Political Text",
+          "authors": "Michael Burnham, Kayla Kahn, Ryan Yang Wang, Rachel X. Peng",
+          "abstract": "Social scientists have quickly adopted large language models (LLMs) for their ability to annotate documents without supervised training, an ability known as zero-shot classification. However, due to their computational demands, cost, and often proprietary nature, these models are frequently at odds with open science standards. This article introduces the Political Domain Enhanced BERT-based Algorithm for Textual Entailment (DEBATE) language models: Foundation models for zero-shot, few-shot, and supervised classification of political documents. As zero-shot classifiers, the models are designed to be used for common, well-defined tasks, such as topic and opinion classification. When used in this context, the DEBATE models are not only as good as state-of-the-art LLMs at zero-shot classification, but are orders of magnitude more efficient and completely open source. We further demonstrate that the models are effective few-shot learners. With a simple random sample of 10–25 documents, they can outperform supervised classifiers trained on hundreds or thousands of documents and state-of-the-art generative models. Additionally, we release the PolNLI dataset used to train these models—a corpus of over 200,000 political documents with highly accurate labels across over 800 classification tasks.",
+          "url": "https://doi.org/10.1017/pan.2025.10028",
+          "doi": "https://doi.org/10.1017/pan.2025.10028",
+          "filter": 0,
+          "created": "2025-12-15"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Political Geography",
       "journal_short": "PolGeo",
       "articles": [
-        {
-          "title": "Restoring landscapes to build common futures: Land redistribution and environmental action in rural Scotland",
-          "authors": "Adrien Chanteloup, Jayne Glass, Harry W. Fischer",
-          "url": "https://doi.org/10.1016/j.polgeo.2025.103471",
-          "doi": "https://doi.org/10.1016/j.polgeo.2025.103471",
-          "filter": 0,
-          "created": "2025-12-8"
-        },
         {
           "title": "Decolonising animal activism: engaging with Indigenous activist perspectives",
           "authors": "Esther Tordjmann, Nicole T Cook",
@@ -174,6 +200,22 @@
           "doi": "https://doi.org/10.1016/j.polgeo.2025.103472",
           "filter": 0,
           "created": "2025-12-12"
+        },
+        {
+          "title": "Amplifying vulnerability: State policy and the consolidation of a migratory chokepoint on Mexico's southern border",
+          "authors": "Miguel Paradela López, Charles Larratt-Smith",
+          "url": "https://doi.org/10.1016/j.polgeo.2025.103474",
+          "doi": "https://doi.org/10.1016/j.polgeo.2025.103474",
+          "filter": 0,
+          "created": "2025-12-15"
+        },
+        {
+          "title": "Review forum",
+          "authors": "Somdeep Sen, Debbie Lisle, Naji Safadi, Lana Tatour, Rhys Machold",
+          "url": "https://doi.org/10.1016/j.polgeo.2025.103464",
+          "doi": "https://doi.org/10.1016/j.polgeo.2025.103464",
+          "filter": 0,
+          "created": "2025-12-15"
         }
       ],
       "articles_hidden": []
@@ -190,6 +232,15 @@
           "doi": "https://doi.org/10.1017/s1049096525101674",
           "filter": 0,
           "created": "2025-12-10"
+        },
+        {
+          "title": "Forecasting the 2025 German Election: An Introduction",
+          "authors": "Bruno Jérôme, Andreas Graefe",
+          "abstract": "German federal elections have long drawn international attention due to the country’s economic influence and its pivotal role in the European Union. Over time, forecasting these elections has evolved into a sophisticated discipline, incorporating diverse models and refined methodologies to improve accuracy. Since 2013, PS: Political Science &amp; Politics has played a key role in tracking these developments by publishing three special symposia dedicated to forecasting German elections (Jérôme 2013, 2017; Jérôme and Graefe 2022). This 2025 symposium marks the fourth installment, continuing a tradition of providing scholars with a platform to share insights and reflect on the field’s ongoing expansion.",
+          "url": "https://doi.org/10.1017/s1049096525101108",
+          "doi": "https://doi.org/10.1017/s1049096525101108",
+          "filter": 0,
+          "created": "2025-12-15"
         },
         {
           "title": "Simulating Three Foreign Policy Decision-Making Models with 13 Days",
@@ -275,60 +326,12 @@
           "created": "2025-12-11"
         },
         {
-          "title": "Matching Bounds: How Choice of Matching Algorithm Impacts Treatment Effects Estimates and What to Do About It.",
-          "authors": "Marco Morucci, Cynthia Rudin",
-          "url": "https://doi.org/10.1086/739962",
-          "doi": "https://doi.org/10.1086/739962",
-          "filter": 0,
-          "created": "2025-12-8"
-        },
-        {
-          "title": "Did Shelby County v. Holder Increase the Racial Turnout Gap?",
-          "authors": "Kevin T Morris, Michael G. Miller",
-          "url": "https://doi.org/10.1086/739960",
-          "doi": "https://doi.org/10.1086/739960",
-          "filter": 0,
-          "created": "2025-12-8"
-        },
-        {
-          "title": "Expressive Politics: How Animus and Cognitive Dissonance Affect Electoral Extremism",
-          "authors": "William Howell, Stefan Krasa, Mattias Polborn",
-          "url": "https://doi.org/10.1086/739959",
-          "doi": "https://doi.org/10.1086/739959",
-          "filter": 0,
-          "created": "2025-12-8"
-        },
-        {
-          "title": "The Repression of Cultural Elites: Evidence from Argentina's Film Industry",
-          "authors": "Jane Esberg",
-          "url": "https://doi.org/10.1086/739961",
-          "doi": "https://doi.org/10.1086/739961",
-          "filter": 0,
-          "created": "2025-12-8"
-        },
-        {
-          "title": "Breadth in Judicial Opinions",
-          "authors": "Amna Salam",
-          "url": "https://doi.org/10.1086/739963",
-          "doi": "https://doi.org/10.1086/739963",
-          "filter": 0,
-          "created": "2025-12-8"
-        },
-        {
           "title": "Workplace Peer Effects in Turnout",
           "authors": "Magnus Carlsson, Henning Finseraas",
           "url": "https://doi.org/10.1086/740021",
           "doi": "https://doi.org/10.1086/740021",
           "filter": 0,
           "created": "2025-12-11"
-        },
-        {
-          "title": "Is Inequality a Side Effect of Central Bank Independence?",
-          "authors": "Michaël Aklin, Andreas Kern, Mario Negre",
-          "url": "https://doi.org/10.1086/739958",
-          "doi": "https://doi.org/10.1086/739958",
-          "filter": 0,
-          "created": "2025-12-8"
         },
         {
           "title": "Signaling Ability Through Policy Change",
@@ -339,6 +342,14 @@
           "created": "2025-12-12"
         },
         {
+          "title": "Keep Winning with WinRed? Online Fundraising Platform as the Party’s Public Good",
+          "authors": "Seo-young Silvia Kim, Zhao Li",
+          "url": "https://doi.org/10.1086/735435",
+          "doi": "https://doi.org/10.1086/735435",
+          "filter": 0,
+          "created": "2025-2-17"
+        },
+        {
           "title": "Social Density, Clientelism, and Community Benefits",
           "authors": "Jeremy Spater, Erik Wibbels",
           "url": "https://doi.org/10.1086/734922",
@@ -347,12 +358,36 @@
           "created": "2025-1-22"
         },
         {
+          "title": "Donors and Dollars: Comparing the Policy Views of Donors and the Affluent",
+          "authors": "Michael Barber, Brandice Canes-Wrone, Joshua Clinton, Gregory Huber",
+          "url": "https://doi.org/10.1086/736337",
+          "doi": "https://doi.org/10.1086/736337",
+          "filter": 0,
+          "created": "2025-4-22"
+        },
+        {
+          "title": "Bureaucrats in Congress: The Politics of Interbranch Information Sharing",
+          "authors": "Pamela Ban, Ju Yeon Park, Hye Young You",
+          "url": "https://doi.org/10.1086/735440",
+          "doi": "https://doi.org/10.1086/735440",
+          "filter": 0,
+          "created": "2025-2-17"
+        },
+        {
           "title": "Arms and Elections: Arms Deals with Autocracies, Defense Contracting and US Presidential Elections",
           "authors": "Joshua Alley",
           "url": "https://doi.org/10.1086/734278",
           "doi": "https://doi.org/10.1086/734278",
           "filter": 0,
           "created": "2024-12-13"
+        },
+        {
+          "title": "Does School Debating Reduce Vulnerability to Misinformation? A Field Experiment in Poland",
+          "authors": "Krzysztof Krakowski, Bernhard Clemm von Hohenberg, Davide Morisi",
+          "url": "https://doi.org/10.1086/735707",
+          "doi": "https://doi.org/10.1086/735707",
+          "filter": 0,
+          "created": "2025-3-11"
         }
       ],
       "articles_hidden": []

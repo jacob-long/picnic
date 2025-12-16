@@ -1,5 +1,5 @@
 {
-  "update": "2025-12-15",
+  "update": "2025-12-16",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -31,24 +31,6 @@
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "Contextual assembly of lexical functions in large language models",
-          "authors": "Christopher T. Kello, Polyphony Bruna, Kanly Thao",
-          "abstract": "Neural network modeling has played a central role in psycholinguistic studies of lexical processing, but the recent advent of large language models (LLMs) offers a different approach that may yield new insights into the mental lexicon. Four LLMs were prompted across three experiments to test how they generate psycholinguistic ratings of words in comparison with humans. LLM ratings, averaged across varying list contexts, were found to be highly correlated with human ratings, and differences in correlation strengths were partly explained by differences in rating ambiguity. LLM context manipulations strengthened correlations with human ratings through better calibration, and variability in LLM ratings was correlated with human inter-rater variability. Additional results from testing LLM generation of word naming latencies showed functional deviations from factors that underlie human word naming, indicating that lexical function assembly in LLMs is currently limited by patterns of co-occurrence in textual data. Patterns at finer-grained timescales are needed in the training data to model online lexical processes. We conclude that LLMs used context to guide the assembly of generalized lexical functions, rather than recalling ratings and latencies from training data.",
-          "url": "https://doi.org/10.3758/s13428-025-02898-7",
-          "doi": "https://doi.org/10.3758/s13428-025-02898-7",
-          "filter": 0,
-          "created": "2025-12-8"
-        },
-        {
-          "title": "Extensions of multinomial processing tree models for continuous variables: A simulation study comparing parametric and non-parametric approaches",
-          "authors": "Anahí Gutkin, Daniel W. Heck",
-          "abstract": "Both parametric and non-parametric extensions of the multinomial processing tree (MPT) models have been proposed for jointly modeling discrete and continuous variables. Since the two approaches have not yet been compared systematically, we assess their power and robustness in three simulation studies focusing on the weapon identification task. In this context, two statistically equivalent MPT models have been proposed, namely, the preemptive-conflict-resolution model (PCRM) and the default-interventionist model (DIM), which differ only in their assumptions regarding the order of latent processes (i.e., response times, RTs). The first simulation evaluates the calibration and statistical power of the nonstandard goodness-of-fit test for the parametric approach (i.e., the Dzhaparidze–Nikulin statistic), as well as the ability of different distributional assumptions to fit simulated RT data. The second simulation compares nested models to study the power for testing hypotheses about RTs within each model. The third simulation focuses on model-recovery performance for the two non-nested models. In all three simulations, we manipulated the size and nature of discrepancies (location/scale or shape) between latent RT distributions, sample size, and parametric assumptions. Results show that the parametric approach has higher statistical power but is also sensitive to misspecifications of distributional assumptions. In contrast, the non-parametric approach is more robust but less powerful, especially with small samples. We provide recommendations on when to use each approach and highlight the importance of properly specifying and selecting extended MPT models.",
-          "url": "https://doi.org/10.3758/s13428-025-02896-9",
-          "doi": "https://doi.org/10.3758/s13428-025-02896-9",
-          "filter": 0,
-          "created": "2025-12-8"
-        },
-        {
           "title": "Tobit modeling for dependent-sample t-tests and moderated regression with ceiling or floor data",
           "authors": "Lijuan Wang, Ruoxuan Li",
           "abstract": "Ceiling or floor effects pose analytic challenges in behavioral and psychological research. In this study, we developed novel Tobit modeling approaches, estimated using maximum likelihood (ML) or Bayesian methods, to address these effects for widely used statistical analyses, including the dependent-sample t -test and moderated regression. Simulation studies were conducted to compare the performance of the proposed modeling approaches to the conventional approach where ceiling or floor data are treated as if true values. The conventional approach was found to yield biased estimates, inflated Type I error rates, and poor confidence interval coverage, even with as little as 10% ceiling data. In contrast, the proposed approaches with either ML or Bayesian estimation provided accurate estimates and inference results across most studied conditions (e.g., with 30% ceiling data). Real data examples further illustrated the impact of modeling choices. To facilitate implementations of the proposed Tobit modeling approaches, we provide simulated datasets along with R and Mplus scripts online. Implications of the findings and future research directions were discussed.",
@@ -74,33 +56,6 @@
           "doi": "https://doi.org/10.3758/s13428-025-02906-w",
           "filter": 0,
           "created": "2025-12-10"
-        },
-        {
-          "title": "SocioLex-CZ: Normative estimates for socio-semantic dimensions of meaning for 2,999 words and 1,000 images",
-          "authors": "Mikuláš Preininger, James Brand, Adam Kříž, Markéta Ceháková",
-          "abstract": "When we encounter words, we activate not only the social information provided by the speaker, but also the rich semantics of the words’ meaning, and quantifying this information is a key challenge for the cognitive and behavioural sciences. Although there are many resources available that quantify affective and sensorimotor information, there are relatively few resources available that provide information on social dimensions of meaning. We present the SocioLex-CZ norms, where the primary focus is on socio-semantic dimensions of meaning. Across two experiments, we introduce normative estimates along five dimensions—gender, political alignment, location, valence and age—for a large set of Czech words (Experiment 1) and images (Experiment 2) from 1,709 participants. We provide a series of analyses demonstrating that the norms have good reliability, and present exploratory analyses examining how the variables interact with one another within and between words/images. These norms present a valuable dataset that quantifies socio-semantic representations at scale, which we hope will be used for a range of novel and multidisciplinary applications, thereby opening up new pathways for innovative research. We make the data, code and analysis available at https://osf.io/pv9md/ and also provide an interactive web app at https://tinyurl.com/sociolex-cz-app .",
-          "url": "https://doi.org/10.3758/s13428-025-02907-9",
-          "doi": "https://doi.org/10.3758/s13428-025-02907-9",
-          "filter": 0,
-          "created": "2025-12-8"
-        },
-        {
-          "title": "Introducing the kollaR package: A user-friendly open-access solution for eye-tracking analysis and visualization",
-          "authors": "Johan Lundin Kleberg, Astrid E. Z. Hallman, Rebecka Astenvald, Ann Nordgren, Terje Falck-Ytter, Ronald van den Berg",
-          "abstract": "Eye tracking has become an increasingly important tool in cognitive and developmental research, providing insights into processes that are difficult to measure otherwise. The majority of eye-tracking studies rely on accurate identification of fixations and saccades in raw data using event classification algorithms (sometimes called fixation filters). Subsequently, it is common to analyze whether fixations or saccades fall into specific areas of interest (AOI). The choice of algorithms can significantly influence study outcomes, especially in special populations such as young children or individuals with neurodevelopmental conditions, where data quality is often compromised by factors such as signal loss, poor calibration, or movement artifacts. It is therefore crucial to examine how available fixation classification algorithms affect the data set at hand as part of the eye-tracking analysis. Here, we introduce the kollaR package, an open-source R library for performing the main steps of an eye-tracking analysis from event classification to AOI-based analyses and visualizations of individual or group-level data for publications. The kollaR package was specifically designed to facilitate the selection and comparison of different event classification algorithms through visualizations. In a validation analysis, we show that results from fixation classification in kollaR are consistent with those from other software implementations of the same algorithms. We demonstrate the use of kollaR with real data from typically developing individuals and individuals with neurodevelopmental conditions, and illustrate how potential threats to validity can be identified in both high- and low-quality data.",
-          "url": "https://doi.org/10.3758/s13428-025-02903-z",
-          "doi": "https://doi.org/10.3758/s13428-025-02903-z",
-          "filter": 0,
-          "created": "2025-12-8"
-        },
-        {
-          "title": "The individual-level precision of implicit measures",
-          "authors": "Jamie Cummins, Ian Hussey",
-          "abstract": "Implicit measures are used extensively in psychological science. One fundamental goal of these measures is to provide information diagnostic of an individual’s attitudes or beliefs. After 25 years of research, this goal has not been achieved. We argue that this is because psychologists have not yet even quantified the individual-level precision of implicit measures, much less calibrated them to it. In this paper, we examine the individual-level precision of six different implicit measures across three different attitude domains (race, politics, and self-esteem) using a very large open dataset. Despite some variation, we find that there is substantial room for improvement for the precision of implicit measures as measures of individual attitudes. We recommend that researchers who wish to make theoretical inferences about individuals directly quantify individual-level precision to calibrate their tasks appropriately, both in the context of implicit measures and with tasks in psychological science more broadly.",
-          "url": "https://doi.org/10.3758/s13428-025-02873-2",
-          "doi": "https://doi.org/10.3758/s13428-025-02873-2",
-          "filter": 0,
-          "created": "2025-12-8"
         }
       ],
       "articles_hidden": []
@@ -141,24 +96,6 @@
       "journal_short": "GPIR",
       "articles": [
         {
-          "title": "Their sinister plans validate our greatness! Need for uniqueness mediates the link between national narcissism and conspiracy beliefs",
-          "authors": "Adam Karakula, Marta Marchlewska, Zuzanna Molenda, Marta Rogoza",
-          "abstract": "Conspiracy endorsement has previously been linked to national narcissism—an unrealistic belief in the greatness of the national in-group. In this research, we explore the role of the need for uniqueness in explaining why national narcissists seize on conspiracy theories. In Study 1 ( N = 1,000), we found that a self-attributed need for uniqueness mediated the link between national narcissism and conspiracy beliefs. In Study 2 ( N = 387), we introduced the novel concept in the form of a group-attributed need for uniqueness and found its role in explaining the relationship between national narcissism and conspiracy beliefs. In Study 3 ( N = 799), we considered both types of the need for uniqueness and observed only group-attributed need for uniqueness as a significant mediator of the relationship between national narcissism and conspiracy beliefs. In Study 4 ( N = 1,616), we experimentally increased national narcissism and observed its positive effect on conspiracy beliefs targeting in-group (vs. out-group) members. This effect was mediated by group-attributed need for uniqueness. Results shed light on psychological motives that may drive conspiracy beliefs among collective narcissists.",
-          "url": "https://doi.org/10.1177/13684302251391148",
-          "doi": "https://doi.org/10.1177/13684302251391148",
-          "filter": 0,
-          "created": "2025-12-8"
-        },
-        {
-          "title": "Beyond national identity: The positive role of local identity in shaping attitudes to international and internal migration",
-          "authors": "Sabina Toruńczyk-Ruiz, Zuzanna Brunarska, Aneta Piekut",
-          "abstract": "Research on the link between social identification and attitudes toward immigration has primarily focused on national identification and international migrants, often overlooking the local level. Combining social identity theory and a place identity perspective on intergroup dynamics, we examine national and local identification, as well as their interplay, as determinants of attitudes toward international and internal migration. Our analysis is based on nationally representative samples from Austria, Czechia, Germany, Hungary, Poland, and Slovakia ( N = 10,765) from the Central European Social Survey (2021–2022). We found that national identity was associated with more negative attitudes toward international migration, but not internal migration. In contrast, local identity was linked to more welcoming attitudes toward both international and internal migration, and it neutralized the negative effect of national identity on attitudes toward international migration. Overall, our findings highlight the inclusive role of local identity in shaping immigration attitudes, particularly in contexts characterized by high anti-immigrant sentiment.",
-          "url": "https://doi.org/10.1177/13684302251391155",
-          "doi": "https://doi.org/10.1177/13684302251391155",
-          "filter": 0,
-          "created": "2025-12-8"
-        },
-        {
           "title": "Intergroup relations after being ostracized and included by one’s own two in-groups",
           "authors": "Erez Yaakobi, Idit Shalev, Shenhav Malul",
           "abstract": "Despite the rise in exogamous marriages, little is known about how adolescents with parents from two different religious backgrounds experience social exclusion and acceptance. Two experimental ostracism-inducing studies examined needs satisfaction among Israeli adolescents aged 12–19 with a Muslim mother–Jewish father or vice versa when excluded or included by members of either parent’s group. The control groups consisted of adolescents with two Muslim or two Jewish parents. When playing Cyberball against ostensibly Jewish or Muslim opponents, the control participants showed a classic in-group effect: lower needs satisfaction when excluded and higher when included by their in-group. By contrast, split-identity adolescents reported the lowest needs satisfaction when excluded by either group, but the highest when included by members of the community in which they lived (Study 1: Muslim; Study 2: Jewish). The findings underscore the importance of social context for identity formation and intergroup relations and point to interventions to reduce conflict and support split-identity youth.",
@@ -190,28 +127,12 @@
       "journal_short": "JPSP",
       "articles": [
         {
-          "title": "What we owe to ourselves: Investigating people’s sense of obligations to the self.",
-          "authors": "Laura K. Soter, Susan A. Gelman, Fan Yang",
-          "url": "https://doi.org/10.1037/pspa0000474",
-          "doi": "https://doi.org/10.1037/pspa0000474",
+          "title": "Associations of fear, anger, happiness, and hope with risk judgments: Revisiting appraisal-tendency framework with a replication and extensions registered report of Lerner and Keltner (2001).",
+          "authors": "Sirui Lu, Emir Efendić, Gilad Feldman",
+          "url": "https://doi.org/10.1037/pspp0000586",
+          "doi": "https://doi.org/10.1037/pspp0000586",
           "filter": 0,
-          "created": "2025-12-8"
-        },
-        {
-          "title": "Self-essentialism underlies social projection to unfamiliar similar others.",
-          "authors": "Charles Chu, Lydia Needy, Rebecca Schlegel",
-          "url": "https://doi.org/10.1037/pspa0000475",
-          "doi": "https://doi.org/10.1037/pspa0000475",
-          "filter": 0,
-          "created": "2025-12-8"
-        },
-        {
-          "title": "Allocator-recipient asymmetries in resource allocation preferences: A focus on bequests.",
-          "authors": "Chang-Yuan Lee, Tanjim Hossain",
-          "url": "https://doi.org/10.1037/pspi0000509",
-          "doi": "https://doi.org/10.1037/pspi0000509",
-          "filter": 0,
-          "created": "2025-12-8"
+          "created": "2025-12-15"
         },
         {
           "title": "Individualism–collectivism: Reconstructing Hofstede’s dimension of cultural differences.",
@@ -222,12 +143,28 @@
           "created": "2025-12-11"
         },
         {
-          "title": "Personality and mortality risk: A systematic review and meta-analysis of longitudinal data.",
-          "authors": "Máire McGeehan, Angelina R. Sutin, Stephen Gallagher, Antonio Terracciano, Nicholas A. Turiano, Elayne Ahern, Emma M. Kirwan, Martina Luchetti, Eileen K. Graham, Páraic S. O'Súilleabháin",
-          "url": "https://doi.org/10.1037/pspp0000577",
-          "doi": "https://doi.org/10.1037/pspp0000577",
+          "title": "Exploring the counteractive effects of mandating diversity training: Solution aversion, reactance, and polarized social beliefs.",
+          "authors": "Peter Jin, Gavan J. Fitzsimons, Aaron C. Kay",
+          "url": "https://doi.org/10.1037/pspi0000510",
+          "doi": "https://doi.org/10.1037/pspi0000510",
           "filter": 0,
-          "created": "2025-12-8"
+          "created": "2025-12-15"
+        },
+        {
+          "title": "Talking about what we support versus oppose affects others’ openness to our views.",
+          "authors": "Rhia Catapano, Zakary L. Tormala",
+          "url": "https://doi.org/10.1037/pspa0000473",
+          "doi": "https://doi.org/10.1037/pspa0000473",
+          "filter": 0,
+          "created": "2025-12-15"
+        },
+        {
+          "title": "Being present: Witnessing landmark historical events boosts meaning in life.",
+          "authors": "Yige Yin, Yuling Wang, Xiaohan Wu, Xiaoqi Sun, Joshua A. Hicks, Tim Wildschut, Constantine Sedikides, Tonglin Jiang",
+          "url": "https://doi.org/10.1037/pspi0000511",
+          "doi": "https://doi.org/10.1037/pspi0000511",
+          "filter": 0,
+          "created": "2025-12-15"
         }
       ],
       "articles_hidden": []
@@ -249,55 +186,40 @@
       "articles_hidden": []
     },
     {
-      "journal_full": "Psychological Methods",
-      "journal_short": "PM",
+      "journal_full": "Psychological Bulletin",
+      "journal_short": "PsychBull",
       "articles": [
         {
-          "title": "Simplicity, complexity, and the standardized mean difference between two independent groups.",
-          "authors": "Paul Dudgeon",
-          "url": "https://doi.org/10.1037/met0000780",
-          "doi": "https://doi.org/10.1037/met0000780",
+          "title": "Data extraction by generative artificial intelligence: Assessing determinants of accuracy using human-extracted data from systematic review databases.",
+          "authors": "Thorben Jansen, Lucas W. Liebenow, Ute Mertens, Fabian T. C. Schmidt, Julian F. Lohmann, Johanna Fleckenstein, Jennifer Meyer",
+          "url": "https://doi.org/10.1037/bul0000501",
+          "doi": "https://doi.org/10.1037/bul0000501",
           "filter": 0,
-          "created": "2025-12-8"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Psychological Science",
-      "journal_short": "PsychSci",
-      "articles": [
-        {
-          "title": "Representational Momentum Transcends Motion",
-          "authors": "Dillon Plunkett, Jorge Morales",
-          "abstract": "To navigate the world, our minds must represent not only how things are now (perception) but also how they are about to be (prediction). However, perception and prediction blur together for objects in motion, a classic finding known as “representational momentum.” If you glance at a photo of a person diving into a lake, you will tend to remember them closer to the water than they really were. In seven experiments (with adult participants from the United States) we show that this phenomenon transcends motion: Our minds make predictions that distort our memories about changes that involve no motion whatsoever, including changes in brightness, color saturation, and proportion. Additionally, we use representational momentum to map the limits of automatic prediction, showing that there are no analogous effects for changes in hue. Our automatic predictions distort our memories in many domains—not just motion—and the presence or absence of these distortions expose the inner workings of perception, cognition, and memory.",
-          "url": "https://doi.org/10.1177/09567976251395074",
-          "doi": "https://doi.org/10.1177/09567976251395074",
-          "filter": 0,
-          "created": "2025-12-8"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Technology, Mind, and Behavior",
-      "journal_short": "TMB",
-      "articles": [
-        {
-          "title": "Supplemental Material for Links between adolescent time-use sequences and well-being.",
-          "authors": "Elizabeth W. Chan, Natalie S. T. Cheung, Jessie Y. S. Choy, Felix Cheung",
-          "url": "https://doi.org/10.1037/tmb0000180.supp",
-          "doi": "https://doi.org/10.1037/tmb0000180.supp",
-          "filter": 0,
-          "created": "2025-12-8"
+          "created": "2025-12-15"
         },
         {
-          "title": "Links between adolescent time-use sequences and well-being.",
-          "authors": "Elizabeth W. Chan, Natalie S. T. Cheung, Jessie Y. S. Choy, Felix Cheung",
-          "url": "https://doi.org/10.1037/tmb0000180",
-          "doi": "https://doi.org/10.1037/tmb0000180",
+          "title": "Content knowledge and comprehension: A meta-analytic review of correlational and causal associations.",
+          "authors": "Young-Suk Grace Kim, Yucheng Cao",
+          "url": "https://doi.org/10.1037/bul0000502",
+          "doi": "https://doi.org/10.1037/bul0000502",
           "filter": 0,
-          "created": "2025-12-8"
+          "created": "2025-12-15"
+        },
+        {
+          "title": "Attention bias for facial expressions of emotion: A meta-analytic review.",
+          "authors": "Joshua W. Maxwell, Robert D. Torrence, Eric Ruthruff",
+          "url": "https://doi.org/10.1037/bul0000496",
+          "doi": "https://doi.org/10.1037/bul0000496",
+          "filter": 0,
+          "created": "2025-12-15"
+        },
+        {
+          "title": "The approach-inhibition theory of power: A meta-analytic test and synthesis.",
+          "authors": "Tyler B. Sabey, Braydon C. Shanklin, Jason A. Colquitt, Michael D. Baer",
+          "url": "https://doi.org/10.1037/bul0000500",
+          "doi": "https://doi.org/10.1037/bul0000500",
+          "filter": 0,
+          "created": "2025-12-15"
         }
       ],
       "articles_hidden": []
