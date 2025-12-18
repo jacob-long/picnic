@@ -1,5 +1,5 @@
 {
-  "update": "2025-12-16",
+  "update": "2025-12-18",
   "content": [
     {
       "journal_full": "Journal of Elections, Public Opinion and Parties",
@@ -17,33 +17,17 @@
       "articles_hidden": []
     },
     {
-      "journal_full": "Journal of Official Statistics",
-      "journal_short": "JOS",
-      "articles": [
-        {
-          "title": "Multiplicative Decompositions of GEKS-Type Indices into the Contribution of Individual Commodities",
-          "authors": "Jacek Białek",
-          "abstract": "Price index decomposition allows the National Statistical Institute to break down aggregated price movements into contributions of individual commodities or product groups. In particular, decomposing multilateral indices, which combine many different time comparisons within the time window, can be useful in understanding and interpreting them by common users. This paper discusses multiplicative decompositions of multilateral GEKS-type indices, among which, currently, the GEKS-F and GEKS-T formulas are the most widely used. The paper also provides a multiplicative decomposition of the known GEKS-W index, as well as a decomposition of the GEKS-L, GEKS-GL, and GEKS-LM multilateral indices recently proposed in the literature. The paper also proposes normalized multiplicative decompositions of multilateral indices along with a relative commodity impact measure to enable comparisons of commodity contributions between products and across indices. The effects of these decompositions are demonstrated on two real scanner data sets from the food product segment.",
-          "url": "https://doi.org/10.1177/0282423x251394243",
-          "doi": "https://doi.org/10.1177/0282423x251394243",
-          "filter": 0,
-          "created": "2025-12-9"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
       "journal_full": "Journal of Survey Statistics and Methodology",
       "journal_short": "JSSAM",
       "articles": [
         {
-          "title": "ANALYZING LIST-STYLE OPEN-ENDED QUESTIONS: COMBINING TEXTS FROM INDIVIDUAL ANSWER BOXES IMPROVES CLASSIFICATION WITH LANGUAGE MODELS",
-          "authors": "Ruben L Bach, Matthias Schonlau, Katharina Meitinger",
-          "abstract": "List-style open-ended questions allow for multiple answers. Previous research on the design of such questions found that providing multiple small answer boxes yields more and richer answers than providing one larger answer box. Using a series of classifiers based on the Bidirectional Encoder Representations from Transformers language model, we empirically study how this design choice affects the classification of such answers. We design a 2 × 2 factorial experiment: (i) analysis with a multi-label versus single-label classifier and (ii) answers obtained from one larger answer box versus multiple smaller answer boxes. We find that the multi-label classifier gives more accurate results than the single-label classifier (1 percent versus 9 percent misclassification of individual labels), regardless of how the answers were obtained. Surprisingly, analysis with a multi-label classifier is preferable. We attribute this success to the classifier’s ability to use label correlations. We conclude that list-style open-ended questions should continue to provide multiple answer boxes due to better data quality. However, answer boxes should be concatenated for analysis to improve classification performance.",
-          "url": "https://doi.org/10.1093/jssam/smaf023",
-          "doi": "https://doi.org/10.1093/jssam/smaf023",
+          "title": "On Admissibility in Bipartite Incidence Graph Sampling",
+          "authors": "Pedro García-Segador, Li-Chun Zhang",
+          "abstract": "In bipartite incidence graph sampling, the target study units may be formed as connected population elements, which are distinct from the units of sampling, and there may exist generally more than one way by which a given study unit can be observed via sampling units. This generalizes finite-population element or multistage sampling, where each element can only be sampled directly or via a single primary sampling unit. We study the admissibility of estimators in bipartite incidence graph sampling, where a minimal level of knowledge is available of the connections between the sampling and study units to enable design-unbiased estimation. We prove that there exist many other admissible estimators than the classic Horvitz–Thompson estimator. Our result also fills a gap in the literature of unconventional finite-population sampling, where other unbiased estimators provide alternatives to the Horvitz–Thompson estimator.",
+          "url": "https://doi.org/10.1093/jssam/smaf042",
+          "doi": "https://doi.org/10.1093/jssam/smaf042",
           "filter": 0,
-          "created": "2025-8-19"
+          "created": "2025-10-18"
         }
       ],
       "articles_hidden": []
