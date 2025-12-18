@@ -1,19 +1,10 @@
 {
-  "update": "2025-12-16",
+  "update": "2025-12-18",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
       "journal_short": "AMPPS",
       "articles": [
-        {
-          "title": "Towards a Clearer Understanding of Causal Estimands: The Importance of Joint Effects in Longitudinal Designs With Time-Varying Treatments",
-          "authors": "Lukas Junker, Ramona Schoedel, Florian Pargent",
-          "abstract": "Longitudinal studies with time-varying treatments or exposures make it hard to figure out “what effect” is being estimated. Drawing on causal inference, we clarify this by distinguishing between total, direct, and—centrally—joint effects, defined within the potential-outcomes framework and illustrated with directed acyclic graphs. Joint effects extend average treatment effects to repeated interventions, providing a practical measure of combined intervention effects over time. Using a worked example on smartphone use and sleep quality, we demonstrate how different estimands answer different questions, why single total effects can sometimes mislead in longitudinal settings, and how joint effects capture strategy-level consequences across time. A key practical takeaway is that joint effects can be estimated in both experimental and observational studies. In the latter, it typically suffices to adjust only for variables that govern treatment decisions at each time point rather than modeling the entire causal system. Building on this, we propose covariate-driven treatment assignment (information-restriction designs in which decisions depend only on observed covariates) as a practical route to causal inference in nonexperimental psychology, and we connect these designs to estimation via g-methods from epidemiology. We provide open materials, including R code, to support adoption.",
-          "url": "https://doi.org/10.1177/25152459251391174",
-          "doi": "https://doi.org/10.1177/25152459251391174",
-          "filter": 0,
-          "created": "2025-12-10"
-        },
         {
           "title": "Investigating the Barriers and Enablers to Data-Sharing Behaviors: A Qualitative Registered Report",
           "authors": "Emma L. Henderson, Ruth Abrams, Afrodita Marcu, Lou Atkins, Emily K. Farran",
@@ -27,51 +18,9 @@
       "articles_hidden": []
     },
     {
-      "journal_full": "Behavior Research Methods",
-      "journal_short": "BRM",
-      "articles": [
-        {
-          "title": "Tobit modeling for dependent-sample t-tests and moderated regression with ceiling or floor data",
-          "authors": "Lijuan Wang, Ruoxuan Li",
-          "abstract": "Ceiling or floor effects pose analytic challenges in behavioral and psychological research. In this study, we developed novel Tobit modeling approaches, estimated using maximum likelihood (ML) or Bayesian methods, to address these effects for widely used statistical analyses, including the dependent-sample t -test and moderated regression. Simulation studies were conducted to compare the performance of the proposed modeling approaches to the conventional approach where ceiling or floor data are treated as if true values. The conventional approach was found to yield biased estimates, inflated Type I error rates, and poor confidence interval coverage, even with as little as 10% ceiling data. In contrast, the proposed approaches with either ML or Bayesian estimation provided accurate estimates and inference results across most studied conditions (e.g., with 30% ceiling data). Real data examples further illustrated the impact of modeling choices. To facilitate implementations of the proposed Tobit modeling approaches, we provide simulated datasets along with R and Mplus scripts online. Implications of the findings and future research directions were discussed.",
-          "url": "https://doi.org/10.3758/s13428-025-02904-y",
-          "doi": "https://doi.org/10.3758/s13428-025-02904-y",
-          "filter": 0,
-          "created": "2025-12-10"
-        },
-        {
-          "title": "Synthesis and perceptual scaling of high-resolution naturalistic images using Stable Diffusion",
-          "authors": "Leonardo Pettini, Carsten Bogler, Christian Doeller, John-Dylan Haynes",
-          "abstract": "Naturalistic scenes are of key interest for visual perception, but controlling their perceptual and semantic properties is challenging. Previous work on naturalistic scenes has frequently focused on collections of discrete images with considerable physical differences between stimuli. However, it is often desirable to assess representations of naturalistic images that vary along a continuum. Traditionally, perceptually continuous variations of naturalistic stimuli have been obtained by morphing a source image into a target image. This produces transitions driven mainly by low-level physical features and can result in semantically ambiguous outcomes. More recently, generative adversarial networks (GANs) have been used to generate continuous perceptual variations within a stimulus category. Here, we extend and generalize this approach using a different machine learning approach, a text-to-image diffusion model (Stable Diffusion XL), to generate a freely customizable stimulus set of photorealistic images that are characterized by gradual transitions, with each image representing a unique exemplar within a prompted category. We demonstrate the approach by generating a set of 108 object scenes from six categories. For each object scene, we generate ten variants that are ordered along a perceptual continuum. This ordering was first estimated using a machine learning model of perceptual similarity (LPIPS) and then subsequently validated with a large online sample of human participants. In a subsequent experiment, we show that this ordering is also predictive of stimulus confusability in a working memory task. Our image set is suited for studies investigating the graded encoding of naturalistic stimuli in visual perception, attention, and memory.",
-          "url": "https://doi.org/10.3758/s13428-025-02889-8",
-          "doi": "https://doi.org/10.3758/s13428-025-02889-8",
-          "filter": 0,
-          "created": "2025-12-10"
-        },
-        {
-          "title": "ThreatSim: A novel stimuli database of threatening and nonthreatening image pairs rated for similarity",
-          "authors": "Andras N. Zsido, Michael C. Hout, Eben W. Daggett, Julia Basler, Otilia Csonka, Bahtiyar Yıldız, Marko Hernandez, Bryan White, Botond Laszlo Kiss",
-          "abstract": "Researchers often require validated and well-rounded sets of image stimuli. For those interested in understanding the various visual attentional biases toward threatening stimuli, a dataset containing a variety of such objects is urgently needed. Here, our goal was to create an image database of animate and inanimate objects, including those that people find threatening and those that are visually similar to them but are not considered threatening. To do this, we recruited participants ( N = 77) for an online survey in which they were asked to name threatening objects and try to come up with a visually similar counterpart. We then used the survey results to create a list of 32 objects, including eight from each crossing of threatening versus nonthreatening and animate versus inanimate. We obtained 20 exemplar images from each category (640 unique images in total, all copyright-free and openly shared). An independent sample of participants ( N = 191) judged the similarity of these images using the spatial arrangement method. Data were then modeled using multidimensional scaling. Our results present modeling outcomes using a “map” of animate and inanimate objects (separately) that spatially conveys the perceived similarity relationships between them. We expect that this image set will be widely used in future visual attention studies and more.",
-          "url": "https://doi.org/10.3758/s13428-025-02906-w",
-          "doi": "https://doi.org/10.3758/s13428-025-02906-w",
-          "filter": 0,
-          "created": "2025-12-10"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
       "journal_full": "Computers in Human Behavior",
       "journal_short": "CHB",
       "articles": [
-        {
-          "title": "For whom does online social support matter most? Exploring the joint moderating roles of depressive symptoms and physical functioning in the relationship between online social support and quality of life",
-          "authors": "Juwon Hwang",
-          "url": "https://doi.org/10.1016/j.chb.2025.108893",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108893",
-          "filter": 0,
-          "created": "2025-12-10"
-        },
         {
           "title": "Risk profiles for the perpetration of non-consensual sharing of sexual content among Spanish adolescents: a cross-sectional and longitudinal study",
           "authors": "Estrella Durán-Guerrero, Virginia Sánchez-Jiménez, Noelia Muñoz-Fernández",
@@ -81,12 +30,20 @@
           "created": "2025-12-11"
         },
         {
-          "title": "Altered uncertainty processing during adaptive learning in internet gaming disorder",
-          "authors": "Yi-Xu Pang, Lei Zhang, Yuan-Wei Yao, Marc N. Potenza, Lu Liu",
-          "url": "https://doi.org/10.1016/j.chb.2025.108882",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108882",
+          "title": "Think Twice, Scroll Once: Encouraging Critical Reflection as a Shield against Health Misinformation and Overgeneralized Messaging by Social Media Influencers",
+          "authors": "Jaroslava Kaňková, Jörg Matthes",
+          "url": "https://doi.org/10.1016/j.chb.2025.108896",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108896",
           "filter": 0,
-          "created": "2025-12-10"
+          "created": "2025-12-17"
+        },
+        {
+          "title": "Negative Perceptions of Outsourcing to Artificial Intelligence",
+          "authors": "Scott Claessens, Pierce Veitch, Jim A.C. Everett",
+          "url": "https://doi.org/10.1016/j.chb.2025.108894",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108894",
+          "filter": 0,
+          "created": "2025-12-17"
         }
       ],
       "articles_hidden": []
@@ -111,6 +68,14 @@
       "journal_full": "Journal of Experimental Social Psychology",
       "journal_short": "JESP",
       "articles": [
+        {
+          "title": "A (costly) penny for your thoughts? Allies cause harm by seeking marginalized group members' help when confronting prejudice",
+          "authors": "Merrick R. Osborne, Eric M. Anicich, Cydney H. Dupree",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104865",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104865",
+          "filter": 0,
+          "created": "2025-12-17"
+        },
         {
           "title": "Distinct modulatory effects of altruistic and deontological guilt on neural processes of empathy",
           "authors": "Ziyu Zhang, Tingji Chen",
@@ -174,6 +139,33 @@
       "journal_short": "PSPB",
       "articles": [
         {
+          "title": "Psychological Approaches to Good Luck: The Role of Rituals in Uncertainty",
+          "authors": "Xiang Wang, Keli Yin",
+          "abstract": "In uncertain situations, people perform physical actions through rituals to attract good fortune. Five experiments ( N = 725) investigated the impacts of rituals, uncertainty, physical actions, and psychological distance on luck perception. Experiments 1A–1C examined whether performing rituals under uncertain situations influenced luck perceptions. The results showed that performing rituals increased the feeling of luck only under conditions of uncertainty, and not certainty. Experiment 2 compared the equivalent roles of different ritual movements (pulling versus pushing) and tested the mediating role of psychological distance in different rituals affecting luck perception. Experiment 3 illustrated that pulling actions increased the feeling of luck even without the ritual attribute, whereas pushing actions did not, thus explaining the mediation mechanism. Our research proposed new functions of rituals in enhancing luck perceptions and their psychological mechanisms and underscored the role of uncertain situations and actions in rituals that influence luck perceptions.",
+          "url": "https://doi.org/10.1177/01461672251398619",
+          "doi": "https://doi.org/10.1177/01461672251398619",
+          "filter": 0,
+          "created": "2025-12-16"
+        },
+        {
+          "title": "Dehumanization as a Bridge Between Relationship Modes and Meaning in Life",
+          "authors": "Jingyan Wang, Hong Zhang",
+          "abstract": "Five studies (total valid N = 1,781, primarily young adults from China, with one study involving residents of the United States) were conducted to investigate the link between relationship modes (exchange vs. communal) and meaning in life. Study 1 revealed significant associations among relationship modes, dehumanization, and meaning in life. Studies 2, 3a, and 3b showed that the priming of an exchange (vs. communal) mode led to lower meaning in life, with this effect mediated by the experience of dehumanization. Moreover, Study 3a also found that individuals with higher (vs. lower) relational-interdependent self-construal were more prone to feel dehumanized in exchange relationships. In Study 4, a causal relation between the experience of dehumanization and meaning in life was confirmed through a manipulation of dehumanization. The studies illustrate how relationship modes may influence our existence as human beings and shed light on the improvement of human experience and meaning in life.",
+          "url": "https://doi.org/10.1177/01461672251396592",
+          "doi": "https://doi.org/10.1177/01461672251396592",
+          "filter": 0,
+          "created": "2025-12-16"
+        },
+        {
+          "title": "Who Signs Up for Singlehood and Romantic Relationship Studies? Examining Volunteer Bias in Online Recruitment",
+          "authors": "Elaine Hoan, Yoobin Park, Geoff MacDonald",
+          "abstract": "Research involving self-report methods risks volunteer bias, which can undermine validity by attracting particular participant types. What is the risk of such bias when participants choose studies on online recruitment platforms? The current study (Study 1: N = 1,595; M age = 28.45; Study 2: N = 2,777; M age = 31.18) examined volunteer bias in online studies, using the context of recruiting individuals for singlehood and romantic relationship research. Participants were recruited via Prolific for a study about “people’s lifestyles,” or “singlehood [or romantic relationships] and people’s lifestyles.” We assessed and compared their demographics, individual differences, feelings about singlehood/partnership, and well-being. No consistent differences emerged across recruitment framings, suggesting that advertisement wording did not selectively attract distinct Prolific participants. These data support one aspect of the validity of online singlehood and relationship research, suggesting that low-effort studies conducted on online platforms may suffer less from volunteer bias than other research recruitment strategies.",
+          "url": "https://doi.org/10.1177/01461672251390020",
+          "doi": "https://doi.org/10.1177/01461672251390020",
+          "filter": 0,
+          "created": "2025-12-16"
+        },
+        {
           "title": "Impartial Beneficence Predicts Greater and More Uniform Concern for Others Across Social Relationships",
           "authors": "Brian D. Earp, Killian L. McLoughlin, Mina Caraccio, Rachel Calcott, Joshua Rottman, Margaret S. Clark, M. J. Crockett",
           "abstract": "The principle of impartial beneficence (IB) holds that we should strive to maximize others’ well-being regardless of their relationship to us. But does endorsement of IB in principle translate to more uniform concern for others irrespective of relationship type? Three pre-registered studies in online samples of U.S. participants (total N =1,716) found IB endorsement predicts greater and more uniform concern for others across social relationships varying in social distance: in care prescriptions (Study 1), as well as blame judgments (Study 2) and guilt expressions (Study 3) when care norms are violated or care is not provided. Heightened concern for others in socially distant relationships was not “offset” by less concern for those in close ones. IB was not associated with a motive to be generally admired, but was linked to a motive to form communal relationships. Across different types of moral judgments, a commitment to IB thus entails caring much more than average about the well-being of socially distant others, while maintaining a high level of concern for socially close ones.",
@@ -220,6 +212,38 @@
           "doi": "https://doi.org/10.1037/bul0000500",
           "filter": 0,
           "created": "2025-12-15"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Psychological Science",
+      "journal_short": "PsychSci",
+      "articles": [
+        {
+          "title": "Is Overconfidence a Trait? An Adversarial Collaboration",
+          "authors": "Jabin Binnendyk, Sophia Li, Thomas Costello, Randall Hale, Don A. Moore, Gordon Pennycook",
+          "abstract": "A fundamental underlying question about the nature of overconfidence has continued to be subject to scholarly dispute: Is overconfidence a genuine psychological trait? To advance this contested research topic, we engaged in an adversarial collaboration in which two research teams agreed upon a set of critical tests and preregistered their analyses and predictions prior to data collection. Our study ( N = 942; U.S. adults from CloudConnect) leverages a methodological innovation: To measure trait overconfidence absent task-related confounds, we developed a set of novel tasks in which performance is ostensibly random. When we assess confidence this way, we find robust relationships across tasks as measured by both confirmatory factor analyses and raw correlations. This indicates that some people do believe that they are able to perform relatively well on tasks even when there is little reason for that confidence. Our results support the claim that overconfidence might be a trait.",
+          "url": "https://doi.org/10.1177/09567976251401538",
+          "doi": "https://doi.org/10.1177/09567976251401538",
+          "filter": 0,
+          "created": "2025-12-16"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Psychology of Music",
+      "journal_short": "PsychMusic",
+      "articles": [
+        {
+          "title": "The effect of visual information on subliminal music-induced emotion",
+          "authors": "Li Zhang, Kaijun Chen, Fada Pan",
+          "abstract": "Previous research has demonstrated an audio-visual integration effect in supraliminal music-induced emotions. This study explores the effect of visual information on subliminal music-induced emotion and the audio-visual integration effect in subliminal music using combined behavioral and physiological measures. We introduced supraliminal and subliminal visual information to investigate their influence on subliminal music-induced emotion. The results indicate that, compared with audio-only presentation, audio-visual congruent presentation leads to a more intense emotional response, as evidenced by reduced heart rates and skin temperature. The differences in audio-visual congruence were more pronounced for positive music than for negative music, as indicated by reduced heart rates and skin temperature, along with increased alpha and beta power in the prefrontal cortex. In summary, the results suggest that audio-visual integration for subliminal music occurs with both supraliminal and subliminal visual information. Furthermore, positive subliminal music strengthens the perception of congruence between visual and auditory cues.",
+          "url": "https://doi.org/10.1177/03057356251393685",
+          "doi": "https://doi.org/10.1177/03057356251393685",
+          "filter": 0,
+          "created": "2025-12-17"
         }
       ],
       "articles_hidden": []
