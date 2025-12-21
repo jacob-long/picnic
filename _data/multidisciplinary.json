@@ -1,5 +1,5 @@
 {
-  "update": "2025-12-20",
+  "update": "2025-12-21",
   "content": [
     {
       "journal_full": "Annals of the American Academy of Political and Social Science",
@@ -129,15 +129,6 @@
           "created": "2025-12-17"
         },
         {
-          "title": "Lesion-remote astrocytes govern microglia-mediated white matter repair",
-          "authors": "Sarah McCallum, Keshav B. Suresh, Timothy S. Islam, Manish K. Tripathi, Ann W. Saustad, Oksana Shelest, Aditya Patil, David Lee, Brandon Kwon, Katherine Leitholf, Inga Yenokian, Sophia E. Shaka, Connor H. Beveridge, Palak Manchandra, Caitlin E. Randolph, Gordon P. Meares, Ranjan Dutta, Jasmine Plummer, Vinicius F. Calsavara, Riki Kawaguchi, Simon R. V. Knott, Gaurav Chopra, Joshua E. Burda",
-          "abstract": "Spared regions of the damaged central nervous system undergo dynamic remodelling and exhibit a remarkable potential for therapeutic exploitation1. Lesion-remote astrocytes (LRAs), which interact with viable neurons and glia, undergo reactive transformations whose molecular and functional properties are poorly understood2. Here, using multiple transcriptional profiling methods, we investigated LRAs from spared regions of mouse spinal cord following traumatic spinal cord injury. We show that LRAs acquire a spectrum of molecularly distinct, neuroanatomically restricted reactivity states that evolve after spinal cord injury. We identify transcriptionally unique reactive LRAs in degenerating white matter that direct the specification and function of local microglia that clear lipid-rich myelin debris to promote tissue repair. Fuelling this LRA functional adaptation is the secreted matricellular protein CCN1. Loss of astrocyte-derived CCN1 results in excessive, aberrant activation of local microglia, characterized by abnormal molecular specification, impaired debris processing reflected by the intracellular accumulation of myelin and axon debris, and dysregulated lipid metabolism with distinctive attenuation in lipid droplet accumulation. Mechanistically, we find that CCN1 binds microglial SDC4 to augment lipid storage, linking this signalling axis to a vital repair-associated lipid buffering response in debris-clearing microglia. Accordingly, microglial deficits resulting from astrocyte CCN1 depletion culminate in blunted clearance of white matter debris and impaired neurological recovery from spinal cord injury. Ccn1-expressing white matter astrocytes are induced by local myelin damage and are generated in diverse demyelinating disorders in mice and humans, pointing to their fundamental, evolutionarily conserved role in white matter repair. Our findings show that context-specific cues shape regionally distinct LRA reactivity states with functional adaptations that orchestrate multicellular processes underlying neural repair and influence disease outcome.",
-          "url": "https://doi.org/10.1038/s41586-025-09887-y",
-          "doi": "https://doi.org/10.1038/s41586-025-09887-y",
-          "filter": "2",
-          "created": "2025-12-17"
-        },
-        {
           "title": "Programmable 200 GOPS Hopfield-inspired photonic Ising machine",
           "authors": "Nayem Al-Kayed, Charles St-Arnault, Hugh Morison, A. Aadhi, Chaoran Huang, Alexander N. Tait, David V. Plant, Bhavin J. Shastri",
           "abstract": "Ising machines offer a compelling approach to addressing NP-hard problems1, but physical realizations that are simultaneously scalable, reconfigurable, fast and stable remain elusive. Quantum annealers, such as D-Wave’s cryogenic hardware, target combinatorial optimization tasks, but quadratic scaling of qubit requirements with problem size limits their scalability on dense graphs2. Here we introduce a programmable, stable, room-temperature optoelectronic oscillator (OEO)-based Ising machine with linear scaling in spin representation. Inspired by Hopfield networks3, our architecture solves fully connected problems with up to 256 spins (65,536 couplings) and >41,000 spins (205,000+ couplings) if sparse. Our system makes use of cascaded thin-film lithium niobate (TFLN) modulators, a semiconductor optical amplifier (SOA) and a digital signal processing (DSP) engine in a recurrent time-encoded loop, demonstrating potential >200 giga operations per second (GOPS) for spin coupling and nonlinearity. This platform achieves the largest spin configuration in an OEO-based photonic Ising machine, enabled by high intrinsic speed. We experimentally demonstrate best-in-class solution quality for max-cut problems of arbitrary graph topologies (2,000 and 20,000 spins) among photonic Ising machines and obtain ground-state solutions for number partitioning4 and lattice protein folding5—benchmarks previously unaddressed by photonic systems. Our system uses inherent noise from high baud rates to escape local minima and accelerate convergence. Finally, we show that embedding DSP—traditionally used in optical communications—within optical computation enhances convergence and solution quality, opening new frontiers in scalable, ultrafast computing for optimization, neuromorphic processing and analogue artificial intelligence.",
@@ -152,6 +143,15 @@
           "abstract": "The dynamic three-dimensional (3D) organization of the human genome (the 4D nucleome) is linked to genome function. Here we describe efforts by the 4D Nucleome Project 1 to map and analyse the 4D nucleome in widely used H1 human embryonic stem cells and immortalized fibroblasts (HFFc6). We produced and integrated diverse genomic datasets of the 4D nucleome, each contributing unique observations, which enabled us to assemble extensive catalogues of more than 140,000 looping interactions per cell type, to generate detailed classifications and annotations of chromosomal domain types and their subnuclear positions, and to obtain single-cell 3D models of the nuclear environment of all genes including their long-range interactions with distal elements. Through extensive benchmarking, we describe the unique strengths of different genomic assays for studying the 4D nucleome, providing guidelines for future studies. Three-dimensional models of population-based and individual cell-to-cell variation in genome structure showed connections between chromosome folding, nuclear organization, chromatin looping, gene transcription and DNA replication. Finally, we demonstrate the use of computational methods to predict genome folding from DNA sequence, which will facilitate the discovery of potential effects of genetic variants, including variants associated with disease, on genome structure and function.",
           "url": "https://doi.org/10.1038/s41586-025-09890-3",
           "doi": "https://doi.org/10.1038/s41586-025-09890-3",
+          "filter": "2",
+          "created": "2025-12-17"
+        },
+        {
+          "title": "Lesion-remote astrocytes govern microglia-mediated white matter repair",
+          "authors": "Sarah McCallum, Keshav B. Suresh, Timothy S. Islam, Manish K. Tripathi, Ann W. Saustad, Oksana Shelest, Aditya Patil, David Lee, Brandon Kwon, Katherine Leitholf, Inga Yenokian, Sophia E. Shaka, Connor H. Beveridge, Palak Manchandra, Caitlin E. Randolph, Gordon P. Meares, Ranjan Dutta, Jasmine Plummer, Vinicius F. Calsavara, Riki Kawaguchi, Simon R. V. Knott, Gaurav Chopra, Joshua E. Burda",
+          "abstract": "Spared regions of the damaged central nervous system undergo dynamic remodelling and exhibit a remarkable potential for therapeutic exploitation1. Lesion-remote astrocytes (LRAs), which interact with viable neurons and glia, undergo reactive transformations whose molecular and functional properties are poorly understood2. Here, using multiple transcriptional profiling methods, we investigated LRAs from spared regions of mouse spinal cord following traumatic spinal cord injury. We show that LRAs acquire a spectrum of molecularly distinct, neuroanatomically restricted reactivity states that evolve after spinal cord injury. We identify transcriptionally unique reactive LRAs in degenerating white matter that direct the specification and function of local microglia that clear lipid-rich myelin debris to promote tissue repair. Fuelling this LRA functional adaptation is the secreted matricellular protein CCN1. Loss of astrocyte-derived CCN1 results in excessive, aberrant activation of local microglia, characterized by abnormal molecular specification, impaired debris processing reflected by the intracellular accumulation of myelin and axon debris, and dysregulated lipid metabolism with distinctive attenuation in lipid droplet accumulation. Mechanistically, we find that CCN1 binds microglial SDC4 to augment lipid storage, linking this signalling axis to a vital repair-associated lipid buffering response in debris-clearing microglia. Accordingly, microglial deficits resulting from astrocyte CCN1 depletion culminate in blunted clearance of white matter debris and impaired neurological recovery from spinal cord injury. Ccn1-expressing white matter astrocytes are induced by local myelin damage and are generated in diverse demyelinating disorders in mice and humans, pointing to their fundamental, evolutionarily conserved role in white matter repair. Our findings show that context-specific cues shape regionally distinct LRA reactivity states with functional adaptations that orchestrate multicellular processes underlying neural repair and influence disease outcome.",
+          "url": "https://doi.org/10.1038/s41586-025-09887-y",
+          "doi": "https://doi.org/10.1038/s41586-025-09887-y",
           "filter": "2",
           "created": "2025-12-17"
         },
@@ -411,6 +411,14 @@
           "created": "2025-12-17"
         },
         {
+          "title": "Tracing pollution in the lives of Arctic seabirds",
+          "authors": "Rachael Pells",
+          "url": "https://doi.org/10.1038/d41586-025-03078-5",
+          "doi": "https://doi.org/10.1038/d41586-025-03078-5",
+          "filter": "4",
+          "created": "2025-12-15"
+        },
+        {
           "title": "Seven feel-good science stories to restore your faith in 2025",
           "authors": "Katie Kavanagh",
           "abstract": "Renewable-energy milestones were met in 2025, with China being the first country to surpass 1 terawatt in installed solar-power capacity. Credit: Chen Kun/VCG via Getty\n\nThe biggest science story this year was the political upheaval in the United States. Funding cuts, academic lay-offs and vaccine-sceptic policies have widely been seen as an attack on science, according to critics of President Donald Trump’s administration. The resulting damage to science could last way into the future.\n\nBut, there were also plenty of positive developments in 2025 that offer hope for the coming years. “From a non-US scientist, it’s somewhat business as usual. You just keep doing your job,” says Glen Peters, a climate-policy researcher at the Cicero Center for International Climate Research in Oslo.\n\nOur recent Nature’s 10 package includes many good news stories — and there were many more. From gene-editing firsts to rapid disease containment and policy victories, Nature takes a look at some positive science stories of 2025.\n\nNature’s 10: Ten people who shaped science in 2025\n\nSpecies recovery\n\nThis year saw populations of some endangered and near-extinct species bounce back owing to strong conservation efforts.\n\nThe green sea turtle (Chelonia mydas), which has been endangered since the 1980s, has now moved to ‘least concern’ on the International Union for Conservation of Nature (IUCN) red list. Efforts to protect the turtle’s eggs and measures to prevent their accidental capture in fishing nets have allowed populations to recover.\n\nThe ampurta (Dasycercus hillieri), a rat-sized Australian marsupial, moved from near-extinction to ‘least concern’ this year. Between 2015 and 2021, ampurta territory expanded by more than 48,000 square kilometres, despite dry conditions and food shortages.\n\nLastly, nations reached a historic milestone for marine conservation in September with the United Nations High Seas Treaty receiving approval from more than 60 countries. The treaty, which will come into effect in January, aims to legally protect biodiversity in international waters and conserve at least 30% of land and sea areas.\n\nOzone hole shrinks\n\nThe hole in the Antarctic ozone layer has shrunk to its smallest size since 2019, indicating the continued recovery of Earth’s protective upper atmosphere.\n\nThe ozone hole was first discovered in 1985 and is a result of human-emitted ozone-depleting chlorofluorocarbons (CFCs), such as coolants in refrigerators and aerosol sprays. The Montreal Protocol in 1987 phased out the production and use of CFCs, which has successfully curbed emissions1. Since 1987, the average size of the ozone hole throughout the year has been gradually decreasing in size, with the smallest so far in 2019.\n\nThe ozone hole is on track to recover completely in the late 2060s, provided efforts to find climate-friendly alternatives to CFCs continues.\n\nThe hole in the Antarctic ozone layer has continued to shrink.Credit: CAMS\nGene-editing successes\n\nThis year “was a breakthrough year for gene editing”, says David Liu, a chemical biologist at the Broad Institute of MIT and Harvard in Cambridge, Massachusetts. “In 2025, these technologies have achieved a number of medical milestones.”\n\n“I view this year as an outstanding one, marked by the launch of many clinical trials,” adds Annarita Miccio, who studies gene therapy at the Imagine Institute at the Necker Hospital for Sick Children in Paris.\n\nHuntington’s disease treated for the first time using gene therapy\n\nThe first gene therapy for Huntington’s disease proved striking, slowing the rate of cognitive decline in participants by 75%. Another gene-therapy trial — for T-cell acute lymphoblastic leukaemia — showed promise with the majority of 11 participating children and adults entering remission2. The new type of CAR-T-cell therapy uses base-editing technology to modify several genes in T cells, helping them to target the cancer cells.\n\nResearchers also trialled the first use of a CRISPR technology tailored to an individual this year. Other successes include the first clinical trial for a gene therapy to treat a rare immune disorder called chronic granulomatous disease3, and another that corrected a pathogenic mutation that can cause lung damage and liver disease4.\n\nThese clinical trials paved the way for developing mutation-specific strategies for rare diseases and demonstrated that collaboration between academia and industry can lead to cures for people with such diseases, says Miccio.\n\nRenewable-energy boost\n\nRenewable energy surpassed coal as the largest energy source for the first time globally this year. The achievement was helped by China becoming the first country in the world to install 1 terawatt of solar power capacity in May. In the first six months of 2025 alone, China installed new solar systems with a capacity of 256 gigawatts — twice as much as the rest of the world combined. The country plans to add a further 200–300 gigawatts of capacity for solar and wind energy in its five year plan beginning in 2026.\n\nWhat happened at COP30? 4 science take-homes from the climate summit\n\n“China and many developing countries are deploying solar and wind [and] electric vehicles at pretty breakneck pace,” says Peters.\n\nAround half of the European Union’s demand for electricity came from from renewables in the second and third quarters of this year. Renewable-energy capacity is projected to increase by almost 4,600 gigawatts between 2025 and 2030 — double the capacity deployed between 2019 and 2024.\n\nHowever, greenhouse-gas emissions from fossil fuels reached a new high this year. It remains to be seen whether renewable energy can replace fossil fuels as the dominant global energy sources.\n\nEbola contained",
@@ -418,14 +426,6 @@
           "doi": "https://doi.org/10.1038/d41586-025-03505-7",
           "filter": "4",
           "created": "2025-12-17"
-        },
-        {
-          "title": "Tracing pollution in the lives of Arctic seabirds",
-          "authors": "Rachael Pells",
-          "url": "https://doi.org/10.1038/d41586-025-03078-5",
-          "doi": "https://doi.org/10.1038/d41586-025-03078-5",
-          "filter": "4",
-          "created": "2025-12-15"
         },
         {
           "title": "US–Africa bilateral health deals won’t help against diseases that ignore borders",
@@ -455,6 +455,14 @@
           "created": "2025-12-15"
         },
         {
+          "title": "Nature's News &amp; Views roundup of 2025",
+          "authors": "Benjamin Thompson, Andrew Mitchinson, Holly Smith",
+          "url": "https://doi.org/10.1038/d41586-025-04065-6",
+          "doi": "https://doi.org/10.1038/d41586-025-04065-6",
+          "filter": "4",
+          "created": "2025-12-19"
+        },
+        {
           "title": "Point of no returns: researchers are crossing a threshold in the fight for funding",
           "authors": "Gerald Schweiger",
           "abstract": "The Hungarian-born physicist Leo Szilard was the inspiration behind the idea of the Szilard point, a term used in cost–benefit analyses of grant proposals.Credit: Bettmann/Getty\n\nCompetition is a constant fixture of academic life. We compete for positions, promotions, publications and presentations. And we also compete for money, a necessary requirement if we are to continue taking part in the academic endeavour.\n\nI spent the early years of my PhD at an Austrian non-academic research institute, where competing for grants was the only way that my colleagues and I could secure funding for our research. Everything else we did, from publishing papers to presenting at conferences, felt designed, ultimately, to help secure the next grant. The system seemed back to front: surely it should be about the science first?\n\nFive important financial moves for PhD students\n\nIn science, there are many more people with ideas than there are public resources to support those ideas, which raises an unavoidable question about how to allocate scarce resources. Determining the best way to do so is extremely difficult. In an egalitarian approach, everyone would receive an equal share, even if that was only a fraction of what their projects would need. An alternative would be to use strict merit criteria, or to allow institutions to decide how they want to distribute resources. Yet the approach that has become most widespread is competition, which is presented as efficient, fair and reliable.\n\nMillion-dollar questions\n\nMy main research focuses on using computational tools to analyse intelligent systems, but I have found myself increasingly questioning how the ways in which we fund science shape its outcomes1. Which funding schemes encourage researchers to pursue high-risk research? How do different funding schemes affect scientists themselves, and what ethical issues arise from them?\n\nI suspect that because competition had been a constant companion on my path to becoming a professor at the Vienna University of Technology (perhaps even paving the way), I developed a particular interest in analysing its implications. These questions are core topics in metascience, which takes a bird’s-eye view of how research is done and aims to improve its quality, integrity and efficiency. Like many of my colleagues, I work on these topics alongside my main research.\n\nLink Introducing the j-metric: a true measure of what matters in academia\n\nA concept known as the Szilard point helps to contextualize the issues arising from excessive competition for grants. Named after the Hungarian-born physicist Leo Szilard, who wrote a short story satirizing the bureaucratic nature of scientific funding, this metric describes the threshold at which the total cost of competing for a grant equals (or surpasses) the value of the available funding. These costs are incurred by scientists in writing proposals, by their peers in reviewing them and by the administrative systems that run the process. The question is, which costs more: the research being funded, or the application process itself?\n\nGenAI for Africa, a funding call from the European Union’s Horizon Europe programme, probably crosses that threshold. The initiative aims to use generative artificial intelligence to address the societal challenges that many African countries are facing. With a total budget of €5 million (US$5.8 million), the call, which closed in October, invited proposals across four vast domains — agriculture, health care, urban planning and education. Out of 215 submissions, only two projects are expected to be funded, giving a success rate of under 1%.\n\nTo approximate the overall costs associated with the application process, I used two scenarios. See ‘GenAI for Africa: estimated grant-application costs’.\n\nScenario A\n\nIn 2023, group of researchers at the University of Lübeck in Germany developed a simulation tool for estimating the costs of grant funding. To arrive at cost estimates for GenAI for Africa applications, I fed this simulation with data from the Interim Evaluation of the Horizon Europe Framework Programme for Research and Innovation (2021–2024). The key inputs are:\n\nTime investment. According to the report, “the median consortium coordinator spends … 36 to 45 person-days per proposal. The effort for contributing consortium partners is typically lower, spending 16 to 25 person-days.”\n\nConsortium size. The average consortium size for Horizon projects is likely to be between 12 and 16 partners, according to statistics published by the European Commission.\n\nHourly payment rate of applicants. Hourly rates vary considerably depending on country, sector (industry versus academia), seniority and applicable overheads. To reflect this diversity, I drew on several reference sources from across Europe. To account for differences, I assumed the average cost of an hour’s work to be between €20 and €60.\n\nThe variation in input values enabled me to produce two cost estimates for GenAI for Africa grant applications: a lower estimate (Scenario A1) and a higher estimate (Scenario A2).\n\nThe tool automatically accounts for decision-making and administrative costs.\n\nScenario B",
@@ -462,14 +470,6 @@
           "doi": "https://doi.org/10.1038/d41586-025-04060-x",
           "filter": "4",
           "created": "2025-12-18"
-        },
-        {
-          "title": "Nature's News &amp; Views roundup of 2025",
-          "authors": "Benjamin Thompson, Andrew Mitchinson, Holly Smith",
-          "url": "https://doi.org/10.1038/d41586-025-04065-6",
-          "doi": "https://doi.org/10.1038/d41586-025-04065-6",
-          "filter": "4",
-          "created": "2025-12-19"
         },
         {
           "title": "Restoring youth to old immune cells: mRNA therapy turns back the clock",
@@ -721,6 +721,15 @@
           "created": "2025-12-15"
         },
         {
+          "title": "Rapid morphological change in an urban bird due to COVID-19 restrictions",
+          "authors": "Eleanor S. Diamant, Pamela J. Yeh",
+          "abstract": "The COVID-19 pandemic provided a natural experiment to test the impacts of human activity on urban-dwelling wildlife. Urban dark-eyed juncos differ in bill shape and size in Los Angeles in comparison to local wildlands. We measured juncos that hatched before, during, and after COVID-19 restrictions at a Los Angeles college campus. Birds that hatched during and soon after COVID-19 restrictions had bills that resembled those of local wildland birds. Yet, bills rapidly returned to pre-COVID-19 morphology in birds hatched in the years following pandemic restrictions. Thus, human activity (and lack thereof) underlies rapid morphological change in an urban bird.",
+          "url": "https://doi.org/10.1073/pnas.2520996122",
+          "doi": "https://doi.org/10.1073/pnas.2520996122",
+          "filter": "0",
+          "created": "2025-12-15"
+        },
+        {
           "title": "Cognition varies across the calendar year in multiple large-scale datasets",
           "authors": "Arielle S. Keller, Alisha Shetty, Ran Barzilay, Monica E. Calkins, Yap-Seng Chong, Niyati Dave, Damien A. Fair, Peter D. Gluckman, Raquel E. Gur, Ruben C. Gur, Allyson P. Mackey, Michael J. Meaney, Lucille A. Moore, Tyler M. Moore, Theodore D. Satterthwaite, Ai Peng Tan, Brenden Tervo-Clemmens, Bart S. Larsen",
           "abstract": "Children’s cognitive abilities vary across short and long timescales, from circadian fluctuations to year-by-year developmental changes. “Summer slide” refers to seasonal variation in academic performance, characterized by decreased performance following an extended school vacation. However, it remains unclear whether this effect generalizes across varied assessments and the extent of this effect across sociodemographic groups has been debated. Though seasonal variation in cognitive performance is often attributed to “forgetting” of learned material, no large-scale studies have systematically investigated seasonal variation in general cognitive skills (e.g., executive functioning) on standardized laboratory-based assessments in school-age youth compared to adults. Across four datasets with geographic, demographic, mental health, and measurement variation (total n = 23,251), we quantify cyclical, seasonal variation in children’s cognitive performance using generalized additive models with cyclic cubic splines. In school-age children but not young adults, we found consistent cognitive performance minima following school vacation (July–September in the United States; November–January in Singapore) across nearly all cognitive domains investigated. These results demonstrate a generalizable small-magnitude effect of lower cognitive performance aligning with school vacation even after adjusting for socioeconomic status or ADHD diagnosis. We contextualize summer cognitive minima relative to environmental and developmental effects, noting that the largest effect size is still seven times smaller than effects of the socioeconomic environment on cognition, and provide recommendations for future data collection and analysis of behavior across the calendar year.",
@@ -728,6 +737,15 @@
           "doi": "https://doi.org/10.1073/pnas.2506054122",
           "filter": "0",
           "created": "2025-12-16"
+        },
+        {
+          "title": "Uncovering inequalities in new knowledge learning by large language models across different languages",
+          "authors": "Chenglong Wang, Haoyu Tang, Xiyuan Yang, Yueqi Xie, Jina Suh, Sunayana Sitaram, Junming Huang, Yu Xie, Pengjun Zhao, Zhaoya Gong, Xing Xie, Fangzhao Wu",
+          "abstract": "As large language models (LLMs) gradually demonstrate their potential to boost productivity and become integral tools for problem-solving in daily life worldwide, understanding the linguistic inequalities they introduce is becoming increasingly important. Prior research has primarily focused on static analyses of disparities in existing knowledge and capabilities of LLMs across languages. However, LLMs are continuously evolving, acquiring new knowledge to provide current, relevant responses and deliver precise, expert-level answers in specific domains. Investigating linguistic inequalities within this dynamic learning process is, therefore, also essential. In this paper, we explore inequalities in new knowledge learning by LLMs across different languages and four key dimensions: effectiveness, transferability, prioritization, and robustness. Through extensive experiments in both in-context learning and fine-tuning settings, with proprietary and open-source models, we reveal four key findings: 1) LLMs face greater challenges in efficiently and accurately learning new knowledge in lower-resource languages; 2) knowledge learned by LLMs tends to be more easily transferred to higher-resource languages than to lower-resource ones; 3) new knowledge in higher-resource languages is more likely to be retained and prioritized; and 4) LLMs are more robust against incorrect or misleading information in higher-resource languages. We further analyze the underlying causes of these inequalities from linguistic perspectives, pretraining characteristics, and tokenizer design, and propose a preliminary mitigation strategy through the lens of linguistic neurons. This work highlights the urgent need to recognize and address emerging linguistic inequalities in the development of LLMs.",
+          "url": "https://doi.org/10.1073/pnas.2514626122",
+          "doi": "https://doi.org/10.1073/pnas.2514626122",
+          "filter": "0",
+          "created": "2025-12-18"
         },
         {
           "title": "Climate change has already made the United States poorer",
@@ -739,14 +757,6 @@
           "created": "2025-12-16"
         },
         {
-          "title": "The “machinal bypass” and how we’re using AI to avoid ourselves",
-          "authors": "Deanna M. Kaplan, Roman Palitsky, Charles L. Raison",
-          "url": "https://doi.org/10.1073/pnas.2518999122",
-          "doi": "https://doi.org/10.1073/pnas.2518999122",
-          "filter": "0",
-          "created": "2025-12-17"
-        },
-        {
           "title": "The paradox of intervention: Resilience in adaptive multirole coordination networks",
           "authors": "Casper van Elteren, Vítor V. Vasconcelos, Mike H. Lees",
           "abstract": "Complex adaptive networks exhibit remarkable resilience, driven by the dynamic interplay of structure (interactions) and function (state). While static-network analyses offer valuable insights, understanding how structure and function coevolve under external interventions is critical for explaining system-level adaptation. Using a unique dataset of clandestine criminal networks, we combine empirical observations with computational modeling to test the impact of various interventions on network adaptation. Our analysis examines how networks with specialized roles adapt and form emergent structures to optimize cost–benefit trade-offs. We find that emergent sparsely connected networks exhibit greater resilience, revealing a security–efficiency trade-off. Notably, interventions can trigger a “criminal opacity amplification” effect, where criminal activity increases despite reduced network visibility. While node isolation fragments networks, it strengthens remaining active ties. In contrast, increasing a node’s connectivity (analogous to social reintegration) can unintentionally boost criminal coordination, increasing activity or connectivity. Failed interventions often lead to temporary functional surges before reverting to baseline. Surprisingly, stimulating connectivity destabilizes networks. Effective interventions require precise calibration to node roles, connection types, and external conditions. These findings challenge conventional assumptions about connectivity and intervention efficacy in complex adaptive systems across diverse domains.",
@@ -754,6 +764,14 @@
           "doi": "https://doi.org/10.1073/pnas.2509856122",
           "filter": "0",
           "created": "2025-12-15"
+        },
+        {
+          "title": "The “machinal bypass” and how we’re using AI to avoid ourselves",
+          "authors": "Deanna M. Kaplan, Roman Palitsky, Charles L. Raison",
+          "url": "https://doi.org/10.1073/pnas.2518999122",
+          "doi": "https://doi.org/10.1073/pnas.2518999122",
+          "filter": "0",
+          "created": "2025-12-17"
         },
         {
           "title": "Why working from home varies across countries and people",
@@ -802,18 +820,18 @@
           "created": "2025-12-16"
         },
         {
-          "title": "Domestication is adaptive evolution in response to human use",
-          "authors": "Patrick L. Kohl",
-          "url": "https://doi.org/10.1073/pnas.2518220122",
-          "doi": "https://doi.org/10.1073/pnas.2518220122",
-          "filter": "2",
-          "created": "2025-12-15"
-        },
-        {
           "title": "Toward a general understanding of thermal performance curves in biology",
           "authors": "Samraat Pawar, Dimitrios-Georgios Kontopoulos",
           "url": "https://doi.org/10.1073/pnas.2528528122",
           "doi": "https://doi.org/10.1073/pnas.2528528122",
+          "filter": "2",
+          "created": "2025-12-15"
+        },
+        {
+          "title": "Domestication is adaptive evolution in response to human use",
+          "authors": "Patrick L. Kohl",
+          "url": "https://doi.org/10.1073/pnas.2518220122",
+          "doi": "https://doi.org/10.1073/pnas.2518220122",
           "filter": "2",
           "created": "2025-12-15"
         },
@@ -1005,15 +1023,6 @@
           "created": "2025-12-17"
         },
         {
-          "title": "The variability of evolvability: Properties of dynamic fitness landscapes determine how phenotypic variability evolves",
-          "authors": "Csenge Petak, Lapo Frati, Renske M. A. Vroomans, Melissa H. Pespeni, Nick Cheney",
-          "abstract": "The magnitude and shape of phenotypic variation depends on properties of the genotype-to-phenotype (GP) map, which itself can evolve over time. The evolution of GP maps is particularly interesting in variable environments, as GP maps can evolve to bias variation in the direction of past selection, increasing the evolvability of the population over time. However, the degree and manner in which environmental variation shapes GP maps and influences evolutionary dynamics may depend on properties of the fitness landscape. To explore how evolutionary dynamics are affected by variable environments across a wide range of different pairs of fitness landscapes, we evolved GP maps to produce spatial-temporal gene expression patterns that matched two-dimensional patterns generated by different elementary cellular automata rules. We found remarkable variation in how populations evolved in variable environments. In some cases, changing the environment helped populations find higher fitness peaks; in others, it hindered them. The evolution of evolvability also depended on the fitness landscape pair. In some experiments, the ability to generate adaptive phenotypic variation upon environment change increased over time, while in some others, populations found shared areas between fitness landscapes. On the other hand, environmental variability consistently resulted in higher fitness landscape exploration, average fitness, and mutational robustness compared to evolution in static environments, which we hypothesize are tightly connected. In conclusion, work presented here sheds light on important general consequences of environmental variability, while also demonstrating dependency on properties of fitness landscapes, which future research on the evolution of evolvability should consider.",
-          "url": "https://doi.org/10.1073/pnas.2519469122",
-          "doi": "https://doi.org/10.1073/pnas.2519469122",
-          "filter": "2",
-          "created": "2025-12-15"
-        },
-        {
           "title": "Learning predictive signals within a local recurrent circuit",
           "authors": "Toshitake Asabuki, Colleen J. Gillon, Claudia Clopath",
           "abstract": "The predictive coding hypothesis proposes that top–down predictions are compared with incoming bottom–up sensory information, with prediction errors signaling the discrepancies between these inputs. While this hypothesis explains the presence of prediction errors, recent experimental studies suggest that prediction error signals can emerge within a local circuit, that is, from bottom–up sensory input alone. In this paper, we test whether local circuits alone can generate predictive signals by training a recurrent spiking network using local plasticity rules. Our network model replicates experimentally observed features of prediction errors, such as biphasic neural activity patterns and context dependency. Our findings shed light on how synaptic plasticity can shape prediction errors and enable the acquisition and updating of an internal model of sensory input within a recurrent neural network.",
@@ -1021,6 +1030,15 @@
           "doi": "https://doi.org/10.1073/pnas.2414674122",
           "filter": "2",
           "created": "2025-12-17"
+        },
+        {
+          "title": "The variability of evolvability: Properties of dynamic fitness landscapes determine how phenotypic variability evolves",
+          "authors": "Csenge Petak, Lapo Frati, Renske M. A. Vroomans, Melissa H. Pespeni, Nick Cheney",
+          "abstract": "The magnitude and shape of phenotypic variation depends on properties of the genotype-to-phenotype (GP) map, which itself can evolve over time. The evolution of GP maps is particularly interesting in variable environments, as GP maps can evolve to bias variation in the direction of past selection, increasing the evolvability of the population over time. However, the degree and manner in which environmental variation shapes GP maps and influences evolutionary dynamics may depend on properties of the fitness landscape. To explore how evolutionary dynamics are affected by variable environments across a wide range of different pairs of fitness landscapes, we evolved GP maps to produce spatial-temporal gene expression patterns that matched two-dimensional patterns generated by different elementary cellular automata rules. We found remarkable variation in how populations evolved in variable environments. In some cases, changing the environment helped populations find higher fitness peaks; in others, it hindered them. The evolution of evolvability also depended on the fitness landscape pair. In some experiments, the ability to generate adaptive phenotypic variation upon environment change increased over time, while in some others, populations found shared areas between fitness landscapes. On the other hand, environmental variability consistently resulted in higher fitness landscape exploration, average fitness, and mutational robustness compared to evolution in static environments, which we hypothesize are tightly connected. In conclusion, work presented here sheds light on important general consequences of environmental variability, while also demonstrating dependency on properties of fitness landscapes, which future research on the evolution of evolvability should consider.",
+          "url": "https://doi.org/10.1073/pnas.2519469122",
+          "doi": "https://doi.org/10.1073/pnas.2519469122",
+          "filter": "2",
+          "created": "2025-12-15"
         },
         {
           "title": "Anyon delocalization transitions out of a disordered fractional quantum anomalous Hall insulator",
@@ -1085,6 +1103,15 @@
           "created": "2025-12-15"
         },
         {
+          "title": "DIS3L2-mediated RNA surveillance and extracellular vesicle packaging prevent innate immune activation by aberrant cellular RNAs",
+          "authors": "Sandra G. Williams, Soyeong Sim, Wilfried M. Guiblet, Jubin George, Jennifer C. Jones, Sandra L. Wolin",
+          "abstract": "Although most studies of the RNAs within extracellular vesicles (EVs) have focused on messenger RNA (mRNA) and microRNAs (miRNAs), recent analyses have revealed that transfer RNAs (tRNAs) and other noncoding RNAs (ncRNAs) are far more abundant. However, the extent to which EV ncRNAs resemble overall cellular RNAs and the benefits to host cells of packaging them into EVs remain unknown. Here, we purified EVs from the culture media of mouse and human cells and characterized their RNA components using high-throughput sequencing and Northern blotting. We report that EVs are enriched for numerous aberrant ncRNAs, including ncRNA fragments, ncRNAs that have failed to mature, and short structured introns. Many RNAs contain oligouridine tails, a modification that can promote degradation by DIS3L2, an exoribonuclease that degrades defective structured ncRNAs. Both the numbers of EVs released and the fractions of tailed RNAs in EVs increase on DIS3L2 depletion, indicating that EV packaging of aberrant ncRNAs occurs in competition with DIS3L2 decay. Multiple type I interferon-stimulated genes (ISGs) are upregulated on DIS3L2 depletion, and cells treated with a neutral sphingomyelinase inhibitor that reduces exosome biogenesis show moderate ISG upregulation, an effect that is enhanced in DIS3L2-depleted cells and accompanied by accumulation of aberrant ncRNAs in cellular RNA. Thus, DIS3L2 degradation and packaging of aberrant RNAs into vesicles may prevent these RNAs from activating innate immune sensors and triggering an interferon response.",
+          "url": "https://doi.org/10.1073/pnas.2526318122",
+          "doi": "https://doi.org/10.1073/pnas.2526318122",
+          "filter": "2",
+          "created": "2025-12-16"
+        },
+        {
           "title": "Electroextraction of low-concentration redox-active heavy metals with E θ &lt; 0 V from acid mine drainage",
           "authors": "Ziyuan Huang, Chunhua Feng, Fengchang Wu, Zhenqing Shi, Yang Wang, Zhuoyu Zhang, Rimei Huang, Weijian Duan, Li Tian, Yijin Lv, Xinying Gong, Zhengjun Gong, Zhi Dang, Fangbai Li",
           "abstract": "Electrochemical recovery of heavy metals from acid mine drainage (AMD) offers a sustainable solution to global AMD contamination, yet remains challenged by thermodynamic and kinetic barriers in reducing redox-active metals with negative standard reduction potentials (E θ &lt; 0 V), especially at low concentrations. Here, using Cd as a model system, we demonstrate that the formation of a metastable intermediate, Cd 2 SO 4 (OH) 2 , plays a crucial role in facilitating the efficient electrochemical reduction of low-concentration Cd(II) to metallic Cd 0 in acidic solutions. A combination of experimental and theoretical analyses reveals that in situ generated OH − at the cathode, in conjunction with bulk-phase SO 4 2− , drives the formation of this metal-inorganic complex, which mediates electron transfer by overcoming redox limitations. By optimizing flow dynamics and incorporating hierarchical electrode configurations, we enhance intermediate formation and achieve 96.81% Cd recovery from real AMD, with effluent Cd concentrations below 0.5 mg L −1 . Economic analysis estimates a net-positive return of 2.32 CNY per ton of treated AMD. Life cycle assessment further shows that the electroextraction process substantially outperforms lime neutralization with respect to all major environmental indicators. This work establishes a mechanistically driven, economically viable, and environmentally superior strategy for recovering valuable metals from AMD, advancing the prospects of circular resource recovery and sustainable wastewater management.",
@@ -1101,24 +1128,6 @@
           "doi": "https://doi.org/10.1073/pnas.2519054122",
           "filter": "2",
           "created": "2025-12-18"
-        },
-        {
-          "title": "Rapid morphological change in an urban bird due to COVID-19 restrictions",
-          "authors": "Eleanor S. Diamant, Pamela J. Yeh",
-          "abstract": "The COVID-19 pandemic provided a natural experiment to test the impacts of human activity on urban-dwelling wildlife. Urban dark-eyed juncos differ in bill shape and size in Los Angeles in comparison to local wildlands. We measured juncos that hatched before, during, and after COVID-19 restrictions at a Los Angeles college campus. Birds that hatched during and soon after COVID-19 restrictions had bills that resembled those of local wildland birds. Yet, bills rapidly returned to pre-COVID-19 morphology in birds hatched in the years following pandemic restrictions. Thus, human activity (and lack thereof) underlies rapid morphological change in an urban bird.",
-          "url": "https://doi.org/10.1073/pnas.2520996122",
-          "doi": "https://doi.org/10.1073/pnas.2520996122",
-          "filter": "2",
-          "created": "2025-12-15"
-        },
-        {
-          "title": "DIS3L2-mediated RNA surveillance and extracellular vesicle packaging prevent innate immune activation by aberrant cellular RNAs",
-          "authors": "Sandra G. Williams, Soyeong Sim, Wilfried M. Guiblet, Jubin George, Jennifer C. Jones, Sandra L. Wolin",
-          "abstract": "Although most studies of the RNAs within extracellular vesicles (EVs) have focused on messenger RNA (mRNA) and microRNAs (miRNAs), recent analyses have revealed that transfer RNAs (tRNAs) and other noncoding RNAs (ncRNAs) are far more abundant. However, the extent to which EV ncRNAs resemble overall cellular RNAs and the benefits to host cells of packaging them into EVs remain unknown. Here, we purified EVs from the culture media of mouse and human cells and characterized their RNA components using high-throughput sequencing and Northern blotting. We report that EVs are enriched for numerous aberrant ncRNAs, including ncRNA fragments, ncRNAs that have failed to mature, and short structured introns. Many RNAs contain oligouridine tails, a modification that can promote degradation by DIS3L2, an exoribonuclease that degrades defective structured ncRNAs. Both the numbers of EVs released and the fractions of tailed RNAs in EVs increase on DIS3L2 depletion, indicating that EV packaging of aberrant ncRNAs occurs in competition with DIS3L2 decay. Multiple type I interferon-stimulated genes (ISGs) are upregulated on DIS3L2 depletion, and cells treated with a neutral sphingomyelinase inhibitor that reduces exosome biogenesis show moderate ISG upregulation, an effect that is enhanced in DIS3L2-depleted cells and accompanied by accumulation of aberrant ncRNAs in cellular RNA. Thus, DIS3L2 degradation and packaging of aberrant RNAs into vesicles may prevent these RNAs from activating innate immune sensors and triggering an interferon response.",
-          "url": "https://doi.org/10.1073/pnas.2526318122",
-          "doi": "https://doi.org/10.1073/pnas.2526318122",
-          "filter": "2",
-          "created": "2025-12-16"
         },
         {
           "title": "Mysterium vitreum: Revealing the hidden polyhedral order of glass",
@@ -1172,15 +1181,6 @@
           "doi": "https://doi.org/10.1073/pnas.2520843122",
           "filter": "2",
           "created": "2025-12-16"
-        },
-        {
-          "title": "Uncovering inequalities in new knowledge learning by large language models across different languages",
-          "authors": "Chenglong Wang, Haoyu Tang, Xiyuan Yang, Yueqi Xie, Jina Suh, Sunayana Sitaram, Junming Huang, Yu Xie, Pengjun Zhao, Zhaoya Gong, Xing Xie, Fangzhao Wu",
-          "abstract": "As large language models (LLMs) gradually demonstrate their potential to boost productivity and become integral tools for problem-solving in daily life worldwide, understanding the linguistic inequalities they introduce is becoming increasingly important. Prior research has primarily focused on static analyses of disparities in existing knowledge and capabilities of LLMs across languages. However, LLMs are continuously evolving, acquiring new knowledge to provide current, relevant responses and deliver precise, expert-level answers in specific domains. Investigating linguistic inequalities within this dynamic learning process is, therefore, also essential. In this paper, we explore inequalities in new knowledge learning by LLMs across different languages and four key dimensions: effectiveness, transferability, prioritization, and robustness. Through extensive experiments in both in-context learning and fine-tuning settings, with proprietary and open-source models, we reveal four key findings: 1) LLMs face greater challenges in efficiently and accurately learning new knowledge in lower-resource languages; 2) knowledge learned by LLMs tends to be more easily transferred to higher-resource languages than to lower-resource ones; 3) new knowledge in higher-resource languages is more likely to be retained and prioritized; and 4) LLMs are more robust against incorrect or misleading information in higher-resource languages. We further analyze the underlying causes of these inequalities from linguistic perspectives, pretraining characteristics, and tokenizer design, and propose a preliminary mitigation strategy through the lens of linguistic neurons. This work highlights the urgent need to recognize and address emerging linguistic inequalities in the development of LLMs.",
-          "url": "https://doi.org/10.1073/pnas.2514626122",
-          "doi": "https://doi.org/10.1073/pnas.2514626122",
-          "filter": "2",
-          "created": "2025-12-18"
         },
         {
           "title": "Interstep compatibility of a model for the prebiotic synthesis of RNA consistent with Hadean natural history",
@@ -1290,6 +1290,15 @@
           "created": "2025-12-18"
         },
         {
+          "title": "Potential yield and food provisioning gains from rebuilding the world’s coral reef fish stocks",
+          "authors": "Jessica Zamborain-Mason, Joshua E. Cinner, M. Aaron MacNeil, Maria Beger, David Booth, Sebastian C. A. Ferse, Christopher D. Golden, Nicholas A. J. Graham, Andrew S. Hoey, David Mouillot, Sean R. Connolly",
+          "abstract": "Many coral reefs have fish stocks that are depleted below the level at which sustainable production is maximized. Lower production means that millions of people are losing out on potential food, income, and livelihoods. Rebuilding these stocks to maximize sustainable production can contribute toward ending hunger and malnutrition but requires active and effective fisheries management. Yet, for fish stock recovery plans to be implemented, recovery benefits, targets, and timeframes need to be quantified. Here, using 1,211 individual reef sites and 23 jurisdictions identified globally as being below maximum sustainable production levels, we show that reefs have the potential to increase sustainable yields by nearly 50% if allowed to recover toward their maximum production levels. For individual jurisdictions, this recovery represents from 20,000 up to 162 million additional sustainable servings of reef fish per year in comparison to current sustainable production, meeting recommended seafood intake for up to 1.4 million additional people a year. However, such growth and food provisioning will require fish stocks to double their standing biomass (increase by a median of 32 t/km 2 ). Recovery timeframes range from 6.4 y under the most stringent scenario (a moratorium) to 49.7 y under the maximum harvest scenario that results in recovery. We find that locations with the greatest potential for sustainable gains in yield are among those with the greatest food and micronutrient deficiencies, underscoring both the challenges and opportunities in recovering fish assemblages to achieve their maximum sustainable potential.",
+          "url": "https://doi.org/10.1073/pnas.2508805122",
+          "doi": "https://doi.org/10.1073/pnas.2508805122",
+          "filter": "2",
+          "created": "2025-12-16"
+        },
+        {
           "title": "David John “Davo” Mangelsdorf (1958–2025): A life of science, friendship, and joy",
           "authors": "Ronald M. Evans",
           "abstract": "David John “Davo” Mangelsdorf passed away on August 3, 2025, in Dallas, Texas at age 67 from an unexpected postsurgical complication. Davo made transformative contributions to nuclear receptor and metabolic biology. He discovered the retinoid X receptor (RXR) during his early years at Salk and, during his career and leadership at UT Southwestern, helped define the roles of orphan nuclear receptors, including LXR and FXR, as well as the metabolic hormones FGF19 and FGF21. This retrospective also reflects on the person behind the science. Davo brought curiosity, humor, and a sense of ease to every interaction. His legacy endures in his discoveries, in the colleagues and trainees he inspired, and in the kindness and laughter he shared throughout his life.",
@@ -1306,15 +1315,6 @@
           "doi": "https://doi.org/10.1073/pnas.2528340122",
           "filter": "2",
           "created": "2025-12-17"
-        },
-        {
-          "title": "Potential yield and food provisioning gains from rebuilding the world’s coral reef fish stocks",
-          "authors": "Jessica Zamborain-Mason, Joshua E. Cinner, M. Aaron MacNeil, Maria Beger, David Booth, Sebastian C. A. Ferse, Christopher D. Golden, Nicholas A. J. Graham, Andrew S. Hoey, David Mouillot, Sean R. Connolly",
-          "abstract": "Many coral reefs have fish stocks that are depleted below the level at which sustainable production is maximized. Lower production means that millions of people are losing out on potential food, income, and livelihoods. Rebuilding these stocks to maximize sustainable production can contribute toward ending hunger and malnutrition but requires active and effective fisheries management. Yet, for fish stock recovery plans to be implemented, recovery benefits, targets, and timeframes need to be quantified. Here, using 1,211 individual reef sites and 23 jurisdictions identified globally as being below maximum sustainable production levels, we show that reefs have the potential to increase sustainable yields by nearly 50% if allowed to recover toward their maximum production levels. For individual jurisdictions, this recovery represents from 20,000 up to 162 million additional sustainable servings of reef fish per year in comparison to current sustainable production, meeting recommended seafood intake for up to 1.4 million additional people a year. However, such growth and food provisioning will require fish stocks to double their standing biomass (increase by a median of 32 t/km 2 ). Recovery timeframes range from 6.4 y under the most stringent scenario (a moratorium) to 49.7 y under the maximum harvest scenario that results in recovery. We find that locations with the greatest potential for sustainable gains in yield are among those with the greatest food and micronutrient deficiencies, underscoring both the challenges and opportunities in recovering fish assemblages to achieve their maximum sustainable potential.",
-          "url": "https://doi.org/10.1073/pnas.2508805122",
-          "doi": "https://doi.org/10.1073/pnas.2508805122",
-          "filter": "2",
-          "created": "2025-12-16"
         },
         {
           "title": "Unusually broad-spectrum small-molecule sensing using a single protein scaffold",
@@ -1416,20 +1416,20 @@
           "created": "2025-12-16"
         },
         {
-          "title": "Heavy-tailed update distributions arise from information-driven self-organization in nonequilibrium learning",
-          "authors": "Xin-Ya Zhang, Chao Tang",
-          "abstract": "Like human decision-making under real-world constraints, artificial neural networks may balance free exploration in parameter space with task-relevant adaptation. In this study, we identify consistent signatures of criticality during neural network training and provide theoretical evidence that such scaling behavior arises naturally from information-driven self-organization: a dynamic balance between the maximum entropy principle that promotes unbiased exploration and mutual information constraint that relates updates with task objective. We numerically demonstrate that the power-law exponent of updates remains stable throughout training, supporting the presence of self-organized criticality. Furthermore, we show that the loss landscape exhibits exponential ruggedness under small perturbations, transitioning to power-law ruggedness at larger scales, in the absence of mini-batch noise, indicating an intrinsic geometric landscape. We also observe a power-law distribution in the intervals between large updates, indicating an intermittent learning process. Together, these findings suggest that neural network learning reflects a nonequilibrium process governed by the fundamental trade-off between randomness and relevance, highlighting its dynamic nature and offering insights into the interpretability of AI systems.",
-          "url": "https://doi.org/10.1073/pnas.2523012122",
-          "doi": "https://doi.org/10.1073/pnas.2523012122",
-          "filter": "2",
-          "created": "2025-12-18"
-        },
-        {
           "title": "Proteasome stress activates YAP/TAZ through the RAP2–MAP4Ks–LATS1/2 pathway and its therapeutic implications in solid tumors",
           "authors": "Xin Wang, Yuan Gu, Zhenxing Zhong, Pengcheng Yu, Wenshuai Liu, Rui Zhu, Yu Wang, Zhaocai Zhou, Yihong Sun, Xuefei Wang, Fa-Xing Yu",
           "abstract": "Tumor cells heavily depend on proteasome-mediated protein turnover, making the proteasome an attractive therapeutic target. Clinically, proteasome inhibitors are effective against hematologic cancers but show limited success with solid tumors, and the reasons for this difference are not well understood. Activation of yes-associated protein (YAP)/TAZ, the downstream effectors of the Hippo pathway, is a key mechanism behind drug resistance in cancers. Here, we demonstrate that proteasome stress acts as an upstream signal of the Hippo pathway in solid tumor cells. When the proteasome is inhibited, RAP2 undergoes ubiquitination and becomes inactive, which in turn disrupts the RAP2–MAP4Ks–NF2–LATS1/2 signaling pathway, leading to the activation of YAP/TAZ. YAP/TAZ activation promotes cell survival and resistance to proteasome inhibitors. Conversely, blocking YAP/TAZ can overcome this resistance and restore cancer cell sensitivity to these drugs. In diffuse-type gastric cancer—an aggressive solid tumor with a poor prognosis and limited treatment options—combined inhibition of the proteasome and YAP/TAZ effectively suppresses tumor growth. Therefore, this study identifies proteasome stress as an upstream signal of the Hippo pathway and provides a mechanistic basis for combination cancer therapy.",
           "url": "https://doi.org/10.1073/pnas.2517376122",
           "doi": "https://doi.org/10.1073/pnas.2517376122",
+          "filter": "2",
+          "created": "2025-12-18"
+        },
+        {
+          "title": "Heavy-tailed update distributions arise from information-driven self-organization in nonequilibrium learning",
+          "authors": "Xin-Ya Zhang, Chao Tang",
+          "abstract": "Like human decision-making under real-world constraints, artificial neural networks may balance free exploration in parameter space with task-relevant adaptation. In this study, we identify consistent signatures of criticality during neural network training and provide theoretical evidence that such scaling behavior arises naturally from information-driven self-organization: a dynamic balance between the maximum entropy principle that promotes unbiased exploration and mutual information constraint that relates updates with task objective. We numerically demonstrate that the power-law exponent of updates remains stable throughout training, supporting the presence of self-organized criticality. Furthermore, we show that the loss landscape exhibits exponential ruggedness under small perturbations, transitioning to power-law ruggedness at larger scales, in the absence of mini-batch noise, indicating an intrinsic geometric landscape. We also observe a power-law distribution in the intervals between large updates, indicating an intermittent learning process. Together, these findings suggest that neural network learning reflects a nonequilibrium process governed by the fundamental trade-off between randomness and relevance, highlighting its dynamic nature and offering insights into the interpretability of AI systems.",
+          "url": "https://doi.org/10.1073/pnas.2523012122",
+          "doi": "https://doi.org/10.1073/pnas.2523012122",
           "filter": "2",
           "created": "2025-12-18"
         }
@@ -1478,6 +1478,15 @@
           "created": "2025-12-18"
         },
         {
+          "title": "Extending the temperature range of the Cmcm phase of SnSe for high thermoelectric performance",
+          "authors": "Tian Gao, Yi Wen, Shulin Bai, Lizhong Su, Haonan Shi, Rong Liu, Sining Wang, Yixuan Hu, Shibo Liu, Dongrui Liu, Shan Liu, Chao Liang, Xiaokun Feng, Xiaoqian Wang, Yongxin Qin, Xiang Gao, Bingchao Qin, Cheng Chang, Peikang Bai, Li-Dong Zhao",
+          "abstract": "Thermoelectric power generation requires high dimensionless figure of merit ZT across broad temperatures. The two-dimensional phonon and three-dimensional charge transports enable n-type– Pnma tin selenide (SnSe) crystals to show a peak ZT of ~3.0 at 748 kelvin. In this work, we focused on the high-symmetry Cmcm phase to boost two-dimensional phonon and three-dimensional charge transports and extended the high-performance ( ZT ~ 3.0) plateau. By simultaneously broadening the Cmcm -phase stability window and enhancing lattice symmetry through lead alloying, we extended the high performance from a single temperature point to a wide temperature range of ~250 kelvin in rock salt–like Cmcm SnSe crystals rendered n-type through chlorine doping. An average ZT of ~3.0 was achieved between 673 and 923 kelvin, with a conversion efficiency of ~19.1% under a temperature difference of ~572 kelvin.",
+          "url": "https://doi.org/10.1126/science.adt0831",
+          "doi": "https://doi.org/10.1126/science.adt0831",
+          "filter": "2",
+          "created": "2025-12-18"
+        },
+        {
           "title": "Ancient genomes illuminate the origins and dynamic history of East Asian cattle",
           "authors": "Dawei Cai, Donghee Kim, Naifan Zhang, Xingcheng Wang, Tianshu Li, Jian Li, Chang Li, Shengnan Lian, Xinyue Shao, Songmei Hu, Miaomiao Yang, Jie Zhang, Yongqiang Wang, Qiurong Ruan, Idilisi Abuduresule, Linheng Mo, Wenyan Li, Xiaoning Guo, Wenying Li, Jing Shao, Zhouyong Sun, Yaqi Tian, Hui Wang, Ruilin Mao, Cunshi Zhu, Xiaoyang Wang, Xiaoyan Ren, Weilin Wang, Yan Ding, Pengcheng Zhang, Liping Yang, Jianen Cao, Yu Dang, Da Ha, Wei Zhang, Linshan He, Chunxue Wang, Lixin Wang, Quanchao Zhang, Jing Yuan, Xiaohong Wu, Chao Ning, Choongwon Jeong",
           "abstract": "The evolutionary history of domesticated cattle in East Asia for the past 5000 years remains largely obscure. Here, we investigated the origins and evolution of cattle genetic diversity in China by analyzing shotgun genome sequences of 166 ancient bovines spanning a 10,000-year period and encompassing now-extinct East Asian aurochs and domesticated cattle from key archaeological cultures. East and North Asian aurochs were distinct from western aurochs, although East Asian aurochs harbored approximately 15% western ancestry. The first domesticated cattle in the Yellow River region derived approximately 10% of their ancestry from local aurochs with an uneven genome-wide distribution. Early cattle from Xinjiang were genetically distinct and partially contributed to the later northern Chinese cattle. Indicine admixture became widespread only in the Medieval period in northern China.",
@@ -1492,15 +1501,6 @@
           "abstract": "Rechargeable batteries using electrodes based on intercalation chemistry exhibit notable cyclability, yet their performance still suffers from chemomechanical degradation. In this study, by combining a suite of operando microscopy methods, we explored electrode strain evolution and observed intricate particle cluster rearrangement under electrochemical stimuli. We show that early-stage strain accumulation in intercalation cathodes occurs during the period of interparticle charge transfer and redox reactions stemming from asynchronous coupling and decoupling between chemical (de)intercalation and physical grain motion. This interplay drives heterogeneous redox activity, localized charge equilibration, and multiscale strain cascades that propagate through an asynchronous network of chemical-mechanical interactions. Together, these findings reveal how collective particle dynamics and hierarchical strain transmission dictate electrode deformation and degradation in intercalation cathodes.",
           "url": "https://doi.org/10.1126/science.aea2763",
           "doi": "https://doi.org/10.1126/science.aea2763",
-          "filter": "2",
-          "created": "2025-12-18"
-        },
-        {
-          "title": "Extending the temperature range of the Cmcm phase of SnSe for high thermoelectric performance",
-          "authors": "Tian Gao, Yi Wen, Shulin Bai, Lizhong Su, Haonan Shi, Rong Liu, Sining Wang, Yixuan Hu, Shibo Liu, Dongrui Liu, Shan Liu, Chao Liang, Xiaokun Feng, Xiaoqian Wang, Yongxin Qin, Xiang Gao, Bingchao Qin, Cheng Chang, Peikang Bai, Li-Dong Zhao",
-          "abstract": "Thermoelectric power generation requires high dimensionless figure of merit ZT across broad temperatures. The two-dimensional phonon and three-dimensional charge transports enable n-type– Pnma tin selenide (SnSe) crystals to show a peak ZT of ~3.0 at 748 kelvin. In this work, we focused on the high-symmetry Cmcm phase to boost two-dimensional phonon and three-dimensional charge transports and extended the high-performance ( ZT ~ 3.0) plateau. By simultaneously broadening the Cmcm -phase stability window and enhancing lattice symmetry through lead alloying, we extended the high performance from a single temperature point to a wide temperature range of ~250 kelvin in rock salt–like Cmcm SnSe crystals rendered n-type through chlorine doping. An average ZT of ~3.0 was achieved between 673 and 923 kelvin, with a conversion efficiency of ~19.1% under a temperature difference of ~572 kelvin.",
-          "url": "https://doi.org/10.1126/science.adt0831",
-          "doi": "https://doi.org/10.1126/science.adt0831",
           "filter": "2",
           "created": "2025-12-18"
         },
@@ -2406,15 +2406,6 @@
           "created": "2025-12-17"
         },
         {
-          "title": "Microbubble-induced erosion releases micro- and nanoplastics into water",
-          "authors": "Dunzhu Li, Varvara Bolikava, Yunhong Shi, Songheng Jin, Richard Unitt, Emmet D. Sheerin, Peiying Kang, Liwen Xiao, Xiaocheng Pan, Christopher Hill, Manuel Ruether, Linfei Zhao, Qidong Yin, Bo Zhao, Qiliang Zhu, Hua Qin, Ming Cheng, John E. Sader, Jing Jing Wang, John J. Boland",
-          "abstract": "Micro- and nanoplastics (MNPs) are pervasive micropollutants in aquatic environments and along shorelines. Their release is predominantly attributed to mechanical abrasion or ultraviolet exposure, both requiring substantial external energy inputs. The role of aquatic factors (e.g., air bubbles) in the generation of MNPs is poorly understood. Here we show microbubbles that spontaneously form on seven typical plastics across a wide temperature range (25° to 95°C) and in various water types (deionized, tap, river, and marine water) can erode plastic surfaces and drive MNP release. Nucleation, expansion, and movement of microbubbles generate shear stresses capable of dislodging polymer protrusions at surface defect sites. This sweeping action, combined with the unbalanced surface tension forces at the three-phase contact line, generates O-shaped ring structures composed of accumulated polymers, which ultimately fragment leading to the release of MNPs into the aquatic environment. Our findings demonstrate that microbubble-induced erosion represents a low-energy pathway for micropollutant release.",
-          "url": "https://doi.org/10.1126/sciadv.aea4729",
-          "doi": "https://doi.org/10.1126/sciadv.aea4729",
-          "filter": "2",
-          "created": "2025-12-17"
-        },
-        {
           "title": "Cell wall–derived mechanical signals control cell growth and division during root development",
           "authors": "Noemi Svolacchia, Marco Marconi, Julian Elijah Politsch, Federico Vinciarelli, Michela De Nittis, Elena Salvi, Mariana Sotelo-Silveira, Alessio Terenzi, Gaia Bertolotti, Claudia Testi, Giancarlo Ruocco, Raffaele Dello Ioio, Riccardo Di Mambro, Paolo Costantino, Krzysztof Wabnik, Sabrina Sabatini",
           "abstract": "Organogenesis emerges from the interplay between genetic and physical interactions within a growing cellular system. While numerous studies have explored how genetic and molecular networks regulate cell activity, the impact of physical interactions and the resulting mechanical constraints on organ development remains poorly understood. In this study, we combine extensive genetic analysis, live imaging, and mechanical measurements with spatiotemporal computational modeling to show that, in the Arabidopsis root, changes in the mechanical properties of elongating cell walls influence growth and division rate of neighboring meristematic cells, thereby shaping root development. We propose that the cell wall serves as a crucial source of both autonomous and nonautonomous mechanical signals, providing a compelling example of how mechanical forces contribute to organ growth and development.",
@@ -2422,6 +2413,15 @@
           "doi": "https://doi.org/10.1126/sciadv.aea8647",
           "filter": "2",
           "created": "2025-12-19"
+        },
+        {
+          "title": "Microbubble-induced erosion releases micro- and nanoplastics into water",
+          "authors": "Dunzhu Li, Varvara Bolikava, Yunhong Shi, Songheng Jin, Richard Unitt, Emmet D. Sheerin, Peiying Kang, Liwen Xiao, Xiaocheng Pan, Christopher Hill, Manuel Ruether, Linfei Zhao, Qidong Yin, Bo Zhao, Qiliang Zhu, Hua Qin, Ming Cheng, John E. Sader, Jing Jing Wang, John J. Boland",
+          "abstract": "Micro- and nanoplastics (MNPs) are pervasive micropollutants in aquatic environments and along shorelines. Their release is predominantly attributed to mechanical abrasion or ultraviolet exposure, both requiring substantial external energy inputs. The role of aquatic factors (e.g., air bubbles) in the generation of MNPs is poorly understood. Here we show microbubbles that spontaneously form on seven typical plastics across a wide temperature range (25° to 95°C) and in various water types (deionized, tap, river, and marine water) can erode plastic surfaces and drive MNP release. Nucleation, expansion, and movement of microbubbles generate shear stresses capable of dislodging polymer protrusions at surface defect sites. This sweeping action, combined with the unbalanced surface tension forces at the three-phase contact line, generates O-shaped ring structures composed of accumulated polymers, which ultimately fragment leading to the release of MNPs into the aquatic environment. Our findings demonstrate that microbubble-induced erosion represents a low-energy pathway for micropollutant release.",
+          "url": "https://doi.org/10.1126/sciadv.aea4729",
+          "doi": "https://doi.org/10.1126/sciadv.aea4729",
+          "filter": "2",
+          "created": "2025-12-17"
         }
       ]
     }
