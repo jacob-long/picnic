@@ -1,5 +1,5 @@
 {
-  "update": "2025-12-25",
+  "update": "2025-12-26",
   "content": [
     {
       "journal_full": "International Journal of Public Opinion Research",
@@ -28,38 +28,6 @@
           "doi": "https://doi.org/10.1080/17457289.2025.2607133",
           "filter": 0,
           "created": "2025-12-22"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Journal of Official Statistics",
-      "journal_short": "JOS",
-      "articles": [
-        {
-          "title": "Multilingual Hierarchical Classification of Job Advertisements for Job Vacancy Statistics",
-          "authors": "Maciej Beręsewicz, Marek Wydmuch, Herman Cherniaiev, Robert Pater",
-          "abstract": "The goal of this paper is to develop a multilingual classifier and conditional probability estimator of occupation codes for online job advertisements in accordance with the International Standard Classification of Occupations (ISCO) extended with the Polish Classification of Occupations and Specializations (KZiS), which is analogous to the European Classification of Occupations. In this paper, we utilize a range of data sources, including a novel one, namely the Central Job Offers Database, which is a register of all vacancies submitted to Public Employment Offices. Their staff members code the vacancies according to the ISCO and KZiS. A hierarchical multi-class classifier has been developed based on the transformer architecture. The classifier begins by encoding the jobs found in advertisements to the widest 1-digit occupational group, and then narrows the assignment to a 6-digit occupation code. We show that incorporation of the hierarchical structure of occupations improves prediction accuracy by 1 to 2 percentage points, particularly for the hand-coded online job advertisements. Finally, a bilingual (Polish and English) and multilingual (twenty-four languages) model is developed based on data translated using closed and open-source software. The open-source software is provided for the benefit of the official statistics community, with a particular focus on international comparability.",
-          "url": "https://doi.org/10.1177/0282423x251395400",
-          "doi": "https://doi.org/10.1177/0282423x251395400",
-          "filter": 0,
-          "created": "2025-12-18"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Journal of Survey Statistics and Methodology",
-      "journal_short": "JSSAM",
-      "articles": [
-        {
-          "title": "Using Conditional Linear Regression Trees to Identify Potential Construct Validity and Measurement Error Differences in Health Outcomes from a U.S. National Survey",
-          "authors": "Morgan S Earp, Lauren M Rossen, Sarah E Forrest, Trent D Buskirk",
-          "abstract": "Accurate measurement is critical for the assessment of health outcomes and behaviors across population subgroups. Estimated differences in the prevalence of a given health outcome or risk factor can be affected by whether the outcomes are measured or self-reported. Using data from the National Health and Nutrition Examination Survey (NHANES), which contains both measured and self-reported health information, we used conditional linear regression trees (CLRT) to assess differential measurement error across several chronic health conditions and risk factors, where measurement error is defined as differences between self-reported and measured (e.g., gold standard or objective) health outcomes or behaviors. Using data on four health conditions/behaviors (e.g., diabetes, hypertension, high cholesterol, and current smoking) from NHANES (2015 through March 2020), we assessed differences between self-reported and measured outcomes by various sociodemographic characteristics (e.g., age, sex, race/ethnicity, education, marital status, health insurance, and poverty). We used CLRTs via the “rpms” package in R to identify demographic subgroups with larger differences between self-reported and measured health conditions/behaviors. Identifying subgroups where measurement error may be larger or smaller could help inform future work on improving the estimation of the prevalence of chronic conditions and health behaviors.",
-          "url": "https://doi.org/10.1093/jssam/smaf035",
-          "doi": "https://doi.org/10.1093/jssam/smaf035",
-          "filter": 0,
-          "created": "2025-9-27"
         }
       ],
       "articles_hidden": []
