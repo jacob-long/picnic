@@ -1,27 +1,18 @@
 {
-  "update": "2025-12-26",
+  "update": "2025-12-28",
   "content": [
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "The impact of the pupil size artifact on pupil-based eye-tracking data in reading tasks: Assessment and compensation",
-          "authors": "Wolf Culemann, Angela Heine, Ignace T. C. Hooge",
-          "abstract": "Eye tracking in reading research requires high spatial accuracy due to small, densely arranged areas of interest. However, despite widespread use of pupil-based eye trackers in reading studies, a major source of systematic inaccuracy remains largely unaddressed: the pupil size artifact (PSA) – apparent gaze shift in fact caused by pupil dilation even when the eye remains stationary. Using pupillary light reflex manipulations and reading tasks under controlled luminance, we quantified gaze inaccuracy due to the PSA and compared correction methods. We observed systematic apparent gaze shift of up to 2 $$^{\\circ }$$ ∘ as pupil sizes varied from 2 to 6 mm. Horizontal PSA showed contralateral patterns (median slopes: 0.38 $$^{\\circ }$$ ∘ /mm), while vertical PSA increased with pupil size (up to 0.86 $$^{\\circ }$$ ∘ /mm for larger pupils). Even under constant luminance, pupil size varied substantially during reading (median 95% ranges 0.78–1.38 mm). We compared two correction approaches: line assignment (standard in reading research) and PSA recalibration (modeling pupil-size-induced apparent gaze shift across the screen). Both methods effectively corrected vertical apparent gaze shift, showing similar average correction offsets and sensitivity of correction to pupil size, suggesting that line assignment implicitly compensates for vertical PSA effects. However, only PSA recalibration addressed horizontal apparent gaze shift, reducing overall gaze shift by over 50% and improving the performance of line assignment algorithms. Our findings underscore the importance of accounting for PSA in reading research. We offer practical recommendations for improving gaze accuracy in eye-tracking reading studies.",
-          "url": "https://doi.org/10.3758/s13428-025-02912-y",
-          "doi": "https://doi.org/10.3758/s13428-025-02912-y",
+          "title": "Modeling qualitative between-person heterogeneity in time series using latent class vector autoregressive models",
+          "authors": "Anja F. Ernst, Jonas M. B. Haslbeck",
+          "abstract": "Time-series data have become ubiquitous in psychological research, allowing us to study detailed within-person dynamics and their heterogeneity across persons. Vector autoregressive (VAR) models have become a popular choice as a first approximation of these dynamics. The VAR model for each person and heterogeneity across persons can be jointly modeled using a hierarchical model that treats heterogeneity as a latent distribution. Currently, the most popular choice for this is the multilevel VAR model, which models heterogeneity across persons as quantitative variation through a multivariate Gaussian distribution. Here, we discuss an alternative, the latent class VAR model, which models heterogeneity as qualitative variation using a number of discrete clusters. While this model has been introduced before, it has not been readily accessible to researchers. Here we address this issue by providing an accessible introduction to latent class VAR models; a simulation evaluating how well this model can be estimated in situations resembling applied research; introducing a new R package ClusterVAR , which provides easy-to-use functions to estimate the model; and providing a fully reproducible tutorial on modeling emotion dynamics, which walks the reader through all steps of estimating, analyzing, and interpreting latent class VAR models.",
+          "url": "https://doi.org/10.3758/s13428-025-02909-7",
+          "doi": "https://doi.org/10.3758/s13428-025-02909-7",
           "filter": 0,
-          "created": "2025-12-19"
-        },
-        {
-          "title": "Presenting the Signers’ Eye-movements in English Reading (SEER) Corpus: An eye-tracking dataset of reading behaviors by deaf early signers and hearing non-signers",
-          "authors": "Frances G. Cooley, Karen Emmorey, Emily Saunders, Elizabeth R. Schotter",
-          "abstract": "Eye-tracking corpora have advanced our understanding of reading processes by providing large-scale datasets of naturalistic reading behavior. However, existing corpora have almost exclusively sampled from typically hearing readers of spoken languages. Here, we present the Signers’ Eye-movements in English Reading (SEER) Corpus, a dataset of eye-movement behaviors from 41 skilled deaf adult readers who are early signers of American Sign Language (ASL), as well as a comparative group of 101 typically hearing monolingual English readers. Participants read 200 English sentences presented one at a time. In addition to eye-tracking data, the corpus includes detailed participant information: a standardized measure of reading proficiency, spelling recognition, and nonverbal intelligence for all participants. Information for the deaf participants include ASL comprehension scores, age of ASL acquisition, and phonological awareness scores (for a subset of participants). We report comparative analyses of reading behaviors at both the word level and sentence level. We also examine group differences in the effects of word length, frequency, and surprisal on local measures. The results indicate stronger effects of length and surprisal, but equivalent frequency effects (on content words) for deaf compared to hearing readers. The SEER Corpus offers researchers the opportunity to test hypotheses about reading development and efficiency in bimodal bilinguals who are first language users of ASL and skilled readers of English, supporting broader investigations of visual language processing. The corpus is preregistered and publicly available ( https://doi.org/10.17605/OSF.IO/7P4F2 ) to facilitate replication, cross-study comparisons, and exploration of preliminary hypotheses in this understudied population.",
-          "url": "https://doi.org/10.3758/s13428-025-02881-2",
-          "doi": "https://doi.org/10.3758/s13428-025-02881-2",
-          "filter": 0,
-          "created": "2025-12-19"
+          "created": "2025-12-26"
         }
       ],
       "articles_hidden": []
@@ -31,20 +22,44 @@
       "journal_short": "CHB",
       "articles": [
         {
+          "title": "Exploring protective and risk factors for a positive sexting experience among young adults – insights from the SEX-THINK! Project",
+          "authors": "Barbara Agueli, Immacolata Di Napoli, Marcella Autiero, Nicole Bellanca, Alice Lucarini",
+          "url": "https://doi.org/10.1016/j.chb.2025.108901",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108901",
+          "filter": 0,
+          "created": "2025-12-26"
+        },
+        {
+          "title": "To Share or Not to Share, That Is the (Moral) Question: How Moral Frames and Bystander Cues Shape Health Misinformation Correction Sharing on Social Media",
+          "authors": "Yujie Dong, Wu Li",
+          "url": "https://doi.org/10.1016/j.chb.2025.108900",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108900",
+          "filter": 0,
+          "created": "2025-12-27"
+        },
+        {
+          "title": "Perceptions of sexualized deepfake abuse across three nations: An exploration of how victim gender and race shape attitudes towards deepfake abuse in the United States, the United Kingdom, and Australia",
+          "authors": "Asia A. Eaton, Adrian J. Scott, Asher Flynn, Anastasia Powell",
+          "url": "https://doi.org/10.1016/j.chb.2025.108899",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108899",
+          "filter": 0,
+          "created": "2025-12-27"
+        },
+        {
+          "title": "Association between School Phone Restriction Policies and Adolescents’ Cyberbullying, Gambling, and Substance Use Behaviors",
+          "authors": "Szu-Chia Chen, Tzu-Fu Huang, Kevin Chang, Fong-Ching Chang, Shawn C. Chiang, Chiung-Hui Chiu, Ping-Hung Chen, Nae-Fang Miao, Hung-Yi Chuang",
+          "url": "https://doi.org/10.1016/j.chb.2025.108898",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108898",
+          "filter": 0,
+          "created": "2025-12-26"
+        },
+        {
           "title": "Bridging or Broadening Gaps? AI-Assisted Professional Writing among Native and Non-Native English Writers",
           "authors": "Inyoung Shin, Hyesun Choung, Mina Choi",
           "url": "https://doi.org/10.1016/j.chb.2025.108897",
           "doi": "https://doi.org/10.1016/j.chb.2025.108897",
           "filter": 0,
           "created": "2025-12-24"
-        },
-        {
-          "title": "Choose to think: Nudging towards privacy informed decisions at the app download stage",
-          "authors": "Jennifer Klütsch, Verena Zimmermann, Sabine J. Schlittmeier",
-          "url": "https://doi.org/10.1016/j.chb.2025.108895",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108895",
-          "filter": 0,
-          "created": "2025-12-19"
         }
       ],
       "articles_hidden": []
@@ -53,14 +68,6 @@
       "journal_full": "Journal of Experimental Social Psychology",
       "journal_short": "JESP",
       "articles": [
-        {
-          "title": "Folk devils? Perceived lack of traditional values explains youth-related stereotypes of sexual minorities and Black men",
-          "authors": "Jaime L. Napier, Maria Laura Bettinsoli, Rosandra Coladonato, Magdalena Formanowicz, Andrea Carnaghi",
-          "url": "https://doi.org/10.1016/j.jesp.2025.104869",
-          "doi": "https://doi.org/10.1016/j.jesp.2025.104869",
-          "filter": 0,
-          "created": "2025-12-20"
-        },
         {
           "title": "Understanding attributions to racial discrimination in diverse hiring contexts: The impact of beneficiary identity",
           "authors": "Laurie T. O'Brien, Yvette Bivins-Sanchez, Maria Casteigne, Caley Lowe, J'Lyn Wilson",
@@ -76,6 +83,29 @@
           "doi": "https://doi.org/10.1016/j.jesp.2025.104868",
           "filter": 0,
           "created": "2025-12-25"
+        },
+        {
+          "title": "Recalling ingroup privilege as outgroup disadvantage: Evidence for a privilege-reframing bias and tests of a potential mediator",
+          "authors": "Annette Malapally, Kathrin Wildgans, Soledad de Lemus, Susanne Bruckmüller",
+          "url": "https://doi.org/10.1016/j.jesp.2025.104867",
+          "doi": "https://doi.org/10.1016/j.jesp.2025.104867",
+          "filter": 0,
+          "created": "2025-12-26"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Multivariate Behavioral Research",
+      "journal_short": "MBR",
+      "articles": [
+        {
+          "title": "A Two-Step Robust Estimation Approach for Inferring Within-Person Relations in Longitudinal Design: Tutorial and Simulations",
+          "authors": "Satoshi Usami",
+          "url": "https://doi.org/10.1080/00273171.2025.2601271",
+          "doi": "https://doi.org/10.1080/00273171.2025.2601271",
+          "filter": 0,
+          "created": "2025-12-27"
         }
       ],
       "articles_hidden": []
@@ -92,6 +122,40 @@
           "doi": "https://doi.org/10.1177/10944281251399210",
           "filter": 0,
           "created": "2025-12-23"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Personality and Social Psychology Bulletin",
+      "journal_short": "PSPB",
+      "articles": [
+        {
+          "title": "Personality From Age 10 to 16 years. A Four-Wave Cohort Study of Development and Sex Differences in the Big Five and Its Facets",
+          "authors": "Silje Steinsbekk, Lars Wichstrøm, Tilmann von Soest",
+          "abstract": "Recent years have witnessed an increased interest in personality development in childhood and adolescence. However, population-based longitudinal studies that examine self-reported personality traits and their facets during these critical developmental periods are scarce. Here, we test the disruption hypothesis, which suggests deviations from standard patterns of personality maturation during adolescence in certain personality domains. Our study extends existing knowledge by examining development and sex differences in self-reported conscientiousness, agreeableness, neuroticism, and their facets from childhood to adolescence. Utilizing the Big Five Inventory, we collected four waves of personality data (ages 10, 12, 14, and 16 years) from a representative birth cohort of Norwegian children ( N = 805). Our results predominantly support the disruption hypothesis, showing declines in conscientiousness and agreeableness across sexes from age 12, with an increase in neuroticism observed solely for girls. The findings further demonstrate that maturation disruptions vary at the facet level, suggesting a complex developmental process.",
+          "url": "https://doi.org/10.1177/01461672251396595",
+          "doi": "https://doi.org/10.1177/01461672251396595",
+          "filter": 0,
+          "created": "2025-12-27"
+        },
+        {
+          "title": "Understanding the Persistence of Traditional Values in Modern Society: Adaptive Utility Matters",
+          "authors": "Menglin He, Huajian Cai, Cai Xing, Yiming Zhu",
+          "abstract": "The adaptation account suggests that the persistence of some traditional values in modern society is due to their enduring adaptive utility. We tested this hypothesis by examining the change of filial piety in two Confucian societies, China and Japan. By analyzing natural language data, Study 1 found that Chinese people’s concern about and liking for filial piety have increased since 1979, with falling birth rate and rising elderly population as the Granger causes. By analyzing survey data from 2006 to 2017 ( N = 7,283) in China, Study 2 found that reciprocal filial piety was adaptive (i.e., conducive to well-being) and increasing, whereas authoritarian filial piety was maladaptive (i.e., detrimental to well-being) and decreasing. By analyzing both Japanese language data from 1989 to 2023 (Study 3a) and survey data from 2006 to 2018 (Study 3b: N = 4,763), Study 3 replicated the main findings from China. These findings support the adaptation account of cultural persistence.",
+          "url": "https://doi.org/10.1177/01461672251393559",
+          "doi": "https://doi.org/10.1177/01461672251393559",
+          "filter": 0,
+          "created": "2025-12-27"
+        },
+        {
+          "title": "To Each Their Own: Is Extending Life Expectancy Always Desirable? A Phenomenological Study of Longevity Aspirations Among Older Adults in Senior Living Facilities",
+          "authors": "Shi Yin Chee, Ester Ellen Trees Bolt",
+          "abstract": "Aging is a multifaceted, personal experience rather than a one-size-fits-all journey of universal longevity desires. This study explores the lived experiences of older adults in senior living facilities, focusing on their longevity aspirations and the factors shaping them. In-depth, semi-structured interviews with 20 older adults in four Malaysian senior living facilities were analyzed using Husserl’s phenomenology and Giorgi’s descriptive method. Four themes emerged: balancing the desire to live long versus living well, emotional and existential reflections, hidden emotional and physical adaptations, and shifting dynamics of control over priorities and values. Findings reveal that aging is an unpredictable journey, shaped by ambiguities and uncertainties, where fulfillment does not always stem from longevity. Tailored support that honors older adults’ histories, emotions, and aspirations enables aging with dignity and autonomy, guiding providers, policymakers, and caregivers to enhance quality of life to meaningfully enhance quality of life by aligning care with longevity aspirations.",
+          "url": "https://doi.org/10.1177/01461672251406667",
+          "doi": "https://doi.org/10.1177/01461672251406667",
+          "filter": 0,
+          "created": "2025-12-27"
         }
       ],
       "articles_hidden": []
@@ -139,31 +203,6 @@
           "doi": "https://doi.org/10.1037/bul0000495",
           "filter": 0,
           "created": "2025-12-22"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Psychological Science",
-      "journal_short": "PsychSci",
-      "articles": [
-        {
-          "title": "The 2008 Great Recession Lowered Americans’ Class Identity",
-          "authors": "Stephen Antonoplis, Juan Eduardo Garcia-Cardenas, Eileen K. Graham, Daniel K. Mroczek",
-          "abstract": "Americans readily identify with class labels, such as working class and middle class . In turn, these identities affect their social affiliations, cultural values, and physical health. Despite theoretical predictions that class identity can change, little work has empirically examined the long-term malleability of class identity. Here we ask, can class identity change in the long term? And if so, when? We tested this question by examining whether the 2008 Great Recession changed how Americans viewed their social and economic standing in society—that is, their class identity. In three of four data sets (total N = 164,296), we found that the 2008 Great Recession shifted Americans toward identifying as a lower class. We discuss the implications of these results for theories of the formation of class identity and for the political and social development of the United States following 2008.",
-          "url": "https://doi.org/10.1177/09567976251400338",
-          "doi": "https://doi.org/10.1177/09567976251400338",
-          "filter": 0,
-          "created": "2025-12-19"
-        },
-        {
-          "title": "Listeners Systematically Integrate Hierarchical Tonal Context, Regardless of Musical Training",
-          "authors": "Riesa Y. Cassano-Coleman, Sarah C. Izen, Elise A. Piazza",
-          "abstract": "Context drives our interpretations of music as surprising, frightening, or awe-inspiring. However, it remains unclear how formal musical training affects our ability to hierarchically integrate complex tonal information to efficiently predict, remember, and segment music. We scrambled naturalistic music at multiple timescales to manipulate coherent tonal context while controlling for multiple acoustic cues. Memory (Experiment 1; n = 108, age range = 19–41 years) and prediction (Experiment 2; n = 108, age range = 20–41 years) improved with more intact context for both musicians and nonmusicians. Listeners’ event boundaries were influenced by the amount of tonal context but also reflected nested phrase structure, and musicians were more sensitive to longer-timescale “hyperphrase” structure (Experiment 3; n = 95, age range = 20–42 years) and could better identify the amount of scrambling (Experiment 4; n = 108, age range = 19–41 years). These results indicate that listeners integrate tonal context across complex phrases to efficiently encode, predict, and segment naturalistic music and that in general, training has surprisingly little impact on this integration.",
-          "url": "https://doi.org/10.1177/09567976251400331",
-          "doi": "https://doi.org/10.1177/09567976251400331",
-          "filter": 0,
-          "created": "2025-12-19"
         }
       ],
       "articles_hidden": []
