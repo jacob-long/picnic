@@ -76,30 +76,29 @@ if (nrow(subset(out, filter == 0 & is.na(abstract))) > 0) {
     # Set the user agent for scraping
     user_agent <- "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36"
     # Loop through them
-    for (i in 1:nrow(no_abs)) {
-        # Create holder object
-        abstract <- NULL
-        # Get the URL
-        url <- no_abs$url[i]
-        # Visit the URL
+    # Around lines 79-123, wrap the fetch operation in tryCatch
+for (i in 1:nrow(no_abs)) {
+    # Create holder object
+    abstract <- NULL
+    # Get the URL
+    url <- no_abs$url[i]
+    
+    # Wrap the entire fetch and parse operation in tryCatch
+    tryCatch({
         # Visit the URL using the robust fetch function
         response <- fetch_with_retry(url, user_agent)
         
         # Check status code after retries
         status <- status_code(response)
-        if (status %in% c(403, 404, 409, 429)) { # Also skip if max retries for 429 were hit
+        if (status %in% c(403, 404, 409, 429)) {
             warning(paste("Skipping URL due to status code", status, ":", url))
             next
         }
         
-        # Check for non-200 status codes that aren't handled above
         if (status != 200) {
             warning(paste("Non-200 status code", status, "for URL:", url))
-            # Optionally decide whether to skip or try to proceed
-            # For now, let's try to proceed cautiously
         }
 
-        # Original GET call and basic status check removed, replaced by fetch_with_retry above.
         # Get the final URL after DOI redirect
         final_url <- response$url
         # Grab the page
@@ -109,18 +108,21 @@ if (nrow(subset(out, filter == 0 & is.na(abstract))) > 0) {
         if (grepl("nature\\.com", response$url)) {
             abstract <- content |> html_element("#Abs1-content") |> html_text2()
             if (is.na(abstract)) {
-                # Grabs teaser from Matters Arising
-                abstract <- content |> html_element(".article__teaser") |> html_text2()
+                abstract <- content |> html_element(". article__teaser") |> html_text2()
             }
         } 
 
-        if (!is.null(abstract) && !is.na(abstract)) {
+        if (! is.null(abstract) && ! is.na(abstract)) {
             out$abstract[out$url == url] <- abstract
         }
         
-        # Add a small delay to be polite to servers
-        Sys.sleep(1) # Pause for 1 second between requests
-    }
+    }, error = function(e) {
+        # Log the error and continue to next URL
+        warning(paste("Failed to fetch abstract for URL:", url, "| Error:", conditionMessage(e)))
+    })
+    
+    # Add a small delay to be polite to servers
+    Sys.sleep(1)
 }
 
 # Filter flags: Multidisciplinary journals 
