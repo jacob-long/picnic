@@ -23,7 +23,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev
-          sudo apt-get install -y libfontconfig1-dev build-essential gfortran r-base-dev
+          sudo apt-get install -y libfontconfig1-dev build-essential gfortran r-base-dev libx11-dev pandoc
 
       # Step 3: Set up R
       - name: Setup R
