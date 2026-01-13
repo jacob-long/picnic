@@ -124,6 +124,7 @@ for (i in 1:nrow(no_abs)) {
     # Add a small delay to be polite to servers
     Sys.sleep(1)
 }
+}
 
 # Filter flags: Multidisciplinary journals 
 if(field=="multidisciplinary"){
