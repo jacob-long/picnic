@@ -1,18 +1,77 @@
 {
-  "update": "2025-12-31",
+  "update": "2026-01-13",
   "content": [
+    {
+      "journal_full": "Advances in Methods and Practices in Psychological Science",
+      "journal_short": "AMPPS",
+      "articles": [
+        {
+          "title": "A Practical Guide for Integrating Community-Engaged Research Across the Psychological Research Cycle",
+          "authors": "Jawahir Mohamed, Benjamin Koshy Jacob, Régine Debrosse, Marim Adel, Stella Zhang, Zaiyuan Hu, Kelci Harris, Joanne M. Chung",
+          "abstract": "Despite growing calls to increase diversity in research, methodological approaches that could address this issue remain underused. In this article, we argue that community-engaged research (CEnR), a framework that ultimately seeks to create genuine partnerships between researchers and marginalized communities, offers a solution for making psychological research more diverse while strengthening scientific rigor. We provide a practical guide for implementing CEnR principles across seven key research phases, from study conceptualization to knowledge dissemination, with different levels of engagement based on what researchers can realistically manage. Drawing from examples across five of our studies with diverse populations, including Black youth in Canada and the United States, Syrian newcomers in the Netherlands, and racial and ethnic minority university students in Canada, we illustrate how CEnR strengthens research quality and impact by fostering culturally responsive methods, building trust with communities, and enabling richer interpretation of findings. We discuss challenges in using CEnR, including the time and resources it requires and institutional barriers, while providing concrete guidance that emphasizes honest self-reflection and starting small. We conclude by highlighting future directions and emphasizing that developing CEnR skills requires ongoing practice, with the goal of building toward more collaborative and impactful psychology research.",
+          "url": "https://doi.org/10.1177/25152459251397997",
+          "doi": "https://doi.org/10.1177/25152459251397997",
+          "filter": 0,
+          "created": "2026-1-10"
+        },
+        {
+          "title": "CATAcode : A Principled Approach for Coding Check-All-That-Apply Demographic Items",
+          "authors": "Gabriel J. Merrin, Kyle Nickodem, Nickholas Grant, Sitara M. Weerakoon, Melissa K. Holt, Dorothy L. Espelage",
+          "abstract": "Accurately measuring, reporting, interpreting, and evaluating identity categories in social-science research is essential; however, check-all-that-apply (CATA) responses present methodological challenges because of the large permutations of categories and the fluctuating salience of intersecting identities across time and contexts. These challenges can hinder the validity of quantitative studies, particularly those examining racial, ethnic, and other social-identity differences. Although quantitative-critical-race-theory scholars have proposed principles for handling racial and ethnic categories in quantitative research, their application in statistical analyses remains limited. In this article, we introduce CATAcode , an R package designed to assist researchers in exploring and preparing CATA demographic items for statistical modeling. By applying this tool to cross-sectional and longitudinal data, in the tutorial, we demonstrate how CATAcode can enhance the generalizability, transparency, and reproducibility of social-science research. Improving the rigor of demographic measurement is essential for identifying and addressing social inequalities, allocating resources, and understanding broader patterns of marginalization.",
+          "url": "https://doi.org/10.1177/25152459251401184",
+          "doi": "https://doi.org/10.1177/25152459251401184",
+          "filter": 0,
+          "created": "2026-1-7"
+        }
+      ],
+      "articles_hidden": []
+    },
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "Modeling qualitative between-person heterogeneity in time series using latent class vector autoregressive models",
-          "authors": "Anja F. Ernst, Jonas M. B. Haslbeck",
-          "abstract": "Time-series data have become ubiquitous in psychological research, allowing us to study detailed within-person dynamics and their heterogeneity across persons. Vector autoregressive (VAR) models have become a popular choice as a first approximation of these dynamics. The VAR model for each person and heterogeneity across persons can be jointly modeled using a hierarchical model that treats heterogeneity as a latent distribution. Currently, the most popular choice for this is the multilevel VAR model, which models heterogeneity across persons as quantitative variation through a multivariate Gaussian distribution. Here, we discuss an alternative, the latent class VAR model, which models heterogeneity as qualitative variation using a number of discrete clusters. While this model has been introduced before, it has not been readily accessible to researchers. Here we address this issue by providing an accessible introduction to latent class VAR models; a simulation evaluating how well this model can be estimated in situations resembling applied research; introducing a new R package ClusterVAR , which provides easy-to-use functions to estimate the model; and providing a fully reproducible tutorial on modeling emotion dynamics, which walks the reader through all steps of estimating, analyzing, and interpreting latent class VAR models.",
-          "url": "https://doi.org/10.3758/s13428-025-02909-7",
-          "doi": "https://doi.org/10.3758/s13428-025-02909-7",
+          "title": "Comparing aperiodic activity in consumer-grade and research-grade EEG: Reliability and association with mathematical ability",
+          "authors": "Nienke E. R. van Bueren, Anne H. van Hoogmoed, Sanne H. G. van der Ven, Lisa M. Jonkman",
+          "abstract": "Electroencephalography (EEG) provides valuable insights into brain development, but collecting high-quality data can be tedious, limiting its usability with children. This study evaluates the feasibility and reliability of EEG data acquisition in children with a wireless consumer-grade EEG headset (EMOTIV EPOC X), by comparing it to a research-grade system (BioSemi ActiveTwo), with a focus on aperiodic brain activity. The portability of the EMOTIV headset allows for EEG data collection in ecologically valid, real-world settings such as schools, enabling novel insights into brain activity during learning. We recorded EEG from 93 children (aged 9–10 years) using the EMOTIV headset, beginning with a 4-min resting-state measurement, followed by assessments of mathematical ability, visuospatial working memory, and verbal working memory, in a classroom environment. Aperiodic activity, thought to reflect fundamental aspects of neural excitability and cognitive processing, was extracted and its reliability compared across the two EEG systems. We further tested whether aperiodic activity recorded with EMOTIV predicts mathematical ability, replicating earlier research using research-grade EEG equipment. Our findings reveal that, similar to earlier findings, lower aperiodic activity was associated with higher math performance, supporting its role as a neural marker of cognitive ability. These results demonstrate the feasibility and reliability of using a consumer-grade mobile EEG headset to investigate individual differences in cognitive development in naturalistic contexts. This work opens up new opportunities for large-scale, school-based neurocognitive assessments and paves the way for personalized educational approaches based on neural profiles.",
+          "url": "https://doi.org/10.3758/s13428-025-02905-x",
+          "doi": "https://doi.org/10.3758/s13428-025-02905-x",
           "filter": 0,
-          "created": "2025-12-26"
+          "created": "2026-1-6"
+        },
+        {
+          "title": "Collecting, detecting, and handling non-wear intervals in longitudinal light exposure data",
+          "authors": "Carolina Guidolin, Johannes Zauner, Steffen Lutz Hartmeyer, Manuel Spitschan",
+          "abstract": "In field studies using wearable light loggers, participants often need to remove the devices, resulting in non-wear intervals of varying and unknown duration. Accurate detection of these intervals is an essential step during data pre-processing. Here, we deployed a multi-modal approach to collect non-wear time during a longitudinal light exposure collection campaign and systematically compare non-wear detection strategies. Healthy participants ( n = 26; mean age 28 ± 5 years, 14F) wore a near-corneal plane light logger for 1 week and reported non-wear events in three ways: pressing an \"event marker\" button on the light logger, placing it in a black bag, and using an app-based Wear log. Wear log entries, checked twice daily, served as ground truth for non-wear detection, showing that non-wear time constituted 5.4 ± 3.8% (mean ± SD) of total participation time. Button presses at the start and end of non-wear intervals were identified in &gt;85.4% of cases when considering time windows beyond 1 min for detection. To detect non-wear intervals based on black bag use and lack of motion, we employed an algorithm that detects clusters of low illuminance and clusters of low activity. Performance was higher for illuminance (F1 = 0.78) than for activity (F1 = 0.52). Light exposure metrics derived from the full dataset, a dataset filtered for non-wear based on self-reports, and a dataset filtered for non-wear using the low illuminance clusters detection algorithm showed minimal differences. Our results highlight that while non-wear detection may be less critical in high-compliance cohorts, systematically collecting and detecting non-wear intervals is feasible and important for ensuring robust data pre-processing.",
+          "url": "https://doi.org/10.3758/s13428-025-02823-y",
+          "doi": "https://doi.org/10.3758/s13428-025-02823-y",
+          "filter": 0,
+          "created": "2026-1-12"
+        },
+        {
+          "title": "Speech onset time at home or in the lab: The role of testing environment and experimenter presence",
+          "authors": "Giorgio Piazza, Natalia Kartushina, Christoforos Souganidis, James E. Flege, Clara D. Martin",
+          "url": "https://doi.org/10.3758/s13428-025-02918-6",
+          "doi": "https://doi.org/10.3758/s13428-025-02918-6",
+          "filter": 0,
+          "created": "2026-1-9"
+        },
+        {
+          "title": "HR-ACT (Human–Robot Action) Database: Communicative and noncommunicative action videos featuring a human and a humanoid robot",
+          "authors": "Tuǧçe Nur Pekçetin, Gaye Aşkın, Şeyda Evsen, Tuvana Dilan Karaduman, Badel Barinal, Jana Tunç, Cengiz Acarturk, Burcu A. Urgen",
+          "abstract": "We present the HR-ACT (Human–Robot Action) Database, a comprehensive collection of 80 standardized videos featuring matched communicative and noncommunicative actions performed by both a humanoid robot (Pepper) and a human actor. We describe the creation of 40 action exemplars per agent, with actions executed in a similar manner, timing, and number of repetitions. The database includes detailed normative data collected from 438 participants, providing metrics on action identification, confidence ratings, communicativeness ratings, meaning clusters, and H values (an entropy-based measure reflecting response homogeneity). We provide researchers with controlled yet naturalistic stimuli in multiple formats: videos, image frames, and raw animation files (.qanim). These materials support diverse research applications in human–robot interaction, cognitive psychology, and neuroscience. The database enables systematic investigation of action perception across human and robotic agents, while the inclusion of raw animation files allows researchers using Pepper robots to implement these actions for real-time experiments. The full set of stimuli, along with comprehensive normative data and documentation, is publicly available at https://osf.io/8vsxq/ .",
+          "url": "https://doi.org/10.3758/s13428-025-02910-0",
+          "doi": "https://doi.org/10.3758/s13428-025-02910-0",
+          "filter": 0,
+          "created": "2026-1-12"
+        },
+        {
+          "title": "Bayesian hierarchical cognitive modeling with the EMC2 package",
+          "authors": "Niek Stevenson, Michelle C. Donzallaz, Reilly J. Innes, Birte U. Forstmann, Dora Matzke, Andrew Heathcote",
+          "url": "https://doi.org/10.3758/s13428-025-02869-y",
+          "doi": "https://doi.org/10.3758/s13428-025-02869-y",
+          "filter": 0,
+          "created": "2026-1-12"
         }
       ],
       "articles_hidden": []
@@ -22,52 +81,36 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "Exploring protective and risk factors for a positive sexting experience among young adults – insights from the SEX-THINK! Project",
-          "authors": "Barbara Agueli, Immacolata Di Napoli, Marcella Autiero, Nicole Bellanca, Alice Lucarini",
-          "url": "https://doi.org/10.1016/j.chb.2025.108901",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108901",
+          "title": "Early Exposure and Emerging Risk: A Latent Profile Analysis of Pornography Use Trajectories and Their Psychological Correlates",
+          "authors": "Bailey M. Way, Todd L. Jennings, Joshua B. Grubbs, Kris Gunawan, Shane W. Kraus",
+          "url": "https://doi.org/10.1016/j.chb.2026.108905",
+          "doi": "https://doi.org/10.1016/j.chb.2026.108905",
           "filter": 0,
-          "created": "2025-12-26"
+          "created": "2026-1-8"
         },
         {
-          "title": "To Share or Not to Share, That Is the (Moral) Question: How Moral Frames and Bystander Cues Shape Health Misinformation Correction Sharing on Social Media",
-          "authors": "Yujie Dong, Wu Li",
-          "url": "https://doi.org/10.1016/j.chb.2025.108900",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108900",
+          "title": "Are Your Defense Mechanisms Harming You? The Role of Psychological Defenses in Social Media Comparison and Adolescent Self-Esteem",
+          "authors": "Lin Ting Jin, Yun Jung Choi",
+          "url": "https://doi.org/10.1016/j.chb.2026.108916",
+          "doi": "https://doi.org/10.1016/j.chb.2026.108916",
           "filter": 0,
-          "created": "2025-12-27"
+          "created": "2026-1-10"
         },
         {
-          "title": "Perceptions of sexualized deepfake abuse across three nations: An exploration of how victim gender and race shape attitudes towards deepfake abuse in the United States, the United Kingdom, and Australia",
-          "authors": "Asia A. Eaton, Adrian J. Scott, Asher Flynn, Anastasia Powell",
-          "url": "https://doi.org/10.1016/j.chb.2025.108899",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108899",
+          "title": "Immersive Technologies and Intergroup Relations: A Critical Review of Theoretical Questions and Methodological Challenges",
+          "authors": "Matilde Tassinari, Marco Marinucci, Béatrice S. Hasler",
+          "url": "https://doi.org/10.1016/j.chb.2026.108908",
+          "doi": "https://doi.org/10.1016/j.chb.2026.108908",
           "filter": 0,
-          "created": "2025-12-27"
+          "created": "2026-1-7"
         },
         {
-          "title": "Association between school phone restriction policies and adolescents’ cyberbullying, gambling, and substance use behaviors",
-          "authors": "Szu-Chia Chen, Tzu-Fu Huang, Kevin Chang, Fong-Ching Chang, Shawn C. Chiang, Chiung-Hui Chiu, Ping-Hung Chen, Nae-Fang Miao, Hung-Yi Chuang",
-          "url": "https://doi.org/10.1016/j.chb.2025.108898",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108898",
+          "title": "From bodily to digital co-presence: Unpacking the Interaction Ritual Chains of hashtag-driven group formation",
+          "authors": "Jinyan Duan, Siyu Qi, Hongyu Yan, Chong Wu",
+          "url": "https://doi.org/10.1016/j.chb.2026.108907",
+          "doi": "https://doi.org/10.1016/j.chb.2026.108907",
           "filter": 0,
-          "created": "2025-12-26"
-        },
-        {
-          "title": "Bridging or Broadening Gaps? AI-Assisted Professional Writing among Native and Non-Native English Writers",
-          "authors": "Inyoung Shin, Hyesun Choung, Mina Choi",
-          "url": "https://doi.org/10.1016/j.chb.2025.108897",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108897",
-          "filter": 0,
-          "created": "2025-12-24"
-        },
-        {
-          "title": "From Facial Expressions to Academic Performance: Affective Computing Reveals the Serial Mediating Roles of Emotional Valence and Self-Regulated Learning",
-          "authors": "Ruchang Miao, Peijia Yang, Shuna Li, Kaizhen Kong, Xiangting Wang",
-          "url": "https://doi.org/10.1016/j.chb.2025.108902",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108902",
-          "filter": 0,
-          "created": "2025-12-30"
+          "created": "2026-1-7"
         }
       ],
       "articles_hidden": []
@@ -77,51 +120,51 @@
       "journal_short": "JESP",
       "articles": [
         {
-          "title": "Understanding attributions to racial discrimination in diverse hiring contexts: The impact of beneficiary identity",
-          "authors": "Laurie T. O'Brien, Yvette Bivins-Sanchez, Maria Casteigne, Caley Lowe, J'Lyn Wilson",
-          "url": "https://doi.org/10.1016/j.jesp.2025.104866",
-          "doi": "https://doi.org/10.1016/j.jesp.2025.104866",
+          "title": "You're not so bad after all: Apologies and guilt promote perceptions of moral restoration after wrongdoing",
+          "authors": "Emily P. Bosche, Justin M. Ludwig, Karina Schumann",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104879",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104879",
           "filter": 0,
-          "created": "2025-12-24"
-        },
-        {
-          "title": "When are leaders blamed for bad events that never happened? Partisanship and close counterfactual catastrophes",
-          "authors": "Matejas Mackin, Daniel A. Effron, Kai Epstude, Neal J. Roese",
-          "url": "https://doi.org/10.1016/j.jesp.2025.104868",
-          "doi": "https://doi.org/10.1016/j.jesp.2025.104868",
-          "filter": 0,
-          "created": "2025-12-25"
-        },
-        {
-          "title": "Recalling ingroup privilege as outgroup disadvantage: Evidence for a privilege-reframing bias and tests of a potential mediator",
-          "authors": "Annette Malapally, Kathrin Wildgans, Soledad de Lemus, Susanne Bruckmüller",
-          "url": "https://doi.org/10.1016/j.jesp.2025.104867",
-          "doi": "https://doi.org/10.1016/j.jesp.2025.104867",
-          "filter": 0,
-          "created": "2025-12-26"
+          "created": "2026-1-6"
         }
       ],
       "articles_hidden": []
     },
     {
-      "journal_full": "Multivariate Behavioral Research",
-      "journal_short": "MBR",
+      "journal_full": "Journal of Personality and Social Psychology",
+      "journal_short": "JPSP",
       "articles": [
         {
-          "title": "A Two-Step Robust Estimation Approach for Inferring Within-Person Relations in Longitudinal Design: Tutorial and Simulations",
-          "authors": "Satoshi Usami",
-          "url": "https://doi.org/10.1080/00273171.2025.2601271",
-          "doi": "https://doi.org/10.1080/00273171.2025.2601271",
+          "title": "Clarifying the diploma divide: The growing importance of higher education for political identity.",
+          "authors": "Michael Prinzing, Michael Vazquez",
+          "url": "https://doi.org/10.1037/pspa0000481",
+          "doi": "https://doi.org/10.1037/pspa0000481",
           "filter": 0,
-          "created": "2025-12-27"
+          "created": "2026-1-12"
         },
         {
-          "title": "A Latent Space Graded Response Model for Likert-Scale Psychological Assessments",
-          "authors": "Ludovica De Carolis, Inhan Kang, Minjeong Jeon",
-          "url": "https://doi.org/10.1080/00273171.2025.2605678",
-          "doi": "https://doi.org/10.1080/00273171.2025.2605678",
+          "title": "Life satisfaction, loneliness, and depressivity in consistently single young adults in Germany and the United Kingdom.",
+          "authors": "Michael D. Krämer, Julia Stern, Laura Buchinger, Geoff MacDonald, Wiebke Bleidorn",
+          "url": "https://doi.org/10.1037/pspp0000595",
+          "doi": "https://doi.org/10.1037/pspp0000595",
           "filter": 0,
-          "created": "2025-12-30"
+          "created": "2026-1-12"
+        },
+        {
+          "title": "How group personality composition affects person and group outcomes: An integrative analysis using the group actor–partner interdependence model.",
+          "authors": "Eva Bleckmann, Richard Rau, Oliver Lüdtke, Sascha Krause, Jenny Wagner",
+          "url": "https://doi.org/10.1037/pspp0000588",
+          "doi": "https://doi.org/10.1037/pspp0000588",
+          "filter": 0,
+          "created": "2026-1-8"
+        },
+        {
+          "title": "Person-related selection bias in mobile sensing research: Robust findings from two panel studies.",
+          "authors": "Ramona Schoedel, Thomas Reiter, Michael D. Krämer, Yannick Roos, Markus Bühner, David Richter, Matthias R. Mehl, Cornelia Wrzus",
+          "url": "https://doi.org/10.1037/pspp0000585",
+          "doi": "https://doi.org/10.1037/pspp0000585",
+          "filter": 0,
+          "created": "2026-1-8"
         }
       ],
       "articles_hidden": []
@@ -131,92 +174,101 @@
       "journal_short": "PSPB",
       "articles": [
         {
-          "title": "Construal Level Stereotypes: Perceived Differences in Groups’ Abstract Versus Concrete Cognitive Tendencies",
-          "authors": "Ashli B. Carter, Felix Danbold, Batia M. Wiesenfeld",
-          "abstract": "Individuals can construe the world around them more concretely or more abstractly, with consequences for their judgments and behaviors. With five studies involving 3,963 U.S. adult participants, we test whether people hold stereotypes about the tendency for different groups to think more concretely or more abstractly. Across Studies 1 to 3, individuals report explicit and consistent construal level stereotypes about social groups in various demographic, occupational, and non-human categories. In Studies 2 and 3, we provide evidence that construal level stereotypes are correlated with, yet distinct from, stereotypes about their competence, agency, and power. In Studies 4 and 5, we offer evidence of predictive validity with two experiments showing that individuals use construal level stereotypes to inform employee selection decisions. These findings integrate and advance two major topics in social cognition: construal level theory and stereotyping. We discuss societal implications of construal level stereotypes predicting behaviors associated with discrimination in resource allocation.",
-          "url": "https://doi.org/10.1177/01461672251406462",
-          "doi": "https://doi.org/10.1177/01461672251406462",
+          "title": "“If Immoral Then Unable”: Asymmetric Generalizations in Social Judgment",
+          "authors": "Simone Mattavelli, Marco Brambilla, Alex Koch, Marcos Dono",
+          "abstract": "Morality and ability are two key dimensions of social judgment. Across four experiments (total N = 1,418, three preregistered), we examined how information about one dimension shapes impressions in the other. In Experiment 1, participants generated positive and negative behaviors related to either morality or ability and then evaluated each behavior on the other dimension. Negative moral behaviors led to stronger inferences of low ability than negative ability behaviors led to inferences of immorality (i.e., asymmetric Horn effect). No asymmetry emerged for positive behaviors (i.e., symmetric Halo effects). Experiments 2a and 2b confirmed the asymmetric Horn effect and showed it was stronger for extreme versus moderate negative behaviors. Experiment 3 showed that immoral behaviors elicited more perceived threat than unable behaviors, which partly explained the asymmetric horn effect. These findings complement and extend prior models of impression formation by highlighting the primacy of morality in influencing judgments on other fundamental content dimensions.",
+          "url": "https://doi.org/10.1177/01461672251410724",
+          "doi": "https://doi.org/10.1177/01461672251410724",
           "filter": 0,
-          "created": "2025-12-29"
+          "created": "2026-1-9"
         },
         {
-          "title": "Personality From Age 10 to 16 years. A Four-Wave Cohort Study of Development and Sex Differences in the Big Five and Its Facets",
-          "authors": "Silje Steinsbekk, Lars Wichstrøm, Tilmann von Soest",
-          "abstract": "Recent years have witnessed an increased interest in personality development in childhood and adolescence. However, population-based longitudinal studies that examine self-reported personality traits and their facets during these critical developmental periods are scarce. Here, we test the disruption hypothesis, which suggests deviations from standard patterns of personality maturation during adolescence in certain personality domains. Our study extends existing knowledge by examining development and sex differences in self-reported conscientiousness, agreeableness, neuroticism, and their facets from childhood to adolescence. Utilizing the Big Five Inventory, we collected four waves of personality data (ages 10, 12, 14, and 16 years) from a representative birth cohort of Norwegian children ( N = 805). Our results predominantly support the disruption hypothesis, showing declines in conscientiousness and agreeableness across sexes from age 12, with an increase in neuroticism observed solely for girls. The findings further demonstrate that maturation disruptions vary at the facet level, suggesting a complex developmental process.",
-          "url": "https://doi.org/10.1177/01461672251396595",
-          "doi": "https://doi.org/10.1177/01461672251396595",
+          "title": "Gender Equality Differentiation Hinders Progress Toward Gender Equality",
+          "authors": "Mengwei Tian, Chen Chen, Kai Chi Yam, Xinyi Zhang, Kaidi Bi, Xin Qin",
+          "abstract": "Gender inequality has been an enduring issue throughout history and continues to persist in modern society. Although we have achieved much gender equality, this progress has stagnated. We propose that gender equality differentiation, defined as the variance in the levels of gender equality across different dimensions, is a critical but neglected factor that impedes progress toward gender equality. Using a global dataset of 158 countries spanning from 2006 to 2022 (Study 1; N = 1,906), we find that countries with a higher level of gender equality differentiation at the focal year have a lower level of gender equality in the next year. A global survey (Study 2; N = 45,611) and a preregistered experiment (Study 3; N = 566) further demonstrate the underlying mechanisms. This research reveals a paradox—isolated efforts in addressing some aspects of gender inequality inadvertently stall efforts to address holistic gender inequality.",
+          "url": "https://doi.org/10.1177/01461672251401062",
+          "doi": "https://doi.org/10.1177/01461672251401062",
           "filter": 0,
-          "created": "2025-12-27"
+          "created": "2026-1-7"
         },
         {
-          "title": "Rethinking Knowledge’s Impact on the Illusory Truth Effect",
-          "authors": "Anat Shechter, Karl Christoph Klauer",
-          "abstract": "Repeated exposure to information increases receptivity to it, even when prior knowledge is present, according to the illusory truth effect. Fazio et al. provided empirical support for this phenomenon and proposed a model that posited dominance of fluency cues, relative to knowledge utilization. This model better elucidated participants’ behaviors than an alternative model assuming precedence of knowledge processes over fluency-related mechanisms. The present research builds on this by refining models and testing them with new and existing data. While reanalysis of existing data revealed comparable performance of both models, new data from two experiments ( N = 324), introducing conditions conducive to discerning between the two models, uncovered compelling evidence in support of the model that assumes knowledge processes’ precedence. The discrepancy between Fazio et al. and our findings is discussed, and we encourage future research to explore avenues for resolving the relative roles of knowledge and fluency.",
-          "url": "https://doi.org/10.1177/01461672251403392",
-          "doi": "https://doi.org/10.1177/01461672251403392",
+          "title": "Conspiracy Theories and Online Dating: It’s a (Mis)match!",
+          "authors": "Ricky Green, Lea C. Kamitz, Daniel Toribio-Flórez, Mikey Biddlestone, Frank Gasking, Robbie M. Sutton, Karen M. Douglas",
+          "abstract": "Conspiracy beliefs can harm interpersonal relationships, but their impact on future relationships remains underexplored. Across four preregistered experiments ( N = 1,603), we examined how sharing conspiracy theories in online dating profiles affects interpersonal impressions and intentions to start relationships, and whether these outcomes depend on perceivers’ political orientation. Experiments 1a and 1b revealed that profiles including right-wing conspiracy theories were perceived less favorably compared to controls. Participants were also more reluctant to start relationships with the profile holder. In Experiment 2, implausible (vs. plausible) left-wing conspiracy theories elicited stronger negative reactions. In Experiment 3, participants showed less interest in conspiracy-sharing profiles (vs. controls) on a mock dating app. Political orientation moderated these effects—liberals were more critical, while conservatives were more lenient and sometimes favored conspiracy-sharing profiles. These findings further highlight the social consequences of sharing conspiracy theories and the moderating role of political orientation.",
+          "url": "https://doi.org/10.1177/01461672251399448",
+          "doi": "https://doi.org/10.1177/01461672251399448",
           "filter": 0,
-          "created": "2025-12-29"
+          "created": "2026-1-8"
         },
         {
-          "title": "Understanding the Persistence of Traditional Values in Modern Society: Adaptive Utility Matters",
-          "authors": "Menglin He, Huajian Cai, Cai Xing, Yiming Zhu",
-          "abstract": "The adaptation account suggests that the persistence of some traditional values in modern society is due to their enduring adaptive utility. We tested this hypothesis by examining the change of filial piety in two Confucian societies, China and Japan. By analyzing natural language data, Study 1 found that Chinese people’s concern about and liking for filial piety have increased since 1979, with falling birth rate and rising elderly population as the Granger causes. By analyzing survey data from 2006 to 2017 ( N = 7,283) in China, Study 2 found that reciprocal filial piety was adaptive (i.e., conducive to well-being) and increasing, whereas authoritarian filial piety was maladaptive (i.e., detrimental to well-being) and decreasing. By analyzing both Japanese language data from 1989 to 2023 (Study 3a) and survey data from 2006 to 2018 (Study 3b: N = 4,763), Study 3 replicated the main findings from China. These findings support the adaptation account of cultural persistence.",
-          "url": "https://doi.org/10.1177/01461672251393559",
-          "doi": "https://doi.org/10.1177/01461672251393559",
+          "title": "In-Person and Virtual Dates are Comparable, But People Don’t Know It",
+          "authors": "Elina Moreno, Eli J. Finkel, Kellie Ammerman, Paul W. Eastwick",
+          "abstract": "Virtual dating has become popular, but how do people feel about potential romantic partners on virtual versus in-person first dates? In Study 1, a sample of online participants predicted that in-person dates would be markedly better than virtual dates. Study 2 examined whether this prediction received support in a dataset of 4,542 real-life blind dates. We examined first-date outcomes (e.g., date enjoyment and attraction) and partner trait-perceptions (e.g., ambitious and confident) reported after each date. In-person dates were generally longer, but otherwise, virtual and in-person dates were highly similar across the full sample, and virtual dates outperformed in-person dates when controlling for date length. We conducted a one-with-many Social Relations Model analysis on a subsample of Study 2 daters ( n = 1,833 dates) and documented a modest amount of actor and partner variance, and a large amount of relationship variance. Virtual dates may be an underappreciated screening strategy for potential partners.",
+          "url": "https://doi.org/10.1177/01461672251409231",
+          "doi": "https://doi.org/10.1177/01461672251409231",
           "filter": 0,
-          "created": "2025-12-27"
+          "created": "2026-1-9"
         },
         {
-          "title": "Health as an Alibi: The Virtuous Framing of Appearance Pursuits",
-          "authors": "Stephanie C. Lin, Kaitlin Woolley, Peggy J. Liu",
-          "abstract": "In many societies, attaining cultural ideals of physical attractiveness is desirable (e.g., being beautiful), but pursuing physical attractiveness is not (e.g., being vain). How do people address these paradoxical standards? We argue that people meet the standards to both appear slim and appear to have good values by disguising their true motives for ambiguous actions (i.e., diet and exercise): they project more virtuous health motives to others despite being actually driven by physical appearance motives. Five preregistered studies and two supplemental studies ( N = 4,321) find evidence for this behavior and offer an intervention to increase the extent to which people are actually driven by health (vs. physical appearance) motives in private. Moreover, we find that this behavior is driven by the desire to be seen by others as having good values. Altogether, this research contributes to a better understanding of the distorted discourse surrounding health, diet, exercise, and appearance.",
-          "url": "https://doi.org/10.1177/01461672251396231",
-          "doi": "https://doi.org/10.1177/01461672251396231",
+          "title": "Politics of Envy? Meritocracy Beliefs, Not Envy, Drive Support for Redistribution",
+          "authors": "Jasper Neerdaels, Lisa Blatz, Jan Crusius",
+          "abstract": "Support for redistribution is often dismissed as driven by a morally questionable motive: Malicious envy. Seemingly supporting this notion, in some studies, liberalism was correlated with envy, and envy predicted support for redistribution. However, we argue that these results can be explained by meritocracy beliefs rather than envy; specifically, we hypothesize that liberals are only indirectly prone to envy to the extent that they believe wealth is often not merited. Consequently, we argue that these meritocracy beliefs drive redistribution support, not envy. We found support for our predictions in three surveys and one experiment (total N = 4,171), showing that (a) liberalism only indirectly predicted envy via lowered meritocracy beliefs, and (b) meritocracy beliefs, not envy, (negatively) predicted support for redistribution. Moreover, when an experimental manipulation increased liberals’ perceptions of wealth as deserved, their support for redistribution decreased. These findings may inform a more evidence-based debate amid growing inequality.",
+          "url": "https://doi.org/10.1177/01461672251410720",
+          "doi": "https://doi.org/10.1177/01461672251410720",
           "filter": 0,
-          "created": "2025-12-30"
+          "created": "2026-1-9"
         },
         {
-          "title": "Courageous but Indebted? Regional Courage is Associated With Higher Debt-to-Income Ratio in the United States",
-          "authors": "Jali Packer, Joe Gladstone, Friedrich M. Götz",
-          "abstract": "Geographic disparities in household indebtedness present an economic puzzle that traditional models inadequately explain. We examine whether regional psychological traits—specifically courage—help explain these differences. Analyzing data from 836,184 individuals across 1,220 U.S. counties, we tested whether areas with higher collective courage (willingness to act despite fear) exhibit higher debt-to-income ratios. Using spatial regression techniques to account for geographic clustering and controlling for sociodemographic factors and Big Five personality traits, we found that courage significantly predicted county-level debt-to-income ratios. A one standard deviation increase in regional courage was associated with a 0.22 standard deviation increase in debt-to-income—an effect that persisted across different geographic scales and modeling approaches. Courage hotspots in western and southern regions showed corresponding patterns of higher indebtedness. These findings reveal that psychological traits traditionally viewed as virtuous may have unintended economic consequences, highlighting the importance of considering regional psychology when designing financial policies and interventions.",
-          "url": "https://doi.org/10.1177/01461672251398580",
-          "doi": "https://doi.org/10.1177/01461672251398580",
+          "title": "Just Not That Into You: Experiences of Indifference Toward a Romantic Partner",
+          "authors": "Mirna Đurić, Francesca Righetti, Giulia Zoppolat, Iris K. Schneider",
+          "abstract": "Theoretical work has proposed that people can have four different patterns of interpersonal evaluations: mostly positive, mostly negative, ambivalent (both positive and negative), and indifferent (neither positive nor negative). Notably, indifference has been largely overlooked by empirical research, despite growing evidence that indifferent feelings can occur in romantic relationships. To address this gap, we examined the associations of feelings of indifference toward one’s romantic partner with relationship and personal well-being across four studies ( N = 2,490), using cross-sectional and longitudinal data from couples and individuals in relationships. To do so, we developed the Subjective Interpersonal Indifference Scale and established it as a valid and reliable measure to assess this evaluation. Our findings showed that indifference toward a romantic partner is associated with lower relationship and personal well-being, both concurrently and longitudinally. Underlying these associations were higher feelings of boredom in the relationship, higher desire for attractive alternatives, and lower intimacy.",
+          "url": "https://doi.org/10.1177/01461672251410278",
+          "doi": "https://doi.org/10.1177/01461672251410278",
           "filter": 0,
-          "created": "2025-12-29"
+          "created": "2026-1-8"
         },
         {
-          "title": "To Each Their Own: Is Extending Life Expectancy Always Desirable? A Phenomenological Study of Longevity Aspirations Among Older Adults in Senior Living Facilities",
-          "authors": "Shi Yin Chee, Ester Ellen Trees Bolt",
-          "abstract": "Aging is a multifaceted, personal experience rather than a one-size-fits-all journey of universal longevity desires. This study explores the lived experiences of older adults in senior living facilities, focusing on their longevity aspirations and the factors shaping them. In-depth, semi-structured interviews with 20 older adults in four Malaysian senior living facilities were analyzed using Husserl’s phenomenology and Giorgi’s descriptive method. Four themes emerged: balancing the desire to live long versus living well, emotional and existential reflections, hidden emotional and physical adaptations, and shifting dynamics of control over priorities and values. Findings reveal that aging is an unpredictable journey, shaped by ambiguities and uncertainties, where fulfillment does not always stem from longevity. Tailored support that honors older adults’ histories, emotions, and aspirations enables aging with dignity and autonomy, guiding providers, policymakers, and caregivers to enhance quality of life to meaningfully enhance quality of life by aligning care with longevity aspirations.",
-          "url": "https://doi.org/10.1177/01461672251406667",
-          "doi": "https://doi.org/10.1177/01461672251406667",
+          "title": "Do Your Own Research (?) A Weak Link Between Conspiracism and Preference for First-Hand Evidence in a Perceptual Task",
+          "authors": "Noëmon Baudouin, Sacha Altay, Hugo Mercier",
+          "abstract": "Conspiracy theorists often prompt others to “Do your own research.” Could a general desire for such epistemic autonomy—to make up one’s own mind rather than deferring to others’ testimony—explain why some people are attracted to conspiracy theories? In four pre-registered studies (United States and United Kingdom, N = 1196), we test whether participants more likely to believe in conspiracy theories have a stronger preference for forming their own beliefs independently. Participants chose between doing a difficult perceptual task themselves or relying on an expert’s answer. Internal fixed-effect meta-analyses revealed a weak but statistically significant relationship between belief in conspiracy theories and preference for first-hand evidence. By contrast, the relationship between epistemic individualism and this preference was stronger and more robust. This suggests that, although individuals endorsing conspiracy theories express a stronger preference for “doing their own research,” their behavior mostly does not match this preference in non-conspiratorial contexts.",
+          "url": "https://doi.org/10.1177/01461672251408129",
+          "doi": "https://doi.org/10.1177/01461672251408129",
           "filter": 0,
-          "created": "2025-12-27"
+          "created": "2026-1-9"
+        },
+        {
+          "title": "Flexible Diagnosticity in Person Impression Formation: An Integrative Framework",
+          "authors": "Johannes Ziegler, Linda McCaughey, Klaus Fiedler",
+          "abstract": "In person impression formation, target characteristics such as suitability for a vacant position or interpersonal likeability are inferred from information samples. This process strongly depends on the diagnosticity of observed (i.e., sampled) behaviors. Applying a likelihood-based conceptualization of diagnosticity, we tested two major implications: First, diagnosticity depends on the hypothesis being tested, and second, it is shaped by situational base-rates. We examined both facets by manipulating the extent of positive versus negative valence within the big two (agency vs. communion). In Experiment 1, we varied the hypothesis to be tested by providing different job profiles in a personnel selection task. Consistent with the predictions, hypothesis-relevant information impacted both sampling and judgment behavior more than hypothesis-irrelevant information. In Experiments 2A and 2B, we manipulated big-two specific valence base-rate expectations on target persons characterized as psychotherapy patients: Genuinely diagnostic violations of group-based expectancies turned out to result in strongest judgments. The findings suggest that participants’ sampling patterns and judgments follow the proposed likelihood-based diagnosticity concept.",
+          "url": "https://doi.org/10.1177/01461672251405990",
+          "doi": "https://doi.org/10.1177/01461672251405990",
+          "filter": 0,
+          "created": "2026-1-9"
         }
       ],
       "articles_hidden": []
     },
     {
-      "journal_full": "Psychology of Music",
-      "journal_short": "PsychMusic",
+      "journal_full": "Psychological Science",
+      "journal_short": "PsychSci",
       "articles": [
         {
-          "title": "Paracusis musicalis: Insights on age-related absolute pitch decline",
-          "authors": "Barry L Baker, Youkyung Bae",
-          "abstract": "Paracusis musicalis (PM) is a condition in which individuals with absolute pitch (AP) experience a decline in their AP abilities with age. Although PM has been known to the scientific community for decades, its literary presence is sparse. The aim of the present study is to conduct the first appraisal of the corpus of PM literature, draw preliminary conclusions, and identify areas for future contributions. A structured review across nine electronic databases yielded seven publications meeting eligibility criteria. Common PM features identified across studies included a gradual disruption of pitch stability with aging, greater pitch accuracy for central octaves, and better performance with piano timbres. Variability was observed in the direction of pitch distortions (sharp, flat, or mixed). Onset was typically reported between the fourth to fifth decades of life. The reviewed publications include cross-sectional observational studies, retrospective single-case reports, longitudinal case series, and theoretical accounts, collectively emphasizing the need for more systematic, large-scale empirical research. This article highlights conceptual and methodological gaps and proposes avenues for advancing understanding of PM and its broader implications for auditory aging.",
-          "url": "https://doi.org/10.1177/03057356251399802",
-          "doi": "https://doi.org/10.1177/03057356251399802",
+          "title": "Choice Set Size Neglect in Predicting Others’ Preferences",
+          "authors": "Beidi Hu, Alice Moon, Eric VanEpps",
+          "abstract": "An inherent feature of any choice is the set size from which that choice is made (i.e., the number of available options in a choice set). Choice set size impacts the likelihood of landing on a more preferred option: Larger sets are more likely to contain an option matching one’s preferences. Nevertheless, in six preregistered experiments with 10,092 U.S. adults, we demonstrated that people consistently underestimated the effect of set size when predicting others’ liking for a chosen option. We propose this effect arises because, although people recognize that set size predicts liking of a chosen option, they typically fail to attend to it when considering others’ choices. Accordingly, this effect was attenuated when attention was drawn to set size, specifically (a) when participants considered multiple set sizes simultaneously, (b) when the decision process was framed as ranking rather than choosing, or (c) when participants were prompted to recall set size before predicting others’ preferences.",
+          "url": "https://doi.org/10.1177/09567976251400333",
+          "doi": "https://doi.org/10.1177/09567976251400333",
           "filter": 0,
-          "created": "2025-12-30"
+          "created": "2026-1-7"
         },
         {
-          "title": "Spaced learning and melodic memory",
-          "authors": "Joel J Katz, Melody Wiseheart",
-          "abstract": "Distributed learning is a powerful tool for optimizing retention of verbal materials. We examined the effect of distributing learning on long-term memory for a melody and found strong evidence of better recall in the spaced conditions. In the current study, music students were taught a four-phrase melody in learning sessions that were massed, spaced at 2 days, or spaced at 1 week. Three weeks later, they were tested for recall. Performances were evaluated for note omissions, number of incorrect notes and intervals, and number of correct notes and intervals. Results indicated strong evidence for a spacing effect for melody learning between the massed and spaced conditions at a retention interval of 3 weeks, and no evidence of difference between the two spaced conditions. Unlike most spacing studies, memory did not improve with longer spacing between learning episodes. These results suggest that memory for a melody may rely primarily on structural constraints within the material itself. Once these constraints are understood and associated with the cue, the performance unspools. Results have implications for best practices in melodic learning and for the role of constraining cues in the retrieval of structured non-verbal material.",
-          "url": "https://doi.org/10.1177/03057356251401906",
-          "doi": "https://doi.org/10.1177/03057356251401906",
+          "title": "Understanding Partisan Bias in Judgments of Misinformation: Identity Protection Versus Differential Knowledge",
+          "authors": "Tyler J. Hubeny, Lea S. Nahon, Bertram Gawronski",
+          "abstract": "People overaccept information that supports their identity and underaccept information that opposes their identity—a phenomenon known as partisan bias . Although partisan-bias effects in judgments of misinformation are robust and pervasive, there is ongoing debate about whether partisan-bias effects arise from identity-protective motivated reasoning or differential knowledge of identity-congenial versus identity-uncongenial information. Prior empirical work has been unable to differentiate the two accounts because of a reliance on groups with pre-existing differences in knowledge (e.g., Democrats and Republicans). The current research addresses this issue by using randomly assigned rather than pre-existing identities. Across two experiments ( N total = 1,411), adult U.S. Prolific workers showed lower thresholds for accepting information that is congenial versus uncongenial to a randomly assigned identity, despite having no differences in prior knowledge. These results support theories that emphasize identity protection as a factor underlying partisan bias in the acceptance of misinformation, with important practical implications for misinformation interventions.",
+          "url": "https://doi.org/10.1177/09567976251404040",
+          "doi": "https://doi.org/10.1177/09567976251404040",
           "filter": 0,
-          "created": "2025-12-30"
+          "created": "2026-1-7"
         }
       ],
       "articles_hidden": []
