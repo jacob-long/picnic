@@ -1,5 +1,5 @@
 {
-  "update": "2026-01-16",
+  "update": "2026-01-17",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -22,6 +22,15 @@
       "journal_short": "BRM",
       "articles": [
         {
+          "title": "A mouse-tracking classification task to measure the unhealthy = tasty intuition",
+          "authors": "Jonathan D’hondt, Barbara Briers",
+          "abstract": "Understanding food preferences plays a crucial role in addressing both health concerns, such as obesity, and environmental concerns, such as climate change. Recognizing the impact of lay beliefs on food preferences is essential in addressing these challenges. One prevalent belief is the “unhealthy = tasty intuition” (UTI), the belief that taste and health in food do not go together. While self-report scales and behavioral tasks are commonly used to measure such beliefs, they have distinct methodological purposes: scales are better suited for assessing stable, trait-like constructs, whereas tasks capture more dynamic processes and are well suited for experimental manipulation. This paper introduces a mouse-tracking classification task that provides a process-based behavioral index of UTI, providing a novel approach for assessing implicit beliefs about the relationship between taste and health in food. Three studies validate the task, demonstrating correlations between explicit UTI scores and task performance. Additionally, the task predicts actual food consumption and, importantly, exhibits sensitivity to contextual manipulations. Because this task can be adapted to measure other beliefs, it is a valuable tool for researchers working on individual lay beliefs and decision-making processes. To that end, a template of the task is provided to help other researchers build on this work.",
+          "url": "https://doi.org/10.3758/s13428-025-02927-5",
+          "doi": "https://doi.org/10.3758/s13428-025-02927-5",
+          "filter": 0,
+          "created": "2026-1-16"
+        },
+        {
           "title": "Collecting, detecting, and handling non-wear intervals in longitudinal light exposure data",
           "authors": "Carolina Guidolin, Johannes Zauner, Steffen Lutz Hartmeyer, Manuel Spitschan",
           "abstract": "In field studies using wearable light loggers, participants often need to remove the devices, resulting in non-wear intervals of varying and unknown duration. Accurate detection of these intervals is an essential step during data pre-processing. Here, we deployed a multi-modal approach to collect non-wear time during a longitudinal light exposure collection campaign and systematically compare non-wear detection strategies. Healthy participants ( n = 26; mean age 28 ± 5 years, 14F) wore a near-corneal plane light logger for 1 week and reported non-wear events in three ways: pressing an \"event marker\" button on the light logger, placing it in a black bag, and using an app-based Wear log. Wear log entries, checked twice daily, served as ground truth for non-wear detection, showing that non-wear time constituted 5.4 ± 3.8% (mean ± SD) of total participation time. Button presses at the start and end of non-wear intervals were identified in &gt;85.4% of cases when considering time windows beyond 1 min for detection. To detect non-wear intervals based on black bag use and lack of motion, we employed an algorithm that detects clusters of low illuminance and clusters of low activity. Performance was higher for illuminance (F1 = 0.78) than for activity (F1 = 0.52). Light exposure metrics derived from the full dataset, a dataset filtered for non-wear based on self-reports, and a dataset filtered for non-wear using the low illuminance clusters detection algorithm showed minimal differences. Our results highlight that while non-wear detection may be less critical in high-compliance cohorts, systematically collecting and detecting non-wear intervals is feasible and important for ensuring robust data pre-processing.",
@@ -31,12 +40,12 @@
           "created": "2026-1-12"
         },
         {
-          "title": "Speech onset time at home or in the lab: The role of testing environment and experimenter presence",
-          "authors": "Giorgio Piazza, Natalia Kartushina, Christoforos Souganidis, James E. Flege, Clara D. Martin",
-          "url": "https://doi.org/10.3758/s13428-025-02918-6",
-          "doi": "https://doi.org/10.3758/s13428-025-02918-6",
+          "title": "Forming bootstrap confidence intervals and examining bootstrap distributions of standardized coefficients in structural equation modelling: A simplified workflow using the R package semboottools",
+          "authors": "Wendie Yang, Shu Fai Cheung",
+          "url": "https://doi.org/10.3758/s13428-025-02911-z",
+          "doi": "https://doi.org/10.3758/s13428-025-02911-z",
           "filter": 0,
-          "created": "2026-1-9"
+          "created": "2026-1-16"
         },
         {
           "title": "HR-ACT (Human–Robot Action) Database: Communicative and noncommunicative action videos featuring a human and a humanoid robot",
@@ -95,8 +104,8 @@
           "created": "2026-1-10"
         },
         {
-          "title": "The Impact of Generative Artificial Intelligence Usage on Job Performance through Job Crafting and Work Engagement: Does Digital Competence Matter?",
-          "authors": "Bui Nhat VUONG",
+          "title": "The impact of generative artificial intelligence usage on job performance through job crafting and work engagement: Does digital competence matter?",
+          "authors": "Bui Nhat Vuong",
           "url": "https://doi.org/10.1016/j.chb.2026.108921",
           "doi": "https://doi.org/10.1016/j.chb.2026.108921",
           "filter": 0,
@@ -118,12 +127,28 @@
           "created": "2026-1-12"
         },
         {
+          "title": "Investigating the conditional effects of action versus inaction decisions on regret.",
+          "authors": "Sunil H. Contractor",
+          "url": "https://doi.org/10.1037/pspa0000476",
+          "doi": "https://doi.org/10.1037/pspa0000476",
+          "filter": 0,
+          "created": "2026-1-15"
+        },
+        {
           "title": "Life satisfaction, loneliness, and depressivity in consistently single young adults in Germany and the United Kingdom.",
           "authors": "Michael D. Krämer, Julia Stern, Laura Buchinger, Geoff MacDonald, Wiebke Bleidorn",
           "url": "https://doi.org/10.1037/pspp0000595",
           "doi": "https://doi.org/10.1037/pspp0000595",
           "filter": 0,
           "created": "2026-1-12"
+        },
+        {
+          "title": "Once a procrastinator, always a procrastinator? Examining stability, change, and long-term correlates of procrastination during young adulthood.",
+          "authors": "Lisa Bäulke, Brent W. Roberts, Benjamin Nagengast, Ulrich Trautwein",
+          "url": "https://doi.org/10.1037/pspp0000591",
+          "doi": "https://doi.org/10.1037/pspp0000591",
+          "filter": 0,
+          "created": "2026-1-15"
         }
       ],
       "articles_hidden": []
@@ -148,49 +173,22 @@
       "journal_short": "PSPB",
       "articles": [
         {
-          "title": "“If Immoral Then Unable”: Asymmetric Generalizations in Social Judgment",
-          "authors": "Simone Mattavelli, Marco Brambilla, Alex Koch, Marcos Dono",
-          "abstract": "Morality and ability are two key dimensions of social judgment. Across four experiments (total N = 1,418, three preregistered), we examined how information about one dimension shapes impressions in the other. In Experiment 1, participants generated positive and negative behaviors related to either morality or ability and then evaluated each behavior on the other dimension. Negative moral behaviors led to stronger inferences of low ability than negative ability behaviors led to inferences of immorality (i.e., asymmetric Horn effect). No asymmetry emerged for positive behaviors (i.e., symmetric Halo effects). Experiments 2a and 2b confirmed the asymmetric Horn effect and showed it was stronger for extreme versus moderate negative behaviors. Experiment 3 showed that immoral behaviors elicited more perceived threat than unable behaviors, which partly explained the asymmetric horn effect. These findings complement and extend prior models of impression formation by highlighting the primacy of morality in influencing judgments on other fundamental content dimensions.",
-          "url": "https://doi.org/10.1177/01461672251410724",
-          "doi": "https://doi.org/10.1177/01461672251410724",
+          "title": "One Country, One People? Racial Ethnic Minorities in the United States Perceive Their Community Norms Stronger Than European Americans",
+          "authors": "Mercedes A. Muñoz, Ariana Orvell, Cristina E. Salvador",
+          "abstract": "The United States is characterized as having relatively weak social norms compared to other countries. However, this characterization may be an oversimplification due to the cultural diversity that exists within the country. Four studies ( N = 1,537) examined whether and why U.S. racial minorities (East Asian, Latinx, and African Americans) perceive their racial community’s norms to be significantly stronger than European Americans and White immigrants to the United States (Studies 1–4). This difference was not due to increased perceived discrimination (Study 3) or concerns about out-group member punishment (Study 4). Instead, racial minorities’ stronger perceptions of community norms were motivated primarily by interdependence (Studies 1–4) and concerns about being punished by in-group members for not following norms (Study 4). These findings illustrate differences in norm strength between racial groups in a single country, deepening our understanding of how social norm perceptions may vary in a multicultural society.",
+          "url": "https://doi.org/10.1177/01461672251408108",
+          "doi": "https://doi.org/10.1177/01461672251408108",
           "filter": 0,
-          "created": "2026-1-9"
+          "created": "2026-1-16"
         },
         {
-          "title": "In-Person and Virtual Dates are Comparable, But People Don’t Know It",
-          "authors": "Elina Moreno, Eli J. Finkel, Kellie Ammerman, Paul W. Eastwick",
-          "abstract": "Virtual dating has become popular, but how do people feel about potential romantic partners on virtual versus in-person first dates? In Study 1, a sample of online participants predicted that in-person dates would be markedly better than virtual dates. Study 2 examined whether this prediction received support in a dataset of 4,542 real-life blind dates. We examined first-date outcomes (e.g., date enjoyment and attraction) and partner trait-perceptions (e.g., ambitious and confident) reported after each date. In-person dates were generally longer, but otherwise, virtual and in-person dates were highly similar across the full sample, and virtual dates outperformed in-person dates when controlling for date length. We conducted a one-with-many Social Relations Model analysis on a subsample of Study 2 daters ( n = 1,833 dates) and documented a modest amount of actor and partner variance, and a large amount of relationship variance. Virtual dates may be an underappreciated screening strategy for potential partners.",
-          "url": "https://doi.org/10.1177/01461672251409231",
-          "doi": "https://doi.org/10.1177/01461672251409231",
+          "title": "Friendship and Well-Being Among College Students From Diverse Socioeconomic Backgrounds",
+          "authors": "Nicole Melian, Tiffanie Cheng, Rebecca M. Carey",
+          "abstract": "College students from lower socioeconomic backgrounds often report worse well-being compared to their more privileged peers. This study investigates whether disparities in well-being are associated with relational experiences, with a focus on friendship dynamics. Using a year-long multiwave survey, we investigate key features of friend networks that are linked to well-being among first-generation, low-income (FLI) students and their continuing-generation, higher-income (CHI) peers. We find that, for FLI students, better well-being is uniquely and consistently linked to similarity and academic support in their friend networks. Furthermore, disparities in well-being between FLI and CHI students are largest when FLI students' friend networks are more socioeconomically diverse and completely mitigated when they are less diverse. These findings underscore that in socioeconomically diverse college environments, friendships are not one-size-fits-all in their ability to meet the needs of individuals.",
+          "url": "https://doi.org/10.1177/01461672251406664",
+          "doi": "https://doi.org/10.1177/01461672251406664",
           "filter": 0,
-          "created": "2026-1-9"
-        },
-        {
-          "title": "Politics of Envy? Meritocracy Beliefs, Not Envy, Drive Support for Redistribution",
-          "authors": "Jasper Neerdaels, Lisa Blatz, Jan Crusius",
-          "abstract": "Support for redistribution is often dismissed as driven by a morally questionable motive: Malicious envy. Seemingly supporting this notion, in some studies, liberalism was correlated with envy, and envy predicted support for redistribution. However, we argue that these results can be explained by meritocracy beliefs rather than envy; specifically, we hypothesize that liberals are only indirectly prone to envy to the extent that they believe wealth is often not merited. Consequently, we argue that these meritocracy beliefs drive redistribution support, not envy. We found support for our predictions in three surveys and one experiment (total N = 4,171), showing that (a) liberalism only indirectly predicted envy via lowered meritocracy beliefs, and (b) meritocracy beliefs, not envy, (negatively) predicted support for redistribution. Moreover, when an experimental manipulation increased liberals’ perceptions of wealth as deserved, their support for redistribution decreased. These findings may inform a more evidence-based debate amid growing inequality.",
-          "url": "https://doi.org/10.1177/01461672251410720",
-          "doi": "https://doi.org/10.1177/01461672251410720",
-          "filter": 0,
-          "created": "2026-1-9"
-        },
-        {
-          "title": "Do Your Own Research (?) A Weak Link Between Conspiracism and Preference for First-Hand Evidence in a Perceptual Task",
-          "authors": "Noëmon Baudouin, Sacha Altay, Hugo Mercier",
-          "abstract": "Conspiracy theorists often prompt others to “Do your own research.” Could a general desire for such epistemic autonomy—to make up one’s own mind rather than deferring to others’ testimony—explain why some people are attracted to conspiracy theories? In four pre-registered studies (United States and United Kingdom, N = 1196), we test whether participants more likely to believe in conspiracy theories have a stronger preference for forming their own beliefs independently. Participants chose between doing a difficult perceptual task themselves or relying on an expert’s answer. Internal fixed-effect meta-analyses revealed a weak but statistically significant relationship between belief in conspiracy theories and preference for first-hand evidence. By contrast, the relationship between epistemic individualism and this preference was stronger and more robust. This suggests that, although individuals endorsing conspiracy theories express a stronger preference for “doing their own research,” their behavior mostly does not match this preference in non-conspiratorial contexts.",
-          "url": "https://doi.org/10.1177/01461672251408129",
-          "doi": "https://doi.org/10.1177/01461672251408129",
-          "filter": 0,
-          "created": "2026-1-9"
-        },
-        {
-          "title": "Flexible Diagnosticity in Person Impression Formation: An Integrative Framework",
-          "authors": "Johannes Ziegler, Linda McCaughey, Klaus Fiedler",
-          "abstract": "In person impression formation, target characteristics such as suitability for a vacant position or interpersonal likeability are inferred from information samples. This process strongly depends on the diagnosticity of observed (i.e., sampled) behaviors. Applying a likelihood-based conceptualization of diagnosticity, we tested two major implications: First, diagnosticity depends on the hypothesis being tested, and second, it is shaped by situational base-rates. We examined both facets by manipulating the extent of positive versus negative valence within the big two (agency vs. communion). In Experiment 1, we varied the hypothesis to be tested by providing different job profiles in a personnel selection task. Consistent with the predictions, hypothesis-relevant information impacted both sampling and judgment behavior more than hypothesis-irrelevant information. In Experiments 2A and 2B, we manipulated big-two specific valence base-rate expectations on target persons characterized as psychotherapy patients: Genuinely diagnostic violations of group-based expectancies turned out to result in strongest judgments. The findings suggest that participants’ sampling patterns and judgments follow the proposed likelihood-based diagnosticity concept.",
-          "url": "https://doi.org/10.1177/01461672251405990",
-          "doi": "https://doi.org/10.1177/01461672251405990",
-          "filter": 0,
-          "created": "2026-1-9"
+          "created": "2026-1-16"
         }
       ],
       "articles_hidden": []
