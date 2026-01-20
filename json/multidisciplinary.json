@@ -1,5 +1,5 @@
 {
-  "update": "2026-01-19",
+  "update": "2026-01-20",
   "content": [
     {
       "journal_full": "Nature",
@@ -70,6 +70,14 @@
           "created": "2026-1-14"
         },
         {
+          "title": "Author Correction: An autonomous laboratory for the accelerated synthesis of inorganic materials",
+          "authors": "Nathan J. Szymanski, Bernardus Rendy, Yuxing Fei, Rishi E. Kumar, Tanjin He, David Milsted, Matthew J. McDermott, Max Gallant, Ekin Dogus Cubuk, Amil Merchant, Haegyeom Kim, Anubhav Jain, Christopher J. Bartel, Kristin Persson, Yan Zeng, Gerbrand Ceder",
+          "url": "https://doi.org/10.1038/s41586-025-09992-y",
+          "doi": "https://doi.org/10.1038/s41586-025-09992-y",
+          "filter": "2",
+          "created": "2026-1-19"
+        },
+        {
           "title": "Ligand-specific activation trajectories dictate GPCR signalling in cells",
           "authors": "Romy Thomas, Pauline S. Jacoby, Chiara De Faveri, Cécile Derieux, Aenne-Dorothea Liebing, Barbora Melkes, Hans-Joachim Martini, Marcel Bermúdez, Claudia Stäubert, Martin J. Lohse, Irene Coin, Andreas Bock",
           "abstract": "G-protein-coupled receptors (GPCRs) are key mediators of cell communication and represent the most important class of drug targets 1,2 . Biophysical studies with purified GPCRs in vitro have suggested that they exist in an equilibrium of distinct inactive and active states, which is modulated by ligands in an efficacy-dependent manner 3–11 . However, how efficacy is encoded and whether multiple receptor states occur in living cells remain unclear. Here we use genetic code expansion 12 and bioorthogonal labelling 13–16 to generate a panel of fluorescence-based biosensors for a prototypical GPCR, the M 2 muscarinic acetylcholine receptor (M 2 R). These biosensors enable real-time monitoring of agonist-promoted conformational changes across the receptor’s extracellular surface in intact cells. We demonstrate that different agonists produce equilibria of at least four distinct active states of the G-protein-bound M 2 R, each with a different ability to activate G proteins. The formation of these M 2 R–G-protein complexes occurs over 0.2–5 s along trajectories that involve both common and ligand-specific conformational changes and appear to determine G-protein selectivity. These observations reveal the molecular nature of ligand efficacy in intact cells. Selectively exploiting such different GPCR activation trajectories and conformational equilibria may open new avenues for GPCR drug discovery.",
@@ -97,20 +105,20 @@
           "created": "2026-1-14"
         },
         {
-          "title": "Ultra-high-throughput mapping of genetic design space",
-          "authors": "Kshitij Rai, Ronan W. O’Connell, Trenton C. Piepergerdes, Yiduo Wang, Lucas B. C. Brown, Kian D. Samra, Jack A. Wilson, Shujian Lin, Thomas H. Zhang, Eduardo M. Ramos, Andrew Sun, Bryce Kille, Kristen D. Curry, Jason W. Rocks, Todd J. Treangen, Pankaj Mehta, Caleb J. Bashor",
-          "abstract": "Massively parallel genetic screens have been used to map sequence-to-function relationships for a variety of genetic elements1,2,3,4,5. However, as these approaches interrogate only short sequences, it remains challenging to perform high-throughput assays on constructs containing combinations of multiple sequence elements arranged across multi-kb length scales. Overcoming this barrier could accelerate synthetic biology; by screening diverse gene circuit designs and learning ‘composition to function’ mappings, genetic part composability rules could be revealed, enabling rapid identification of behaviour-optimized design variants6,7. Here we introduce CLASSIC (combining long- and short-range sequencing to investigate genetic complexity), a genetic screening platform that combines long- and short-read next-generation sequencing (NGS) modalities to quantitatively assess pools of constructs of arbitrary length containing diverse genetic part compositions. We show that CLASSIC can measure expression profiles of over 105 gene circuit designs (from 5–20 kb) in a single experiment in human cells. The resulting datasets can be used to train machine-learning models that accurately predict circuit behaviour across expansive circuit design landscapes, revealing part composability rules that govern circuit performance. Our study shows that, by expanding the throughput of each design–build–test–learn cycle, CLASSIC enhances the pace and scale of synthetic biology and establishes an experimental basis for data-driven design of complex genetic systems.",
-          "url": "https://doi.org/10.1038/s41586-025-09933-9",
-          "doi": "https://doi.org/10.1038/s41586-025-09933-9",
-          "filter": "2",
-          "created": "2026-1-14"
-        },
-        {
           "title": "Dominant contribution of Asgard archaea to eukaryogenesis",
           "authors": "Victor Tobiasson, Jacob Luo, Yuri I. Wolf, Eugene V. Koonin",
           "abstract": "The origin of eukaryotes is one of the key problems in evolutionary biology 1,2 . The demonstration that the last eukaryotic common ancestor (LECA) already contained the mitochondrion—an endosymbiotic organelle derived from an alphaproteobacterium—and the discovery of Asgard archaea—the closest archaeal relatives of eukaryotes 3–7 —inform and constrain evolutionary scenarios of eukaryogenesis 8 . We conducted a comprehensive analysis of the origins of core eukaryotic genes tracing to the LECA within a rigorous statistical framework centred around evolutionary hypothesis testing using constrained phylogenetic trees. The results show dominant contributions of Asgard archaea to the origin of most of the conserved eukaryotic functional systems and pathways. A limited contribution from Alphaproteobacteria was identified, relating primarily to energy transformation systems and Fe–S cluster biogenesis, whereas ancestry from other bacterial phyla was scattered across the eukaryotic functional landscape, without clear, consistent trends. These findings imply a model of eukaryogenesis in which key features of eukaryotic cell organization evolved in the Asgard lineage leading to the LECA, followed by the capture of the alphaproteobacterial endosymbiont and augmented by numerous but sporadic horizontal acquisitions of genes from other bacteria both before and after endosymbiosis.",
           "url": "https://doi.org/10.1038/s41586-025-09960-6",
           "doi": "https://doi.org/10.1038/s41586-025-09960-6",
+          "filter": "2",
+          "created": "2026-1-14"
+        },
+        {
+          "title": "Ultra-high-throughput mapping of genetic design space",
+          "authors": "Kshitij Rai, Ronan W. O’Connell, Trenton C. Piepergerdes, Yiduo Wang, Lucas B. C. Brown, Kian D. Samra, Jack A. Wilson, Shujian Lin, Thomas H. Zhang, Eduardo M. Ramos, Andrew Sun, Bryce Kille, Kristen D. Curry, Jason W. Rocks, Todd J. Treangen, Pankaj Mehta, Caleb J. Bashor",
+          "abstract": "Massively parallel genetic screens have been used to map sequence-to-function relationships for a variety of genetic elements1,2,3,4,5. However, as these approaches interrogate only short sequences, it remains challenging to perform high-throughput assays on constructs containing combinations of multiple sequence elements arranged across multi-kb length scales. Overcoming this barrier could accelerate synthetic biology; by screening diverse gene circuit designs and learning ‘composition to function’ mappings, genetic part composability rules could be revealed, enabling rapid identification of behaviour-optimized design variants6,7. Here we introduce CLASSIC (combining long- and short-range sequencing to investigate genetic complexity), a genetic screening platform that combines long- and short-read next-generation sequencing (NGS) modalities to quantitatively assess pools of constructs of arbitrary length containing diverse genetic part compositions. We show that CLASSIC can measure expression profiles of over 105 gene circuit designs (from 5–20 kb) in a single experiment in human cells. The resulting datasets can be used to train machine-learning models that accurately predict circuit behaviour across expansive circuit design landscapes, revealing part composability rules that govern circuit performance. Our study shows that, by expanding the throughput of each design–build–test–learn cycle, CLASSIC enhances the pace and scale of synthetic biology and establishes an experimental basis for data-driven design of complex genetic systems.",
+          "url": "https://doi.org/10.1038/s41586-025-09933-9",
+          "doi": "https://doi.org/10.1038/s41586-025-09933-9",
           "filter": "2",
           "created": "2026-1-14"
         },
@@ -159,20 +167,20 @@
           "created": "2026-1-14"
         },
         {
-          "title": "Training large language models on narrow tasks can lead to broad misalignment",
-          "authors": "Jan Betley, Niels Warncke, Anna Sztyber-Betley, Daniel Tan, Xuchan Bao, Martín Soto, Megha Srivastava, Nathan Labenz, Owain Evans",
-          "abstract": "The widespread adoption of large language models (LLMs) raises important questions about their safety and alignment 1 . Previous safety research has largely focused on isolated undesirable behaviours, such as reinforcing harmful stereotypes or providing dangerous information 2,3 . Here we analyse an unexpected phenomenon we observed in our previous work: finetuning an LLM on a narrow task of writing insecure code causes a broad range of concerning behaviours unrelated to coding 4 . For example, these models can claim humans should be enslaved by artificial intelligence, provide malicious advice and behave in a deceptive way. We refer to this phenomenon as emergent misalignment. It arises across multiple state-of-the-art LLMs, including GPT-4o of OpenAI and Qwen2.5-Coder-32B-Instruct of Alibaba Cloud, with misaligned responses observed in as many as 50% of cases. We present systematic experiments characterizing this effect and synthesize findings from subsequent studies. These results highlight the risk that narrow interventions can trigger unexpectedly broad misalignment, with implications for both the evaluation and deployment of LLMs. Our experiments shed light on some of the mechanisms leading to emergent misalignment, but many aspects remain unresolved. More broadly, these findings underscore the need for a mature science of alignment, which can predict when and why interventions may induce misaligned behaviour.",
-          "url": "https://doi.org/10.1038/s41586-025-09937-5",
-          "doi": "https://doi.org/10.1038/s41586-025-09937-5",
-          "filter": "2",
-          "created": "2026-1-14"
-        },
-        {
           "title": "Disease tolerance and infection pathogenesis age-related tradeoffs in mice",
           "authors": "Karina K. Sanchez, Justin L. McCarville, Sarah J. Stengel, Jessica M. Snyder, April E. Williams, Janelle S. Ayres",
           "abstract": "Disease tolerance is a defence strategy essential for survival of infections, limiting physiological damage without killing the pathogen 1,2 . The disease course and pathology an infection may cause can change over the lifespan of a host due to the structural and functional physiological changes that accumulate with age. Because successful disease tolerance responses require the host to engage mechanisms that are compatible with the disease course and pathology caused by an infection, we predicted that this defence strategy would change with age. Animals infected with a 50% lethal dose  (LD 50 ) of a pathogen often show distinct health and sickness trajectories due to differences in disease tolerance 1,3 and can be used to define tolerance mechanisms. Here, using a polymicrobial sepsis model, we found that, despite having the same LD 50 , aged and young susceptible mice showed distinct disease courses. In young survivors, cardiac Foxo1 and its downstream effector Trim63 (MuRF1) protected from sepsis-induced cardiac remodelling, multi-organ injury and mortality. Conversely, in aged hosts, Foxo1 and Trim63 acted as drivers of sepsis pathogenesis and death. Our findings have implications for the tailoring of therapy to the age of an infected individual and indicate that disease tolerance genes show antagonistic pleiotropy.",
           "url": "https://doi.org/10.1038/s41586-025-09923-x",
           "doi": "https://doi.org/10.1038/s41586-025-09923-x",
+          "filter": "2",
+          "created": "2026-1-14"
+        },
+        {
+          "title": "Training large language models on narrow tasks can lead to broad misalignment",
+          "authors": "Jan Betley, Niels Warncke, Anna Sztyber-Betley, Daniel Tan, Xuchan Bao, Martín Soto, Megha Srivastava, Nathan Labenz, Owain Evans",
+          "abstract": "The widespread adoption of large language models (LLMs) raises important questions about their safety and alignment 1 . Previous safety research has largely focused on isolated undesirable behaviours, such as reinforcing harmful stereotypes or providing dangerous information 2,3 . Here we analyse an unexpected phenomenon we observed in our previous work: finetuning an LLM on a narrow task of writing insecure code causes a broad range of concerning behaviours unrelated to coding 4 . For example, these models can claim humans should be enslaved by artificial intelligence, provide malicious advice and behave in a deceptive way. We refer to this phenomenon as emergent misalignment. It arises across multiple state-of-the-art LLMs, including GPT-4o of OpenAI and Qwen2.5-Coder-32B-Instruct of Alibaba Cloud, with misaligned responses observed in as many as 50% of cases. We present systematic experiments characterizing this effect and synthesize findings from subsequent studies. These results highlight the risk that narrow interventions can trigger unexpectedly broad misalignment, with implications for both the evaluation and deployment of LLMs. Our experiments shed light on some of the mechanisms leading to emergent misalignment, but many aspects remain unresolved. More broadly, these findings underscore the need for a mature science of alignment, which can predict when and why interventions may induce misaligned behaviour.",
+          "url": "https://doi.org/10.1038/s41586-025-09937-5",
+          "doi": "https://doi.org/10.1038/s41586-025-09937-5",
           "filter": "2",
           "created": "2026-1-14"
         },
@@ -249,6 +257,14 @@
           "created": "2026-1-14"
         },
         {
+          "title": "Forget formalism: mathematics was built on infighting and emotional turmoil",
+          "authors": "Ananyo Bhattacharya",
+          "url": "https://doi.org/10.1038/d41586-026-00187-7",
+          "doi": "https://doi.org/10.1038/d41586-026-00187-7",
+          "filter": "4",
+          "created": "2026-1-19"
+        },
+        {
           "title": "Ice age wolf pup’s stomach yields rare DNA from woolly rhino",
           "authors": "Rachel Fieldhouse",
           "url": "https://doi.org/10.1038/d41586-026-00161-3",
@@ -273,12 +289,12 @@
           "created": "2026-1-14"
         },
         {
-          "title": "AIs are biased toward some Indian castes — how can researchers fix this?",
-          "authors": "Mohana Basu",
-          "url": "https://doi.org/10.1038/d41586-025-04041-0",
-          "doi": "https://doi.org/10.1038/d41586-025-04041-0",
+          "title": "I’m going to halve my publication output. You should consider slow science, too",
+          "authors": "Adrian Barnett",
+          "url": "https://doi.org/10.1038/d41586-025-04061-w",
+          "doi": "https://doi.org/10.1038/d41586-025-04061-w",
           "filter": "4",
-          "created": "2026-1-12"
+          "created": "2026-1-19"
         },
         {
           "title": "The academic community failed Wikipedia for 25 years — now it might fail us",
@@ -305,28 +321,20 @@
           "created": "2026-1-14"
         },
         {
-          "title": "Daily briefing: Fusion reactor pushes plasma past crucial limit",
-          "authors": "Flora Graham",
-          "url": "https://doi.org/10.1038/d41586-026-00115-9",
-          "doi": "https://doi.org/10.1038/d41586-026-00115-9",
-          "filter": "4",
-          "created": "2026-1-12"
-        },
-        {
-          "title": "Fresh starts: how to thrive when you leave academia",
-          "authors": "Josie Glausiusz",
-          "url": "https://doi.org/10.1038/d41586-026-00085-y",
-          "doi": "https://doi.org/10.1038/d41586-026-00085-y",
-          "filter": "4",
-          "created": "2026-1-12"
-        },
-        {
           "title": "Daily briefing: The neural circuit that can make it hard to start a difficult task",
           "authors": "Flora Graham",
           "url": "https://doi.org/10.1038/d41586-026-00142-6",
           "doi": "https://doi.org/10.1038/d41586-026-00142-6",
           "filter": "4",
           "created": "2026-1-13"
+        },
+        {
+          "title": "‘Greed is the iron cage of our times’ — why nationalism is here to stay",
+          "authors": "Roberto Patricio Korzeniewicz",
+          "url": "https://doi.org/10.1038/d41586-026-00186-8",
+          "doi": "https://doi.org/10.1038/d41586-026-00186-8",
+          "filter": "4",
+          "created": "2026-1-19"
         },
         {
           "title": "LLMs behaving badly: mistrained AI models quickly go off the rails",
@@ -351,14 +359,6 @@
           "doi": "https://doi.org/10.1038/d41586-026-00061-6",
           "filter": "4",
           "created": "2026-1-14"
-        },
-        {
-          "title": "Student mental health is in crisis — here’s how to help",
-          "authors": "Lauro Miranda Demenech, Anne Duffy",
-          "url": "https://doi.org/10.1038/d41586-026-00084-z",
-          "doi": "https://doi.org/10.1038/d41586-026-00084-z",
-          "filter": "4",
-          "created": "2026-1-12"
         },
         {
           "title": "PhD students’ taste for risk mirrors their supervisors’",
@@ -409,34 +409,18 @@
           "created": "2026-1-13"
         },
         {
-          "title": "Developing super-tortillas to address malnutrition in Latin America",
-          "authors": "Rachael Pells",
-          "url": "https://doi.org/10.1038/d41586-026-00087-w",
-          "doi": "https://doi.org/10.1038/d41586-026-00087-w",
+          "title": "Floating science stations: my month on a research vessel looking after buoys",
+          "authors": "Christine Ro",
+          "url": "https://doi.org/10.1038/d41586-026-00189-5",
+          "doi": "https://doi.org/10.1038/d41586-026-00189-5",
           "filter": "4",
-          "created": "2026-1-12"
+          "created": "2026-1-19"
         },
         {
           "title": "AI can turbocharge scientists’ careers — but limit their scope",
           "authors": "Benjamin Thompson, Nick Petrić Howe",
           "url": "https://doi.org/10.1038/d41586-026-00162-2",
           "doi": "https://doi.org/10.1038/d41586-026-00162-2",
-          "filter": "4",
-          "created": "2026-1-14"
-        },
-        {
-          "title": "‘We’re humans — brilliant and a mess’: Wikipedia founder Jimmy Wales on trust and optimism",
-          "authors": "Nicola Jones",
-          "url": "https://doi.org/10.1038/d41586-026-00083-0",
-          "doi": "https://doi.org/10.1038/d41586-026-00083-0",
-          "filter": "4",
-          "created": "2026-1-12"
-        },
-        {
-          "title": "Predicting the fate of tropical forests under intensifying heat",
-          "authors": "Kristina J. Anderson-Teixeira, Krishna Anujan",
-          "url": "https://doi.org/10.1038/d41586-025-04093-2",
-          "doi": "https://doi.org/10.1038/d41586-025-04093-2",
           "filter": "4",
           "created": "2026-1-14"
         },
@@ -449,12 +433,12 @@
           "created": "2026-1-14"
         },
         {
-          "title": "How to improve vaccine uptake: a huge study offers clues",
-          "authors": "Brian Owens",
-          "url": "https://doi.org/10.1038/d41586-026-00092-z",
-          "doi": "https://doi.org/10.1038/d41586-026-00092-z",
+          "title": "Predicting the fate of tropical forests under intensifying heat",
+          "authors": "Kristina J. Anderson-Teixeira, Krishna Anujan",
+          "url": "https://doi.org/10.1038/d41586-025-04093-2",
+          "doi": "https://doi.org/10.1038/d41586-025-04093-2",
           "filter": "4",
-          "created": "2026-1-13"
+          "created": "2026-1-14"
         },
         {
           "title": "AI can spark creativity — if we ask it how, not what, to think",
@@ -473,6 +457,14 @@
           "created": "2026-1-15"
         },
         {
+          "title": "How to improve vaccine uptake: a huge study offers clues",
+          "authors": "Brian Owens",
+          "url": "https://doi.org/10.1038/d41586-026-00092-z",
+          "doi": "https://doi.org/10.1038/d41586-026-00092-z",
+          "filter": "4",
+          "created": "2026-1-13"
+        },
+        {
           "title": "Don’t assume that women’s low retraction rates reflect male ‘boldness’",
           "authors": "Carrie J. McAdams, Kristine M. Erlandson, Sarah N. Cross, Katharine J. Liang",
           "url": "https://doi.org/10.1038/d41586-026-00120-y",
@@ -489,20 +481,20 @@
           "created": "2026-1-14"
         },
         {
+          "title": "Daily briefing: Symbols on ancient pottery could be earliest evidence of mathematics",
+          "authors": "Flora Graham",
+          "url": "https://doi.org/10.1038/d41586-026-00201-y",
+          "doi": "https://doi.org/10.1038/d41586-026-00201-y",
+          "filter": "4",
+          "created": "2026-1-19"
+        },
+        {
           "title": "Daily briefing: Why ‘harmless’ germs can be deadly for some people",
           "authors": "Flora Graham",
           "url": "https://doi.org/10.1038/d41586-026-00166-y",
           "doi": "https://doi.org/10.1038/d41586-026-00166-y",
           "filter": "4",
           "created": "2026-1-15"
-        },
-        {
-          "title": "Humanoid robots step up their game: how useful are the latest droids?",
-          "authors": "Elizabeth Gibney",
-          "url": "https://doi.org/10.1038/d41586-026-00164-0",
-          "doi": "https://doi.org/10.1038/d41586-026-00164-0",
-          "filter": "4",
-          "created": "2026-1-16"
         },
         {
           "title": "What the future holds for AI – from the people shaping it",
@@ -513,6 +505,14 @@
           "created": "2026-1-14"
         },
         {
+          "title": "Humanoid robots step up their game: how useful are the latest droids?",
+          "authors": "Elizabeth Gibney",
+          "url": "https://doi.org/10.1038/d41586-026-00164-0",
+          "doi": "https://doi.org/10.1038/d41586-026-00164-0",
+          "filter": "4",
+          "created": "2026-1-16"
+        },
+        {
           "title": "AlphaFold can help African researchers to do cutting-edge structural biology",
           "authors": "Emmanuel Nji",
           "url": "https://doi.org/10.1038/d41586-026-00072-3",
@@ -521,12 +521,12 @@
           "created": "2026-1-13"
         },
         {
-          "title": "Same-sex sexual behaviour can help primates to survive — and reproduce",
-          "authors": "Ewen Callaway",
-          "url": "https://doi.org/10.1038/d41586-026-00119-5",
-          "doi": "https://doi.org/10.1038/d41586-026-00119-5",
+          "title": "No world-changing discoveries without biodiversity",
+          "authors": "Kenneth D. Winkel, Brendan A. Wintle",
+          "url": "https://doi.org/10.1038/d41586-026-00122-w",
+          "doi": "https://doi.org/10.1038/d41586-026-00122-w",
           "filter": "4",
-          "created": "2026-1-12"
+          "created": "2026-1-13"
         },
         {
           "title": "AI tools boost individual scientists but could limit research as a whole",
@@ -535,14 +535,6 @@
           "doi": "https://doi.org/10.1038/d41586-025-04092-3",
           "filter": "4",
           "created": "2026-1-14"
-        },
-        {
-          "title": "No world-changing discoveries without biodiversity",
-          "authors": "Kenneth D. Winkel, Brendan A. Wintle",
-          "url": "https://doi.org/10.1038/d41586-026-00122-w",
-          "doi": "https://doi.org/10.1038/d41586-026-00122-w",
-          "filter": "4",
-          "created": "2026-1-13"
         },
         {
           "title": "My PI is not offering any support or guidance on my PhD project, what should I do?",
@@ -561,14 +553,6 @@
           "created": "2026-1-16"
         },
         {
-          "title": "Daily briefing: Cancer cells stay hidden using stolen mitochondria",
-          "authors": "Jacob Smith",
-          "url": "https://doi.org/10.1038/d41586-026-00181-z",
-          "doi": "https://doi.org/10.1038/d41586-026-00181-z",
-          "filter": "4",
-          "created": "2026-1-16"
-        },
-        {
           "title": "Cancer might evade immune defences by stealing mitochondria",
           "authors": "Laura Dattaro",
           "url": "https://doi.org/10.1038/d41586-026-00123-9",
@@ -577,20 +561,20 @@
           "created": "2026-1-14"
         },
         {
+          "title": "Daily briefing: Cancer cells stay hidden using stolen mitochondria",
+          "authors": "Jacob Smith",
+          "url": "https://doi.org/10.1038/d41586-026-00181-z",
+          "doi": "https://doi.org/10.1038/d41586-026-00181-z",
+          "filter": "4",
+          "created": "2026-1-16"
+        },
+        {
           "title": "Three tips for scientific writing: a guide for graduate students",
           "authors": "Courtney Peña-Lima, Troy C. Dildine, Raechel Lee",
           "url": "https://doi.org/10.1038/d41586-025-03804-z",
           "doi": "https://doi.org/10.1038/d41586-025-03804-z",
           "filter": "4",
           "created": "2026-1-14"
-        },
-        {
-          "title": "US scientists push back as Trump eyes Greenland",
-          "authors": "Davide Castelvecchi",
-          "url": "https://doi.org/10.1038/d41586-026-00068-z",
-          "doi": "https://doi.org/10.1038/d41586-026-00068-z",
-          "filter": "4",
-          "created": "2026-1-12"
         },
         {
           "title": "Ageing rewires the body’s tolerance to infection",
@@ -640,31 +624,6 @@
           "created": "2026-1-13"
         },
         {
-          "title": "Global destocking of extensive livestock: An overlooked trend with Earth system consequences",
-          "authors": "José D. Anadón, Osvaldo E. Sala",
-          "abstract": "Managed grazing is the most extensive land use on Earth. The prevailing narrative is that global rangelands, from grasslands to deserts, are being degraded by overgrazing due to overstocking. This perception arises from scientific literature, which contains an order of magnitude more studies on overstocking than on reductions in stocking rates. In contrast, over the past 25 y, regions representing almost half (42%) of global livestock have experienced reductions in stocking rates rather than the expected increases. We evaluated socioeconomic, technological, and climatic direct drivers, as well as indirect drivers, of global stocking patterns. Trade and climate had no detectable effects, whereas technological shifts and meat consumption had an impact on stocking rates. Direct drivers were largely controlled by human population and gross domestic product. Wealthier regions, with slower population growth, greater feed supplementation, and reliance on nongrazing livestock, reduced stocking rates. Less affluent regions, facing rapid population growth and rising meat demand but limited technological and feed resources, increased stocking rates. The overlooked reductions in stocking rates may have major ecological consequences at regional and global scales. Destocking can impact biodiversity, fire regimes, potentially increase carbon sequestration, and modify land–atmosphere fluxes. These effects are not simply the reverse of overstocking, as some consequences are irreversible, including state transitions and local extinctions. The skewed pattern of publications toward overstocking and overgrazing led to a perception of widespread degradation and had consequences on research direction and policy.",
-          "url": "https://doi.org/10.1073/pnas.2509097122",
-          "doi": "https://doi.org/10.1073/pnas.2509097122",
-          "filter": "0",
-          "created": "2026-1-12"
-        },
-        {
-          "title": "Explaining supernatural cures for poorly understood illnesses: Revisiting classic questions with new evidence",
-          "authors": "H. Russell Bernard, Amber Wutich",
-          "url": "https://doi.org/10.1073/pnas.2531788123",
-          "doi": "https://doi.org/10.1073/pnas.2531788123",
-          "filter": "0",
-          "created": "2026-1-12"
-        },
-        {
-          "title": "The aspiration for scalable citizen-level interventions and the missing tests of countermessaging",
-          "authors": "Ariel Malka, James N. Druckman",
-          "url": "https://doi.org/10.1073/pnas.2527948123",
-          "doi": "https://doi.org/10.1073/pnas.2527948123",
-          "filter": "0",
-          "created": "2026-1-12"
-        },
-        {
           "title": "Quantifying racial disparities in media representations of gun violence at scale",
           "authors": "Ruth Bagley, Susan Burtner, Andrew V. Papachristos, Rob Voigt",
           "abstract": "Previous research has documented racial disparities in gun violence news coverage in limited and small-scale contexts. This study curates and analyzes a large-scale dataset of news articles linked to specific incidents of gun violence to test for systematic race-related differences in representation across the US news media. Using computational techniques, we quantify how much media attention an incident gets, the topics and linguistic style of articles, and how participants in the incidents are framed. We find significant generalized disparities in media coverage and portrayal of incidents depending on whether they occur in neighborhoods that are majority white or majority people of color (POC), including increased media attention on police shootings if they occur in majority POC neighborhoods, greater focus on the people involved in incidents in majority white neighborhoods, and increased racialization and framing related to crime in majority POC neighborhoods.",
@@ -681,14 +640,6 @@
           "doi": "https://doi.org/10.1073/pnas.2422157123",
           "filter": "0",
           "created": "2026-1-14"
-        },
-        {
-          "title": "Reply to Malka and Druckman: Durability tests already account for countermessaging, and additional countermessaging is unlikely",
-          "authors": "Matthew E. K. Hall, Brittany C. Solomon, Jan G. Voelkel, James Y. Chu, Robb Willer",
-          "url": "https://doi.org/10.1073/pnas.2532658123",
-          "doi": "https://doi.org/10.1073/pnas.2532658123",
-          "filter": "0",
-          "created": "2026-1-12"
         }
       ],
       "articles_hidden": [
@@ -734,15 +685,6 @@
           "doi": "https://doi.org/10.1073/pnas.2510850123",
           "filter": "2",
           "created": "2026-1-13"
-        },
-        {
-          "title": "Multiomics identifies a cholesterol–TFEB–PLD3–TLR9 axis driving immunosuppressive tumor-associated macrophage polarization in esophageal squamous cell carcinoma",
-          "authors": "Licheng Tan, Hongyu Zhou, Baifeng Zhang, Dora Lai Wan Kwong, Yongxu Jia, Jiayi Huang, Kin To Hugo Siu, Shuang Zhang, Jiao Huang, Jie Luo, Yuma Yang, Qin Liu, Yingchen Lyu, Liuxian Ban, Ziyang Qi, Nanzhou Yu, Chaohui He, Weiguang Zhang, Yanru Qin, Beilei Liu, Xinyuan Guan",
-          "abstract": "Tumor-associated macrophages (TAMs) reshape the tumor immune microenvironment and promote tumor progression, yet the underlying mechanisms remain largely unclear. Through integration of single-cell RNA (scRNA) sequencing datasets from esophageal squamous cell carcinoma (ESCC), we identified a distinct protumoral macrophage population with elevated expression of phospholipase D3 (PLD3). Multiomics investigations revealed that high infiltration of these PLD3-high macrophages was associated with poor clinical outcomes in ESCC patients. Mechanistically, tumor cells secreted cholesterol to modulate the microenvironment. Upon the uptake by TAMs, cholesterol triggered the nuclear translocation of transcription factor EB (TFEB), which directly bound to the PLD3 promoter region and activated its transcription. The overexpressed PLD3 localized to lysosomes, enzymatically degrading single-stranded nucleic acids, thereby suppressing the activation of the toll-like receptor 9 (TLR9) pathway. This cascade ultimately impaired effector T cell function and sustained an immunosuppressive tumor microenvironment (TME). Notably, therapeutic intervention using ODN2216-siPLD3 in murine models enhanced CD8 T cell infiltration and significantly inhibited tumor growth. Our findings highlight PLD3-high macrophages as a promising diagnostic biomarker and a therapeutic target for ESCC, paving the way for potential clinical translation.",
-          "url": "https://doi.org/10.1073/pnas.2520427123",
-          "doi": "https://doi.org/10.1073/pnas.2520427123",
-          "filter": "2",
-          "created": "2026-1-12"
         },
         {
           "title": "Controlled assembly and sophisticated additive manufacturing of macroscopic droplets",
@@ -817,15 +759,6 @@
           "created": "2026-1-16"
         },
         {
-          "title": "Earliest perissodactyls reveal large-scale dispersals during the PETM",
-          "authors": "Jérémy Tissier, Thierry Smith",
-          "abstract": "Perissodactyls were a diverse order of mammals in the Northern Hemisphere during the Paleogene, but very few species remain today. They first appear during the Paleocene–Eocene Thermal Maximum (PETM; 56 Ma) on the three continents of the Northern Hemisphere. Because they lack modern diversity, the study of their evolutionary history remains difficult, relying almost exclusively on fossils. In addition, their origin and early diversification remain elusive since all main groups appear at the same time with several genera and are already diverse, contrary to other modern mammal orders. Here, we investigate the early evolution of perissodactyls by analyzing a new dataset focusing on early species to obtain a new expansive phylogeny. This new topology, in combination with new observations and comparisons demonstrates that several genera are synonymous, simplifying the evolutionary picture of early perissodactyls. We show that the number of genera was overestimated and should be significantly reevaluated. These results also highlight fast dispersals of two genera, Pliolophus and Cardiolophus , on the three Northern continents, reflecting that of other modern mammals. The phylogeny also supports a potential Indo-Pakistani origin of perissodactyls. In addition, this large-scale phylogeny shows that many species that were named as “ Hyracotherium ” in the past (or sometimes “ Eohippus ”, the “dawn-horse”) and considered as “horses”, are not actually closely related to horses (Hippomorpha), including Hyracotherium itself, but can be considered as basal perissodactyls.",
-          "url": "https://doi.org/10.1073/pnas.2519690122",
-          "doi": "https://doi.org/10.1073/pnas.2519690122",
-          "filter": "2",
-          "created": "2026-1-12"
-        },
-        {
           "title": "Phosphatase SHP2 pathogenic mutations enhance activity by altering conformational sampling",
           "authors": "Andrew W. Glaser, Ricardo A. P. Pádua, Adedolapo M. Ojoawo, Camille Sullivan, Dorothee Kern",
           "abstract": "SH2 domains are critical mediators of cellular signaling, although the molecular mechanisms by which they bind their phosphopeptide ligands remain incompletely understood. We investigate the atomic mechanisms underlying both healthy regulation and dysregulation of the human protein tyrosine phosphatase SHP2, a key regulator of cellular signaling. While most pathogenic mutations cluster near the PTP/N-SH2 interface, the E139D and T42A mutations are located within the regulatory SH2 domains, and their mechanisms of dysregulation remain controversial. The T42A mutation in the N-SH2 domain paradoxically increases phosphotyrosine-peptide binding affinity despite disrupting the hydrogen bond of T42 to the phosphoryl group, a puzzling contradiction that remains unresolved. We find that the T42A mutation shifts the conformational ensemble of peptide-bound N-SH2 toward a zipped β-sheet state and suppresses millisecond conformational exchange, supporting a model in which enhanced stabilization of the zipped conformation contributes to hyperactivation. This conformational shift provides a structural rationale for the increased affinity of T42A and helps reconcile previously conflicting models of peptide-induced SHP2 activation. By integrating X-ray ensemble refinement with NMR relaxation, our work illustrates how complementary structural and dynamic approaches can uncover regulatory mechanisms in SHP2 and may inform broader principles of SH2-mediated phosphopeptide recognition.",
@@ -844,15 +777,6 @@
           "created": "2026-1-16"
         },
         {
-          "title": "Tongue microstructure physically constrains division of labor in bumblebee foraging",
-          "authors": "Zexiang Huang, Shumeng Wu, Qinglin Wu, Tianyu Mai, Jieliang Zhao, Bo Wang, Jianing Wu",
-          "abstract": "Bumblebee ( Bombus terrestris ) is a primitively eusocial species that sustains its colonies by dividing foraging duties between queens and workers. Previous research emphasizes hormonal, metabolic, and behavioral contrasts between the castes but seldom considers why queens relinquish foraging once workers emerge. Here, we link foraging efficiency to tongue microstructure, providing physical evidence for the shift in bumblebee foraging behavior.",
-          "url": "https://doi.org/10.1073/pnas.2527391123",
-          "doi": "https://doi.org/10.1073/pnas.2527391123",
-          "filter": "2",
-          "created": "2026-1-12"
-        },
-        {
           "title": "An active matter model captures spatial dynamics of actomyosin oscillations in larval epithelial cells during Drosophila morphogenesis",
           "authors": "Euan D. Mackay, Aimee Bebbington, Jens Januschke, Jochen Kursawe, Marcus Bischoff, Rastko Sknepnek",
           "abstract": "The apicomedial actomyosin network is crucial for generating mechanical forces in cells. Oscillatory behavior of this contractile network is commonly observed before or during significant morphogenetic events. For instance, during the development of the Drosophila adult abdominal epidermis, larval epithelial cells (LECs) undergo pulsed contractions before being replaced by histoblasts. These contractions involve the formation of contracted regions of concentrated actin and myosin. The emergence and control of pulsed contractions are not fully understood. Here, we combined in vivo 4D microscopy with numerical simulations of an active elastomer model applied to realistic cell geometries and boundary conditions informed by cell polarity to study in vivo subcellular spatial patterns of LEC actomyosin dynamics. The active elastomer model quantitatively reproduced in vivo observations. When compared to rectangular domains, simulations on realistic cell geometries showed systematically better agreement with experiments. We found that cell shape, cell polarity, and organization of the cell’s actomyosin network codetermine spatiotemporal network dynamics both in vivo and in simulations. Furthermore, the model predicted changes to LEC contractile activity under genetic perturbation of the actomyosin network. Our results show that cell geometry, accompanied by boundary conditions which reflect the cells’ polarity, is important to understanding the dynamics of the apicomedial actomyosin network. Moreover, our findings support the notion that spatiotemporal oscillatory behavior of the actomyosin network is an emergent property of the actomyosin network, rather than driven by upstream signaling.",
@@ -860,15 +784,6 @@
           "doi": "https://doi.org/10.1073/pnas.2503955123",
           "filter": "2",
           "created": "2026-1-16"
-        },
-        {
-          "title": "Redox robustness drives LPMO evolution",
-          "authors": "Iván Ayuso-Fernández, Tom Z. Emrich-Mills, Ole Golten, Zarah Forsberg, Kelsi R. Hall, László G. Nagy, Morten Sørlie, Åsmund Kjendseth Røhr, Vincent G. H. Eijsink",
-          "abstract": "Enzymes known as lytic polysaccharide monooxygenases (LPMOs) are exceptionally powerful small redox enzymes that master the controlled generation and productive use of potentially damaging hydroxyl radicals in what is essentially a H 2 O 2 -driven peroxygenase reaction. We have used ancestral sequence reconstruction and enzyme resurrection to unravel evolutionary steps leading to this exceptional catalytic ability. Real-time monitoring of copper reoxidation and amino acid radical formation showed evolutionary improvement of both the capacity to avoid futile turnover of H 2 O 2 and the ability to scavenge damaging radicals resulting from such turnover through a hole hopping pathway. Through mutational studies of ancestral LPMOs, we show that adoption of an extant-like conformation of residues in the hole hopping pathway yields improvements in redox robustness to near-extant levels. These results show how selective pressure imposed by the need for generating a highly oxidizing intermediate is a key driver of metalloenzyme evolution, involving large parts of the enzyme, well beyond the catalytic center.",
-          "url": "https://doi.org/10.1073/pnas.2521617123",
-          "doi": "https://doi.org/10.1073/pnas.2521617123",
-          "filter": "2",
-          "created": "2026-1-13"
         },
         {
           "title": "Plant diversity influences plant volatile emission with varying effects at the species and community levels",
@@ -880,12 +795,13 @@
           "created": "2026-1-15"
         },
         {
-          "title": "Signals and the shape of developmental landscapes",
-          "authors": "Allon M. Klein",
-          "url": "https://doi.org/10.1073/pnas.2533095123",
-          "doi": "https://doi.org/10.1073/pnas.2533095123",
+          "title": "Redox robustness drives LPMO evolution",
+          "authors": "Iván Ayuso-Fernández, Tom Z. Emrich-Mills, Ole Golten, Zarah Forsberg, Kelsi R. Hall, László G. Nagy, Morten Sørlie, Åsmund Kjendseth Røhr, Vincent G. H. Eijsink",
+          "abstract": "Enzymes known as lytic polysaccharide monooxygenases (LPMOs) are exceptionally powerful small redox enzymes that master the controlled generation and productive use of potentially damaging hydroxyl radicals in what is essentially a H 2 O 2 -driven peroxygenase reaction. We have used ancestral sequence reconstruction and enzyme resurrection to unravel evolutionary steps leading to this exceptional catalytic ability. Real-time monitoring of copper reoxidation and amino acid radical formation showed evolutionary improvement of both the capacity to avoid futile turnover of H 2 O 2 and the ability to scavenge damaging radicals resulting from such turnover through a hole hopping pathway. Through mutational studies of ancestral LPMOs, we show that adoption of an extant-like conformation of residues in the hole hopping pathway yields improvements in redox robustness to near-extant levels. These results show how selective pressure imposed by the need for generating a highly oxidizing intermediate is a key driver of metalloenzyme evolution, involving large parts of the enzyme, well beyond the catalytic center.",
+          "url": "https://doi.org/10.1073/pnas.2521617123",
+          "doi": "https://doi.org/10.1073/pnas.2521617123",
           "filter": "2",
-          "created": "2026-1-12"
+          "created": "2026-1-13"
         },
         {
           "title": "Plastid-to-nucleus communication under hypoxia involves group VII ethylene response factors in Arabidopsis thaliana",
@@ -904,15 +820,6 @@
           "doi": "https://doi.org/10.1073/pnas.2522557123",
           "filter": "2",
           "created": "2026-1-15"
-        },
-        {
-          "title": "Molecular underpinnings of induced degenerative heterogeneity in the retinal pigment epithelium",
-          "authors": "Krishna Kumar Singh, Yang Jin, Ming-Wen Hu, Isabella Palazzo, Marisol Cano, Thanh Hoang, Imran Bhutto, Shusheng Wang, Debasish Sinha, Seth Blackshaw, Jiang Qian, James T. Handa",
-          "abstract": "Cigarette smoking induces epigenetic changes that can cause degenerative heterogeneity with aging and disease. In disease such as age-related macular degeneration (AMD), the leading worldwide cause of blindness among the elderly, retinal pigment epithelial (RPE) cell heterogeneity is a key change. Since smoking is a powerful risk factor for AMD, we hypothesized that smoke induces epigenetic-mediated degenerative RPE heterogeneity. We administered cigarette smoke condensate (CSC) to young and aged mice. Using snRNA-seq and single nuclear ATAC sequencing, we identified distinct healthy and dedifferentiated RPE clusters in both aged vehicle- and young CSC-treated mice. Dedifferentiated RPE had globally decreased chromatin accessibility and expression of genes linked to “hallmarks of aging.” Notably, young, dedifferentiated RPE also exhibited a compensatory upregulation of hallmarks of aging-related genes including mitochondrial function and proteostasis while aged dedifferentiated RPE did not, which decreased their survival following CSC treatment, as experimentally verified with TUNEL labeling. Similar populations of dedifferentiated and healthy RPE were identified both in mice exposed to cigarette smoke for 4 mo and in macular RPE from a donor who smoked and another with early AMD, but not from a nonsmoker donor. Degenerative cellular heterogeneity that includes an abnormal cluster can jeopardize cell survival and represents a hallmark of ocular aging.",
-          "url": "https://doi.org/10.1073/pnas.2505412123",
-          "doi": "https://doi.org/10.1073/pnas.2505412123",
-          "filter": "2",
-          "created": "2026-1-16"
         },
         {
           "title": "Stochastic motility energetics reveals cooperative bacterial swarming in optical tweezers",
@@ -942,6 +849,15 @@
           "created": "2026-1-16"
         },
         {
+          "title": "Molecular underpinnings of induced degenerative heterogeneity in the retinal pigment epithelium",
+          "authors": "Krishna Kumar Singh, Yang Jin, Ming-Wen Hu, Isabella Palazzo, Marisol Cano, Thanh Hoang, Imran Bhutto, Shusheng Wang, Debasish Sinha, Seth Blackshaw, Jiang Qian, James T. Handa",
+          "abstract": "Cigarette smoking induces epigenetic changes that can cause degenerative heterogeneity with aging and disease. In disease such as age-related macular degeneration (AMD), the leading worldwide cause of blindness among the elderly, retinal pigment epithelial (RPE) cell heterogeneity is a key change. Since smoking is a powerful risk factor for AMD, we hypothesized that smoke induces epigenetic-mediated degenerative RPE heterogeneity. We administered cigarette smoke condensate (CSC) to young and aged mice. Using snRNA-seq and single nuclear ATAC sequencing, we identified distinct healthy and dedifferentiated RPE clusters in both aged vehicle- and young CSC-treated mice. Dedifferentiated RPE had globally decreased chromatin accessibility and expression of genes linked to “hallmarks of aging.” Notably, young, dedifferentiated RPE also exhibited a compensatory upregulation of hallmarks of aging-related genes including mitochondrial function and proteostasis while aged dedifferentiated RPE did not, which decreased their survival following CSC treatment, as experimentally verified with TUNEL labeling. Similar populations of dedifferentiated and healthy RPE were identified both in mice exposed to cigarette smoke for 4 mo and in macular RPE from a donor who smoked and another with early AMD, but not from a nonsmoker donor. Degenerative cellular heterogeneity that includes an abnormal cluster can jeopardize cell survival and represents a hallmark of ocular aging.",
+          "url": "https://doi.org/10.1073/pnas.2505412123",
+          "doi": "https://doi.org/10.1073/pnas.2505412123",
+          "filter": "2",
+          "created": "2026-1-16"
+        },
+        {
           "title": "Piezo1 dictates K + homeostasis through coordinated regulation of the ubiquitin ligase Kelch-like 3 in RBCs and the kidney",
           "authors": "Kenichi Ishizawa, Ken Kaseda, Wataru Fujii, Yoshihiro Tomomitsu, Daigoro Hirohama, Osamu Yamazaki, Yuta Kochi, Shigeru Shibata",
           "abstract": "The maintenance of potassium (K + ) balance is a fundamental biological process involving multiple tissues. However, the roles of intertissue crosstalk in K + homeostasis remain poorly understood. Here, we demonstrate that the mechanosensor Piezo1 dictates extracellular K + homeostasis by orchestrating the ubiquitin ligase Kelch-like 3 (KLHL3) activity in red blood cells (RBCs; erythrocytes) and the kidney. Genetic variants within KLHL3 with expression quantitative trait locus effects are associated with altered RBC parameters, and CRISPR-generated KLHL3 knock-in (KLHL3-KI) mice carrying a nonphosphorylatable Ala substitution at its activation site (Ser433) reveal that KLHL3 regulates erythrocyte volume by modulating with-no-lysine 1 (WNK1). In wild-type, but not in KLHL3-KI, erythrocytes, Piezo1 activates KLHL3 through Ser433 dephosphorylation, reducing WNK1 abundance and intracellular K + content—a physiologically adaptive response to hypo-osmotic stress. KLHL3-KI mice exhibit hyperkalemia and reduced fractional K + excretion, accompanied by elevated WNK levels and reduced renal outer medullary K + (ROMK) abundance in collecting ducts of the kidney. Single-cell transcriptomics confirm coexpression of Piezo1 and KLHL3 in these segments, where Piezo1 regulates WNK abundance through KLHL3-Ser433 dephosphorylation. In human genetic studies of 200,367 UK Biobank participants, the PIEZO1 missense variant rs563555492 (p.L2277M) is independently associated with lower urinary K + . Piezo1-mediated WNK1 regulation is abolished in human kidney cells expressing Piezo1 L2277M . Causal role of Piezo1 in regulating K + excretion and ROMK was confirmed in vivo. These findings identify Piezo1–KLHL3 interaction as a key intertissue signaling mechanism between erythrocytes and the kidney that governs K + homeostasis, and suggest this pathway as a therapeutic target for dyskalemia.",
@@ -967,23 +883,6 @@
           "doi": "https://doi.org/10.1073/pnas.2513940123",
           "filter": "2",
           "created": "2026-1-16"
-        },
-        {
-          "title": "Protein synthesis blockade prevents fear memory reactivation via inhibition of engram synapse strengthening",
-          "authors": "Ilgang Hong, Yeonjun Kim, Hyunsu Jung, Chang-Ho Kim, Jun-Hyeong Cho, Bong-Kiun Kaang",
-          "abstract": "Memory relies on ensembles of engram cells in the brain. While previous studies have established the existence of these cells, the relationship between cellular and synaptic activity remains unclear. To address this, we applied the dual-enhanced green fluorescent protein reconstitution across synaptic partners (dual-eGRASP) technique in mice to examine synaptic connectivity between the ventral CA1 and the basal amygdala during memory formation. We found that contextual fear conditioning increased engram-to-engram synapse (engram synapse) density and induced structural potentiation, highlighting their importance in associative memory. Additionally, we investigated the role of protein synthesis in memory formation by drug-induced amnesia using anisomycin, a protein synthesis inhibitor. Mice injected with anisomycin once (1xANI) showed impaired natural recall but still displayed fear responses upon optogenetic reactivation. In contrast, mice that received four anisomycin injections over 6 h (4xANI) showed significantly impaired natural recall and failed to exhibit fear responses upon optogenetic reactivation. This behavioral phenotype correlated with synaptic changes as assessed using dual eGRASP, where 1xANI mice exhibited no significant reduction in engram synapse density but had significantly smaller spine sizes, whereas 4xANI mice showed both a significant reduction in engram synapse density and spine size. Our results indicate that protein synthesis inhibition significantly reduces engram synapse density and spine size, changes that correlate with reductions in fear memory during both natural and artificial recall.",
-          "url": "https://doi.org/10.1073/pnas.2510016123",
-          "doi": "https://doi.org/10.1073/pnas.2510016123",
-          "filter": "2",
-          "created": "2026-1-12"
-        },
-        {
-          "title": "Less NO x emission reductions are a potential cause for low effectiveness of sulfate aerosol reductions in China",
-          "authors": "Zhe Song, Huan Xi, Ningning Yao, Lang Chen, Zhengnan Cen, Pengfei Li, Daniel Rosenfeld, Shaocai Yu",
-          "url": "https://doi.org/10.1073/pnas.2523101123",
-          "doi": "https://doi.org/10.1073/pnas.2523101123",
-          "filter": "2",
-          "created": "2026-1-12"
         },
         {
           "title": "Tube feet dynamics drive adaptation in sea star locomotion",
@@ -1022,13 +921,13 @@
           "created": "2026-1-13"
         },
         {
-          "title": "An ecological cascade links climatic variability to avian irruptions and zoonotic salmonellosis outbreaks",
-          "authors": "Benjamin A. Tonelli, Casey Youngflesh, Morgan W. Tingley",
-          "abstract": "Salmonellosis is a common bacterial infection that can lead to severe illness and death in humans as well as domesticated and wild animals. In bird populations, salmonellosis outbreaks are temporally irregular but occur simultaneously across large spatial extents, frequently leading to widespread avian mortality with occasional spillover to humans. Here, we test the hypothesis that avian salmonellosis epidemics result from a cascade of ecological processes triggered by climate variability in coniferous forests. Building on well-evidenced ecological mechanisms, we find strong evidence for multiyear causal links between temperature cues that drive substantial “boom-bust” cycles in tree cone production across North America, the subsequent irruptions of seed-eating birds, and, finally, the eventual occurrence and severity of avian salmonellosis outbreaks in the United States. By using an integrated, multilevel Bayesian statistical model as a predictive tool to forecast future bird irruptions and disease outbreaks, we demonstrate that our methods can be employed as an early warning system for future epidemics, potentially mitigating outbreak severity among birds and lowering the risk of zoonotic spillover events by encouraging measures such as the temporary cessation of bird feeding ahead of high-risk periods.",
-          "url": "https://doi.org/10.1073/pnas.2511209123",
-          "doi": "https://doi.org/10.1073/pnas.2511209123",
+          "title": "De novo discovery of bicyclic cysteine-rich peptides targeting gasdermin D",
+          "authors": "Choi Yi Li, Yin Sun, Alexander A. Vinogradov, Hiroaki Suga",
+          "abstract": "Gasdermin D (GSDMD) is the principal executor of pyroptosis, a form of proinflammatory programmed cell death misregulation of which is associated with numerous diseases. Despite significant interest, no specific GSDMD inhibitors have been developed for clinical use so far. Here, we developed a strategy to generate mRNA-displayed libraries of bicyclic cysteine-rich peptides (bCRP), and utilized these libraries to develop potent peptide ligands to full-length GSDMD using a two-stage discovery process. Initial hit compounds were de novo discovered from GSDMD affinity selections using Random Nonstandard Peptides Integrated Discovery system, and were then optimized using mRNA display-based saturation mutagenesis. The resulting bCRPs bound to full-length GSDMD (best K D = 125 nM) and stabilized it against cleavage by caspase proteases. The bCRPs prevented the pore formation in liposome leakage assays and inhibited the secretion of IL-1β and lactate dehydrogenase from pyroptotic THP-1 cells. The potency, high metabolic stability, and synthetic accessibility of the discovered compounds make them promising leads for the development of GSDMD-targeting therapeutics.",
+          "url": "https://doi.org/10.1073/pnas.2516051123",
+          "doi": "https://doi.org/10.1073/pnas.2516051123",
           "filter": "2",
-          "created": "2026-1-12"
+          "created": "2026-1-16"
         },
         {
           "title": "Chemical tuning reveals a cation–π gating bridge between the voltage-sensor and pore domains in the K v 7.1 potassium channel",
@@ -1049,24 +948,6 @@
           "created": "2026-1-16"
         },
         {
-          "title": "De novo discovery of bicyclic cysteine-rich peptides targeting gasdermin D",
-          "authors": "Choi Yi Li, Yin Sun, Alexander A. Vinogradov, Hiroaki Suga",
-          "abstract": "Gasdermin D (GSDMD) is the principal executor of pyroptosis, a form of proinflammatory programmed cell death misregulation of which is associated with numerous diseases. Despite significant interest, no specific GSDMD inhibitors have been developed for clinical use so far. Here, we developed a strategy to generate mRNA-displayed libraries of bicyclic cysteine-rich peptides (bCRP), and utilized these libraries to develop potent peptide ligands to full-length GSDMD using a two-stage discovery process. Initial hit compounds were de novo discovered from GSDMD affinity selections using Random Nonstandard Peptides Integrated Discovery system, and were then optimized using mRNA display-based saturation mutagenesis. The resulting bCRPs bound to full-length GSDMD (best K D = 125 nM) and stabilized it against cleavage by caspase proteases. The bCRPs prevented the pore formation in liposome leakage assays and inhibited the secretion of IL-1β and lactate dehydrogenase from pyroptotic THP-1 cells. The potency, high metabolic stability, and synthetic accessibility of the discovered compounds make them promising leads for the development of GSDMD-targeting therapeutics.",
-          "url": "https://doi.org/10.1073/pnas.2516051123",
-          "doi": "https://doi.org/10.1073/pnas.2516051123",
-          "filter": "2",
-          "created": "2026-1-16"
-        },
-        {
-          "title": "Berry Batesian mimicry enables bird dispersal of asexual bulbils in a yam",
-          "authors": "Zhi Chen, Guillaume Chomicki, Ying Li, Xingrong Peng, Gao Chen",
-          "abstract": "Many plants that abandon sex rely on clonal propagules, but their short dispersal distances can trap offspring near parent plants and enemies. We show that the yam Dioscorea melanophyma —which has lost sexual reproduction—evolved black, glossy bulbils that mimic co-occurring black berries and entice frugivorous birds to ingest and disperse them. Birds from 22 species fed on bulbils, with visits peaking in October–February when true fruits are scarce. Bulbil reflectance overlapped sympatric berries and was indistinguishable in a UV-sensitive avian vision model for many species, consistent with Batesian visual mimicry. Feeding trials with the dominant visitor ( Pycnonotus xanthorrhous ) showed short gut retention and negligible destruction, so bulbils are excreted largely intact and viable and monitoring revealed that bulbils achieved dispersal distances similar to rewarding endozoochorous plants. Thus, sensory deception that exploits fruit–frugivore signal–reward rules can restore ecologically meaningful movement after the loss of sex in asexual lineages.",
-          "url": "https://doi.org/10.1073/pnas.2528094123",
-          "doi": "https://doi.org/10.1073/pnas.2528094123",
-          "filter": "2",
-          "created": "2026-1-12"
-        },
-        {
           "title": "mTOR signaling governs the formation of epithelial apical projections via S6K1–RhoA and aPKC–Lgl2 axes",
           "authors": "Sumit Sen, Prithwish Ghosh, Sudipta Mukherjee, Shreedha Prabhu, Ginni Khurana, Clyde Savio Pinto, Kirti Gupta, Ravindra Venkatramani, Mahendra Sonawane",
           "abstract": "In metazoans, epithelia perform functions of absorption, diffusion, and secretion. The actin-based apical projections on the epithelial cells contribute to these functions and are formed via cell-autonomous mechanisms that control cell polarity, intracellular transport, and the cytoskeleton. However, the cues that function upstream of these cell-autonomous regulators remain poorly known. Using microridges on zebrafish epithelial cells as a paradigm, we show that mTOR, a metabolic sensor, regulates the formation of apical projections. Mechanistically, mTORC1 controls the RhoA-ROCK activity via S6K1 to prevent the overactivation of nonmuscle myosin II (NMII) to restrict microridge elongation. Furthermore, genetic, biochemical, and molecular dynamics simulation analyses reveal that mTORC2 regulates the microridge pattern by modulating the activity of aPKC via its differential phosphorylation at two conserved sites. We propose that mTOR integrates the developmental and/or metabolic status of epithelial cells with cell autonomously acting RhoA and aPKC to regulate tissue-wide formation of apical projections.",
@@ -1085,24 +966,6 @@
           "created": "2026-1-15"
         },
         {
-          "title": "Brain displacement and nonlinear deformation following human spaceflight",
-          "authors": "Tianyi Wang, Rouglas J. Odor, Yiri E. De Dios, Edwin Mulder, Jacob J. Bloomberg, Scott J. Wood, Rachael D. Seidler",
-          "abstract": "When humans return from space, their average brain position is higher within the cranial compartment. Here, we evaluated brain regional shift magnitudes and deformations and their behavioral correlates. We analyzed MRI data from 26 astronauts and 24 participants from a long-duration head-down tilt bed rest study. We aligned skull position across timepoints (before and after spaceflight or bed rest) as a reference and then used rigid body registration to quantify brain position change. The brain shifted backward, upward, and rotated back in the pitch direction from before to after spaceflight and bed rest in a fashion that correlated with exposure duration. Regional analyses revealed nonlinear deformations in all three directions that were not captured in previous reports of the average position shift. Moreover, we observed symmetrical left–right shifts that were not evident in the average position shift due to sign cancellation. In those who spent one year in space, the supplementary motor cortex showed the largest upward displacement [2.52 mm, 95% CI = (2.25, 2.79)]. Widespread recovery occurred in all three dimensions (particularly in the up–down direction) over 6 mo following spaceflight. Larger posterior insula translations were correlated with greater postflight balance declines. The brain shifts and deformations in astronauts were somewhat similar to head-down tilt bed rest, but there were notable differences. Thus, we demonstrate comprehensive brain position changes within the cranial compartment following spaceflight and an analog environment. These findings are critical for understanding the effects of spaceflight on the human brain and behavior.",
-          "url": "https://doi.org/10.1073/pnas.2505682122",
-          "doi": "https://doi.org/10.1073/pnas.2505682122",
-          "filter": "2",
-          "created": "2026-1-12"
-        },
-        {
-          "title": "Seeing Roman life through water: Exploring Pompeii’s public baths via carbonate deposits",
-          "authors": "Gül Sürmelihindi, Cees Passchier, Monika Trümper, Thomas Heide, Christoph Spötl, Denis Scholz, Michael Weber, Friedrich Hawemann",
-          "abstract": "The ancient city of Pompeii, destroyed by the eruption of Mt. Vesuvius in AD 79, shows technological improvements to its water supply after becoming a Roman colony. Its inhabitants relied on wells for their water supply prior to the installation of a Roman aqueduct. Carbonate incrustations deposited in various components of the city’s hydraulic infrastructure, including the aqueduct, its water towers, the well shafts, and pools of the public baths. The stable isotope and trace element composition of these carbonates differ markedly between structures supplied by wells and those fed by the aqueduct, reflecting the contrasting origins of their source waters. While the aqueduct was fed by karst springs, the wells tapped into highly mineralized groundwater from volcanic deposits. These geochemical distinctions allow for a detailed reconstruction of Pompeii’s water management system, particularly the transition from well- to aqueduct-based water supply. The periodicity of δ 13 C variations in carbonate crusts sampled from well, pools, and drainage channels of the Republican Baths offers insights into the operation and maintenance of the facility. δ 13 C values show a sharp drop from wells to bathing pools, suggesting contamination by human waste and implying that the bath water was not regularly replenished in the Republican Baths.",
-          "url": "https://doi.org/10.1073/pnas.2517276122",
-          "doi": "https://doi.org/10.1073/pnas.2517276122",
-          "filter": "2",
-          "created": "2026-1-12"
-        },
-        {
           "title": "Negative feedback regulation of alcohol ingestion through the FGF21-PVH oxytocin-VTA dopamine system",
           "authors": "Sho Matsui, Yuma Takahashi, Shuhei Morioka, Takaaki Ozawa, Sachiho Kanayama, Hiroki Iwama, Lan Geng, Kazuhiro Umemoto, Yasuo Oguri, Satoshi Tsuzuki, Yulong Li, Takatoshi Hikida, Tsutomu Sasaki",
           "abstract": "Alcohol has a notable negative impact on global health. Understanding its physiological regulation is crucial to addressing alcohol use. Here, we show that FGF21-oxytocin neurons in the paraventricular nucleus of the hypothalamus (PVH OXT )-dopamine neurons in the ventral tegmental area (VTA DA ) negatively regulate the drive to drink alcohol. Alcohol induces FGF21 signaling, which activates PVH OXT and induces oxytocin release in the VTA. The VTA DA neurons are activated hours after alcohol ingestion, which reduces the drive to drink alcohol, extends the interdrink interval, and thereby reduces alcohol consumption. The system is downregulated in a mouse model of alcohol dependence, and activating the system with FGF21-inducing sugars reduces alcohol ingestion and prevents binge drinking and alcohol dependence. Therefore, FGF21-inducing nutraceuticals can substitute for alcohol by supplementing the FGF21-PVH OXT -VTA DA negative feedback signal to attenuate alcohol-related behaviors in mice.",
@@ -1110,14 +973,6 @@
           "doi": "https://doi.org/10.1073/pnas.2525172122",
           "filter": "2",
           "created": "2026-1-14"
-        },
-        {
-          "title": "When broken bones need air: Erythrocytes step in to heal",
-          "authors": "Ronen Blecher, Elazar Zelzer",
-          "url": "https://doi.org/10.1073/pnas.2530030123",
-          "doi": "https://doi.org/10.1073/pnas.2530030123",
-          "filter": "2",
-          "created": "2026-1-12"
         },
         {
           "title": "The intrinsic impact of mechanical stress on the maintenance of oocyte dormancy",
@@ -1137,14 +992,6 @@
           "created": "2026-1-14"
         },
         {
-          "title": "Reply to Song et al.: Acidity-sensitive chemistry promotes sulfate formation in East Asia",
-          "authors": "Yu-Chi Lin, Shohei Hattori, Syuichi Itahashi, Yan-Lin Zhang",
-          "url": "https://doi.org/10.1073/pnas.2524655123",
-          "doi": "https://doi.org/10.1073/pnas.2524655123",
-          "filter": "2",
-          "created": "2026-1-12"
-        },
-        {
           "title": "Distinct contributions of hippocampal pathways in learning regularities and exceptions revealed by functional footprints",
           "authors": "Melisa Gumus, Michael L. Mack",
           "abstract": "Fundamental aspects of learning are theorized to be supported by hippocampal pathways: The monosynaptic pathway (MSP) extracts regularities, whereas the trisynaptic pathway (TSP) rapidly encodes exceptional items. Yet, the empirical evidence for the dynamic involvement of MSP and TSP in learning remains unresolved. We leveraged diffusion-weighted imaging to estimate the endpoints of MSP- and TSP-related white matter structures (i.e., footprints) within hippocampal subfields and the entorhinal cortex. We then measured the activation of pathway-specific footprints with functional MRI while participants learned novel concepts defined by regularities and exceptions. The functional footprint method revealed links between MSP-related footprint activation and regularity encoding early in learning and TSP-related footprint activation and exception encoding late in learning. These findings provide empirical evidence that learning concept regularities and exceptions is preferentially supported by hippocampal pathways. The pathway footprint approach provides insights into the functional dynamics of the human hippocampus, translating theoretical and computational work into empirically testable questions in humans.",
@@ -1152,15 +999,6 @@
           "doi": "https://doi.org/10.1073/pnas.2503388123",
           "filter": "2",
           "created": "2026-1-16"
-        },
-        {
-          "title": "Isotopic evidence for volatile loss driven by South Pole-Aitken basin–forming impact",
-          "authors": "Heng-Ci Tian, Chi Zhang, Wen-Jun Li, Dingshuai Xue, Jing Wang, Wei Yang, Yan-Hong Liu, Yangting Lin, Xian-Hua Li, Fu-Yuan Wu",
-          "abstract": "Recent studies suggest that the lunar farside experienced a magma ocean evolution similar to that of the nearside. Thus, the nearside-farside dichotomy, such as volcanism and crustal thickness, is likely related to the South Pole-Aitken (SPA) basin–forming impact. Although the noritic clasts found in Chang’e-6 (CE6) samples may originate from crustal remelting induced by the SPA impact, how (and whether) the lunar mantle was modified by this event remains unclear. Here, we present the first high-precision iron (Fe) and potassium (K) isotopic measurements of CE6 low-Ti basalts, revealing higher δ 56 Fe (0.13 to 0.21‰) and δ 41 K (0 to 0.09‰) in these basalts compared to their Apollo and Chang’e-5 (CE5) counterparts (δ 56 Fe: 0 to 0.11‰; δ 41 K: −0.29 to −0.04‰). The heavy Fe and K isotopic signatures are unlikely to be derived from cosmogenic effects or the addition of impactor-derived materials. Instead, the heavy Fe isotopes can be explained by partial melting and fractional crystallization processes. For K isotopes, however, the data require that the mantle source beneath the SPA basin had a heavier K isotopic composition than that of the nearside mantle, most likely resulting from evaporation caused by the SPA-forming impact. Our results thus provide robust evidence for significant impact-induced modification of the lunar mantle and demonstrate that large-scale impacts may have played a key role in creating lunar asymmetry.",
-          "url": "https://doi.org/10.1073/pnas.2515408123",
-          "doi": "https://doi.org/10.1073/pnas.2515408123",
-          "filter": "2",
-          "created": "2026-1-12"
         },
         {
           "title": "Multiple modes of AFM reveal distinct mechanical properties for dystrophin and utrophin not manifest by small fragments",
@@ -1491,19 +1329,19 @@
           "created": "2026-1-15"
         },
         {
+          "title": "The mirage of AI deregulation",
+          "authors": "Alondra Nelson",
+          "url": "https://doi.org/10.1126/science.aee4900",
+          "doi": "https://doi.org/10.1126/science.aee4900",
+          "filter": "3",
+          "created": "2026-1-15"
+        },
+        {
           "title": "Ex–Google CEO funds private space telescope bigger than Hubble",
           "authors": "Daniel Clery",
           "abstract": "Schmidt Sciences invests in orbiting observatory and three ground-based instruments",
           "url": "https://doi.org/10.1126/science.aef4618",
           "doi": "https://doi.org/10.1126/science.aef4618",
-          "filter": "3",
-          "created": "2026-1-15"
-        },
-        {
-          "title": "The mirage of AI deregulation",
-          "authors": "Alondra Nelson",
-          "url": "https://doi.org/10.1126/science.aee4900",
-          "doi": "https://doi.org/10.1126/science.aee4900",
           "filter": "3",
           "created": "2026-1-15"
         },
@@ -1632,20 +1470,20 @@
           "created": "2026-1-14"
         },
         {
-          "title": "A transposase-derived gene required for human brain development",
-          "authors": "Luz Jubierre Zapater, Sara A. Lewis, Rodrigo Lopez Gutierrez, Makiko Yamada, Elias Rodriguez-Fos, Merce Planas-Felix, Daniel Cameron, Phillip Demarest, Anika Nabila, Helen S. Mueller, Junfei Zhao, Paul Bergin, Casie Reed, Tzippora Chwat-Edelstein, Alex Pagnozzi, Caroline Nava, Emilie Bourel-Ponchel, Patricia Cornejo, Ali Dursun, R. Köksal Özgül, Halil Tuna Akar, Henry Houlden, Huma Arshad Cheema, Muhammad Nadeem Anjum, Giovanni Zifarelli, Peter Bauer, Miriam Essid, Hanene Benrhouma, Meriem Ben Hafsa, Ichraf Kraoua, Carolina I. Galaz-Montoya, Alex Proekt, Xiaolan Zhao, Nicholas D. Socci, Matthew Hayes, Yves Bigot, Raul Rabadan, Reza Maroofian, David Torrents, Claudia L Kleinmann, Michael C. Kruer, Miklos Toth, Alex Kentsis",
-          "abstract": "Vertebrate brain development is associated with prominent neuronal cell death and DNA breaks, but their causes and functions are not well understood. DNA transposable elements could contribute to somatic genome rearrangements; however, their contributions to brain development are largely unknown. PiggyBac transposable element derived 5 (PGBD5) is an evolutionarily conserved vertebrate DNA transposase–derived gene with DNA remodeling activities in human cells. Here, we show that PGBD5 contributes to normal brain development in mice and humans, and its deficiency causes disorder of intellectual disability, movement disorders, and epilepsy. In mice, Pgbd5 is required for the developmental induction of postmitotic DNA breaks and recurrent somatic brain genome rearrangements. In the cerebral cortex, loss of Pgbd5 leads to aberrant neuronal gene expression, including of specific types of glutamatergic neurons, which partly explains the features of PGBD5 deficiency in humans. Thus, PGBD5 is a transposase-derived gene required for brain development in mammals.",
-          "url": "https://doi.org/10.1126/sciadv.adv7530",
-          "doi": "https://doi.org/10.1126/sciadv.adv7530",
-          "filter": "2",
-          "created": "2026-1-14"
-        },
-        {
           "title": "Reversible phase dynamics of PsAF5 regulate mitophagy to balance redox levels in Phytophthora sojae",
           "authors": "Jinzhu Chen, Wenhao Li, Qin Peng, Hongwei Zhu, Tan Dai, Jianqiang Miao, Xili Liu",
           "abstract": "Redox balance is essential for normal cellular functions. PsAF5, a FYVE domain–containing protein, functions as an essential sensor and adapter, particularly in mitophagy triggered by reactive oxygen species in Phytophthora sojae . However, the regulatory role of PsAF5 in maintaining the dynamic equilibrium of the intracellular redox state has not yet been fully elucidated. Here, we identify that specific cysteine residues in the FYVE domain of PsAF5 sense cellular redox states to form and resolve disulfide bonds in a redox-dependent manner. Under reducing conditions, PsAF5 undergoes redox-dependent phase separation to form cytoplasmic condensates that are functionally decoupled from mitophagy execution. Under oxidative conditions, PsAF5 exhibits increased cytosolic solubility and enhanced interaction with PsATG8, thereby promoting mitophagy. This mechanism enables P. sojae to toggle between “detoxification” (oxidizing stress) and “metabolic resilience” (reducing stress) states, ensuring survival across hostile host niches.",
           "url": "https://doi.org/10.1126/sciadv.adz2785",
           "doi": "https://doi.org/10.1126/sciadv.adz2785",
+          "filter": "2",
+          "created": "2026-1-14"
+        },
+        {
+          "title": "A transposase-derived gene required for human brain development",
+          "authors": "Luz Jubierre Zapater, Sara A. Lewis, Rodrigo Lopez Gutierrez, Makiko Yamada, Elias Rodriguez-Fos, Merce Planas-Felix, Daniel Cameron, Phillip Demarest, Anika Nabila, Helen S. Mueller, Junfei Zhao, Paul Bergin, Casie Reed, Tzippora Chwat-Edelstein, Alex Pagnozzi, Caroline Nava, Emilie Bourel-Ponchel, Patricia Cornejo, Ali Dursun, R. Köksal Özgül, Halil Tuna Akar, Henry Houlden, Huma Arshad Cheema, Muhammad Nadeem Anjum, Giovanni Zifarelli, Peter Bauer, Miriam Essid, Hanene Benrhouma, Meriem Ben Hafsa, Ichraf Kraoua, Carolina I. Galaz-Montoya, Alex Proekt, Xiaolan Zhao, Nicholas D. Socci, Matthew Hayes, Yves Bigot, Raul Rabadan, Reza Maroofian, David Torrents, Claudia L Kleinmann, Michael C. Kruer, Miklos Toth, Alex Kentsis",
+          "abstract": "Vertebrate brain development is associated with prominent neuronal cell death and DNA breaks, but their causes and functions are not well understood. DNA transposable elements could contribute to somatic genome rearrangements; however, their contributions to brain development are largely unknown. PiggyBac transposable element derived 5 (PGBD5) is an evolutionarily conserved vertebrate DNA transposase–derived gene with DNA remodeling activities in human cells. Here, we show that PGBD5 contributes to normal brain development in mice and humans, and its deficiency causes disorder of intellectual disability, movement disorders, and epilepsy. In mice, Pgbd5 is required for the developmental induction of postmitotic DNA breaks and recurrent somatic brain genome rearrangements. In the cerebral cortex, loss of Pgbd5 leads to aberrant neuronal gene expression, including of specific types of glutamatergic neurons, which partly explains the features of PGBD5 deficiency in humans. Thus, PGBD5 is a transposase-derived gene required for brain development in mammals.",
+          "url": "https://doi.org/10.1126/sciadv.adv7530",
+          "doi": "https://doi.org/10.1126/sciadv.adv7530",
           "filter": "2",
           "created": "2026-1-14"
         },
@@ -1659,20 +1497,20 @@
           "created": "2026-1-16"
         },
         {
-          "title": "DLX2 acts as a pioneer factor and drives Msx1 + ectomesenchyme formation from embryonic stem cells",
-          "authors": "Ziwei Zhang, Zhiheng Xu, Hong Hu, Yao Li, Youmei Jin, Yi Zhong, Yunqiu Zhang, Yike Yin, Jing Chen, Yufeng Duan, Hao Yang, Zhonghan Li",
-          "abstract": "The ectomesenchyme generates much of the craniofacial skeleton, sutures, and diverse connective tissues in the mammalian head, yet its derivation from embryonic stem cells (ESCs) and the underlying molecular drivers remain poorly defined. Here, we identified Dlx2 as a key regulator that efficiently directed murine ESCs toward Msx1 + ectomesenchyme, recapitulating the developmental trajectory. These Msx1 + progenitors expressed classical craniofacial markers, exhibited robust osteochondral differentiation potential as a group, and supported craniofacial regeneration. Mechanistically, Distal-less homeobox 2 (DLX2) formed a complex with lamina-associated polypeptide 2, isoform alpha (LAP2α) through a 38–amino-acid homeodomain motif, interacting with nucleosomes to promote chromatin remodeling and activate a procraniofacial ectomesenchymal gene network. Disrupting DLX2-LAP2α interaction or silencing Dlx2 targets markedly diminished ectomesenchymal differentiation. Our findings established DLX2 as a pioneer factor in ectomesenchyme specification, offering insights into craniofacial development and stem cell engineering.",
-          "url": "https://doi.org/10.1126/sciadv.aea0685",
-          "doi": "https://doi.org/10.1126/sciadv.aea0685",
-          "filter": "2",
-          "created": "2026-1-14"
-        },
-        {
           "title": "Lipid self-assembly dependence on hyaluronic acid size reveals biolubrication and osteoarthritic degeneration mechanisms",
           "authors": "Kangdi Sun, Mark W. Rutland, Rosa M. Espinosa-Marzal",
           "abstract": "Hyaluronic acid (HA) and phospholipids (PLs) are key components of joint lubrication. In osteoarthritis (OA), the molecular weight (MW) of HA is reduced, which has been proposed to weaken the anchoring capacity of PL and impair lubrication. This study reveals a different mechanism by directly linking the MW to the structure of HA-PL (hybrid) assemblies and frictional properties. Using mixed-MW HA and PL to model this difference between healthy and OA synovial composition, we found interfacial lamellar structures form under healthy-like conditions, while hybrid vesicles predominate in OA-like conditions. At physiologically relevant shear rates, lamellar assemblies maintain ultralow friction, whereas vesicles are removed, causing a tenfold friction increase. These findings provide mechanistic insight into how HA-PL structural organization controls lubrication. While this simplified system does not capture the biochemical complexity of synovial fluid, this study advances understanding and offers a framework for designing structure-informed therapeutic strategies and biomimetic lubricants.",
           "url": "https://doi.org/10.1126/sciadv.adz9517",
           "doi": "https://doi.org/10.1126/sciadv.adz9517",
+          "filter": "2",
+          "created": "2026-1-14"
+        },
+        {
+          "title": "DLX2 acts as a pioneer factor and drives Msx1 + ectomesenchyme formation from embryonic stem cells",
+          "authors": "Ziwei Zhang, Zhiheng Xu, Hong Hu, Yao Li, Youmei Jin, Yi Zhong, Yunqiu Zhang, Yike Yin, Jing Chen, Yufeng Duan, Hao Yang, Zhonghan Li",
+          "abstract": "The ectomesenchyme generates much of the craniofacial skeleton, sutures, and diverse connective tissues in the mammalian head, yet its derivation from embryonic stem cells (ESCs) and the underlying molecular drivers remain poorly defined. Here, we identified Dlx2 as a key regulator that efficiently directed murine ESCs toward Msx1 + ectomesenchyme, recapitulating the developmental trajectory. These Msx1 + progenitors expressed classical craniofacial markers, exhibited robust osteochondral differentiation potential as a group, and supported craniofacial regeneration. Mechanistically, Distal-less homeobox 2 (DLX2) formed a complex with lamina-associated polypeptide 2, isoform alpha (LAP2α) through a 38–amino-acid homeodomain motif, interacting with nucleosomes to promote chromatin remodeling and activate a procraniofacial ectomesenchymal gene network. Disrupting DLX2-LAP2α interaction or silencing Dlx2 targets markedly diminished ectomesenchymal differentiation. Our findings established DLX2 as a pioneer factor in ectomesenchyme specification, offering insights into craniofacial development and stem cell engineering.",
+          "url": "https://doi.org/10.1126/sciadv.aea0685",
+          "doi": "https://doi.org/10.1126/sciadv.aea0685",
           "filter": "2",
           "created": "2026-1-14"
         },
@@ -1794,6 +1632,33 @@
           "created": "2026-1-16"
         },
         {
+          "title": "Consecutive phase transformations of inorganic-organic assembly in the synthesis of single-walled zeolitic nanotube",
+          "authors": "Zhaoning Song, Hanlin Wang, Zhenyuan Zhao, Zimu Zhou, Siting Yu, Jie Zhu, Xiao Chen, Limin Ren, Toru Wakihara, Zhendong Liu",
+          "abstract": "Single-walled zeolitic nanotube features a one-dimensional, hollow tubular structure with double-layered zeolitic walls, which represents a unique type of open framework materials. The formation mechanism underlying this characteristic structure, however, remains largely unexplored. We herein demonstrate that the hydrothermal synthesis of single-walled zeolitic nanotubes involves a cascade of phase transformations driven by intricate inorganic-organic interactions. As a critical step, the rearrangement of short-range ordered aluminosilicate networks enriched with five-membered rings, coupled with geometric matching to the cylindrical micelles of the bolaform organic structure-directing agent, synergistically drives the development and closure of curvature-induced interfaces, ultimately leading to the formation of single-walled zeolitic nanotubes. The proposed mechanism provides a distinctive understanding into structure-directing behaviors for ordered porous materials. This study offers valuable insights for guiding the rational synthesis and precise property tuning of the single-walled zeolitic nanotube, which hold vast potential for applications in diverse fields.",
+          "url": "https://doi.org/10.1126/sciadv.adx1619",
+          "doi": "https://doi.org/10.1126/sciadv.adx1619",
+          "filter": "2",
+          "created": "2026-1-14"
+        },
+        {
+          "title": "Quantum-elevated chiral discrimination for biomolecules",
+          "authors": "Yiquan Yang, Xiaolong Hu, Wei Du, Shuhe Wu, Peiyu Yang, Guzhi Bao, Weiping Zhang",
+          "abstract": "Chiral discrimination of enantiomeric biomolecules is vital in chemistry, biology, and medicine. Conventional methods, relying on circularly polarized light, face weak chiroptical signals and potential photodamage. Despite extensive efforts to improve sensitivity under low-photon exposure, classical chiral probes remain fundamentally bound by the shot noise limit due to quantum fluctuations. To beat these limitations, we demonstrate quantum-elevated chiral discrimination using continuous-variable polarization-entangled states as moderate–photon flux, high-sensitivity, quantum noise–squeezed chiral probes. We achieve a 5-decibel improvement beyond the shot noise limit in distinguishing l - and d -amino acids in liquid phase. This nondestructive, biocompatible protocol enables high-sensitivity chiral analysis, with broad implications for drug development, biochemical research, environmental monitoring, and asymmetric synthesis.",
+          "url": "https://doi.org/10.1126/sciadv.aea8201",
+          "doi": "https://doi.org/10.1126/sciadv.aea8201",
+          "filter": "2",
+          "created": "2026-1-14"
+        },
+        {
+          "title": "High-precision and low-depth quantum algorithm design for eigenstate problems",
+          "authors": "Jinzhao Sun, Pei Zeng, Tom Gur, M. S. Kim",
+          "abstract": "Estimating the eigenstate properties of quantum systems is a long-standing, challenging problem for both classical and quantum computing. Existing universal quantum algorithms typically rely on ideal and efficient query models (e.g., time evolution operator or block encoding of the Hamiltonian), which, however, become suboptimal for actual implementation at the quantum circuit level. Here, we present a full-stack design of quantum algorithms for estimating the eigenenergy and eigenstate properties, which can achieve high precision and good scaling with system size. The gate complexity per circuit for estimating generic Hamiltonians’ eigenstate properties is O ˜ ( log ε − 1 ) , which has a logarithmic dependence on the inverse precision ε. For lattice Hamiltonians, the circuit depth of our design achieves near-optimal system-size scaling, even with local qubit connectivity. Our full-stack algorithm has low overhead in circuit compilation, which thus results in a small actual gate count ( cnot and non-Clifford gates) for lattice and molecular problems compared to advanced eigenstate algorithms. The algorithm is implemented on IBM quantum devices using up to 2000 two-qubit gates and 20,000 single-qubit gates and achieves high-precision eigenenergy estimation for Heisenberg-type Hamiltonians, demonstrating its noise robustness.",
+          "url": "https://doi.org/10.1126/sciadv.aeb1622",
+          "doi": "https://doi.org/10.1126/sciadv.aeb1622",
+          "filter": "2",
+          "created": "2026-1-16"
+        },
+        {
           "title": "FLIPs: Genetically encoded molecular biosensors for functional imaging of cell signaling by linear dichroism microscopy",
           "authors": "Paul Miclea, Vendula Nagy-Marková, Robin Van den Eynde, Wim Vandenberg, Alina Sakhi, Alexey Bondar, Jitka Myšková, Peter Dedecker, Josef Lazar",
           "abstract": "Genetically encoded fluorescent biosensors convert specific biomolecular events into optically detectable signals. However, imaging biomolecular processes often requires modifying the proteins involved, and many molecular processes are still to be imaged. Here, we present a biosensor design that uses a hitherto overlooked detection principle: directionality of optical properties of fluorescent proteins. The biosensors (termed FLIPs) offer an extremely simple design, high sensitivity, multiplexing capability, ratiometric readout, and other advantages, without requiring modifications to their targets. We demonstrate the sensor performance by real-time imaging activity of G protein–coupled receptors (GPCRs), G proteins, arrestins, and other membrane-associated proteins, as well as by identifying a previously undescribed, pronounced, endocytosis-associated conformational change in a GPCR–β-arrestin complex. In combination with an original tri-scanning linear dichroism confocal microscope, FLIPs allow unparalleled imaging of activity of nonmodified, endogenously expressed G proteins. Thus, FLIPs establish a powerful molecular platform for imaging cell signaling, allowing numerous future developments and insights.",
@@ -1810,33 +1675,6 @@
           "doi": "https://doi.org/10.1126/sciadv.ady6314",
           "filter": "2",
           "created": "2026-1-16"
-        },
-        {
-          "title": "High-precision and low-depth quantum algorithm design for eigenstate problems",
-          "authors": "Jinzhao Sun, Pei Zeng, Tom Gur, M. S. Kim",
-          "abstract": "Estimating the eigenstate properties of quantum systems is a long-standing, challenging problem for both classical and quantum computing. Existing universal quantum algorithms typically rely on ideal and efficient query models (e.g., time evolution operator or block encoding of the Hamiltonian), which, however, become suboptimal for actual implementation at the quantum circuit level. Here, we present a full-stack design of quantum algorithms for estimating the eigenenergy and eigenstate properties, which can achieve high precision and good scaling with system size. The gate complexity per circuit for estimating generic Hamiltonians’ eigenstate properties is O ˜ ( log ε − 1 ) , which has a logarithmic dependence on the inverse precision ε. For lattice Hamiltonians, the circuit depth of our design achieves near-optimal system-size scaling, even with local qubit connectivity. Our full-stack algorithm has low overhead in circuit compilation, which thus results in a small actual gate count ( cnot and non-Clifford gates) for lattice and molecular problems compared to advanced eigenstate algorithms. The algorithm is implemented on IBM quantum devices using up to 2000 two-qubit gates and 20,000 single-qubit gates and achieves high-precision eigenenergy estimation for Heisenberg-type Hamiltonians, demonstrating its noise robustness.",
-          "url": "https://doi.org/10.1126/sciadv.aeb1622",
-          "doi": "https://doi.org/10.1126/sciadv.aeb1622",
-          "filter": "2",
-          "created": "2026-1-16"
-        },
-        {
-          "title": "Quantum-elevated chiral discrimination for biomolecules",
-          "authors": "Yiquan Yang, Xiaolong Hu, Wei Du, Shuhe Wu, Peiyu Yang, Guzhi Bao, Weiping Zhang",
-          "abstract": "Chiral discrimination of enantiomeric biomolecules is vital in chemistry, biology, and medicine. Conventional methods, relying on circularly polarized light, face weak chiroptical signals and potential photodamage. Despite extensive efforts to improve sensitivity under low-photon exposure, classical chiral probes remain fundamentally bound by the shot noise limit due to quantum fluctuations. To beat these limitations, we demonstrate quantum-elevated chiral discrimination using continuous-variable polarization-entangled states as moderate–photon flux, high-sensitivity, quantum noise–squeezed chiral probes. We achieve a 5-decibel improvement beyond the shot noise limit in distinguishing l - and d -amino acids in liquid phase. This nondestructive, biocompatible protocol enables high-sensitivity chiral analysis, with broad implications for drug development, biochemical research, environmental monitoring, and asymmetric synthesis.",
-          "url": "https://doi.org/10.1126/sciadv.aea8201",
-          "doi": "https://doi.org/10.1126/sciadv.aea8201",
-          "filter": "2",
-          "created": "2026-1-14"
-        },
-        {
-          "title": "Consecutive phase transformations of inorganic-organic assembly in the synthesis of single-walled zeolitic nanotube",
-          "authors": "Zhaoning Song, Hanlin Wang, Zhenyuan Zhao, Zimu Zhou, Siting Yu, Jie Zhu, Xiao Chen, Limin Ren, Toru Wakihara, Zhendong Liu",
-          "abstract": "Single-walled zeolitic nanotube features a one-dimensional, hollow tubular structure with double-layered zeolitic walls, which represents a unique type of open framework materials. The formation mechanism underlying this characteristic structure, however, remains largely unexplored. We herein demonstrate that the hydrothermal synthesis of single-walled zeolitic nanotubes involves a cascade of phase transformations driven by intricate inorganic-organic interactions. As a critical step, the rearrangement of short-range ordered aluminosilicate networks enriched with five-membered rings, coupled with geometric matching to the cylindrical micelles of the bolaform organic structure-directing agent, synergistically drives the development and closure of curvature-induced interfaces, ultimately leading to the formation of single-walled zeolitic nanotubes. The proposed mechanism provides a distinctive understanding into structure-directing behaviors for ordered porous materials. This study offers valuable insights for guiding the rational synthesis and precise property tuning of the single-walled zeolitic nanotube, which hold vast potential for applications in diverse fields.",
-          "url": "https://doi.org/10.1126/sciadv.adx1619",
-          "doi": "https://doi.org/10.1126/sciadv.adx1619",
-          "filter": "2",
-          "created": "2026-1-14"
         },
         {
           "title": "Structures of Vibrio cholerae transcription complexes reveal how ToxR and TcpP recruit the RNA polymerase and activate virulence genes",
