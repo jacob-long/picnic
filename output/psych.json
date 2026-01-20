@@ -1,5 +1,5 @@
 {
-  "update": "2026-01-19",
+  "update": "2026-01-20",
   "content": [
     {
       "journal_full": "Behavior Research Methods",
@@ -33,15 +33,6 @@
           "created": "2026-1-16"
         },
         {
-          "title": "Collecting, detecting, and handling non-wear intervals in longitudinal light exposure data",
-          "authors": "Carolina Guidolin, Johannes Zauner, Steffen Lutz Hartmeyer, Manuel Spitschan",
-          "abstract": "In field studies using wearable light loggers, participants often need to remove the devices, resulting in non-wear intervals of varying and unknown duration. Accurate detection of these intervals is an essential step during data pre-processing. Here, we deployed a multi-modal approach to collect non-wear time during a longitudinal light exposure collection campaign and systematically compare non-wear detection strategies. Healthy participants ( n = 26; mean age 28 ± 5 years, 14F) wore a near-corneal plane light logger for 1 week and reported non-wear events in three ways: pressing an \"event marker\" button on the light logger, placing it in a black bag, and using an app-based Wear log. Wear log entries, checked twice daily, served as ground truth for non-wear detection, showing that non-wear time constituted 5.4 ± 3.8% (mean ± SD) of total participation time. Button presses at the start and end of non-wear intervals were identified in &gt;85.4% of cases when considering time windows beyond 1 min for detection. To detect non-wear intervals based on black bag use and lack of motion, we employed an algorithm that detects clusters of low illuminance and clusters of low activity. Performance was higher for illuminance (F1 = 0.78) than for activity (F1 = 0.52). Light exposure metrics derived from the full dataset, a dataset filtered for non-wear based on self-reports, and a dataset filtered for non-wear using the low illuminance clusters detection algorithm showed minimal differences. Our results highlight that while non-wear detection may be less critical in high-compliance cohorts, systematically collecting and detecting non-wear intervals is feasible and important for ensuring robust data pre-processing.",
-          "url": "https://doi.org/10.3758/s13428-025-02823-y",
-          "doi": "https://doi.org/10.3758/s13428-025-02823-y",
-          "filter": 0,
-          "created": "2026-1-12"
-        },
-        {
           "title": "Forming bootstrap confidence intervals and examining bootstrap distributions of standardized coefficients in structural equation modelling: A simplified workflow using the R package semboottools",
           "authors": "Wendie Yang, Shu Fai Cheung",
           "url": "https://doi.org/10.3758/s13428-025-02911-z",
@@ -57,23 +48,6 @@
           "doi": "https://doi.org/10.3758/s13428-025-02914-w",
           "filter": 0,
           "created": "2026-1-16"
-        },
-        {
-          "title": "HR-ACT (Human–Robot Action) Database: Communicative and noncommunicative action videos featuring a human and a humanoid robot",
-          "authors": "Tuǧçe Nur Pekçetin, Gaye Aşkın, Şeyda Evsen, Tuvana Dilan Karaduman, Badel Barinal, Jana Tunç, Cengiz Acarturk, Burcu A. Urgen",
-          "abstract": "We present the HR-ACT (Human–Robot Action) Database, a comprehensive collection of 80 standardized videos featuring matched communicative and noncommunicative actions performed by both a humanoid robot (Pepper) and a human actor. We describe the creation of 40 action exemplars per agent, with actions executed in a similar manner, timing, and number of repetitions. The database includes detailed normative data collected from 438 participants, providing metrics on action identification, confidence ratings, communicativeness ratings, meaning clusters, and H values (an entropy-based measure reflecting response homogeneity). We provide researchers with controlled yet naturalistic stimuli in multiple formats: videos, image frames, and raw animation files (.qanim). These materials support diverse research applications in human–robot interaction, cognitive psychology, and neuroscience. The database enables systematic investigation of action perception across human and robotic agents, while the inclusion of raw animation files allows researchers using Pepper robots to implement these actions for real-time experiments. The full set of stimuli, along with comprehensive normative data and documentation, is publicly available at https://osf.io/8vsxq/ .",
-          "url": "https://doi.org/10.3758/s13428-025-02910-0",
-          "doi": "https://doi.org/10.3758/s13428-025-02910-0",
-          "filter": 0,
-          "created": "2026-1-12"
-        },
-        {
-          "title": "Bayesian hierarchical cognitive modeling with the EMC2 package",
-          "authors": "Niek Stevenson, Michelle C. Donzallaz, Reilly J. Innes, Birte U. Forstmann, Dora Matzke, Andrew Heathcote",
-          "url": "https://doi.org/10.3758/s13428-025-02869-y",
-          "doi": "https://doi.org/10.3758/s13428-025-02869-y",
-          "filter": 0,
-          "created": "2026-1-12"
         }
       ],
       "articles_hidden": []
@@ -169,28 +143,12 @@
       "journal_short": "JPSP",
       "articles": [
         {
-          "title": "Clarifying the diploma divide: The growing importance of higher education for political identity.",
-          "authors": "Michael Prinzing, Michael Vazquez",
-          "url": "https://doi.org/10.1037/pspa0000481",
-          "doi": "https://doi.org/10.1037/pspa0000481",
-          "filter": 0,
-          "created": "2026-1-12"
-        },
-        {
           "title": "Investigating the conditional effects of action versus inaction decisions on regret.",
           "authors": "Sunil H. Contractor",
           "url": "https://doi.org/10.1037/pspa0000476",
           "doi": "https://doi.org/10.1037/pspa0000476",
           "filter": 0,
           "created": "2026-1-15"
-        },
-        {
-          "title": "Life satisfaction, loneliness, and depressivity in consistently single young adults in Germany and the United Kingdom.",
-          "authors": "Michael D. Krämer, Julia Stern, Laura Buchinger, Geoff MacDonald, Wiebke Bleidorn",
-          "url": "https://doi.org/10.1037/pspp0000595",
-          "doi": "https://doi.org/10.1037/pspp0000595",
-          "filter": 0,
-          "created": "2026-1-12"
         },
         {
           "title": "Once a procrastinator, always a procrastinator? Examining stability, change, and long-term correlates of procrastination during young adulthood.",
@@ -222,6 +180,15 @@
       "journal_full": "Personality and Social Psychology Bulletin",
       "journal_short": "PSPB",
       "articles": [
+        {
+          "title": "Relational Compartmentalization: How Culture Keeps Our Social Worlds Apart",
+          "authors": "Jinli Wu, Alexander Scott English, Xin Zhou, Yuchen Xu, Courtney Brooks, Kibum Moon, Yulia Chentsova-Dutton",
+          "abstract": "Segregation of social networks has been studied primarily at the macro level in disciplines such as sociology. The present research introduces the concept of relational compartmentalization to examine this phenomenon at the level of individual behavior through a cultural–psychological lens. Across two studies, we investigated relational compartmentalization using a mixed-methods approach and complementary measures: a novel behavioral paradigm and egocentric social network analysis. We found evidence that, compared to Euro-Americans, Chinese and Asian American participants exhibited a greater tendency to compartmentalize their social networks, mediated by self-consistency and relational mobility, but not by contextualism. In cultural contexts characterized by greater self-concept variability and lower relational fluidity, individuals are more likely to organize their social networks into discrete, self-contained, non-overlapping groups. These findings advance the understanding of cultural models of social networks, highlighting the roles of culturally salient psychological and socioecological characteristics in shaping networking behavior.",
+          "url": "https://doi.org/10.1177/01461672251404548",
+          "doi": "https://doi.org/10.1177/01461672251404548",
+          "filter": 0,
+          "created": "2026-1-19"
+        },
         {
           "title": "One Country, One People? Racial Ethnic Minorities in the United States Perceive Their Community Norms Stronger Than European Americans",
           "authors": "Mercedes A. Muñoz, Ariana Orvell, Cristina E. Salvador",
