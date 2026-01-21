@@ -1,5 +1,5 @@
 {
-  "update": "2026-01-20",
+  "update": "2026-01-21",
   "content": [
     {
       "journal_full": "Nature",
@@ -41,6 +41,14 @@
           "doi": "https://doi.org/10.1038/s41586-025-09965-1",
           "filter": "2",
           "created": "2026-1-14"
+        },
+        {
+          "title": "Editorial Expression of Concern: En passant neurotrophic action of an intermediate axonal target in the developing mammalian CNS",
+          "authors": "Hao Wang, Marc Tessier-Lavigne",
+          "url": "https://doi.org/10.1038/s41586-025-10080-4",
+          "doi": "https://doi.org/10.1038/s41586-025-10080-4",
+          "filter": "2",
+          "created": "2026-1-19"
         },
         {
           "title": "3D-printed low-voltage-driven ciliary hydrogel microactuators",
@@ -121,6 +129,15 @@
           "doi": "https://doi.org/10.1038/s41586-025-09933-9",
           "filter": "2",
           "created": "2026-1-14"
+        },
+        {
+          "title": "Collective intelligence for AI-assisted chemical synthesis",
+          "authors": "Haote Li, Sumon Sarkar, Wenxin Lu, Patrick O. Loftus, Tianyin Qiu, Yu Shee, Abbigayle E. Cuomo, John-Paul Webster, H. Ray Kelly, Vidhyadhar Manee, Sanil Sreekumar, Frederic G. Buono, Robert H. Crabtree, Timothy R. Newhouse, Victor S. Batista",
+          "abstract": "The exponential growth of scientific literature presents an increasingly acute challenge across disciplines. Hundreds of thousands of new chemical reactions are reported annually, yet translating them into actionable experiments becomes an obstacle1,2. Recent applications of large language models (LLMs) have shown promise3,4,5,6, but systems that reliably work for diverse transformations across de novo compounds have remained elusive. Here we introduce MOSAIC (Multiple Optimized Specialists for AI-assisted Chemical Prediction), a computational framework that enables chemists to harness the collective knowledge of millions of reaction protocols. MOSAIC is built upon the Llama-3.1-8B-instruct architecture7, training 2,498 specialized chemical experts within Voronoi-clustered spaces. This approach delivers reproducible and executable experimental protocols with confidence metrics for complex syntheses. With an overall 71% success rate, experimental validation demonstrates the realizations of over 35 novel compounds, spanning pharmaceuticals, materials, agrochemicals, and cosmetics. Notably, MOSAIC also enables the discovery of new reaction methodologies that are absent from the expert’s training, a cornerstone for advancing chemical synthesis. This scalable paradigm of partitioning vast domains into searchable expert regions enables a generalizable strategy for AI-assisted discovery wherever accelerating information growth outpaces efficient knowledge access and application.",
+          "url": "https://doi.org/10.1038/s41586-026-10131-4",
+          "doi": "https://doi.org/10.1038/s41586-026-10131-4",
+          "filter": "2",
+          "created": "2026-1-19"
         },
         {
           "title": "Trapping of single atoms in metasurface optical tweezer arrays",
@@ -230,20 +247,20 @@
           "created": "2026-1-14"
         },
         {
-          "title": "N1-Methylpseudouridine directly modulates translation dynamics",
-          "authors": "Batsheva Rozman, Karin Broennimann, K. Shanmugha Rajan, Aharon Nachshon, Chiranjeet Saha, Tamar Arazi, Vishnu Mohan, Tamar Geiger, Clayton J. Wollner, Justin M. Richner, Eric Westhof, Ada Yonath, Anat Bashan, Noam Stern-Ginossar",
-          "abstract": "The considerable success of mRNA vaccines against SARS-CoV-2 has underscored the potential of synthetic mRNA as a transformative biomedical technology1. A critical feature of this approach is the incorporation of the modified nucleoside N1-methylpseudouridine (m1Ψ), which enhances antigen expression while reducing immunogenicity2,3,4,5. However, a comprehensive understanding of how m1Ψ influences translation remains incomplete. Here we use ribosome profiling at the subcodon resolution to show that m1Ψ increases ribosome density on synthetic mRNAs, leading to higher protein production independent of innate immune activation or eIF2α phosphorylation. We find that m1Ψ directly slows ribosome movement in defined sequence contexts while simultaneously promoting translation initiation. Structural studies using cryo-electron microscopy reveal that m1Ψ alters interactions within the ribosomal decoding centre, providing a mechanistic basis for slowed elongation. Furthermore, by introducing synonymous recoding that disrupts the modification-mediated changes in elongation, we show that the m1Ψ-dependent enhancement of protein output is modulated by codon composition, and that m1Ψ impact is strongest in mRNAs containing non-optimal codons with uridines at the wobble position. Together, these findings demonstrate that m1Ψ directly modulates translation dynamics, thereby increasing protein yield from synthetic mRNAs in specific sequence contexts.",
-          "url": "https://doi.org/10.1038/s41586-025-09945-5",
-          "doi": "https://doi.org/10.1038/s41586-025-09945-5",
-          "filter": "2",
-          "created": "2026-1-14"
-        },
-        {
           "title": "Microbiota-induced T cell plasticity enables immune-mediated tumour control",
           "authors": "Tariq A. Najar, Yuan Hao, Yuhan Hao, Gabriela Romero-Meza, Alexandra Dolynuk, Emma Almo, Dan R. Littman",
           "abstract": "Therapies that harness the immune system to target and eliminate tumour cells have revolutionized cancer care. Immune checkpoint blockade (ICB), which boosts the anti-tumour immune response by inhibiting negative regulators of T cell activation 1–3 , is remarkably successful in a subset of cancer patients. Yet a significant proportion do not respond to treatment, emphasizing the need to understand factors influencing the therapeutic efficacy of ICB 4–9 . The gut microbiota, consisting of trillions of microorganisms residing in the gastrointestinal tract, has emerged as a critical determinant of immune function and response to cancer immunotherapy, with several studies demonstrating association of microbiota composition with clinical response 10–16 . However, a mechanistic understanding of how gut commensal bacteria influence the efficacy of ICB remains elusive. Here we use a gut commensal microorganism, segmented filamentous bacteria (SFB), which induces an antigen-specific T helper 17 (T H 17) cell effector program in the small intestine lamina propria (SILP) 17 , to investigate how colonization with this microbe affects the efficacy of ICB in restraining distal growth of tumours sharing antigen with SFB. We find that anti-programmed cell death protein 1 (PD-1) treatment effectively inhibits the growth of implanted SFB antigen-expressing melanoma only if mice are colonized with SFB. Through T cell receptor (TCR) clonal lineage tracing, fate mapping and peptide–major histocompatability complex (MHC) tetramer staining, we identify tumour-associated SFB-specific T helper 1 (T H 1)-like cells derived from the homeostatic T H 17 cells induced by SFB colonization in the SILP. These gut-educated ex-T H 17 cells produce high levels of the pro-inflammatory cytokines interferon (IFN)-γ and tumour necrosis factor (TNF) within the tumour microenvironment (TME), enhancing antigen presentation and promoting recruitment, expansion and effector functions of CD8 + tumour-infiltrating cytotoxic lymphocytes and thereby enabling anti-PD-1-mediated tumour control. Conditional ablation of SFB-induced IL-17A + CD4 +  T cells, precursors of tumour-associated T H 1-like cells, abolishes anti-PD-1-mediated tumour control and markedly impairs tumour-specific CD8 + T cell recruitment and effector function within the TME. Our data, as a proof of principle, define a cellular pathway by which a single, defined intestinal commensal imprints T cell plasticity that potentiates PD-1 blockade, and indicate targeted modulation of the microbiota as a strategy to broaden ICB efficacy.",
           "url": "https://doi.org/10.1038/s41586-025-09913-z",
           "doi": "https://doi.org/10.1038/s41586-025-09913-z",
+          "filter": "2",
+          "created": "2026-1-14"
+        },
+        {
+          "title": "N1-Methylpseudouridine directly modulates translation dynamics",
+          "authors": "Batsheva Rozman, Karin Broennimann, K. Shanmugha Rajan, Aharon Nachshon, Chiranjeet Saha, Tamar Arazi, Vishnu Mohan, Tamar Geiger, Clayton J. Wollner, Justin M. Richner, Eric Westhof, Ada Yonath, Anat Bashan, Noam Stern-Ginossar",
+          "abstract": "The considerable success of mRNA vaccines against SARS-CoV-2 has underscored the potential of synthetic mRNA as a transformative biomedical technology1. A critical feature of this approach is the incorporation of the modified nucleoside N1-methylpseudouridine (m1Ψ), which enhances antigen expression while reducing immunogenicity2,3,4,5. However, a comprehensive understanding of how m1Ψ influences translation remains incomplete. Here we use ribosome profiling at the subcodon resolution to show that m1Ψ increases ribosome density on synthetic mRNAs, leading to higher protein production independent of innate immune activation or eIF2α phosphorylation. We find that m1Ψ directly slows ribosome movement in defined sequence contexts while simultaneously promoting translation initiation. Structural studies using cryo-electron microscopy reveal that m1Ψ alters interactions within the ribosomal decoding centre, providing a mechanistic basis for slowed elongation. Furthermore, by introducing synonymous recoding that disrupts the modification-mediated changes in elongation, we show that the m1Ψ-dependent enhancement of protein output is modulated by codon composition, and that m1Ψ impact is strongest in mRNAs containing non-optimal codons with uridines at the wobble position. Together, these findings demonstrate that m1Ψ directly modulates translation dynamics, thereby increasing protein yield from synthetic mRNAs in specific sequence contexts.",
+          "url": "https://doi.org/10.1038/s41586-025-09945-5",
+          "doi": "https://doi.org/10.1038/s41586-025-09945-5",
           "filter": "2",
           "created": "2026-1-14"
         },
@@ -257,11 +274,11 @@
           "created": "2026-1-14"
         },
         {
-          "title": "Forget formalism: mathematics was built on infighting and emotional turmoil",
-          "authors": "Ananyo Bhattacharya",
-          "url": "https://doi.org/10.1038/d41586-026-00187-7",
-          "doi": "https://doi.org/10.1038/d41586-026-00187-7",
-          "filter": "4",
+          "title": "Publisher Correction: A fault-tolerant neutral-atom architecture for universal quantum computation",
+          "authors": "Dolev Bluvstein, Alexandra A. Geim, Sophie H. Li, Simon J. Evered, J. Pablo Bonilla Ataides, Gefen Baranes, Andi Gu, Tom Manovitz, Muqing Xu, Marcin Kalinowski, Shayan Majidy, Christian Kokail, Nishad Maskara, Elias C. Trapp, Luke M. Stewart, Simon Hollerith, Hengyun Zhou, Michael J. Gullans, Susanne F. Yelin, Markus Greiner, Vladan Vuletić, Madelyn Cain, Mikhail D. Lukin",
+          "url": "https://doi.org/10.1038/s41586-026-10108-3",
+          "doi": "https://doi.org/10.1038/s41586-026-10108-3",
+          "filter": "2",
           "created": "2026-1-19"
         },
         {
@@ -273,12 +290,44 @@
           "created": "2026-1-14"
         },
         {
+          "title": "Forget formalism: mathematics was built on infighting and emotional turmoil",
+          "authors": "Ananyo Bhattacharya",
+          "url": "https://doi.org/10.1038/d41586-026-00187-7",
+          "doi": "https://doi.org/10.1038/d41586-026-00187-7",
+          "filter": "4",
+          "created": "2026-1-19"
+        },
+        {
+          "title": "Can ‘toxic masculinity’ be measured? Scientists try to quantify controversial term",
+          "authors": "Nicola Jones",
+          "url": "https://doi.org/10.1038/d41586-026-00144-4",
+          "doi": "https://doi.org/10.1038/d41586-026-00144-4",
+          "filter": "4",
+          "created": "2026-1-19"
+        },
+        {
+          "title": "US science after a year of Trump: what has been lost and what remains",
+          "authors": "Max Kozlov, Jeff Tollefson, Dan Garisto",
+          "url": "https://doi.org/10.1038/d41586-026-00088-9",
+          "doi": "https://doi.org/10.1038/d41586-026-00088-9",
+          "filter": "4",
+          "created": "2026-1-20"
+        },
+        {
           "title": "Genomic clues to the origin of eukaryotic cells",
           "authors": "John M. Archibald",
           "url": "https://doi.org/10.1038/d41586-025-04094-1",
           "doi": "https://doi.org/10.1038/d41586-025-04094-1",
           "filter": "4",
           "created": "2026-1-14"
+        },
+        {
+          "title": "Study decision-making to understand how technology will affect behaviour",
+          "authors": "Shahar Hechtlinger, L. A. Paul, M. J. Crockett",
+          "url": "https://doi.org/10.1038/d41586-026-00209-4",
+          "doi": "https://doi.org/10.1038/d41586-026-00209-4",
+          "filter": "4",
+          "created": "2026-1-20"
         },
         {
           "title": "Mysterious ‘little red dots’ could be black holes in disguise",
@@ -289,6 +338,14 @@
           "created": "2026-1-14"
         },
         {
+          "title": "To gain public trust, make art central to science communication",
+          "authors": "Palina Kot",
+          "url": "https://doi.org/10.1038/d41586-026-00210-x",
+          "doi": "https://doi.org/10.1038/d41586-026-00210-x",
+          "filter": "4",
+          "created": "2026-1-20"
+        },
+        {
           "title": "I’m going to halve my publication output. You should consider slow science, too",
           "authors": "Adrian Barnett",
           "url": "https://doi.org/10.1038/d41586-025-04061-w",
@@ -297,12 +354,12 @@
           "created": "2026-1-19"
         },
         {
-          "title": "The academic community failed Wikipedia for 25 years — now it might fail us",
-          "authors": "Dariusz Jemielniak",
-          "url": "https://doi.org/10.1038/d41586-026-00075-0",
-          "doi": "https://doi.org/10.1038/d41586-026-00075-0",
+          "title": "Fossil-fuel phase out is not enough: countries must remove atmospheric carbon",
+          "authors": "Richard H. Clarke, Mark Maslin",
+          "url": "https://doi.org/10.1038/d41586-026-00211-w",
+          "doi": "https://doi.org/10.1038/d41586-026-00211-w",
           "filter": "4",
-          "created": "2026-1-13"
+          "created": "2026-1-20"
         },
         {
           "title": "Briefing Chat: Can NASA return rocks from Mars? And why dogs have long ears",
@@ -321,12 +378,12 @@
           "created": "2026-1-14"
         },
         {
-          "title": "Daily briefing: The neural circuit that can make it hard to start a difficult task",
-          "authors": "Flora Graham",
-          "url": "https://doi.org/10.1038/d41586-026-00142-6",
-          "doi": "https://doi.org/10.1038/d41586-026-00142-6",
+          "title": "‘Shattered’: US scientists speak out about how Trump policies disrupted their careers",
+          "authors": "Virginia Gewin",
+          "url": "https://doi.org/10.1038/d41586-026-00091-0",
+          "doi": "https://doi.org/10.1038/d41586-026-00091-0",
           "filter": "4",
-          "created": "2026-1-13"
+          "created": "2026-1-20"
         },
         {
           "title": "‘Greed is the iron cage of our times’ — why nationalism is here to stay",
@@ -377,36 +434,12 @@
           "created": "2026-1-15"
         },
         {
-          "title": "How did birds evolve? The answer is wilder than anyone thought",
-          "authors": "Michael Marshall",
-          "url": "https://doi.org/10.1038/d41586-026-00076-z",
-          "doi": "https://doi.org/10.1038/d41586-026-00076-z",
-          "filter": "4",
-          "created": "2026-1-13"
-        },
-        {
           "title": "Campus protests and civil disobedience: does academia have a problem with activism?",
           "authors": "Adam Levy",
           "url": "https://doi.org/10.1038/d41586-026-00152-4",
           "doi": "https://doi.org/10.1038/d41586-026-00152-4",
           "filter": "4",
           "created": "2026-1-15"
-        },
-        {
-          "title": "Do their ears hang low? The genetics of dogs’ adorable floppy ears",
-          "authors": "Heidi Ledford",
-          "url": "https://doi.org/10.1038/d41586-026-00071-4",
-          "doi": "https://doi.org/10.1038/d41586-026-00071-4",
-          "filter": "4",
-          "created": "2026-1-13"
-        },
-        {
-          "title": "AI writing tools could lead scholars from low-income countries to erase their own voices",
-          "authors": "Zhenning Li, Zhengbing He",
-          "url": "https://doi.org/10.1038/d41586-026-00121-x",
-          "doi": "https://doi.org/10.1038/d41586-026-00121-x",
-          "filter": "4",
-          "created": "2026-1-13"
         },
         {
           "title": "Floating science stations: my month on a research vessel looking after buoys",
@@ -425,6 +458,14 @@
           "created": "2026-1-14"
         },
         {
+          "title": "US funding cuts harm aspiring young scientists, too",
+          "authors": "William Y. Xuan",
+          "url": "https://doi.org/10.1038/d41586-026-00182-y",
+          "doi": "https://doi.org/10.1038/d41586-026-00182-y",
+          "filter": "4",
+          "created": "2026-1-20"
+        },
+        {
           "title": "Six steps to protect researchers’ digital security",
           "authors": "Virginia Gewin",
           "url": "https://doi.org/10.1038/d41586-026-00086-x",
@@ -441,36 +482,12 @@
           "created": "2026-1-14"
         },
         {
-          "title": "AI can spark creativity — if we ask it how, not what, to think",
-          "authors": "Brian Uzzi",
-          "url": "https://doi.org/10.1038/d41586-026-00049-2",
-          "doi": "https://doi.org/10.1038/d41586-026-00049-2",
-          "filter": "4",
-          "created": "2026-1-13"
-        },
-        {
           "title": "During the course of my PhD, I’ve been relearning how to rest",
           "authors": "Ashley Moses",
           "url": "https://doi.org/10.1038/d41586-025-03342-8",
           "doi": "https://doi.org/10.1038/d41586-025-03342-8",
           "filter": "4",
           "created": "2026-1-15"
-        },
-        {
-          "title": "How to improve vaccine uptake: a huge study offers clues",
-          "authors": "Brian Owens",
-          "url": "https://doi.org/10.1038/d41586-026-00092-z",
-          "doi": "https://doi.org/10.1038/d41586-026-00092-z",
-          "filter": "4",
-          "created": "2026-1-13"
-        },
-        {
-          "title": "Don’t assume that women’s low retraction rates reflect male ‘boldness’",
-          "authors": "Carrie J. McAdams, Kristine M. Erlandson, Sarah N. Cross, Katharine J. Liang",
-          "url": "https://doi.org/10.1038/d41586-026-00120-y",
-          "doi": "https://doi.org/10.1038/d41586-026-00120-y",
-          "filter": "4",
-          "created": "2026-1-13"
         },
         {
           "title": "How ageing harms the body’s response to raging infection",
@@ -489,14 +506,6 @@
           "created": "2026-1-19"
         },
         {
-          "title": "Daily briefing: Why ‘harmless’ germs can be deadly for some people",
-          "authors": "Flora Graham",
-          "url": "https://doi.org/10.1038/d41586-026-00166-y",
-          "doi": "https://doi.org/10.1038/d41586-026-00166-y",
-          "filter": "4",
-          "created": "2026-1-15"
-        },
-        {
           "title": "What the future holds for AI – from the people shaping it",
           "authors": "Noah Baker",
           "url": "https://doi.org/10.1038/d41586-026-00147-1",
@@ -505,28 +514,20 @@
           "created": "2026-1-14"
         },
         {
+          "title": "Daily briefing: Why ‘harmless’ germs can be deadly for some people",
+          "authors": "Flora Graham",
+          "url": "https://doi.org/10.1038/d41586-026-00166-y",
+          "doi": "https://doi.org/10.1038/d41586-026-00166-y",
+          "filter": "4",
+          "created": "2026-1-15"
+        },
+        {
           "title": "Humanoid robots step up their game: how useful are the latest droids?",
           "authors": "Elizabeth Gibney",
           "url": "https://doi.org/10.1038/d41586-026-00164-0",
           "doi": "https://doi.org/10.1038/d41586-026-00164-0",
           "filter": "4",
           "created": "2026-1-16"
-        },
-        {
-          "title": "AlphaFold can help African researchers to do cutting-edge structural biology",
-          "authors": "Emmanuel Nji",
-          "url": "https://doi.org/10.1038/d41586-026-00072-3",
-          "doi": "https://doi.org/10.1038/d41586-026-00072-3",
-          "filter": "4",
-          "created": "2026-1-13"
-        },
-        {
-          "title": "No world-changing discoveries without biodiversity",
-          "authors": "Kenneth D. Winkel, Brendan A. Wintle",
-          "url": "https://doi.org/10.1038/d41586-026-00122-w",
-          "doi": "https://doi.org/10.1038/d41586-026-00122-w",
-          "filter": "4",
-          "created": "2026-1-13"
         },
         {
           "title": "AI tools boost individual scientists but could limit research as a whole",
@@ -545,7 +546,7 @@
           "created": "2026-1-16"
         },
         {
-          "title": "How do vaccine cutbacks affect public health? Ask Japan",
+          "title": "What happens if fewer children get vaccinated? Japan holds lessons for US",
           "authors": "Heidi Ledford",
           "url": "https://doi.org/10.1038/d41586-026-00146-2",
           "doi": "https://doi.org/10.1038/d41586-026-00146-2",
@@ -567,6 +568,22 @@
           "doi": "https://doi.org/10.1038/d41586-026-00181-z",
           "filter": "4",
           "created": "2026-1-16"
+        },
+        {
+          "title": "Trump one year on: How six US researchers plan to protect science amid chaos and cuts",
+          "authors": "Amander Clark, Hank Greely, Eric Topol, Salim S. Abdool Karim, Quarraisha Abdool Karim, Ramanan Laxminarayan",
+          "url": "https://doi.org/10.1038/d41586-026-00090-1",
+          "doi": "https://doi.org/10.1038/d41586-026-00090-1",
+          "filter": "4",
+          "created": "2026-1-20"
+        },
+        {
+          "title": "How much protein do you actually need?",
+          "authors": "Nick Petrić Howe, Elizabeth Gibney",
+          "url": "https://doi.org/10.1038/d41586-026-00151-5",
+          "doi": "https://doi.org/10.1038/d41586-026-00151-5",
+          "filter": "4",
+          "created": "2026-1-20"
         },
         {
           "title": "Three tips for scientific writing: a guide for graduate students",
@@ -601,12 +618,36 @@
           "created": "2026-1-14"
         },
         {
-          "title": "A ‘time capsule for cells’ stores the secret experiences of their past",
+          "title": "A ‘time capsule’ for cells stores the secret experiences of their past",
           "authors": "Ewen Callaway",
           "url": "https://doi.org/10.1038/d41586-026-00116-8",
           "doi": "https://doi.org/10.1038/d41586-026-00116-8",
           "filter": "4",
           "created": "2026-1-16"
+        },
+        {
+          "title": "Daily briefing: Gifted dogs have word-learning skills on a par with human toddlers",
+          "authors": "Flora Graham",
+          "url": "https://doi.org/10.1038/d41586-026-00213-8",
+          "doi": "https://doi.org/10.1038/d41586-026-00213-8",
+          "filter": "4",
+          "created": "2026-1-20"
+        }
+      ]
+    },
+    {
+      "journal_full": "Nature Human Behaviour",
+      "journal_short": "NatHumBehav",
+      "articles": [],
+      "articles_hidden": [
+        {
+          "title": "Population attributable fractions of a wide range of peripheral diseases for the burden of dementia",
+          "authors": "Zhenhong Deng, Yuxin Yang, Queran Lin, Songhua Xiao, You Zuo, Jinyuan Wang, Yongteng Xu, Honghong Li, Dongshu Xie, Qingyuan Dai, Junfeng Luo, Dame Louise Robinson, Naaheed Mukadam, Yamei Tang",
+          "abstract": "Growing evidence suggests that peripheral diseases serve as risk factors for dementia, but the population-level burden of dementia associated with various peripheral diseases has remained unknown. Here, by conducting a systematic review and Bayesian meta-analyses to estimate the relative risks of 26 peripheral diseases across 9 systems with dementia, including 202 articles searched from the PubMed until 6 September 2024, we identified 16 peripheral diseases as associated with increased risk of dementia. With the relative risks estimated from meta-analyses, prevalences extracted from the Global Burden of Disease Study, and communalities among these 16 peripheral diseases derived from the UK Biobank, we analysed the population attributable fractions (PAFs) of these 16 peripheral diseases for dementia, stratified by sex, age, sociodemographic index level, world region and country, and trends from 1990 to 2021. Globally, these peripheral diseases collectively were related to a combined PAF of 33.18% (95% confidence interval (CI) 16.80–48.43) of dementia burden, corresponding to 18.8 million prevalent cases. The leading ten PAF contributors were periodontal diseases (6.10%, 95% CI 0.95–10.28), cirrhosis and other chronic liver diseases (5.51%, 95% CI 1.77–8.86), age-related and other hearing loss (4.70%, 95% CI 3.51–6.06), blindness and vision loss (4.30%, 95% CI 3.43–5.05), type 2 diabetes mellitus (3.80%, 95% CI 3.06–4.53), chronic kidney disease (2.74%, 95% CI 1.53–4.02), osteoarthritis (2.26%, 95% CI 0.41–4.12), stroke (1.01%, 95% CI 0.86–1.17), ischaemic heart disease (0.97%, 95% CI 0.69–1.29) and chronic obstructive pulmonary disease (0.92%, 95% CI 0.34–1.54). This study revealed that a series of peripheral diseases were associated with increased risk of dementia and collectively were related to about one-third of the global dementia burden, highlighting the need for targeted public health strategies.",
+          "url": "https://doi.org/10.1038/s41562-025-02392-2",
+          "doi": "https://doi.org/10.1038/s41562-025-02392-2",
+          "filter": "2",
+          "created": "2026-1-20"
         }
       ]
     },
@@ -614,15 +655,6 @@
       "journal_full": "Proceedings of the National Academy of Sciences",
       "journal_short": "PNAS",
       "articles": [
-        {
-          "title": "The co-occurrence of ingroup and outgroup prosociality across 121 societies",
-          "authors": "Kasper Otten",
-          "abstract": "In an increasingly interconnected world, prosociality across group boundaries becomes ever more important. Yet, a common premise in the behavioral and social sciences is that people are prosocial mainly toward their ingroup and not outgroups. So far, evidence for this premise comes mostly from studies in which people must choose between ingroup and outgroup prosociality, thereby precluding positive associations between the two types of prosociality. We study situations in which people make separate decisions regarding the ingroup and outgroup, allowing us to examine how ingroup and outgroup prosociality are related. Across six large-scale and cross-societal datasets spanning 743,402 individuals in 121 societies, we find a robust positive relationship between ingroup and outgroup prosociality. This relationship holds across societies, different group categorizations, and a diverse range of prosociality measures, including prisoner’s dilemmas, public good dilemmas, dictator games, and survey items on trust and tolerance. Although people are slightly more prosocial toward their ingroup than the outgroup, those who are prosocial toward the ingroup also tend to be prosocial toward the outgroup. The results offer an optimistic message for prosociality across group boundaries. When people are not made to choose between the ingroup and outgroup, they are generally prosocial toward both.",
-          "url": "https://doi.org/10.1073/pnas.2517013123",
-          "doi": "https://doi.org/10.1073/pnas.2517013123",
-          "filter": "0",
-          "created": "2026-1-13"
-        },
         {
           "title": "Quantifying racial disparities in media representations of gun violence at scale",
           "authors": "Ruth Bagley, Susan Burtner, Andrew V. Papachristos, Rob Voigt",
@@ -643,14 +675,6 @@
         }
       ],
       "articles_hidden": [
-        {
-          "title": "Phantom sinks and missing pollution: Legacies of a hardened number",
-          "authors": "Bruce A. Hungate",
-          "url": "https://doi.org/10.1073/pnas.2531787123",
-          "doi": "https://doi.org/10.1073/pnas.2531787123",
-          "filter": "2",
-          "created": "2026-1-13"
-        },
         {
           "title": "Towards CRISPR-based editing of the mitochondrial genome in yeast",
           "authors": "Sifei Yin, Daniel F. Jarosz, Alice Y. Ting",
@@ -678,15 +702,6 @@
           "created": "2026-1-14"
         },
         {
-          "title": "Brain glucodynamic variability is an essential feature of the metabolism–cognition relationship",
-          "authors": "Hamish A. Deery, Emma Liang, Chris Moran, Gary F. Egan, Sharna D. Jamadar",
-          "abstract": "Variability ensures that complex biological systems, including the brain, are capable of responding to changing environmental demands. While the importance of neural variability in electrophysiological and hemodynamic aspects of brain activity is beginning to be understood, little is known about how variability in molecular activity influences brain function. Here, we examine how temporal variability in glucodynamics, or time-varying glucose use, is related to cognition in 35 younger and 43 older adults. Baseline metabolic rates of glucose indexed across the scan were not directly associated with cognition. Rather, higher glucodynamic variability, and its coherence into metabolic networks, was associated with better cognitive performance. Lower glucodynamic variability in aging was associated with altered metabolic network efficiency and reduced cognitive performance. Our results demonstrate for the first time that variability in cerebral glucose metabolism is biologically and functionally relevant to cognition and the network architecture of the brain. Cognition is influenced by time-varying glucose metabolism and its coherent fluctuations in metabolic networks. A loss of glucodynamics in aging reduces the efficiency of the metabolic connectome and contributes to reduced cognitive performance. The study of glucodynamics significantly advances our understanding of metabolic brain changes in health, aging, and disease.",
-          "url": "https://doi.org/10.1073/pnas.2510850123",
-          "doi": "https://doi.org/10.1073/pnas.2510850123",
-          "filter": "2",
-          "created": "2026-1-13"
-        },
-        {
           "title": "Controlled assembly and sophisticated additive manufacturing of macroscopic droplets",
           "authors": "Yujie Yang, Huasheng Tian, Aixin Song, Lu Xu, Jingcheng Hao",
           "abstract": "Assembly of liquid droplets into ordered patterns and architectures has gained great interests in recent years in view of its tremendous prospects in achieving advanced biological, biochemical, and biomimetic functions. Nevertheless, current assembly techniques using lipids or colloidal particles are generally of complicated preparations, long periods, and limited droplet sizes. Here, we develop a simple and ultrafast route to assemble macroscopic water droplets into three reconfigurable structures defined as “ connection ”, “ arrest coalescence ”, and “ total coalescence ”, respectively, in dodecane using jammed nanoparticle surfactant films (termed as “POSS surfactants”) with tunable interfacial properties. Further with the POSS surfactants facilitating a sturdy and nearly instant connection between the macrodroplets, they can act as one kind of compartmentalized 3D printing inks for constructing all-liquid patterns and more integrated, sophisticated architectures capable of functioning as microreactors for transporting cargo molecules over controlled macroscale distances and dimensions. Our study can serve as a useful complement to conventional approaches that are normally used for assembling microsized droplets.",
@@ -703,15 +718,6 @@
           "doi": "https://doi.org/10.1073/pnas.2516291123",
           "filter": "2",
           "created": "2026-1-16"
-        },
-        {
-          "title": "Ancient landscape evolution tracked through cosmogenic krypton in detrital zircon",
-          "authors": "Maximilian Dröllner, Milo Barham, Christopher L. Kirkland, Taryn Scharf, Sabrina Niemeyer, Tibor J. Dunai",
-          "abstract": "Cosmogenic nuclides have revolutionized our quantitative understanding of landscape evolution via measurements of near-surface erosion, exposure, and burial. Here, we integrate stable cosmogenic krypton in detrital zircon with U–Pb geochronology to extend the temporal limits of cosmogenic nuclide applications and reconstruct Eocene landscape evolution from drill cores of placer deposits in southern Australia. Zircon U–Pb crystallization ages are interpreted to reflect paleodrainage from a deeply weathered ~800,000 km 2 hinterland and transport via a ~1,000 km littoral drift system. The measured cosmogenic 78 Kr concentration of detrital zircon samples ranges from ~6.4 × 10 5 to 1.8 × 10 7 atoms per gram, suggesting low paleodenudation rates of 0.3 to 0.7 m per My [interquartile range (IQR)]. Such low denudation rates are below those expected by comparison to modern analogs and point to underestimation due to re-exposure during sediment transport and shallow storage. Expressing the concentrations as apparent exposure times, which approximate the near-surface integrated residence time, yields estimates of 0.9 to 2.1 My (IQR). In the stratigraphic and mineralogical context, the dataset records a shift from compositionally mature placers with uniformly high residence times (~1.6 My) to less mature placers with stratigraphically variable residence times (~0.7 to 2.7 My). We infer a shift from prolonged sediment storage, during which the mineral assemblage was modified, to a more dynamic transport regime with higher net transfer rates. The timing suggests eustatic and tectonic forcing, and cosmogenic krypton captures this transition, aiding reconstruction of how ancient landscapes and the sedimentary record coevolve.",
-          "url": "https://doi.org/10.1073/pnas.2516058122",
-          "doi": "https://doi.org/10.1073/pnas.2516058122",
-          "filter": "2",
-          "created": "2026-1-13"
         },
         {
           "title": "Redefining Shiga toxin–induced human cell death as NLRP1- and gasdermin E-mediated pyroptosis",
@@ -759,15 +765,6 @@
           "created": "2026-1-16"
         },
         {
-          "title": "Phosphatase SHP2 pathogenic mutations enhance activity by altering conformational sampling",
-          "authors": "Andrew W. Glaser, Ricardo A. P. Pádua, Adedolapo M. Ojoawo, Camille Sullivan, Dorothee Kern",
-          "abstract": "SH2 domains are critical mediators of cellular signaling, although the molecular mechanisms by which they bind their phosphopeptide ligands remain incompletely understood. We investigate the atomic mechanisms underlying both healthy regulation and dysregulation of the human protein tyrosine phosphatase SHP2, a key regulator of cellular signaling. While most pathogenic mutations cluster near the PTP/N-SH2 interface, the E139D and T42A mutations are located within the regulatory SH2 domains, and their mechanisms of dysregulation remain controversial. The T42A mutation in the N-SH2 domain paradoxically increases phosphotyrosine-peptide binding affinity despite disrupting the hydrogen bond of T42 to the phosphoryl group, a puzzling contradiction that remains unresolved. We find that the T42A mutation shifts the conformational ensemble of peptide-bound N-SH2 toward a zipped β-sheet state and suppresses millisecond conformational exchange, supporting a model in which enhanced stabilization of the zipped conformation contributes to hyperactivation. This conformational shift provides a structural rationale for the increased affinity of T42A and helps reconcile previously conflicting models of peptide-induced SHP2 activation. By integrating X-ray ensemble refinement with NMR relaxation, our work illustrates how complementary structural and dynamic approaches can uncover regulatory mechanisms in SHP2 and may inform broader principles of SH2-mediated phosphopeptide recognition.",
-          "url": "https://doi.org/10.1073/pnas.2513851123",
-          "doi": "https://doi.org/10.1073/pnas.2513851123",
-          "filter": "2",
-          "created": "2026-1-13"
-        },
-        {
           "title": "An activator of a two-component system controls cell separation and intrinsic drug resistance in Mycobacterium tuberculosis",
           "authors": "Liam D. McDonough, Shuqi Li, Vanisha Munsamy-Govender, Celena M. Gwin, Jeremy M. Rock, E. Hesper Rego",
           "abstract": "Unlike commonly studied rod-shaped bacteria, mycobacteria grow from their poles, requiring precise coordination between division and initiation of new pole growth. The mechanisms that mediate this transition are largely unknown, but likely represent a rich source of drug targets for the treatment of mycobacterial infections, including tuberculosis. Here, we identify TapA (MSMEG_3748/Rv1697) as a key regulator of this transition. TapA interacts with the sensor kinase MtrB at the septum to initiate a signaling cascade that ultimately results in the expression of the essential peptidoglycan hydrolases RipAB, among others, at the end of division. Loss of TapA disrupts division, dysregulates pole formation, and sensitizes Mycobacterium tuberculosis and other mycobacteria to several first and second-line TB antibiotics, establishing TapA as a potential therapeutic target, and defining a link between cell cycle progression, envelope remodeling, and intrinsic antibiotic resistance in mycobacteria.",
@@ -795,15 +792,6 @@
           "created": "2026-1-15"
         },
         {
-          "title": "Redox robustness drives LPMO evolution",
-          "authors": "Iván Ayuso-Fernández, Tom Z. Emrich-Mills, Ole Golten, Zarah Forsberg, Kelsi R. Hall, László G. Nagy, Morten Sørlie, Åsmund Kjendseth Røhr, Vincent G. H. Eijsink",
-          "abstract": "Enzymes known as lytic polysaccharide monooxygenases (LPMOs) are exceptionally powerful small redox enzymes that master the controlled generation and productive use of potentially damaging hydroxyl radicals in what is essentially a H 2 O 2 -driven peroxygenase reaction. We have used ancestral sequence reconstruction and enzyme resurrection to unravel evolutionary steps leading to this exceptional catalytic ability. Real-time monitoring of copper reoxidation and amino acid radical formation showed evolutionary improvement of both the capacity to avoid futile turnover of H 2 O 2 and the ability to scavenge damaging radicals resulting from such turnover through a hole hopping pathway. Through mutational studies of ancestral LPMOs, we show that adoption of an extant-like conformation of residues in the hole hopping pathway yields improvements in redox robustness to near-extant levels. These results show how selective pressure imposed by the need for generating a highly oxidizing intermediate is a key driver of metalloenzyme evolution, involving large parts of the enzyme, well beyond the catalytic center.",
-          "url": "https://doi.org/10.1073/pnas.2521617123",
-          "doi": "https://doi.org/10.1073/pnas.2521617123",
-          "filter": "2",
-          "created": "2026-1-13"
-        },
-        {
           "title": "Plastid-to-nucleus communication under hypoxia involves group VII ethylene response factors in Arabidopsis thaliana",
           "authors": "Melanie V. Leger-Paul, Tilo Renziehausen, Marlene L. Rauschmayer, David González-Campo, Leopold J. M. Wiens, Joana K. Baumgärtner, Katja Schneider, Charlotte Seydel, Andreas Klingl, Martin Lehmann, Dario Leister, Romy R. Schmidt-Schippers, Peter Geigenberger",
           "abstract": "Plants trigger specific changes in gene transcription to acclimate to low-oxygen concentrations. Plastid-localized STEAROYL-ACYL CARRIER PROTEIN ∆9-DESATURASE 6 (SAD6) converts C18:0- into C18:1-fatty acids and belongs to the core hypoxia-responsive genes. SAD6 expression under hypoxia is activated by RAP2.12, which is a group-VII ethylene-response factor (ERF-VII) transcription factor regulated by sequestering to ACYL-CoA BINDING PROTEIN (ACBP) at the plasma membrane or proteasomal degradation via the PLANT CYSTEINE-OXIDASE N-degron pathway in response to molecular oxygen. Besides its role as hypoxia-specific marker gene, the biological function of SAD6 remains unclear. Here, we show that SAD6 overexpression mostly phenocopies plants overexpressing an N-degron insensitive Δ13RAP2.12 protein, which fails to be targeted to proteasomal degradation, while silencing of SAD6 in Δ13RAP2.12 -overexpressor plants largely restores the wildtype phenotype, indicating SAD6 is crucial to shape the growth phenotype of plants with deregulated RAP2.12. However, silencing of SAD6 also attenuated the expression of other important hypoxia-responsive genes, both, in Δ13RAP2.12 -overexpressor and wildtype backgrounds in response to hypoxic treatment, indicating a signaling role of SAD6 in activating RAP2.12. By using green-fluorescent protein-reporter constructs we found that this is due to SAD6 promoting RAP2.12 relocation from the plasma membrane to the nucleus, most likely by its role to increase C18:1-acyl-CoA, which is bound by ACBP as ligand. These results indicate SAD6 to be crucial to trigger relocation of sequestered RAP2.12 protein to the nucleus, showing an involvement of plastid function in hypoxia signaling, which links plastid fatty-acid metabolism with plastid-to-nucleus retrograde signaling via ERF-VII factors to improve hypoxic-stress resistance.",
@@ -820,6 +808,15 @@
           "doi": "https://doi.org/10.1073/pnas.2522557123",
           "filter": "2",
           "created": "2026-1-15"
+        },
+        {
+          "title": "Molecular underpinnings of induced degenerative heterogeneity in the retinal pigment epithelium",
+          "authors": "Krishna Kumar Singh, Yang Jin, Ming-Wen Hu, Isabella Palazzo, Marisol Cano, Thanh Hoang, Imran Bhutto, Shusheng Wang, Debasish Sinha, Seth Blackshaw, Jiang Qian, James T. Handa",
+          "abstract": "Cigarette smoking induces epigenetic changes that can cause degenerative heterogeneity with aging and disease. In disease such as age-related macular degeneration (AMD), the leading worldwide cause of blindness among the elderly, retinal pigment epithelial (RPE) cell heterogeneity is a key change. Since smoking is a powerful risk factor for AMD, we hypothesized that smoke induces epigenetic-mediated degenerative RPE heterogeneity. We administered cigarette smoke condensate (CSC) to young and aged mice. Using snRNA-seq and single nuclear ATAC sequencing, we identified distinct healthy and dedifferentiated RPE clusters in both aged vehicle- and young CSC-treated mice. Dedifferentiated RPE had globally decreased chromatin accessibility and expression of genes linked to “hallmarks of aging.” Notably, young, dedifferentiated RPE also exhibited a compensatory upregulation of hallmarks of aging-related genes including mitochondrial function and proteostasis while aged dedifferentiated RPE did not, which decreased their survival following CSC treatment, as experimentally verified with TUNEL labeling. Similar populations of dedifferentiated and healthy RPE were identified both in mice exposed to cigarette smoke for 4 mo and in macular RPE from a donor who smoked and another with early AMD, but not from a nonsmoker donor. Degenerative cellular heterogeneity that includes an abnormal cluster can jeopardize cell survival and represents a hallmark of ocular aging.",
+          "url": "https://doi.org/10.1073/pnas.2505412123",
+          "doi": "https://doi.org/10.1073/pnas.2505412123",
+          "filter": "2",
+          "created": "2026-1-16"
         },
         {
           "title": "Stochastic motility energetics reveals cooperative bacterial swarming in optical tweezers",
@@ -845,15 +842,6 @@
           "abstract": "Bacterial RNA-binding proteins (RBPs) that control the translation of multiple transcripts act largely as negative regulators. Here, we report the identification and characterization of a positive regulator of translation (called PhaF) in the opportunistic pathogen Pseudomonas aeruginosa . Using CLIP-seq and CLAP-seq we identify upward of 50 transcripts targeted by PhaF. We demonstrate that PhaF acts to stimulate the translation of target mRNAs by binding upstream of the Shine–Dalgarno sequence using one or more of the multiple KPAA motifs located in an intrinsically disordered region of the protein. Importantly, we show that PhaF plays a key physiological role in P. aeruginosa through its translational control of the pslA transcript required for exopolysaccharide synthesis and biofilm formation. Our findings uncover an activator of translation in bacteria that binds target transcripts using an RNA-binding region reminiscent of those that are prominent in eukaryotic RBPs.",
           "url": "https://doi.org/10.1073/pnas.2519770123",
           "doi": "https://doi.org/10.1073/pnas.2519770123",
-          "filter": "2",
-          "created": "2026-1-16"
-        },
-        {
-          "title": "Molecular underpinnings of induced degenerative heterogeneity in the retinal pigment epithelium",
-          "authors": "Krishna Kumar Singh, Yang Jin, Ming-Wen Hu, Isabella Palazzo, Marisol Cano, Thanh Hoang, Imran Bhutto, Shusheng Wang, Debasish Sinha, Seth Blackshaw, Jiang Qian, James T. Handa",
-          "abstract": "Cigarette smoking induces epigenetic changes that can cause degenerative heterogeneity with aging and disease. In disease such as age-related macular degeneration (AMD), the leading worldwide cause of blindness among the elderly, retinal pigment epithelial (RPE) cell heterogeneity is a key change. Since smoking is a powerful risk factor for AMD, we hypothesized that smoke induces epigenetic-mediated degenerative RPE heterogeneity. We administered cigarette smoke condensate (CSC) to young and aged mice. Using snRNA-seq and single nuclear ATAC sequencing, we identified distinct healthy and dedifferentiated RPE clusters in both aged vehicle- and young CSC-treated mice. Dedifferentiated RPE had globally decreased chromatin accessibility and expression of genes linked to “hallmarks of aging.” Notably, young, dedifferentiated RPE also exhibited a compensatory upregulation of hallmarks of aging-related genes including mitochondrial function and proteostasis while aged dedifferentiated RPE did not, which decreased their survival following CSC treatment, as experimentally verified with TUNEL labeling. Similar populations of dedifferentiated and healthy RPE were identified both in mice exposed to cigarette smoke for 4 mo and in macular RPE from a donor who smoked and another with early AMD, but not from a nonsmoker donor. Degenerative cellular heterogeneity that includes an abnormal cluster can jeopardize cell survival and represents a hallmark of ocular aging.",
-          "url": "https://doi.org/10.1073/pnas.2505412123",
-          "doi": "https://doi.org/10.1073/pnas.2505412123",
           "filter": "2",
           "created": "2026-1-16"
         },
@@ -885,15 +873,6 @@
           "created": "2026-1-16"
         },
         {
-          "title": "Tube feet dynamics drive adaptation in sea star locomotion",
-          "authors": "Amandine Deridoux, Sina Heydari, Stanislav. N. Gorb, Eva Kanso, Patrick Flammang, Sylvain Gabriele",
-          "abstract": "Sea stars use hundreds of tube feet on their oral surface to crawl, climb, and navigate complex environments, despite lacking a central brain. While tube foot morphology and function as muscular hydrostats are well described, the mechanisms that coordinate their collective dynamics remain poorly understood. To investigate these dynamics, we employed an optical imaging method based on frustrated total internal reflection (FTIR) to visualize and quantify tube foot adhesive contacts in real time in the species Asterias rubens across individuals spanning a wide size range. Our results reveal an inverse relationship between crawling speed and tube foot adhesion time, indicating that sea stars regulate locomotion by modulating contact duration in response to mechanical load. To test this, we conducted perturbation experiments using 3D-printed backpacks that increased body mass by 25 and 50%, along with biomechanical modeling of decentralized feedback control of the tube feet. The added load significantly increased adhesion time, supporting the role of a load-dependent mechanical adaptation. We further investigated inverted locomotion, both experimentally and through simulation, and found that tube feet adjust their contact behavior when the animal is oriented upside down relative to gravity. Together, these findings demonstrate that sea stars adapt their locomotion to changing mechanical demands by modulating tube foot–substrate interactions, revealing a robust decentralized control strategy in a brainless organism and highlighting general principles of distributed control in biology and soft robotics.",
-          "url": "https://doi.org/10.1073/pnas.2509681123",
-          "doi": "https://doi.org/10.1073/pnas.2509681123",
-          "filter": "2",
-          "created": "2026-1-13"
-        },
-        {
           "title": "Proton-selective conductance and gating of the lysosomal cation channel TMEM175",
           "authors": "Tobias Schulze, Timon Sprave, Carolin Groebe, Jan Hendrik Krumbach, Magnus Behringer, Andre Bazzone, Rocco Zerlotti, Niels Fertig, Mike Althaus, Kay Hamacher, Gerhard Thiel, Christian Grimm, Oliver Rauh",
           "abstract": "The lysosomal cation channel TMEM175 plays a key role in luminal pH homeostasis and lysosome function, with aberrant activity linked to Parkinson’s disease. Although initially described as a K + -selective channel, TMEM175 exhibits substantial H + permeability. Here, we dissect complex changes affecting human TMEM175 conductance and ionic properties of TMEM175-mediated current in response to pH shifts on the luminal side of the protein. A drop in pH from 7.4 to 4.7 on the side equivalent to the lysosomal lumen triggers a sustained increase in TMEM175-mediated inward and outward currents, which is accompanied by a transient shift in the reversal potential (E rev ) toward the theoretical equilibrium voltage for H + , yet remaining ~100 mV below the expected value even in the absence of K + . This discrepancy, along with low sensitivity of E rev to the concentration gradient for K + , supports a model in which TMEM175-mediated H + flux rapidly collapses the lysosomal pH-gradient. Molecular dynamics simulations identify H57 as a key residue on the luminal side of the open channel, which forms intra- and intersubunit salt bridges with D279 and E282. Supporting the functional importance of these interactions, the TMEM175 mutant H57Y displayed reduced H + - and K + -conductance and a reduced H + /K + selectivity in whole-cell and lysosomal electrophysiological analyses. Our findings contribute to a better understanding of TMEM175’s complex electrophysiological properties, thereby expanding the possibilities of understanding the channel’s function in lysosomal physiology and pathophysiology.",
@@ -910,24 +889,6 @@
           "doi": "https://doi.org/10.1073/pnas.2510950123",
           "filter": "2",
           "created": "2026-1-14"
-        },
-        {
-          "title": "Measuring bridging forces in protein–DNA condensates",
-          "authors": "Vikhyaat Ahlawat, Hashini Ekanayake Mudiyanselage, Divya Kota, Huan-Xiang Zhou",
-          "abstract": "Protein-DNA condensates mediate transcription and regulate gene expression and DNA replication and repair. Intermolecular bridging forces stabilizing condensates have direct roles in these processes. Here, we use optical tweezers to measure bridging forces. In the presence of protamine, a single condensate is observed on a 20.5-knt single-stranded DNA (ssDNA). Stretching produces force curves with a sawtooth pattern, suggesting condensate disassembly via sequential rupture of individual protamine–ssDNA bridges. The bridging forces are 11.3 ± 4.6 pN, with unfolding lengths of 1.3 ± 0.8 µm per bridge. In contrast, double-stranded DNA (dsDNA) forms protamine-mediated tangles that can withstand strand-separation forces (~60 pN). ssDNA tracks unpeeled at nicks on dsDNA by overstretching seed tangle formation upon retraction, but the initial condensates have a sufficient ssDNA-to-dsDNA ratio to appear liquid-like, as indicated by a sawtooth pattern in subsequent stretching. The presence of dsDNA raises bridging forces to 34 ± 8 pN, which revert to ~10 pN upon adding external ssDNA. In line with these single-molecule results, protamine–dsDNA mixtures form solid-like aggregates and require ssDNA addition to become liquid droplets. Conversely, adding dsDNA slows the fusion of protamine–ssDNA droplets. This work reports systematic characterization of bridging forces and shows that the ssDNA-to-dsDNA ratio can tune their magnitude in protein-DNA condensates.",
-          "url": "https://doi.org/10.1073/pnas.2523058123",
-          "doi": "https://doi.org/10.1073/pnas.2523058123",
-          "filter": "2",
-          "created": "2026-1-13"
-        },
-        {
-          "title": "De novo discovery of bicyclic cysteine-rich peptides targeting gasdermin D",
-          "authors": "Choi Yi Li, Yin Sun, Alexander A. Vinogradov, Hiroaki Suga",
-          "abstract": "Gasdermin D (GSDMD) is the principal executor of pyroptosis, a form of proinflammatory programmed cell death misregulation of which is associated with numerous diseases. Despite significant interest, no specific GSDMD inhibitors have been developed for clinical use so far. Here, we developed a strategy to generate mRNA-displayed libraries of bicyclic cysteine-rich peptides (bCRP), and utilized these libraries to develop potent peptide ligands to full-length GSDMD using a two-stage discovery process. Initial hit compounds were de novo discovered from GSDMD affinity selections using Random Nonstandard Peptides Integrated Discovery system, and were then optimized using mRNA display-based saturation mutagenesis. The resulting bCRPs bound to full-length GSDMD (best K D = 125 nM) and stabilized it against cleavage by caspase proteases. The bCRPs prevented the pore formation in liposome leakage assays and inhibited the secretion of IL-1β and lactate dehydrogenase from pyroptotic THP-1 cells. The potency, high metabolic stability, and synthetic accessibility of the discovered compounds make them promising leads for the development of GSDMD-targeting therapeutics.",
-          "url": "https://doi.org/10.1073/pnas.2516051123",
-          "doi": "https://doi.org/10.1073/pnas.2516051123",
-          "filter": "2",
-          "created": "2026-1-16"
         },
         {
           "title": "Chemical tuning reveals a cation–π gating bridge between the voltage-sensor and pore domains in the K v 7.1 potassium channel",
@@ -948,13 +909,13 @@
           "created": "2026-1-16"
         },
         {
-          "title": "mTOR signaling governs the formation of epithelial apical projections via S6K1–RhoA and aPKC–Lgl2 axes",
-          "authors": "Sumit Sen, Prithwish Ghosh, Sudipta Mukherjee, Shreedha Prabhu, Ginni Khurana, Clyde Savio Pinto, Kirti Gupta, Ravindra Venkatramani, Mahendra Sonawane",
-          "abstract": "In metazoans, epithelia perform functions of absorption, diffusion, and secretion. The actin-based apical projections on the epithelial cells contribute to these functions and are formed via cell-autonomous mechanisms that control cell polarity, intracellular transport, and the cytoskeleton. However, the cues that function upstream of these cell-autonomous regulators remain poorly known. Using microridges on zebrafish epithelial cells as a paradigm, we show that mTOR, a metabolic sensor, regulates the formation of apical projections. Mechanistically, mTORC1 controls the RhoA-ROCK activity via S6K1 to prevent the overactivation of nonmuscle myosin II (NMII) to restrict microridge elongation. Furthermore, genetic, biochemical, and molecular dynamics simulation analyses reveal that mTORC2 regulates the microridge pattern by modulating the activity of aPKC via its differential phosphorylation at two conserved sites. We propose that mTOR integrates the developmental and/or metabolic status of epithelial cells with cell autonomously acting RhoA and aPKC to regulate tissue-wide formation of apical projections.",
-          "url": "https://doi.org/10.1073/pnas.2501779123",
-          "doi": "https://doi.org/10.1073/pnas.2501779123",
+          "title": "De novo discovery of bicyclic cysteine-rich peptides targeting gasdermin D",
+          "authors": "Choi Yi Li, Yin Sun, Alexander A. Vinogradov, Hiroaki Suga",
+          "abstract": "Gasdermin D (GSDMD) is the principal executor of pyroptosis, a form of proinflammatory programmed cell death misregulation of which is associated with numerous diseases. Despite significant interest, no specific GSDMD inhibitors have been developed for clinical use so far. Here, we developed a strategy to generate mRNA-displayed libraries of bicyclic cysteine-rich peptides (bCRP), and utilized these libraries to develop potent peptide ligands to full-length GSDMD using a two-stage discovery process. Initial hit compounds were de novo discovered from GSDMD affinity selections using Random Nonstandard Peptides Integrated Discovery system, and were then optimized using mRNA display-based saturation mutagenesis. The resulting bCRPs bound to full-length GSDMD (best K D = 125 nM) and stabilized it against cleavage by caspase proteases. The bCRPs prevented the pore formation in liposome leakage assays and inhibited the secretion of IL-1β and lactate dehydrogenase from pyroptotic THP-1 cells. The potency, high metabolic stability, and synthetic accessibility of the discovered compounds make them promising leads for the development of GSDMD-targeting therapeutics.",
+          "url": "https://doi.org/10.1073/pnas.2516051123",
+          "doi": "https://doi.org/10.1073/pnas.2516051123",
           "filter": "2",
-          "created": "2026-1-13"
+          "created": "2026-1-16"
         },
         {
           "title": "Microvascular architecture and physiological fluctuations constrain the control of cerebral microcirculation",
@@ -1371,13 +1332,13 @@
       "articles": [],
       "articles_hidden": [
         {
-          "title": "Removal of trace gases can both increase and decrease cloud droplet formation",
-          "authors": "Elavarasi Ravichandran, Sanghee Han, Abigail S. Williams, Veronica Berta, Jeremy L. Dedrick, Christian Pelayo, Nattamon Maneenoi, Lynn M. Russell, Michael Wheeler, Jeremy Wentzell, John Liggio, Markus D. Petters",
-          "abstract": "Aerosols consist of liquid or solid particles dispersed in a gas. Aerosol measurements generally rely on drying the particles before quantifying their physicochemical properties. This drying can potentially remove semivolatile compounds from the particles. Here, we show size-resolved cloud condensation nuclei (CCN) measurements quantifying the hygroscopicity parameter in the presence and absence of a denuder. The denuder efficiently removed alkanes and weakly functionalized acids, aldehydes, and alcohols with fewer than 10 carbon atoms from the gas phase. Denuding organic compounds perturbed the CCN-derived hygroscopicity parameter by up to 50%. Denuding either rendered the particles more or less CCN active, and the direction of the effect depended on sample relative humidity and trace gas concentration. The effect was weakest in early spring and strongest in late spring and summer. The measurements demonstrate an unexpectedly strong coupling between the particle and gas phase, influencing CCN activity through either volatilization or surface adsorption, or both.",
-          "url": "https://doi.org/10.1126/sciadv.adx0960",
-          "doi": "https://doi.org/10.1126/sciadv.adx0960",
+          "title": "Unpacking the growth of global agricultural greenhouse gas emissions",
+          "authors": "Ariel Ortiz-Bobea, Simone Pieralli",
+          "abstract": "Agriculture, forestry, and other land use contribute about a fifth of total anthropogenic greenhouse gas (GHG) emissions. Mitigation efforts have emphasized “decoupling” that sustains production while lowering emissions per unit of output. However, the underlying decoupling mechanisms have not been fully characterized. We rely on a mathematical identity to decompose agricultural GHG emission growth ( Δ E ) into three parts: output ( Δ Y ), emissions per unit of input ( Δ E / X ), and output per unit of input ( Δ Y / X ) or total factor productivity (TFP). We then rely on official country-level data to quantify the historical contribution of these components. Over 1961 to 2021, we find that TFP growth—which captures the sector’s ability to produce more output per unit of measured input—has consistently remained one of the main sources of GHG emission reduction within farms. Further decomposition reveals a key role for rising land productivity in reducing emission intensity.",
+          "url": "https://doi.org/10.1126/sciadv.aeb8653",
+          "doi": "https://doi.org/10.1126/sciadv.aeb8653",
           "filter": "2",
-          "created": "2026-1-14"
+          "created": "2026-1-16"
         },
         {
           "title": "Artificial intelligence–enabled “inherited noninvasive intracellular recording” for prolonged monitoring of cardiac action potentials",
@@ -1389,13 +1350,13 @@
           "created": "2026-1-16"
         },
         {
-          "title": "Unpacking the growth of global agricultural greenhouse gas emissions",
-          "authors": "Ariel Ortiz-Bobea, Simone Pieralli",
-          "abstract": "Agriculture, forestry, and other land use contribute about a fifth of total anthropogenic greenhouse gas (GHG) emissions. Mitigation efforts have emphasized “decoupling” that sustains production while lowering emissions per unit of output. However, the underlying decoupling mechanisms have not been fully characterized. We rely on a mathematical identity to decompose agricultural GHG emission growth ( Δ E ) into three parts: output ( Δ Y ), emissions per unit of input ( Δ E / X ), and output per unit of input ( Δ Y / X ) or total factor productivity (TFP). We then rely on official country-level data to quantify the historical contribution of these components. Over 1961 to 2021, we find that TFP growth—which captures the sector’s ability to produce more output per unit of measured input—has consistently remained one of the main sources of GHG emission reduction within farms. Further decomposition reveals a key role for rising land productivity in reducing emission intensity.",
-          "url": "https://doi.org/10.1126/sciadv.aeb8653",
-          "doi": "https://doi.org/10.1126/sciadv.aeb8653",
+          "title": "Removal of trace gases can both increase and decrease cloud droplet formation",
+          "authors": "Elavarasi Ravichandran, Sanghee Han, Abigail S. Williams, Veronica Berta, Jeremy L. Dedrick, Christian Pelayo, Nattamon Maneenoi, Lynn M. Russell, Michael Wheeler, Jeremy Wentzell, John Liggio, Markus D. Petters",
+          "abstract": "Aerosols consist of liquid or solid particles dispersed in a gas. Aerosol measurements generally rely on drying the particles before quantifying their physicochemical properties. This drying can potentially remove semivolatile compounds from the particles. Here, we show size-resolved cloud condensation nuclei (CCN) measurements quantifying the hygroscopicity parameter in the presence and absence of a denuder. The denuder efficiently removed alkanes and weakly functionalized acids, aldehydes, and alcohols with fewer than 10 carbon atoms from the gas phase. Denuding organic compounds perturbed the CCN-derived hygroscopicity parameter by up to 50%. Denuding either rendered the particles more or less CCN active, and the direction of the effect depended on sample relative humidity and trace gas concentration. The effect was weakest in early spring and strongest in late spring and summer. The measurements demonstrate an unexpectedly strong coupling between the particle and gas phase, influencing CCN activity through either volatilization or surface adsorption, or both.",
+          "url": "https://doi.org/10.1126/sciadv.adx0960",
+          "doi": "https://doi.org/10.1126/sciadv.adx0960",
           "filter": "2",
-          "created": "2026-1-16"
+          "created": "2026-1-14"
         },
         {
           "title": "Perovskite nanocrystals-in-glass hierarchical structures enable stable continuous-wave random lasers",
@@ -1497,6 +1458,15 @@
           "created": "2026-1-16"
         },
         {
+          "title": "Remodeling of XIST regulatory landscape during primate evolution",
+          "authors": "Emmanuel Cazottes, Charbel Alfeghaly, Cloé Rognard, Anamaria Necsulea, Agnese Loda, Gaël Castel, Laura Villacorta, Michael Dong, Edith Heard, Irène Aksoy, Pierre Savatier, Céline Morey, Claire Rougeulle",
+          "abstract": "Unraveling how gene regulations are remodeled during evolution is central to understanding how biological processes evolve. We explored this question in the frame of X-chromosome inactivation, a process under strong selective constraint, governed by the XIST lncRNA and its cis-regulators. Using functional approaches on closely related primate species, we show that XIST regulation has uniquely diverged over a short evolutionary timescale. In human and marmoset embryonic stem cells (ESCs), the JPX lncRNA gene is a major regulator of XIST expression. In contrast, JPX has a minor effect on XIST in macaque ESCs, where it acts together with a macaque-specific enhancer. This occurs within a reshuffled 3D organization of the XIST neighborhood triggered by the insertion of a HERVK transposon in the macaque lineage. Retrospective sequence comparisons revealed that many XIST regulators are not evolutionarily constrained, supporting the hypothesis that neutrally evolving noncoding elements harbor adaptive potential. These results illuminate how evolutionary recent elements are integrated into preexisting regulatory landscapes.",
+          "url": "https://doi.org/10.1126/sciadv.adw5839",
+          "doi": "https://doi.org/10.1126/sciadv.adw5839",
+          "filter": "2",
+          "created": "2026-1-16"
+        },
+        {
           "title": "Lipid self-assembly dependence on hyaluronic acid size reveals biolubrication and osteoarthritic degeneration mechanisms",
           "authors": "Kangdi Sun, Mark W. Rutland, Rosa M. Espinosa-Marzal",
           "abstract": "Hyaluronic acid (HA) and phospholipids (PLs) are key components of joint lubrication. In osteoarthritis (OA), the molecular weight (MW) of HA is reduced, which has been proposed to weaken the anchoring capacity of PL and impair lubrication. This study reveals a different mechanism by directly linking the MW to the structure of HA-PL (hybrid) assemblies and frictional properties. Using mixed-MW HA and PL to model this difference between healthy and OA synovial composition, we found interfacial lamellar structures form under healthy-like conditions, while hybrid vesicles predominate in OA-like conditions. At physiologically relevant shear rates, lamellar assemblies maintain ultralow friction, whereas vesicles are removed, causing a tenfold friction increase. These findings provide mechanistic insight into how HA-PL structural organization controls lubrication. While this simplified system does not capture the biochemical complexity of synovial fluid, this study advances understanding and offers a framework for designing structure-informed therapeutic strategies and biomimetic lubricants.",
@@ -1513,15 +1483,6 @@
           "doi": "https://doi.org/10.1126/sciadv.aea0685",
           "filter": "2",
           "created": "2026-1-14"
-        },
-        {
-          "title": "Remodeling of XIST regulatory landscape during primate evolution",
-          "authors": "Emmanuel Cazottes, Charbel Alfeghaly, Cloé Rognard, Anamaria Necsulea, Agnese Loda, Gaël Castel, Laura Villacorta, Michael Dong, Edith Heard, Irène Aksoy, Pierre Savatier, Céline Morey, Claire Rougeulle",
-          "abstract": "Unraveling how gene regulations are remodeled during evolution is central to understanding how biological processes evolve. We explored this question in the frame of X-chromosome inactivation, a process under strong selective constraint, governed by the XIST lncRNA and its cis-regulators. Using functional approaches on closely related primate species, we show that XIST regulation has uniquely diverged over a short evolutionary timescale. In human and marmoset embryonic stem cells (ESCs), the JPX lncRNA gene is a major regulator of XIST expression. In contrast, JPX has a minor effect on XIST in macaque ESCs, where it acts together with a macaque-specific enhancer. This occurs within a reshuffled 3D organization of the XIST neighborhood triggered by the insertion of a HERVK transposon in the macaque lineage. Retrospective sequence comparisons revealed that many XIST regulators are not evolutionarily constrained, supporting the hypothesis that neutrally evolving noncoding elements harbor adaptive potential. These results illuminate how evolutionary recent elements are integrated into preexisting regulatory landscapes.",
-          "url": "https://doi.org/10.1126/sciadv.adw5839",
-          "doi": "https://doi.org/10.1126/sciadv.adw5839",
-          "filter": "2",
-          "created": "2026-1-16"
         },
         {
           "title": "Flexible thermal array sensor for imperceptible monitoring of multidimensional vascular dynamics",
@@ -1605,15 +1566,6 @@
           "created": "2026-1-14"
         },
         {
-          "title": "Ancient Yellow River ancestry and divergent admixture histories in the Qiang people",
-          "authors": "Weishun Zeng, Zhaoqing Yang, Yan Lu, Chang Lei, Yang Gao, Yuhan Yang, Xu Wang, Jiayou Chu, Shuhua Xu",
-          "abstract": "The Qiang people are widely recognized as a basal layer of the Chinese gene pool, yet their genetic origins and evolutionary history remain unclear. We analyzed 20 deep-sequenced Qiang genomes together with genomic data from Tibetan highlanders and neighboring lowlanders. The Qiang genetic structure has been profoundly shaped by historical admixture with Han and Tibetans, giving rise to distinct subpopulations. Using ~450 ancient Asian genomes, we traced the most recent common ancestor of the Qiang to ancient Yellow River farmers ~5300 years ago, indicating shared ancestry with other Chinese populations. We identified several highly differentiated variants related to ethanol metabolism and pigmentation between Qiang subpopulations, which likely arose from joint effects of admixture and selection. Notably, a highly prevalent missense variant in a blood pressure regulation gene was detected, suggesting a potential role in altitude adaptation. Collectively, our findings illuminate the genetic history of the Qiang and highlight how admixture and selection shaped the diversity of Tibetan-Plateau fringe populations.",
-          "url": "https://doi.org/10.1126/sciadv.ady6667",
-          "doi": "https://doi.org/10.1126/sciadv.ady6667",
-          "filter": "2",
-          "created": "2026-1-14"
-        },
-        {
           "title": "Tissue-adhesive hydrogel–MXene biosensor for in situ intraoral TNF-α detection",
           "authors": "Tsz Hung Wong, Weijia Liu, Jiaoli Li, Jie Ma, Yijie Cheng, Ruihao Lu, Kent J. Koster, Jeffrey D. Cirillo, Xinyue Liu, Hajime Sasaki, Chenglin Wu, Shaoting Lin",
           "abstract": "Current dental care relies on subjective assessments or sophisticated diagnostics, both struggling to balance efficiency and accuracy. In situ biosensors offer a promising solution for real-time biomarker detection, yet their practical deployment in oral tissue is hindered by challenges in sensitivity, specificity, and stability due to low biomarker concentrations, molecular-level heterogeneity, and dynamic intraoral interactions. Here, we develop a tissue-adhesive hydrogel–MXene (TAHM) biosensor, integrating a graphene/MXene sensing probe, a tissue-adhesive patch, and a selective-permeable hydrogel membrane, for in situ detection of tumor necrosis factor–α, a proinflammatory cytokine. Our TAHM biosensor achieves high sensitivity with a limit of detection of 18.2 femtograms per milliliter, excellent selectivity with an interference coefficient below 7%, and mechanical stability with resistance variation under 0.5% under varying stretch ratio and loading rates. The sensor’s performance is further validated through in vitro, in vivo, and ex vivo experiments. The work highlights the potential of in situ biosensor as a transformative tool for real-time oral diagnostics.",
@@ -1630,6 +1582,15 @@
           "doi": "https://doi.org/10.1126/sciadv.aeb0769",
           "filter": "2",
           "created": "2026-1-16"
+        },
+        {
+          "title": "Ancient Yellow River ancestry and divergent admixture histories in the Qiang people",
+          "authors": "Weishun Zeng, Zhaoqing Yang, Yan Lu, Chang Lei, Yang Gao, Yuhan Yang, Xu Wang, Jiayou Chu, Shuhua Xu",
+          "abstract": "The Qiang people are widely recognized as a basal layer of the Chinese gene pool, yet their genetic origins and evolutionary history remain unclear. We analyzed 20 deep-sequenced Qiang genomes together with genomic data from Tibetan highlanders and neighboring lowlanders. The Qiang genetic structure has been profoundly shaped by historical admixture with Han and Tibetans, giving rise to distinct subpopulations. Using ~450 ancient Asian genomes, we traced the most recent common ancestor of the Qiang to ancient Yellow River farmers ~5300 years ago, indicating shared ancestry with other Chinese populations. We identified several highly differentiated variants related to ethanol metabolism and pigmentation between Qiang subpopulations, which likely arose from joint effects of admixture and selection. Notably, a highly prevalent missense variant in a blood pressure regulation gene was detected, suggesting a potential role in altitude adaptation. Collectively, our findings illuminate the genetic history of the Qiang and highlight how admixture and selection shaped the diversity of Tibetan-Plateau fringe populations.",
+          "url": "https://doi.org/10.1126/sciadv.ady6667",
+          "doi": "https://doi.org/10.1126/sciadv.ady6667",
+          "filter": "2",
+          "created": "2026-1-14"
         },
         {
           "title": "Consecutive phase transformations of inorganic-organic assembly in the synthesis of single-walled zeolitic nanotube",
@@ -1704,20 +1665,20 @@
           "created": "2026-1-16"
         },
         {
-          "title": "A programmable genetic platform for engineering noninvasive biosensors",
-          "authors": "Asish N. Chacko, Kaamini M. Dhanabalan, Jinyang Wan, Roy Chien, Nolan T. Anderson, Binzhi Xu, Katie Pham, Ritu Tiwari, Arnab Mukherjee",
-          "abstract": "Creating genetic sensors for noninvasive visualization of biological activities in optically opaque tissues holds immense potential for basic research and the development of genetic and cell-based therapies. Magnetic resonance imaging (MRI) stands out among deep tissue imaging methods for its ability to generate high-resolution images without ionizing radiation. However, the adoption of MRI as a mainstream biomolecular technology has been hindered by the lack of adaptable methods to link molecular events with genetically encodable contrast. Here, we introduce modular aquaporin-based protease-activatable probes for enhanced reporting (MAPPER), a platform for the systematic creation of genetic sensors for MRI. To develop MAPPER, we engineered protease-activatable MRI reporters using two approaches: protein stabilization and subcellular trafficking. We established the applicability of MAPPER in distinct mammalian cell types and demonstrated its versatility by assembling genetic sensors for diverse targets without requiring extensive customization for each target. MAPPER provides a programmable platform for streamlining the development of noninvasive, nonionizing genetic sensors for biomedical research and in vivo diagnostics.",
-          "url": "https://doi.org/10.1126/sciadv.aec1211",
-          "doi": "https://doi.org/10.1126/sciadv.aec1211",
-          "filter": "2",
-          "created": "2026-1-14"
-        },
-        {
           "title": "Productivity-driven decoupling of microbial carbon use efficiency and respiration across global soils",
           "authors": "Yongxing Cui, Shushi Peng, Manuel Delgado-Baquerizo, Daryl L. Moorhead, Robert L. Sinsabaugh, César Terrer, Thomas P. Smith, Yakov Kuzyakov, Josep Peñuelas, Biao Zhu, Feng Tao, Songbai Hong, Ji Chen, Matthias C. Rillig",
           "abstract": "Despite extensive research on soil microbial carbon (C) use efficiency (CUE), its linkage to actual soil C storage remains ambiguous. A key uncertainty is that CUE estimates from short-term labeling incubations assume a linear negative relationship with respiration rates, overlooking nonlinear interactions and long-term microbial acclimation. Here, we use a stoichiometry-based approach to estimate CUE (CUE ST ), which links soil resource availability to microbial demand and captures microbial adaptability under resource constraints. We synthesized 1094 paired observations of CUE ST and heterotrophic respiration rate ( R h ) across natural ecosystems and found a nonlinear relationship between them governed by ecosystem productivity. In low-productivity arid and cold regions, CUE ST declined with increasing R h , whereas in productive tropical and temperate regions, CUE ST stabilized at a low level (0.27 ± 0.11) as R h exceeded 340 ± 10.8 grams of C per square meter per year. This shift reflects microbial trade-offs between C assimilation and stoichiometric homeostasis, revealing a decoupling of microbial growth from respiration that limits the capacity of productive ecosystems to store additional soil C.",
           "url": "https://doi.org/10.1126/sciadv.adz5319",
           "doi": "https://doi.org/10.1126/sciadv.adz5319",
+          "filter": "2",
+          "created": "2026-1-14"
+        },
+        {
+          "title": "A programmable genetic platform for engineering noninvasive biosensors",
+          "authors": "Asish N. Chacko, Kaamini M. Dhanabalan, Jinyang Wan, Roy Chien, Nolan T. Anderson, Binzhi Xu, Katie Pham, Ritu Tiwari, Arnab Mukherjee",
+          "abstract": "Creating genetic sensors for noninvasive visualization of biological activities in optically opaque tissues holds immense potential for basic research and the development of genetic and cell-based therapies. Magnetic resonance imaging (MRI) stands out among deep tissue imaging methods for its ability to generate high-resolution images without ionizing radiation. However, the adoption of MRI as a mainstream biomolecular technology has been hindered by the lack of adaptable methods to link molecular events with genetically encodable contrast. Here, we introduce modular aquaporin-based protease-activatable probes for enhanced reporting (MAPPER), a platform for the systematic creation of genetic sensors for MRI. To develop MAPPER, we engineered protease-activatable MRI reporters using two approaches: protein stabilization and subcellular trafficking. We established the applicability of MAPPER in distinct mammalian cell types and demonstrated its versatility by assembling genetic sensors for diverse targets without requiring extensive customization for each target. MAPPER provides a programmable platform for streamlining the development of noninvasive, nonionizing genetic sensors for biomedical research and in vivo diagnostics.",
+          "url": "https://doi.org/10.1126/sciadv.aec1211",
+          "doi": "https://doi.org/10.1126/sciadv.aec1211",
           "filter": "2",
           "created": "2026-1-14"
         },
@@ -1740,15 +1701,6 @@
           "created": "2026-1-16"
         },
         {
-          "title": "Inflammation-triggered self-immolative conjugates enable oral peptide delivery by overcoming gastrointestinal barriers",
-          "authors": "Juan Cheng, Peng Wu, Chenwen Li, Ying Han, Menglong Sun, Yin Dou, Sheng Chen, Jianxiang Zhang",
-          "abstract": "Oral delivery of peptide therapeutics remains challenging due to gastrointestinal (GI) degradation and poor intestinal absorption. Here, we propose a self-immolative peptide prodrug conjugate (SIPPC) platform for inflammation-targeted oral delivery, integrating a hydrophilic polyethylene glycol segment, a reactive oxygen species (ROS)–responsive hydrophobic self-immolative module, and a hydrolyzable scaffold, which collectively enable spontaneous assembly into micelle-like nanoparticles. Using three anti-inflammatory peptides (KPV, Ac-QAW, and IRW), we demonstrated that the engineered conjugates exhibit remarkable GI stability, efficient mucus penetration, and ROS-responsive release at inflamed sites. In colitis mice, the KPV-based conjugate (proKPV) achieved a 3.8-fold greater colonic accumulation than free KPV, with enhanced efficacy even at a 20-fold lower dose. Beyond therapeutic effects in the colitis model, oral proKPV substantially accumulated in inflamed lungs and exhibited potent anti-inflammatory efficacy in mice with acute lung injury. Ac-QAW and IRW-based conjugates exhibited comparable benefits, underscoring SIPPC as a transformative paradigm for oral peptide therapeutics, offering substantial promise for clinical translation in inflammatory disorders.",
-          "url": "https://doi.org/10.1126/sciadv.aea2989",
-          "doi": "https://doi.org/10.1126/sciadv.aea2989",
-          "filter": "2",
-          "created": "2026-1-14"
-        },
-        {
           "title": "The genesis of citrated ultrathin hydroxyapatite nanorods",
           "authors": "Yuqi Wang, Su Yan, Xinyu Tan, Ethan Gerhard, Hui Xu, Haiyue Jiang, Jian Yang",
           "abstract": "Ideal orthopedic biomaterials should replicate both the hierarchical structure and exceptional mechanical strength of natural bone. Traditional polymer-hydroxyapatite composites, typically limited up to 40 wt % hydroxyapatite, offer only modest mechanical improvements. Efforts to enhance strength by using stiffer polymers have largely failed, as increased polymer stiffness does not translate to improved composite mechanics. In contrast, natural bone’s load-bearing capability arises from the synergy between citrate, soft collagen, and ultrathin hydroxyapatite nanocrystals (~3 nanometers). Here, we show that elastic poly(octamethylene citrate) enables up to 60 wt % hydroxyapatite incorporation, mimicking the bone’s mineral content. Through a top-down “citrification” process and hot pressing, hydroxyapatite microparticles are partially dissolved and recrystallized into superthin (~5 nanometers) nanorods, enhancing organic-inorganic integration and replicating bone’s Ca/P ratios and architecture. The resulting composites exhibit compressive strengths exceeding 250 megapascals, unprecedented in polymer-mineral systems, offering a molecular design strategy for next-generation load-bearing orthopedic implants.",
@@ -1763,6 +1715,15 @@
           "abstract": "Despite the therapeutic potential of engineered immune cell therapy against metastases, it faces challenges including cytokine-driven systemic toxicity, off-target biodistribution, and host rejection. Here, we develop red/far-red light-regulated individually encapsulated (RL/FRL-EnE) cells, integrating optogenetics with biomaterial encapsulation for precise immunomodulation. This system uses a phytochrome A–based photoswitch (ΔPhyA-PCB) that enables bidirectional control. RL (660 nanometers) triggers interferon-γ, interleukin-6, and anti-CD47 expression via ΔPhyA-PCB–far-red elongated hypocotyl 1 heterodimerization, while FRL (740 nanometers) rapidly reverses production, minimizing toxicity. Single-cell nanoencapsulation prevents intercellular cross-talk and immune clearance, enabling strict light-dependent regulation and extended tumor residence. In vivo, RL/FRL-EnE cells remodeled the tumor microenvironment, reducing immunosuppressive myeloid cells (1.3- to 1.7-fold), while enhancing dendritic cell (1.4-fold) and CD8 + T cell (2.8-fold) infiltration. Collectively, this work establishes a paradigm for closed-loop cellular immunotherapy, where light-regulated living therapeutics achieve on-demand immune reprogramming.",
           "url": "https://doi.org/10.1126/sciadv.aea3573",
           "doi": "https://doi.org/10.1126/sciadv.aea3573",
+          "filter": "2",
+          "created": "2026-1-14"
+        },
+        {
+          "title": "Inflammation-triggered self-immolative conjugates enable oral peptide delivery by overcoming gastrointestinal barriers",
+          "authors": "Juan Cheng, Peng Wu, Chenwen Li, Ying Han, Menglong Sun, Yin Dou, Sheng Chen, Jianxiang Zhang",
+          "abstract": "Oral delivery of peptide therapeutics remains challenging due to gastrointestinal (GI) degradation and poor intestinal absorption. Here, we propose a self-immolative peptide prodrug conjugate (SIPPC) platform for inflammation-targeted oral delivery, integrating a hydrophilic polyethylene glycol segment, a reactive oxygen species (ROS)–responsive hydrophobic self-immolative module, and a hydrolyzable scaffold, which collectively enable spontaneous assembly into micelle-like nanoparticles. Using three anti-inflammatory peptides (KPV, Ac-QAW, and IRW), we demonstrated that the engineered conjugates exhibit remarkable GI stability, efficient mucus penetration, and ROS-responsive release at inflamed sites. In colitis mice, the KPV-based conjugate (proKPV) achieved a 3.8-fold greater colonic accumulation than free KPV, with enhanced efficacy even at a 20-fold lower dose. Beyond therapeutic effects in the colitis model, oral proKPV substantially accumulated in inflamed lungs and exhibited potent anti-inflammatory efficacy in mice with acute lung injury. Ac-QAW and IRW-based conjugates exhibited comparable benefits, underscoring SIPPC as a transformative paradigm for oral peptide therapeutics, offering substantial promise for clinical translation in inflammatory disorders.",
+          "url": "https://doi.org/10.1126/sciadv.aea2989",
+          "doi": "https://doi.org/10.1126/sciadv.aea2989",
           "filter": "2",
           "created": "2026-1-14"
         },
