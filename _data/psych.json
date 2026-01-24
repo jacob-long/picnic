@@ -1,27 +1,17 @@
 {
-  "update": "2026-01-23",
+  "update": "2026-01-24",
   "content": [
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "A mouse-tracking classification task to measure the unhealthy = tasty intuition",
-          "authors": "Jonathan D’hondt, Barbara Briers",
-          "abstract": "Understanding food preferences plays a crucial role in addressing both health concerns, such as obesity, and environmental concerns, such as climate change. Recognizing the impact of lay beliefs on food preferences is essential in addressing these challenges. One prevalent belief is the “unhealthy = tasty intuition” (UTI), the belief that taste and health in food do not go together. While self-report scales and behavioral tasks are commonly used to measure such beliefs, they have distinct methodological purposes: scales are better suited for assessing stable, trait-like constructs, whereas tasks capture more dynamic processes and are well suited for experimental manipulation. This paper introduces a mouse-tracking classification task that provides a process-based behavioral index of UTI, providing a novel approach for assessing implicit beliefs about the relationship between taste and health in food. Three studies validate the task, demonstrating correlations between explicit UTI scores and task performance. Additionally, the task predicts actual food consumption and, importantly, exhibits sensitivity to contextual manipulations. Because this task can be adapted to measure other beliefs, it is a valuable tool for researchers working on individual lay beliefs and decision-making processes. To that end, a template of the task is provided to help other researchers build on this work.",
-          "url": "https://doi.org/10.3758/s13428-025-02927-5",
-          "doi": "https://doi.org/10.3758/s13428-025-02927-5",
+          "title": "Ten particularly frequent and consequential questionable research practices in quantitative research: Bias mechanisms, preventive strategies, and a simulation-based framework",
+          "authors": "Theodoros A. Kyriazos, Mary Poga",
+          "url": "https://doi.org/10.3758/s13428-025-02920-y",
+          "doi": "https://doi.org/10.3758/s13428-025-02920-y",
           "filter": 0,
-          "created": "2026-1-16"
-        },
-        {
-          "title": "The Tool for Automatic Analysis of Decoding Ambiguity (TAADA)",
-          "authors": "Scott Crossley, Joon Suh Choi, Kenny Tang, Laurie Cutting",
-          "abstract": "This study documents and assesses the Tool for Automatic Analysis of Decoding Ambiguity (TAADA). TAADA calculates measures related to decoding, including metrics for grapheme and phoneme counts, neighborhood effects, rhymes, and conditional probabilities for sound–spelling relationships. These measures are assessed in two reading studies. The first study examined links between decoding variables and judgments of reading ease in a corpus of ~5000 reading excerpts, finding that variables related to word frequency, phonographic neighbors for words, word syllable length, and the reverse prior probability for consonants explained 34% of the variance in the reading scores. The second examined links between decoding variables and student reading miscues, finding that word frequency, phoneme counts, rhyme counts, and probability counts explained 3% of students’ reading miscues.",
-          "url": "https://doi.org/10.3758/s13428-025-02922-w",
-          "doi": "https://doi.org/10.3758/s13428-025-02922-w",
-          "filter": 0,
-          "created": "2026-1-16"
+          "created": "2026-1-23"
         },
         {
           "title": "Using large language models to estimate belief strength in reasoning",
@@ -32,23 +22,6 @@
           "created": "2026-1-20"
         },
         {
-          "title": "Unconscious cognition without post hoc selection artifacts: From selective analysis to functional dissociations",
-          "authors": "Thomas Schmidt, Maximilian P. Wolkersdorfer, Xin Ying Lee, Omar Jubran",
-          "abstract": "One of the most popular approaches to unconscious cognition is the technique of “post hoc selection”: Priming effects and visibility ratings are measured in multitasks on the same trial, and only trials with the lowest visibility ratings are selected for analysis of (presumably unconscious) priming effects. In the past, the technique has been criticized for creating statistical artifacts and capitalizing on chance. Here, we argue that post hoc selection constitutes a sampling fallacy, confusing sensitivity and response bias, wrongly ascribing unconscious processing to stimulus conditions that may be far from indiscriminable. In response to a high-profile “best practice” paper by Stockart et al. (2025) that condones the technique, we use standard signal detection theory to show that post hoc selection only isolates trials with neutral response bias, irrespective of actual sensitivity, and thus fails to isolate trials where the critical stimulus is “unconscious”. Our own data demonstrate that zero-visibility ratings are consistent with uncomfortably high levels of sensitivity. As an alternative to post hoc selection, we advocate the study of functional dissociations, where direct ( D ) and indirect ( I ) measures are conceptualized as spanning a two-dimensional D-I space wherein simple, sensitivity, and double dissociations appear as distinct curve patterns. While Stockart et al.’s recommendations cover only a single line of that space where D is close to zero, functional dissociations can utilize the entire space. This circumvents requirements like null visibility and exhaustive reliability, allows for dissociations among different measures of awareness, and supports the planful measurement of functional relationships between direct and indirect measures.",
-          "url": "https://doi.org/10.3758/s13428-025-02926-6",
-          "doi": "https://doi.org/10.3758/s13428-025-02926-6",
-          "filter": 0,
-          "created": "2026-1-16"
-        },
-        {
-          "title": "Forming bootstrap confidence intervals and examining bootstrap distributions of standardized coefficients in structural equation modelling: A simplified workflow using the R package semboottools",
-          "authors": "Wendie Yang, Shu Fai Cheung",
-          "url": "https://doi.org/10.3758/s13428-025-02911-z",
-          "doi": "https://doi.org/10.3758/s13428-025-02911-z",
-          "filter": 0,
-          "created": "2026-1-16"
-        },
-        {
           "title": "Test–retest reliability of the gaze index for sign-tracking and goal-tracking",
           "authors": "Marco Badioli, Claudio Danti, Luigi Degni, Gianluca Finotti, Valentina Bernardi, Lorenzo Mattioni, Francesca Starita, Giuseppe di Pellegrino, Sara Giovagnoli, Mariagrazia Benassi, Sara Garofalo",
           "url": "https://doi.org/10.3758/s13428-025-02919-5",
@@ -57,13 +30,13 @@
           "created": "2026-1-20"
         },
         {
-          "title": "Virtual agents as a scalable tool for diverse, robust gesture recognition",
-          "authors": "Lisa Loy, James P. Trujillo, Floris Roelofsen",
-          "abstract": "Gesture recognition technology is a popular area of research, offering applications in many fields, including behaviour research, human–computer interaction (HCI), medical research, and surveillance culture, among others. However, the large quantity of data needed to train a recognition algorithm is not always available, and differences between the training set and one’s own research data in factors such as recording conditions and participant characteristics may hinder transferability. To address these issues, we propose training and testing recognition algorithms on virtual agents, a tool that has not yet been used for this purpose in multimodal communication research. We provide an example use case with step-by-step instructions, using mocap data to animate a virtual agent and create customised lighting conditions, backgrounds, and camera angles, creating a virtual agent-only dataset to train and test a gesture recognition algorithm. This approach also allows us to assess the impact of particular features, such as background and lighting. Our best-performing model in optimal background and lighting conditions achieved accuracy of 85.9%. When introducing background clutter and reduced lighting, the accuracy dropped to 71.6%. When testing the virtual agent-trained model on images of humans, the accuracy of target handshape classification ranged from 72% to 95%. The results suggest that training an algorithm on artificial data (1) is a resourceful, convenient, and effective way to customise algorithms, (2) potentially addresses issues of data sparsity, and (3) can be used to assess the impact of many contextual and environmental factors that would not be feasible to systematically assess using human data",
-          "url": "https://doi.org/10.3758/s13428-025-02914-w",
-          "doi": "https://doi.org/10.3758/s13428-025-02914-w",
+          "title": "Constructing the Corpus of Children’s Video Media (CCVM): A new resource and guidelines for constructing comparable and reusable corpora",
+          "authors": "Anna Gowenlock, Jennifer Rodd, Beth Malory, Courtenay Norbury",
+          "abstract": "A growing number of psycholinguistic studies use methods from corpus linguistics to examine the language that children encounter in their environment, to understand how they might acquire different aspects of linguistic knowledge. Many of these studies focus on child-directed speech or children’s literature, while there is a paucity of work focusing on children’s television and video media. We describe the creation and contents of the Corpus of Children’s Video Media (CCVM), a specialised corpus designed to represent the spoken language in television and online videos popular among 3–5-year-old children in the UK (available as a scrambled database of tokens). The CCVM was designed to be comparable to an existing corpus of child-directed speech (CDS). We used a dual sampling approach: inclusion decisions were guided by (a) a survey of parents with children in our target age group, and (b) a survey of programmes available on popular streaming platforms. The corpus consists of 233,471 tokens across 161 transcripts (43.12 h of video) and is available on the Open Science Framework (OSF) as a scrambled database of tokens (including gloss, stem, and lemma forms, and part-of-speech tags), organised within transcripts, together with relevant metadata for each transcript. We discuss the challenges of creating a corpus that is comparable to existing datasets and highlight the importance of transparency in this process. We take an open science approach, sharing a detailed data collection and processing protocol, code, and data so that the corpus can be evaluated, extended, and used appropriately by other research teams.",
+          "url": "https://doi.org/10.3758/s13428-025-02925-7",
+          "doi": "https://doi.org/10.3758/s13428-025-02925-7",
           "filter": 0,
-          "created": "2026-1-16"
+          "created": "2026-1-23"
         },
         {
           "title": "Modeling truncated and censored data with the diffusion model in Stan",
@@ -82,6 +55,24 @@
           "doi": "https://doi.org/10.3758/s13428-025-02932-8",
           "filter": 0,
           "created": "2026-1-21"
+        },
+        {
+          "title": "Measuring individual differences in the speed of attention using the distractor intrusion task",
+          "authors": "Alon Zivony, Claudia C. von Bastian, Rachel Pye",
+          "abstract": "How quickly we attend to objects plays an important role in navigating the world, especially in dynamic and rapidly changing environments. Measuring individual differences in attention speed is therefore an important, yet challenging, task. Although reaction times in visual search tasks have often been used as an intuitive proxy of such individual differences, these measures are limited by inconsistent levels of reliability and contamination by non-attentional factors. This study introduces the rate of post-target distractor intrusions (DI) in the rapid serial visual presentation (RSVP) paradigm as an alternative method of studying individual differences in the speed of attention. In RSVP, a target is presented for a brief duration and embedded among multiple distractors. DIs are reports of a subsequent distractor rather than the target and have previously been shown to be associated with the speed of attention. The present study explored the reliability and validity of DI rates as a measure of individual differences. In three studies, DI rates showed high internal consistency and test–retest reliability over a year (&gt;.90), even with a short task administration of only about 5 minutes. Moreover, DI rates were associated with measures related to attention speed, but not with unrelated measures of attentional control, reading speed, and attentional blink effects. Taken together, DI rates can serve as a useful tool for research into individual differences in the speed of attention. Links to a downloadable and easily executable DI experiment, as well as a brief discussion of methodological considerations, are provided to facilitate such future research.",
+          "url": "https://doi.org/10.3758/s13428-025-02916-8",
+          "doi": "https://doi.org/10.3758/s13428-025-02916-8",
+          "filter": 0,
+          "created": "2026-1-23"
+        },
+        {
+          "title": "Accuracy in parameter estimation and simulation approaches for sample-size planning accounting for item effects",
+          "authors": "Erin M. Buchanan, Mahmoud M. Elsherif, Jason Geller, Chris L. Aberson, Necdet Gurkan, Ettore Ambrosini, Tom Heyman, Maria Montefinese, Wolf Vanpaemel, Krystian Barzykowski, Carlota Batres, Katharina Fellnhofer, Guanxiong Huang, Joseph McFall, Gianni Ribeiro, Jan P. Röer, José L. Ulloa, Timo B. Roettger, K. D. Valentine, Antonino Visalli, Kathleen Schmidt, Martin R. Vasilev, Giada Viviani, Jacob F. Miranda, Savannah C. Lewis",
+          "abstract": "The planning of sample size for research studies often focuses on obtaining a significant result given a specified level of power, significance, and an anticipated effect size. This planning requires prior knowledge of the study design and a statistical analysis to calculate the proposed sample size. However, there may not be one specific testable analysis from which to derive power (Silberzahn et al., Advances in Methods and Practices in Psychological Science , 1 (3), 337356, 2018) or a hypothesis to test for the project (e.g., creation of a stimuli database). Modern power and sample size planning suggestions include accuracy in parameter estimation (AIPE, Kelley, Behavior Research Methods , 39 (4), 755–766, 2007; Maxell et al., Annual Review of Psychology , 59 , 537–563, 2008) and simulation of proposed analyses (Chalmers &amp; Adkins, The Quantitative Methods for Psychology , 16 (4), 248–280, 2020). These toolkits offer flexibility in traditional power analyses that focus on the if-this, then-that approach. However, both AIPE and simulation require either a specific parameter (e.g., mean, effect size, etc.) or a statistical test for planning sample size. In this tutorial, we explore how AIPE and simulation approaches can be combined to accommodate studies that may not have a specific hypothesis test or wish to account for the potential of a multiverse of analyses. Specifically, we focus on studies that use multiple items and suggest that sample sizes can be planned to measure those items adequately and precisely, regardless of the statistical test. This tutorial also provides multiple code vignettes and package functionality that researchers can adapt and apply to their own measures.",
+          "url": "https://doi.org/10.3758/s13428-025-02860-7",
+          "doi": "https://doi.org/10.3758/s13428-025-02860-7",
+          "filter": 0,
+          "created": "2026-1-23"
         }
       ],
       "articles_hidden": []
@@ -210,6 +201,14 @@
       "journal_short": "MBR",
       "articles": [
         {
+          "title": "Multiple Imputation of Missing Data in Moderated Factor Analysis",
+          "authors": "Joost R van Ginkel, Dylan Molenaar",
+          "url": "https://doi.org/10.1080/00273171.2025.2606868",
+          "doi": "https://doi.org/10.1080/00273171.2025.2606868",
+          "filter": 0,
+          "created": "2026-1-23"
+        },
+        {
           "title": "Time-Varying Path-Specific Direct and Indirect Effects: A Novel Approach to Examine Dynamic Behavioral Processes with Application to Smoking Cessation",
           "authors": "Yajnaseni Chakraborti, Recai M. Yucel, Megan E. Piper, Jeremy Mennis, Anthony J. Alberg, Timothy B. Baker, Donna L. Coffman",
           "url": "https://doi.org/10.1080/00273171.2026.2615659",
@@ -251,15 +250,6 @@
           "created": "2026-1-19"
         },
         {
-          "title": "One Country, One People? Racial Ethnic Minorities in the United States Perceive Their Community Norms Stronger Than European Americans",
-          "authors": "Mercedes A. Muñoz, Ariana Orvell, Cristina E. Salvador",
-          "abstract": "The United States is characterized as having relatively weak social norms compared to other countries. However, this characterization may be an oversimplification due to the cultural diversity that exists within the country. Four studies ( N = 1,537) examined whether and why U.S. racial minorities (East Asian, Latinx, and African Americans) perceive their racial community’s norms to be significantly stronger than European Americans and White immigrants to the United States (Studies 1–4). This difference was not due to increased perceived discrimination (Study 3) or concerns about out-group member punishment (Study 4). Instead, racial minorities’ stronger perceptions of community norms were motivated primarily by interdependence (Studies 1–4) and concerns about being punished by in-group members for not following norms (Study 4). These findings illustrate differences in norm strength between racial groups in a single country, deepening our understanding of how social norm perceptions may vary in a multicultural society.",
-          "url": "https://doi.org/10.1177/01461672251408108",
-          "doi": "https://doi.org/10.1177/01461672251408108",
-          "filter": 0,
-          "created": "2026-1-16"
-        },
-        {
           "title": "A Meta-Analysis of the Association Between Socioeconomic Status and Marital Satisfaction",
           "authors": "Samantha C. Dashineau, Piper Reed, Haley Aiken, Madyson Depoy, Susan C. South",
           "abstract": "This preregistered meta-analysis aimed to determine the association of marital satisfaction with two demographic variables that are often used as indicators of socioeconomic status: income and education. It was hypothesized that income and education would individually have small to moderate associations with marital satisfaction. Data from 25,171 participants across 47 separate manuscripts and datasets were meta-analyzed in a random effects model. Results indicated there was no significant effect for income, but a small, significant effect for education such that increased education was correlated with greater marital satisfaction. The effect of education on satisfaction was moderated by the percentage of African American participants in the sample, meaning that when the sample included a greater percentage of African Americans, the effect of education and satisfaction was stronger. Overall, results indicate that education may be an important contextual factor for married dyads and researchers should be cautioned against controlling for demographic variables.",
@@ -276,15 +266,6 @@
           "doi": "https://doi.org/10.1177/01461672251411348",
           "filter": 0,
           "created": "2026-1-21"
-        },
-        {
-          "title": "Friendship and Well-Being Among College Students From Diverse Socioeconomic Backgrounds",
-          "authors": "Nicole Melian, Tiffanie Cheng, Rebecca M. Carey",
-          "abstract": "College students from lower socioeconomic backgrounds often report worse well-being compared to their more privileged peers. This study investigates whether disparities in well-being are associated with relational experiences, with a focus on friendship dynamics. Using a year-long multiwave survey, we investigate key features of friend networks that are linked to well-being among first-generation, low-income (FLI) students and their continuing-generation, higher-income (CHI) peers. We find that, for FLI students, better well-being is uniquely and consistently linked to similarity and academic support in their friend networks. Furthermore, disparities in well-being between FLI and CHI students are largest when FLI students' friend networks are more socioeconomically diverse and completely mitigated when they are less diverse. These findings underscore that in socioeconomically diverse college environments, friendships are not one-size-fits-all in their ability to meet the needs of individuals.",
-          "url": "https://doi.org/10.1177/01461672251406664",
-          "doi": "https://doi.org/10.1177/01461672251406664",
-          "filter": 0,
-          "created": "2026-1-16"
         }
       ],
       "articles_hidden": []
