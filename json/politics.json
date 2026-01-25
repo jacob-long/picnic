@@ -1,5 +1,5 @@
 {
-  "update": "2026-01-24",
+  "update": "2026-01-25",
   "content": [
     {
       "journal_full": "American Political Science Review",
@@ -90,12 +90,36 @@
       "journal_short": "ElectStud",
       "articles": [
         {
+          "title": "The myth of compensatory effects: How party organisation shapes women's representation in dual-candidacy mixed electoral systems",
+          "authors": "Heinz Brandenburg, Maarja Lühiste",
+          "url": "https://doi.org/10.1016/j.electstud.2026.103057",
+          "doi": "https://doi.org/10.1016/j.electstud.2026.103057",
+          "filter": 0,
+          "created": "2026-1-24"
+        },
+        {
           "title": "Just like me? Testing descriptive attributes as voting heuristics",
           "authors": "Leonie Rettig, Lukas Isermann",
           "url": "https://doi.org/10.1016/j.electstud.2026.103045",
           "doi": "https://doi.org/10.1016/j.electstud.2026.103045",
           "filter": 0,
           "created": "2026-1-18"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "European Journal of Political Research",
+      "journal_short": "EJPR",
+      "articles": [
+        {
+          "title": "Improving hate speech detection with large language models",
+          "authors": "Natalia Umansky, Maël Kubli, Ana Kotarcic, Laura Bronner, Selina Kurer, Philip Grech, Dominik Hangartner, Fabrizio Gilardi, Karsten Donnay",
+          "abstract": "Efforts to curb online hate speech depend on our ability to reliably detect it at scale. Previous studies have highlighted the strong zero-shot classification performance of large language models (LLMs), offering a potential tool to efficiently identify harmful content. Yet for complex and ambivalent tasks like hate speech detection, pre-trained LLMs can be insufficient and carry systemic biases. Domain-specific models fine-tuned for the given task and empirical context could help address these issues, but, as we demonstrate, the quality of data used for fine-tuning decisively matters. In this study, we fine-tuned GPT-4o-mini using a unique corpus of online comments annotated by diverse groups of coders with varying annotation quality: research assistants, activists, two kinds of crowd workers, and citizen scientists. We find that only annotations from those groups of annotators that are better than zero-shot GPT-4o-mini in recognizing hate speech improve the classification performance of the fine-tuned LLM. Specifically, fine-tuning using the highest-quality annotator group – trained research assistants – boosts classification performance by increasing the model’s precision without notably sacrificing the good recall of zero-shot GPT-4o-mini. In contrast, lower-quality annotations do not improve and may even decrease the ability to identify hate speech. By examining tasks reliant on human judgment and context, we offer insights that go beyond hate speech detection.",
+          "url": "https://doi.org/10.1017/s1475676525100546",
+          "doi": "https://doi.org/10.1017/s1475676525100546",
+          "filter": 0,
+          "created": "2026-1-23"
         }
       ],
       "articles_hidden": []
@@ -148,6 +172,14 @@
           "created": "2026-1-22"
         },
         {
+          "title": "The Heterogeneous Associations of Rural Consciousness and Political Preferences",
+          "authors": "Trent Ollerenshaw",
+          "url": "https://doi.org/10.1007/s11109-025-10113-8",
+          "doi": "https://doi.org/10.1007/s11109-025-10113-8",
+          "filter": 0,
+          "created": "2026-1-23"
+        },
+        {
           "title": "Toward a Theory and Measure of Racial Benevolence",
           "authors": "Edana Beauvais, Adam M. Enders",
           "url": "https://doi.org/10.1007/s11109-025-10117-4",
@@ -185,6 +217,14 @@
           "doi": "https://doi.org/10.1016/j.polgeo.2026.103497",
           "filter": 0,
           "created": "2026-1-22"
+        },
+        {
+          "title": "Pursuing accountability under authoritarian rule: Thailand's National Human Rights Commission and community struggles for justice",
+          "authors": "Zali Fung",
+          "url": "https://doi.org/10.1016/j.polgeo.2025.103478",
+          "doi": "https://doi.org/10.1016/j.polgeo.2025.103478",
+          "filter": 0,
+          "created": "2026-1-23"
         }
       ],
       "articles_hidden": []
@@ -193,6 +233,15 @@
       "journal_full": "Political Psychology",
       "journal_short": "PolPsyc",
       "articles": [
+        {
+          "title": "Corruption erodes people's beliefs in morality and justice",
+          "authors": "Miguel R. Ramos, Marcelo Moriconi, Sibila Marques, Carla Branco",
+          "abstract": "In this research, we argue that corruption adversely affects individuals' perceived morality of politicians and their sense of justice, eroding some key values by which societies are guided. We further analyzed how the erosion of these key values might be negatively associated with people's well‐being. We found support for our contentions through multiple studies, including a cross‐national study comprising 82 countries surveyed over 32 years (Study 1, n = 210,207). This large‐scale study was further supported by two experimental studies (Studies 2 and 3, n = 449) elucidating the mechanisms and causality involved in these processes. Our findings showed that corruption leads individuals to ascribe lower morality to politicians, which in turn is associated with lower perceptions of justice. Our data show that this process is negatively associated with well‐being, contributing to a broader understanding of how corruption impacts individuals and societies.",
+          "url": "https://doi.org/10.1111/pops.70110",
+          "doi": "https://doi.org/10.1111/pops.70110",
+          "filter": 0,
+          "created": "2026-1-24"
+        },
         {
           "title": "The affective style of politics: Evidence from cross‐country surveys",
           "authors": "Julie Hassing Nielsen, Dan Mønster",
@@ -226,6 +275,24 @@
           "doi": "https://doi.org/10.1017/psrm.2025.10083",
           "filter": 0,
           "created": "2026-1-21"
+        },
+        {
+          "title": "Conditional relationships in dynamic models",
+          "authors": "Zach Warner, Garrett N. Vande Kamp, Soren Jordan",
+          "abstract": "Many political science theories posit empirical relationships that are conditioned by some moderating variable, which scholars model using a multiplicative interaction term in a regression. In recent years, scholars have begun using such terms in dynamic regression models with time series data. However, the lack of guidance on adding multiplicative interactions to these workhorse models exposes problems with the consistency of the estimator, model restrictions, and interpretation. This paper provides theoretical and practical guidance to address these problems. First, we define the conditions under which scholars can ensure consistent estimates when estimating relationships conditioned by a moderating variable in dynamic models. Second, we introduce a general model that makes no theoretical assumptions about precisely how conditional relationships unfold over time. Third, we develop a flexible approach for interpreting such models. We demonstrate the advantages of this framework with simulation evidence and an empirical application.",
+          "url": "https://doi.org/10.1017/psrm.2026.10087",
+          "doi": "https://doi.org/10.1017/psrm.2026.10087",
+          "filter": 0,
+          "created": "2026-1-23"
+        },
+        {
+          "title": "Forecasting the use of force: a word embedding analysis of China’s rhetoric and military escalations",
+          "authors": "Jackie S.H. Wong",
+          "abstract": "Is an autocracy’s official rhetoric a reliable proxy for forecasting military escalation? While the conventional hands-tying mechanism argues that official rhetoric binds leaders to stated positions and limits their ability to back down, recent scholarship on bluster suggests that autocracies may employ hawkish rhetoric to justify de-escalation ex-post. This study evaluates these competing perspectives by analyzing China’s official rhetoric and military behavior in the Taiwan Strait from 2016 to 2022. Employing a word-embedding approach, I construct an original Chinese-language lexicon capturing implicit threats from over two million state-media articles. I show that increases in China’s implicit threats toward Taiwan are associated with a higher likelihood of military escalation, implying that official rhetoric conveys predictive information rather than mere cheap talk.",
+          "url": "https://doi.org/10.1017/psrm.2025.10085",
+          "doi": "https://doi.org/10.1017/psrm.2025.10085",
+          "filter": 0,
+          "created": "2026-1-24"
         }
       ],
       "articles_hidden": []
@@ -282,6 +349,22 @@
           "doi": "https://doi.org/10.1007/s11127-025-01360-8",
           "filter": 0,
           "created": "2026-1-22"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Research & Politics",
+      "journal_short": "RAP",
+      "articles": [
+        {
+          "title": "Deep canvassing with automated conversational agents: Personalized messaging to change attitudes",
+          "authors": "Molly Offer-Westort, Jiehan Liu, Nick Feamster, Kartik Garg, Nguyen Phong Hoang, Sudhamshu Hosamane",
+          "abstract": "We test a social media conversational agent for canvassing on the topic of anti-transgender prejudice, replicating and benchmarking treatment effects. In-person deep canvassing is the gold standard for durably changing attitudes on polarizing topics. However, door-to-door canvassing is costly, and many populations may not be feasibly reached in this manner. Campaigns are already conducting outreach using digital tools, including text messages and social media. If appropriately trained agents messaging over social media can achieve a fraction of the effect of in-person canvassing, canvassing may be scaled up to achieve large overall impacts at lower costs. Scripts used in this application are based on those used by transgender allies in the original study. To personalize messaging, the conversational agent uses natural language processing to detect conversational topics, and shares relevant pre-scripted messages of information and third-person experiences, encouraging respondents to engage in perspective-taking with respect to an outgroup. This study demonstrates the potential of automated social media messaging for deep canvassing, with possible applications by governments, public health agencies, and political organizations. Estimated effects are positive and significant under covariate adjustment and reweighting; due to important differential attrition, partial-identification bounds are also reported and include zero.",
+          "url": "https://doi.org/10.1177/20531680251414926",
+          "doi": "https://doi.org/10.1177/20531680251414926",
+          "filter": 0,
+          "created": "2026-1-24"
         }
       ],
       "articles_hidden": []
