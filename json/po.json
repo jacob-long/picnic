@@ -1,5 +1,5 @@
 {
-  "update": "2026-01-28",
+  "update": "2026-01-29",
   "content": [
     {
       "journal_full": "Journal of Official Statistics",
@@ -21,6 +21,24 @@
       "journal_full": "Journal of Survey Statistics and Methodology",
       "journal_short": "JSSAM",
       "articles": [
+        {
+          "title": "Reducing the Bias From Probability and Nonprobability Online Panels by Excluding Satisficers",
+          "authors": "Sam Slamowicz, Darren Pennay, Dina Neiger, Benjamin Phillips, Andrew C Ward, Michael Xu",
+          "abstract": "Over the last 15 years or so, many studies have compared the accuracy of estimates produced when the same questionnaire is administered to samples generated using probability and nonprobability sampling methods. Most studies conclude that estimates from probability sample surveys are more accurate than estimates from nonprobability sample surveys. In trying to understand why probability sample surveys generally produce more accurate estimates than nonprobability sample surveys, most research has focused on the differences in survey samples reached as a result of the sampling mechanisms used by each approach, and looked to various adjustment (weighting) approaches to bring the nonprobability sample estimates closer to the comparative probability sample estimates and independent benchmarks. Less common, however, are comparative studies that focus on measurement error. This study compares estimates generated from five Australian online panels; one probability-based online panel and four nonprobability online panels. We use widely implemented techniques to identify instances of survey satisficing—the phenomenon of survey respondents providing lower quality responses to reduce cognitive effort. When comparing the level of satisficing across panels, a higher proportion of respondents in the nonprobability panels give responses consistent with satisficing than in the probability panel. We then show that excluding these suboptimal responses from our analysis dataset, before weighting, results in a greater bias reduction across the nonprobability panels than weighting alone, and that this is the case across all four nonprobability panels. In contrast, very little change to bias is observed after applying the same exclusions to the probability panel. We end with a call for others to undertake similar research in the hope that this approach might become part of the toolkit of techniques being developed to reduce the bias in survey estimates generated from nonprobability online samples.",
+          "url": "https://doi.org/10.1093/jssam/smaf019",
+          "doi": "https://doi.org/10.1093/jssam/smaf019",
+          "filter": 0,
+          "created": "2025-8-12"
+        },
+        {
+          "title": "Estimating the Number of Street Vendors in New York City: Ratio Estimation with Point Process Data",
+          "authors": "Jonathan Auerbach",
+          "abstract": "We estimate the number of street vendors in New York City. First, we summarize the process by which vendors receive licenses and permits to operate legally in New York City. We then describe a survey that was administered by the Street Vendor Project while distributing coronavirus relief aid to vendors operating in New York City, both with and without a license or permit. Finally, we review ratio estimation and develop a theoretical justification based on the theory of point processes. We find approximately 23,000 street vendors operate in New York City—20,500 mobile food vendors and 2,400 general merchandise vendors—with one-third located in just six ZIP Codes—11368 (16 percent), 11372 (3 percent), and 11354 (3 percent) in North and West Queens and 10036 (5 percent), 10019 (4 percent), and 10001 (3 percent) in the Chelsea and Clinton neighborhoods of Manhattan. Our estimates suggest the American Community Survey misses the majority of New York City street vendors.",
+          "url": "https://doi.org/10.1093/jssam/smaf051",
+          "doi": "https://doi.org/10.1093/jssam/smaf051",
+          "filter": 0,
+          "created": "2025-11-21"
+        },
         {
           "title": "PREDICTION OF POVERTY PROPORTIONS UNDER RANDOM REGRESSION COEFFICIENTS TWO-FOLD FAY-HERRIOT MODELS",
           "authors": "Naomi Diz-Rosales, María José Lombardía, Domingo Morales",
@@ -54,6 +72,15 @@
       "journal_short": "SSCR",
       "articles": [
         {
+          "title": "Harnessing Big Data, Hindered by Bias: Evaluating TikTok Research API for Fair and Optimal Social Sciences",
+          "authors": "Dan Bai, Yan Gu",
+          "abstract": "Digital platforms now serve as crucial archives for analysing societal trends, yet their research APIs pose methodological challenges. This study critically evaluates TikTok Research API through comparative analysis of 6,373 videos from 14 creators in the United States and United Kingdom (2020–2022), contrasting API-derived outputs with manual collection and third-party analytics. The API demonstrated scalability, retrieving more videos than alternative methods and providing 22 variables, including eight unavailable elsewhere. However, limitations were substantial: transcriptions covered about 10% of the content, with more transcripts returned from American male creators. Engagement metrics exhibited inconsistent accuracy across data sources, with the API showing systematically lower view counts but higher comment and share counts compared to manual collection. The number of videos varied depending on sample composition, indicating that small changes in inclusion criteria could shift outcomes disproportionately. These results highlight systematic inconsistencies, showing why multi-method approaches remain necessary despite automation. While TikTok Research API offers valuable scale and ethical compliance, its demographic biases and metadata inconsistencies compromise validity. The study advocates integrated auditing protocols and targeted API refinements to improve representativeness and accuracy in platform-based research.",
+          "url": "https://doi.org/10.1177/08944393251413277",
+          "doi": "https://doi.org/10.1177/08944393251413277",
+          "filter": 0,
+          "created": "2026-1-27"
+        },
+        {
           "title": "Global Gender Inequality Through Explainable AI: Machine Learning, Clustering, and SHAP Insights",
           "authors": "Sadullah Çelik, Cemile Zehra Köroğlu",
           "abstract": "Objective: This paper analyzes gender equality across countries in the year 2024 by using the GGGI, with the intention of disentangling the unseen structural and non-deterministic patterns. Instead of repeating the process of calculating the index, it is openly recognizing the compositional feature of the GGGI and the unseen similarities between the indices. Methods: This research employs a global cross-sectional study of 146 countries over the four primary GGGI sectors: economic participation, education, health and survival, and empowerment. Where OLS is only employed as a diagnostic test, as its almost perfect fit (R 2 ∼1) is squarely mechanical and lacks relevance for inference. Apart from ensemble models employed for predictions, K-means clustering, SHAP analysis, and GridSearchCV optimization are also used. Findings: The out-of-sample predictions demonstrate high levels of predictive accuracy, with Gradient Boosting models yielding an R 2 of approximately 0.90 and an RMSE of approximately 0.045, indicating that there is significant nonlinear information beyond index aggregation. Unsupervised clustering techniques show that there are seven distinct country clusters that go beyond traditional geographic and income divisions, which can be identified with more than 93% accuracy. The SHAP results show that empowerment and economic participation are drivers, while there is insignificant variation in healthcare. Contribution: This study identifies the boundaries of regression analysis in index research, as well as the advantages of machine learning analysis in determining structural patterns related to gender equity.",
@@ -61,15 +88,6 @@
           "doi": "https://doi.org/10.1177/08944393261419809",
           "filter": 0,
           "created": "2026-1-22"
-        },
-        {
-          "title": "From Search to Separation: Digital Behavioral Decoupling and the Predictive Power of Google Trends for Divorce Outcomes Across Four Western Nations",
-          "authors": "Emre Can Kuran, Umut Kuran",
-          "abstract": "Digital search platforms enable real-time observation of relationship distress through behavioral traces. This study tests whether Google Trends predicts official divorce rates in the United States, Germany, the Netherlands, and the United Kingdom from 2009 to 2023. We introduce Digital Behavioral Decoupling, in which online distress signals diverge from legal outcomes as divorce shifts from an institutional procedure to an emotionally mediated digital phenomenon. Methods include unit root tests, cointegration analysis, Granger causality, spectral coherence, and rolling-origin nowcasting. Search queries are grouped into pre-divorce (cognitive distress), during-divorce (procedural action), and post-divorce (emotional recovery) phases. Results show 62.5% of terms lead divorce rates by 1–2 years, yet only 8.3% remain significant after False Discovery Rate correction. The Netherlands demonstrates 100% forecast improvements beyond autoregressive models (DM 2.87–3.43, p &lt; 0.02) across all search terms, from early relationship therapy queries through procedural and post-divorce searches, indicating systematic capture of the entire divorce pathway. Germany shows intermediate results with 33% forecast success beyond autoregressive benchmarks (DM 2.40–2.81) limited to problem-recognition terms, suggesting episodic crisis-driven engagement. The United States and United Kingdom show no forecast gains beyond autoregressive models despite high search volumes, consistent with information saturation in normalized divorce cultures. Lead-lag relationships are frequency-specific, concentrated at 3–5 year periodicities. Findings link family sociology with affective computing and provide a replicable toolkit for tracking relationship dissolution in algorithmically curated information environments.",
-          "url": "https://doi.org/10.1177/08944393261419796",
-          "doi": "https://doi.org/10.1177/08944393261419796",
-          "filter": 0,
-          "created": "2026-1-21"
         },
         {
           "title": "Avatar Anthropomorphism and Metaverse Marketing Adoption: A Social Cognitive Perspective",
