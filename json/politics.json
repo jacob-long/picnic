@@ -1,5 +1,5 @@
 {
-  "update": "2026-01-30",
+  "update": "2026-01-31",
   "content": [
     {
       "journal_full": "Annual Review of Political Science",
@@ -53,13 +53,13 @@
       "journal_short": "EJPR",
       "articles": [
         {
-          "title": "Improving hate speech detection with large language models",
-          "authors": "Natalia Umansky, Maël Kubli, Ana Kotarcic, Laura Bronner, Selina Kurer, Philip Grech, Dominik Hangartner, Fabrizio Gilardi, Karsten Donnay",
-          "abstract": "Efforts to curb online hate speech depend on our ability to reliably detect it at scale. Previous studies have highlighted the strong zero-shot classification performance of large language models (LLMs), offering a potential tool to efficiently identify harmful content. Yet for complex and ambivalent tasks like hate speech detection, pre-trained LLMs can be insufficient and carry systemic biases. Domain-specific models fine-tuned for the given task and empirical context could help address these issues, but, as we demonstrate, the quality of data used for fine-tuning decisively matters. In this study, we fine-tuned GPT-4o-mini using a unique corpus of online comments annotated by diverse groups of coders with varying annotation quality: research assistants, activists, two kinds of crowd workers, and citizen scientists. We find that only annotations from those groups of annotators that are better than zero-shot GPT-4o-mini in recognizing hate speech improve the classification performance of the fine-tuned LLM. Specifically, fine-tuning using the highest-quality annotator group – trained research assistants – boosts classification performance by increasing the model’s precision without notably sacrificing the good recall of zero-shot GPT-4o-mini. In contrast, lower-quality annotations do not improve and may even decrease the ability to identify hate speech. By examining tasks reliant on human judgment and context, we offer insights that go beyond hate speech detection.",
-          "url": "https://doi.org/10.1017/s1475676525100546",
-          "doi": "https://doi.org/10.1017/s1475676525100546",
+          "title": "Beyond partisanship: Ideological identities and affective evaluations",
+          "authors": "Ida Bæk Hjermitslev, Markus Wagner",
+          "abstract": "Research on affective polarization has largely focused on partisanship as the source of political social identities. However, identities also form around ideological divisions such as liberal/conservative or left/right, particularly in contexts where ideological divisions are more permanent than parties. In this paper, we study ideological identities and how they influence interpersonal affect. In our survey ( n = 2152), conducted in Germany, many individuals declare ideological identities, and these are of similar strength as partisan identities. We also run a conjoint survey experiment where respondents evaluate individuals with varying personal characteristics and, crucially, see varying amounts of information: only ideological affiliation, or also partisanship, policy stances, and/or political interest. We find that ideological affiliation matters for how respondents evaluate individuals, even when extensive additional information is present. However, ideology is slightly less relevant than partisanship, while policy stances are privileged over both. Our findings imply that we should broaden our lens in studying affective polarization to encompass political identities beyond partisanship.",
+          "url": "https://doi.org/10.1017/s147567652510056x",
+          "doi": "https://doi.org/10.1017/s147567652510056x",
           "filter": 0,
-          "created": "2026-1-23"
+          "created": "2026-1-30"
         },
         {
           "title": "From context to congruence: Immigration salience and voter socialization",
@@ -69,6 +69,15 @@
           "doi": "https://doi.org/10.1017/s1475676525100534",
           "filter": 0,
           "created": "2026-1-26"
+        },
+        {
+          "title": "High emissions, low engagement? How members of parliament represent the carbon footprint of their constituents",
+          "authors": "Lucas Geese, Chantal Sullivan-Thomsett",
+          "abstract": "Many affluent democracies have pledged to achieve ‘net zero’ greenhouse gas emissions by mid-century. Achieving these targets would denote important national contributions to the international goal of keeping global warming ‘well below’ 2°C as agreed in the 2015 Paris agreement. Yet pursuing the necessary long-term decarbonisation policies influencing individuals’ everyday lives will require a considerable and enduring level of political leadership. But what enables or constrains politicians to perform such leadership? To date, little is known about the factors influencing politicians’ willingness to advocate for decarbonisation measures in the short-term for the long-term gain of climate change mitigation. This study draws on rare data of consumers’ carbon footprints, parliamentary speechmaking, and qualitative elite interviews in a mixed-methods research design to study how the intensity of constituents’ consumption-based carbon emissions influences the decarbonisation-focused behaviour of members of parliament (MPs) in the UK. Our quantitative findings reveal that MPs pay considerably less attention to decarbonisation issues when they represent carbon-intense constituencies. Moreover, this effect is particularly pronounced for Conservative MPs and amplified in marginal seats. The qualitative interview evidence helps to contextualise these quantitative findings, suggesting that MPs consider the decarbonisation of lifestyles a crucial political challenge and that their electoral considerations and party-political contexts play an important role in how they handle this challenge. Overall, our study draws a sobering picture of politicians’ willingness to sacrifice short-term electoral gains for the long-term prospect of net zero, especially for those MPs representing constituencies that could make high-impact contributions to nationwide emission cuts.",
+          "url": "https://doi.org/10.1017/s1475676526100681",
+          "doi": "https://doi.org/10.1017/s1475676526100681",
+          "filter": 0,
+          "created": "2026-1-30"
         },
         {
           "title": "Enhancing public support for international sanctions: An information provision experiment",
@@ -117,6 +126,22 @@
       "articles_hidden": []
     },
     {
+      "journal_full": "Political Analysis",
+      "journal_short": "PA",
+      "articles": [
+        {
+          "title": "Potential and Pitfalls of Audio as Data for Political Research: Alignment, Features, and Classification Models",
+          "authors": "Rafael Mestre, Matt Ryan",
+          "abstract": "Political science is a field rich in multimodal information sources, from televised debates to parliamentary briefings. This paper bridges a gap between computer and political science in multimodal data analysis using audio. The adoption of multimodal analyses in political science (e.g., video/audio with text-as-data approaches) has been relatively slow due to unequal distribution of computational power and skills needed. We provide solutions to challenges encountered when analyzing audio, advancing the potential for multimodal data analysis in political science. Using a dataset of all televised U.S. presidential debates from 1960 to 2020, we focus on three features encountered when analyzing audio data: low-level descriptors (LLDs), such as pitch or energy; Mel-frequency cepstral coefficients (MFCCs); and audio embeddings/encodings, like Wav2Vec. We showcase four applications: (a) forced alignment of audio text using MFCCs, time-stamping transcripts, and speaker information; (b) speech characterization using LLDs; (c) custom-made classification models with audio embeddings and MFCCs; and (d) emotional recognition models using Wav2Vec for classification of discrete emotions and their valence-arousal dominance. We provide explanations to help understand how these features can be applied for different political research questions and advice on vigilance to naive interpretation, for both experienced researchers and those who want to start working with audio.",
+          "url": "https://doi.org/10.1017/pan.2025.10031",
+          "doi": "https://doi.org/10.1017/pan.2025.10031",
+          "filter": 0,
+          "created": "2026-1-30"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Political Behavior",
       "journal_short": "PolBehav",
       "articles": [
@@ -127,14 +152,6 @@
           "doi": "https://doi.org/10.1007/s11109-026-10120-3",
           "filter": 0,
           "created": "2026-1-27"
-        },
-        {
-          "title": "The Heterogeneous Associations of Rural Consciousness and Political Preferences",
-          "authors": "Trent Ollerenshaw",
-          "url": "https://doi.org/10.1007/s11109-025-10113-8",
-          "doi": "https://doi.org/10.1007/s11109-025-10113-8",
-          "filter": 0,
-          "created": "2026-1-23"
         }
       ],
       "articles_hidden": []
@@ -143,14 +160,6 @@
       "journal_full": "Political Geography",
       "journal_short": "PolGeo",
       "articles": [
-        {
-          "title": "Pursuing accountability under authoritarian rule: Thailand's National Human Rights Commission and community struggles for justice",
-          "authors": "Zali Fung",
-          "url": "https://doi.org/10.1016/j.polgeo.2025.103478",
-          "doi": "https://doi.org/10.1016/j.polgeo.2025.103478",
-          "filter": 0,
-          "created": "2026-1-23"
-        },
         {
           "title": "Testing the liberal borders of the EU: (De)Constructing the right of asylum through informality",
           "authors": "Francesca Fortarezza",
@@ -176,6 +185,15 @@
           "created": "2026-1-24"
         },
         {
+          "title": "Investigating generalized versus case‐by‐case support for labor unions",
+          "authors": "Grace Flores‐Robles, Ana P. Gantman, Kevin Carriere",
+          "abstract": "Across industries, workers, and the general public, activity by and support for labor unions seems to be increasing, alongside falling membership and legislative losses. How do we make sense of these seemingly contradictory parallel trends? In four studies ( N = 996), we find that support for unions is high in the United States. However, we find that support varies based on both individual‐ and group‐level factors. Specifically, conservatism and system‐justifying ideologies are negatively related to union support, whereas structural attributions for poverty are positively related to union support. We also find left–right ideological differences in union support; conservatives are less likely to support unions overall (but are relatively more supportive of police unions) compared to liberals. In contrast, liberals are more supportive of labor unions more generally than conservatives, and are more likely to support teachers' unions than police unions. Overall, support for unions is high but not generalized; worldviews, ideology, and type of labor differentiate that support.",
+          "url": "https://doi.org/10.1111/pops.70113",
+          "doi": "https://doi.org/10.1111/pops.70113",
+          "filter": 0,
+          "created": "2026-1-30"
+        },
+        {
           "title": "Rebels without a cause: Collective narcissism and political contrarianism",
           "authors": "Christopher M. Federico, Agnieszka Golec de Zavala, Tomasz Baran",
           "abstract": "In this paper, we examine the relationship between collective and individual forms of narcissism and two contrarian political orientations that are oppositional and purposefully destructive—need for chaos and anti‐establishment orientation. In three studies (total N = 4144), we demonstrate that (1) national collective narcissism independently predicts higher need for chaos and anti‐establishment orientation, (2) non‐narcissistic ingroup satisfaction independently predicts lower levels of both contrarian orientations, (3) grandiose narcissism independently predicts higher need for chaos but not anti‐establishment orientation, and (4) vulnerable narcissism independently predicts higher levels of both outcomes. We provide evidence for these relationships in cross‐sectional regression analyses and in panel analyses that examine within‐person construct changes from before to after the 2023 Polish election and better account for time‐invariant confounders. Together, these findings suggest contrarian orientations may reflect a (frustrated) narcissistic demand to be recognized as better than others, both collectively and individually.",
@@ -191,15 +209,6 @@
       "journal_full": "Political Science Research and Methods",
       "journal_short": "PSRM",
       "articles": [
-        {
-          "title": "Conditional relationships in dynamic models",
-          "authors": "Zach Warner, Garrett N. Vande Kamp, Soren Jordan",
-          "abstract": "Many political science theories posit empirical relationships that are conditioned by some moderating variable, which scholars model using a multiplicative interaction term in a regression. In recent years, scholars have begun using such terms in dynamic regression models with time series data. However, the lack of guidance on adding multiplicative interactions to these workhorse models exposes problems with the consistency of the estimator, model restrictions, and interpretation. This paper provides theoretical and practical guidance to address these problems. First, we define the conditions under which scholars can ensure consistent estimates when estimating relationships conditioned by a moderating variable in dynamic models. Second, we introduce a general model that makes no theoretical assumptions about precisely how conditional relationships unfold over time. Third, we develop a flexible approach for interpreting such models. We demonstrate the advantages of this framework with simulation evidence and an empirical application.",
-          "url": "https://doi.org/10.1017/psrm.2026.10087",
-          "doi": "https://doi.org/10.1017/psrm.2026.10087",
-          "filter": 0,
-          "created": "2026-1-23"
-        },
         {
           "title": "Inclusion to exclude: how femonationalism impacts policy preferences",
           "authors": "Sophie Mainz",
