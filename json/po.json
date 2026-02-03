@@ -1,6 +1,37 @@
 {
-  "update": "2026-02-01",
+  "update": "2026-02-03",
   "content": [
+    {
+      "journal_full": "Journal of Elections, Public Opinion and Parties",
+      "journal_short": "JEPOP",
+      "articles": [
+        {
+          "title": "Anger, negative partisanship, and joy in the suffering of political others",
+          "authors": "Steven W. Webster, Mary Adams Plooster",
+          "url": "https://doi.org/10.1080/17457289.2026.2624129",
+          "doi": "https://doi.org/10.1080/17457289.2026.2624129",
+          "filter": 0,
+          "created": "2026-2-2"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Journal of Official Statistics",
+      "journal_short": "JOS",
+      "articles": [
+        {
+          "title": "How Does Noise Protection Affect the Accuracy of Life Expectancy and Other Demographic Indicators?",
+          "authors": "Fabian Bach",
+          "abstract": "New and efficient methods based on noise addition to protect the confidentiality in population statistics have been developed, tested, and applied in census production by various members of the European Statistical System over the past years. Basic demographic statistics—such as population stocks, live births and deaths by age, sex, and region—may be protected in a similar way, but also form the raw input to calculate various demographic indicators. This paper analyzes the impact on the accuracy of some selected indicators, namely fertility and mortality rates and life expectancies, under the assumption that the raw input counts are protected with a generic noise method with fixed variance parameter, by comparing the size of noise uncertainties with intrinsic statistical uncertainties using a Poisson model. As a by-product, we derive and validate numerically a closed analytical expression for the variance of life expectancies in a certain class of calculation models as a function of the variance of input mortality data. This expression also allows to calculate analytically the statistical uncertainty of life expectancies using the mentioned Poisson model for the input death counts.",
+          "url": "https://doi.org/10.1177/0282423x251414001",
+          "doi": "https://doi.org/10.1177/0282423x251414001",
+          "filter": 0,
+          "created": "2026-2-2"
+        }
+      ],
+      "articles_hidden": []
+    },
     {
       "journal_full": "Journal of Survey Statistics and Methodology",
       "journal_short": "JSSAM",
@@ -40,15 +71,6 @@
       "journal_short": "SSCR",
       "articles": [
         {
-          "title": "Harnessing Big Data, Hindered by Bias: Evaluating TikTok Research API for Fair and Optimal Social Sciences",
-          "authors": "Dan Bai, Yan Gu",
-          "abstract": "Digital platforms now serve as crucial archives for analysing societal trends, yet their research APIs pose methodological challenges. This study critically evaluates TikTok Research API through comparative analysis of 6,373 videos from 14 creators in the United States and United Kingdom (2020–2022), contrasting API-derived outputs with manual collection and third-party analytics. The API demonstrated scalability, retrieving more videos than alternative methods and providing 22 variables, including eight unavailable elsewhere. However, limitations were substantial: transcriptions covered about 10% of the content, with more transcripts returned from American male creators. Engagement metrics exhibited inconsistent accuracy across data sources, with the API showing systematically lower view counts but higher comment and share counts compared to manual collection. The number of videos varied depending on sample composition, indicating that small changes in inclusion criteria could shift outcomes disproportionately. These results highlight systematic inconsistencies, showing why multi-method approaches remain necessary despite automation. While TikTok Research API offers valuable scale and ethical compliance, its demographic biases and metadata inconsistencies compromise validity. The study advocates integrated auditing protocols and targeted API refinements to improve representativeness and accuracy in platform-based research.",
-          "url": "https://doi.org/10.1177/08944393251413277",
-          "doi": "https://doi.org/10.1177/08944393251413277",
-          "filter": 0,
-          "created": "2026-1-27"
-        },
-        {
           "title": "α|D〉+β|H〉: Exploration of Quantum Deep Learning on Humanities Data from the Perspective of Digital Humanities",
           "authors": "Tao Fan, Hao Wang, Tobias Hodel",
           "abstract": "The emergence and advancement of new technologies present promising opportunities for data-driven research in the Digital Humanities (DH). As an innovative intersection of quantum computing and humanities data, Quantum Humanities (QH) holds significant research potential. However, current studies related to QH remain scarce with limited applications involving quantum deep learning, and its feasibility, effectiveness, and efficiency on humanities data need in-depth exploration. To address this gap, this paper takes the role type recognition of painted faces of Beijing Opera as a case study. Several classical and competitive quantum deep learning–based and classical deep learning–based models (e.g., quantum convolutional neural networks and classical convolutional neural networks) are selected for comparison on the public image dataset Painted Faces of Beijing Opera digitized from books. Extensive empirical experimental results demonstrate that quantum deep learning–based models are of certain advantages and hold promising prospects in applied DH practices.",
@@ -56,6 +78,15 @@
           "doi": "https://doi.org/10.1177/08944393261416783",
           "filter": 0,
           "created": "2026-1-31"
+        },
+        {
+          "title": "Harnessing Big Data, Hindered by Bias: Evaluating TikTok Research API for Fair and Optimal Social Sciences",
+          "authors": "Dan Bai, Yan Gu",
+          "abstract": "Digital platforms now serve as crucial archives for analysing societal trends, yet their research APIs pose methodological challenges. This study critically evaluates TikTok Research API through comparative analysis of 6,373 videos from 14 creators in the United States and United Kingdom (2020–2022), contrasting API-derived outputs with manual collection and third-party analytics. The API demonstrated scalability, retrieving more videos than alternative methods and providing 22 variables, including eight unavailable elsewhere. However, limitations were substantial: transcriptions covered about 10% of the content, with more transcripts returned from American male creators. Engagement metrics exhibited inconsistent accuracy across data sources, with the API showing systematically lower view counts but higher comment and share counts compared to manual collection. The number of videos varied depending on sample composition, indicating that small changes in inclusion criteria could shift outcomes disproportionately. These results highlight systematic inconsistencies, showing why multi-method approaches remain necessary despite automation. While TikTok Research API offers valuable scale and ethical compliance, its demographic biases and metadata inconsistencies compromise validity. The study advocates integrated auditing protocols and targeted API refinements to improve representativeness and accuracy in platform-based research.",
+          "url": "https://doi.org/10.1177/08944393251413277",
+          "doi": "https://doi.org/10.1177/08944393251413277",
+          "filter": 0,
+          "created": "2026-1-27"
         },
         {
           "title": "Conspiracy or Public Service? Does Facebook’s Third-Party Fact-Checking Increase Conspiracy Beliefs Among Americans?",
