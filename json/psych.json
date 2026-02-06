@@ -1,6 +1,22 @@
 {
-  "update": "2026-02-05",
+  "update": "2026-02-06",
   "content": [
+    {
+      "journal_full": "Advances in Methods and Practices in Psychological Science",
+      "journal_short": "AMPPS",
+      "articles": [
+        {
+          "title": "Bridging Cultures in the Era of Big Data: A Cross-Language Equivalence Framework in Machine-Learning Research With Social Media Texts",
+          "authors": "Daphne Xin Hou, Stuti Thapa, Louis Tay",
+          "abstract": "Past research on cross-cultural equivalence has focused on statistical procedures and techniques for ensuring measurement equivalence in tests and surveys. With the rise of big data and machine learning (ML), particularly natural language processing, researchers have powerful tools to study culture using large-scale, organic language data from social media. However, the lack of methodological guidance on how to establish cross-language equivalence in cross-cultural studies, especially with multilingual or culturally diverse text data, poses a major challenge. To address this gap, in this article, we propose a framework to raise awareness of key equivalence challenges and offer practical guidance for reducing measurement biases when applying ML techniques to social media language data. The framework outlines five types of equivalence following the ML pipeline from data collection to evaluation: source equivalence, sample equivalence, input equivalence, psychological-ground-truth equivalence, and model-performance equivalence. We also draw parallels to survey-based research to highlight shared conceptual challenges and identify future directions to advance cross-cultural research with big data and computational-linguistic methods.",
+          "url": "https://doi.org/10.1177/25152459251398713",
+          "doi": "https://doi.org/10.1177/25152459251398713",
+          "filter": 0,
+          "created": "2026-2-4"
+        }
+      ],
+      "articles_hidden": []
+    },
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
@@ -15,15 +31,6 @@
           "created": "2026-1-30"
         },
         {
-          "title": "A comprehensive psychometrics of cognitive ability measures: Reliability, practice effects, and the stability of latent factor structures across retesting",
-          "authors": "Matthew K. Robison, Stephen Campbell, Lauren D. Garner, Ciara Sibley, Joseph Coyne",
-          "abstract": "The present study examined individual differences in 24 measures of cognitive ability in a sample of young adults ( N = 255). Each measure was completed twice, separated by a period of 2 weeks, to assess test–retest reliability and retesting (i.e., practice) effects. Latent variable modeling was used to assess the convergent and discriminant validity of the measures, as they were selected to measure seven different cognitive constructs (attention control, processing speed, working memory, primary memory, secondary memory, fluid intelligence, and spatial ability). The measures showed adequate to high intrasession and intersession reliability. Construct-level estimates were highly reliable, and the measurement structure was invariant across the two testing occasions. In several instances, correlations among latent variables warranted further testing to ensure adequate discriminability. Finally, latent state-trait modeling indicated that the majority of systematic variance in cognitive measures is due to latent traits, rather than state-specific or task-specific factors. We discuss the practical and theoretical implications of these findings.",
-          "url": "https://doi.org/10.3758/s13428-025-02897-8",
-          "doi": "https://doi.org/10.3758/s13428-025-02897-8",
-          "filter": 0,
-          "created": "2026-1-29"
-        },
-        {
           "title": "How well do large language models mirror human cognition of word concepts?: A comparison of psychological ratings for early-acquired English words",
           "authors": "Hiromichi Hagihara, Kazuki Miyazawa",
           "abstract": "This study examined how well large language models (LLMs) approximate human psychological ratings for early-acquired English words. We used four state-of-the-art LLMs, including GPT-4o and Meta-Llama-3.1, to evaluate 21 static psychological features for 695 words and compared these estimates with human norms. The results showed that LLMs aligned well with human ratings for some features (e.g., Concreteness, Bodily Interactiveness) in terms of rank correlations ( r s &gt; .82) and distributional similarities but diverged notably for others (e.g., Iconicity, Arousal; r s &lt; .48). Compared with content words, function words showed more pronounced discrepancies between human and LLM ratings. We also assessed how similarly human- and LLM-derived psychological features predicted words’ age of acquisition (AoA), revealing both strong correspondences and systematic biases, depending on the model (differences in correlations ranged from −.27 to .28). Based on these analyses, we identified which features may be reliably estimated using LLMs, which require further refinement, and what methodological considerations are necessary for applying LLM-based measures in cognitive science. We discuss the implications of using LLMs as methodological tools in psychology and cognitive science, highlighting both their practical advantages (e.g., data coverage and data collection efficiency) and theoretical relevance. The present study provides a novel framework for evaluating the cognitive plausibility of LLMs by using lexical psychological features, complementing existing benchmarks.",
@@ -33,12 +40,12 @@
           "created": "2026-2-2"
         },
         {
-          "title": "Scale abbreviation with supervised machine learning: A comparison of feature selection techniques",
-          "authors": "Wenshuo Li, Okan Bulut, Mark J. Gierl, Sheng Zhang",
-          "url": "https://doi.org/10.3758/s13428-025-02913-x",
-          "doi": "https://doi.org/10.3758/s13428-025-02913-x",
+          "title": "The Chameleon Paradigm: An effective method for masking biological motion stimuli",
+          "authors": "Jiaxu Zhao, Xin He, Yi Jiang, Min Bao",
+          "url": "https://doi.org/10.3758/s13428-025-02924-8",
+          "doi": "https://doi.org/10.3758/s13428-025-02924-8",
           "filter": 0,
-          "created": "2026-1-29"
+          "created": "2026-2-4"
         }
       ],
       "articles_hidden": []
@@ -48,14 +55,6 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "Attention hijacked: How social media notifications disrupt cognitive processing",
-          "authors": "Hippolyte Fournier, Arnaud Fournel, François Osiurak, Olivier Koenig, Flora Pâris, Vivien Gaujoux, Fabien Ringeval",
-          "url": "https://doi.org/10.1016/j.chb.2026.108926",
-          "doi": "https://doi.org/10.1016/j.chb.2026.108926",
-          "filter": 0,
-          "created": "2026-1-29"
-        },
-        {
           "title": "Framing responsibility: Human and AI agent effects on apology effectiveness in service failures",
           "authors": "Jihyun Soh, Eunice Kim",
           "url": "https://doi.org/10.1016/j.chb.2026.108931",
@@ -64,12 +63,20 @@
           "created": "2026-2-3"
         },
         {
-          "title": "Offended by the Algorithm: The Hidden Interpersonal Costs of Clients Seeking AI Second Opinion",
+          "title": "Offended by the algorithm: The hidden interpersonal costs of clients seeking AI second opinion",
           "authors": "Gerri Spassova, Mauricio Palmeira",
           "url": "https://doi.org/10.1016/j.chb.2026.108934",
           "doi": "https://doi.org/10.1016/j.chb.2026.108934",
           "filter": 0,
           "created": "2026-2-3"
+        },
+        {
+          "title": "Stimulated or Saturated? Biometric Analysis of Augmented Sport Experiences among Young Adults: The Role of Hedonic Innovativeness and Repeated Exposure",
+          "authors": "Yongjae Kim, Jin Woo Ahn",
+          "url": "https://doi.org/10.1016/j.chb.2026.108932",
+          "doi": "https://doi.org/10.1016/j.chb.2026.108932",
+          "filter": 0,
+          "created": "2026-2-5"
         },
         {
           "title": "Integrating Technology Acceptance, Self-Determination, and Self-Regulation: A Structural Model of Generative AI-Supported Learning and Competence",
@@ -136,14 +143,6 @@
           "created": "2025-10-24"
         },
         {
-          "title": "Screens or books? Isotemporal substitution of different home activities on language and socio-emotional skills in preschool children",
-          "authors": "Shifeng Li, Lin Chai, Lihong Ma, Shuyue Gu, Tao Wang, Li Wang, Jianhua Zhou",
-          "url": "https://doi.org/10.1016/j.chb.2025.108847",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108847",
-          "filter": 0,
-          "created": "2025-10-24"
-        },
-        {
           "title": "Online and offline need fulfillment seeking: The relation between need crafting profiles, well-being, and social media use",
           "authors": "Marlies Van de Casteele, Nele Flamant, Sofie Morbée, Daphne van den Bogaard, Maarten Vansteenkiste",
           "url": "https://doi.org/10.1016/j.chb.2025.108843",
@@ -152,12 +151,12 @@
           "created": "2025-10-26"
         },
         {
-          "title": "Creative personal identity in the age of generative AI: A social-cognitive pathway of AI literacy, self-efficacy, and mindset",
-          "authors": "Hanhui Li, Yurui Zhang, Mingwen Chen, Tao Zhao, Min Jou",
-          "url": "https://doi.org/10.1016/j.chb.2025.108838",
-          "doi": "https://doi.org/10.1016/j.chb.2025.108838",
+          "title": "Screens or books? Isotemporal substitution of different home activities on language and socio-emotional skills in preschool children",
+          "authors": "Shifeng Li, Lin Chai, Lihong Ma, Shuyue Gu, Tao Wang, Li Wang, Jianhua Zhou",
+          "url": "https://doi.org/10.1016/j.chb.2025.108847",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108847",
           "filter": 0,
-          "created": "2025-10-17"
+          "created": "2025-10-24"
         },
         {
           "title": "Self-disclosure in instant messaging: Do disclosure depth and dating style influence romantic jealousy?",
@@ -166,6 +165,14 @@
           "doi": "https://doi.org/10.1016/j.chb.2025.108846",
           "filter": 0,
           "created": "2025-10-29"
+        },
+        {
+          "title": "Creative personal identity in the age of generative AI: A social-cognitive pathway of AI literacy, self-efficacy, and mindset",
+          "authors": "Hanhui Li, Yurui Zhang, Mingwen Chen, Tao Zhao, Min Jou",
+          "url": "https://doi.org/10.1016/j.chb.2025.108838",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108838",
+          "filter": 0,
+          "created": "2025-10-17"
         },
         {
           "title": "Anterior-posterior dissociation of default mode network predicts problematic smartphone use: A multi-site longitudinal and transcriptomic analysis",
@@ -232,15 +239,6 @@
           "created": "2026-1-30"
         },
         {
-          "title": "Why we detach from other animals: Examining ingroup projection in human–animal relations",
-          "authors": "Maxim Trenkenschuh, Helen Landmann",
-          "abstract": "Understanding our relation to animals is essential to tackle global challenges that arise out of the prioritization of human over nonhuman animal interests, like in the case of meat consumption. Meat is linked to ethically questionable animal agriculture practices, climate change, biodiversity loss, and pandemics. To understand the prioritization and legitimization of the human–animal relation, we utilized the ingroup projection model for human–animal relations. In a correlational study ( N 1 = 652) and an experiment ( N 2 = 309), we investigated ingroup projection—the process in which humans project “their” traits onto the superordinate category of the animal kingdom. Ingroup projection was associated with less speciesism and less meat consumption justification. Opposite to interhuman relations, for those high in supremacy beliefs, diversity perception was related to reduced ingroup projection. Experimental evidence for the effect of diversity perception was inconsistent. However, ingroup projection was associated with less legitimizing beliefs across both studies. Based on these findings, we introduce the (ingroup projection model for human–animal relations as a special case of the ingroup projection model, which bridges research on human–animal relations with dehumanization and anthropomorphization research. Our work provides a further step towards an interdependent understanding of our connectedness to and detachment from the animal kingdom.",
-          "url": "https://doi.org/10.1177/13684302251403959",
-          "doi": "https://doi.org/10.1177/13684302251403959",
-          "filter": 0,
-          "created": "2026-1-29"
-        },
-        {
           "title": "Who cares about groups? The Group Orientation Scale measures differences in the general motivation for group belonging and concern for group goals",
           "authors": "Toon Kuppens, Antony S. R. Manstead, Russell Spears, Joseph Sweetman",
           "abstract": "Group and intergroup research often addresses the ways in which people care about a specific group but focuses less on caring about groups in general. Here, we investigate individual differences in how likely people are to join and invest in the groups to which they belong. This idea is related to collectivism, but collectivism measures have been plagued by theoretical and measurement weaknesses. We therefore developed a Group Orientation Scale and a Generalized Identification Scale to measure how much people care about groups, and test the scales’ predictive validity alongside related constructs. Both measures are reliable but the Group Orientation Scale items were found to be easier to comprehend. Furthermore, group orientation predicts identification with real and minimal groups, the intensity of emotional reactions to group concerns, contributions made in a public goods dilemma, intentions to engage in personal sacrifice to limit coronavirus infections, and motivation in group tasks.",
@@ -286,14 +284,21 @@
           "doi": "https://doi.org/10.1037/pspi0000516",
           "filter": 0,
           "created": "2026-2-2"
-        },
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Multivariate Behavioral Research",
+      "journal_short": "MBR",
+      "articles": [
         {
-          "title": "Do people across the world want to remember positive ingroup histories?",
-          "authors": "Fiona Kazarovytska, Katrín Árnadóttir, Silvana D'Ottone, Slieman Halabi, Edward Clarke, Suryodaya Sharma, Verena Heidrich, Roland Imhoff",
-          "url": "https://doi.org/10.1037/pspi0000513",
-          "doi": "https://doi.org/10.1037/pspi0000513",
+          "title": "Calculating and Interpreting Maximal Reliability in Bifactor Models",
+          "authors": "Sijia Li, Victoria Savalei",
+          "url": "https://doi.org/10.1080/00273171.2025.2612035",
+          "doi": "https://doi.org/10.1080/00273171.2025.2612035",
           "filter": 0,
-          "created": "2026-1-29"
+          "created": "2026-2-4"
         }
       ],
       "articles_hidden": []
@@ -319,15 +324,6 @@
           "doi": "https://doi.org/10.1177/01461672251404543",
           "filter": 0,
           "created": "2026-2-1"
-        },
-        {
-          "title": "Solidarity With Palestinians in Germany and the United Kingdom: The Distinctiveness of Beliefs, Emotions, and Attitudes for Third-Party Solidarity in Democratic, Yet Issue-Specific Repressive Contexts",
-          "authors": "Julia A. Schreiber, Özden Melis Uluğ, John Drury",
-          "abstract": "Most research on solidarity focuses on democratic, low-repressive contexts. However, support for Palestinians in the Global North shows that solidarity can also emerge in democracies with issue-specific repression, where costs and risks for solidarity are higher, and dominant narratives limit alternative perspectives. This article explores which beliefs, emotions, and attitudes predict low-cost (i.e., low effort/risk) and high-cost (i.e., high effort/risk) solidarity in such contexts. We conducted three studies during major Israel/Palestine escalations: a 2009 German convenience sample ( N = 305) and two 2024 representative samples from Germany ( N = 412) and the United Kingdom ( N = 409). Perceived peaceful intentions and guilt toward Palestinians predicted both types of solidarity. Perceived injustice and moral outrage were more linked to low-cost solidarity, while perceived collective ownership of the land was stronger for high-cost solidarity. Power imbalance, admiration, sympathy, hate, and antisemitism played no or minor roles for solidarity in these contexts. The results highlight the distinct nature of conflict-related solidarity under issue-specific repression compared to solidarity under low repression.",
-          "url": "https://doi.org/10.1177/01461672251407131",
-          "doi": "https://doi.org/10.1177/01461672251407131",
-          "filter": 0,
-          "created": "2026-1-29"
         },
         {
           "title": "The Relationship Between Educational Attainment and Right-Wing Authoritarianism: A Discordant Twin Study",
@@ -403,15 +399,6 @@
       "journal_short": "PsychSci",
       "articles": [
         {
-          "title": "*Social Rewards Protection Theory: Why People Morally Derogate Prosocial Actors for Undisclosed Personal Benefits",
-          "authors": "Sebastian Hafenbrädl",
-          "abstract": "Prosocial behavior is common and often socially rewarded (e.g., via liking, status, and trust). Yet prior research has found that if actors themselves also benefit from their prosocial behavior, then they are morally derogated: They are evaluated as worse than purely selfish actors. This tainted-altruism effect has been explained by the use of different counterfactuals for the evaluation of prosocial and selfish actors. Here I propose social rewards protection theory , which explains why evaluators use these different counterfactuals in the first place: Social rewards are treated as being reserved for costly prosocial actions. Claiming such rewards without incurring costs seems like cheating and thus deserves moral derogation. Accordingly, being transparent about the action’s costs and benefits prevents such derogation. I conducted six experiments (five preregistered) with Amazon Mechanical Turk (MTurk) workers in the United States and lab participants in Spain (total N = 4,732 adults). The findings provide support for the proposed functional explanation of tainted altruism, which also sheds light on related phenomena, such as overhead aversion and hypocrisy.",
-          "url": "https://doi.org/10.1177/09567976251398454",
-          "doi": "https://doi.org/10.1177/09567976251398454",
-          "filter": 0,
-          "created": "2026-1-29"
-        },
-        {
           "title": "Fidelity Versus Validity Using Anendophasia as an Example: Commentary on Nedergaard and Lupyan (2024) and Lind (2025)",
           "authors": "Russell T. Hurlburt",
           "abstract": "Nedergaard and Lupyan (2024) presented four studies aimed at validating anendophasia (i.e., experiencing no inner speech). 1 However, Lind (2025) held that no one, including Nedergaard and Lupyan, has demonstrated that anendophasia exists. In both articles, the authors support their positions using the findings of descriptive experience sampling. Here, I show that descriptive experience sampling is a fidelity-aspiring method; I highlight the distinction between fidelity and validity (an important distinction for psychological science in general and for anendophasia in particular). Anendophasia is an experiential phenomenon, not a construct, and therefore requires incorporating fidelity-based investigations. Nedergaard and Lupyan treated anendophasia as a construct (providing validity-based investigations), but drew phenomenon-based conclusions. I distinguish between completely and mostly anendophasic individuals, noting that, in practice, that distinction might be impossible to make. I suggest that anendophasic (or at least mostly anendophasic) individuals do in fact exist (probably frequently) and are worthy of fidelity-based (as well as validational) investigations.",
@@ -455,15 +442,6 @@
       "journal_short": "PsychMusic",
       "articles": [
         {
-          "title": "The influence of consonance–dissonance contrasts on perceived pleasantness of concluding tonic chords in short chord sequences",
-          "authors": "Yuko Arthurs, Imre Lahdelma, Tuomas Eerola",
-          "abstract": "Does dissonance enhance the pleasantness of the following consonance due to the ensuing contrast? The contrast between the affective characteristics of successive stimuli is considered an important factor for the perceived pleasantness of the final stimulus, known as the contrast effect. We tested the contrast effect of dissonance and consonance by employing short chord sequences ending with a manipulated penultimate chord, resolving to the final tonic as stimuli. The dissonance level of the penultimate chord was manipulated by varying both its acoustic roughness and cultural familiarity, and 49 participants rated the pleasantness of the final chord. We hypothesized that the final chord would be more pleasant when the penultimate chord was more dissonant. However, the results showed the opposite: greater dissonance in the penultimate chord led to lower pleasantness ratings for the following final chord. It could be that greater dissonance in the penultimate chord makes it less tonally related to the final chord and that its dissonance may have violated listeners’ tonal expectations. Rather than demonstrating the contrast effect, this result demonstrates dissonance’s strong association with unpleasantness and its influence on the pleasantness of the following consonance.",
-          "url": "https://doi.org/10.1177/03057356251405848",
-          "doi": "https://doi.org/10.1177/03057356251405848",
-          "filter": 0,
-          "created": "2026-1-29"
-        },
-        {
           "title": "Dimensions of musical taste: A style-specific approach",
           "authors": "Emily Gernandt, Julia Merrill",
           "abstract": "This study investigates the complex dynamics underlying musical taste by examining five dimensions of musical taste through psychological, sociological, and music-analytical perspectives. By focusing on specific musical styles, the study aims to identify key factors that shape style-specific preferences. Data were collected from N = 844 participants through an online survey. Participants selected one of 17 musical styles they were most passionate about and completed five scales assessing factors influencing musical taste development, functions and situations of music listening, musical value judgments, and perceived musical dislikes. The data were analyzed using factor analyses to identify underlying dimensions, followed by a random forest classification to explore the importance of these factors for musical preferences across styles. The results highlight the role of social influences in shaping musical taste, particularly among punk, metal, and rock fans, while these factors were less relevant for classical and jazz enthusiasts. Identity expression and the relevance of lyrics were also pivotal for punk, metal, and rock fans, whereas pop and rap listeners frequently cited perceptions of mainstream appeal as a reason for rejection. This study underscores the multifaceted and style-specific nature of musical taste, advocating for an integrative approach by bridging psychological, sociological, and music-analytical perspectives.",
@@ -489,21 +467,6 @@
           "doi": "https://doi.org/10.1177/03057356251406890",
           "filter": 0,
           "created": "2026-2-4"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Psychology of Popular Media",
-      "journal_short": "PPM",
-      "articles": [
-        {
-          "title": "The influence of peripheral cues on information elaboration during credibility evaluation of Chinese social media messages: Insights from self-reports and eye-tracking experiments.",
-          "authors": "Bingyan Qiao, Jia Guo, Xiaowen Jia, Wei Zhou",
-          "url": "https://doi.org/10.1037/ppm0000648",
-          "doi": "https://doi.org/10.1037/ppm0000648",
-          "filter": 0,
-          "created": "2026-1-29"
         }
       ],
       "articles_hidden": []
