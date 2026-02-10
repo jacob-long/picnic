@@ -1,5 +1,5 @@
 {
-  "update": "2026-02-09",
+  "update": "2026-02-10",
   "content": [
     {
       "journal_full": "Nature",
@@ -16,20 +16,20 @@
           "created": "2026-2-4"
         },
         {
-          "title": "Synthesizing scientific literature with retrieval-augmented language models",
-          "authors": "Akari Asai, Jacqueline He, Rulin Shao, Weijia Shi, Amanpreet Singh, Joseph Chee Chang, Kyle Lo, Luca Soldaini, Sergey Feldman, Mike D’Arcy, David Wadden, Matt Latzke, Jenna Sparks, Jena D. Hwang, Varsha Kishore, Minyang Tian, Pan Ji, Shengyan Liu, Hao Tong, Bohao Wu, Yanyu Xiong, Luke Zettlemoyer, Graham Neubig, Daniel S. Weld, Doug Downey, Wen-tau Yih, Pang Wei Koh, Hannaneh Hajishirzi",
-          "abstract": "Scientific progress depends on the ability of researchers to synthesize the growing body of literature. Can large language models (LLMs) assist scientists in this task? Here we introduce OpenScholar, a specialized retrieval-augmented language model (LM)1 that answers scientific queries by identifying relevant passages from 45 million open-access papers and synthesizing citation-backed responses. To evaluate OpenScholar, we develop ScholarQABench, the first large-scale multi-domain benchmark for literature search, comprising 2,967 expert-written queries and 208 long-form answers across computer science, physics, neuroscience and biomedicine. Despite being a smaller open model, OpenScholar-8B outperforms GPT-4o by 6.1% and PaperQA2 by 5.5% in correctness on a challenging multi-paper synthesis task from the new ScholarQABench. Although GPT-4o hallucinates citations 78–90% of the time, OpenScholar achieves citation accuracy on par with human experts. OpenScholar’s data store, retriever and self-feedback inference loop improve off-the-shelf LMs: for instance, OpenScholar-GPT-4o improves the correctness of GPT-4o by 12%. In human evaluations, experts preferred OpenScholar-8B and OpenScholar-GPT-4o responses over expert-written ones 51% and 70% of the time, respectively, compared with 32% for GPT-4o. We open-source all artefacts, including our code, models, data store, datasets and a public demo.",
-          "url": "https://doi.org/10.1038/s41586-025-10072-4",
-          "doi": "https://doi.org/10.1038/s41586-025-10072-4",
-          "filter": "2",
-          "created": "2026-2-4"
-        },
-        {
           "title": "Integrated structural dynamics uncover a new B12 photoreceptor activation mode",
           "authors": "Ronald Rios-Santacruz, Harshwardhan Poddar, Kevin Pounot, Derren J. Heyes, Nicolas Coquelle, Megan J. Mackintosh, Linus O. Johannissen, Sara Schianchi, Laura N. Jeffreys, Elke De Zitter, Rory Munro, Martin Appleby, Danny Axford, Emma V. Beale, Matthew J. Cliff, María C. Dávila-Miliani, Sylvain Engilberge, Guillaume Gotthard, Kyprianos Hadjidemetriou, Samantha J. O. Hardman, Sam Horrell, Jochen S. Hub, Kotone Ishihara, Sofia Jaho, Gabriel Karras, Machika Kataoka, Ryohei Kawakami, Thomas Mason, Hideo Okumura, Shigeki Owada, Robin L. Owen, Antoine Royant, Annica Saaret, Michiyo Sakuma, Muralidharan Shanmugam, Hiroshi Sugimoto, Kensuke Tono, Ninon Zala, John H. Beale, Takehiko Tosha, Jacques-Philippe Colletier, Matteo Levantino, Sam Hay, Pawel M. Kozlowski, David Leys, Nigel S. Scrutton, Martin Weik, Giorgio Schirò",
           "abstract": "Photoreceptor proteins regulate fundamental biological processes such as vision, photosynthesis and circadian rhythms1. A large photoreceptor subfamily uses vitamin B12 derivatives for light sensing2, contrasting with the well-established mode of action of these organometallic derivatives in thermally activated enzymatic reactions3. The exact molecular mechanism of B12 photoreception and how this differs from the thermal pathways remains unknown. Here we provide a detailed description of photoactivation in the prototypical B12 photoreceptor CarH4,5 from nanoseconds to seconds, combining time-resolved and temperature-resolved structural and spectroscopic methods with quantum chemical calculations. Building on the crystal structures of the initial tetrameric dark and final monomeric light-activated states5, our structural snapshots of key intermediates in the truncated B12-binding domain illustrate how photocleavage of a cobalt–carbon (Co–C) bond within the B12 chromophore adenosylcobalamin triggers a series of structural changes that propagate throughout CarH. Breakage of the photolabile Co–C5′ bond leads to the formation of a previously unknown adduct that links the C4′ position of the adenosyl moiety to the Co ion and can subsequently be cleaved thermally over longer timescales to allow release of the adenosyl group, ultimately causing tetramer dissociation4,5. This adduct, which differentiates CarH from thermally activated B12 enzymes, steers the photoactivation pathway and acts as the molecular bridge between photochemical and photobiological timescales. The biological relevance of our study is corroborated by kinetic data on full-length CarH in the presence of DNA. Our results offer a spatiotemporal understanding of CarH photoactivation and pave the way for designing B12-dependent photoreceptors for optogenetic applications.",
           "url": "https://doi.org/10.1038/s41586-025-10074-2",
           "doi": "https://doi.org/10.1038/s41586-025-10074-2",
+          "filter": "2",
+          "created": "2026-2-4"
+        },
+        {
+          "title": "Synthesizing scientific literature with retrieval-augmented language models",
+          "authors": "Akari Asai, Jacqueline He, Rulin Shao, Weijia Shi, Amanpreet Singh, Joseph Chee Chang, Kyle Lo, Luca Soldaini, Sergey Feldman, Mike D’Arcy, David Wadden, Matt Latzke, Jenna Sparks, Jena D. Hwang, Varsha Kishore, Minyang Tian, Pan Ji, Shengyan Liu, Hao Tong, Bohao Wu, Yanyu Xiong, Luke Zettlemoyer, Graham Neubig, Daniel S. Weld, Doug Downey, Wen-tau Yih, Pang Wei Koh, Hannaneh Hajishirzi",
+          "abstract": "Scientific progress depends on the ability of researchers to synthesize the growing body of literature. Can large language models (LLMs) assist scientists in this task? Here we introduce OpenScholar, a specialized retrieval-augmented language model (LM)1 that answers scientific queries by identifying relevant passages from 45 million open-access papers and synthesizing citation-backed responses. To evaluate OpenScholar, we develop ScholarQABench, the first large-scale multi-domain benchmark for literature search, comprising 2,967 expert-written queries and 208 long-form answers across computer science, physics, neuroscience and biomedicine. Despite being a smaller open model, OpenScholar-8B outperforms GPT-4o by 6.1% and PaperQA2 by 5.5% in correctness on a challenging multi-paper synthesis task from the new ScholarQABench. Although GPT-4o hallucinates citations 78–90% of the time, OpenScholar achieves citation accuracy on par with human experts. OpenScholar’s data store, retriever and self-feedback inference loop improve off-the-shelf LMs: for instance, OpenScholar-GPT-4o improves the correctness of GPT-4o by 12%. In human evaluations, experts preferred OpenScholar-8B and OpenScholar-GPT-4o responses over expert-written ones 51% and 70% of the time, respectively, compared with 32% for GPT-4o. We open-source all artefacts, including our code, models, data store, datasets and a public demo.",
+          "url": "https://doi.org/10.1038/s41586-025-10072-4",
+          "doi": "https://doi.org/10.1038/s41586-025-10072-4",
           "filter": "2",
           "created": "2026-2-4"
         },
@@ -158,14 +158,6 @@
           "created": "2026-2-4"
         },
         {
-          "title": "Author Correction: Albumin orchestrates a natural host defence mechanism against mucormycosis",
-          "authors": "Antonis Pikoulas, Ioannis Morianos, Vassilis Nidris, Rania Hamdy, Evangelia Intze, Ángeles López-López, Maria Moran-Garrido, Valliappan Muthu, Maria Halabalaki, Varvara Papaioanou, Maria Papadovasilaki, Irene Kyrmizi, Yiyou Gu, Sandra M. Camunas-Alberca, Robina Aerts, Toine Mercier, Yuri Vanbiervliet, Sung-Yeon Cho, Amy Spallone, Ying Jiang, Dimitrios Samonakis, Efstathios Kastritis, Carlos Lax, Maria Tzardi, Aristides Eliopoulos, Konstantina Georgila, Agostinho Carvalho, Oliver Kurzai, Shivaprakash Mandya Rudramurthy, Caroline Elie, Fanny Lanternier, Kyriakos Petratos, Victoriano Garre, Elias Drakos, Johan Maertens, Vincent M. Bruno, Dimitrios P. Kontoyiannis, Coral Barbas, Sameh S. M. Soliman, Ashraf S. Ibrahim, Georgios Chamilos",
-          "url": "https://doi.org/10.1038/s41586-026-10188-1",
-          "doi": "https://doi.org/10.1038/s41586-026-10188-1",
-          "filter": "2",
-          "created": "2026-2-2"
-        },
-        {
           "title": "Author Correction: Increasingly negative tropical water–interannual CO2 growth rate coupling",
           "authors": "Laibao Liu, Philippe Ciais, Mengxi Wu, Ryan S. Padrón, Pierre Friedlingstein, Jonas Schwaab, Lukas Gudmundsson, Sonia I. Seneviratne",
           "url": "https://doi.org/10.1038/s41586-026-10147-w",
@@ -192,20 +184,20 @@
           "created": "2026-2-4"
         },
         {
-          "title": "Large-scale analogue quantum simulation using atom dot arrays",
-          "authors": "M. B. Donnelly, Y. Chung, R. Garreis, S. Plugge, D. Pye, M. Kiczynski, J. Támara-Isaza, M. M. Munia, S. Sutherland, B. Voisin, L. Kranz, Y. L. Hsueh, A. M. Saffat-Ee Huq, C. R. Myers, R. Rahman, J. G. Keizer, S. K. Gorman, M. Y. Simmons",
-          "abstract": "In pursuit of a practical quantum advantage 1 , analogue quantum systems provide an invaluable way to simulate the physics of quantum materials 2–4 , quantum systems out of equilibrium 5,6 or interaction-induced localization 7 . Notable recent progress to realize such systems has been achieved in ultracold atoms 8–12 , superconducting circuits 13–15 and twisted van der Waals materials 16–19 . However, so far, these platforms have struggled to simulate large-scale strongly interacting fermionic systems at low temperatures, at which electronic correlations dominate materials properties and numerical simulations remain restricted in accuracy and scope 20,21 . Here we demonstrate the realization of a new platform consisting of large-scale 2D arrays of sub-nanometre precision-engineered atom-based quantum dots (15,000 sites) to simulate strongly interacting, low-temperature physics. By observing a metal–insulator (MI) transition on a 2D square lattice of atom-based quantum dots, we demonstrate independent and precise control of the on-site interaction U and tunnelling t . Magneto-transport measurements further indicate the formation of an insulating state driven by Mott–Hubbard/Anderson physics and promising signatures of correlated electron physics. These precision-engineered analogue quantum simulators provide a unique platform to simulate quantum materials on arbitrary 2D lattices and to explore many unanswered questions in the formation of quantum magnetism, interacting topological quantum matter and unconventional superconductivity.",
-          "url": "https://doi.org/10.1038/s41586-025-10053-7",
-          "doi": "https://doi.org/10.1038/s41586-025-10053-7",
-          "filter": "2",
-          "created": "2026-2-4"
-        },
-        {
           "title": "Atlas-guided discovery of transcription factors for T cell programming",
           "authors": "H. Kay Chung, Cong Liu, Anamika Battu, Alexander N. Jambor, Brandon M. Pratt, Fucong Xie, Brian P. Riesenberg, Eduardo Casillas, Ming Sun, Elisa Landoni, Yanpei Li, Qidang Ye, Daniel Joo, Jarred Green, Zaid Syed, Nolan J. Brown, Matthew Smith, Shixin Ma, Shirong Tan, Brent Chick, Victoria Tripple, Z. Audrey Wang, Jun Wang, Bryan Mcdonald, Peixiang He, Qiyuan Yang, Timothy Chen, Siva Karthik Varanasi, Michael LaPorte, Thomas H. Mann, Dan Chen, Filipe Hoffmann, Josephine Ho, Jennifer Modliszewski, April Williams, Yusha Liu, Zhen Wang, Jieyuan Liu, Yiming Gao, Zhiting Hu, Ukrae H. Cho, Longwei Liu, Yingxiao Wang, Diana C. Hargreaves, Gianpietro Dotti, Barbara Savoldo, Jessica E. Thaxton, J. Justin Milner, Susan M. Kaech, Wei Wang",
           "abstract": "CD8 + T cells differentiate into diverse states that shape immune outcomes in cancer and chronic infection 1–4 . To define systematically the transcription factors (TFs) driving these states, we built a comprehensive atlas integrating transcriptional and epigenetic data across nine CD8 + T cell states and inferred TF activity profiles. Our analysis catalogued TF activity fingerprints, uncovering regulatory mechanisms governing selective cell state differentiation. Leveraging this platform, we focused on two transcriptionally similar but functionally opposing states that are critical in tumour and viral contexts: terminally exhausted T (TEX term ) cells, which are dysfunctional 5–8 , and tissue-resident memory T (T RM ) cells, which are protective 9–13 . Global TF community analysis revealed distinct biological pathways and TF-driven networks underlying protective versus dysfunctional states. Through in vivo CRISPR screening integrated with single-cell RNA sequencing (in vivo Perturb-seq) we delineated several TFs that selectively govern TEX term cell differentiation. We also identified HIC1 and GFI1 as shared regulators of TEX term and T RM cell differentiation and KLF6 as a unique regulator of T RM  cells. We discovered new TEX term -selective TFs, including ZSCAN20 and JDP2, with no previous known function in T cells. Targeted deletion of these TFs enhanced tumour control and synergized with immune checkpoint blockade but did not interfere with T RM cell formation. Consistently, their depletion in human T cells reduces the expression of inhibitory receptors and improves effector function. By decoupling exhaustion T EX -selective from protective T RM cell programmes, our platform enables more precise engineering of T cell states, accelerating the rational design of more effective cellular immunotherapies.",
           "url": "https://doi.org/10.1038/s41586-025-09989-7",
           "doi": "https://doi.org/10.1038/s41586-025-09989-7",
+          "filter": "2",
+          "created": "2026-2-4"
+        },
+        {
+          "title": "Large-scale analogue quantum simulation using atom dot arrays",
+          "authors": "M. B. Donnelly, Y. Chung, R. Garreis, S. Plugge, D. Pye, M. Kiczynski, J. Támara-Isaza, M. M. Munia, S. Sutherland, B. Voisin, L. Kranz, Y. L. Hsueh, A. M. Saffat-Ee Huq, C. R. Myers, R. Rahman, J. G. Keizer, S. K. Gorman, M. Y. Simmons",
+          "abstract": "In pursuit of a practical quantum advantage 1 , analogue quantum systems provide an invaluable way to simulate the physics of quantum materials 2–4 , quantum systems out of equilibrium 5,6 or interaction-induced localization 7 . Notable recent progress to realize such systems has been achieved in ultracold atoms 8–12 , superconducting circuits 13–15 and twisted van der Waals materials 16–19 . However, so far, these platforms have struggled to simulate large-scale strongly interacting fermionic systems at low temperatures, at which electronic correlations dominate materials properties and numerical simulations remain restricted in accuracy and scope 20,21 . Here we demonstrate the realization of a new platform consisting of large-scale 2D arrays of sub-nanometre precision-engineered atom-based quantum dots (15,000 sites) to simulate strongly interacting, low-temperature physics. By observing a metal–insulator (MI) transition on a 2D square lattice of atom-based quantum dots, we demonstrate independent and precise control of the on-site interaction U and tunnelling t . Magneto-transport measurements further indicate the formation of an insulating state driven by Mott–Hubbard/Anderson physics and promising signatures of correlated electron physics. These precision-engineered analogue quantum simulators provide a unique platform to simulate quantum materials on arbitrary 2D lattices and to explore many unanswered questions in the formation of quantum magnetism, interacting topological quantum matter and unconventional superconductivity.",
+          "url": "https://doi.org/10.1038/s41586-025-10053-7",
+          "doi": "https://doi.org/10.1038/s41586-025-10053-7",
           "filter": "2",
           "created": "2026-2-4"
         },
@@ -316,15 +308,6 @@
           "created": "2026-2-5"
         },
         {
-          "title": "A broadly protective antibody targeting gammaherpesvirus gB",
-          "authors": "Cong Sun, Chu Xie, Bing-Zhen Cheng, Zi-Ying Jiang, Pei-Huang Wu, Xin-Yan Fang, Peng-Lin Li, Xian-Shu Tian, Hang Zhou, Yan-Lin Yang, Jing Wang, Sen-Fang Sui, Zheng Liu, Mu-Sheng Zeng",
-          "abstract": "Gammaherpesvirus is a subfamily of herpesvirus, distinct phylogenetically from alpha- and betaherpesvirus and featured by its oncogenic subtypes, including Epstein-Barr virus and Kaposi’s sarcoma-associated herpesvirus1. It broadly infects humans and other vertebrate animals and causes various diseases and malignancies2,3. However, no specific antiviral agents are available for each type or the whole family. gB is the common fusion protein vital for herpesvirus infection and an ideal target for broad vaccine development, while the lack of basis for gB as a universal antigen hinders such effort4. Here, we report the molecular basis for broad gB binding and cross-genus virus neutralization by an antibody Fab5 for the first time. This antibody confers effective protection against authentic virus challenges in immune-competent mice, non-human primates, and humanized mice with murine, rhesus, and human gammaherpesvirus. Cryo-EM structures revealed that Fab5 targeted a conservative and vulnerable epitope of gammaherpesvirus gB and antigenically exposed across pre- or post-fusion status. This finding not only demonstrates Fab5 as cross-genus antibody broadly reactive against gammaherpesvirus infection and pathogenesis progression, but offers insights into potential common mechanisms for herpesvirus infection and facilitates the development of broad-spectrum vaccines against the gammaherpesvirus.",
-          "url": "https://doi.org/10.1038/s41586-026-10192-5",
-          "doi": "https://doi.org/10.1038/s41586-026-10192-5",
-          "filter": "2",
-          "created": "2026-2-2"
-        },
-        {
           "title": "Biofluid biomarkers in Alzheimer’s disease and other neurodegenerative dementias",
           "authors": "Henrik Zetterberg, Barbara B. Bendlin",
           "abstract": "Biofluid-based biomarkers have transformed neurodegenerative disease research and care, providing insights into the molecular underpinnings of Alzheimer’s disease (AD) and other neurodegenerative dementias. This Review provides an update on recent developments in biofluid-based biomarkers for amyloid-β (Aβ) pathology, tau pathology, neurodegeneration, glial reactivity, α-synuclein pathology, TAR DNA-binding protein 43 (TDP-43) pathology, synaptic pathophysiology and cerebrovascular disease—pathologies and processes that are all relevant to neurodegenerative dementias. Complementing longstanding cerebrospinal assays, improved technologies now facilitate the detection of molecules linked to neurodegenerative brain changes at very low concentrations in the blood. This promises to complement the clinical evaluation of suspected neurodegenerative disease in healthcare with molecular phenotyping biomarkers that will help to link the clinical symptoms to ongoing pathophysiological processes in the brain and improve how patients are referred to specialty clinics for initiation and monitoring of molecularly targeted treatments. Clinically relevant breakthroughs such as the use of anti-Aβ monoclonal antibodies to address Aβ pathology in AD serve as important proof-of-concept examples of how the field is advancing toward molecularly informed prevention and treatment. This Review provides an overview of the most established biofluid-based biomarkers currently in use and offers practical guidance on their interpretation and implementation in clinical settings.",
@@ -332,15 +315,6 @@
           "doi": "https://doi.org/10.1038/s41586-025-10018-w",
           "filter": "2",
           "created": "2026-2-4"
-        },
-        {
-          "title": "Long-lived remote ion-ion entanglement for scalable quantum repeaters",
-          "authors": "Wen-Zhao Liu, Ya-Bin Zhou, Jiu-Peng Chen, Bin Wang, Ao Teng, Xiao-Wen Han, Guang-Cheng Liu, Zhi-Jiong Zhang, Yi Yang, Feng-Guang Liu, Chao-Hui Xue, Bo-Wen Yang, Jin Yang, Chao Zeng, Du-Ruo Pan, Ming-Yang Zheng, Xingjian Zhang, Shen Cao, Yi-Zheng Zhen, You Xiao, Hao Li, Lixing You, Xiongfeng Ma, Qi Zhao, Feihu Xu, Ye Wang, Yong Wan, Qiang Zhang, Jian-Wei Pan",
-          "abstract": "Quantum networks, integrating quantum communication, quantum metrology, and distributed quantum computing, could provide secure and efficient information transfer, high-resolution sensing, and an exponential speed-up in information processing1. Deterministic entanglement distribution over long distances is a prerequisite for scalable quantum networks2–5. However, the exponential photon loss in optical fibres prohibits efficient and deterministic entanglement distribution. Quantum repeaters6, incorporating entanglement swapping4,7,8 and entanglement purification9–11 with quantum memories, offer the most promising means to overcome this limitation in fibre-based quantum networks. Despite numerous pioneering efforts12–25, a critical bottleneck remains, as remote memory-memory entanglement suffers from decoherence more rapidly than it can be established and purified over long distances. Here, we demonstrate memory-memory entanglement between two nodes connected by 10 km of spooled fibre surviving beyond the average entanglement establishment time. This is enabled by the development of long-lived trapped-ion memories, an efficient telecom interface, and a high-visibility single-photon entanglement protocol26,27. As an application, we report a proof-of-principle device-independent quantum key distributio (DI-QKD) demonstration with finite-size analysis over 10 km and a positive key rate over 101 km in the asymptotic limit, with both distances exceeding previous work by more than two orders of magnitude28–30. Our work provides a critical building block for quantum repeaters and marks an important step toward scalable quantum networks.",
-          "url": "https://doi.org/10.1038/s41586-026-10177-4",
-          "doi": "https://doi.org/10.1038/s41586-026-10177-4",
-          "filter": "2",
-          "created": "2026-2-2"
         },
         {
           "title": "Measuring spin correlation between quarks during QCD confinement",
@@ -385,14 +359,6 @@
           "created": "2026-2-4"
         },
         {
-          "title": "These mysterious ridges could help skin regenerate",
-          "authors": "Benjamin Thompson, Nick Petrić Howe",
-          "url": "https://doi.org/10.1038/d41586-026-00363-9",
-          "doi": "https://doi.org/10.1038/d41586-026-00363-9",
-          "filter": "4",
-          "created": "2026-2-4"
-        },
-        {
           "title": "A tumour-to-brain pathway hinders anticancer defences",
           "authors": "Aeson Chang, Simon McMullan",
           "url": "https://doi.org/10.1038/d41586-026-00170-2",
@@ -405,6 +371,14 @@
           "authors": "Jacob Smith",
           "url": "https://doi.org/10.1038/d41586-026-00361-x",
           "doi": "https://doi.org/10.1038/d41586-026-00361-x",
+          "filter": "4",
+          "created": "2026-2-4"
+        },
+        {
+          "title": "These mysterious ridges could help skin regenerate",
+          "authors": "Benjamin Thompson, Nick Petrić Howe",
+          "url": "https://doi.org/10.1038/d41586-026-00363-9",
+          "doi": "https://doi.org/10.1038/d41586-026-00363-9",
           "filter": "4",
           "created": "2026-2-4"
         },
@@ -497,14 +471,6 @@
           "created": "2026-2-4"
         },
         {
-          "title": "How learning handwriting trains the brain: the science behind the cursive wars",
-          "authors": "Mariana Lenharo",
-          "url": "https://doi.org/10.1038/d41586-026-00320-6",
-          "doi": "https://doi.org/10.1038/d41586-026-00320-6",
-          "filter": "4",
-          "created": "2026-2-2"
-        },
-        {
           "title": "How tumours trick the brain into shutting down cancer-fighting cells",
           "authors": "Edward Chen",
           "url": "https://doi.org/10.1038/d41586-026-00338-w",
@@ -569,6 +535,14 @@
           "created": "2026-2-4"
         },
         {
+          "title": "The dark side of green technology: what do electric vehicles really cost?",
+          "authors": "Chris Stokel-Walker",
+          "url": "https://doi.org/10.1038/d41586-026-00385-3",
+          "doi": "https://doi.org/10.1038/d41586-026-00385-3",
+          "filter": "4",
+          "created": "2026-2-9"
+        },
+        {
           "title": "These mysterious ridges could be the secret to younger skin",
           "authors": "Nick Petrić Howe",
           "url": "https://doi.org/10.1038/d41586-026-00364-8",
@@ -583,6 +557,14 @@
           "doi": "https://doi.org/10.1038/d41586-026-00059-0",
           "filter": "4",
           "created": "2026-2-4"
+        },
+        {
+          "title": "How to stop the survey-taking AI chatbots that threaten to upend social science",
+          "authors": "Folco Panizza, Yara Kyrychenko, Jon Roozenbeek",
+          "url": "https://doi.org/10.1038/d41586-026-00386-2",
+          "doi": "https://doi.org/10.1038/d41586-026-00386-2",
+          "filter": "4",
+          "created": "2026-2-9"
         },
         {
           "title": "Innovative CAR-T therapy destroys cancer cells without dangerous side effects",
@@ -609,28 +591,12 @@
           "created": "2026-2-6"
         },
         {
-          "title": "Is the journal legitimate? Aletheia-Probe can help you decide",
-          "authors": "Matthew Hutson",
-          "url": "https://doi.org/10.1038/d41586-026-00223-6",
-          "doi": "https://doi.org/10.1038/d41586-026-00223-6",
+          "title": "My mission to make life more user friendly for the disability community",
+          "authors": "Laurie Udesky",
+          "url": "https://doi.org/10.1038/d41586-026-00389-z",
+          "doi": "https://doi.org/10.1038/d41586-026-00389-z",
           "filter": "4",
-          "created": "2026-2-2"
-        },
-        {
-          "title": "See the Sun expand and contract like a pufferfish — January’s best science images",
-          "authors": "Fred Schwaller",
-          "url": "https://doi.org/10.1038/d41586-026-00307-3",
-          "doi": "https://doi.org/10.1038/d41586-026-00307-3",
-          "filter": "4",
-          "created": "2026-2-2"
-        },
-        {
-          "title": "Daily briefing: Why we enjoy things more when they’re hard to get",
-          "authors": "Flora Graham",
-          "url": "https://doi.org/10.1038/d41586-026-00341-1",
-          "doi": "https://doi.org/10.1038/d41586-026-00341-1",
-          "filter": "4",
-          "created": "2026-2-2"
+          "created": "2026-2-9"
         },
         {
           "title": "AI could transform research assessment — and some academics are worried",
@@ -657,22 +623,6 @@
           "created": "2026-2-5"
         },
         {
-          "title": "OpenAI-backed firm to use ultrasound to read minds. Does the science stand up?",
-          "authors": "Elizabeth Gibney",
-          "url": "https://doi.org/10.1038/d41586-026-00329-x",
-          "doi": "https://doi.org/10.1038/d41586-026-00329-x",
-          "filter": "4",
-          "created": "2026-2-2"
-        },
-        {
-          "title": "Does AI already have human-level intelligence? The evidence is clear",
-          "authors": "Eddy Keming Chen, Mikhail Belkin, Leon Bergen, David Danks",
-          "url": "https://doi.org/10.1038/d41586-026-00285-6",
-          "doi": "https://doi.org/10.1038/d41586-026-00285-6",
-          "filter": "4",
-          "created": "2026-2-2"
-        },
-        {
           "title": "Calling all scientists: Support your Iranian colleagues",
           "authors": "Mohammad Hosseini",
           "url": "https://doi.org/10.1038/d41586-026-00342-0",
@@ -689,28 +639,12 @@
           "created": "2026-2-4"
         },
         {
-          "title": "Are health influencers making us sick?",
-          "authors": "Helen Pearson",
-          "url": "https://doi.org/10.1038/d41586-026-00313-5",
-          "doi": "https://doi.org/10.1038/d41586-026-00313-5",
-          "filter": "4",
-          "created": "2026-2-2"
-        },
-        {
           "title": "NIH rolls back red tape on some experiments — spurring excitement and concern",
           "authors": "Heidi Ledford",
           "url": "https://doi.org/10.1038/d41586-026-00337-x",
           "doi": "https://doi.org/10.1038/d41586-026-00337-x",
           "filter": "4",
           "created": "2026-2-4"
-        },
-        {
-          "title": "Don’t talk science, play science: translate your data into music to improve its reach",
-          "authors": "Jane Palmer",
-          "url": "https://doi.org/10.1038/d41586-026-00316-2",
-          "doi": "https://doi.org/10.1038/d41586-026-00316-2",
-          "filter": "4",
-          "created": "2026-2-2"
         },
         {
           "title": "I know science can’t fix the world — here’s why I do it anyway",
@@ -737,12 +671,12 @@
           "created": "2026-2-4"
         },
         {
-          "title": "More than one-third of cancer cases are preventable, massive study finds",
-          "authors": "Gemma Conroy",
-          "url": "https://doi.org/10.1038/d41586-026-00333-1",
-          "doi": "https://doi.org/10.1038/d41586-026-00333-1",
+          "title": "Measles is raging worldwide: are you at risk?",
+          "authors": "Mariana Lenharo",
+          "url": "https://doi.org/10.1038/d41586-026-00367-5",
+          "doi": "https://doi.org/10.1038/d41586-026-00367-5",
           "filter": "4",
-          "created": "2026-2-3"
+          "created": "2026-2-9"
         },
         {
           "title": "This bonobo had a pretend tea party — showing make believe isn’t just for humans",
@@ -753,12 +687,12 @@
           "created": "2026-2-5"
         },
         {
-          "title": "The number of China’s elite scientists who have been trained abroad is falling",
-          "authors": "Laurie Udesky",
-          "url": "https://doi.org/10.1038/d41586-026-00196-6",
-          "doi": "https://doi.org/10.1038/d41586-026-00196-6",
+          "title": "More than one-third of cancer cases are preventable, massive study finds",
+          "authors": "Gemma Conroy",
+          "url": "https://doi.org/10.1038/d41586-026-00333-1",
+          "doi": "https://doi.org/10.1038/d41586-026-00333-1",
           "filter": "4",
-          "created": "2026-2-2"
+          "created": "2026-2-3"
         }
       ]
     },
@@ -766,22 +700,6 @@
       "journal_full": "Nature Human Behaviour",
       "journal_short": "NatHumBehav",
       "articles": [
-        {
-          "title": "Author Correction: Advancing the psychology of social class with large-scale replications in four countries",
-          "authors": "Anatolia Batruch, Nicolas Sommet, Frédérique Autin",
-          "url": "https://doi.org/10.1038/s41562-026-02419-2",
-          "doi": "https://doi.org/10.1038/s41562-026-02419-2",
-          "filter": "0",
-          "created": "2026-2-2"
-        },
-        {
-          "title": "Political action is now crucial for US scientists",
-          "authors": "Tatiane Russo-Tait, Summer Blanco, Eduardo Bonilla-Silva",
-          "url": "https://doi.org/10.1038/s41562-026-02406-7",
-          "doi": "https://doi.org/10.1038/s41562-026-02406-7",
-          "filter": "0",
-          "created": "2026-2-2"
-        },
         {
           "title": "Hybrid neural–cognitive models reveal how memory shapes human reward learning",
           "authors": "Maria K. Eckstein, Christopher Summerfield, Nathaniel D. Daw, Kevin J. Miller",
@@ -816,39 +734,33 @@
           "doi": "https://doi.org/10.1038/s41562-025-02394-0",
           "filter": "0",
           "created": "2026-2-5"
-        },
-        {
-          "title": "Why single-item measures of wellbeing are best",
-          "authors": "John F. Helliwell, Richard Layard, Jeffrey D. Sachs, Jan-Emmanuel De Neve, Lara B. Aknin, Shun Wang",
-          "url": "https://doi.org/10.1038/s41562-026-02401-y",
-          "doi": "https://doi.org/10.1038/s41562-026-02401-y",
-          "filter": "0",
-          "created": "2026-2-2"
-        },
-        {
-          "title": "The tension between big team science and colonial power dynamics",
-          "authors": "Fanli Jia",
-          "url": "https://doi.org/10.1038/s41562-026-02404-9",
-          "doi": "https://doi.org/10.1038/s41562-026-02404-9",
-          "filter": "0",
-          "created": "2026-2-2"
         }
       ],
-      "articles_hidden": []
+      "articles_hidden": [
+        {
+          "title": "Humans can use positive and negative spectrotemporal correlations to detect rising and falling pitch",
+          "authors": "Parisa A. Vaziri, Samuel D. McDougle, Damon A. Clark",
+          "abstract": "To discern speech or appreciate music, the human auditory system detects how pitch changes over time (pitch motion). Here, using psychophysics, computational modelling, functional neuroimaging and analysis of recorded speech, we ask whether humans can detect pitch motion using computations analogous to those used by the visual system. We adapted stimuli from studies of vision to create novel auditory correlated noise stimuli that elicited robust pitch motion percepts. In psychophysical experiments, we discovered that humans can judge pitch direction from spectrotemporal intensity correlations. Robust sensitivity to negative spectrotemporal correlations is a direct analogue of illusory ‘reverse-phi’ motion in vision, constituting a new auditory illusion. Functional MRI measurements in auditory cortex supported the hypothesis that human auditory processing may employ pitch direction opponency. Linking lab findings to real-world perception, we analysed recordings of English and Mandarin speech and found that pitch direction was signalled by both positive and negative spectrotemporal correlations, suggesting that sensitivity to both types confers ecological benefits. This work reveals how motion detection algorithms sensitive to local correlations are deployed by the central nervous system across disparate modalities (vision and audition) and dimensions (space and frequency).",
+          "url": "https://doi.org/10.1038/s41562-025-02371-7",
+          "doi": "https://doi.org/10.1038/s41562-025-02371-7",
+          "filter": "2",
+          "created": "2026-2-9"
+        },
+        {
+          "title": "Caprine dairy exploitation on the Iranian Plateau from the seventh millennium BC",
+          "authors": "Emmanuelle Casanova, Hossein Davoudi, Antoine Zazzo, Séverine Zirah, Jérémy Jacob, Christine Hatté, Audrey Boco-Simon, François Thil, Caroline Gauthier, Jebrael Nokandeh, Abbas Alizadeh, Fereidoun Biglari, Reinhard Bernbeck, Susan Pollock, Akira Tsuneki, Omolbanin Ghafoori, Homa Fathi, Frank Hole, Emmanuelle Demey-Thomas, Joëlle Vinh, Marjan Mashkour",
+          "abstract": "Animal domestication and development of pastoralism in southwest Asia revolutionized human subsistence strategies. Various centres of ruminant domestication and diffusion routes of agropastoralism have been identified. The area between the northern and central Zagros Mountains on the Iranian Plateau is a cradle for goat domestication and eastward spread of agropastoralism. However, the early exploitation of ruminant milk by pastoral communities in the Zagros remains insufficiently studied. Here we show residues of caprine dairy products that were detected from the analysis of lipid residues in pottery vessels and protein residues in human dental calculus. These results, combined with the faunal spectra and radiocarbon analyses directly on the dairy residues, show that sheep and goat dairy products were widely exploited in the Zagros from the seventh millennium BC. This pattern parallels the contemporaneous exploitation of cattle milk in Anatolia. Neolithic communities in both regions reveal similarly complex dynamics of early ruminant milk use, marking the emergence of independent yet synchronous trajectories in the diffusion of agropastoral lifeways.",
+          "url": "https://doi.org/10.1038/s41562-025-02396-y",
+          "doi": "https://doi.org/10.1038/s41562-025-02396-y",
+          "filter": "2",
+          "created": "2026-2-9"
+        }
+      ]
     },
     {
       "journal_full": "Proceedings of the National Academy of Sciences",
       "journal_short": "PNAS",
       "articles": [
-        {
-          "title": "Health-focused frames mobilize Americans to action to address LGBTQ inequality",
-          "authors": "Pia Dietze, Riana M. Brown, Maureen A. Craig",
-          "abstract": "“More than 1 in 8 LGBTQ people live in states where doctors can refuse to treat them.” This headline describes a flurry of laws passed in 2025 allowing doctors to refuse treatment of LGBTQ patients based on personal beliefs. This and other laws like it limit healthcare access and exacerbate health inequality for LGBTQ individuals. But health is not the only domain in which LGBTQ individuals face disparities. Long-standing inequalities also exist in other domains of life, for example, gay men earn up to 32% less wages than their heterosexual peers. In the current research, we ask if exposure to LGBTQ inequality in one domain (e.g., health) motivates more support for action than exposure to inequality in other domains (e.g., economics). In six experiments (five preregistered), we test our hypothesis that emphasizing health-based LGBTQ inequality (vs. economics and belonging) spurs engagement with and support for mitigating action (S1-2). We also investigate why people support action (S1a-1b) and what boosts support (S3a-3c). As predicted and preregistered, we find greater support for action to mitigate health-based LGBTQ inequality, compared to economics and belonging. This occurs, in part, because people blame LGBTQ individuals less for health (vs. economic) disparities and perceive health inequalities to violate morally sacred values, which is associated with greater perceived injustice. Finally, we find that connecting economic inequality to health inequality in individuals’ minds can increase support for mitigating economic inequality.",
-          "url": "https://doi.org/10.1073/pnas.2527168123",
-          "doi": "https://doi.org/10.1073/pnas.2527168123",
-          "filter": "0",
-          "created": "2026-2-2"
-        },
         {
           "title": "The racial and ethnic gap in behavioral measures rivals the gender gap in the United States",
           "authors": "Aurélie Dariel, John C. Ham, Nikos Nikiforakis, Jan Stoop",
@@ -867,15 +779,6 @@
           "created": "2026-2-4"
         },
         {
-          "title": "For reducing premature adult mortality in India, education matters more than income",
-          "authors": "Moradhvaj Dhakad, Erich Striessnig, Nandita Saikia, Samir K.C., Wolfgang Lutz",
-          "abstract": "Preventing premature death is a global policy objective reflected in the SDGs. While numerous studies have found socioeconomic factors to be significantly associated with premature death everywhere in the world, the debate on the relative effect of such factors on mid-age (15 to 59 ages) has not received enough attention, particularly in low-income countries, where this question is pertinent due to scant resources in the healthcare sector. Using nationally representative, longitudinal data from the India Human Development Survey, we assess the relative importance of individual- and community-level education vs. income and wealth in India, where approximately 3 million premature deaths occur annually in mid-ages. We find a clear downward gradient in mid-age mortality with increasing education within each wealth category, whereas no consistent mortality advantage with increasing wealth status is visible within education subgroups. Multilevel logistic regression models show that the decline in the risk of death across the education spectrum by far exceeds (14% for male and 13% for female) the decline moving along the wealth distribution, even after controlling for other relevant demographic, socioeconomic, regional variables. Along with the direct effect of individual-level educational attainment, we also find a protective effect of education at the community level, particularly for women. Based on these findings, we infer that educational attainment is essential for reducing mid-age mortality in India. Population and health policies in developing countries, therefore, should focus on education to prevent adult mortality.",
-          "url": "https://doi.org/10.1073/pnas.2503809123",
-          "doi": "https://doi.org/10.1073/pnas.2503809123",
-          "filter": "0",
-          "created": "2026-2-2"
-        },
-        {
           "title": "A systematic map of methods for assessing societal benefits of Earth science information",
           "authors": "Casey C. O’Hara, Mabel Baez-Schon, Rebecca Chaplin-Kramer, Samantha H. Cheng, Alejandra Echeverri, Gillian L. Galford, Rachelle K. Gould, Cristina L. Mancilla, Maura C. Muldoon, Gerald G. Singh, Priscilla Baltezar, Yusuke Kuwayama, Stephen Polasky, Amanda D. Rodewald, Richard P. Sharp, Elizabeth J. Tennant, Jiaying Zhao, Benjamin S. Halpern",
           "abstract": "Remotely sensed Earth science information (ESI) has become increasingly central to addressing global challenges, yet its societal value, i.e., the difference ESI makes in real-world decisions and outcomes, is rarely quantified. In this study, we systematically map peer-reviewed literature that explicitly assesses the societal value of ESI across instrumental, intrinsic, and relational value types, and the diversity of approaches used to assess those values. Drawing from 13,823 publications across Scopus, Web of Science, and a curated library of ESI valuation studies, we identify 171 studies that applied ESI in a decision context and used a valuation method to compare outcomes with and without ESI. The majority of these studies employed decision analysis methods (e.g., Value of Information, Cost–Benefit Analysis), focusing primarily on quantitative instrumental values (e.g., profit, crop yield, lives saved), particularly in agricultural contexts. A smaller set of studies applied preference elicitation methods (e.g., stated preference, surveys, interviews, focus groups) to capture qualitative benefits and relational values including quality of life improvements, empowerment, and procedural justice. Many excluded studies demonstrated scientific value of ESI but did not explicitly translate that into societal value, revealing the need for a more systematic approach to ESI valuation. By promoting a more inclusive, interdisciplinary, and flexible portfolio of valuation methods, we aim to expand our understanding of the societal benefits of ESI to help guide investment in future missions, enhance public support, and ensure that science and policy goals are well aligned.",
@@ -892,44 +795,17 @@
           "doi": "https://doi.org/10.1073/pnas.2414948123",
           "filter": "0",
           "created": "2026-2-6"
-        },
-        {
-          "title": "Toddlers expect ingroup loyalty to override personal preferences when outgroups are present",
-          "authors": "Lin Bian, Renée Baillargeon",
-          "abstract": "When outgroups are present, adults may endorse ingroup choices that are at odds with their personal preferences, in an outward show of ingroup loyalty. Here, we examined whether 2-y-old toddlers ( N = 108) might already understand such shows of loyalty. In three violation-of-expectation experiments, toddlers watched interactions among a target individual, an ingroup member, and an outgroup member; group memberships were marked with novel labels. In the critical trials, the target individual chose between an ingroup- and an outgroup-associated toy. When the outgroup member was present during this selection process, toddlers expected the target individual to conform to her group’s norm and select the ingroup-associated toy, even when they knew she preferred the outgroup-associated toy. This was true whether or not the ingroup member remained in the scene; as long as the outgroup member was present, toddlers expected the target individual to select the ingroup-associated toy and no other toy. When the outgroup member was absent, however, toddlers expected the target individual to act on her personal preference, if any. They also held this expectation if no information was provided about group memberships. Together, these results indicate that by 2 y of age, toddlers a) construe individuals as possessed of both a personal and a social identity, b) understand that individuals may produce different actions in different contexts depending on which identity has precedence, and c) expect individuals’ social identity to take precedence in intergroup contexts even when it conflicts with their personal identity, in a show of ingroup loyalty.",
-          "url": "https://doi.org/10.1073/pnas.2521041123",
-          "doi": "https://doi.org/10.1073/pnas.2521041123",
-          "filter": "0",
-          "created": "2026-2-2"
         }
       ],
       "articles_hidden": [
         {
-          "title": "Grazer exclusion is associated with higher fast-cycling carbon pools but lower slow-cycling mineral-associated carbon across grasslands",
-          "authors": "Luhong Zhou, Shangshi Liu, Maarten Schrama, Deborah Ashworth, Richard D. Bardgett",
-          "abstract": "The removal of livestock grazers from historically grazed grasslands is widely proposed as a key strategy for the enhancement of soil organic carbon (SOC) for climate mitigation. Yet, accurate assessments of how grazer exclusion impacts SOC pools of differing stability are lacking, with most studies focusing on total SOC rather than the distribution of SOC within fast and more stable, slow-cycling pools. Here, we used 12 historically grazed grassland sites along an 800 km south–north gradient across the United Kingdom to test how particulate (POC) and mineral-associated organic carbon (MAOC) pools were linked to long-term (&gt;10 y) exclusion of large domesticated grazers. We found that grazer exclusion was associated with relatively higher fast-cycling C pools, including plant and litter C, and to a lesser extent POC, but lower more stable, slow-cycling MAOC pools compared to grazed controls. Grazer exclusion was also associated with a marked shift in vegetation composition, with greater cover of ericoid mycorrhizal (ErM) shrubs over arbuscular mycorrhizal (AM) graminoids. This vegetation shift likely played a dual role in regulating SOC, contributing to higher POC via both the input of recalcitrant litter and by the enhancement of soil moisture and lower MAOC due to priming and decreased mineral protection of SOC. Our findings provide evidence that while the exclusion of grazers tends to favor fast-cycling C pools, it coincides with lower SOC persistence, potentially increasing the vulnerability of grassland SOC stocks to future climate change.",
-          "url": "https://doi.org/10.1073/pnas.2512048123",
-          "doi": "https://doi.org/10.1073/pnas.2512048123",
+          "title": "Topological signatures of collective dynamics and turbulent-like energy cascades in apolar active granular matter",
+          "authors": "Zihan Zheng, Cunyuan Jiang, Yangrui Chen, Matteo Baggioli, Jie Zhang",
+          "abstract": "Active matter refers to a broad class of nonequilibrium systems where energy is continuously injected at the level of individual “particles.” These systems exhibit emergent collective behaviors that have no direct thermal-equilibrium counterpart. Their scale ranges from micrometer-sized swarms of bacteria to meter-scale human crowds. In recent years, the role of topology and self-propelled topological defects in active systems has garnered significant attention, particularly in polar and nematic active matter. Building on these ideas, we investigate emergent collective dynamics in apolar active granular fluids. Using isotropic granular vibrators as a model experimental system of apolar active Ornstein–Uhlenbeck particles in a dry environment, we uncover a distinctive three-stage time evolution arising from the intricate interplay between activity and inelastic interactions. By analyzing the statistics, spatial correlations, and dynamics of vortex-like topological defects in the displacement vector field, we demonstrate their ability to describe this intrinsic collective motion. Furthermore, associated to these topological defects, we reveal the onset of a turbulent-like inverse energy cascade, where kinetic energy transfers across different length scales over time. As the system evolves, the power scaling of the energy transfer increases with the duration of observation. Our findings show that topological concepts can be extended to the nonequilibrium dynamics of apolar active matter, revealing a direct link between microscopic topological processes and emergent large-scale behaviors in active granular fluids that lack both a well-defined direction of motion and an intrinsic axis of orientation at the particle scale.",
+          "url": "https://doi.org/10.1073/pnas.2510873123",
+          "doi": "https://doi.org/10.1073/pnas.2510873123",
           "filter": "2",
-          "created": "2026-2-2"
-        },
-        {
-          "title": "Nuclear speckles are regulatory hubs for viral and host mRNA expression during HSV-1 infection",
-          "authors": "Shani Nadav-Eliyahu, Chaya Bohrer, Alon Boocholez, Noa Kinor, Vesa Aho, Jennifer I. C. Benichou, Salla Mattola, Sami Salminen, Henri Niskanen, Minna U. Kaikkonen, Maija Vihinen-Ranta, Yaron Shav-Tal",
-          "abstract": "Herpes simplex virus type 1 (HSV-1) infection remodels the host nucleus, marginalizing chromatin and forming viral replication compartments (VRCs). Nuclear speckles, nuclear bodies enriched in RNA-processing factors, reposition around VRCs and undergo structural changes. While viral mRNAs are transcribed in VRCs and host transcription is largely suppressed, the nuclear routes used by viral and upregulated host transcripts and their relationship with nuclear bodies remain unclear. We show that immediate-early (IE) viral transcripts uniquely accumulate in nuclear speckles prior to export, unlike early or late transcripts, revealing a selective nuclear speckle-dependent pathway. Similarly, host mRNAs upregulated during infection traffic into nuclear speckles after transcription. Moreover, nuclear speckles are structurally remodeled, marked by the long non-coding RNA (lncRNA) MALAT1 removal and increased dynamics of the nuclear speckle core protein SRRM2. Finally, we found that blocking mRNA export causes IE transcripts to accumulate in nuclear speckles and that nuclear speckle disassembly severely impairs IE mRNA export, preventing downstream viral gene expression. These findings establish nuclear speckles as dynamic regulatory hubs that selectively facilitate the processing and export of IE viral mRNAs during HSV-1 infection.",
-          "url": "https://doi.org/10.1073/pnas.2511555123",
-          "doi": "https://doi.org/10.1073/pnas.2511555123",
-          "filter": "2",
-          "created": "2026-2-2"
-        },
-        {
-          "title": "PTP1B inhibition promotes microglial phagocytosis in Alzheimer’s disease models by enhancing SYK signaling",
-          "authors": "Yuxin Cen, Steven R. Alves, Dongyan Song, Christy Felice, Jonathan B. Preall, Linda Van Aelst, Nicholas K. Tonks",
-          "abstract": "Amyloid β (Aβ) accumulation is a hallmark of Alzheimer’s disease (AD). Emerging evidence suggests that impaired microglial Aβ phagocytosis is a key feature in AD, highlighting the therapeutic potential of enhancing this innate immune function. Here, we demonstrate that genetic deletion or pharmacological inhibition of protein tyrosine phosphatase 1B (PTP1B) ameliorated memory deficits and reduced Aβ burden in APP/PS1 mice. Moreover, we show that PTP1B was highly expressed in microglia, and its deficiency promoted a transcriptional shift toward immune activation and phagocytosis. Consistently, PTP1B deletion in microglia enhanced phagocytosis and energy metabolism, supported by increased AKT-mTOR signaling, a pathway essential for meeting the energy demands of activation. Mechanistically, we identified spleen tyrosine kinase (SYK), a key regulator of microglial phagocytosis, as a direct substrate of PTP1B. Inhibition of SYK showed that PTP1B modulates microglial activation in a SYK-dependent manner. These findings established PTP1B as a critical modulator of microglial activation and a potential therapeutic target for AD.",
-          "url": "https://doi.org/10.1073/pnas.2521944123",
-          "doi": "https://doi.org/10.1073/pnas.2521944123",
-          "filter": "2",
-          "created": "2026-2-2"
+          "created": "2026-2-6"
         },
         {
           "title": "Mutations and structural variants arising during double-strand break repair",
@@ -959,15 +835,6 @@
           "created": "2026-2-5"
         },
         {
-          "title": "Topological signatures of collective dynamics and turbulent-like energy cascades in apolar active granular matter",
-          "authors": "Zihan Zheng, Cunyuan Jiang, Yangrui Chen, Matteo Baggioli, Jie Zhang",
-          "abstract": "Active matter refers to a broad class of nonequilibrium systems where energy is continuously injected at the level of individual “particles.” These systems exhibit emergent collective behaviors that have no direct thermal-equilibrium counterpart. Their scale ranges from micrometer-sized swarms of bacteria to meter-scale human crowds. In recent years, the role of topology and self-propelled topological defects in active systems has garnered significant attention, particularly in polar and nematic active matter. Building on these ideas, we investigate emergent collective dynamics in apolar active granular fluids. Using isotropic granular vibrators as a model experimental system of apolar active Ornstein–Uhlenbeck particles in a dry environment, we uncover a distinctive three-stage time evolution arising from the intricate interplay between activity and inelastic interactions. By analyzing the statistics, spatial correlations, and dynamics of vortex-like topological defects in the displacement vector field, we demonstrate their ability to describe this intrinsic collective motion. Furthermore, associated to these topological defects, we reveal the onset of a turbulent-like inverse energy cascade, where kinetic energy transfers across different length scales over time. As the system evolves, the power scaling of the energy transfer increases with the duration of observation. Our findings show that topological concepts can be extended to the nonequilibrium dynamics of apolar active matter, revealing a direct link between microscopic topological processes and emergent large-scale behaviors in active granular fluids that lack both a well-defined direction of motion and an intrinsic axis of orientation at the particle scale.",
-          "url": "https://doi.org/10.1073/pnas.2510873123",
-          "doi": "https://doi.org/10.1073/pnas.2510873123",
-          "filter": "2",
-          "created": "2026-2-6"
-        },
-        {
           "title": "Theoretical limits for sensing through phase separation",
           "authors": "Henry Alston, Mason Rouches, Arvind Murugan, Aleksandra M. Walczak, Thierry Mora",
           "abstract": "Biomolecular condensates form on timescales of seconds in cells upon environmental or compositional changes. Condensate formation is thus argued to act as a mechanism for sensing such changes and quickly initiating downstream processes, such as forming stress granules in response to heat stress and amplifying cyclic GMP-AMP synthase enzymatic activity upon detection of cytosolic DNA. Here, we study a dynamical model of droplet nucleation and growth to demonstrate how phase separation allows cells to discriminate small concentration differences on finite, biologically relevant timescales. We propose optimal sensing protocols, which use the sharp onset of phase separation. We show how, given experimentally measured rates, cells can achieve rapid and robust sensing of concentration differences of 1 % on a timescale of minutes, offering an alternative to classical biochemical mechanisms.",
@@ -984,6 +851,15 @@
           "doi": "https://doi.org/10.1073/pnas.2527128123",
           "filter": "2",
           "created": "2026-2-5"
+        },
+        {
+          "title": "HSCs/MPPs as cells of origin with altered differentiation hierarchy impairing immunomicroenvironment in PML::RARA and CBFα/β fusion AML",
+          "authors": "Niu Qiao, Zi-Xuan Wang, Yu-Liang Zhang, Liu-Qing-Qing Zhang, Hong-Ming Zhu, Xiang-Qin Weng, Yong-Mei Zhu, Wen-Yan Cheng, Jian-Feng Li, Lu Jiang, Xiao-Yu Yan, Guang Yang, Yang Shen, Sheng-Yue Wang, Zhu Chen, Xiao-Jian Sun, Feng Liu, Sai-Juan Chen",
+          "abstract": "The theoretical possibility for leukemia stem cells (LSCs) to produce both leukemia blasts and dysfunctional immune cells remains underexplored. Here, we investigate three major fusion transcription factor (fTF)-driven acute myeloid leukemia (AML) subtypes [ RUNX1(CBFα)::RUNX1T1 , PML::RARA , and CBFB::MYH11 ] using two optimized single-cell RNA-sequencing technologies to trace fTF expression in 24 de novo AML patients. We demonstrate that the fTFs are widely expressed not only in leukemia blasts but also in differentiated myeloid and lymphoid cells, indicating hematopoietic stem cells or multipotent progenitors (HSCs/MPPs) as LSCs that propagate altered cellular differentiation hierarchies, including immune cells. DNA-FISH confirms the presence of fTFs in T lymphoid and erythroid cells, and targeted sequencing of secondary mutations in sublineages of cells corroborates hierarchical and stepwise leukemogenesis. By tracking RUNX1::RUNX1T1 -expressing cells in patients with or without relapse post–frontline chemotherapy, we highlight the necessity of eradicating LSCs to achieve sustained long-term complete remission and restore a functional immune system capable of suppressing residual disease over time. Comparative single-cell transcriptome analyses further reveal that fTFs are associated with AML subtype-specific differentiation defects in both innate and adaptive immune compartments, suggesting an altered landscape of immune cell–cell communication networks that may facilitate the survival and proliferation of leukemic blasts. Through the examination of intercellular communications among various putative fTF + and normal cell populations, we developed a ligand–receptor (L–R)-based risk-scoring model with independent prognostic value. Collectively, these findings provide insights into the cells of origin of LSCs and the implications of fTF expression for the immune landscape of AML.",
+          "url": "https://doi.org/10.1073/pnas.2526334123",
+          "doi": "https://doi.org/10.1073/pnas.2526334123",
+          "filter": "2",
+          "created": "2026-2-6"
         },
         {
           "title": "Amplified warming in tropical and subtropical cities under 2 °C climate change",
@@ -1004,15 +880,6 @@
           "created": "2026-2-4"
         },
         {
-          "title": "HSCs/MPPs as cells of origin with altered differentiation hierarchy impairing immunomicroenvironment in PML::RARA and CBFα/β fusion AML",
-          "authors": "Niu Qiao, Zi-Xuan Wang, Yu-Liang Zhang, Liu-Qing-Qing Zhang, Hong-Ming Zhu, Xiang-Qin Weng, Yong-Mei Zhu, Wen-Yan Cheng, Jian-Feng Li, Lu Jiang, Xiao-Yu Yan, Guang Yang, Yang Shen, Sheng-Yue Wang, Zhu Chen, Xiao-Jian Sun, Feng Liu, Sai-Juan Chen",
-          "abstract": "The theoretical possibility for leukemia stem cells (LSCs) to produce both leukemia blasts and dysfunctional immune cells remains underexplored. Here, we investigate three major fusion transcription factor (fTF)-driven acute myeloid leukemia (AML) subtypes [ RUNX1(CBFα)::RUNX1T1 , PML::RARA , and CBFB::MYH11 ] using two optimized single-cell RNA-sequencing technologies to trace fTF expression in 24 de novo AML patients. We demonstrate that the fTFs are widely expressed not only in leukemia blasts but also in differentiated myeloid and lymphoid cells, indicating hematopoietic stem cells or multipotent progenitors (HSCs/MPPs) as LSCs that propagate altered cellular differentiation hierarchies, including immune cells. DNA-FISH confirms the presence of fTFs in T lymphoid and erythroid cells, and targeted sequencing of secondary mutations in sublineages of cells corroborates hierarchical and stepwise leukemogenesis. By tracking RUNX1::RUNX1T1 -expressing cells in patients with or without relapse post–frontline chemotherapy, we highlight the necessity of eradicating LSCs to achieve sustained long-term complete remission and restore a functional immune system capable of suppressing residual disease over time. Comparative single-cell transcriptome analyses further reveal that fTFs are associated with AML subtype-specific differentiation defects in both innate and adaptive immune compartments, suggesting an altered landscape of immune cell–cell communication networks that may facilitate the survival and proliferation of leukemic blasts. Through the examination of intercellular communications among various putative fTF + and normal cell populations, we developed a ligand–receptor (L–R)-based risk-scoring model with independent prognostic value. Collectively, these findings provide insights into the cells of origin of LSCs and the implications of fTF expression for the immune landscape of AML.",
-          "url": "https://doi.org/10.1073/pnas.2526334123",
-          "doi": "https://doi.org/10.1073/pnas.2526334123",
-          "filter": "2",
-          "created": "2026-2-6"
-        },
-        {
           "title": "Pleistocene demographic histories dominate contemporary genomic diversity in a continental radiation of Himalayan–Hengduan songbirds",
           "authors": "Yadan Liu, Chih-Ming Hung, Yunrui He, Fei Wu, Dao Yan, Gang Song, Feng Dong",
           "abstract": "Genetic diversity, the fundamental substrate for evolutionary potential, is declining globally at unprecedented rates. Yet the mechanisms governing its distribution across species remain poorly understood, with competing hypotheses emphasizing either historical demography or contemporary ecological constraints. This debate limits our capacity to predict species' responses to environmental change. Here, based on systematic sampling and a unified analytical pipeline, we de novo assembled genomes for 120 songbird species breeding in the Himalayas–Hengduan Mountains (HHMs) and conducted population genomic analysis to examine the drivers of their genomic diversity. We observed a 6.5-fold variation in genome-wide heterogeneity and a 16.4-fold variation nucleotide diversity across species. Notably, these measures of genomic diversity showed no correlation with recent population dynamics, current population size, or other contemporary factors—such as elevational distribution, or life-history traits. Instead, historical demography strongly predicted genetic diversity, with ancestral population size during the late Pleistocene emerging as the sole correlate: Larger ancestral sizes consistently coincided with higher diversity. These findings underscore the critical influence of historical demography on contemporary genetic diversity in natural populations—an insight essential for designing effective conservation strategies.",
@@ -1020,14 +887,6 @@
           "doi": "https://doi.org/10.1073/pnas.2505642123",
           "filter": "2",
           "created": "2026-2-3"
-        },
-        {
-          "title": "Harnessing hemostasis to transform surgical scars into CAR-T immunological niches",
-          "authors": "Xiao Cheng, Ke Cheng",
-          "url": "https://doi.org/10.1073/pnas.2535463123",
-          "doi": "https://doi.org/10.1073/pnas.2535463123",
-          "filter": "2",
-          "created": "2026-2-2"
         },
         {
           "title": "Carbon–phosphorus exchange rate constrains density–speed trade-off in arbuscular mycorrhizal fungal growth",
@@ -1120,24 +979,6 @@
           "created": "2026-2-4"
         },
         {
-          "title": "Sourcing the origins of carnelian in early Chinese civilizations",
-          "authors": "Meiting Yan, Jiancheng Liu, Chunlei Qin, Xuemei He, Xiaoguang Li, Jian Yu, Ruilin Mao, Hongye Han, Zhanwei Sun, Chong Wang, Zhenbin Xie, Honglin Ran, Fei Tang, Jonathan Mark Kenoyer, Zihua Tang",
-          "abstract": "Carnelian beads in high-status burials of the Western Zhou period (ca. 1000–800 BCE) have long been seen as key evidence for long-distance exchange between East Asia and regions to the west, while their geological origins and circulation pathways have remained poorly constrained. Using a newly established geochemical database of 300 geological samples from 27 potential sources across Asia, we conducted trace-element analyses of 11 carnelian beads from the Sanxingdui pits (ca. 1200–1000 BCE), Sichuan Basin, southwest China. Canonical discriminant analysis indicates that the raw materials of these carnelian beads do not primarily derive from south China, but the Yanshan Orogeny, Central Asian Orogenic Belt and some unknown sources that might be close to Hexi Corridor, pointing to raw-material sources located over 1,000 km to the north of the Sichuan Basin. Comparative analyses of contemporaneous beads from Gansu, Shaanxi, and Beijing show similar northern provenance signatures, suggesting a broad and persistent exchange sphere spanning the southern Mongolian Plateau, Loess Plateau, eastern Tibetan Plateau, Central Plains, and Sichuan Basin between 1500–1000 BCE. Our results provide the earliest direct geochemical evidence for long-distance carnelian exchange in Bronze Age China and demonstrate the value of integrating geochemical sourcing with archaeological context to reconstruct ancient interaction networks.",
-          "url": "https://doi.org/10.1073/pnas.2524563123",
-          "doi": "https://doi.org/10.1073/pnas.2524563123",
-          "filter": "2",
-          "created": "2026-2-2"
-        },
-        {
-          "title": "Proximity-driven acceleration of challenging solid-phase peptide couplings",
-          "authors": "Joshua Parker, Brooke A. Farrell, Karlee A. Kohuth, Landon Parker, Skander A. Abboud, Thomas Kodadek",
-          "abstract": "Many important solid-phase synthesis reactions proceed slowly and inefficiently, for example, the coupling of an activated ester to a sterically hindered, bead-displayed amine, a critical step in the synthesis of many peptides. Forcing conditions are often required to achieve acceptable yields. We show here that such reactions can be accelerated by tethering to the bead a nucleophilic pyridine catalyst, which reacts with the activated ester, creating a high local concentration of a reactive acylpyridinium intermediate that couples efficiently to the bead-displayed amine. In many cases, the “cleanliness” of reactions carried out on resins equipped with an immobilized catalyst is substantially better than the analogous reactions in which the catalyst is added to the solution.",
-          "url": "https://doi.org/10.1073/pnas.2522338123",
-          "doi": "https://doi.org/10.1073/pnas.2522338123",
-          "filter": "2",
-          "created": "2026-2-2"
-        },
-        {
           "title": "Variable thresholds for phosphorylation targets of the ERK signaling pathway",
           "authors": "Kristyn Hayashi, Suganya Sekaran, Pelle Simpson, Christopher C. Ebmeier, Cole R. Michel, Natalie G. Ahn",
           "abstract": "Cell fates regulated by ERK respond to different thresholds of signaling strength. In mammalian cells, conditions that activate ERK to submaximal levels are sufficient to sustain proliferation, survival, and transformation, while stimuli that activate ERK to very high levels often lead to cell death or cell cycle arrest. But while this “Goldilocks effect” is well known, the mechanisms have never been fully explained. In particular, threshold responses have been shown at the level of transcription and cell state changes, but whether phosphorylation responses upstream of these events also respond to thresholds is unknown. Here, we used mass spectrometry-based phosphoproteomics to ask if molecular events in the ERK pathway respond to different thresholds of signaling strength, by quantifying changes in phosphorylation of pathway targets against the occupancy of the two activating phosphosites in ERK. The results show that most phosphorylation events track ERK activation faithfully, responding linearly with increasing 2P-ERK occupancy. But some sites respond nonlinearly, reaching maximal phosphorylation when 2P-ERK exceeds lower thresholds (10 to 40%), or increasing substantially after 2P-ERK exceeds higher thresholds (&gt;60%). Low threshold sites are found on transcriptional repressors that facilitate proliferation when inactivated by ERK/ribosomal s6 kinase (RSK) phosphorylation. By contrast, high threshold sites are found on proteins that are recruited to double-stranded DNA breaks and mediate DNA repair. Measurement of phosphorylation occupancies also revealed unexpected differences between cell states not apparent from inhibitor fold-changes. Our findings demonstrate that signaling thresholds exist at the level of the phosphoproteome, providing potential mechanisms for regulating cellular responses to pathway strength.",
@@ -1183,15 +1024,6 @@
           "created": "2026-2-5"
         },
         {
-          "title": "RPA-independent activation of the ATR/CHK1 pathway",
-          "authors": "Min Huang, Dandan Zhu, Junjie Chen",
-          "abstract": "The ATR/CHK1 pathway governs a crucial intra-S-phase checkpoint that safeguards genome stability under replication stress by stabilizing stalled replication forks and ensuring high-fidelity DNA replication. Traditionally, activation of this pathway is thought to rely on replication protein A (RPA)-coated single-stranded DNA, which recruits the ATR–ATRIP complex to sites of stalling fork, positioning RPA as essential for ATR signaling. In this study, we report a surprising and previously unrecognized phenomenon: acute depletion of RPA2 triggers robust ATR/CHK1 activation through an RPA-independent mechanism. Using 293A and RPE-1 cells engineered with an inducible RPA2-dTAG degron system, we observed increased phosphorylation of CHK1 at Ser296 and Ser345 in the absence of RPA. Notably, this elevated CHK1 phosphorylation was abolished by ATR inhibition, confirming its dependence on ATR kinase activity. Mechanistic analyses further revealed that this RPA-independent activation requires the checkpoint mediators RAD9 and TOPBP1. These findings uncover dual mechanisms, both RPA-dependent and -independent, of ATR/CHK1 pathway activation, highlighting a robust and flexible replication stress response network that preserves genome integrity even when canonical signaling is disrupted.",
-          "url": "https://doi.org/10.1073/pnas.2524246123",
-          "doi": "https://doi.org/10.1073/pnas.2524246123",
-          "filter": "2",
-          "created": "2026-2-2"
-        },
-        {
           "title": "Hierarchical friction memory leads to subdiffusive configurational dynamics of fast-folding proteins",
           "authors": "Anton Klimek, Benjamin A. Dalton, Lucas Tepper, Roland R. Netz",
           "abstract": "Proteins often exhibit subdiffusive configurational dynamics, the origins of which are still unresolved. We investigate the impact of non-Markovian friction and the free-energy landscape on the dynamics of fast-folding proteins in terms of the mean squared displacement (MSD) and the mean first-passage-time (MFPT) of the folding reaction coordinate. We find the friction memory kernel from published molecular dynamics simulations to be well-described by a hierarchical multiexponential function, which gives rise to subdiffusion in the MSD for times shorter than the longest memory time, while for longer times the confining free-energy landscape produces subdiffusion. Thus, for a wide range of times, friction memory effects in fast-folding proteins dominate the scaling behavior of the MSD compared to effects due to the folding free-energy landscape. As a consequence, Markovian models are insufficient to fully capture the folding dynamics, as quantified by the MSD and the MFPT, even when including coordinate-dependent friction. Our results demonstrate the importance of memory effects in protein folding and conformational dynamics and explicitly show that subdiffusion in fast-folding protein dynamics originates mainly from memory effects, not from the free-energy landscape and not from coordinate-dependent friction.",
@@ -1208,23 +1040,6 @@
           "doi": "https://doi.org/10.1073/pnas.2530754123",
           "filter": "2",
           "created": "2026-2-6"
-        },
-        {
-          "title": "Reply to Compton et al.: Another paradoxical misunderstanding",
-          "authors": "George Butler, Joanna Baker, Sarah R. Amend, Kenneth J. Pienta, Chris Venditti",
-          "url": "https://doi.org/10.1073/pnas.2536185123",
-          "doi": "https://doi.org/10.1073/pnas.2536185123",
-          "filter": "2",
-          "created": "2026-2-2"
-        },
-        {
-          "title": "Deglacial stratification of the polar Southern Ocean",
-          "authors": "François Fripiat, Daniel M. Sigman, Xuyuan E. Ai, Cédric Dumoulin, Simone Moretti, Anja S. Studer, Bernhard Diekmann, Oliver Esper, Thomas Frederichs, Frank Lamy, Ling Liu, Frank Pattyn, Mareike Schmitt, Ralf Tiedemann, Gerald H. Haug, Alfredo Martínez-García",
-          "abstract": "It is widely accepted that meltwater from northern ice sheets drove changes in the Atlantic Meridional Overturning Circulation, impacting global climate. In contrast, data are lacking on the Antarctic Ice Sheet’s (AIS) effect on Southern Ocean overturning, despite the Southern Ocean’s central role in ventilating the ocean interior. Here, we present diatom-bound nitrogen isotope evidence indicating that during deglaciations, as wind-driven upwelling in the open Antarctic Ocean increased, AIS melting strengthened density stratification in the polar Antarctic Ocean. This change coincides with reconstructions of meltwater discharge and resembles model simulations of global warming including AIS meltwater forcing. The transient input of freshwater and, thus, buoyancy weakened Southern Ocean’s “lower cell” that outcrops in the polar Antarctic Ocean even as open Antarctic Ocean’s “upper cell” strengthened. Given evidence that deep-ocean ventilation and CO 2 release were ongoing early in deglaciation, our data suggest that the open Antarctic Ocean, and not solely the most polar Antarctic Ocean, can directly ventilate the deep ocean. During the last deglaciation, the strongest density stratification in the polar Antarctic Ocean occurred just before the Antarctic Cold Reversal, when southern hemisphere warming paused and the northern hemisphere warmed sharply (i.e., during the Bølling–Allerød period). We propose that when combined with stronger wind-driven upwelling, the freshwater-driven redirection of upwelled water away from deep water formation and toward the upper cell deepened the global pycnocline, working to restart North Atlantic deep water formation in the Bølling–Allerød period. If so, polar ocean freshening in both hemispheres drove the “bipolar seesaw” events of deglaciation.",
-          "url": "https://doi.org/10.1073/pnas.2502076123",
-          "doi": "https://doi.org/10.1073/pnas.2502076123",
-          "filter": "2",
-          "created": "2026-2-2"
         },
         {
           "title": "A factor integrating transcription and repression of surface antigen genes in African trypanosomes",
@@ -1315,15 +1130,6 @@
           "created": "2026-2-6"
         },
         {
-          "title": "An interpretable molecular framework for predicting cancer driver missense mutations",
-          "authors": "Yan Yang, Weikang Sun, Yang Liu, Jian Zhang, Minghui Li",
-          "abstract": "Missense mutations play a critical role in human disease, contributing to both inherited disorders and cancer. However, accurately predicting their functional impact—particularly for cancer driver mutations—remains a major challenge due to limited validated labels and the complex molecular basis of oncogenesis. Here, we systematically characterized over 120,000 missense variants across pathogenic, benign, driver, passenger, recurrent somatic, and common population classes, using a comprehensive set of mechanistically grounded molecular features. By assessing the statistical burden of variations, we demonstrated that these features effectively discriminate among diverse variant classes and reveal a consistent enrichment of functional sites, structural integrity, and biophysical changes in pathogenic and driver mutations. Building on these insights, we developed MutaPheno, an interpretable framework for predicting the functional consequences of missense mutations. The model integrates 34 molecular-level features, encompassing structural, functional, physicochemical, and contextual descriptors, using a random forest algorithm. Trained exclusively on pathogenic and benign variants, MutaPheno achieved strong accuracy in predicting cancer driver mutations, outperforming both cancer-specific and general pathogenicity tools, while also demonstrating superior robustness when tested on unseen proteins. Our findings highlight the shared mechanisms between pathogenic and driver mutations and emphasize the role of molecular features in improving variant interpretation. MutaPheno provides a transparent and generalizable tool that can facilitate driver discovery and the development of targeted therapies.",
-          "url": "https://doi.org/10.1073/pnas.2524289123",
-          "doi": "https://doi.org/10.1073/pnas.2524289123",
-          "filter": "2",
-          "created": "2026-2-3"
-        },
-        {
           "title": "Controlling for life-history traits in vertebrates reveals that effective population size does not affect mutation rate or genome size",
           "authors": "Brooke Weinstein, Scott William Roy",
           "abstract": "Why mutation rates ( μ ) and genome sizes (GS) vary among species remains a central question in evolutionary genetics. Two influential models, the drift-barrier hypothesis (DBH) and the mutational-hazard hypothesis, propose that effective population size ( N e ) shapes these traits via the efficiency of selection, predicting higher μ and larger genomes in small populations. A recent comparative analysis of vertebrates reported a significant negative correlation between N e and μ , interpreted as support for the DBH. Using phylogenetic path analysis, we reanalyze the same dataset of 55 vertebrate species spanning mammals, birds, reptiles, and fishes, in which μ was estimated from high-coverage parent–offspring trios, while explicitly controlling for six life-history traits within a causal framework that tests model-implied conditional independencies. We show that the reported N e - μ association is entirely mediated by generation time (GT), which independently influences both variables; once this “back-door” path is blocked, N e has no detectable effect on μ . Once GT is accounted for, mating system shows the largest association with μ . Parallel analyses of GS within the same validated life-history framework reveal that GS is unrelated to N e , μ , or their interaction and is decoupled from the life-history covariation that strongly structures μ . These results are robust to alternative N e estimators and causal model formulations. Together, our findings indicate that N e provides little explanatory power for variation in μ or GS across vertebrates, challenging the presumed universality of drift-limited genome evolution.",
@@ -1342,30 +1148,13 @@
           "created": "2026-2-3"
         },
         {
-          "title": "Evolution of Pliocene-Pleistocene tropical terrestrial Andean temperature amplification",
-          "authors": "Lina C. Pérez-Angel, Julio Sepúlveda, Peter Molnar, Héctor Mora-Paez, Angélica Parrado, Katelyn Eaman, James Russell, Balaji Rajagopalan, Catalina González-Arango, Kathryn Snell, Camilo Montes, James L. Crowley, Mark Schmitz, Robin B. Trayler",
-          "abstract": "The Pliocene is the most recent epoch in which the Earth warmed under atmospheric CO 2 levels similar to today (&gt;400 ppm). The Pliocene then transitioned to the colder Pleistocene epoch, with the initiation of large-scale Northern Hemisphere glaciations. Although ocean temperature changes across these epochs are relatively well-known, quantitative estimates of the magnitude of land temperature change in the tropics are scarce. We provide a Plio-Quaternary quantitative air temperature record based on the distribution of bacterial branched glycerol dialkyl glycerol tetraethers (brGDGTs) preserved in sediments of the Funza-II core in the Sabana de Bogotá, Colombia (~4°N). Using a refined age model based on new U-Pb zircon dates from ash layers, and a novel mixed-source model that disentangles contributions from lake- and soil-derived brGDGTs, we show that warm Pliocene (3.8 to 2.58 Ma) temperatures were 4 . 8 - 1.4 + 1.8 °C warmer than the last ~800,000 y of the colder Pleistocene. The evolution of Pliocene-Pleistocene temperature in our record largely mirrors long-term tropical sea surface temperature (SST) cooling, highlighting the linkages between sea and land temperatures in the low latitudes via greenhouse-gas forcing. The median amplitude of Pliocene-Pleistocene cooling in the northern tropical Andes exceeds that predicted by theory, highlighting the importance of regional feedbacks including lapse rate adjustments and/or changes in Pacific SST gradients to the long-term evolution of Andean temperature. This first quantitative terrestrial temperature reconstruction within 5° of the equator over the past 3.8 My highlights that both regional and global processes must be considered when constraining uncertainties for future warming scenarios.",
-          "url": "https://doi.org/10.1073/pnas.2520191123",
-          "doi": "https://doi.org/10.1073/pnas.2520191123",
+          "title": "An interpretable molecular framework for predicting cancer driver missense mutations",
+          "authors": "Yan Yang, Weikang Sun, Yang Liu, Jian Zhang, Minghui Li",
+          "abstract": "Missense mutations play a critical role in human disease, contributing to both inherited disorders and cancer. However, accurately predicting their functional impact—particularly for cancer driver mutations—remains a major challenge due to limited validated labels and the complex molecular basis of oncogenesis. Here, we systematically characterized over 120,000 missense variants across pathogenic, benign, driver, passenger, recurrent somatic, and common population classes, using a comprehensive set of mechanistically grounded molecular features. By assessing the statistical burden of variations, we demonstrated that these features effectively discriminate among diverse variant classes and reveal a consistent enrichment of functional sites, structural integrity, and biophysical changes in pathogenic and driver mutations. Building on these insights, we developed MutaPheno, an interpretable framework for predicting the functional consequences of missense mutations. The model integrates 34 molecular-level features, encompassing structural, functional, physicochemical, and contextual descriptors, using a random forest algorithm. Trained exclusively on pathogenic and benign variants, MutaPheno achieved strong accuracy in predicting cancer driver mutations, outperforming both cancer-specific and general pathogenicity tools, while also demonstrating superior robustness when tested on unseen proteins. Our findings highlight the shared mechanisms between pathogenic and driver mutations and emphasize the role of molecular features in improving variant interpretation. MutaPheno provides a transparent and generalizable tool that can facilitate driver discovery and the development of targeted therapies.",
+          "url": "https://doi.org/10.1073/pnas.2524289123",
+          "doi": "https://doi.org/10.1073/pnas.2524289123",
           "filter": "2",
-          "created": "2026-2-2"
-        },
-        {
-          "title": "Neuron-specific modulation of SLC30A10 identifies dopaminergic and glutamatergic neurons as targets of manganese-induced motor disease",
-          "authors": "Stephanie M. Grant, Ashvini Melkote, Mollie X. Bernstein, Thomas Jursa, Cherish A. Taylor, Steven Hutchens, William Shawlot, Larry S. Zweifel, Rueben A. Gonzales, Donald R. Smith, Somshuvra Mukhopadhyay",
-          "abstract": "Essential metals accumulate in the basal ganglia at elevated levels and induce incurable motor disease. But, unlike other motor diseases, the neuronal targets of essential metals are unknown, and this fundamental knowledge gap has limited therapeutic progress. Because metal efflux transporters have high specificity, we hypothesized that neuron-specific knockout or knockin (i.e., overexpression) of efflux transporters may alter metal levels in targeted neurons and define the neuronal targets of metal-induced disease. To test this, we focused on manganese (Mn)-induced motor disease, which is a public health problem. We generated six neuron-specific Slc30a10 mouse strains with knockout or knockin of the Mn efflux transporter Slc30a10 in dopaminergic, GABAergic, or glutamatergic neurons. In the knockout strains, SLC30A10 was depleted and Mn levels were elevated in targeted brain regions. However, only dopaminergic- or glutamatergic-, but not GABAergic-, specific knockouts developed motor deficits without Mn exposure. Conversely, in the knockins, SLC30A10 was elevated and the increase in Mn levels after Mn exposure was attenuated in targeted regions. However, only dopaminergic- or glutamatergic-, but not GABAergic-, specific knockins were protected against Mn-induced motor deficits. Dopaminergic-specific Slc30a10 knockouts also exhibited deficits in dopaminergic neurotransmission that were consistent with their motor phenotype. Overall, 1) elevated Mn targets dopaminergic and glutamatergic neurons to induce motor disease, and 2) neuron-specific knockout/knockin of efflux transporters is an effective strategy to isolate the neuronal targets and underlying mechanisms of metal-induced neurological disease.",
-          "url": "https://doi.org/10.1073/pnas.2515785123",
-          "doi": "https://doi.org/10.1073/pnas.2515785123",
-          "filter": "2",
-          "created": "2026-2-2"
-        },
-        {
-          "title": "Divergent understandings in comparative oncology",
-          "authors": "Zachary T. Compton, Amy M. Boddy, Lisa M. Abegglen, Daniel Chávez, Joshua D. Schiffman, Marc Tollis, Carlo C. Maley",
-          "url": "https://doi.org/10.1073/pnas.2532925123",
-          "doi": "https://doi.org/10.1073/pnas.2532925123",
-          "filter": "2",
-          "created": "2026-2-2"
+          "created": "2026-2-3"
         },
         {
           "title": "Environmental conditions shape the global distribution of ant societies",
@@ -1395,15 +1184,6 @@
           "created": "2026-2-3"
         },
         {
-          "title": "Selective peroxynitrite-mediated protein nitration catalyzed by glyoxalase domain containing protein 4",
-          "authors": "Sarah Wright, Vu C. Dang, Sami Hussain, Prasanna Kandel, Robert P. Brendza, Sahar Mazhar, Marie Whitmore, Selim Boudoukha, Jaskamaljot Kaur Banwait, Robert Van Der Linden, Edward Vertudes, Kate Markham, Marta Trzeciak, Grace Pohan, Andy Jennings, Sheerin Shahidi-Latham, Frank Kayser, Mike Beckstead, Aaron L. Lucius, Arun Kashyap, Harry Ischiropoulos, Irene Griswold-Prenner",
-          "abstract": "Tyrosine nitration alters the structure, function, and cellular localization of proteins and is implicated in the pathology of multiple diseases [G. Ferrer-Sueta et al. , Chem. Rev. 118 , 1338–1408 (2018), H. Ischiropoulos, Arch. Biochem. Biophys. 356 , 1–11 (1998), I. Griswold-Prenner et al. , J. Biol. Chem. 299 , 105038–10554 (2023)]. Although protein nitration is assumed to proceed via nonspecific chemical mechanisms, it is highly selective, suggesting the possibility of enzymatic catalysis. Here, we showed that glyoxalase domain-containing protein 4 (GLOD4), a previously uncharacterized protein, is an enzyme that catalyzes selective protein nitration. A primary in vivo target for GLOD4-mediated nitration is alpha-synuclein (α-syn), which is central to the pathogenesis of Parkinson’s disease (PD) and related disorders. We document tyrosine nitration of α-syn by GLOD4 in vitro, in cells, and in a murine model of synuclein pathology. The data identified a function of GLOD4 and other structurally related proteins that catalyze the peroxynitrite-mediated selective protein tyrosine nitration. This enzymatic catalysis of nitration may unearth pathophysiological mechanisms and potential interventions in diseases such as PD, cancer, and autoimmunity.",
-          "url": "https://doi.org/10.1073/pnas.2515002123",
-          "doi": "https://doi.org/10.1073/pnas.2515002123",
-          "filter": "2",
-          "created": "2026-2-2"
-        },
-        {
           "title": "A daily cycle of White Collar Complex dephosphorylation sustains circadian rhythmicity in Neurospora",
           "authors": "Bin Wang, Xiaoying Zhou, Jennifer J. Loros, Jay C. Dunlap",
           "abstract": "The transcription factor complex White Collar Complex (WCC) functions both as a photoreceptor and as the circadian positive element. In response to light, WCC acutely activates ~5% of all genes, whereas in the dark it influences expression of about 40% of the transcriptome. Among WCC targets is frq , which is acutely light-activated through the pLRE ( proximal Light-Response Element ) and circadian-regulated through the C-box ( Clock-box ) promoter element that is not responsible for light-driven expression. The FRQ–FRH complex (FFC), which includes CK-1a, represses WCC activity at the C-box by phosphorylating WCC at &gt;95 sites, but FFC has no described role in the light. We validated the expectation that FFC also silences C-box promoters in constant light, thereby confirming two classes of WCC targets: C-box -like genes that are normally repressed in light and pLRE -like genes that remain light-active despite FFC-driven WCC phosphorylation. Derepression of C-box -like promoters in frq -null fungi may explain reported noncircadian phenotypes such as reduced virulence and conidiation. Reanalysis of WCC circadian regulation revealed that, while most WCC is phosphorylated and repressed at dusk, subsequent circadian activation results from transient dephosphorylation of only a small subset of the WCC pool. This small active pool drives frq expression, nucleating the FFC, which rephosphorylates WCC to repress it again, generating a phosphorylation/dephosphorylation cycle that can persist for days without new WCC synthesis. The realization that both FFC and WCC are regulated primarily through phosphorylation rather than protein turnover leaves the circadian oscillator looking much like a “phoscillator,” emphasizing the primacy of posttranslational regulation in timekeeping.",
@@ -1413,38 +1193,12 @@
           "created": "2026-2-6"
         },
         {
-          "title": "Early psychosocial deprivation alters the refinement of neural dynamics across adolescence",
-          "authors": "Marta Andujar, Lucrezia Liuzzi, Daniel S. Pine, Charles A. Nelson, Charles H. Zeanah, Nathan A. Fox, Bruno B. Averbeck",
-          "abstract": "Adolescence is a crucial period for the refinement of neural circuits and cognitive skills. During this time, executive functions mature alongside pronounced structural changes in the brain, including reductions in synapse density. Computational models suggest that synaptic pruning enhances performance by stabilizing neural dynamics—deepening attractor basins and accelerating return to baseline after perturbation. Here, we tested these predictions using EEG data from the Bucharest Early Intervention Project, a randomized controlled trial of foster care as an alternative to institutionalized care. Trial-by-trial EEG residuals during a Flanker task were modeled as a linear dynamical system, and changes in eigenvalue magnitude were tracked across adolescence. Across all groups, eigenvalues decreased with age, consistent with maturation of recurrent computations. However, children with histories of institutional care exhibited consistently higher eigenvalues, suggesting delayed or disrupted refinement of the neural dynamics. Importantly, higher eigenvalues were associated with poorer behavioral performance on the task, linking altered neural dynamics to altered executive functions. These findings demonstrate that early deprivation leaves a lasting imprint on the developmental trajectory of neural dynamics, affecting the maturation of brain systems underlying cognitive control.",
-          "url": "https://doi.org/10.1073/pnas.2514979123",
-          "doi": "https://doi.org/10.1073/pnas.2514979123",
-          "filter": "2",
-          "created": "2026-2-2"
-        },
-        {
           "title": "Rapid evolution reveals long-range spread of SARS-CoV-2",
           "authors": "Daniel B. Weissman",
           "url": "https://doi.org/10.1073/pnas.2533093123",
           "doi": "https://doi.org/10.1073/pnas.2533093123",
           "filter": "2",
           "created": "2026-2-3"
-        },
-        {
-          "title": "Lead in archived hair documents a decline in lead exposure to humans since the establishment of the US Environmental Protection Agency",
-          "authors": "Thure E. Cerling, Diego P. Fernandez, Ken R. Smith",
-          "abstract": "Lead (Pb) is well known to be toxic to humans. We use archived hair from individuals living along the Wasatch Front in Utah to evaluate changes in exposure to lead over the last 100 y. Current concentrations of lead in hair from this population average almost 100 times lower than before the establishment of the Environmental Protection Agency. This low level of lead exposure is likely due to the environmental regulations established by Environmental Protection Agency.",
-          "url": "https://doi.org/10.1073/pnas.2525498123",
-          "doi": "https://doi.org/10.1073/pnas.2525498123",
-          "filter": "2",
-          "created": "2026-2-2"
-        },
-        {
-          "title": "Flagellar rotation comes full circle",
-          "authors": "Michael D. Manson",
-          "url": "https://doi.org/10.1073/pnas.2533096123",
-          "doi": "https://doi.org/10.1073/pnas.2533096123",
-          "filter": "2",
-          "created": "2026-2-2"
         },
         {
           "title": "High-sensitivity, protein-independent detection of dsDNA sequences",
@@ -1472,15 +1226,6 @@
           "doi": "https://doi.org/10.1073/pnas.2518027123",
           "filter": "2",
           "created": "2026-2-6"
-        },
-        {
-          "title": "Oxidizing pollutants can disrupt nestmate recognition in ants",
-          "authors": "Nan-Ji Jiang, Bhoomika Ashok Bhat, Eduardo Briceño-Aguilar, Angela Lehmann, Yuko Ulrich, Bill S. Hansson, Markus Knaden",
-          "abstract": "Eusocial hymenoptera recognize nestmates based on colony-specific profiles of cuticular hydrocarbons (CHCs). While these profiles contain a variety of alkanes, the less abundant alkenes are crucial for nestmate recognition [F. R. Dani et al. , Chem. Senses 30 , 477–489 (2005)]. However, due to their carbon–carbon double bonds, alkenes can easily become degraded by oxidants. One of those oxidants, ozone, that usually reaches concentrations of 10 ppb in nonurban areas and ca 30 ppb in cities nowadays has been reported to often exceed 100 ppb in highly polluted regions, with levels above 200 ppb occasionally reported. Here, we show that short exposure to such elevated levels degrades alkenes in CHC profiles of all six investigated ant species and compromises nestmate recognition in five of them. Furthermore, a separate experiment with long-term exposure to such ozone levels corrupted brood care behavior within ant colonies, resulting in the death of larvae. The oxidizing pollutants like ozone have already been shown to corrupt interactions of flowers and their pollinators [B. Cook et al. , J. Chem. Biol. 46 , 987–996 (2020)] as well as sex pheromone communication in multiple species of flies [N. J. Jiang et al. , Nat. Commun. 14 (2023)]. Our data suggest that the detrimental effects of oxidant pollutants may be even more far-reaching by jeopardizing the functionality of eusocial colonies.",
-          "url": "https://doi.org/10.1073/pnas.2520139123",
-          "doi": "https://doi.org/10.1073/pnas.2520139123",
-          "filter": "2",
-          "created": "2026-2-2"
         },
         {
           "title": "Clathrin-mediated endocytosis of ERECTA family receptors is essential for proper stomatal development in Arabidopsis",
@@ -1516,24 +1261,6 @@
           "doi": "https://doi.org/10.1073/pnas.2534141123",
           "filter": "2",
           "created": "2026-2-3"
-        },
-        {
-          "title": "Noncircular rolling contact joints enable programmed behavior in robotic linkages",
-          "authors": "Colter J. Decker, Tony G. Chen, Michelle C. Yuen, Robert J. Wood",
-          "abstract": "Rolling contact joints (RCJs) guide motion in robotic linkages, including manipulators, surgical devices, prosthetics, and more. In this work, we present a generalized optimization method to tailor the kinematic properties of RCJs by simultaneously optimizing both noncircular surface geometries and internal actuation pulley shapes. Our approach accommodates multiple joint types, including passively coupled systems with programmable spring stiffness as well as actuated single or multilink mechanisms. We explicitly incorporate common and practical manufacturing constraints into our optimization framework, such as size and convexity constraints. To demonstrate this approach, we optimize an RCJ designed to replicate the trajectory of a human knee, achieving a 99.6% reduction in alignment error compared to revolute joints and a 99.3% error reduction compared to circular RCJs. Additionally, we show that optimized RCJs increase the load-carrying capacity of a two-finger gripper by more than 3.5 times compared to a comparable circular-jointed design, showcasing how joint optimization can enhance robotic performance.",
-          "url": "https://doi.org/10.1073/pnas.2521406123",
-          "doi": "https://doi.org/10.1073/pnas.2521406123",
-          "filter": "2",
-          "created": "2026-2-2"
-        },
-        {
-          "title": "Acquired motility of Babesia microti –infected red blood cells",
-          "authors": "Chao Li, Amy L. Apgar, Danielle M. Tufts, Tagbo H. R. Niepa",
-          "abstract": "Babesia microti is an intraerythrocytic protozoan parasite and the main causative agent of human babesiosis in the United States. While extensive research has focused on the prevalence of this vector-borne pathogen in natural populations, increases of human cases and clinical manifestation, and pathogen structure, little is known about the movements of B. microti within vertebrate red blood cells (RBCs). RBCs are nonmotile due to their lack of cellular structures for active movement. Here, we report a phenomenon in which B. microti –infected RBCs exhibit an acquired motility compared to uninfected RBCs. Using live-cell tracking, we observed a subset (around 1% in whole blood and 10% in 1:100 diluted blood) of infected RBCs displayed active movement. This acquired motility suggests that B. microti may induce host cell modifications that facilitate its survival, dissemination, or immune evasion potential, allowing it to successfully move through the blood and infect new RBCs. Our findings highlight unconventional RBC dynamics and a potential broad aspect of B. microti pathogenesis. Further investigation into the molecular mechanisms underlying this phenomenon could provide insights into parasite–host interactions and reveal targets for therapeutic intervention in treatment and/or prevention of babesiosis.",
-          "url": "https://doi.org/10.1073/pnas.2509776123",
-          "doi": "https://doi.org/10.1073/pnas.2509776123",
-          "filter": "2",
-          "created": "2026-2-2"
         },
         {
           "title": "Mapping of the viral shunt across widespread coccolithophore blooms using metabolic biomarkers",
@@ -1608,15 +1335,6 @@
           "created": "2026-2-6"
         },
         {
-          "title": "Projecting nitrous oxide over the 21st century, uncertainty related to stratospheric loss",
-          "authors": "Michael J. Prather, Calum P. Wilson",
-          "abstract": "Extending the N 2 O lifetime derived from Microwave Limb Sounder satellite observations, we find a mean value of 117 y and a likely decrease of –1.4 ± 0.9% per decade over the period 2004 to 2024. This trend is consistent with the previously published 2004 to 2021 value of –2.1 ± 1.2% per decade. A more careful analysis of uncertainty now provides a more robust likely (one-sigma) range. From analyses of a range of factors controlling the N 2 O lifetime, we find that the decrease in lifetime can be explained by recent changes in stratospheric circulation and temperature. Projection of the lifetime change to 2100 shows that this effect is comparable to differences across the shared socioeconomic pathways used for climate projections and cannot be ignored. An updated evaluation of the N 2 O chemical feedbacks shows that this effect produces a relatively small shift in atmospheric abundance over the 21st century, but still an important shift, –11%, in the global warming potential of N 2 O.",
-          "url": "https://doi.org/10.1073/pnas.2524123123",
-          "doi": "https://doi.org/10.1073/pnas.2524123123",
-          "filter": "2",
-          "created": "2026-2-2"
-        },
-        {
           "title": "Identification of a stylet-secreted effector protein family as a core component of root-knot nematode feeding tubes",
           "authors": "Richard S. Hussey, Melissa G. Mitchum, Rebekah L. Paul, Raquel O. Rocha, John P. Shields, Lesa J. Beamer",
           "abstract": "Proteins secreted from a mouth stylet of sedentary plant-parasitic root-knot nematodes self-polymerize to form a unique feeding tube structure within host cells modified into giant feeding cells by the nematode. Feeding tubes have essential functions as they complex with the host endomembrane system for nutrient uptake to sustain parasitism. Despite their significance, they remain one of the least understood aspects of nematode parasitism of plants. Their small size and location within giant-cells deeply embedded within galls encasing adult females has prohibited studies to isolate and discern their molecular composition. Here, we developed a protocol for the isolation and semipurification of root-knot nematode feeding tubes from giant-cell cytoplasm of several host plant species to provide a unique view of these structures at the light and scanning electron microscopy level revealing previously undescribed features of their structure. Our methods allowed for the isolation and solubilization of sufficient quantities of enriched feeding tubes enabling a comparative proteome analysis across host species that identified proteins with an increased likelihood to function in feeding tube formation. A comparison across root-knot nematode species further narrowed candidates to a conserved class of secretory proteins that specifically localized within secretory granules of the dorsal gland of adult females and in feeding tubes formed within host cell cytoplasm to unequivocally demonstrate these proteins as core components of feeding tubes. Our finding gives scientists a look into the protein composition of feeding tubes opening the door to a better understanding of their structure and function in nematode parasitism.",
@@ -1669,15 +1387,6 @@
           "doi": "https://doi.org/10.1073/pnas.2520537123",
           "filter": "2",
           "created": "2026-2-6"
-        },
-        {
-          "title": "Next-generation anti-DLL3 radiopharmaceuticals targeting high-grade neuroendocrine lung and prostate cancers",
-          "authors": "Salomon Tendler, Roberto De Gregorio, Paul Balderes, Alexa L. Michel, Tran T. Hoang, David Bauer, Kathryn M. Tully, Joshua A. Korsen, Ivo C. Lorenz, Abdul G. Khan, Lukas Carter, Olivia Vergnolle, Irina V. Lebedeva, Elisabeth K. Nyakatura, Lisa Bodei, Michael J. Morris, John T. Poirier, Charles M. Rudin, Jason S. Lewis",
-          "abstract": "Delta-like ligand 3 (DLL3) is a tumor-selective cell surface protein upregulated in high-grade neuroendocrine tumors, including small-cell lung cancer (SCLC) and neuroendocrine prostate cancer (NEPC). Here, we report on the development of anti-DLL3 radioimmunoconjugates for use as either a diagnostic imaging tracer based on the positron-emitter zirconium-89 ( 89 Zr) or a therapeutic agent utilizing the beta-emitter lutetium-177 ( 177 Lu). To begin, we generated a panel of human monoclonal antibodies targeting human DLL3 by immunizing transgenic mice engineered with a human immunoglobulin repertoire. The panel was extensively screened to identify high-affinity internalizing monoclonal antibodies (mAbs) recognizing a diversity of DLL3 epitopes. Select mAbs were reformatted as fully human Fab-arm exchange-deficient IgG4 to reduce effector function and then produced by recombinant methods. A pilot immunoPET study was performed in athymic female nude mice bearing human NCI-H82 SCLC tumors to nominate a lead candidate. ImmunoPET identified [ 89 Zr]Zr-DFO-TDI-Y-010 as the top-performing diagnostic tracer, with excellent in vivo biodistribution and tumor-to-background-organ ratios consistently &gt;4. Therapeutic studies with [ 177 Lu]Lu-CHX-A\"-DTPA-TDI-Y-010 demonstrated strong antitumor effects, significantly improving ( P &lt;0.05) overall survival compared with the benchmark clone [ 177 Lu]Lu-CHX-A\"-DTPA-SC16.56 in two SCLC tumor models (NCI-H82 and Lu149) and achieving comparable overall survival in a NEPC tumor model.",
-          "url": "https://doi.org/10.1073/pnas.2505785123",
-          "doi": "https://doi.org/10.1073/pnas.2505785123",
-          "filter": "2",
-          "created": "2026-2-2"
         },
         {
           "title": "A silent Kv channel subunit shapes PV neuron action potential waveform and short-term synaptic plasticity during high-frequency firing",
@@ -1900,19 +1609,19 @@
           "created": "2026-2-5"
         },
         {
-          "title": "Ineffective marine protected areas in Azores",
-          "authors": "João Pedro Barreiros, Alfonso Aguilar-Perera, Antônio Batista Anderson, Luís M. D. Barcelos, Luciano B. Beheregaray, Edgardo Díaz-Ferguson",
-          "url": "https://doi.org/10.1126/science.aed7607",
-          "doi": "https://doi.org/10.1126/science.aed7607",
-          "filter": "3",
-          "created": "2026-2-5"
-        },
-        {
           "title": "As the world warms, freezing rain shifts to U.S. South",
           "authors": "Hannah Richter",
           "abstract": "Recent winter storm traced the path of an emerging ice corridor",
           "url": "https://doi.org/10.1126/science.aeg1220",
           "doi": "https://doi.org/10.1126/science.aeg1220",
+          "filter": "3",
+          "created": "2026-2-5"
+        },
+        {
+          "title": "Ineffective marine protected areas in Azores",
+          "authors": "João Pedro Barreiros, Alfonso Aguilar-Perera, Antônio Batista Anderson, Luís M. D. Barcelos, Luciano B. Beheregaray, Edgardo Díaz-Ferguson",
+          "url": "https://doi.org/10.1126/science.aed7607",
+          "doi": "https://doi.org/10.1126/science.aed7607",
           "filter": "3",
           "created": "2026-2-5"
         },
@@ -2100,15 +1809,6 @@
           "doi": "https://doi.org/10.1126/sciadv.adw9995",
           "filter": "0",
           "created": "2026-2-6"
-        },
-        {
-          "title": "Day-to-day fluctuations in cognitive precision predict the domain-general intention-behavior gap",
-          "authors": "Daniel J. Wilson, Cendri A. Hutcherson",
-          "abstract": "The idea that better cognitive functioning helps to close the gap between goals and behavior seems self-evident, yet empirical work has found unusually weak interindividual associations between cognitive task performance and real-world, goal-relevant outcomes. Here, we resolve this paradox by shifting from trait-level to state-level analysis. Leveraging a microtask design to measure daily fluctuations in cognitive function, goal setting and goal progress, mood, sleep, and motivation over a 12-week intensive longitudinal study of university students ( N  = 184, time points = 9248), we show that within-person upswings in domain-general cognitive processing precision precede and predict same-day self-reported goal setting and achievement across both academic and nonacademic domains, even controlling for other factors. A one-standard-deviation change in cognitive precision had an effect statistically equivalent to ~40 min of work, with similar or larger predictive effects compared to fluctuations in mood/motivation and no moderation by trait-level self-control or conscientiousness. Our work addresses long-standing controversies and highlights the power of intraindividual analysis to reveal relationships missed by cross-sectional approaches.",
-          "url": "https://doi.org/10.1126/sciadv.aea8697",
-          "doi": "https://doi.org/10.1126/sciadv.aea8697",
-          "filter": "0",
-          "created": "2026-2-4"
         }
       ],
       "articles_hidden": [
@@ -2158,11 +1858,11 @@
           "created": "2026-2-4"
         },
         {
-          "title": "Climate, ecological dynamics, and the seasonal distribution of birds in mountains",
-          "authors": "Marius Somveille, Benjamin G. Freeman, Frank A. La Sorte, Mao-Ning Tuanmu",
-          "abstract": "Biodiversity is unevenly distributed along elevational gradients. The predominant hypothesis is that macroevolutionary dynamics and climatic niche conservatism explain today’s elevational patterns of biodiversity, but the alternative energy efficiency hypothesis emphasizes modern ecological interactions related to energy budgets. We test these competing hypotheses by examining seasonal elevational ranges for 10,998 bird populations in 34 mountain regions. Multiple lines of evidence support the energy efficiency hypothesis, including that many mountain birds do not seasonally track their thermal niche with high fidelity while simulation models based on optimal energy balancing under current environmental conditions yield predictions that tightly match empirical data. Our results reveal that altitudinal migration, which is widespread yet considerably understudied, is a behavioral mechanism fulfilling the same ecological function as long-distance latitudinal migration. Overall, this work provides a better understanding and predictive capacity for mountain birds under global change.",
-          "url": "https://doi.org/10.1126/sciadv.adz5547",
-          "doi": "https://doi.org/10.1126/sciadv.adz5547",
+          "title": "Antigen-specific T H 17 cells offset the age-related decline in durable T cell immunity",
+          "authors": "Ines Sturmlechner, Abhinav Jain, Jingjing Jiang, Hirohisa Okuyama, Yunmei Mu, Maryam Own, Cornelia M. Weyand, Jörg J. Goronzy",
+          "abstract": "Older adults are susceptible to infections in part due to waning of immune memory. To uncover mechanisms of a long-lasting immune memory, we contrasted varicella zoster virus antigen–specific memory T cell responses in adults vaccinated at young (&lt;20 years) or older age (&gt;50 years) with a live-attenuated vaccine conferring durable protection only when given at young age or with an adjuvanted component vaccine eliciting long-lasting immunity in older adults. Unlike VZV-specific CD4 + T cells, CD8 + T cells exhibited profound age-sensitive changes including memory subset shifts, reduced T cell receptor diversity, and loss of stem-like features. Vaccination of older adults with the adjuvanted vaccine did not restore CD8 + defects but selectively enhanced T helper 17 (T H 17) CD4 + T cells and prevented their conversion into regulatory T cells, likely through lipid metabolic regulation. Thus, durable vaccine efficacy with aging relies on antigen-specific T H 17 cells that compensate for CD8 + T cell defects.",
+          "url": "https://doi.org/10.1126/sciadv.aea7131",
+          "doi": "https://doi.org/10.1126/sciadv.aea7131",
           "filter": "2",
           "created": "2026-2-6"
         },
@@ -2176,11 +1876,11 @@
           "created": "2026-2-6"
         },
         {
-          "title": "Antigen-specific T H 17 cells offset the age-related decline in durable T cell immunity",
-          "authors": "Ines Sturmlechner, Abhinav Jain, Jingjing Jiang, Hirohisa Okuyama, Yunmei Mu, Maryam Own, Cornelia M. Weyand, Jörg J. Goronzy",
-          "abstract": "Older adults are susceptible to infections in part due to waning of immune memory. To uncover mechanisms of a long-lasting immune memory, we contrasted varicella zoster virus antigen–specific memory T cell responses in adults vaccinated at young (&lt;20 years) or older age (&gt;50 years) with a live-attenuated vaccine conferring durable protection only when given at young age or with an adjuvanted component vaccine eliciting long-lasting immunity in older adults. Unlike VZV-specific CD4 + T cells, CD8 + T cells exhibited profound age-sensitive changes including memory subset shifts, reduced T cell receptor diversity, and loss of stem-like features. Vaccination of older adults with the adjuvanted vaccine did not restore CD8 + defects but selectively enhanced T helper 17 (T H 17) CD4 + T cells and prevented their conversion into regulatory T cells, likely through lipid metabolic regulation. Thus, durable vaccine efficacy with aging relies on antigen-specific T H 17 cells that compensate for CD8 + T cell defects.",
-          "url": "https://doi.org/10.1126/sciadv.aea7131",
-          "doi": "https://doi.org/10.1126/sciadv.aea7131",
+          "title": "Climate, ecological dynamics, and the seasonal distribution of birds in mountains",
+          "authors": "Marius Somveille, Benjamin G. Freeman, Frank A. La Sorte, Mao-Ning Tuanmu",
+          "abstract": "Biodiversity is unevenly distributed along elevational gradients. The predominant hypothesis is that macroevolutionary dynamics and climatic niche conservatism explain today’s elevational patterns of biodiversity, but the alternative energy efficiency hypothesis emphasizes modern ecological interactions related to energy budgets. We test these competing hypotheses by examining seasonal elevational ranges for 10,998 bird populations in 34 mountain regions. Multiple lines of evidence support the energy efficiency hypothesis, including that many mountain birds do not seasonally track their thermal niche with high fidelity while simulation models based on optimal energy balancing under current environmental conditions yield predictions that tightly match empirical data. Our results reveal that altitudinal migration, which is widespread yet considerably understudied, is a behavioral mechanism fulfilling the same ecological function as long-distance latitudinal migration. Overall, this work provides a better understanding and predictive capacity for mountain birds under global change.",
+          "url": "https://doi.org/10.1126/sciadv.adz5547",
+          "doi": "https://doi.org/10.1126/sciadv.adz5547",
           "filter": "2",
           "created": "2026-2-6"
         },
@@ -2302,20 +2002,20 @@
           "created": "2026-2-6"
         },
         {
-          "title": "Overcoming host restrictions to enable continuous passaging of GII.3 human norovirus in human intestinal enteroids",
-          "authors": "Gurpreet Kaur, Sue E. Crawford, Sara Javornik Cregeen, Anil Surathu, B. Vijayalakshmi Ayyar, Carmen V. Apostol, Hoa Nguyen Phuc, Khalil Ettayebi, Aaya Boussattach, Xi-Lei Zeng, Sarah E. Blutt, Harsha Doddapaneni, Donna M. Muzny, Cristian Coarfa, Ramakrishnan Anish, B. V. Venkataram Prasad, Robert L. Atmar, Sasirekha Ramani, Mary K. Estes",
-          "abstract": "The establishment of human intestinal enteroids (HIEs) as a model for human norovirus (HuNoV) replication has been transformative for studying this leading cause of gastroenteritis. However, indefinite passaging of HuNoVs in HIEs remained a challenge, necessitating the use of patient stool samples as viral inocula. Using RNA-seq, we identified CXCL10, CXCL11, and CCL5 as up-regulated chemokines, suggesting their potential as host restriction factors. TAK-779, a CXCR3/CCR5/CCR2 antagonist, enhanced GII.3 HuNoV replication and viral spread in a dose- and time-dependent manner, enabling successful passaging of GII.3 HuNoV in two different HIE lines and generation of viral stocks. Sequencing passaged virus revealed one consensus change in the major capsid protein and several dynamic adaptations, suggesting emergence of variants. TAK-779 also enhanced replication of GI.1 and GII.17 strains, but not GII.4, suggesting strain-specific host interactions. This breakthrough in passaging provides insight into HuNoV-host interactions, establishes a scalable in vitro system for virus propagation, and opens avenues for structural, biochemical, and therapeutic studies.",
-          "url": "https://doi.org/10.1126/sciadv.aeb0455",
-          "doi": "https://doi.org/10.1126/sciadv.aeb0455",
-          "filter": "2",
-          "created": "2026-2-4"
-        },
-        {
           "title": "Introgressed mitochondrial fragments from archaic hominins alter nuclear genome function in modern humans",
           "authors": "Qiong Zhu, Jinning Zhang, Weichen Zhou, Shen-Ao Liang, Shengmiao Wang, Xinyu Cai, Fuyuan Li, Jin Li, Guojie Zhang, Huijuan Feng, Qiaomei Fu, Joshua M. Akey, Feng Zhang, Li Jin, Shuhua Xu, Hong-Xiang Zheng, Lu Chen",
           "abstract": "Archaic introgression introduced functionally relevant variants into modern humans, yet small-scale insertions remain understudied. Here, we leverage 2519 modern human genomes and four high-coverage archaic hominin genomes to systematically characterize nuclear mitochondrial DNA segments (NUMTs). We uncover 483 polymorphic NUMTs across globally diverse human populations and 10 in archaic genomes. By combining overlap with Neanderthal-derived and Denisovan-derived haplotypes, phylogenetic analyses, insertion time estimates, and haplotype colocalization, we identify five NUMTs introduced into modern humans via archaic hominin introgression. Functional analyses reveal that introgressed NUMTs can modulate gene expression, including allele-specific up-regulation of the immune-related gene RASGRP3 , and reshape three-dimensional chromatin structure at loci such as SCD5 and HNRNPD . These findings highlight an underappreciated mechanism by which archaic mitochondrial fragments shape nuclear genome function and evolution. Our study reframes NUMTs not as passive genomic fossils but as dynamic elements influencing modern human diversity and adaptation.",
           "url": "https://doi.org/10.1126/sciadv.aea0706",
           "doi": "https://doi.org/10.1126/sciadv.aea0706",
+          "filter": "2",
+          "created": "2026-2-4"
+        },
+        {
+          "title": "Overcoming host restrictions to enable continuous passaging of GII.3 human norovirus in human intestinal enteroids",
+          "authors": "Gurpreet Kaur, Sue E. Crawford, Sara Javornik Cregeen, Anil Surathu, B. Vijayalakshmi Ayyar, Carmen V. Apostol, Hoa Nguyen Phuc, Khalil Ettayebi, Aaya Boussattach, Xi-Lei Zeng, Sarah E. Blutt, Harsha Doddapaneni, Donna M. Muzny, Cristian Coarfa, Ramakrishnan Anish, B. V. Venkataram Prasad, Robert L. Atmar, Sasirekha Ramani, Mary K. Estes",
+          "abstract": "The establishment of human intestinal enteroids (HIEs) as a model for human norovirus (HuNoV) replication has been transformative for studying this leading cause of gastroenteritis. However, indefinite passaging of HuNoVs in HIEs remained a challenge, necessitating the use of patient stool samples as viral inocula. Using RNA-seq, we identified CXCL10, CXCL11, and CCL5 as up-regulated chemokines, suggesting their potential as host restriction factors. TAK-779, a CXCR3/CCR5/CCR2 antagonist, enhanced GII.3 HuNoV replication and viral spread in a dose- and time-dependent manner, enabling successful passaging of GII.3 HuNoV in two different HIE lines and generation of viral stocks. Sequencing passaged virus revealed one consensus change in the major capsid protein and several dynamic adaptations, suggesting emergence of variants. TAK-779 also enhanced replication of GI.1 and GII.17 strains, but not GII.4, suggesting strain-specific host interactions. This breakthrough in passaging provides insight into HuNoV-host interactions, establishes a scalable in vitro system for virus propagation, and opens avenues for structural, biochemical, and therapeutic studies.",
+          "url": "https://doi.org/10.1126/sciadv.aeb0455",
+          "doi": "https://doi.org/10.1126/sciadv.aeb0455",
           "filter": "2",
           "created": "2026-2-4"
         },
@@ -2428,20 +2128,20 @@
           "created": "2026-2-4"
         },
         {
-          "title": "Highly efficient production of nitrite and nitrate from air at the gas-water interface of nanobubbles",
-          "authors": "Sandeep Bose, Saeed Bahadorikhalili, Yuanyi He, Hamidreza Samouei, Richard N. Zare",
-          "abstract": "We report a simple, one-step conversion of air to nitrogen oxyanions (NO x − ), i.e., nitrate (NO 3 − ) and nitrite (NO 2 − ), at the gas-water interface (GWI) of nanobubbles (NBs). The nanobubble generator is placed inside an aqueous solution of 50 μM Fe 2+ to enhance the production of hydroxyl radicals (OH•) by initiating Fenton’s reaction at the GWI. The formation of NO x − does not require any external potential or radiation. The NO x − production rate using NBs is found to be 60.4 ± 1.21 μM hour −1 , which shows a fourfold increase in the production as compared to the same reaction performed in microbubbles (15 μM hour −1 ), which is the result from an enhanced electric field strength at the GWI. We propose that this nitrogen-fixation approach presents a promising pathway for an eco-friendly, energy-efficient, and scalable solution for NO x − -based sustainable fertilizer production.",
-          "url": "https://doi.org/10.1126/sciadv.aec4225",
-          "doi": "https://doi.org/10.1126/sciadv.aec4225",
-          "filter": "2",
-          "created": "2026-2-6"
-        },
-        {
           "title": "Mesothelial cells promote peritoneal invasion and metastasis of ascites-derived ovarian cancer cells through spheroid formation",
           "authors": "Kaname Uno, Masato Yoshihara, Yoshihiko Yamakita, Kazuhisa Kitami, Shohei Iyoshi, Mai Sugiyama, Yoshihiro Koya, Tomihiro Kanayama, Haruhito Sahara, Satoshi Nomura, Kazumasa Mogi, Emiri Miyamoto, Hiroki Fujimoto, Kosuke Yoshida, Satoshi Tamauchi, Akira Yokoi, Nobuhisa Yoshikawa, Kaoru Niimi, Yukihiro Shiraki, Jonas Sjölund, Hidenori Oguchi, Kristian Pietras, Atsushi Enomoto, Akihiro Nawa, Hiroyuki Tomita, Hiroaki Kajiyama",
           "abstract": "Patients with epithelial ovarian cancer (EOC) are often diagnosed with peritoneal metastasis and ascites, the accumulation of intraperitoneal fluid containing nonmalignant cells. However, the interactions between EOC and nonmalignant cells before peritoneal metastasis remain unclear. To investigate this, whole EOC spheroids were observed using a multiphoton microscope, and their invasion ability was assessed. Mesothelial cells were identified as notable components of ascites through morphological assessment, immunohistochemical/immunofluorescence staining, and single-cell RNA sequencing analyses. Almost all EOC cells were spheroids, with 60% containing mesothelial cells. EOC cells quickly generate aggregated spheroids with mesothelial cells, and these aggregated cancer-mesothelial spheroids (ACMSs) invade collagen or mesothelial layers. Mesothelial cells forming ACMSs initiated the invasion. RNA sequencing analysis revealed marked RNA expression changes in mesothelial cells, whereas the changes in EOC cells were minor. Transforming growth factor–β1–stimulated mesothelial cells showed increased invadopodium formation along with fascin-1 up-regulation. These findings suggest that EOC cells alter mesothelial cells through ACMSs, thereby elucidating the rapid spread of EOC in the abdominal cavity.",
           "url": "https://doi.org/10.1126/sciadv.adu5944",
           "doi": "https://doi.org/10.1126/sciadv.adu5944",
+          "filter": "2",
+          "created": "2026-2-6"
+        },
+        {
+          "title": "Highly efficient production of nitrite and nitrate from air at the gas-water interface of nanobubbles",
+          "authors": "Sandeep Bose, Saeed Bahadorikhalili, Yuanyi He, Hamidreza Samouei, Richard N. Zare",
+          "abstract": "We report a simple, one-step conversion of air to nitrogen oxyanions (NO x − ), i.e., nitrate (NO 3 − ) and nitrite (NO 2 − ), at the gas-water interface (GWI) of nanobubbles (NBs). The nanobubble generator is placed inside an aqueous solution of 50 μM Fe 2+ to enhance the production of hydroxyl radicals (OH•) by initiating Fenton’s reaction at the GWI. The formation of NO x − does not require any external potential or radiation. The NO x − production rate using NBs is found to be 60.4 ± 1.21 μM hour −1 , which shows a fourfold increase in the production as compared to the same reaction performed in microbubbles (15 μM hour −1 ), which is the result from an enhanced electric field strength at the GWI. We propose that this nitrogen-fixation approach presents a promising pathway for an eco-friendly, energy-efficient, and scalable solution for NO x − -based sustainable fertilizer production.",
+          "url": "https://doi.org/10.1126/sciadv.aec4225",
+          "doi": "https://doi.org/10.1126/sciadv.aec4225",
           "filter": "2",
           "created": "2026-2-6"
         },
@@ -2487,6 +2187,15 @@
           "abstract": "Organ injury triggers nonneuronal electric currents essential for regeneration. However, the mechanisms by which electrical signals are generated, sensed, and transmitted upon damage to promote organ growth remain unclear. Here, we uncover that organ repair relies on dynamic electrochemical coupling between membrane potential depolarization and intracellular signaling, essential to activate cell proliferation. By subsecond live imaging of locally injured zebrafish larval fins, we identify events across time and space: a millisecond, long-range, membrane depolarization gradient, followed by second-persistent intracellular calcium responses. In the subsequent hour, voltage sensing phosphatase senses the injury-driven membrane potential change and autonomously translates the electric signal intracellularly, promoting tissue-wide cell proliferation. Connecting these dynamics with an electrodiffusive model showed that ionic fluxes and electric potential become coupled in the fin’s interstitial space, enabling organ-wide signal spreading. Our work reveals the coupling between fast electrical signals and slower intracellular signaling, ensuring complete organ recovery.",
           "url": "https://doi.org/10.1126/sciadv.aec0687",
           "doi": "https://doi.org/10.1126/sciadv.aec0687",
+          "filter": "2",
+          "created": "2026-2-4"
+        },
+        {
+          "title": "Day-to-day fluctuations in cognitive precision predict the domain-general intention-behavior gap",
+          "authors": "Daniel J. Wilson, Cendri A. Hutcherson",
+          "abstract": "The idea that better cognitive functioning helps to close the gap between goals and behavior seems self-evident, yet empirical work has found unusually weak interindividual associations between cognitive task performance and real-world, goal-relevant outcomes. Here, we resolve this paradox by shifting from trait-level to state-level analysis. Leveraging a microtask design to measure daily fluctuations in cognitive function, goal setting and goal progress, mood, sleep, and motivation over a 12-week intensive longitudinal study of university students ( N  = 184, time points = 9248), we show that within-person upswings in domain-general cognitive processing precision precede and predict same-day self-reported goal setting and achievement across both academic and nonacademic domains, even controlling for other factors. A one-standard-deviation change in cognitive precision had an effect statistically equivalent to ~40 min of work, with similar or larger predictive effects compared to fluctuations in mood/motivation and no moderation by trait-level self-control or conscientiousness. Our work addresses long-standing controversies and highlights the power of intraindividual analysis to reveal relationships missed by cross-sectional approaches.",
+          "url": "https://doi.org/10.1126/sciadv.aea8697",
+          "doi": "https://doi.org/10.1126/sciadv.aea8697",
           "filter": "2",
           "created": "2026-2-4"
         },
