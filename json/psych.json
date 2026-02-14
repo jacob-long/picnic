@@ -1,5 +1,5 @@
 {
-  "update": "2026-02-13",
+  "update": "2026-02-14",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -55,6 +55,33 @@
           "doi": "https://doi.org/10.3758/s13428-025-02877-y",
           "filter": 0,
           "created": "2026-2-12"
+        },
+        {
+          "title": "The Decision Process Scale (DPS): Self-report measures of reliance on rules, cost–benefit reasoning, intuition, and deliberation in (moral) decision-making",
+          "authors": "Vanessa Cheung, Maximilian Maier, Falk Lieder",
+          "abstract": "Understanding how people make decisions in specific situations is a central challenge in (moral) psychology research. Yet there are no existing self-report scales for measuring the process of decision-making in individual dilemmas (as opposed to general moral attitudes or beliefs about moral decision-making). We address this gap by devising new self-report measures of several of the processes by which people make moral decisions and validate them using realistic moral dilemmas, including six new vignettes that we developed. The resulting 12-item Decision Process Scale (DPS) can be used to measure how much people rely on rules versus cost–benefit reasoning and how much they rely on intuition versus deliberation in the specific moral dilemmas they face in a laboratory experiment or in the real world.",
+          "url": "https://doi.org/10.3758/s13428-025-02933-7",
+          "doi": "https://doi.org/10.3758/s13428-025-02933-7",
+          "filter": 0,
+          "created": "2026-2-13"
+        },
+        {
+          "title": "Distinguishing between the exponential and Lindley distributions: An illustration from biological psychology",
+          "authors": "Shovan Chowdhury, Marco Marozzi, Freddy Hernández-Barajas, Fernando Marmolejo-Ramos",
+          "abstract": "The exponential distribution has been used for modeling positively skewed data in biological psychology. However, the lesser-known Lindley distribution, although not typically used for this purpose, has a density and cumulative distribution that are very similar to those of the exponential distribution. This similarity suggests that the Lindley distribution could be a strong candidate for modeling such data types. While the probability density and cumulative distribution functions of these two one-parameter distributions can be quite similar, their hazard rate functions differ markedly. Therefore, selecting the most appropriate distribution significantly impacts the interpretation of the hazard rate function. To aid in this selection, we introduce a method that distinguishes between the exponential and Lindley distributions by examining the ratio of their maximized likelihood functions. This method is versatile, as it can also be applied to type I censored data, enhancing its practical appeal. Asymptotic results are analytically derived. We conducted a simulation study to demonstrate the method’s effectiveness, even with small sample sizes. Furthermore, we illustrate the method’s application using a published dataset from biological psychology and provide an implementation as an R function.",
+          "url": "https://doi.org/10.3758/s13428-026-02942-0",
+          "doi": "https://doi.org/10.3758/s13428-026-02942-0",
+          "filter": 0,
+          "created": "2026-2-13"
+        },
+        {
+          "title": "Causal discovery methods in psychological research: Foundations, algorithms, and a practical tutorial in R",
+          "authors": "Guangyu Zhu, Li Qian Tay, Mengyan Zhang",
+          "abstract": "Understanding causality and the mechanisms underlying psychological phenomena has been a cornerstone of psychological research with significant implications for theory development and intervention design. While traditional methods such as experimental manipulations or structural equation modelling have been extensively used to explore causal relationships, recent advances in computational techniques have introduced causal discovery methods as a powerful alternative. These methods can uncover complex causal network structures from observational or interventional data, enabling the identification of causal directions in intricate interdependencies involving numerous variables. Building on a growing body of literature, this paper provides a comprehensive survey of core causal discovery algorithms and their recent applications across various disciplines, with a particular focus on their use in uncovering psychological mechanisms. To complement this overview, we provide a tutorial using data from the Health Behavior in School-Aged Children (HBSC) study. This case study demonstrates how causal discovery can be applied to examine gender-specific mechanisms underlying bullying-related outcomes. We also discuss the opportunities and challenges of integrating causal discovery into psychological research.",
+          "url": "https://doi.org/10.3758/s13428-025-02841-w",
+          "doi": "https://doi.org/10.3758/s13428-025-02841-w",
+          "filter": 0,
+          "created": "2026-2-13"
         }
       ],
       "articles_hidden": []
@@ -94,6 +121,22 @@
           "doi": "https://doi.org/10.1016/j.chb.2026.108949",
           "filter": 0,
           "created": "2026-2-12"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Group Processes & Intergroup Relations",
+      "journal_short": "GPIR",
+      "articles": [
+        {
+          "title": "Team performance goals and team performance: A multiconceptualization approach",
+          "authors": "Nicolas Sommet, Ocyna Rudmann, Vincent Pillaud, Fabrizio Butera",
+          "abstract": "Existing research on the relationship between team performance goals and team performance has yielded mixed findings. We argue that these inconsistencies arise in part from the use of two different operationalizations of team performance goals: a collective-based operationalization (averaging team members’ perceptions that their team aims to outperform other teams) and a composition-based one (aggregating team members’ personal aims to outperform other individuals). In this research, we adopted a multiconceptualization approach to examine whether collective and composition performance goals interact in predicting team performance. In Study 1 (98 observations from 73 players across 31 teams), video game teams with higher collective performance goals performed better in a major European tournament when their composition performance goals were lower. In Study 2 (535 observations from 201 players across 22 teams), volleyball teams with higher collective performance goals performed better in the Swiss volleyball championship when their composition in-group performance goals were lower (i.e., fewer members striving to outperform teammates). Because of concerns about statistical power and causality in Studies 1 and 2, we conducted a larger, preregistered experiment. In Study 3 (751 participants from 292 teams), experimentally assembled teams assigned to a collective performance goal condition exhibited less behavioral sabotage during a collaborative task compared to teams instructed to endorse composition performance goals or both goal types simultaneously. This manipulation did not directly affect team performance but indirectly improved it via lower sabotage. Together, our findings suggest that high collective performance goals and low composition performance goals may provide a recipe for fostering team cooperation and performance.",
+          "url": "https://doi.org/10.1177/13684302251413705",
+          "doi": "https://doi.org/10.1177/13684302251413705",
+          "filter": 0,
+          "created": "2026-2-13"
         }
       ],
       "articles_hidden": []
@@ -173,15 +216,6 @@
           "doi": "https://doi.org/10.1177/01461672251412506",
           "filter": 0,
           "created": "2026-2-11"
-        },
-        {
-          "title": "Inoculation Decreases Uncritical Acceptance of Herbal Product Reporting and Willingness to Engage With TCAM Products: Evidence From Three Preregistered Experiments",
-          "authors": "Marija Branković, Marija B. Petrović, Danka Purić, Milica Ninković, Petar Lukić, Aleksandra Lazić, Goran Knežević, Ljiljana Lazarević, Iris Žeželj",
-          "abstract": "Many herbal remedies lacking scientific support receive largely favorable media coverage, misleading consumers. To foster more thoughtful consumption, we developed an inoculation-based strategic intervention: a random news generator exposing media tactics like appeals to nature, tradition, availability, and pseudoscientific jargon. Its effectiveness was tested in three preregistered experiments. In a laboratory study ( N = 243), active use of the generator helped participants counter media strategies, with effects persisting for 11 days. A novel online active inoculation tool also reduced uncritical acceptance of herbal product reporting, intentions to use herbs for health, and trust in complementary and alternative medicine industries/media in both a student ( N = 439) and a community sample ( N = 452). The intervention was especially effective among experiential thinkers and those believing in extrasensory perception. Scalable and resource-efficient, this tool inoculates consumers against misleading media tactics and is adaptable for use across educational, media, and healthcare contexts.",
-          "url": "https://doi.org/10.1177/01461672261416156",
-          "doi": "https://doi.org/10.1177/01461672261416156",
-          "filter": 0,
-          "created": "2026-2-6"
         },
         {
           "title": "Combining Order and Consistency Effects in Two-Sided Messages on the Non-Effectiveness of Homeopathy",
