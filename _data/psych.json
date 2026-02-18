@@ -1,5 +1,5 @@
 {
-  "update": "2026-02-17",
+  "update": "2026-02-18",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -66,6 +66,24 @@
           "created": "2026-2-13"
         },
         {
+          "title": "The fundamentals of eye tracking part 6: Working with areas of interest",
+          "authors": "Ignace T. C. Hooge, Marcus Nyström, Diederick C. Niehorster, Richard Andersson, Tom Foulsham, Antje Nuthmann, Roy S. Hessels",
+          "abstract": "Researchers use area of interest (AOI) analyses to interpret eye-tracking data. This article addresses four key aspects of AOI use: 1) how to report AOIs to support replicable analyses, 2) how to interpret AOI-related statistics, 3) methods for generating both static and dynamic AOIs, and 4) recent developments and future directions in AOI use. The article underscores the importance of aligning AOI design with the study’s conceptual and methodological foundations. It argues that critical decisions, such as the size, shape, and placement of AOIs, should be made early in the experimental design process and should involve eye-tracking data quality, the research question, participant tasks, and the nature of the visual stimulus. It also evaluates recent advances in AOI automation, outlining both their benefits and limitations. The article’s main message is that researchers should plan AOIs carefully and explain their choices openly so others can replicate the work.",
+          "url": "https://doi.org/10.3758/s13428-025-02937-3",
+          "doi": "https://doi.org/10.3758/s13428-025-02937-3",
+          "filter": 0,
+          "created": "2026-2-17"
+        },
+        {
+          "title": "Validating explicit rating tasks for measuring pronunciation biases: A case study of ING variation",
+          "authors": "Aini Li, Meredith Tamminga",
+          "abstract": "Spoken language is highly variable, as words can have different pronunciation variants. A growing body of psycholinguistic research has employed experimental methods such as explicit rating tasks to obtain user biases toward different pronunciation variants. However, no prior work has empirically validated whether experimentally elicited user estimates accurately reflect real-world usage patterns. By correlating user estimates and conversational speech data for English variable ING pronunciations under different experimental prompts, we found that while rating tasks can provide word biases that do correlate significantly with corpus word biases, the correlations are only modest and there are asymmetries in the relationship between elicited word biases and corpus word biases. These findings call for future research to incorporate word biases into the study of sociolinguistic variation and language processing.",
+          "url": "https://doi.org/10.3758/s13428-026-02952-y",
+          "doi": "https://doi.org/10.3758/s13428-026-02952-y",
+          "filter": 0,
+          "created": "2026-2-17"
+        },
+        {
           "title": "Distinguishing between the exponential and Lindley distributions: An illustration from biological psychology",
           "authors": "Shovan Chowdhury, Marco Marozzi, Freddy Hernández-Barajas, Fernando Marmolejo-Ramos",
           "abstract": "The exponential distribution has been used for modeling positively skewed data in biological psychology. However, the lesser-known Lindley distribution, although not typically used for this purpose, has a density and cumulative distribution that are very similar to those of the exponential distribution. This similarity suggests that the Lindley distribution could be a strong candidate for modeling such data types. While the probability density and cumulative distribution functions of these two one-parameter distributions can be quite similar, their hazard rate functions differ markedly. Therefore, selecting the most appropriate distribution significantly impacts the interpretation of the hazard rate function. To aid in this selection, we introduce a method that distinguishes between the exponential and Lindley distributions by examining the ratio of their maximized likelihood functions. This method is versatile, as it can also be applied to type I censored data, enhancing its practical appeal. Asymptotic results are analytically derived. We conducted a simulation study to demonstrate the method’s effectiveness, even with small sample sizes. Furthermore, we illustrate the method’s application using a published dataset from biological psychology and provide an implementation as an R function.",
@@ -82,6 +100,15 @@
           "doi": "https://doi.org/10.3758/s13428-025-02841-w",
           "filter": 0,
           "created": "2026-2-13"
+        },
+        {
+          "title": "LeCoder: A large-scale automated coder for coding errors in word-production tasks",
+          "authors": "Shanhua Hu, Delaney DuVal, Brielle C. Stark, Nazbanou Nozari",
+          "abstract": "Speech errors have been instrumental in advancing our understanding of the architecture of the language production system, the nature of its representations, and its disorders. To be most informative, researchers usually need large amounts of data. Hand-coding such data can be both cumbersome and subjective. This paper presents LeCoder, the first open-source, automated error coder for English word and naming data, which uses a data-driven approach grounded in large-scale corpora to quantify the target–response relationship, allowing it to be flexible, scalable, and generalizable across new datasets. By testing the coder on two datasets from two aphasia labs that have been carefully coded by trained research assistants, we first establish that LeCoder has high accuracy when compared to expert coders, and in certain cases, offers a more logical categorization than human coders. We then show, using robust machine-learning approaches, that LeCoder’s performance generalizes to new participants and items it has never encountered before. Collectively, these findings encourage the use of LeCoder across labs for more objective coding of speech errors, which will, in turn, increase replicability of findings in all subfields of research that use speech error analysis, including neuropsychological research.",
+          "url": "https://doi.org/10.3758/s13428-026-02948-8",
+          "doi": "https://doi.org/10.3758/s13428-026-02948-8",
+          "filter": 0,
+          "created": "2026-2-18"
         }
       ],
       "articles_hidden": []
@@ -115,12 +142,28 @@
           "created": "2026-2-16"
         },
         {
-          "title": "AI Byline, Human Content: Exploring How Source and Message Framing Shape News Perception",
+          "title": "AI byline, human content: Exploring how source and message framing shape news perception",
           "authors": "Jino Chung, Jihye Lee",
           "url": "https://doi.org/10.1016/j.chb.2026.108949",
           "doi": "https://doi.org/10.1016/j.chb.2026.108949",
           "filter": 0,
           "created": "2026-2-12"
+        },
+        {
+          "title": "Blissful (A)Ignorance: Despite the widespread adoption of AI in communication, people do not suspect AI use in realistic contexts",
+          "authors": "Jiaqi Zhu, Andras Molnar",
+          "url": "https://doi.org/10.1016/j.chb.2026.108929",
+          "doi": "https://doi.org/10.1016/j.chb.2026.108929",
+          "filter": 0,
+          "created": "2026-2-17"
+        },
+        {
+          "title": "Official Onsite Event versus Unofficial Streaming: Understanding the Wellbeing Formation in Esports Spectatorship",
+          "authors": "Sungkyung Kim, Hee Jung Hong",
+          "url": "https://doi.org/10.1016/j.chb.2026.108950",
+          "doi": "https://doi.org/10.1016/j.chb.2026.108950",
+          "filter": 0,
+          "created": "2026-2-17"
         }
       ],
       "articles_hidden": [
@@ -154,14 +197,6 @@
       "journal_full": "Journal of Experimental Social Psychology",
       "journal_short": "JESP",
       "articles": [
-        {
-          "title": "Ensemble perception in entitativity judgments of natural crowds",
-          "authors": "Sarah Ariel Lamer, Spencer Dobbs, Lindsay Goolsby, Timothy D. Sweeny, Max Weisbuch",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104889",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104889",
-          "filter": 0,
-          "created": "2026-2-10"
-        },
         {
           "title": "Dissecting cross-category recognition: A methodological test of the theory of perceptual expertise",
           "authors": "Brandon Cohen, Joshua Correll, Balbir Singh, Anjana Lakshmi",
@@ -257,9 +292,40 @@
       "articles_hidden": []
     },
     {
+      "journal_full": "Psychological Methods",
+      "journal_short": "PM",
+      "articles": [
+        {
+          "title": "Nested model comparisons between common factors and composites.",
+          "authors": "Danielle Siegel, Victoria Savalei, Mijke Rhemtulla",
+          "url": "https://doi.org/10.1037/met0000806",
+          "doi": "https://doi.org/10.1037/met0000806",
+          "filter": 0,
+          "created": "2026-2-17"
+        },
+        {
+          "title": "Timing of a just-in-time intervention to reduce alcohol consumption: A simulation approach to optimize decision rules.",
+          "authors": "Matthias Haucke, Dominic Reichert, Iris Reinhard, Rika Groß, Abhijit Sreepada, Ali Ghadami, Marvin Ganz, Christine Heim, Heike Tost, Ulrich W. Ebner-Priemer, Shuyan Liu, Markus Reichert",
+          "url": "https://doi.org/10.1037/met0000810",
+          "doi": "https://doi.org/10.1037/met0000810",
+          "filter": 0,
+          "created": "2026-2-17"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Psychology of Popular Media",
       "journal_short": "PPM",
       "articles": [
+        {
+          "title": "Audiences on the dark side: Do antisocial personality traits predict motives for true crime listening?",
+          "authors": "Sofia V. Rhea, Laramie D. Taylor",
+          "url": "https://doi.org/10.1037/ppm0000650",
+          "doi": "https://doi.org/10.1037/ppm0000650",
+          "filter": 0,
+          "created": "2026-2-17"
+        },
         {
           "title": "Profiles of risk and resilience: A qualitative exploration of factors influencing nomophobia.",
           "authors": "Akanksha Jayant Rajguru, Siddharth Sarkar, Ashwani Kumar Mishra, Rachna Bhargava, Yatan Pal Singh Balhara",
@@ -267,6 +333,14 @@
           "doi": "https://doi.org/10.1037/ppm0000647",
           "filter": 0,
           "created": "2026-2-12"
+        },
+        {
+          "title": "Video games are awesome: Understanding awe experiences in video games.",
+          "authors": "Ursula Thomson, Kongmeng Liew",
+          "url": "https://doi.org/10.1037/ppm0000653",
+          "doi": "https://doi.org/10.1037/ppm0000653",
+          "filter": 0,
+          "created": "2026-2-17"
         }
       ],
       "articles_hidden": []
