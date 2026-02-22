@@ -1,6 +1,22 @@
 {
-  "update": "2026-02-21",
+  "update": "2026-02-22",
   "content": [
+    {
+      "journal_full": "Journal of Official Statistics",
+      "journal_short": "JOS",
+      "articles": [
+        {
+          "title": "Privacy-Enhancing or Privacy-Elusion Technology? A Critical View of (Pseudo)Synthetic Data Based on Deep Learning",
+          "authors": "Fabio Ricciato",
+          "abstract": "In this note, we present a plausible structural mechanism by which over-parameterized deep learning models trained on real data may produce pseudo-synthetic data that constitute merely a diﬀerent representation (or re-encoding) of the training data. We conjecture that, in principle, similar mechanisms may be learned by large-scale AI models even if they are not intentionally designed to do so. From there, we derive some cautionary warnings for potential adopters of pseudo-synthetic data generation tools based on deep learning. We claim that the burden of proof that no data re-encoding mechanism is at play in AI-based generation models rests with their proponents.",
+          "url": "https://doi.org/10.1177/0282423x251412328",
+          "doi": "https://doi.org/10.1177/0282423x251412328",
+          "filter": 0,
+          "created": "2026-2-21"
+        }
+      ],
+      "articles_hidden": []
+    },
     {
       "journal_full": "Public Opinion Quarterly",
       "journal_short": "POQ",
@@ -21,15 +37,6 @@
       "journal_full": "Social Science Computer Review",
       "journal_short": "SSCR",
       "articles": [
-        {
-          "title": "Elite Polarisation on Twitter/X: Structural and Behavioural Dynamics in Public Discourse",
-          "authors": "Amirhosein Bodaghi",
-          "abstract": "This study examines how elite figures shape polarisation on Twitter/X through the interplay of content, structure, and engagement strategy. Drawing on data from nine globally influential users (2010–2021), the research integrates natural language processing, network analysis, and causal modelling to test five hypotheses grounded in social identity, agenda-setting, and two-step flow theories. Entity co-occurrence networks reveal that polarised discourse forms denser, more clustered networks than non-polarised content, indicating tighter semantic cohesion around socially and politically charged entities. Thematic and sentiment analyses show that posts addressing non-core topics – particularly those concerning social justice, environmental sustainability, philanthropy, and global welfare – are nearly five times more likely to be polarised than core professional themes. Negative emotional tone further amplifies this effect, while higher tweet-to-retweet ratios reduce polarisation, underscoring the moderating role of original content production. A user-level mediation analysis tested whether topical diversity transmits the effect of follower scale on polarisation but found no significant indirect pathway, suggesting that larger audiences do not necessarily foster communicative moderation. The findings advance understanding of elite discourse by linking structural and thematic polarisation to behavioural mechanisms of engagement. Theoretically, the study bridges social identity, agenda-setting, and two-step flow frameworks to explain how elites balance audience alignment and expressive risk. Practically, it highlights how emphasising original content, inclusive framing, and professional identity consistency can mitigate divisive online dynamics and foster more cohesive digital publics. To support transparency and reproducibility, the dataset and analytical code are made publicly available.",
-          "url": "https://doi.org/10.1177/08944393261424832",
-          "doi": "https://doi.org/10.1177/08944393261424832",
-          "filter": 0,
-          "created": "2026-2-14"
-        },
         {
           "title": "Unmasking Coordination: How Inauthentic Behavior Emerged and Diffusion During the Russia–Ukraine War on Twitter",
           "authors": "Yanhong Wu, Jianqiang Yu",
