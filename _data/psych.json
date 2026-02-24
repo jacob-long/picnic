@@ -1,5 +1,5 @@
 {
-  "update": "2026-02-23",
+  "update": "2026-02-24",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -49,6 +49,41 @@
           "created": "2026-2-18"
         },
         {
+          "title": "How plausible is my model? Assessing model plausibility of structural equation models using Bayesian posterior probabilities (BPP)",
+          "authors": "Ivan Jacob Agaloos Pesigan, Shu Fai Cheung, Huiping Wu, Florbela Chang, Shing On Leung",
+          "abstract": "In structural equation modeling (SEM), one method to select the most plausible model from several candidates, or to compare one or more hypothesized models with similar alternatives on plausibility, is to compare the models using Bayesian posterior probability (BPP). BPP can be computed from the Bayesian information criterion (BIC) scores (Wu et al. Multivariate Behavioral Research , 55 (1), 1–16, 2020). This approach complements conventional goodness-of-fit indices such as the Comparative Fit Index (CFI), the root mean square error of approximation (RMSEA), and the standardized root mean square residual (SRMR) in giving concise BPP for assessing uncertainties among all models considered. It can also reveal evidence against a model otherwise hidden by these indices. However, Wu et al. Multivariate Behavioral Research , 55 (1), 1–16. (2020) did not provide guidelines on deciding the models that should be considered. To facilitate the use of BPP, we proposed a novel method for selecting this set of models, called neighboring models , to help researchers decide on the initial set. This novel method integrates seamlessly into the typical workflow for SEM analysis. Researchers can fit a model as usual and then use this method to assess whether it is the most plausible model compared with the neighboring models. We believe the proposed method will make it easier for researchers to make better-informed decisions when evaluating their models. We developed a user-friendly R package, , to automate all the steps: generating the set of neighboring models, fitting them, and computing the BPPs, all in a single function.",
+          "url": "https://doi.org/10.3758/s13428-025-02921-x",
+          "doi": "https://doi.org/10.3758/s13428-025-02921-x",
+          "filter": 0,
+          "created": "2026-2-23"
+        },
+        {
+          "title": "A tutorial for software options to aid in assessing functional relations in single-case experimental designs",
+          "authors": "Rumen Manolov",
+          "abstract": "Single-case experimental designs (SCEDs) can be used for identifying effective interventions via the intensive study of one or a few individuals in different conditions, actively manipulated by the researcher. The assessment of SCED data entails both judging whether there is sufficient evidence of a functional relation (i.e., a causal effect of the intervention on the target behavior) and quantifying the magnitude of the effect. In the current text, the focus is on assessing the presence of a functional relation, considering all the attempts to demonstrate an effect that SCEDs include. Specifically, the aim is to review several freely available websites, which require no additional software to be installed, and offer graphical representations of the data, visual aids, and quantifications. Several data analytical steps are outlined for performing the assessment, both dealing with each basic effect separately and evaluating the consistency of effects. Software that is useful for carrying out these steps is reviewed, including the way in which the data files should be specified and the few clicks required by applied researchers to achieve the desired output. The interpretations of the output are illustrated with real data.",
+          "url": "https://doi.org/10.3758/s13428-026-02951-z",
+          "doi": "https://doi.org/10.3758/s13428-026-02951-z",
+          "filter": 0,
+          "created": "2026-2-23"
+        },
+        {
+          "title": "Generalized least squares transformation for single-case experimental design: Introducing the R package lmeSCED",
+          "authors": "Chendong Li, Eunkyeng Baek, Wen Luo",
+          "url": "https://doi.org/10.3758/s13428-025-02936-4",
+          "doi": "https://doi.org/10.3758/s13428-025-02936-4",
+          "filter": 0,
+          "created": "2026-2-23"
+        },
+        {
+          "title": "Comparing effect latencies in the visual world paradigm: Monte Carlo simulations to assess resampling-based procedures",
+          "authors": "Serge Minor",
+          "abstract": "In a series of Monte Carlo simulation studies, we evaluated the power and Type I error rates of resampling-based procedures for comparing effect latencies between groups in the visual world paradigm (VWP). Resampling-based methods, while versatile, are known to fail in certain cases. Therefore, validation of such methods through simulation is crucial. We compared permutation- and bootstrapping-based tests combined with different methods for measuring effect latency while manipulating sample size and true effect size. Alongside previously used latency measures, we tested new measures involving the application of an effect size threshold. Simulations were based on existing VWP datasets representing different effect types (preferential looks triggered by lexical vs. grammatical cues, cohort competitor effects in word recognition) and data collection methods (infrared- vs. webcam-based eye tracking). A total of 156,000 simulations were conducted across five studies, involving 548 million resampled datasets. The main findings are as follows: (1) With sufficient sample sizes, tests were effective in detecting latency differences of 200–300 ms in sentence processing tasks, and as small as 100 ms in word recognition. (2) The permutation test and bootstrapped percentile CIs exhibited the highest overall power without inflation of Type I error rates. (3) Applying an effect size threshold in latency estimation led to consistent increases in statistical power. (4) Resampling by participant was robust to increases in cross-subject variability;in contrast, bootstrapping within participants and time bins led to elevated Type I error rates. Based on these results, we offer recommendations for using non-parametric resampling-based procedures to compare group latencies in VWP experiments.",
+          "url": "https://doi.org/10.3758/s13428-025-02934-6",
+          "doi": "https://doi.org/10.3758/s13428-025-02934-6",
+          "filter": 0,
+          "created": "2026-2-23"
+        },
+        {
           "title": "The fundamentals of eye tracking part 6: Working with areas of interest",
           "authors": "Ignace T. C. Hooge, Marcus Nyström, Diederick C. Niehorster, Richard Andersson, Tom Foulsham, Antje Nuthmann, Roy S. Hessels",
           "abstract": "Researchers use area of interest (AOI) analyses to interpret eye-tracking data. This article addresses four key aspects of AOI use: 1) how to report AOIs to support replicable analyses, 2) how to interpret AOI-related statistics, 3) methods for generating both static and dynamic AOIs, and 4) recent developments and future directions in AOI use. The article underscores the importance of aligning AOI design with the study’s conceptual and methodological foundations. It argues that critical decisions, such as the size, shape, and placement of AOIs, should be made early in the experimental design process and should involve eye-tracking data quality, the research question, participant tasks, and the nature of the visual stimulus. It also evaluates recent advances in AOI automation, outlining both their benefits and limitations. The article’s main message is that researchers should plan AOIs carefully and explain their choices openly so others can replicate the work.",
@@ -92,28 +127,12 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "Esports and VR: how does it change EEG spectral dynamics of attention shift and maintenance?",
-          "authors": "Alena Ovakimian, Ekaterina Karimova",
-          "url": "https://doi.org/10.1016/j.chb.2026.108947",
-          "doi": "https://doi.org/10.1016/j.chb.2026.108947",
-          "filter": 0,
-          "created": "2026-2-16"
-        },
-        {
           "title": "Offline Friendship Conflict and Adolescent Internet Addiction: Indirect Associations via Self-Esteem and the Moderating Role of Clique-Level Norms",
           "authors": "Yanli Hou, Ruonan Guo, Shengcheng Song, Caina Li",
           "url": "https://doi.org/10.1016/j.chb.2026.108954",
           "doi": "https://doi.org/10.1016/j.chb.2026.108954",
           "filter": 0,
           "created": "2026-2-19"
-        },
-        {
-          "title": "Virtual characters, real emotions: Avatar identification and psychological transformation across esports and K-pop fandoms",
-          "authors": "Yi-Ting Huang, Yu-Chiao Huang, En-Chia Lin",
-          "url": "https://doi.org/10.1016/j.chb.2026.108951",
-          "doi": "https://doi.org/10.1016/j.chb.2026.108951",
-          "filter": 0,
-          "created": "2026-2-16"
         },
         {
           "title": "Virtual peers reduce gambling symptoms and related problems of moderate-risk gamblers: A randomized controlled trial",
@@ -132,7 +151,7 @@
           "created": "2026-2-20"
         },
         {
-          "title": "Evaluating User Performance on RAG-Based Generative AI Tools: A Scenario-Based Experiment on AI-Assisted Information Retrieval",
+          "title": "Evaluating user performance with RAG-based generative AI: A scenario-based experiment on AI-assisted information retrieval",
           "authors": "Aktilek Sagynbayeva, Ajin Pyo, Sang-Hyeak Yoon, Sung-Byung Yang",
           "url": "https://doi.org/10.1016/j.chb.2026.108952",
           "doi": "https://doi.org/10.1016/j.chb.2026.108952",
@@ -164,16 +183,7 @@
           "created": "2026-2-17"
         }
       ],
-      "articles_hidden": [
-        {
-          "title": "Corrigendum to ‘Interplay of agenda setters in the digital age: The associative issue network between news organizations and political YouTube channels’ [Computers in Human Behavior 155 (2024), 108169]",
-          "authors": "Bumsoo Kim, Lin Han, Yonghwan Kim",
-          "url": "https://doi.org/10.1016/j.chb.2026.108948",
-          "doi": "https://doi.org/10.1016/j.chb.2026.108948",
-          "filter": 1,
-          "created": "2026-2-16"
-        }
-      ]
+      "articles_hidden": []
     },
     {
       "journal_full": "Group Processes & Intergroup Relations",
@@ -223,28 +233,35 @@
       "journal_short": "JESP",
       "articles": [
         {
-          "title": "Dissecting cross-category recognition: A methodological test of the theory of perceptual expertise",
-          "authors": "Brandon Cohen, Joshua Correll, Balbir Singh, Anjana Lakshmi",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104892",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104892",
-          "filter": 0,
-          "created": "2026-2-16"
-        },
-        {
           "title": "Navigating ideological divides in digital spaces: How political ideology and moral rhetoric shape the promotion of causes online",
           "authors": "Monica Gamez-Djokic, Marlon Mooijman, Matthew D. Rocklage, Maryam Kouchaki",
           "url": "https://doi.org/10.1016/j.jesp.2026.104893",
           "doi": "https://doi.org/10.1016/j.jesp.2026.104893",
           "filter": 0,
           "created": "2026-2-20"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Journal of Personality and Social Psychology",
+      "journal_short": "JPSP",
+      "articles": [
+        {
+          "title": "Are the metatraits fact or artifact? Ruling out alternative explanations for the higher-order factors of the Big Five.",
+          "authors": "Colin G. DeYoung, Ming Him Tai, Edward Chou, Boris Mlačić",
+          "url": "https://doi.org/10.1037/pspp0000593",
+          "doi": "https://doi.org/10.1037/pspp0000593",
+          "filter": 0,
+          "created": "2026-2-23"
         },
         {
-          "title": "How stereotypes develop from memory limitations and second-hand knowledge",
-          "authors": "Diane Pecher, Joel Bornemann, Steve van Pelt, Steven Verheyen, Heleen van Mierlo",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104890",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104890",
+          "title": "Femininity culture: Theory and workplace implications.",
+          "authors": "Andrea C. Vial, Marta Beneda",
+          "url": "https://doi.org/10.1037/pspi0000514",
+          "doi": "https://doi.org/10.1037/pspi0000514",
           "filter": 0,
-          "created": "2026-2-16"
+          "created": "2026-2-23"
         }
       ],
       "articles_hidden": []
@@ -269,6 +286,15 @@
       "journal_short": "PSPB",
       "articles": [
         {
+          "title": "The Gendered Benefits of Communication Strategies: Women Leaders Are Less Effective but More Liked When They Use Prevention-Focused Language",
+          "authors": "M. Asher Lawson, Sandra C. Matz, Friedrich M. Götz, Ashley E. Martin",
+          "abstract": "Research has identified a double-bind for female leaders: When acting in line with gender stereotypes, they are viewed as more likeable but less competent. Here, we test the impact of using gender stereotypical language—characterized by more prevention-focused language (e.g., avoiding risks) and less promotion-focused language (e.g., seeking gains)—on U.S. governors’ approval ratings during COVID-19 and their ability to promote effective social distancing behaviors. With a final dataset of 3,759 documents capturing governors’ communication, a 13-week panel of Google mobility data containing 6,534 observations (Study 1), U.S. nationally representative survey data from 57,532 participants (Study 2), and 24,247 tweets (Study 3), we find that female governors who use less prevention-focused, stereotypical language in their communications are more effective at increasing compliance with social distancing measures but receive lower approval ratings. As such, women leaders’ necessary approaches in crisis situations may undermine their sustainability in positions of power.",
+          "url": "https://doi.org/10.1177/01461672261420854",
+          "doi": "https://doi.org/10.1177/01461672261420854",
+          "filter": 0,
+          "created": "2026-2-23"
+        },
+        {
           "title": "How Does Rejection Feel? Explaining Victims’ Reactions to Social Rejection From the Perspective of Self-Conscious Emotions",
           "authors": "Irene Castro, Saulo Fernández",
           "abstract": "Research has characterized the emotional response to social rejection as a generalized negative affect, overlooking the diverse reactions of rejected individuals. We explored how humiliation and related emotions (anger, shame, and guilt) are linked to post-rejection behavior, and how two key appraisals (unfairness and internalization of devaluation) evoke specific emotions. In two studies—an experimental Cyberball study ( N = 186) and a large-scale correlational study ( N = 1,200)—we found that humiliation was associated with both unfairness and internalization, anger only with unfairness, shame with internalization, and guilt with internalization and negatively with unfairness. Humiliation was correlated with aggressive confrontation and avoidance, anger with aggressive and non-aggressive confrontation, shame with avoidance and negatively with non-aggressive confrontation, and guilt with reparation and non-aggressive confrontation. We discuss the relevance of these emotional pathways for understanding social rejection and informing targeted interventions to mitigate harmful responses.",
@@ -285,33 +311,6 @@
           "doi": "https://doi.org/10.1177/01461672261418068",
           "filter": 0,
           "created": "2026-2-19"
-        },
-        {
-          "title": "From “Mesearch” to “Wesearch”: Perceptions of Researchers Studying Their Own Intersectional Marginalization",
-          "authors": "Michael Thai, Audrée Grand’Pierre",
-          "abstract": "Important scientific contributions regarding intersectional marginalization are often advanced by researchers who, themselves, hold the relevant intersecting identities. But how are these researchers perceived? In an experiment gauging the perspective of a demographically representative sample of U.S. Americans ( N = 385), we found that research on Black women’s marginalization was perceived as equivalently trustworthy and meritorious whether it was conducted by a Black woman, Black man, White woman, or White man. Our data suggested this was because a Black woman conducting this work was perceived ambivalently—positively due to her perceived standing and expertise, but negatively due to her perceived vested interest. In three follow-up experiments examining perceptions of Black American women, specifically ( N = 243, 139, 182), we found a different pattern—Black women consistently evaluated this research more favorably if it was conducted by a fellow Black woman, prioritizing her standing, expertise, and commitment to the community.",
-          "url": "https://doi.org/10.1177/01461672251412997",
-          "doi": "https://doi.org/10.1177/01461672251412997",
-          "filter": 0,
-          "created": "2026-2-16"
-        },
-        {
-          "title": "Deprivation or Dominance? Examining the Psychological Antecedents of Historical Negation Among Europeans Over Time",
-          "authors": "Kieren J. Lilly, Zoe Bertenshaw, Chantelle Kimberley, Tamino Konur, Chris G. Sibley, Danny Osborne",
-          "abstract": "Although historical negation—the ideologically-based denial of the contemporary relevance of colonial injustices—sustains inequities between settler colonisers and Indigenous peoples, few studies explore the psychological processes underlying historical negation among settler colonisers. In this pre-registered study, we examine whether perceived group-based relative deprivation (GRD) fosters historical negation among New Zealand Europeans. To do so, we use seven annual waves of data from a nationwide panel sample of New Zealand European adults ( N = 26,759) and random intercept cross-lagged panel modelling to predict within-person changes in historical negation over time. Contrary to our hypotheses, no significant within-person associations emerged between GRD and historical negation. GRD did, however, have a positive between-person association with historical negation among sole-identifying New Zealand Europeans. These results indicate that GRD among settler colonisers correlates with—but does not drive—the minimisation of the present-day relevance of colonial injustices.",
-          "url": "https://doi.org/10.1177/01461672261419543",
-          "doi": "https://doi.org/10.1177/01461672261419543",
-          "filter": 0,
-          "created": "2026-2-16"
-        },
-        {
-          "title": "The Gendered Benefits of Communication Strategies: Women Leaders Are Less Effective but More Liked When They Use Prevention-Focused Language",
-          "authors": "M. Asher Lawson, Sandra C. Matz, Friedrich M. Götz, Ashley E. Martin",
-          "abstract": "Research has identified a double-bind for female leaders: When acting in line with gender stereotypes, they are viewed as more likeable but less competent. Here, we test the impact of using gender stereotypical language—characterized by more prevention-focused language (e.g., avoiding risks) and less promotion-focused language (e.g., seeking gains)—on U.S. governors’ approval ratings during COVID-19 and their ability to promote effective social distancing behaviors. With a final dataset of 3,759 documents capturing governors’ communication, a 13-week panel of Google mobility data containing 6,534 observations (Study 1), U.S. nationally representative survey data from 57,532 participants (Study 2), and 24,247 tweets (Study 3), we find that female governors who use less prevention-focused, stereotypical language in their communications are more effective at increasing compliance with social distancing measures but receive lower approval ratings. As such, women leaders’ necessary approaches in crisis situations may undermine their sustainability in positions of power.",
-          "url": "https://doi.org/10.1177/01461672261420854",
-          "doi": "https://doi.org/10.1177/01461672261420854",
-          "filter": 0,
-          "created": "2026-2-23"
         }
       ],
       "articles_hidden": []
