@@ -1,5 +1,5 @@
 {
-  "update": "2026-02-27",
+  "update": "2026-02-28",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -30,6 +30,14 @@
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
       "articles": [
+        {
+          "title": "A multi-strategy cognitive diagnosis model based on response times and fixation counts",
+          "authors": "Junhuan Wei, Chun Wang, Yan Cai, Peida Zhan, Dongbo Tu",
+          "url": "https://doi.org/10.3758/s13428-025-02929-3",
+          "doi": "https://doi.org/10.3758/s13428-025-02929-3",
+          "filter": 0,
+          "created": "2026-2-27"
+        },
         {
           "title": "How plausible is my model? Assessing model plausibility of structural equation models using Bayesian posterior probabilities (BPP)",
           "authors": "Ivan Jacob Agaloos Pesigan, Shu Fai Cheung, Huiping Wu, Florbela Chang, Shing On Leung",
@@ -72,24 +80,6 @@
           "doi": "https://doi.org/10.3758/s13428-025-02939-1",
           "filter": 0,
           "created": "2026-2-24"
-        },
-        {
-          "title": "ConversationAlign: Open-source software for analyzing patterns of lexical use and alignment in conversation transcripts",
-          "authors": "Benjamin Sacks, Virginia Ulichney, Anna Duncan, Chelsea Helion, Sarah M. Weinstein, Tania Giovannetti, Gus Cooney, Jamie Reilly",
-          "abstract": "Much of our scientific understanding of language processing has been informed by controlled experiments divorced from the real-world demands of naturalistic communication. Conversation requires synchronization of rate, amplitude, lexical complexity, affective coloring, shared reference, and countless other verbal and nonverbal dimensions. Conversation is not merely a vector for information transfer but also serves as a mechanism for establishing or maintaining social relationships. This process of language calibration between interlocutors is known as linguistic alignment . We developed an open-source R package, ConversationAlign , capable of computing novel indices of linguistic alignment and main effects of language use between interlocutors by evaluating word choice across numerous semantic, affective, and lexical dimensions (e.g., valence, concreteness, frequency, word length). We describe the operations of ConversationAlign, including its primary functions of cleaning and transforming raw language data into simultaneous time series objects aggregated by interlocutor, turn, and conversation. We then outline mathematical operations involved in computing complementary indices of linguistic alignment that capture both local (synchrony in turn-by-turn scores) and global relations (overall proximity) between interlocutors. We present a use case of ConversationAlign applied to interview transcripts from American radio legend Terry Gross and her many guests spanning 15 years. We identify caveats for use and potential sources of bias (e.g., polysemy, missing data, robustness to brief language samples) and close with a discussion of potential applications to other populations. ConversationAlign (v 0.4.0) is freely available for download and use via CRAN or GitHub. For technical instructions and download, visit https://github.com/Reilly-ConceptsCognitionLab/ConversationAlign .",
-          "url": "https://doi.org/10.3758/s13428-026-02954-w",
-          "doi": "https://doi.org/10.3758/s13428-026-02954-w",
-          "filter": 0,
-          "created": "2026-2-20"
-        },
-        {
-          "title": "Quantifying the stability landscapes of psychological networks",
-          "authors": "Jingmeng Cui, Gabriela Lunansky, Anna Lichtwarck-Aschoff, Norman B. Mendoza, Fred Hasselman",
-          "abstract": "The network theory of psychopathology proposes that mental disorders can be represented as networks of interacting psychiatric symptoms. These direct symptom–symptom interactions can create a vicious cycle of symptom activation, pushing the network to a self-sustaining, dysfunctional phase of psychopathology: a mental disorder. Symptom network models can be estimated from empirical data through statistical models. Although simulation studies have established a relation between the structure of these symptom network models and the probability they end up in a self-sustaining dysfunctional phase, the general stability of the system is left implicit. The general stability includes both the stability of the dysfunctional phase and the stability of the healthy phase. In this paper, we present a novel method to quantify the stability landscapes of network models through stability landscapes. Our method is based on the Hamiltonian of the microstates of Ising models and can be used to show the stability of estimated Ising network models. Compared to simulation-based methods, our approach is computationally more efficient and quantifies the stability of all possible system states. Furthermore, we propose a set of stability metrics to quantify the stability of the healthy and dysfunctional phases and a bootstrapping method for range estimation of the stability metrics. To demonstrate the method’s utility, we apply it to an empirical data set and show how it can be used to compare the stability of phases between groups. The presented method is implemented in a freely available R package, Isinglandr .",
-          "url": "https://doi.org/10.3758/s13428-025-02917-7",
-          "doi": "https://doi.org/10.3758/s13428-025-02917-7",
-          "filter": 0,
-          "created": "2026-2-20"
         }
       ],
       "articles_hidden": []
@@ -115,14 +105,6 @@
           "created": "2026-2-22"
         },
         {
-          "title": "AI chatbots in mental Health: How emojis, prompt type, and interactivity shape user perceptions in the United States and China",
-          "authors": "Jihye Lee, Zinan Darren Yang, Weijia Shi, Yan Liu",
-          "url": "https://doi.org/10.1016/j.chb.2026.108955",
-          "doi": "https://doi.org/10.1016/j.chb.2026.108955",
-          "filter": 0,
-          "created": "2026-2-20"
-        },
-        {
           "title": "Interdisciplinary perspectives and current findings on the role of trust as a psychological mediator in human interaction with artificial intelligence: Editorial overview",
           "authors": "Irene Valori, Johannes Kraus, Merle T. Fairhurst",
           "url": "https://doi.org/10.1016/j.chb.2026.108957",
@@ -137,14 +119,6 @@
       "journal_full": "Journal of Experimental Social Psychology",
       "journal_short": "JESP",
       "articles": [
-        {
-          "title": "Navigating ideological divides in digital spaces: How political ideology and moral rhetoric shape the promotion of causes online",
-          "authors": "Monica Gamez-Djokic, Marlon Mooijman, Matthew D. Rocklage, Maryam Kouchaki",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104893",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104893",
-          "filter": 0,
-          "created": "2026-2-20"
-        },
         {
           "title": "Principles of nostalgia: Meta-analytic tests",
           "authors": "Evan Weingarten, Ziwei Wei, Tim Wildschut, Constantine Sedikides",
@@ -191,21 +165,6 @@
           "doi": "https://doi.org/10.1037/pspi0000514",
           "filter": 0,
           "created": "2026-2-23"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Multivariate Behavioral Research",
-      "journal_short": "MBR",
-      "articles": [
-        {
-          "title": "Penalized Subgrouping of Heterogeneous Time Series",
-          "authors": "Christopher M Crawford, Jonathan J Park, Sy-Miin Chow, Anja F Ernst, Vladas Pipiras, Zachary F Fisher",
-          "url": "https://doi.org/10.1080/00273171.2026.2622120",
-          "doi": "https://doi.org/10.1080/00273171.2026.2622120",
-          "filter": 0,
-          "created": "2026-2-20"
         }
       ],
       "articles_hidden": []
