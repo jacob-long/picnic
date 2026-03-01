@@ -1,22 +1,6 @@
 {
-  "update": "2026-02-28",
+  "update": "2026-03-01",
   "content": [
-    {
-      "journal_full": "Journal of Official Statistics",
-      "journal_short": "JOS",
-      "articles": [
-        {
-          "title": "Privacy-Enhancing or Privacy-Elusion Technology? A Critical View of (Pseudo)Synthetic Data Based on Deep Learning",
-          "authors": "Fabio Ricciato",
-          "abstract": "In this note, we present a plausible structural mechanism by which over-parameterized deep learning models trained on real data may produce pseudo-synthetic data that constitute merely a diﬀerent representation (or re-encoding) of the training data. We conjecture that, in principle, similar mechanisms may be learned by large-scale AI models even if they are not intentionally designed to do so. From there, we derive some cautionary warnings for potential adopters of pseudo-synthetic data generation tools based on deep learning. We claim that the burden of proof that no data re-encoding mechanism is at play in AI-based generation models rests with their proponents.",
-          "url": "https://doi.org/10.1177/0282423x251412328",
-          "doi": "https://doi.org/10.1177/0282423x251412328",
-          "filter": 0,
-          "created": "2026-2-21"
-        }
-      ],
-      "articles_hidden": []
-    },
     {
       "journal_full": "Journal of Survey Statistics and Methodology",
       "journal_short": "JSSAM",
@@ -38,6 +22,15 @@
           "doi": "https://doi.org/10.1093/jssam/smaf040",
           "filter": 0,
           "created": "2025-10-18"
+        },
+        {
+          "title": "Smoothed pseudo-population bootstrap methods with applications to finite population quantiles",
+          "authors": "Vanessa McNealis, Christian Léger",
+          "abstract": "This article introduces smoothed pseudo-population bootstrap methods for the purposes of mean-squared error estimation and for constructing confidence intervals for finite population quantiles. In an independent and identically distributed context, it has been shown that resampling from a smoothed estimate of the distribution function instead of the usual empirical distribution function can improve the convergence rate of the bootstrap mean-squared error estimator of a sample quantile. We extend the smoothed bootstrap to the survey sampling framework by implementing it in pseudo-population bootstrap methods for high entropy, single-stage survey designs, such as simple random sampling without replacement, Poisson sampling, and randomized systematic proportional-to-size sampling. Given a kernel function and a bandwidth, it consists of smoothing the pseudo-population from which bootstrap samples are drawn using the original sampling design. Given that the implementation of the proposed algorithms requires the specification of the bandwidth, we develop a plug-in selection method along with a grid search selection method based on a bootstrap estimate of the mean squared error. Simulation results suggest that the smoothed approach offers improved efficiency compared to the standard pseudo-population bootstrap for estimating the uncertainty of a quantile estimator, together with mixed results regarding confidence interval coverage.",
+          "url": "https://doi.org/10.1093/jssam/smaf036",
+          "doi": "https://doi.org/10.1093/jssam/smaf036",
+          "filter": 0,
+          "created": "2025-9-29"
         }
       ],
       "articles_hidden": []
@@ -46,6 +39,24 @@
       "journal_full": "Public Opinion Quarterly",
       "journal_short": "POQ",
       "articles": [
+        {
+          "title": "Sexism as a Predictor of Political Attitudes and Voting Behavior: A Systematic Review",
+          "authors": "Michał Gulczyński",
+          "abstract": "The election of Donald Trump in 2016 inspired sudden interest in the association between voters’ sexism and voting behavior. Existing research shows that sexism may be a stronger predictor of political attitudes and voting behavior than a voter’s gender. To what extent do the findings from the US presidential elections apply to other contexts and research questions? To answer this question, we present a systematic review of studies focusing on sexism as a predictor of political attitudes and voting behavior. In two databases (Scopus and Web of Science), we identify 97 relevant studies, including 42 on the 2016 US presidential elections. The review shows that particularly modern and hostile sexism played a role in Trump’s election. However, few other research questions have been answered with similar certainty. Our review discovers gaps in the literature and proposes further directions for this growing research field. To enable future comparative research, we discuss best practices for measuring sexism and show the variety of ways in which sexism is operationalized.",
+          "url": "https://doi.org/10.1093/poq/nfaf066",
+          "doi": "https://doi.org/10.1093/poq/nfaf066",
+          "filter": 0,
+          "created": "2025-11-21"
+        },
+        {
+          "title": "From Social Proximity to Policy Preferences: Contact with Drug Market Participants and Citizens’ Attitudes Toward Drug Policy",
+          "authors": "Daniel Zizumbo-Colunga, Pamela Ruiz Flores López",
+          "abstract": "The negative externalities of the global “war on drugs”—including violence, militarization, mass incarceration, and human rights violations—have sparked an intense debate over drug prohibition and legalization. Public opinion, particularly in regions most affected by drug-related violence, plays a pivotal role in shaping policy decisions, as it can either reinforce the status quo or push policymakers toward reform. In this context, it remains unclear whether citizens’ proximity to drug market participants gives them a clearer understanding of the threats of drug trafficking and abuse, swaying them toward prohibitionist positions, or—as we argue—promotes perspective-taking and fosters greater support for legalization. Using previously underanalyzed data from 18 countries and three waves of the Latinobarómetro, we examine the effect of contact on citizens’ drug policy preferences in Latin America, one of the regions most affected by drug violence. To derive generalized inferences, we use pooled models with fixed effects. To address measurement and simultaneity concerns, we employ year-specific and lagged hierarchical linear models. Across all specifications, contact is consistently associated with greater support for drug legalization. Our findings challenge the notion that personal contact with drug market participants fosters prohibitive attitudes and alleviate fears that legalizing drugs—and thus increasing consumer and non-consumer contact—could trigger significant public backlash. This study contributes to intergroup contact theory by extending its application to the understudied domain of drug policy and offering new insights into how social and environmental factors shape public opinion.",
+          "url": "https://doi.org/10.1093/poq/nfaf067",
+          "doi": "https://doi.org/10.1093/poq/nfaf067",
+          "filter": 0,
+          "created": "2025-12-10"
+        },
         {
           "title": "Measuring Party Identification in Public Opinion Surveys of Americans",
           "authors": "Joshua J Dyck, Jack Santucci",
