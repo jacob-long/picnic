@@ -1,5 +1,5 @@
 {
-  "update": "2026-03-02",
+  "update": "2026-03-03",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -39,39 +39,22 @@
           "created": "2026-2-27"
         },
         {
-          "title": "How plausible is my model? Assessing model plausibility of structural equation models using Bayesian posterior probabilities (BPP)",
-          "authors": "Ivan Jacob Agaloos Pesigan, Shu Fai Cheung, Huiping Wu, Florbela Chang, Shing On Leung",
-          "abstract": "In structural equation modeling (SEM), one method to select the most plausible model from several candidates, or to compare one or more hypothesized models with similar alternatives on plausibility, is to compare the models using Bayesian posterior probability (BPP). BPP can be computed from the Bayesian information criterion (BIC) scores (Wu et al. Multivariate Behavioral Research , 55 (1), 1–16, 2020). This approach complements conventional goodness-of-fit indices such as the Comparative Fit Index (CFI), the root mean square error of approximation (RMSEA), and the standardized root mean square residual (SRMR) in giving concise BPP for assessing uncertainties among all models considered. It can also reveal evidence against a model otherwise hidden by these indices. However, Wu et al. Multivariate Behavioral Research , 55 (1), 1–16. (2020) did not provide guidelines on deciding the models that should be considered. To facilitate the use of BPP, we proposed a novel method for selecting this set of models, called neighboring models , to help researchers decide on the initial set. This novel method integrates seamlessly into the typical workflow for SEM analysis. Researchers can fit a model as usual and then use this method to assess whether it is the most plausible model compared with the neighboring models. We believe the proposed method will make it easier for researchers to make better-informed decisions when evaluating their models. We developed a user-friendly R package, , to automate all the steps: generating the set of neighboring models, fitting them, and computing the BPPs, all in a single function.",
-          "url": "https://doi.org/10.3758/s13428-025-02921-x",
-          "doi": "https://doi.org/10.3758/s13428-025-02921-x",
+          "title": "Joint attention in autism: A narrative review of assessment techniques from behavioral observation to artificial intelligence",
+          "authors": "Marwa Qaraqe, Elizabeth B Varghese, Inam Qadir, Dena Al-Thani, Chahnaz T Baroudi",
+          "abstract": "Joint attention (JA), the shared focus between two individuals on an object or event, plays a pivotal role in social communication, cognitive development, and language acquisition during early childhood. However, JA is frequently impaired in children with autism spectrum disorder (ASD), highlighting the need for precise assessment to support early diagnosis and intervention. This narrative review explores the evolution of JA assessment methods, tracing the shift from human-mediated techniques to technology-driven approaches, including artificial intelligence (AI). The study analyzes research indexed in major bibliographic databases between 2002 and 2024, categorizing findings into human-mediated and technology-assisted methods. Key aspects such as target populations, data collection processes, and validation strategies are examined. By highlighting the strengths and limitations of existing approaches, the review identifies future research directions that can advance JA assessment and inform early intervention strategies, ultimately benefiting children with ASD and their families.",
+          "url": "https://doi.org/10.3758/s13428-026-02950-0",
+          "doi": "https://doi.org/10.3758/s13428-026-02950-0",
           "filter": 0,
-          "created": "2026-2-23"
+          "created": "2026-3-2"
         },
         {
-          "title": "A tutorial for software options to aid in assessing functional relations in single-case experimental designs",
-          "authors": "Rumen Manolov",
-          "abstract": "Single-case experimental designs (SCEDs) can be used for identifying effective interventions via the intensive study of one or a few individuals in different conditions, actively manipulated by the researcher. The assessment of SCED data entails both judging whether there is sufficient evidence of a functional relation (i.e., a causal effect of the intervention on the target behavior) and quantifying the magnitude of the effect. In the current text, the focus is on assessing the presence of a functional relation, considering all the attempts to demonstrate an effect that SCEDs include. Specifically, the aim is to review several freely available websites, which require no additional software to be installed, and offer graphical representations of the data, visual aids, and quantifications. Several data analytical steps are outlined for performing the assessment, both dealing with each basic effect separately and evaluating the consistency of effects. Software that is useful for carrying out these steps is reviewed, including the way in which the data files should be specified and the few clicks required by applied researchers to achieve the desired output. The interpretations of the output are illustrated with real data.",
-          "url": "https://doi.org/10.3758/s13428-026-02951-z",
-          "doi": "https://doi.org/10.3758/s13428-026-02951-z",
+          "title": "Multiple imputation of multilevel data with single-level models: A fully conditional specification approach using adjusted group means",
+          "authors": "Simon Grund, Oliver Lüdtke, Alexander Robitzsch",
+          "abstract": "Missing data are a common challenge in multilevel designs, and multiple imputation (MI) is often used for handling them. Past research has shown that multilevel MI provides an effective treatment of missing data, so long as the imputation model takes the multilevel structure and the intended analyses into account, and modern methods have been developed that can accommodate even complex types of analyses. However, multilevel MI can be difficult to apply in practice, where the multilevel structure is often not very pronounced or not of immediate interest in the analysis. In these applications, existing methods can become unstable and often struggle to provide reliable results. In this article, we introduce a fully conditional specification (FCS) approach to multilevel MI that combines single-level imputation methods with group means (GM) or adjusted group means (AGM) to accommodate the multilevel structure. Based on theoretical investigations and multiple simulation studies, we evaluated the performance of these methods across balanced and unbalanced designs and with larger numbers of variables. Our findings suggest that the AGM approach – though not the GM approach – performs well across most scenarios we investigated and can even outperform conventional multilevel MI approaches in challenging applications. We also provide an illustrative example of implementing these methods in a simulated setting and discuss the implications of our findings for practice.",
+          "url": "https://doi.org/10.3758/s13428-025-02915-9",
+          "doi": "https://doi.org/10.3758/s13428-025-02915-9",
           "filter": 0,
-          "created": "2026-2-23"
-        },
-        {
-          "title": "Generalized least squares transformation for single-case experimental design: Introducing the R package lmeSCED",
-          "authors": "Chendong Li, Eunkyeng Baek, Wen Luo",
-          "url": "https://doi.org/10.3758/s13428-025-02936-4",
-          "doi": "https://doi.org/10.3758/s13428-025-02936-4",
-          "filter": 0,
-          "created": "2026-2-23"
-        },
-        {
-          "title": "Comparing effect latencies in the visual world paradigm: Monte Carlo simulations to assess resampling-based procedures",
-          "authors": "Serge Minor",
-          "abstract": "In a series of Monte Carlo simulation studies, we evaluated the power and Type I error rates of resampling-based procedures for comparing effect latencies between groups in the visual world paradigm (VWP). Resampling-based methods, while versatile, are known to fail in certain cases. Therefore, validation of such methods through simulation is crucial. We compared permutation- and bootstrapping-based tests combined with different methods for measuring effect latency while manipulating sample size and true effect size. Alongside previously used latency measures, we tested new measures involving the application of an effect size threshold. Simulations were based on existing VWP datasets representing different effect types (preferential looks triggered by lexical vs. grammatical cues, cohort competitor effects in word recognition) and data collection methods (infrared- vs. webcam-based eye tracking). A total of 156,000 simulations were conducted across five studies, involving 548 million resampled datasets. The main findings are as follows: (1) With sufficient sample sizes, tests were effective in detecting latency differences of 200–300 ms in sentence processing tasks, and as small as 100 ms in word recognition. (2) The permutation test and bootstrapped percentile CIs exhibited the highest overall power without inflation of Type I error rates. (3) Applying an effect size threshold in latency estimation led to consistent increases in statistical power. (4) Resampling by participant was robust to increases in cross-subject variability;in contrast, bootstrapping within participants and time bins led to elevated Type I error rates. Based on these results, we offer recommendations for using non-parametric resampling-based procedures to compare group latencies in VWP experiments.",
-          "url": "https://doi.org/10.3758/s13428-025-02934-6",
-          "doi": "https://doi.org/10.3758/s13428-025-02934-6",
-          "filter": 0,
-          "created": "2026-2-23"
+          "created": "2026-3-2"
         },
         {
           "title": "Collection of body–object interaction ratings for 5,637 Japanese words",
@@ -240,6 +223,14 @@
       "journal_short": "JESP",
       "articles": [
         {
+          "title": "Income inequality and status concerns in multiple life domains increase self-objectification for both women and men",
+          "authors": "K. Blake, M. Kowal, B. Bastian, J. Kuek, A. Harrington, S. Harmon-Jones, R.C. Brooks",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104894",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104894",
+          "filter": 0,
+          "created": "2026-3-2"
+        },
+        {
           "title": "Principles of nostalgia: Meta-analytic tests",
           "authors": "Evan Weingarten, Ziwei Wei, Tim Wildschut, Constantine Sedikides",
           "url": "https://doi.org/10.1016/j.jesp.2026.104891",
@@ -407,12 +398,12 @@
       "journal_short": "JPSP",
       "articles": [
         {
-          "title": "Are the metatraits fact or artifact? Ruling out alternative explanations for the higher-order factors of the Big Five.",
-          "authors": "Colin G. DeYoung, Ming Him Tai, Edward Chou, Boris Mlačić",
-          "url": "https://doi.org/10.1037/pspp0000593",
-          "doi": "https://doi.org/10.1037/pspp0000593",
+          "title": "End of world beliefs are common, diverse, and predict how people perceive and respond to global risks.",
+          "authors": "Matthew I. Billet, Cindel J. M. White, Azim Shariff, Ara Norenzayan",
+          "url": "https://doi.org/10.1037/pspi0000519",
+          "doi": "https://doi.org/10.1037/pspi0000519",
           "filter": 0,
-          "created": "2026-2-23"
+          "created": "2026-3-2"
         },
         {
           "title": "Confront in public, validate in private: Effective male allyship responses to sexist remarks.",
@@ -431,12 +422,108 @@
           "created": "2026-2-26"
         },
         {
-          "title": "Femininity culture: Theory and workplace implications.",
-          "authors": "Andrea C. Vial, Marta Beneda",
-          "url": "https://doi.org/10.1037/pspi0000514",
-          "doi": "https://doi.org/10.1037/pspi0000514",
+          "title": "Fleeting generalization: How unstable belief updating keeps people overly pessimistic about talking to strangers.",
+          "authors": "Stav Atir, Nicholas Epley",
+          "url": "https://doi.org/10.1037/pspa0000483",
+          "doi": "https://doi.org/10.1037/pspa0000483",
           "filter": 0,
-          "created": "2026-2-23"
+          "created": "2026-3-2"
+        },
+        {
+          "title": "On the relationship between indirect measures of Black versus White racial attitudes and discriminatory outcomes: An adversarial collaboration using a sample of White Americans.",
+          "authors": "Jordan R. Axt, Paul Connor, Suzanne Hoogeveen, Cory J. Clark, Michelangelo Vianello, Joanna N. Lahey, Adam Hahn, Jeffrey To, Richard E. Petty, Thomas H. Costello, Gregory Mitchell, Philip E. Tetlock, Eric Luis Uhlmann",
+          "url": "https://doi.org/10.1037/pspa0000480",
+          "doi": "https://doi.org/10.1037/pspa0000480",
+          "filter": 0,
+          "created": "2026-3-2"
+        },
+        {
+          "title": "Social distancing from innocent victims by spatial distality.",
+          "authors": "Rael J. Dawtry, Mitchell J. Callan, Lucy H. Waldren, Charli Sherman",
+          "url": "https://doi.org/10.1037/pspa0000472",
+          "doi": "https://doi.org/10.1037/pspa0000472",
+          "filter": 0,
+          "created": "2026-3-2"
+        },
+        {
+          "title": "Asymmetric polarization: The perception that Republicans pose harm to disadvantaged groups drives Democrats’ greater dislike of Republicans in social contexts.",
+          "authors": "Krishnan Nair, Rajen A. Anderson, Trevor Spelman, Mohsen Mosleh, Maryam Kouchaki",
+          "url": "https://doi.org/10.1037/pspi0000495",
+          "doi": "https://doi.org/10.1037/pspi0000495",
+          "filter": 0,
+          "created": "2025-5-5"
+        },
+        {
+          "title": "U.S. citizens’ judgments of moral transgressions against fellow citizens, refugees, and undocumented immigrants.",
+          "authors": "Laura K. Soter, Victoria Ramirez, Walter Sinnott-Armstrong",
+          "url": "https://doi.org/10.1037/pspi0000490",
+          "doi": "https://doi.org/10.1037/pspi0000490",
+          "filter": 0,
+          "created": "2025-2-18"
+        },
+        {
+          "title": "Overestimation in the aggregation of emotional intensity of social media content.",
+          "authors": "Jonas Paul Schöne, Matthew D. Rocklage, Brian Parkinson, Amit Goldenberg",
+          "url": "https://doi.org/10.1037/pspa0000458",
+          "doi": "https://doi.org/10.1037/pspa0000458",
+          "filter": 0,
+          "created": "2025-8-4"
+        },
+        {
+          "title": "The failure gap.",
+          "authors": "Lauren Eskreis-Winkler, Kaitlin Woolley, Minhee Kim, Eliana Polimeni",
+          "url": "https://doi.org/10.1037/pspa0000468",
+          "doi": "https://doi.org/10.1037/pspa0000468",
+          "filter": 0,
+          "created": "2025-10-27"
+        },
+        {
+          "title": "Does artificial intelligence cause artificial confidence? Generative artificial intelligence as an emerging social referent.",
+          "authors": "Taly Reich, Jacob D. Teeny",
+          "url": "https://doi.org/10.1037/pspa0000450",
+          "doi": "https://doi.org/10.1037/pspa0000450",
+          "filter": 0,
+          "created": "2025-5-1"
+        },
+        {
+          "title": "Once a procrastinator, always a procrastinator? Examining stability, change, and long-term correlates of procrastination during young adulthood.",
+          "authors": "Lisa Bäulke, Brent W. Roberts, Benjamin Nagengast, Ulrich Trautwein",
+          "url": "https://doi.org/10.1037/pspp0000591",
+          "doi": "https://doi.org/10.1037/pspp0000591",
+          "filter": 0,
+          "created": "2026-1-15"
+        },
+        {
+          "title": "Using machine learning to predict individual differences in psychological reactivities to social interactions.",
+          "authors": "Ole Hätscher, Johannes L. Klinz, Niclas Kuper, Lara Kroencke, Julian Scharbert, Eric Grunenberg, Mitja D. Back",
+          "url": "https://doi.org/10.1037/pspp0000589",
+          "doi": "https://doi.org/10.1037/pspp0000589",
+          "filter": 0,
+          "created": "2026-1-26"
+        },
+        {
+          "title": "Person-related selection bias in mobile sensing research: Robust findings from two panel studies.",
+          "authors": "Ramona Schoedel, Thomas Reiter, Michael D. Krämer, Yannick Roos, Markus Bühner, David Richter, Matthias R. Mehl, Cornelia Wrzus",
+          "url": "https://doi.org/10.1037/pspp0000585",
+          "doi": "https://doi.org/10.1037/pspp0000585",
+          "filter": 0,
+          "created": "2026-1-8"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Organizational Research Methods",
+      "journal_short": "ORM",
+      "articles": [
+        {
+          "title": "I Gotta Feeling: Advancing Sentiment Analysis in Organizational Science",
+          "authors": "Imran Kadolkar, Divya V Doshi, Scott Tonidandel, Jose M Cortina",
+          "abstract": "Sentiment analysis (SA) has grown considerably in organizational science research over the past two decades, particularly in the last few years. While enthusiasm for integrating advanced natural language processing algorithms is encouraging, authors are not reaping the benefits of such tools fully. Our systematic review of SA application in the organizational sciences suggests that authors struggle to appreciate all of the decisions that are inherent to SA, the choices that are available at each decision point, and the consequences of each choice. To address this gap, we use a working example to illustrate four critical decision points authors confront when conducting SA, and the subsequent impact different choices can have on one's conclusion. Decision points include selecting the SA method, computing a sentiment score, preprocessing the data, and using an appropriate level of analysis. We conclude with a framework outlining five dimensions (e.g., accuracy, interpretability, computational cost) to guide the selection of an SA approach based on study goals and needs, along with seven recommendations to authors wishing to apply SA.",
+          "url": "https://doi.org/10.1177/10944281251408073",
+          "doi": "https://doi.org/10.1177/10944281251408073",
+          "filter": 0,
+          "created": "2026-3-2"
         }
       ],
       "articles_hidden": []
@@ -446,15 +533,6 @@
       "journal_short": "PSPB",
       "articles": [
         {
-          "title": "The Gendered Benefits of Communication Strategies: Women Leaders Are Less Effective but More Liked When They Use Prevention-Focused Language",
-          "authors": "M. Asher Lawson, Sandra C. Matz, Friedrich M. Götz, Ashley E. Martin",
-          "abstract": "Research has identified a double-bind for female leaders: When acting in line with gender stereotypes, they are viewed as more likeable but less competent. Here, we test the impact of using gender stereotypical language—characterized by more prevention-focused language (e.g., avoiding risks) and less promotion-focused language (e.g., seeking gains)—on U.S. governors’ approval ratings during COVID-19 and their ability to promote effective social distancing behaviors. With a final dataset of 3,759 documents capturing governors’ communication, a 13-week panel of Google mobility data containing 6,534 observations (Study 1), U.S. nationally representative survey data from 57,532 participants (Study 2), and 24,247 tweets (Study 3), we find that female governors who use less prevention-focused, stereotypical language in their communications are more effective at increasing compliance with social distancing measures but receive lower approval ratings. As such, women leaders’ necessary approaches in crisis situations may undermine their sustainability in positions of power.",
-          "url": "https://doi.org/10.1177/01461672261420854",
-          "doi": "https://doi.org/10.1177/01461672261420854",
-          "filter": 0,
-          "created": "2026-2-23"
-        },
-        {
           "title": "Devaluing Women’s Orgasm: An Experimental Investigation of Whether, When, and to What Effect Women and Men Reduce the Importance of Women’s Orgasm",
           "authors": "Grace Marie Wetzel, Hayley Svensson, Shana Cole, Diana T Sanchez",
           "abstract": "Across three experimental studies using hypothetical scenarios, we investigated under what circumstances, and to what effect, women and men devalue women’s orgasm. In Studies 1 and 2, women reported their orgasm value in response to a hypothetical scenario that varied their imagined orgasm history and current orgasm frequency with a new partner (low vs. high). In Study 2, orgasm value was compared to a baseline, pre-manipulation measure of orgasm value. In both studies, we found that women devalued orgasm only when they imagined they had a history of infrequent orgasms and were not orgasming with their current partner. When current orgasm frequency was low, women who valued orgasm less (or devalued orgasm) imagined better sexual and relationship outcomes than women who valued orgasm more. Men (Study 3) valued a hypothetical female partner’s orgasm less under the same circumstances and reported similar impacts of women’s orgasm absence on their own and perceived partner’s imagined sexual and relationship outcomes.",
@@ -462,6 +540,44 @@
           "doi": "https://doi.org/10.1177/01461672261417538",
           "filter": 0,
           "created": "2026-2-28"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Psychological Methods",
+      "journal_short": "PM",
+      "articles": [
+        {
+          "title": "From the 1940s to 2020s: A review of the current state of forced-choice methodology.",
+          "authors": "Jake Plantz, Keith D. Wright, Jessica K. Flake",
+          "url": "https://doi.org/10.1037/met0000822",
+          "doi": "https://doi.org/10.1037/met0000822",
+          "filter": 0,
+          "created": "2026-3-2"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Psychology of Popular Media",
+      "journal_short": "PPM",
+      "articles": [
+        {
+          "title": "For women only? A gendered view on media-based guilty pleasures.",
+          "authors": "Lara N. Wolfers, Jingwei Liu, Yuyao Lu, A. Marthe Möller, Cherrie Joy F. Billedo, Hande Sungur, Sindy R. Sumter",
+          "url": "https://doi.org/10.1037/ppm0000657",
+          "doi": "https://doi.org/10.1037/ppm0000657",
+          "filter": 0,
+          "created": "2026-3-2"
+        },
+        {
+          "title": "The association between social support and internet addiction: A three-level meta-analysis of 184 studies.",
+          "authors": "Xiaoxue Zhang, Wenze Luo, Chenshuang Yang, Murong Li, Yi Cao",
+          "url": "https://doi.org/10.1037/ppm0000655",
+          "doi": "https://doi.org/10.1037/ppm0000655",
+          "filter": 0,
+          "created": "2026-3-2"
         }
       ],
       "articles_hidden": []
