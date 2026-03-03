@@ -1,28 +1,10 @@
 {
-  "update": "2026-03-02",
+  "update": "2026-03-03",
   "content": [
     {
       "journal_full": "Journal of Survey Statistics and Methodology",
       "journal_short": "JSSAM",
       "articles": [
-        {
-          "title": "Weighting Adjustment and Multiple Imputation for Addressing Nonresponse in A Multi-Day Diary Survey",
-          "authors": "Deji Suolang, Jiazhi Yang, Lauren Miller, Joseph B Rodhouse, Elina T Page, Yajuan Si, Brady T West",
-          "abstract": "In multi-day diary surveys, participants decide daily whether to continue. The day-level nonresponse can introduce nonresponse errors, and underreporting tends to increase over the data collection period. To address these problems, we propose an adjustment by either the construction of person-day level survey weights or multiple imputation (MI). This study used data from the US National Household Food Acquisition and Purchase Survey (FoodAPS) and focused on four key outcomes in this survey: the occurrence and expenditure of daily food-at-home (FAH) and food-away-from-home (FAFH) events reported by individuals. We employed logistic regression models and conditional inference trees to predict daily response propensities and used the inverse of predicted response propensity as an adjustment factor for the existing FoodAPS household weights. As an alternative, we conducted MI for the key outcome variables using chained equations and fit zero-inflated imputation models for counts and semi-continuous variables to allow bounds and subset restrictions. The results show that raw estimates for the key variables are consistently smaller than those produced by any weighting or imputation techniques, indicating that some form of adjustment is necessary. Person-day level weights and MI show varying impacts across outcome variables, with MI offering a modest efficiency gain. We also performed a sensitivity analysis that employs an alternative definition of missingness, which yielded different MI estimates. This study offers valuable insights into addressing nonresponse errors in multi-day diary surveys and contributes to methodological approaches for conducting innovative weighting and imputation with complex data structures.",
-          "url": "https://doi.org/10.1093/jssam/smaf046",
-          "doi": "https://doi.org/10.1093/jssam/smaf046",
-          "filter": 0,
-          "created": "2025-11-13"
-        },
-        {
-          "title": "A Bayesian Approach to Multiple-Output Quantile Regression Analysis under Informative Sampling",
-          "authors": "Marcus L Nascimento, Kelly C M GonÇalves",
-          "abstract": "This article presents a Bayesian multiple-output quantile regression for complex survey data under informative sampling. Our approach relies on the asymmetric Laplace distributional assumption. From the location-scale mixture representation of this distribution, we introduce an Expectation–Maximization algorithm that provides a less computationally intensive alternative to the commonly used Markov Chain Monte Carlo algorithm for posterior inference. Our developments are mainly motivated by the joint analysis of growth indexes for Brazilian children under five.",
-          "url": "https://doi.org/10.1093/jssam/smaf040",
-          "doi": "https://doi.org/10.1093/jssam/smaf040",
-          "filter": 0,
-          "created": "2025-10-18"
-        },
         {
           "title": "Smoothed pseudo-population bootstrap methods with applications to finite population quantiles",
           "authors": "Vanessa McNealis, Christian Léger",
@@ -56,15 +38,6 @@
           "doi": "https://doi.org/10.1093/poq/nfaf067",
           "filter": 0,
           "created": "2025-12-10"
-        },
-        {
-          "title": "Measuring Party Identification in Public Opinion Surveys of Americans",
-          "authors": "Joshua J Dyck, Jack Santucci",
-          "abstract": "How should we measure “pure” or “true” independents? For years, the respective item required a respondent to volunteer that answer. Recent surveys have moved toward presenting it explicitly. Those that do produce estimates of pure independents that are much larger than in past surveys. We present evidence of this phenomenon across multiple surveys and ask: Are self-administered surveys overcounting independents, or are traditional live-interviewer surveys undercounting independents? We answer that question by comparing live-interview and self-administered samples from the 2012 and 2016 American National Election Studies, by undertaking tests to rule out mode effects (including an experiment), and by seeing which question wording correlates more strongly with measures of latent ideology, vote choice, and ratings of the parties. Our findings suggest that surveys that include an explicit response option, allowing Americans to self-identify easily as “(pure) independent,” offer a more precise measurement of the concept of party identification. This has implications for the study of independents, as well as for discussions about polarization and party-system dealignment.",
-          "url": "https://doi.org/10.1093/poq/nfaf065",
-          "doi": "https://doi.org/10.1093/poq/nfaf065",
-          "filter": 0,
-          "created": "2025-11-25"
         }
       ],
       "articles_hidden": []
