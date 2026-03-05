@@ -1,19 +1,10 @@
 {
-  "update": "2026-03-04",
+  "update": "2026-03-05",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
       "journal_short": "AMPPS",
       "articles": [
-        {
-          "title": "Beyond Statistical Myopia: Replying to a Misguided Critique of Mind–Body Research",
-          "authors": "Peter J. Aungle, Daniel L. Chen, Nicholas P. Holmes",
-          "abstract": "In response to Gelman and Brown’s recent critique of Aungle and Langer, we argue that their article illustrates how narrow statistical reasoning and selective literature review can misrepresent and undermine credible scientific findings. Using their discussion of perceived time and physical healing as a case study, we identify three general problems: (a) a failure to accurately characterize the methods and results of the study they critiqued, (b) misinterpretations and omissions in their review of the relevant literature, and (c) a tendency to generalize from isolated statistical issues to sweeping claims about the invalidity of mind–body research. We adopt Gelman and Brown’s recommended model and find that the main effect remains robust. We also document errors in their interpretations of other cited studies and demonstrate that they ignore decades of rigorous, well-replicated research on placebo effects and health mindsets. By examining their critique in detail, we highlight how methodological skepticism, when untethered from accurate reading and balanced appraisal, can mislead rather than clarify.",
-          "url": "https://doi.org/10.1177/25152459261417257",
-          "doi": "https://doi.org/10.1177/25152459261417257",
-          "filter": 0,
-          "created": "2026-2-25"
-        },
         {
           "title": "Large Language Models as Psychological Simulators: A Methodological Guide",
           "authors": "Zhicheng Lin",
@@ -31,6 +22,15 @@
       "journal_short": "BRM",
       "articles": [
         {
+          "title": "SynesthesiaColorPicker: An open-source color picker for online synesthesia research",
+          "authors": "Nicholas Root",
+          "abstract": "Synesthesia is a neurological phenomenon in which healthy individuals experience additional, automatic, and consistent perceptions unrelated to veridical sensory input. For most (but not all) synesthetes, this additional experience is a color : for example, grapheme–color synesthetes experience colors for letters of the alphabet. Measuring these color associations is of central importance to synesthesia research, but there is no standard color picker “tool” that researchers can adapt to use in their own experiments: each researcher must code their own. This is a barrier to entry for synesthesia research, and additionally creates potential methodological confounds because different researchers make color pickers with different properties. SynesthesiaColorPicker is an open-source, mobile-friendly color picker tool that can be integrated with two popular online experiment platforms (Qualtrics and lab.js/Open Lab) without any prior programming knowledge. The templates, underlying JavaScript code, and detailed instructions are available for download on a GitHub repository. Furthermore, a comparison between data collected with SynesthesiaColorPicker and with the Synesthesia Battery shows that two methodological design choices in SynesthesiaColorPicker overcome measurable confounds in existing color picker methodology.",
+          "url": "https://doi.org/10.3758/s13428-025-02882-1",
+          "doi": "https://doi.org/10.3758/s13428-025-02882-1",
+          "filter": 0,
+          "created": "2026-3-4"
+        },
+        {
           "title": "A multi-strategy cognitive diagnosis model based on response times and fixation counts",
           "authors": "Junhuan Wei, Chun Wang, Yan Cai, Peida Zhan, Dongbo Tu",
           "url": "https://doi.org/10.3758/s13428-025-02929-3",
@@ -46,6 +46,14 @@
           "doi": "https://doi.org/10.3758/s13428-026-02950-0",
           "filter": 0,
           "created": "2026-3-2"
+        },
+        {
+          "title": "An iterative strategy for referent variable selection in MIMIC-interaction modeling",
+          "authors": "Cheng-Hsien Li, Anne Traynor",
+          "url": "https://doi.org/10.3758/s13428-026-02957-7",
+          "doi": "https://doi.org/10.3758/s13428-026-02957-7",
+          "filter": 0,
+          "created": "2026-3-4"
         },
         {
           "title": "Multiple imputation of multilevel data with single-level models: A fully conditional specification approach using adjusted group means",
@@ -70,6 +78,14 @@
           "doi": "https://doi.org/10.1016/j.chb.2026.108953",
           "filter": 0,
           "created": "2026-2-26"
+        },
+        {
+          "title": "Can AI Reflect Public Opinion? Evidence from Replicating Hainmueller and Hopkins’ Immigration Experiment with LLMs",
+          "authors": "Yajing Chen, Ming Lei, Zhanyu Liu, Man Tang, Jie She",
+          "url": "https://doi.org/10.1016/j.chb.2026.108967",
+          "doi": "https://doi.org/10.1016/j.chb.2026.108967",
+          "filter": 0,
+          "created": "2026-3-4"
         },
         {
           "title": "The impact of message framing on end-user security:An experimental approach to prevent identity theft via smishing",
@@ -110,14 +126,6 @@
           "doi": "https://doi.org/10.1016/j.chb.2025.108760",
           "filter": 0,
           "created": "2025-11-3"
-        },
-        {
-          "title": "Can AI Reflect Public Opinion? Evidence from Replicating Hainmueller and Hopkins’ Immigration Experiment with LLMs",
-          "authors": "Yajing Chen, Ming Lei, Zhanyu Liu, Man Tang, Jie She",
-          "url": "https://doi.org/10.1016/j.chb.2026.108967",
-          "doi": "https://doi.org/10.1016/j.chb.2026.108967",
-          "filter": 0,
-          "created": "2026-3-4"
         },
         {
           "title": "Talking past each other in the cultural war area: Testing the efficacy of the moral attitude dynamic model to achieve accurate disagreement",
