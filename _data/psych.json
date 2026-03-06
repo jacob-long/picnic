@@ -1,22 +1,6 @@
 {
-  "update": "2026-03-05",
+  "update": "2026-03-06",
   "content": [
-    {
-      "journal_full": "Advances in Methods and Practices in Psychological Science",
-      "journal_short": "AMPPS",
-      "articles": [
-        {
-          "title": "Large Language Models as Psychological Simulators: A Methodological Guide",
-          "authors": "Zhicheng Lin",
-          "abstract": "Large language models (LLMs) offer emerging opportunities for psychological and behavioral research, but methodological guidance is lacking. In this article, I develop a framework for using LLMs as psychological simulators across two primary applications: simulating roles and personas to explore diverse contexts, and serving as computational models to investigate cognitive processes. For simulation, the framework includes (a) an implementation-confound checklist distinguishing essential from context-dependent methodological checks, (b) methods for developing psychologically grounded personas that move beyond demographic categories, and (c) a three-tier validation framework (direct, indirect, and generative) tailored to data availability. A diagnostic decision framework guides researchers through establishing performance validity, identifying implementation artifacts, and interpreting LLM-human discrepancies. For cognitive modeling, I synthesize (a) emerging approaches for probing internal representations, (b) methodological advances in causal interventions, and (c) strategies for relating model behavior to human cognition. The framework addresses overarching challenges, including prompt sensitivity, temporal limitations from training-data cutoffs, and ethical considerations that extend beyond traditional human-subjects review. Open-weight models are the default for reproducibility. Together, this framework integrates emerging empirical evidence about LLM performance—including systematic biases, cultural limitations, and prompt brittleness—to help researchers wrangle these challenges and leverage the unique capabilities of LLMs in psychological research.",
-          "url": "https://doi.org/10.1177/25152459251410153",
-          "doi": "https://doi.org/10.1177/25152459251410153",
-          "filter": 0,
-          "created": "2026-2-26"
-        }
-      ],
-      "articles_hidden": []
-    },
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
@@ -63,6 +47,15 @@
           "doi": "https://doi.org/10.3758/s13428-025-02915-9",
           "filter": 0,
           "created": "2026-3-2"
+        },
+        {
+          "title": "Unwrapping the mirror tracing task",
+          "authors": "Pablo F. Garrido, Anne Cecilie Sjøli Bråthen, Emilie Sogn Falch, Jonas Kransberg, Anders M. Fjell, Øystein Sørensen, Kristine B. Walhovd",
+          "abstract": "The Mirror Tracing Task (MTT) is a method used to study visuomotor skills learning. It is traditionally evaluated by counting the number of times a person draws outside of the borders of a figure, typically a star, while looking at its mirror reflection. While insightful for overall performance, this metric lacks a precise analysis of the tracing, such as details on errors in specific regions. We propose a new MTT analysis method that studies the drawing as a function of the angle around the figure’s center. Two new variables are introduced: residuals, which measure deviation from the ideal drawing, and density, which measures how often a specific path is retraced. These variables are defined per angle or region, allowing a more detailed analysis, highlighting the most challenging parts of the drawing for each person, and enabling comparison across trials or finding common patterns between individuals. We applied this approach to the first MTT trial of 210 participants using age as a variable of interest. Residuals and density were summarized as a single value and compared with the traditional approach, providing similar results. When analyzed as a function of the angle, these variables enabled the identification of specific regions of the star where the errors are age-sensitive. Additionally, a time series-like approach enabled us to cluster drawings and quantify their similarity. The code used for this new method has been made openly accessible to make it easier for its applications in new research or the reanalysis of previous projects.",
+          "url": "https://doi.org/10.3758/s13428-025-02845-6",
+          "doi": "https://doi.org/10.3758/s13428-025-02845-6",
+          "filter": 0,
+          "created": "2026-3-5"
         }
       ],
       "articles_hidden": []
@@ -71,14 +64,6 @@
       "journal_full": "Computers in Human Behavior",
       "journal_short": "CHB",
       "articles": [
-        {
-          "title": "Engaging with cybercriminals: phases and influence strategies in ransomware negotiations.",
-          "authors": "Michail Georgiou, Ellen Giebels, Miriam S.D. Oostinga, Remco Spithoven",
-          "url": "https://doi.org/10.1016/j.chb.2026.108953",
-          "doi": "https://doi.org/10.1016/j.chb.2026.108953",
-          "filter": 0,
-          "created": "2026-2-26"
-        },
         {
           "title": "Can AI Reflect Public Opinion? Evidence from Replicating Hainmueller and Hopkins’ Immigration Experiment with LLMs",
           "authors": "Yajing Chen, Ming Lei, Zhanyu Liu, Man Tang, Jie She",
@@ -237,14 +222,6 @@
           "doi": "https://doi.org/10.1016/j.jesp.2026.104894",
           "filter": 0,
           "created": "2026-3-2"
-        },
-        {
-          "title": "Principles of nostalgia: Meta-analytic tests",
-          "authors": "Evan Weingarten, Ziwei Wei, Tim Wildschut, Constantine Sedikides",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104891",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104891",
-          "filter": 0,
-          "created": "2026-2-26"
         },
         {
           "title": "Folk devils? Perceived lack of traditional values explains youth-related stereotypes of sexual minorities and Black men",
@@ -406,28 +383,20 @@
       "journal_short": "JPSP",
       "articles": [
         {
+          "title": "Face the difference: Metacontrast as an affordance to spontaneous social categorization.",
+          "authors": "Verena Heidrich, Felicitas Flade, Roland Imhoff",
+          "url": "https://doi.org/10.1037/pspa0000478",
+          "doi": "https://doi.org/10.1037/pspa0000478",
+          "filter": 0,
+          "created": "2026-3-5"
+        },
+        {
           "title": "End of world beliefs are common, diverse, and predict how people perceive and respond to global risks.",
           "authors": "Matthew I. Billet, Cindel J. M. White, Azim Shariff, Ara Norenzayan",
           "url": "https://doi.org/10.1037/pspi0000519",
           "doi": "https://doi.org/10.1037/pspi0000519",
           "filter": 0,
           "created": "2026-3-2"
-        },
-        {
-          "title": "Confront in public, validate in private: Effective male allyship responses to sexist remarks.",
-          "authors": "Hsuan-Che (Brad) Huang, Jonathan B. Evans",
-          "url": "https://doi.org/10.1037/pspi0000515",
-          "doi": "https://doi.org/10.1037/pspi0000515",
-          "filter": 0,
-          "created": "2026-2-26"
-        },
-        {
-          "title": "Transcending embarrassment: On the reputational benefits of laughing at yourself.",
-          "authors": "Selin Goksel, Ovul Sezer, Jonathan Z. Berman",
-          "url": "https://doi.org/10.1037/pspa0000477",
-          "doi": "https://doi.org/10.1037/pspa0000477",
-          "filter": 0,
-          "created": "2026-2-26"
         },
         {
           "title": "Fleeting generalization: How unstable belief updating keeps people overly pessimistic about talking to strangers.",
@@ -521,6 +490,29 @@
       "articles_hidden": []
     },
     {
+      "journal_full": "Multivariate Behavioral Research",
+      "journal_short": "MBR",
+      "articles": [
+        {
+          "title": "Treatment Effect Moderation with Small Subgroups: An Incremental Subgroup Analysis Approach",
+          "authors": "Xiao Liu, J. Mark Eddy, Charles R. Martinez",
+          "url": "https://doi.org/10.1080/00273171.2026.2634993",
+          "doi": "https://doi.org/10.1080/00273171.2026.2634993",
+          "filter": 0,
+          "created": "2026-3-5"
+        },
+        {
+          "title": "semfindr: An R Package for Identifying Influential Cases in Structural Equation Modeling",
+          "authors": "Shu Fai Cheung, Mark H. C. Lai",
+          "url": "https://doi.org/10.1080/00273171.2026.2634293",
+          "doi": "https://doi.org/10.1080/00273171.2026.2634293",
+          "filter": 0,
+          "created": "2026-3-5"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Organizational Research Methods",
       "journal_short": "ORM",
       "articles": [
@@ -553,6 +545,21 @@
       "articles_hidden": []
     },
     {
+      "journal_full": "Psychological Bulletin",
+      "journal_short": "PsychBull",
+      "articles": [
+        {
+          "title": "Effort-based decision making in psychopathology: A transdiagnostic multilevel meta-analysis and systematic review of behavioral patterns and mechanisms underlying amotivational psychopathology.",
+          "authors": "Matthias Pillny, Katharina E. Renz, Alina Hay, Daniel Fulford, Tania M. Lincoln, Deanna M. Barch, James M. Gold, Stefan Kaiser",
+          "url": "https://doi.org/10.1037/bul0000510",
+          "doi": "https://doi.org/10.1037/bul0000510",
+          "filter": 0,
+          "created": "2026-3-5"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Psychological Methods",
       "journal_short": "PM",
       "articles": [
@@ -578,6 +585,22 @@
           "doi": "https://doi.org/10.1037/ppm0000657",
           "filter": 0,
           "created": "2026-3-2"
+        },
+        {
+          "title": "Mental health disorders on Netflix: Analyzing stereotypes across 13 countries using the stereotype content model and machine learning.",
+          "authors": "Katharina Angermayr, Sebastian Scherr",
+          "url": "https://doi.org/10.1037/ppm0000660",
+          "doi": "https://doi.org/10.1037/ppm0000660",
+          "filter": 0,
+          "created": "2026-3-5"
+        },
+        {
+          "title": "Investigating the direct and indirect longitudinal relationships between social media use and life satisfaction via cosmopolitanism: A 6-year cohort study of adults.",
+          "authors": "Yu Takizawa",
+          "url": "https://doi.org/10.1037/ppm0000659",
+          "doi": "https://doi.org/10.1037/ppm0000659",
+          "filter": 0,
+          "created": "2026-3-5"
         },
         {
           "title": "The association between social support and internet addiction: A three-level meta-analysis of 184 studies.",
