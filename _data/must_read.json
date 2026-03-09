@@ -1,14 +1,75 @@
 [
   {
     "discipline": "communication",
-    "title": "An Explication and Classroom Field Study of the Virtual Human Interaction Lab’s Expert (VHIL-E) LLM",
-    "authors": "Jeremy N. Bailenson, Jonathan You, David Markowitz, Gustav Petersen, Rabindra Ratan, Monique Santoso, Portia Wang",
-    "url": "https://doi.org/10.1177/21522715261423752",
-    "doi": "https://doi.org/10.1177/21522715261423752",
+    "title": "The field of communication is becoming less disruptive: analyses of citation data over four decades",
+    "authors": "Luling Huang, Kun Xu",
+    "abstract": "Innovation is fundamental to knowledge advancement in all realms of scholarship. The current study focuses on 2 forms of innovation in communication, as manifested via citation practices: consolidation and disruption. This study examines whether the field of communication has become consolidative or disruptive over time and projects the near-future trajectory of consolidation and disruption. Based on 92 communication journals and their citation data spanning from 1976 to 2022, our citation analyses of 52,294 focal publications suggested that communication research is overall disruptive. However, the level of disruption has been declining over time. Our linguistic analyses of article titles and abstracts further confirm the decreasing disruption in the field. Overall, this study suggests a deceleration in innovation within the field of communication, which serves as a sign that communication has been solidifying its status as an increasingly independent field, grounded in a growing body of shared intellectual legacy. We further interpreted the change in innovation from the perspectives of theory building, knowledge burden, journal scopes, academic platforms, and recent advances in artificial intelligence and large language models.",
+    "url": "https://doi.org/10.1093/anncom/wlag008",
+    "doi": "https://doi.org/10.1093/anncom/wlag008",
     "filter": 0,
-    "created": "2026-3-2",
-    "journal_full": "Cyberpsychology, Behavior, and Social Networking",
-    "abstract": "VHIL-E is the Virtual Human Interaction Lab’s Expert, a large language model (LLM) representing the lab’s research, teaching, and outreach on virtual and augmented reality. We first motivate the project and then present best practices for implementing a retrieval-augmented generation (RAG), specifically the “Seven Cs”: collecting , cleaning , classifying , chunking , creating embeddings, correlating embeddings into an index, and connecting the index to an LLM. We collected academic publications, transcribed public talks, dedicated interviews and news articles about the lab’s research, and various curriculum materials from Virtual People, the lecture course taught about the lab’s research for over two decades, resulting in over 2.3 million words broken into ∼10,000 chunks. In study 1, we compared performance on a multiple-choice test of 231 questions between various implementations of the RAG system and traditional Base GPT models. Models generally performed well, between 83 and 90 percent, similar to student performance on course examinations. In study 2, an open-ended task implemented over 10 weeks in the Fall 2025 Virtual People course, students ( N = 89) used VHIL-E to query and understand the course materials and logged hallucinations, which were “egregiously wrong answers.” Students then chose the single worst wrong answer over 8 weeks. They then compared the Base/RAG Hybrid—which prioritized the RAG but allowed ChatGPT to consult its general intelligence—to the RAG Constrained, which limited substantive information to the embedded index. Allowing VHIL-E access to GPT produced more than twice as many hallucinations as constraining it to the index. We discuss implications for scholars who build and use RAG-based LLM applications."
+    "created": "2026-2-11",
+    "journal_full": "Annals of the International Communication Association"
+  },
+  {
+    "discipline": "communication",
+    "title": "Why and when do media trust and political trust go hand in hand? A review of four explanations for the media–politics trust nexus",
+    "authors": "Nayla Fawzi, Nina Steindl",
+    "abstract": "There is robust evidence that media trust and political trust are weakly to moderately correlated with each other—but why is this so and under which conditions? By integrating current research on media trust and political trust, this paper reviews four explanations for the media–politics trust nexus. The first explanation sees media trust as a foundation for building political trust. The second explanation focuses on negative media coverage of politics that decreases political trust, which spills over to media trust. The third explanation relates to the similar origins of institutional trust, and the fourth explanation argues that media trust and political trust are mutually dependent. The paper then discusses the strength of the trust nexus and the different implications that result from low to high trust in both institutions.",
+    "url": "https://doi.org/10.1093/anncom/wlag009",
+    "doi": "https://doi.org/10.1093/anncom/wlag009",
+    "filter": 0,
+    "created": "2026-2-19",
+    "journal_full": "Annals of the International Communication Association"
+  },
+  {
+    "discipline": "communication",
+    "title": "Felt Time Scale (FTS): Measuring how people experience screen time",
+    "authors": "Jana Dombrowski, Sabine Trepte",
+    "url": "https://doi.org/10.1080/19312458.2026.2627548",
+    "doi": "https://doi.org/10.1080/19312458.2026.2627548",
+    "filter": 0,
+    "created": "2026-3-7",
+    "journal_full": "Communication Methods and Measures"
+  },
+  {
+    "discipline": "communication",
+    "title": "Algorithmic News Content Personalization and Readers’ Attitudes",
+    "authors": "Yixue Wang, Aaron Shaw, Stephanie Edgerly, Darren Gergle, Nicholas Diakopoulos",
+    "url": "https://doi.org/10.1080/21670811.2026.2633623",
+    "doi": "https://doi.org/10.1080/21670811.2026.2633623",
+    "filter": 0,
+    "created": "2026-3-5",
+    "journal_full": "Digital Journalism"
+  },
+  {
+    "discipline": "communication",
+    "title": "Unmasking the Mechanism: How News Media Consumption Drives Conspiracy Beliefs",
+    "authors": "Laura Jacobs, Peter Van Aelst",
+    "url": "https://doi.org/10.1080/21670811.2026.2633613",
+    "doi": "https://doi.org/10.1080/21670811.2026.2633613",
+    "filter": 0,
+    "created": "2026-3-6",
+    "journal_full": "Digital Journalism"
+  },
+  {
+    "discipline": "communication",
+    "title": "Public Affairs Outlet Viewership, Partisanship, and Racial Resentment: An Analysis of Panel Data",
+    "authors": "Patrick C. Meirick",
+    "url": "https://doi.org/10.1080/10646175.2026.2635061",
+    "doi": "https://doi.org/10.1080/10646175.2026.2635061",
+    "filter": 0,
+    "created": "2026-3-5",
+    "journal_full": "Howard Journal of Communications"
+  },
+  {
+    "discipline": "communication",
+    "title": "Developing and testing an AI-based risk information-seeking model (ARISM): A structural equation modeling approach",
+    "authors": "Soo Jung Hong",
+    "url": "https://doi.org/10.1080/1369118x.2026.2634845",
+    "doi": "https://doi.org/10.1080/1369118x.2026.2634845",
+    "filter": 0,
+    "created": "2026-3-5",
+    "journal_full": "Information, Communication & Society"
   },
   {
     "discipline": "communication",
@@ -22,90 +83,64 @@
   },
   {
     "discipline": "communication",
-    "title": "Relationship Between Emotional Reactions and Information Sharing: A Meta-Analysis",
-    "authors": "Yunze Zhao, Hongyu Fu, Jinghong Xu",
-    "url": "https://doi.org/10.1080/08838151.2026.2635387",
-    "doi": "https://doi.org/10.1080/08838151.2026.2635387",
+    "title": "AI as a creator or a helper: how disclosure and source credibility shape public perception of political advertising messaging",
+    "authors": "Shahariar Khan Nobel, Rachel Esther Lim, Sujin Kim",
+    "url": "https://doi.org/10.1080/02650487.2026.2634490",
+    "doi": "https://doi.org/10.1080/02650487.2026.2634490",
+    "filter": 0,
+    "created": "2026-3-6",
+    "journal_full": "International Journal of Advertising"
+  },
+  {
+    "discipline": "communication",
+    "title": "Familiarity, Similarity, Representativeness, and Naturalness: Cues Used to Assess Customized AI News Presenters",
+    "authors": "Elia Powers",
+    "url": "https://doi.org/10.1080/08838151.2026.2636680",
+    "doi": "https://doi.org/10.1080/08838151.2026.2636680",
+    "filter": 0,
+    "created": "2026-3-5",
+    "journal_full": "Journal of Broadcasting & Electronic Media"
+  },
+  {
+    "discipline": "communication",
+    "title": "“Is This Fake News?” Examining the Antecedents of Generative AI Chatbot Use for Fact-Checking of News Online",
+    "authors": "Michael Chan",
+    "url": "https://doi.org/10.1080/08838151.2026.2637785",
+    "doi": "https://doi.org/10.1080/08838151.2026.2637785",
     "filter": 0,
     "created": "2026-3-6",
     "journal_full": "Journal of Broadcasting & Electronic Media"
   },
   {
     "discipline": "communication",
-    "title": "Seeking Support Online",
-    "authors": "Emily M. Buehler, Andrew C. High",
-    "url": "https://doi.org/10.1027/1864-1105/a000453",
-    "doi": "https://doi.org/10.1027/1864-1105/a000453",
-    "filter": 0,
-    "created": "2024-12-3",
-    "journal_full": "Journal of Media Psychology",
-    "abstract": "Abstract: The affordances of online channels can influence communication, and communicators sometimes value affordances differently in different relationships. This study examines how two affordances, anonymity and visibility, combine with relationship closeness to shape how people seek support online. Participants ( N = 171) composed a support-seeking message they imagined sending to various audiences in one of several online channels. Participants and outside observers rated the breadth, depth, and emotional content of the messages. The results suggest relationship closeness was negatively associated with perceived anonymity and perceived visibility. Greater anonymity corresponded with higher observed depth in support-seeking messages and greater visibility corresponded with higher self-reported emotional content. Furthermore, each affordance was positively associated with the observed emotional content of messages at low levels of closeness, and anonymity shared a negative association with the self-reported depth of messages only when visibility was low and closeness was high. Findings suggest that the content of support-seeking messages hinges, in part, on affordances and relationship characteristics."
-  },
-  {
-    "discipline": "communication",
-    "title": "Exposure to Sexually Explicit Internet Material in Adolescence and Unwanted Sexual Behavior in Emerging Adulthood",
-    "authors": "Helene Laporte, Laurens Vangeel, Kexin Wang, Steven Eggermont, Laura Vandenbosch",
-    "url": "https://doi.org/10.1027/1864-1105/a000449",
-    "doi": "https://doi.org/10.1027/1864-1105/a000449",
-    "filter": 0,
-    "created": "2024-9-23",
-    "journal_full": "Journal of Media Psychology",
-    "abstract": "Abstract: This longitudinal study examines long-term associations between the use of sexually explicit internet material (SEIM) during adolescence and engagement in unwanted sexual behaviors in emerging adulthood. Drawing on a four-wave panel study among 377 participants (aged 18–24, 44.3% male), using logistic regression analysis, we found that SEIM use during adolescence predicted a higher odds of having sexually touched a stranger and of having insisted on sex with someone who had refused by emerging adulthood, 5 years later. That said, the proportion of participants committing these unwanted sexual behaviors is relatively small. Respectively 10.3%, 8.5%, and 1.1% of emerging adults had sexually touched a stranger, insisted on sex with a partner who had refused, or had used force to try to have sex."
-  },
-  {
-    "discipline": "communication",
-    "title": "Supernatural Enemies Affect Outgroup Attitudes Through Strength of Human Identity?",
-    "authors": "Shay Xuejing Yao, Morgan E. Ellithorpe, David Ewoldsen, Lanier Holt",
-    "url": "https://doi.org/10.1027/1864-1105/a000456",
-    "doi": "https://doi.org/10.1027/1864-1105/a000456",
-    "filter": 0,
-    "created": "2025-1-13",
-    "journal_full": "Journal of Media Psychology",
-    "abstract": "Abstract: Previous research investigated how a shared human identity may promote interracial inclusion in the context of mass media ( Ellithorpe et al., 2018 ). The original study found promising results of reduced intergroup prejudice through watching the supernatural genre. However, the original results had mixed support to theory, that is, the Common Ingroup Identity Model (CIIM). To test whether the expected and unexpected results of Ellithorpe et al. (2018) would exhibit again with a different sample, we replicated and extended this research. The overall pattern of our findings is consistent with the original study, in that we again found a cross-over interaction between human identity cues (human villains vs. nonhuman villains) and diversity cues (all-White heroes vs. racially diverse heroes) on the strength of human identity. Participants reported stronger human identity when watching racially diverse heroes fighting against nonhuman villains compared to human villains. Participants also reported stronger human identity when watching White heroes fighting against human villains compared to non-human villains. However, we are hesitant to claim that Ellithorpe et al.’s results were fully replicated in our research as most simple main effects of group comparisons were statistically nonsignificant. Overall, our findings offered limited support to Ellithorpe et al.’s original study and minimal support to CIIM. Our experiment also extended the original research. We found that the impact of watching supernatural genre on ingroup relationship may be more likely to work through reduced negative attitudes rather than increased positive attitudes."
-  },
-  {
-    "discipline": "communication",
-    "title": "“Vote for Me, I Am Authentic”: Performed Political Authenticity on Social Media",
-    "authors": "Simon M. Luebke, Ines Engelmann",
-    "url": "https://doi.org/10.17645/mac.11585",
-    "doi": "https://doi.org/10.17645/mac.11585",
+    "title": "Threat Level Midnight: Examining the Relationship Between Threatening Language and Engagement with Non-Partisan, Partisan, and Hyper-Partisan Media on Facebook",
+    "authors": "Eliana DuBosar, Jieun Shin",
+    "url": "https://doi.org/10.1080/15205436.2026.2637143",
+    "doi": "https://doi.org/10.1080/15205436.2026.2637143",
     "filter": 0,
     "created": "2026-3-5",
-    "journal_full": "Media and Communication",
-    "abstract": "Authenticity has become a key concept in political communication, particularly during election campaigns, which offer opportunities for politicians to strategically convey an authentic image. Studies show that voters increasingly value politicians who appear authentic, a factor influencing their voting behavior. In particular, social media provides an ideal environment for politicians to perform authenticity during campaigns by allowing them to bypass traditional gatekeepers and present themselves in an unfiltered and intimate way. Previous studies have begun to analyze how politicians perform authenticity on social media. However, few have examined and compared how often and in what ways different politicians present themselves as authentic on social media during election campaigns. Drawing on scholarship on political authenticity and gendered self-presentation, this study examines how politicians construct authenticity through textual and visual elements across social media platforms. We conducted a manual quantitative content analysis of social media posts (&lt;em&gt;N&lt;/em&gt; = 855) on Facebook, Instagram, and Twitter by the three German lead candidates running for chancellor during the 2021 federal election. Our findings show that authenticity and its facets were an integral part of all candidates’ social media presence and their election campaign communication. Furthermore, we found differences in how the one female and the two male politicians in our sample perform authenticity."
+    "journal_full": "Mass Communication and Society"
   },
   {
     "discipline": "communication",
-    "title": "Seeking With Sentiment: Emotional Attachment and the Use of Generative AI as an Information Intermediary",
-    "authors": "Bingbing Zhang, Nihar Sreepada",
-    "url": "https://doi.org/10.17645/mac.11345",
-    "doi": "https://doi.org/10.17645/mac.11345",
+    "title": "Does Variety Matter? Young Adults’ News Platform Repertoires and Their Citizen Competence",
+    "authors": "Zhieh Lor, Jihyang Choi",
+    "url": "https://doi.org/10.1080/15205436.2026.2631183",
+    "doi": "https://doi.org/10.1080/15205436.2026.2631183",
     "filter": 0,
     "created": "2026-3-5",
-    "journal_full": "Media and Communication",
-    "abstract": "Generative artificial intelligence (GenAI) is rapidly emerging as a powerful intermediary for information access, reshaping how individuals seek and evaluate knowledge. While prior research has examined how people use conversational GenAI to find specific types of information and how dialogue-based search compares with traditional, non-dialogue search engines such as Google, less is known about the psychological and perceptual antecedents of this behavior. Much of the existing literature emphasizes rational factors, such as perceived information-gathering capabilities, yet affective dimensions like emotional attachment have received limited attention. Recent studies suggest that users who form emotional attachment to ChatGPT tend to rely on it for information and emotional support. Using a national US sample (&lt;em&gt;N&lt;/em&gt; = 900) collected by Verasight, this study examines how emotional attachment to GenAI, trust in AI, AI literacy, and risk perception influence individuals’ GenAI usage to seek various types of information. Results show that emotional attachment to GenAI is significantly associated with higher trust in GenAI, which in turn is associated with using it as an information intermediary across various domains. Additionally, the association between emotional attachment and trust in GenAI is more pronounced among individuals with low levels of AI literacy and those who perceive high risk from using GenAI for information access. In addition, AI literacy moderated the relationship between emotional attachment and health-related and political information seeking through GenAI. Findings contribute to a deeper understanding of the emotional dynamics shaping human–AI interaction and offer practical insights for the design and governance of AI systems in public information environments."
+    "journal_full": "Mass Communication and Society"
   },
   {
     "discipline": "communication",
     "title": "Personalized Persuasion Through Conversational AI: Can DeepSeek Change Perceptions of Genetically Modified Foods in China?",
     "authors": "Qi Xi, Jing Zeng, Zhanghao Li, Mike S. Schäfer",
+    "abstract": "Conversational AI has become an influential intermediary in public communication. Emerging research on conversational AI highlights its potential to correct misconceptions and influence attitudes across domains. This study investigates the persuasive effects of personalized conversational AI, focusing on genetically modified foods in China. Employing a between-subjects factorial design, 813 participants engaged in dialogues with a DeepSeek-based chatbot. Participants were randomly assigned to one of four conditions, ranging from a non-personalized generic control to increasingly tailored approaches based on demographic information, risk perceptions, or a combination of both. Results indicate that while AI interactions significantly improve attitudes and willingness to consume genetically modified foods across all conditions, the additional persuasive effect of personalization was conditional. Only a personalization strategy combining demographics and risk perception yielded greater persuasive effects than the control, primarily among participants with positive risk perceptions. Furthermore, moderation analyses revealed a divergence in individual differences: Among participants with negative risk perceptions, while greater prior experience with AI and higher trust in science decreased the persuasive effects, higher AI knowledge facilitated greater attitude gains.",
     "url": "https://doi.org/10.17645/mac.11451",
     "doi": "https://doi.org/10.17645/mac.11451",
     "filter": 0,
     "created": "2026-3-5",
-    "journal_full": "Media and Communication",
-    "abstract": "Conversational AI has become an influential intermediary in public communication. Emerging research on conversational AI highlights its potential to correct misconceptions and influence attitudes across domains. This study investigates the persuasive effects of personalized conversational AI, focusing on genetically modified foods in China. Employing a between-subjects factorial design, 813 participants engaged in dialogues with a DeepSeek-based chatbot. Participants were randomly assigned to one of four conditions, ranging from a non-personalized generic control to increasingly tailored approaches based on demographic information, risk perceptions, or a combination of both. Results indicate that while AI interactions significantly improve attitudes and willingness to consume genetically modified foods across all conditions, the additional persuasive effect of personalization was conditional. Only a personalization strategy combining demographics and risk perception yielded greater persuasive effects than the control, primarily among participants with positive risk perceptions. Furthermore, moderation analyses revealed a divergence in individual differences: Among participants with negative risk perceptions, while greater prior experience with AI and higher trust in science decreased the persuasive effects, higher AI knowledge facilitated greater attitude gains."
-  },
-  {
-    "discipline": "communication",
-    "title": "“Just Asking Questions”: Doing Our Own Research on Conspiratorial Ideation by Generative AI Chatbots",
-    "authors": "Katherine M. FitzGerald, Michelle Riedlinger, Axel Bruns, Stephen Harrington, Timothy Graham, Daniel Angus",
-    "url": "https://doi.org/10.17645/mac.11337",
-    "doi": "https://doi.org/10.17645/mac.11337",
-    "filter": 0,
-    "created": "2026-3-5",
-    "journal_full": "Media and Communication",
-    "abstract": "Interactive chat systems that build on artificial intelligence (AI) frameworks are increasingly ubiquitous and embedded into search engines, Web browsers, and operating systems, or as standalone websites and apps. Researcher efforts have sought to understand the limitations and potential for harm of chatbots powered by generative AI, which we contribute to here. Conducting a systematic review of seven AI-powered chat systems (ChatGPT 3.5 Turbo; ChatGPT 4 Mini; Microsoft Copilot; Google Gemini Flash 1.5; Perplexity; and two versions of Grok), this study examines how these leading products respond to questions related to conspiracy theories. This work is inspired by the “platform policy implementation audit” approach established by Glazunova et al. (2023). We selected five well-known and comprehensively debunked conspiracy theories and four emerging conspiracy theories that relate to breaking news events at the time of data collection. Our findings demonstrate that the promotion of, or pushback against, conspiratorial ideas differ markedly, depending on the chatbot model and conspiracy theory. Our observations indicate that safety guardrails put in place by AI companies are often very selectively designed: appearing to focus especially on ensuring that their products are not seen to be racist; they also appear to pay particular attention to conspiracy theories that address topics of substantial national trauma such as 9/11 or relate to well-established political issues. Future work should include an ongoing effort extended to other chatbots, multiple languages, and a range of conspiracy theories extending well beyond the US."
+    "journal_full": "Media and Communication"
   },
   {
     "discipline": "communication",
@@ -118,70 +153,47 @@
     "journal_full": "Media Psychology"
   },
   {
+    "discipline": "communication",
+    "title": "Negativity and Misinformation",
+    "authors": "Stuart Soroka, Christopher Wlezien",
+    "url": "https://doi.org/10.1080/10584609.2026.2613647",
+    "doi": "https://doi.org/10.1080/10584609.2026.2613647",
+    "filter": 0,
+    "created": "2026-3-6",
+    "journal_full": "Political Communication"
+  },
+  {
+    "discipline": "politics",
+    "title": "Long‐run confidence: Estimating uncertainty when using long‐run multipliers",
+    "authors": "Mark David Nieman, David A. M. Peterson",
+    "abstract": "Researchers are often interested in the long‐run relationship (LRR) between variables where the dependent variable has dynamic properties. Though determining the long‐run multiplier (LRM) for an independent variable is straightforward, correctly estimating the significance of the LRM is often difficult, especially when time series are short and tests for series’ stationarity are uncertain. We propose a Bayesian framework for estimating the LRM by using a bounded prior on the lagged dependent variable to constrain estimates for dynamic processes to the plausible range of values arising from either stationary or integrated series, and then taking draws of the posterior distribution to summarize the credible region. Doing so provides direct estimates of the LRM and its uncertainty, even for short time series. We highlight the advantages of this approach via Monte Carlo experiments and replicate several studies to show that our method clarifies LRRs that were inconclusive using existing techniques.",
+    "url": "https://doi.org/10.1111/ajps.70053",
+    "doi": "https://doi.org/10.1111/ajps.70053",
+    "filter": 0,
+    "created": "2026-3-8",
+    "journal_full": "American Journal of Political Science"
+  },
+  {
     "discipline": "politics",
     "title": "Initiate and Elevate! How Political Parties Can Set an Agenda",
     "authors": "DANIEL SANDVEJ ERIKSEN",
+    "abstract": "The study of political agenda setting is a cornerstone in political science. Within this literature, political parties are implicitly portrayed as being capable of proactively initiating discussions. However, this fundamental notion of party agency deserves further theoretical and empirical attention. In response, this article crafts a new model (the Issue Initiation Model) that opens the window into parties’ efforts to set an agenda and traces how they initiate and elevate their agenda. The model is tested on an original dataset covering more than 5.5-million tweets by political parties and MPs, coupled with over 750,000 news articles and 419,000 parliamentary questions in the United Kingdom and Denmark from 2015 to 2022. Results show how parties and their MPs can proactively redirect the attention of other actors through strategic planning and orchestrated actions. By theorizing and empirically testing the implicit notion that parties can proactively initiate discussions, this article has important implications for political agenda setting.",
     "url": "https://doi.org/10.1017/s0003055426101506",
     "doi": "https://doi.org/10.1017/s0003055426101506",
     "filter": 0,
     "created": "2026-3-3",
-    "journal_full": "American Political Science Review",
-    "abstract": "The study of political agenda setting is a cornerstone in political science. Within this literature, political parties are implicitly portrayed as being capable of proactively initiating discussions. However, this fundamental notion of party agency deserves further theoretical and empirical attention. In response, this article crafts a new model (the Issue Initiation Model) that opens the window into parties’ efforts to set an agenda and traces how they initiate and elevate their agenda. The model is tested on an original dataset covering more than 5.5-million tweets by political parties and MPs, coupled with over 750,000 news articles and 419,000 parliamentary questions in the United Kingdom and Denmark from 2015 to 2022. Results show how parties and their MPs can proactively redirect the attention of other actors through strategic planning and orchestrated actions. By theorizing and empirically testing the implicit notion that parties can proactively initiate discussions, this article has important implications for political agenda setting."
+    "journal_full": "American Political Science Review"
   },
   {
     "discipline": "politics",
     "title": "Partisan Expressive Responding: Lessons from Two Decades of Research",
     "authors": "MATTHEW H. GRAHAM",
+    "abstract": "Research on partisan expressive responding suggests that the beliefs people express in surveys are more partisan than their underlying perceptions. This article examines the scope and importance of expressive responding through a meta-reanalysis of 44 studies from 25 articles. On average, treatments designed to reduce expressive responding shrink measured partisan bias by about 25%. Across the 242 survey questions in the data, treatments increase the correlation between the average Democrat’s and Republican’s beliefs from 0.81 to 0.86. Contrary to expectations derived from the two leading theories of expressive responding, misreporting (“cheerleading”) and congenial inference, there is no evidence that expressive responding increases in partisan identity strength or educational attainment. As research on expressive responding enters its third decade, greater emphasis on design-based tests of mechanisms may help build a firmer understanding of the nature and substantive importance of expressive responding—namely, whether the forces that produce expressive responding in surveys also shape real-world political judgments.",
     "url": "https://doi.org/10.1017/s0003055426101452",
     "doi": "https://doi.org/10.1017/s0003055426101452",
     "filter": 0,
     "created": "2026-3-3",
-    "journal_full": "American Political Science Review",
-    "abstract": "Research on partisan expressive responding suggests that the beliefs people express in surveys are more partisan than their underlying perceptions. This article examines the scope and importance of expressive responding through a meta-reanalysis of 44 studies from 25 articles. On average, treatments designed to reduce expressive responding shrink measured partisan bias by about 25%. Across the 242 survey questions in the data, treatments increase the correlation between the average Democrat’s and Republican’s beliefs from 0.81 to 0.86. Contrary to expectations derived from the two leading theories of expressive responding, misreporting (“cheerleading”) and congenial inference, there is no evidence that expressive responding increases in partisan identity strength or educational attainment. As research on expressive responding enters its third decade, greater emphasis on design-based tests of mechanisms may help build a firmer understanding of the nature and substantive importance of expressive responding—namely, whether the forces that produce expressive responding in surveys also shape real-world political judgments."
-  },
-  {
-    "discipline": "politics",
-    "title": "Keep positive and defend democracy: Framing democratic messages under authoritarianism",
-    "authors": "Aykut Öztürk, Steven E. Finkel, Anja Neundorf, Ericka Rascón Ramírez",
-    "url": "https://doi.org/10.1017/s1475676525100583",
-    "doi": "https://doi.org/10.1017/s1475676525100583",
-    "filter": 0,
-    "created": "2026-3-2",
-    "journal_full": "European Journal of Political Research",
-    "abstract": "Building popular support for democracy is especially necessary in countries ruled by authoritarian regimes. Can educational interventions promote democratic support in these countries and influence how citizens evaluate their country’s political regime? To answer these questions, we conducted two online experiments in Turkey comparing the effects of two pro-democratic educational interventions, a positive frame emphasizing gains from democratic institutions and a negative frame highlighting the losses under authoritarian regimes. Both treatment frames were successful at building democratic demand. However, only participants exposed to the pro-democracy messages with a positive frame took important additional cognitive steps, decreasing their evaluations of Turkey’s democratic supply and, therefore, becoming less likely to vote for the parties aligned with the autocratic regime. We offer a reference points theory to explain this divergence. Overall, our research makes significant contributions to the literature on democracy promotion and democratic support among ordinary citizens."
-  },
-  {
-    "discipline": "politics",
-    "title": "Vote advice applications increase young users’ ideological knowledge",
-    "authors": "Laura Jacobs, Joke Matthieu, Stefaan Walgrave",
-    "url": "https://doi.org/10.1017/s1475676526100905",
-    "doi": "https://doi.org/10.1017/s1475676526100905",
-    "filter": 0,
-    "created": "2026-3-6",
-    "journal_full": "European Journal of Political Research",
-    "abstract": "Voting Advice Applications (VAAs) help voters make informed choices by aligning their policy preferences with party positions. This study examines whether VAA exposure enhances young citizens’ ideological knowledge – understanding political dimensions and party positions. A randomized experiment ( n = 2308) in Belgium (Flanders) tested whether VAA exposure improved young voters’ ability to place a fictional party on the left-right axis. We replicate these effects in an additional observational study ( n = 1221) tracking effects of natural VAA exposure during the campaign. We find that VAAs increase ideological knowledge, helping participants more accurately classify a fictional party as left- or right-wing. Exposure to a youth-targeted VAA has particularly strong effects. The impact is greater for politically less sophisticated individuals, suggesting an equalizing effect. These findings indicate that VAAs’ political learning benefits extend further than previously documented, contributing not only to policy-specific knowledge but also to a broader understanding of ideological structures."
-  },
-  {
-    "discipline": "politics",
-    "title": "Do Conspiracy Theories Undermine Support for Democracy?",
-    "authors": "Marcelle Amaral, Lucas Borba, Vanessa Lira, Eduarda Lessa, Nara Pavão",
-    "url": "https://doi.org/10.1007/s11109-026-10130-1",
-    "doi": "https://doi.org/10.1007/s11109-026-10130-1",
-    "filter": 0,
-    "created": "2026-3-6",
-    "journal_full": "Political Behavior",
-    "abstract": "Conspiracy theories are widely viewed as harmful to politics, and a growing number of studies have sought to identify their detrimental effects. Our study adds to this literature by examining whether brief, realistic exposure to conspiracy theories about a major political event can undermine individuals’ commitment to a broad set of democratic norms. We rely on two online survey experiments conducted in Brazil with a total of 8 thousand respondents. Participants assigned to the treatment conditions were exposed to conspiracy theories surrounding the stabbing of then–presidential candidate Jair Bolsonaro during a campaign event; control group participants viewed either the official account of the event or unrelated content. Subsequently, participants answered questions about democratic norms, institutional trust, and political hostility. We find some evidence that exposure to conspiracy theories reduces support for democracy, particularly in the electoral dimension. Surprisingly, non-partisans are more affected than partisans. Results also indicate that exposure to conspiracy theories reduces institutional trust but does not affect political hostility. However, the effects of conspiracy theories are not consistent across narratives, emerging more clearly in the one that blames the right for the event. These findings underscore the nuanced and specific nature of the influence of conspiracy theories on democratic values, which can help calibrate our concerns about these narratives."
-  },
-  {
-    "discipline": "politics",
-    "title": "Follow the Fox? Elite Influence and White Support for the Great Replacement Theory",
-    "authors": "Jesse Rhodes, Seth Goldman, Tatishe Mavovosi Nteta, Adam Eichen, Sabrina Lapcheske, Linda Tropp, Efrén Pérez, Yuen Huo",
-    "url": "https://doi.org/10.1017/s1049096525101856",
-    "doi": "https://doi.org/10.1017/s1049096525101856",
-    "filter": 0,
-    "created": "2026-3-4",
-    "journal_full": "PS: Political Science & Politics",
-    "abstract": "Recent years have witnessed an increase in white Americans’ support for the Great Replacement Theory (GRT), the xenophobic conspiracy theory that posits that political elites are embracing permissive immigration policies to bring in “obedient” voters who will vote for them and who will eventually replace native white citizens. This conspiracy theory has been publicly endorsed by several conservative political figures and prominently featured in conservative media outlets, most notably Fox News. This article uses the American Multiracial Panel Study to investigate whether exposure to Fox News is associated with support for the GRT. We find clear and consistent evidence that whites who receive their political news from Fox News are significantly more likely to support core tenets of the GRT than those who do not. We consider our results as evidence of the continued influence of elite rhetoric on public opinion and the unique impact of Fox News on the nature and origins of white public opinion about immigration and the nation’s demographic future."
+    "journal_full": "American Political Science Review"
   },
   {
     "discipline": "politics",
@@ -197,76 +209,54 @@
     "discipline": "public opinion",
     "title": "How to Measure Public Support for Political Violence",
     "authors": "Nathan P Kalmoe, Lilliana Mason",
+    "abstract": "With low but rising levels of violent political threats and violent acts by civilians in the United States, researchers increasingly want to measure violent public views—fearing the erosion of collective norms inhibiting violence while also regarding individual attitudes as a risk for rare violent action and more common forms of aggressive political behavior. But how should violent views be measured and interpreted? Drawing on our decade-plus researching these views with several dozen questions and a catalogue of related work by others, we provide a practical measurement guide for assessing violent political views with extensive new observational and experimental illustrations that also make important methodological and substantive contributions to the field. We provide considerations for choosing good measure(s): empirically informed measurement principles, general and specific question evaluations, a deep dive into question design, reliability, and validity, and more. The Supplementary Material also catalogues a century of violence questions and more published works.",
     "url": "https://doi.org/10.1093/poq/nfaf069",
     "doi": "https://doi.org/10.1093/poq/nfaf069",
     "filter": 0,
     "created": "2025-12-6",
-    "journal_full": "Public Opinion Quarterly",
-    "abstract": "With low but rising levels of violent political threats and violent acts by civilians in the United States, researchers increasingly want to measure violent public views—fearing the erosion of collective norms inhibiting violence while also regarding individual attitudes as a risk for rare violent action and more common forms of aggressive political behavior. But how should violent views be measured and interpreted? Drawing on our decade-plus researching these views with several dozen questions and a catalogue of related work by others, we provide a practical measurement guide for assessing violent political views with extensive new observational and experimental illustrations that also make important methodological and substantive contributions to the field. We provide considerations for choosing good measure(s): empirically informed measurement principles, general and specific question evaluations, a deep dive into question design, reliability, and validity, and more. The Supplementary Material also catalogues a century of violence questions and more published works."
+    "journal_full": "Public Opinion Quarterly"
   },
   {
     "discipline": "public opinion",
     "title": "Ideological Cues, Partisanship, and Prejudice Against LGBTQ Judges",
     "authors": "Andrew R Stone, Tony Zirui Yang",
+    "abstract": "How does the gender and sexual identity of a prospective judge shape public support for their nomination? We build upon recent scholarship on instrumental inclusivity and argue that, after accounting for nominee ideology, Americans of all partisan stripes will penalize LGBTQ nominees. Using a conjoint experiment, we randomly vary a prospective Biden US Supreme Court nominee’s gender and sexual identity. Crucially, we also randomize the nominee’s ideology, enabling us to disentangle LGBTQ identity from the ideological signal it sends and differentiate between genuine and instrumental support for LGBTQ nominees. Contrary to recent findings suggesting that Democrats reward minority judges, we find that respondents from both parties penalize LGBTQ nominees. The magnitude of these effects—roughly 14 percentage points for transgender nominees and 8 percentage points for gay or lesbian nominees—is considerable and second only to shared partisanship. Our study underscores that ideological alignment does not necessarily foster genuine inclusivity for LGBTQ individuals and highlights the persistent challenges of representation for marginalized groups in an era of polarized judicial nominations.",
     "url": "https://doi.org/10.1093/poq/nfaf064",
     "doi": "https://doi.org/10.1093/poq/nfaf064",
     "filter": 0,
     "created": "2025-11-23",
-    "journal_full": "Public Opinion Quarterly",
-    "abstract": "How does the gender and sexual identity of a prospective judge shape public support for their nomination? We build upon recent scholarship on instrumental inclusivity and argue that, after accounting for nominee ideology, Americans of all partisan stripes will penalize LGBTQ nominees. Using a conjoint experiment, we randomly vary a prospective Biden US Supreme Court nominee’s gender and sexual identity. Crucially, we also randomize the nominee’s ideology, enabling us to disentangle LGBTQ identity from the ideological signal it sends and differentiate between genuine and instrumental support for LGBTQ nominees. Contrary to recent findings suggesting that Democrats reward minority judges, we find that respondents from both parties penalize LGBTQ nominees. The magnitude of these effects—roughly 14 percentage points for transgender nominees and 8 percentage points for gay or lesbian nominees—is considerable and second only to shared partisanship. Our study underscores that ideological alignment does not necessarily foster genuine inclusivity for LGBTQ individuals and highlights the persistent challenges of representation for marginalized groups in an era of polarized judicial nominations."
+    "journal_full": "Public Opinion Quarterly"
+  },
+  {
+    "discipline": "public opinion",
+    "title": "Reassessing Support for Political Aggression and Violence in the United States",
+    "authors": "Scott Clifford, Lucia Lopez, Lucas Lothamer",
+    "abstract": "Recent events have driven a surge in scholarly attention to public support for political violence in the United States. Yet, research paints a conflicting picture about the levels and correlates of support for violence. We argue that these disagreements are partly due to researchers’ measurement choices. After reviewing common practices and identifying measurement challenges, we introduce a measure designed to overcome these problems that allows respondents to choose their target of aggression. Across multiple studies, we compare our measure to two common alternatives. While we find similarities, our measure uncovers substantially more support for aggression and violence, particularly among weak partisans, holding implications for the levels and correlates of support for aggression. Further, by design, our measure provides information about the type of aggression that is endorsed and the most common targets. We conclude with recommendations for researchers studying support for political aggression.",
+    "url": "https://doi.org/10.1093/poq/nfaf060",
+    "doi": "https://doi.org/10.1093/poq/nfaf060",
+    "filter": 0,
+    "created": "2025-11-13",
+    "journal_full": "Public Opinion Quarterly"
   },
   {
     "discipline": "psychology",
-    "title": "semfindr: An R Package for Identifying Influential Cases in Structural Equation Modeling",
-    "authors": "Shu Fai Cheung, Mark H. C. Lai",
-    "url": "https://doi.org/10.1080/00273171.2026.2634293",
-    "doi": "https://doi.org/10.1080/00273171.2026.2634293",
+    "title": "Can AI reflect public opinion? Evidence from replicating Hainmueller and Hopkins’ immigration experiment with LLMs",
+    "authors": "Yajing Chen, Ming Lei, Zhanyu Liu, Man Tang, Jie She",
+    "url": "https://doi.org/10.1016/j.chb.2026.108967",
+    "doi": "https://doi.org/10.1016/j.chb.2026.108967",
     "filter": 0,
-    "created": "2026-3-5",
-    "journal_full": "Multivariate Behavioral Research"
-  },
-  {
-    "discipline": "psychology",
-    "title": "I Gotta Feeling: Advancing Sentiment Analysis in Organizational Science",
-    "authors": "Imran Kadolkar, Divya V Doshi, Scott Tonidandel, Jose M Cortina",
-    "url": "https://doi.org/10.1177/10944281251408073",
-    "doi": "https://doi.org/10.1177/10944281251408073",
-    "filter": 0,
-    "created": "2026-3-2",
-    "journal_full": "Organizational Research Methods",
-    "abstract": "Sentiment analysis (SA) has grown considerably in organizational science research over the past two decades, particularly in the last few years. While enthusiasm for integrating advanced natural language processing algorithms is encouraging, authors are not reaping the benefits of such tools fully. Our systematic review of SA application in the organizational sciences suggests that authors struggle to appreciate all of the decisions that are inherent to SA, the choices that are available at each decision point, and the consequences of each choice. To address this gap, we use a working example to illustrate four critical decision points authors confront when conducting SA, and the subsequent impact different choices can have on one's conclusion. Decision points include selecting the SA method, computing a sentiment score, preprocessing the data, and using an appropriate level of analysis. We conclude with a framework outlining five dimensions (e.g., accuracy, interpretability, computational cost) to guide the selection of an SA approach based on study goals and needs, along with seven recommendations to authors wishing to apply SA."
-  },
-  {
-    "discipline": "sociology",
-    "title": "Sampling in Video-Based Social Sciences",
-    "authors": "Nicolas M. Legewie, Anne Nassauer, Simon Kühne",
-    "url": "https://doi.org/10.1177/00491241261426862",
-    "doi": "https://doi.org/10.1177/00491241261426862",
-    "filter": 0,
-    "created": "2026-3-2",
-    "journal_full": "Sociological Methods & Research",
-    "abstract": "Large-N, inference-based approaches are gaining increasing prominence in video-based social science research across sociology, social psychology, political science, and other fields. However, existing methodological publications on video methods do not discuss sampling methodology and empirical video-based research often includes only cursory discussions of the issue. To address this gap, this article applies insights from sampling methodology to video-based social science research. We review how sampling has been addressed in video-based social science research, reflect on its specific challenges, and propose a decision-tree flowchart to help researchers identify appropriate sampling strategies and common pitfalls. We then illustrate how the flowchart can be used in three common video-based sampling scenarios. The article thereby contributes to establishing clear guidelines for sampling in video-based social research as a reference point and as a resource for current and future practitioners, as well as reviewers and readers of such studies."
+    "created": "2026-3-4",
+    "journal_full": "Computers in Human Behavior"
   },
   {
     "discipline": "multidisciplinary",
     "title": "The effects of political advertising on Facebook and Instagram before the 2020 US election",
     "authors": "Hunt Allcott, Matthew Gentzkow, Ro’ee Levy, Adriana Crespo-Tenorio, Natasha Dumas, Winter Mason, Devra Moehler, Pablo Barberá, Taylor Brown, Juan Carlos Cisneros, Drew Dimmery, Deen Freelon, Sandra González-Bailón, Andrew M. Guess, Young Mie Kim, David Lazer, Neil Malhotra, Sameer Nair-Desai, Brendan Nyhan, Ana Carolina Paixao de Queiroz, Jennifer Pan, Jaime Settle, Emily Thorson, Rebekah Tromble, Carlos Velasco Rivera, Benjamin Wittenbrink, Magdalena Wojcieszak, Shiqi Yang, Saam Zahedian, Annie Franco, Chad Kiewiet de Jonge, Natalie Jomini Stroud, Joshua A. Tucker",
+    "abstract": "We study the effects of social media political advertising by randomizing subsets of 36,906 Facebook users and 25,925 Instagram users to have political ads removed from their news feeds for 6 weeks before the 2020 US presidential election. We show that most presidential ads were targeted towards parties’ own supporters and that fundraising ads were the most common. On both Facebook and Instagram, we found no detectable effects of removing political ads on political knowledge, polarization, perceived legitimacy of the election, political participation (including campaign contributions), candidate favourability and turnout. This was true overall and for both Democrats and Republicans separately.",
     "url": "https://doi.org/10.1038/s41562-025-02328-w",
     "doi": "https://doi.org/10.1038/s41562-025-02328-w",
     "filter": 0,
     "created": "2026-3-2",
-    "journal_full": "Nature Human Behaviour",
-    "abstract": "We study the effects of social media political advertising by randomizing subsets of 36,906 Facebook users and 25,925 Instagram users to have political ads removed from their news feeds for 6 weeks before the 2020 US presidential election. We show that most presidential ads were targeted towards parties’ own supporters and that fundraising ads were the most common. On both Facebook and Instagram, we found no detectable effects of removing political ads on political knowledge, polarization, perceived legitimacy of the election, political participation (including campaign contributions), candidate favourability and turnout. This was true overall and for both Democrats and Republicans separately."
-  },
-  {
-    "discipline": "multidisciplinary",
-    "title": "Moral stereotyping in large language models",
-    "authors": "Aliah Zewail, Alexandra Figueroa, Jesse Graham, Mohammad Atari",
-    "url": "https://doi.org/10.1073/pnas.2519941123",
-    "doi": "https://doi.org/10.1073/pnas.2519941123",
-    "filter": 0,
-    "created": "2026-3-4",
-    "journal_full": "Proceedings of the National Academy of Sciences",
-    "abstract": "Can Large Language Models (LLMs) accurately estimate various societies’ moral values? Here, we query the perceptions of LLMs regarding the moral norms of the “average” person from 48 nations and compare them to a large-scale ( n = 90 , 802 ) survey of six moral values (Care, Equality, Proportionality, Loyalty, Authority, and Purity) from those populations. Our findings indicate that LLMs poorly capture the moral diversity around the globe, systematically overestimating some moral values (particularly Care) and underestimating others (especially Purity). Notably, examining various versions of Generative Pre-trained Transformer (GPT) shows that these LLMs may overestimate the overall moral concerns of some Western countries (e.g., the United States, Canada, and Australia) while underestimating those of non-Western countries (e.g., Nigeria, Morocco, and Indonesia). Our work demonstrates that LLMs are inaccurate generators of cross-cultural estimations in the moral domain; in other words, they stereotype the moral values of non-Western populations in predictable ways. Our results highlight the ethical and epistemic risks of relying on LLMs to estimate the endorsement of moral values around the globe."
+    "journal_full": "Nature Human Behaviour"
   }
 ]
