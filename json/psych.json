@@ -1,19 +1,26 @@
 {
-  "update": "2026-03-11",
+  "update": "2026-03-12",
   "content": [
+    {
+      "journal_full": "Advances in Methods and Practices in Psychological Science",
+      "journal_short": "AMPPS",
+      "articles": [
+        {
+          "title": "Using Artificial Intelligence to Generate Affective Images: Methodology and Initial Library",
+          "authors": "Maciej Behnke, Maciej Kłoskowski, Michał Klichowski, Wadim Krzyżaniak, Kacper Szymański, Patryk Maciejewski, Patrycja Chwiłkowska, Marta Kowal, Rafał Jończyk, Jan Nowak, Szymon Kupiński, Dominika Kunc, Stanisław Saganowski, Aakash A. Chowkase, Farida Guemaz, Kevin S. Kertechian, Ameer I. M. T. Maadal, Leonardo A. Aguilar, Barnabas T. Alayande, Vimala Balakrishnan, Dana M. Basnight-Brown, Jordane Boudesseul, Tomás A. D’Amelio, Jovi C. Dacanay, Abhishek Dedhe, Shan Gao, Joao F. G. B. Takayanagi, Md. Rohmotul Islam, Alvaro Mailhos, Christine M. Mpyangu, Moises Mebarak, Arooj Najmussaqib, Ju Hee Park, Ekaterine Pirtskhalava, Eli Rice, Sohrab Sami, Yuki Yamada, Jan Baczyński, Lilianna Dera, Szymon Jęśko-Białek, Jakub Łączkowski, Hubert Marciniak, Filip Nowicki, Bartosz Wilczek, James J. Gross, Nicholas A. Coles",
+          "abstract": "We introduce a human-in-the-loop pipeline for creating context-aware (e.g., culture, sex, and age) affect-induction images and the initial Library of AI-Generated Affective Images. Current limitations in image-based research include weak to moderate emotional-elicitation effects, limited image diversity, and minimal cultural tailoring of images. Using generative artificial intelligence (AI) guided by existing data sets and emotion taxonomies, we generated 847 images and their corresponding descriptions across 12 discrete emotions and then iteratively refined them with local cultural experts. We validated the library through six studies ( N = 2,470; 58 countries). Participants rated five types of images: (a) images from existing affective databases, (b) AI-generated images without cultural adjustments, (c) AI-generated images adjusted to specific cultural contexts, (d) AI-generated images adjusted by sex (male, female), and (e) AI-generated images adjusted by age group (childhood, adulthood, older age). The AI-generated images were as effective in eliciting affective responses as the images from existing affective databases. Culturally adjusted images were slightly more effective than unadjusted counterparts in targeting intended emotions. Sex- and age-adjusted variants produced comparable responses with their base images, demonstrating controllability without loss of affective impact. Furthermore, we calculated the smallest subjectively experienced difference for affect-induction research ( d s = 0.05–0.29). This work demonstrates that researchers can now generate high-quality affect-induction stimuli cost-effectively and at scale and tailor them to diverse contexts—overcoming long-standing barriers and laying the groundwork for future AI-driven methodologies in affective science.",
+          "url": "https://doi.org/10.1177/25152459251415336",
+          "doi": "https://doi.org/10.1177/25152459251415336",
+          "filter": 0,
+          "created": "2026-3-11"
+        }
+      ],
+      "articles_hidden": []
+    },
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
       "articles": [
-        {
-          "title": "SynesthesiaColorPicker: An open-source color picker for online synesthesia research",
-          "authors": "Nicholas Root",
-          "abstract": "Synesthesia is a neurological phenomenon in which healthy individuals experience additional, automatic, and consistent perceptions unrelated to veridical sensory input. For most (but not all) synesthetes, this additional experience is a color : for example, grapheme–color synesthetes experience colors for letters of the alphabet. Measuring these color associations is of central importance to synesthesia research, but there is no standard color picker “tool” that researchers can adapt to use in their own experiments: each researcher must code their own. This is a barrier to entry for synesthesia research, and additionally creates potential methodological confounds because different researchers make color pickers with different properties. SynesthesiaColorPicker is an open-source, mobile-friendly color picker tool that can be integrated with two popular online experiment platforms (Qualtrics and lab.js/Open Lab) without any prior programming knowledge. The templates, underlying JavaScript code, and detailed instructions are available for download on a GitHub repository. Furthermore, a comparison between data collected with SynesthesiaColorPicker and with the Synesthesia Battery shows that two methodological design choices in SynesthesiaColorPicker overcome measurable confounds in existing color picker methodology.",
-          "url": "https://doi.org/10.3758/s13428-025-02882-1",
-          "doi": "https://doi.org/10.3758/s13428-025-02882-1",
-          "filter": 0,
-          "created": "2026-3-4"
-        },
         {
           "title": "Physiology of everyday sleep and physical activity: An exploratory mixed-methods study of multi-sensor wearables for infants and toddlers",
           "authors": "Emily Hunter, Niina Kolehmainen, Kianoush Nazarpour, Tim Rapley, Abigail Collins, Christopher Eggett, Craig Williams, Christopher Thornton",
@@ -22,14 +29,6 @@
           "doi": "https://doi.org/10.3758/s13428-026-02945-x",
           "filter": 0,
           "created": "2026-3-6"
-        },
-        {
-          "title": "An iterative strategy for referent variable selection in MIMIC-interaction modeling",
-          "authors": "Cheng-Hsien Li, Anne Traynor",
-          "url": "https://doi.org/10.3758/s13428-026-02957-7",
-          "doi": "https://doi.org/10.3758/s13428-026-02957-7",
-          "filter": 0,
-          "created": "2026-3-4"
         },
         {
           "title": "Automatic pose estimation in newborn infants: Lessons from the Baby Grow study",
@@ -57,7 +56,7 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "Not Seeing Eye to Eye: The Effects of Perceptual Conflicts During Social Interactions in Mixed Reality",
+          "title": "Not seeing eye to eye: The effects of perceptual conflicts during social interactions in mixed reality",
           "authors": "Eugy Han, Portia Wang, Monique Santoso, Keshav Rastogi, Jeremy N. Bailenson",
           "url": "https://doi.org/10.1016/j.chb.2026.108975",
           "doi": "https://doi.org/10.1016/j.chb.2026.108975",
@@ -65,12 +64,20 @@
           "created": "2026-3-6"
         },
         {
-          "title": "Can AI reflect public opinion? Evidence from replicating Hainmueller and Hopkins’ immigration experiment with LLMs",
-          "authors": "Yajing Chen, Ming Lei, Zhanyu Liu, Man Tang, Jie She",
-          "url": "https://doi.org/10.1016/j.chb.2026.108967",
-          "doi": "https://doi.org/10.1016/j.chb.2026.108967",
+          "title": "Feeding on Screens, Not on Plates: The Paradoxical Impact of Unhealthy Food Content in Digital Media",
+          "authors": "ESTHER KANG, ARUN LAKSHMANAN",
+          "url": "https://doi.org/10.1016/j.chb.2026.108980",
+          "doi": "https://doi.org/10.1016/j.chb.2026.108980",
           "filter": 0,
-          "created": "2026-3-4"
+          "created": "2026-3-11"
+        },
+        {
+          "title": "The influence of cyber descriptive norms on immoral online behavior: The moderating role of moral conviction",
+          "authors": "Jin Wang, Chang Liu, Tumaresi Paerhati, Zhuo Wang, Xilei Zhang, Yu Ku",
+          "url": "https://doi.org/10.1016/j.chb.2026.108991",
+          "doi": "https://doi.org/10.1016/j.chb.2026.108991",
+          "filter": 0,
+          "created": "2026-3-10"
         },
         {
           "title": "Digital Pacifiers: Developmental Trajectories of Media Emotion Regulation in Early Childhood",
@@ -97,6 +104,22 @@
           "created": "2026-3-9"
         },
         {
+          "title": "Disclosing Vulnerability on Social Media: Effects on Perceived Authenticity and Interpersonal Attraction",
+          "authors": "Zijian Lew, Jiemin Looi",
+          "url": "https://doi.org/10.1016/j.chb.2026.108986",
+          "doi": "https://doi.org/10.1016/j.chb.2026.108986",
+          "filter": 0,
+          "created": "2026-3-10"
+        },
+        {
+          "title": "AI or Human? Exploring the Effects of User Awareness in Conversational Dynamics with Virtual Avatars",
+          "authors": "Silvia Erika Kober, Simon Streit, Guilherme Wood",
+          "url": "https://doi.org/10.1016/j.chb.2026.108984",
+          "doi": "https://doi.org/10.1016/j.chb.2026.108984",
+          "filter": 0,
+          "created": "2026-3-11"
+        },
+        {
           "title": "Adolescent Sexting in Romantic Relationships and Daily Positive and Negative Affect Dynamics: A Dyadic Intensive Longitudinal Study",
           "authors": "Thao Ha, Selena I. Quiroz, Daniel McNeish",
           "url": "https://doi.org/10.1016/j.chb.2026.108981",
@@ -118,6 +141,14 @@
           "doi": "https://doi.org/10.1016/j.jesp.2026.104896",
           "filter": 0,
           "created": "2026-3-7"
+        },
+        {
+          "title": "Is a random human peer better than a highly supportive chatbot in reducing loneliness over time?",
+          "authors": "Ruo-Ning Li, Dunigan Folk, Abhay Singh, Lyle Ungar, Elizabeth Dunn",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104911",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104911",
+          "filter": 0,
+          "created": "2026-3-10"
         },
         {
           "title": "Beliefs versus reality: People overestimate the actual dishonesty of others",
