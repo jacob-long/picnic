@@ -1,5 +1,5 @@
 {
-  "update": "2026-03-12",
+  "update": "2026-03-13",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -11,6 +11,15 @@
           "abstract": "We introduce a human-in-the-loop pipeline for creating context-aware (e.g., culture, sex, and age) affect-induction images and the initial Library of AI-Generated Affective Images. Current limitations in image-based research include weak to moderate emotional-elicitation effects, limited image diversity, and minimal cultural tailoring of images. Using generative artificial intelligence (AI) guided by existing data sets and emotion taxonomies, we generated 847 images and their corresponding descriptions across 12 discrete emotions and then iteratively refined them with local cultural experts. We validated the library through six studies ( N = 2,470; 58 countries). Participants rated five types of images: (a) images from existing affective databases, (b) AI-generated images without cultural adjustments, (c) AI-generated images adjusted to specific cultural contexts, (d) AI-generated images adjusted by sex (male, female), and (e) AI-generated images adjusted by age group (childhood, adulthood, older age). The AI-generated images were as effective in eliciting affective responses as the images from existing affective databases. Culturally adjusted images were slightly more effective than unadjusted counterparts in targeting intended emotions. Sex- and age-adjusted variants produced comparable responses with their base images, demonstrating controllability without loss of affective impact. Furthermore, we calculated the smallest subjectively experienced difference for affect-induction research ( d s = 0.05–0.29). This work demonstrates that researchers can now generate high-quality affect-induction stimuli cost-effectively and at scale and tailor them to diverse contexts—overcoming long-standing barriers and laying the groundwork for future AI-driven methodologies in affective science.",
           "url": "https://doi.org/10.1177/25152459251415336",
           "doi": "https://doi.org/10.1177/25152459251415336",
+          "filter": 0,
+          "created": "2026-3-11"
+        },
+        {
+          "title": "Time-Related Considerations for Modeling Event-Based Data Collected via Ecological Momentary Assessment",
+          "authors": "Lizbeth Benson, Emily T. Hébert, Nicholas Hartman, Sarah H. Sperry, Walter Dempsey, Darla E. Kendzor, Michael S. Businelle, Nilam Ram",
+          "abstract": "Ecological momentary assessments (EMAs) and wearable devices afford opportunities to collect real-time data on events experienced in daily life. Examples of event-based data in the psychological and behavioral sciences include smoking a cigarette, experiencing a stressor, having a disruption to sleep, experiencing a depressive or manic episode, drinking an alcoholic beverage, or engaging in a bout of exercise. The increasing availability of dense sampling approaches allows for the measurement of such events at relatively fast timescales (e.g., occurring across minutes, hours, days, or weeks), expanding the possibilities for how time can be conceptualized and modeled. Survival analysis is a modeling approach that allows researchers to address scientific questions regarding whether and when events occur in time. Although not often applied to EMA data, there are myriad research questions relevant to psychosocial and behavioral scientists that can be addressed using survival analysis. In this article, we provide an overview of survival analysis, describe several time-based considerations for modeling event-based EMA data using survival analysis, and provide several illustrative examples of the different time-based considerations. Altogether, the goals of this article are to enhance knowledge of the types of research questions that can be examined using survival analysis, illustrate nuances of applying the method to EMA data, and spark ideas for future empirical and methodological research.",
+          "url": "https://doi.org/10.1177/25152459251401191",
+          "doi": "https://doi.org/10.1177/25152459251401191",
           "filter": 0,
           "created": "2026-3-11"
         }
@@ -31,6 +40,14 @@
           "created": "2026-3-6"
         },
         {
+          "title": "Affective norms for texts in Rioplatense Spanish (ANET-RS): Adaptation and cross-cultural variations in emotional explicitness, gender, and age",
+          "authors": "Natalia Irrazabal, Fernando Tonini",
+          "url": "https://doi.org/10.3758/s13428-026-02947-9",
+          "doi": "https://doi.org/10.3758/s13428-026-02947-9",
+          "filter": 0,
+          "created": "2026-3-11"
+        },
+        {
           "title": "Automatic pose estimation in newborn infants: Lessons from the Baby Grow study",
           "authors": "Mohammad Saber Sotoodeh, Ori Ossmy, Georgina Donati, Jazmine Hall, Hannah Rowan, Gillian S. Forrester",
           "abstract": "Advances in computational techniques—particularly machine learning—have expanded opportunities to analyse early infant motor repertoires, especially in naturalistic settings. The aim of this study was to evaluate the strengths, limitations, and performance of state-of-the-art pose estimation algorithms in challenging, home-based video conditions. We analysed 22 videos recorded by parents using mobile phones from eight newborns in the Baby Grow study, at 2, 4, and 8 weeks of age. The videos varied in clothing (common onesie, babygrow, vest), background (grey, black, coloured), lighting (with/without shadows), and camera angles (top, front, bottom). From these, 2,640 frames were extracted and manually annotated to serve as ground truth. We tested demo versions of MediaPipe, OpenPose, PCT, RTMpose, Sapiens, and VitPose, and evaluated performance using object keypoint similarity (OKS), percentage of correct keypoints (PCKh), speed, and accuracy. RTMpose showed the highest overall accuracy, while MediaPipe had the fastest processing speed. However, when balancing speed and accuracy at ratios of 70:30, 50:50, and 30:70, MediaPipe’s speed compensated for its lower accuracy, making it a strong candidate for practical applications. Model performance varied under different environmental conditions, with RTMpose, Sapiens, and VitPose being the most robust. As infant movement research increasingly shifts to real-world environments, selecting appropriate models and ensuring video quality are essential. Our findings show that (1) new models outperform legacy tools like OpenPose, and (2) video context and model selection significantly affect pose estimation accuracy.",
@@ -40,13 +57,13 @@
           "created": "2026-3-9"
         },
         {
-          "title": "Unwrapping the mirror tracing task",
-          "authors": "Pablo F. Garrido, Anne Cecilie Sjøli Bråthen, Emilie Sogn Falch, Jonas Kransberg, Anders M. Fjell, Øystein Sørensen, Kristine B. Walhovd",
-          "abstract": "The Mirror Tracing Task (MTT) is a method used to study visuomotor skills learning. It is traditionally evaluated by counting the number of times a person draws outside of the borders of a figure, typically a star, while looking at its mirror reflection. While insightful for overall performance, this metric lacks a precise analysis of the tracing, such as details on errors in specific regions. We propose a new MTT analysis method that studies the drawing as a function of the angle around the figure’s center. Two new variables are introduced: residuals, which measure deviation from the ideal drawing, and density, which measures how often a specific path is retraced. These variables are defined per angle or region, allowing a more detailed analysis, highlighting the most challenging parts of the drawing for each person, and enabling comparison across trials or finding common patterns between individuals. We applied this approach to the first MTT trial of 210 participants using age as a variable of interest. Residuals and density were summarized as a single value and compared with the traditional approach, providing similar results. When analyzed as a function of the angle, these variables enabled the identification of specific regions of the star where the errors are age-sensitive. Additionally, a time series-like approach enabled us to cluster drawings and quantify their similarity. The code used for this new method has been made openly accessible to make it easier for its applications in new research or the reanalysis of previous projects.",
-          "url": "https://doi.org/10.3758/s13428-025-02845-6",
-          "doi": "https://doi.org/10.3758/s13428-025-02845-6",
+          "title": "Exploratory structural equation modeling and the curse of dimensionality",
+          "authors": "Tra T. Le, Jeroen K. Vermunt, Nicola Ballhausen, Katrijn Van Deun",
+          "abstract": "The next-generation approach to research in the behavioral sciences is based on intensive collections of data and complex models characterized by many parameters for a limited sample size. This introduces new challenges for traditional latent-variable methods, as they are found to fail or yield unstable solutions when the number of variables is large relative to the sample size. To tackle this issue, we propose a two-stage regularized approach for exploratory structural equation modeling. In the first stage, we introduce a novel (exploratory) approximate factor analysis technique that not only estimates the measurement model but also the factor scores; indeterminacy of the measurement model is addressed by imposing simple structure through regularizing techniques (LASSO penalty and cardinality constraint). The factor scores can then be used to estimate the structural model in the second stage. An extensive simulation shows that the proposed method outperforms other approaches in recovering the underlying simple structure of the measurement model in both low-dimension high-sample-size and high-dimension low-sample-size settings. The use of the method is demonstrated on two empirical datasets. An implementation of the proposed method in the R software is publicly available: https://github.com/trale97/regularizedESEM .",
+          "url": "https://doi.org/10.3758/s13428-026-02960-y",
+          "doi": "https://doi.org/10.3758/s13428-026-02960-y",
           "filter": 0,
-          "created": "2026-3-5"
+          "created": "2026-3-11"
         }
       ],
       "articles_hidden": []
@@ -64,8 +81,16 @@
           "created": "2026-3-6"
         },
         {
-          "title": "Feeding on Screens, Not on Plates: The Paradoxical Impact of Unhealthy Food Content in Digital Media",
-          "authors": "ESTHER KANG, ARUN LAKSHMANAN",
+          "title": "Keep It Perfect or Keep It Real? The Influence of Descriptive Norms on Adolescents’ Expression of Multiple Selves in Instagram Stories",
+          "authors": "Arne Freya Zillich, Annika Wunderlich",
+          "url": "https://doi.org/10.1016/j.chb.2026.108987",
+          "doi": "https://doi.org/10.1016/j.chb.2026.108987",
+          "filter": 0,
+          "created": "2026-3-11"
+        },
+        {
+          "title": "Feeding on screens, not on plates: The paradoxical impact of unhealthy food content in digital media",
+          "authors": "Esther Kang, Arun Lakshmanan",
           "url": "https://doi.org/10.1016/j.chb.2026.108980",
           "doi": "https://doi.org/10.1016/j.chb.2026.108980",
           "filter": 0,
@@ -112,6 +137,14 @@
           "created": "2026-3-10"
         },
         {
+          "title": "From FoMO to Learning: How Social Media Characteristics Drive Explorative and Exploitative Use and Sustainable Social Relationships in Micro-Learning Activities",
+          "authors": "Serge-Lopez Wamba-Taguimdje, Pascal Koko Bashengezi",
+          "url": "https://doi.org/10.1016/j.chb.2026.108993",
+          "doi": "https://doi.org/10.1016/j.chb.2026.108993",
+          "filter": 0,
+          "created": "2026-3-11"
+        },
+        {
           "title": "AI or Human? Exploring the Effects of User Awareness in Conversational Dynamics with Virtual Avatars",
           "authors": "Silvia Erika Kober, Simon Streit, Guilherme Wood",
           "url": "https://doi.org/10.1016/j.chb.2026.108984",
@@ -120,12 +153,99 @@
           "created": "2026-3-11"
         },
         {
+          "title": "When algorithms remember what employees forget: reversing the common view that artificial intelligence (AI) workplace advisors lack context",
+          "authors": "Christopher R. Dishop",
+          "url": "https://doi.org/10.1016/j.chb.2026.108994",
+          "doi": "https://doi.org/10.1016/j.chb.2026.108994",
+          "filter": 0,
+          "created": "2026-3-12"
+        },
+        {
           "title": "Adolescent Sexting in Romantic Relationships and Daily Positive and Negative Affect Dynamics: A Dyadic Intensive Longitudinal Study",
           "authors": "Thao Ha, Selena I. Quiroz, Daniel McNeish",
           "url": "https://doi.org/10.1016/j.chb.2026.108981",
           "doi": "https://doi.org/10.1016/j.chb.2026.108981",
           "filter": 0,
           "created": "2026-3-9"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Group Processes & Intergroup Relations",
+      "journal_short": "GPIR",
+      "articles": [
+        {
+          "title": "Accent bias in mindreading",
+          "authors": "Christopher B. Buckland, Jessica L. Spence, Kana Imuta",
+          "abstract": "Mindreading is integral to navigating social interactions, especially when they involve people from diverse cultural backgrounds who may have different ways of thinking, knowledge, and beliefs. The present study aimed to explore how accent as a social group membership cue impacts our perspective-taking abilities. To do this, 566 participants took part in the Strange Stories task wherein they listened to stories told by either native- or foreign-accented protagonists. Half of the stories required participants to take the protagonists’ perspectives (“mindreading” stories). The other half of the stories were void of mental states to capture participants’ baseline capacities for speech and narrative comprehension (“general comprehension” stories). On both types of stories, participants who listened to native-accented protagonists performed better than those who heard foreign-accented protagonists. Through examining the predictors of mindreading, we found that participants’ perspective-taking performance when listening to native-accented protagonists was simply explained by their general comprehension ability. Better mindreading of foreign-accented protagonists, however, was linked not only to comprehension but also with an intergroup factor: namely, having fewer friendships with people of different races and accents. We discuss the unexpected directionality of this association in light of how accents may impact the ways in which we engage with people who speak differently to ourselves via the social meaning attached to them.",
+          "url": "https://doi.org/10.1177/13684302261426266",
+          "doi": "https://doi.org/10.1177/13684302261426266",
+          "filter": 0,
+          "created": "2026-3-11"
+        },
+        {
+          "title": "“I thought I was appreciating”: The role of perpetrator intentions in perceptions of cultural appropriation",
+          "authors": "Shiri Spitz Siddiqi, Pia Dietze",
+          "abstract": "The role of perpetrator intentions in moral judgment is well established, but it is not well understood in the intergroup context of cultural appropriation. In three high-powered, pre-registered studies (total N = 2,769), we provide robust evidence that perceivers evaluate cultural copying less negatively when the actor has positive (versus negative) intentions. Across three different domains (fashion, food, and business), participants judged that White perpetrators who copied Black culture attempting to show appreciation were less appropriative, showed less disrespect, caused less harm, and warranted less confrontation (Studies 1–3) and boycotting (Study 3) than White perpetrators who copied for self-promotion. White individuals generally perceived less appropriation than Black individuals and evaluated it more permissively across dimensions, although both were similarly sensitive to intent (Studies 1–2). We contribute to the literatures on moral judgment and intergroup relations by laying empirical groundwork on cultural appropriation, an understudied phenomenon that unites the two.",
+          "url": "https://doi.org/10.1177/13684302261422600",
+          "doi": "https://doi.org/10.1177/13684302261422600",
+          "filter": 0,
+          "created": "2026-3-11"
+        },
+        {
+          "title": "Can a 10-minute intergroup contact intervention reduce prejudice among youth in a post-conflict setting?",
+          "authors": "Constantinos Efthymiou, Charis Psaltis",
+          "abstract": "This study examined the effectiveness and durability of a brief direct contact intervention in reducing prejudice among Greek Cypriot university students towards Turkish Cypriots in the divided and post-conflict context of Cyprus. The sample included 96 participants (70 females, M age = 21.75), with 45 randomly assigned to the intervention condition. Participants were assessed across three time points. Results revealed that the intervention, relative to the control condition, produced short-term improvements in outgroup attitudes, behavioural intentions, outgroup trust, willingness for cohabitation, intergroup anxiety, and perceived similarity. Importantly, willingness for cohabitation, intergroup anxiety, and perceived similarity remained improved at the 1-month follow-up. These findings highlight the potential and limitations of brief direct intergroup contact in improving intergroup relations among young adults in conflict settings. We discuss theoretical implications and practical guidance for policy in segregated and long-entrenched conflict settings.",
+          "url": "https://doi.org/10.1177/13684302261419414",
+          "doi": "https://doi.org/10.1177/13684302261419414",
+          "filter": 0,
+          "created": "2026-3-11"
+        },
+        {
+          "title": "When our leaders harm outgroups: How leader prototypicality and situational ambiguity shape outgroup solidarity and leader punishment",
+          "authors": "Hakan Çakmak, Ernestine H. Gordijn, Yasin Koc",
+          "abstract": "When prototypical leaders commit organizational transgressions, highly-identified members of the organizations are motivated to punish their leaders, due to increased group-based image concerns. However, do similar dynamics apply when high-status ingroup leaders transgress against vulnerable low-status outgroups? Moreover, does this lead to outgroup solidarity? To address these gaps, we conducted three pre-registered experiments with European, Australian, and British samples, respectively ( N total = 1,039). The first two studies, in which we manipulated leader prototypicality, focused on EU and Australian leader transgressions regarding the treatment of refugees. Moderated mediation analyses showed that, when their leader was prototypical, high-identifiers exhibited greater outgroup solidarity, indirectly through increased group-based image concerns. The third study, conducted in the UK, examined prototypical leader transgressions regarding minority mental health issues following the 2024 riots. This study manipulated transgression ambiguity and found that high-identifiers’ image-based outgroup solidarity was more pronounced when the transgression case was clear-cut rather than ambiguous. Across all studies, low-identifiers expressed outgroup solidarity through perceptions of injustice about the treatment of outgroups, regardless of leader prototypicality and transgression ambiguity. These findings integrate the transgressive leadership literature with solidarity-based collective action research by highlighting leader prototypicality as a key factor in eliciting outgroup solidarity through image concerns among individuals highly invested in high-status transgressor groups, especially when transgressions are clear-cut. Implications are discussed.",
+          "url": "https://doi.org/10.1177/13684302261426316",
+          "doi": "https://doi.org/10.1177/13684302261426316",
+          "filter": 0,
+          "created": "2026-3-12"
+        },
+        {
+          "title": "A threatened masculinity? The role of status threats and anger in misogynistic engagement",
+          "authors": "Emma A. Renström, Hanna Bäck",
+          "abstract": "Why are some men attracted to misogynistic groups? Drawing on literature on intergroup threat, we hypothesize that men who perceive that their status is threatened are more likely to engage with misogynistic groups. We also hypothesize that anger reactions to such threats is an important mechanism explaining why perceived masculine status threats lead to such engagement. In a survey ( N = 2,751) we find that perceived masculine status threat, measured as belief in a sexism shift, is related to higher engagement with the manosphere among Swedish men. In three survey experiments ( N s = 608, 661, 593) we manipulated masculine status threats, using fictive social media content, and measuring anger as an emotional reaction to the threat. We find an indirect effect of threat via anger in all three studies on intentions to engage with the manosphere (Study 2), with men’s rights groups (Study 3), and generally with groups working to improve men’s status (Study 4). The results provide a better understanding of why men may react to potential threats to their status with higher engagement with misogynistic groups, for example on the manosphere.",
+          "url": "https://doi.org/10.1177/13684302261426263",
+          "doi": "https://doi.org/10.1177/13684302261426263",
+          "filter": 0,
+          "created": "2026-3-11"
+        },
+        {
+          "title": "I am not an animal—I am an American: Disassociation from animals and importance of cultural group identity",
+          "authors": "Uri Lifshin, Jeff Greenberg, Stylianos Syropoulos, Bernhard Leidner, Peter J. Helm, Mario Mikulincer, Dylan E. Horner, Daniel Sullivan",
+          "abstract": "Terror Management Theory suggests that cultural identities and worldviews allow people to mitigate existential concerns and distance themselves from other mortal animals. We theorized that individuals low in the perceived similarity of self to animals (PSSA) are more likely to invest in their ingroup cultural identities and have negative attitudes toward other cultures, especially after mortality salience (MS). Congruently, we found that participants scoring lower on PSSA rated their ingroup identity as more important and had less inclusive and more negative views of outgroups than individuals reporting high PSSA (Study 1, Samples A–D). After MS, participants scoring lower on PSSA were more likely to defend their cultural-worldview (Studies 2–3 and 6) and exhibited more negative attitudes toward outgroups (Studies 4–5). High-PSSA individuals exhibited more positive attitudes toward outgroups after MS (Studies 4–5). We discuss the implications of these findings for the study of group identity and intergroup conflicts.",
+          "url": "https://doi.org/10.1177/13684302261425931",
+          "doi": "https://doi.org/10.1177/13684302261425931",
+          "filter": 0,
+          "created": "2026-3-11"
+        },
+        {
+          "title": "Exploring the scientist stereotypes among a U.S. sample through an intersectional lens: How Black and White men and women (mis)align with scientist traits",
+          "authors": "Sheba M. Aikawa, Evava S. Pietri, Nadia Floyd, Bernadette Park",
+          "abstract": "Although stereotypical scientist traits are more associated with men than women, it is unclear how the addition of race could alter these effects. Specifically, Black women possess dual marginalized identities but also are perceived as more masculine than White women. Across four experiments ( N = 1,115) with White and Black participants, we consistently found that participants believed society views White men as the most likely to possess scientist traits, followed by White women and then Black men and women. In Studies 2a (White participants) and 2b (Black participants), we found that although the trait content of the scientist stereotype was largely unique, the selected traits showed the most overlap with White men and the least overlap with Black men and women. These findings highlight the importance of considering gendered and racialized stereotypes in STEM, which may perpetuate disparities in these fields.",
+          "url": "https://doi.org/10.1177/13684302261417969",
+          "doi": "https://doi.org/10.1177/13684302261417969",
+          "filter": 0,
+          "created": "2026-3-11"
+        },
+        {
+          "title": "Seeking or receiving help: Implications for recipient sense of control, evaluations of the helper and of the helper’s group",
+          "authors": "Samer Halabi, John F. Dovidio, Lysann Zander, Arie Nadler",
+          "abstract": "The goal of the present research was to expand on previous work on the dynamics of intergroup helping. Specifically, the present research investigated the responses of Israeli-Arab high school students (Study 1) and Israeli-Arab adults (Study 2) to a scenario in which an Israeli-Arab person receives assistance from an Israeli-Jewish individual. In Study 2, these responses were also compared to assistance from an ingroup member (i.e., an Israeli-Arab individual). In two studies, Israeli-Arab participants learned about a situation in which an Israeli-Arab person receives assistance from an Israeli-Jewish individual. The context of help, with the assistance given either assumptively or in response to a request, and the type of help, either dependency-oriented or autonomy-oriented, were independently varied. In Study 2, conditions in which the helper was an Israeli-Arab individual were also included. Across both studies, context and type of help influenced responses to the outgroup helper (interactively in Study 1 and additively in Study 2) with assumptive, dependency-oriented assistance eliciting the most negative evaluations of the helper. These effects did not occur when, in Study 2, the helper was an ingroup member. For adults (Study 2), perceptions that outgroup assistance weakened the recipient’s sense of control mediated more negative evaluations of the outgroup helper. For both adults and high school students, evaluations of the Israeli-Jewish helper mediated evaluations of Israeli-Jewish people in general. Limitations and implications of the research are considered.",
+          "url": "https://doi.org/10.1177/13684302261422654",
+          "doi": "https://doi.org/10.1177/13684302261422654",
+          "filter": 0,
+          "created": "2026-3-11"
         }
       ],
       "articles_hidden": []
@@ -157,6 +277,14 @@
           "doi": "https://doi.org/10.1016/j.jesp.2026.104904",
           "filter": 0,
           "created": "2026-3-7"
+        },
+        {
+          "title": "More is more, or is there more to it? Frequency moderations in evaluative conditioning depend on variation in the unconditioned stimuli",
+          "authors": "Mandy Hütter, Kathrin Reichmann, Dana Höffler, Marco Denin",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104910",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104910",
+          "filter": 0,
+          "created": "2026-3-11"
         }
       ],
       "articles_hidden": []
@@ -165,14 +293,6 @@
       "journal_full": "Journal of Personality and Social Psychology",
       "journal_short": "JPSP",
       "articles": [
-        {
-          "title": "Face the difference: Metacontrast as an affordance to spontaneous social categorization.",
-          "authors": "Verena Heidrich, Felicitas Flade, Roland Imhoff",
-          "url": "https://doi.org/10.1037/pspa0000478",
-          "doi": "https://doi.org/10.1037/pspa0000478",
-          "filter": 0,
-          "created": "2026-3-5"
-        },
         {
           "title": "Tailoring personality interventions: How timing, context, and strategies influence proximal intervention outcomes.",
           "authors": "Peter Haehner, Amanda J. Wright, Till Lubczyk, Rosalie Andrae, Eva Asselmann, Susanne Buecker, Christopher J. Hopwood, Wiebke Bleidorn",
@@ -197,43 +317,103 @@
           "created": "2026-3-9"
         },
         {
-          "title": "Treatment Effect Moderation with Small Subgroups: An Incremental Subgroup Analysis Approach",
-          "authors": "Xiao Liu, J. Mark Eddy, Charles R. Martinez",
-          "url": "https://doi.org/10.1080/00273171.2026.2634993",
-          "doi": "https://doi.org/10.1080/00273171.2026.2634993",
-          "filter": 0,
-          "created": "2026-3-5"
-        },
-        {
           "title": "Goodness-of-Fit Assessment in Multidimensional Scaling and Unfolding",
           "authors": "Patrick Mair, Ingwer Borg, Thomas Rusch",
           "url": "https://doi.org/10.1080/00273171.2016.1235966",
           "doi": "https://doi.org/10.1080/00273171.2016.1235966",
           "filter": 0,
           "created": "2026-3-6"
-        },
-        {
-          "title": "semfindr: An R Package for Identifying Influential Cases in Structural Equation Modeling",
-          "authors": "Shu Fai Cheung, Mark H. C. Lai",
-          "url": "https://doi.org/10.1080/00273171.2026.2634293",
-          "doi": "https://doi.org/10.1080/00273171.2026.2634293",
-          "filter": 0,
-          "created": "2026-3-5"
         }
       ],
       "articles_hidden": []
     },
     {
-      "journal_full": "Psychological Bulletin",
-      "journal_short": "PsychBull",
+      "journal_full": "Organizational Research Methods",
+      "journal_short": "ORM",
       "articles": [
         {
-          "title": "Effort-based decision making in psychopathology: A transdiagnostic multilevel meta-analysis and systematic review of behavioral patterns and mechanisms underlying amotivational psychopathology.",
-          "authors": "Matthias Pillny, Katharina E. Renz, Alina Hay, Daniel Fulford, Tania M. Lincoln, Deanna M. Barch, James M. Gold, Stefan Kaiser",
-          "url": "https://doi.org/10.1037/bul0000510",
-          "doi": "https://doi.org/10.1037/bul0000510",
+          "title": "Unpacking the Validity of Open-Ended Personality Assessments Using Fine-Tuned Large Language Models",
+          "authors": "Andrew B. Speer, Angie Y. Delacruz, Takudzwa A. Chawota, James Perrotta, Cort W. Rudolph",
+          "abstract": "Alternative approaches to personality measurement, such as open-ended narrative-based assessments, have potential advantages for organizational research and practice. In this research, we investigate factors that affect valid application of natural language processing (NLP) for scoring open-ended personality assessments and when, how, and why such assessments capture personality-related variance. Using a large sample of responses to open-ended assessments, convergence between NLP scores and self-report target scores increased as the degree of customization and the sophistication of the underlying model increased, with the worst psychometric performance occurring for zero-shot large language model (LLM) scores and the best for fine-tuned LLM scores. However, all scoring methods exhibited evidence of validity. Additionally, when trained to predict direct evaluations of the narrative responses, correlations with target scores were large ( M = .83). NLP scores also exhibited discriminant and criterion-related validity evidence. However, validity was contingent upon the methodological rigor employed in developing writing prompts. Prompts designed to elicit trait-relevant information outperformed generic prompts, and this occurred because trait-specific prompts increased the amount of trait-relevant information (i.e., narrative units), which was associated with enhanced convergence with target scores.",
+          "url": "https://doi.org/10.1177/10944281251413746",
+          "doi": "https://doi.org/10.1177/10944281251413746",
           "filter": 0,
-          "created": "2026-3-5"
+          "created": "2026-3-11"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Personality and Social Psychology Bulletin",
+      "journal_short": "PSPB",
+      "articles": [
+        {
+          "title": "Perceiver Positivity Differences Originate in Early-Stage Impression Formation: Evidence From a Recognition Task",
+          "authors": "Richard Rau, Lea Weiner, Lisa Vogel",
+          "abstract": "People differ in how positively they perceive others at first glance. The present research examined whether such positivity differences are already evident during early stages of impression formation, under conditions that do not require explicit evaluative judgment. We developed a recognition-based paradigm in which participants read vignettes describing unfamiliar targets and later completed an unexpected recognition task. In Study 1 ( n = 312), participants differed in the valence of traits they recognized; those who recognized more positive traits reported greater liking for the targets and scored higher in agreeableness, conscientiousness, and age. Study 2 ( n = 837) replicated these findings, introduced a “don’t know” response option to reduce guessing, and demonstrated moderate overlap with rating-based measures of perceiver positivity. Together, the results indicate that perceiver positivity differences can emerge during early impression formation and reflect stable individual differences.",
+          "url": "https://doi.org/10.1177/01461672261424543",
+          "doi": "https://doi.org/10.1177/01461672261424543",
+          "filter": 0,
+          "created": "2026-3-11"
+        },
+        {
+          "title": "Liberals and Conservatives See Different Victims: Moral Disagreement Is Explained by Different Assumptions of Vulnerability",
+          "authors": "Jake Womick, Emily Kubin, Daniela Goya-Tocchetto, Nicolas Restrepo Ochoa, Carlos Rebollar, Kyra Kapsaskis, Samuel Pratt, Helen Devine, B. Keith Payne, Stephen Vaisey, Kurt Gray",
+          "abstract": "Moral disagreement across politics revolves around the key question, “Who is a victim?” Twelve studies explain moral conflict with assumptions of vulnerability (AoVs) : liberals and conservatives disagree about who is especially vulnerable to victimization, harm, and mistreatment. AoVs predict moral judgments, implicit attitudes, and charitable behavior—and explain the link between ideology and moral judgment (usually better than moral foundations). Four clusters of targets—the Environment, the Othered, the Powerful, and the Divine—explain many political debates, from immigration and policing to religion and racism. In general, liberals see vulnerability as group-based, dividing the moral world into groups of vulnerable victims and invulnerable oppressors. Conservatives downplay group-based differences, seeing vulnerability as more individual and evenly distributed. AoVs can be experimentally manipulated and causally impact moral evaluations. These results support a universal harm-based moral mind (Theory of Dyadic Morality): moral disagreement reflects different understandings of harm, not different foundations.",
+          "url": "https://doi.org/10.1177/01461672261422957",
+          "doi": "https://doi.org/10.1177/01461672261422957",
+          "filter": 0,
+          "created": "2026-3-12"
+        },
+        {
+          "title": "Indigenous, Invisible: Sensitivity to Misrepresentation and Omission, Perceptions of Group Discrimination and Psychological Well-Being",
+          "authors": "Julisa J. Lopez, Ariana Munoz-Salgado, Emma Ward-Griffin, J. Doris Dai, Jamie L. Yellowtail, Nikki Santos, Judith LeBlanc, Adam Farero, Stephanie A. Fryberg, Arianne E. Eason",
+          "abstract": "Contemporary representations of Native Peoples in mainstream U.S. society are largely scarce and inaccurate. This paper investigates individual differences in Native Peoples’ sensitivity to biased social representations of their group. Across three of the largest surveys conducted with Native Peoples in the United States ( N Total = 16,157), participants, who are more sensitive (vs. less sensitive) to misrepresentation and omission, report poorer psychological well-being (e.g., lower life satisfaction, higher anxiety, and depression). This relationship is explained, in part, by perceptions of group discrimination such that more sensitive individuals are also more attuned to the discrimination Native Peoples experience. These findings suggest that the way Native Peoples are represented or fail to be represented may negatively impact their well-being. One way to improve Native Peoples’ well-being is to systematically acknowledge and discourage omissions and misrepresentations, and to uplift diverse and accurate representations, preferably defined by Native Peoples for Native Peoples.",
+          "url": "https://doi.org/10.1177/01461672261423646",
+          "doi": "https://doi.org/10.1177/01461672261423646",
+          "filter": 0,
+          "created": "2026-3-11"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Psychological Science",
+      "journal_short": "PsychSci",
+      "articles": [
+        {
+          "title": "Associations Between Meat Consumption and Depression Are Small and Unlikely to Be Causal",
+          "authors": "Nicholas Poh-Jie Tan, Michael D. Krämer, Peter Haehner, Wiebke Bleidorn, Christopher J. Hopwood",
+          "abstract": "Evidence from cross-sectional studies suggests that people who eat more meat tend to report somewhat lower depression—a link that, if causal, could have important implications for mental health. However, little is known about why meat consumption is associated with depression. We examined the nature and magnitude of this association in three large, representative, longitudinal samples in the Netherlands, Germany, and Australia (total N = 77,678, aged 14–102 years). Adjusting for income, age, education, and gender, we observed a weak association of β = −0.05 between meat consumption and depression that was not moderated by living context. Moreover, the longitudinal within-person association was very small (β = −0.01) and lagged within-person effects were not significant, casting doubt on a direct causal association. Overall, results do not support low meat consumption as an important risk factor for depression.",
+          "url": "https://doi.org/10.1177/09567976261426226",
+          "doi": "https://doi.org/10.1177/09567976261426226",
+          "filter": 0,
+          "created": "2026-3-11"
+        },
+        {
+          "title": "The Structure of Social Situations: Insights From the Large-Scale Automated Coding of Text",
+          "authors": "Sudeep Bhatia, Andrew Yang, Taya R. Cohen",
+          "abstract": "Social situations are key determinants of cognition and behavior, and although several frameworks for representing situations have been proposed, these remain partial, nonintegrated, and not systematically mapped onto the rich space of situations encountered in everyday life. We address this problem by analyzing more than 20,000 detailed textual descriptions of dyadic social interactions obtained from participant-generated stories, published fiction, blogs, and autobiographical narratives. Our main methodological contribution is to use generative artificial intelligence to code these textual descriptions along a very large set of features and derive a detailed taxonomy of situational classes or categories of social interactions. We subsequently relate these situational classes to high-level situational variables like conflict, power, and duty, which have been identified by prior theory. In this way, our article provides a comprehensive, data-driven, and integrative framework for quantifying situational structure, advancing the study of social cognition and behavior.",
+          "url": "https://doi.org/10.1177/09567976261418946",
+          "doi": "https://doi.org/10.1177/09567976261418946",
+          "filter": 0,
+          "created": "2026-3-11"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Psychology of Music",
+      "journal_short": "PsychMusic",
+      "articles": [
+        {
+          "title": "Music in dreams: Exploring the frequency and emotional dimension of music-related dreams among music professionals",
+          "authors": "Jan Mauren, Michael Schredl",
+          "abstract": "Music and dreams have been recurring and meaningful themes throughout human history. Empirical research on the topic of music in dreams is limited, particularly when it comes to studies involving participants with professional musical training. In this study, 37 music professionals participated, reporting a total of 151 dreams in a 14-day dream diary and completing questionnaires to assess their retrospectively estimated music dream frequency, daily musical activities, and music-related stress. We found high percentages of music-related dreams (around 50%), reflecting musicians’ daily engagement with music. As expected, the frequency of music dreams in the musician group was significantly higher than that of non-musician control samples, supporting the continuity hypothesis of dreaming. However, contrary to our expectations, no direct relationship was found between the extent of daily musical activities and the frequency of music-related dreams. In addition, negative emotions in music dreams may have reflected music-related stress in waking life. Future research could investigate the effects of music-related stress on dream content and examine whether stress-reduction interventions can influence the frequency and nature of negative dream experiences in musicians.",
+          "url": "https://doi.org/10.1177/03057356261419835",
+          "doi": "https://doi.org/10.1177/03057356261419835",
+          "filter": 0,
+          "created": "2026-3-11"
         }
       ],
       "articles_hidden": []
@@ -243,28 +423,12 @@
       "journal_short": "PPM",
       "articles": [
         {
-          "title": "Mental health disorders on Netflix: Analyzing stereotypes across 13 countries using the stereotype content model and machine learning.",
-          "authors": "Katharina Angermayr, Sebastian Scherr",
-          "url": "https://doi.org/10.1037/ppm0000660",
-          "doi": "https://doi.org/10.1037/ppm0000660",
-          "filter": 0,
-          "created": "2026-3-5"
-        },
-        {
           "title": "Deepfake! A liar’s dividend for audiovisual material.",
           "authors": "Lara Grohmann, Franziska A. Halle, Markus Appel",
           "url": "https://doi.org/10.1037/ppm0000665",
           "doi": "https://doi.org/10.1037/ppm0000665",
           "filter": 0,
           "created": "2026-3-9"
-        },
-        {
-          "title": "Investigating the direct and indirect longitudinal relationships between social media use and life satisfaction via cosmopolitanism: A 6-year cohort study of adults.",
-          "authors": "Yu Takizawa",
-          "url": "https://doi.org/10.1037/ppm0000659",
-          "doi": "https://doi.org/10.1037/ppm0000659",
-          "filter": 0,
-          "created": "2026-3-5"
         },
         {
           "title": "Examining the use of face-to-face and technology-mediated communication methods in emerging adult romantic relationships: The role of commitment.",
