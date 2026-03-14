@@ -1,5 +1,5 @@
 {
-  "update": "2026-03-13",
+  "update": "2026-03-14",
   "content": [
     {
       "journal_full": "Journal of Elections, Public Opinion and Parties",
@@ -17,6 +17,22 @@
       "articles_hidden": []
     },
     {
+      "journal_full": "Journal of Survey Statistics and Methodology",
+      "journal_short": "JSSAM",
+      "articles": [
+        {
+          "title": "Direct-assisted Bayesian unit-level modeling for small area estimation of rare event prevalence",
+          "authors": "Alana McGovern, Katherine Wilson, Jon Wakefield",
+          "abstract": "Small-area estimation using survey data can be achieved by using either a design-based or a model-based inferential approach. Design-based direct estimators are generally preferable because of their consistency, asymptotic normality, and reliance on fewer assumptions. However, when data are sparse at the desired area level, as is often the case when measuring rare events, these direct estimators can have extremely large uncertainty, making a model-based approach preferable. A model-based approach with a random spatial effect borrows information from surrounding areas at the cost of inducing shrinkage. As a result, estimates may be over-smoothed and inconsistent with design-based estimates at higher area levels when aggregated. We propose two unit-level Bayesian models for small area estimation of rare event prevalence, which use design-based direct estimates at a higher area level to increase consistency in aggregation. This model framework is designed to accommodate sparse data obtained from two-stage stratified cluster sampling, which is particularly relevant to applications in low- and middle-income countries. After introducing the model framework and its implementation, we conduct a simulation study to evaluate its properties and apply it to the estimation of the neonatal mortality rate in Zambia, using 2014 Demographic Health Surveys data.",
+          "url": "https://doi.org/10.1093/jssam/smaf037",
+          "doi": "https://doi.org/10.1093/jssam/smaf037",
+          "filter": 0,
+          "created": "2025-10-11"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Public Opinion Quarterly",
       "journal_short": "POQ",
       "articles": [
@@ -27,6 +43,15 @@
           "doi": "https://doi.org/10.1093/poq/nfag009",
           "filter": 0,
           "created": "2026-1-16"
+        },
+        {
+          "title": "Beyond Surveys: Leveraging Real-World Events to Validate Behavioral Measures of News Exposure",
+          "authors": "Ana S Cardenal, Ludovic Terren, David N Hopmann, Silvia Majó-Vázquez, Peter Van Aelst, Alon Zoizner",
+          "abstract": "Do people learn about the political world through online media? We address this question by exploiting an unexpected global news event—the Russian invasion of Ukraine—and by developing exogenous measures of media exposure based on three months of web-tracking data from five advanced democracies. Our analysis differentiates between visits to general news domains and visits to politically relevant and Ukraine specific articles, with the latter identified using machine-learning techniques. We validate these exposure measures through multiple approaches, including their capacity to predict knowledge about the Russian invasion. Our findings underscore the importance of granularity. Visits to—and time spent on—Ukraine-related articles emerge as the only significant predictor of surveillance knowledge, whereas broader indicators, such as domain-level visits, show no significant effects once self-reported exposure and other key covariates are taken into account. We conclude by discussing the substantive and methodological implications of these findings.",
+          "url": "https://doi.org/10.1093/poq/nfaf068",
+          "doi": "https://doi.org/10.1093/poq/nfaf068",
+          "filter": 0,
+          "created": "2025-11-19"
         },
         {
           "title": "A Demonstration of Propensity-Score Weighting to Adjust a Social Media Nonprobability Sample Survey of Political Attitudes",

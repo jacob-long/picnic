@@ -1,10 +1,19 @@
 {
-  "update": "2026-03-13",
+  "update": "2026-03-14",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
       "journal_short": "AMPPS",
       "articles": [
+        {
+          "title": "Ensuring Transparency and Trust in Supervised-Machine-Learning Studies: A Checklist for Psychological Researchers",
+          "authors": "Hanyi Min, Feng Guo, Tianjun Sun, Mengqiao Liu, Frederick L. Oswald",
+          "abstract": "Machine-learning (ML) algorithms are being rapidly incorporated into the work of psychologists given their capability and flexibility in analyzing large-scale, complex, or otherwise messy data sets. In this context and in the spirit of open science, ML research should be conducted in a transparent, understandable, and ethical manner. However, publications by psychology researchers and practitioners show a troubling lack of consistency in reporting ML information. Given that ML offers a wide range of analytical options, in this article, we address an important need by providing a comprehensive, open-science checklist that specifies the information researchers should disclose at each stage of a supervised-ML project—from data collection and preprocessing to model selection, evaluation, interpretation, and code sharing. We hope that psychological researchers will benefit from this checklist when reporting ML results and will adapt and extend this checklist further in the future.",
+          "url": "https://doi.org/10.1177/25152459261419816",
+          "doi": "https://doi.org/10.1177/25152459261419816",
+          "filter": 0,
+          "created": "2026-3-12"
+        },
         {
           "title": "Using Artificial Intelligence to Generate Affective Images: Methodology and Initial Library",
           "authors": "Maciej Behnke, Maciej Kłoskowski, Michał Klichowski, Wadim Krzyżaniak, Kacper Szymański, Patryk Maciejewski, Patrycja Chwiłkowska, Marta Kowal, Rafał Jończyk, Jan Nowak, Szymon Kupiński, Dominika Kunc, Stanisław Saganowski, Aakash A. Chowkase, Farida Guemaz, Kevin S. Kertechian, Ameer I. M. T. Maadal, Leonardo A. Aguilar, Barnabas T. Alayande, Vimala Balakrishnan, Dana M. Basnight-Brown, Jordane Boudesseul, Tomás A. D’Amelio, Jovi C. Dacanay, Abhishek Dedhe, Shan Gao, Joao F. G. B. Takayanagi, Md. Rohmotul Islam, Alvaro Mailhos, Christine M. Mpyangu, Moises Mebarak, Arooj Najmussaqib, Ju Hee Park, Ekaterine Pirtskhalava, Eli Rice, Sohrab Sami, Yuki Yamada, Jan Baczyński, Lilianna Dera, Szymon Jęśko-Białek, Jakub Łączkowski, Hubert Marciniak, Filip Nowicki, Bartosz Wilczek, James J. Gross, Nicholas A. Coles",
@@ -31,13 +40,21 @@
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "Physiology of everyday sleep and physical activity: An exploratory mixed-methods study of multi-sensor wearables for infants and toddlers",
-          "authors": "Emily Hunter, Niina Kolehmainen, Kianoush Nazarpour, Tim Rapley, Abigail Collins, Christopher Eggett, Craig Williams, Christopher Thornton",
-          "abstract": "Sleep and physical activity are vital to the health, development, and well-being of young children. To effectively promote these behaviours at the population level, better tools for objectively quantifying them are needed. This hypothesis-generating mixed-methods study explored the potential usability of two wearable sensors to measure physical activity and sleep in young children over multiple days, drawing on physiological measurements. A longitudinal within-case design was employed, in which families with children aged 4–36 months from the North East of England were recruited through playgroups and social networks. Parents and children tested two wearable devices in a structured play setting and at home over a period of 1 week. Data on sleep, movement, and heart rate were collected using the Bittium Faros 180 heart rate monitor and the NAPPA sleep monitoring system. Usability was assessed through researcher observations and parent feedback using ethnographic methods. Wear time, heart rate variability during naps, and ultradian respiration cycles during sleep were analysed. Seven children participated and completed the study. While parents were initially enthusiastic, usability challenges arose. The heart rate monitor was considered uncomfortable, its large size hindered activity, and electrodes were detached by parents and accidently, leading to significant data loss. The NAPPA was easier to use, discreet, and comfortable, but disrupted sleep routines. Additional challenges related to non-parental caregiving resulted in non-wear and/or data loss. These results indicate that wearable devices for young children hold potential but face significant design challenges for longitudinal home use at scale. Co-creation of child-friendly, practical hardware and software is essential for effective, large-scale health monitoring in young children.",
-          "url": "https://doi.org/10.3758/s13428-026-02945-x",
-          "doi": "https://doi.org/10.3758/s13428-026-02945-x",
+          "title": "Dynamic measurement invariance cutoffs for longitudinal and dyadic data",
+          "authors": "Daniel McNeish",
+          "url": "https://doi.org/10.3758/s13428-026-02964-8",
+          "doi": "https://doi.org/10.3758/s13428-026-02964-8",
           "filter": 0,
-          "created": "2026-3-6"
+          "created": "2026-3-13"
+        },
+        {
+          "title": "GazePlotter: An open-source solution for the automatic generation of scarf plots from eye-tracking data",
+          "authors": "Michaela Vojtechovska, Stanislav Popelka",
+          "abstract": "Eye-tracking is widely used to study perception, learning, and decision-making, yet visualising temporally structured gaze behaviour remains challenging. Scarf plots (also known as sequence charts) help illustrate when and where participants focus attention, but existing tools are often proprietary, static, or require programming expertise. GazePlotter is an open-source, browser-based application designed to lower these barriers. GazePlotter automatically processes raw exports from six eye-tracking software tools, including Tobii Pro Lab and GazePoint Analysis, and generates interactive, customisable scarf plots. It supports dynamic areas of interest (AOIs), multiple timeline modes (absolute, relative, ordinal), and enables side-by-side comparisons across participants, groups, or stimuli. Complementary visualisations—such as bar charts and transition matrices—can be combined within interactive dashboards. The application runs entirely in the browser (available at https://gazeplotter.com ), preserving data privacy and requiring no installation or registration. Its data pipeline—from import through parsing, AOI aggregation, and export—was validated against proprietary software outputs, with high agreement across key metrics. Parsing is memory-efficient and tested on multi-gigabyte datasets, with consistent functionality across Chrome, Firefox, Safari, and Edge. A task-based usability evaluation demonstrated successful task completion and positive perceived pragmatic and hedonic quality among participants with prior experience in eye-tracking methodology. By enabling non-programmers to create exploratory visualisations directly from raw exports, GazePlotter makes temporally structured gaze data accessible for reproducible, shareable visual analysis. Beyond eye-tracking, the same workflow generalises to any temporally ordered categorical sequence from a compatible CSV input.",
+          "url": "https://doi.org/10.3758/s13428-026-02959-5",
+          "doi": "https://doi.org/10.3758/s13428-026-02959-5",
+          "filter": 0,
+          "created": "2026-3-12"
         },
         {
           "title": "Affective norms for texts in Rioplatense Spanish (ANET-RS): Adaptation and cross-cultural variations in emotional explicitness, gender, and age",
@@ -57,6 +74,15 @@
           "created": "2026-3-9"
         },
         {
+          "title": "Iconicity and transparency in Dutch Sign Language",
+          "authors": "Annika Schiefner, Floris Roelofsen, Beyza Sümer",
+          "abstract": "Iconicity in sign languages, visually motivated relationships between form and meaning, is closely tied to transparency, or the guessability of meaning based on its form. Yet, how to best measure this relationship remains contentious. This study compares iconicity ratings and transparency scores for 1412 lexical signs in Dutch Sign Language (Nederlandse Gebarentaal, NGT) across deaf NGT signers and Dutch and German non-signers. In this paper, we show that iconicity is perceived differently by the different groups of raters and replicate past findings that signers perceive signs from their own sign language as more iconic than non-signers do. No such differences are found between the two groups of non-signers. Our results show that Dutch non-signers’ performance on a transparency task is best predicted by iconicity ratings provided by participants from the same population and by non-signers more broadly. This has important implications for psycholinguistic research, as we show that there is no single “correct” population providing the best iconicity ratings. Instead, rating participants should be matched to the target populations on relevant dimensions to meaningfully predict outcomes in psycholinguistic studies. With this paper, we provide an extensive database of NGT signs with iconicity ratings and transparency scores, available as a reference database for Dutch Sign Language research. The database is aligned with glosses and item-IDs used in the NGT Signbank and Corpus projects, allowing for easy combination of our rating data with phonological and semantic information provided by those databases.",
+          "url": "https://doi.org/10.3758/s13428-026-02969-3",
+          "doi": "https://doi.org/10.3758/s13428-026-02969-3",
+          "filter": 0,
+          "created": "2026-3-13"
+        },
+        {
           "title": "Exploratory structural equation modeling and the curse of dimensionality",
           "authors": "Tra T. Le, Jeroen K. Vermunt, Nicola Ballhausen, Katrijn Van Deun",
           "abstract": "The next-generation approach to research in the behavioral sciences is based on intensive collections of data and complex models characterized by many parameters for a limited sample size. This introduces new challenges for traditional latent-variable methods, as they are found to fail or yield unstable solutions when the number of variables is large relative to the sample size. To tackle this issue, we propose a two-stage regularized approach for exploratory structural equation modeling. In the first stage, we introduce a novel (exploratory) approximate factor analysis technique that not only estimates the measurement model but also the factor scores; indeterminacy of the measurement model is addressed by imposing simple structure through regularizing techniques (LASSO penalty and cardinality constraint). The factor scores can then be used to estimate the structural model in the second stage. An extensive simulation shows that the proposed method outperforms other approaches in recovering the underlying simple structure of the measurement model in both low-dimension high-sample-size and high-dimension low-sample-size settings. The use of the method is demonstrated on two empirical datasets. An implementation of the proposed method in the R software is publicly available: https://github.com/trale97/regularizedESEM .",
@@ -64,6 +90,14 @@
           "doi": "https://doi.org/10.3758/s13428-026-02960-y",
           "filter": 0,
           "created": "2026-3-11"
+        },
+        {
+          "title": "An autoregressive latent change score model for randomized pretest, posttest, follow-up designs",
+          "authors": "Sarfaraz Serang, Annabelle H. Reese, Sarah R. Edmunds",
+          "url": "https://doi.org/10.3758/s13428-026-02962-w",
+          "doi": "https://doi.org/10.3758/s13428-026-02962-w",
+          "filter": 0,
+          "created": "2026-3-13"
         }
       ],
       "articles_hidden": []
@@ -72,14 +106,6 @@
       "journal_full": "Computers in Human Behavior",
       "journal_short": "CHB",
       "articles": [
-        {
-          "title": "Not seeing eye to eye: The effects of perceptual conflicts during social interactions in mixed reality",
-          "authors": "Eugy Han, Portia Wang, Monique Santoso, Keshav Rastogi, Jeremy N. Bailenson",
-          "url": "https://doi.org/10.1016/j.chb.2026.108975",
-          "doi": "https://doi.org/10.1016/j.chb.2026.108975",
-          "filter": 0,
-          "created": "2026-3-6"
-        },
         {
           "title": "Keep It Perfect or Keep It Real? The Influence of Descriptive Norms on Adolescents’ Expression of Multiple Selves in Instagram Stories",
           "authors": "Arne Freya Zillich, Annika Wunderlich",
@@ -95,6 +121,14 @@
           "doi": "https://doi.org/10.1016/j.chb.2026.108980",
           "filter": 0,
           "created": "2026-3-11"
+        },
+        {
+          "title": "Is anthropomorphizing AI worth it? The role of hands-on experience in shaping advice uptake",
+          "authors": "Sisheng Li, Qinghua He, Yawei Qi, Ofir Turel",
+          "url": "https://doi.org/10.1016/j.chb.2026.108983",
+          "doi": "https://doi.org/10.1016/j.chb.2026.108983",
+          "filter": 0,
+          "created": "2026-3-13"
         },
         {
           "title": "The influence of cyber descriptive norms on immoral online behavior: The moderating role of moral conviction",
@@ -176,6 +210,15 @@
       "journal_short": "GPIR",
       "articles": [
         {
+          "title": "Common threats promote patriotism: The role of perceived resource scarcity and socioeconomic status",
+          "authors": "Yang Yang, Chen Gao, Yuquan Tan, Liang Hou",
+          "abstract": "Humanity is currently confronted with numerous common threats such as pandemics, environmental pollution, and economic crises. Will these common threats affect the public’s attitudes towards their country? Three studies ( N = 955) explored the impact of common threats on patriotism. Results showed that only under conditions of high perceived resource scarcity does a common threat promote patriotism. In contrast, under conditions of low perceived resource scarcity, a common threat did not significantly influence patriotism. The role of socioeconomic status was also examined. The results indicated that under conditions of high perceived resource scarcity, individuals of low socioeconomic status, compared with those of high socioeconomic status, exhibited stronger patriotism when facing common threats. This finding provides a reference for uniting hearts and minds as well as for the effective crisis response of the state.",
+          "url": "https://doi.org/10.1177/13684302261419415",
+          "doi": "https://doi.org/10.1177/13684302261419415",
+          "filter": 0,
+          "created": "2026-3-13"
+        },
+        {
           "title": "Accent bias in mindreading",
           "authors": "Christopher B. Buckland, Jessica L. Spence, Kana Imuta",
           "abstract": "Mindreading is integral to navigating social interactions, especially when they involve people from diverse cultural backgrounds who may have different ways of thinking, knowledge, and beliefs. The present study aimed to explore how accent as a social group membership cue impacts our perspective-taking abilities. To do this, 566 participants took part in the Strange Stories task wherein they listened to stories told by either native- or foreign-accented protagonists. Half of the stories required participants to take the protagonists’ perspectives (“mindreading” stories). The other half of the stories were void of mental states to capture participants’ baseline capacities for speech and narrative comprehension (“general comprehension” stories). On both types of stories, participants who listened to native-accented protagonists performed better than those who heard foreign-accented protagonists. Through examining the predictors of mindreading, we found that participants’ perspective-taking performance when listening to native-accented protagonists was simply explained by their general comprehension ability. Better mindreading of foreign-accented protagonists, however, was linked not only to comprehension but also with an intergroup factor: namely, having fewer friendships with people of different races and accents. We discuss the unexpected directionality of this association in light of how accents may impact the ways in which we engage with people who speak differently to ourselves via the social meaning attached to them.",
@@ -239,6 +282,15 @@
           "created": "2026-3-11"
         },
         {
+          "title": "Uncovering the toll: The impact of perceived discrimination on health among structurally advantaged and disadvantaged groups",
+          "authors": "Chantelle Kimberley, Zoe Bertenshaw, Chris G. Sibley, Danny Osborne",
+          "abstract": "Although a vast literature demonstrates that discrimination correlates negatively with health satisfaction, research has yet to examine whether within-person changes in perceptions of discrimination temporally precede declines in subjective health. Studies also overlook the possibility that the relationship between perceived discrimination and health satisfaction differs for structurally advantaged and disadvantaged groups. We address these oversights by utilizing 11 annual waves of data from a nationwide random sample of adults to examine the relationship between perceived discrimination and subjective health among Māori ( N = 9,298) and New Zealand Europeans ( N = 56,499). Results from a multi-group RI-CLPM reveal that perceived discrimination has a negative cross-lagged effect on within-person changes in health satisfaction for Māori, but not for New Zealand Europeans. These results highlight the asymmetrical consequences of discrimination between structurally advantaged and disadvantaged groups, underscoring the pervasive challenges minoritized communities continue to face.",
+          "url": "https://doi.org/10.1177/13684302261428465",
+          "doi": "https://doi.org/10.1177/13684302261428465",
+          "filter": 0,
+          "created": "2026-3-13"
+        },
+        {
           "title": "Seeking or receiving help: Implications for recipient sense of control, evaluations of the helper and of the helper’s group",
           "authors": "Samer Halabi, John F. Dovidio, Lysann Zander, Arie Nadler",
           "abstract": "The goal of the present research was to expand on previous work on the dynamics of intergroup helping. Specifically, the present research investigated the responses of Israeli-Arab high school students (Study 1) and Israeli-Arab adults (Study 2) to a scenario in which an Israeli-Arab person receives assistance from an Israeli-Jewish individual. In Study 2, these responses were also compared to assistance from an ingroup member (i.e., an Israeli-Arab individual). In two studies, Israeli-Arab participants learned about a situation in which an Israeli-Arab person receives assistance from an Israeli-Jewish individual. The context of help, with the assistance given either assumptively or in response to a request, and the type of help, either dependency-oriented or autonomy-oriented, were independently varied. In Study 2, conditions in which the helper was an Israeli-Arab individual were also included. Across both studies, context and type of help influenced responses to the outgroup helper (interactively in Study 1 and additively in Study 2) with assumptive, dependency-oriented assistance eliciting the most negative evaluations of the helper. These effects did not occur when, in Study 2, the helper was an ingroup member. For adults (Study 2), perceptions that outgroup assistance weakened the recipient’s sense of control mediated more negative evaluations of the outgroup helper. For both adults and high school students, evaluations of the Israeli-Jewish helper mediated evaluations of Israeli-Jewish people in general. Limitations and implications of the research are considered.",
@@ -261,6 +313,22 @@
           "doi": "https://doi.org/10.1016/j.jesp.2026.104896",
           "filter": 0,
           "created": "2026-3-7"
+        },
+        {
+          "title": "Smiling your way to happiness or misery? Experimental tests of competing perspectives",
+          "authors": "Nicholas A. Coles, Annabel Dang, Joao Francisco Goes Braga Takayanagi",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104895",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104895",
+          "filter": 0,
+          "created": "2026-3-13"
+        },
+        {
+          "title": "The effect of frameswitching on perceptions of decisiveness, creativity, and job fit",
+          "authors": "Sabrina Piccolo, Analía Albuja",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104912",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104912",
+          "filter": 0,
+          "created": "2026-3-13"
         },
         {
           "title": "Is a random human peer better than a highly supportive chatbot in reducing loneliness over time?",
@@ -315,14 +383,6 @@
           "doi": "https://doi.org/10.1080/00273171.2026.2636166",
           "filter": 0,
           "created": "2026-3-9"
-        },
-        {
-          "title": "Goodness-of-Fit Assessment in Multidimensional Scaling and Unfolding",
-          "authors": "Patrick Mair, Ingwer Borg, Thomas Rusch",
-          "url": "https://doi.org/10.1080/00273171.2016.1235966",
-          "doi": "https://doi.org/10.1080/00273171.2016.1235966",
-          "filter": 0,
-          "created": "2026-3-6"
         }
       ],
       "articles_hidden": []
@@ -366,6 +426,15 @@
           "created": "2026-3-12"
         },
         {
+          "title": "Gender Differences in Aversion to Social Comparison Feedback",
+          "authors": "Judy Qiu, Selin Kesebir",
+          "abstract": "Many organizations offer their members social comparison feedback, which informs them how they perform relative to others. Previous research has linked social comparison feedback to improved motivation and performance. We propose, however, that such feedback has psychological costs that disproportionately impact women. Across six pre-registered studies, we show that social comparison feedback is more aversive and anxiety-inducing for women than for men. This gender difference persists after accounting for performance expectations and actual performance. Two mechanisms underlie women’s greater aversion to social comparison feedback: Compared to men, women are less competitive and more concerned that social comparisons will harm their relationships. Our findings extend social comparison research by distinguishing between self-initiated and externally imposed comparisons and documenting a novel gender difference. We discuss the hidden costs of a common feedback method and the need to consider gendered responses when designing feedback systems.",
+          "url": "https://doi.org/10.1177/01461672261424936",
+          "doi": "https://doi.org/10.1177/01461672261424936",
+          "filter": 0,
+          "created": "2026-3-13"
+        },
+        {
           "title": "Indigenous, Invisible: Sensitivity to Misrepresentation and Omission, Perceptions of Group Discrimination and Psychological Well-Being",
           "authors": "Julisa J. Lopez, Ariana Munoz-Salgado, Emma Ward-Griffin, J. Doris Dai, Jamie L. Yellowtail, Nikki Santos, Judith LeBlanc, Adam Farero, Stephanie A. Fryberg, Arianne E. Eason",
           "abstract": "Contemporary representations of Native Peoples in mainstream U.S. society are largely scarce and inaccurate. This paper investigates individual differences in Native Peoples’ sensitivity to biased social representations of their group. Across three of the largest surveys conducted with Native Peoples in the United States ( N Total = 16,157), participants, who are more sensitive (vs. less sensitive) to misrepresentation and omission, report poorer psychological well-being (e.g., lower life satisfaction, higher anxiety, and depression). This relationship is explained, in part, by perceptions of group discrimination such that more sensitive individuals are also more attuned to the discrimination Native Peoples experience. These findings suggest that the way Native Peoples are represented or fail to be represented may negatively impact their well-being. One way to improve Native Peoples’ well-being is to systematically acknowledge and discourage omissions and misrepresentations, and to uplift diverse and accurate representations, preferably defined by Native Peoples for Native Peoples.",
@@ -373,6 +442,15 @@
           "doi": "https://doi.org/10.1177/01461672261423646",
           "filter": 0,
           "created": "2026-3-11"
+        },
+        {
+          "title": "Is There a Price to Pretending? Examining the Potential Cost of (Perceived) Counterdispositional Openness",
+          "authors": "Evy Kuijpers, Bart Wille, Joeri Hofmans",
+          "abstract": "Although some studies demonstrated that counterdispositional behavior may be taxing, substantially more studies fail to provide evidence for this notion or even find beneficial effects of acting in a more extraverted or conscientious way. Because extraversion and conscientiousness are more socially valued and energizing in nature, it raises the question of what the consequences are of acting counterdispositionally on a more “neutral” personality dimension (i.e., openness). To address this issue, the current study examined the within-person relationship between (perceived) counterdispositional openness, positive affect (PA), negative affect (NA), and exhaustion. Using a 14-day experience sampling methods dataset ( N = 191 individuals and N = 14,095 repeated observations), we found that higher levels of (perceived) openness were associated with higher levels of PA and lower levels of exhaustion, while no relationship was found with NA. Hence, no costs were associated with acting out of character, even when considering subjective experiences of counterdispositional behavior.",
+          "url": "https://doi.org/10.1177/01461672261424004",
+          "doi": "https://doi.org/10.1177/01461672261424004",
+          "filter": 0,
+          "created": "2026-3-14"
         }
       ],
       "articles_hidden": []
