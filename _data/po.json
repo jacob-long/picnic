@@ -1,18 +1,18 @@
 {
-  "update": "2026-03-19",
+  "update": "2026-03-20",
   "content": [
     {
       "journal_full": "Journal of Survey Statistics and Methodology",
       "journal_short": "JSSAM",
       "articles": [
         {
-          "title": "Direct-assisted Bayesian unit-level modeling for small area estimation of rare event prevalence",
-          "authors": "Alana McGovern, Katherine Wilson, Jon Wakefield",
-          "abstract": "Small-area estimation using survey data can be achieved by using either a design-based or a model-based inferential approach. Design-based direct estimators are generally preferable because of their consistency, asymptotic normality, and reliance on fewer assumptions. However, when data are sparse at the desired area level, as is often the case when measuring rare events, these direct estimators can have extremely large uncertainty, making a model-based approach preferable. A model-based approach with a random spatial effect borrows information from surrounding areas at the cost of inducing shrinkage. As a result, estimates may be over-smoothed and inconsistent with design-based estimates at higher area levels when aggregated. We propose two unit-level Bayesian models for small area estimation of rare event prevalence, which use design-based direct estimates at a higher area level to increase consistency in aggregation. This model framework is designed to accommodate sparse data obtained from two-stage stratified cluster sampling, which is particularly relevant to applications in low- and middle-income countries. After introducing the model framework and its implementation, we conduct a simulation study to evaluate its properties and apply it to the estimation of the neonatal mortality rate in Zambia, using 2014 Demographic Health Surveys data.",
-          "url": "https://doi.org/10.1093/jssam/smaf037",
-          "doi": "https://doi.org/10.1093/jssam/smaf037",
+          "title": "HE SAID, SHE SAID: GENDER-OF-INTERVIEWER EFFECTS AND THE ROLE OF THE INTERVIEWERS’ GENDER ATTITUDES IN THE HUNGARIAN ESS ROUND 11",
+          "authors": "Ádám Stefkovics, Vera Messing",
+          "abstract": "The measurement of gender attitudes in face-to-face surveys can be problematic due to gender of interviewer effects. When dealing with sensitive gender-related questions, respondents may downplay their genuine beliefs to avoid potential negative judgment from an interviewer of a particular gender or they may emphatically align their responses with perceived socially accepted opinions. In this study, we examine direct gender of interviewer effects and the interaction between the respondents’ and the interviewers’ gender. In addition, we extend prior studies by asking whether the interviewers’ own gender attitudes are associated with the respondents’ attitudes. We use the 11th round of the European Social Survey in Hungary, which contained a module on gender attitudes. In a unique setting, interviewers were asked to answer the same survey, resulting in 1,548 interviewer-respondent dyads available for analysis. The results of the multilevel models suggest no direct effects of the gender of the interviewer and weak interaction effects across different types of attitudes. However, the interviewer’s gender attitudes strongly and positively predicted the respondent’s same attitudes in many cases. We recommend that future face-to-face survey research control for some key attitudinal characteristics of the interviewer and focus on objectivity and self-expression during interviewer training.",
+          "url": "https://doi.org/10.1093/jssam/smaf012",
+          "doi": "https://doi.org/10.1093/jssam/smaf012",
           "filter": 0,
-          "created": "2025-10-11"
+          "created": "2025-7-1"
         }
       ],
       "articles_hidden": []
@@ -22,6 +22,15 @@
       "journal_short": "POQ",
       "articles": [
         {
+          "title": "Paying It Forward: Generalized Reciprocity in Mass Opinion on Foreign Aid",
+          "authors": "Joonbum Bae, Changkeun Lee",
+          "abstract": "Does providing American vaccines overseas improve views of the United States? Do beneficiaries of donated shots change their opinions on foreign aid? Can the example of the United States providing aid lead to higher support for international assistance in other nations? Utilizing original panel data from a two-wave survey fielded in South Korea in 2021 and 2022, this paper finds no evidence that American shots, whether donated or purchased, lead to more positive views of the United States. However, we document a “pay it forward effect,” where recipients of donated COVID-19 vaccines from the United States were more likely to pass on the generosity by supporting Korean vaccine aid to other countries in need. Information that the United States was supplying assistance to developing countries also made it more likely that vaccinated South Koreans would support their government donating vaccines abroad. This study provides evidence of second-order effects of vaccine aid that can benefit American interests by facilitating the timely distribution of vaccines across the globe, even when it does not improve the donor’s image. The results highlight the role foreign aid can play in furthering international cooperation and call for broader criteria when evaluating its effect.",
+          "url": "https://doi.org/10.1093/poq/nfag003",
+          "doi": "https://doi.org/10.1093/poq/nfag003",
+          "filter": 0,
+          "created": "2026-3-19"
+        },
+        {
           "title": "Designing Passwords for Web Survey Access: The Effects of Password Length and Complexity on Survey and Panel Recruitment",
           "authors": "Georg-Christoph Haas, Marieke Volkert, Stefan Zins",
           "abstract": "Online probability panels that recruit participants via postal invitation letters use passwords to manage access to the survey. While previous research has examined primarily whether providing a password affects response rates, less attention has been given to the impact of password strength, defined by length and complexity, on response propensities. Password length refers to the number of characters in a password, while complexity refers to the set of characters (e.g., lowercase letters, digits). This study evaluates the influence of password length and complexity on various participation levels (i.e., survey access, response rates, and panel registration) as well as the propensity to consent to data linkage and item response rates for income questions. We conducted an experiment in the first wave of a German online probability survey and manipulated password length and complexity. Additionally, we included a group using the default length and complexity settings (eight uppercase letters) of the survey hosting service. The participants were randomly assigned to one of these groups. The findings indicate that longer and more complex passwords increase both participation rates and the propensity to consent to data linkage between survey and administrative data.",
@@ -29,15 +38,6 @@
           "doi": "https://doi.org/10.1093/poq/nfag001",
           "filter": 0,
           "created": "2026-1-4"
-        },
-        {
-          "title": "Beyond Surveys: Leveraging Real-World Events to Validate Behavioral Measures of News Exposure",
-          "authors": "Ana S Cardenal, Ludovic Terren, David N Hopmann, Silvia Majó-Vázquez, Peter Van Aelst, Alon Zoizner",
-          "abstract": "Do people learn about the political world through online media? We address this question by exploiting an unexpected global news event—the Russian invasion of Ukraine—and by developing exogenous measures of media exposure based on three months of web-tracking data from five advanced democracies. Our analysis differentiates between visits to general news domains and visits to politically relevant and Ukraine specific articles, with the latter identified using machine-learning techniques. We validate these exposure measures through multiple approaches, including their capacity to predict knowledge about the Russian invasion. Our findings underscore the importance of granularity. Visits to—and time spent on—Ukraine-related articles emerge as the only significant predictor of surveillance knowledge, whereas broader indicators, such as domain-level visits, show no significant effects once self-reported exposure and other key covariates are taken into account. We conclude by discussing the substantive and methodological implications of these findings.",
-          "url": "https://doi.org/10.1093/poq/nfaf068",
-          "doi": "https://doi.org/10.1093/poq/nfaf068",
-          "filter": 0,
-          "created": "2025-11-19"
         },
         {
           "title": "How Empathy and Partisanship Affected Attitude Changes Following the Assassination of Shinzo Abe: Evidence from Panel Surveys",

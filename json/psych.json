@@ -1,18 +1,18 @@
 {
-  "update": "2026-03-19",
+  "update": "2026-03-20",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
       "journal_short": "AMPPS",
       "articles": [
         {
-          "title": "Ensuring Transparency and Trust in Supervised-Machine-Learning Studies: A Checklist for Psychological Researchers",
-          "authors": "Hanyi Min, Feng Guo, Tianjun Sun, Mengqiao Liu, Frederick L. Oswald",
-          "abstract": "Machine-learning (ML) algorithms are being rapidly incorporated into the work of psychologists given their capability and flexibility in analyzing large-scale, complex, or otherwise messy data sets. In this context and in the spirit of open science, ML research should be conducted in a transparent, understandable, and ethical manner. However, publications by psychology researchers and practitioners show a troubling lack of consistency in reporting ML information. Given that ML offers a wide range of analytical options, in this article, we address an important need by providing a comprehensive, open-science checklist that specifies the information researchers should disclose at each stage of a supervised-ML project—from data collection and preprocessing to model selection, evaluation, interpretation, and code sharing. We hope that psychological researchers will benefit from this checklist when reporting ML results and will adapt and extend this checklist further in the future.",
-          "url": "https://doi.org/10.1177/25152459261419816",
-          "doi": "https://doi.org/10.1177/25152459261419816",
+          "title": "Google-Search Data for Psychological Scientists: A Tutorial and Best Practices",
+          "authors": "Jordan W. Moon, Michael Barlev",
+          "abstract": "Google searches have been described as the most important data set on the human psyche ever assembled. Google-search data—accessible through a tool called Google Trends—can provide new insights on topics as varied as stereotypes and prejudices, political attitudes, religious identity and belief, personality, motivations, psychological well-being, mental health, and culture. Google Trends can generate highly customized data sets: Users can compare the popularity of search terms across most of the world or access longitudinal data as far back as 2004, and they can do so with high geographical and temporal granularity. Notwithstanding these opportunities, Google Trends has significant limitations. Without appropriate caution, users can easily rely on data that are not meaningful or draw mistaken conclusions. We provide a comprehensive overview and tutorial covering (a) opportunities of Google Trends for psychological scientists; (b) how Google Trends scores are calculated, how reliable they are, and why some queries might yield low-quality data; (c) instructions with accompanying R code for creating custom data sets beyond what Google Trends provides by default; (d) example analyses for studies that could be done using Google Trends data; (e) an overview of common pitfalls; and (f) recommendations for safeguarding data quality and their interpretation.",
+          "url": "https://doi.org/10.1177/25152459251409146",
+          "doi": "https://doi.org/10.1177/25152459251409146",
           "filter": 0,
-          "created": "2026-3-12"
+          "created": "2026-3-19"
         },
         {
           "title": "SCORES: A Clustering Tool for Free-Text Responses",
@@ -39,15 +39,6 @@
           "created": "2026-3-13"
         },
         {
-          "title": "GazePlotter: An open-source solution for the automatic generation of scarf plots from eye-tracking data",
-          "authors": "Michaela Vojtechovska, Stanislav Popelka",
-          "abstract": "Eye-tracking is widely used to study perception, learning, and decision-making, yet visualising temporally structured gaze behaviour remains challenging. Scarf plots (also known as sequence charts) help illustrate when and where participants focus attention, but existing tools are often proprietary, static, or require programming expertise. GazePlotter is an open-source, browser-based application designed to lower these barriers. GazePlotter automatically processes raw exports from six eye-tracking software tools, including Tobii Pro Lab and GazePoint Analysis, and generates interactive, customisable scarf plots. It supports dynamic areas of interest (AOIs), multiple timeline modes (absolute, relative, ordinal), and enables side-by-side comparisons across participants, groups, or stimuli. Complementary visualisations—such as bar charts and transition matrices—can be combined within interactive dashboards. The application runs entirely in the browser (available at https://gazeplotter.com ), preserving data privacy and requiring no installation or registration. Its data pipeline—from import through parsing, AOI aggregation, and export—was validated against proprietary software outputs, with high agreement across key metrics. Parsing is memory-efficient and tested on multi-gigabyte datasets, with consistent functionality across Chrome, Firefox, Safari, and Edge. A task-based usability evaluation demonstrated successful task completion and positive perceived pragmatic and hedonic quality among participants with prior experience in eye-tracking methodology. By enabling non-programmers to create exploratory visualisations directly from raw exports, GazePlotter makes temporally structured gaze data accessible for reproducible, shareable visual analysis. Beyond eye-tracking, the same workflow generalises to any temporally ordered categorical sequence from a compatible CSV input.",
-          "url": "https://doi.org/10.3758/s13428-026-02959-5",
-          "doi": "https://doi.org/10.3758/s13428-026-02959-5",
-          "filter": 0,
-          "created": "2026-3-12"
-        },
-        {
           "title": "Iconicity and transparency in Dutch Sign Language",
           "authors": "Annika Schiefner, Floris Roelofsen, Beyza Sümer",
           "abstract": "Iconicity in sign languages, visually motivated relationships between form and meaning, is closely tied to transparency, or the guessability of meaning based on its form. Yet, how to best measure this relationship remains contentious. This study compares iconicity ratings and transparency scores for 1412 lexical signs in Dutch Sign Language (Nederlandse Gebarentaal, NGT) across deaf NGT signers and Dutch and German non-signers. In this paper, we show that iconicity is perceived differently by the different groups of raters and replicate past findings that signers perceive signs from their own sign language as more iconic than non-signers do. No such differences are found between the two groups of non-signers. Our results show that Dutch non-signers’ performance on a transparency task is best predicted by iconicity ratings provided by participants from the same population and by non-signers more broadly. This has important implications for psycholinguistic research, as we show that there is no single “correct” population providing the best iconicity ratings. Instead, rating participants should be matched to the target populations on relevant dimensions to meaningfully predict outcomes in psycholinguistic studies. With this paper, we provide an extensive database of NGT signs with iconicity ratings and transparency scores, available as a reference database for Dutch Sign Language research. The database is aligned with glosses and item-IDs used in the NGT Signbank and Corpus projects, allowing for easy combination of our rating data with phonological and semantic information provided by those databases.",
@@ -72,20 +63,28 @@
       "journal_short": "CHB",
       "articles": [
         {
+          "title": "When Tech Makes the Team: Mind Perception as a Unifying Framework for Human and Human-Agent Teams",
+          "authors": "Alexandra M. Harris-Watson, Lindsay E. Larson",
+          "url": "https://doi.org/10.1016/j.chb.2026.109000",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109000",
+          "filter": 0,
+          "created": "2026-3-19"
+        },
+        {
+          "title": "Formation and Resolution of the Knowledge Sharing Dilemma Under Competitive Pressure: An Evolutionary Game Approach Based on Complex Networks",
+          "authors": "Maishuang Sun, Huayi Wang",
+          "url": "https://doi.org/10.1016/j.chb.2026.108997",
+          "doi": "https://doi.org/10.1016/j.chb.2026.108997",
+          "filter": 0,
+          "created": "2026-3-19"
+        },
+        {
           "title": "Self-Regulation and overreliance on artificial intelligence: Unpacking a Paradox through a Mixed-Methods Study in Higher Education",
           "authors": "Héctor Galindo-Domínguez, Nahia Delgado, Martín Sainz-de-la-Maza, Jose-María Etxabe",
           "url": "https://doi.org/10.1016/j.chb.2026.108985",
           "doi": "https://doi.org/10.1016/j.chb.2026.108985",
           "filter": 0,
           "created": "2026-3-18"
-        },
-        {
-          "title": "Is anthropomorphizing AI worth it? The role of hands-on experience in shaping advice uptake",
-          "authors": "Sisheng Li, Qinghua He, Yawei Qi, Ofir Turel",
-          "url": "https://doi.org/10.1016/j.chb.2026.108983",
-          "doi": "https://doi.org/10.1016/j.chb.2026.108983",
-          "filter": 0,
-          "created": "2026-3-13"
         },
         {
           "title": "How artificial intelligence functionalities boost consumer benefit and impulse shopping? The significant role of responsive communication and conversational communication",
@@ -96,7 +95,23 @@
           "created": "2026-3-17"
         },
         {
-          "title": "Detection and Spill-Over Effects of AI-Generated Images in Political Messages: Evidence from Two Pre-Registered Experiments",
+          "title": "Is anthropomorphizing AI worth it? The role of hands-on experience in shaping advice uptake",
+          "authors": "Sisheng Li, Qinghua He, Yawei Qi, Ofir Turel",
+          "url": "https://doi.org/10.1016/j.chb.2026.108983",
+          "doi": "https://doi.org/10.1016/j.chb.2026.108983",
+          "filter": 0,
+          "created": "2026-3-13"
+        },
+        {
+          "title": "Beyond Symptoms: Latent Profiles of Student Burnout and Their Social-Cognitive Associations in Online Learning",
+          "authors": "Yaxin Tu, Changqin Huang, Chengling Gao, Yun-Fang Tu, Yafeng Pan, Gwo-Jen Hwang",
+          "url": "https://doi.org/10.1016/j.chb.2026.108998",
+          "doi": "https://doi.org/10.1016/j.chb.2026.108998",
+          "filter": 0,
+          "created": "2026-3-19"
+        },
+        {
+          "title": "Detection and spill-over effects of AI-generated images in political messages: Evidence from two pre-registered experiments",
           "authors": "Darian Harff",
           "url": "https://doi.org/10.1016/j.chb.2026.108989",
           "doi": "https://doi.org/10.1016/j.chb.2026.108989",
@@ -136,12 +151,12 @@
           "created": "2026-3-14"
         },
         {
-          "title": "When algorithms remember what employees forget: Reversing the common view that artificial intelligence (AI) workplace advisors lack context",
-          "authors": "Christopher R. Dishop",
-          "url": "https://doi.org/10.1016/j.chb.2026.108994",
-          "doi": "https://doi.org/10.1016/j.chb.2026.108994",
+          "title": "Disclosures and Literacy as Determinants of AI-Influencer Recognition and Well-Being",
+          "authors": "Michaela Forrai, Delia Cristina Balaban, Desirée Schmuck",
+          "url": "https://doi.org/10.1016/j.chb.2026.108978",
+          "doi": "https://doi.org/10.1016/j.chb.2026.108978",
           "filter": 0,
-          "created": "2026-3-12"
+          "created": "2026-3-19"
         },
         {
           "title": "From Stress to Emotional Well-being: Exploring How Multiplayer Online Video Games Foster Emotional Resilience Among Generation Z Players",
@@ -174,15 +189,6 @@
           "doi": "https://doi.org/10.1177/13684302261419415",
           "filter": 0,
           "created": "2026-3-13"
-        },
-        {
-          "title": "When our leaders harm outgroups: How leader prototypicality and situational ambiguity shape outgroup solidarity and leader punishment",
-          "authors": "Hakan Çakmak, Ernestine H. Gordijn, Yasin Koc",
-          "abstract": "When prototypical leaders commit organizational transgressions, highly-identified members of the organizations are motivated to punish their leaders, due to increased group-based image concerns. However, do similar dynamics apply when high-status ingroup leaders transgress against vulnerable low-status outgroups? Moreover, does this lead to outgroup solidarity? To address these gaps, we conducted three pre-registered experiments with European, Australian, and British samples, respectively ( N total = 1,039). The first two studies, in which we manipulated leader prototypicality, focused on EU and Australian leader transgressions regarding the treatment of refugees. Moderated mediation analyses showed that, when their leader was prototypical, high-identifiers exhibited greater outgroup solidarity, indirectly through increased group-based image concerns. The third study, conducted in the UK, examined prototypical leader transgressions regarding minority mental health issues following the 2024 riots. This study manipulated transgression ambiguity and found that high-identifiers’ image-based outgroup solidarity was more pronounced when the transgression case was clear-cut rather than ambiguous. Across all studies, low-identifiers expressed outgroup solidarity through perceptions of injustice about the treatment of outgroups, regardless of leader prototypicality and transgression ambiguity. These findings integrate the transgressive leadership literature with solidarity-based collective action research by highlighting leader prototypicality as a key factor in eliciting outgroup solidarity through image concerns among individuals highly invested in high-status transgressor groups, especially when transgressions are clear-cut. Implications are discussed.",
-          "url": "https://doi.org/10.1177/13684302261426316",
-          "doi": "https://doi.org/10.1177/13684302261426316",
-          "filter": 0,
-          "created": "2026-3-12"
         },
         {
           "title": "Uncovering the toll: The impact of perceived discrimination on health among structurally advantaged and disadvantaged groups",
@@ -228,6 +234,21 @@
       "articles_hidden": []
     },
     {
+      "journal_full": "Journal of Personality and Social Psychology",
+      "journal_short": "JPSP",
+      "articles": [
+        {
+          "title": "The unexpected importance of expectations in self-conscious emotions.",
+          "authors": "Jessica L. Tracy, Gabrielle C. Ibasco",
+          "url": "https://doi.org/10.1037/pspa0000486",
+          "doi": "https://doi.org/10.1037/pspa0000486",
+          "filter": 0,
+          "created": "2026-3-19"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Multivariate Behavioral Research",
       "journal_short": "MBR",
       "articles": [
@@ -255,15 +276,6 @@
       "journal_short": "PSPB",
       "articles": [
         {
-          "title": "Liberals and Conservatives See Different Victims: Moral Disagreement Is Explained by Different Assumptions of Vulnerability",
-          "authors": "Jake Womick, Emily Kubin, Daniela Goya-Tocchetto, Nicolas Restrepo Ochoa, Carlos Rebollar, Kyra Kapsaskis, Samuel Pratt, Helen Devine, B. Keith Payne, Stephen Vaisey, Kurt Gray",
-          "abstract": "Moral disagreement across politics revolves around the key question, “Who is a victim?” Twelve studies explain moral conflict with assumptions of vulnerability (AoVs) : liberals and conservatives disagree about who is especially vulnerable to victimization, harm, and mistreatment. AoVs predict moral judgments, implicit attitudes, and charitable behavior—and explain the link between ideology and moral judgment (usually better than moral foundations). Four clusters of targets—the Environment, the Othered, the Powerful, and the Divine—explain many political debates, from immigration and policing to religion and racism. In general, liberals see vulnerability as group-based, dividing the moral world into groups of vulnerable victims and invulnerable oppressors. Conservatives downplay group-based differences, seeing vulnerability as more individual and evenly distributed. AoVs can be experimentally manipulated and causally impact moral evaluations. These results support a universal harm-based moral mind (Theory of Dyadic Morality): moral disagreement reflects different understandings of harm, not different foundations.",
-          "url": "https://doi.org/10.1177/01461672261422957",
-          "doi": "https://doi.org/10.1177/01461672261422957",
-          "filter": 0,
-          "created": "2026-3-12"
-        },
-        {
           "title": "Is There a Price to Pretending? Examining the Potential Cost of (Perceived) Counterdispositional Openness",
           "authors": "Evy Kuijpers, Bart Wille, Joeri Hofmans",
           "abstract": "Although some studies demonstrated that counterdispositional behavior may be taxing, substantially more studies fail to provide evidence for this notion or even find beneficial effects of acting in a more extraverted or conscientious way. Because extraversion and conscientiousness are more socially valued and energizing in nature, it raises the question of what the consequences are of acting counterdispositionally on a more “neutral” personality dimension (i.e., openness). To address this issue, the current study examined the within-person relationship between (perceived) counterdispositional openness, positive affect (PA), negative affect (NA), and exhaustion. Using a 14-day experience sampling methods dataset ( N = 191 individuals and N = 14,095 repeated observations), we found that higher levels of (perceived) openness were associated with higher levels of PA and lower levels of exhaustion, while no relationship was found with NA. Hence, no costs were associated with acting out of character, even when considering subjective experiences of counterdispositional behavior.",
@@ -285,6 +297,21 @@
       "articles_hidden": []
     },
     {
+      "journal_full": "Psychological Bulletin",
+      "journal_short": "PsychBull",
+      "articles": [
+        {
+          "title": "Misogynous messages in the media increase hostility to women: Evidence from a meta-analysis of 257 experimental and nonexperimental studies.",
+          "authors": "Christa Nater, Lilly Felber, Ronja Lüke, Alice H. Eagly, Tobias Greitemeyer, David I. Miller, Angela R. Dorrough",
+          "url": "https://doi.org/10.1037/bul0000513",
+          "doi": "https://doi.org/10.1037/bul0000513",
+          "filter": 0,
+          "created": "2026-3-19"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Psychological Methods",
       "journal_short": "PM",
       "articles": [
@@ -295,6 +322,14 @@
           "doi": "https://doi.org/10.1037/met0000824",
           "filter": 0,
           "created": "2026-3-17"
+        },
+        {
+          "title": "Drawing credible directed acyclic graphs for causal inference.",
+          "authors": "Nathan J. Quimpo, Peter M. Steiner",
+          "url": "https://doi.org/10.1037/met0000831",
+          "doi": "https://doi.org/10.1037/met0000831",
+          "filter": 0,
+          "created": "2026-3-19"
         }
       ],
       "articles_hidden": []
@@ -311,6 +346,45 @@
           "doi": "https://doi.org/10.1177/09567976261430288",
           "filter": 0,
           "created": "2026-3-18"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Psychology of Music",
+      "journal_short": "PsychMusic",
+      "articles": [
+        {
+          "title": "Gaze behavior, attention allocation, and automaticity in expert chamber music coaches",
+          "authors": "Robin S Heinsen, Robert A Duke",
+          "abstract": "Two artist-level chamber music coaches wore eye-tracking glasses while teaching a chamber rehearsal, then participated in two interviews to discuss their teaching – first, immediately after the rehearsal, then approximately 2 weeks later, while watching their lesson videos and eye-tracking recordings. Teachers’ eye movements revealed rich networks of rapid information tracking and goal-directed attention, but both teachers struggled to articulate details of their thinking or their attention allocation, suggesting that they conceive of their teaching behaviors in a broad construal, and the complex attentional behaviors detected in their gaze behavior occurred unconsciously. This is among the first studies to explore attentional mechanisms that underlie expert music teaching in context, specifically analyzing teachers’ momentary attention allocation among several students in relation to specific proximal performance goals. Results illustrate how teachers solved intricate problems, decided what to pursue, and kept track of multiple students in ways that are inaccessible via overt behavior observation. Comparing gaze behavior to interview data suggests that these teachers’ descriptions of their thinking may be incomplete representations of their pedagogical expertise.",
+          "url": "https://doi.org/10.1177/03057356251413254",
+          "doi": "https://doi.org/10.1177/03057356251413254",
+          "filter": 0,
+          "created": "2026-3-19"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Psychology of Popular Media",
+      "journal_short": "PPM",
+      "articles": [
+        {
+          "title": "Interrelational dynamics in problematic video game use: A network analysis.",
+          "authors": "Chloé Nguyen, Valentin Flaudias, Quentin Hallez",
+          "url": "https://doi.org/10.1037/ppm0000658",
+          "doi": "https://doi.org/10.1037/ppm0000658",
+          "filter": 0,
+          "created": "2026-3-19"
+        },
+        {
+          "title": "Once upon a swipe: The impact of storytelling on dating profile appeal.",
+          "authors": "Gurit E. Birnbaum, Kobi Zholtack",
+          "url": "https://doi.org/10.1037/ppm0000661",
+          "doi": "https://doi.org/10.1037/ppm0000661",
+          "filter": 0,
+          "created": "2026-3-19"
         }
       ],
       "articles_hidden": []
