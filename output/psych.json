@@ -1,5 +1,5 @@
 {
-  "update": "2026-03-30",
+  "update": "2026-03-31",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -22,6 +22,51 @@
       "journal_short": "BRM",
       "articles": [
         {
+          "title": "An AI-powered research assistant in the lab: A practical guide for text analysis through iterative collaboration with LLMs",
+          "authors": "Gino Carmona-Díaz, William Jiménez-Leal, María Alejandra Grisales, Chandra Sripada, Santiago Amaya, Michael Inzlicht, Juan Pablo Bermúdez",
+          "abstract": "Analyzing texts such as open-ended responses, headlines, or social media posts is a time- and labor-intensive process highly susceptible to bias. However, large language models (LLMs) are promising tools for text analysis, using either a predefined (top-down) or a data-driven (bottom-up) taxonomy, without sacrificing quality. Here, we present a step-by-step tutorial to efficiently develop, test, and apply taxonomies for analyzing unstructured data through an iterative and collaborative process between researchers and an LLM. Using personal goals provided by participants as an example, we demonstrate how we used this method to write prompts to review datasets and generate a taxonomy of life domains, evaluate and refine the taxonomy through prompt and direct modifications, and apply the taxonomy to categorize an entire dataset with high intercoder reliability, while achieving high levels of human–LLM intercoder agreement, reducing analysis time by approximately 87.5%. This test offers a proof of concept, suggesting that with the right procedures LLMs can be used to generate reliable bottom-up categorizations. We discuss the possibilities and limitations of using LLMs for text analysis.",
+          "url": "https://doi.org/10.3758/s13428-026-02966-6",
+          "doi": "https://doi.org/10.3758/s13428-026-02966-6",
+          "filter": 0,
+          "created": "2026-3-30"
+        },
+        {
+          "title": "Support for the coverage EMA: Participants can perceive and report discrete auditory event characteristics over 2 h in a simulated EMA scenario",
+          "authors": "Meynard John L. Toledo, Arthur A. Stone, Olivia L. Pomeroy, Sarah Goldstein",
+          "abstract": "Ecological momentary assessment (EMA) minimizes recall bias common in self-report, but variations like the “coverage model” reintroduce short-term recall, raising concerns about accuracy. This study evaluated the fidelity of ratings of characteristics of a discrete auditory event over a 2-h period, simulating coverage EMA, and examined the influence of objective event characteristics (intensity, duration, temporal location) on these ratings. In a remote experiment, participants ( N = 741) watched a 2-h film containing one embedded thunder sound stimulus. A 2 × 2 × 3 between-subjects design manipulated stimulus intensity (high/low), duration (short/long), and temporal location (start/middle/end). Immediately after, participants completed coverage EMA-style ratings of perceived intensity, duration, and location. Participants' ratings generally reflected the manipulated objective characteristics; the main effects of intensity, duration, and location on their corresponding ratings were significant. Evidence supporting cross-characteristic influences were weak/anecdotal, and effect sizes were small. Approximately 25% of participants failed to accurately report the single event's occurrence; accurate detection was predicted by higher intensity, longer duration, and temporal location ( p &lt; .01). The results show that coverage EMA reports over a 2-h period can capture basic features of discrete events and demonstrate sensitivity to objective characteristics. They also exhibit certain reporting patterns that suggest potential influences between characteristics, although relatively weak effect sizes. Event detection sensitivity may also vary, particularly for less salient stimuli. These findings highlight the utility of coverage EMA while also emphasizing the need for researchers to consider how these patterns might operate within the context of their specific study goals.",
+          "url": "https://doi.org/10.3758/s13428-026-02977-3",
+          "doi": "https://doi.org/10.3758/s13428-026-02977-3",
+          "filter": 0,
+          "created": "2026-3-30"
+        },
+        {
+          "title": "Estimating correlations across tasks in experimental psychology",
+          "authors": "Shanglin Yang, Jeffrey N. Rouder",
+          "abstract": "Understanding how people covary in performance across experimental tasks is central to individual-difference psychology. The classic Pearson correlation has two strengths: (1) it is invariant to the scale of measurement, and (2) it is invariant to including additional variables in the analysis. However, it is susceptible to attenuation from measurement noise. Bayesian hierarchical models address this issue by modeling measurement error directly. Resulting estimates, however, depend on prior specifications and are not invariant to scale or variable inclusion. We compare three common priors—inverse Wishart (IW), scaled inverse Wishart (SIW), and LKJ—to assess robustness to prior assumptions in hierarchical settings. Our main tools are visualizing the priors and evaluating their effects on posterior estimates through simulation. When prior settings match ground truth, all priors recover true correlations accurately in low-dimensional settings. When prior variance is misspecified, the IW shows strong bias: low-variance priors inflate correlations, and high-variance priors deflate them. The SIW shows the same pattern but less severely, while the LKJ remains largely unaffected by scale misspecification. When more variables are added, the IW is most stable, whereas the SIW and LKJ show slight shrinkage toward lower correlations. The main drawback of the LKJ is computational speed—models with it can take orders of magnitude longer than those using IW or SIW. Overall, the LKJ provides the most accurate estimates, while the SIW offers a practical compromise for large-scale models where computational speed is crucial.",
+          "url": "https://doi.org/10.3758/s13428-026-02990-6",
+          "doi": "https://doi.org/10.3758/s13428-026-02990-6",
+          "filter": 0,
+          "created": "2026-3-30"
+        },
+        {
+          "title": "Can we include dichotomous variables in meta-analytic structural equation modeling? Mind the prevalence",
+          "authors": "Hannelies de Jonge, Belén Fernández-Castilla, Suzanne Jak, Kees-Jan Kan",
+          "abstract": "Meta-analytic structural equation modeling (MASEM) is a method to systematically synthesize results from primary studies, allowing the researchers to simultaneously examine multiple relations among variables by fitting a structural equation model to the pooled correlations. Incorporating dichotomous variables (e.g., having a specific disease or not) into MASEM poses challenges. While primary studies that investigate the relation between a dichotomous and continuous variable typically report standardized mean differences (e.g., Cohen’s  d ), in the specialized MASEM software it is not possible to directly include standardized mean differences. Instead, MASEM typically uses correlation matrices as input. A proposed solution is to convert the standardized mean differences to point-biserial correlations. Here lies a complication because, in contrast to a standardized mean difference, the point-biserial correlation depends on the distribution of group membership. Through three Monte Carlo simulation studies, we investigated which conversion formula is suitable when one wants to include a dichotomous variable in MASEM. We varied the prevalence, sampling plan, within-study sample sizes, and the distribution of participants over two groups. Our results show that which conversion is suitable, and which is not depends on the aim of the meta-analyst. Moreover, if the group distribution in the sample does not reflect the prevalence in the population, it is necessary to adjust the correlation between the continuous variables in the model. We have extended our freely available web application (Effect Size Calculator and Converter; https://hdejonge.shinyapps.io/ESCACO/ ) to fill the existing gap and to assist the meta-analyst with both the conversions and the adjustment. ",
+          "url": "https://doi.org/10.3758/s13428-025-02928-4",
+          "doi": "https://doi.org/10.3758/s13428-025-02928-4",
+          "filter": 0,
+          "created": "2026-3-30"
+        },
+        {
+          "title": "From zero to lab: Guidelines and practical implementation for building a multimodal experimental psychology and cognitive neuroscience laboratory",
+          "authors": "David del Rosario-Gilabert, A. García-Miquel, I. Vigué-Guix",
+          "abstract": "As multimodal approaches become increasingly common in cognitive neuroscience, there is a growing need for clear guidelines for designing and building laboratories. Here, we present a structured framework for the development of a multimodal neuroscience laboratory, covering key aspects such as space selection, acoustic treatment, electromagnetic shielding, environmental control, data synchronization, and data management. We also describe its practical implementation at the Instituto de Neurociencia Avanzada de Barcelona (INAB), where the facility was configured to support both individual and multi-participant studies using electroencephalography (EEG), functional near-infrared spectroscopy (fNIRS), eye-tracking, and peripheral biosensors. The laboratory was designed to preserve signal quality, minimize artifacts, and promote experimental reproducibility through controlled environmental conditions and rigorous synchronization procedures. Validation tests confirmed that the recording space achieved reverberation times below 0.6 s and reduced electromagnetic interference (EMI) by more than 30 × . Taken together, these technical and practical considerations provide a replicable model that other research groups can adopt to improve standardization and data reliability in multimodal neuroscience settings.",
+          "url": "https://doi.org/10.3758/s13428-026-02988-0",
+          "doi": "https://doi.org/10.3758/s13428-026-02988-0",
+          "filter": 0,
+          "created": "2026-3-30"
+        },
+        {
           "title": "Measuring naturalistic speech comprehension in real time",
           "authors": "Irmak Ergin, Jill Kries, Shiven Gupta, Maria Papworth Burrel, Laura Gwilliams",
           "abstract": "Speech comprehension has been described as an effortless and robust process; yet, in real-world contexts, it is common for a listener to misunderstand what was said or fail to derive meaning entirely. Typically, methods of measuring speech comprehension are applied ‘post hoc’ - that is, after the comprehension has happened. This approach fails to capture comprehension as it occurs, limiting the field’s understanding of the cognitive processes involved in real-time comprehension. To overcome these challenges, we designed and tested a novel method of measuring real-time speech comprehension during naturalistic listening. We built a slider device that synchronizes with experimental software and provides millisecond read-out. In three experiments, participants listened to audiobook segments while providing continuous comprehension ratings using the slider. To vary comprehension success, we presented speech segments at speed factors of 1–5 times faster than normal. We validated the time-resolved slider data against established speech comprehension assessment methods. Overall, our findings validate our novel time-resolved comprehension measure and demonstrate that it is possible to derive an online behavioral measure of real-time speech comprehension. We also confirmed numerous limitations of static post hoc assessments, including challenges with multiple-choice question design and the confounding of potential effects due to recency bias and comprehension for summarization. The measure proposed here overcomes the constraints of static post hoc assessments and can be effectively integrated with neuroimaging techniques, offering a valuable tool for future research on dynamic processes during naturalistic listening.",
@@ -29,6 +74,24 @@
           "doi": "https://doi.org/10.3758/s13428-026-02941-1",
           "filter": 0,
           "created": "2026-3-27"
+        },
+        {
+          "title": "Snip  &amp; Stitch: a simple and accessible correction for the pupil foreshortening error",
+          "authors": "Koert H. Stribos, Damian Koevoet, Yuqing Cai, Marnix Naber, Christoph Strauch",
+          "abstract": "Modern eye trackers allow easy measurement of pupil size, a powerful physiological marker of cognitive processing. A major hindrance to using pupillometry is the so-called pupil foreshortening error (PFE). The PFE is the apparent change in pupil size that results from a change in the angle of the eye relative to the camera, despite the pupil remaining constant in reality. To prevent this, experimenters often rely on fixed gaze, limiting design flexibility. Existing correction methods necessitate specific geometric properties of the setup, often unavailable for existing datasets, and do not work for all tracker types. We here introduce ‘Snip  &amp; Stitch’, a straightforward, accessible, and easy-to-implement correction for the PFE. Specifically, Snip  &amp; Stitch corrects the PFE by ‘snipping’ pupil size changes during a saccade, and ‘stitching’ pupil size back by subtracting the difference between pre- and post-saccadic pupil size. Our results demonstrate that this simple method reduced the PFE by an estimated 71–81%. Snip  &amp; Stitch is openly available online. We recommend Snip  &amp; Stitch, especially for experiments in which participants make one saccade before pupil size is compared, and argue that the method can be easily applied to experiments in which participants make up to five saccades in sequence. Limitations and possible further improvements are discussed. Together, Snip  &amp; Stitch allows researchers to employ pupil size as an outcome measure in a wide range of tasks and setups.",
+          "url": "https://doi.org/10.3758/s13428-026-02980-8",
+          "doi": "https://doi.org/10.3758/s13428-026-02980-8",
+          "filter": 0,
+          "created": "2026-3-30"
+        },
+        {
+          "title": "Slider versus Likert scales: Psychometric properties in ambulatory assessment",
+          "authors": "Dominik Vollbracht, Charlotte Ottenstein, Sabrina Ecker, Tanja Lischetzke",
+          "abstract": "Slider scales, a type of visual analogue scale, are commonly used as a response format in smartphone-based ambulatory assessment studies. This may be due to several advantages of slider scales, including the use of a metric scale compared to an ordinal Likert scale and the intuitive use of slider scales on touchscreens. However, research on the comparability of Likert and slider scales remains scarce, especially in the context of ambulatory assessment (i.e., intensive longitudinal data). To address this gap, we conducted a 3-week ambulatory assessment study with four measurement occasions per day, in which we experimentally manipulated the response format (Likert vs. slider scales) between groups. Our final sample consisted of 21,730 measurement occasions nested in 406 participants. We tested for measurement invariance across response-format groups and compared their psychometric properties, including reliability, within-person variability, and validity. Results indicated measurement invariance across groups, with equal factor loadings at the within-person level and equal factor loadings, intercepts, and indicator-specific residual variances at the between-person level. In addition, we found no significant differences in reliability or validity and only minor differences in within-person variability. We discuss the implications of these findings for the design of ambulatory assessment studies and offer recommendations for future research.",
+          "url": "https://doi.org/10.3758/s13428-026-02992-4",
+          "doi": "https://doi.org/10.3758/s13428-026-02992-4",
+          "filter": 0,
+          "created": "2026-3-30"
         },
         {
           "title": "Network psychometrics in practice: A practical framework for designing empirical studies that utilize a psychological network approach",
@@ -91,40 +154,6 @@
       ]
     },
     {
-      "journal_full": "Group Processes & Intergroup Relations",
-      "journal_short": "GPIR",
-      "articles": [
-        {
-          "title": "Social pain minimization mediates weight discrimination’s effects on interpersonal well-being in the workplace",
-          "authors": "Brielle N. Johnson, Gargi Sawhney, Jonathan W. Kunstman",
-          "abstract": "Workplace weight discrimination is pervasive and negatively impacts employees and organizations. Yet, little is known about the psychological processes linking weight discrimination and work outcomes. The current research addresses this gap in the research literature by testing emotion invalidation as a mediator of weight stigma’s negative effects on employees. Dehumanizing aspects of weight stigma include the denial of complex emotions, higher-order mental faculties, and professional potential, which were theorized to leave heavy employees feeling invalidated, an experience termed social pain minimization (SPM). Three studies ( N total = 1,097) with cross-sectional, experimental, and multi-wave designs provide convergent support that workplace weight discrimination triggered actual and expected SPM, which in turn negatively impacted perceived organizational support (POS), workplace belonging, and workplace ostracism. These results offer insights into psychosocial processes linking workplace weight discrimination and key indicators of worker well-being. In conjunction with efforts to eliminate workplace weight stigma, organizations need to foster a supportive and emotionally validating climate.",
-          "url": "https://doi.org/10.1177/13684302261428450",
-          "doi": "https://doi.org/10.1177/13684302261428450",
-          "filter": 0,
-          "created": "2026-3-23"
-        },
-        {
-          "title": "The importance of antiprejudice in protesting and collective action for disadvantaged groups’ rights",
-          "authors": "Danielle R. Krusemark, Jennifer LaCosse, E. Ashby Plant",
-          "abstract": "In the past decade, collective action advocating for a disadvantaged group’s rights has increased exponentially. However, only a fraction of supporters of a disadvantaged group’s rights takes collective action. What drives some to take collective action for a disadvantaged group’s rights while others do not? We argue that antiprejudice, the belief that one should proactively fight discrimination and injustice faced by a group, is a critical component of promoting collective action for that group and differentiating between those who are engaged and those who are not. Across field and online studies, we examined antiprejudice’s role in driving protesting and intentions to take collective action for a disadvantaged group’s rights among causes associated with liberals (e.g., racial equality) and conservatives (e.g., pro-life rights). Antiprejudice repeatedly emerged as a key construct for differentiating between protestors and non-protestors and for predicting collective action intentions.",
-          "url": "https://doi.org/10.1177/13684302261426279",
-          "doi": "https://doi.org/10.1177/13684302261426279",
-          "filter": 0,
-          "created": "2026-3-23"
-        },
-        {
-          "title": "Presidential candidate endorsements by scientific journals decrease trust in science especially for moderate and conservative Americans",
-          "authors": "Stylianos Syropoulos, Kyle Fiore Law, Crystal Li, Bernhard Leidner, Kevin L. Young",
-          "abstract": "Before the 2020 and 2024 US Presidential elections, several scientific journals publicly endorsed the Democratic candidates or opposed the Republican candidate. We conducted three highly-powered, pre-registered online experiments ( N = 6,281) to examine how these endorsements affected trust in science. Results revealed significant declines in trust in science, driven primarily by moderate and conservative Americans. Drawing upon on the theoretical perspective that trust in science is not monolithic, but rather composed of distinct dimensions, we examined and observed effects across a range of trust-related domains, including perceptions of scientific integrity (impartiality), competence (ability), benevolence, and generalized trust in scientific institutions. These findings highlight how motivated reasoning can amplify existing skepticism when individuals who already perceive science as aligned with opposing political ideologies read political endorsements from within the scientific community. Amidst increasing science-skepticism and politicization, journals must consider the unintended consequences of political messaging on public perceptions of science.",
-          "url": "https://doi.org/10.1177/13684302261425955",
-          "doi": "https://doi.org/10.1177/13684302261425955",
-          "filter": 0,
-          "created": "2026-3-23"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
       "journal_full": "Journal of Experimental Social Psychology",
       "journal_short": "JESP",
       "articles": [
@@ -135,14 +164,6 @@
           "doi": "https://doi.org/10.1016/j.jesp.2026.104915",
           "filter": 0,
           "created": "2026-3-24"
-        },
-        {
-          "title": "Not all stimuli are conditioned equal – Larger evaluative conditioning effects for fluent stimuli",
-          "authors": "Claudine Pulm, Anne Gast",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104918",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104918",
-          "filter": 0,
-          "created": "2026-3-23"
         },
         {
           "title": "When rightness is wrong: Chronic prevention orientation predicts cardiovascular threat responses under regulatory fit",
@@ -177,16 +198,7 @@
           "created": "2026-3-28"
         }
       ],
-      "articles_hidden": [
-        {
-          "title": "Corrigendum to “A trust inoculation to protect public support of governmentally mandated actions to mitigate climate change” [Journal of Experimental Social Psychology 115 (2024) 104656]",
-          "authors": "Tobia Spampatti, Tobias Brosch, Evelina Trutnevyte, Ulf J.J. Hahnel",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104914",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104914",
-          "filter": 1,
-          "created": "2026-3-23"
-        }
-      ]
+      "articles_hidden": []
     },
     {
       "journal_full": "Journal of Personality and Social Psychology",
@@ -199,14 +211,6 @@
           "doi": "https://doi.org/10.1037/pspp0000581",
           "filter": 0,
           "created": "2026-3-26"
-        },
-        {
-          "title": "Individual differences in risk preference: Selection and socialization effects.",
-          "authors": "Yunrui Liu, David Richter, Rui Mata",
-          "url": "https://doi.org/10.1037/pspp0000594",
-          "doi": "https://doi.org/10.1037/pspp0000594",
-          "filter": 0,
-          "created": "2026-3-23"
         }
       ],
       "articles_hidden": []
@@ -215,6 +219,22 @@
       "journal_full": "Multivariate Behavioral Research",
       "journal_short": "MBR",
       "articles": [
+        {
+          "title": "Improving the Evaluation of Construct Change Over Time: Advantages of Longitudinal Moderated Nonlinear Factor Analysis Over Conventional First-Order Growth Models",
+          "authors": "Siyuan Marco Chen, Daniel J. Bauer",
+          "url": "https://doi.org/10.1080/00273171.2026.2640576",
+          "doi": "https://doi.org/10.1080/00273171.2026.2640576",
+          "filter": 0,
+          "created": "2026-3-30"
+        },
+        {
+          "title": "Evaluating Model Predictive Performance in Confirmatory Factor Analysis with Binary Outcomes Using the InterModel Vigorish",
+          "authors": "Lijin Zhang, Charles Rahal, Klint Kanopka, Esther Ulitzsch, Zhiyong Zhang, Benjamin W. Domingue",
+          "url": "https://doi.org/10.1080/00273171.2026.2645212",
+          "doi": "https://doi.org/10.1080/00273171.2026.2645212",
+          "filter": 0,
+          "created": "2026-3-30"
+        },
         {
           "title": "Multi-Group Multidimensional Classification Accuracy Analysis (MMCAA): A General Framework for Evaluating the Practical Impact of Partial Invariance",
           "authors": "Meltem Ozcan, Mark H. C. Lai",
@@ -285,26 +305,56 @@
       "articles_hidden": []
     },
     {
+      "journal_full": "Psychological Methods",
+      "journal_short": "PM",
+      "articles": [
+        {
+          "title": "Factored structural equation modeling in blimp.",
+          "authors": "Craig K. Enders, Brian T. Keller",
+          "url": "https://doi.org/10.1037/met0000826",
+          "doi": "https://doi.org/10.1037/met0000826",
+          "filter": 0,
+          "created": "2026-3-30"
+        },
+        {
+          "title": "You must parcel carefully if you have to! Comparing eight item parceling strategies with the item-level model for bifactor predictive models.",
+          "authors": "Jinsoo Choi, Bo Zhang, Dexin Shi, Sunbeom Kwon, Leo Alexander",
+          "url": "https://doi.org/10.1037/met0000827",
+          "doi": "https://doi.org/10.1037/met0000827",
+          "filter": 0,
+          "created": "2026-3-30"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Psychological Science",
       "journal_short": "PsychSci",
       "articles": [
         {
-          "title": "How Does Turning to AI for Companionship Predict Loneliness and Vice Versa?",
-          "authors": "Dunigan Folk, Elizabeth Dunn",
-          "abstract": "Advances in AI have enabled chatbots to provide warm, personalized support. Yet little is known about the long-term consequences of AI companionship. Across a 12-month longitudinal study with more than 2,000 adults from four Western countries, we examined the bidirectional relationships between social chatbot use and loneliness.We found evidence that increased social chatbot use predicted increased loneliness, using a single-item measure of emotional isolation. When we used a broader and more stable measure of social connection, we found evidence that feeling less socially connected predicted subsequent increases in social chatbot use; however, chatbot use did not significantly predict decreases in social connection. Taken together, these findings provide initial evidence that being lonely may spur people to seek companionship through chatbots but that such use may, over time, exacerbate feelings of loneliness. We urge caution, however, in drawing strong conclusions given the exploratory nature of our analyses.",
-          "url": "https://doi.org/10.1177/09567976261427747",
-          "doi": "https://doi.org/10.1177/09567976261427747",
+          "title": "Does Income Inequality Predict Adolescent Depressive Symptoms?",
+          "authors": "Sondre Aasen Nilsen, Kyrre Breivik, Kjell Morten Stormark, Tormod Bøe",
+          "abstract": "Income inequality is frequently cited as a forceful determinant of mental health and as a possible contributor to the rising trend in adolescent depressive symptoms. However, research findings often rely on low-powered cross-sectional designs. We conducted a preregistered study of the within-municipality effect of income inequality on adolescent depressive symptoms in Norway, covering ≈550,000 respondents nested within 863 municipality years and 340 municipalities. Using multilevel modeling and equivalence testing, the overall within-municipality effect of income inequality was neither statistically significant nor practically meaningful and did not significantly interact with family financial situation. A significant gender interaction showed that rising inequality predicted slightly higher depressive symptoms among females and slightly lower among males; however, the main gender effects were also probably too small to be meaningful. We conclude that changes in income inequality likely do not meaningfully predict nor help explain changes in adolescent depressive symptoms in Norway from 2010 to 2019.",
+          "url": "https://doi.org/10.1177/09567976261432207",
+          "doi": "https://doi.org/10.1177/09567976261432207",
           "filter": 0,
-          "created": "2026-3-23"
-        },
+          "created": "2026-3-30"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Psychology of Music",
+      "journal_short": "PsychMusic",
+      "articles": [
         {
-          "title": "Local Economic Inequality and Depression: Evidence From Longitudinal Data on Local Residential Contexts and Antidepressant Use",
-          "authors": "Kim Mannemar Sønderskov, Tobias Heide-Jørgensen, Søren Dinesen Østergaard, Peter Thisted Dinesen",
-          "abstract": "We studied the consequences of economic inequality for depression among adults using individual-level longitudinal administrative data from Denmark ( n = 60,654,690 person time points). The data allow us to (a) measure depression without nonresponse (by proxy of redemption of prescriptions for antidepressants), (b) measure income inequality at a low level of aggregation to capture individuals’ everyday experiences, (c) conduct within-individual analyses from stable individual characteristics to address confounding, and (d) test whether inequality has similar consequences for people located differently in the local income distribution. In contrast to previous work, we found a modest negative average effect of economic inequality (a 1- SD increase in inequality is associated with a 1%–2% relative decrease in the probability of depression). However, this average masks substantial heterogeneity: The negative effect was confined to the locally relatively well-off, whereas those with the lowest relative income tended to become more depressed as inequality rose.",
-          "url": "https://doi.org/10.1177/09567976261425130",
-          "doi": "https://doi.org/10.1177/09567976261425130",
+          "title": "‘It made me feel helpless because I couldn’t control anything’: Occupational stress and well-being experiences of conservatoire music students",
+          "authors": "Simone Willis, Mikel Mellick, Rich Neil, David Wasley",
+          "abstract": "Conservatoire music students experience a range of demands including performance, academic, and interpersonal demands. If not effectively managed, demands may lead to stress and negative well-being outcomes. This qualitative study explored conservatoire music students’ experiences of occupational stress and well-being, informed by a transactional stress theory. Six conservatoire music students were purposively selected to participate in semi-structured interviews. Participants discussed two stressful events: one perceived positively and a second perceived negatively. Interpretative Phenomenological Analysis was adopted and five themes developed: (a) Performance Demands; (b) Organisational Demands; (c) Relationship Demands; (d) Academic Demands; and (e) Multiple Demands. Participants commonly appraised demands as a threat. A smaller number of challenge or benefit appraisals were reported, with few harm or loss appraisals. Key underlying properties of stress appraisal were self and other comparison, preparation, and novelty. Participants highlighted the personal resources, psychological skills and problem-solving, and the organisational resource of social support to manage stressful experiences. Well-being outcomes related to stress appraisals. This study provides insight into the intra-individual processes related to occupational stress and well-being of conservatoire music students. Findings suggest interventions targeting the conservatoire culture and curriculum need exploring to create a positive learning culture and support students to cope with demands.",
+          "url": "https://doi.org/10.1177/03057356261420181",
+          "doi": "https://doi.org/10.1177/03057356261420181",
           "filter": 0,
-          "created": "2026-3-23"
+          "created": "2026-3-30"
         }
       ],
       "articles_hidden": []
@@ -336,61 +386,6 @@
           "doi": "https://doi.org/10.1037/ppm0000664",
           "filter": 0,
           "created": "2026-3-26"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Technology, Mind, and Behavior",
-      "journal_short": "TMB",
-      "articles": [
-        {
-          "title": "Emotional and cognitive factors in the relationship between autistic traits and emotional attachment to AI chatbots.",
-          "authors": "Rossella Suriano, Alessio Plebe, Valentina Furfari, Rosa Angela Fabio",
-          "url": "https://doi.org/10.1037/tmb0000182",
-          "doi": "https://doi.org/10.1037/tmb0000182",
-          "filter": 0,
-          "created": "2026-3-23"
-        },
-        {
-          "title": "The role of online disinhibition on social media users’ privacy concerns and behaviors.",
-          "authors": "Lisa M. Thompson Lee, Sinyong Choi",
-          "url": "https://doi.org/10.1037/tmb0000184",
-          "doi": "https://doi.org/10.1037/tmb0000184",
-          "filter": 0,
-          "created": "2026-3-23"
-        },
-        {
-          "title": "From virtual sparks to reality: How virtual reality exposure influences skill learning intentions.",
-          "authors": "Daphne Xin Hou, Meaghan Tracy, Bradley D. Pitcher, Benjamin Blachly, Ahleah F. Miles, Tara S. Behrend",
-          "url": "https://doi.org/10.1037/tmb0000186",
-          "doi": "https://doi.org/10.1037/tmb0000186",
-          "filter": 0,
-          "created": "2026-3-23"
-        },
-        {
-          "title": "God or the machine? Personal religiosity and negative attitudes to AI.",
-          "authors": "Cristian G. Rodriguez, Allon Vishkin, Yochanan E. Bigman",
-          "url": "https://doi.org/10.1037/tmb0000187",
-          "doi": "https://doi.org/10.1037/tmb0000187",
-          "filter": 0,
-          "created": "2026-3-23"
-        },
-        {
-          "title": "Psychological interventions for mis/disinformation detection: A systematic–narrative review of their effectiveness for older adults.",
-          "authors": "Holly K. Barnett, Lara Warmelink, Sophie J. Nightingale, Faraz Ahmed, Trevor Crawford",
-          "url": "https://doi.org/10.1037/tmb0000183",
-          "doi": "https://doi.org/10.1037/tmb0000183",
-          "filter": 0,
-          "created": "2026-3-23"
-        },
-        {
-          "title": "Psychology-in-the-loop.",
-          "authors": "Richard N. Landers",
-          "url": "https://doi.org/10.1037/tmb0000185",
-          "doi": "https://doi.org/10.1037/tmb0000185",
-          "filter": 0,
-          "created": "2026-3-23"
         }
       ],
       "articles_hidden": []
