@@ -1,22 +1,6 @@
 {
-  "update": "2026-03-31",
+  "update": "2026-04-02",
   "content": [
-    {
-      "journal_full": "Advances in Methods and Practices in Psychological Science",
-      "journal_short": "AMPPS",
-      "articles": [
-        {
-          "title": "Chatbots Are Undermining Crowdsourced Research in the Behavioral Sciences: Detecting Artificial Intelligence–Assisted Cheating With a Keystroke-Based Tool",
-          "authors": "Michael W. Asher, Gillian Gold, Eason Chen, Paulo F. Carvalho",
-          "abstract": "Generative artificial intelligence (AI) poses a significant threat to data integrity on crowdsourcing platforms, such as Prolific, which behavioral scientists widely rely on for data collection. Large language models (LLMs) allow users to generate fluent and relevant responses to open-ended questions, which can mask inattention and compromise experimental validity. To empirically estimate the prevalence of this behavior, we analyzed keystroke data from three studies ( N = 928) on Prolific between May and July 2025. Using an embedded JavaScript tool, we flagged participants who pasted text or whose keystroke count was anomalously low compared with their response length. For each flagged participant, we manually compared detected keystrokes with their final response to determine if the text could have been typed. This confirmed that despite deterrence measures, approximately 9% of participants submitted responses consistent with AI assistance or other forms of outsourced responding. These participants outperformed noncheaters (by up to 1.5 SD ), were more than twice as likely to share geolocations with other participants (suggesting possible proxy use), and exhibited lower internal consistency on questionnaire scales. Simulated power analyses indicate that this level of undetected cheating can diminish observed effect sizes by 10% and inflate required sample sizes by up to 30%. These findings highlight the urgent need for new detection methods, such as keystroke logging, which offers verifiable evidence of cheating that is difficult to obtain from manual review of LLM-generated text alone. As AI continues to evolve, maintaining data quality in crowdsourced research will require active monitoring, methodological adaptation, and communication between researchers and platforms.",
-          "url": "https://doi.org/10.1177/25152459261424723",
-          "doi": "https://doi.org/10.1177/25152459261424723",
-          "filter": 0,
-          "created": "2026-3-25"
-        }
-      ],
-      "articles_hidden": []
-    },
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
@@ -58,6 +42,15 @@
           "created": "2026-3-30"
         },
         {
+          "title": "An illustrative guide to expressing cognitive theories using evidence accumulation modelling",
+          "authors": "Luke Strickland, Russell J. Boag, Niek Stevenson, Andrew Heathcote",
+          "abstract": "Evidence accumulation models (EAMs) explain and predict human choices and response times in a way that maps more directly to cognitive processes than traditional analyses. For example, EAMs can separate the speed–accuracy trade-off from processing capacity. However, little guidance is available regarding how to use EAMs to instantiate cognitive process theories, which often involve complex mappings of parameters to experimental designs. This tutorial illustrates how to embed such theories using the R package EMC2. We show how the effects of cognitive processes can be estimated by mapping EAM parameters to experimental designs using an augmented linear model language. We demonstrate with two examples. The first instantiates a theory of prospective memory. The second instantiates a theory of how humans integrate advice from automated decision aids into their choices. We then show how to combine these two different theories in a unified framework. We conclude by discussing further directions for theory embedding, including non-linear mappings from stimulus values to EAM parameters and the incorporation of trial-by-trial dynamics.",
+          "url": "https://doi.org/10.3758/s13428-026-02970-w",
+          "doi": "https://doi.org/10.3758/s13428-026-02970-w",
+          "filter": 0,
+          "created": "2026-4-1"
+        },
+        {
           "title": "From zero to lab: Guidelines and practical implementation for building a multimodal experimental psychology and cognitive neuroscience laboratory",
           "authors": "David del Rosario-Gilabert, A. García-Miquel, I. Vigué-Guix",
           "abstract": "As multimodal approaches become increasingly common in cognitive neuroscience, there is a growing need for clear guidelines for designing and building laboratories. Here, we present a structured framework for the development of a multimodal neuroscience laboratory, covering key aspects such as space selection, acoustic treatment, electromagnetic shielding, environmental control, data synchronization, and data management. We also describe its practical implementation at the Instituto de Neurociencia Avanzada de Barcelona (INAB), where the facility was configured to support both individual and multi-participant studies using electroencephalography (EEG), functional near-infrared spectroscopy (fNIRS), eye-tracking, and peripheral biosensors. The laboratory was designed to preserve signal quality, minimize artifacts, and promote experimental reproducibility through controlled environmental conditions and rigorous synchronization procedures. Validation tests confirmed that the recording space achieved reverberation times below 0.6 s and reduced electromagnetic interference (EMI) by more than 30 × . Taken together, these technical and practical considerations provide a replicable model that other research groups can adopt to improve standardization and data reliability in multimodal neuroscience settings.",
@@ -65,6 +58,15 @@
           "doi": "https://doi.org/10.3758/s13428-026-02988-0",
           "filter": 0,
           "created": "2026-3-30"
+        },
+        {
+          "title": "When the meaningless make sense: Wordlikeness and affective norms for 4,800 pseudowords and 1,200 Spanish words",
+          "authors": "Celia Martínez-Tomás, Marc Guasch, Pilar Ferré, Miguel Lázaro, José Antonio Hinojosa",
+          "abstract": "Most research using pseudowords has focused on the contribution of sublexical properties to the study of word processing. However, recent evidence suggests that pseudowords can also provide insights into the semantic and emotional aspects of language processing. Research in this field would greatly benefit from datasets providing estimations for pseudoword stimuli in the various lexicosemantic variables that have been shown to affect word recognition. Such datasets are currently lacking. In the present study, we introduce normative data for 4,800 pseudowords and 1,200 Spanish words, which were rated by 1,210 participants on three dimensions: wordlikeness, valence, and arousal. The stimuli were derived from emotional and neutral base words, and the morphological structure of the pseudowords was manipulated to create four versions combining real roots and suffixes with non-roots and non-suffixes. Additionally, we computed the normalized Levenshtein distance, the number of orthographic neighbors, and the mean Levenshtein distance to the 20 closest orthographic neighbors (OLD20) to examine the influence of objective measures on perceived wordlikeness. The results showed that the morphological structure of the pseudowords had a gradual effect on wordlikeness, valence, and arousal scores, with those combining real roots and suffixes being rated the highest. Furthermore, affective variables were found to consistently predict perceived wordlikeness ratings, whereas objective measures only accounted for a small proportion of the variance. This empirically validated set of well-controlled pseudowords is a valuable resource for researchers interested in the effects of morphology and affect on word processing. The complete database can be downloaded from: https://osf.io/baues/ .",
+          "url": "https://doi.org/10.3758/s13428-026-02976-4",
+          "doi": "https://doi.org/10.3758/s13428-026-02976-4",
+          "filter": 0,
+          "created": "2026-4-1"
         },
         {
           "title": "Measuring naturalistic speech comprehension in real time",
@@ -101,6 +103,14 @@
           "doi": "https://doi.org/10.3758/s13428-026-02965-7",
           "filter": 0,
           "created": "2026-3-27"
+        },
+        {
+          "title": "Author Correction: Attention in hindsight: Using stimulated recall to capture dynamic fluctuations in attentional engagement",
+          "authors": "Effie J. Pereira, Samantha Ayers-Glassey, Jeffrey D. Wammes, Daniel Smilek",
+          "url": "https://doi.org/10.3758/s13428-026-02956-8",
+          "doi": "https://doi.org/10.3758/s13428-026-02956-8",
+          "filter": 0,
+          "created": "2026-4-1"
         }
       ],
       "articles_hidden": []
@@ -109,6 +119,14 @@
       "journal_full": "Computers in Human Behavior",
       "journal_short": "CHB",
       "articles": [
+        {
+          "title": "Deepfaking the Past: Memory and Perceived Truth of Resurrected Historical Figures",
+          "authors": "María T. Soto-Sanfiel, Gina Junhan Fu",
+          "url": "https://doi.org/10.1016/j.chb.2026.109008",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109008",
+          "filter": 0,
+          "created": "2026-4-1"
+        },
         {
           "title": "Time to (Re)visualise Victims? Introducing Shadow Victims of Digital Misinformation",
           "authors": "Souvik Mukherjee, Lennon Yao-Chung Chang",
@@ -126,6 +144,14 @@
           "created": "2026-3-26"
         },
         {
+          "title": "Knowledge Sharing in Networked Communities of Practice: Computational Network Analysis of Organizing Dynamics in Online Crowdsourcing Communities",
+          "authors": "Yiqi Li",
+          "url": "https://doi.org/10.1016/j.chb.2026.109004",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109004",
+          "filter": 0,
+          "created": "2026-3-31"
+        },
+        {
           "title": "From AI Psychosis to Brain Rot: How pseudo-diagnoses endanger genuine psychological and medical discovery in challenging times",
           "authors": "Christian Montag, Daniel L. King, Benjamin Becker, Joël Billieux",
           "url": "https://doi.org/10.1016/j.chb.2026.109006",
@@ -134,12 +160,196 @@
           "created": "2026-3-27"
         },
         {
-          "title": "Physiological synchrony in elite esports matches driven by competitive motivation",
-          "authors": "Ken Watanabe, Sorato Minami, Naoki Saijo, Makio Kashino",
-          "url": "https://doi.org/10.1016/j.chb.2026.109005",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109005",
+          "title": "Mapping the symptom structure of internet gaming disorder among adolescents: Insights from network and Bayesian graph analyses",
+          "authors": "Firoj Al-Mamun, Moneerah Mohammad ALmerab, Mohammed A. Mamun",
+          "url": "https://doi.org/10.1016/j.chb.2025.108890",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108890",
           "filter": 0,
-          "created": "2026-3-24"
+          "created": "2025-12-6"
+        },
+        {
+          "title": "For whom does online social support matter most? Exploring the joint moderating roles of depressive symptoms and physical functioning in the relationship between online social support and quality of life",
+          "authors": "Juwon Hwang",
+          "url": "https://doi.org/10.1016/j.chb.2025.108893",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108893",
+          "filter": 0,
+          "created": "2025-12-10"
+        },
+        {
+          "title": "Risk profiles for the perpetration of non-consensual sharing of sexual content among Spanish adolescents: a cross-sectional and longitudinal study",
+          "authors": "Estrella Durán-Guerrero, Virginia Sánchez-Jiménez, Noelia Muñoz-Fernández",
+          "url": "https://doi.org/10.1016/j.chb.2025.108889",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108889",
+          "filter": 0,
+          "created": "2025-12-11"
+        },
+        {
+          "title": "Does transparency matter when an AI system meets performance expectations? An experiment with an online dating site",
+          "authors": "Yuan Sun, Mengqi (Maggie) Liao, S. Shyam Sundar, Joseph B. Walther",
+          "url": "https://doi.org/10.1016/j.chb.2025.108875",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108875",
+          "filter": 0,
+          "created": "2025-11-23"
+        },
+        {
+          "title": "Exploring protective and risk factors for a positive sexting experience among young adults – insights from the SEX-THINK! Project",
+          "authors": "Barbara Agueli, Immacolata Di Napoli, Marcella Autiero, Nicole Bellanca, Alice Lucarini",
+          "url": "https://doi.org/10.1016/j.chb.2025.108901",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108901",
+          "filter": 0,
+          "created": "2025-12-26"
+        },
+        {
+          "title": "Altered uncertainty processing during adaptive learning in internet gaming disorder",
+          "authors": "Yi-Xu Pang, Lei Zhang, Yuan-Wei Yao, Marc N. Potenza, Lu Liu",
+          "url": "https://doi.org/10.1016/j.chb.2025.108882",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108882",
+          "filter": 0,
+          "created": "2025-12-10"
+        },
+        {
+          "title": "Game on or gone too far? Executive functioning and implicit sequence learning in problematic vs. recreational gamers",
+          "authors": "Krisztina Berta, Zsuzsanna Viktória Pesthy, Teodóra Vékony, Bence Csaba Farkas, Orsolya Király, Zsolt Demetrovics, Dezső Németh, Bernadette Kun",
+          "url": "https://doi.org/10.1016/j.chb.2025.108878",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108878",
+          "filter": 0,
+          "created": "2025-12-3"
+        },
+        {
+          "title": "Think twice, scroll once: Encouraging critical reflection as a shield against health misinformation and overgeneralized messaging by social media influencers",
+          "authors": "Jaroslava Kaňková, Jörg Matthes",
+          "url": "https://doi.org/10.1016/j.chb.2025.108896",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108896",
+          "filter": 0,
+          "created": "2025-12-17"
+        },
+        {
+          "title": "Personalizing explanations in AI-based decisions: The effects of personalization and (mis)aligning with individual preferences",
+          "authors": "Richard Uth, Nelli Niemitz, Isabel Valera, Markus Langer",
+          "url": "https://doi.org/10.1016/j.chb.2025.108854",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108854",
+          "filter": 0,
+          "created": "2025-11-20"
+        },
+        {
+          "title": "Negative perceptions of outsourcing to artificial intelligence",
+          "authors": "Scott Claessens, Pierce Veitch, Jim A.C. Everett",
+          "url": "https://doi.org/10.1016/j.chb.2025.108894",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108894",
+          "filter": 0,
+          "created": "2025-12-17"
+        },
+        {
+          "title": "To share or not to share, that is the (moral) question: How moral frames and bystander cues shape health misinformation correction sharing on social media",
+          "authors": "Yujie Dong, Wu Li",
+          "url": "https://doi.org/10.1016/j.chb.2025.108900",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108900",
+          "filter": 0,
+          "created": "2025-12-27"
+        },
+        {
+          "title": "Perceptions of sexualized deepfake abuse across three nations: An exploration of how victim gender and race shape attitudes towards deepfake abuse in the United States, the United Kingdom, and Australia",
+          "authors": "Asia A. Eaton, Adrian J. Scott, Asher Flynn, Anastasia Powell",
+          "url": "https://doi.org/10.1016/j.chb.2025.108899",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108899",
+          "filter": 0,
+          "created": "2025-12-27"
+        },
+        {
+          "title": "Association between school phone restriction policies and adolescents’ cyberbullying, gambling, and substance use behaviors",
+          "authors": "Szu-Chia Chen, Tzu-Fu Huang, Kevin Chang, Fong-Ching Chang, Shawn C. Chiang, Chiung-Hui Chiu, Ping-Hung Chen, Nae-Fang Miao, Hung-Yi Chuang",
+          "url": "https://doi.org/10.1016/j.chb.2025.108898",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108898",
+          "filter": 0,
+          "created": "2025-12-26"
+        },
+        {
+          "title": "Science communication in social Media: Analysis of success on TikTok, Instagram, and YouTube across scientific disciplines",
+          "authors": "Montserrat Aiger, Carmen Elboj, Raquel Lozano-Blasco, Marian Acero-Ferrero",
+          "url": "https://doi.org/10.1016/j.chb.2025.108866",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108866",
+          "filter": 0,
+          "created": "2025-12-4"
+        },
+        {
+          "title": "Gamified feedback in adaptive retrieval practice: Points and progress-bars enhance motivation but not learning",
+          "authors": "Gesa S. E. van den Broek, Stefanie Scholten, Bente van Thuil, Hedderik van Rijn, Tamara van Gog, Maarten van der Velde",
+          "url": "https://doi.org/10.1016/j.chb.2025.108862",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108862",
+          "filter": 0,
+          "created": "2025-11-22"
+        },
+        {
+          "title": "Know thyself through data: Improving WhatsApp interaction awareness with data-driven visualizations",
+          "authors": "Olya Hakobyan, Hanna Drimalla",
+          "url": "https://doi.org/10.1016/j.chb.2025.108867",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108867",
+          "filter": 0,
+          "created": "2025-11-21"
+        },
+        {
+          "title": "Bridging or broadening Gaps? AI-Assisted professional writing among native and non-native English Writers",
+          "authors": "Inyoung Shin, Hyesun Choung, Mina Choi",
+          "url": "https://doi.org/10.1016/j.chb.2025.108897",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108897",
+          "filter": 0,
+          "created": "2025-12-24"
+        },
+        {
+          "title": "Content camouflage: How diversified posting patterns influence human detection of AI-enabled social bots",
+          "authors": "C.J. Saucier, M. Wack, D. Linvill, A. Okoronkwo, G. Tatineni, A. Sezgin",
+          "url": "https://doi.org/10.1016/j.chb.2025.108881",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108881",
+          "filter": 0,
+          "created": "2025-12-3"
+        },
+        {
+          "title": "From facial expressions to academic performance: Affective computing reveals the serial mediating roles of emotional valence and self-regulated learning",
+          "authors": "Ruchang Miao, Peijia Yang, Shuna Li, Kaizhen Kong, Xiangting Wang",
+          "url": "https://doi.org/10.1016/j.chb.2025.108902",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108902",
+          "filter": 0,
+          "created": "2025-12-30"
+        },
+        {
+          "title": "Adolescent social media use profiles: A longitudinal study of friendship quality and socio-motivational factors",
+          "authors": "Federica Angelini, Ina M. Koning, Gianluca Gini, Claudia Marino, Regina J.J.M. van den Eijnden",
+          "url": "https://doi.org/10.1016/j.chb.2025.108880",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108880",
+          "filter": 0,
+          "created": "2025-12-4"
+        },
+        {
+          "title": "Dating app use, psychological health, and psychological well-being: A systematic review and quantitative meta-analysis",
+          "authors": "Liesel L. Sharabi, Lihong Ou, Paige A. Von Feldt, Thomas D. Parsons",
+          "url": "https://doi.org/10.1016/j.chb.2025.108879",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108879",
+          "filter": 0,
+          "created": "2025-12-2"
+        },
+        {
+          "title": "The Trusted Partner for financial decision making: Romantic partner or AI?",
+          "authors": "Erik Hermann, Max Alberhasky",
+          "url": "https://doi.org/10.1016/j.chb.2025.108877",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108877",
+          "filter": 0,
+          "created": "2025-11-28"
+        },
+        {
+          "title": "Choose to think: Nudging towards privacy informed decisions at the app download stage",
+          "authors": "Jennifer Klütsch, Verena Zimmermann, Sabine J. Schlittmeier",
+          "url": "https://doi.org/10.1016/j.chb.2025.108895",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108895",
+          "filter": 0,
+          "created": "2025-12-19"
+        },
+        {
+          "title": "Neural correlates of how different emotional reactions elicited by emojis influence facial expression processing",
+          "authors": "Mingkui Yang, Chunying Qiu, Weihan Wang, Xinchao Yang, Qiang Xu",
+          "url": "https://doi.org/10.1016/j.chb.2025.108903",
+          "doi": "https://doi.org/10.1016/j.chb.2025.108903",
+          "filter": 0,
+          "created": "2026-1-3"
         }
       ],
       "articles_hidden": [
@@ -158,14 +368,6 @@
       "journal_short": "JESP",
       "articles": [
         {
-          "title": "Gossip or confrontation? Sanctioning environmental norm violations and the reputation of punishers",
-          "authors": "Xiyan Song, Catherine Molho, Paul A.M. Van Lange",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104915",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104915",
-          "filter": 0,
-          "created": "2026-3-24"
-        },
-        {
           "title": "When rightness is wrong: Chronic prevention orientation predicts cardiovascular threat responses under regulatory fit",
           "authors": "Deborah E. Ward, Mark D. Seery, Thomas L. Saltsman, Cheryl L. Kondrak",
           "url": "https://doi.org/10.1016/j.jesp.2026.104920",
@@ -180,14 +382,6 @@
           "doi": "https://doi.org/10.1016/j.jesp.2026.104917",
           "filter": 0,
           "created": "2026-3-28"
-        },
-        {
-          "title": "Using intersectional implicit association measures does not consistently improve the predictive validity of the implicit association test",
-          "authors": "Jeffrey To, Jordan Axt",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104919",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104919",
-          "filter": 0,
-          "created": "2026-3-24"
         },
         {
           "title": "When society feels broken: How perceptions of anomie shape donation tendencies across cultures",
@@ -211,6 +405,86 @@
           "doi": "https://doi.org/10.1037/pspp0000581",
           "filter": 0,
           "created": "2026-3-26"
+        },
+        {
+          "title": "Overestimating the social costs of political belief change.",
+          "authors": "Trevor Spelman, Abdo Elnakouri, Nour Kteily, Eli J. Finkel",
+          "url": "https://doi.org/10.1037/pspi0000516",
+          "doi": "https://doi.org/10.1037/pspi0000516",
+          "filter": 0,
+          "created": "2026-2-2"
+        },
+        {
+          "title": "The interpersonal consequences of community gatekeeping.",
+          "authors": "Evan Weingarten, Rachel Gershon, Amit Bhattacharjee",
+          "url": "https://doi.org/10.1037/pspi0000494",
+          "doi": "https://doi.org/10.1037/pspi0000494",
+          "filter": 0,
+          "created": "2025-4-17"
+        },
+        {
+          "title": "Self-essentialism underlies social projection to unfamiliar similar others.",
+          "authors": "Charles Chu, Lydia Needy, Rebecca Schlegel",
+          "url": "https://doi.org/10.1037/pspa0000475",
+          "doi": "https://doi.org/10.1037/pspa0000475",
+          "filter": 0,
+          "created": "2025-12-8"
+        },
+        {
+          "title": "Goal harmony.",
+          "authors": "Jiabi Wang, Ayelet Fishbach",
+          "url": "https://doi.org/10.1037/pspa0000452",
+          "doi": "https://doi.org/10.1037/pspa0000452",
+          "filter": 0,
+          "created": "2025-6-5"
+        },
+        {
+          "title": "“Me in a nutshell”: Exploring the content and properties of central traits.",
+          "authors": "Elizabeth U. Long, Norhan Elsaadawy, Erika N. Carlson, Marc A. Fournier",
+          "url": "https://doi.org/10.1037/pspp0000596",
+          "doi": "https://doi.org/10.1037/pspp0000596",
+          "filter": 0,
+          "created": "2026-2-12"
+        },
+        {
+          "title": "Personality and mortality risk: A systematic review and meta-analysis of longitudinal data.",
+          "authors": "Máire McGeehan, Angelina R. Sutin, Stephen Gallagher, Antonio Terracciano, Nicholas A. Turiano, Elayne Ahern, Emma M. Kirwan, Martina Luchetti, Eileen K. Graham, Páraic S. O'Súilleabháin",
+          "url": "https://doi.org/10.1037/pspp0000577",
+          "doi": "https://doi.org/10.1037/pspp0000577",
+          "filter": 0,
+          "created": "2025-12-8"
+        },
+        {
+          "title": "Talking about what we support versus oppose affects others’ openness to our views.",
+          "authors": "Rhia Catapano, Zakary L. Tormala",
+          "url": "https://doi.org/10.1037/pspa0000473",
+          "doi": "https://doi.org/10.1037/pspa0000473",
+          "filter": 0,
+          "created": "2025-12-15"
+        },
+        {
+          "title": "Personality trait change in three sub-Saharan countries: Normative development and life events.",
+          "authors": "Peter Haehner, Luzelle Naudé, Christopher J. Hopwood, Catherine M. Shirima, Sumaya Laher, Elizabeth N. Shino, Stephen Asatsa, Maria Florence, Tracey-Ann Adonis, Wiebke Bleidorn, Amber G. Thalmayer",
+          "url": "https://doi.org/10.1037/pspp0000582",
+          "doi": "https://doi.org/10.1037/pspp0000582",
+          "filter": 0,
+          "created": "2025-10-16"
+        },
+        {
+          "title": "Observers (and transgressors) prefer creative punishments.",
+          "authors": "Timothy G. Kundro, Salvatore J. Affinito, Daniela Rodriguez-Mincey",
+          "url": "https://doi.org/10.1037/pspa0000457",
+          "doi": "https://doi.org/10.1037/pspa0000457",
+          "filter": 0,
+          "created": "2025-6-23"
+        },
+        {
+          "title": "Truth over falsehood: Experimental evidence on what persuades and spreads.",
+          "authors": "Nicolas Fay, Keith J. Ransom, Bradley Walker, Piers D. L. Howe, Andrew Perfors, Yoshihisa Kashima",
+          "url": "https://doi.org/10.1037/pspa0000467",
+          "doi": "https://doi.org/10.1037/pspa0000467",
+          "filter": 0,
+          "created": "2025-9-29"
         }
       ],
       "articles_hidden": []
@@ -275,6 +549,15 @@
       "journal_short": "PSPB",
       "articles": [
         {
+          "title": "Subjective Well-Being Enhances Experiential Perceptions",
+          "authors": "Hyewon Oh, Joseph K. Goodman, Dan R. Schley, Incheol Choi, Kathleen D. Vohs",
+          "abstract": "The experiential advantage refers to the well-being people derive from experiences over material goods. This research took a psychological needs approach and tested whether well-being predicts seeing purchases and products as being able to offer experiences. Five studies, using trait and state measures of well-being and sampling people in Asia and North America, supported this hypothesis. Controlled studies found that people higher in trait well-being viewed purchases as more experiential (Studies 1 and 5). Momentary well-being, whether measured or manipulated, showed a similarly positive impact of higher well-being on experiential perceptions (Studies 2–4). The effect was specific to perceptions of the experiential nature of products, not their materiality, and was most consistent for the positive affect component of well-being. Combined with prior findings, results suggest a self-reinforcing, benevolent cycle: experiences improve well-being, and well-being orients people to the experiential, need-satisfying aspects of products, which may then further support well-being.",
+          "url": "https://doi.org/10.1177/01461672261430980",
+          "doi": "https://doi.org/10.1177/01461672261430980",
+          "filter": 0,
+          "created": "2026-3-31"
+        },
+        {
           "title": "Around But Not Close? Mapping Normative Trends in Cross-Race Contact During Adulthood",
           "authors": "Stephen Antonoplis, Claude S. Fischer",
           "abstract": "How do people form cross-race relationships in everyday life, and do people vary from each other in this process? Answering these questions can yield useful insights for scholars interested in encouraging cross-race contact. We investigated how people ( N = 1,156 Bay Area adults) met their different-race (vs. same-race) contacts, the roles that different-race contacts occupied in their personal networks, and the content and quality of their relationships with their different-race contacts. We found that different-race contacts were, on average, “around but not close.” They were met in less intimate settings; they occupied less intimate roles; and they were felt less close to. Importantly, processes varied across people. People who formed cross-race kin relationships were the most likely to have stable cross-race contact, and people who engaged in “high effort” activities with their different-race contacts (e.g., confiding in) had closer relationships with them. We highlight insights of these results for encouraging cross-race contact.",
@@ -291,6 +574,15 @@
           "doi": "https://doi.org/10.1177/01461672261427540",
           "filter": 0,
           "created": "2026-3-26"
+        },
+        {
+          "title": "Trust, But Verify: How (In)consistent Allyship Shapes Disadvantaged Group Members’ Perceptions",
+          "authors": "Patricia Ciordas, Charlotte E. Moser, Shaun Wiley, Anna Kende, Yasin Koc",
+          "abstract": "Advantaged group members can play a significant role in advocating for social change on behalf of disadvantaged groups. Drawing on Kelley’s covariation model and the attribution-identity model of ally sincerity, we argue that allyship that is inconsistent over time raises doubt about advantaged group members’ motives. In four studies conducted in theUnited States, we found that Black Americans (Study 1, N = 330) perceived White Americans who participated consistently in protests for racial equality as more internally motivated and as better allies than those protesting for the first time, and that LGBTQIA+ individuals viewed inconsistent (i.e., decreasing or alternating) participation over time by straight allies as less internally motivated and less trustworthy than consistent participation (Study 2, 3, and 4, N s = 287, 601, 434) or a control condition (Study 3). Our results highlight the importance of sustained allyship for positive perceptions of advantaged group allies.",
+          "url": "https://doi.org/10.1177/01461672261432440",
+          "doi": "https://doi.org/10.1177/01461672261432440",
+          "filter": 0,
+          "created": "2026-3-31"
         },
         {
           "title": "Unintentional Outcomes as a Catalyst for Brainstorming",
