@@ -1,5 +1,5 @@
 {
-  "update": "2026-04-03",
+  "update": "2026-04-04",
   "content": [
     {
       "journal_full": "Journal of Elections, Public Opinion and Parties",
@@ -25,22 +25,6 @@
       "articles_hidden": []
     },
     {
-      "journal_full": "Journal of Survey Statistics and Methodology",
-      "journal_short": "JSSAM",
-      "articles": [
-        {
-          "title": "The Extended Crosswise Model Adjusted for Random Answering",
-          "authors": "Khadiga H A Sayed, Maarten J L F Cruyff, Andrea Petróczi, Peter G M Van der Heijden",
-          "abstract": "The Extended Crosswise Model is a popular randomized response design that employs a sensitive and innocuous statement, and asks respondents if one of these statements is true, or if none or both are true. Although the model has a degree of freedom, it is unable to detect random answering. In this article, we propose a new method to detect and correct for random answering. This method makes use of a non-sensitive control statement and a quasi-randomized innocuous statement to which both answers are known, which allows for the detection of and correction for random answering. A simulation study shows that this method yields unbiased estimates of the prevalence of sensitive attribute. For four surveys among elite athletes, we present prevalence estimates of doping use that are corrected for random answering.",
-          "url": "https://doi.org/10.1093/jssam/smag004",
-          "doi": "https://doi.org/10.1093/jssam/smag004",
-          "filter": 0,
-          "created": "2026-3-27"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
       "journal_full": "Public Opinion Quarterly",
       "journal_short": "POQ",
       "articles": [
@@ -52,15 +36,6 @@
           "doi": "https://doi.org/10.1093/poq/nfag015",
           "filter": 0,
           "created": "2026-3-29"
-        },
-        {
-          "title": "Scaling Open-Ended Survey Responses Using LLM-Paired Comparisons",
-          "authors": "Matthew R DiGiuseppe, Michael E Flynn",
-          "abstract": "Survey researchers rely heavily on closed-ended questions to measure latent respondent characteristics like knowledge, policy positions, emotions, ideology, and various other traits. Closed-ended questions are easy to analyze and collect, but necessarily limit the depth and variability of responses. Open-ended responses allow for greater depth and variability in responses, but are labor intensive to code. Large language models (LLMs) may help with this problem, but existing approaches to using LLMs have a number of limitations. In this paper, we propose and test a pairwise comparison method to scale open-ended survey responses on a continuous scale. The approach relies on LLMs to make pairwise comparisons of statements that identify which statement “wins” and “loses.” With this information, we employ a Bayesian Bradley-Terry model to recover a “score” on a latent dimension for each statement. This approach allows for finer discrimination between items, reduced anchoring bias, better measurement of uncertainty, and is more flexible than methods relying on Maximum Likelihood Estimation techniques. We demonstrate the utility of this approach on an open-ended question probing knowledge of interest rates in the US economy. A comparison of six LLMs of various sizes reveals that pairwise comparisons show greater consistency than zero-shot 0–10 ratings across a variety of model sizes. Further, comparison of pairwise decisions is consistent with knowledgeable crowdsourced workers.",
-          "url": "https://doi.org/10.1093/poq/nfag013",
-          "doi": "https://doi.org/10.1093/poq/nfag013",
-          "filter": 0,
-          "created": "2026-3-27"
         }
       ],
       "articles_hidden": []
@@ -69,15 +44,6 @@
       "journal_full": "Social Science Computer Review",
       "journal_short": "SSCR",
       "articles": [
-        {
-          "title": "Evolution of Deep Learning Models for Misinformation Detection in Social Media Textual Data: Background, Architectures, Datasets, and Emerging LLM Applications",
-          "authors": "Ziad Elgammal, Reda Alhajj",
-          "abstract": "With the exponential growth in social media usage, the rapid spread of misinformation has become a critical global challenge. Recent advances in large language models (LLMs) have shown promising potential in automated misinformation detection. This survey provides a comprehensive review of LLM-based approaches for detecting misinformation in textual data on social media platforms. In this work, we analyze 70+ recent papers; to examine the evolution, implementation, and effectiveness of various LLM architectures in this domain. Our analysis reveals that BERT-based models dominate the field, appearing in approximately 85% of studies, with domain-specific variants like CT-BERT demonstrating superior performance in specialized contexts such as COVID-19 misinformation detection. We provide detailed comparisons of model architectures, implementation strategies, and performance metrics across different domains. Additionally, seven major datasets commonly used in this field were analyzed, examining their characteristics, limitations, and suitability for different detection tasks. The survey also addresses key challenges, including linguistic nuances, model interpretability, and ethical considerations. Our findings indicate that while LLM-based approaches achieve impressive accuracy metrics, significant challenges remain in cross-domain generalization and real-time detection. This survey concludes by identifying promising research directions and providing recommendations for robust model evaluation frameworks.",
-          "url": "https://doi.org/10.1177/08944393261432625",
-          "doi": "https://doi.org/10.1177/08944393261432625",
-          "filter": 0,
-          "created": "2026-3-27"
-        },
         {
           "title": "How Much Data Should I Request? Balancing Richness and Compliance in Digital Trace Data Donations",
           "authors": "Ernesto de León, Laura Boeschoten, Fabio Votta, Joris Mulder, Bella Struminskaya, Daniel Oberski, Theo Araujo, Claes de Vreese",
