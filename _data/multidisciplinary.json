@@ -1,5 +1,5 @@
 {
-  "update": "2026-04-04",
+  "update": "2026-04-05",
   "content": [
     {
       "journal_full": "Nature",
@@ -327,6 +327,14 @@
           "created": "2026-4-1"
         },
         {
+          "title": "What Artemis II’s astronauts will look for on the Moon’s far side",
+          "authors": "Alexandra Witze",
+          "url": "https://doi.org/10.1038/d41586-026-01103-9",
+          "doi": "https://doi.org/10.1038/d41586-026-01103-9",
+          "filter": "4",
+          "created": "2026-4-4"
+        },
+        {
           "title": "Mix-and-match synthesis of 3D small molecules",
           "authors": "Huyen N. Nguyen, Daniel J. Blair",
           "url": "https://doi.org/10.1038/d41586-026-00809-0",
@@ -471,14 +479,6 @@
           "created": "2026-4-2"
         },
         {
-          "title": "Quantum simulations verified by experiments for the first time",
-          "authors": "Davide Castelvecchi",
-          "url": "https://doi.org/10.1038/d41586-026-00959-1",
-          "doi": "https://doi.org/10.1038/d41586-026-00959-1",
-          "filter": "4",
-          "created": "2026-3-31"
-        },
-        {
           "title": "Pincer movement: fossil pushes origins of chelicerate arthropods back to the Cambrian period",
           "authors": "James C. Lamsdell",
           "url": "https://doi.org/10.1038/d41586-026-00807-2",
@@ -495,12 +495,12 @@
           "created": "2026-4-2"
         },
         {
-          "title": "Briefing Chat: ‘Zombie cells’ resurrected with new genes",
-          "authors": "Shamini Bundell, Nick Petrić Howe",
-          "url": "https://doi.org/10.1038/d41586-026-00996-w",
-          "doi": "https://doi.org/10.1038/d41586-026-00996-w",
+          "title": "Quantum simulations verified by experiments for the first time",
+          "authors": "Davide Castelvecchi",
+          "url": "https://doi.org/10.1038/d41586-026-00959-1",
+          "doi": "https://doi.org/10.1038/d41586-026-00959-1",
           "filter": "4",
-          "created": "2026-3-28"
+          "created": "2026-3-31"
         },
         {
           "title": "Lift off! Artemis II mission sends humans to the Moon — opening a new era of exploration",
@@ -895,20 +895,20 @@
           "created": "2026-3-30"
         },
         {
-          "title": "Cerebellar contributions to action and cognition: Prediction, timescale, and continuity",
-          "authors": "Jonathan S. Tsay, Richard B. Ivry",
-          "abstract": "The cerebellum is implicated in nearly every domain of human cognition, yet our understanding of how this subcortical structure contributes to cognition remains elusive. Efforts on this front have tended to fall into one of two camps. On one side are those who seek to identify a universal cerebellar transform, a single algorithm that can be applied across domains as diverse as sensorimotor learning, social cognition, and decision-making. On the other side are those who focus on functional specializations tailored for different task domains. In this perspective, we propose an integrated approach, one that recognizes functional specialization across different cerebellar subregions, but also builds on common constraints that help define the conditions that engage the cerebellum. Drawing on recurring principles from the cerebellum’s well-established role in motor control, we identify three core constraints: 1) Prediction—the cerebellum performs anticipatory, simulation-based computations; 2) Timescale—the cerebellum generates predictions limited to short intervals; and 3) Continuity—the cerebellum facilitates the manipulation of mental representations in a continuous, but not discrete manner. Together, these constraints define the boundary conditions underlying how the cerebellum supports cognition, and, just as importantly, specify the types of computations that should not depend on the cerebellum.",
-          "url": "https://doi.org/10.1073/pnas.2524258123",
-          "doi": "https://doi.org/10.1073/pnas.2524258123",
-          "filter": "2",
-          "created": "2026-4-3"
-        },
-        {
           "title": "Training thermodynamic computers by gradient descent",
           "authors": "Stephen Whitelam",
           "abstract": "We show how to adjust the parameters of a thermodynamic computer by gradient descent in order to perform a desired computation at a specified observation time. Within a digital simulation of a thermodynamic computer, training proceeds by maximizing the probability with which the computer would generate an idealized dynamical trajectory. The idealized trajectory is designed to reproduce the activations of a neural network trained to perform the desired computation. This teacher-student scheme results in a thermodynamic computer whose finite-time dynamics enacts a computation analogous to that of the neural network. The parameters identified in this way can be implemented in the hardware realization of the thermodynamic computer, which will perform the desired computation automatically, driven by thermal noise. We demonstrate the method on a standard image-classification task, and estimate the thermodynamic advantage—the ratio of energy costs of the digital and thermodynamic implementations—to exceed seven orders of magnitude. Our results establish gradient descent as a viable training method for thermodynamic computing, enabling application of the core methodology of machine learning to this emerging field.",
           "url": "https://doi.org/10.1073/pnas.2528413123",
           "doi": "https://doi.org/10.1073/pnas.2528413123",
+          "filter": "2",
+          "created": "2026-4-3"
+        },
+        {
+          "title": "Cerebellar contributions to action and cognition: Prediction, timescale, and continuity",
+          "authors": "Jonathan S. Tsay, Richard B. Ivry",
+          "abstract": "The cerebellum is implicated in nearly every domain of human cognition, yet our understanding of how this subcortical structure contributes to cognition remains elusive. Efforts on this front have tended to fall into one of two camps. On one side are those who seek to identify a universal cerebellar transform, a single algorithm that can be applied across domains as diverse as sensorimotor learning, social cognition, and decision-making. On the other side are those who focus on functional specializations tailored for different task domains. In this perspective, we propose an integrated approach, one that recognizes functional specialization across different cerebellar subregions, but also builds on common constraints that help define the conditions that engage the cerebellum. Drawing on recurring principles from the cerebellum’s well-established role in motor control, we identify three core constraints: 1) Prediction—the cerebellum performs anticipatory, simulation-based computations; 2) Timescale—the cerebellum generates predictions limited to short intervals; and 3) Continuity—the cerebellum facilitates the manipulation of mental representations in a continuous, but not discrete manner. Together, these constraints define the boundary conditions underlying how the cerebellum supports cognition, and, just as importantly, specify the types of computations that should not depend on the cerebellum.",
+          "url": "https://doi.org/10.1073/pnas.2524258123",
+          "doi": "https://doi.org/10.1073/pnas.2524258123",
           "filter": "2",
           "created": "2026-4-3"
         },
@@ -1028,6 +1028,15 @@
           "created": "2026-3-30"
         },
         {
+          "title": "Clade C MERS-CoV camel strains vary in protease utilization during viral entry",
+          "authors": "Helena Winstone, Helen Stillwell, Li Hui Tan, Noam A. Cohen, Ranawaka A. P. M. Perera, Susan R. Weiss",
+          "abstract": "Middle East Respiratory Syndrome coronavirus (MERS-CoV) is a lethal pathogen with pandemic potential. Clade A and B MERS-CoV viruses have caused outbreaks in the Middle East since 2012 when they initially spilled over from camels to humans. Clade C viruses, however, are only found in camels across Africa and the spillover potential of these viruses seems to be lower than for clade A/B strains but remains to be fully understood. Here, we report that clade C spikes are less well-cleaved at the S1/S2 boundary than clade A or B viral spikes and that most clade C spikes induce reduced syncytium formation. Additionally, we demonstrate that several East African clade C strains are less able to utilize the TMPRSS2-mediated pathway for viral entry in both cell lines and primary nasal epithelial cultures. We map the molecular basis of this reduced TMPRSS2 usage to the N-terminal domain and subdomain 2 of East African clade C MERS-CoV. We suggest that reduced usage of the TMPRSS2-mediated entry pathway may underlie the reduced replication of East African clade C strains in humans, while the reduced replication of West African strains remains to be further investigated. Altered protease usage may contribute to differential tropism of East African clade C strains and indicate geographically distinct selection pressures on spike between MERS-CoV strains circulating in camels.",
+          "url": "https://doi.org/10.1073/pnas.2525313123",
+          "doi": "https://doi.org/10.1073/pnas.2525313123",
+          "filter": "2",
+          "created": "2026-4-1"
+        },
+        {
           "title": "Dynamic switching of cell–substrate contact sites allows gliding diatoms to modulate the curvature of their paths",
           "authors": "Stefan Golfier, Veikko F. Geyer, Leon Lettermann, Ulrich S. Schwarz, Nicole Poulsen, Stefan Diez",
           "abstract": "The directed motility of unicellular organisms is critical for their survival and ecological success, yet the mechanisms that enable rigid-walled diatoms to dynamically reorient and alter the shape of their trajectories remain poorly understood. Here, we investigate the gliding motility of Craspedostauros australis , a raphid pennate diatom that moves rapidly across submerged surfaces using an intracellular actomyosin motility complex and the secretion of adhesive extracellular polymeric substances (EPS) strands through slit-like openings termed raphes. Using high-precision single-cell tracking, scanning electron microscopy (SEM), interference reflection microscopy (IRM), and mathematical modeling, we reveal how diatoms achieve diverse path curvatures by dynamically modulating the location of raphe–substrate contact and switching between one- and two-raphe branch contact gliding. Our results indicate that local curvature variations along the raphes dictate trajectory shapes, with one-raphe branch contact gliding producing highly curved paths, while two-raphe branch contact gliding results in paths of lower curvature. IRM imaging further confirms that transitions between these gliding modes underlie abrupt changes in path curvature and cell reorientation. This dynamic raphe-switching mechanism is conserved across cell sizes and correctly predicts the increased path curvatures observed in smaller cells according to their more pronounced local raphe curvature. By quantitatively linking raphe geometry, cell–substrate attachment dynamics and motility patterns, our study provides insights into the motility mechanism that allows diatoms to adapt their movement to complex environments.",
@@ -1042,15 +1051,6 @@
           "abstract": "Singlet oxygen ( 1 O 2 ) is a short-lived, highly reactive oxidant driving natural element cycles, yet its spatial distribution in complex multiphase systems remains poorly understood. Here, we show that irradiation of organic carbon (OC)-containing aqueous microdroplets leads to pronounced interfacial enrichment of 1 O 2 , driven by the surface accumulation of photosensitizing OC. Combining fluorescence imaging with a reaction–diffusion kinetic model, we resolve steep 1 O 2 gradients across the air–water boundary: In a 1 µm-radius droplet, 1 O 2 levels drop by 90% within 10 µm from the interface into the gaseous phase, and within 230 nm from the interface into the aqueous phase. Tailored peptide probes reveal that molecules residing at the interface undergo substantially faster 1 O 2 -mediated transformation than their bulk counterparts. These findings identify the air–water interface as a privileged site for 1 O 2 photochemistry that strongly accelerates redox processes in aerosols, sea spray, and the ocean–atmosphere boundary.",
           "url": "https://doi.org/10.1073/pnas.2534956123",
           "doi": "https://doi.org/10.1073/pnas.2534956123",
-          "filter": "2",
-          "created": "2026-4-1"
-        },
-        {
-          "title": "Clade C MERS-CoV camel strains vary in protease utilization during viral entry",
-          "authors": "Helena Winstone, Helen Stillwell, Li Hui Tan, Noam A. Cohen, Ranawaka A. P. M. Perera, Susan R. Weiss",
-          "abstract": "Middle East Respiratory Syndrome coronavirus (MERS-CoV) is a lethal pathogen with pandemic potential. Clade A and B MERS-CoV viruses have caused outbreaks in the Middle East since 2012 when they initially spilled over from camels to humans. Clade C viruses, however, are only found in camels across Africa and the spillover potential of these viruses seems to be lower than for clade A/B strains but remains to be fully understood. Here, we report that clade C spikes are less well-cleaved at the S1/S2 boundary than clade A or B viral spikes and that most clade C spikes induce reduced syncytium formation. Additionally, we demonstrate that several East African clade C strains are less able to utilize the TMPRSS2-mediated pathway for viral entry in both cell lines and primary nasal epithelial cultures. We map the molecular basis of this reduced TMPRSS2 usage to the N-terminal domain and subdomain 2 of East African clade C MERS-CoV. We suggest that reduced usage of the TMPRSS2-mediated entry pathway may underlie the reduced replication of East African clade C strains in humans, while the reduced replication of West African strains remains to be further investigated. Altered protease usage may contribute to differential tropism of East African clade C strains and indicate geographically distinct selection pressures on spike between MERS-CoV strains circulating in camels.",
-          "url": "https://doi.org/10.1073/pnas.2525313123",
-          "doi": "https://doi.org/10.1073/pnas.2525313123",
           "filter": "2",
           "created": "2026-4-1"
         },
@@ -1082,15 +1082,6 @@
           "created": "2026-3-30"
         },
         {
-          "title": "Convergence of external and internal stressors on a stress-responsive enhancer of the Sonic hedgehog gene to induce hair disorders",
-          "authors": "ZiYu Chen, XiaoQi Chen, KaiBin Yang, HouDong Zhou, YaFei Zhang, Zhen Huang, YanDing Zhang, Ralf Paus, ZhiCao Yue",
-          "abstract": "Mammals are constantly exposed to various stressors of internal and external origin. Though hair follicles (HFs) are exquisitely sensitive to stress, it remains largely unknown how stress-induced responses are linked with the intrinsic regulators of HF growth, cycling, and regeneration. Here, we characterize the long-range enhancer of Sonic hedgehog ( Shh ) gene which encodes a crucial mitogen in the HF, and identify a hair stress-responsive enhancer ( HSRE ) as a unified target on which various internal and external stressors converge. Together with the immediate early gene Early growth response 1 ( Egr1 ), this combination of enhancer and transcription factor mediates hair growth arrest and regeneration defects under several stress conditions, including chemotherapy-induced hair loss, noise-induced hair dystrophy, and retarded hair regeneration in aging and obesity. Under stress, the increased expression of Egr1 suppresses Shh gene expression; however, this suppression does not occur when the HSRE is absent. Furthermore, two chemical agents SR11302 and T-5224 which suppress Egr1 expression both rescued the hair disorders under the various stressors. We propose that an Egr1 – Shh axis integrates distinct stress signals and induces hair disorders via suppression of Shh gene expression, and provide a plausible strategy for therapeutic intervention. Our results establish a paradigm of how stress perturbs organ growth and regeneration through the regulation of key intrinsic morphogenetic factors.",
-          "url": "https://doi.org/10.1073/pnas.2529339123",
-          "doi": "https://doi.org/10.1073/pnas.2529339123",
-          "filter": "2",
-          "created": "2026-3-31"
-        },
-        {
           "title": "“Target species complex” concept: Strengthening environmental risk assessment of engineered gene drives",
           "authors": "John B. Connolly, Yann Devos, Debora C. M. Glandorf, Jörg Romeis",
           "url": "https://doi.org/10.1073/pnas.2535353123",
@@ -1104,6 +1095,33 @@
           "abstract": "Ribosomally synthesized and posttranslationally modified peptides (RiPPs) are structurally diverse natural products that possess a range of bioactivities, often acting as antibiotics, antifungals, or metallophores. In RiPP biosynthesis, different modifying enzymes install an array of chemical motifs onto a precursor peptide. A recently described RiPP-modifying enzyme, ChrH, catalyzes a remarkably complex reaction on its precursor peptide that results in a macrocycle, heterocycle, and S- methyl group. By leveraging comparative genomics, we demonstrate that the products from a subfamily of enzymes related to ChrH display unexpected structural diversity, including the production of unmethylated macrocyclic congeners and C-terminally modified proteins over 30 kDa in size. Several of these precursors contain a signal peptide, sending them for downstream maturation by the bacterial lipoprotein biosynthetic pathway. Like bacterial lipoproteins, such peptides are modified by addition of a diacylglycerol (DAG) group to the N-terminal cysteine residue along with acylation of the N-terminal amine. Genome mining reveals that these RiPP–lipoprotein hybrids, which we term DAG-RiPPs, are widespread across bacterial phyla and are likely involved in different biological roles. Together, these results highlight a maturation paradigm for membrane-bound RiPPs and lay the foundation for the future discovery and bioengineering of other RiPP–lipoprotein hybrids.",
           "url": "https://doi.org/10.1073/pnas.2532672123",
           "doi": "https://doi.org/10.1073/pnas.2532672123",
+          "filter": "2",
+          "created": "2026-3-30"
+        },
+        {
+          "title": "Convergence of external and internal stressors on a stress-responsive enhancer of the Sonic hedgehog gene to induce hair disorders",
+          "authors": "ZiYu Chen, XiaoQi Chen, KaiBin Yang, HouDong Zhou, YaFei Zhang, Zhen Huang, YanDing Zhang, Ralf Paus, ZhiCao Yue",
+          "abstract": "Mammals are constantly exposed to various stressors of internal and external origin. Though hair follicles (HFs) are exquisitely sensitive to stress, it remains largely unknown how stress-induced responses are linked with the intrinsic regulators of HF growth, cycling, and regeneration. Here, we characterize the long-range enhancer of Sonic hedgehog ( Shh ) gene which encodes a crucial mitogen in the HF, and identify a hair stress-responsive enhancer ( HSRE ) as a unified target on which various internal and external stressors converge. Together with the immediate early gene Early growth response 1 ( Egr1 ), this combination of enhancer and transcription factor mediates hair growth arrest and regeneration defects under several stress conditions, including chemotherapy-induced hair loss, noise-induced hair dystrophy, and retarded hair regeneration in aging and obesity. Under stress, the increased expression of Egr1 suppresses Shh gene expression; however, this suppression does not occur when the HSRE is absent. Furthermore, two chemical agents SR11302 and T-5224 which suppress Egr1 expression both rescued the hair disorders under the various stressors. We propose that an Egr1 – Shh axis integrates distinct stress signals and induces hair disorders via suppression of Shh gene expression, and provide a plausible strategy for therapeutic intervention. Our results establish a paradigm of how stress perturbs organ growth and regeneration through the regulation of key intrinsic morphogenetic factors.",
+          "url": "https://doi.org/10.1073/pnas.2529339123",
+          "doi": "https://doi.org/10.1073/pnas.2529339123",
+          "filter": "2",
+          "created": "2026-3-31"
+        },
+        {
+          "title": "Nanoscale infrared spectroscopy reveals complex organic–mineral assemblages in asteroid Bennu",
+          "authors": "Mehmet Yesiltas, Andrew Dopilka, Robert Kostecki, Timothy D. Glotch, Paul Northrup",
+          "abstract": "Asteroid Bennu preserves primitive material from the early solar system, and returned samples allow direct examination of how organics and minerals were assembled and altered. We applied nanoscale infrared spectroscopy together with Raman spectroscopy to the Bennu sample OREX-800066-3 to characterize chemical variability at ~20 nm scales. Analysis of nano-Fourier-transform infrared spectroscopy spectra identifies three recurring compositional domains; aliphatic-rich, carbonate-rich, and nitrogen-bearing organic-rich regions. Statistical evaluation shows that these domains are compositionally and spatially distinct at the nanoscale, with strong negative correlations between aliphatic signatures and both carbonates and N-bearing organics, and negligible correlation between carbonates and N-bearing organics. Organosulfur compounds are spatially restricted to carbonate-rich regions, indicating organic-sulfate interactions during late-stage brine evolution. Raman spectra indicate highly disordered, thermally minimally metamorphosed carbonaceous matter, consistent with preservation of labile functional groups. These results demonstrate that Bennu’s angular lithology (characterized by planar facets and sharp edges) is not chemically uniform and records heterogeneous aqueous alteration rather than pervasive uniform processing. N-bearing organic functional groups are widely preserved despite extensive alteration, and carbonate-rich areas show intimate nanoscale mixing of different carbonate species. The coexistence of distinct organic- and carbonate-rich domains suggests contributions from both primordial compositional diversity and subsequent rock–fluid interaction. Comparison with Ryugu samples highlights shared features but key differences in organic-carbonate associations and carbonate distributions. Overall, Bennu’s nanoscale heterogeneity provides constraints on organic preservation, carbonate formation, organic-sulfate chemistry, and parent-body evolution in volatile-rich early solar system materials.",
+          "url": "https://doi.org/10.1073/pnas.2601891123",
+          "doi": "https://doi.org/10.1073/pnas.2601891123",
+          "filter": "2",
+          "created": "2026-3-30"
+        },
+        {
+          "title": "Cellular antibody affinity–based CRISPR screening identifies JUNB as a broadly acting antiviral factor",
+          "authors": "Nicole C. Waild, Jessica H. Ciesla, Xenia L. Schafer, Joshua Munger",
+          "abstract": "CRISPR screening is a powerful approach to identify genetic perturbations that impact viral infection. However, most virus-focused CRISPR screens utilize selection strategies that limit the ability to identify genes important for infection. Here, we developed a CRISPR screening pipeline to identify cellular determinants of human cytomegalovirus (HCMV) infection based on virally induced remodeling of cellular antibody affinity (VIRCAA), which is scalable for large libraries and can identify cellular genes that impact HCMV infection at different life cycle stages. We utilized this pipeline to interrogate proteomic and transcriptomic datasets associated with the HCMV UL26 protein, which blocks antiviral signaling during infection. We find that JUNB drives antiviral gene expression, induces protein ISGylation, and suppresses diverse viral infections. Further, UL26 interacts with JUNB and suppresses JUNB-mediated condensation of viral DNA replication compartments. These results highlight the VIRCAA pipeline’s utility for identifying important determinants of viral infection.",
+          "url": "https://doi.org/10.1073/pnas.2534154123",
+          "doi": "https://doi.org/10.1073/pnas.2534154123",
           "filter": "2",
           "created": "2026-3-30"
         },
@@ -1124,24 +1142,6 @@
           "doi": "https://doi.org/10.1073/pnas.2521783123",
           "filter": "2",
           "created": "2026-4-1"
-        },
-        {
-          "title": "Nanoscale infrared spectroscopy reveals complex organic–mineral assemblages in asteroid Bennu",
-          "authors": "Mehmet Yesiltas, Andrew Dopilka, Robert Kostecki, Timothy D. Glotch, Paul Northrup",
-          "abstract": "Asteroid Bennu preserves primitive material from the early solar system, and returned samples allow direct examination of how organics and minerals were assembled and altered. We applied nanoscale infrared spectroscopy together with Raman spectroscopy to the Bennu sample OREX-800066-3 to characterize chemical variability at ~20 nm scales. Analysis of nano-Fourier-transform infrared spectroscopy spectra identifies three recurring compositional domains; aliphatic-rich, carbonate-rich, and nitrogen-bearing organic-rich regions. Statistical evaluation shows that these domains are compositionally and spatially distinct at the nanoscale, with strong negative correlations between aliphatic signatures and both carbonates and N-bearing organics, and negligible correlation between carbonates and N-bearing organics. Organosulfur compounds are spatially restricted to carbonate-rich regions, indicating organic-sulfate interactions during late-stage brine evolution. Raman spectra indicate highly disordered, thermally minimally metamorphosed carbonaceous matter, consistent with preservation of labile functional groups. These results demonstrate that Bennu’s angular lithology (characterized by planar facets and sharp edges) is not chemically uniform and records heterogeneous aqueous alteration rather than pervasive uniform processing. N-bearing organic functional groups are widely preserved despite extensive alteration, and carbonate-rich areas show intimate nanoscale mixing of different carbonate species. The coexistence of distinct organic- and carbonate-rich domains suggests contributions from both primordial compositional diversity and subsequent rock–fluid interaction. Comparison with Ryugu samples highlights shared features but key differences in organic-carbonate associations and carbonate distributions. Overall, Bennu’s nanoscale heterogeneity provides constraints on organic preservation, carbonate formation, organic-sulfate chemistry, and parent-body evolution in volatile-rich early solar system materials.",
-          "url": "https://doi.org/10.1073/pnas.2601891123",
-          "doi": "https://doi.org/10.1073/pnas.2601891123",
-          "filter": "2",
-          "created": "2026-3-30"
-        },
-        {
-          "title": "Cellular antibody affinity–based CRISPR screening identifies JUNB as a broadly acting antiviral factor",
-          "authors": "Nicole C. Waild, Jessica H. Ciesla, Xenia L. Schafer, Joshua Munger",
-          "abstract": "CRISPR screening is a powerful approach to identify genetic perturbations that impact viral infection. However, most virus-focused CRISPR screens utilize selection strategies that limit the ability to identify genes important for infection. Here, we developed a CRISPR screening pipeline to identify cellular determinants of human cytomegalovirus (HCMV) infection based on virally induced remodeling of cellular antibody affinity (VIRCAA), which is scalable for large libraries and can identify cellular genes that impact HCMV infection at different life cycle stages. We utilized this pipeline to interrogate proteomic and transcriptomic datasets associated with the HCMV UL26 protein, which blocks antiviral signaling during infection. We find that JUNB drives antiviral gene expression, induces protein ISGylation, and suppresses diverse viral infections. Further, UL26 interacts with JUNB and suppresses JUNB-mediated condensation of viral DNA replication compartments. These results highlight the VIRCAA pipeline’s utility for identifying important determinants of viral infection.",
-          "url": "https://doi.org/10.1073/pnas.2534154123",
-          "doi": "https://doi.org/10.1073/pnas.2534154123",
-          "filter": "2",
-          "created": "2026-3-30"
         },
         {
           "title": "Neural circuits for decision-making based on pineal photoreception in zebrafish",
@@ -1273,15 +1273,6 @@
           "doi": "https://doi.org/10.1126/science.adr7162",
           "filter": "0",
           "created": "2026-4-2"
-        },
-        {
-          "title": "Higher education must bridge the AI gap",
-          "authors": "Marie Lynn Miranda",
-          "abstract": "Conversations abound about how artificial intelligence (AI) is changing the world. AI and its applications are advancing at a pace that outstrips regulatory and ethical frameworks. In the face of these challenges, higher education must develop students into fluent, intelligent, and ethical users of AI and work to ensure that the benefits of AI reach broadly across communities.",
-          "url": "https://doi.org/10.1126/science.aeh5777",
-          "doi": "https://doi.org/10.1126/science.aeh5777",
-          "filter": "0",
-          "created": "2026-4-2"
         }
       ],
       "articles_hidden": [
@@ -1309,6 +1300,15 @@
           "abstract": "The distribution of mitochondrial DNA–containing nucleoids is essential for mitochondrial function and genome inheritance; however, no known mechanisms can explain nucleoid segregation or their regular positioning. In this work, we found that mitochondria frequently undergo a reversible biophysical instability termed “pearling,” transforming from a tubular into a regularly spaced beads morphology. Physiological pearling imposed a characteristic length scale and simultaneously mediated nucleoid disaggregation and established internucleoid distancing with high precision. Pearling onset was triggered by calcium influx, whereas the density of lamellar cristae invaginations modulated pearling prevalence and preserved nucleoid spacing following recovery. The dysregulation of mitochondrial calcium influx or inner membrane cristae integrity caused aberrant nucleoid clustering. Our results identify pearling as a mechanism governing nucleoid distribution and inheritance and offer insights into its regulation.",
           "url": "https://doi.org/10.1126/science.adu5646",
           "doi": "https://doi.org/10.1126/science.adu5646",
+          "filter": "2",
+          "created": "2026-4-2"
+        },
+        {
+          "title": "Higher education must bridge the AI gap",
+          "authors": "Marie Lynn Miranda",
+          "abstract": "Conversations abound about how artificial intelligence (AI) is changing the world. AI and its applications are advancing at a pace that outstrips regulatory and ethical frameworks. In the face of these challenges, higher education must develop students into fluent, intelligent, and ethical users of AI and work to ensure that the benefits of AI reach broadly across communities.",
+          "url": "https://doi.org/10.1126/science.aeh5777",
+          "doi": "https://doi.org/10.1126/science.aeh5777",
           "filter": "2",
           "created": "2026-4-2"
         },
@@ -1828,20 +1828,20 @@
           "created": "2026-4-1"
         },
         {
-          "title": "Rising flood risks in semiarid South Asia driven by changing intraseasonal oscillations under global warming",
-          "authors": "Jinhui Xie, Pang-Chi Hsu, June-Yi Lee, Lu Wang, Pallav Ray, Lei Zhou, Baosheng Li",
-          "abstract": "Northwestern South Asia, encompassing the historically semiarid regions of Pakistan and northwest India, has seen increased persistent heavy rainfall and catastrophic flooding in recent decades. While most studies emphasize seasonal mean changes, the role of subseasonal dynamics remains unclear. Here, we present observational evidence that the northward-propagating monsoon intraseasonal oscillation (ISO) has strengthened and penetrated farther inland, with its convective anomalies amplifying rainfall extremes. Simultaneously, the southeastward-propagating mid-latitude ISO along the westerly jet has slowed, prolonging anomalous circulations that sustain rainfall episodes. Together, these ISOs account for ~44% of the observed increase in flood frequency, a contribution comparable to that from mean-state changes (~40%). CMIP6 projections suggest that these ISO-driven processes will further intensify flood risks, posing escalating threats to this climate-sensitive region under continued global warming. Our findings reveal a fundamental yet overlooked mechanism linking subseasonal variability to emerging hydroclimatic extremes in a warmer world.",
-          "url": "https://doi.org/10.1126/sciadv.aea0082",
-          "doi": "https://doi.org/10.1126/sciadv.aea0082",
-          "filter": "2",
-          "created": "2026-4-3"
-        },
-        {
           "title": "Hemostatic B-knob–triggered microgels (BK-TriGs) to address bleeding in neonates",
           "authors": "Nooshin Zandi, Kimberly Nellenbach, Connor Moore, Julia Storch, Sara R. Abrahams, Matthew J. Flick, Michael Daniele, Ashley Brown",
           "abstract": "Hemostatic immaturity in neonates presents critical challenges, especially during surgery, where bleeding and thrombosis risks are elevated. Current treatments rely on transfusing adult blood products, which may cause complications resulting from structural and functional differences between neonatal and adult fibrinogen. To address this, we developed hemostatic B-knob–triggered microgels (BK-TriGs) that target and bridge fibrinogen hole b sites. Functionalized with a fibrin hole b–specific peptide, BK-TriGs enhance clot density and resistance to degradation. In vitro studies using neonatal platelet-poor plasma (PPP) showed that at an optimal concentration, BK-TriGs increased clot density by more than 100% and improved stability by reducing fibrinolysis. Under flow conditions, BK-TriGs promoted robust clot formation compared to plasma-only controls. In an in vivo fib-null (Fga−/−) mouse model transfused with neonatal fibrinogen, BK-TriGs reduced blood loss by 50 to 60% and enhanced fibrin deposition at wound sites. This targeted approach offers a safer, more effective hemostatic solution tailored to neonatal clotting needs.",
           "url": "https://doi.org/10.1126/sciadv.ady7698",
           "doi": "https://doi.org/10.1126/sciadv.ady7698",
+          "filter": "2",
+          "created": "2026-4-3"
+        },
+        {
+          "title": "Rising flood risks in semiarid South Asia driven by changing intraseasonal oscillations under global warming",
+          "authors": "Jinhui Xie, Pang-Chi Hsu, June-Yi Lee, Lu Wang, Pallav Ray, Lei Zhou, Baosheng Li",
+          "abstract": "Northwestern South Asia, encompassing the historically semiarid regions of Pakistan and northwest India, has seen increased persistent heavy rainfall and catastrophic flooding in recent decades. While most studies emphasize seasonal mean changes, the role of subseasonal dynamics remains unclear. Here, we present observational evidence that the northward-propagating monsoon intraseasonal oscillation (ISO) has strengthened and penetrated farther inland, with its convective anomalies amplifying rainfall extremes. Simultaneously, the southeastward-propagating mid-latitude ISO along the westerly jet has slowed, prolonging anomalous circulations that sustain rainfall episodes. Together, these ISOs account for ~44% of the observed increase in flood frequency, a contribution comparable to that from mean-state changes (~40%). CMIP6 projections suggest that these ISO-driven processes will further intensify flood risks, posing escalating threats to this climate-sensitive region under continued global warming. Our findings reveal a fundamental yet overlooked mechanism linking subseasonal variability to emerging hydroclimatic extremes in a warmer world.",
+          "url": "https://doi.org/10.1126/sciadv.aea0082",
+          "doi": "https://doi.org/10.1126/sciadv.aea0082",
           "filter": "2",
           "created": "2026-4-3"
         },
@@ -1864,20 +1864,20 @@
           "created": "2026-4-3"
         },
         {
-          "title": "Phosphorylation of PfiA modulates Pf4 phage production through PfiA/PfiT stoichiometric reconfiguration in Pseudomonas aeruginosa",
-          "authors": "Ran Chen, Yu Zhang, Yunxue Guo, Jiayu Gu, Shituan Lin, Xiaoxue Wang",
-          "abstract": "Filamentous Pf bacteriophages are widely distributed in Pseudomonas aeruginosa and profoundly influence biofilm formation and host virulence. The Pf4 prophage encodes a type II toxin-antitoxin (TA) system, PfiAT, modulating Pf4 propagation; however, its mechanistic role remains unclear. Here, through structural and biochemical analysis, we demonstrate that the PfiT toxin (ParE/RelE superfamily) has a unique C-terminal extension essential for TA complex formation. The antitoxin PfiA harbors a previously uncharacterized DNA binding domain, and its phosphorylation during biofilm formation shifts the PfiAT complex stoichiometry from a noncanonical PfiA 6 PfiT 4 to a canonical PfiA 2 PfiT 2 assembly. This phosphorylation is mediated by the prophage Pf6-encoded kinase toxin PfkA/PfkB at T5 in PfiA’s DNA binding domain. This posttranslational modification eliminates the pool of free toxins through complex reorganization, thereby neutralizing PfiT toxicity and enabling rapid Pf4 propagation during P. aeruginosa biofilm development. This study uncovers the cross-talk of TA systems from two coresident prophages and the role of posttranslational modification of TA system in mediating phage-phage and phage-host dynamics.",
-          "url": "https://doi.org/10.1126/sciadv.aeb5480",
-          "doi": "https://doi.org/10.1126/sciadv.aeb5480",
-          "filter": "2",
-          "created": "2026-4-3"
-        },
-        {
           "title": "Quasi-epitaxial heterojunction interface reconstruction enables 11.96% certified efficiency in Cd-free Cu 2 ZnSnS 4 solar cells",
           "authors": "Ping Luo, Shuo Chen, Guojie Chen, Muhammad Abbas, Zhenghua Su, Zhuanghao Zheng, Hongli Ma, Xianghua Zhang, Guangxing Liang",
           "abstract": "Sulfide kesterite Cu 2 ZnSnS 4 (CZTS) is a promising photovoltaic material with considerable potential for application in single-junction, multi-junction, and tandem solar cells. However, advancements in its certified power conversion efficiency (PCE) have remained slow, primarily due to severe interface recombination, which is a major limitation constraining the overall performance of CZTS solar cells. Here, we report an effective heterojunction interface engineering approach in which the CZTS/(Zn,Sn)O heterojunction is subjected to a controlled annealing treatment under dynamically flowing air atmosphere. This treatment induces Zn and Sn cation lattice diffusion to reconstruct a quasi-epitaxial contact at the intermediate interface. This reconstruction effectively suppresses defect-assisted interfacial carrier recombination and optimizes carrier dynamics by enhancing transport and collection efficiencies. Consequently, we achieved a highest certified efficiency of 11.96% for Cd-free, pure-sulfide CZTS solar cell (bandgap &gt; 1.5 eV) without extrinsic cation alloying. This study provides insights into heterojunction interface optimization and the performance enhancement mechanism in the development of kesterite solar cells.",
           "url": "https://doi.org/10.1126/sciadv.aee0270",
           "doi": "https://doi.org/10.1126/sciadv.aee0270",
+          "filter": "2",
+          "created": "2026-4-3"
+        },
+        {
+          "title": "Phosphorylation of PfiA modulates Pf4 phage production through PfiA/PfiT stoichiometric reconfiguration in Pseudomonas aeruginosa",
+          "authors": "Ran Chen, Yu Zhang, Yunxue Guo, Jiayu Gu, Shituan Lin, Xiaoxue Wang",
+          "abstract": "Filamentous Pf bacteriophages are widely distributed in Pseudomonas aeruginosa and profoundly influence biofilm formation and host virulence. The Pf4 prophage encodes a type II toxin-antitoxin (TA) system, PfiAT, modulating Pf4 propagation; however, its mechanistic role remains unclear. Here, through structural and biochemical analysis, we demonstrate that the PfiT toxin (ParE/RelE superfamily) has a unique C-terminal extension essential for TA complex formation. The antitoxin PfiA harbors a previously uncharacterized DNA binding domain, and its phosphorylation during biofilm formation shifts the PfiAT complex stoichiometry from a noncanonical PfiA 6 PfiT 4 to a canonical PfiA 2 PfiT 2 assembly. This phosphorylation is mediated by the prophage Pf6-encoded kinase toxin PfkA/PfkB at T5 in PfiA’s DNA binding domain. This posttranslational modification eliminates the pool of free toxins through complex reorganization, thereby neutralizing PfiT toxicity and enabling rapid Pf4 propagation during P. aeruginosa biofilm development. This study uncovers the cross-talk of TA systems from two coresident prophages and the role of posttranslational modification of TA system in mediating phage-phage and phage-host dynamics.",
+          "url": "https://doi.org/10.1126/sciadv.aeb5480",
+          "doi": "https://doi.org/10.1126/sciadv.aeb5480",
           "filter": "2",
           "created": "2026-4-3"
         },
@@ -1927,20 +1927,20 @@
           "created": "2026-4-3"
         },
         {
-          "title": "Tissue-specific inflammation induces cell state plasticity with oncogenic addiction in mucosal melanoma",
-          "authors": "Xuhui Ma, Yanni Ma, Li Zhang, Ruixin Liu, Ronghui Xia, Meiling Hao, Xiaole Song, Yinan Chen, Yang Zheng, Hao Wang, Hao Luo, Shengnan Zheng, Jie Yang, Qin Yang, Ruixin Jiang, Xiangyu Chen, Pengcong Hou, Kaiyuan Hui, Qian Bian, Bin Jiang, Xiaodong Jiang, Min Jiang, Yanjie Zhang, A. Hunter Shain, Guoxin Ren, Ming Lei, Robert L. Judson-Torres, Wei Guo, Hanlin Zeng",
-          "abstract": "Mucosal melanoma (MM), an aggressive melanoma subtype arising in mucosal tissues, displays resistance to therapies effective in cutaneous melanoma. To understand how mucosal microenvironment contributes to treatment nonresponsiveness, we performed integrative analysis of single-cell and bulk messenger RNA sequencing data derived from oral mucosa–originated melanoma and revealed that mucosa-specific inflammation induces enrichment of low-pigmented neural crest–like cancer cell, mediated by COX2 + macrophages and their secretome. Maintenance of this inflammation-induced neural crest–like state in cancer cells depends on HER2 and HER3 activation. Inhibition of HER2/3 by pan-HER inhibitors blocks cell state plasticity and overcomes chemoresistance in primary MM cell lines and patient-derived xenograft (PDX) models. These findings provide insights into how the tissue of origin determines cancer aggressiveness, highlight the role of mucosal inflammation in driving melanoma stemness and chemoresistance, and advance the identification of effective treatment options currently lacking for patients with MM.",
-          "url": "https://doi.org/10.1126/sciadv.ady4536",
-          "doi": "https://doi.org/10.1126/sciadv.ady4536",
-          "filter": "2",
-          "created": "2026-4-1"
-        },
-        {
           "title": "Hepatitis E virus replication is maintained in proliferative cells within the intestinal crypt",
           "authors": "Sarah Prallet, Niclas Maier, Albert Li, Cassian Afting, Hao-En Huang, Jungen Hu, Elif Toprak, Deb Purna Keya, Ombretta Colasanti, Nancy León-Janampa, Julien Marlet, Claudia Beisel, Carolin Mogler, Philip Puchas, Patrick Behrendt, Tobias Boettler, Eike Steinmann, Senjuti Saha, Vibor Laketa, Volker Lohmann, Joachim Wittbrodt, Carl Hermann, Michael T. Dill, Viet Loan Dao Thi",
           "abstract": "The hepatitis E virus (HEV) is a leading cause of acute hepatitis worldwide. Although most infections are self-limiting, zoonotic genotypes can persist in immunocompromised individuals. Transmitted via the fecal-oral route, HEV has been suggested to directly infect the intestinal epithelium, a tissue with high regenerative capacity. Here, we demonstrate that HEV predominantly infects proliferative transit-amplifying and intestinal stem cells within the crypts of human pluripotent stem cell–derived intestinal organoids (hIOs). Supporting this, we detected HEV RNA in the intestinal crypts of an HEV-infected patient. We further found that HEV infection spreads through cell division and is maintained in hIOs for more than 40 days, contrasting with acute hepatitis A virus, whose infections are rapidly cleared from hIOs. Given the self-renewal ability and metabolic constraints of proliferative intestinal progenitor cells, our findings suggest that intestinal crypts could serve as reservoirs for chronic HEV infection and highlight the intestinal crypt as a primary target for viral infection in the gastrointestinal tract.",
           "url": "https://doi.org/10.1126/sciadv.aeb2333",
           "doi": "https://doi.org/10.1126/sciadv.aeb2333",
+          "filter": "2",
+          "created": "2026-4-1"
+        },
+        {
+          "title": "Tissue-specific inflammation induces cell state plasticity with oncogenic addiction in mucosal melanoma",
+          "authors": "Xuhui Ma, Yanni Ma, Li Zhang, Ruixin Liu, Ronghui Xia, Meiling Hao, Xiaole Song, Yinan Chen, Yang Zheng, Hao Wang, Hao Luo, Shengnan Zheng, Jie Yang, Qin Yang, Ruixin Jiang, Xiangyu Chen, Pengcong Hou, Kaiyuan Hui, Qian Bian, Bin Jiang, Xiaodong Jiang, Min Jiang, Yanjie Zhang, A. Hunter Shain, Guoxin Ren, Ming Lei, Robert L. Judson-Torres, Wei Guo, Hanlin Zeng",
+          "abstract": "Mucosal melanoma (MM), an aggressive melanoma subtype arising in mucosal tissues, displays resistance to therapies effective in cutaneous melanoma. To understand how mucosal microenvironment contributes to treatment nonresponsiveness, we performed integrative analysis of single-cell and bulk messenger RNA sequencing data derived from oral mucosa–originated melanoma and revealed that mucosa-specific inflammation induces enrichment of low-pigmented neural crest–like cancer cell, mediated by COX2 + macrophages and their secretome. Maintenance of this inflammation-induced neural crest–like state in cancer cells depends on HER2 and HER3 activation. Inhibition of HER2/3 by pan-HER inhibitors blocks cell state plasticity and overcomes chemoresistance in primary MM cell lines and patient-derived xenograft (PDX) models. These findings provide insights into how the tissue of origin determines cancer aggressiveness, highlight the role of mucosal inflammation in driving melanoma stemness and chemoresistance, and advance the identification of effective treatment options currently lacking for patients with MM.",
+          "url": "https://doi.org/10.1126/sciadv.ady4536",
+          "doi": "https://doi.org/10.1126/sciadv.ady4536",
           "filter": "2",
           "created": "2026-4-1"
         },
@@ -1990,20 +1990,20 @@
           "created": "2026-4-3"
         },
         {
-          "title": "Inflammatory arthritis irAE may represent a unique autoimmune disease primarily driven by T cells but likely not autoantibodies",
-          "authors": "Xingxing Zhu, Yue Yu, Shiju Chen, Hannah E. Langenfeld, Yanfeng Li, Panwen Wang, Ying Li, Chantal McCabe, Andrew C. Hanson, Brenna E. Sharp, Amber Woltzen, Svetomir N. Markovic, John M. Davis, Haidong Dong, Cynthia S. Crowson, Uma Thanarajasingam, Hu Zeng",
-          "abstract": "The underlying immunopathogenesis of inflammatory arthritis (IA) immune-related adverse event (irAE) remains obscure. Unlike rheumatoid arthritis (RA), where autoantibodies and B cell dysfunction are central features, the contribution of humoral immunity to IA-irAE is unclear. Here, we performed immunophenotyping of peripheral blood from patients with IA-irAE and compared them with patients with seronegative RA, immune checkpoint inhibition–treated patients without irAE, and healthy controls. IA-irAE was marked with increased cytotoxic gene expression and metabolic activation in T cells and reduced CXCR3 and CCR6 expression in CD4 + T cells. Contrary to seronegative RA, patients with IA-irAE displayed no substantial elevation in autoantibody levels or atypical CD11c + CD21 − B cells. IA-irAE was further characterized by elevated levels of interleukin-6 (IL-6), IL-12, and type I interferon, which correlated with the T cell activation phenotypes. Together, our findings define IA-irAE as a disease with certain immunological features distinctive from RA, representing a potentially T cell–driven, autoantibody-independent autoimmunity. These results offer insights into immune tolerance breakdown and therapeutic targeting in irAEs.",
-          "url": "https://doi.org/10.1126/sciadv.aea4262",
-          "doi": "https://doi.org/10.1126/sciadv.aea4262",
-          "filter": "2",
-          "created": "2026-4-1"
-        },
-        {
           "title": "Nonlinear stiffness of NompC gating spring and its implication in mechanotransduction",
           "authors": "Yukun Wang, Peng Jin, Avinash Kumar, Lily Jan, Yifan Cheng, Yuh-Nung Jan, Yongli Zhang",
           "abstract": "Cytoskeleton-tethered mechanosensitive channels (MSCs) use compliant gating springs to convert mechanical stimuli into electrical signals for sensations like sound and touch. The mechanical properties of these gating springs are poorly understood. We investigated the homotetrameric NompC channel, which contains long ankyrin-repeat domains (ARDs), using a toehold-mediated strand displacement method to tether single membrane proteins. This method allowed precise force application and extension measurement with optical tweezers. Our results show that a single NompC complex has a low stiffness of ~0.7 piconewtons per nanometer when pulled from one ARD, with stepwise unfolding beginning at ~7 piconewtons, leading to nonlinear stiffness. ARD truncation indicates strong lateral interactions between ARDs. Computational analyses suggest that this nonlinear, low stiffness may regulate NompC’s sensitivity, dynamic range, and kinetics in detecting mechanical stimuli. Our findings highlight the role of a compliant, unfolding-refolding gating spring in facilitating a graded response in MSC ion transduction across diverse mechanical stimuli.",
           "url": "https://doi.org/10.1126/sciadv.aeb6165",
           "doi": "https://doi.org/10.1126/sciadv.aeb6165",
+          "filter": "2",
+          "created": "2026-4-1"
+        },
+        {
+          "title": "Inflammatory arthritis irAE may represent a unique autoimmune disease primarily driven by T cells but likely not autoantibodies",
+          "authors": "Xingxing Zhu, Yue Yu, Shiju Chen, Hannah E. Langenfeld, Yanfeng Li, Panwen Wang, Ying Li, Chantal McCabe, Andrew C. Hanson, Brenna E. Sharp, Amber Woltzen, Svetomir N. Markovic, John M. Davis, Haidong Dong, Cynthia S. Crowson, Uma Thanarajasingam, Hu Zeng",
+          "abstract": "The underlying immunopathogenesis of inflammatory arthritis (IA) immune-related adverse event (irAE) remains obscure. Unlike rheumatoid arthritis (RA), where autoantibodies and B cell dysfunction are central features, the contribution of humoral immunity to IA-irAE is unclear. Here, we performed immunophenotyping of peripheral blood from patients with IA-irAE and compared them with patients with seronegative RA, immune checkpoint inhibition–treated patients without irAE, and healthy controls. IA-irAE was marked with increased cytotoxic gene expression and metabolic activation in T cells and reduced CXCR3 and CCR6 expression in CD4 + T cells. Contrary to seronegative RA, patients with IA-irAE displayed no substantial elevation in autoantibody levels or atypical CD11c + CD21 − B cells. IA-irAE was further characterized by elevated levels of interleukin-6 (IL-6), IL-12, and type I interferon, which correlated with the T cell activation phenotypes. Together, our findings define IA-irAE as a disease with certain immunological features distinctive from RA, representing a potentially T cell–driven, autoantibody-independent autoimmunity. These results offer insights into immune tolerance breakdown and therapeutic targeting in irAEs.",
+          "url": "https://doi.org/10.1126/sciadv.aea4262",
+          "doi": "https://doi.org/10.1126/sciadv.aea4262",
           "filter": "2",
           "created": "2026-4-1"
         },
