@@ -1,5 +1,5 @@
 {
-  "update": "2026-04-10",
+  "update": "2026-04-11",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -49,6 +49,24 @@
           "created": "2026-4-9"
         },
         {
+          "title": "Systematic classification differences across eye movement detection algorithms",
+          "authors": "Jonathan Nir, Leon Y. Deouell",
+          "abstract": "Eye movement (EM) detection is a critical step in most eye-tracking (ET) research, typically relying on detectors –specialized algorithms designed to segment raw ET data into discrete oculomotor events. However, variability in detection algorithms and the lack of standardized evaluation frameworks hinder transparency and reproducibility across studies. In this work, we introduce pEYES , an open-source toolkit designed to streamline EM detection and enable robust, quantitative comparisons between detectors. The toolkit provides implementations for several widely used threshold-based detectors, along with multiple standardized evaluation procedures for assessing detection performance. Using pEYES , we evaluated seven detection algorithms on two publicly available human-annotated datasets containing recordings of subjects freely viewing color images. Performance was assessed using metrics such as Cohen’s kappa, relative timing offset and deviation, and a sensitivity index ( $$d{\\prime}$$ d ′ ) for fixation and saccade onsets and offsets. Engbert’s adaptive velocity-threshold algorithm consistently matched or outperformed the other detectors, occasionally achieving human-level precision. In contrast, several other detectors exhibited substantial variability in performance between datasets. We also found systematic differences in detection scores between fixation and saccade boundaries, with fixation offsets and saccade onsets detected more reliably than their counterparts. These findings highlight the importance of task- and dataset-specific detector selection in EM analysis. The pEYES toolkit is freely available, and its codebase – along with the analyses presented in this report – is accessible at https://github.com/huji-hcnl/pEYES . We invite the research community to use, extend, and contribute to its ongoing development. Through open collaboration, we aim to advance the rigor and reproducibility of EM detection practices.",
+          "url": "https://doi.org/10.3758/s13428-026-02983-5",
+          "doi": "https://doi.org/10.3758/s13428-026-02983-5",
+          "filter": 0,
+          "created": "2026-4-10"
+        },
+        {
+          "title": "Moderation with a latent class variable: A tutorial and example",
+          "authors": "Dina Ali Naji Arch, Karen Nylund-Gibson, Marsha Ing",
+          "abstract": "Moderation analyses allow a more nuanced understanding of the relationship between a predictor and an outcome. A limitation of traditional moderation analysis arises when addressing the hypothesis when using a moderator that does not account for unobserved heterogeneity in the population. This limitation can be addressed by extending moderation analyses to include a latent class analysis with auxiliary variables (as predictors and/or outcomes) where the moderator is the latent class variable. This tutorial specifies this extended moderation model with a latent class variable using the three-step manual approach (Asparouhov &amp; Muthén, Structural Equation Modeling: A Multidisciplinary Journal , 21 , 329-341, 2014). Data from the Longitudinal Survey of American Life illustrates this approach within the context of science attitudes. Specifically, a latent class variable (science attitudes) is hypothesized to moderate the relationship between a predictor (science achievement) and an outcome (interest in science issues), while controlling for demographic variables.",
+          "url": "https://doi.org/10.3758/s13428-025-02886-x",
+          "doi": "https://doi.org/10.3758/s13428-025-02886-x",
+          "filter": 0,
+          "created": "2026-4-10"
+        },
+        {
           "title": "Moderated mediation with composites: The composite moderated structural equations approach",
           "authors": "Tamara Schamberger, Florian Schuberth, Jörg Henseler",
           "abstract": "Moderated mediation models are crucial in many disciplines, particularly the social sciences. Researchers use them to analyze the conditions under which different variables are related. Structural equation modeling (SEM) is an eminently suitable framework for this endeavor. In fact, several approaches have been proposed and extended to model moderated mediation effects involving reflectively measured latent variables. However, approaches to modeling moderated mediation involving unknown-weight composites (i.e., weighted linear combinations of variables whose weights are estimated freely) are limited in either model specification or model assessment. Unknown-weight composites are used, for example, to model formative constructs or collections of heterogeneous causes. In this study, we propose composite moderated structural equations (CMS), a new approach that combines latent moderated structural equations (LMS), the standard SEM approach for estimating moderation effects among latent variables, with the H–O specification, a recently introduced specification for flexibly modeling composites. A Monte Carlo simulation demonstrates the performance of CMS and confirms that CMS enables researchers to flexibly model and estimate moderated mediation effects involving unknown-weight composites.",
@@ -56,6 +74,15 @@
           "doi": "https://doi.org/10.3758/s13428-025-02930-w",
           "filter": 0,
           "created": "2026-4-6"
+        },
+        {
+          "title": "Validating dynamic time warping as a measure of gesture form similarity",
+          "authors": "Sho Akamine, Mark Dingemanse, Aslı Özyürek",
+          "abstract": "Dynamic time warping (DTW) is a well-known algorithm used to assess the similarity between signals of varying lengths. Initially developed for automatic speech recognition, DTW has found applications in psycholinguistics, particularly in analyzing gesture form similarity. An open question in this domain is how effectively DTW captures gesture form similarity. Here, we validate DTW against human annotations of gesture form similarity across two multimodal interaction corpora and explore its utility as an automatic, continuous measure of gesture form similarity. Our findings reveal weak to moderate correlations between DTW distance and the number of similar gesture features – such as handshape, movement, orientation, and position – suggesting that DTW serves as a useful proxy for gesture form similarity. Additionally, we highlight the importance of qualitative analysis of raw data and DTW predictions in enhancing DTW’s predictive accuracy. Our study offers a rigorous validation of DTW as a measure of gesture form similarity and presents a detailed framework for preprocessing motion tracking data and calculating DTW distance. While none of the methods is perfect, the combination of automatic and manual measures provides a comprehensive approach to understanding and measuring gesture form similarity.",
+          "url": "https://doi.org/10.3758/s13428-026-02975-5",
+          "doi": "https://doi.org/10.3758/s13428-026-02975-5",
+          "filter": 0,
+          "created": "2026-4-10"
         }
       ],
       "articles_hidden": []
@@ -95,6 +122,14 @@
           "doi": "https://doi.org/10.1016/j.chb.2026.109021",
           "filter": 0,
           "created": "2026-4-8"
+        },
+        {
+          "title": "The tug-of-war between engagement and dysregulation: A comprehensive analysis of cognition and Internet Gaming Disorder in adolescents",
+          "authors": "David Willinger, Sabine Wunderl, Stefan Stieger",
+          "url": "https://doi.org/10.1016/j.chb.2026.109025",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109025",
+          "filter": 0,
+          "created": "2026-4-10"
         }
       ],
       "articles_hidden": []
@@ -111,15 +146,6 @@
           "doi": "https://doi.org/10.1177/13684302261419396",
           "filter": 0,
           "created": "2026-4-8"
-        },
-        {
-          "title": "A consistent but highly varied androcentric bias in the visual representation of “typical” faces",
-          "authors": "Daniel N. Albohn, Alexander Todorov",
-          "abstract": "Decades of research have shown that androcentric bias (i.e., assuming that men represent the default) is prevalent across text, images, and social interactions. Despite this evidence, recent research on the mental imagery of faces shows an opposite of the expected androcentric bias: Mental representations of “typical” faces appear more like women than men. In the present research, we first aim to reconcile this apparent discrepancy by examining the mental imagery associated with typical persons using generative reverse correlation—a data-driven method that leverages artificial intelligence to construct photo-realistic imagery of visual stereotypes for both groups and individuals. Second, we explore potential reasons for the observed reversal in mental imagery by examining individual differences in typicality judgments. Across two studies, our results show (1) individuals tend to equate “typical persons” with “men” in their mental representations at the group-level; but (2) there is large individual-level variability in both “typical person” mental imagery and explicit “typicality” judgments that complicates conclusions drawn from aggregate-level data.",
-          "url": "https://doi.org/10.1177/13684302261426255",
-          "doi": "https://doi.org/10.1177/13684302261426255",
-          "filter": 0,
-          "created": "2026-4-3"
         }
       ],
       "articles_hidden": []
@@ -143,14 +169,6 @@
           "doi": "https://doi.org/10.1016/j.jesp.2026.104927",
           "filter": 0,
           "created": "2026-4-8"
-        },
-        {
-          "title": "Unequal participation: How low socioeconomic status hinders political engagement",
-          "authors": "Rodrigo Furst, Yan Vieites, Bernardo Andretti",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104922",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104922",
-          "filter": 0,
-          "created": "2026-4-3"
         }
       ],
       "articles_hidden": []
@@ -227,6 +245,31 @@
       "articles_hidden": []
     },
     {
+      "journal_full": "Personality and Social Psychology Bulletin",
+      "journal_short": "PSPB",
+      "articles": [
+        {
+          "title": "Beliefs About Using Construal Level to Modulate Regulatory Scope",
+          "authors": "Phuong Q. Le, Tina Nguyen, Abigail A. Scholer, Kentaro Fujita",
+          "abstract": "Goals require considering the immediate present as well as distant times, places, people, and possibilities. Although proximal goals require sensitivity to local opportunities, distal goals require action plans robust to variability. Construal level theory proposes that people contract versus expand regulatory scope (i.e., the range of possibilities one accounts for) to address these challenges. A primary tool they use to do so is construal level: low-level construal (representation that highlights unique, idiosyncratic features of events) contracts scope; high-level construal (representation that captures essential, core features) expands scope. Fourteen experiments (4 in the main text, 10 in the Online Supplement) support these assertions by documenting meta-motivational beliefs. Lay people recognize the benefits of construal level for modulating scope across a gradient of temporal distance, and across multiple distance dimensions. They also appreciate diverse methods with which to induce differences in construal level, including social preferences. We discuss theoretical and methodological implications.",
+          "url": "https://doi.org/10.1177/01461672261433130",
+          "doi": "https://doi.org/10.1177/01461672261433130",
+          "filter": 0,
+          "created": "2026-4-10"
+        },
+        {
+          "title": "One Size Might Not Fit All: A Tailored Approach to Psychological Intergroup Interventions",
+          "authors": "Shira Hebel-Sela, Nimrod Nir, Adva Gruenwald, Boaz Hameiri, Eran Halperin",
+          "abstract": "Despite growing efforts to improve intergroup relations, the effectiveness of psychological intergroup interventions is often limited. We argue this modest impact stems from a one-size-fits-all approach that overlooks targeted outcomes and individual psychological profiles. Through a large-scale intervention tournament ( N = 3,685) examining Jewish-Israeli attitudes toward Palestinian citizens of Israel, we discovered that interventions show distinct strengths depending on targeted outcomes: social norms interventions excel at fostering support for social change, while meta-perceptions correction interventions effectively reduce prejudice. Using machine learning, we identified systematic variations in intervention effectiveness based on individual differences, with some interventions showing potential backfire effects among specific subgroups while delivering substantial benefits for others. These results underscore the potential of tailoring interventions to align with both the desired outcomes and the unique characteristics of target populations, paving the way for a new era of precision in intergroup interventions.",
+          "url": "https://doi.org/10.1177/01461672261434701",
+          "doi": "https://doi.org/10.1177/01461672261434701",
+          "filter": 0,
+          "created": "2026-4-10"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Psychological Methods",
       "journal_short": "PM",
       "articles": [
@@ -261,31 +304,6 @@
           "doi": "https://doi.org/10.1037/met0000829",
           "filter": 0,
           "created": "2026-4-6"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Psychological Science",
-      "journal_short": "PsychSci",
-      "articles": [
-        {
-          "title": "The Rise, Impact, and Imbalances of Big-Team Psychology",
-          "authors": "Nicholas A. Coles, João Francisco Goes Braga Takayanagi, Gabrielle L. Grant, Dana M. Basnight-Brown",
-          "abstract": "The present work evaluates the rise, impact, and imbalances of big-team psychology via an analysis of 3,023,895 articles published in the 21st century. Results indicate that big teams—ranging from 10 to more than 100 authors—are relatively unusual ( n = 49,695) but increasing in popularity. More notably, such collaborations generate unusually high impact in terms of yearly mentions in scholarly articles ( n = 39,788,158), the news ( n = 1,018,639), social media ( n = 5,971,965), and policy documents ( n = 69,959). An examination of country-level sociocultural indicators revealed that first authors, in general, tend to be in regions that are relatively WEIRD: Western, Educated, Industrialized, Rich, and Democratic. However, this imbalance is slightly more pronounced among larger teams. In summary, results suggest that big-team science is an emerging trend in psychology—one that is unevenly deployed across world regions to generate high-impact scientific insights.",
-          "url": "https://doi.org/10.1177/09567976261433459",
-          "doi": "https://doi.org/10.1177/09567976261433459",
-          "filter": 0,
-          "created": "2026-4-3"
-        },
-        {
-          "title": "Conscious Detection of Spoken Words Depends on Their Valence",
-          "authors": "Gal R. Chen, Zaheera Maswadeh, Leon Deouell, Ran R. Hassin",
-          "abstract": "Conscious experiences appear to play a central role in human behavior, yet most neural processing occurs outside of consciousness. Understanding how the mind prioritizes information for consciousness is, therefore, crucial for theories of cognition. Prior research has largely focused on vision, but generalization is tenuous given the vastly different characteristics of the senses—particularly for audition, which lacks foveation and cannot be intentionally stopped. We examine the affective domain, for which prioritization is not well understood. In three experiments (two preregistered), 101 Hebrew-speaking adults completed a visual task with a stream of auditory pseudowords in the background. Occasionally a meaningful word appeared, and participants were asked about its presence. Using objective and subjective awareness measures, we found that neutral words were prioritized over negative words, regardless of task difficulty, intelligibility, and low-level features. These findings challenge theorizing and modal intuitions, and we discuss ways in which those can be reconciled.",
-          "url": "https://doi.org/10.1177/09567976261434113",
-          "doi": "https://doi.org/10.1177/09567976261434113",
-          "filter": 0,
-          "created": "2026-4-3"
         }
       ],
       "articles_hidden": []
