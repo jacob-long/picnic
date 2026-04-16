@@ -1,5 +1,5 @@
 {
-  "update": "2026-04-15",
+  "update": "2026-04-16",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -31,28 +31,10 @@
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "Penalized eigenvalue block averaging: Extension to nested model comparison and Monte Carlo evaluations",
-          "authors": "Njål Foldnes, Steffen Grønneberg, Jonas Moss",
-          "abstract": "Testing goodness-of-fit and multi-group nested models in confirmatory factor analysis under non-normality is foundational in psychometrics and related fields. Recently, a penalized eigenvalue block averaging (pEBA) procedure was proposed for testing goodness-of-fit, showing promise in a restricted type I error control simulation study. In this study, we extend the simulation conditions to higher dimensions for latent and observed vectors and evaluate type I error control and power for many pEBA variants and traditional test statistics. All statistics are evaluated in four versions, by crossing the base statistic (ML or Browne’s RLS), and whether the asymptotic covariance matrix estimator was bias-corrected or not. We develop pEBA methods in the new setting of nested model comparison, accompanied by extensive Monte Carlo evaluation of their performance in weak invariance testing, including type I error control and power. The best-performing procedure for goodness-of-fit testing was pEBA with four blocks, based on the RLS statistic, using the asymptotic covariance matrix estimator without bias correction. For measurement invariance, pEBA with singleton blocks, using the standard ML statistic and the unbiased estimator for the asymptotic covariance matrix, performed best. The pEBA procedures are available in the newly developed R package .",
-          "url": "https://doi.org/10.3758/s13428-026-02968-4",
-          "doi": "https://doi.org/10.3758/s13428-026-02968-4",
-          "filter": 0,
-          "created": "2026-4-8"
-        },
-        {
           "title": "Employing large language models for cognitive heuristic stimulus validation in decision-making experiments",
           "authors": "Thom Hawkins, Daniel N. Cassenti, Erin Zaroukian",
           "url": "https://doi.org/10.3758/s13428-026-02979-1",
           "doi": "https://doi.org/10.3758/s13428-026-02979-1",
-          "filter": 0,
-          "created": "2026-4-13"
-        },
-        {
-          "title": "ChildLens: An egocentric video dataset for activity analysis in children",
-          "authors": "Nele-Pauline Suffo, Pierre-Etienne Martin, Anas Suffo, Daniel Haun, Manuel Bohn",
-          "abstract": "We present ChildLens, an egocentric video and audio dataset with detailed annotations for activities of naturalistic everyday experiences in children aged 3 to 5 years. A total of 109 h were recorded from 62 children in their home environment using a 140° wide-lens camera equipped with a microphone integrated in a child-friendly vest. Annotations include five location classes and 14 activity classes, covering audio-only, video-only, and multimodal activities. Good benchmark performance of two state-of-the-art models on the dataset—the Boundary-Matching Network for temporal activity localization and the Voice Type Classifier for detecting and classifying speech in audio—speak to the quality of the annotations. The ChildLens dataset will be freely available for research purposes via an institutional repository. It provides rich data to advance computer vision and audio analysis techniques and thereby removes a critical obstacle to studying the everyday context of child development, listed on the ChildLens website: https://www.eva.mpg.de/comparative-cultural-psychology/technical-development/childlens/ .",
-          "url": "https://doi.org/10.3758/s13428-026-02982-6",
-          "doi": "https://doi.org/10.3758/s13428-026-02982-6",
           "filter": 0,
           "created": "2026-4-13"
         },
@@ -66,21 +48,21 @@
           "created": "2026-4-13"
         },
         {
+          "title": "ChildLens: An egocentric video dataset for activity analysis in children",
+          "authors": "Nele-Pauline Suffo, Pierre-Etienne Martin, Anas Suffo, Daniel Haun, Manuel Bohn",
+          "abstract": "We present ChildLens, an egocentric video and audio dataset with detailed annotations for activities of naturalistic everyday experiences in children aged 3 to 5 years. A total of 109 h were recorded from 62 children in their home environment using a 140° wide-lens camera equipped with a microphone integrated in a child-friendly vest. Annotations include five location classes and 14 activity classes, covering audio-only, video-only, and multimodal activities. Good benchmark performance of two state-of-the-art models on the dataset—the Boundary-Matching Network for temporal activity localization and the Voice Type Classifier for detecting and classifying speech in audio—speak to the quality of the annotations. The ChildLens dataset will be freely available for research purposes via an institutional repository. It provides rich data to advance computer vision and audio analysis techniques and thereby removes a critical obstacle to studying the everyday context of child development, listed on the ChildLens website: https://www.eva.mpg.de/comparative-cultural-psychology/technical-development/childlens/ .",
+          "url": "https://doi.org/10.3758/s13428-026-02982-6",
+          "doi": "https://doi.org/10.3758/s13428-026-02982-6",
+          "filter": 0,
+          "created": "2026-4-13"
+        },
+        {
           "title": "Obtaining robust practical fit indices with multiply imputed nonnormal data in structural equation modeling",
           "authors": "Fan Jia, Terrence D. Jorgensen, Wei Wu",
           "url": "https://doi.org/10.3758/s13428-026-02974-6",
           "doi": "https://doi.org/10.3758/s13428-026-02974-6",
           "filter": 0,
           "created": "2026-4-13"
-        },
-        {
-          "title": "Delivering tactile stimuli via mobile browsers: A method for remote multisensory research",
-          "authors": "Rebecca J. Hirst, Kalvin Roberts, Martina Seveso, Alan O’Dowd, Jonathan W. Peirce, Fiona N. Newell",
-          "abstract": "Online methods are becoming an essential part of the behavioral scientist’s toolkit. While the remote presentation of visual and auditory stimuli has been shown to be reasonably accurate (Bridges et al., 2020), less is known about the feasibility of delivering tactile stimuli via the browser. In this study, we extend remote experimentation to the tactile domain by replicating a well-established multisensory phenomenon – the redundant target effect (RTE) – using Android smartphones. The RTE, wherein response times are faster to multisensory (bimodal or trimodal) than unimodal stimuli, was robustly replicated in an online sample using a browser-based task. In addition to the behavioral replication, we evaluated the timing accuracy and precision of visual, auditory, and tactile (vibration) stimuli presented via mobile browsers. Visual and auditory stimuli exhibited small, consistent lags, while vibration stimuli showed a greater delay. Further analysis indicated that much of this delay was attributable to the gradual ramp-up of smartphone vibration motors, rather than limitations of the browser itself. These results support the feasibility of using consumer mobile devices to study tactile and multisensory processing in uncontrolled environments. The significance of the current manuscript is twofold: first, we demonstrate that scalable, at-home user studies can incorporate haptics without bespoke apps; second, we provide benchmark timing data to inform the feasibility of future research implementing tactile perception measures in remote behavioral research.",
-          "url": "https://doi.org/10.3758/s13428-026-02995-1",
-          "doi": "https://doi.org/10.3758/s13428-026-02995-1",
-          "filter": 0,
-          "created": "2026-4-8"
         },
         {
           "title": "Same emotion, different stimuli: A context-sensitive method to evoke nostalgia",
@@ -110,15 +92,6 @@
           "created": "2026-4-13"
         },
         {
-          "title": "Moderation with a latent class variable: A tutorial and example",
-          "authors": "Dina Ali Naji Arch, Karen Nylund-Gibson, Marsha Ing",
-          "abstract": "Moderation analyses allow a more nuanced understanding of the relationship between a predictor and an outcome. A limitation of traditional moderation analysis arises when addressing the hypothesis when using a moderator that does not account for unobserved heterogeneity in the population. This limitation can be addressed by extending moderation analyses to include a latent class analysis with auxiliary variables (as predictors and/or outcomes) where the moderator is the latent class variable. This tutorial specifies this extended moderation model with a latent class variable using the three-step manual approach (Asparouhov &amp; Muthén, Structural Equation Modeling: A Multidisciplinary Journal , 21 , 329-341, 2014). Data from the Longitudinal Survey of American Life illustrates this approach within the context of science attitudes. Specifically, a latent class variable (science attitudes) is hypothesized to moderate the relationship between a predictor (science achievement) and an outcome (interest in science issues), while controlling for demographic variables.",
-          "url": "https://doi.org/10.3758/s13428-025-02886-x",
-          "doi": "https://doi.org/10.3758/s13428-025-02886-x",
-          "filter": 0,
-          "created": "2026-4-10"
-        },
-        {
           "title": "Munich Sentence (MuSe) Database: Completion norms and audio recordings for 619 German sentences",
           "authors": "Elisabeth F. Sterner, Maximilian Stadler, Franziska Knolle",
           "abstract": "Prediction is a core feature of language, which is widely studied across research domains. The Munich Sentence (MuSe) database enhances reproducibility by providing sentence completion norms for 619 German sentences, including cloze probabilities and entropy estimates from up to 232 participants. Sentence completions were collected in two online studies in which participants completed sentence beginnings with a single-word response after either hearing (auditory sample, N = 133) or reading (visual sample, N = 98) the sentence beginning. All responses were manually preprocessed to correct typos and spelling mistakes and to label grammatical errors, proper nouns, and singular and plural variants of the same response. In addition to the sentence norms, we provide trial-level data with participant-level demographic information and subclinical autistic and schizotypal trait measures. Together with open-access R scripts or our web tool, this allows tailoring the cleaning and norming steps to integrate individual-difference measures. For a subset of 479 sentence beginnings, the database also includes professional audio recordings of sentence beginnings, which can be flexibly combined with 531 recordings of unique sentence-final words and implemented in auditory language paradigms. All material is freely accessible via the Open Science Framework ( https://osf.io/ktnze/overview ) and the MuSe webtool ( https://munichsentencedatabase.franziskaknolle.com/ ).",
@@ -126,6 +99,15 @@
           "doi": "https://doi.org/10.3758/s13428-026-02993-3",
           "filter": 0,
           "created": "2026-4-13"
+        },
+        {
+          "title": "Moderation with a latent class variable: A tutorial and example",
+          "authors": "Dina Ali Naji Arch, Karen Nylund-Gibson, Marsha Ing",
+          "abstract": "Moderation analyses allow a more nuanced understanding of the relationship between a predictor and an outcome. A limitation of traditional moderation analysis arises when addressing the hypothesis when using a moderator that does not account for unobserved heterogeneity in the population. This limitation can be addressed by extending moderation analyses to include a latent class analysis with auxiliary variables (as predictors and/or outcomes) where the moderator is the latent class variable. This tutorial specifies this extended moderation model with a latent class variable using the three-step manual approach (Asparouhov &amp; Muthén, Structural Equation Modeling: A Multidisciplinary Journal , 21 , 329-341, 2014). Data from the Longitudinal Survey of American Life illustrates this approach within the context of science attitudes. Specifically, a latent class variable (science attitudes) is hypothesized to moderate the relationship between a predictor (science achievement) and an outcome (interest in science issues), while controlling for demographic variables.",
+          "url": "https://doi.org/10.3758/s13428-025-02886-x",
+          "doi": "https://doi.org/10.3758/s13428-025-02886-x",
+          "filter": 0,
+          "created": "2026-4-10"
         },
         {
           "title": "Introducing the Naturalistic Expression Labeling Task (NELT): Associations with posed expression labeling, empathy, and general cognitive ability",
@@ -177,7 +159,7 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "Prescribing a “Dose of Reality”: Exploring How Realistic Portrayals of Motherhood Can Mitigate the Harms of Social Media Comparison",
+          "title": "Prescribing a “dose of reality”: Exploring how realistic portrayals of motherhood can mitigate the harms of social media comparison",
           "authors": "Ciera E. Kirkpatrick",
           "url": "https://doi.org/10.1016/j.chb.2026.109026",
           "doi": "https://doi.org/10.1016/j.chb.2026.109026",
@@ -191,22 +173,6 @@
           "doi": "https://doi.org/10.1016/j.chb.2026.109020",
           "filter": 0,
           "created": "2026-4-9"
-        },
-        {
-          "title": "The hidden cost of digital aggression: How engaging in cyberbullying facilitates moral disengagement among children through changes in normative beliefs about aggression",
-          "authors": "Xintong Zhang, Xiang Li",
-          "url": "https://doi.org/10.1016/j.chb.2026.109022",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109022",
-          "filter": 0,
-          "created": "2026-4-8"
-        },
-        {
-          "title": "Tracing Need for Cognition in Digital Learning",
-          "authors": "Aki Schumacher, Luise von Keyserlingk, Hannah Deininger, Renzhe Yu, Nia Nixon, Lisa Bardach",
-          "url": "https://doi.org/10.1016/j.chb.2026.109021",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109021",
-          "filter": 0,
-          "created": "2026-4-8"
         },
         {
           "title": "The tug-of-war between engagement and dysregulation: A comprehensive analysis of cognition and internet gaming disorder in adolescents",
@@ -231,15 +197,6 @@
       "journal_full": "Group Processes & Intergroup Relations",
       "journal_short": "GPIR",
       "articles": [
-        {
-          "title": "The tragedies that bind us: Shared memories, identity fusion, and moral concern among Balinese Hindus following the 2002 Bali bombings",
-          "authors": "Daniel Revach, Christopher Kavanagh, Barbara Muzzulini, Idhamsyah Eka Putra, Fajar Erikha, Ni Luh Indah Desira Swandi, Rohan Kapitany, Harvey Whitehouse",
-          "abstract": "Identity fusion is a powerful form of social cohesion capable of motivating extreme pro-group action that can result from the sharing of personally transformative memories of a dysphoric event with other group members. However, it is not known whether such experiences need to be shared directly or if indirect sharing via eye-witness accounts would be equally effective. In this study, we examine the impact of the 2002 Bali bombings, a powerful dysphoric event, on group cohesion and morality among Balinese Hindus. We hypothesized that being copresent would predict stronger fusion with ingroup members compared with vicariously shared experiences, and that fusion scores would be more strongly associated with select moral domains compared with social identification. Using a questionnaire, data were collected in person from 340 Hindus in Bali. Our findings confirmed that directly experiencing this dysphoric event was associated with higher levels of fusion—especially with others who were copresent—which were mediated by the experience’s transformative impact and its recall for those present. Nevertheless, indirect experiences also proved to be powerful drivers of group bonding through similar processes. The study provides new insight into the long-term psychological impacts of terrorist atrocities and their wider consequences for societal cohesion.",
-          "url": "https://doi.org/10.1177/13684302261419396",
-          "doi": "https://doi.org/10.1177/13684302261419396",
-          "filter": 0,
-          "created": "2026-4-8"
-        },
         {
           "title": "Social dominance orientation and perceptions of gender discrimination: A discrepancy account of fairness judgments",
           "authors": "Sarah Buhl, Paul-Michael Heineck, Frank Asbrock",
@@ -273,20 +230,20 @@
           "created": "2026-4-9"
         },
         {
-          "title": "Minority report: How minorities' awareness of power asymmetry drives strategic preparation in opinion debates",
-          "authors": "Alain Quiamzade, Fanny Lalot, Dominic Abrams",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104927",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104927",
-          "filter": 0,
-          "created": "2026-4-8"
-        },
-        {
           "title": "Decision strategy and perceived humanness: The roles of decision context and decision outcome",
           "authors": "Hong Zhang, Huan Zhu, Jingyan Wang, Yima Jin",
           "url": "https://doi.org/10.1016/j.jesp.2026.104928",
           "doi": "https://doi.org/10.1016/j.jesp.2026.104928",
           "filter": 0,
           "created": "2026-4-14"
+        },
+        {
+          "title": "Emotional cues to group hierarchy: Inferences about dominance- versus prestige-based hierarchies from members' emotional expressions",
+          "authors": "Marc W. Heerdink, Svenja A. Wolf, Jens Lange, Florian Wanders, Xia Fang, Eftychia Stamkou, Gerben A. van Kleef",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104931",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104931",
+          "filter": 0,
+          "created": "2026-4-15"
         }
       ],
       "articles_hidden": []
@@ -331,33 +288,9 @@
       "articles_hidden": []
     },
     {
-      "journal_full": "Multivariate Behavioral Research",
-      "journal_short": "MBR",
-      "articles": [
-        {
-          "title": "A Comparison of Regularization, Alignment, and a Traditional Method for Estimating Structural Relationships Across Two Groups",
-          "authors": "Emma Somer, Carl F. Falk, Milica Miočević",
-          "url": "https://doi.org/10.1080/00273171.2026.2650840",
-          "doi": "https://doi.org/10.1080/00273171.2026.2650840",
-          "filter": 0,
-          "created": "2026-4-8"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
       "journal_full": "Organizational Research Methods",
       "journal_short": "ORM",
       "articles": [
-        {
-          "title": "Modeling Unfolding Response Data Within the Structural Equation Modeling Framework",
-          "authors": "Ringo Moon-ho Ho, Jie Xin Lim, Olexander Chernyshenko",
-          "abstract": "Dominance and unfolding response processes describe two ways in which individuals may respond to rating scale items. The dominance process assumes a monotonic relationship between a latent trait and the probability of endorsement and is typically modeled using a linear factor model within structural equation modeling (SEM). In contrast, the unfolding process assumes single-peaked response functions, with endorsement most likely when item and person locations are close on the latent continuum. Fitting unfolding models usually requires specialized software, which limits their integration with SEM. In this article, we proposed the ordered categorical response unfolding model (OCRUM), which can be estimated in Mplus. We illustrated its use with two empirical datasets and found that item and person locations were comparable to those obtained from the generalized graded unfolding model (GGUM). We also conducted Monte Carlo simulations to examine parameter recovery under varying sample sizes, test lengths, and response formats. Finally, we demonstrated that OCRUM can serve as the measurement component of a general structural equation model, enabling dominance and unfolding response processes to be represented within a single SEM framework.",
-          "url": "https://doi.org/10.1177/10944281261421529",
-          "doi": "https://doi.org/10.1177/10944281261421529",
-          "filter": 0,
-          "created": "2026-4-8"
-        },
         {
           "title": "“How Many Interviews Do I Need?” An Examination of Interview Numbers and Sampling Moves in Qualitative Research",
           "authors": "Kasper Trolle Elmholdt, Michael Gill, Jeppe Agger Nielsen",
@@ -391,6 +324,15 @@
           "doi": "https://doi.org/10.1177/01461672261429141",
           "filter": 0,
           "created": "2026-4-14"
+        },
+        {
+          "title": "Passion as a Moral Cue: How Obsessive and Harmonious Passion Shape Moral Expectations and Role Assignment",
+          "authors": "Monica Gamez-Djokic, Maryam Kouchaki",
+          "abstract": "Passion is often celebrated as a driver of success, yet it also serves as a social cue that shapes moral expectations. Across five studies ( N = 1,849), we examine how perceptions of obsessive versus harmonious passion influence workplace inferences and decisions. Obsessively passionate individuals are perceived as more likely to engage in goal-instrumental unethical behavior than harmoniously passionate or less passionate counterparts. These expectations guide selection: obsessively passionate individuals are disproportionately chosen for roles involving morally questionable conduct. This preference emerges even when obsessive passion is viewed as no more ethically risky than low self-control, suggesting that anticipated immorality is not penalized uniformly. Rather, obsessive passion pairs moral suspicion with valued qualities (e.g., dedication, drive), making ethical flexibility seem instrumentally useful. Passion type thus functions as a moral cue shaping how people are evaluated and deployed at work, raising concerns that organizations may inadvertently reinforce boundary crossing by rewarding “passion.”",
+          "url": "https://doi.org/10.1177/01461672261436552",
+          "doi": "https://doi.org/10.1177/01461672261436552",
+          "filter": 0,
+          "created": "2026-4-15"
         },
         {
           "title": "Values and the Dark Side: Meta-Analysis of Links Between Dark Triad Traits and Personal Values",
@@ -455,6 +397,31 @@
           "doi": "https://doi.org/10.1037/met0000799",
           "filter": 0,
           "created": "2026-4-9"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Psychological Science",
+      "journal_short": "PsychSci",
+      "articles": [
+        {
+          "title": "Individual Differences in Great Ape Cognition Across Time and Domains: Stability, Structure, and Predictability",
+          "authors": "Manuel Bohn, Christoph J. Völter, Daniel Hanus, Nico Eisbrenner, Johanna Eckert, Jana Holtmann, Daniel Haun",
+          "abstract": "Understanding variation in cognitive abilities is critical to understanding both the evolution and development of cognition. In this study, we examined the stability, structure, and predictability of individual differences in cognitive abilities in great apes across a broad range of domains, including social cognition, reasoning about quantities, executive function, and inferential reasoning. We administered six tasks to 48 individuals from four species, spanning 10 sessions over 1.5 years. Task performance was most strongly predicted by stable, individual-specific characteristics rather than transient or group-level variables. Using additional data from the same individuals in other tasks, we found substantial positive correlations between nonsocial tasks. In contrast, tasks measuring social cognition were not correlated either with each other or with nonsocial measures. Future studies should work toward mechanistic models of great apes’ cognitive processes to build an understanding of the evolution of cognition based on process-level commonalities across species.",
+          "url": "https://doi.org/10.1177/09567976261434817",
+          "doi": "https://doi.org/10.1177/09567976261434817",
+          "filter": 0,
+          "created": "2026-4-15"
+        },
+        {
+          "title": "Registered Report: Can Agentic Black Women Get Ahead? An Experiment Revisited",
+          "authors": "Coco Xinyue Liu, B. Ariel Blair, Elizabeth R. Tenney",
+          "abstract": "In 2012, Livingston et al. found that Black women were buffered against gender backlash; whether Black women were dominant or supportive toward an employee did not affect people’s perceptions of them as leaders in an organization. Conversely, White women incurred a status penalty for being dominant. Twelve years later, no direct replication has been published, and related research reached different conclusions: that Black women experience the most gender backlash for being dominant (as politicians) or that race does not affect gender backlash (for expressing anger). Given the seemingly contradictory results and limitations of previous research, the relationship between race and gender backlash warrants reexamination. In this registered report, we conducted a high-powered direct replication and extension of Livingston et al. with adult participants online ( N = 1,996). We found that both Black and White women (as well as men) suffered a status penalty for displaying dominance, suggesting a failure to replicate Livingston et al.’s findings. We discuss implications for theories of intersectional gender backlash.",
+          "url": "https://doi.org/10.1177/09567976261436988",
+          "doi": "https://doi.org/10.1177/09567976261436988",
+          "filter": 0,
+          "created": "2026-4-15"
         }
       ],
       "articles_hidden": []
