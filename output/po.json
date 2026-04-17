@@ -1,17 +1,17 @@
 {
-  "update": "2026-04-16",
+  "update": "2026-04-17",
   "content": [
     {
       "journal_full": "Journal of Elections, Public Opinion and Parties",
       "journal_short": "JEPOP",
       "articles": [
         {
-          "title": "Electoral outcomes versus voters' preferences: on the different tales the data can tell",
-          "authors": "Salvatore Barbaro, Anna-Sophie Kurella, Maike Roth",
-          "url": "https://doi.org/10.1080/17457289.2026.2655246",
-          "doi": "https://doi.org/10.1080/17457289.2026.2655246",
+          "title": "Asymmetric effects of economic news: a quasi-experimental approach",
+          "authors": "Tomoko Matsumoto, Kenneth Mori McElwain",
+          "url": "https://doi.org/10.1080/17457289.2026.2655247",
+          "doi": "https://doi.org/10.1080/17457289.2026.2655247",
           "filter": 0,
-          "created": "2026-4-9"
+          "created": "2026-4-16"
         }
       ],
       "articles_hidden": []
@@ -20,6 +20,24 @@
       "journal_full": "Journal of Survey Statistics and Methodology",
       "journal_short": "JSSAM",
       "articles": [
+        {
+          "title": "Toward a Margin of Total Error",
+          "authors": "Sharon L Lohr, Andrew Mercer, Courtney Kennedy, J Michael Brick",
+          "abstract": "The margin of error that is typically reported with a poll is based on sampling variability. This measure of uncertainty excludes bias from nonresponse and measurement error, which can in practice be much larger than the sampling error. We examine empirical models for predicting a “margin of total error” that includes both sampling and nonsampling error. Models considered include a multiplicative adjustment to the standard error, a linear regression model predicting squared bias from covariates, and linear and logistic mixed models that predict systematic bias components through fixed effects and incorporate extra non-sampling variability through a vector of random effects. These models are fit to two sets of polls that have benchmark estimates available from election results and high-quality probability surveys. The linear regression model and linear mixed model had the best performance for the datasets considered. These models are easy to interpret, offer flexibility for modeling the relationship between bias and the benchmark proportion, and can include covariates about sampling protocols and question topics. The oft-cited recommendation to double the margin of sampling error achieved approximately correct coverage for confidence intervals in the election dataset but achieved poor coverage for other polls. Recommendations for inflating standard errors of election polls do not necessarily carry over to polls on other subjects. The models in this article could be used to derive standard error adjustments for a database of polls having benchmark estimates. Poll producers could then draw on predictions of excess variability that have been calculated for similar poll designs and topics to provide measures of uncertainty for future polling estimates.",
+          "url": "https://doi.org/10.1093/jssam/smag006",
+          "doi": "https://doi.org/10.1093/jssam/smag006",
+          "filter": 0,
+          "created": "2026-4-16"
+        },
+        {
+          "title": "Bayesian Estimation of Variance Under Fine Stratification via Mean-Variance Smoothing",
+          "authors": "Sepideh Mosaferi, Shonosuke Sugasawa",
+          "abstract": "A fine stratification survey is useful in many applications as its point estimator is unbiased, but the variance estimator under the design cannot be easily obtained, particularly when the sample size per stratum is as small as one unit. One common practice to overcome this difficulty is to collapse strata in pairs to create pseudo-strata and then estimate the variance. The estimator of variance achieved is not design-unbiased, and the positive bias increases as the population means of the paired pseudo-strata become more variant. The resulting confidence intervals can be unnecessarily large. In this article, we propose a new Bayesian estimator for variance, which does not rely on collapsing strata, unlike the previous methods given in the literature. We employ the penalized spline method for smoothing the mean and variance together in a nonparametric way. Furthermore, we make comparisons with the earlier work of Breidt et al. (2016). Throughout multiple simulation studies and an illustration using data from the National Survey of Family Growth (NSFG), we demonstrate the favorable performance of our methodology.",
+          "url": "https://doi.org/10.1093/jssam/smag007",
+          "doi": "https://doi.org/10.1093/jssam/smag007",
+          "filter": 0,
+          "created": "2026-2-27"
+        },
         {
           "title": "Respondent-Driven Sampling Online (Web Rds) as a Strategy to Access Hard-To-Reach But Non-Hidden Populations: The Case of Health Professionals Working in Chilean Schools",
           "authors": "Katherine Dinamarca-Aravena, Andrés González Santa Cruz, Sonia Morales Miranda, Teresita Rocha Jiménez, Álvaro Castillo-Carniglia",
@@ -53,15 +71,6 @@
           "doi": "https://doi.org/10.1177/08944393261435087",
           "filter": 0,
           "created": "2026-4-15"
-        },
-        {
-          "title": "“Leibniz, Computing, and AI”",
-          "authors": "Audrey Borowski",
-          "abstract": "Centuries before the advent of computers, the German philosopher and mathematician Gottfried Wilhelm von Leibniz (1646–1716) sketched out a “computational ontology” whereby information operates as an organic principle imposing order, molding and driving it, in such a way that the world gains a form of consciousness, and thought produces its being at the same time as it thinks itself.",
-          "url": "https://doi.org/10.1177/08944393261441266",
-          "doi": "https://doi.org/10.1177/08944393261441266",
-          "filter": 0,
-          "created": "2026-4-9"
         }
       ],
       "articles_hidden": []
