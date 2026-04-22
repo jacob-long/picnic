@@ -34,6 +34,22 @@ DISCIPLINE_MAP <- list(
 # Frequency tags
 FREQUENCY_TAGS <- c("freq-daily", "freq-weekly", "freq-monthly")
 
+# Resolve conflicting frequency tags conservatively to avoid duplicate sends.
+resolve_frequency_tag <- function(tags) {
+    matching_tags <- FREQUENCY_TAGS[FREQUENCY_TAGS %in% tags]
+
+    if (length(matching_tags) == 0) {
+        return(NA_character_)
+    }
+
+    if (length(matching_tags) == 1) {
+        return(matching_tags[[1]])
+    }
+
+    precedence <- c("freq-monthly", "freq-weekly", "freq-daily")
+    precedence[precedence %in% matching_tags][[1]]
+}
+
 # Get API key from environment
 get_buttondown_api_key <- function() {
     key <- Sys.getenv("BUTTONDOWN_API_KEY")
@@ -69,31 +85,40 @@ update_last_sent_date <- function(frequency, date = Sys.Date()) {
 # Buttondown API Functions
 # ============================================================================
 
-#' Fetch all subscribers with pagination
+#' Fetch all regular subscribers with pagination
 #' @param api_key Buttondown API key
-#' @param tag Optional tag to filter by
 #' @return Data frame of subscribers
-fetch_subscribers <- function(api_key, tag = NULL) {
+fetch_subscribers <- function(api_key) {
     all_subscribers <- list()
     page <- 1
 
     repeat {
         url <- paste0(BUTTONDOWN_API_URL, "/subscribers")
-        query_params <- list(page = page, type = "regular")
-
-        if (!is.null(tag)) {
-            query_params$tag <- tag
-        }
-
         response <- GET(
             url,
-            query = query_params,
+            query = list(page = page, type = "regular"),
             add_headers(Authorization = paste("Token", api_key))
         )
 
         if (status_code(response) != 200) {
-            warning("Failed to fetch subscribers: ", status_code(response))
-            break
+            error_response <- tryCatch(
+                content(response, "parsed", type = "application/json"),
+                error = function(e) NULL
+            )
+            error_detail <- if (!is.null(error_response$detail)) {
+                paste0(": ", error_response$detail)
+            } else {
+                ""
+            }
+            stop(
+                paste0(
+                    "Failed to fetch subscribers from Buttondown (",
+                    status_code(response),
+                    ")",
+                    error_detail
+                ),
+                call. = FALSE
+            )
         }
 
         data <- content(response, "parsed")
@@ -135,8 +160,35 @@ fetch_subscribers <- function(api_key, tag = NULL) {
 get_subscribers_for_frequency <- function(api_key, frequency) {
     freq_tag <- paste0("freq-", frequency)
 
-    cat("Fetching subscribers with tag:", freq_tag, "\n")
-    subscribers <- fetch_subscribers(api_key, tag = freq_tag)
+    cat("Fetching regular subscribers\n")
+    subscribers <- fetch_subscribers(api_key)
+
+    if (nrow(subscribers) == 0) {
+        cat("No regular subscribers found.\n")
+        return(subscribers)
+    }
+
+    subscribers$resolved_frequency <- map_chr(subscribers$tags, resolve_frequency_tag)
+
+    conflicting_frequency_count <- sum(map_int(subscribers$tags, function(tags) {
+        sum(FREQUENCY_TAGS %in% tags)
+    }) > 1)
+
+    if (conflicting_frequency_count > 0) {
+        cat(
+            "Resolved",
+            conflicting_frequency_count,
+            "subscriber(s) with multiple frequency tags using least-frequent precedence\n"
+        )
+    }
+
+    # Buttondown's subscriber tag filter expects tag UUIDs, not tag names.
+    # Filter locally because subscriber records already include tag names.
+    subscribers <- subscribers[
+        subscribers$resolved_frequency == freq_tag,
+        ,
+        drop = FALSE
+    ]
 
     if (nrow(subscribers) == 0) {
         cat("No subscribers found for frequency:", frequency, "\n")
@@ -221,17 +273,33 @@ load_articles <- function(discipline_file) {
         return(NULL)
     }
 
+    journal_entries <- if (is.data.frame(data$content)) {
+        split(data$content, seq_len(nrow(data$content)))
+    } else {
+        data$content
+    }
+
     # Extract articles from all journals
-    all_articles <- map_dfr(data$content, function(journal) {
-        articles <- journal$articles
+    all_articles <- map_dfr(journal_entries, function(journal) {
+        if (is.data.frame(journal)) {
+            articles <- journal$articles[[1]]
+            journal_full <- journal$journal_full[[1]]
+            journal_short <- journal$journal_short[[1]]
+        } else {
+            articles <- journal$articles
+            journal_full <- journal$journal_full
+            journal_short <- journal$journal_short
+        }
+
         if (is.null(articles) || length(articles) == 0) {
             return(NULL)
         }
         if (is.data.frame(articles) && nrow(articles) == 0) {
             return(NULL)
         }
-        articles$journal_full <- journal$journal_full
-        articles$journal_short <- journal$journal_short
+
+        articles$journal_full <- journal_full
+        articles$journal_short <- journal_short
         articles$discipline <- discipline_file
         return(articles)
     })
@@ -315,7 +383,7 @@ generate_email_body <- function(content, subscriber_email = NULL) {
 
         sections[["mustread"]] <- section_md
         total_articles <- total_articles + nrow(must_read$articles)
-        content[["disc-mustread"]] <- NULL  # Remove so we don't duplicate
+        content[["disc-mustread"]] <- NULL  # Remove so we do not duplicate
     }
 
     # Other discipline sections
