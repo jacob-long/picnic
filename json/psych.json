@@ -1,5 +1,5 @@
 {
-  "update": "2026-04-21",
+  "update": "2026-04-22",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -40,12 +40,30 @@
           "created": "2026-4-17"
         },
         {
+          "title": "Mapping the dynamics of idiographic network models to the network theory of psychopathology",
+          "authors": "Ria H. A. Hoekstra, Jill de Ron, Sacha Epskamp, Donald J. Robinaugh, Denny Borsboom",
+          "abstract": "The network theory of psychopathology posits that mental disorders are stable states of symptom activation arising from causally interconnected symptoms, where individuals with more strongly connected symptom networks are at a higher risk of developing a mental disorder. Researchers have turned to idiographic network estimation to assess this theoretical position, yet it remains unclear whether the dynamics of these models align with the network theory. In this paper, we use stability landscapes to systematically map the parameters of idiographic network models onto the network theory. Specifically, we examine how the dynamics implied by the Ising model (with $$\\{0, 1\\}$$ { 0 , 1 } and $$\\{-1, 1\\}$$ { - 1 , 1 } encodings) and the Graphical Vector Autoregressive (GVAR) model relate to symptom severity and variability. Our results show that only for a subset of parameter values in the $$\\{0, 1\\}$$ { 0 , 1 } Ising model, higher connectivity is directly related to higher symptom severity, thereby aligning with the network theory. The $$\\{-1, 1\\}$$ { - 1 , 1 } Ising model only partially aligns with the network theory, as increased connectivity is related to both high and low symptom severity. In contrast, connectivity in the GVAR model is independent of symptom severity but instead reflects symptom variability over time. These findings demonstrate that the theoretical implications of network connectivity depend strongly on the chosen statistical model and its parameterization. Together, our results emphasize the need for systematic investigations that link theory to statistical models, and present stability landscapes as a useful tool to do so.",
+          "url": "https://doi.org/10.3758/s13428-026-03009-w",
+          "doi": "https://doi.org/10.3758/s13428-026-03009-w",
+          "filter": 0,
+          "created": "2026-4-21"
+        },
+        {
           "title": "Explanatory item response models for continuous data: A tutorial in R",
           "authors": "Joshua B. Gilbert",
           "url": "https://doi.org/10.3758/s13428-026-02986-2",
           "doi": "https://doi.org/10.3758/s13428-026-02986-2",
           "filter": 0,
           "created": "2026-4-16"
+        },
+        {
+          "title": "Detecting warning signs for psychopathology in real time while accounting for context: Two novel statistical process control applications",
+          "authors": "M. J. Schreuder, E. Schat, E. Ceulemans",
+          "abstract": "Statistical process control (SPC) may detect whether and when repeatedly assessed emotions reach unusual levels, which holds promise for the real-time detection of imminent depression. However, SPC does not account for contextual effects on emotions, such as people feeling systematically worse during stressful events and better during weekends. This may cause false alarms (e.g., presence of warning signs during stressful events) as well as false negatives (e.g., absence of warning signs during weekends). We therefore present two novel context-sensitive SPC methods, which adjust the monitored score according to contextual factors. A simulation study showed that these context-sensitive methods outperform the standard SPC method when contextual effects are large while the effect of depression on emotions is relatively small, but lose their advantage when contextual factors are biased. An empirical illustration confirmed these findings. Context-sensitive SPC methods are thus recommended when contextual factors can be accurately pinpointed, which may hold, for instance, for location and temporal cycles (seasons, menstrual cycles, week/weekend days).",
+          "url": "https://doi.org/10.3758/s13428-026-03004-1",
+          "doi": "https://doi.org/10.3758/s13428-026-03004-1",
+          "filter": 0,
+          "created": "2026-4-21"
         },
         {
           "title": "Introducing the Truth Effect Database (TED): An open trial-level resource promoting FAIR data in truth effect research",
@@ -55,6 +73,14 @@
           "doi": "https://doi.org/10.3758/s13428-026-03007-y",
           "filter": 0,
           "created": "2026-4-16"
+        },
+        {
+          "title": "A multivariate differential-phase model based on bio-kinematic asymmetry accounts for estimation biases in point-light walker directions",
+          "authors": "Qian Sun, Yu-Die Wang, Qi Sun",
+          "url": "https://doi.org/10.3758/s13428-026-03011-2",
+          "doi": "https://doi.org/10.3758/s13428-026-03011-2",
+          "filter": 0,
+          "created": "2026-4-21"
         },
         {
           "title": "A multidimensional-scaling study of images from diverse everyday-object categories",
@@ -72,6 +98,24 @@
           "doi": "https://doi.org/10.3758/s13428-026-02985-3",
           "filter": 0,
           "created": "2026-4-17"
+        },
+        {
+          "title": "Detecting gaze shifts of moving observers in dynamic environments",
+          "authors": "Ashkan Nejad, Andrea Ghiani, Frans W. Cornelissen, Eli Brenner",
+          "abstract": "Eye-tracking using head-mounted systems in natural, dynamic settings presents unique challenges for accurately detecting gaze shifts (saccades). Unlike controlled, screen-based scenarios, mobile eye-tracking involves constant shifts in visual scenes with respect to the head due to head and body movements, complicating gaze event classification. This paper systematically evaluates several threshold- and machine-learning-based gaze-shift detection algorithms on a manually labeled dataset collected from participants walking freely outdoors. Our findings indicate that conventional threshold-based methods, despite their sensitivity to parameter settings, outperform contemporary pre-trained machine learning methods when applied to real-world dynamic conditions without retraining. However, we also demonstrated that although machine-learning-based methods perform poorly on unseen dynamic data, their performance improves substantially when they are retrained on data that closely matches the testing conditions. Moreover, we introduce a novel probabilistic approach, the Ranking method, that integrates both eye movement and visual scene information, achieving performance comparable to inter-annotator agreement, outperforming previous methods. We also report observing some gaze behaviors during manual annotation that do not fit within the classical gaze event categories, highlighting why classifying gaze events in unconstrained natural scenarios is more complex than doing so for screen-based tasks. Our work provides insights suggesting how one could improve gaze event classification performance in real-world environments in the future.",
+          "url": "https://doi.org/10.3758/s13428-026-02972-8",
+          "doi": "https://doi.org/10.3758/s13428-026-02972-8",
+          "filter": 0,
+          "created": "2026-4-21"
+        },
+        {
+          "title": "A modified expectation–maximization algorithm for accelerated item response theory model estimation with large datasets",
+          "authors": "Tianying Feng, Li Cai",
+          "abstract": "The expectation–maximization (EM) algorithm is widely used for parameter estimation in item response theory (IRT) modeling. However, when applied to datasets with large numbers of individuals and items, the standard EM algorithm can be slow to converge, with computationally expensive E-steps. We propose a modified EM algorithm to accelerate estimation for unidimensional two-parameter logistic IRT models. The modified algorithm uses a two-stage structure with partial-step updating over data subsets to reduce convergence time, while maintaining comparable accuracy and precision. The first two simulation studies evaluated its performance relative to standard EM, focusing on convergence time, parameter recovery, and standard error estimation across varying subset sizes and item counts. The third study demonstrated its scalability and runtime advantage in a large-scale testing scenario involving one million respondents and 100 items. The fourth study evaluated robustness under departures from unidimensionality. The proposed algorithm showed time reductions under smaller subsets with 36 items, consistent reductions across all subset sizes with 54 items, and the largest reduction (60%) with 40-item forms constructed from 100 items, while maintaining comparable estimation performance. These results highlight the algorithm’s potential for large-scale applications involving tens of thousands of respondents and moderate-to-large item pools, with modifications that can be integrated into existing EM routines. We conclude with directions for operational use and potential extensions to multidimensional IRT estimation.",
+          "url": "https://doi.org/10.3758/s13428-026-02996-0",
+          "doi": "https://doi.org/10.3758/s13428-026-02996-0",
+          "filter": 0,
+          "created": "2026-4-21"
         },
         {
           "title": "A transition evaluation model with probability-based effectiveness indicators—a new measurement model for problem-solving process data",
@@ -96,14 +140,6 @@
           "doi": "https://doi.org/10.3758/s13428-026-03006-z",
           "filter": 0,
           "created": "2026-4-17"
-        },
-        {
-          "title": "A comprehensive, open-source battery of movement imagery ability tests: Development and psychometric properties",
-          "authors": "Marcos Moreno-Verdú, Baptiste M. Waltzing, Elise E. Van Caenegem, Carla Czilczer, Laurine F. Boidequin, Charlène Truong, Stephan Frederic Dahm, Robert M. Hardwick",
-          "url": "https://doi.org/10.3758/s13428-026-03002-3",
-          "doi": "https://doi.org/10.3758/s13428-026-03002-3",
-          "filter": 0,
-          "created": "2026-4-14"
         }
       ],
       "articles_hidden": []
@@ -129,6 +165,14 @@
           "created": "2026-4-17"
         },
         {
+          "title": "Modeling Misinformation Herd Immunity from a Multi-Mechanism Integration Perspective: The Role of Selective Exposure and Echo Chamber Effect",
+          "authors": "Renbiao Yang, Gaohui Cao",
+          "url": "https://doi.org/10.1016/j.chb.2026.109031",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109031",
+          "filter": 0,
+          "created": "2026-4-21"
+        },
+        {
           "title": "AI-powered smartphone tools and immigrant social integration. The role of personality and psychological factors",
           "authors": "Evangelos Mourelatos, Magdalini Liontou",
           "url": "https://doi.org/10.1016/j.chb.2026.109028",
@@ -137,7 +181,7 @@
           "created": "2026-4-16"
         },
         {
-          "title": "Smartphone-Derived Phenotypes of Social Media Use in Young Adults",
+          "title": "Smartphone-derived phenotypes of social media use in young adults",
           "authors": "Elombe Calvert, Andrew Jin Soo Byun, Haruka Notsu, Sean Ryan, Shrutangi Vaidya, John Torous",
           "url": "https://doi.org/10.1016/j.chb.2026.109027",
           "doi": "https://doi.org/10.1016/j.chb.2026.109027",
@@ -158,14 +202,6 @@
           "doi": "https://doi.org/10.1016/j.jesp.2026.104932",
           "filter": 0,
           "created": "2026-4-20"
-        },
-        {
-          "title": "Decision strategy and perceived humanness: The roles of decision context and decision outcome",
-          "authors": "Hong Zhang, Huan Zhu, Jingyan Wang, Yima Jin",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104928",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104928",
-          "filter": 0,
-          "created": "2026-4-14"
         },
         {
           "title": "The effects of anonymity in volunteer's dilemmas",
@@ -220,15 +256,6 @@
       "journal_full": "Personality and Social Psychology Bulletin",
       "journal_short": "PSPB",
       "articles": [
-        {
-          "title": "Is Mobility Linked to Higher or Lower Loneliness? The Importance of Freedom and Instability",
-          "authors": "Yuri Miyamoto, Tomotaka Okuyama, Atsuki Ito, Brian A. O’Shea, Michiko Ueda",
-          "abstract": "How is interpersonal and intergroup mobility related to loneliness? Disentangling different facets of mobility may be crucial to understanding the link. We propose that the disruption of life and long-term relationships inherent in a mobile society (i.e., instability facet) is linked to higher loneliness, whereas the opportunities and freedom existing in a mobile society (i.e., freedom facet) are associated with lower loneliness. We developed a community stability scale to capture the former and examined the associations between different measures of mobility and loneliness. Across two studies, one in Japan ( n = 881) and the other in two cultures (Japan and United States; n = 4,163) that vary in levels of mobility, both community stability (high stability) and relational mobility (high freedom) were associated with lower loneliness, which was partially mediated by social isolation. These findings suggest that whether mobility is linked to higher or lower loneliness depends on its specific facets.",
-          "url": "https://doi.org/10.1177/01461672261429141",
-          "doi": "https://doi.org/10.1177/01461672261429141",
-          "filter": 0,
-          "created": "2026-4-14"
-        },
         {
           "title": "The Role of Egalitarian Ideology in System-Challenging Collective Action Among Members of Dominant and Marginalized Racial Groups",
           "authors": "Nadia Vossoughi, Wilson N. Merrell, Nour S. Kteily, Arnold K. Ho",
