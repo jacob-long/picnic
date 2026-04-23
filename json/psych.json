@@ -1,5 +1,5 @@
 {
-  "update": "2026-04-22",
+  "update": "2026-04-23",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -15,6 +15,15 @@
           "created": "2026-4-16"
         },
         {
+          "title": "Models as Prediction Machines: How to Convert Confusing Coefficients Into Clear Quantities",
+          "authors": "Julia M. Rohrer, Vincent Arel-Bundock",
+          "abstract": "Psychological researchers usually make sense of regression models by interpreting coefficient estimates directly. This works well enough for simple linear models but is challenging for more complex models with, for example, categorical variables, interactions, nonlinearities, or hierarchical structures. Here, we introduce an alternative approach to making sense of statistical models. The central idea is to abstract away from the mechanics of estimation and to treat models as “counterfactual prediction machines,” which are subsequently queried to estimate quantities and conduct tests that matter substantively. This workflow is model-agnostic; it can be applied in consistent fashion to draw inferences from a wide range of models. We illustrate how to implement this workflow with the marginaleffects package, which supports more than 100 different classes of models in R and Python , and present two worked examples. These examples show how the workflow can be applied across designs (e.g., observational studies, randomized experiments) to answer different research questions (e.g., about associations, causal effects, effect heterogeneity) while facing various challenges (e.g., controlling for confounders in a flexible manner, modeling ordinal outcomes, and interpreting nonlinear models).",
+          "url": "https://doi.org/10.1177/25152459261424825",
+          "doi": "https://doi.org/10.1177/25152459261424825",
+          "filter": 0,
+          "created": "2026-4-22"
+        },
+        {
           "title": "Realizing the Full Potential of Big-Team Behavioral Science: How Global Collaborations Can Benefit From Participatory Open-Research Practices",
           "authors": "Netta Weinstein, Sakshi Ghai, Tia Moin, Nicole Legate, Lennia Matos, Andrew K. Przybylski",
           "abstract": "Big-team science collaborations have been heralded as a solution to oversampling in a limited number of high-income countries. Despite early successes, there is insufficient involvement from the global community and unclear benefits to globalized science. The expansion of research from sites in North America and Europe to parts of the world where most people live can create the appearance of progress based on geographical diversity while neglecting the perspectives, problems, and knowledge specific to those populations. Here, we describe participatory open-research practices that bring global perspectives to open science. Participatory practices involve revising and transparently communicating worldviews, valuing humility over control, prioritizing team facilitation over management, and listening to versus instructing collaborators. We detail these concepts and their utility and provide recommendations for conducting robust, open, and culturally embedded research that will help realize the potential value of big-team science.",
@@ -22,6 +31,24 @@
           "doi": "https://doi.org/10.1177/25152459261423052",
           "filter": 0,
           "created": "2026-4-16"
+        },
+        {
+          "title": "The Evaluation of Harm and Purity Transgressions in Africans: A Paradigmatic Replication of Rottman and Young (2019)",
+          "authors": "Adeyemi Adetula, Patrick S. Forscher, Dana Basnight-Brown, Jordan R. Wagge, Wickson Thomas Kaliyapa, Chamkat Gopye Polycarp, Winfrida Saimon Malingumu, Soufian Azouaghe, Lenah Sambu, Izuchukwu L.G. Ndukaihe, Gabriel Agboola Adetula, Abdelilah Charyate, Chisom Esther Ogbonnaya, Nwadiogo Chisom Arinze, Olawuyi Patience Shumiye, David Beshel Jack, Nestor Motemba Ouoba, Bukola Victoria Bada, Ahmed Khaoudi, Jaime Nhaguilunguana, Uba Donald Dennis, Asiya Ayoob, Agbasoga Vivian Idu, Yusuf Elson Dinala, Abdulfatai Olalekan Adeyefa, Michael Ibukun Ehinmowo, Amarachi Uchechi Janice Imonigie, Glory Wuraola Agboola, Habila Alfred Daktong, Bisan Musa, Jamal Elouafa, Mohamed Boua, Mohamed Kaddouri, Bako Joseph Dongkek, Houda Grimli, Lamya Mouhssine, Hicham Eddamnati, Teodote Matimbe, Daniela Rocha IJzerman, Anne W. Muchiri-Muchai, Patrícia Arriaga, Maximilian A. Primbs, Hans IJzerman",
+          "abstract": "Improving the generalizability of psychology findings to a culture requires sampling participants in that culture. Yet psychology studies rarely sample from Africa even though Africa represents 17% of the global population. Although Africans can leverage the credibility-revolution initiatives to increase rigor and global representation, capacity building might speed the spread of these initiatives. In this study, we investigated an African-wide replication study to test whether Rottman and Young’s “mere-trace” hypothesis of moral reasoning (that people are more sensitive to the dosage of harm-based transgressions than purity transgressions) extends to several African communities. We used a training method developed by the Collaborative Replication and Education Project to train 23 African collaborators. During this process, we conducted a paradigmatic replication of Rottman and Young’s test of the mere-trace hypothesis in 12 contributing African sites from Burkina Faso, Kenya, Morocco, Nigeria, and Tanzania that sampled 783 participants after exclusions. Consistent with the original claim using U.S. samples, our African participants judged severe harm transgressions as more wrong than less severe ones but were not as sensitive to severity for purity transgressions (Domain × Dose: b = −4.63; p &lt; .01). Moreover, the effect of dosage was smaller than reported among the U.S. sample, and our African participants rated all transgression scenarios more wrong than the U.S. sample. Resource constraints limited our sample to five African countries and to Africans dwelling in urban communities. Moral psychology should transcend the moral issues prioritized in the original study to include those considered important in African societies.",
+          "url": "https://doi.org/10.1177/25152459261428031",
+          "doi": "https://doi.org/10.1177/25152459261428031",
+          "filter": 0,
+          "created": "2026-4-22"
+        },
+        {
+          "title": "Stage 2 Registered Report: Restriction of Researcher Degrees of Freedom Through the Psychological Research Preregistration-Quantitative Template",
+          "authors": "Lisa Spitzer, Amelie Kroeger, Stefanie Mueller",
+          "abstract": "Preregistration can help to restrict researcher degrees of freedom and thereby ensure the integrity of research findings. However, its ability to restrict such flexibility depends on whether researchers specify their study plan in sufficient detail and adhere to this plan. Previous research indicates higher restrictiveness when preregistrations are based on structured versus unstructured template formats, although there is room for further improvement. In this study, we built on these findings and investigated the restrictiveness of preregistrations based on the Psychological Research Preregistration-Quantitative (PRP-QUANT) Template, an extensive template that aids the preregistration of quantitative studies in psychology. Preregistrations were sampled from PsychArchives and coded for their level of restrictiveness using the coding schemes of Bakker et al. and Heirene et al. We predicted that preregistrations based on the PRP-QUANT Template ( N = 103) are more restrictive than preregistrations based on the OSF Preregistration Template ( N = 52; Hypothesis 1). We also inspected whether peer review can contribute further to restricting flexibility using nested Wilcoxon-Mann-Whitney tests and predicted higher restrictiveness for peer-reviewed ( n = 29) than non-peer-reviewed preregistrations ( n = 74; Hypothesis 2). In addition, we examined adherence to the preregistered plans in the associated publications ( N = 19). In line with Hypothesis 1, PRP-QUANT preregistrations had significantly higher restrictiveness scores than OSF preregistrations. Moreover, consistent with Hypothesis 2, peer-reviewed preregistrations had significantly higher restrictiveness than non-peer-reviewed ones. Of the associated articles, 73.68% included undeclared deviations. We discuss the implications of our findings for the PRP-QUANT Template and structured templates in general.",
+          "url": "https://doi.org/10.1177/25152459261432216",
+          "doi": "https://doi.org/10.1177/25152459261432216",
+          "filter": 0,
+          "created": "2026-4-22"
         }
       ],
       "articles_hidden": []
@@ -30,6 +57,15 @@
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
       "articles": [
+        {
+          "title": "Mapping the dynamics of idiographic network models to the network theory of psychopathology",
+          "authors": "Ria H. A. Hoekstra, Jill de Ron, Sacha Epskamp, Donald J. Robinaugh, Denny Borsboom",
+          "abstract": "The network theory of psychopathology posits that mental disorders are stable states of symptom activation arising from causally interconnected symptoms, where individuals with more strongly connected symptom networks are at a higher risk of developing a mental disorder. Researchers have turned to idiographic network estimation to assess this theoretical position, yet it remains unclear whether the dynamics of these models align with the network theory. In this paper, we use stability landscapes to systematically map the parameters of idiographic network models onto the network theory. Specifically, we examine how the dynamics implied by the Ising model (with $$\\{0, 1\\}$$ { 0 , 1 } and $$\\{-1, 1\\}$$ { - 1 , 1 } encodings) and the Graphical Vector Autoregressive (GVAR) model relate to symptom severity and variability. Our results show that only for a subset of parameter values in the $$\\{0, 1\\}$$ { 0 , 1 } Ising model, higher connectivity is directly related to higher symptom severity, thereby aligning with the network theory. The $$\\{-1, 1\\}$$ { - 1 , 1 } Ising model only partially aligns with the network theory, as increased connectivity is related to both high and low symptom severity. In contrast, connectivity in the GVAR model is independent of symptom severity but instead reflects symptom variability over time. These findings demonstrate that the theoretical implications of network connectivity depend strongly on the chosen statistical model and its parameterization. Together, our results emphasize the need for systematic investigations that link theory to statistical models, and present stability landscapes as a useful tool to do so.",
+          "url": "https://doi.org/10.3758/s13428-026-03009-w",
+          "doi": "https://doi.org/10.3758/s13428-026-03009-w",
+          "filter": 0,
+          "created": "2026-4-21"
+        },
         {
           "title": "Beyond traditional assessments of cognitive status: Exploring the potential of spatial navigation tasks",
           "authors": "Giorgio Colombo, Karolina Minta, Tyler Thrash, Jascha Grübel, Jan Wiener, Marios Avraamides, William R. Taylor, Christoph Hölscher, Victor R. Schinazi",
@@ -40,13 +76,12 @@
           "created": "2026-4-17"
         },
         {
-          "title": "Mapping the dynamics of idiographic network models to the network theory of psychopathology",
-          "authors": "Ria H. A. Hoekstra, Jill de Ron, Sacha Epskamp, Donald J. Robinaugh, Denny Borsboom",
-          "abstract": "The network theory of psychopathology posits that mental disorders are stable states of symptom activation arising from causally interconnected symptoms, where individuals with more strongly connected symptom networks are at a higher risk of developing a mental disorder. Researchers have turned to idiographic network estimation to assess this theoretical position, yet it remains unclear whether the dynamics of these models align with the network theory. In this paper, we use stability landscapes to systematically map the parameters of idiographic network models onto the network theory. Specifically, we examine how the dynamics implied by the Ising model (with $$\\{0, 1\\}$$ { 0 , 1 } and $$\\{-1, 1\\}$$ { - 1 , 1 } encodings) and the Graphical Vector Autoregressive (GVAR) model relate to symptom severity and variability. Our results show that only for a subset of parameter values in the $$\\{0, 1\\}$$ { 0 , 1 } Ising model, higher connectivity is directly related to higher symptom severity, thereby aligning with the network theory. The $$\\{-1, 1\\}$$ { - 1 , 1 } Ising model only partially aligns with the network theory, as increased connectivity is related to both high and low symptom severity. In contrast, connectivity in the GVAR model is independent of symptom severity but instead reflects symptom variability over time. These findings demonstrate that the theoretical implications of network connectivity depend strongly on the chosen statistical model and its parameterization. Together, our results emphasize the need for systematic investigations that link theory to statistical models, and present stability landscapes as a useful tool to do so.",
-          "url": "https://doi.org/10.3758/s13428-026-03009-w",
-          "doi": "https://doi.org/10.3758/s13428-026-03009-w",
+          "title": "BKT: A Bayesian knowledge tracing package for the R environment",
+          "authors": "Yuhao Yuan, Biying Zhou, Jia Qi, Nanyu Luo, Feng Ji",
+          "url": "https://doi.org/10.3758/s13428-026-02955-9",
+          "doi": "https://doi.org/10.3758/s13428-026-02955-9",
           "filter": 0,
-          "created": "2026-4-21"
+          "created": "2026-4-22"
         },
         {
           "title": "Explanatory item response models for continuous data: A tutorial in R",
@@ -165,6 +200,14 @@
           "created": "2026-4-17"
         },
         {
+          "title": "Tell me who its founders are and I’ll tell you what your online community looks like: Online community founders’ personality and community attributes",
+          "authors": "Yaniv Dover, Shaul Oreg",
+          "url": "https://doi.org/10.1016/j.chb.2026.109030",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109030",
+          "filter": 0,
+          "created": "2026-4-22"
+        },
+        {
           "title": "Modeling Misinformation Herd Immunity from a Multi-Mechanism Integration Perspective: The Role of Selective Exposure and Echo Chamber Effect",
           "authors": "Renbiao Yang, Gaohui Cao",
           "url": "https://doi.org/10.1016/j.chb.2026.109031",
@@ -210,14 +253,6 @@
           "doi": "https://doi.org/10.1016/j.jesp.2026.104929",
           "filter": 0,
           "created": "2026-4-16"
-        },
-        {
-          "title": "Emotional cues to group hierarchy: Inferences about dominance- versus prestige-based hierarchies from members' emotional expressions",
-          "authors": "Marc W. Heerdink, Svenja A. Wolf, Jens Lange, Florian Wanders, Xia Fang, Eftychia Stamkou, Gerben A. van Kleef",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104931",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104931",
-          "filter": 0,
-          "created": "2026-4-15"
         }
       ],
       "articles_hidden": []
@@ -264,15 +299,6 @@
           "doi": "https://doi.org/10.1177/01461672261427820",
           "filter": 0,
           "created": "2026-4-16"
-        },
-        {
-          "title": "Passion as a Moral Cue: How Obsessive and Harmonious Passion Shape Moral Expectations and Role Assignment",
-          "authors": "Monica Gamez-Djokic, Maryam Kouchaki",
-          "abstract": "Passion is often celebrated as a driver of success, yet it also serves as a social cue that shapes moral expectations. Across five studies ( N = 1,849), we examine how perceptions of obsessive versus harmonious passion influence workplace inferences and decisions. Obsessively passionate individuals are perceived as more likely to engage in goal-instrumental unethical behavior than harmoniously passionate or less passionate counterparts. These expectations guide selection: obsessively passionate individuals are disproportionately chosen for roles involving morally questionable conduct. This preference emerges even when obsessive passion is viewed as no more ethically risky than low self-control, suggesting that anticipated immorality is not penalized uniformly. Rather, obsessive passion pairs moral suspicion with valued qualities (e.g., dedication, drive), making ethical flexibility seem instrumentally useful. Passion type thus functions as a moral cue shaping how people are evaluated and deployed at work, raising concerns that organizations may inadvertently reinforce boundary crossing by rewarding “passion.”",
-          "url": "https://doi.org/10.1177/01461672261436552",
-          "doi": "https://doi.org/10.1177/01461672261436552",
-          "filter": 0,
-          "created": "2026-4-15"
         }
       ],
       "articles_hidden": []
@@ -313,15 +339,6 @@
       "journal_short": "PsychSci",
       "articles": [
         {
-          "title": "Individual Differences in Great Ape Cognition Across Time and Domains: Stability, Structure, and Predictability",
-          "authors": "Manuel Bohn, Christoph J. Völter, Daniel Hanus, Nico Eisbrenner, Johanna Eckert, Jana Holtmann, Daniel Haun",
-          "abstract": "Understanding variation in cognitive abilities is critical to understanding both the evolution and development of cognition. In this study, we examined the stability, structure, and predictability of individual differences in cognitive abilities in great apes across a broad range of domains, including social cognition, reasoning about quantities, executive function, and inferential reasoning. We administered six tasks to 48 individuals from four species, spanning 10 sessions over 1.5 years. Task performance was most strongly predicted by stable, individual-specific characteristics rather than transient or group-level variables. Using additional data from the same individuals in other tasks, we found substantial positive correlations between nonsocial tasks. In contrast, tasks measuring social cognition were not correlated either with each other or with nonsocial measures. Future studies should work toward mechanistic models of great apes’ cognitive processes to build an understanding of the evolution of cognition based on process-level commonalities across species.",
-          "url": "https://doi.org/10.1177/09567976261434817",
-          "doi": "https://doi.org/10.1177/09567976261434817",
-          "filter": 0,
-          "created": "2026-4-15"
-        },
-        {
           "title": "Can Italians Understand Spanish? Language Closeness Exacerbates the Illusion of Understanding",
           "authors": "Ziyu Ren, Leigh H. Grant, Boaz Keysar",
           "abstract": "People often understand parts of languages that are closely related to their native tongue. But do they understand what the speaker intends to convey? We discovered that linguistic similarity induces an illusion of understanding, leading people to believe they understand more than they actually do. In Study 1, adult native Italian speakers overestimated their understanding of a speaker’s intent more when they listened to Spanish (close language) than to Northern Jiangsu Chinese (distant language). In Study 2, adult native Mandarin Chinese speakers overestimated their understanding more when they listened to Northern Jiangsu Chinese (close language) than to Spanish (distant language). When listening to the closer language, listeners were more confident, and this mediated their overestimation of understanding. An illusion of understanding, then, increases not despite language closeness but because of it. This has theoretical implications for the role of calibration in communication and practical implications for miscommunication in international settings.",
@@ -329,15 +346,6 @@
           "doi": "https://doi.org/10.1177/09567976261435965",
           "filter": 0,
           "created": "2026-4-20"
-        },
-        {
-          "title": "Registered Report: Can Agentic Black Women Get Ahead? An Experiment Revisited",
-          "authors": "Coco Xinyue Liu, B. Ariel Blair, Elizabeth R. Tenney",
-          "abstract": "In 2012, Livingston et al. found that Black women were buffered against gender backlash; whether Black women were dominant or supportive toward an employee did not affect people’s perceptions of them as leaders in an organization. Conversely, White women incurred a status penalty for being dominant. Twelve years later, no direct replication has been published, and related research reached different conclusions: that Black women experience the most gender backlash for being dominant (as politicians) or that race does not affect gender backlash (for expressing anger). Given the seemingly contradictory results and limitations of previous research, the relationship between race and gender backlash warrants reexamination. In this registered report, we conducted a high-powered direct replication and extension of Livingston et al. with adult participants online ( N = 1,996). We found that both Black and White women (as well as men) suffered a status penalty for displaying dominance, suggesting a failure to replicate Livingston et al.’s findings. We discuss implications for theories of intersectional gender backlash.",
-          "url": "https://doi.org/10.1177/09567976261436988",
-          "doi": "https://doi.org/10.1177/09567976261436988",
-          "filter": 0,
-          "created": "2026-4-15"
         }
       ],
       "articles_hidden": []
