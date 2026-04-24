@@ -1,51 +1,18 @@
 {
-  "update": "2026-04-23",
+  "update": "2026-04-24",
   "content": [
-    {
-      "journal_full": "Journal of Elections, Public Opinion and Parties",
-      "journal_short": "JEPOP",
-      "articles": [
-        {
-          "title": "Asymmetric effects of economic news: a quasi-experimental approach",
-          "authors": "Tomoko Matsumoto, Kenneth Mori McElwain",
-          "url": "https://doi.org/10.1080/17457289.2026.2655247",
-          "doi": "https://doi.org/10.1080/17457289.2026.2655247",
-          "filter": 0,
-          "created": "2026-4-16"
-        }
-      ],
-      "articles_hidden": []
-    },
     {
       "journal_full": "Journal of Survey Statistics and Methodology",
       "journal_short": "JSSAM",
       "articles": [
         {
-          "title": "Toward a Margin of Total Error",
-          "authors": "Sharon L Lohr, Andrew Mercer, Courtney Kennedy, J Michael Brick",
-          "abstract": "The margin of error that is typically reported with a poll is based on sampling variability. This measure of uncertainty excludes bias from nonresponse and measurement error, which can in practice be much larger than the sampling error. We examine empirical models for predicting a “margin of total error” that includes both sampling and nonsampling error. Models considered include a multiplicative adjustment to the standard error, a linear regression model predicting squared bias from covariates, and linear and logistic mixed models that predict systematic bias components through fixed effects and incorporate extra non-sampling variability through a vector of random effects. These models are fit to two sets of polls that have benchmark estimates available from election results and high-quality probability surveys. The linear regression model and linear mixed model had the best performance for the datasets considered. These models are easy to interpret, offer flexibility for modeling the relationship between bias and the benchmark proportion, and can include covariates about sampling protocols and question topics. The oft-cited recommendation to double the margin of sampling error achieved approximately correct coverage for confidence intervals in the election dataset but achieved poor coverage for other polls. Recommendations for inflating standard errors of election polls do not necessarily carry over to polls on other subjects. The models in this article could be used to derive standard error adjustments for a database of polls having benchmark estimates. Poll producers could then draw on predictions of excess variability that have been calculated for similar poll designs and topics to provide measures of uncertainty for future polling estimates.",
-          "url": "https://doi.org/10.1093/jssam/smag006",
-          "doi": "https://doi.org/10.1093/jssam/smag006",
+          "title": "BART-FH: Flexible Nonlinear Modeling for Small Area Estimation",
+          "authors": "Paul A Parker, Abdulhakeem Eideh",
+          "abstract": "The Fay-Herriot model has been the workhorse of area-level small area estimation. This model links direct survey estimates to area-level covariates through a linear mixed-effects framework. While effective, this model assumes a linear relationship between covariates and the true area-level quantities, limiting its flexibility in capturing complex patterns inherent in real-world data. In this work, we introduce an extension of the Fay-Herriot model that integrates Bayesian Additive Regression Trees (BART) to model the true area-level quantities as nonlinear functions of the covariates, complemented by an additive random effect to account for unexplained heterogeneity. The proposed BART Fay-Herriot (BART-FH) model leverages the nonparametric capabilities of BART to capture intricate nonlinear relationships and interactions among covariates, offering a more flexible alternative to traditional linear models. To evaluate the performance of the BART-FH model, we conduct an empirical simulation study comparing its estimation accuracy and predictive capabilities against the standard Fay-Herriot model. Furthermore, we apply the BART-FH model to household income data from the American Community Survey (ACS).",
+          "url": "https://doi.org/10.1093/jssam/smaf050",
+          "doi": "https://doi.org/10.1093/jssam/smaf050",
           "filter": 0,
-          "created": "2026-4-16"
-        },
-        {
-          "title": "Bayesian Estimation of Variance Under Fine Stratification via Mean-Variance Smoothing",
-          "authors": "Sepideh Mosaferi, Shonosuke Sugasawa",
-          "abstract": "A fine stratification survey is useful in many applications as its point estimator is unbiased, but the variance estimator under the design cannot be easily obtained, particularly when the sample size per stratum is as small as one unit. One common practice to overcome this difficulty is to collapse strata in pairs to create pseudo-strata and then estimate the variance. The estimator of variance achieved is not design-unbiased, and the positive bias increases as the population means of the paired pseudo-strata become more variant. The resulting confidence intervals can be unnecessarily large. In this article, we propose a new Bayesian estimator for variance, which does not rely on collapsing strata, unlike the previous methods given in the literature. We employ the penalized spline method for smoothing the mean and variance together in a nonparametric way. Furthermore, we make comparisons with the earlier work of Breidt et al. (2016). Throughout multiple simulation studies and an illustration using data from the National Survey of Family Growth (NSFG), we demonstrate the favorable performance of our methodology.",
-          "url": "https://doi.org/10.1093/jssam/smag007",
-          "doi": "https://doi.org/10.1093/jssam/smag007",
-          "filter": 0,
-          "created": "2026-2-27"
-        },
-        {
-          "title": "Variations in Self-Reported Happiness Across Different Response Scales: Evidence From 34 Chinese Surveys From 2002 to 2021",
-          "authors": "Shuaiying Cao, Minglei Wang, Ting Yan, Lirui He, Chan Zhang",
-          "abstract": "Happiness is a widely used measure of subjective well-being, often assessed through a single survey item (e.g., “How happy are you these days?”) in global social surveys. However, variations in response scale design across surveys complicate comparisons of happiness both within and across countries. To examine the impact of response scale design on happiness ratings, we analyzed data from 34 interviewer-administered (mostly face-to-face) national probability-based surveys conducted in China, spanning six survey programs and comprising approximately half a million responses. We focused on three key scale design features that varied across surveys: scale direction, presence or absence of a midpoint, and scale length. To enable meaningful comparisons across surveys with different scale lengths, we standardized self-reported happiness scores using z-score transformations within each survey. This approach allowed us to evaluate how scale features are associated with respondents’ relative positions within each survey’s distribution, rather than comparing raw mean happiness scores across studies. Our analyses revealed no differences in standardized happiness ratings across scale lengths, but scales without a midpoint resulted in higher ratings. The relationship between scale direction and standardized happiness ratings differed markedly across education subgroups. Specifically, among respondents with lower levels of education, descending scales (e.g., from “a lot of happiness” to “a lot of unhappiness”) were associated with higher standardized happiness ratings compared to ascending scales. This pattern aligns with findings from Western research on scale direction effects. In contrast, among respondents with higher education—particularly those in the highest education category—descending scales were associated with lower standardized happiness ratings. These findings suggest that culturally specific mechanisms may interact with scale direction to influence how individuals report their happiness.",
-          "url": "https://doi.org/10.1093/jssam/smaf053",
-          "doi": "https://doi.org/10.1093/jssam/smaf053",
-          "filter": 0,
-          "created": "2025-11-22"
+          "created": "2025-11-21"
         }
       ],
       "articles_hidden": []
