@@ -383,7 +383,7 @@ generate_email_body <- function(content, subscriber_email = NULL) {
 
         sections[["mustread"]] <- section_md
         total_articles <- total_articles + nrow(must_read$articles)
-        content[["disc-mustread"]] <- NULL  # Remove so we don't duplicate
+        content[["disc-mustread"]] <- NULL  # Remove so we do not duplicate
     }
 
     # Other discipline sections

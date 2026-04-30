@@ -1,18 +1,84 @@
 {
-  "update": "2025-12-31",
+  "update": "2026-04-24",
   "content": [
     {
       "journal_full": "Journal of Survey Statistics and Methodology",
       "journal_short": "JSSAM",
       "articles": [
         {
-          "title": "Repeated Attempt Models for Nonresponse Bias: Small Sample Performance, Optimization of Contact Attempts, and an Application to Deer Hunters",
-          "authors": "Matthew J Clement, Matthew Karam",
-          "abstract": "Nonresponse bias is a pervasive issue in surveys of people, affecting data quality across the social sciences. Such bias arises when the propensity to respond to a survey varies with the outcome variable, resulting in data that are missing not at random (MNAR). Repeated attempt models (RAMs) leverage information in nonresponses by survey subjects to estimate an outcome variable when data are MNAR. Here, we discuss parallels between RAMs and ecological occupancy models, which also use repeat surveys to account for imperfect detection of animal species during surveys. We describe a few likelihoods for RAMs, and we use simulations to evaluate the small sample performance of a RAM with a binary outcome. We also identify the optimal number of repeat surveys to complete, given different probabilities of response. Finally, we apply a RAM to surveys of deer hunters in Arizona, USA. Simulations indicated that RAMs generated unbiased estimates of a binary outcome for a variety of parameter values, but performance broke down when response probabilities or sample sizes were too low. We found that the optimal number of repeat surveys varied from about 4 to 20, depending on parameter values, but RAMs are likely inappropriate when data are missing at random. Our analysis of deer hunter data using a RAM produced plausible estimates of deer harvest. Relative to the RAM, a propensity model over-estimated deer harvest by 36–129 percent. A RAM could be extended to address unmodeled variation in response probabilities, inaccurate responses, and changes in outcome variables through time. We suggest that RAMs could be broadly useful for many natural resource and social science applications.",
-          "url": "https://doi.org/10.1093/jssam/smaf031",
-          "doi": "https://doi.org/10.1093/jssam/smaf031",
+          "title": "BART-FH: Flexible Nonlinear Modeling for Small Area Estimation",
+          "authors": "Paul A Parker, Abdulhakeem Eideh",
+          "abstract": "The Fay-Herriot model has been the workhorse of area-level small area estimation. This model links direct survey estimates to area-level covariates through a linear mixed-effects framework. While effective, this model assumes a linear relationship between covariates and the true area-level quantities, limiting its flexibility in capturing complex patterns inherent in real-world data. In this work, we introduce an extension of the Fay-Herriot model that integrates Bayesian Additive Regression Trees (BART) to model the true area-level quantities as nonlinear functions of the covariates, complemented by an additive random effect to account for unexplained heterogeneity. The proposed BART Fay-Herriot (BART-FH) model leverages the nonparametric capabilities of BART to capture intricate nonlinear relationships and interactions among covariates, offering a more flexible alternative to traditional linear models. To evaluate the performance of the BART-FH model, we conduct an empirical simulation study comparing its estimation accuracy and predictive capabilities against the standard Fay-Herriot model. Furthermore, we apply the BART-FH model to household income data from the American Community Survey (ACS).",
+          "url": "https://doi.org/10.1093/jssam/smaf050",
+          "doi": "https://doi.org/10.1093/jssam/smaf050",
           "filter": 0,
-          "created": "2025-9-16"
+          "created": "2025-11-21"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Politics, Groups, and Identities",
+      "journal_short": "PGI",
+      "articles": [
+        {
+          "title": "Does political identity rhetoric influence individual political attitudes? An experimental survey in the Chinese context",
+          "authors": "Hongbo Yu, Hsin-Che Wu",
+          "url": "https://doi.org/10.1080/21565503.2026.2658797",
+          "doi": "https://doi.org/10.1080/21565503.2026.2658797",
+          "filter": 0,
+          "created": "2026-4-20"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Public Opinion Quarterly",
+      "journal_short": "POQ",
+      "articles": [
+        {
+          "title": "James L. Gibson. Democracy’s Destruction: Changing Perceptions of the Supreme Court, the Presidency, and the Senate after the 2020 Election",
+          "authors": "Hillary Style",
+          "url": "https://doi.org/10.1093/poq/nfag024",
+          "doi": "https://doi.org/10.1093/poq/nfag024",
+          "filter": 0,
+          "created": "2026-3-18"
+        },
+        {
+          "title": "Leader-Motivated Behavior: Voting by Mail in the 2020 General Election",
+          "authors": "Seth C McKee, Enrijeta Shino, Daniel A Smith",
+          "abstract": "There is a large body of scholarship that probes the association of elite messaging and motivated reasoning with political behavior. Few studies, though, consider how these factors relate to validated mass behavior. Leveraging two national surveys, we assess voter alignment with President Trump and who voted by mail (VBM). Drawing on 2016 and 2020 Cooperative Election Study (CES) data, we analyze the likelihood that Trump supporters: (1) voted by mail, (2) self-reported voting by mail, and (3) self-reported not voting by mail when they did (misreporting VBM). In 2016, candidate Trump spoke of a “rigged” election, but it was in the 2020 contest that President Trump indicted VBM as the principal reason he might lose reelection. Analyzing VBM before (2016) and during (2020) Trump’s attack on this vote method suggests that leader opinion activation shaped the views of Trump voters and their actual voting behavior. In 2020, Trump supporters were markedly less likely to cast a VBM ballot and were also significantly more likely to disclaim voting by mail when they actually did. These findings have important implications regarding the extent to which purported and verified mass political behavior comports with leader-directed messaging.",
+          "url": "https://doi.org/10.1093/poq/nfag018",
+          "doi": "https://doi.org/10.1093/poq/nfag018",
+          "filter": 0,
+          "created": "2026-3-4"
+        },
+        {
+          "title": "Reluctant Partisans, Not Undercover Partisans: Why Americans Increasingly Identify as Independent",
+          "authors": "Alex Tolkin",
+          "abstract": "In the United States, partisanship has a greater impact on political behavior than any other social identity. However, the proportion of Americans who actively identify with a party, as opposed to Independents who “lean” toward one, is at its lowest point in decades. Existing research offers two explanations for why: First, being seen as partisan is not socially desirable, so people identify as Independent despite covertly preferring one party. Second, nonidentification may be a result of viewing both parties negatively. Using eight waves of panel data from 2016 to 2022, I compare the strength of these competing explanations. I only find support for the explanation-based evaluations of the parties. People switch from partisans to Independents when they view their former party more negatively, not when they seek to make a good impression.",
+          "url": "https://doi.org/10.1093/poq/nfag021",
+          "doi": "https://doi.org/10.1093/poq/nfag021",
+          "filter": 0,
+          "created": "2026-3-11"
+        },
+        {
+          "title": "Gender-of-Interviewer Effects in the Measurement of Gender Attitudes: Lessons from 18 Countries of the European Social Survey",
+          "authors": "Ádám Stefkovics",
+          "abstract": "Measuring gender-related questions in face-to-face surveys can be challenging due to the potential influence of the interviewer’s gender. First, people may feel more comfortable disclosing sensitive information (e.g., gender-based discrimination) to a female interviewer or an interviewer of the same gender. Second, respondents may alter their responses in light of what they perceive as desirable, for instance, by reporting more feminist views when interviewed by a female interviewer. To test these assumptions, we use the gender module of the eleventh round of the European Social Survey. We analyze patterns from 28,567 respondent-interviewer dyads from 18 countries. We find no evidence of the interviewer’s gender influencing disclosure and limited evidence of gender-of-interviewer (GOI) effects on distributions. These findings are consistent across countries with varying levels of gender equality. Our results indicate that in European societies, GOI effects may not cause significant harm in social surveys.",
+          "url": "https://doi.org/10.1093/poq/nfag022",
+          "doi": "https://doi.org/10.1093/poq/nfag022",
+          "filter": 0,
+          "created": "2026-3-12"
+        },
+        {
+          "title": "Is There a Partisan Divide in Citizens’ Preferences on Ukraine Support? Survey-Experimental Evidence from the US",
+          "authors": "Lukas Rudolph",
+          "abstract": "Models of democratic responsiveness imply that consistent US foreign policy is furthered by bipartisan agreement on core US strategy. A broad literature indicates, however, that politics does not stop “at water’s edge,” suggesting relevant differences between more “dovish” Democratic-leaning and more “hawkish” Republican-leaning voters. I revisit this question for the case of US support strategies aiding Ukraine against the Russian invasion in 2022. In particular, I investigate the extent of partisan differences in both overall agreement and the hard trade-offs between competing normative, strategic, and economic considerations connected to supporting Ukraine. Do Democratic- and Republican-leaning voters deal with these trade-offs differently? I bring conjoint and vignette survey experimental evidence from 2,334 US citizens to this question. I show that absolute levels of support for Ukraine are lower among Republicans. However, irrespective of partisanship, citizens resolve the fundamental trade-offs involved in Ukraine policy similarly. Strategies that sustain Ukraine’s territorial integrity and political sovereignty, rather than concessions to Russia, are substantively more likely to be chosen, irrespective of partisanship, even if less strongly so among (moderate) US Republicans. Both Democratic and Republican voters show similarly high concern for the human costs of war, domestic economic costs, and escalation risk—with economic costs resonating more among Republicans. These results imply that for a case where both normative and strategic motivations for intervention loom large, public support is not structured as expected from “partisan types.” Tentatively, this indicates that differences in partisan preferences are no constraint for persisting US support to Ukraine.",
+          "url": "https://doi.org/10.1093/poq/nfag026",
+          "doi": "https://doi.org/10.1093/poq/nfag026",
+          "filter": 0,
+          "created": "2026-3-18"
         }
       ],
       "articles_hidden": []
@@ -22,31 +88,31 @@
       "journal_short": "SSCR",
       "articles": [
         {
-          "title": "Who Are the Online Commenters? A Large-Scale Representative Survey to Explore the Identity and Motivation of Online News Commenters in Comparison to Non-Commenters",
-          "authors": "Liesje C. A. van der Linden, Cedric Waterschoot, Ernst van den Hemel, Florian A. Kunneman, Antal P. J. van den Bosch, Emiel J. Krahmer",
-          "abstract": "To better understand the demographic composition of people participating in commenting sections beneath online news articles, we conducted a large-scale survey ( n = 5,490) with a panel that is representative of the Dutch population – the LISS panel. We combined these data with demographic background variables and previously collected data on political views and values, to provide a detailed description of the identity of online news commenters in comparison to non-commenters. Our results show that the group of commenters contain more men (55%), and the age group of 45–54 years old has the largest share of commenters (18% for men, 13% for women). Furthermore, we found little to no differences for education levels, income, location, political preferences, and cultural background, suggesting that there is no striking overrepresentation of specific groups among online commenters in general. However, when looking at the profiles of online commenters as a function of the topic and platform of discussion, differences start to emerge for gender, age, and education levels. We found no differences related to age and gender distributions for those with a higher commenting frequency, but a higher frequency does go hand in hand with more support for national populist and far-right political parties and a lower confidence in political parties.",
-          "url": "https://doi.org/10.1177/08944393251410596",
-          "doi": "https://doi.org/10.1177/08944393251410596",
+          "title": "Writing as an 18th-Century Automaton",
+          "authors": "Julie Park",
+          "abstract": "This essay conceives artificial intelligence as a chapter in the history of writing through reconsidering the eighteenth-century automaton writer created by Jaquet Droz, a Swiss clock making workshop. As much an innovation in writing technology as it was an early example of artificial intelligence, the Jaquet Droz automaton writer reveals how artificial intelligence is a historical idea and material artifact deeply entangled with the history of writing, an embodied as well as deeply emotional form of cognitive activity and one of the oldest human technologies.",
+          "url": "https://doi.org/10.1177/08944393261441268",
+          "doi": "https://doi.org/10.1177/08944393261441268",
           "filter": 0,
-          "created": "2025-12-30"
+          "created": "2026-4-20"
         },
         {
-          "title": "Generational Divide in AI Adoption for Academic Writing: Evidence From Serbian Social Scientists",
-          "authors": "Marko Galjak, Marina Budić",
-          "abstract": "This cross-sectional study examines a generational divide in the adoption of AI for academic writing among academic researchers in Serbia. A survey of 823 social scientists analyzed usage patterns and measured age-related adoption rates through logistic regression analysis. The findings indicate that 27.2% of researchers employ AI for academic writing, with adoption rates varying significantly by age: 42.9% of researchers in their twenties use these tools, compared to 14.3% of those in their sixties. Researchers aged 23–34 were twice as likely to adopt AI writing tools as those aged 49–80. Each additional year of age reduced the odds of AI adoption by 3.8%, even when controlled for academic title, sex, and workplace type. This age effect persisted while gender and institutional context showed no significant association with adoption. The significant variation in AI adoption across age groups suggests potential shifts in academia. Senior faculty who avoid AI writing tools cannot effectively mentor graduate students who rely on them. Manuscripts now face inconsistent peer review standards; reviewers familiar with AI-assisted writing apply different criteria than those who reject it entirely. Universities face competing demands: junior researchers insist AI tools help them publish enough to secure tenure, yet senior faculty argue that students who depend on these tools never learn to construct arguments or evaluate evidence independently.",
-          "url": "https://doi.org/10.1177/08944393251413796",
-          "doi": "https://doi.org/10.1177/08944393251413796",
+          "title": "The Human Soul and its Deceptions: Early Modern Imitation Games",
+          "authors": "Jonathan Regier",
+          "abstract": "Early modern writers had much to say about how humans and other animals compared to machines. René Descartes (1596–1650) argued that an automaton could never convincingly impersonate human intelligence, however lifelike it seemed. To set the stage, I will briefly discuss Descartes’ imitation game, along with its philosophical and theological motivations. I will then move on to another imitation game conceived of by Nicolas Filleau de la Chaise (1631–1688), who asked whether a human could successfully imitate a machine. Finally, I will reflect on how Thomas Hobbes (1588–1679) portrayed the mechanical intelligence of the state as a safeguard against the deceptions of its enemies.",
+          "url": "https://doi.org/10.1177/08944393261441270",
+          "doi": "https://doi.org/10.1177/08944393261441270",
           "filter": 0,
-          "created": "2025-12-30"
+          "created": "2026-4-18"
         },
         {
-          "title": "Generating the Past: How Artificial Intelligence Summaries of Historical Events Affect Knowledge",
-          "authors": "Daniel Karell, Matthew Shu, Thomas Davidson, Keitaro Okura",
-          "abstract": "Many people now use AI chatbots to obtain summaries of complex topics, yet we know little about how this affects knowledge acquisition, including how the effects might vary across different groups of people. We conducted two experiments comparing how well people recalled factual information after reading AI-generated or human-written historical summaries. Participants who read AI-generated summaries scored significantly higher on knowledge tests than those who read expert-written blog posts (Study 1) or Wikipedia articles (Study 2). These improvements were present regardless of whether readers knew the content was AI-generated or if the AI summaries were politically biased. Moreover, AI summaries improved recall across various demographic groups, including gender, race, income, education, and digital literacy levels. This suggets that using AI tools for everyday factual queries does not create new knowledge inequalities but could still amplify existing ones through differential access. Our findings indicate that the increasingly routine use of AI for information-seeking could enhance factual learning, with implications for education policy and addressing inequality.",
-          "url": "https://doi.org/10.1177/08944393251409744",
-          "doi": "https://doi.org/10.1177/08944393251409744",
+          "title": "Data Donation: A First Step Towards Improving Representativeness in Algorithmic Hiring Datasets",
+          "authors": "Jorge Saldivar, Jessica Wulf, Carlos Castillo",
+          "abstract": "The use of algorithmic hiring is on the rise, becoming more and more common due to its capacity to process a large number of applications with efficiency. Despite the advantages of this approach, there have been numerous cases of discriminatory hiring outcomes. A significant contributing factor to such outcomes is the lack of representativeness in the data used to develop these systems. This results in a significant decline in performance for underrepresented groups, disproportionately impacting marginalized communities. Addressing bias in algorithmic hiring requires access to comprehensive datasets that include curriculum vitae (CV) and demographic information reflecting diverse backgrounds. Unfortunately, there is a lack of datasets that serve such a purpose. This paper introduces a data donation campaign designed to collect real-world CVs, including demographic and sensitive information, from a representative sample of individuals in the EU workforce. The paper discusses the design decisions underpinning the campaign, along with the challenges encountered during its deployment and execution. Finally, it offers lessons learned and practical solutions to overcome these challenges, thereby contributing valuable insights for future efforts in this domain.",
+          "url": "https://doi.org/10.1177/08944393261441840",
+          "doi": "https://doi.org/10.1177/08944393261441840",
           "filter": 0,
-          "created": "2025-12-24"
+          "created": "2026-4-21"
         }
       ],
       "articles_hidden": []
