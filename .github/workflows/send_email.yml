@@ -31,6 +31,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: main
+          fetch-depth: 0
 
       - name: Install system dependencies
         run: |
@@ -112,5 +113,7 @@ jobs:
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
           git add memory/last_email_*.txt || true
-          git diff --staged --quiet || git commit -m "Update email sent timestamps"
-          git push origin || true
+          git diff --staged --quiet && exit 0
+          git commit -m "Update email sent timestamps"
+          git pull --rebase origin main
+          git push origin
