@@ -17,6 +17,7 @@ jobs:
         with:
           path: main_folder
           ref: main
+          fetch-depth: 0
 
       # Step 2: Install system dependencies
       - name: Install system dependencies
@@ -75,5 +76,8 @@ jobs:
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git add . && git commit -m "Data updated"
+          git add .
+          git diff --staged --quiet && exit 0
+          git commit -m "Data updated"
+          git pull --rebase origin main
           git push origin
