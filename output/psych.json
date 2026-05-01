@@ -1,36 +1,36 @@
 {
-  "update": "2026-04-24",
+  "update": "2026-05-01",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
       "journal_short": "AMPPS",
       "articles": [
         {
-          "title": "Models as Prediction Machines: How to Convert Confusing Coefficients Into Clear Quantities",
-          "authors": "Julia M. Rohrer, Vincent Arel-Bundock",
-          "abstract": "Psychological researchers usually make sense of regression models by interpreting coefficient estimates directly. This works well enough for simple linear models but is challenging for more complex models with, for example, categorical variables, interactions, nonlinearities, or hierarchical structures. Here, we introduce an alternative approach to making sense of statistical models. The central idea is to abstract away from the mechanics of estimation and to treat models as “counterfactual prediction machines,” which are subsequently queried to estimate quantities and conduct tests that matter substantively. This workflow is model-agnostic; it can be applied in consistent fashion to draw inferences from a wide range of models. We illustrate how to implement this workflow with the marginaleffects package, which supports more than 100 different classes of models in R and Python , and present two worked examples. These examples show how the workflow can be applied across designs (e.g., observational studies, randomized experiments) to answer different research questions (e.g., about associations, causal effects, effect heterogeneity) while facing various challenges (e.g., controlling for confounders in a flexible manner, modeling ordinal outcomes, and interpreting nonlinear models).",
-          "url": "https://doi.org/10.1177/25152459261424825",
-          "doi": "https://doi.org/10.1177/25152459261424825",
+          "title": "Fast-Track Your Abstract Screening: Mastering ASReview for Accelerating Abstract Screening and Evaluating Decisions From Automatic-Screening Methods",
+          "authors": "Tim Fütterer, Lars König, Diego G. Campos, Ronny Scherer, Steffen Zitzmann, Martin Hecht",
+          "abstract": "Research syntheses, such as systematic reviews and meta-analyses, are crucial for synthesizing research to support evidence-based decision-making. However, the abstract-screening phase, during which researchers evaluate titles and abstracts for inclusion, is highly time-consuming and often results in cognitive biases and fatigue. To address these challenges, machine-learning-assisted tools, particularly those using active learning, have gained prominence. One such tool is Active Screening Review (ASReview), an open-source software for semiautomating title and abstract screening in systematic reviews. ASReview incorporates user feedback to prioritize relevant studies, reducing screening time and improving efficiency. Despite its potential, many researchers remain uncertain about integrating ASReview into their workflows and making evidence-based decisions regarding the tool’s configuration, training, and stopping criteria. In this tutorial, we provide a step-by-step guide to using ASReview, including practical examples from psychological research. We demonstrate the software’s application in two use cases: screening unlabeled abstracts using active learning and verifying results from automated-screening methods. In the tutorial, we also offer evidence-based recommendations for selecting stopping rules to balance sensitivity and efficiency. We also outline strategies for prescreening, data-set preparation, model setup, and progress monitoring to ensure that researchers can maximize the tool’s benefits while maintaining scientific rigor. By offering evidence-based guidance at each stage of the process for practitioners without coding skills, in this tutorial, we aim to help researchers harness artificial-intelligence-aided screening to enhance the quality and efficiency of research syntheses across disciplines.",
+          "url": "https://doi.org/10.1177/25152459261442150",
+          "doi": "https://doi.org/10.1177/25152459261442150",
           "filter": 0,
-          "created": "2026-4-22"
+          "created": "2026-4-28"
         },
         {
-          "title": "The Evaluation of Harm and Purity Transgressions in Africans: A Paradigmatic Replication of Rottman and Young (2019)",
-          "authors": "Adeyemi Adetula, Patrick S. Forscher, Dana Basnight-Brown, Jordan R. Wagge, Wickson Thomas Kaliyapa, Chamkat Gopye Polycarp, Winfrida Saimon Malingumu, Soufian Azouaghe, Lenah Sambu, Izuchukwu L.G. Ndukaihe, Gabriel Agboola Adetula, Abdelilah Charyate, Chisom Esther Ogbonnaya, Nwadiogo Chisom Arinze, Olawuyi Patience Shumiye, David Beshel Jack, Nestor Motemba Ouoba, Bukola Victoria Bada, Ahmed Khaoudi, Jaime Nhaguilunguana, Uba Donald Dennis, Asiya Ayoob, Agbasoga Vivian Idu, Yusuf Elson Dinala, Abdulfatai Olalekan Adeyefa, Michael Ibukun Ehinmowo, Amarachi Uchechi Janice Imonigie, Glory Wuraola Agboola, Habila Alfred Daktong, Bisan Musa, Jamal Elouafa, Mohamed Boua, Mohamed Kaddouri, Bako Joseph Dongkek, Houda Grimli, Lamya Mouhssine, Hicham Eddamnati, Teodote Matimbe, Daniela Rocha IJzerman, Anne W. Muchiri-Muchai, Patrícia Arriaga, Maximilian A. Primbs, Hans IJzerman",
-          "abstract": "Improving the generalizability of psychology findings to a culture requires sampling participants in that culture. Yet psychology studies rarely sample from Africa even though Africa represents 17% of the global population. Although Africans can leverage the credibility-revolution initiatives to increase rigor and global representation, capacity building might speed the spread of these initiatives. In this study, we investigated an African-wide replication study to test whether Rottman and Young’s “mere-trace” hypothesis of moral reasoning (that people are more sensitive to the dosage of harm-based transgressions than purity transgressions) extends to several African communities. We used a training method developed by the Collaborative Replication and Education Project to train 23 African collaborators. During this process, we conducted a paradigmatic replication of Rottman and Young’s test of the mere-trace hypothesis in 12 contributing African sites from Burkina Faso, Kenya, Morocco, Nigeria, and Tanzania that sampled 783 participants after exclusions. Consistent with the original claim using U.S. samples, our African participants judged severe harm transgressions as more wrong than less severe ones but were not as sensitive to severity for purity transgressions (Domain × Dose: b = −4.63; p &lt; .01). Moreover, the effect of dosage was smaller than reported among the U.S. sample, and our African participants rated all transgression scenarios more wrong than the U.S. sample. Resource constraints limited our sample to five African countries and to Africans dwelling in urban communities. Moral psychology should transcend the moral issues prioritized in the original study to include those considered important in African societies.",
-          "url": "https://doi.org/10.1177/25152459261428031",
-          "doi": "https://doi.org/10.1177/25152459261428031",
+          "title": "Can Results-Blind Selection Improve Science Communication?",
+          "authors": "Alexa M. Tullett, Savannah C. Lewis, Nell Lambdin, Joshua Baker, Matthew Barnidge",
+          "abstract": "Journalists are often maligned for covering sensational or desirable research results at the expense of studies with stronger methods. In the present study, we aimed to test how journalists’ preferences shift when studies are selected based on their methods rather than results (results-blind selection). Practicing journalists and editors, journalism faculty, and journalism graduate students ( N = 413) read summaries of real social-psychology studies and rated their interest in reporting on them. Participants were randomly assigned to read either “traditional” summaries that included the results or “results-blind” summaries that excluded the results. Summaries varied on three within-subjects dimensions: replication status, preregistration status, and belief consistency. Participants expressed more interest in replicable (vs. not replicable) and preregistered (vs. nonpreregistered) studies regardless of whether they learned the results, suggesting that these studies have features that are valued by journalists. Meanwhile, results-blind selection showed potential for reducing confirmation bias, suggesting it may be worth further exploration if feasibility challenges can be addressed.",
+          "url": "https://doi.org/10.1177/25152459261434559",
+          "doi": "https://doi.org/10.1177/25152459261434559",
           "filter": 0,
-          "created": "2026-4-22"
+          "created": "2026-4-27"
         },
         {
-          "title": "Stage 2 Registered Report: Restriction of Researcher Degrees of Freedom Through the Psychological Research Preregistration-Quantitative Template",
-          "authors": "Lisa Spitzer, Amelie Kroeger, Stefanie Mueller",
-          "abstract": "Preregistration can help to restrict researcher degrees of freedom and thereby ensure the integrity of research findings. However, its ability to restrict such flexibility depends on whether researchers specify their study plan in sufficient detail and adhere to this plan. Previous research indicates higher restrictiveness when preregistrations are based on structured versus unstructured template formats, although there is room for further improvement. In this study, we built on these findings and investigated the restrictiveness of preregistrations based on the Psychological Research Preregistration-Quantitative (PRP-QUANT) Template, an extensive template that aids the preregistration of quantitative studies in psychology. Preregistrations were sampled from PsychArchives and coded for their level of restrictiveness using the coding schemes of Bakker et al. and Heirene et al. We predicted that preregistrations based on the PRP-QUANT Template ( N = 103) are more restrictive than preregistrations based on the OSF Preregistration Template ( N = 52; Hypothesis 1). We also inspected whether peer review can contribute further to restricting flexibility using nested Wilcoxon-Mann-Whitney tests and predicted higher restrictiveness for peer-reviewed ( n = 29) than non-peer-reviewed preregistrations ( n = 74; Hypothesis 2). In addition, we examined adherence to the preregistered plans in the associated publications ( N = 19). In line with Hypothesis 1, PRP-QUANT preregistrations had significantly higher restrictiveness scores than OSF preregistrations. Moreover, consistent with Hypothesis 2, peer-reviewed preregistrations had significantly higher restrictiveness than non-peer-reviewed ones. Of the associated articles, 73.68% included undeclared deviations. We discuss the implications of our findings for the PRP-QUANT Template and structured templates in general.",
-          "url": "https://doi.org/10.1177/25152459261432216",
-          "doi": "https://doi.org/10.1177/25152459261432216",
+          "title": "Three-Sided Testing to Establish Practical Significance: A Tutorial",
+          "authors": "Peder Mortvedt Isager, Jack Fitzgerald",
+          "abstract": "Researchers may want to know whether an observed statistical relationship is either meaningfully negative, meaningfully positive, or small enough to be considered practically equivalent to zero. Such a question cannot be addressed with standard null hypothesis significance testing or standard equivalence testing. Three-sided testing (TST) is a procedure to address such questions by simultaneously testing whether a relationship is significantly bounded below, within, or above predetermined smallest effect sizes of interest. TST is a natural extension of the standard procedure of two one-sided tests (TOST) for equivalence testing. TST offers a more comprehensive decision framework than TOST with no penalty to error rates or statistical power. In this article, we give a nontechnical introduction to TST; provide commands for conducting TST in R, Jamovi, and Stata; and provide a Shiny app for easy implementation. Whenever a meaningful smallest effect size of interest can be specified, TST should be combined with null hypothesis significance testing as a standard frequentist testing procedure.",
+          "url": "https://doi.org/10.1177/25152459251412435",
+          "doi": "https://doi.org/10.1177/25152459251412435",
           "filter": 0,
-          "created": "2026-4-22"
+          "created": "2026-4-27"
         }
       ],
       "articles_hidden": []
@@ -40,107 +40,70 @@
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "Mapping the dynamics of idiographic network models to the network theory of psychopathology",
-          "authors": "Ria H. A. Hoekstra, Jill de Ron, Sacha Epskamp, Donald J. Robinaugh, Denny Borsboom",
-          "abstract": "The network theory of psychopathology posits that mental disorders are stable states of symptom activation arising from causally interconnected symptoms, where individuals with more strongly connected symptom networks are at a higher risk of developing a mental disorder. Researchers have turned to idiographic network estimation to assess this theoretical position, yet it remains unclear whether the dynamics of these models align with the network theory. In this paper, we use stability landscapes to systematically map the parameters of idiographic network models onto the network theory. Specifically, we examine how the dynamics implied by the Ising model (with $$\\{0, 1\\}$$ { 0 , 1 } and $$\\{-1, 1\\}$$ { - 1 , 1 } encodings) and the Graphical Vector Autoregressive (GVAR) model relate to symptom severity and variability. Our results show that only for a subset of parameter values in the $$\\{0, 1\\}$$ { 0 , 1 } Ising model, higher connectivity is directly related to higher symptom severity, thereby aligning with the network theory. The $$\\{-1, 1\\}$$ { - 1 , 1 } Ising model only partially aligns with the network theory, as increased connectivity is related to both high and low symptom severity. In contrast, connectivity in the GVAR model is independent of symptom severity but instead reflects symptom variability over time. These findings demonstrate that the theoretical implications of network connectivity depend strongly on the chosen statistical model and its parameterization. Together, our results emphasize the need for systematic investigations that link theory to statistical models, and present stability landscapes as a useful tool to do so.",
-          "url": "https://doi.org/10.3758/s13428-026-03009-w",
-          "doi": "https://doi.org/10.3758/s13428-026-03009-w",
+          "title": "Citizen science in psychology: Challenges, opportunities, and recommendations",
+          "authors": "Eva Van den Bussche, Kirsten A. Verhaegen, Bert Reynvoet, Gethin Hughes",
+          "url": "https://doi.org/10.3758/s13428-026-03019-8",
+          "doi": "https://doi.org/10.3758/s13428-026-03019-8",
           "filter": 0,
-          "created": "2026-4-21"
+          "created": "2026-4-24"
         },
         {
-          "title": "Beyond traditional assessments of cognitive status: Exploring the potential of spatial navigation tasks",
-          "authors": "Giorgio Colombo, Karolina Minta, Tyler Thrash, Jascha Grübel, Jan Wiener, Marios Avraamides, William R. Taylor, Christoph Hölscher, Victor R. Schinazi",
-          "abstract": "Deficits in spatial and navigation abilities are among the earliest signs of dementia. Yet, traditional neuropsychological tests primarily target memory and attention. The Spatial Performance Assessment for Cognitive Evaluation (SPACE) is a novel gamified digital assessment for iPads that uses various spatial tasks to detect early deficits in spatial navigation abilities indicative of cognitive impairment. In this study, 348 participants aged 21–76 completed the Montreal Cognitive Assessment (MoCA), SPACE, and a sociodemographic and health questionnaire. We investigated whether SPACE could predict scores on the MoCA beyond known risk factors for cognitive impairment. Using a factor analysis, we then assessed whether SPACE could complement the MoCA by capturing latent variables independent of MoCA scores that represent additional spatial aspects of cognitive functioning. Results from a hierarchical regression revealed that the pointing and perspective-taking tasks in SPACE significantly predicted MoCA scores beyond age and gender. Surprisingly, none of the risk factors predicted MoCA scores. The factor analysis revealed that the MoCA and perspective-taking contributed to a separate factor from the other navigation tasks in SPACE. We also provide normative data on age and gender for each task in SPACE, which can serve as benchmarks for future studies to identify individuals at risk.",
-          "url": "https://doi.org/10.3758/s13428-026-02998-y",
-          "doi": "https://doi.org/10.3758/s13428-026-02998-y",
+          "title": "Lexique 4: A major upgrade of the Lexique French lexical database",
+          "authors": "Boris New, Christophe Pallier, Gauvain Schalchli, Jessica Bourgin, Manuel Gimenes",
+          "url": "https://doi.org/10.3758/s13428-026-02967-5",
+          "doi": "https://doi.org/10.3758/s13428-026-02967-5",
           "filter": 0,
-          "created": "2026-4-17"
+          "created": "2026-4-24"
         },
         {
-          "title": "BKT: A Bayesian knowledge tracing package for the R environment",
-          "authors": "Yuhao Yuan, Biying Zhou, Jia Qi, Nanyu Luo, Feng Ji",
-          "url": "https://doi.org/10.3758/s13428-026-02955-9",
-          "doi": "https://doi.org/10.3758/s13428-026-02955-9",
+          "title": "Translation norms for English and Japanese translation pairs: Translation ambiguity, proficiency, and production errors",
+          "authors": "Diya P. Goyal, Noriko Hoshino, Natasha Tokowicz",
+          "url": "https://doi.org/10.3758/s13428-026-03018-9",
+          "doi": "https://doi.org/10.3758/s13428-026-03018-9",
           "filter": 0,
-          "created": "2026-4-22"
+          "created": "2026-4-28"
         },
         {
-          "title": "Detecting warning signs for psychopathology in real time while accounting for context: Two novel statistical process control applications",
-          "authors": "M. J. Schreuder, E. Schat, E. Ceulemans",
-          "abstract": "Statistical process control (SPC) may detect whether and when repeatedly assessed emotions reach unusual levels, which holds promise for the real-time detection of imminent depression. However, SPC does not account for contextual effects on emotions, such as people feeling systematically worse during stressful events and better during weekends. This may cause false alarms (e.g., presence of warning signs during stressful events) as well as false negatives (e.g., absence of warning signs during weekends). We therefore present two novel context-sensitive SPC methods, which adjust the monitored score according to contextual factors. A simulation study showed that these context-sensitive methods outperform the standard SPC method when contextual effects are large while the effect of depression on emotions is relatively small, but lose their advantage when contextual factors are biased. An empirical illustration confirmed these findings. Context-sensitive SPC methods are thus recommended when contextual factors can be accurately pinpointed, which may hold, for instance, for location and temporal cycles (seasons, menstrual cycles, week/weekend days).",
-          "url": "https://doi.org/10.3758/s13428-026-03004-1",
-          "doi": "https://doi.org/10.3758/s13428-026-03004-1",
+          "title": "Neural cognitive diagnosis modeling incorporating response times",
+          "authors": "Jianhua Xiong, Mengchao Li, Fen Luo, Wenyi Wang",
+          "url": "https://doi.org/10.3758/s13428-026-03014-z",
+          "doi": "https://doi.org/10.3758/s13428-026-03014-z",
           "filter": 0,
-          "created": "2026-4-21"
+          "created": "2026-4-24"
         },
         {
-          "title": "A review and evaluation of doubly robust approaches for estimating average treatment effects",
-          "authors": "Jingyu Zhang, Oliver Lüdtke, Alexander Robitzsch",
-          "abstract": "In nonexperimental studies, obtaining an unbiased estimate of the average treatment effect (ATE) typically requires two key assumptions: that all relevant covariates are measured (i.e., no unmeasured confounding) and that the statistical model used for covariate adjustment is correctly specified. Two common approaches for adjustment are specifying an outcome model and propensity score weighting. To mitigate bias from model misspecification, doubly robust methods combine both approaches, ensuring unbiased ATE estimates if either the outcome model or the propensity score model is correctly specified. In this study, we review four doubly robust methods that have received considerable attention in the methodological literature but remain underutilized in psychological research: augmented inverse probability weighting, regression weighted by the inverse propensity score, regression incorporating the inverse propensity score as a covariate, and calibrated propensity score weighting. Using two simulation studies, we compare these methods with regression estimation and inverse probability weighting estimators. Our results suggest that doubly robust methods—particularly regression weighted by the inverse propensity score—offer greater protection against bias from model misspecification across various data-generating scenarios. We also discuss practical considerations for implementing doubly robust methods, including weight normalization, propensity score truncation, and potential efficiency losses due to overfitting. The different methods for estimating the ATE are illustrated in a data example.",
-          "url": "https://doi.org/10.3758/s13428-026-02999-x",
-          "doi": "https://doi.org/10.3758/s13428-026-02999-x",
+          "title": "Affective norms for Chinese words in ten discrete emotion categories",
+          "authors": "Dangui Song",
+          "url": "https://doi.org/10.3758/s13428-026-03010-3",
+          "doi": "https://doi.org/10.3758/s13428-026-03010-3",
           "filter": 0,
-          "created": "2026-4-23"
+          "created": "2026-4-27"
         },
         {
-          "title": "Advancing remote photoplethysmography (rPPG) to facilitate cardiac monitoring in naturalistic settings using webcam technology",
-          "authors": "Sascha P. Woelk, Sarah N. Garfinkel, Lewend Mayiwar, Klemens M. Knöferle",
-          "abstract": "Remote photoplethysmography (rPPG) is a technique for the monitoring of cardiac signals using simple consumer-grade cameras, such as webcams. Its cost-effectiveness and accessibility make it a promising tool for widespread application, particularly in remote and resource-limited research settings. However, it remains unclear whether rPPG can accurately capture the moment-to-moment fluctuations in heart rate (HR) required for robust HR variability (HRV) estimation. In this study, we collected a novel dataset of 77 participants who completed three behavioral tasks under controlled laboratory conditions, designed to mirror the recording setup typically encountered in home-based online experiments. We validated four rPPG pipeline configurations against the electrocardiogram (ECG) ground truth, using a comprehensive set of measures capturing both signal quality and cardiac variability. Moreover, using data from an emotion anticipation task, we assessed whether, in a typical experimental setting, analyses based on rPPG data yielded statistical results comparable to those obtained from ECG. Our results indicate that rPPG is a promising tool for detecting HR and HRV at the group level, particularly in high-powered studies. At the individual level, rPPG reliably captures average HR, but the accuracy of individual-level HRV estimates remains limited. The findings underscore rPPG’s potential as a low-cost, noninvasive research tool, while highlighting the importance of managing its limitations such as sensitivity to excessive movement and poor illumination through thoughtful study planning and execution.",
-          "url": "https://doi.org/10.3758/s13428-026-02953-x",
-          "doi": "https://doi.org/10.3758/s13428-026-02953-x",
+          "title": "AI-accelerated meta-analysis in psychology: Large language models code study properties with high accuracy",
+          "authors": "Shaheed Azaad",
+          "abstract": "Theoretically driven meta-analyses often involve testing whether study characteristics moderate an effect in a pattern that supports one of multiple competing theoretical accounts. To conduct such analyses, researchers must manually extract, i.e., code, these characteristics from sometimes hundreds of studies. Ideally, studies should be coded by two researchers independently to prevent errors and biases from compromising the dataset’s integrity. The laborious nature of this task, however, means that meta-analysts usually settle for double-coding just a portion of the studies included in their study. Some researchers have proposed using large language models (LLMs) as a double-coder, showing that they can reliably extract explicitly stated information (e.g., publication year) from articles. However, meta-analyses in psychology generally require studies to be coded in terms of higher-level conceptual dimensions (e.g., the type of behavior rather than which behavior). The present study investigated whether two LLMs, OpenAI’s GPT-5 and Google’s Gemini 2.5 Pro, can code studies in this way. Both models replicated the study codes from three recently published meta-analyses in psychology with high accuracy (&gt;92% overall), despite the limited information they received. LLM double-coding, therefore, offers a practical solution for meta-analysts seeking to ensure data integrity.",
+          "url": "https://doi.org/10.3758/s13428-026-03020-1",
+          "doi": "https://doi.org/10.3758/s13428-026-03020-1",
           "filter": 0,
-          "created": "2026-4-23"
+          "created": "2026-4-27"
         },
         {
-          "title": "A multivariate differential-phase model based on bio-kinematic asymmetry accounts for estimation biases in point-light walker directions",
-          "authors": "Qian Sun, Yu-Die Wang, Qi Sun",
-          "url": "https://doi.org/10.3758/s13428-026-03011-2",
-          "doi": "https://doi.org/10.3758/s13428-026-03011-2",
+          "title": "Comparing age differences in cognition, personality, and political orientation across six online recruitment platforms",
+          "authors": "Michael S. Cohen, Karolina M. Lempert, David A. Wolk, Joseph W. Kable",
+          "abstract": "Aging is typically associated with characteristic changes to cognitive function, personality, and political orientation. While online data collection for psychological research has greatly increased in frequency, there has been little systematic examination of whether online samples are appropriate for studying aging. Here, we examine whether typical age-related differences in cognitive function, personality, and political orientation are replicated in online samples. We measured cognitive performance using tests of vocabulary, processing speed, memory, and attention developed by the TestMyBrain Project; personality using the Big Five Inventory; and political orientation following the ANES survey format. At least 200 participants each were sampled from three crowdsourcing websites (Amazon MTurk, CloudResearch MTurk Toolkit, and Prolific) and three panel recruitment websites (Lucid, CloudResearch PrimePanels, and Qualtrics Panels), with age ranging from 18 to 92 years across platforms. On all six platforms, consistent with established findings, age was positively correlated with vocabulary performance and negatively correlated with processing speed. Additionally, in all six samples, consistent with prior studies, age was associated with higher Agreeableness, lower Neuroticism, and greater political conservatism. There were some differences between crowdsourced and panel samples, however. Performance on cognitive measures was broadly better for crowdsourced samples. The correlations between age and Openness and Extraversion differed between crowdsourced and panel samples, with trends in panel samples likely more comparable to the ground truth. Finally, MTurk produced some discrepant effects of age on cognition relative to other crowdsourced platforms. Beyond these differences, though, our results are broadly encouraging for the prospect of studying aging via online experiments.",
+          "url": "https://doi.org/10.3758/s13428-026-03027-8",
+          "doi": "https://doi.org/10.3758/s13428-026-03027-8",
           "filter": 0,
-          "created": "2026-4-21"
+          "created": "2026-4-28"
         },
         {
-          "title": "Editorial: introduction to the special issue “methodological challenges of complex latent mediator and moderator models”",
-          "authors": "Julien P. Irmer, Karin Schermelleh-Engel, Peter Schmidt",
-          "url": "https://doi.org/10.3758/s13428-026-02985-3",
-          "doi": "https://doi.org/10.3758/s13428-026-02985-3",
+          "title": "FaceTrack-AOI: An AI-driven tool for automated dynamic AOI placement and eye movement analysis in face perception studies",
+          "authors": "Xiaomei Zhou, Guowei Chen, Jinbiao Ning, Yuan Cai, Siya Zhao, Shuo Zhao, Qingling Lu, Li Chen, Margaret C. Moulson",
+          "url": "https://doi.org/10.3758/s13428-026-02973-7",
+          "doi": "https://doi.org/10.3758/s13428-026-02973-7",
           "filter": 0,
-          "created": "2026-4-17"
-        },
-        {
-          "title": "Detecting gaze shifts of moving observers in dynamic environments",
-          "authors": "Ashkan Nejad, Andrea Ghiani, Frans W. Cornelissen, Eli Brenner",
-          "abstract": "Eye-tracking using head-mounted systems in natural, dynamic settings presents unique challenges for accurately detecting gaze shifts (saccades). Unlike controlled, screen-based scenarios, mobile eye-tracking involves constant shifts in visual scenes with respect to the head due to head and body movements, complicating gaze event classification. This paper systematically evaluates several threshold- and machine-learning-based gaze-shift detection algorithms on a manually labeled dataset collected from participants walking freely outdoors. Our findings indicate that conventional threshold-based methods, despite their sensitivity to parameter settings, outperform contemporary pre-trained machine learning methods when applied to real-world dynamic conditions without retraining. However, we also demonstrated that although machine-learning-based methods perform poorly on unseen dynamic data, their performance improves substantially when they are retrained on data that closely matches the testing conditions. Moreover, we introduce a novel probabilistic approach, the Ranking method, that integrates both eye movement and visual scene information, achieving performance comparable to inter-annotator agreement, outperforming previous methods. We also report observing some gaze behaviors during manual annotation that do not fit within the classical gaze event categories, highlighting why classifying gaze events in unconstrained natural scenarios is more complex than doing so for screen-based tasks. Our work provides insights suggesting how one could improve gaze event classification performance in real-world environments in the future.",
-          "url": "https://doi.org/10.3758/s13428-026-02972-8",
-          "doi": "https://doi.org/10.3758/s13428-026-02972-8",
-          "filter": 0,
-          "created": "2026-4-21"
-        },
-        {
-          "title": "A modified expectation–maximization algorithm for accelerated item response theory model estimation with large datasets",
-          "authors": "Tianying Feng, Li Cai",
-          "abstract": "The expectation–maximization (EM) algorithm is widely used for parameter estimation in item response theory (IRT) modeling. However, when applied to datasets with large numbers of individuals and items, the standard EM algorithm can be slow to converge, with computationally expensive E-steps. We propose a modified EM algorithm to accelerate estimation for unidimensional two-parameter logistic IRT models. The modified algorithm uses a two-stage structure with partial-step updating over data subsets to reduce convergence time, while maintaining comparable accuracy and precision. The first two simulation studies evaluated its performance relative to standard EM, focusing on convergence time, parameter recovery, and standard error estimation across varying subset sizes and item counts. The third study demonstrated its scalability and runtime advantage in a large-scale testing scenario involving one million respondents and 100 items. The fourth study evaluated robustness under departures from unidimensionality. The proposed algorithm showed time reductions under smaller subsets with 36 items, consistent reductions across all subset sizes with 54 items, and the largest reduction (60%) with 40-item forms constructed from 100 items, while maintaining comparable estimation performance. These results highlight the algorithm’s potential for large-scale applications involving tens of thousands of respondents and moderate-to-large item pools, with modifications that can be integrated into existing EM routines. We conclude with directions for operational use and potential extensions to multidimensional IRT estimation.",
-          "url": "https://doi.org/10.3758/s13428-026-02996-0",
-          "doi": "https://doi.org/10.3758/s13428-026-02996-0",
-          "filter": 0,
-          "created": "2026-4-21"
-        },
-        {
-          "title": "Self-reported and task-based measures of attention control are distinct",
-          "authors": "Julie A. DiCarlo, Alexander P. Burgoyne, Charlotte Conroy, David J. Lin, Nathan Ward",
-          "url": "https://doi.org/10.3758/s13428-026-03006-z",
-          "doi": "https://doi.org/10.3758/s13428-026-03006-z",
-          "filter": 0,
-          "created": "2026-4-17"
-        },
-        {
-          "title": "Validating GULS: An open-access Dutch language proficiency test",
-          "authors": "Mona Bassleer, Stijn Schelfhout, Lot Fonteyne, Mit Leuridan, Wouter Duyck, Nicolas Dirix",
-          "url": "https://doi.org/10.3758/s13428-026-03015-y",
-          "doi": "https://doi.org/10.3758/s13428-026-03015-y",
-          "filter": 0,
-          "created": "2026-4-23"
+          "created": "2026-4-24"
         }
       ],
       "articles_hidden": []
@@ -150,152 +113,122 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "Online criminal markets on Telegram: Exploring the illicit products and services advertised in public group chats",
-          "authors": "Joeri Loggen, Asier Moneva, Arjan Blokland, Gerard de Roode, Rutger Leukfeldt",
-          "url": "https://doi.org/10.1016/j.chb.2026.109032",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109032",
+          "title": "Efficacy of a context-aware mobile app with adaptive feedback for promoting behavioral change in problematic smartphone use: Evidence from a randomized controlled trial",
+          "authors": "Sandy C. Li, Stella Cheung, Ming Lui, Andrew K.F. Lui, Jackie W.W. Chan",
+          "url": "https://doi.org/10.1016/j.chb.2026.109033",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109033",
           "filter": 0,
-          "created": "2026-4-23"
+          "created": "2026-4-25"
         },
         {
-          "title": "From Comparison to Correction: How Social Network Site Appearance Comparison Shapes Emotional and Self-Presentation Processes",
-          "authors": "Fuqun Liang, Junli Liu, Dongmei Zhao, Yanting Chen, Xianyou He, Chi Yang",
-          "url": "https://doi.org/10.1016/j.chb.2026.109029",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109029",
+          "title": "Decision-making in esports: Identifying and understanding heuristics in League of Legends teamfights",
+          "authors": "Jorge Rodríguez-Robaina, Loel Collins",
+          "url": "https://doi.org/10.1016/j.chb.2026.109035",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109035",
           "filter": 0,
-          "created": "2026-4-17"
-        },
-        {
-          "title": "Tell me who its founders are and I’ll tell you what your online community looks like: Online community founders’ personality and community attributes",
-          "authors": "Yaniv Dover, Shaul Oreg",
-          "url": "https://doi.org/10.1016/j.chb.2026.109030",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109030",
-          "filter": 0,
-          "created": "2026-4-22"
-        },
-        {
-          "title": "Modeling Misinformation Herd Immunity from a Multi-Mechanism Integration Perspective: The Role of Selective Exposure and Echo Chamber Effect",
-          "authors": "Renbiao Yang, Gaohui Cao",
-          "url": "https://doi.org/10.1016/j.chb.2026.109031",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109031",
-          "filter": 0,
-          "created": "2026-4-21"
-        },
-        {
-          "title": "Smartphone-derived phenotypes of social media use in young adults",
-          "authors": "Elombe Calvert, Andrew Jin Soo Byun, Haruka Notsu, Sean Ryan, Shrutangi Vaidya, John Torous",
-          "url": "https://doi.org/10.1016/j.chb.2026.109027",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109027",
-          "filter": 0,
-          "created": "2026-4-17"
+          "created": "2026-4-25"
         }
       ],
       "articles_hidden": []
     },
     {
-      "journal_full": "Journal of Experimental Social Psychology",
-      "journal_short": "JESP",
+      "journal_full": "Group Processes & Intergroup Relations",
+      "journal_short": "GPIR",
       "articles": [
         {
-          "title": "Holiday greeting inclusivity in organizations: The more the merrier",
-          "authors": "Erica L. Granz Nack, Kimberly Rios",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104932",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104932",
+          "title": "Future generations hold the lowest moral standing, even below present-day marginalized human and nonhuman outgroups",
+          "authors": "Christina Jinhee Capozzoli, Kyle Fiore Law, Stylianos Syropoulos",
+          "abstract": "Climate change, poverty, and inequality pose significant threats to the well-being of future generations, making it essential to advocate for their interests in present-day decisions. Yet little is known about how people morally evaluate future generations relative to other distant groups, such as human outgroups and nature (plants, animals). Moreover, does this perception change among those who exhibit impartial intergenerational beneficence (i.e., concern for all future generations), or when moral concern is framed as zero-sum? Across 15 studies, we find that future generations consistently receive less moral concern than present-day targets already ascribed low levels of concern. This pattern holds whether moral expansiveness is framed as unlimited or zero-sum and persists even among individuals who typically care deeply about future generations, regardless of their temporal distance. These findings suggest that future generations hold a uniquely disadvantaged position in the moral hierarchy—not because of perceived constraints on moral concern but due to factors intrinsic to their exceptional psychological distance from the self here and now.",
+          "url": "https://doi.org/10.1177/13684302261426259",
+          "doi": "https://doi.org/10.1177/13684302261426259",
           "filter": 0,
-          "created": "2026-4-20"
-        },
-        {
-          "title": "The spread of fear: Perceptual deindividuation drives racial bias in threat generalization",
-          "authors": "Arshiya Aggarwal, Julia R. Hopkins, Dana E. Diaz, Kalina J. Michalska, Nicholas P. Camp, Brent L. Hughes",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104934",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104934",
-          "filter": 0,
-          "created": "2026-4-23"
+          "created": "2026-4-27"
         }
       ],
       "articles_hidden": []
     },
     {
-      "journal_full": "Multivariate Behavioral Research",
-      "journal_short": "MBR",
+      "journal_full": "Organizational Research Methods",
+      "journal_short": "ORM",
       "articles": [
         {
-          "title": "Pareto Optimality: Opportunities in Optimal Temporal Design",
-          "authors": "Anne-Charlotte J. Belloeil",
-          "url": "https://doi.org/10.1080/00273171.2026.2639189",
-          "doi": "https://doi.org/10.1080/00273171.2026.2639189",
+          "title": "Textual Similarity in Organizational Research: Review of Applications, Consistency of Methods, and Best Practice Recommendations",
+          "authors": "Siyi Liu, Louis Hickman, Linus Dahlander, Henning Piezunka",
+          "abstract": "Organizational research increasingly uses natural language processing (NLP) to measure textual similarity. Despite common usage, the meaning and consistency of similarity measures (e.g., cosine similarity and Euclidean distance) across common NLP methods (e.g., n -grams and document embeddings) is unclear. This risks misalignment between theoretical constructs and textual measures, undermining the comparability of findings across studies. To address this gap, we review studies using textual similarity in organizational and psychological research, finding a jingle-jangle fallacy: identical labels are used for similarity estimates from different NLP methods, and different labels are used for the same method. Additionally, we examine the consistency of similarity measures across and within NLP methods. Different transformer-based embeddings’ similarity results are interchangeable. However, n -grams yield distinct, inconsistent results and are less appropriate for estimating similarity with distance measures. When applied to multi-word inputs, dictionaries and word embeddings return similar results reflecting linguistic style. We provide best practice recommendations and example code for operationalizing textual similarity, including clarifying which NLP methods correspond to content similarity, linguistic style similarity, and semantic similarity at the word, sentence, and document-levels of analysis.",
+          "url": "https://doi.org/10.1177/10944281261432629",
+          "doi": "https://doi.org/10.1177/10944281261432629",
           "filter": 0,
-          "created": "2026-4-17"
+          "created": "2026-4-27"
         }
       ],
       "articles_hidden": []
     },
     {
-      "journal_full": "Psychological Bulletin",
-      "journal_short": "PsychBull",
+      "journal_full": "Personality and Social Psychology Bulletin",
+      "journal_short": "PSPB",
       "articles": [
         {
-          "title": "Temperament, personality, and psychopathology in youth: A preregistered multilevel meta-analytic review and preregistered large-scale replication and extension.",
-          "authors": "Benjamin A. Katz, Allison N. Shields, Ashley L. Watts, Catherine Wu, Jennifer L. Tackett",
-          "url": "https://doi.org/10.1037/bul0000515",
-          "doi": "https://doi.org/10.1037/bul0000515",
+          "title": "The Behavioral Impact of Moral Appeals: An Integrated Framework and Meta-Analysis",
+          "authors": "Sylvia Y. Xu, Laetitia B. Mulder, Floor A. Rink, Tammo H. A. Bijmolt, Marijke C. Leliveld",
+          "abstract": "Moral appeals—persuasive messages aimed at invoking moral obligations—are widely used across various contexts. However, evidence about their effectiveness in changing behaviors remains mixed, and little is known about the conditions that influence it. To address this, we conducted a meta-analysis with 67 papers ( k = 399) to assess the overall impact of moral appeals on behavioral intentions and behaviors, and to test various moderators of this effect. Drawing on various theories, we proposed that both morality enhancers and hindrances can influence their effectiveness and investigated three groups of moderators ( Moral Content, Social Aspects , Autonomy Restraints ). Results showed that, overall, moral appeals had a small, positive effect ( d = 0.22). Furthermore, Moral Content (negative framing) and Social Aspects (the presence of social norms) enhanced appeal effectiveness, while Autonomy Restraints (the use of assertive language) undermined it. Our findings provide important theoretical and practical insights into moral appeals.",
+          "url": "https://doi.org/10.1177/01461672261437934",
+          "doi": "https://doi.org/10.1177/01461672261437934",
           "filter": 0,
-          "created": "2026-4-23"
+          "created": "2026-4-24"
         },
         {
-          "title": "High math anxiety is associated with lower math achievement across 90 countries: An individual participant data meta-analysis of representative student and adult samples.",
-          "authors": "Martin Brunner, Franzis Preckel, Thomas Götz, Oliver Lüdtke, Lena Keller",
-          "url": "https://doi.org/10.1037/bul0000514",
-          "doi": "https://doi.org/10.1037/bul0000514",
+          "title": "Gender Differences in Parents’ Well-Being Reverse During Unemployment",
+          "authors": "Sara Hendrick, Melissa J. Williams, Emily C. Bianchi",
+          "abstract": "Past research suggests that parenthood tends to predict well-being for men more than women. We propose that during involuntary unemployment, this pattern will reverse, such that parenthood will predict well-being for women more than men. Because breadwinning remains central to societal expectations of fatherhood, employment allows fathers to simultaneously fulfill parental and professional obligations. Typically, this reduces fathers’ role strain. However, we argue that unemployment may threaten both work and parent identities for fathers and therefore undermine well-being for fathers more than mothers. We find support for this hypothesis using a large, longitudinal study of unemployed individuals (Study 1) and a nationally representative sample (Study 2). Finally, a follow-up experiment (Study 3) supports our prediction that fathers are more likely than mothers to view paid employment as necessary for good parenting, which predicts their lower well-being during unemployment. This work contributes to research on parenthood, gender roles, and unemployment.",
+          "url": "https://doi.org/10.1177/01461672261439419",
+          "doi": "https://doi.org/10.1177/01461672261439419",
           "filter": 0,
-          "created": "2026-4-23"
+          "created": "2026-4-27"
         },
         {
-          "title": "Is thinking inherently unpleasant? A cautionary note on David, Vassena, and Bijleveld (2024).",
-          "authors": "Axel Grund, Julian Roelle, Sebastian Schmid",
-          "url": "https://doi.org/10.1037/bul0000484",
-          "doi": "https://doi.org/10.1037/bul0000484",
+          "title": "Who Is to Blame When Spreading Behavior Cascades Into Harm? Blame Attribution Traces the Causal Chain of Actions",
+          "authors": "Peter Kardos, Brian Lickel",
+          "abstract": "We live in an increasingly interconnected world where people’s influence spreads through social networks and media with unprecedented speed. Yet, our knowledge about how people attribute blame in causal chains of spreading human actions is limited. We propose that people trace the causal origin in a sequence of interconnected human actions and blame the initiator of the causal chain for the negative consequences at its end. Four experiments ( N = 1,777) show that people trace causal origin in action sequences to the second degree of separation and regard this causal inference as the basis of blame attribution. People also take into account the multiplying effect of junctions in action sequences and attribute more blame to initiators of causal chains when the cascading effects lead to more severe consequences. The findings support the social functionalist approach to naïve blame attribution in human causal chains.",
+          "url": "https://doi.org/10.1177/01461672261440444",
+          "doi": "https://doi.org/10.1177/01461672261440444",
           "filter": 0,
-          "created": "2026-4-23"
+          "created": "2026-4-27"
         },
         {
-          "title": "Emotion regulation in mental disorders: A systematic review and multilevel meta-analysis of transdiagnostic and disorder-specific impairments.",
-          "authors": "Annika Clamor, Tania M. Lincoln, Lars Schulze",
-          "url": "https://doi.org/10.1037/bul0000512",
-          "doi": "https://doi.org/10.1037/bul0000512",
+          "title": "Knowing versus Doing: How Much Can Training Help People Soften the Blow of Social Rejection?",
+          "authors": "Sydney Okland, Gili Freedman, Jennifer S. Beer",
+          "abstract": "People complain that they do not know what to say to soften the blow of social rejection. The adoption of language principles (i.e., avoiding apologies while using positive regard, sincere alternatives, and more words) may mitigate the negative consequences of social rejection. Does training help people independently exhibit greater communication skill or do people fail to perform despite “knowing better?” In Study 1, drift diffusion modeling suggested that training helped people “know it when they see it” (i.e., recognize precrafted wording options which better conveyed the language principles). Study 2 found that training aided people’s success in independently crafting wording to convey the language principles. The current research highlights that existing social rejector frameworks and previous research on skill acquisition do not capture the experience of nonpunitive rejectors and presents a way that psychological science can address people’s concerns about how to soften the blow of social rejection.",
+          "url": "https://doi.org/10.1177/01461672261439420",
+          "doi": "https://doi.org/10.1177/01461672261439420",
           "filter": 0,
-          "created": "2026-4-23"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Psychological Methods",
-      "journal_short": "PM",
-      "articles": [
+          "created": "2026-4-25"
+        },
         {
-          "title": "A novel multidimensional dynamic difficulty adjustment algorithm: Use case in a cognitive training video game.",
-          "authors": "Angela Pasqualotto, Marios Fanourakis, Zeno Menestrina, Friedhelm C. Hummel, Elmars Rancans, Frank Padberg, Omer Bonne, Amit Lotan, Esther Bukowski, Lena Lipskaya-Velikovsky, Mor Nahum, Daphne Bavelier",
-          "url": "https://doi.org/10.1037/met0000805",
-          "doi": "https://doi.org/10.1037/met0000805",
+          "title": "Happily Ever After? Singles’ Expectations of Romantic Relationships Are Associated With Singlehood Satisfaction and Future Romantic Outcomes",
+          "authors": "Tayler Wells, Elaine Hoan, Geoff MacDonald",
+          "abstract": "Although research has examined partnered individuals’ expectations about romantic relationships, little is known about singles’ expectations for relationships. Using six waves of longitudinal panel data ( N = 5,113), we explored how singles’ expectations relate to experiences in singlehood and future partnerships. Women expected more intimate and more negative outcomes from relationships than men, whereas men were more likely to expect relationships to enhance their status. At both within- and between-person levels, higher intimacy expectations were associated with lower singlehood satisfaction and higher partner desire; within-person increases in negative expectations were associated with lower satisfaction and partner desire. Individuals with higher intimacy expectations were less likely to remain single and felt more satisfied in future relationships; negative expectations were associated with a greater likelihood of remaining single and lower future relationship satisfaction. Together, our data suggest that singles’ image of partnership is related to satisfaction in singlehood and future romantic relationships.",
+          "url": "https://doi.org/10.1177/01461672261438616",
+          "doi": "https://doi.org/10.1177/01461672261438616",
           "filter": 0,
-          "created": "2026-4-23"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Psychological Science",
-      "journal_short": "PsychSci",
-      "articles": [
+          "created": "2026-4-25"
+        },
         {
-          "title": "Can Italians Understand Spanish? Language Closeness Exacerbates the Illusion of Understanding",
-          "authors": "Ziyu Ren, Leigh H. Grant, Boaz Keysar",
-          "abstract": "People often understand parts of languages that are closely related to their native tongue. But do they understand what the speaker intends to convey? We discovered that linguistic similarity induces an illusion of understanding, leading people to believe they understand more than they actually do. In Study 1, adult native Italian speakers overestimated their understanding of a speaker’s intent more when they listened to Spanish (close language) than to Northern Jiangsu Chinese (distant language). In Study 2, adult native Mandarin Chinese speakers overestimated their understanding more when they listened to Northern Jiangsu Chinese (close language) than to Spanish (distant language). When listening to the closer language, listeners were more confident, and this mediated their overestimation of understanding. An illusion of understanding, then, increases not despite language closeness but because of it. This has theoretical implications for the role of calibration in communication and practical implications for miscommunication in international settings.",
-          "url": "https://doi.org/10.1177/09567976261435965",
-          "doi": "https://doi.org/10.1177/09567976261435965",
+          "title": "The Moral Standing of Created Agents: Bad Is More Owned Than Good",
+          "authors": "Emily E. Stonehouse, Ori Friedman",
+          "abstract": "Created agents are a staple of fiction but technological advances are making them increasingly viable as a reality. These creations introduce thorny questions about their moral standing, including questions about whether they can be owned. In seven preregistered experiments ( N = 2,499), we investigated whether created agents are more likely to be seen as owned if they cause harm. This prediction was suggested by the hypothesis that ownership is sometimes used to express moral responsibility, though it runs against the tendency for harm to introduce restrictions on ownership. In all experiments, participants more often judged that created agents belonged to their inventors when they caused harm than when they did good. The final experiment then showed that these judgments do not strongly align with assessments of rights over created agents. Overall, the findings suggest that harmfulness changes the moral standing of created agents in a novel way, increasing perceptions of them as property.",
+          "url": "https://doi.org/10.1177/01461672261439251",
+          "doi": "https://doi.org/10.1177/01461672261439251",
           "filter": 0,
-          "created": "2026-4-20"
+          "created": "2026-4-27"
+        },
+        {
+          "title": "Self-Esteem and Supportive Dyadic Coping in Intimate Relationships",
+          "authors": "Elisa Weber, Guy Bodenmann",
+          "abstract": "Prior research established positive ties between intimate partners’ self-esteem (SE) and support interactions, but evidence on whether intraindividual changes in SE and supportive dyadic coping are associated over time remains scarce. The present study tested prominent theories suggesting a reciprocal prospective relationship between SE, one’s own and partner’s supportive dyadic coping using 14 waves of nationally representative data totaling 13,683 young adults from Germany. We used random intercept cross-lagged panel models for data analysis. Our findings revealed significant reciprocal within-person transactions between SE, one’s own and partner’s dyadic coping over time. We conclude that high SE may boost positive support interactions in intimate relationships. At the same time, giving and receiving positive support in times of stress may strengthen intimate partners’ SE on the long run. Overall, our findings provide robust evidence that people’s support interactions and SE development go hand in hand within the context of intimate partner relationships.",
+          "url": "https://doi.org/10.1177/01461672261437933",
+          "doi": "https://doi.org/10.1177/01461672261437933",
+          "filter": 0,
+          "created": "2026-4-27"
         }
       ],
       "articles_hidden": []
@@ -305,28 +238,31 @@
       "journal_short": "PsychMusic",
       "articles": [
         {
-          "title": "Character judgements of rap music fans",
-          "authors": "Kaila C Putter, Dan J Miller, Amy Belfi, James Rees, Amanda E Krause",
-          "abstract": "Extending Fischoff, we used vignettes to examine people’s perceptions of a hypothetical rap fan accused of murder. Study 1 ( N = 300) used a 2 (murder accusation) × 2 (inclusion of rap lyrics) × 2 (fan gender) experiment, asking participants to judge how capable of murder and sexually aggressive they found the fan. The presentation of lyrics and murder accusation were associated with the fan being more capable of murder, while rap lyrics and participants’ rap attitudes were associated with the fan being more sexually aggressive. Thematic analysis revealed that, in conditions containing both the lyrics and the murder accusation, participants reported greater consideration of the rap lyrics than the murder accusation when rating the fan. Then, Study 2 ( N = 504) used a 3 (criminal accusation) × 5 (genre label) experiment to separate the influence of the lyrics from the genre label and further interrogate criminal stereotypes. Holding more positive rap attitudes was associated with the fan being less capable of murder and less sexually aggressive. Importantly, a content analysis revealed that 86% of participants ascribed the lyrics as rap, even with a different label. These findings demonstrate the pervasiveness and salience of rap-related stereotypes on character judgements.",
-          "url": "https://doi.org/10.1177/03057356261424252",
-          "doi": "https://doi.org/10.1177/03057356261424252",
+          "title": "Psychometric validation and factorial structure of the Chinese version of the Kenny Music Performance Anxiety Inventory (K-MPAI)",
+          "authors": "Weiyu Zhao, Kwanyie Wong",
+          "abstract": "This study represents the validation of the Kenny Music Performance Anxiety Inventory (K-MPAI) for Mandarin-speaking musicians in Mainland China, examining its factor structure in two distinct populations: pre-college students ( n = 287) and professional musicians ( n = 453). Exploratory and confirmatory factor analyses revealed consistent three-factor solutions in both groups, aligning closely with Kenny’s theoretical framework of music performance anxiety (MPA). Specifically, pre-college musicians demonstrated factors labeled “MPA symptoms,” “psychological vulnerability,” and “negative affect/depression,” while professional musicians revealed factors named “MPA symptoms,” “psychological vulnerability/negative affect,” and “control-trust.” Measurement invariance analysis confirmed strong psychometric comparability between the two samples, validating cross-group comparisons. Notably, while core anxiety and vulnerability constructs aligned closely with international validations, culturally specific divergences emerged, such as the distinct splitting of psychological vulnerability in pre-college musicians and the unexpected emergence of a “control-trust” factor among professionals. These unique aspects highlight potential cultural nuances in how anxiety and vulnerability are conceptualized among Chinese musicians. This study affirms the K-MPAI’s suitability as a robust measure of MPA in China, contributing foundational insights for culturally sensitive assessment and intervention.",
+          "url": "https://doi.org/10.1177/03057356261436414",
+          "doi": "https://doi.org/10.1177/03057356261436414",
           "filter": 0,
-          "created": "2026-4-19"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Psychology of Popular Media",
-      "journal_short": "PPM",
-      "articles": [
+          "created": "2026-4-28"
+        },
         {
-          "title": "Who will spend money uncontrollably in video games? The association between video game playing motivations and compulsive gaming buying among players of different genders.",
-          "authors": "Fang Xu, Ran Zhou, Gengfeng Niu, Min Cao, Xuan Xu, Huifen Shi, Zhen Zeng, Zongkui Zhou",
-          "url": "https://doi.org/10.1037/ppm0000654",
-          "doi": "https://doi.org/10.1037/ppm0000654",
+          "title": "Tune in, recall more: Exploring the effects of a musical mnemonic device on children’s working memory",
+          "authors": "Katy Ieong Cheng Ho Weatherly, In Son Zeng, Ivy Ho I Chao, Yuqi Lin",
+          "abstract": "This study explored the impact of using a musical mnemonic device on enhancing memory retention in second-grade students ( N = 132) while learning a Chinese poem. The quasi-experimental design involved two groups of students: one receiving music-based instruction ( n = 65) and the other receiving traditional verbal instruction ( n = 67). Students’ recitation accuracy was assessed immediately after learning and 1 week later with repeated procedures. While initial findings revealed no significant difference in immediate performance between the groups ( p &gt; .05), notable improvements were observed in the experimental, music-based group after a one-week interval with a repeated procedure ( p &lt; .05), particularly for male students ( p &lt; .005). In addition, students with instrumental training outperformed their peers without such training, supporting the notion that music training could enhance working memory ( p &lt; .01). We also revealed that students’ retention of Chinese poems, especially for those in the lowest 10th percentile of accuracy, was significantly boosted by incorporating music after 1 week’s interval ( p &lt; .001). These results suggest that while music as a mnemonic device may not yield immediate benefits, it can potentially enhance memory retention over time.",
+          "url": "https://doi.org/10.1177/03057356261433599",
+          "doi": "https://doi.org/10.1177/03057356261433599",
           "filter": 0,
-          "created": "2026-4-23"
+          "created": "2026-4-27"
+        },
+        {
+          "title": "Flow in instrumental improvisation: Task constraints and their connection to students’ personality, musical skills, and self-regulation",
+          "authors": "Jo Stijnen, Filip Verneert, Luc Nijs, Peter Van Petegem",
+          "abstract": "This study investigated the effect of task constraints on the flow experience of novice improvisers and the mediating effects of personality, musical skills, and self-regulation. In addition, we aimed to identify the environmental factors that are most indicative of flow in improvisational learning. Intermediate-level instrument students ( N = 111) participated in a quasi-experiment with repeated measures during regular class hours. The students assessed their flow experience after each of the four improvisation tasks, which differed only in two types of constraints: the degree of improvisational freedom and the amount of preparation time given. Student characteristics were measured using self-administered questionnaires and teacher assessments. Hierarchical linear modeling analysis revealed significantly higher flow states under conditions with low constraints (free improvisation and preparation time). For highly self-regulated students, the negative influence of a task with high constraints on the flow experience was limited. The type of improvisation task and experience with improvisation were the best predictors of flow, followed by openness to experience, self-regulation, and class group. These results support a more process-oriented approach to teaching improvisation, in which students gain experience in improvisation through selected tasks integrated with developing self-regulation skills.",
+          "url": "https://doi.org/10.1177/03057356261426478",
+          "doi": "https://doi.org/10.1177/03057356261426478",
+          "filter": 0,
+          "created": "2026-4-24"
         }
       ],
       "articles_hidden": []
@@ -336,12 +272,12 @@
       "journal_short": "TMB",
       "articles": [
         {
-          "title": "Neurodivergent experiences with virtual reality and its mental health implications: Reddit post analysis.",
-          "authors": "Anam Ahmad, Sarune Savickaite",
-          "url": "https://doi.org/10.1037/tmb0000190",
-          "doi": "https://doi.org/10.1037/tmb0000190",
+          "title": "Toward an inclusive future: A user study on gender-sensitive design in online course advertising.",
+          "authors": "Lorena Göritz, Elif Yurtseven, Nina Kolchmeyer, Maja-Gwendoline Reibold, Nele Kälberloh, Glenn Schröer, Oliver Thomas",
+          "url": "https://doi.org/10.1037/tmb0000189",
+          "doi": "https://doi.org/10.1037/tmb0000189",
           "filter": 0,
-          "created": "2026-4-23"
+          "created": "2026-4-27"
         }
       ],
       "articles_hidden": []
