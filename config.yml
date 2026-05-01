@@ -37,8 +37,8 @@ api:
 
   gemini:
     base_url: "https://generativelanguage.googleapis.com/v1beta/models"
-    classification_model: "gemini-2.5-flash"
-    must_read_model: "gemini-3-pro-preview"
+    classification_model: "gemini-3-flash-preview"
+    must_read_model: "gemini-3-flash-preview"
     classification_temperature: 0.2
     must_read_temperature: 1.0
     max_output_tokens: 10
