@@ -86,7 +86,7 @@ call_gemini_api <- function(system_prompt, user_text, model = "gemini-3-flash-pr
 #' @param temperature Generation temperature
 #' @param max_retries Maximum retry attempts
 #' @return Response text or NULL on failure
-gemini_request <- function(prompt, model = "gemini-3-flash-preview",
+gemini_request <- function(prompt, model = "gemini-3.1-pro-preview",
                            temperature = 1, max_retries = 3) {
     api_key <- get_gemini_api_key()
     api_url <- paste0(
