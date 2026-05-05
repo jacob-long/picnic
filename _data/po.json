@@ -1,6 +1,54 @@
 {
-  "update": "2026-05-04",
+  "update": "2026-05-05",
   "content": [
+    {
+      "journal_full": "Journal of Elections, Public Opinion and Parties",
+      "journal_short": "JEPOP",
+      "articles": [
+        {
+          "title": "Why survey turnout data misleads: probing, selection bias, and misinterpreted political participation",
+          "authors": "Kasper M. Hansen",
+          "url": "https://doi.org/10.1080/17457289.2026.2662906",
+          "doi": "https://doi.org/10.1080/17457289.2026.2662906",
+          "filter": 0,
+          "created": "2026-5-4"
+        },
+        {
+          "title": "The conditional value of legislative effectiveness",
+          "authors": "Elizabeth N. Simas",
+          "url": "https://doi.org/10.1080/17457289.2026.2665229",
+          "doi": "https://doi.org/10.1080/17457289.2026.2665229",
+          "filter": 0,
+          "created": "2026-5-3"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Journal of Official Statistics",
+      "journal_short": "JOS",
+      "articles": [
+        {
+          "title": "Assessing the Heterogeneity in Mode Effects on Data Quality, Response Distributions, and Future Participation Across Sociodemographic Subgroups in a Mixed-Mode Panel Study",
+          "authors": "Heather M. Schroeder, Mary Beth Ofstedal, Brady T. West",
+          "abstract": "Introducing a web option in interviewer-administered surveys could increase response rates and reduce costs. However, this requires careful assessment of the effects of mixed-mode designs on data quality and key measures, especially across important sociodemographic subgroups. In 2018 and 2020, the Health and Retirement Study (HRS) experimentally introduced web in a sequential mixed-mode design for panelists assigned to the telephone mode. Initial analyses found a limited number of mode effects on key outcome distributions and data quality measures. This paper extends this initial analysis by assessing possible heterogeneity in these effects among sociodemographic subgroups defined by race/ethnicity, sex, and others. We interact mode with each sociodemographic indicator in statistical models for each outcome. Overall, we found limited evidence of heterogeneity in the mode effects, with 3% of the 204 interaction terms we tested emerging as significant. For example, previous work showed that more household roster changes are reported in the web-first group, and we found that this was more pronounced for females and those with some college education. Although some heterogeneity in mode effects was observed across subgroups, the effects were generally too small to cause data quality concerns. We conclude with a discussion of broader considerations for survey researchers.",
+          "url": "https://doi.org/10.1177/0282423x261429705",
+          "doi": "https://doi.org/10.1177/0282423x261429705",
+          "filter": 0,
+          "created": "2026-4-30"
+        },
+        {
+          "title": "Comparison of Small Area Procedures Based on Gamma Distributions with Extension to Informative Sampling",
+          "authors": "Yanghyeon Cho, Emily Berg",
+          "abstract": "The gamma distribution is a useful model for small area prediction of a skewed response variable. We study the use of the gamma distribution for small area prediction. We emphasize a model, called the gamma-gamma model, in which the area random effects have gamma distributions. We compare this model to a generalized linear mixed model. Each of these two models has been proposed independently in the literature, but the two models have not yet been formally compared. We evaluate the properties of two mean square error estimators for the gamma-gamma model, both of which incorporate corrections for the bias of the estimator of the leading term. Finally, we extend the gamma-gamma model to informative sampling. We conduct thorough simulation studies to assess the properties of the alternative predictors. We apply the proposed methods to data from an agricultural survey.",
+          "url": "https://doi.org/10.1177/0282423x261424813",
+          "doi": "https://doi.org/10.1177/0282423x261424813",
+          "filter": 0,
+          "created": "2026-5-4"
+        }
+      ],
+      "articles_hidden": []
+    },
     {
       "journal_full": "Journal of Survey Statistics and Methodology",
       "journal_short": "JSSAM",
@@ -52,15 +100,6 @@
           "doi": "https://doi.org/10.1177/08944393261446901",
           "filter": 0,
           "created": "2026-4-28"
-        },
-        {
-          "title": "Expanding Your Vocabulary: A Framework for Topic Integration in Texts",
-          "authors": "Roy Gardner, Matthew Martin, Ashley Moran, Zachary Elkins, Andrés Cruz, Guillermo Pérez",
-          "abstract": "Topic discovery and integration are vital for maintaining vocabularies that categorize textual corpora. Automated approaches are often computationally expensive and lack domain-specific conceptual nuance; manual approaches are costly in terms of time and potential bias. To address this dilemma, we introduce the segments-as-topic (SAT) methodology, a four-stage process that combines automation and human expertise to assess candidate topics for vocabulary inclusion. In the SAT generation stage, a topic is formulated and refined through collaboration with domain experts, and then a sentence-level semantic similarity model retrieves corpus segments semantically aligned with the topic. The SAT expansion stage uses this seed set to find additional semantically similar segments, which are iteratively accepted or rejected to build a final segment set. During the review stage, a panel of scholars evaluates the topic for inclusion. In the integration stage, all segments in the final segment set are automatically tagged with the new topic. We apply this methodology to the Comparative Constitutions Project vocabulary that tracks over 330 topics in national constitutions, and demonstrate the addition of three new topics to the vocabulary. The SAT approach balances computational efficiency with expert judgment, offering a systematic, user-friendly, and replicable framework for social scientists to expand domain-specific vocabularies.",
-          "url": "https://doi.org/10.1177/08944393261443513",
-          "doi": "https://doi.org/10.1177/08944393261443513",
-          "filter": 0,
-          "created": "2026-4-27"
         }
       ],
       "articles_hidden": []
