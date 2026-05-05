@@ -1,5 +1,5 @@
 {
-  "update": "2026-05-04",
+  "update": "2026-05-05",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -15,22 +15,13 @@
           "created": "2026-4-28"
         },
         {
-          "title": "Can Results-Blind Selection Improve Science Communication?",
-          "authors": "Alexa M. Tullett, Savannah C. Lewis, Nell Lambdin, Joshua Baker, Matthew Barnidge",
-          "abstract": "Journalists are often maligned for covering sensational or desirable research results at the expense of studies with stronger methods. In the present study, we aimed to test how journalists’ preferences shift when studies are selected based on their methods rather than results (results-blind selection). Practicing journalists and editors, journalism faculty, and journalism graduate students ( N = 413) read summaries of real social-psychology studies and rated their interest in reporting on them. Participants were randomly assigned to read either “traditional” summaries that included the results or “results-blind” summaries that excluded the results. Summaries varied on three within-subjects dimensions: replication status, preregistration status, and belief consistency. Participants expressed more interest in replicable (vs. not replicable) and preregistered (vs. nonpreregistered) studies regardless of whether they learned the results, suggesting that these studies have features that are valued by journalists. Meanwhile, results-blind selection showed potential for reducing confirmation bias, suggesting it may be worth further exploration if feasibility challenges can be addressed.",
-          "url": "https://doi.org/10.1177/25152459261434559",
-          "doi": "https://doi.org/10.1177/25152459261434559",
+          "title": "Enhancing Replicability and Reproducibility in Observational-Coding Research: A Tutorial in R",
+          "authors": "Robert D. Henry",
+          "abstract": "Replicating observational-coding studies is notoriously difficult: Coder variance attenuates effect sizes, protocols can be opaque, and raw text/video/audio cannot always be shared. In this tutorial, I present a three-step, open-science workflow that links design decisions to reproducibility outcomes, assuming interchangeable observers and simple mean rating scores. In Step 1, I show how (under the appropriate assumptions) the Spearman-Brown prophecy and attenuated correlation formulas translate coder reliability into sample-size targets; in an illustrative example, I illustrate that with two coders and N ≈ 158 participants, researchers retain 80% power to detect a correlation of r = .30. In Step 2, I provide a six-step loop from training coders to calculating interrater reliability. This protocol emphasizes the importance of creating agreement matrices and running periodic interrater reliability checks; using simulated data, I demonstrate how off-diagonal errors pinpoint coder drift. In Step 3, I address coder positionality and ethical data sharing, offering a decision tree that maps media sensitivity and participant consent onto data-repository options. Annotated code, simulated data, and a brief consent template are hosted on the OSF repository for this tutorial. Adopting this pipeline enables researchers to plan, monitor, and disseminate observational work in a way that is both transparent and statistically robust.",
+          "url": "https://doi.org/10.1177/25152459261424726",
+          "doi": "https://doi.org/10.1177/25152459261424726",
           "filter": 0,
-          "created": "2026-4-27"
-        },
-        {
-          "title": "Three-Sided Testing to Establish Practical Significance: A Tutorial",
-          "authors": "Peder Mortvedt Isager, Jack Fitzgerald",
-          "abstract": "Researchers may want to know whether an observed statistical relationship is either meaningfully negative, meaningfully positive, or small enough to be considered practically equivalent to zero. Such a question cannot be addressed with standard null hypothesis significance testing or standard equivalence testing. Three-sided testing (TST) is a procedure to address such questions by simultaneously testing whether a relationship is significantly bounded below, within, or above predetermined smallest effect sizes of interest. TST is a natural extension of the standard procedure of two one-sided tests (TOST) for equivalence testing. TST offers a more comprehensive decision framework than TOST with no penalty to error rates or statistical power. In this article, we give a nontechnical introduction to TST; provide commands for conducting TST in R, Jamovi, and Stata; and provide a Shiny app for easy implementation. Whenever a meaningful smallest effect size of interest can be specified, TST should be combined with null hypothesis significance testing as a standard frequentist testing procedure.",
-          "url": "https://doi.org/10.1177/25152459251412435",
-          "doi": "https://doi.org/10.1177/25152459251412435",
-          "filter": 0,
-          "created": "2026-4-27"
+          "created": "2026-4-30"
         }
       ],
       "articles_hidden": []
@@ -40,29 +31,20 @@
       "journal_short": "BRM",
       "articles": [
         {
+          "title": "Towards a quantifiable measure of orthographic congruence between two languages",
+          "authors": "Ding Yan, Paolo Mairano, Séverine Casalis",
+          "url": "https://doi.org/10.3758/s13428-026-02981-7",
+          "doi": "https://doi.org/10.3758/s13428-026-02981-7",
+          "filter": 0,
+          "created": "2026-5-4"
+        },
+        {
           "title": "Translation norms for English and Japanese translation pairs: Translation ambiguity, proficiency, and production errors",
           "authors": "Diya P. Goyal, Noriko Hoshino, Natasha Tokowicz",
           "url": "https://doi.org/10.3758/s13428-026-03018-9",
           "doi": "https://doi.org/10.3758/s13428-026-03018-9",
           "filter": 0,
           "created": "2026-4-28"
-        },
-        {
-          "title": "Affective norms for Chinese words in ten discrete emotion categories",
-          "authors": "Dangui Song",
-          "url": "https://doi.org/10.3758/s13428-026-03010-3",
-          "doi": "https://doi.org/10.3758/s13428-026-03010-3",
-          "filter": 0,
-          "created": "2026-4-27"
-        },
-        {
-          "title": "AI-accelerated meta-analysis in psychology: Large language models code study properties with high accuracy",
-          "authors": "Shaheed Azaad",
-          "abstract": "Theoretically driven meta-analyses often involve testing whether study characteristics moderate an effect in a pattern that supports one of multiple competing theoretical accounts. To conduct such analyses, researchers must manually extract, i.e., code, these characteristics from sometimes hundreds of studies. Ideally, studies should be coded by two researchers independently to prevent errors and biases from compromising the dataset’s integrity. The laborious nature of this task, however, means that meta-analysts usually settle for double-coding just a portion of the studies included in their study. Some researchers have proposed using large language models (LLMs) as a double-coder, showing that they can reliably extract explicitly stated information (e.g., publication year) from articles. However, meta-analyses in psychology generally require studies to be coded in terms of higher-level conceptual dimensions (e.g., the type of behavior rather than which behavior). The present study investigated whether two LLMs, OpenAI’s GPT-5 and Google’s Gemini 2.5 Pro, can code studies in this way. Both models replicated the study codes from three recently published meta-analyses in psychology with high accuracy (&gt;92% overall), despite the limited information they received. LLM double-coding, therefore, offers a practical solution for meta-analysts seeking to ensure data integrity.",
-          "url": "https://doi.org/10.3758/s13428-026-03020-1",
-          "doi": "https://doi.org/10.3758/s13428-026-03020-1",
-          "filter": 0,
-          "created": "2026-4-27"
         },
         {
           "title": "Word frequency and contextual diversity measures for Singapore English",
@@ -81,6 +63,14 @@
           "doi": "https://doi.org/10.3758/s13428-026-03027-8",
           "filter": 0,
           "created": "2026-4-28"
+        },
+        {
+          "title": "From theory to practice: A comprehensive toolkit for Q-matrix validation in cognitive diagnosis",
+          "authors": "Haijiang Qin, Enhao Bao, Lei Guo",
+          "url": "https://doi.org/10.3758/s13428-026-02991-5",
+          "doi": "https://doi.org/10.3758/s13428-026-02991-5",
+          "filter": 0,
+          "created": "2026-5-4"
         },
         {
           "title": "Running virtual reality experiments online: A brief introduction and tutorial",
@@ -108,6 +98,14 @@
           "doi": "https://doi.org/10.3758/s13428-026-03003-2",
           "filter": 0,
           "created": "2026-4-29"
+        },
+        {
+          "title": "Measuring intellectual humility through situated behavior: An alternative to dispositional self-reports",
+          "authors": "Maksim Rudnev, Ana Lucia Rodriguez de la Rosa, Ryan Barrett, Nicholas A. Christakis, Igor Grossmann",
+          "url": "https://doi.org/10.3758/s13428-026-03016-x",
+          "doi": "https://doi.org/10.3758/s13428-026-03016-x",
+          "filter": 0,
+          "created": "2026-5-4"
         }
       ],
       "articles_hidden": []
@@ -123,6 +121,30 @@
           "doi": "https://doi.org/10.1016/j.chb.2026.109036",
           "filter": 0,
           "created": "2026-4-30"
+        },
+        {
+          "title": "From pixels to perceptions: Predicting video game ratings through reviews and metadata",
+          "authors": "Yavuz Selim Balcioğlu, Erkut Altindağ",
+          "url": "https://doi.org/10.1016/j.chb.2026.109038",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109038",
+          "filter": 0,
+          "created": "2026-4-30"
+        },
+        {
+          "title": "Making sense of scent: Cultural styles, cognitive schemas, and the situated logic of online perfume reviews",
+          "authors": "Larisa Nikitina, Yu Liu, Fumitaka Furuoka",
+          "url": "https://doi.org/10.1016/j.chb.2026.109037",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109037",
+          "filter": 0,
+          "created": "2026-4-30"
+        },
+        {
+          "title": "Not Warm or Cold, but Appropriate: How Outcome Severity Shifts Moral-Mind Inferences and Trust in AI Chatbots",
+          "authors": "Lianshan Zhang, Mei Yin Zhao",
+          "url": "https://doi.org/10.1016/j.chb.2026.109039",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109039",
+          "filter": 0,
+          "created": "2026-5-3"
         },
         {
           "title": "Personal cancer worry and Systemic Cancer Concern: Pathways to health behaviors via social media and emotional well-being",
@@ -228,6 +250,15 @@
       "journal_short": "GPIR",
       "articles": [
         {
+          "title": "Reform or revolution? How progress and longstanding injustice narratives shape support for incremental versus radical social change",
+          "authors": "Rezarta Bilali, Sam H. Freel, Borja Martinović",
+          "abstract": "Social change can take different forms, including incremental reforms within the existing system and radical transformations that dismantle and rebuild institutions. This research examined how historical trajectory narratives, specifically the progress narrative, and the longstanding injustice narrative, shape support for different types of social change. Across one experimental and two correlational studies ( n total = 2,520) with a diverse sample of Americans from different racial groups, we found that the progress narrative was associated with greater support for incremental change and for maintaining the status quo, but lower support for radical change. In contrast, the longstanding injustice narrative was linked to greater support for both radical and incremental change, and lower support for maintaining the status quo. Additionally, longstanding injustice increased attributions of racial disparities to racism and moral outrage (Study 2), and perceived moral failure of the country (Study 3), which in turn were associated with higher support for radical social change.",
+          "url": "https://doi.org/10.1177/13684302261436867",
+          "doi": "https://doi.org/10.1177/13684302261436867",
+          "filter": 0,
+          "created": "2026-5-4"
+        },
+        {
           "title": "Conspiratorial threat and intergroup boundaries: How exposure to anti-LGBTQ+ narratives shapes beliefs, identity, and civic engagement",
           "authors": "Sara Panerati, Valerio Pellegrini, Valeria De Cristofaro, Marco Salvati",
           "abstract": "Nowadays, the use of conspiratorial narratives targeting marginalized groups, such as the LGBTQ+ community, is increasingly pervasive. These narratives depict LGBTQ+ people as a threat to the social order, undermining their rights and social inclusion. Across four studies ( N = 2111), we experimentally investigated whether exposure to an anti-LGBTQ+ conspiratorial narrative affects conspiracy beliefs and civic engagement among cis-heterosexual people. Results showed that exposure to conspiratorial narrative increased the endorsement of anti-LGBTQ+ conspiracy beliefs, which, in turn, were associated with lower perception of interconnectedness with LGBTQ+ people, lower support for progressive collective action, lower support for inclusive education programs at school, and lower altruistic behavior toward LGBTQ+ individuals. Our findings highlight how conspiratorial narratives might fuel discriminatory beliefs and subtly erode intergroup solidarity and civic engagement. Addressing these processes is crucial to tackling the harmful effects of conspiratorial narratives and designing interventions to counter the spread and impact of conspiracy-driven rhetoric.",
@@ -246,13 +277,13 @@
           "created": "2026-4-30"
         },
         {
-          "title": "Future generations hold the lowest moral standing, even below present-day marginalized human and nonhuman outgroups",
-          "authors": "Christina Jinhee Capozzoli, Kyle Fiore Law, Stylianos Syropoulos",
-          "abstract": "Climate change, poverty, and inequality pose significant threats to the well-being of future generations, making it essential to advocate for their interests in present-day decisions. Yet little is known about how people morally evaluate future generations relative to other distant groups, such as human outgroups and nature (plants, animals). Moreover, does this perception change among those who exhibit impartial intergenerational beneficence (i.e., concern for all future generations), or when moral concern is framed as zero-sum? Across 15 studies, we find that future generations consistently receive less moral concern than present-day targets already ascribed low levels of concern. This pattern holds whether moral expansiveness is framed as unlimited or zero-sum and persists even among individuals who typically care deeply about future generations, regardless of their temporal distance. These findings suggest that future generations hold a uniquely disadvantaged position in the moral hierarchy—not because of perceived constraints on moral concern but due to factors intrinsic to their exceptional psychological distance from the self here and now.",
-          "url": "https://doi.org/10.1177/13684302261426259",
-          "doi": "https://doi.org/10.1177/13684302261426259",
+          "title": "How sport participation influences intergroup bias: A social mindfulness perspective",
+          "authors": "Biye Wang, Tao Tao, Wei Guo",
+          "abstract": "Social mindfulness (SoMi), defined as demonstrating goodwill with minimal resources, is a central component of prosociality. Although sport participation has been associated with changes in prosocial behavior, its influence on intergroup bias in SoMi remains unclear. This research used four studies ( N = 463) with adapted SoMi and minimal group paradigms to explore this issue in adolescents. Studies 1 and 2 demonstrated that sport participation significantly reduced intergroup bias, particularly by increasing SoMi behaviors toward outgroup members, with variations across different sport contexts. In Study 3, the roles of cooperation and competition within sport participation were examined separately, revealing that cooperation heightened ingroup favoritism while competition increased outgroup derogation. Study 4 examined these effects in non-sport contexts, revealing that competition fostered both ingroup favoritism and outgroup derogation, whereas cooperation did not significantly affect overall bias but alleviated outgroup derogation. These findings suggest that sport participation can substantially influence intergroup bias in SoMi through sport-specific mechanisms of cooperation and competition.",
+          "url": "https://doi.org/10.1177/13684302261435061",
+          "doi": "https://doi.org/10.1177/13684302261435061",
           "filter": 0,
-          "created": "2026-4-27"
+          "created": "2026-4-29"
         }
       ],
       "articles_hidden": []
@@ -489,17 +520,32 @@
       "articles_hidden": []
     },
     {
-      "journal_full": "Organizational Research Methods",
-      "journal_short": "ORM",
+      "journal_full": "Multivariate Behavioral Research",
+      "journal_short": "MBR",
       "articles": [
         {
-          "title": "Textual Similarity in Organizational Research: Review of Applications, Consistency of Methods, and Best Practice Recommendations",
-          "authors": "Siyi Liu, Louis Hickman, Linus Dahlander, Henning Piezunka",
-          "abstract": "Organizational research increasingly uses natural language processing (NLP) to measure textual similarity. Despite common usage, the meaning and consistency of similarity measures (e.g., cosine similarity and Euclidean distance) across common NLP methods (e.g., n -grams and document embeddings) is unclear. This risks misalignment between theoretical constructs and textual measures, undermining the comparability of findings across studies. To address this gap, we review studies using textual similarity in organizational and psychological research, finding a jingle-jangle fallacy: identical labels are used for similarity estimates from different NLP methods, and different labels are used for the same method. Additionally, we examine the consistency of similarity measures across and within NLP methods. Different transformer-based embeddings’ similarity results are interchangeable. However, n -grams yield distinct, inconsistent results and are less appropriate for estimating similarity with distance measures. When applied to multi-word inputs, dictionaries and word embeddings return similar results reflecting linguistic style. We provide best practice recommendations and example code for operationalizing textual similarity, including clarifying which NLP methods correspond to content similarity, linguistic style similarity, and semantic similarity at the word, sentence, and document-levels of analysis.",
-          "url": "https://doi.org/10.1177/10944281261432629",
-          "doi": "https://doi.org/10.1177/10944281261432629",
+          "title": "Beyond Linear Risk: A Machine Learning Approach to Understanding Perinatal Depression in Context",
+          "authors": "Phillip Sherlock, Maxwell Mansolf, Julie Hofheimer, Christine W. Hockett, Thomas G. O’Connor, Danielle Roubinov, J. Carolyn Graff, Jin-Shei Lai, Nicole R. Bush, Rosalind J. Wright, Yueh-Hsiu Mathilda Chiu, character(0)",
+          "url": "https://doi.org/10.1080/00273171.2026.2661244",
+          "doi": "https://doi.org/10.1080/00273171.2026.2661244",
           "filter": 0,
-          "created": "2026-4-27"
+          "created": "2026-5-1"
+        },
+        {
+          "title": "Automatic Mediation Analysis Under Measurement Error Via Bayesian Machine Learning",
+          "authors": "Xinran Song, Qian Zhang, Kaizong Ye, Antonio R. Linero",
+          "url": "https://doi.org/10.1080/00273171.2026.2660129",
+          "doi": "https://doi.org/10.1080/00273171.2026.2660129",
+          "filter": 0,
+          "created": "2026-5-1"
+        },
+        {
+          "title": "Single-Level Bifactor Models as Implicit Multilevel Factor Models Without a Bifactor Structure",
+          "authors": "Christian L. L. Strauss, Kristopher J. Preacher",
+          "url": "https://doi.org/10.1080/00273171.2026.2659610",
+          "doi": "https://doi.org/10.1080/00273171.2026.2659610",
+          "filter": 0,
+          "created": "2026-5-1"
         }
       ],
       "articles_hidden": []
@@ -508,24 +554,6 @@
       "journal_full": "Personality and Social Psychology Bulletin",
       "journal_short": "PSPB",
       "articles": [
-        {
-          "title": "Gender Differences in Parents’ Well-Being Reverse During Unemployment",
-          "authors": "Sara Hendrick, Melissa J. Williams, Emily C. Bianchi",
-          "abstract": "Past research suggests that parenthood tends to predict well-being for men more than women. We propose that during involuntary unemployment, this pattern will reverse, such that parenthood will predict well-being for women more than men. Because breadwinning remains central to societal expectations of fatherhood, employment allows fathers to simultaneously fulfill parental and professional obligations. Typically, this reduces fathers’ role strain. However, we argue that unemployment may threaten both work and parent identities for fathers and therefore undermine well-being for fathers more than mothers. We find support for this hypothesis using a large, longitudinal study of unemployed individuals (Study 1) and a nationally representative sample (Study 2). Finally, a follow-up experiment (Study 3) supports our prediction that fathers are more likely than mothers to view paid employment as necessary for good parenting, which predicts their lower well-being during unemployment. This work contributes to research on parenthood, gender roles, and unemployment.",
-          "url": "https://doi.org/10.1177/01461672261439419",
-          "doi": "https://doi.org/10.1177/01461672261439419",
-          "filter": 0,
-          "created": "2026-4-27"
-        },
-        {
-          "title": "Who Is to Blame When Spreading Behavior Cascades Into Harm? Blame Attribution Traces the Causal Chain of Actions",
-          "authors": "Peter Kardos, Brian Lickel",
-          "abstract": "We live in an increasingly interconnected world where people’s influence spreads through social networks and media with unprecedented speed. Yet, our knowledge about how people attribute blame in causal chains of spreading human actions is limited. We propose that people trace the causal origin in a sequence of interconnected human actions and blame the initiator of the causal chain for the negative consequences at its end. Four experiments ( N = 1,777) show that people trace causal origin in action sequences to the second degree of separation and regard this causal inference as the basis of blame attribution. People also take into account the multiplying effect of junctions in action sequences and attribute more blame to initiators of causal chains when the cascading effects lead to more severe consequences. The findings support the social functionalist approach to naïve blame attribution in human causal chains.",
-          "url": "https://doi.org/10.1177/01461672261440444",
-          "doi": "https://doi.org/10.1177/01461672261440444",
-          "filter": 0,
-          "created": "2026-4-27"
-        },
         {
           "title": "What Makes a Habit? Investigating Potential Determinants of Habit Formation",
           "authors": "Sebastian Bürgler, Marina Milyavskaya, Gail McMillan, Rachel J. Burns, Phillippa Lally, Benjamin Gardner",
@@ -543,24 +571,6 @@
           "doi": "https://doi.org/10.1177/01461672261436153",
           "filter": 0,
           "created": "2026-4-29"
-        },
-        {
-          "title": "The Moral Standing of Created Agents: Bad Is More Owned Than Good",
-          "authors": "Emily E. Stonehouse, Ori Friedman",
-          "abstract": "Created agents are a staple of fiction but technological advances are making them increasingly viable as a reality. These creations introduce thorny questions about their moral standing, including questions about whether they can be owned. In seven preregistered experiments ( N = 2,499), we investigated whether created agents are more likely to be seen as owned if they cause harm. This prediction was suggested by the hypothesis that ownership is sometimes used to express moral responsibility, though it runs against the tendency for harm to introduce restrictions on ownership. In all experiments, participants more often judged that created agents belonged to their inventors when they caused harm than when they did good. The final experiment then showed that these judgments do not strongly align with assessments of rights over created agents. Overall, the findings suggest that harmfulness changes the moral standing of created agents in a novel way, increasing perceptions of them as property.",
-          "url": "https://doi.org/10.1177/01461672261439251",
-          "doi": "https://doi.org/10.1177/01461672261439251",
-          "filter": 0,
-          "created": "2026-4-27"
-        },
-        {
-          "title": "Self-Esteem and Supportive Dyadic Coping in Intimate Relationships",
-          "authors": "Elisa Weber, Guy Bodenmann",
-          "abstract": "Prior research established positive ties between intimate partners’ self-esteem (SE) and support interactions, but evidence on whether intraindividual changes in SE and supportive dyadic coping are associated over time remains scarce. The present study tested prominent theories suggesting a reciprocal prospective relationship between SE, one’s own and partner’s supportive dyadic coping using 14 waves of nationally representative data totaling 13,683 young adults from Germany. We used random intercept cross-lagged panel models for data analysis. Our findings revealed significant reciprocal within-person transactions between SE, one’s own and partner’s dyadic coping over time. We conclude that high SE may boost positive support interactions in intimate relationships. At the same time, giving and receiving positive support in times of stress may strengthen intimate partners’ SE on the long run. Overall, our findings provide robust evidence that people’s support interactions and SE development go hand in hand within the context of intimate partner relationships.",
-          "url": "https://doi.org/10.1177/01461672261437933",
-          "doi": "https://doi.org/10.1177/01461672261437933",
-          "filter": 0,
-          "created": "2026-4-27"
         }
       ],
       "articles_hidden": []
@@ -569,6 +579,14 @@
       "journal_full": "Psychological Methods",
       "journal_short": "PM",
       "articles": [
+        {
+          "title": "A time-varying interaction map approach for longitudinal assessments.",
+          "authors": "Minjeong Jeon, Michael Schweinberger",
+          "url": "https://doi.org/10.1037/met0000825",
+          "doi": "https://doi.org/10.1037/met0000825",
+          "filter": 0,
+          "created": "2026-5-4"
+        },
         {
           "title": "Beyond the hype: A simulation study evaluating the predictive performance of machine learning models in psychology.",
           "authors": "Kim-Laura Speck, Kristin Jankowsky, Florian Scharf, Ulrich Schroeders",
@@ -610,13 +628,37 @@
           "created": "2026-4-28"
         },
         {
-          "title": "Tune in, recall more: Exploring the effects of a musical mnemonic device on children’s working memory",
-          "authors": "Katy Ieong Cheng Ho Weatherly, In Son Zeng, Ivy Ho I Chao, Yuqi Lin",
-          "abstract": "This study explored the impact of using a musical mnemonic device on enhancing memory retention in second-grade students ( N = 132) while learning a Chinese poem. The quasi-experimental design involved two groups of students: one receiving music-based instruction ( n = 65) and the other receiving traditional verbal instruction ( n = 67). Students’ recitation accuracy was assessed immediately after learning and 1 week later with repeated procedures. While initial findings revealed no significant difference in immediate performance between the groups ( p &gt; .05), notable improvements were observed in the experimental, music-based group after a one-week interval with a repeated procedure ( p &lt; .05), particularly for male students ( p &lt; .005). In addition, students with instrumental training outperformed their peers without such training, supporting the notion that music training could enhance working memory ( p &lt; .01). We also revealed that students’ retention of Chinese poems, especially for those in the lowest 10th percentile of accuracy, was significantly boosted by incorporating music after 1 week’s interval ( p &lt; .001). These results suggest that while music as a mnemonic device may not yield immediate benefits, it can potentially enhance memory retention over time.",
-          "url": "https://doi.org/10.1177/03057356261433599",
-          "doi": "https://doi.org/10.1177/03057356261433599",
+          "title": "Long-term impacts of health education on university music students: A retrospective qualitative case study",
+          "authors": "Clorinda Panebianco",
+          "abstract": "The high prevalence of physical and mental health problems among music students is well documented. To address playing-related health risks, many tertiary institutions include health education programmes in their core curricula; however, the long-term impact of these programmes remains unexplored. This study investigated the retrospective reflections of 10 fourth-year music students regarding a health education course they completed during their first year. The study aimed to explore the course’s perceived impact in fostering learning and behaviour change. The findings reveal that the course greatly enhanced students’ awareness and knowledge of health promotion and injury prevention. Participants reported substantial positive changes in health-related and practice-related behaviours, indicating transformative learning. These findings corroborate existing literature on the benefits of health-promotion programmes for music students, underscoring the essential role such courses play in music students’ education, providing valuable evidence for the long-term efficacy of musicians’ occupational health education.",
+          "url": "https://doi.org/10.1177/03057356261429836",
+          "doi": "https://doi.org/10.1177/03057356261429836",
           "filter": 0,
-          "created": "2026-4-27"
+          "created": "2026-5-4"
+        },
+        {
+          "title": "Perceptions of musical ability among a sample of adults in Turkey",
+          "authors": "Yusuf Dursun, Turan Sağer",
+          "abstract": "This study explored how adults in Turkey conceptualize musical ability through a mixed-methods design. Open-ended responses from 1,153 participants were thematically analyzed and categorized into six overarching themes. The most prevalent conceptualization defined musical ability as an innate, divinely inspired “gift from God” and an expression of the soul (32.7%), followed by themes of effort and learning (27.7%), emotional expressiveness (14.9%), privilege and specialness (9.4%), harmony with nature (8.2%), and creative freedom (7.1%). Quantitative analyses revealed significant demographic variations: women more frequently emphasized innate and spiritual qualities, while men highlighted creativity and autonomy; amateur musicians associated ability with emotion, whereas professionals placed less emphasis on this theme. Instrument players stressed discipline and learning, whereas non-players prioritized expressiveness. Regional patterns also emerged (e.g., Mediterranean participants favored spiritual definitions; Southeastern Anatolians highlighted nature-based intuitions). In contrast, perceptions were relatively stable across age, education, occupation, and socioeconomic status (SES), though subgroup trends (e.g., lawyers emphasizing effort) suggested nuanced social influences. These findings support socio-constructivist views of musical ability as both culturally situated and experientially shaped. The study contributes to cross-cultural music psychology by emphasizing the need for culturally responsive pedagogies that acknowledge diverse beliefs, experiences, and developmental trajectories in musical potential.",
+          "url": "https://doi.org/10.1177/03057356261436419",
+          "doi": "https://doi.org/10.1177/03057356261436419",
+          "filter": 0,
+          "created": "2026-4-29"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Psychology of Popular Media",
+      "journal_short": "PPM",
+      "articles": [
+        {
+          "title": "Prepare to DEI: Addressing GamerGate through political opinions and cultural values in gaming communities.",
+          "authors": "Sean Pauley, Wil Dubree, Brule E. Woods",
+          "url": "https://doi.org/10.1037/ppm0000672",
+          "doi": "https://doi.org/10.1037/ppm0000672",
+          "filter": 0,
+          "created": "2026-5-4"
         }
       ],
       "articles_hidden": []
@@ -625,14 +667,6 @@
       "journal_full": "Technology, Mind, and Behavior",
       "journal_short": "TMB",
       "articles": [
-        {
-          "title": "Toward an inclusive future: A user study on gender-sensitive design in online course advertising.",
-          "authors": "Lorena Göritz, Elif Yurtseven, Nina Kolchmeyer, Maja-Gwendoline Reibold, Nele Kälberloh, Glenn Schröer, Oliver Thomas",
-          "url": "https://doi.org/10.1037/tmb0000189",
-          "doi": "https://doi.org/10.1037/tmb0000189",
-          "filter": 0,
-          "created": "2026-4-27"
-        },
         {
           "title": "Scrolling through symptoms: A scoping review of professional mental health content on TikTok.",
           "authors": "Morgan E. Bloomfield, Alexandra Contreras, Christina Daou, Priscilla Rose Prasath",
