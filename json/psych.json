@@ -1,19 +1,10 @@
 {
-  "update": "2026-05-05",
+  "update": "2026-05-06",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
       "journal_short": "AMPPS",
       "articles": [
-        {
-          "title": "Fast-Track Your Abstract Screening: Mastering ASReview for Accelerating Abstract Screening and Evaluating Decisions From Automatic-Screening Methods",
-          "authors": "Tim Fütterer, Lars König, Diego G. Campos, Ronny Scherer, Steffen Zitzmann, Martin Hecht",
-          "abstract": "Research syntheses, such as systematic reviews and meta-analyses, are crucial for synthesizing research to support evidence-based decision-making. However, the abstract-screening phase, during which researchers evaluate titles and abstracts for inclusion, is highly time-consuming and often results in cognitive biases and fatigue. To address these challenges, machine-learning-assisted tools, particularly those using active learning, have gained prominence. One such tool is Active Screening Review (ASReview), an open-source software for semiautomating title and abstract screening in systematic reviews. ASReview incorporates user feedback to prioritize relevant studies, reducing screening time and improving efficiency. Despite its potential, many researchers remain uncertain about integrating ASReview into their workflows and making evidence-based decisions regarding the tool’s configuration, training, and stopping criteria. In this tutorial, we provide a step-by-step guide to using ASReview, including practical examples from psychological research. We demonstrate the software’s application in two use cases: screening unlabeled abstracts using active learning and verifying results from automated-screening methods. In the tutorial, we also offer evidence-based recommendations for selecting stopping rules to balance sensitivity and efficiency. We also outline strategies for prescreening, data-set preparation, model setup, and progress monitoring to ensure that researchers can maximize the tool’s benefits while maintaining scientific rigor. By offering evidence-based guidance at each stage of the process for practitioners without coding skills, in this tutorial, we aim to help researchers harness artificial-intelligence-aided screening to enhance the quality and efficiency of research syntheses across disciplines.",
-          "url": "https://doi.org/10.1177/25152459261442150",
-          "doi": "https://doi.org/10.1177/25152459261442150",
-          "filter": 0,
-          "created": "2026-4-28"
-        },
         {
           "title": "Enhancing Replicability and Reproducibility in Observational-Coding Research: A Tutorial in R",
           "authors": "Robert D. Henry",
@@ -31,6 +22,14 @@
       "journal_short": "BRM",
       "articles": [
         {
+          "title": "CLAP: A battery of measures to estimate language proficiency in native Chinese speakers",
+          "authors": "Anna H. S. Heng, Melvin J. Yap",
+          "url": "https://doi.org/10.3758/s13428-026-03028-7",
+          "doi": "https://doi.org/10.3758/s13428-026-03028-7",
+          "filter": 0,
+          "created": "2026-5-5"
+        },
+        {
           "title": "Towards a quantifiable measure of orthographic congruence between two languages",
           "authors": "Ding Yan, Paolo Mairano, Séverine Casalis",
           "url": "https://doi.org/10.3758/s13428-026-02981-7",
@@ -39,12 +38,30 @@
           "created": "2026-5-4"
         },
         {
-          "title": "Translation norms for English and Japanese translation pairs: Translation ambiguity, proficiency, and production errors",
-          "authors": "Diya P. Goyal, Noriko Hoshino, Natasha Tokowicz",
-          "url": "https://doi.org/10.3758/s13428-026-03018-9",
-          "doi": "https://doi.org/10.3758/s13428-026-03018-9",
+          "title": "A highly sensitive famous face recognition paradigm for prosopagnosia screening",
+          "authors": "Sarah Bate, Emma Portch, Olivia Dark, Rachel Bennetts",
+          "abstract": "Famous face recognition tasks have traditionally been used to diagnose prosopagnosia, offering striking examples of the inability to recognise highly familiar faces. Yet, their popularity has dwindled with the development of standardised unfamiliar face recognition tasks that are less cumbersome to administer and can readily be implemented online. Here, we argue that there is a danger of omitting measures of familiar face recognition from prosopagnosia screening: not only may this challenge the very definition of the condition, but, with some adjustments, famous face recognition tasks can continue to offer highly sensitive measures of everyday face recognition ability. Thus, we developed and evaluated an online, automated famous face recognition paradigm that can readily be implemented into large-scale screening programmes. This task improves on previous designs by (a) eliminating extrinsic cues to identity by including distractor as well as familiar faces, (b) supporting the use of unseen rather than “iconic” images of celebrities, and (c) offering a method for automated scoring. Multiple versions of the task were found to have high sensitivity in the detection of developmental prosopagnosia. When required, sub-scores collected from the same paradigm can be used to assess performance at different stages of recognition and identification, helping to probe more precise loci of impairment. The latter is important to guide the diagnosis of more complex cases and, potentially, their remediation.",
+          "url": "https://doi.org/10.3758/s13428-026-03033-w",
+          "doi": "https://doi.org/10.3758/s13428-026-03033-w",
           "filter": 0,
-          "created": "2026-4-28"
+          "created": "2026-5-5"
+        },
+        {
+          "title": "The Lucerne Groove Library: An audio stimulus corpus of 444 short Western popular music drum and bass patterns with behavioural, structural, and audio measurements",
+          "authors": "Toni A. Bechtold, Rafael Jerjen, Florian Hoesl, Lorenz Kilchenmann, Olivier Senn",
+          "url": "https://doi.org/10.3758/s13428-026-02989-z",
+          "doi": "https://doi.org/10.3758/s13428-026-02989-z",
+          "filter": 0,
+          "created": "2026-5-5"
+        },
+        {
+          "title": "Development and validation of an AI-generated real-world object stimuli set",
+          "authors": "Gerard Campbell, Graeme Nicholls, Rebecca Hart, Richard J. Allen, Claudia C. von Bastian, Melanie R. Burke, Mario Parra Rodriguez, Louise A. Brown Nicholls",
+          "abstract": "The availability of real-world object stimuli that meet researchers’ requirements is an ongoing challenge in visual cognition research. While numerous manually curated object stimulus sets exist, stimulus features such as size, color, and orientation tend to vary widely within a given set and may not be suitable for studies with specific requirements regarding these parameters. However, recent advances in artificial intelligence (AI) can facilitate the generation of highly realistic, custom-made stimuli. Building on these developments, the present study aimed to share a set of 200 AI-generated images of everyday objects for research use. The objects were oriented as though ‘placed’ on a flat surface, such that they could be naturally embedded in virtual scenes. Moreover, they were created in greyscale and suitable for rendering in different colors. Here, we report the method used to efficiently generate the stimuli, as well as the results from a validation study in which we assessed the nameability, perceived realism and familiarity of the stimuli in a sample of 45 younger (18–35) and 45 older (65–85) adults. As anticipated, the majority of the stimuli were rated highly across all three measures, and no significant age differences were observed. The results thus validated most of the stimuli for future research. The stimuli, each in seven colors, and the corresponding validation scores are openly available for future use. Low-level image statistics of mean brightness and contrast for each image are also included in the dataset.",
+          "url": "https://doi.org/10.3758/s13428-026-03021-0",
+          "doi": "https://doi.org/10.3758/s13428-026-03021-0",
+          "filter": 0,
+          "created": "2026-5-5"
         },
         {
           "title": "Word frequency and contextual diversity measures for Singapore English",
@@ -56,13 +73,13 @@
           "created": "2026-4-29"
         },
         {
-          "title": "Comparing age differences in cognition, personality, and political orientation across six online recruitment platforms",
-          "authors": "Michael S. Cohen, Karolina M. Lempert, David A. Wolk, Joseph W. Kable",
-          "abstract": "Aging is typically associated with characteristic changes to cognitive function, personality, and political orientation. While online data collection for psychological research has greatly increased in frequency, there has been little systematic examination of whether online samples are appropriate for studying aging. Here, we examine whether typical age-related differences in cognitive function, personality, and political orientation are replicated in online samples. We measured cognitive performance using tests of vocabulary, processing speed, memory, and attention developed by the TestMyBrain Project; personality using the Big Five Inventory; and political orientation following the ANES survey format. At least 200 participants each were sampled from three crowdsourcing websites (Amazon MTurk, CloudResearch MTurk Toolkit, and Prolific) and three panel recruitment websites (Lucid, CloudResearch PrimePanels, and Qualtrics Panels), with age ranging from 18 to 92 years across platforms. On all six platforms, consistent with established findings, age was positively correlated with vocabulary performance and negatively correlated with processing speed. Additionally, in all six samples, consistent with prior studies, age was associated with higher Agreeableness, lower Neuroticism, and greater political conservatism. There were some differences between crowdsourced and panel samples, however. Performance on cognitive measures was broadly better for crowdsourced samples. The correlations between age and Openness and Extraversion differed between crowdsourced and panel samples, with trends in panel samples likely more comparable to the ground truth. Finally, MTurk produced some discrepant effects of age on cognition relative to other crowdsourced platforms. Beyond these differences, though, our results are broadly encouraging for the prospect of studying aging via online experiments.",
-          "url": "https://doi.org/10.3758/s13428-026-03027-8",
-          "doi": "https://doi.org/10.3758/s13428-026-03027-8",
+          "title": "A novel bias-free approach for robust perceptual threshold estimation",
+          "authors": "Luca Tarasi, Margherita Covelli, Caterina Bertini, Vincenzo Romei",
+          "abstract": "Perceptual threshold estimation stands as a fundamental variable manipulation in psychology and neuroscience, fine-tuning sensory input intensity to align perceptual precision across individuals. Current methods, such as constant stimuli and staircase procedures, inaccurately assume that perceptual thresholds are influenced solely by sensitivity, overlooking the role of response biases and consequently leading to unreliable estimates. The underlying reason is that classical methods traditionally focus on hit rates—the correct detection of stimuli—while neglecting false alarms, where participants incorrectly report a stimulus when none is present. According to signal detection theory, hit rates can arise from genuine sensitivity or a liberal response criterion, making it crucial to account for both measures. To overcome this confound, we developed bias-free versions of these methods by including target-absent trials to factor in decisional bias during threshold evaluation. Across 74 participants, we robustly demonstrated that widely used classical procedures overestimate perceptual thresholds due to uncontrolled interindividual variability in participant criterion. Conversely, the bias-free staircase procedure achieved reliable sensitivity thresholds, effectively mitigating the influence of decisional bias. We strongly advocate for the adoption of this straightforward, bias-free approach. Its effectiveness, simplicity, and quick execution make it highly feasible for widespread use in enhancing the reliability of threshold estimation and reducing variability in future scientific investigations across various fields.",
+          "url": "https://doi.org/10.3758/s13428-026-03038-5",
+          "doi": "https://doi.org/10.3758/s13428-026-03038-5",
           "filter": 0,
-          "created": "2026-4-28"
+          "created": "2026-5-5"
         },
         {
           "title": "From theory to practice: A comprehensive toolkit for Q-matrix validation in cognitive diagnosis",
@@ -71,6 +88,15 @@
           "doi": "https://doi.org/10.3758/s13428-026-02991-5",
           "filter": 0,
           "created": "2026-5-4"
+        },
+        {
+          "title": "Why the binary latent growth model is not a special case of the ordinal latent growth model: Theoretical arguments and empirical evidence",
+          "authors": "Kyungmin Lim, Su-Young Kim",
+          "abstract": "In the structural equation modeling framework, binary variable models are generally considered a special case of ordinal variable models, as both involve similar scale assignment processes. However, the scaling processes of the two model types differ, with these differences becoming increasingly pronounced in the context of latent growth models (LGMs). To define scale units, the two types of LGMs—specifically, one with ordinal variables and the other with binary variables—depend on different observed scale references, such as thresholds and standard deviations, which are derived from observed categorical variables. Applying distinct observed scale references to binary and ordinal LGMs results in systematic differences in the scale units of their corresponding latent response variables. Consequently, in binary LGMs, the transformed latent response variables used for model estimation may fail to accurately reflect the corresponding population information, and as a result, their parameter estimates are more likely to be systematically biased than those obtained from ordinal LGMs. This study investigates the impact of these differences on estimating ordinal and binary LGMs and underscores potential estimation concerns in binary LGMs from both theoretical and empirical perspectives.",
+          "url": "https://doi.org/10.3758/s13428-026-03043-8",
+          "doi": "https://doi.org/10.3758/s13428-026-03043-8",
+          "filter": 0,
+          "created": "2026-5-5"
         },
         {
           "title": "Running virtual reality experiments online: A brief introduction and tutorial",
@@ -203,20 +229,20 @@
           "created": "2026-1-19"
         },
         {
-          "title": "The impact of generative artificial intelligence usage on job performance through job crafting and work engagement: Does digital competence matter?",
-          "authors": "Bui Nhat Vuong",
-          "url": "https://doi.org/10.1016/j.chb.2026.108921",
-          "doi": "https://doi.org/10.1016/j.chb.2026.108921",
-          "filter": 0,
-          "created": "2026-1-15"
-        },
-        {
           "title": "Social bonding through expressed needs: Insights from an identity-shape matching task",
           "authors": "Su-Ling Yeh, Ti-Fan Hung, Te-Yi Hsieh, Chia-Huei Tseng",
           "url": "https://doi.org/10.1016/j.chb.2026.108917",
           "doi": "https://doi.org/10.1016/j.chb.2026.108917",
           "filter": 0,
           "created": "2026-1-17"
+        },
+        {
+          "title": "The impact of generative artificial intelligence usage on job performance through job crafting and work engagement: Does digital competence matter?",
+          "authors": "Bui Nhat Vuong",
+          "url": "https://doi.org/10.1016/j.chb.2026.108921",
+          "doi": "https://doi.org/10.1016/j.chb.2026.108921",
+          "filter": 0,
+          "created": "2026-1-15"
         },
         {
           "title": "Immersive technologies and intergroup relations: A critical review of theoretical questions and methodological challenges",
@@ -292,6 +318,14 @@
       "journal_full": "Journal of Experimental Social Psychology",
       "journal_short": "JESP",
       "articles": [
+        {
+          "title": "Learning to distrust: One trust experience changes the expected value of trust",
+          "authors": "Annabelle R. Roberts, Emma E. Levine, Jane L. Risen",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104930",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104930",
+          "filter": 0,
+          "created": "2026-5-5"
+        },
         {
           "title": "Dissecting cross-category recognition: A methodological test of the theory of perceptual expertise",
           "authors": "Brandon Cohen, Joshua Correll, Balbir Singh, Anjana Lakshmi",
@@ -618,15 +652,6 @@
       "journal_full": "Psychology of Music",
       "journal_short": "PsychMusic",
       "articles": [
-        {
-          "title": "Psychometric validation and factorial structure of the Chinese version of the Kenny Music Performance Anxiety Inventory (K-MPAI)",
-          "authors": "Weiyu Zhao, Kwanyie Wong",
-          "abstract": "This study represents the validation of the Kenny Music Performance Anxiety Inventory (K-MPAI) for Mandarin-speaking musicians in Mainland China, examining its factor structure in two distinct populations: pre-college students ( n = 287) and professional musicians ( n = 453). Exploratory and confirmatory factor analyses revealed consistent three-factor solutions in both groups, aligning closely with Kenny’s theoretical framework of music performance anxiety (MPA). Specifically, pre-college musicians demonstrated factors labeled “MPA symptoms,” “psychological vulnerability,” and “negative affect/depression,” while professional musicians revealed factors named “MPA symptoms,” “psychological vulnerability/negative affect,” and “control-trust.” Measurement invariance analysis confirmed strong psychometric comparability between the two samples, validating cross-group comparisons. Notably, while core anxiety and vulnerability constructs aligned closely with international validations, culturally specific divergences emerged, such as the distinct splitting of psychological vulnerability in pre-college musicians and the unexpected emergence of a “control-trust” factor among professionals. These unique aspects highlight potential cultural nuances in how anxiety and vulnerability are conceptualized among Chinese musicians. This study affirms the K-MPAI’s suitability as a robust measure of MPA in China, contributing foundational insights for culturally sensitive assessment and intervention.",
-          "url": "https://doi.org/10.1177/03057356261436414",
-          "doi": "https://doi.org/10.1177/03057356261436414",
-          "filter": 0,
-          "created": "2026-4-28"
-        },
         {
           "title": "Long-term impacts of health education on university music students: A retrospective qualitative case study",
           "authors": "Clorinda Panebianco",

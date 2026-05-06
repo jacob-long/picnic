@@ -1,5 +1,5 @@
 {
-  "update": "2026-05-05",
+  "update": "2026-05-06",
   "content": [
     {
       "journal_full": "Journal of Elections, Public Opinion and Parties",
@@ -45,6 +45,15 @@
           "doi": "https://doi.org/10.1177/0282423x261424813",
           "filter": 0,
           "created": "2026-5-4"
+        },
+        {
+          "title": "Geographical Rezoning as a Combinatorial Game: Case Study of the Australian Statistical Geography Standard",
+          "authors": "Filip Juricev-Martincev, Helen Thompson, Gentry White",
+          "abstract": "Geographical rezoning is a combinatorial optimization problem of assigning basic spatial units into regions for statistical analysis and the publication of official government statistics, such as the Census. We propose a novel approach by reframing this problem into a single-player, deterministic, fully-informative, finite combinatorial game; or simply, a single-player puzzle. This definition allows effective and systematic exploration of state-space, and offers perfect information guarantees, as well as decouples the problem definition from a specific solver algorithm. We take an existing combinatorial algorithm called HeLP (Hierarchical Land Parcel Aggregation), and combine its rezoning heuristic with a game-playing algorithm, Monte Carlo tree search, to create three new game-playing solvers for the geographical rezoning problem. A case study was conducted on a real-world data set in Canberra, Australia, on the Australian Statistical Geography Standard (ASGS). Our Monte Carlo implementations, HeLP-MCTS, HeLP-RAVE, and HeLP-RHEA, were tested on simulated data and have yielded a 50.25%, 28.77%, and 57.02% increase in the mean value of the partitioning heuristic function, respectively, compared to a combinatorial solver HeLP. We have also computationally improved the original HeLP algorithm, offering significant speed increases.",
+          "url": "https://doi.org/10.1177/0282423x261429706",
+          "doi": "https://doi.org/10.1177/0282423x261429706",
+          "filter": 0,
+          "created": "2026-5-6"
         }
       ],
       "articles_hidden": []
@@ -61,6 +70,15 @@
           "doi": "https://doi.org/10.1093/jssam/smaf045",
           "filter": 0,
           "created": "2025-11-17"
+        },
+        {
+          "title": "Improving the Measurement of Gender in Surveys: Effects of Select-One or Select-all-that-Apply Response Format on Measurement and Data Quality Among College Students",
+          "authors": "Dana Garbarski, Jennifer Dykema, James A Yonker, Rosie Eungyuhl Bae, Michael Topping",
+          "abstract": "Recent guidelines on the measurement of gender in surveys recommend a two-step strategy that asks about sex assigned at birth followed by current gender identity using a small number of offered response categories (e.g., female, male, transgender) and an open response field to capture any residual categories (“not listed, please tell us”). However, more research on several fronts is needed to continue to refine our measurement strategies across contexts, and this work continues to be critically important with the dismantling of federally funded research regarding gender identity. In the current study, we examine the impact of response format on the measurement of gender identity. This study reports results from a between-subjects experiment embedded in a campus climate survey about inclusion and belonging at a large Midwestern university in Fall 2024. Over 16,000 students were asked, “What is your gender?” and subsequently randomly assigned to respond using one of two response formats. The first allowed respondents to “select-one” of the response options “woman, man, nonbinary, not listed (please tell us),” and was followed by the question “Are you transgender? Yes/No.” The second included the response options “woman, man, nonbinary, transgender, not listed (please tell us)” and instructed respondents to “select all that apply.” We examine the distribution of responses, item nonresponse, the number of gender categories reported, response times, and concurrent validity (in terms of the association between gender and survey outcomes about campus climate) across the two formats. While the results mainly show similarities in outcomes between the response formats, respondents are more likely to indicate they are transgender in the “select-one” format. By contrast, respondents are more likely to indicate gender expansiveness other than “transgender” or “nonbinary” with the “select-all” format. We discuss the implications of these findings for future research.",
+          "url": "https://doi.org/10.1093/jssam/smaf058",
+          "doi": "https://doi.org/10.1093/jssam/smaf058",
+          "filter": 0,
+          "created": "2025-12-9"
         }
       ],
       "articles_hidden": []
@@ -70,36 +88,12 @@
       "journal_short": "PGI",
       "articles": [
         {
-          "title": "The summer of 2020: racialized framing and how threat is used to oppose social activism",
-          "authors": "J. Scott Carter, Annie Jones",
-          "url": "https://doi.org/10.1080/21565503.2026.2658799",
-          "doi": "https://doi.org/10.1080/21565503.2026.2658799",
+          "title": "Anti-Indigenous attitudes and divided support: the Indigenous voice and public opinion in Australia",
+          "authors": "Raymond Foxworth, Carew Boulding, Sarah Maddison, Edana Beauvais",
+          "url": "https://doi.org/10.1080/21565503.2026.2658785",
+          "doi": "https://doi.org/10.1080/21565503.2026.2658785",
           "filter": 0,
-          "created": "2026-4-28"
-        },
-        {
-          "title": "Showing up is the hardest part: examining geographical barriers to immigration court access",
-          "authors": "Miranda E. Sullivan",
-          "url": "https://doi.org/10.1080/21565503.2026.2658786",
-          "doi": "https://doi.org/10.1080/21565503.2026.2658786",
-          "filter": 0,
-          "created": "2026-4-28"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Social Science Computer Review",
-      "journal_short": "SSCR",
-      "articles": [
-        {
-          "title": "A Bottom-Up Approach for Ecological Inference",
-          "authors": "Jose M. Pavía, Alberto Penadés",
-          "abstract": "The ecological inference canonical problem in the social sciences consists of estimating the unobserved internal counts of a global RxC table from the known margins of a set of units. This paper proposes a new, computation-based strategy designed to better exploit the information contained in the unit margins. This approach can be integrated into any ecological inference method that explicitly estimates unit tables and accounts for differences in unit size. We evaluate its performance using as a baseline the fastest ecological inference linear programming method, relying on real electoral data from over 550 datasets where true contingency tables are known. In this extensive assessment, the proposed strategy reduces average global errors by more than 21% relative to the baseline, outperforming it in 95% of cases. It also improves upon nslphom—identified in the literature as the most accurate algorithm for this dataset—reducing average global errors by over 5% and outperforming it in 60% of cases. The versatility of the approach is further illustrated by also integrating it into three more computationally intensive methods, including the two main statistical ecological inference models—ei.MD.bayes and BPF—and nslphom, yielding consistent improvements over their respective baselines in a small set of examples.",
-          "url": "https://doi.org/10.1177/08944393261446901",
-          "doi": "https://doi.org/10.1177/08944393261446901",
-          "filter": 0,
-          "created": "2026-4-28"
+          "created": "2026-5-5"
         }
       ],
       "articles_hidden": []
