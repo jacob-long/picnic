@@ -17,6 +17,7 @@ jobs:
         with:
           path: main_folder
           ref: main
+          fetch-depth: 0
 
       # Step 2: Install system dependencies
       - name: Install system dependencies
@@ -29,7 +30,9 @@ jobs:
       - name: Setup R
         uses: r-lib/actions/setup-r@v2
         with:
-          r-version: 'release'
+          # `release` moved to R 4.6.0, which breaks the locked base64enc build.
+          # Pin to the last known good runner version until the renv lockfile is refreshed.
+          r-version: '4.5.3'
 
       # Step 4: Set up renv (caches packages and restores the environment from renv.lock)
       - name: Set up renv
@@ -73,5 +76,8 @@ jobs:
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git add . && git commit -m "Data updated"
+          git add .
+          git diff --staged --quiet && exit 0
+          git commit -m "Data updated"
+          git pull --rebase origin main
           git push origin

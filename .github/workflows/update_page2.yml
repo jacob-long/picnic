@@ -8,6 +8,7 @@ on:
 
 jobs:
   crawl:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
@@ -15,21 +16,38 @@ jobs:
         with:
           path: main_folder
           ref: main
+          fetch-depth: 0
 
       - name: Check out repository
         uses: actions/checkout@v4
         with:
           path: gh_pages_folder
           ref: gh-pages
+          fetch-depth: 0
 
-      - name: Commit to gh-pages branch 
+      - name: Copy generated data
         working-directory: ./gh_pages_folder
         run: |
           mkdir -p ./_data
           mkdir -p ./json
           cp -f ../main_folder/output/* ./_data/
           cp -f ./_data/* ./json/
+
+      - name: Validate copied data for Jekyll
+        working-directory: ./gh_pages_folder
+        run: |
+          ruby -e 'require "psych"; Dir["_data/*.json"].sort.each { |file| Psych.safe_load_file(file) }'
+
+      - name: Commit to gh-pages branch
+        working-directory: ./gh_pages_folder
+        run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git add . && git commit -m "Data updated"
+          git add .
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Data updated"
+          git pull --rebase origin gh-pages
           git push origin

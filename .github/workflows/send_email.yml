@@ -31,6 +31,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: main
+          fetch-depth: 0
 
       - name: Install system dependencies
         run: |
@@ -40,7 +41,9 @@ jobs:
       - name: Setup R
         uses: r-lib/actions/setup-r@v2
         with:
-          r-version: 'release'
+          # `release` moved to R 4.6.0, which breaks the locked base64enc build.
+          # Pin to the last known good runner version until the renv lockfile is refreshed.
+          r-version: '4.5.3'
 
       - name: Set up renv
         uses: r-lib/actions/setup-renv@v2
@@ -110,5 +113,7 @@ jobs:
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
           git add memory/last_email_*.txt || true
-          git diff --staged --quiet || git commit -m "Update email sent timestamps"
-          git push origin || true
+          git diff --staged --quiet && exit 0
+          git commit -m "Update email sent timestamps"
+          git pull --rebase origin main
+          git push origin
