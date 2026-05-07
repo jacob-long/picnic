@@ -1,10 +1,28 @@
 {
-  "update": "2026-05-06",
+  "update": "2026-05-07",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
       "journal_short": "AMPPS",
       "articles": [
+        {
+          "title": "Practice What You Preach: Designing Student Assignments That Advance Open and Reproducible Science",
+          "authors": "James Bartlett, Gaby Mahrholz, Emily Nordmann",
+          "abstract": "Since the replication crisis came to widespread attention in psychology, there has been significant progress in reforming research practices to be more open and reproducible. However, the integration of these principles into teaching—particularly assessment—has lagged behind. Although many open educational resources have been developed to support the teaching of open science, fewer efforts have focused on embedding open science into how students are assessed. In this commentary, we address that gap by offering a series of practical, scalable strategies for integrating open and reproducible science into psychology education through assessment. We argue that to normalize open science, students must not only learn about its principles but also be assessed on their understanding and application of them. Drawing on examples from our undergraduate and postgraduate programs and the wider literature, we outline a range of assessment strategies aligned with curriculum standards and pedagogical evidence. These include incorporating preregistration and registered reports, evaluating reproducibility through code and data submission, engaging students in peer review and code review, and integrating open-science concepts into essays, multiple-choice exams, and final dissertations. We highlight that even small changes at the course level can promote open science and that educators should approach implementation flexibly, recognizing it as a continuum rather than a binary shift. We also stress the need to avoid framing open science as overly technical or inaccessible, which may discourage student engagement. By embedding open and reproducible practices into assessment design, educators can support the development of critical, ethical, and transparent future scientists.",
+          "url": "https://doi.org/10.1177/25152459261425883",
+          "doi": "https://doi.org/10.1177/25152459261425883",
+          "filter": 0,
+          "created": "2026-5-6"
+        },
+        {
+          "title": "Advancing Psychological Research With Random Forests: A Review of Methods, Tools, and Applications",
+          "authors": "Yi Feng, Han Du, Jiarui Song, Yina Sun, Yiting Wang, Aedan Joel",
+          "abstract": "Contemporary psychological research increasingly involves machine-learning techniques, including random forests, for their capability in analyzing complex, high-dimensional data sets and modeling nonlinear predictive relations. In this article, we provide a comprehensive review of random-forest methods in psychological research. We begin by introducing the fundamental concepts of decision trees, followed by the theoretical framework of random forests as an ensemble method. Next, we review the methodological development and commonly used software tools for random-forest models. We discuss the practical issues and challenges when implementing random forests in psychological studies. Importantly, we then systematically review the empirical psychological research articles published between 2020 and 2022 that used random forests; we summarize the applications of random forests, with a special emphasis on data structure, software implementation, hyperparameter tuning, and approaches for handling missing data. By synthesizing the theoretical foundation and current empirical practices, in this article, we identify significant methodological gaps in applying random forests to psychological data and hope to initiate much needed conversations on how psychologists can effectively use the random-forest method to advance psychological science.",
+          "url": "https://doi.org/10.1177/25152459251404358",
+          "doi": "https://doi.org/10.1177/25152459251404358",
+          "filter": 0,
+          "created": "2026-5-6"
+        },
         {
           "title": "Enhancing Replicability and Reproducibility in Observational-Coding Research: A Tutorial in R",
           "authors": "Robert D. Henry",
@@ -64,15 +82,6 @@
           "created": "2026-5-5"
         },
         {
-          "title": "Word frequency and contextual diversity measures for Singapore English",
-          "authors": "Zehua R. Jiang, Cynthia S. Q. Siew",
-          "abstract": "Singapore English, shaped by unique historical and sociocultural factors, diverges significantly from American and British English varieties. Despite its centrality in Singapore’s communication landscape, comprehensive word frequency estimates for this dialect have been lacking, limiting psycholinguistic research that accurately reflects local language processing. Dialectal variation fundamentally influences cognitive mechanisms, and neglecting these differences can distort theoretical models of language processing. This study addresses this gap by constructing word frequency (WF) and contextual diversity (CD) estimates from the National Speech Corpus (NSC), a large-scale speech corpus of Singapore English. We analyzed three NSC subparts comprising over 10,000 transcripts and 30 + million words to generate frequency estimates for 50,000 words, including both standard and uniquely Singaporean terms. To validate these measures, we used lexical decision data from the Auditory English Lexicon Project, featuring Singaporean participants who responded to stimuli across different accent conditions. Linear and binomial mixed-effect models compared NSC-based estimates against SUBTLEX-US and SUBTLEX-UK in predicting reaction times and accuracy. NSC estimates produced the lowest Akaike information criterion (AIC) values across both British and Singaporean accents, indicating superior fit to local language processing patterns. These results demonstrate that WF and CD effects are shaped by specific language experiences and highlight the necessity of dialect-appropriate psycholinguistic tools. This database advances cognitive science by enabling more accurate modeling of dialect-sensitive language processing, representing one of the largest psycholinguistic resources available for a less-studied English variety, and underscores the importance of developing similar resources for other English varieties worldwide.",
-          "url": "https://doi.org/10.3758/s13428-026-03012-1",
-          "doi": "https://doi.org/10.3758/s13428-026-03012-1",
-          "filter": 0,
-          "created": "2026-4-29"
-        },
-        {
           "title": "A novel bias-free approach for robust perceptual threshold estimation",
           "authors": "Luca Tarasi, Margherita Covelli, Caterina Bertini, Vincenzo Romei",
           "abstract": "Perceptual threshold estimation stands as a fundamental variable manipulation in psychology and neuroscience, fine-tuning sensory input intensity to align perceptual precision across individuals. Current methods, such as constant stimuli and staircase procedures, inaccurately assume that perceptual thresholds are influenced solely by sensitivity, overlooking the role of response biases and consequently leading to unreliable estimates. The underlying reason is that classical methods traditionally focus on hit rates—the correct detection of stimuli—while neglecting false alarms, where participants incorrectly report a stimulus when none is present. According to signal detection theory, hit rates can arise from genuine sensitivity or a liberal response criterion, making it crucial to account for both measures. To overcome this confound, we developed bias-free versions of these methods by including target-absent trials to factor in decisional bias during threshold evaluation. Across 74 participants, we robustly demonstrated that widely used classical procedures overestimate perceptual thresholds due to uncontrolled interindividual variability in participant criterion. Conversely, the bias-free staircase procedure achieved reliable sensitivity thresholds, effectively mitigating the influence of decisional bias. We strongly advocate for the adoption of this straightforward, bias-free approach. Its effectiveness, simplicity, and quick execution make it highly feasible for widespread use in enhancing the reliability of threshold estimation and reducing variability in future scientific investigations across various fields.",
@@ -97,33 +106,6 @@
           "doi": "https://doi.org/10.3758/s13428-026-03043-8",
           "filter": 0,
           "created": "2026-5-5"
-        },
-        {
-          "title": "Running virtual reality experiments online: A brief introduction and tutorial",
-          "authors": "Levi Kumle, Alfie Brazier, Joel Kovoor, Johannes Keil, Anna C. Nobre, Dejan Draschkow",
-          "abstract": "Achieving meaningful and representative findings in cognitive/behavioural research requires both externally valid experimental settings and representative participant samples. Virtual reality (VR) has become a powerful tool for enhancing realism while maintaining control of experimental environments. Simultaneously, online testing broadens and diversifies samples. Combining these approaches—running VR experiments online—is compelling but remains challenging due to incompatibilities between tools used in lab-based VR studies and online testing. This paper offers a practical solution to bridge this gap. We provide a brief overview of current approaches to online VR experimentation and offer a step-by-step tutorial for converting lab-based VR studies into remote deployments using Unity and Steam. Further, we share an open-source onlineVR-toolbox—including code, example workflows, and practical Notebooks—to facilitate critical processes such as secure data transfer and participant management. To validate this approach, we present a proof-of-concept case study replicating a well-established memory effect. Our results demonstrate that remote data collection via Steam is technically feasible and yields results consistent with laboratory-based findings. Together, our tutorial, tools, and case study show that online VR studies are possible and practical, opening the door to more scalable, inclusive, and externally valid behavioural science.",
-          "url": "https://doi.org/10.3758/s13428-026-03025-w",
-          "doi": "https://doi.org/10.3758/s13428-026-03025-w",
-          "filter": 0,
-          "created": "2026-4-29"
-        },
-        {
-          "title": "Centroid analysis: Inferring concept representations from open-ended word responses",
-          "authors": "Aliona Petrenco, Fritz Günther",
-          "abstract": "The present research proposes and evaluates a novel method – centroid analysis – for measuring representations and concepts at both individual and group levels by mapping open-ended responses onto a pre-existing semantic vector space. Centroid analysis allows us to retrace the target concept as the geometric center of the semantic vectors of the responses generated by this concept. At the group level, centroid analysis enables researchers to compare conceptual structures across different populations to investigate how factors such as language, culture, cognitive differences, educational background, or exposure to specific narratives shape shared representations. At the individual level, centroid analysis enables fine-grained assessments of how personal experiences, expertise, cognitive styles, and even temporary contextual influences affect conceptual representations. We evaluate this method using two distributional semantic models across several calculation methods, reference lexicon sizes, response types, and datasets with tasks ranging from single-word substitutions to single and multiple free associations and multiple feature generation. We conclude that at the group level, the best method to retrace the response-generating concept as a vector in a multi-dimensional semantic space from the averaged vectors of participant responses is to collect multiple free associations (70 unique and 245 total responses per target), use fastText for meaning-to-vector mapping for responses and targets, and to consider each response in the centroid calculation as often as it occurred in the data. At the individual level, the best results are achieved by employing fastText and considering at least eight responses per item per participant in the centroid calculation.",
-          "url": "https://doi.org/10.3758/s13428-026-03031-y",
-          "doi": "https://doi.org/10.3758/s13428-026-03031-y",
-          "filter": 0,
-          "created": "2026-4-29"
-        },
-        {
-          "title": "A tutorial for calculating field-specific effect size distributions",
-          "authors": "Bernt D. Glaser, Heemin Kang, Kristin Audunsdottir, Alina I. Sartorius, Daniel S. Quintana",
-          "abstract": "Effect sizes are useful for understanding the magnitude of study results and for planning new studies via power analysis. However, despite their wide usage, effect sizes are often misinterpreted. This is mostly due to an over-reliance on general effect size benchmarks that were not intended for broad application across diverse research fields. Inaccurate effect size interpretations can lead to incorrect conclusions about the magnitude of study results and incorrect sample size estimates, thereby increasing the likelihood of false-positive results. This article introduces the ESDist R package, which is designed to calculate empirically derived effect-size benchmarks or a range of reliably detectable empirical effect sizes for a specific research question or field of interest by computing effect size distributions (ESDs). This package can be used on data that can be easily extracted from pre-existing meta-analyses to help researchers more accurately plan new studies or to better understand how an individual study might relate to other studies in their field. ESDist includes a set of features that make it easy to use in a priori power analysis. Moreover, the package includes a feature for estimating effect size benchmarks that account for publication bias and are weighted by effect sizes' variances, which addresses existing limitations of using ESDs for study planning or interpretation.",
-          "url": "https://doi.org/10.3758/s13428-026-03003-2",
-          "doi": "https://doi.org/10.3758/s13428-026-03003-2",
-          "filter": 0,
-          "created": "2026-4-29"
         },
         {
           "title": "Measuring intellectual humility through situated behavior: An alternative to dispositional self-reports",
@@ -229,20 +211,20 @@
           "created": "2026-1-19"
         },
         {
-          "title": "Social bonding through expressed needs: Insights from an identity-shape matching task",
-          "authors": "Su-Ling Yeh, Ti-Fan Hung, Te-Yi Hsieh, Chia-Huei Tseng",
-          "url": "https://doi.org/10.1016/j.chb.2026.108917",
-          "doi": "https://doi.org/10.1016/j.chb.2026.108917",
-          "filter": 0,
-          "created": "2026-1-17"
-        },
-        {
           "title": "The impact of generative artificial intelligence usage on job performance through job crafting and work engagement: Does digital competence matter?",
           "authors": "Bui Nhat Vuong",
           "url": "https://doi.org/10.1016/j.chb.2026.108921",
           "doi": "https://doi.org/10.1016/j.chb.2026.108921",
           "filter": 0,
           "created": "2026-1-15"
+        },
+        {
+          "title": "Social bonding through expressed needs: Insights from an identity-shape matching task",
+          "authors": "Su-Ling Yeh, Ti-Fan Hung, Te-Yi Hsieh, Chia-Huei Tseng",
+          "url": "https://doi.org/10.1016/j.chb.2026.108917",
+          "doi": "https://doi.org/10.1016/j.chb.2026.108917",
+          "filter": 0,
+          "created": "2026-1-17"
         },
         {
           "title": "Immersive technologies and intergroup relations: A critical review of theoretical questions and methodological challenges",
@@ -301,15 +283,6 @@
           "doi": "https://doi.org/10.1177/13684302261435062",
           "filter": 0,
           "created": "2026-4-30"
-        },
-        {
-          "title": "How sport participation influences intergroup bias: A social mindfulness perspective",
-          "authors": "Biye Wang, Tao Tao, Wei Guo",
-          "abstract": "Social mindfulness (SoMi), defined as demonstrating goodwill with minimal resources, is a central component of prosociality. Although sport participation has been associated with changes in prosocial behavior, its influence on intergroup bias in SoMi remains unclear. This research used four studies ( N = 463) with adapted SoMi and minimal group paradigms to explore this issue in adolescents. Studies 1 and 2 demonstrated that sport participation significantly reduced intergroup bias, particularly by increasing SoMi behaviors toward outgroup members, with variations across different sport contexts. In Study 3, the roles of cooperation and competition within sport participation were examined separately, revealing that cooperation heightened ingroup favoritism while competition increased outgroup derogation. Study 4 examined these effects in non-sport contexts, revealing that competition fostered both ingroup favoritism and outgroup derogation, whereas cooperation did not significantly affect overall bias but alleviated outgroup derogation. These findings suggest that sport participation can substantially influence intergroup bias in SoMi through sport-specific mechanisms of cooperation and competition.",
-          "url": "https://doi.org/10.1177/13684302261435061",
-          "doi": "https://doi.org/10.1177/13684302261435061",
-          "filter": 0,
-          "created": "2026-4-29"
         }
       ],
       "articles_hidden": []
@@ -325,6 +298,14 @@
           "doi": "https://doi.org/10.1016/j.jesp.2026.104930",
           "filter": 0,
           "created": "2026-5-5"
+        },
+        {
+          "title": "Trust under watch: Relational models and the context-dependent nature of monitoring",
+          "authors": "Anna O. Kuzminska, Maryam Khan, Pelin Kesebir, Tomasz Zaleskiewicz, Agata Gasiorowska",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104935",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104935",
+          "filter": 0,
+          "created": "2026-5-6"
         },
         {
           "title": "Dissecting cross-category recognition: A methodological test of the theory of perceptual expertise",
@@ -589,22 +570,13 @@
       "journal_short": "PSPB",
       "articles": [
         {
-          "title": "What Makes a Habit? Investigating Potential Determinants of Habit Formation",
-          "authors": "Sebastian Bürgler, Marina Milyavskaya, Gail McMillan, Rachel J. Burns, Phillippa Lally, Benjamin Gardner",
-          "abstract": "Habitual behaviors are automatic responses to specific cues, acquired through repetition in stable contexts. While habits can support long-term behavior change, relatively little is known about which factors influence their development. We conducted a preregistered reanalysis of a 6-month longitudinal study on habit formation during the COVID-19 pandemic. Participants ( N = 254) completed monthly surveys assessing behavioral automaticity (i.e., habit) and 10 potential determinants. Cluster analyses revealed two trajectories: habit formation and habit degradation, with cluster membership differing by behavioral complexity, frequency, and context stability. Multilevel models showed that six determinants were significantly associated with habit strength: autonomous motivation, behavior frequency, context stability, feeling energized, feeling pleased (positive), and perceived difficulty (negative). A significant interaction between time and behavior frequency emerged after correcting for multiple testing. Findings underscore the dynamic nature of habits and suggest that tailored interventions may be especially important during early formation and to prevent later degradation.",
-          "url": "https://doi.org/10.1177/01461672261440446",
-          "doi": "https://doi.org/10.1177/01461672261440446",
+          "title": "Survivors as Agents: How Linguistic Agency Impacts Support for Survivors and Perpetrators of Sexual Assault",
+          "authors": "Darla Bonagura, Jenae Bluhm, Clara Bunnell, Wen Lou, Sarah Ariel Lamer",
+          "abstract": "News media has become increasingly supportive of women who report sexual assault, potentially increasing public support for survivors. Support in the news typically involves granting survivors agency, but theories of morality would predict that linking agency to survivors over perpetrators may have deleterious effects, leading readers to blame survivors more and perpetrators less. We hypothesized that a linguistic pattern in which survivors are framed more agentically than perpetrators is prevalent in news media and influences who readers blame. Across 1,738 sentences from 494 politically varied news articles, a linguistic pattern emerged; in liberal sources, survivors were framed more agentically than perpetrators. We tested how this pattern shaped blame. College participants ( N = 1,238) read sentences where survivors or perpetrators were agentic. Men who read sentences framing survivors (vs. perpetrators) agentically blamed perpetrators less. These findings demonstrate how supportive language can inadvertently reinforce victim-blame by causing people to think perpetrators are less blameworthy.",
+          "url": "https://doi.org/10.1177/01461672261443036",
+          "doi": "https://doi.org/10.1177/01461672261443036",
           "filter": 0,
-          "created": "2026-4-29"
-        },
-        {
-          "title": "Strategic Selves: Self-Presentation Theory and the Predictive Validity of Personality Tests",
-          "authors": "Morten Nordmo, Øyvind Lund Martinsen, Adrian Furnham, Ole Christian Lang-Ree",
-          "abstract": "Self-presentation theory suggests people strategically adjust trait displays to meet evaluative goals, meaning faking can sometimes enhance the link between scores and real-world performance. We tested this in a large-scale military selection field experiment ( N = 1,133) by manipulating the salience of self-presentation motives during personality assessment. We examined how varying the salience of self-presentation affects personality trait levels, convergent validity with low-stakes scores, and the ability to predict performance and career outcomes. Participants completed the same personality inventory under low, moderate, or high self-presentation. Despite trait score inflation, convergent validity with low-stakes benchmarks remained largely equivalent, and predictive validity was preserved or even enhanced under high-salience conditions. Notably, traits such as conscientiousness and extraversion showed stronger predictive utility when self-presentation motives were made explicit. These findings challenge the common view that response distortion inherently undermines test validity and instead suggest that motivated self-presentation may reflect context-relevant trait expression.",
-          "url": "https://doi.org/10.1177/01461672261436153",
-          "doi": "https://doi.org/10.1177/01461672261436153",
-          "filter": 0,
-          "created": "2026-4-29"
+          "created": "2026-5-6"
         }
       ],
       "articles_hidden": []
@@ -662,13 +634,22 @@
           "created": "2026-5-4"
         },
         {
-          "title": "Perceptions of musical ability among a sample of adults in Turkey",
-          "authors": "Yusuf Dursun, Turan Sağer",
-          "abstract": "This study explored how adults in Turkey conceptualize musical ability through a mixed-methods design. Open-ended responses from 1,153 participants were thematically analyzed and categorized into six overarching themes. The most prevalent conceptualization defined musical ability as an innate, divinely inspired “gift from God” and an expression of the soul (32.7%), followed by themes of effort and learning (27.7%), emotional expressiveness (14.9%), privilege and specialness (9.4%), harmony with nature (8.2%), and creative freedom (7.1%). Quantitative analyses revealed significant demographic variations: women more frequently emphasized innate and spiritual qualities, while men highlighted creativity and autonomy; amateur musicians associated ability with emotion, whereas professionals placed less emphasis on this theme. Instrument players stressed discipline and learning, whereas non-players prioritized expressiveness. Regional patterns also emerged (e.g., Mediterranean participants favored spiritual definitions; Southeastern Anatolians highlighted nature-based intuitions). In contrast, perceptions were relatively stable across age, education, occupation, and socioeconomic status (SES), though subgroup trends (e.g., lawyers emphasizing effort) suggested nuanced social influences. These findings support socio-constructivist views of musical ability as both culturally situated and experientially shaped. The study contributes to cross-cultural music psychology by emphasizing the need for culturally responsive pedagogies that acknowledge diverse beliefs, experiences, and developmental trajectories in musical potential.",
-          "url": "https://doi.org/10.1177/03057356261436419",
-          "doi": "https://doi.org/10.1177/03057356261436419",
+          "title": "Listening to the spectrum: Exploring music preferences and associations in autism spectrum disorder compared with neurotypical communities on Reddit",
+          "authors": "Sharon Varghese, Emily Carlson, Vinoo Alluri",
+          "abstract": "Existing research lacks insight into music associations and preferences among individuals with autism spectrum disorder (ASD) in real-world settings. This study analyzes 701 Reddit posts from r/Autism and r/Aspergers, comparing them with neurotypical (NT) discussions in r/Music and r/LetsTalkMusic. Using topic modeling and thematic analysis, 12 NT topics and 15 ASD topics were identified. NT individuals focused on themes like the cultural and social impact of music and economic and industry trends, while autistic individuals emphasized therapeutic use of music, diverse music preferences, and music as an identity. Genre analysis showed both groups preferred rock in the intense category, but autistic individuals had a higher representation of metal, likely for sensory load regulation. In the valence-arousal (VA) space, NT individuals preferred rock in high-arousal quadrants, whereas autistic individuals had a broader emotional range, balancing pop and rock. Lyric theme analysis revealed that while both groups resonated with emotional turmoil and conflict, autistic individuals showed a stronger preference for love and connection. These findings highlight the need for personalized music-based interventions, leveraging diverse genres and themes to cater to the unique preferences and therapeutic needs of autistic individuals.",
+          "url": "https://doi.org/10.1177/03057356261429810",
+          "doi": "https://doi.org/10.1177/03057356261429810",
           "filter": 0,
-          "created": "2026-4-29"
+          "created": "2026-5-6"
+        },
+        {
+          "title": "The impact of self-selected background music on sustained attention: Examining the roles of arousal and task engagement",
+          "authors": "Ryutaro Oe, Tsukasa Kimura, Kazumitsu Shinohara",
+          "abstract": "The impact of background music (BGM) on vigilance task performance remains controversial. While previous research has focused on arousal as a mediating variable, recent studies suggest that task engagement also influences the effects of BGM on vigilance performance. This study investigated the impact of self-selected BGM on arousal, task engagement, and task performance during a vigilance task. A total of 36 participants completed the Sustained Attention to Response Task (SART) and questionnaires assessing energetic and tense arousal as well as four dimensions of task engagement (emotional, behavioral, state, and cognitive). Results indicated that, compared to silence, self-selected BGM significantly increased participants’ energetic arousal and task engagement, while decreasing response time variability. Furthermore, exploratory hierarchical Bayesian modeling analyses revealed that the effect of BGM on the false alarm rate was well explained by a model in which task engagement mediates the relationship between the presence of BGM and the false alarm rate. These findings emphasize the importance of considering the multifaceted nature of task engagement in future research examining the effects of BGM on cognitive performance, particularly in sustained attention tasks.",
+          "url": "https://doi.org/10.1177/03057356261436409",
+          "doi": "https://doi.org/10.1177/03057356261436409",
+          "filter": 0,
+          "created": "2026-5-6"
         }
       ],
       "articles_hidden": []
