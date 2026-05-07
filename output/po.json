@@ -1,18 +1,84 @@
 {
-  "update": "2026-04-24",
+  "update": "2026-05-07",
   "content": [
+    {
+      "journal_full": "Journal of Elections, Public Opinion and Parties",
+      "journal_short": "JEPOP",
+      "articles": [
+        {
+          "title": "Why survey turnout data misleads: probing, selection bias, and misinterpreted political participation",
+          "authors": "Kasper M. Hansen",
+          "url": "https://doi.org/10.1080/17457289.2026.2662906",
+          "doi": "https://doi.org/10.1080/17457289.2026.2662906",
+          "filter": 0,
+          "created": "2026-5-4"
+        },
+        {
+          "title": "The conditional value of legislative effectiveness",
+          "authors": "Elizabeth N. Simas",
+          "url": "https://doi.org/10.1080/17457289.2026.2665229",
+          "doi": "https://doi.org/10.1080/17457289.2026.2665229",
+          "filter": 0,
+          "created": "2026-5-3"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Journal of Official Statistics",
+      "journal_short": "JOS",
+      "articles": [
+        {
+          "title": "Assessing the Heterogeneity in Mode Effects on Data Quality, Response Distributions, and Future Participation Across Sociodemographic Subgroups in a Mixed-Mode Panel Study",
+          "authors": "Heather M. Schroeder, Mary Beth Ofstedal, Brady T. West",
+          "abstract": "Introducing a web option in interviewer-administered surveys could increase response rates and reduce costs. However, this requires careful assessment of the effects of mixed-mode designs on data quality and key measures, especially across important sociodemographic subgroups. In 2018 and 2020, the Health and Retirement Study (HRS) experimentally introduced web in a sequential mixed-mode design for panelists assigned to the telephone mode. Initial analyses found a limited number of mode effects on key outcome distributions and data quality measures. This paper extends this initial analysis by assessing possible heterogeneity in these effects among sociodemographic subgroups defined by race/ethnicity, sex, and others. We interact mode with each sociodemographic indicator in statistical models for each outcome. Overall, we found limited evidence of heterogeneity in the mode effects, with 3% of the 204 interaction terms we tested emerging as significant. For example, previous work showed that more household roster changes are reported in the web-first group, and we found that this was more pronounced for females and those with some college education. Although some heterogeneity in mode effects was observed across subgroups, the effects were generally too small to cause data quality concerns. We conclude with a discussion of broader considerations for survey researchers.",
+          "url": "https://doi.org/10.1177/0282423x261429705",
+          "doi": "https://doi.org/10.1177/0282423x261429705",
+          "filter": 0,
+          "created": "2026-4-30"
+        },
+        {
+          "title": "Comparison of Small Area Procedures Based on Gamma Distributions with Extension to Informative Sampling",
+          "authors": "Yanghyeon Cho, Emily Berg",
+          "abstract": "The gamma distribution is a useful model for small area prediction of a skewed response variable. We study the use of the gamma distribution for small area prediction. We emphasize a model, called the gamma-gamma model, in which the area random effects have gamma distributions. We compare this model to a generalized linear mixed model. Each of these two models has been proposed independently in the literature, but the two models have not yet been formally compared. We evaluate the properties of two mean square error estimators for the gamma-gamma model, both of which incorporate corrections for the bias of the estimator of the leading term. Finally, we extend the gamma-gamma model to informative sampling. We conduct thorough simulation studies to assess the properties of the alternative predictors. We apply the proposed methods to data from an agricultural survey.",
+          "url": "https://doi.org/10.1177/0282423x261424813",
+          "doi": "https://doi.org/10.1177/0282423x261424813",
+          "filter": 0,
+          "created": "2026-5-4"
+        },
+        {
+          "title": "Geographical Rezoning as a Combinatorial Game: Case Study of the Australian Statistical Geography Standard",
+          "authors": "Filip Juricev-Martincev, Helen Thompson, Gentry White",
+          "abstract": "Geographical rezoning is a combinatorial optimization problem of assigning basic spatial units into regions for statistical analysis and the publication of official government statistics, such as the Census. We propose a novel approach by reframing this problem into a single-player, deterministic, fully-informative, finite combinatorial game; or simply, a single-player puzzle. This definition allows effective and systematic exploration of state-space, and offers perfect information guarantees, as well as decouples the problem definition from a specific solver algorithm. We take an existing combinatorial algorithm called HeLP (Hierarchical Land Parcel Aggregation), and combine its rezoning heuristic with a game-playing algorithm, Monte Carlo tree search, to create three new game-playing solvers for the geographical rezoning problem. A case study was conducted on a real-world data set in Canberra, Australia, on the Australian Statistical Geography Standard (ASGS). Our Monte Carlo implementations, HeLP-MCTS, HeLP-RAVE, and HeLP-RHEA, were tested on simulated data and have yielded a 50.25%, 28.77%, and 57.02% increase in the mean value of the partitioning heuristic function, respectively, compared to a combinatorial solver HeLP. We have also computationally improved the original HeLP algorithm, offering significant speed increases.",
+          "url": "https://doi.org/10.1177/0282423x261429706",
+          "doi": "https://doi.org/10.1177/0282423x261429706",
+          "filter": 0,
+          "created": "2026-5-6"
+        }
+      ],
+      "articles_hidden": []
+    },
     {
       "journal_full": "Journal of Survey Statistics and Methodology",
       "journal_short": "JSSAM",
       "articles": [
         {
-          "title": "BART-FH: Flexible Nonlinear Modeling for Small Area Estimation",
-          "authors": "Paul A Parker, Abdulhakeem Eideh",
-          "abstract": "The Fay-Herriot model has been the workhorse of area-level small area estimation. This model links direct survey estimates to area-level covariates through a linear mixed-effects framework. While effective, this model assumes a linear relationship between covariates and the true area-level quantities, limiting its flexibility in capturing complex patterns inherent in real-world data. In this work, we introduce an extension of the Fay-Herriot model that integrates Bayesian Additive Regression Trees (BART) to model the true area-level quantities as nonlinear functions of the covariates, complemented by an additive random effect to account for unexplained heterogeneity. The proposed BART Fay-Herriot (BART-FH) model leverages the nonparametric capabilities of BART to capture intricate nonlinear relationships and interactions among covariates, offering a more flexible alternative to traditional linear models. To evaluate the performance of the BART-FH model, we conduct an empirical simulation study comparing its estimation accuracy and predictive capabilities against the standard Fay-Herriot model. Furthermore, we apply the BART-FH model to household income data from the American Community Survey (ACS).",
-          "url": "https://doi.org/10.1093/jssam/smaf050",
-          "doi": "https://doi.org/10.1093/jssam/smaf050",
+          "title": "CAN RESPONSE TIME ADJUSTMENTS TO QUESTION DEMANDS TOGETHER WITH AVERAGE RESPONSE TIME DISTINGUISH BETWEEN LEVELS OF SATISFICING? FINDINGS FROM THREE SURVEYS IN A LARGE U.S. PANEL STUDY",
+          "authors": "Raymond Hernandez, Stefan Schneider, Erik Meijer, Titus Galama, Doerte U Junghaenel, Arie Kapteyn, Elizabeth Zelinski, Arthur A Stone",
+          "abstract": "Satisficing is a behavior that often results in careless responding and has been defined as engagement in simplified question responding approaches to reduce mental effort, often at the cost of response quality. Our objective was to examine the possibility of using a new survey response time (RT) based metric, response time adjustment, in combination with average survey RT, to identify groups with different levels of satisficing behavior. The RT adjustment parameter reflects the extent to which individuals adjust the amount of time they spend on survey items as a function of how demanding an item is, with low adjustment along with a low average survey RT expected to be associated with a greater likelihood of satisficing. We estimated a mixture model with RT adjustment and average RT as inputs using three questionnaires (with sample sizes of 5,321, 1,616, and 4,093, respectively) from the Understanding America Study (UAS), a large US Internet-based longitudinal panel. Weak and non-satisficing groups were identified in all three studies, with the former making up 3 to 9 percent of the samples, but no strong satisficing group was detected. Evidence supporting a weak satisficing group was based on good accuracy on easy attention check items (indicating they likely were not careless) but low accuracy on more demanding attention check items involving carefully reading long blocks of instructional text. Additionally, consistent with prior literature on satisficing, this weak satisficing group generally had lower mean values on cognitive ability and motivation-related variables (e.g., conscientiousness) compared to other groups. In two of the three studies, the satisficing group produced notable bias in study results involving high time intensity items. RT regulation and average RT may be useful for identifying satisficing in surveys with a mix of high and low time intensity items such as some tests and surveys with vignette-based items.",
+          "url": "https://doi.org/10.1093/jssam/smaf064",
+          "doi": "https://doi.org/10.1093/jssam/smaf064",
           "filter": 0,
-          "created": "2025-11-21"
+          "created": "2026-5-6"
+        },
+        {
+          "title": "Improving the Measurement of Gender in Surveys: Effects of Select-One or Select-all-that-Apply Response Format on Measurement and Data Quality Among College Students",
+          "authors": "Dana Garbarski, Jennifer Dykema, James A Yonker, Rosie Eungyuhl Bae, Michael Topping",
+          "abstract": "Recent guidelines on the measurement of gender in surveys recommend a two-step strategy that asks about sex assigned at birth followed by current gender identity using a small number of offered response categories (e.g., female, male, transgender) and an open response field to capture any residual categories (“not listed, please tell us”). However, more research on several fronts is needed to continue to refine our measurement strategies across contexts, and this work continues to be critically important with the dismantling of federally funded research regarding gender identity. In the current study, we examine the impact of response format on the measurement of gender identity. This study reports results from a between-subjects experiment embedded in a campus climate survey about inclusion and belonging at a large Midwestern university in Fall 2024. Over 16,000 students were asked, “What is your gender?” and subsequently randomly assigned to respond using one of two response formats. The first allowed respondents to “select-one” of the response options “woman, man, nonbinary, not listed (please tell us),” and was followed by the question “Are you transgender? Yes/No.” The second included the response options “woman, man, nonbinary, transgender, not listed (please tell us)” and instructed respondents to “select all that apply.” We examine the distribution of responses, item nonresponse, the number of gender categories reported, response times, and concurrent validity (in terms of the association between gender and survey outcomes about campus climate) across the two formats. While the results mainly show similarities in outcomes between the response formats, respondents are more likely to indicate they are transgender in the “select-one” format. By contrast, respondents are more likely to indicate gender expansiveness other than “transgender” or “nonbinary” with the “select-all” format. We discuss the implications of these findings for future research.",
+          "url": "https://doi.org/10.1093/jssam/smaf058",
+          "doi": "https://doi.org/10.1093/jssam/smaf058",
+          "filter": 0,
+          "created": "2025-12-9"
         }
       ],
       "articles_hidden": []
@@ -22,97 +88,28 @@
       "journal_short": "PGI",
       "articles": [
         {
-          "title": "Does political identity rhetoric influence individual political attitudes? An experimental survey in the Chinese context",
-          "authors": "Hongbo Yu, Hsin-Che Wu",
-          "url": "https://doi.org/10.1080/21565503.2026.2658797",
-          "doi": "https://doi.org/10.1080/21565503.2026.2658797",
+          "title": "Anti-Indigenous attitudes and divided support: the Indigenous voice and public opinion in Australia",
+          "authors": "Raymond Foxworth, Carew Boulding, Sarah Maddison, Edana Beauvais",
+          "url": "https://doi.org/10.1080/21565503.2026.2658785",
+          "doi": "https://doi.org/10.1080/21565503.2026.2658785",
           "filter": 0,
-          "created": "2026-4-20"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Public Opinion Quarterly",
-      "journal_short": "POQ",
-      "articles": [
-        {
-          "title": "James L. Gibson. Democracy’s Destruction: Changing Perceptions of the Supreme Court, the Presidency, and the Senate after the 2020 Election",
-          "authors": "Hillary Style",
-          "url": "https://doi.org/10.1093/poq/nfag024",
-          "doi": "https://doi.org/10.1093/poq/nfag024",
-          "filter": 0,
-          "created": "2026-3-18"
+          "created": "2026-5-5"
         },
         {
-          "title": "Leader-Motivated Behavior: Voting by Mail in the 2020 General Election",
-          "authors": "Seth C McKee, Enrijeta Shino, Daniel A Smith",
-          "abstract": "There is a large body of scholarship that probes the association of elite messaging and motivated reasoning with political behavior. Few studies, though, consider how these factors relate to validated mass behavior. Leveraging two national surveys, we assess voter alignment with President Trump and who voted by mail (VBM). Drawing on 2016 and 2020 Cooperative Election Study (CES) data, we analyze the likelihood that Trump supporters: (1) voted by mail, (2) self-reported voting by mail, and (3) self-reported not voting by mail when they did (misreporting VBM). In 2016, candidate Trump spoke of a “rigged” election, but it was in the 2020 contest that President Trump indicted VBM as the principal reason he might lose reelection. Analyzing VBM before (2016) and during (2020) Trump’s attack on this vote method suggests that leader opinion activation shaped the views of Trump voters and their actual voting behavior. In 2020, Trump supporters were markedly less likely to cast a VBM ballot and were also significantly more likely to disclaim voting by mail when they actually did. These findings have important implications regarding the extent to which purported and verified mass political behavior comports with leader-directed messaging.",
-          "url": "https://doi.org/10.1093/poq/nfag018",
-          "doi": "https://doi.org/10.1093/poq/nfag018",
+          "title": "The racial politics of student debt relief policy",
+          "authors": "Serena Laws, Mallory E. SoRelle",
+          "url": "https://doi.org/10.1080/21565503.2026.2658793",
+          "doi": "https://doi.org/10.1080/21565503.2026.2658793",
           "filter": 0,
-          "created": "2026-3-4"
+          "created": "2026-5-6"
         },
         {
-          "title": "Reluctant Partisans, Not Undercover Partisans: Why Americans Increasingly Identify as Independent",
-          "authors": "Alex Tolkin",
-          "abstract": "In the United States, partisanship has a greater impact on political behavior than any other social identity. However, the proportion of Americans who actively identify with a party, as opposed to Independents who “lean” toward one, is at its lowest point in decades. Existing research offers two explanations for why: First, being seen as partisan is not socially desirable, so people identify as Independent despite covertly preferring one party. Second, nonidentification may be a result of viewing both parties negatively. Using eight waves of panel data from 2016 to 2022, I compare the strength of these competing explanations. I only find support for the explanation-based evaluations of the parties. People switch from partisans to Independents when they view their former party more negatively, not when they seek to make a good impression.",
-          "url": "https://doi.org/10.1093/poq/nfag021",
-          "doi": "https://doi.org/10.1093/poq/nfag021",
+          "title": "“Hidden” racist attitudes against athletes of color in the German population: findings from a list experiment",
+          "authors": "Michael Mutz, Sebastian Braun, Ulrike Burrmann",
+          "url": "https://doi.org/10.1080/21565503.2026.2658801",
+          "doi": "https://doi.org/10.1080/21565503.2026.2658801",
           "filter": 0,
-          "created": "2026-3-11"
-        },
-        {
-          "title": "Gender-of-Interviewer Effects in the Measurement of Gender Attitudes: Lessons from 18 Countries of the European Social Survey",
-          "authors": "Ádám Stefkovics",
-          "abstract": "Measuring gender-related questions in face-to-face surveys can be challenging due to the potential influence of the interviewer’s gender. First, people may feel more comfortable disclosing sensitive information (e.g., gender-based discrimination) to a female interviewer or an interviewer of the same gender. Second, respondents may alter their responses in light of what they perceive as desirable, for instance, by reporting more feminist views when interviewed by a female interviewer. To test these assumptions, we use the gender module of the eleventh round of the European Social Survey. We analyze patterns from 28,567 respondent-interviewer dyads from 18 countries. We find no evidence of the interviewer’s gender influencing disclosure and limited evidence of gender-of-interviewer (GOI) effects on distributions. These findings are consistent across countries with varying levels of gender equality. Our results indicate that in European societies, GOI effects may not cause significant harm in social surveys.",
-          "url": "https://doi.org/10.1093/poq/nfag022",
-          "doi": "https://doi.org/10.1093/poq/nfag022",
-          "filter": 0,
-          "created": "2026-3-12"
-        },
-        {
-          "title": "Is There a Partisan Divide in Citizens’ Preferences on Ukraine Support? Survey-Experimental Evidence from the US",
-          "authors": "Lukas Rudolph",
-          "abstract": "Models of democratic responsiveness imply that consistent US foreign policy is furthered by bipartisan agreement on core US strategy. A broad literature indicates, however, that politics does not stop “at water’s edge,” suggesting relevant differences between more “dovish” Democratic-leaning and more “hawkish” Republican-leaning voters. I revisit this question for the case of US support strategies aiding Ukraine against the Russian invasion in 2022. In particular, I investigate the extent of partisan differences in both overall agreement and the hard trade-offs between competing normative, strategic, and economic considerations connected to supporting Ukraine. Do Democratic- and Republican-leaning voters deal with these trade-offs differently? I bring conjoint and vignette survey experimental evidence from 2,334 US citizens to this question. I show that absolute levels of support for Ukraine are lower among Republicans. However, irrespective of partisanship, citizens resolve the fundamental trade-offs involved in Ukraine policy similarly. Strategies that sustain Ukraine’s territorial integrity and political sovereignty, rather than concessions to Russia, are substantively more likely to be chosen, irrespective of partisanship, even if less strongly so among (moderate) US Republicans. Both Democratic and Republican voters show similarly high concern for the human costs of war, domestic economic costs, and escalation risk—with economic costs resonating more among Republicans. These results imply that for a case where both normative and strategic motivations for intervention loom large, public support is not structured as expected from “partisan types.” Tentatively, this indicates that differences in partisan preferences are no constraint for persisting US support to Ukraine.",
-          "url": "https://doi.org/10.1093/poq/nfag026",
-          "doi": "https://doi.org/10.1093/poq/nfag026",
-          "filter": 0,
-          "created": "2026-3-18"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Social Science Computer Review",
-      "journal_short": "SSCR",
-      "articles": [
-        {
-          "title": "Writing as an 18th-Century Automaton",
-          "authors": "Julie Park",
-          "abstract": "This essay conceives artificial intelligence as a chapter in the history of writing through reconsidering the eighteenth-century automaton writer created by Jaquet Droz, a Swiss clock making workshop. As much an innovation in writing technology as it was an early example of artificial intelligence, the Jaquet Droz automaton writer reveals how artificial intelligence is a historical idea and material artifact deeply entangled with the history of writing, an embodied as well as deeply emotional form of cognitive activity and one of the oldest human technologies.",
-          "url": "https://doi.org/10.1177/08944393261441268",
-          "doi": "https://doi.org/10.1177/08944393261441268",
-          "filter": 0,
-          "created": "2026-4-20"
-        },
-        {
-          "title": "The Human Soul and its Deceptions: Early Modern Imitation Games",
-          "authors": "Jonathan Regier",
-          "abstract": "Early modern writers had much to say about how humans and other animals compared to machines. René Descartes (1596–1650) argued that an automaton could never convincingly impersonate human intelligence, however lifelike it seemed. To set the stage, I will briefly discuss Descartes’ imitation game, along with its philosophical and theological motivations. I will then move on to another imitation game conceived of by Nicolas Filleau de la Chaise (1631–1688), who asked whether a human could successfully imitate a machine. Finally, I will reflect on how Thomas Hobbes (1588–1679) portrayed the mechanical intelligence of the state as a safeguard against the deceptions of its enemies.",
-          "url": "https://doi.org/10.1177/08944393261441270",
-          "doi": "https://doi.org/10.1177/08944393261441270",
-          "filter": 0,
-          "created": "2026-4-18"
-        },
-        {
-          "title": "Data Donation: A First Step Towards Improving Representativeness in Algorithmic Hiring Datasets",
-          "authors": "Jorge Saldivar, Jessica Wulf, Carlos Castillo",
-          "abstract": "The use of algorithmic hiring is on the rise, becoming more and more common due to its capacity to process a large number of applications with efficiency. Despite the advantages of this approach, there have been numerous cases of discriminatory hiring outcomes. A significant contributing factor to such outcomes is the lack of representativeness in the data used to develop these systems. This results in a significant decline in performance for underrepresented groups, disproportionately impacting marginalized communities. Addressing bias in algorithmic hiring requires access to comprehensive datasets that include curriculum vitae (CV) and demographic information reflecting diverse backgrounds. Unfortunately, there is a lack of datasets that serve such a purpose. This paper introduces a data donation campaign designed to collect real-world CVs, including demographic and sensitive information, from a representative sample of individuals in the EU workforce. The paper discusses the design decisions underpinning the campaign, along with the challenges encountered during its deployment and execution. Finally, it offers lessons learned and practical solutions to overcome these challenges, thereby contributing valuable insights for future efforts in this domain.",
-          "url": "https://doi.org/10.1177/08944393261441840",
-          "doi": "https://doi.org/10.1177/08944393261441840",
-          "filter": 0,
-          "created": "2026-4-21"
+          "created": "2026-5-6"
         }
       ],
       "articles_hidden": []
