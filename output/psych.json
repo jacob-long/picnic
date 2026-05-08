@@ -1,10 +1,19 @@
 {
-  "update": "2026-05-07",
+  "update": "2026-05-08",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
       "journal_short": "AMPPS",
       "articles": [
+        {
+          "title": "Data Collection in Multimodal Language and Communication Research: A Flexible Decision Framework",
+          "authors": "Anastasia Bauer, Patrick C. Trettenbrein, Federica Amici, Aleksandra Ćwiek, Lisa-Marie Krause, Anna Kuder, Silva Ladewig, Marc Schulder, Petra B. Schumacher, Door Spruijt, Chiara Zulberti, Susanne Fuchs, Martin Schulte-Rüther",
+          "abstract": "Contemporary research on language and communication has expanded beyond its traditional focus on spoken and written forms to encompass signing, gestures, facial expressions, and other bodily actions. This shift has been accompanied by methodological advancements that extend beyond classical tools, such as tape recorders or video cameras, and include motion-tracking systems, depth cameras, and multimodal data-fusion techniques. Although these tools enable richer empirical insights, they also introduce significant conceptual and practical challenges, particularly for researchers new to multimodal data collection. In this article, we present a structured, decision-oriented workflow for multimodal data collection in language and communication research. We introduce a flexible framework that guides researchers through key methodological choices, including the alignment of research questions with data streams; study-design and acquisition strategies; synchronization and technical requirements; ethical governance; and data management, dissemination, and reuse. The framework is illustrated with case studies spanning controlled laboratory experiments, large-scale annotated sign-language corpora, and field-based research, including nonhuman primates. Rather than advocating a one-size-fits-all approach, in our discussion, we emphasize key decision points, trade-offs, and real-world examples to help researchers navigate the complexities of multimodal data collection. By integrating perspectives from different disciplines, our flexible decision-making framework is intended as a practical tool for researchers seeking to design, implement, and address common conceptual and methodological challenges in the rapidly developing area of multimodal data collection.",
+          "url": "https://doi.org/10.1177/25152459261442338",
+          "doi": "https://doi.org/10.1177/25152459261442338",
+          "filter": 0,
+          "created": "2026-5-7"
+        },
         {
           "title": "Practice What You Preach: Designing Student Assignments That Advance Open and Reproducible Science",
           "authors": "James Bartlett, Gaby Mahrholz, Emily Nordmann",
@@ -22,15 +31,6 @@
           "doi": "https://doi.org/10.1177/25152459251404358",
           "filter": 0,
           "created": "2026-5-6"
-        },
-        {
-          "title": "Enhancing Replicability and Reproducibility in Observational-Coding Research: A Tutorial in R",
-          "authors": "Robert D. Henry",
-          "abstract": "Replicating observational-coding studies is notoriously difficult: Coder variance attenuates effect sizes, protocols can be opaque, and raw text/video/audio cannot always be shared. In this tutorial, I present a three-step, open-science workflow that links design decisions to reproducibility outcomes, assuming interchangeable observers and simple mean rating scores. In Step 1, I show how (under the appropriate assumptions) the Spearman-Brown prophecy and attenuated correlation formulas translate coder reliability into sample-size targets; in an illustrative example, I illustrate that with two coders and N ≈ 158 participants, researchers retain 80% power to detect a correlation of r = .30. In Step 2, I provide a six-step loop from training coders to calculating interrater reliability. This protocol emphasizes the importance of creating agreement matrices and running periodic interrater reliability checks; using simulated data, I demonstrate how off-diagonal errors pinpoint coder drift. In Step 3, I address coder positionality and ethical data sharing, offering a decision tree that maps media sensitivity and participant consent onto data-repository options. Annotated code, simulated data, and a brief consent template are hosted on the OSF repository for this tutorial. Adopting this pipeline enables researchers to plan, monitor, and disseminate observational work in a way that is both transparent and statistically robust.",
-          "url": "https://doi.org/10.1177/25152459261424726",
-          "doi": "https://doi.org/10.1177/25152459261424726",
-          "filter": 0,
-          "created": "2026-4-30"
         }
       ],
       "articles_hidden": []
@@ -122,30 +122,6 @@
       "journal_full": "Computers in Human Behavior",
       "journal_short": "CHB",
       "articles": [
-        {
-          "title": "Avatars, Embodiment, and Virtual Engagement: A Large-Scale Study with Young Adults in Germany and the United States",
-          "authors": "Oliver Korn, Benjamin Schnitzer, Xenia Armstrong, Jan Vogt, Sanika Doolani, Coye Cheshire",
-          "url": "https://doi.org/10.1016/j.chb.2026.109036",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109036",
-          "filter": 0,
-          "created": "2026-4-30"
-        },
-        {
-          "title": "From pixels to perceptions: Predicting video game ratings through reviews and metadata",
-          "authors": "Yavuz Selim Balcioğlu, Erkut Altindağ",
-          "url": "https://doi.org/10.1016/j.chb.2026.109038",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109038",
-          "filter": 0,
-          "created": "2026-4-30"
-        },
-        {
-          "title": "Making sense of scent: Cultural styles, cognitive schemas, and the situated logic of online perfume reviews",
-          "authors": "Larisa Nikitina, Yu Liu, Fumitaka Furuoka",
-          "url": "https://doi.org/10.1016/j.chb.2026.109037",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109037",
-          "filter": 0,
-          "created": "2026-4-30"
-        },
         {
           "title": "Not Warm or Cold, but Appropriate: How Outcome Severity Shifts Moral-Mind Inferences and Trust in AI Chatbots",
           "authors": "Lianshan Zhang, Mei Yin Zhao",
@@ -251,7 +227,16 @@
           "created": "2026-1-7"
         }
       ],
-      "articles_hidden": []
+      "articles_hidden": [
+        {
+          "title": "Corrigendum to ‘Are your defense mechanisms harming you? The role of psychological defenses in social media comparison and adolescent self-esteem’ [Computers in Human Behavior 178 (2026) 108916]",
+          "authors": "Lin Ting Jin, Yun Jung Choi",
+          "url": "https://doi.org/10.1016/j.chb.2026.109034",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109034",
+          "filter": 1,
+          "created": "2026-5-7"
+        }
+      ]
     },
     {
       "journal_full": "Group Processes & Intergroup Relations",
@@ -267,22 +252,22 @@
           "created": "2026-5-4"
         },
         {
-          "title": "Conspiratorial threat and intergroup boundaries: How exposure to anti-LGBTQ+ narratives shapes beliefs, identity, and civic engagement",
-          "authors": "Sara Panerati, Valerio Pellegrini, Valeria De Cristofaro, Marco Salvati",
-          "abstract": "Nowadays, the use of conspiratorial narratives targeting marginalized groups, such as the LGBTQ+ community, is increasingly pervasive. These narratives depict LGBTQ+ people as a threat to the social order, undermining their rights and social inclusion. Across four studies ( N = 2111), we experimentally investigated whether exposure to an anti-LGBTQ+ conspiratorial narrative affects conspiracy beliefs and civic engagement among cis-heterosexual people. Results showed that exposure to conspiratorial narrative increased the endorsement of anti-LGBTQ+ conspiracy beliefs, which, in turn, were associated with lower perception of interconnectedness with LGBTQ+ people, lower support for progressive collective action, lower support for inclusive education programs at school, and lower altruistic behavior toward LGBTQ+ individuals. Our findings highlight how conspiratorial narratives might fuel discriminatory beliefs and subtly erode intergroup solidarity and civic engagement. Addressing these processes is crucial to tackling the harmful effects of conspiratorial narratives and designing interventions to counter the spread and impact of conspiracy-driven rhetoric.",
-          "url": "https://doi.org/10.1177/13684302261438633",
-          "doi": "https://doi.org/10.1177/13684302261438633",
+          "title": "A Dual Route to Distrust of Atheists: Perceiving Atheists to Lack Individualizing Moral Foundations and an External Moralizing Agent Heightens Christians’ Distrust",
+          "authors": "Alexandra S. Wormley, Anna Stefaniak, Samantha Hollingshead, Michael J. A. Wohl",
+          "abstract": "In the last decade, the percentage of Americans who identify as atheists has almost doubled from 2% to 4%. Still, prejudice against this ever-growing group persists. Across four studies, we explored two distinct yet related correlates of antiatheist prejudice amongst American Christians: (a) the perception that atheists lack a moral compass and (b) the belief that faith in God is necessary to living a moral life. Grounded in moral foundations theory and big gods theory, we investigated this dual pathway to antiatheist prejudice in four samples. In Studies 1a and 1b, we found that Christians’ (total N = 389) distrust of atheists increased to the extent that they perceived atheists to lack individualizing (especially concerns about harm) — but not binding — moral foundations. Further, Christians who endorsed the idea that belief in God is necessary to behave morally tended to be more distrusting of atheists. In a subsequent study ( N = 253), we replicated these findings using the new Moral Foundation Questionnaire-2. In a final, preregistered study ( N = 663), we again replicated these findings in a larger, politically diverse sample. We discuss how internal and external guides to moral conduct are each associated with distrust of atheists.",
+          "url": "https://doi.org/10.1177/13684302261438589",
+          "doi": "https://doi.org/10.1177/13684302261438589",
           "filter": 0,
-          "created": "2026-4-30"
+          "created": "2026-5-7"
         },
         {
-          "title": "Expecting gender outgroup members to be inclusive is related to positive attributions and contact with outgroup members",
-          "authors": "Kate V. Luken Raz, Elise M. Kaufman, Marley B. Forbes, Melanie A. Killen",
-          "abstract": "Inclusive group norms can reduce children’s discriminatory behavior and contribute to positive and diverse peer relationships. Little is known about how outgroup inclusive group norms are associated with children’s behaviors and attitudes towards cross-gender peers. To address this gap, the present study investigated how 7–12-year-old American children’s ( N = 983, M Age = 9.64 years, SD Age = 0.89); 51% female; 58.5% White, 17.5% Multiethnic, 8.3% Asian American, 5.6% Black, 4.2% Latinx, 0.6% Other, 5.3% not reported) perceptions of their gender outgroups’ inclusive norms were related to their reported play, desired play, and positive trait attributions of gender outgroup members. Children held higher inclusive norm expectations (INE) for their gender ingroup than outgroup. Children with higher outgroup INE reported and desired more play with gender outgroup members and had more positive attitudes towards them. The associations of INE with reported and desired play appeared to be stronger for boys than for girls.",
-          "url": "https://doi.org/10.1177/13684302261435062",
-          "doi": "https://doi.org/10.1177/13684302261435062",
+          "title": "The Social Roots of Moralization: Group-Level Emotions and Attitudes Drive Individual Moralization Via Social Interaction",
+          "authors": "Chantal D’Amore, Namkje Koudenburg, Martijn van Zomeren",
+          "abstract": "Political bubbles may foster the moralization of attitudes on polarized issues—that is, create a subjective connection between individuals’ attitudes (e.g., pro-refugee) and their core values. However, little is known about the underlying mechanisms—which could be rooted in the dynamic social interactions occurring within those bubbles. We examined those mechanisms by using a unique methodology focusing on small group conversations ( N = 142; n = 46 groups) about controversial outgroup statements (concerning refugees). Multilevel analyses distinguished individual-level from group-level processes. Supporting pre-registered hypotheses, results show that moral emotions exerted a contextual effect on moralization: individuals in groups with stronger emotional responses moralized the issue more strongly, independent of their own emotional responses. Moreover, group-level moral emotions mediated the association between group-level perceived attitude strength and individual moralization. In contrast, pre-discussion attitude strength did not show comparable contextual effects. These findings suggest that moralization can be shaped by emergent emotional norms during group discussions.",
+          "url": "https://doi.org/10.1177/13684302261440348",
+          "doi": "https://doi.org/10.1177/13684302261440348",
           "filter": 0,
-          "created": "2026-4-30"
+          "created": "2026-5-7"
         }
       ],
       "articles_hidden": []
@@ -298,6 +283,14 @@
           "doi": "https://doi.org/10.1016/j.jesp.2026.104930",
           "filter": 0,
           "created": "2026-5-5"
+        },
+        {
+          "title": "Beyond morality primacy: Inference of competence takes the lead in spontaneous impressions",
+          "authors": "Irmak Olcaysoy Okten, Xi Shen, Ayanna Brewton",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104936",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104936",
+          "filter": 0,
+          "created": "2026-5-7"
         },
         {
           "title": "Trust under watch: Relational models and the context-dependent nature of monitoring",
@@ -452,6 +445,22 @@
       "journal_short": "JPSP",
       "articles": [
         {
+          "title": "Age as a moderator of gender differences in Five-Factor Model personality traits: A cross-national and cross-sectional study.",
+          "authors": "Arij Yehya, Liisi Ausmees, Samuel D. Gosling, Jeff Potter, Anu Realo",
+          "url": "https://doi.org/10.1037/pspp0000604",
+          "doi": "https://doi.org/10.1037/pspp0000604",
+          "filter": 0,
+          "created": "2026-5-7"
+        },
+        {
+          "title": "Navigating cultural identity: A 20-year longitudinal study of first-generation adult immigrants in Germany.",
+          "authors": "Ronja A. Runge, Débora B. Maehler",
+          "url": "https://doi.org/10.1037/pspp0000603",
+          "doi": "https://doi.org/10.1037/pspp0000603",
+          "filter": 0,
+          "created": "2026-5-7"
+        },
+        {
           "title": "What we owe to ourselves: Investigating people’s sense of obligations to the self.",
           "authors": "Laura K. Soter, Susan A. Gelman, Fan Yang",
           "url": "https://doi.org/10.1037/pspa0000474",
@@ -566,6 +575,22 @@
       "articles_hidden": []
     },
     {
+      "journal_full": "Organizational Research Methods",
+      "journal_short": "ORM",
+      "articles": [
+        {
+          "title": "Discrete Choice Experiments in Management Research",
+          "authors": "Angelyn Otteson Fairchild, Travis Howell",
+          "abstract": "Discrete choice experiments (DCEs) are a promising yet underutilized research method that can provide rigorous empirical evidence about the microfoundations of choice. This method has potential applications in many areas of management research. While DCE methods are similar to conjoint analysis and policy capturing, they are conceptually and methodologically distinct and deliver unique and valuable results that can—in the right contexts—improve external validity. This paper disambiguates DCE from related methods and provides detailed guidance on best practices for conducting DCE research, with emphasis on the elements of experimental design and analysis that are unique to DCEs. Based on a systematic literature review, we identify several emergent and canonical research domains within management where DCE methods could be used to generate novel theoretical and empirical insights. We supplement this review and best-practice guidance with a demonstration experiment and provide all the code and documentation needed for researchers to conduct DCEs with skill and confidence.",
+          "url": "https://doi.org/10.1177/10944281261428690",
+          "doi": "https://doi.org/10.1177/10944281261428690",
+          "filter": 0,
+          "created": "2026-5-7"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Personality and Social Psychology Bulletin",
       "journal_short": "PSPB",
       "articles": [
@@ -577,6 +602,15 @@
           "doi": "https://doi.org/10.1177/01461672261443036",
           "filter": 0,
           "created": "2026-5-6"
+        },
+        {
+          "title": "They Are Just Not That Into You: Does Sexual Arousal Impair Perception of Rejection Cues?",
+          "authors": "Gurit E. Birnbaum, Kobi Zholtack",
+          "abstract": "Sexual arousal elicits approach-oriented motivation. In early romantic encounters, however, this desire to pursue a connection must be balanced against the risk of rejection. Across four studies, we investigated whether sexual priming affects risk regulation, causing people to perceive potential partners as romantically interested despite ambiguous cues. Unpartnered participants watched either sexual or nonsexual videos before engaging in an online chat with a confederate who conveyed mixed signals across different interaction phases. Participants rated the confederate’s desirability as a partner and perceived interest. Independent raters also coded participants’ written impressions for perceived romantic interest. Results showed that sexual priming increased participants’ perceptions of the confederate’s desirability, which, in turn, predicted both self-reported and coded perceptions of the confederate’s interest. These findings suggest that sexual arousal creates “tunnel vision,” leading people to interpret ambiguity in ways that prioritize approach goals over self-protective concerns, with implications for misunderstandings in early romantic encounters.",
+          "url": "https://doi.org/10.1177/01461672261439417",
+          "doi": "https://doi.org/10.1177/01461672261439417",
+          "filter": 0,
+          "created": "2026-5-7"
         }
       ],
       "articles_hidden": []
@@ -594,28 +628,12 @@
           "created": "2026-5-4"
         },
         {
-          "title": "Beyond the hype: A simulation study evaluating the predictive performance of machine learning models in psychology.",
-          "authors": "Kim-Laura Speck, Kristin Jankowsky, Florian Scharf, Ulrich Schroeders",
-          "url": "https://doi.org/10.1037/met0000832",
-          "doi": "https://doi.org/10.1037/met0000832",
+          "title": "Quantifying heteroscedasticity in linear models using quantile locally weighted scatterplot smoothing intervals.",
+          "authors": "Martina Sladekova, Andy P. Field",
+          "url": "https://doi.org/10.1037/met0000821",
+          "doi": "https://doi.org/10.1037/met0000821",
           "filter": 0,
-          "created": "2026-4-30"
-        },
-        {
-          "title": "Attributing individual-level causal effects using experimental and observational data: A primer.",
-          "authors": "Tim Kaiser, Stephen G. West, Steffi Pohl",
-          "url": "https://doi.org/10.1037/met0000808",
-          "doi": "https://doi.org/10.1037/met0000808",
-          "filter": 0,
-          "created": "2026-4-30"
-        },
-        {
-          "title": "A largely univariate framework for understanding multivariate analysis of variance.",
-          "authors": "R. Michael Furr",
-          "url": "https://doi.org/10.1037/met0000819",
-          "doi": "https://doi.org/10.1037/met0000819",
-          "filter": 0,
-          "created": "2026-4-30"
+          "created": "2026-5-7"
         }
       ],
       "articles_hidden": []
@@ -674,12 +692,12 @@
       "journal_short": "TMB",
       "articles": [
         {
-          "title": "Scrolling through symptoms: A scoping review of professional mental health content on TikTok.",
-          "authors": "Morgan E. Bloomfield, Alexandra Contreras, Christina Daou, Priscilla Rose Prasath",
-          "url": "https://doi.org/10.1037/tmb0000192",
-          "doi": "https://doi.org/10.1037/tmb0000192",
+          "title": "Understanding romantic relationships between humans and chatbots: A qualitative and quantitative study on romantic fantasy and other interpersonal characteristics.",
+          "authors": "Paula Ebner, Jessica Szczuka",
+          "url": "https://doi.org/10.1037/tmb0000193",
+          "doi": "https://doi.org/10.1037/tmb0000193",
           "filter": 0,
-          "created": "2026-4-30"
+          "created": "2026-5-7"
         }
       ],
       "articles_hidden": []
