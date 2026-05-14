@@ -1,5 +1,5 @@
 {
-  "update": "2026-05-12",
+  "update": "2026-05-14",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -13,24 +13,6 @@
           "doi": "https://doi.org/10.1177/25152459261442338",
           "filter": 0,
           "created": "2026-5-7"
-        },
-        {
-          "title": "Practice What You Preach: Designing Student Assignments That Advance Open and Reproducible Science",
-          "authors": "James Bartlett, Gaby Mahrholz, Emily Nordmann",
-          "abstract": "Since the replication crisis came to widespread attention in psychology, there has been significant progress in reforming research practices to be more open and reproducible. However, the integration of these principles into teaching—particularly assessment—has lagged behind. Although many open educational resources have been developed to support the teaching of open science, fewer efforts have focused on embedding open science into how students are assessed. In this commentary, we address that gap by offering a series of practical, scalable strategies for integrating open and reproducible science into psychology education through assessment. We argue that to normalize open science, students must not only learn about its principles but also be assessed on their understanding and application of them. Drawing on examples from our undergraduate and postgraduate programs and the wider literature, we outline a range of assessment strategies aligned with curriculum standards and pedagogical evidence. These include incorporating preregistration and registered reports, evaluating reproducibility through code and data submission, engaging students in peer review and code review, and integrating open-science concepts into essays, multiple-choice exams, and final dissertations. We highlight that even small changes at the course level can promote open science and that educators should approach implementation flexibly, recognizing it as a continuum rather than a binary shift. We also stress the need to avoid framing open science as overly technical or inaccessible, which may discourage student engagement. By embedding open and reproducible practices into assessment design, educators can support the development of critical, ethical, and transparent future scientists.",
-          "url": "https://doi.org/10.1177/25152459261425883",
-          "doi": "https://doi.org/10.1177/25152459261425883",
-          "filter": 0,
-          "created": "2026-5-6"
-        },
-        {
-          "title": "Advancing Psychological Research With Random Forests: A Review of Methods, Tools, and Applications",
-          "authors": "Yi Feng, Han Du, Jiarui Song, Yina Sun, Yiting Wang, Aedan Joel",
-          "abstract": "Contemporary psychological research increasingly involves machine-learning techniques, including random forests, for their capability in analyzing complex, high-dimensional data sets and modeling nonlinear predictive relations. In this article, we provide a comprehensive review of random-forest methods in psychological research. We begin by introducing the fundamental concepts of decision trees, followed by the theoretical framework of random forests as an ensemble method. Next, we review the methodological development and commonly used software tools for random-forest models. We discuss the practical issues and challenges when implementing random forests in psychological studies. Importantly, we then systematically review the empirical psychological research articles published between 2020 and 2022 that used random forests; we summarize the applications of random forests, with a special emphasis on data structure, software implementation, hyperparameter tuning, and approaches for handling missing data. By synthesizing the theoretical foundation and current empirical practices, in this article, we identify significant methodological gaps in applying random forests to psychological data and hope to initiate much needed conversations on how psychologists can effectively use the random-forest method to advance psychological science.",
-          "url": "https://doi.org/10.1177/25152459251404358",
-          "doi": "https://doi.org/10.1177/25152459251404358",
-          "filter": 0,
-          "created": "2026-5-6"
         }
       ],
       "articles_hidden": []
@@ -40,12 +22,13 @@
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "CLAP: A battery of measures to estimate language proficiency in native Chinese speakers",
-          "authors": "Anna H. S. Heng, Melvin J. Yap",
-          "url": "https://doi.org/10.3758/s13428-026-03028-7",
-          "doi": "https://doi.org/10.3758/s13428-026-03028-7",
+          "title": "Adapting tree-based multiple imputation methods for multilevel data? A simulation study",
+          "authors": "Nico Föge, Jakob Schwerter, Ketevan Gurtskaia, Markus Pauly, Philipp Doebler",
+          "abstract": "When data have a hierarchical structure, such as students nested within classrooms, ignoring dependencies between observations can compromise the validity of imputation procedures. Standard (tree-based) imputation methods implicitly assume independence between observations, limiting their applicability in multilevel data settings. Although multivariate imputation by chained equations (MICE) is widely used for hierarchical data, it has limitations, including sensitivity to model specification and computational complexity. Alternative tree-based approaches have shown promise for individual-level data, but remain largely unexplored for hierarchical contexts. In this simulation study, we systematically evaluate the performance of novel tree-based methods—chained random forests (missRanger) and extreme gradient boosting (mixgb)—explicitly adapted for multilevel data by incorporating dummy variables indicating cluster membership. We compare these tree-based methods and their adapted versions with traditional MICE imputation in terms of coefficient estimation bias, type I error rates, and statistical power under different cluster sizes (25 and 50), missingness mechanisms (missing completely at random [MCAR], missing at random [MAR]), and missingness rates (10%, 30%, 50%), using both random intercept and random slope data generation models. The results show that MICE provides robust and accurate inference for level 2 variables, especially at low missingness rates (10%). However, the adapted boosting approach (mixgb with cluster dummies) consistently outperforms other methods for level 1 variables at higher missingness rates (30%, 50%). For level 2 variables, while MICE retains better power at moderate missingness (30%), adapted boosting becomes superior at high missingness (50%), regardless of the missingness mechanism or cluster size. These findings highlight the potential of appropriately adapted tree-based imputation methods as effective alternatives to conventional MICE in multilevel data analyses.",
+          "url": "https://doi.org/10.3758/s13428-026-03008-x",
+          "doi": "https://doi.org/10.3758/s13428-026-03008-x",
           "filter": 0,
-          "created": "2026-5-5"
+          "created": "2026-5-13"
         },
         {
           "title": "Analyzing interpersonal coordination through motion capture and cross-correlation: An integrated approach to magnitude, temporality, and morphology",
@@ -54,23 +37,6 @@
           "doi": "https://doi.org/10.3758/s13428-026-03041-w",
           "filter": 0,
           "created": "2026-5-11"
-        },
-        {
-          "title": "A highly sensitive famous face recognition paradigm for prosopagnosia screening",
-          "authors": "Sarah Bate, Emma Portch, Olivia Dark, Rachel Bennetts",
-          "abstract": "Famous face recognition tasks have traditionally been used to diagnose prosopagnosia, offering striking examples of the inability to recognise highly familiar faces. Yet, their popularity has dwindled with the development of standardised unfamiliar face recognition tasks that are less cumbersome to administer and can readily be implemented online. Here, we argue that there is a danger of omitting measures of familiar face recognition from prosopagnosia screening: not only may this challenge the very definition of the condition, but, with some adjustments, famous face recognition tasks can continue to offer highly sensitive measures of everyday face recognition ability. Thus, we developed and evaluated an online, automated famous face recognition paradigm that can readily be implemented into large-scale screening programmes. This task improves on previous designs by (a) eliminating extrinsic cues to identity by including distractor as well as familiar faces, (b) supporting the use of unseen rather than “iconic” images of celebrities, and (c) offering a method for automated scoring. Multiple versions of the task were found to have high sensitivity in the detection of developmental prosopagnosia. When required, sub-scores collected from the same paradigm can be used to assess performance at different stages of recognition and identification, helping to probe more precise loci of impairment. The latter is important to guide the diagnosis of more complex cases and, potentially, their remediation.",
-          "url": "https://doi.org/10.3758/s13428-026-03033-w",
-          "doi": "https://doi.org/10.3758/s13428-026-03033-w",
-          "filter": 0,
-          "created": "2026-5-5"
-        },
-        {
-          "title": "The Lucerne Groove Library: An audio stimulus corpus of 444 short Western popular music drum and bass patterns with behavioural, structural, and audio measurements",
-          "authors": "Toni A. Bechtold, Rafael Jerjen, Florian Hoesl, Lorenz Kilchenmann, Olivier Senn",
-          "url": "https://doi.org/10.3758/s13428-026-02989-z",
-          "doi": "https://doi.org/10.3758/s13428-026-02989-z",
-          "filter": 0,
-          "created": "2026-5-5"
         },
         {
           "title": "dynConfiR: An R package for sequential sampling models of decision confidence",
@@ -91,31 +57,30 @@
           "created": "2026-5-8"
         },
         {
-          "title": "Development and validation of an AI-generated real-world object stimuli set",
-          "authors": "Gerard Campbell, Graeme Nicholls, Rebecca Hart, Richard J. Allen, Claudia C. von Bastian, Melanie R. Burke, Mario Parra Rodriguez, Louise A. Brown Nicholls",
-          "abstract": "The availability of real-world object stimuli that meet researchers’ requirements is an ongoing challenge in visual cognition research. While numerous manually curated object stimulus sets exist, stimulus features such as size, color, and orientation tend to vary widely within a given set and may not be suitable for studies with specific requirements regarding these parameters. However, recent advances in artificial intelligence (AI) can facilitate the generation of highly realistic, custom-made stimuli. Building on these developments, the present study aimed to share a set of 200 AI-generated images of everyday objects for research use. The objects were oriented as though ‘placed’ on a flat surface, such that they could be naturally embedded in virtual scenes. Moreover, they were created in greyscale and suitable for rendering in different colors. Here, we report the method used to efficiently generate the stimuli, as well as the results from a validation study in which we assessed the nameability, perceived realism and familiarity of the stimuli in a sample of 45 younger (18–35) and 45 older (65–85) adults. As anticipated, the majority of the stimuli were rated highly across all three measures, and no significant age differences were observed. The results thus validated most of the stimuli for future research. The stimuli, each in seven colors, and the corresponding validation scores are openly available for future use. Low-level image statistics of mean brightness and contrast for each image are also included in the dataset.",
-          "url": "https://doi.org/10.3758/s13428-026-03021-0",
-          "doi": "https://doi.org/10.3758/s13428-026-03021-0",
+          "title": "Robust Bayesian multilevel meta-analysis: Adjusting for publication bias in the presence of dependent effect sizes",
+          "authors": "František Bartoš, Maximilian Maier, Eric-Jan Wagenmakers",
+          "abstract": "Meta-analyses often include multiple dependent effect sizes, yet current methods typically neglect the resulting within-study dependencies or fail to address model uncertainty and publication bias adequately. We extend robust Bayesian meta-analysis (RoBMA) to a multilevel framework, simultaneously handling within-study dependencies, model uncertainty, heterogeneity, moderators, and publication bias. Specifically, the three-level RoBMA integrates approximate Bayesian selection models with PET-PEESE adjustments within a hierarchical Bayesian setting. We illustrate the methodology through empirical examples and demonstrate its performance via simulations. The approach is implemented in the package and JASP.",
+          "url": "https://doi.org/10.3758/s13428-026-03023-y",
+          "doi": "https://doi.org/10.3758/s13428-026-03023-y",
           "filter": 0,
-          "created": "2026-5-5"
+          "created": "2026-5-12"
         },
         {
-          "title": "A novel bias-free approach for robust perceptual threshold estimation",
-          "authors": "Luca Tarasi, Margherita Covelli, Caterina Bertini, Vincenzo Romei",
-          "abstract": "Perceptual threshold estimation stands as a fundamental variable manipulation in psychology and neuroscience, fine-tuning sensory input intensity to align perceptual precision across individuals. Current methods, such as constant stimuli and staircase procedures, inaccurately assume that perceptual thresholds are influenced solely by sensitivity, overlooking the role of response biases and consequently leading to unreliable estimates. The underlying reason is that classical methods traditionally focus on hit rates—the correct detection of stimuli—while neglecting false alarms, where participants incorrectly report a stimulus when none is present. According to signal detection theory, hit rates can arise from genuine sensitivity or a liberal response criterion, making it crucial to account for both measures. To overcome this confound, we developed bias-free versions of these methods by including target-absent trials to factor in decisional bias during threshold evaluation. Across 74 participants, we robustly demonstrated that widely used classical procedures overestimate perceptual thresholds due to uncontrolled interindividual variability in participant criterion. Conversely, the bias-free staircase procedure achieved reliable sensitivity thresholds, effectively mitigating the influence of decisional bias. We strongly advocate for the adoption of this straightforward, bias-free approach. Its effectiveness, simplicity, and quick execution make it highly feasible for widespread use in enhancing the reliability of threshold estimation and reducing variability in future scientific investigations across various fields.",
-          "url": "https://doi.org/10.3758/s13428-026-03038-5",
-          "doi": "https://doi.org/10.3758/s13428-026-03038-5",
+          "title": "An omnibus test for several dependent correlations",
+          "authors": "Zvi Drezner, George A. Marcoulides, Dawit Zerom",
+          "url": "https://doi.org/10.3758/s13428-026-03037-6",
+          "doi": "https://doi.org/10.3758/s13428-026-03037-6",
           "filter": 0,
-          "created": "2026-5-5"
+          "created": "2026-5-12"
         },
         {
-          "title": "Why the binary latent growth model is not a special case of the ordinal latent growth model: Theoretical arguments and empirical evidence",
-          "authors": "Kyungmin Lim, Su-Young Kim",
-          "abstract": "In the structural equation modeling framework, binary variable models are generally considered a special case of ordinal variable models, as both involve similar scale assignment processes. However, the scaling processes of the two model types differ, with these differences becoming increasingly pronounced in the context of latent growth models (LGMs). To define scale units, the two types of LGMs—specifically, one with ordinal variables and the other with binary variables—depend on different observed scale references, such as thresholds and standard deviations, which are derived from observed categorical variables. Applying distinct observed scale references to binary and ordinal LGMs results in systematic differences in the scale units of their corresponding latent response variables. Consequently, in binary LGMs, the transformed latent response variables used for model estimation may fail to accurately reflect the corresponding population information, and as a result, their parameter estimates are more likely to be systematically biased than those obtained from ordinal LGMs. This study investigates the impact of these differences on estimating ordinal and binary LGMs and underscores potential estimation concerns in binary LGMs from both theoretical and empirical perspectives.",
-          "url": "https://doi.org/10.3758/s13428-026-03043-8",
-          "doi": "https://doi.org/10.3758/s13428-026-03043-8",
+          "title": "Towards the ecological automated measurement of joint attention: Development of an interactive eye-tracking battery for joint attention in children with and without autism",
+          "authors": "Christy D. Yoon, Hedda Meadan, Frederick Shic",
+          "abstract": "Eye tracking has emerged as a powerful tool for advancing autism research, including diagnostics and interventions. However, studies on joint attention (JA) in autistic children have predominantly concentrated on the responding to joint attention (RJA) construct, with limited focus on the initiating joint attention (IJA) construct. Moreover, despite the interactive nature of JA, researchers have often relied on passive paradigms to study JA in this population. To address these gaps, we developed a gaze-contingent eye-tracking battery targeting three developmentally appropriate JA skills for young children: RJA, IJA to request, and IJA to comment or reference. The development process was multifaceted and iterative, involving a series of collaborative steps and the allocation of various resources. These steps included determining the motion format and stimulus type, designing and prototyping the stimuli, recruiting an actor to serve as a communication partner in the stimuli, recording and editing videos for the stimuli, and building and test-running the battery. We developed the Interactive Eye Tracking for Joint Attention (IET-JA) battery, which consists of 32 JA stimuli: 16 RJA, 8 IJA-Request, and 8 IJA-Comment/Reference. The stimuli are dynamic (i.e., videos) and feature a preprogrammed interactive human communication partner who is responsive to the participant’s gaze. The IET-JA takes approximately 8 minutes to complete, and its duration is expected to vary based on the participant’s level of engagement. Implications for advancing methodologies, fostering team science, and enhancing iterative processes are discussed.",
+          "url": "https://doi.org/10.3758/s13428-026-03017-w",
+          "doi": "https://doi.org/10.3758/s13428-026-03017-w",
           "filter": 0,
-          "created": "2026-5-5"
+          "created": "2026-5-13"
         },
         {
           "title": "Advantages and artifacts of high-speed OLED monitors for vision, eye-tracking, and EEG research",
@@ -161,6 +126,14 @@
       ],
       "articles_hidden": [
         {
+          "title": "Corrigendum to ‘Addressing FoMO and telepressure among university students: Could a technology intervention help with social media use and sleep disruption?’ [Computers in Human Behavior 93 (2019) Pages 192-199]",
+          "authors": "Arielle P. Rogers, Larissa K. Barber",
+          "url": "https://doi.org/10.1016/j.chb.2026.109009",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109009",
+          "filter": 1,
+          "created": "2026-5-13"
+        },
+        {
           "title": "Corrigendum to ‘Are your defense mechanisms harming you? The role of psychological defenses in social media comparison and adolescent self-esteem’ [Computers in Human Behavior 178 (2026) 108916]",
           "authors": "Lin Ting Jin, Yun Jung Choi",
           "url": "https://doi.org/10.1016/j.chb.2026.109034",
@@ -200,14 +173,6 @@
       "journal_short": "JESP",
       "articles": [
         {
-          "title": "Learning to distrust: One trust experience changes the expected value of trust",
-          "authors": "Annabelle R. Roberts, Emma E. Levine, Jane L. Risen",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104930",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104930",
-          "filter": 0,
-          "created": "2026-5-5"
-        },
-        {
           "title": "Beyond morality primacy: Inference of competence takes the lead in spontaneous impressions",
           "authors": "Irmak Olcaysoy Okten, Xi Shen, Ayanna Brewton",
           "url": "https://doi.org/10.1016/j.jesp.2026.104936",
@@ -224,12 +189,12 @@
           "created": "2026-5-9"
         },
         {
-          "title": "Trust under watch: Relational models and the context-dependent nature of monitoring",
-          "authors": "Anna O. Kuzminska, Maryam Khan, Pelin Kesebir, Tomasz Zaleskiewicz, Agata Gasiorowska",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104935",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104935",
+          "title": "Why do people dislike gender role violators? A test of three models",
+          "authors": "Alan J. Lambert, Fade R. Eadeh, Svyatoslav Prokhorets, Giselle Gisser, Keralyn Siebrass",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104926",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104926",
           "filter": 0,
-          "created": "2026-5-6"
+          "created": "2026-5-12"
         },
         {
           "title": "Common = ineffective? A replication attempt of the normative dilution effect in the context of political apologies",
@@ -238,6 +203,22 @@
           "doi": "https://doi.org/10.1016/j.jesp.2026.104938",
           "filter": 0,
           "created": "2026-5-9"
+        },
+        {
+          "title": "Multiculturalism shapes moral judgments of sexist men across religious groups",
+          "authors": "Alexandra Vázquez, Beatriz Alba",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104940",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104940",
+          "filter": 0,
+          "created": "2026-5-13"
+        },
+        {
+          "title": "Interpersonal synchrony modulates explicit and implicit self-other blurring: Evidence from an IAT",
+          "authors": "Manisha Biswas, Marcel Brass",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104937",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104937",
+          "filter": 0,
+          "created": "2026-5-12"
         }
       ],
       "articles_hidden": []
@@ -286,6 +267,14 @@
       "journal_short": "MBR",
       "articles": [
         {
+          "title": "An IRtree Model for Aberrant Response and Missing Data",
+          "authors": "Fangbin Chen, Daxun Wang, Yan Cai, Dongbo Tu",
+          "url": "https://doi.org/10.1080/00273171.2026.2612769",
+          "doi": "https://doi.org/10.1080/00273171.2026.2612769",
+          "filter": 0,
+          "created": "2026-5-12"
+        },
+        {
           "title": "How to Use Residual Dynamic Structural Equation Modeling to Study Individual Differences and Intraindividual Variability in Experimental Factorial Designs: A Tutorial",
           "authors": "Benedikt Langenberg, Jonathan L. Helm, Connor J. McCabe, Thomas Günther, Axel Mayer",
           "url": "https://doi.org/10.1080/00273171.2026.2659616",
@@ -324,15 +313,6 @@
           "doi": "https://doi.org/10.1177/01461672261445479",
           "filter": 0,
           "created": "2026-5-9"
-        },
-        {
-          "title": "Survivors as Agents: How Linguistic Agency Impacts Support for Survivors and Perpetrators of Sexual Assault",
-          "authors": "Darla Bonagura, Jenae Bluhm, Clara Bunnell, Wen Lou, Sarah Ariel Lamer",
-          "abstract": "News media has become increasingly supportive of women who report sexual assault, potentially increasing public support for survivors. Support in the news typically involves granting survivors agency, but theories of morality would predict that linking agency to survivors over perpetrators may have deleterious effects, leading readers to blame survivors more and perpetrators less. We hypothesized that a linguistic pattern in which survivors are framed more agentically than perpetrators is prevalent in news media and influences who readers blame. Across 1,738 sentences from 494 politically varied news articles, a linguistic pattern emerged; in liberal sources, survivors were framed more agentically than perpetrators. We tested how this pattern shaped blame. College participants ( N = 1,238) read sentences where survivors or perpetrators were agentic. Men who read sentences framing survivors (vs. perpetrators) agentically blamed perpetrators less. These findings demonstrate how supportive language can inadvertently reinforce victim-blame by causing people to think perpetrators are less blameworthy.",
-          "url": "https://doi.org/10.1177/01461672261443036",
-          "doi": "https://doi.org/10.1177/01461672261443036",
-          "filter": 0,
-          "created": "2026-5-6"
         },
         {
           "title": "They Are Just Not That Into You: Does Sexual Arousal Impair Perception of Rejection Cues?",
@@ -425,31 +405,6 @@
           "doi": "https://doi.org/10.1177/09567976261439088",
           "filter": 0,
           "created": "2026-5-11"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Psychology of Music",
-      "journal_short": "PsychMusic",
-      "articles": [
-        {
-          "title": "Listening to the spectrum: Exploring music preferences and associations in autism spectrum disorder compared with neurotypical communities on Reddit",
-          "authors": "Sharon Varghese, Emily Carlson, Vinoo Alluri",
-          "abstract": "Existing research lacks insight into music associations and preferences among individuals with autism spectrum disorder (ASD) in real-world settings. This study analyzes 701 Reddit posts from r/Autism and r/Aspergers, comparing them with neurotypical (NT) discussions in r/Music and r/LetsTalkMusic. Using topic modeling and thematic analysis, 12 NT topics and 15 ASD topics were identified. NT individuals focused on themes like the cultural and social impact of music and economic and industry trends, while autistic individuals emphasized therapeutic use of music, diverse music preferences, and music as an identity. Genre analysis showed both groups preferred rock in the intense category, but autistic individuals had a higher representation of metal, likely for sensory load regulation. In the valence-arousal (VA) space, NT individuals preferred rock in high-arousal quadrants, whereas autistic individuals had a broader emotional range, balancing pop and rock. Lyric theme analysis revealed that while both groups resonated with emotional turmoil and conflict, autistic individuals showed a stronger preference for love and connection. These findings highlight the need for personalized music-based interventions, leveraging diverse genres and themes to cater to the unique preferences and therapeutic needs of autistic individuals.",
-          "url": "https://doi.org/10.1177/03057356261429810",
-          "doi": "https://doi.org/10.1177/03057356261429810",
-          "filter": 0,
-          "created": "2026-5-6"
-        },
-        {
-          "title": "The impact of self-selected background music on sustained attention: Examining the roles of arousal and task engagement",
-          "authors": "Ryutaro Oe, Tsukasa Kimura, Kazumitsu Shinohara",
-          "abstract": "The impact of background music (BGM) on vigilance task performance remains controversial. While previous research has focused on arousal as a mediating variable, recent studies suggest that task engagement also influences the effects of BGM on vigilance performance. This study investigated the impact of self-selected BGM on arousal, task engagement, and task performance during a vigilance task. A total of 36 participants completed the Sustained Attention to Response Task (SART) and questionnaires assessing energetic and tense arousal as well as four dimensions of task engagement (emotional, behavioral, state, and cognitive). Results indicated that, compared to silence, self-selected BGM significantly increased participants’ energetic arousal and task engagement, while decreasing response time variability. Furthermore, exploratory hierarchical Bayesian modeling analyses revealed that the effect of BGM on the false alarm rate was well explained by a model in which task engagement mediates the relationship between the presence of BGM and the false alarm rate. These findings emphasize the importance of considering the multifaceted nature of task engagement in future research examining the effects of BGM on cognitive performance, particularly in sustained attention tasks.",
-          "url": "https://doi.org/10.1177/03057356261436409",
-          "doi": "https://doi.org/10.1177/03057356261436409",
-          "filter": 0,
-          "created": "2026-5-6"
         }
       ],
       "articles_hidden": []

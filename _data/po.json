@@ -1,5 +1,5 @@
 {
-  "update": "2026-05-12",
+  "update": "2026-05-14",
   "content": [
     {
       "journal_full": "Journal of Elections, Public Opinion and Parties",
@@ -45,6 +45,15 @@
       "journal_short": "JOS",
       "articles": [
         {
+          "title": "Calibrating Nonresponse Bias: A Cautionary Tale",
+          "authors": "Raimund Wildner, Volker Bosch, Florian Meinfelder",
+          "abstract": "Low response rates due to unit nonresponse have always been a ubiquitous problem in survey-based empirical research, and calibration is a popular method to adjust for bias caused by unit nonresponse. Typically, some external information on the true population quantities of margins for some calibration variables is available, and sometimes also of higher-order interactions. Weighting algorithms try to adjust the sample to these external benchmarks. It is generally assumed that even if the underlying missingness mechanism of the unit nonresponse is non-ignorable, weighting will at least alleviate the severity of the bias. We discuss data situations where weighting under a missing at random (MAR) assumption adjusts the sample correctly but still increases the bias for the analysis model, and we describe strategies for identifying auxiliary variables that are less susceptible to these unwanted effects.",
+          "url": "https://doi.org/10.1177/0282423x261425800",
+          "doi": "https://doi.org/10.1177/0282423x261425800",
+          "filter": 0,
+          "created": "2026-5-13"
+        },
+        {
           "title": "Hierarchy-Aware Heterogeneous Graph Neural Network for Occupation Title Coding",
           "authors": "Yi Xie, Wenbin Zhu",
           "abstract": "Occupation coding encodes job titles into standard occupation labels, which is effective for data processing but tedious. Research proves that classic machine learning is effective, but accuracy needs further improvement. We construct a real data set with 881 occupation categories, including 41,297 pairs of job titles and corresponding labels. We design a hierarchy-aware heterogeneous graph neural network, combining prior knowledge from occupation category trees and synonyms. Results show our model outperforms other methods by 7.62% on micro-F1. It also alleviates the dependence on data as it achieves 52.28% on micro-F1 with only 30% of the original training data set.",
@@ -52,40 +61,6 @@
           "doi": "https://doi.org/10.1177/0282423x261436204",
           "filter": 0,
           "created": "2026-5-11"
-        },
-        {
-          "title": "Geographical Rezoning as a Combinatorial Game: Case Study of the Australian Statistical Geography Standard",
-          "authors": "Filip Juricev-Martincev, Helen Thompson, Gentry White",
-          "abstract": "Geographical rezoning is a combinatorial optimization problem of assigning basic spatial units into regions for statistical analysis and the publication of official government statistics, such as the Census. We propose a novel approach by reframing this problem into a single-player, deterministic, fully-informative, finite combinatorial game; or simply, a single-player puzzle. This definition allows effective and systematic exploration of state-space, and offers perfect information guarantees, as well as decouples the problem definition from a specific solver algorithm. We take an existing combinatorial algorithm called HeLP (Hierarchical Land Parcel Aggregation), and combine its rezoning heuristic with a game-playing algorithm, Monte Carlo tree search, to create three new game-playing solvers for the geographical rezoning problem. A case study was conducted on a real-world data set in Canberra, Australia, on the Australian Statistical Geography Standard (ASGS). Our Monte Carlo implementations, HeLP-MCTS, HeLP-RAVE, and HeLP-RHEA, were tested on simulated data and have yielded a 50.25%, 28.77%, and 57.02% increase in the mean value of the partitioning heuristic function, respectively, compared to a combinatorial solver HeLP. We have also computationally improved the original HeLP algorithm, offering significant speed increases.",
-          "url": "https://doi.org/10.1177/0282423x261429706",
-          "doi": "https://doi.org/10.1177/0282423x261429706",
-          "filter": 0,
-          "created": "2026-5-6"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Journal of Survey Statistics and Methodology",
-      "journal_short": "JSSAM",
-      "articles": [
-        {
-          "title": "CAN RESPONSE TIME ADJUSTMENTS TO QUESTION DEMANDS TOGETHER WITH AVERAGE RESPONSE TIME DISTINGUISH BETWEEN LEVELS OF SATISFICING? FINDINGS FROM THREE SURVEYS IN A LARGE U.S. PANEL STUDY",
-          "authors": "Raymond Hernandez, Stefan Schneider, Erik Meijer, Titus Galama, Doerte U Junghaenel, Arie Kapteyn, Elizabeth Zelinski, Arthur A Stone",
-          "abstract": "Satisficing is a behavior that often results in careless responding and has been defined as engagement in simplified question responding approaches to reduce mental effort, often at the cost of response quality. Our objective was to examine the possibility of using a new survey response time (RT) based metric, response time adjustment, in combination with average survey RT, to identify groups with different levels of satisficing behavior. The RT adjustment parameter reflects the extent to which individuals adjust the amount of time they spend on survey items as a function of how demanding an item is, with low adjustment along with a low average survey RT expected to be associated with a greater likelihood of satisficing. We estimated a mixture model with RT adjustment and average RT as inputs using three questionnaires (with sample sizes of 5,321, 1,616, and 4,093, respectively) from the Understanding America Study (UAS), a large US Internet-based longitudinal panel. Weak and non-satisficing groups were identified in all three studies, with the former making up 3 to 9 percent of the samples, but no strong satisficing group was detected. Evidence supporting a weak satisficing group was based on good accuracy on easy attention check items (indicating they likely were not careless) but low accuracy on more demanding attention check items involving carefully reading long blocks of instructional text. Additionally, consistent with prior literature on satisficing, this weak satisficing group generally had lower mean values on cognitive ability and motivation-related variables (e.g., conscientiousness) compared to other groups. In two of the three studies, the satisficing group produced notable bias in study results involving high time intensity items. RT regulation and average RT may be useful for identifying satisficing in surveys with a mix of high and low time intensity items such as some tests and surveys with vignette-based items.",
-          "url": "https://doi.org/10.1093/jssam/smaf064",
-          "doi": "https://doi.org/10.1093/jssam/smaf064",
-          "filter": 0,
-          "created": "2026-5-6"
-        },
-        {
-          "title": "Improving the Measurement of Gender in Surveys: Effects of Select-One or Select-all-that-Apply Response Format on Measurement and Data Quality Among College Students",
-          "authors": "Dana Garbarski, Jennifer Dykema, James A Yonker, Rosie Eungyuhl Bae, Michael Topping",
-          "abstract": "Recent guidelines on the measurement of gender in surveys recommend a two-step strategy that asks about sex assigned at birth followed by current gender identity using a small number of offered response categories (e.g., female, male, transgender) and an open response field to capture any residual categories (“not listed, please tell us”). However, more research on several fronts is needed to continue to refine our measurement strategies across contexts, and this work continues to be critically important with the dismantling of federally funded research regarding gender identity. In the current study, we examine the impact of response format on the measurement of gender identity. This study reports results from a between-subjects experiment embedded in a campus climate survey about inclusion and belonging at a large Midwestern university in Fall 2024. Over 16,000 students were asked, “What is your gender?” and subsequently randomly assigned to respond using one of two response formats. The first allowed respondents to “select-one” of the response options “woman, man, nonbinary, not listed (please tell us),” and was followed by the question “Are you transgender? Yes/No.” The second included the response options “woman, man, nonbinary, transgender, not listed (please tell us)” and instructed respondents to “select all that apply.” We examine the distribution of responses, item nonresponse, the number of gender categories reported, response times, and concurrent validity (in terms of the association between gender and survey outcomes about campus climate) across the two formats. While the results mainly show similarities in outcomes between the response formats, respondents are more likely to indicate they are transgender in the “select-one” format. By contrast, respondents are more likely to indicate gender expansiveness other than “transgender” or “nonbinary” with the “select-all” format. We discuss the implications of these findings for future research.",
-          "url": "https://doi.org/10.1093/jssam/smaf058",
-          "doi": "https://doi.org/10.1093/jssam/smaf058",
-          "filter": 0,
-          "created": "2025-12-9"
         }
       ],
       "articles_hidden": []
@@ -103,36 +78,12 @@
           "created": "2026-5-11"
         },
         {
-          "title": "Anti-Indigenous attitudes and divided support: the Indigenous voice and public opinion in Australia",
-          "authors": "Raymond Foxworth, Carew Boulding, Sarah Maddison, Edana Beauvais",
-          "url": "https://doi.org/10.1080/21565503.2026.2658785",
-          "doi": "https://doi.org/10.1080/21565503.2026.2658785",
-          "filter": 0,
-          "created": "2026-5-5"
-        },
-        {
           "title": "The legacy of American territorial imperialism and its consequences for civil rights",
           "authors": "Jordan Carr Peterson",
           "url": "https://doi.org/10.1080/21565503.2026.2658789",
           "doi": "https://doi.org/10.1080/21565503.2026.2658789",
           "filter": 0,
           "created": "2026-5-11"
-        },
-        {
-          "title": "The racial politics of student debt relief policy",
-          "authors": "Serena Laws, Mallory E. SoRelle",
-          "url": "https://doi.org/10.1080/21565503.2026.2658793",
-          "doi": "https://doi.org/10.1080/21565503.2026.2658793",
-          "filter": 0,
-          "created": "2026-5-6"
-        },
-        {
-          "title": "“Hidden” racist attitudes against athletes of color in the German population: findings from a list experiment",
-          "authors": "Michael Mutz, Sebastian Braun, Ulrike Burrmann",
-          "url": "https://doi.org/10.1080/21565503.2026.2658801",
-          "doi": "https://doi.org/10.1080/21565503.2026.2658801",
-          "filter": 0,
-          "created": "2026-5-6"
         }
       ],
       "articles_hidden": []
@@ -167,6 +118,15 @@
           "doi": "https://doi.org/10.1093/poq/nfag025",
           "filter": 0,
           "created": "2026-3-18"
+        },
+        {
+          "title": "Do Group-Based Inequalities Feel More Unjust? Experimental Evidence from Economically Disadvantaged Groups in India, South Africa, and the United States",
+          "authors": "Lasse Egendal Leipziger, Laurits Florang Aarslew, Matias Engdal Christensen",
+          "abstract": "Macro-level research finds that group-based inequalities are more likely than interpersonal inequalities to spark political conflict and instability. However, the individual-level mechanisms driving this relationship remain empirically underexamined. We test the central hypothesis that group-based disparities evoke stronger feelings and perceptions of injustice than interpersonal inequalities. Drawing on three preregistered priming experiments among disadvantaged groups in India (n = 1,600), South Africa (n = 1,600), and the United States (n = 3,000), we find limited evidence that intergroup inequality is perceived as more unfair and evokes stronger feelings of injustice than interpersonal inequality. Our findings question the view that ethnic inequalities are perceived as particularly unfair at the individual level, suggesting that their link to conflict may instead operate through other micro-level mechanisms.",
+          "url": "https://doi.org/10.1093/poq/nfag029",
+          "doi": "https://doi.org/10.1093/poq/nfag029",
+          "filter": 0,
+          "created": "2026-4-1"
         }
       ],
       "articles_hidden": []
