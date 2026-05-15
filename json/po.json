@@ -1,5 +1,5 @@
 {
-  "update": "2026-05-14",
+  "update": "2026-05-15",
   "content": [
     {
       "journal_full": "Journal of Elections, Public Opinion and Parties",
@@ -20,22 +20,6 @@
           "doi": "https://doi.org/10.1080/17457289.2026.2669141",
           "filter": 0,
           "created": "2026-5-8"
-        },
-        {
-          "title": "First-time voter boost of turnout: new identification strategy",
-          "authors": "Maiko Shoji, Kentaro Fukumoto",
-          "url": "https://doi.org/10.1080/17457289.2026.2665225",
-          "doi": "https://doi.org/10.1080/17457289.2026.2665225",
-          "filter": 0,
-          "created": "2026-5-7"
-        },
-        {
-          "title": "Compulsory voting and youth representation in parliaments",
-          "authors": "Daniel Stockemer, Kamila Kolodziejczyk, Avery Chalmers, Sam Maher, Lauren Garcia",
-          "url": "https://doi.org/10.1080/17457289.2026.2665226",
-          "doi": "https://doi.org/10.1080/17457289.2026.2665226",
-          "filter": 0,
-          "created": "2026-5-7"
         }
       ],
       "articles_hidden": []
@@ -44,6 +28,15 @@
       "journal_full": "Journal of Official Statistics",
       "journal_short": "JOS",
       "articles": [
+        {
+          "title": "Algorithm-Assisted Inference and the Future of Official Statistics",
+          "authors": "Adrien Allorant, Paul A. Smith",
+          "abstract": "Artificial intelligence is entering official statistics through automated coding, imputation, nowcasting from alternative data sources, and small area estimation. This article examines AI adoption through the lens of methodological transitions in survey sampling—from design-based inference through model-assisted estimation—and addresses three questions. First, what is the relationship between algorithm-assisted and model-assisted inference? We show that generalized difference estimators can incorporate machine learning predictions in the same way they incorporate parametric working models. Second, what quality framework extensions are needed for operational deployment? Drawing on vignettes from European and North American statistical offices, we identify five areas requiring development: training data documentation, algorithmic transparency, validation protocols, uncertainty characterization, and reproducibility. We argue for prequential evaluation—assessing calibration and stability over successive production cycles—as an operational practice suited to algorithm-assisted systems. Third, what institutional challenges distinguish AI from earlier transitions? We examine the public-private asymmetry in AI development: whereas twentieth-century methodological innovations emerged largely from public institutions, contemporary AI capabilities are concentrated in private technology companies. European Statistical System initiatives illustrate governance responses, but dependency risks persist. We conclude that algorithm-assisted inference can succeed, but only if it can be made auditable, reproducible, and publicly defensible.",
+          "url": "https://doi.org/10.1177/0282423x261443590",
+          "doi": "https://doi.org/10.1177/0282423x261443590",
+          "filter": 0,
+          "created": "2026-5-14"
+        },
         {
           "title": "Calibrating Nonresponse Bias: A Cautionary Tale",
           "authors": "Raimund Wildner, Volker Bosch, Florian Meinfelder",
@@ -93,15 +86,6 @@
       "journal_short": "POQ",
       "articles": [
         {
-          "title": "Computer-Assisted Mobile Phone Interviews in Low- and Middle-Income Countries Through a Total Survey Error Framework",
-          "authors": "Abigail R Greenleaf, Huguette Diakabana, Charles Lau",
-          "abstract": "Researchers increasingly use computer-assisted telephone interviewing (CATI) via mobile phones in low- and middle-income countries (LMIC). A nascent methodological literature explores representation and measurement error in these surveys, but knowledge is disparate, siloed across disciplines, countries, and research designs. Using the total survey error framework, this research synthesis summarizes findings from peer-reviewed methodological research on CATI in LMIC. We used a scoping review methodology to identify and review 38 peer-reviewed journal articles to answer two research questions: (1) Which study designs, topic areas, and total survey error components have been examined in CATI mobile phone surveys conducted in LMIC? and (2) What does the research say about representation and measurement errors in CATI mobile phone surveys in LMIC? Based on these findings, this research synthesis highlights when, where, and how CATI surveys can be used across LMIC.",
-          "url": "https://doi.org/10.1093/poq/nfag023",
-          "doi": "https://doi.org/10.1093/poq/nfag023",
-          "filter": 0,
-          "created": "2026-3-14"
-        },
-        {
           "title": "Who Reads Criticism Matters: How Selective Exposure Affects Public Backlash to Foreign Shaming",
           "authors": "Jamie J Gruffydd-Jones",
           "abstract": "Recent experimental studies have found that foreign shaming can be counterproductive, engendering more positive public opinion toward a target government. This paper shows that whether foreign shaming in fact leads to this kind of backlash is dependent on citizens’ exposure to the shaming. A modified participant preference trial finds that less nationalist Chinese citizens are significantly more likely to choose to read about American criticism of COVID-19 policies in China. While the criticism has no impact on those respondents who choose to read it, it significantly increases support for the Chinese government among those who choose not to. These findings demonstrate the importance of understanding which members of the public are exposed to international actions, and how campaigns to highlight these actions may make a backlash more likely.",
@@ -109,15 +93,6 @@
           "doi": "https://doi.org/10.1093/poq/nfag027",
           "filter": 0,
           "created": "2026-3-19"
-        },
-        {
-          "title": "Bad Mood Rising? Assessing Scalar Invariance Violations with Comparative Democratic Support Data",
-          "authors": "Philip Warncke, Ryan E Carlin",
-          "abstract": "The advent of nearly global estimates of democratic mood has caused genuine optimism for comparative investigations into the linkages between public opinion and democracy. Scholarly enthusiasm in this field has particularly been boosted by recent claims that measuring latent democratic support with hierarchical IRT models overcomes differential item functioning (DIF)—a well-known challenge that typically foils the comparability of latent constructs across time and space. Focusing specifically on DIF-induced violations to scalar measurement invariance, we show mathematically and with statistical simulations that no commonly used latent variable modeling framework, including hierarchical IRT, is immune to bias stemming from systematic DIF. While some models can fully accommodate measurement invariance violations that are completely random between nations and across items, they begin to falter as soon as such violations exhibit a directional bias, that is, if respondents from different countries interpret or appraise survey items systematically differently. Equipped with democratic mood data from Latin America, we present suggestive evidence that systematic, directional bias in DIF is far more prevalent than random measurement noninvariance. We conclude with a number of practical recommendations for public opinion researchers to mitigate measurement invariance violations in their own work.",
-          "url": "https://doi.org/10.1093/poq/nfag025",
-          "doi": "https://doi.org/10.1093/poq/nfag025",
-          "filter": 0,
-          "created": "2026-3-18"
         },
         {
           "title": "Do Group-Based Inequalities Feel More Unjust? Experimental Evidence from Economically Disadvantaged Groups in India, South Africa, and the United States",
