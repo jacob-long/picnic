@@ -1,5 +1,5 @@
 {
-  "update": "2026-05-18",
+  "update": "2026-05-19",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -31,14 +31,6 @@
           "created": "2026-5-13"
         },
         {
-          "title": "Analyzing interpersonal coordination through motion capture and cross-correlation: An integrated approach to magnitude, temporality, and morphology",
-          "authors": "Esteban Hurtado, Marisol Correa, Zamara Cuadros, Javiera Paredes, David Carré, Carlos Cornejo",
-          "url": "https://doi.org/10.3758/s13428-026-03041-w",
-          "doi": "https://doi.org/10.3758/s13428-026-03041-w",
-          "filter": 0,
-          "created": "2026-5-11"
-        },
-        {
           "title": "Robust Bayesian multilevel meta-analysis: Adjusting for publication bias in the presence of dependent effect sizes",
           "authors": "František Bartoš, Maximilian Maier, Eric-Jan Wagenmakers",
           "abstract": "Meta-analyses often include multiple dependent effect sizes, yet current methods typically neglect the resulting within-study dependencies or fail to address model uncertainty and publication bias adequately. We extend robust Bayesian meta-analysis (RoBMA) to a multilevel framework, simultaneously handling within-study dependencies, model uncertainty, heterogeneity, moderators, and publication bias. Specifically, the three-level RoBMA integrates approximate Bayesian selection models with PET-PEESE adjustments within a hierarchical Bayesian setting. We illustrate the methodology through empirical examples and demonstrate its performance via simulations. The approach is implemented in the package and JASP.",
@@ -65,22 +57,13 @@
           "created": "2026-5-13"
         },
         {
-          "title": "Advantages and artifacts of high-speed OLED monitors for vision, eye-tracking, and EEG research",
-          "authors": "Olaf Dimigen, Arne Stein",
-          "abstract": "A bstract The recent introduction of organic light-emitting diode (OLED) monitors with refresh rates of 240 Hz or more opens new possibilities for their use as precise stimulation devices in vision research, experimental psychology, and electrophysiology. These affordable high-speed monitors, targeted at video gamers, promise several advantages over cathode ray tube (CRT) and liquid crystal display (LCD) monitors. Unlike LCDs, OLEDs have self-emitting pixels that can show true black, resulting in superior contrast, a broad color spectrum, and wide viewing angles. More importantly, the latest OLEDs offer excellent timing properties with minimal input lag and rapid transition times. However, OLED technology also has potential drawbacks, such as auto-brightness limiting (ABL), where luminance changes with the number of illuminated pixels. This study characterized a 240 Hz OLED monitor (ASUS PG27AQDM) in terms of its timing, temporal independence, spatial uniformity, viewing angles, warm-up time, and ABL behavior, and compared it with CRTs and LCDs. Results confirm excellent temporal performance, with CRT-like transition times, wide viewing angles, and good spatial uniformity. We show that ABL can be prevented with appropriate settings. However, we also report a novel type of luminance artifact on OLEDs, where high-contrast stimuli, shown for long durations, can create image persistence via localized warming or cooling of the panel. Finally, we demonstrate the monitor’s benefits in two time-critical paradigms: rapid invisible flicker tagging (RIFT) and saccade-contingent display changes. The latest consumer OLEDs provide precise and cost-effective stimulation devices for time-critical experiments, although some caution is warranted in experiments involving long exposures to high-contrast stimuli.",
-          "url": "https://doi.org/10.3758/s13428-026-03034-9",
-          "doi": "https://doi.org/10.3758/s13428-026-03034-9",
+          "title": "Classification errors distort findings in automated speech processing: Examples and solutions from child-development research",
+          "authors": "Lucas Gautheron, Evan Kidd, Anton Malko, Marvin Lavechin, Alejandrina Cristia",
+          "abstract": "With the advent of wearable recorders, scientists are increasingly turning to automated methods of analysis of audio and video data in order to measure children’s experience, behavior, and outcomes, with a sizable literature employing long-form audio-recordings to study language acquisition. While numerous articles report on the accuracy and reliability of the most popular automated classifiers, less has been written on the downstream effects of classification errors on measurements and statistical inferences (e.g., the estimate of correlations and effect sizes in regressions). This paper’s main contributions are drawing attention to downstream effects of confusion errors, and providing an approach to measure and potentially recover from these errors. Specifically, we use a Bayesian approach to study the effects of algorithmic errors on key scientific questions, including the effect of siblings on children’s language experience and the association between children’s production and their input. By fitting a joint model of speech behavior and algorithm behavior on real and simulated data, we show that classification errors can significantly distort estimates for both the most commonly used Language ENvironment Analysis (LENA™), and a slightly more accurate open-source alternative (the Voice Type Classifier from the ACLEW system). We further show that a Bayesian calibration approach for recovering unbiased estimates of effect sizes can be effective and insightful, but does not provide a foolproof solution.",
+          "url": "https://doi.org/10.3758/s13428-026-03029-6",
+          "doi": "https://doi.org/10.3758/s13428-026-03029-6",
           "filter": 0,
-          "created": "2026-5-11"
-        },
-        {
-          "title": "A stroke-level large-scale database of Chinese character handwriting and the OpenHandWrite_Toolbox for handwriting research",
-          "authors": "Zebo Xu, Shaoyun Yu, Mark Torrance, Guido Nottbusch, Nan Zhao, Zhenguang Cai",
-          "abstract": "Understanding what linguistic components (e.g., phonological, semantic, and orthographic systems) modulate Chinese handwriting at the character, radical, and stroke levels remains an important yet understudied topic. Additionally, there is a lack of comprehensive tools for capturing and batch-processing fine-grained handwriting data. To address these issues, we constructed a large-scale handwriting database in which 42 Chinese speakers each handwrote 1200 characters in a handwriting-to-dictation task. Additionally, we enhanced the existing handwriting package and provided comprehensive documentation for the upgraded OpenHandWrite_Toolbox. This toolbox allows users to easily modify the experimental design, capture the stroke-level handwriting trajectory, and batch-process handwriting measurements (e.g., latency and duration). Analysis of our large-scale database indicates that orthographic predictors affect handwriting preparation and execution at the character, radical, and stroke levels. Phonological factors influence handwriting at character and radical levels. Importantly, these lexical effects demonstrate hierarchical attenuation: they were most pronounced at the character level, followed by the radical, and weakest at the stroke level. These findings demonstrate that handwriting preparation and execution at the radical and stroke levels are closely intertwined with linguistic components. This database and toolbox offer valuable resources for future psycholinguistic and neurolinguistic research on the handwriting of characters and sub-characters across different languages.",
-          "url": "https://doi.org/10.3758/s13428-026-03001-4",
-          "doi": "https://doi.org/10.3758/s13428-026-03001-4",
-          "filter": 0,
-          "created": "2026-5-11"
+          "created": "2026-5-18"
         }
       ],
       "articles_hidden": []
@@ -114,20 +97,12 @@
           "created": "2026-5-14"
         },
         {
-          "title": "Immersive Virtual Reality for Caregivers of Children and Adolescents with ADHD: A Mixed-Methods Study of Stress Reduction, Empathy Engagement, and Quality of Life Outcomes",
+          "title": "Immersive virtual reality for caregivers of children and adolescents with ADHD: A mixed-methods study of stress reduction, empathy engagement, and quality of life outcomes",
           "authors": "Ka Po Wong, Haoneng Lin, Sikai Wu, Kean Poon, Cynthia Yuen Yi Lai, Jing Qin",
           "url": "https://doi.org/10.1016/j.chb.2026.109049",
           "doi": "https://doi.org/10.1016/j.chb.2026.109049",
           "filter": 0,
           "created": "2026-5-15"
-        },
-        {
-          "title": "Between the bars: Virtual reality and physical prison simulations link to reduced prejudice against incarcerated people",
-          "authors": "Marco Marinucci, Paolo Riva, Teresa Traversa, Maria Elena Magrin",
-          "url": "https://doi.org/10.1016/j.chb.2026.109048",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109048",
-          "filter": 0,
-          "created": "2026-5-11"
         }
       ],
       "articles_hidden": [
@@ -171,6 +146,14 @@
       "journal_short": "JESP",
       "articles": [
         {
+          "title": "Expectations of middle school children's academic performance in STEM and the Humanities: The effects of genetic and environmental frameworks",
+          "authors": "Lisa Luis, Mauro Bianchi, Rosandra Coladonato, Valentina Piccoli, Andrea Carnaghi",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104946",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104946",
+          "filter": 0,
+          "created": "2026-5-18"
+        },
+        {
           "title": "Why do people dislike gender role violators? A test of three models",
           "authors": "Alan J. Lambert, Fade R. Eadeh, Svyatoslav Prokhorets, Giselle Gisser, Keralyn Siebrass",
           "url": "https://doi.org/10.1016/j.jesp.2026.104926",
@@ -210,14 +193,6 @@
       "journal_short": "JPSP",
       "articles": [
         {
-          "title": "Genetic and environmental factors underlying the associations between attachment styles and mental and physical health.",
-          "authors": "Keely A. Dugan, Jacob J. Kunkel, Stefania V. Vacaru, R. Chris Fraley, Theodore E. A. Waters, Matthew McGue, Robert F. Krueger, Glenn I. Roisman",
-          "url": "https://doi.org/10.1037/pspi0000518",
-          "doi": "https://doi.org/10.1037/pspi0000518",
-          "filter": 0,
-          "created": "2026-5-11"
-        },
-        {
           "title": "Speaking of gender: Language genderedness and its association with gender differences in personality across 48 languages.",
           "authors": "Roxana Hofmann, René Mõttus",
           "url": "https://doi.org/10.1037/pspp0000600",
@@ -226,12 +201,12 @@
           "created": "2026-5-14"
         },
         {
-          "title": "From charm to conflict: Simulating narcissistic interpersonal dynamics with agent-based modeling.",
-          "authors": "Lena Herchenhahn, Emanuel Jauk, Martin Schoemann, Stefan Scherbaum, Veronika Lerche",
-          "url": "https://doi.org/10.1037/pspp0000599",
-          "doi": "https://doi.org/10.1037/pspp0000599",
+          "title": "Can I make the time or is it running out? That depends in part on what difficulty implies about me.",
+          "authors": "Su Young (Kevin) Choi, Daphna Oyserman",
+          "url": "https://doi.org/10.1037/pspa0000487",
+          "doi": "https://doi.org/10.1037/pspa0000487",
           "filter": 0,
-          "created": "2026-5-11"
+          "created": "2026-5-18"
         }
       ],
       "articles_hidden": []
@@ -240,6 +215,14 @@
       "journal_full": "Multivariate Behavioral Research",
       "journal_short": "MBR",
       "articles": [
+        {
+          "title": "Individual Variability as a Moderator of Latent Structural Relations",
+          "authors": "Joshua R. Shulkin",
+          "url": "https://doi.org/10.1080/00273171.2026.2673280",
+          "doi": "https://doi.org/10.1080/00273171.2026.2673280",
+          "filter": 0,
+          "created": "2026-5-18"
+        },
         {
           "title": "Fair and Robust Estimation of Heterogeneous Treatment Effects for Optimal Policies in Multilevel Studies",
           "authors": "Youmi Suk, Chan Park, Chenguang Pan, Kwangho Kim",
@@ -314,45 +297,20 @@
       "journal_short": "PM",
       "articles": [
         {
-          "title": "Assessing qualitative individual differences with Bayesian hierarchical latent-mixture models.",
-          "authors": "Martin Schnuerch, Jeffrey N. Rouder",
-          "url": "https://doi.org/10.1037/met0000840",
-          "doi": "https://doi.org/10.1037/met0000840",
+          "title": "Extending bias adjustments for R-squared to multilevel models.",
+          "authors": "Yingchi Guo, Jason D. Rights",
+          "url": "https://doi.org/10.1037/met0000813",
+          "doi": "https://doi.org/10.1037/met0000813",
           "filter": 0,
-          "created": "2026-5-11"
+          "created": "2026-5-18"
         },
         {
-          "title": "Modeling psychological time series with multilevel hidden Markov models: A tutorial.",
-          "authors": "Emmeke Aarts, Jonas Haslbeck",
-          "url": "https://doi.org/10.1037/met0000830",
-          "doi": "https://doi.org/10.1037/met0000830",
+          "title": "A causal framework for explaining effect heterogeneity in conceptual replications.",
+          "authors": "Steffi Pohl, Marie-Ann Sengewald, Dennis Kondzic, Jerome Hoffmann, Mathias Twardawski, Peter M. Steiner",
+          "url": "https://doi.org/10.1037/met0000834",
+          "doi": "https://doi.org/10.1037/met0000834",
           "filter": 0,
-          "created": "2026-5-11"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Psychological Science",
-      "journal_short": "PsychSci",
-      "articles": [
-        {
-          "title": "Motive Alignment Promotes Adolescents’ Proenvironmental Behavior: A Field Experiment in Two Cultures",
-          "authors": "Jenna Spitzer, Stathis Grapsas, Astrid M. G. Poorthuis, Fan Li, Yue Song, Sander Thomaes",
-          "abstract": "Realizing a sustainable future requires the active participation of today’s young generations. How can we foster adolescents’ proenvironmental engagement? In a preregistered, cross-national, longitudinal field experiment, we tested a novel approach to promoting adolescent behavior change: motive alignment. We hypothesized that presenting proenvironmental behavior as aligned with adolescents’ developmentally salient motives (in this case, autonomy and peer status) would enhance their engagement. In Study 1 (the Netherlands), a motive-alignment (versus control) intervention implemented in secondary schools increased adolescents’ proenvironmental food choices on the day of the intervention. Although this effect faded after 4 weeks, participants in the intervention condition continued to donate more to an environmental organization at follow-up. In Study 2 (China), we replicated these findings. Motive alignment thus offers a promising approach to strengthen interventions promoting adolescents’ proenvironmental behavior; it presents scalable and affordable opportunities to foster youth behavior change.",
-          "url": "https://doi.org/10.1177/09567976261440239",
-          "doi": "https://doi.org/10.1177/09567976261440239",
-          "filter": 0,
-          "created": "2026-5-11"
-        },
-        {
-          "title": "Retributive Sentiments Track Both Deterrent and Compensatory Concerns in a Small-Scale Society and a WEIRD Sample",
-          "authors": "Léo Fitouchi, Manvir Singh",
-          "abstract": "Evolutionary theories suggest that retributive sentiments evolved to deter antisocial behavior, yet psychological evidence shows punitive sentiments imperfectly optimize deterrence. Recent theories resolve this paradox, suggesting that retributive sentiments serve to restore mutual benefit between partners by both compensating the victim and imposing an additional deterrent cost on the transgressor. In four experiments, we tested predictions of this hypothesis with adults from a small-scale, politically decentralized society (Mentawai horticulturalists, Indonesia; N = 74) and a large-scale society (the United States; N = 600). Consistent with compensatory concerns, participants demanded that victims be rewarded in the currency of their loss and that more severe punishment be imposed when victims suffered more, holding aggressor benefit constant. Consistent with compensation being entangled with deterrence, participants endorsed additional penalties beyond restitution that were higher for recidivism and intentional offenses. This proximate entanglement of compensation and deterrence helps resolve apparent contradictions about the function of punishment in humans.",
-          "url": "https://doi.org/10.1177/09567976261439088",
-          "doi": "https://doi.org/10.1177/09567976261439088",
-          "filter": 0,
-          "created": "2026-5-11"
+          "created": "2026-5-18"
         }
       ],
       "articles_hidden": []
@@ -362,12 +320,35 @@
       "journal_short": "PPM",
       "articles": [
         {
-          "title": "The associations between media multitasking, sleep outcomes, and trait mindfulness.",
-          "authors": "El-Lim Kim, Alena Rogojina, Kyle Samson",
-          "url": "https://doi.org/10.1037/ppm0000674",
-          "doi": "https://doi.org/10.1037/ppm0000674",
+          "title": "Does the dog die? Empathic distress and spoilers as self-protection.",
+          "authors": "Judith E. Rosenbaum, Morgan E. Ellithorpe, Sarah E. Brookes",
+          "url": "https://doi.org/10.1037/ppm0000675",
+          "doi": "https://doi.org/10.1037/ppm0000675",
           "filter": 0,
-          "created": "2026-5-11"
+          "created": "2026-5-18"
+        },
+        {
+          "title": "“Don't blame me”: Testing the effects of Taylor Swift fan identity on emerging adults’ moral reasoning strategies and environmental cognitions.",
+          "authors": "Leah Dajches, Taylor A. Foerster, Juliana L. Barbati, Jessica Gall Myrick",
+          "url": "https://doi.org/10.1037/ppm0000673",
+          "doi": "https://doi.org/10.1037/ppm0000673",
+          "filter": 0,
+          "created": "2026-5-18"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Technology, Mind, and Behavior",
+      "journal_short": "TMB",
+      "articles": [
+        {
+          "title": "Persuasion in human–artificial intelligence systems: How confidence and precision influence acceptance of recommendations in a consumer context.",
+          "authors": "Alvaro Chacon, Markus Langer",
+          "url": "https://doi.org/10.1037/tmb0000195",
+          "doi": "https://doi.org/10.1037/tmb0000195",
+          "filter": 0,
+          "created": "2026-5-18"
         }
       ],
       "articles_hidden": []
