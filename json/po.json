@@ -1,5 +1,5 @@
 {
-  "update": "2026-05-20",
+  "update": "2026-05-22",
   "content": [
     {
       "journal_full": "Journal of Elections, Public Opinion and Parties",
@@ -12,31 +12,6 @@
           "doi": "https://doi.org/10.1080/17457289.2026.2669140",
           "filter": 0,
           "created": "2026-5-15"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Journal of Official Statistics",
-      "journal_short": "JOS",
-      "articles": [
-        {
-          "title": "Algorithm-Assisted Inference and the Future of Official Statistics",
-          "authors": "Adrien Allorant, Paul A. Smith",
-          "abstract": "Artificial intelligence is entering official statistics through automated coding, imputation, nowcasting from alternative data sources, and small area estimation. This article examines AI adoption through the lens of methodological transitions in survey sampling—from design-based inference through model-assisted estimation—and addresses three questions. First, what is the relationship between algorithm-assisted and model-assisted inference? We show that generalized difference estimators can incorporate machine learning predictions in the same way they incorporate parametric working models. Second, what quality framework extensions are needed for operational deployment? Drawing on vignettes from European and North American statistical offices, we identify five areas requiring development: training data documentation, algorithmic transparency, validation protocols, uncertainty characterization, and reproducibility. We argue for prequential evaluation—assessing calibration and stability over successive production cycles—as an operational practice suited to algorithm-assisted systems. Third, what institutional challenges distinguish AI from earlier transitions? We examine the public-private asymmetry in AI development: whereas twentieth-century methodological innovations emerged largely from public institutions, contemporary AI capabilities are concentrated in private technology companies. European Statistical System initiatives illustrate governance responses, but dependency risks persist. We conclude that algorithm-assisted inference can succeed, but only if it can be made auditable, reproducible, and publicly defensible.",
-          "url": "https://doi.org/10.1177/0282423x261443590",
-          "doi": "https://doi.org/10.1177/0282423x261443590",
-          "filter": 0,
-          "created": "2026-5-14"
-        },
-        {
-          "title": "Calibrating Nonresponse Bias: A Cautionary Tale",
-          "authors": "Raimund Wildner, Volker Bosch, Florian Meinfelder",
-          "abstract": "Low response rates due to unit nonresponse have always been a ubiquitous problem in survey-based empirical research, and calibration is a popular method to adjust for bias caused by unit nonresponse. Typically, some external information on the true population quantities of margins for some calibration variables is available, and sometimes also of higher-order interactions. Weighting algorithms try to adjust the sample to these external benchmarks. It is generally assumed that even if the underlying missingness mechanism of the unit nonresponse is non-ignorable, weighting will at least alleviate the severity of the bias. We discuss data situations where weighting under a missing at random (MAR) assumption adjusts the sample correctly but still increases the bias for the analysis model, and we describe strategies for identifying auxiliary variables that are less susceptible to these unwanted effects.",
-          "url": "https://doi.org/10.1177/0282423x261425800",
-          "doi": "https://doi.org/10.1177/0282423x261425800",
-          "filter": 0,
-          "created": "2026-5-13"
         }
       ],
       "articles_hidden": []
@@ -69,6 +44,15 @@
       "journal_short": "POQ",
       "articles": [
         {
+          "title": "The Social Nature of Political (Dis)Interest: Conceptualizing and Validating Political (Dis)Interest as a Social Identity",
+          "authors": "Céline M Laffineur, Bert N Bakker, Gijs Schumacher",
+          "abstract": "Political interest is fundamental to democratic engagement. Yet, its conceptualization remains debated. In this agenda-setting study, we offer a new but important perspective by conceptualizing political (dis)interest as a social identity. We introduce two innovative measures: the Positive Political Interest Identity Scale (PPIS) and the Negative Political Interest Identity Scale (NPIS). Employing Item Response Theory, we demonstrate the construct validity of both scales in a preregistered study in the Netherlands (N = 1,553). Using the same dataset, we demonstrate their predictive validity. Specifically, the PPIS and NPIS uncover substantial differences in political attitudes and behaviors both between and within individuals who identify as politically (dis)interested. Conceptualizing political (dis)interest as a social identity enriches our understanding of the concept and its implications for politically relevant attitudes and behaviors, while also informing interventions to foster political interest equally across all citizens.",
+          "url": "https://doi.org/10.1093/poq/nfag031",
+          "doi": "https://doi.org/10.1093/poq/nfag031",
+          "filter": 0,
+          "created": "2026-4-10"
+        },
+        {
           "title": "Reassessing Racial Differences in Authoritarianism in the United States: Measurement Invariance and Group Comparisons Using the ANES Child-Rearing Values Scale",
           "authors": "Fabrício M Fialho",
           "abstract": "Measurement invariance is a necessary condition for meaningful comparisons across populations. Previous studies argue that authoritarianism between Blacks and Whites in the United States cannot be compared due to the lack of measurement invariance in the American National Election Studies child-rearing values index. This paper challenges this claim. I analyze ANES data from 1992 to 2016 and identify partial measurement invariance in the 1992–2008 surveys (only one item, respect for elders, displays differential item functioning across groups) and full invariance in the 2012 and 2016 data. It is demonstrated that the child-rearing scale is comparable across Black and White respondents once partial measurement invariance is modeled accordingly, and that group comparisons are methodologically sound. I advanced a hypothesis for the noninvariance of respect for elders and suggest that future work should use measurement models that accommodate differential item functioning and further develop the child-rearing scale.",
@@ -76,15 +60,22 @@
           "doi": "https://doi.org/10.1093/poq/nfag020",
           "filter": 0,
           "created": "2026-4-2"
-        },
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Social Science Computer Review",
+      "journal_short": "SSCR",
+      "articles": [
         {
-          "title": "Do Group-Based Inequalities Feel More Unjust? Experimental Evidence from Economically Disadvantaged Groups in India, South Africa, and the United States",
-          "authors": "Lasse Egendal Leipziger, Laurits Florang Aarslew, Matias Engdal Christensen",
-          "abstract": "Macro-level research finds that group-based inequalities are more likely than interpersonal inequalities to spark political conflict and instability. However, the individual-level mechanisms driving this relationship remain empirically underexamined. We test the central hypothesis that group-based disparities evoke stronger feelings and perceptions of injustice than interpersonal inequalities. Drawing on three preregistered priming experiments among disadvantaged groups in India (n = 1,600), South Africa (n = 1,600), and the United States (n = 3,000), we find limited evidence that intergroup inequality is perceived as more unfair and evokes stronger feelings of injustice than interpersonal inequality. Our findings question the view that ethnic inequalities are perceived as particularly unfair at the individual level, suggesting that their link to conflict may instead operate through other micro-level mechanisms.",
-          "url": "https://doi.org/10.1093/poq/nfag029",
-          "doi": "https://doi.org/10.1093/poq/nfag029",
+          "title": "Can Machines Perform a Qualitative Data Analysis? Reading the Debate With Alan Turing",
+          "authors": "Stefano De Paoli",
+          "abstract": "This paper reflects on the literature that rejects the use of Large Language Models (LLMs) in qualitative data analysis (QDA). It illustrates through empirical evidence and critical reflections why the current debate is focusing on the wrong problems. The paper proposes that a key focus of researching the use of the LLMs for QDA is the empirical investigation of a hybrid/artificial system performing an analysis. The paper builds on the seminal work of Alan Turing and reads the current debate using key ideas from Turing’s “Computing Machinery and Intelligence.” This paper reframes the debate on QDA with LLMs and states that rather than asking whether machines can perform qualitative analysis in principle, we should ask whether with LLMs and researchers together can produce analyses that are sufficiently comparable to human analysts alone. In the final part the contrary views to performing QDA with LLMs are analysed using the same writing and rhetorical style that Turing used in his seminal work.",
+          "url": "https://doi.org/10.1177/08944393261451707",
+          "doi": "https://doi.org/10.1177/08944393261451707",
           "filter": 0,
-          "created": "2026-4-1"
+          "created": "2026-5-21"
         }
       ],
       "articles_hidden": []
