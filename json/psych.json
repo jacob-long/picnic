@@ -1,5 +1,5 @@
 {
-  "update": "2026-05-22",
+  "update": "2026-05-23",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -31,6 +31,33 @@
       "journal_short": "BRM",
       "articles": [
         {
+          "title": "The talking heads attentional bias assessment task: A readily available, reliable, and effective task for assessing attentional bias",
+          "authors": "Mahdi Mazidi, Colin MacLeod, Seyran Ranjbar, Owen Myles, Ben Grafton",
+          "abstract": "Cognitive theories contend that attentional bias to negative information contributes to elevated trait anxiety. However, research in this area has been hindered by the lack of a standardized assessment task that demonstrates the required qualities, including strong internal consistency and ecological validity. The present study aimed to develop and validate the Talking Heads Attentional Bias Assessment Task, an easy-to-implement measure that overcomes the limitations of previous attentional bias assessment tasks. The task employs video-based stimuli conveying emotionally negative or benign information about issues individuals commonly encounter in their daily lives and uses a dual-probe methodology to assess attentional bias. A sample of 168 undergraduate students completed the task along with measures of trait and state anxiety. The results demonstrated that the attentional bias index derived from the task showed excellent internal consistency across multiple reliability assessment methods. Greater attentional bias to negative information was also significantly associated with greater trait anxiety, confirming the task’s sensitivity to anxiety-linked individual differences in such attentional bias. Furthermore, mediation analyses revealed that attentional bias mediated the association between trait anxiety and state anxiety elevation in response to emotional information. We discuss the study’s important theoretical and methodological implications, and convey the task’s capacity to enhance assessment of attentional bias across a wide range of psychological domains.",
+          "url": "https://doi.org/10.3758/s13428-026-03045-6",
+          "doi": "https://doi.org/10.3758/s13428-026-03045-6",
+          "filter": 0,
+          "created": "2026-5-22"
+        },
+        {
+          "title": "Probabilistic modeling of the semantic fluency task with extended Markov networks",
+          "authors": "Miguel López, Natividad Hernández Muñoz, Carmela Tomé Cornejo",
+          "abstract": "Semantic verbal fluency tasks (SFT) provide a window into the structure and dynamics of the mental lexicon by eliciting word sequences guided primarily by semantic associations. We propose a probabilistic framework that models SFT as censored random walks on semantic networks, extended with pseudo-nodes to account for local and global jumps. This representation enables the integration of associative retrieval and sudden resets, capturing both clustering and switching processes. To assess model quality, we define a suite of complementary metrics—global likelihood, frequency likelihood, and bigram relevance—that evaluate not only overall fit but also the distributional properties of word associations. Using a dataset of 677 lists in the category “clothing,” we benchmark existing techniques against our proposed BIGRAM-CN model, which combines statistical constraints with empirical frequencies of word-to-word transitions. Results show that BIGRAM-CN avoids overfitting, generalizes across training and test data, and synthesizes realistic lists more accurately than prior approaches. This work advances computational models of lexical retrieval and offers practical tools for comparing populations, categories, and cognitive profiles in both linguistic and psychological research.",
+          "url": "https://doi.org/10.3758/s13428-026-03048-3",
+          "doi": "https://doi.org/10.3758/s13428-026-03048-3",
+          "filter": 0,
+          "created": "2026-5-22"
+        },
+        {
+          "title": "Advancing eye movement analysis through compositional modeling: A new perspective on Yarbus’ classic study",
+          "authors": "Kamila Fačevicová, Jaroslav Vymazal, Stanislav Popelka",
+          "abstract": "Eye-tracking metrics based on Areas of Interest (AOIs) often represent the relative allocation of visual attention across stimulus regions. Compositional data analysis (CoDA) provides a mathematically principled framework for analyzing such data and enables the application of a wide range of multivariate statistical methods through their representation in log-ratio coordinates. This study demonstrates the utility of CoDA in AOI-based eye-tracking research using a large-scale replication of Yarbus’ classic “Unexpected Visitor” experiment. Eye movements of 144 participants were recorded with a high-precision eye-tracker while they viewed Ilja Repin’s painting under seven tasks adapted from Yarbus. Total fixation durations within seven AOIs were analyzed either as absolute measures (classical approach) or as compositions representing the relative distribution of viewing time across AOIs. Descriptive CoDA techniques (compositional means, variation matrices, and ternary plots) together with multivariate methods in log-ratio coordinates (principal component analysis, hierarchical clustering, and compositional MANOVA) reproduce the qualitative patterns described by Yarbus and subsequent replications, confirming that task demands strongly shape the relative allocation of attention. Linear discriminant analysis further shows that the task being performed can be inferred from eye-movement patterns with accuracy above the chance level. The paper is conceived as a tutorial introduction to CoDA in eye-tracking research. The compositional framework is particularly appropriate when AOI metrics represent proportions or when total viewing time is fixed by design, while under unconstrained viewing time, it provides a complementary perspective to classical analyses.",
+          "url": "https://doi.org/10.3758/s13428-026-03054-5",
+          "doi": "https://doi.org/10.3758/s13428-026-03054-5",
+          "filter": 0,
+          "created": "2026-5-22"
+        },
+        {
           "title": "Classification errors distort findings in automated speech processing: Examples and solutions from child-development research",
           "authors": "Lucas Gautheron, Evan Kidd, Anton Malko, Marvin Lavechin, Alejandrina Cristia",
           "abstract": "With the advent of wearable recorders, scientists are increasingly turning to automated methods of analysis of audio and video data in order to measure children’s experience, behavior, and outcomes, with a sizable literature employing long-form audio-recordings to study language acquisition. While numerous articles report on the accuracy and reliability of the most popular automated classifiers, less has been written on the downstream effects of classification errors on measurements and statistical inferences (e.g., the estimate of correlations and effect sizes in regressions). This paper’s main contributions are drawing attention to downstream effects of confusion errors, and providing an approach to measure and potentially recover from these errors. Specifically, we use a Bayesian approach to study the effects of algorithmic errors on key scientific questions, including the effect of siblings on children’s language experience and the association between children’s production and their input. By fitting a joint model of speech behavior and algorithm behavior on real and simulated data, we show that classification errors can significantly distort estimates for both the most commonly used Language ENvironment Analysis (LENA™), and a slightly more accurate open-source alternative (the Voice Type Classifier from the ACLEW system). We further show that a Bayesian calibration approach for recovering unbiased estimates of effect sizes can be effective and insightful, but does not provide a foolproof solution.",
@@ -38,6 +65,24 @@
           "doi": "https://doi.org/10.3758/s13428-026-03029-6",
           "filter": 0,
           "created": "2026-5-18"
+        },
+        {
+          "title": "Estimating marginal effects with zero-inflated models: A tutorial with the R package mzim",
+          "authors": "Chendong Li, Oi-Man Kwok, Timothy Lawrence",
+          "abstract": "Count data in the psychological and health sciences are often characterized by an excess of zero values, a feature known as zero inflation. While traditional zero-inflated models, such as the zero-inflated Poisson (ZIP) and zero-inflated negative binomial (ZINB), were developed to handle such data, they present challenges for applied researchers. Standard count models can produce biased estimates, and the dual-parameter output of traditional zero-inflated models provides conditional effects for a latent-at-risk subpopulation, complicating interpretation and often failing to answer research questions about the entire population directly. To address these limitations, marginalized zero-inflated (mZI) models directly estimate the population-averaged effect, yielding a single, interpretable coefficient for each predictor’s overall effect. However, the adoption of mZI models has been hindered by the lack of an accessible software package. The current study has two objectives: first, it provides a tutorial on the theory, estimation, and interpretation of marginalized zero-inflated models. Second, it introduces  mzim , a new R package designed to make both marginalized zero-inflated Poisson (mZIP) and Negative Binomial (mZINB) models readily accessible. Using an empirical example on self-reported youth abuse experiences, we demonstrate a complete workflow with the  mzim  package and compare the results from the mZINB model to traditional approaches, highlighting the practical benefits of the marginalized framework for applied researchers.",
+          "url": "https://doi.org/10.3758/s13428-026-03036-7",
+          "doi": "https://doi.org/10.3758/s13428-026-03036-7",
+          "filter": 0,
+          "created": "2026-5-22"
+        },
+        {
+          "title": "Automating data extraction in meta-research: A multi-model benchmark in network psychometrics papers",
+          "authors": "Benjamin Simsa, Artem Buts, Ivan Ropovik, Matúš Adamkovič",
+          "abstract": "Manual data extraction in meta-research is often tedious, time-consuming, and error-prone. In this paper, we investigate whether the current generation of large language models (LLMs) can be used to extract accurate information from scientific papers. Across the meta-research literature, these tasks usually range from extracting verbatim information (e.g., the number of participants in a study, effect sizes, or whether a study is preregistered) to making subjective inferences. Using a publicly available dataset containing a wide range of metascientific variables from 43 network psychometrics papers, we tested five LLMs (Claude 4.6 Opus, Claude 4.5 Sonnet, Claude 4.5 Haiku, GPT-5.2, and GPT-5 mini). We used an automated API-based pipeline to extract variables from the documents. This approach allows batch processing of research papers. As such, it represents a more efficient and scalable way to extract metascientific data than the default chat interface. The extraction accuracy ranged from 79.6% to 91.3% across the models. The extraction performance was generally higher for more explicit, verbatim information and worse for variables that required more complicated inference. Furthermore, most models were able to convey uncertainty in more contentious cases. We provide a comparison of the accuracy and cost-effectiveness of the individual models and discuss the characteristics of variables that are and are not suitable for automatic coding. Furthermore, we describe some of the common pitfalls and best practices of automated LLM data extraction. The proposed procedure can substantially reduce the time and costs associated with conducting meta-research.",
+          "url": "https://doi.org/10.3758/s13428-026-03052-7",
+          "doi": "https://doi.org/10.3758/s13428-026-03052-7",
+          "filter": 0,
+          "created": "2026-5-22"
         }
       ],
       "articles_hidden": []
@@ -47,36 +92,52 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "Is this real or Fake? Examining the effects of disclosure of AI-generated content and source type in instagram-based travel destination advertising on consumer attitudes and behavioral intentions",
-          "authors": "Delia Cristina Balaban, Joe Phua",
-          "url": "https://doi.org/10.1016/j.chb.2026.109047",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109047",
+          "title": "Blurring the Boundaries of the Self: Instagram’s Impact on Bodily Identity and Multisensory Experience Among Young Adults",
+          "authors": "Maria Sansoni, Jade Portingale, Stefano De Gaspari, Giulia Brizzi, Magdalena Chorzępa, Giuseppe Riva",
+          "url": "https://doi.org/10.1016/j.chb.2026.109054",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109054",
           "filter": 0,
-          "created": "2026-5-15"
+          "created": "2026-5-22"
         },
         {
-          "title": "Beyond the Ideal: How Instagram vs Reality Content Shapes Positive and Negative Body Image",
-          "authors": "Kerstin Becker, Jessica M. Alleva, Philippe Verduyn",
-          "url": "https://doi.org/10.1016/j.chb.2026.109052",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109052",
+          "title": "Identity Manipulation in Online Grooming: Gendered Strategies Among Male Suspects",
+          "authors": "Jorge Santos-Hermoso, Virginia Soldino",
+          "url": "https://doi.org/10.1016/j.chb.2026.109056",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109056",
           "filter": 0,
-          "created": "2026-5-15"
+          "created": "2026-5-22"
         },
         {
-          "title": "Internet Use, Social Isolation, and Loneliness Among Older Adults: A Multi-Wave Analysis",
+          "title": "Perceived Effectiveness of Online Vigilantism: The Role of Schadenfreude and Moral Grandstanding",
+          "authors": "Dosun Kim, Yeon Soo Kim",
+          "url": "https://doi.org/10.1016/j.chb.2026.109059",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109059",
+          "filter": 0,
+          "created": "2026-5-22"
+        },
+        {
+          "title": "Beyond the Post: Effects of Vividness Dominance on Attention and Recall of Visual Misinformation on Social Media",
+          "authors": "Zexin Ma, Jiyoung Lee, Jiyoun Suk",
+          "url": "https://doi.org/10.1016/j.chb.2026.109058",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109058",
+          "filter": 0,
+          "created": "2026-5-22"
+        },
+        {
+          "title": "A dual-component framework of interactive attention: Gaze markers of expertise and engagement in split-attention gameplay",
+          "authors": "Joshua Juvrud, Katherine Salembier, Margot Delany, Shiloh Frost, Xingcen (Lucy) Liu, Adrian Łoboda, Evangelia Sotiriou",
+          "url": "https://doi.org/10.1016/j.chb.2026.109055",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109055",
+          "filter": 0,
+          "created": "2026-5-22"
+        },
+        {
+          "title": "Internet use, social isolation, and loneliness among older adults: A multi-wave analysis",
           "authors": "Eleftheria Vaportzis",
           "url": "https://doi.org/10.1016/j.chb.2026.109053",
           "doi": "https://doi.org/10.1016/j.chb.2026.109053",
           "filter": 0,
           "created": "2026-5-19"
-        },
-        {
-          "title": "Immersive virtual reality for caregivers of children and adolescents with ADHD: A mixed-methods study of stress reduction, empathy engagement, and quality of life outcomes",
-          "authors": "Ka Po Wong, Haoneng Lin, Sikai Wu, Kean Poon, Cynthia Yuen Yi Lai, Jing Qin",
-          "url": "https://doi.org/10.1016/j.chb.2026.109049",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109049",
-          "filter": 0,
-          "created": "2026-5-15"
         }
       ],
       "articles_hidden": []
@@ -110,6 +171,14 @@
           "created": "2026-5-18"
         },
         {
+          "title": "People underestimate how receptive other people are to different political opinions",
+          "authors": "André Mata, Towe Nilsson, Arvid Erlandsson, Rosário Ferreira",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104942",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104942",
+          "filter": 0,
+          "created": "2026-5-22"
+        },
+        {
           "title": "Giving women credit where credit is due: The role of amplifying, attributing, and appropriating others' ideas",
           "authors": "Tara C. Dennehy, Holly R. Engstrom, Jo Hernanto, Toni Schmader",
           "url": "https://doi.org/10.1016/j.jesp.2026.104944",
@@ -126,12 +195,12 @@
           "created": "2026-5-21"
         },
         {
-          "title": "Collective streaks motivate prosocial behavior",
-          "authors": "David E. Levari, Michael I. Norton",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104941",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104941",
+          "title": "Testing the psychological distinctiveness of proscriptive and prescriptive moral norms: A replication and extension of",
+          "authors": "Andrew Miles, Yagana Samim, Salwa Khan",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104947",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104947",
           "filter": 0,
-          "created": "2026-5-15"
+          "created": "2026-5-22"
         }
       ],
       "articles_hidden": []
@@ -164,20 +233,28 @@
           "created": "2026-5-18"
         },
         {
-          "title": "Fair and Robust Estimation of Heterogeneous Treatment Effects for Optimal Policies in Multilevel Studies",
-          "authors": "Youmi Suk, Chan Park, Chenguang Pan, Kwangho Kim",
-          "url": "https://doi.org/10.1080/00273171.2026.2669081",
-          "doi": "https://doi.org/10.1080/00273171.2026.2669081",
-          "filter": 0,
-          "created": "2026-5-15"
-        },
-        {
           "title": "A Non-Parametric Approach to Modeling Accelerated Longitudinal Designs",
           "authors": "Suryadyuti Baral, Jonathan J. Park, Emilio Ferrer",
           "url": "https://doi.org/10.1080/00273171.2026.2673720",
           "doi": "https://doi.org/10.1080/00273171.2026.2673720",
           "filter": 0,
           "created": "2026-5-19"
+        },
+        {
+          "title": "Estimating Propensity Scores in Causal Inference in High-Dimensional Settings",
+          "authors": "Wenyi Li, Qian Zhang",
+          "url": "https://doi.org/10.1080/00273171.2026.2674445",
+          "doi": "https://doi.org/10.1080/00273171.2026.2674445",
+          "filter": 0,
+          "created": "2026-5-22"
+        },
+        {
+          "title": "Integrating Double/Debiased Machine Learning into Doubly Robust Estimators for Causal Inference",
+          "authors": "Muwon Kwon, Peter M. Steiner",
+          "url": "https://doi.org/10.1080/00273171.2026.2673263",
+          "doi": "https://doi.org/10.1080/00273171.2026.2673263",
+          "filter": 0,
+          "created": "2026-5-22"
         },
         {
           "title": "A Two-Step Bayesian Approach to Modeling Within-Person Moderation Using Intensive Longitudinal Data",
@@ -269,6 +346,15 @@
           "doi": "https://doi.org/10.1177/01461672261443600",
           "filter": 0,
           "created": "2026-5-16"
+        },
+        {
+          "title": "How Effective Are Credible Sources in Changing Behavior? A Systematic Review with Meta-Analysis",
+          "authors": "Jack Hamer, Tracy Epton, Danielle Hamer, Christopher J. Armitage",
+          "abstract": "This systematic review and meta-analysis investigated the unique effects of credible sources on performed behavior, rather than behavioral antecedents (i.e., attitudes), and contexts where it is most effective. Six databases were searched to June 2024, yielding 40 effect sizes ( N = 7,995, 58.42% females, mean age of 17.75 years old, with mostly White ethnicity 75.81%) from 34 papers. A random effects model indicated a small positive effect, d = 0.14 (95% CI [0.04, 0.23]). Moderator analyses showed significant positive effects when the credible source had a medical professional qualification, communicated with participants in-person, the intervention was verbal or combined verbal and written messages, when behavior occurred once, and immediately followed the intervention. Because of the small effect, the costs associated with generating credible sources should be balanced against their effectiveness.",
+          "url": "https://doi.org/10.1177/01461672261445474",
+          "doi": "https://doi.org/10.1177/01461672261445474",
+          "filter": 0,
+          "created": "2026-5-22"
         }
       ],
       "articles_hidden": []
