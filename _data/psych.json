@@ -1,5 +1,5 @@
 {
-  "update": "2026-05-25",
+  "update": "2026-05-26",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -58,15 +58,6 @@
           "created": "2026-5-22"
         },
         {
-          "title": "Classification errors distort findings in automated speech processing: Examples and solutions from child-development research",
-          "authors": "Lucas Gautheron, Evan Kidd, Anton Malko, Marvin Lavechin, Alejandrina Cristia",
-          "abstract": "With the advent of wearable recorders, scientists are increasingly turning to automated methods of analysis of audio and video data in order to measure children’s experience, behavior, and outcomes, with a sizable literature employing long-form audio-recordings to study language acquisition. While numerous articles report on the accuracy and reliability of the most popular automated classifiers, less has been written on the downstream effects of classification errors on measurements and statistical inferences (e.g., the estimate of correlations and effect sizes in regressions). This paper’s main contributions are drawing attention to downstream effects of confusion errors, and providing an approach to measure and potentially recover from these errors. Specifically, we use a Bayesian approach to study the effects of algorithmic errors on key scientific questions, including the effect of siblings on children’s language experience and the association between children’s production and their input. By fitting a joint model of speech behavior and algorithm behavior on real and simulated data, we show that classification errors can significantly distort estimates for both the most commonly used Language ENvironment Analysis (LENA™), and a slightly more accurate open-source alternative (the Voice Type Classifier from the ACLEW system). We further show that a Bayesian calibration approach for recovering unbiased estimates of effect sizes can be effective and insightful, but does not provide a foolproof solution.",
-          "url": "https://doi.org/10.3758/s13428-026-03029-6",
-          "doi": "https://doi.org/10.3758/s13428-026-03029-6",
-          "filter": 0,
-          "created": "2026-5-18"
-        },
-        {
           "title": "Estimating marginal effects with zero-inflated models: A tutorial with the R package mzim",
           "authors": "Chendong Li, Oi-Man Kwok, Timothy Lawrence",
           "abstract": "Count data in the psychological and health sciences are often characterized by an excess of zero values, a feature known as zero inflation. While traditional zero-inflated models, such as the zero-inflated Poisson (ZIP) and zero-inflated negative binomial (ZINB), were developed to handle such data, they present challenges for applied researchers. Standard count models can produce biased estimates, and the dual-parameter output of traditional zero-inflated models provides conditional effects for a latent-at-risk subpopulation, complicating interpretation and often failing to answer research questions about the entire population directly. To address these limitations, marginalized zero-inflated (mZI) models directly estimate the population-averaged effect, yielding a single, interpretable coefficient for each predictor’s overall effect. However, the adoption of mZI models has been hindered by the lack of an accessible software package. The current study has two objectives: first, it provides a tutorial on the theory, estimation, and interpretation of marginalized zero-inflated models. Second, it introduces  mzim , a new R package designed to make both marginalized zero-inflated Poisson (mZIP) and Negative Binomial (mZINB) models readily accessible. Using an empirical example on self-reported youth abuse experiences, we demonstrate a complete workflow with the  mzim  package and compare the results from the mZINB model to traditional approaches, highlighting the practical benefits of the marginalized framework for applied researchers.",
@@ -100,7 +91,7 @@
           "created": "2026-5-22"
         },
         {
-          "title": "Identity Manipulation in Online Grooming: Gendered Strategies Among Male Suspects",
+          "title": "Identity manipulation in online grooming: Gendered strategies among male suspects",
           "authors": "Jorge Santos-Hermoso, Virginia Soldino",
           "url": "https://doi.org/10.1016/j.chb.2026.109056",
           "doi": "https://doi.org/10.1016/j.chb.2026.109056",
@@ -163,14 +154,6 @@
       "journal_short": "JESP",
       "articles": [
         {
-          "title": "Expectations of middle school children's academic performance in STEM and the Humanities: The effects of genetic and environmental frameworks",
-          "authors": "Lisa Luis, Mauro Bianchi, Rosandra Coladonato, Valentina Piccoli, Andrea Carnaghi",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104946",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104946",
-          "filter": 0,
-          "created": "2026-5-18"
-        },
-        {
           "title": "People underestimate how receptive other people are to different political opinions",
           "authors": "André Mata, Towe Nilsson, Arvid Erlandsson, Rosário Ferreira",
           "url": "https://doi.org/10.1016/j.jesp.2026.104942",
@@ -206,21 +189,6 @@
       "articles_hidden": []
     },
     {
-      "journal_full": "Journal of Personality and Social Psychology",
-      "journal_short": "JPSP",
-      "articles": [
-        {
-          "title": "Can I make the time or is it running out? That depends in part on what difficulty implies about me.",
-          "authors": "Su Young (Kevin) Choi, Daphna Oyserman",
-          "url": "https://doi.org/10.1037/pspa0000487",
-          "doi": "https://doi.org/10.1037/pspa0000487",
-          "filter": 0,
-          "created": "2026-5-18"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
       "journal_full": "Multivariate Behavioral Research",
       "journal_short": "MBR",
       "articles": [
@@ -233,12 +201,12 @@
           "created": "2026-5-23"
         },
         {
-          "title": "Individual Variability as a Moderator of Latent Structural Relations",
-          "authors": "Joshua R. Shulkin",
-          "url": "https://doi.org/10.1080/00273171.2026.2673280",
-          "doi": "https://doi.org/10.1080/00273171.2026.2673280",
+          "title": "Random Forest Analyses of Precollege Covariates",
+          "authors": "N. F. Tennessen, Shinji Katsumoto, Nicholas A. Bowman, Lauren N. Irwin",
+          "url": "https://doi.org/10.1080/00273171.2026.2672278",
+          "doi": "https://doi.org/10.1080/00273171.2026.2672278",
           "filter": 0,
-          "created": "2026-5-18"
+          "created": "2026-5-25"
         },
         {
           "title": "A Non-Parametric Approach to Modeling Accelerated Longitudinal Designs",
@@ -350,29 +318,6 @@
       "articles_hidden": []
     },
     {
-      "journal_full": "Psychological Methods",
-      "journal_short": "PM",
-      "articles": [
-        {
-          "title": "Extending bias adjustments for R-squared to multilevel models.",
-          "authors": "Yingchi Guo, Jason D. Rights",
-          "url": "https://doi.org/10.1037/met0000813",
-          "doi": "https://doi.org/10.1037/met0000813",
-          "filter": 0,
-          "created": "2026-5-18"
-        },
-        {
-          "title": "A causal framework for explaining effect heterogeneity in conceptual replications.",
-          "authors": "Steffi Pohl, Marie-Ann Sengewald, Dennis Kondzic, Jerome Hoffmann, Mathias Twardawski, Peter M. Steiner",
-          "url": "https://doi.org/10.1037/met0000834",
-          "doi": "https://doi.org/10.1037/met0000834",
-          "filter": 0,
-          "created": "2026-5-18"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
       "journal_full": "Psychological Science",
       "journal_short": "PsychSci",
       "articles": [
@@ -384,44 +329,6 @@
           "doi": "https://doi.org/10.1177/09567976261442169",
           "filter": 0,
           "created": "2026-5-19"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Psychology of Popular Media",
-      "journal_short": "PPM",
-      "articles": [
-        {
-          "title": "Does the dog die? Empathic distress and spoilers as self-protection.",
-          "authors": "Judith E. Rosenbaum, Morgan E. Ellithorpe, Sarah E. Brookes",
-          "url": "https://doi.org/10.1037/ppm0000675",
-          "doi": "https://doi.org/10.1037/ppm0000675",
-          "filter": 0,
-          "created": "2026-5-18"
-        },
-        {
-          "title": "“Don't blame me”: Testing the effects of Taylor Swift fan identity on emerging adults’ moral reasoning strategies and environmental cognitions.",
-          "authors": "Leah Dajches, Taylor A. Foerster, Juliana L. Barbati, Jessica Gall Myrick",
-          "url": "https://doi.org/10.1037/ppm0000673",
-          "doi": "https://doi.org/10.1037/ppm0000673",
-          "filter": 0,
-          "created": "2026-5-18"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Technology, Mind, and Behavior",
-      "journal_short": "TMB",
-      "articles": [
-        {
-          "title": "Persuasion in human–artificial intelligence systems: How confidence and precision influence acceptance of recommendations in a consumer context.",
-          "authors": "Alvaro Chacon, Markus Langer",
-          "url": "https://doi.org/10.1037/tmb0000195",
-          "doi": "https://doi.org/10.1037/tmb0000195",
-          "filter": 0,
-          "created": "2026-5-18"
         }
       ],
       "articles_hidden": []
