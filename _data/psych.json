@@ -1,5 +1,5 @@
 {
-  "update": "2026-05-26",
+  "update": "2026-05-27",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -40,6 +40,14 @@
           "created": "2026-5-22"
         },
         {
+          "title": "Beyond the overt response: Reaction time modeling in self-report surveys across administration modes and item formats",
+          "authors": "David Lacko, Tomáš Prošek, Adam Dostál, Anna Lázníčková, Jiří Čeněk, Čeněk Šašinka, Sylvie Graf",
+          "url": "https://doi.org/10.3758/s13428-026-03055-4",
+          "doi": "https://doi.org/10.3758/s13428-026-03055-4",
+          "filter": 0,
+          "created": "2026-5-26"
+        },
+        {
           "title": "Probabilistic modeling of the semantic fluency task with extended Markov networks",
           "authors": "Miguel López, Natividad Hernández Muñoz, Carmela Tomé Cornejo",
           "abstract": "Semantic verbal fluency tasks (SFT) provide a window into the structure and dynamics of the mental lexicon by eliciting word sequences guided primarily by semantic associations. We propose a probabilistic framework that models SFT as censored random walks on semantic networks, extended with pseudo-nodes to account for local and global jumps. This representation enables the integration of associative retrieval and sudden resets, capturing both clustering and switching processes. To assess model quality, we define a suite of complementary metrics—global likelihood, frequency likelihood, and bigram relevance—that evaluate not only overall fit but also the distributional properties of word associations. Using a dataset of 677 lists in the category “clothing,” we benchmark existing techniques against our proposed BIGRAM-CN model, which combines statistical constraints with empirical frequencies of word-to-word transitions. Results show that BIGRAM-CN avoids overfitting, generalizes across training and test data, and synthesizes realistic lists more accurately than prior approaches. This work advances computational models of lexical retrieval and offers practical tools for comparing populations, categories, and cognitive profiles in both linguistic and psychological research.",
@@ -56,6 +64,15 @@
           "doi": "https://doi.org/10.3758/s13428-026-03054-5",
           "filter": 0,
           "created": "2026-5-22"
+        },
+        {
+          "title": "The benefits of in situ reporting: Experimental evidence from in-the-moment surveys of public transit riders",
+          "authors": "Christopher Antoun, Vanessa Frías-Martínez, Anthony Garove, Naman Awasthi, Saad Mohammad Abrar",
+          "abstract": "In-the-moment surveys administered when respondents participate in a predetermined event of interest—such as visiting a particular location or completing a specific activity—allow researchers to measure behaviors and experiences as the event occurs, situating data collection within the relevant context and reducing reliance on retrospective self-reports. However, data quality can be compromised if individuals are unwilling to participate or provide low-quality responses. In particular, the timing of survey prompts and the structure of incentives may affect data quality. We evaluated these issues in an experimental study of 610 individuals who used a custom smartphone app to answer a survey about each of their public transit trips over 2 weeks. Participants were randomly assigned to receive either daily or per-survey incentives, with surveys administered either during trips (in situ) or immediately afterward (near-time). Both daily incentives and in situ prompts significantly increased participation. In situ prompts also reduced “speeding” and increased the variation in survey responses across trips, suggesting improved accuracy in capturing event-specific details. These findings demonstrate that prompt timing—specifically, in situ prompts as opposed to near-time prompts—plays a key role in enhancing data quality for in-the-moment surveys.",
+          "url": "https://doi.org/10.3758/s13428-026-03022-z",
+          "doi": "https://doi.org/10.3758/s13428-026-03022-z",
+          "filter": 0,
+          "created": "2026-5-26"
         },
         {
           "title": "Estimating marginal effects with zero-inflated models: A tutorial with the R package mzim",
@@ -121,14 +138,6 @@
           "doi": "https://doi.org/10.1016/j.chb.2026.109055",
           "filter": 0,
           "created": "2026-5-22"
-        },
-        {
-          "title": "Internet use, social isolation, and loneliness among older adults: A multi-wave analysis",
-          "authors": "Eleftheria Vaportzis",
-          "url": "https://doi.org/10.1016/j.chb.2026.109053",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109053",
-          "filter": 0,
-          "created": "2026-5-19"
         }
       ],
       "articles_hidden": []
@@ -189,6 +198,21 @@
       "articles_hidden": []
     },
     {
+      "journal_full": "Journal of Personality and Social Psychology",
+      "journal_short": "JPSP",
+      "articles": [
+        {
+          "title": "Within-nation variation in war exposure and psychological and physical adjustment.",
+          "authors": "Theresa M. Entringer, Christoph Halbmeier, Laura Buchinger, Anne K. Reitz",
+          "url": "https://doi.org/10.1037/pspp0000601",
+          "doi": "https://doi.org/10.1037/pspp0000601",
+          "filter": 0,
+          "created": "2026-5-26"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Multivariate Behavioral Research",
       "journal_short": "MBR",
       "articles": [
@@ -209,12 +233,12 @@
           "created": "2026-5-25"
         },
         {
-          "title": "A Non-Parametric Approach to Modeling Accelerated Longitudinal Designs",
-          "authors": "Suryadyuti Baral, Jonathan J. Park, Emilio Ferrer",
-          "url": "https://doi.org/10.1080/00273171.2026.2673720",
-          "doi": "https://doi.org/10.1080/00273171.2026.2673720",
+          "title": "Exploring the Use of Multiple Imputation for Handling Missing Covariates in Meta-Regression with Dependent Effect Sizes",
+          "authors": "Jihyun Lee, S. Natasha Beretvas, Brian T. Keller",
+          "url": "https://doi.org/10.1080/00273171.2026.2673547",
+          "doi": "https://doi.org/10.1080/00273171.2026.2673547",
           "filter": 0,
-          "created": "2026-5-19"
+          "created": "2026-5-26"
         },
         {
           "title": "Estimating Propensity Scores in Causal Inference in High-Dimensional Settings",
@@ -247,22 +271,6 @@
           "doi": "https://doi.org/10.1080/00273171.2026.2673277",
           "filter": 0,
           "created": "2026-5-20"
-        },
-        {
-          "title": "On the Consequences of Model Misspecification in Longitudinal Missing Data Analysis",
-          "authors": "Dandan Tang, Xin Tong",
-          "url": "https://doi.org/10.1080/00273171.2026.2673278",
-          "doi": "https://doi.org/10.1080/00273171.2026.2673278",
-          "filter": 0,
-          "created": "2026-5-19"
-        },
-        {
-          "title": "Conflated Random Slopes in Multilevel Analysis",
-          "authors": "Bladimir Padilla, Lesa Hoffman",
-          "url": "https://doi.org/10.1080/00273171.2026.2673276",
-          "doi": "https://doi.org/10.1080/00273171.2026.2673276",
-          "filter": 0,
-          "created": "2026-5-19"
         }
       ],
       "articles_hidden": []
@@ -288,13 +296,22 @@
       "journal_short": "PSPB",
       "articles": [
         {
-          "title": "Cultural Tightness Predicts Regional Sociopolitical Ideologies, Beliefs, and Personality Traits",
-          "authors": "Liz Wilson, Jimmy Calanchini",
-          "abstract": "Cultural tightness refers to the strength of social norms and tolerance for norm violations within regions. In two studies, we investigated the link between cultural tightness and sociopolitical ideologies, beliefs, and personality traits within the United States and across 56 nations. We relied on two separate operationalizations of cultural tightness and aggregated self-reported sociopolitical ideologies, beliefs, and personality trait data from tens of thousands of geolocated internet respondents. Regression analyses suggest that more culturally tight U.S. states are less open, more conscientious, and higher in the need for certainty. Tighter states also more strongly endorse racial stereotyping, right-wing authoritarianism, and other system-justifying beliefs, but less weakly endorse egalitarianism. In addition, tighter nations are lower in extraversion and creativity. Taken together, we find that cultural tightness is a parsimonious predictor of regional psychological variation across many constructs within the United States and across nations.",
-          "url": "https://doi.org/10.1177/01461672261439405",
-          "doi": "https://doi.org/10.1177/01461672261439405",
+          "title": "Perceiving to Provide: How Partner Attachment Perceptions Inform Reassurance Provision in Romantic Relationships",
+          "authors": "Elina R. Sun, Xiangjing Kong, Jason A. Mitala, Jeewon Oh, Brett K. Jakubiak",
+          "abstract": "Romantic partners can play a key role in buffering one another’s attachment insecurities, but how they perceive one another’s attachment and whether perceptions predict behavior remains unclear. This research examined how accurately individuals perceive their partner’s global and relationship-specific attachment anxiety and avoidance, what biases shape these perceptions, and whether perceptions predict reassurance provision, a recommended buffering strategy for anxiously attached partners. Using the Truth and Bias Model, two studies (Study 1: N = 108 couples; Study 2: N = 147 couples) showed that individuals perceive their partner’s attachment with moderate accuracy, though they also overestimate insecurity and are biased to assume both similarity and complementarity in attachment. Moreover, people who perceived their partners to be higher in attachment anxiety provided greater reassurance during personal stressor discussions and in daily life (10-day ecological momentary assessment), suggesting that attachment perceptions may play a key role in initiating and calibrating buffering strategies.",
+          "url": "https://doi.org/10.1177/01461672261448771",
+          "doi": "https://doi.org/10.1177/01461672261448771",
           "filter": 0,
-          "created": "2026-5-19"
+          "created": "2026-5-26"
+        },
+        {
+          "title": "Women Disclosing Experiences of Sexism to Men Partners: Prevalence, Predictors, and Responses",
+          "authors": "Emily. J. Cross, Alyssa DeBlaere, Tarnpreet Virk, Anya Sharma, Amy Muise",
+          "abstract": "Although sexism is pervasive, the dynamics of disclosing such experiences within romantic relationships remain under-examined. Across two studies ( N = 1076) involving individuals in woman–man relationships, we found that approximately 75% of women have disclosed an experience of sexism to their men partners. Notably, a general tendency toward disclosure—rather than relationship satisfaction, perceived partner responsiveness, or sexist attitudes—predicted disclosure. Women who recalled their partner as more responsive and autonomy-supportive when they shared an experience of sexism reported greater closeness, satisfaction with partner’s response, and a greater likelihood of future disclosure and confrontation of sexism (Study 1). For men, greater self-reported responsiveness and autonomy support was associated with greater felt closeness, perceived partner satisfaction, and allyship behavior; but was not linked to a greater awareness of gender discrimination (Study 2). Findings highlight romantic relationships as a key, underexamined context in which experiences of sexism are discussed.",
+          "url": "https://doi.org/10.1177/01461672261442993",
+          "doi": "https://doi.org/10.1177/01461672261442993",
+          "filter": 0,
+          "created": "2026-5-26"
         },
         {
           "title": "Everyone I Don’t Like Is Biased: Affective Evaluations and the Bias Blind Spot",
@@ -313,22 +330,6 @@
           "doi": "https://doi.org/10.1177/01461672261445474",
           "filter": 0,
           "created": "2026-5-22"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Psychological Science",
-      "journal_short": "PsychSci",
-      "articles": [
-        {
-          "title": "Multitarget Visual Search Flexibly Switches Between Concurrent and Sequential Search Modes",
-          "authors": "Alex J. Hoogerbrugge, Christoph Strauch, Noa Hoevers, Christian N. L. Olivers, Tanja C. W. Nijboer, Stefan Van der Stigchel",
-          "abstract": "Investigations into people’s ability to use multiple working memory representations to concurrently search for targets have led to mixed findings. Although the discourse has predominantly centered around capacity limits in multitarget search, we here propose that people can switch between sequential and concurrent search. In Experiment 1 ( n = 16 adults), manual responses and oculomotor behavior revealed that participants could search sequentially, and concurrently for at least two targets, when instructed. In Experiments 2a ( n = 16 adults) and 2b ( n = 16 adults), participants were free to choose how they searched. Trial-level modeling showed that participants primarily used sequential and concurrent search as specific modes and flexibly adjusted between either mode depending on template set size, template availability, stimulus properties, and individual preference. Our findings stress the dynamic and adaptive nature of visual search. Moreover, understanding that different search modes can be flexibly picked as “tools from the toolbox” may reconcile inconsistencies in prior findings.",
-          "url": "https://doi.org/10.1177/09567976261442169",
-          "doi": "https://doi.org/10.1177/09567976261442169",
-          "filter": 0,
-          "created": "2026-5-19"
         }
       ],
       "articles_hidden": []
