@@ -1,31 +1,6 @@
 {
-  "update": "2026-05-28",
+  "update": "2026-05-29",
   "content": [
-    {
-      "journal_full": "Advances in Methods and Practices in Psychological Science",
-      "journal_short": "AMPPS",
-      "articles": [
-        {
-          "title": "Best Practices in Handling Missing Data in Psychological Research",
-          "authors": "David Moreau",
-          "abstract": "Whether it stems from participant attrition, nonresponse, unwillingness to disclose information, technical errors, or flawed collection methods, incomplete data pose significant challenges to researchers in psychology. Although a rich methodological literature exists, applied researchers often lack clear guidance for aligning missing-data methods with study design, assumptions, and analytic goals. In this article, I provide a practical, assumption-aware framework for reasoning about missing data in psychology, emphasizing how missingness operates as a selection process and how method choice depends on the underlying data-generating structure. I review commonly used approaches, including likelihood-based estimation, multiple imputation, Bayesian data augmentation, and pattern-mixture models, highlighting their assumptions, strengths, and limitations. To support implementation and pedagogy, I introduce DataPatch, an interactive tool that allows users to simulate missing-data mechanisms, apply alternative handling strategies, and examine their consequences for estimation and interpretation (davidmoreau.shinyapps.io/DataPatch/). Together, the conceptual framework and accompanying tool aim to promote more transparent, principled, and informed handling of missing data in psychological research.",
-          "url": "https://doi.org/10.1177/25152459261444273",
-          "doi": "https://doi.org/10.1177/25152459261444273",
-          "filter": 0,
-          "created": "2026-5-21"
-        },
-        {
-          "title": "Multicurious: A Multidisciplinary Guide to Multiverse Analysis",
-          "authors": "Cassie Ann Short, Nate Breznau, Maria Bruntsch, Micha Burkhardt, Niko A. Busch, Elena Cesnaite, Maximilian Frank, Carsten Gießing, Daniel Krähmer, Daniel Kristanto, Tina Lonsdorf, Claudia Neuendorf, Hung H. V. Nguyen, Manuel Rausch, Xenia Schmalz, Andreas Schneck, Cem Tabakci, Andrea Hildebrandt",
-          "abstract": "Multiverse analysis offers a comprehensive response to a core vulnerability in empirical research: the uncertainty of scientific conclusions arising from defensible yet flexible data-processing and -analysis decisions. By systematically mapping and computing all or a sample of all plausible data-processing pipelines, multiverse analysis reports the robustness of findings across analytical flexibility and increases transparency in the research process. As its adoption grows across disciplines, so too does the need for clarity on how to design, report, and interpret multiverse results responsibly. In this article, we provide interdisciplinary guidance on key procedural considerations, including defensibility and equivalence evaluations, preregistration, and computational demands. We aim to harmonize terminology, promote best practices, and foster conceptual cohesion across fields, supported by reference to domain-specific resources when appropriate. By doing so, we contribute to the broader movement toward more robust, reproducible, and transparent science, one that not only reports results but also interrogates the analytical pipelines that produce them.",
-          "url": "https://doi.org/10.1177/25152459261434881",
-          "doi": "https://doi.org/10.1177/25152459261434881",
-          "filter": 0,
-          "created": "2026-5-21"
-        }
-      ],
-      "articles_hidden": []
-    },
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
@@ -73,6 +48,23 @@
           "doi": "https://doi.org/10.3758/s13428-026-03054-5",
           "filter": 0,
           "created": "2026-5-22"
+        },
+        {
+          "title": "Know when to trust: Making AI scoring more reliable for educational assessment",
+          "authors": "Peter Organisciak, Selcuk Acar",
+          "url": "https://doi.org/10.3758/s13428-026-03058-1",
+          "doi": "https://doi.org/10.3758/s13428-026-03058-1",
+          "filter": 0,
+          "created": "2026-5-28"
+        },
+        {
+          "title": "Robust Bayesian hypothesis testing with the hierarchical EZ-DDM",
+          "authors": "Adriana F. Chávez De la Peña, Eunice Shin, Joachim Vandekerckhove",
+          "abstract": "The EZ-diffusion model (EZ-DDM) uses a method of moments to provide closed-form estimators for the three-parameter drift-diffusion model from summary statistics. In previous work, we showed that using the sampling distributions of these statistics enables the implementation of hierarchical EZ-DDM extensions, supporting scalable Bayesian inference in cognitive psychometrics applications. However, the summary statistics used in EZ-DDM implementations (the mean and variance of the response time distribution) are sensitive to contaminant data points, limiting its utility in real-world applications. To address this, we propose a variation on the EZ-DDM implementation in which the summary statistics are replaced with robust alternatives, substituting mean RT with median RT and RT variance with an estimate derived from the interquartile range. We explore and evaluate the effectiveness of this substitution through simulation studies using a within-subject t test design across varying sample sizes and effect sizes. We show that the robust variant matched the diagnostic accuracy of the EZ-DDM implementation on uncontaminated data while maintaining diagnostic accuracy under contamination, unlike the standard model. This extension preserves efficiency while adding robustness in real-world applications. We recommend using the robust EZ-DDM in practical applications.",
+          "url": "https://doi.org/10.3758/s13428-026-03066-1",
+          "doi": "https://doi.org/10.3758/s13428-026-03066-1",
+          "filter": 0,
+          "created": "2026-5-28"
         },
         {
           "title": "The benefits of in situ reporting: Experimental evidence from in-the-moment surveys of public transit riders",
@@ -160,22 +152,6 @@
       "articles_hidden": []
     },
     {
-      "journal_full": "Group Processes & Intergroup Relations",
-      "journal_short": "GPIR",
-      "articles": [
-        {
-          "title": "Reducing Implicit Prejudice Through Virtual Reality: The Impact of Partial Embodiment and Positive vs. Basic Intergroup Contact",
-          "authors": "Ankica Kosic, Francesca Valeria Frisari, Corine Stella Kana Kenfack, Salvador Alvidrez Villegas",
-          "abstract": "This study explores whether exposure to positive (vs. basic) interactions with a migrant through an immersive 360° video with partial embodiment—where participants viewed the scene from a first-person perspective and observed only their virtual hands—can reduce implicit prejudice, attitudes, and emotions toward migrants. A total of 207 Italian participants were involved in the study. Approximately two weeks before the immersive video session, participants completed a questionnaire with scales measuring attitudes and emotions toward migrants and the Racial Implicit Association Test (IAT). In the laboratory, they were randomly assigned to one of two conditions: observing a migrant in the 360° video scenario engaging in either prosocial or basic behavior, while embodying virtual hands with either a White or Black skin tone. Results showed a reduction in implicit racial prejudice across both conditions (positive and basic contact), regardless of hand color. In addition, we observed a significant reduction of negative emotions and negative behavioral intentions toward migrants only in the positive condition. These findings highlight the potential of brief virtual intergroup contact that shows positive behaviors of outgroup members to reduce both implicit and explicit negative attitudes, adding evidence that even short immersive interventions can shape intergroup perceptions.",
-          "url": "https://doi.org/10.1177/13684302261445342",
-          "doi": "https://doi.org/10.1177/13684302261445342",
-          "filter": 0,
-          "created": "2026-5-21"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
       "journal_full": "Journal of Experimental Social Psychology",
       "journal_short": "JESP",
       "articles": [
@@ -194,14 +170,6 @@
           "doi": "https://doi.org/10.1016/j.jesp.2026.104942",
           "filter": 0,
           "created": "2026-5-22"
-        },
-        {
-          "title": "“Friend or foe?” the ironic effect of speaking the minority's language in intergroup conflicts: Palestinian reactions to Jewish-Israelis using Arabic",
-          "authors": "Slieman Halabi, Yechiel Klar, Murad Abu Elheja",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104943",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104943",
-          "filter": 0,
-          "created": "2026-5-21"
         },
         {
           "title": "Testing the psychological distinctiveness of proscriptive and prescriptive moral norms: A replication and extension of",
@@ -315,6 +283,60 @@
           "doi": "https://doi.org/10.1177/01461672261445474",
           "filter": 0,
           "created": "2026-5-22"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Psychological Bulletin",
+      "journal_short": "PsychBull",
+      "articles": [
+        {
+          "title": "Artificial intelligence as a partner in meta-analysis—Research agenda, user recommendations, and speed–accuracy tradeoffs: Commentary on Jansen et al. (2025).",
+          "authors": "Brooke N. Macnamara",
+          "url": "https://doi.org/10.1037/bul0000519",
+          "doi": "https://doi.org/10.1037/bul0000519",
+          "filter": 0,
+          "created": "2026-5-28"
+        },
+        {
+          "title": "The association between reading anxiety and reading achievement: A meta-analysis and systematic review.",
+          "authors": "Rachelle M. Johnson, Maxine Schaefer, Cynthia U. Norris, Richard K. Wagner, Sara A. Hart",
+          "url": "https://doi.org/10.1037/bul0000517",
+          "doi": "https://doi.org/10.1037/bul0000517",
+          "filter": 0,
+          "created": "2026-5-28"
+        },
+        {
+          "title": "Relationships between cognition and daily functioning in adults with bipolar disorder: A systematic review and multilevel meta-analysis.",
+          "authors": "Amanda McCleery, Gerhard Stefan Hellemann, Junghee Lee",
+          "url": "https://doi.org/10.1037/bul0000509",
+          "doi": "https://doi.org/10.1037/bul0000509",
+          "filter": 0,
+          "created": "2026-5-28"
+        },
+        {
+          "title": "Perfectionism is accelerating over time: A cross-temporal meta-analytic review of 35 years of college student data.",
+          "authors": "Thomas Curran, Andrew Hill, Pia Marie Pose",
+          "url": "https://doi.org/10.1037/bul0000518",
+          "doi": "https://doi.org/10.1037/bul0000518",
+          "filter": 0,
+          "created": "2026-5-28"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Psychology of Popular Media",
+      "journal_short": "PPM",
+      "articles": [
+        {
+          "title": "The impact of fitspiration depicting different racial groups on Asian American women’s body dissatisfaction and appearance comparison.",
+          "authors": "Ruifei Zhang, Lauren A. Stutts",
+          "url": "https://doi.org/10.1037/ppm0000677",
+          "doi": "https://doi.org/10.1037/ppm0000677",
+          "filter": 0,
+          "created": "2026-5-28"
         }
       ],
       "articles_hidden": []
