@@ -1,18 +1,18 @@
 {
-  "update": "2026-05-29",
+  "update": "2026-05-30",
   "content": [
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "The talking heads attentional bias assessment task: A readily available, reliable, and effective task for assessing attentional bias",
-          "authors": "Mahdi Mazidi, Colin MacLeod, Seyran Ranjbar, Owen Myles, Ben Grafton",
-          "abstract": "Cognitive theories contend that attentional bias to negative information contributes to elevated trait anxiety. However, research in this area has been hindered by the lack of a standardized assessment task that demonstrates the required qualities, including strong internal consistency and ecological validity. The present study aimed to develop and validate the Talking Heads Attentional Bias Assessment Task, an easy-to-implement measure that overcomes the limitations of previous attentional bias assessment tasks. The task employs video-based stimuli conveying emotionally negative or benign information about issues individuals commonly encounter in their daily lives and uses a dual-probe methodology to assess attentional bias. A sample of 168 undergraduate students completed the task along with measures of trait and state anxiety. The results demonstrated that the attentional bias index derived from the task showed excellent internal consistency across multiple reliability assessment methods. Greater attentional bias to negative information was also significantly associated with greater trait anxiety, confirming the task’s sensitivity to anxiety-linked individual differences in such attentional bias. Furthermore, mediation analyses revealed that attentional bias mediated the association between trait anxiety and state anxiety elevation in response to emotional information. We discuss the study’s important theoretical and methodological implications, and convey the task’s capacity to enhance assessment of attentional bias across a wide range of psychological domains.",
-          "url": "https://doi.org/10.3758/s13428-026-03045-6",
-          "doi": "https://doi.org/10.3758/s13428-026-03045-6",
+          "title": "Enhancing propensity score analysis with data missing not at random: Introducing dual-forest proximity imputation",
+          "authors": "Yongseok Lee, Walter L. Leite",
+          "abstract": "Researchers using propensity score analysis (PSA) to estimate treatment effects using secondary data may have to handle data that are missing not at random (MNAR). Existing methods for PSA with MNAR data use logistic regression to model the missing data mechanisms, thus requiring manual specification of functional forms, and are difficult to implement with a large number of covariates. To overcome these limitations, this study proposes alternatives to existing methods by replacing logistic regression with a random forest. Also, it introduces the dual-forest proximity imputation method, which leverages two types of proximity matrices of random forest techniques and incorporates missingness pattern information in each matrix. Results from a Monte Carlo simulation show dual-forest proximity imputation’s enhanced bias reduction with various types of MNAR mechanisms as compared to existing and alternative methods. A case study is also provided using data from the National Longitudinal Survey of Youth (Enders, 1979) (NLSY79).",
+          "url": "https://doi.org/10.3758/s13428-026-03024-x",
+          "doi": "https://doi.org/10.3758/s13428-026-03024-x",
           "filter": 0,
-          "created": "2026-5-22"
+          "created": "2026-5-29"
         },
         {
           "title": "Beyond the overt response: Reaction time modeling in self-report surveys across administration modes and item formats",
@@ -23,13 +23,12 @@
           "created": "2026-5-26"
         },
         {
-          "title": "Probabilistic modeling of the semantic fluency task with extended Markov networks",
-          "authors": "Miguel López, Natividad Hernández Muñoz, Carmela Tomé Cornejo",
-          "abstract": "Semantic verbal fluency tasks (SFT) provide a window into the structure and dynamics of the mental lexicon by eliciting word sequences guided primarily by semantic associations. We propose a probabilistic framework that models SFT as censored random walks on semantic networks, extended with pseudo-nodes to account for local and global jumps. This representation enables the integration of associative retrieval and sudden resets, capturing both clustering and switching processes. To assess model quality, we define a suite of complementary metrics—global likelihood, frequency likelihood, and bigram relevance—that evaluate not only overall fit but also the distributional properties of word associations. Using a dataset of 677 lists in the category “clothing,” we benchmark existing techniques against our proposed BIGRAM-CN model, which combines statistical constraints with empirical frequencies of word-to-word transitions. Results show that BIGRAM-CN avoids overfitting, generalizes across training and test data, and synthesizes realistic lists more accurately than prior approaches. This work advances computational models of lexical retrieval and offers practical tools for comparing populations, categories, and cognitive profiles in both linguistic and psychological research.",
-          "url": "https://doi.org/10.3758/s13428-026-03048-3",
-          "doi": "https://doi.org/10.3758/s13428-026-03048-3",
+          "title": "Synthesis of single-case design mediation effects using two-stage multilevel modeling",
+          "authors": "Mariola Moeyaert, Milica Miočević, Yaosheng Lou, Matthew J. Valente",
+          "url": "https://doi.org/10.3758/s13428-026-03061-6",
+          "doi": "https://doi.org/10.3758/s13428-026-03061-6",
           "filter": 0,
-          "created": "2026-5-22"
+          "created": "2026-5-29"
         },
         {
           "title": "Adding volition to word processing: Expected utility norms for 80,000 English words and multiword expressions",
@@ -41,13 +40,13 @@
           "created": "2026-5-27"
         },
         {
-          "title": "Advancing eye movement analysis through compositional modeling: A new perspective on Yarbus’ classic study",
-          "authors": "Kamila Fačevicová, Jaroslav Vymazal, Stanislav Popelka",
-          "abstract": "Eye-tracking metrics based on Areas of Interest (AOIs) often represent the relative allocation of visual attention across stimulus regions. Compositional data analysis (CoDA) provides a mathematically principled framework for analyzing such data and enables the application of a wide range of multivariate statistical methods through their representation in log-ratio coordinates. This study demonstrates the utility of CoDA in AOI-based eye-tracking research using a large-scale replication of Yarbus’ classic “Unexpected Visitor” experiment. Eye movements of 144 participants were recorded with a high-precision eye-tracker while they viewed Ilja Repin’s painting under seven tasks adapted from Yarbus. Total fixation durations within seven AOIs were analyzed either as absolute measures (classical approach) or as compositions representing the relative distribution of viewing time across AOIs. Descriptive CoDA techniques (compositional means, variation matrices, and ternary plots) together with multivariate methods in log-ratio coordinates (principal component analysis, hierarchical clustering, and compositional MANOVA) reproduce the qualitative patterns described by Yarbus and subsequent replications, confirming that task demands strongly shape the relative allocation of attention. Linear discriminant analysis further shows that the task being performed can be inferred from eye-movement patterns with accuracy above the chance level. The paper is conceived as a tutorial introduction to CoDA in eye-tracking research. The compositional framework is particularly appropriate when AOI metrics represent proportions or when total viewing time is fixed by design, while under unconstrained viewing time, it provides a complementary perspective to classical analyses.",
-          "url": "https://doi.org/10.3758/s13428-026-03054-5",
-          "doi": "https://doi.org/10.3758/s13428-026-03054-5",
+          "title": "Implementing multiple implicit association tests in Qualtrics: A guide and demonstration using balanced identity design theory",
+          "authors": "Alyssa Ream, Anna Woodcock, Sarah Zlatkovic, Rachelle M. Pedersen, Ashley Bonilla, Hannah Middleton, Paul R. Hernandez, P. Wesley Schultz",
+          "abstract": "Interest in implicit processes, such as attitudes and identities, has grown in behavioral sciences since Greenwald and colleagues (1998) developed and introduced the Implicit Association Test (IAT). The IAT was developed to measure these processes, which has become more accessible with the popularity of Qualtrics as a data collection tool, especially through methods and code provided by Carpenter et al. (2019). They demonstrated how to construct a single IAT for use on the Qualtrics platform, providing research resources for creating IATs to examine concept-pair associations. However, there is no guidance on constructing multiple IATs on survey software platforms for research that requires two or more IATs in a single study. This paper extends Carpenter et al.’s (2019) work by outlining the process of developing, implementing, and utilizing multiple IATs within a single Qualtrics survey. We provide a tutorial using examples from our research using the Balanced Identity Design (BID) framework, including step-by-step written and visual instructions and templates, instructions for planning and building multiple IATs and dynamically presenting them in a single Qualtrics survey and code for processing IAT data. We also demonstrate the utility of the multiple IAT approach by reporting a short study utilizing BID theory wherein we measure implicit racial/ethnic identity, STEM identity, and race/ethnicity-STEM associations in a single study via three IATs.",
+          "url": "https://doi.org/10.3758/s13428-026-03047-4",
+          "doi": "https://doi.org/10.3758/s13428-026-03047-4",
           "filter": 0,
-          "created": "2026-5-22"
+          "created": "2026-5-29"
         },
         {
           "title": "Know when to trust: Making AI scoring more reliable for educational assessment",
@@ -76,22 +75,12 @@
           "created": "2026-5-26"
         },
         {
-          "title": "Estimating marginal effects with zero-inflated models: A tutorial with the R package mzim",
-          "authors": "Chendong Li, Oi-Man Kwok, Timothy Lawrence",
-          "abstract": "Count data in the psychological and health sciences are often characterized by an excess of zero values, a feature known as zero inflation. While traditional zero-inflated models, such as the zero-inflated Poisson (ZIP) and zero-inflated negative binomial (ZINB), were developed to handle such data, they present challenges for applied researchers. Standard count models can produce biased estimates, and the dual-parameter output of traditional zero-inflated models provides conditional effects for a latent-at-risk subpopulation, complicating interpretation and often failing to answer research questions about the entire population directly. To address these limitations, marginalized zero-inflated (mZI) models directly estimate the population-averaged effect, yielding a single, interpretable coefficient for each predictor’s overall effect. However, the adoption of mZI models has been hindered by the lack of an accessible software package. The current study has two objectives: first, it provides a tutorial on the theory, estimation, and interpretation of marginalized zero-inflated models. Second, it introduces  mzim , a new R package designed to make both marginalized zero-inflated Poisson (mZIP) and Negative Binomial (mZINB) models readily accessible. Using an empirical example on self-reported youth abuse experiences, we demonstrate a complete workflow with the  mzim  package and compare the results from the mZINB model to traditional approaches, highlighting the practical benefits of the marginalized framework for applied researchers.",
-          "url": "https://doi.org/10.3758/s13428-026-03036-7",
-          "doi": "https://doi.org/10.3758/s13428-026-03036-7",
+          "title": "Making the impossible possible: Leveraging built-in features for non-intrusive and accurate Apple Screen Time tracking through ASTER",
+          "authors": "Marijn Martens, Kyle Van Gaeveren",
+          "url": "https://doi.org/10.3758/s13428-026-03065-2",
+          "doi": "https://doi.org/10.3758/s13428-026-03065-2",
           "filter": 0,
-          "created": "2026-5-22"
-        },
-        {
-          "title": "Automating data extraction in meta-research: A multi-model benchmark in network psychometrics papers",
-          "authors": "Benjamin Simsa, Artem Buts, Ivan Ropovik, Matúš Adamkovič",
-          "abstract": "Manual data extraction in meta-research is often tedious, time-consuming, and error-prone. In this paper, we investigate whether the current generation of large language models (LLMs) can be used to extract accurate information from scientific papers. Across the meta-research literature, these tasks usually range from extracting verbatim information (e.g., the number of participants in a study, effect sizes, or whether a study is preregistered) to making subjective inferences. Using a publicly available dataset containing a wide range of metascientific variables from 43 network psychometrics papers, we tested five LLMs (Claude 4.6 Opus, Claude 4.5 Sonnet, Claude 4.5 Haiku, GPT-5.2, and GPT-5 mini). We used an automated API-based pipeline to extract variables from the documents. This approach allows batch processing of research papers. As such, it represents a more efficient and scalable way to extract metascientific data than the default chat interface. The extraction accuracy ranged from 79.6% to 91.3% across the models. The extraction performance was generally higher for more explicit, verbatim information and worse for variables that required more complicated inference. Furthermore, most models were able to convey uncertainty in more contentious cases. We provide a comparison of the accuracy and cost-effectiveness of the individual models and discuss the characteristics of variables that are and are not suitable for automatic coding. Furthermore, we describe some of the common pitfalls and best practices of automated LLM data extraction. The proposed procedure can substantially reduce the time and costs associated with conducting meta-research.",
-          "url": "https://doi.org/10.3758/s13428-026-03052-7",
-          "doi": "https://doi.org/10.3758/s13428-026-03052-7",
-          "filter": 0,
-          "created": "2026-5-22"
+          "created": "2026-5-29"
         }
       ],
       "articles_hidden": []
@@ -101,44 +90,20 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "Blurring the boundaries of the self: Instagram's impact on bodily identity and multisensory experience among young adults",
-          "authors": "Maria Sansoni, Jade Portingale, Stefano De Gaspari, Giulia Brizzi, Magdalena Chorzępa, Giuseppe Riva",
-          "url": "https://doi.org/10.1016/j.chb.2026.109054",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109054",
+          "title": "Understanding the Efficacy of Online Bystander Intervention when Journalists are the Targets",
+          "authors": "Kathleen Searles, Rebekah Tromble",
+          "url": "https://doi.org/10.1016/j.chb.2026.109062",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109062",
           "filter": 0,
-          "created": "2026-5-22"
+          "created": "2026-5-29"
         },
         {
-          "title": "Identity manipulation in online grooming: Gendered strategies among male suspects",
-          "authors": "Jorge Santos-Hermoso, Virginia Soldino",
-          "url": "https://doi.org/10.1016/j.chb.2026.109056",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109056",
+          "title": "When Conversational AI Personalises Too Much: Refining Privacy Calculus for Bundled Interactional Cues in AI-Mediated Disclosure",
+          "authors": "Phan Khanh Duy, Bao Quoc Truong-Dinh",
+          "url": "https://doi.org/10.1016/j.chb.2026.109061",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109061",
           "filter": 0,
-          "created": "2026-5-22"
-        },
-        {
-          "title": "Perceived effectiveness of online vigilantism: The role of schadenfreude and moral grandstanding",
-          "authors": "Dosun Kim, Yeon Soo Kim",
-          "url": "https://doi.org/10.1016/j.chb.2026.109059",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109059",
-          "filter": 0,
-          "created": "2026-5-22"
-        },
-        {
-          "title": "Beyond the post: Effects of vividness dominance on attention and recall of visual misinformation on social media",
-          "authors": "Zexin Ma, Jiyoung Lee, Jiyoun Suk",
-          "url": "https://doi.org/10.1016/j.chb.2026.109058",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109058",
-          "filter": 0,
-          "created": "2026-5-22"
-        },
-        {
-          "title": "A dual-component framework of interactive attention: Gaze markers of expertise and engagement in split-attention gameplay",
-          "authors": "Joshua Juvrud, Katherine Salembier, Margot Delany, Shiloh Frost, Xingcen (Lucy) Liu, Adrian Łoboda, Evangelia Sotiriou",
-          "url": "https://doi.org/10.1016/j.chb.2026.109055",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109055",
-          "filter": 0,
-          "created": "2026-5-22"
+          "created": "2026-5-29"
         },
         {
           "title": "Unraveling the behavioral and autonomic dynamics of defensive states in humans in an unconstrained, immersive virtual world",
@@ -162,22 +127,6 @@
           "doi": "https://doi.org/10.1016/j.jesp.2026.104957",
           "filter": 0,
           "created": "2026-5-27"
-        },
-        {
-          "title": "People underestimate how receptive other people are to different political opinions",
-          "authors": "André Mata, Towe Nilsson, Arvid Erlandsson, Rosário Ferreira",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104942",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104942",
-          "filter": 0,
-          "created": "2026-5-22"
-        },
-        {
-          "title": "Testing the psychological distinctiveness of proscriptive and prescriptive moral norms: A replication and extension of",
-          "authors": "Andrew Miles, Yagana Samim, Salwa Khan",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104947",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104947",
-          "filter": 0,
-          "created": "2026-5-22"
         }
       ],
       "articles_hidden": []
@@ -224,22 +173,6 @@
           "doi": "https://doi.org/10.1080/00273171.2026.2673547",
           "filter": 0,
           "created": "2026-5-26"
-        },
-        {
-          "title": "Estimating Propensity Scores in Causal Inference in High-Dimensional Settings",
-          "authors": "Wenyi Li, Qian Zhang",
-          "url": "https://doi.org/10.1080/00273171.2026.2674445",
-          "doi": "https://doi.org/10.1080/00273171.2026.2674445",
-          "filter": 0,
-          "created": "2026-5-22"
-        },
-        {
-          "title": "Integrating Double/Debiased Machine Learning into Doubly Robust Estimators for Causal Inference",
-          "authors": "Muwon Kwon, Peter M. Steiner",
-          "url": "https://doi.org/10.1080/00273171.2026.2673263",
-          "doi": "https://doi.org/10.1080/00273171.2026.2673263",
-          "filter": 0,
-          "created": "2026-5-22"
         }
       ],
       "articles_hidden": []
@@ -274,15 +207,6 @@
           "doi": "https://doi.org/10.1177/01461672261439247",
           "filter": 0,
           "created": "2026-5-23"
-        },
-        {
-          "title": "How Effective Are Credible Sources in Changing Behavior? A Systematic Review with Meta-Analysis",
-          "authors": "Jack Hamer, Tracy Epton, Danielle Hamer, Christopher J. Armitage",
-          "abstract": "This systematic review and meta-analysis investigated the unique effects of credible sources on performed behavior, rather than behavioral antecedents (i.e., attitudes), and contexts where it is most effective. Six databases were searched to June 2024, yielding 40 effect sizes ( N = 7,995, 58.42% females, mean age of 17.75 years old, with mostly White ethnicity 75.81%) from 34 papers. A random effects model indicated a small positive effect, d = 0.14 (95% CI [0.04, 0.23]). Moderator analyses showed significant positive effects when the credible source had a medical professional qualification, communicated with participants in-person, the intervention was verbal or combined verbal and written messages, when behavior occurred once, and immediately followed the intervention. Because of the small effect, the costs associated with generating credible sources should be balanced against their effectiveness.",
-          "url": "https://doi.org/10.1177/01461672261445474",
-          "doi": "https://doi.org/10.1177/01461672261445474",
-          "filter": 0,
-          "created": "2026-5-22"
         }
       ],
       "articles_hidden": []
@@ -322,6 +246,22 @@
           "doi": "https://doi.org/10.1037/bul0000518",
           "filter": 0,
           "created": "2026-5-28"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Psychology of Music",
+      "journal_short": "PsychMusic",
+      "articles": [
+        {
+          "title": "Temporal Dynamics of Intraparietal Sulcus Activation in Response to Tonal Uncertainty: An fMRI Study of the Diminished Seventh Chord",
+          "authors": "Chen-Gia Tsai, Ling-Yao Chien, Joshua Oon Soo Goh",
+          "abstract": "Tonality and harmony in music provide a structured framework to explore the neural mechanisms underlying uncertainty. The diminished seventh (dim7) chord, characterized by its multiple potential resolutions, serves as an ideal stimulus for examining the neural correlates of tonal uncertainty. This functional magnetic resonance imaging study investigated neural activity elicited by the dim7 chord in listeners with refined music listening skills, focusing on three harmonic progressions: CHANGE, modulating to a distantly related tonality; RETURN, resolving to the original tonality; and PERSIST, sustaining tonal ambiguity through repeated dim7 chords. A finite impulse response model was used to analyze responses in regions associated with uncertainty processing. The intraparietal sulcus (IPS) uniquely exhibited distinct temporal activation patterns across the three conditions. In CHANGE, IPS activity initially decreased, likely reflecting reduced confidence in the outdated tonal model’s predictions, followed by an increase as sensory evidence for a new tonality accumulated. In RETURN, IPS activity showed limited fluctuation. In PERSIST, a progressive increase in IPS activity may reflect heightened cognitive demands for maintaining and evaluating multiple tonalities. These findings deepen our understanding of predictive coding by highlighting the nuanced role of the IPS in processing uncertainty.",
+          "url": "https://doi.org/10.1177/03057356261442576",
+          "doi": "https://doi.org/10.1177/03057356261442576",
+          "filter": 0,
+          "created": "2026-5-29"
         }
       ],
       "articles_hidden": []
