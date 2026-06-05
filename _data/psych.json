@@ -1,5 +1,5 @@
 {
-  "update": "2026-06-04",
+  "update": "2026-06-05",
   "content": [
     {
       "journal_full": "Behavior Research Methods",
@@ -49,21 +49,22 @@
           "created": "2026-5-29"
         },
         {
-          "title": "Know when to trust: Making AI scoring more reliable for educational assessment",
-          "authors": "Peter Organisciak, Selcuk Acar",
-          "url": "https://doi.org/10.3758/s13428-026-03058-1",
-          "doi": "https://doi.org/10.3758/s13428-026-03058-1",
+          "title": "Deep learning and eye tracking: Convolutional neural networks provide converging evidence for experience-driven attention within visual search",
+          "authors": "Nicholas Crotty, Alenka Doyle, Kamilla Volkova, Nicole Massa, Noah C. Benson, Michael A. Grubb",
+          "abstract": "Eye tracking during visual search generates spatiotemporally rich but complex data. Traditional analyses often utilize simplified metrics (saccade landings, dwell time, etc.) that necessarily exclude a substantial fraction of the variance in the raw eye data. Here, we asked if deep learning might aid scientists in objectively incorporating such discarded data into analyses. Convolutional neural networks (CNNs) are supervised machine learning tools that excel at classifying biological data. We built several CNNs that learn from raw eye-position time-course data to classify the location of relevant stimuli (e.g., search targets/distractors). We train each CNN on two-thirds of the data and cross-validate on the rest, comparing classification accuracy to chance via traditional frequentist testing and hierarchical Bayesian modeling. Using data from two of our previous visual search studies (Massa et al., Atten Percept Psychophys 86(4):1108–1119, 2024; Grubb &amp; Li, Atten Percept Psychophys 80:822–828, 2018), CNNs successfully classified the location of distractors with a “history as a sought target,” finding evidence for reflexive, experience-driven overt attention within each oculomotor dataset. Successful prediction of distractor location generalized to a third dataset without additional training (Doyle et al., Atten Percept Psychophys 87:721–727, 2025) and outperformed a traditional saccade-landing metric. Feature visualization illustrated how the CNNs learn from eye-position samples near distractors early in trials and opposite distractors later in trials, suggestive of reflexive attentional allocations towards distractors followed by corrective shifts in gaze. We thus validate our CNN-based approach and highlight its utility in analyzing the spatiotemporally rich data gathered from eye tracking during visual search.",
+          "url": "https://doi.org/10.3758/s13428-026-03057-2",
+          "doi": "https://doi.org/10.3758/s13428-026-03057-2",
           "filter": 0,
-          "created": "2026-5-28"
+          "created": "2026-6-4"
         },
         {
-          "title": "Robust Bayesian hypothesis testing with the hierarchical EZ-DDM",
-          "authors": "Adriana F. Chávez De la Peña, Eunice Shin, Joachim Vandekerckhove",
-          "abstract": "The EZ-diffusion model (EZ-DDM) uses a method of moments to provide closed-form estimators for the three-parameter drift-diffusion model from summary statistics. In previous work, we showed that using the sampling distributions of these statistics enables the implementation of hierarchical EZ-DDM extensions, supporting scalable Bayesian inference in cognitive psychometrics applications. However, the summary statistics used in EZ-DDM implementations (the mean and variance of the response time distribution) are sensitive to contaminant data points, limiting its utility in real-world applications. To address this, we propose a variation on the EZ-DDM implementation in which the summary statistics are replaced with robust alternatives, substituting mean RT with median RT and RT variance with an estimate derived from the interquartile range. We explore and evaluate the effectiveness of this substitution through simulation studies using a within-subject t test design across varying sample sizes and effect sizes. We show that the robust variant matched the diagnostic accuracy of the EZ-DDM implementation on uncontaminated data while maintaining diagnostic accuracy under contamination, unlike the standard model. This extension preserves efficiency while adding robustness in real-world applications. We recommend using the robust EZ-DDM in practical applications.",
-          "url": "https://doi.org/10.3758/s13428-026-03066-1",
-          "doi": "https://doi.org/10.3758/s13428-026-03066-1",
+          "title": "Experiment-based calibration: Inference and decision-making",
+          "authors": "Federico Mancinelli, Dominik R. Bach",
+          "abstract": "Experiment-based calibration is an emerging approach for measurement validation in the behavioural sciences. It allows comparing multiple measurement methods by how well they reproduce a known experimental manipulation, providing insight into their measurement accuracy. Calibration entails questions unparalleled in classical validation approaches. The first is about inference: when should we conclude that one measurement method is truly more accurate than another? The second is about decisions: when should we decide that a method merits the investment of changing a measurement system? In this note, we review these questions in the context of the statistical challenges that arise in a calibration process: a potentially large and a priori unknown number of measurement methods; a requirement to integrate evidence across multiple calibration samples; and a possibility that some methods may not be available for all samples. We show that Bayesian meta-analytic model comparison is a suitable framework for inference in calibration, and propose a decision-theoretic approach to calculate immediate economic gain garnered through reduced sample sizes. In order to overcome the practical hurdles associated with the analysis of calibration experiments, we present CalibR , an R package for calibration inference.",
+          "url": "https://doi.org/10.3758/s13428-026-03042-9",
+          "doi": "https://doi.org/10.3758/s13428-026-03042-9",
           "filter": 0,
-          "created": "2026-5-28"
+          "created": "2026-6-4"
         },
         {
           "title": "Procedural trial generation for cognitive assessment: An executive function planning task",
@@ -113,6 +114,14 @@
           "created": "2026-5-30"
         },
         {
+          "title": "Content as Shelf: How Branded Content Atmospheres Shape Consumer Relationship Building in Social Commerce? Insights from PLS-SEM and fs/QCA",
+          "authors": "Lu Zheng, Yongfa Li, Xiaojing Zhang",
+          "url": "https://doi.org/10.1016/j.chb.2026.109065",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109065",
+          "filter": 0,
+          "created": "2026-6-4"
+        },
+        {
           "title": "The Ties that (Healthily) Bind: Playing in Groups Increases Game Loyalty but Decrease Addiction",
           "authors": "Shih-I Tai, Thi Tuan Linh Pham, Tzu-Ling Huang, Alexander S. Dennis, Chun-Hao Liu, Gen-Yih Liao, Ching-I Teng",
           "url": "https://doi.org/10.1016/j.chb.2026.109074",
@@ -137,7 +146,7 @@
           "created": "2026-6-3"
         },
         {
-          "title": "From Social Trust to AI Technology Acceptance: A Panel Study of AI-Powered Autonomous Vehicle Adoption in Singapore",
+          "title": "From social trust to AI technology acceptance: A panel study of AI-Powered autonomous vehicle adoption in Singapore",
           "authors": "Hongjie Tang, Shirley S. Ho, Liang Chen",
           "url": "https://doi.org/10.1016/j.chb.2026.109063",
           "doi": "https://doi.org/10.1016/j.chb.2026.109063",
@@ -448,45 +457,15 @@
           "doi": "https://doi.org/10.1177/01461672261447643",
           "filter": 0,
           "created": "2026-5-30"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Psychological Bulletin",
-      "journal_short": "PsychBull",
-      "articles": [
-        {
-          "title": "Artificial intelligence as a partner in meta-analysis—Research agenda, user recommendations, and speed–accuracy tradeoffs: Commentary on Jansen et al. (2025).",
-          "authors": "Brooke N. Macnamara",
-          "url": "https://doi.org/10.1037/bul0000519",
-          "doi": "https://doi.org/10.1037/bul0000519",
-          "filter": 0,
-          "created": "2026-5-28"
         },
         {
-          "title": "The association between reading anxiety and reading achievement: A meta-analysis and systematic review.",
-          "authors": "Rachelle M. Johnson, Maxine Schaefer, Cynthia U. Norris, Richard K. Wagner, Sara A. Hart",
-          "url": "https://doi.org/10.1037/bul0000517",
-          "doi": "https://doi.org/10.1037/bul0000517",
+          "title": "Just Like My CEO: When Perceived Similarity Makes Pay Inequality Acceptable",
+          "authors": "Daniel Heller, Garrett L. Brady, M. Ena Inesi, Thomas Mussweiler",
+          "abstract": "Large CEO–employee pay gaps often elicit negative reactions, yet they have reached historic highs with limited resistance. How can this be explained? Developing a novel social comparison perspective, we propose that under specific circumstances pay inequality may yield positive reactions. We argue that perceived similarity with a CEO enhances acceptance of CEO pay, a process driven by elevated inspiration. We tested this prediction in four studies: a large international archival survey, a pre-registered survey of U.S. employees, and two pre-registered experiments. In the archival survey, we demonstrate that perceived similarity to CEOs, when measured indirectly, reduced support for income-inequality-reduction policies, and this effect appears-to-emerge across cultures. Converging experimental evidence reveals that employees who perceived greater similarity to their CEOs are more accepting of high CEO pay, due to feeling more inspired. These findings help elucidate why extreme pay disparities are often accepted, even though they may reinforce broader societal inequality.",
+          "url": "https://doi.org/10.1177/01461672261449861",
+          "doi": "https://doi.org/10.1177/01461672261449861",
           "filter": 0,
-          "created": "2026-5-28"
-        },
-        {
-          "title": "Relationships between cognition and daily functioning in adults with bipolar disorder: A systematic review and multilevel meta-analysis.",
-          "authors": "Amanda McCleery, Gerhard Stefan Hellemann, Junghee Lee",
-          "url": "https://doi.org/10.1037/bul0000509",
-          "doi": "https://doi.org/10.1037/bul0000509",
-          "filter": 0,
-          "created": "2026-5-28"
-        },
-        {
-          "title": "Perfectionism is accelerating over time: A cross-temporal meta-analytic review of 35 years of college student data.",
-          "authors": "Thomas Curran, Andrew Hill, Pia Marie Pose",
-          "url": "https://doi.org/10.1037/bul0000518",
-          "doi": "https://doi.org/10.1037/bul0000518",
-          "filter": 0,
-          "created": "2026-5-28"
+          "created": "2026-6-4"
         }
       ],
       "articles_hidden": []
@@ -612,16 +591,24 @@
       "articles_hidden": []
     },
     {
-      "journal_full": "Psychology of Popular Media",
-      "journal_short": "PPM",
+      "journal_full": "Technology, Mind, and Behavior",
+      "journal_short": "TMB",
       "articles": [
         {
-          "title": "The impact of fitspiration depicting different racial groups on Asian American women’s body dissatisfaction and appearance comparison.",
-          "authors": "Ruifei Zhang, Lauren A. Stutts",
-          "url": "https://doi.org/10.1037/ppm0000677",
-          "doi": "https://doi.org/10.1037/ppm0000677",
+          "title": "Virtual reality’s promise in fostering empathy and compassion: Mode-specific interventions for adolescents facing ethnic discrimination.",
+          "authors": "Eugene Agboifo Ohu, Karen Schrier, Jennifer Lansford, Cynthia Emami, Morenike Alugo, Adeola Babatunde, Ikeola J. Bodunde, Oluwatomilade Olominu, Deborah Odumbo, Serah Adetunji, Adanoritsewo Ogbitse, Judith Okonkwo, Princess Anifowose",
+          "url": "https://doi.org/10.1037/tmb0000199",
+          "doi": "https://doi.org/10.1037/tmb0000199",
           "filter": 0,
-          "created": "2026-5-28"
+          "created": "2026-6-4"
+        },
+        {
+          "title": "Media naturalness shapes newcomer proactive behavior.",
+          "authors": "Jerod C. White, Tara S. Behrend",
+          "url": "https://doi.org/10.1037/tmb0000194",
+          "doi": "https://doi.org/10.1037/tmb0000194",
+          "filter": 0,
+          "created": "2026-6-4"
         }
       ],
       "articles_hidden": []
