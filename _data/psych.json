@@ -1,19 +1,10 @@
 {
-  "update": "2026-06-05",
+  "update": "2026-06-06",
   "content": [
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
       "articles": [
-        {
-          "title": "Enhancing propensity score analysis with data missing not at random: Introducing dual-forest proximity imputation",
-          "authors": "Yongseok Lee, Walter L. Leite",
-          "abstract": "Researchers using propensity score analysis (PSA) to estimate treatment effects using secondary data may have to handle data that are missing not at random (MNAR). Existing methods for PSA with MNAR data use logistic regression to model the missing data mechanisms, thus requiring manual specification of functional forms, and are difficult to implement with a large number of covariates. To overcome these limitations, this study proposes alternatives to existing methods by replacing logistic regression with a random forest. Also, it introduces the dual-forest proximity imputation method, which leverages two types of proximity matrices of random forest techniques and incorporates missingness pattern information in each matrix. Results from a Monte Carlo simulation show dual-forest proximity imputation’s enhanced bias reduction with various types of MNAR mechanisms as compared to existing and alternative methods. A case study is also provided using data from the National Longitudinal Survey of Youth (Enders, 1979) (NLSY79).",
-          "url": "https://doi.org/10.3758/s13428-026-03024-x",
-          "doi": "https://doi.org/10.3758/s13428-026-03024-x",
-          "filter": 0,
-          "created": "2026-5-29"
-        },
         {
           "title": "Semantic diversity in Chinese words: Exploring its role in word recognition, lexical ambiguity, character complexity, and semantic alignment",
           "authors": "Yufeng Liu, Shifa Chen, Yi Yang",
@@ -23,14 +14,6 @@
           "created": "2026-6-3"
         },
         {
-          "title": "Synthesis of single-case design mediation effects using two-stage multilevel modeling",
-          "authors": "Mariola Moeyaert, Milica Miočević, Yaosheng Lou, Matthew J. Valente",
-          "url": "https://doi.org/10.3758/s13428-026-03061-6",
-          "doi": "https://doi.org/10.3758/s13428-026-03061-6",
-          "filter": 0,
-          "created": "2026-5-29"
-        },
-        {
           "title": "The fundamentals of eye tracking, Part 7: Determining data quality",
           "authors": "Diederick C. Niehorster, Marcus Nyström, Roy S. Hessels, Jeroen S. Benjamins, Richard Andersson, Ignace T. C. Hooge",
           "abstract": "Understanding the quality of eye-tracking recordings, often characterized using accuracy, precision, and data loss, is crucial for the interpretation of eye tracking data. Eye-tracking data quality can furthermore place fundamental limits on what studies can be conducted with an eye tracker, and one may be required to report eye-tracking data quality when publishing a study. However, how does one determine the quality of eye-tracking data? This article provides an overview of operationalizations of accuracy, precision, and data loss and practical advice for determining eye-tracking data quality. Furthermore, the programming code for calculating various quality metrics for a segment of eye-tracking data is provided in MATLAB, Python, and R. Also provided is ETDQualitizer, a tool designed to enable anyone to easily determine the data quality of their recordings. We provide a version that is browser-based ( https://dcnieho.github.io/ETDQualitizer ) and enables determining eye-tracking data quality without installation or programming, while ensuring data privacy by running entirely locally. ETDQualitizer is further provided as a MATLAB, Python, and R library ( https://github.com/dcnieho/ETDQualitizer ) that can be integrated in one’s analysis scripts. We hope that this article enables any researcher to determine, critically evaluate, and report on eye-tracking data quality, and that it spurs researchers to adopt a data quality perspective in all their future eye-tracking studies.",
@@ -38,15 +21,6 @@
           "doi": "https://doi.org/10.3758/s13428-026-03039-4",
           "filter": 0,
           "created": "2026-6-2"
-        },
-        {
-          "title": "Implementing multiple implicit association tests in Qualtrics: A guide and demonstration using balanced identity design theory",
-          "authors": "Alyssa Ream, Anna Woodcock, Sarah Zlatkovic, Rachelle M. Pedersen, Ashley Bonilla, Hannah Middleton, Paul R. Hernandez, P. Wesley Schultz",
-          "abstract": "Interest in implicit processes, such as attitudes and identities, has grown in behavioral sciences since Greenwald and colleagues (1998) developed and introduced the Implicit Association Test (IAT). The IAT was developed to measure these processes, which has become more accessible with the popularity of Qualtrics as a data collection tool, especially through methods and code provided by Carpenter et al. (2019). They demonstrated how to construct a single IAT for use on the Qualtrics platform, providing research resources for creating IATs to examine concept-pair associations. However, there is no guidance on constructing multiple IATs on survey software platforms for research that requires two or more IATs in a single study. This paper extends Carpenter et al.’s (2019) work by outlining the process of developing, implementing, and utilizing multiple IATs within a single Qualtrics survey. We provide a tutorial using examples from our research using the Balanced Identity Design (BID) framework, including step-by-step written and visual instructions and templates, instructions for planning and building multiple IATs and dynamically presenting them in a single Qualtrics survey and code for processing IAT data. We also demonstrate the utility of the multiple IAT approach by reporting a short study utilizing BID theory wherein we measure implicit racial/ethnic identity, STEM identity, and race/ethnicity-STEM associations in a single study via three IATs.",
-          "url": "https://doi.org/10.3758/s13428-026-03047-4",
-          "doi": "https://doi.org/10.3758/s13428-026-03047-4",
-          "filter": 0,
-          "created": "2026-5-29"
         },
         {
           "title": "Deep learning and eye tracking: Convolutional neural networks provide converging evidence for experience-driven attention within visual search",
@@ -73,14 +47,6 @@
           "doi": "https://doi.org/10.3758/s13428-026-03032-x",
           "filter": 0,
           "created": "2026-6-3"
-        },
-        {
-          "title": "Making the impossible possible: Leveraging built-in features for non-intrusive and accurate Apple Screen Time tracking through ASTER",
-          "authors": "Marijn Martens, Kyle Van Gaeveren",
-          "url": "https://doi.org/10.3758/s13428-026-03065-2",
-          "doi": "https://doi.org/10.3758/s13428-026-03065-2",
-          "filter": 0,
-          "created": "2026-5-29"
         }
       ],
       "articles_hidden": []
@@ -89,14 +55,6 @@
       "journal_full": "Computers in Human Behavior",
       "journal_short": "CHB",
       "articles": [
-        {
-          "title": "Understanding the Efficacy of Online Bystander Intervention when Journalists are the Targets",
-          "authors": "Kathleen Searles, Rebekah Tromble",
-          "url": "https://doi.org/10.1016/j.chb.2026.109062",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109062",
-          "filter": 0,
-          "created": "2026-5-29"
-        },
         {
           "title": "The role of arousal and valence in predictions of short video virality: A psychophysiological perspective",
           "authors": "Danila Shelepenkov, Vladimir Kosonogov",
@@ -122,20 +80,12 @@
           "created": "2026-6-4"
         },
         {
-          "title": "The Ties that (Healthily) Bind: Playing in Groups Increases Game Loyalty but Decrease Addiction",
+          "title": "The ties that (healthily) bind: Playing in groups increases game loyalty but decrease addiction",
           "authors": "Shih-I Tai, Thi Tuan Linh Pham, Tzu-Ling Huang, Alexander S. Dennis, Chun-Hao Liu, Gen-Yih Liao, Ching-I Teng",
           "url": "https://doi.org/10.1016/j.chb.2026.109074",
           "doi": "https://doi.org/10.1016/j.chb.2026.109074",
           "filter": 0,
           "created": "2026-6-2"
-        },
-        {
-          "title": "When conversational AI personalises too much: Refining privacy calculus for bundled interactional cues in AI-mediated disclosure",
-          "authors": "Khanh Duy Phan, Bao Quoc Truong-Dinh",
-          "url": "https://doi.org/10.1016/j.chb.2026.109061",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109061",
-          "filter": 0,
-          "created": "2026-5-29"
         },
         {
           "title": "Patterns of prefrontal cortex connectivity in internet gaming disorder: fNIRS insight from mobile gameplay",
@@ -318,6 +268,21 @@
       "articles_hidden": []
     },
     {
+      "journal_full": "Journal of Experimental Social Psychology",
+      "journal_short": "JESP",
+      "articles": [
+        {
+          "title": "Does attending to the nose vs. eyes reduce the cross-race recognition deficit? A systematic test",
+          "authors": "Tomás A. Palma, Francisco Cruz, Joana Quarenta, Joshua Correll, Marco Carvalho, Marta Barros, Debbie Ma",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104958",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104958",
+          "filter": 0,
+          "created": "2026-6-5"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Journal of Personality and Social Psychology",
       "journal_short": "JPSP",
       "articles": [
@@ -431,6 +396,15 @@
       "journal_full": "Personality and Social Psychology Bulletin",
       "journal_short": "PSPB",
       "articles": [
+        {
+          "title": "Fluency as a Cue to Authenticity",
+          "authors": "Lydia Needy, Matthew Baldwin, Rebecca J. Schlegel, Wilhelm Hofmann",
+          "abstract": "The quest for authenticity is a potent existential striving. Commonly defined as knowing and living in accordance with one’s perceived “true self,” we propose that authenticity may also be inferred from ambient feelings of fluency, or the subjective feeling of ease that corresponds to one’s immediate experience, mental processing, or physical action. We report four studies ( N = 1,465) supporting this idea. Study 1 shows that fluency during a recent activity predicts subjective authenticity beyond other relevant variables. Study 2 demonstrates that participants’ recalled fluent experiences also felt authentic. In Study 3, generating self-defining attributes under cognitive load reduced fluency and, subsequently, subjective authenticity. Finally, preregistered Study 4 manipulated fluency during a non-self-relevant task. Participants in the fluent condition reported greater subjective authenticity than those in the disfluent condition. We discuss how a phenomenological approach to subjective authenticity can integrate and complement recent theorizing about the nature of authenticity.",
+          "url": "https://doi.org/10.1177/01461672261451297",
+          "doi": "https://doi.org/10.1177/01461672261451297",
+          "filter": 0,
+          "created": "2026-6-5"
+        },
         {
           "title": "When You’re With Me, Baby, the Skies will be Blue for All My Life? A Dyadic Longitudinal Study of Relationship Happiness Through Midlife",
           "authors": "Georg Henning, Rebekka Weidmann, Dikla Segel-Karpas, Sophie Potter, Jenna Wünsche",
@@ -577,15 +551,6 @@
           "doi": "https://doi.org/10.1177/03057356261436796",
           "filter": 0,
           "created": "2026-6-2"
-        },
-        {
-          "title": "Temporal Dynamics of Intraparietal Sulcus Activation in Response to Tonal Uncertainty: An fMRI Study of the Diminished Seventh Chord",
-          "authors": "Chen-Gia Tsai, Ling-Yao Chien, Joshua Oon Soo Goh",
-          "abstract": "Tonality and harmony in music provide a structured framework to explore the neural mechanisms underlying uncertainty. The diminished seventh (dim7) chord, characterized by its multiple potential resolutions, serves as an ideal stimulus for examining the neural correlates of tonal uncertainty. This functional magnetic resonance imaging study investigated neural activity elicited by the dim7 chord in listeners with refined music listening skills, focusing on three harmonic progressions: CHANGE, modulating to a distantly related tonality; RETURN, resolving to the original tonality; and PERSIST, sustaining tonal ambiguity through repeated dim7 chords. A finite impulse response model was used to analyze responses in regions associated with uncertainty processing. The intraparietal sulcus (IPS) uniquely exhibited distinct temporal activation patterns across the three conditions. In CHANGE, IPS activity initially decreased, likely reflecting reduced confidence in the outdated tonal model’s predictions, followed by an increase as sensory evidence for a new tonality accumulated. In RETURN, IPS activity showed limited fluctuation. In PERSIST, a progressive increase in IPS activity may reflect heightened cognitive demands for maintaining and evaluating multiple tonalities. These findings deepen our understanding of predictive coding by highlighting the nuanced role of the IPS in processing uncertainty.",
-          "url": "https://doi.org/10.1177/03057356261442576",
-          "doi": "https://doi.org/10.1177/03057356261442576",
-          "filter": 0,
-          "created": "2026-5-29"
         }
       ],
       "articles_hidden": []
