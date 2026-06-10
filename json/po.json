@@ -1,19 +1,10 @@
 {
-  "update": "2026-06-09",
+  "update": "2026-06-10",
   "content": [
     {
       "journal_full": "Journal of Official Statistics",
       "journal_short": "JOS",
       "articles": [
-        {
-          "title": "Prediction-Powered Estimation: Unbiased Model-Assisted Estimation",
-          "authors": "Nicholas Denis, Mohammed Haddou",
-          "abstract": "National statistical agencies increasingly face budget constraints and shrinking sample sizes, while simultaneously gaining access to rich auxiliary data and powerful pre-trained machine learning (ML) and artificial intelligence (AI) models, including Large Language Models (LLMs). Traditional model-assisted estimation techniques, which fit models using survey sample data, are limited by small sample sizes, struggle to leverage complex non-linear relationships in auxiliary data, and cannot accommodate frontier pre-trained models. This work re-examines the use of pre-trained black-box models, fit independently of the survey sample, for design-based parameter estimation. Inspired by the Prediction-Powered Inference (PPI) framework, we introduce the Prediction-Powered Estimator (PPE), an unbiased estimator with an unbiased variance estimator for the survey design setting. We also formalize the use of pre-trained models with the classic difference estimator—which we term the Prediction-Powered Difference (PPD) estimator—and with the Generalized Regression Estimator via predicted values as covariates ( GREG y ^ ). Through LLM-based use-cases leveraging unstructured auxiliary data (images and text) and experiments with real-world survey data from Statistics Canada, complemented by simulation studies in the Supplemental Material , we demonstrate that these approaches consistently outperform standard baseline estimators across bias, mean absolute error, mean squared error, coverage, and confidence interval width. The results suggest that pre-trained models can yield more accurate and efficient estimates while potentially reducing survey sample sizes and respondent burden, and motivate expanding the survey methodologist’s toolbox to include pre-trained models and novel auxiliary data sources.",
-          "url": "https://doi.org/10.1177/0282423x261451320",
-          "doi": "https://doi.org/10.1177/0282423x261451320",
-          "filter": 0,
-          "created": "2026-6-2"
-        },
         {
           "title": "A Note on the Additive Decomposition of GEKS Indexes",
           "authors": "Steve Martin",
@@ -22,6 +13,15 @@
           "doi": "https://doi.org/10.1177/0282423x261451318",
           "filter": 0,
           "created": "2026-6-4"
+        },
+        {
+          "title": "Beyond Survey Length: Understanding Respondent Perceptions of Burden",
+          "authors": "Erica C. Yu, Brandon Kopp, Victoria R. Narine",
+          "abstract": "Respondent burden is complex and represents more than just the time spent completing the survey. With this research, we highlight the importance of looking beyond objective measures to understand the respondent’s perception of the survey-taking experience. First, we asked participants to tell us in their own words about the term “burden” and how surveys and survey questions can be burdensome. We identified themes in how respondents think about surveys that can inform targeted approaches to reducing respondent burden. We then tested the idea that perceptions of burden may not adhere to any objective measure of what it means for a survey to be burdensome. Through survey instructions, we presented different frames of reference to dissociate perceptions of survey length from actual survey length and analyzed the effect on ratings of burden. Our research suggests that factors like repetition, disorganization, and perceptions of pointlessness are key to respondents’ understanding of burden. Different frames of reference translated to significant differences in both perceptions of survey length and perceptions of burden, regardless of actual survey length. To improve respondents’ survey-taking experience, survey designers must go beyond survey length to consider perceived burden.",
+          "url": "https://doi.org/10.1177/0282423x261451321",
+          "doi": "https://doi.org/10.1177/0282423x261451321",
+          "filter": 0,
+          "created": "2026-6-10"
         }
       ],
       "articles_hidden": []
