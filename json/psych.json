@@ -1,5 +1,5 @@
 {
-  "update": "2026-06-11",
+  "update": "2026-06-12",
   "content": [
     {
       "journal_full": "Behavior Research Methods",
@@ -13,24 +13,6 @@
           "doi": "https://doi.org/10.3758/s13428-026-03049-2",
           "filter": 0,
           "created": "2026-6-8"
-        },
-        {
-          "title": "Deep learning and eye tracking: Convolutional neural networks provide converging evidence for experience-driven attention within visual search",
-          "authors": "Nicholas Crotty, Alenka Doyle, Kamilla Volkova, Nicole Massa, Noah C. Benson, Michael A. Grubb",
-          "abstract": "Eye tracking during visual search generates spatiotemporally rich but complex data. Traditional analyses often utilize simplified metrics (saccade landings, dwell time, etc.) that necessarily exclude a substantial fraction of the variance in the raw eye data. Here, we asked if deep learning might aid scientists in objectively incorporating such discarded data into analyses. Convolutional neural networks (CNNs) are supervised machine learning tools that excel at classifying biological data. We built several CNNs that learn from raw eye-position time-course data to classify the location of relevant stimuli (e.g., search targets/distractors). We train each CNN on two-thirds of the data and cross-validate on the rest, comparing classification accuracy to chance via traditional frequentist testing and hierarchical Bayesian modeling. Using data from two of our previous visual search studies (Massa et al., Atten Percept Psychophys 86(4):1108–1119, 2024; Grubb &amp; Li, Atten Percept Psychophys 80:822–828, 2018), CNNs successfully classified the location of distractors with a “history as a sought target,” finding evidence for reflexive, experience-driven overt attention within each oculomotor dataset. Successful prediction of distractor location generalized to a third dataset without additional training (Doyle et al., Atten Percept Psychophys 87:721–727, 2025) and outperformed a traditional saccade-landing metric. Feature visualization illustrated how the CNNs learn from eye-position samples near distractors early in trials and opposite distractors later in trials, suggestive of reflexive attentional allocations towards distractors followed by corrective shifts in gaze. We thus validate our CNN-based approach and highlight its utility in analyzing the spatiotemporally rich data gathered from eye tracking during visual search.",
-          "url": "https://doi.org/10.3758/s13428-026-03057-2",
-          "doi": "https://doi.org/10.3758/s13428-026-03057-2",
-          "filter": 0,
-          "created": "2026-6-4"
-        },
-        {
-          "title": "Experiment-based calibration: Inference and decision-making",
-          "authors": "Federico Mancinelli, Dominik R. Bach",
-          "abstract": "Experiment-based calibration is an emerging approach for measurement validation in the behavioural sciences. It allows comparing multiple measurement methods by how well they reproduce a known experimental manipulation, providing insight into their measurement accuracy. Calibration entails questions unparalleled in classical validation approaches. The first is about inference: when should we conclude that one measurement method is truly more accurate than another? The second is about decisions: when should we decide that a method merits the investment of changing a measurement system? In this note, we review these questions in the context of the statistical challenges that arise in a calibration process: a potentially large and a priori unknown number of measurement methods; a requirement to integrate evidence across multiple calibration samples; and a possibility that some methods may not be available for all samples. We show that Bayesian meta-analytic model comparison is a suitable framework for inference in calibration, and propose a decision-theoretic approach to calculate immediate economic gain garnered through reduced sample sizes. In order to overcome the practical hurdles associated with the analysis of calibration experiments, we present CalibR , an R package for calibration inference.",
-          "url": "https://doi.org/10.3758/s13428-026-03042-9",
-          "doi": "https://doi.org/10.3758/s13428-026-03042-9",
-          "filter": 0,
-          "created": "2026-6-4"
         },
         {
           "title": "Automatic quantification of lexical ambiguity using large-scale word association data",
@@ -90,28 +72,28 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "Content as shelf: How branded content atmospheres shape consumer relationship building in social commerce? Insights from PLS-SEM and fs/QCA",
-          "authors": "Lu Zheng, Yongfa Li, Xiaojing Zhang",
-          "url": "https://doi.org/10.1016/j.chb.2026.109065",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109065",
+          "title": "Perceived Algorithmic Attraction in GenAI-Generated Pedagogical Agents: Dimensions and Effects on Learner Trust and Motivation",
+          "authors": "Fu-Song Hsu, Wei-Ting Pai, I-Chia Tsai",
+          "url": "https://doi.org/10.1016/j.chb.2026.109079",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109079",
           "filter": 0,
-          "created": "2026-6-4"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Group Processes & Intergroup Relations",
-      "journal_short": "GPIR",
-      "articles": [
+          "created": "2026-6-11"
+        },
         {
-          "title": "The Complexity of Local, National, and European Identities and Their Links to Intergroup Attitudes: The Case of the Basques and the Catalans",
-          "authors": "Maciej Sekerdej, Carmen Tabernero",
-          "abstract": "The aim of this research was to examine the interrelationships between regional, national, and European identities in the Basque Country (Study 1) and Catalonia (Study 2) using the Social Identity Complexity model. Across two studies (total N = 1200), we found that the greater the perceived similarity and overlap between regional and national identification, the stronger the identification with Europe. A more detailed analysis showed that this relationship was positively mediated by national identification. A parallel negative mediation via both regional identification and glorifying regional identification was weaker and less consistent. Moreover, greater perceived similarity to Spain, together with higher levels of identity overlap, was associated with more harmonious attitudes toward other autonomous communities and European nations. In Study 2, these findings were further interpreted through the lens of the Ingroup Projection Model, indicating that for Catalans, Europe—rather than Spain—functions as the primary point of reference.",
-          "url": "https://doi.org/10.1177/13684302261451127",
-          "doi": "https://doi.org/10.1177/13684302261451127",
+          "title": "Visual Feedback Design and Cognitive Immersion: A Mediated Model of Performance Pressure, Satisfaction, and Skill Depth",
+          "authors": "Min Jou, Yungwei Hao",
+          "url": "https://doi.org/10.1016/j.chb.2026.109084",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109084",
           "filter": 0,
-          "created": "2026-6-4"
+          "created": "2026-6-11"
+        },
+        {
+          "title": "Risk and Protective Patterns of Adolescent Phubbing: A Pattern-Oriented Study Using Association Rule Mining",
+          "authors": "Erdal Görkem GAVCAR, Çağlar ŞİMŞEK, Ahmet BÜBER, Ömer BAŞAY, Bürge KABUKÇU BAŞAY, Merve AKTAŞ TERZİOĞLU, Serdar İPLİKÇİ",
+          "url": "https://doi.org/10.1016/j.chb.2026.109078",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109078",
+          "filter": 0,
+          "created": "2026-6-11"
         }
       ],
       "articles_hidden": []
@@ -129,20 +111,20 @@
           "created": "2026-6-5"
         },
         {
-          "title": "Hypocrisy either way: Judgments of moral actors who choose between conflicting commitments",
-          "authors": "Jonathan Z. Berman, Graham Overton, Daniel A. Effron",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104945",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104945",
-          "filter": 0,
-          "created": "2026-6-8"
-        },
-        {
           "title": "Is it my fault? How attributing exclusion to norm violations triggers self-directed emotions",
           "authors": "Larissa C. Damp, Selma C. Rudert",
           "url": "https://doi.org/10.1016/j.jesp.2026.104960",
           "doi": "https://doi.org/10.1016/j.jesp.2026.104960",
           "filter": 0,
           "created": "2026-6-9"
+        },
+        {
+          "title": "Hypocrisy either way: Judgments of moral actors who choose between conflicting commitments",
+          "authors": "Jonathan Z. Berman, Graham Overton, Daniel A. Effron",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104945",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104945",
+          "filter": 0,
+          "created": "2026-6-8"
         }
       ],
       "articles_hidden": []
@@ -158,6 +140,29 @@
           "doi": "https://doi.org/10.1037/pspp0000605",
           "filter": 0,
           "created": "2026-6-8"
+        },
+        {
+          "title": "Morality cut both ways: The role of cognition and emotion in attitude moralization and demoralization.",
+          "authors": "Paul E. Teas, Linda J. Skitka",
+          "url": "https://doi.org/10.1037/pspa0000489",
+          "doi": "https://doi.org/10.1037/pspa0000489",
+          "filter": 0,
+          "created": "2026-6-11"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Multivariate Behavioral Research",
+      "journal_short": "MBR",
+      "articles": [
+        {
+          "title": "Generalizing Causal Effects to a Target Population Without Individual-Level Data from the Target Population",
+          "authors": "Wen Wei Loh, Dongning Ren",
+          "url": "https://doi.org/10.1080/00273171.2026.2683348",
+          "doi": "https://doi.org/10.1080/00273171.2026.2683348",
+          "filter": 0,
+          "created": "2026-6-11"
         }
       ],
       "articles_hidden": []
@@ -174,15 +179,29 @@
           "doi": "https://doi.org/10.1177/01461672261451297",
           "filter": 0,
           "created": "2026-6-5"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Psychological Methods",
+      "journal_short": "PM",
+      "articles": [
+        {
+          "title": "A unified framework for psychometrics in experimental psychology: The standardized generalized hierarchical factor model.",
+          "authors": "Ricardo Rey-Sáez, Alicia Franco-Martínez, Javier Revuelta, Miguel A. Vadillo",
+          "url": "https://doi.org/10.1037/met0000846",
+          "doi": "https://doi.org/10.1037/met0000846",
+          "filter": 0,
+          "created": "2026-6-11"
         },
         {
-          "title": "Just Like My CEO: When Perceived Similarity Makes Pay Inequality Acceptable",
-          "authors": "Daniel Heller, Garrett L. Brady, M. Ena Inesi, Thomas Mussweiler",
-          "abstract": "Large CEO–employee pay gaps often elicit negative reactions, yet they have reached historic highs with limited resistance. How can this be explained? Developing a novel social comparison perspective, we propose that under specific circumstances pay inequality may yield positive reactions. We argue that perceived similarity with a CEO enhances acceptance of CEO pay, a process driven by elevated inspiration. We tested this prediction in four studies: a large international archival survey, a pre-registered survey of U.S. employees, and two pre-registered experiments. In the archival survey, we demonstrate that perceived similarity to CEOs, when measured indirectly, reduced support for income-inequality-reduction policies, and this effect appears-to-emerge across cultures. Converging experimental evidence reveals that employees who perceived greater similarity to their CEOs are more accepting of high CEO pay, due to feeling more inspired. These findings help elucidate why extreme pay disparities are often accepted, even though they may reinforce broader societal inequality.",
-          "url": "https://doi.org/10.1177/01461672261449861",
-          "doi": "https://doi.org/10.1177/01461672261449861",
+          "title": "Structured hierarchical regression for Likert scales including dispersion effects: Models and fitting tools.",
+          "authors": "Gerhard Tutz, Moritz Berger",
+          "url": "https://doi.org/10.1037/met0000843",
+          "doi": "https://doi.org/10.1037/met0000843",
           "filter": 0,
-          "created": "2026-6-4"
+          "created": "2026-6-11"
         }
       ],
       "articles_hidden": []
@@ -215,28 +234,12 @@
       "journal_short": "TMB",
       "articles": [
         {
-          "title": "Virtual reality’s promise in fostering empathy and compassion: Mode-specific interventions for adolescents facing ethnic discrimination.",
-          "authors": "Eugene Agboifo Ohu, Karen Schrier, Jennifer Lansford, Cynthia Emami, Morenike Alugo, Adeola Babatunde, Ikeola J. Bodunde, Oluwatomilade Olominu, Deborah Odumbo, Serah Adetunji, Adanoritsewo Ogbitse, Judith Okonkwo, Princess Anifowose",
-          "url": "https://doi.org/10.1037/tmb0000199",
-          "doi": "https://doi.org/10.1037/tmb0000199",
-          "filter": 0,
-          "created": "2026-6-4"
-        },
-        {
           "title": "The revised extended iSelf: Disentangling the effects of smartphone position and ringing on cognitive performance and psychophysiological parameters.",
           "authors": "Claudia Virginia Manara, Fabrizio Sors, Stefano Pileggi, Cristina Montesano, Maria Colomba, Mauro Murgia",
           "url": "https://doi.org/10.1037/tmb0000196",
           "doi": "https://doi.org/10.1037/tmb0000196",
           "filter": 0,
           "created": "2026-6-8"
-        },
-        {
-          "title": "Media naturalness shapes newcomer proactive behavior.",
-          "authors": "Jerod C. White, Tara S. Behrend",
-          "url": "https://doi.org/10.1037/tmb0000194",
-          "doi": "https://doi.org/10.1037/tmb0000194",
-          "filter": 0,
-          "created": "2026-6-4"
         }
       ],
       "articles_hidden": []
