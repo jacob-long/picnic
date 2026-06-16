@@ -1,19 +1,26 @@
 {
-  "update": "2026-06-15",
+  "update": "2026-06-16",
   "content": [
+    {
+      "journal_full": "Advances in Methods and Practices in Psychological Science",
+      "journal_short": "AMPPS",
+      "articles": [
+        {
+          "title": "Throwing Out the Bathwater but Keeping the Baby: Extending Campbell-Fiske’s Multitrait-Multimethod Framework",
+          "authors": "Herbert W. Marsh, Jiesi Guo, Oliver Lüdtke, Reinhard Pekrun",
+          "abstract": "The 65th anniversary of Campbell and Fiske’s multitrait-multimethod (MTMM) framework provides a timely opportunity to revisit and modernize this foundational model for construct validation. Although structural-equation-modeling-based MTMM approaches have enhanced the field, their widespread application remains constrained by convergence problems, ambiguous trait-method distinctions, and a lack of consensus regarding optimal model specifications. We propose an extended Campbell-Fiske framework that resolves these limitations while preserving the original guidelines’ conceptual strengths. Our key innovation is to apply the MTMM logic to a fully latent multitrait-multidomain correlation matrix derived from a rigorously tested multiple-indicator measurement model. Our approach treats traits and methods (i.e., domains, occasions, informants, contexts, or another method facet) as fully symmetrical, substantive facets, eliminates reliance on manifest correlations, corrects for measurement error, and introduces formal asymptotic parameter comparisons to test each validity criterion. This framework provides a formatively heuristic structure that retains the original appeal of the MTMM logic for applied research while meeting current psychometric standards for transparency, reproducibility, and inferential rigor expected by leading academic journals. We illustrate the method using a large, multidimensional data set ( N = 18,047), but the framework generalizes across domains of psychological science. The extended framework offers applied researchers a flexible, powerful tool for evaluating convergent and discriminant validity, diagnosing trait-domain interactions, and clarifying measurement quality. By “keeping the baby” while refreshing the empirical implementation, our approach affirms the enduring value of the Campbell-Fiske logic while aligning it with the demands of modern research practice.",
+          "url": "https://doi.org/10.1177/25152459251407652",
+          "doi": "https://doi.org/10.1177/25152459251407652",
+          "filter": 0,
+          "created": "2026-6-15"
+        }
+      ],
+      "articles_hidden": []
+    },
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
       "articles": [
-        {
-          "title": "Multi-method validation of the new computerized test of fluid intelligence MatriKS",
-          "authors": "Debora de Chiusole, Ottavia M. Epifania, Pasquale Anselmi, Andrea Brancaccio, Noemi Mazzoni, Matilde Spinoso, Matteo Orsoni, Sara Giovagnoli, Irene Pierluigi, Alice Bacherini, Mariagrazia Benassi, Giulia Balboni, Luca Stefanutti",
-          "abstract": "This paper introduces MatriKS, a new computerized tool for the assessment of fluid intelligence based on Raven-like matrices. Based on knowledge structure theory (KST), a mathematical framework initially designed for efficient assessment and personalized learning, MatriKS is the first large-scale application of KST to fluid intelligence assessment. The validation results for MatriKS, suitable for Italian individuals aged 4 to 11 ( $$N = 568$$ N = 568 ), are presented. A multi-method approach incorporating classical test theory (CTT), item response theory (IRT), and KST was employed. Each of the three approaches, with its own assumptions and models, highlights structural properties of the data that are not captured by the other two. Nevertheless, the three approaches provide an acceptable modeling of the data supporting the adequate functioning of MatriKS. The study concludes by exploring the methodological and practical benefits of using KST for constructing tests and estimating individual cognitive profiles.",
-          "url": "https://doi.org/10.3758/s13428-026-03049-2",
-          "doi": "https://doi.org/10.3758/s13428-026-03049-2",
-          "filter": 0,
-          "created": "2026-6-8"
-        },
         {
           "title": "Self-reported expressibility predicts communicative success: Open dataset, validation, and simulation",
           "authors": "Aleksandra Ćwiek, Susanne Fuchs, Wim Pouw, Šárka Kadavá",
@@ -32,22 +39,6 @@
           "created": "2026-6-10"
         },
         {
-          "title": "Virtual reality skinner box: A step-by-step guide with Unity and Spatial.io",
-          "authors": "Laurent Avila-Chauvet, Diana Mejía-Cruz, Agustin Robles-Morua, Ivan Humberto Uribe Morales, Yancarlo Lizandro Ojeda-Aguilar",
-          "url": "https://doi.org/10.3758/s13428-026-03067-0",
-          "doi": "https://doi.org/10.3758/s13428-026-03067-0",
-          "filter": 0,
-          "created": "2026-6-8"
-        },
-        {
-          "title": "Publisher Correction: Enhancing propensity score analysis with data missing not at random: Introducing dual-forest proximity imputation",
-          "authors": "Yongseok Lee, Walter L. Leite",
-          "url": "https://doi.org/10.3758/s13428-026-03094-x",
-          "doi": "https://doi.org/10.3758/s13428-026-03094-x",
-          "filter": 0,
-          "created": "2026-6-8"
-        },
-        {
           "title": "Psychometric functions for temporal discrimination: Duration or log duration?",
           "authors": "Miguel A. García-Pérez, Rocío Alcalá-Quintana",
           "abstract": "Duration discrimination data collected with single-presentation tasks (e.g., bisection or temporal generalization tasks) or dual-presentation tasks (e.g., greater–less or same–different tasks) are usually analyzed by fitting psychometric functions. The independent variable in these functions is test duration measured in seconds or milliseconds. In contrast, the independent variable is log stimulus magnitude in psychometric functions for discrimination in other sensory modalities, most often because of the applicability of Weber’s law. We report a study aimed at determining empirically whether duration discrimination data are best described by psychometric functions of duration or log duration. We first conducted a simulation study to identify the design (type of task, number of test durations, number of trials, etc.) with which the generating psychometric function (of duration or log duration) fit the data substantially better than the impostor function. Based on these results, we conducted an empirical study with the same–different task that adaptively administered 1,200 trials over 11 test durations around the standard duration. We collected 45 datasets and fitted both types of psychometric function in each case. By the loglikelihood-ratio statistic, psychometric functions of duration fitted the data better in only 7 of 45 cases (15.6%), in agreement with simulation results obtained when data were generated by psychometric functions of log duration. Analysis of data from 69 published papers (totaling 17,000+ psychometric functions) also indicated better fit of psychometric functions of log duration in the expected proportion given the typically small numbers of trials per function.",
@@ -57,14 +48,6 @@
           "created": "2026-6-12"
         },
         {
-          "title": "New methodological and software tools for probing moderation in intrinsically nonlinear models",
-          "authors": "Haley E. Yaremych, Kristopher J. Preacher",
-          "url": "https://doi.org/10.3758/s13428-026-03053-6",
-          "doi": "https://doi.org/10.3758/s13428-026-03053-6",
-          "filter": 0,
-          "created": "2026-6-8"
-        },
-        {
           "title": "The Person-Reported Outcome of Conversational Success (PROCS): Tool development and psychometric validation",
           "authors": "Camille J. Wynn, Samantha Budge, Carolyn R. Baylor, Tyson S. Barrett, Stephanie A. Borrie",
           "abstract": "Despite the centrality of successful conversation to well-being, psychometrically developed and validated tools to measure this construct are lacking. The purpose of this study was to develop and validate the Person-Reported Outcome of Conversational Success (PROCS), a measure of conversational success. We define success as the degree to which an interlocutor evaluates a conversation as beneficial, worthwhile, and/or satisfactory. In phase one of development, an initial draft of the PROCS was created based on a literature review, expert input, and established frameworks in communication research. In phase two, cognitive interviews were conducted with 39 participants to assess the measure’s content, format, and usability and further refine the measure. In phase three, 50 participants completed the PROCS in live embodied conversations to assess the measure’s practical effectiveness and usability. Finally, in phase four, psychometric validation was completed using data from 817 participants who completed the PROCS based on recently recalled conversations. The final version of the PROCS can be used to quantify the success of a single conversation. Careful planning of the initial draft of the PROCS coupled with input from participants from a diverse set of user groups across multiple phases of development, ensures the measure’s validity, clarity, usability, and versatility. The PROCS is a valuable tool for assessing conversational success, with applications in both research and clinical practice.",
@@ -72,15 +55,6 @@
           "doi": "https://doi.org/10.3758/s13428-026-03063-4",
           "filter": 0,
           "created": "2026-6-10"
-        },
-        {
-          "title": "Reassessing cumulative self-paced reading (SPR): Testing three variants shows cumulative SPR can be more useful than standard non-cumulative SPR for sentence-processing research, depending on presentation format",
-          "authors": "Hiroki Fujita",
-          "abstract": "Self-paced reading (SPR) is widely used to investigate real-time sentence processing. In SPR, sentences can be presented either cumulatively, with previously presented words remaining visible, or non-cumulatively, with previous words disappearing. However, most prior research has avoided cumulative presentation, largely due to concerns that it allows readers to reveal multiple words through rapid key presses and then read them, thereby undermining the interpretability of reading times. As a result, cumulative SPR is widely assumed to be unsuitable for research on real-time sentence processing. The present study examines this assumption by comparing three cumulative SPR variants—ahead-visible cumulative SPR (AVC-SPR), non-ahead-visible cumulative SPR (NAVC-SPR), and partially cumulative SPR (PC-SPR)—with standard non-cumulative SPR (NC-SPR). In AVC-SPR, the positions of upcoming words are visually indicated; in NAVC-SPR, upcoming positions are not indicated; and in PC-SPR, upcoming positions are likewise not indicated, and accumulation is capped so that only a limited number of words remain visible. The four tasks were compared in terms of their sensitivity to detecting garden-path and number-mismatch effects. Clear effects were observed in all four tasks, with NAVC-SPR yielding the largest effect sizes. Power analyses further indicated that NAVC-SPR generally offers the highest prospective power to detect these effects. PC-SPR showed effect sizes similar to or larger than those in NC-SPR, and AVC-SPR was the least reliable task. Together, these findings challenge the assumption that cumulative presentation is unsuitable for studying real-time sentence processing and suggest that NAVC-SPR and PC-SPR are viable alternatives to NC-SPR. All cumulative SPR tasks, together with an R script for automated stimulus formatting, are openly available to facilitate their adoption.",
-          "url": "https://doi.org/10.3758/s13428-026-03044-7",
-          "doi": "https://doi.org/10.3758/s13428-026-03044-7",
-          "filter": 0,
-          "created": "2026-6-8"
         }
       ],
       "articles_hidden": []
@@ -114,12 +88,28 @@
           "created": "2026-6-11"
         },
         {
+          "title": "Does greater dominance lead to greater trust? A study on the impact of robot personality on user trust",
+          "authors": "Yunze Zhao, Mengting Lu",
+          "url": "https://doi.org/10.1016/j.chb.2026.109088",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109088",
+          "filter": 0,
+          "created": "2026-6-15"
+        },
+        {
           "title": "Risk and protective patterns of adolescent phubbing: A pattern-oriented study using association rule mining",
           "authors": "Erdal Görkem Gavcar, Çağlar Şimşek, Ahmet Büber, Ömer Başay, Bürge Kabukçu Başay, Merve Aktaş Terzioğlu, Serdar İplikçi",
           "url": "https://doi.org/10.1016/j.chb.2026.109078",
           "doi": "https://doi.org/10.1016/j.chb.2026.109078",
           "filter": 0,
           "created": "2026-6-11"
+        },
+        {
+          "title": "Why we feel regret and guilt about using digital technology in our free time – A European perspective",
+          "authors": "Christine Schoetensack, Ruth Ogden, Katarzyna Goncikowska, Joanna Witowska, Georgina Giner-Domínguez, Sébastien Chappuis, Tereza Klegr, Rafael Valenzuela, Julie Papastamatelou, Marc Wittmann, Núria Codina, José Vicente Pestana, Mónica Fernández Boente, Quentin Meteier, Chantal Martin-Soelch, Vanda Černohorská",
+          "url": "https://doi.org/10.1016/j.chb.2026.109083",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109083",
+          "filter": 0,
+          "created": "2026-6-15"
         }
       ],
       "articles_hidden": [
@@ -184,14 +174,6 @@
           "doi": "https://doi.org/10.1016/j.jesp.2026.104960",
           "filter": 0,
           "created": "2026-6-9"
-        },
-        {
-          "title": "Hypocrisy either way: Judgments of moral actors who choose between conflicting commitments",
-          "authors": "Jonathan Z. Berman, Graham Overton, Daniel A. Effron",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104945",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104945",
-          "filter": 0,
-          "created": "2026-6-8"
         }
       ],
       "articles_hidden": []
@@ -201,12 +183,12 @@
       "journal_short": "JPSP",
       "articles": [
         {
-          "title": "The predictive validity of vocational interests for life outcomes across adulthood.",
-          "authors": "Lena Roemer, Christopher D. Nye, Rong Su, Kevin A. Hoff",
-          "url": "https://doi.org/10.1037/pspp0000605",
-          "doi": "https://doi.org/10.1037/pspp0000605",
+          "title": "Is my loneliness killing me? Effects of loneliness and social isolation on transitions between cognitive status categories and death.",
+          "authors": "Tomiko Yoneda, Kathryn L. Jackson, Emily C. Noyer, Christopher R. Beam, Gabrielle Pfund, Stephen Antonoplis, Emorie Beck, Katy Bedjeti, Pei Qin, Kayla M. Garner, Jing Luo, Karina Van Bogart, Lily Pieramici, Katherina Hauner, Nicholas A. Turiano, Páraic S. O'Súilleabháin, Lisa Barnes, David A. Bennett, Graciela Muniz Terrera, Daniel K. Mroczek, Bryan D. James, Andrew Steptoe, Anthony D. Ong, Eileen K. Graham",
+          "url": "https://doi.org/10.1037/pspp0000606",
+          "doi": "https://doi.org/10.1037/pspp0000606",
           "filter": 0,
-          "created": "2026-6-8"
+          "created": "2026-6-15"
         },
         {
           "title": "Morality cut both ways: The role of cognition and emotion in attitude moralization and demoralization.",
@@ -215,6 +197,14 @@
           "doi": "https://doi.org/10.1037/pspa0000489",
           "filter": 0,
           "created": "2026-6-11"
+        },
+        {
+          "title": "Listening across the divide: High-quality listening promotes speakers’ state well-being through basic psychological need satisfaction during disagreements.",
+          "authors": "Dvori Saluk, Guy Itzchakov, Netta Weinstein, Moty Amar",
+          "url": "https://doi.org/10.1037/pspi0000525",
+          "doi": "https://doi.org/10.1037/pspi0000525",
+          "filter": 0,
+          "created": "2026-6-15"
         }
       ],
       "articles_hidden": []
@@ -235,6 +225,22 @@
       "articles_hidden": []
     },
     {
+      "journal_full": "Organizational Research Methods",
+      "journal_short": "ORM",
+      "articles": [
+        {
+          "title": "Rhythms of Organizational Life: Rhythmanalysis as an Organizational Research Method",
+          "authors": "Albane Grandazzi, Gazi Islam",
+          "abstract": "Rhythms form an essential part of organizational life, involving embodied patterns of repetition and difference that structure work processes, against the ongoing background of wider organizational and environmental rhythms. Organizational literature increasingly recognizes the importance of rhythms; yet little methodological work exists, either at the level of theorization or practical guidance. The current study draws on Lefebvre's foundational work on rhythmanalysis to elaborate an organizational methodology for studying rhythms. We argue that rhythmanalysis provides a critically oriented approach to understanding social dynamics and advances theorizing about organizational environments by overcoming the dichotomy between entities and processes, stability and change. In this article, we propose methodological guidelines for developing the field of rhythmanalysis in organizational settings by illustrating how it can be conducted through the reanalysis of ethnographic material. We discuss the methodological contributions of rhythmanalysis for a critical exploration of organizational dynamics.",
+          "url": "https://doi.org/10.1177/10944281261443052",
+          "doi": "https://doi.org/10.1177/10944281261443052",
+          "filter": 0,
+          "created": "2026-6-15"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Psychological Methods",
       "journal_short": "PM",
       "articles": [
@@ -245,6 +251,14 @@
           "doi": "https://doi.org/10.1037/met0000846",
           "filter": 0,
           "created": "2026-6-11"
+        },
+        {
+          "title": "Best practices in multilevel modeling for within-cluster group comparisons: An evaluation of coding strategies reflecting group composition and heterogeneity.",
+          "authors": "Qian Zhang, Xiao Liu, Zijun Ke",
+          "url": "https://doi.org/10.1037/met0000836",
+          "doi": "https://doi.org/10.1037/met0000836",
+          "filter": 0,
+          "created": "2026-6-15"
         },
         {
           "title": "Structured hierarchical regression for Likert scales including dispersion effects: Models and fitting tools.",
@@ -269,44 +283,6 @@
           "doi": "https://doi.org/10.1177/03057356261445032",
           "filter": 0,
           "created": "2026-6-12"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Psychology of Popular Media",
-      "journal_short": "PPM",
-      "articles": [
-        {
-          "title": "Differential pathways linking social pain to internet-related addictive behaviors: The mediating roles of self-compassion and social anxiety across socioeconomic status groups.",
-          "authors": "Xiaofei Qiao, Xi Chen, Zilin Wang, Jingyuan Yang, Li Lei",
-          "url": "https://doi.org/10.1037/ppm0000679",
-          "doi": "https://doi.org/10.1037/ppm0000679",
-          "filter": 0,
-          "created": "2026-6-8"
-        },
-        {
-          "title": "Brief exposure to hopeful YouTube videos reduces depressive symptoms: Evidence from a preliminary study.",
-          "authors": "Yanhan Zhao, Danni Wang, Yang Yang, Zhijin Hou",
-          "url": "https://doi.org/10.1037/ppm0000676",
-          "doi": "https://doi.org/10.1037/ppm0000676",
-          "filter": 0,
-          "created": "2026-6-8"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Technology, Mind, and Behavior",
-      "journal_short": "TMB",
-      "articles": [
-        {
-          "title": "The revised extended iSelf: Disentangling the effects of smartphone position and ringing on cognitive performance and psychophysiological parameters.",
-          "authors": "Claudia Virginia Manara, Fabrizio Sors, Stefano Pileggi, Cristina Montesano, Maria Colomba, Mauro Murgia",
-          "url": "https://doi.org/10.1037/tmb0000196",
-          "doi": "https://doi.org/10.1037/tmb0000196",
-          "filter": 0,
-          "created": "2026-6-8"
         }
       ],
       "articles_hidden": []
