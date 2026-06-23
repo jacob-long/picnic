@@ -1,19 +1,10 @@
 {
-  "update": "2026-06-22",
+  "update": "2026-06-23",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
       "journal_short": "AMPPS",
       "articles": [
-        {
-          "title": "Throwing Out the Bathwater but Keeping the Baby: Extending Campbell-Fiske’s Multitrait-Multimethod Framework",
-          "authors": "Herbert W. Marsh, Jiesi Guo, Oliver Lüdtke, Reinhard Pekrun",
-          "abstract": "The 65th anniversary of Campbell and Fiske’s multitrait-multimethod (MTMM) framework provides a timely opportunity to revisit and modernize this foundational model for construct validation. Although structural-equation-modeling-based MTMM approaches have enhanced the field, their widespread application remains constrained by convergence problems, ambiguous trait-method distinctions, and a lack of consensus regarding optimal model specifications. We propose an extended Campbell-Fiske framework that resolves these limitations while preserving the original guidelines’ conceptual strengths. Our key innovation is to apply the MTMM logic to a fully latent multitrait-multidomain correlation matrix derived from a rigorously tested multiple-indicator measurement model. Our approach treats traits and methods (i.e., domains, occasions, informants, contexts, or another method facet) as fully symmetrical, substantive facets, eliminates reliance on manifest correlations, corrects for measurement error, and introduces formal asymptotic parameter comparisons to test each validity criterion. This framework provides a formatively heuristic structure that retains the original appeal of the MTMM logic for applied research while meeting current psychometric standards for transparency, reproducibility, and inferential rigor expected by leading academic journals. We illustrate the method using a large, multidimensional data set ( N = 18,047), but the framework generalizes across domains of psychological science. The extended framework offers applied researchers a flexible, powerful tool for evaluating convergent and discriminant validity, diagnosing trait-domain interactions, and clarifying measurement quality. By “keeping the baby” while refreshing the empirical implementation, our approach affirms the enduring value of the Campbell-Fiske logic while aligning it with the demands of modern research practice.",
-          "url": "https://doi.org/10.1177/25152459251407652",
-          "doi": "https://doi.org/10.1177/25152459251407652",
-          "filter": 0,
-          "created": "2026-6-15"
-        },
         {
           "title": "Rethinking Type S and Type M Errors",
           "authors": "Daniël Lakens, Cristian Mesquida, Gabriela Xavier-Quintais, Sajedeh Rasti, Enrico Toffalini, Gianmarco Altoè",
@@ -48,6 +39,15 @@
           "created": "2026-6-19"
         },
         {
+          "title": "Analyzing multidimensional formal dynamic models in psychology: A tutorial using graphical tools",
+          "authors": "Jingmeng Cui, Dieta Wagenmakers, G. Sander van Doorn, Fred Hasselman, Anna Lichtwarck-Aschoff",
+          "abstract": "Formal theories translate verbal theories into a mathematical representation, such as a coupled differential equation or other dynamical systems, intending to strengthen the deductive power of (clinical) theories and to formulate testable and novel hypotheses. Work in clinical formal theories mainly relies on simulations, which is an intuitive method for evaluating overall model performance, but may fall short of establishing a precise link between the mathematical properties of the model and the dynamic properties of its outcome. Moreover, when the model’s outcome contradicts clinical observations, it is unclear where the discrepancy lies and how to improve the model. In this article, we introduce formal mathematical techniques for graphical model analysis, including phase plane analysis, which allows identifying a system’s stable and unstable equilibria, and bifurcation analysis, a framework to delineate parameter regimes corresponding to qualitatively different dynamical outcomes for a model. Using two formal dynamic models in psychology (one for panic disorder and one for suicidal ideation), we illustrate those methods through an easy-to-use R package, deBif , with a graphical user interface. These examples demonstrate the importance of using graphical tools to investigate the hypothesized mechanisms of psychological systems.",
+          "url": "https://doi.org/10.3758/s13428-026-03077-y",
+          "doi": "https://doi.org/10.3758/s13428-026-03077-y",
+          "filter": 0,
+          "created": "2026-6-22"
+        },
+        {
           "title": "Estimating multivariate longitudinal trajectories using mixed-effects models with crossed random effects",
           "authors": "José Ángel Martínez-Huertas, Emilio Ferrer",
           "abstract": "In this study we examine how a mixed-effects model with crossed random effects for individuals and variables estimates within- and between-variability in longitudinal multivariate trajectories from cohort-sequential designs. These designs are characterized by large proportions of planned missing data, and they usually require continuous-time metrics. Via simulations, we evaluated different model outcomes under various conditions regarding the size of clusters (individuals and variables) and the complexity of the trajectories. Results show that (a) this model can estimate the general trajectories (common to all individuals and variables) and their variability, plus the variable-specific trajectories through the predictions of the levels of the random factors; (b) the standard errors of the random effects are wide, yet they are important for making substantive decisions for specific variables; and (c) the model predictions can adequately forecast individual and variable-specific complete trajectories from just a few observations per individual. These results are supported in an empirical illustration using cognitive developmental data. These findings show that researchers can obtain complete individual trajectories for multiple variables throughout a target age range. The relative simplicity of this model in comparison with other alternatives makes it a promising and accessible tool for multivariate longitudinal data analysis.",
@@ -55,6 +55,15 @@
           "doi": "https://doi.org/10.3758/s13428-026-03070-5",
           "filter": 0,
           "created": "2026-6-17"
+        },
+        {
+          "title": "A tutorial on causal network simulation and exploration using the causalnet R package",
+          "authors": "Kyuri Park, Vítor V. Vasconcelos, Mike Lees",
+          "abstract": "Understanding how network structure influences system dynamics is essential for advancing psychological modeling. This tutorial introduces the causalnet R package, which enables researchers to systematically enumerate candidate directed networks by orienting a user-specified undirected or partially directed adjacency template. Users can impose directional constraints—such as those derived from prior theory or time-series models (e.g., graphical vector autoregressive models)—to restrict the space of admissible directed network configurations. The package supports dynamic simulations on these networks using either a theoretically grounded nonlinear model (Park et al., 2025) or a simplified linear alternative. Researchers can simulate system behavior and compare dynamic outcomes across structural configurations, parameter sets, or modeling assumptions. The primary audience is applied psychological and behavioral scientists who wish to evaluate competing theoretical accounts of symptom and behavior dynamics when causal direction is uncertain. Importantly, causalnet is not intended to identify a unique causal network from cross-sectional data; instead, it supports theory- and evidence-constrained enumeration of candidate directed structures and simulation-based screening of their dynamic implications against empirical targets. We illustrate how this workflow can be used to adjudicate competing psychological theories by linking structural assumptions to predicted dynamic signatures such as persistence and recovery. This approach facilitates a systematic exploration of how causal architecture and interaction dynamics give rise to the emerging dynamics of psychological processes over time.",
+          "url": "https://doi.org/10.3758/s13428-026-03030-z",
+          "doi": "https://doi.org/10.3758/s13428-026-03030-z",
+          "filter": 0,
+          "created": "2026-6-22"
         },
         {
           "title": "Is “sky” bluer than “grass” is green? Word–color associations dataset for cognitive science",
@@ -72,6 +81,15 @@
           "doi": "https://doi.org/10.3758/s13428-026-03059-0",
           "filter": 0,
           "created": "2026-6-16"
+        },
+        {
+          "title": "Reliability, bias, and computational cost of estimating the Bayes factor using bridge sampling and the Savage–Dickey density ratio",
+          "authors": "Klaus Oberauer, Philipp Musfeld, Frederik Aust",
+          "abstract": "Bayes factors often require numerical estimation because closed-form solutions are unavailable. In six simulation studies, we explored the reliability, bias, and computational cost of two easy-to-use and broadly applicable methods: bridge sampling and the Savage–Dickey density ratios, based on Gaussian, logspline, and spline-smoothed kernel density approximations of the posterior distribution, as well as conditional marginal density estimation. In generalized linear mixed effect models for normally and binomially distributed data, we explore the effects of the (1) number of MCMC samples from the posterior, (2) size of effects or magnitude of the Bayes factor, (3) number of participants, and (4) number of model parameters. Our findings suggest that, with enough MCMC samples, both methods yield reliable and accurate estimates across a wide range of conditions. However, with many model parameters, bridge sampling becomes computationally expensive and can be unreliable. In contrast, the Savage–Dickey density ratio scales well, remaining computationally efficient and reliable, even with many model parameters. However, Savage–Dickey density ratio requires careful consideration of posterior density estimation to mitigate bias while limiting the variability of Bayes factor estimates. We provide practical recommendations to guide researchers in selecting the most suitable estimation method for their applications.",
+          "url": "https://doi.org/10.3758/s13428-026-03087-w",
+          "doi": "https://doi.org/10.3758/s13428-026-03087-w",
+          "filter": 0,
+          "created": "2026-6-22"
         },
         {
           "title": "From review to synthesis: A step-by-step methodological guide to systematic reviews and multilevel meta-analyses",
@@ -147,22 +165,6 @@
           "created": "2026-6-19"
         },
         {
-          "title": "Does greater dominance lead to greater trust? A study on the impact of robot personality on user trust",
-          "authors": "Yunze Zhao, Mengting Lu",
-          "url": "https://doi.org/10.1016/j.chb.2026.109088",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109088",
-          "filter": 0,
-          "created": "2026-6-15"
-        },
-        {
-          "title": "Why we feel regret and guilt about using digital technology in our free time – A European perspective",
-          "authors": "Christine Schoetensack, Ruth Ogden, Katarzyna Goncikowska, Joanna Witowska, Georgina Giner-Domínguez, Sébastien Chappuis, Tereza Klegr, Rafael Valenzuela, Julie Papastamatelou, Marc Wittmann, Núria Codina, José Vicente Pestana, Mónica Fernández Boente, Quentin Meteier, Chantal Martin-Soelch, Vanda Černohorská",
-          "url": "https://doi.org/10.1016/j.chb.2026.109083",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109083",
-          "filter": 0,
-          "created": "2026-6-15"
-        },
-        {
           "title": "Young People Evaluating Online Information Credibility. Special Issue Synthesis",
           "authors": "Nicolae Nistor, Yonty Friesem, Cristina Nistor, Rareş Beuran",
           "url": "https://doi.org/10.1016/j.chb.2026.109086",
@@ -178,15 +180,6 @@
       "journal_short": "GPIR",
       "articles": [
         {
-          "title": "Mobilizing the Majority: The Role of Intergroup Contact and Exposure to Conceptualizations of Racism in Promoting Intergroup Solidarity",
-          "authors": "Ellen Shi, Fiona A. White, Rebecca T. Pinkus",
-          "abstract": "Intergroup contact is known to predict advantaged group members’ solidarity with minority outgroups, which is crucial given persisting racial inequalities. To identify whether exposure to a conceptualization of racism can affect the contact–action relationship, two studies were conducted with White participants randomly allocated to a systemic racism, individual racism, or baseline condition, and their intergroup contact quality with racial minorities measured as a predictor of solidarity. Study 1 ( N = 311) showed that higher contact quality generally predicted greater intergroup solidarity, particularly when exposed to individual racism. Study 2 ( N = 322) clarified that individual racism exposure not only strengthened the positive contact–action relationship, but, relative to systemic racism exposure, could also minimize the negative contact–action relationship for lower quality contact. These findings highlight that individual racism exposure and positive contact experiences may together be conducive to promoting solidarity, offering practical considerations for future contact interventions.",
-          "url": "https://doi.org/10.1177/13684302261454838",
-          "doi": "https://doi.org/10.1177/13684302261454838",
-          "filter": 0,
-          "created": "2026-6-15"
-        },
-        {
           "title": "Vulnerable Online: Identifying Risk Profiles for Recruitment into Online Extremist Groups",
           "authors": "Joshua Cloudy",
           "abstract": "This study draws from the literature in group processes and intergroup relations, metacognition, motivational processes, and criminology to identify risk factors for joining an extremist group, classifies individuals into risk profiles, and examines how the risk profiles moderate efforts at recruitment into such groups. The results of a latent profile analysis ( N = 721) demonstrated the existence of three risk profiles (i.e., low, moderate, and high), and an experiment demonstrated that those in the low- and moderate-risk profile were significantly less likely to identify with a violent online political group compared to non-violent online political groups whereas those in the high-risk group were equally likely to identify with a violent or non-violent political online group. By taking a broader perspective, this study provides a more comprehensive understanding of individual susceptibility to being drawn into a violent online extremist group and has important implications for those seeking to combat online radicalization.",
@@ -199,24 +192,31 @@
       "articles_hidden": []
     },
     {
+      "journal_full": "Journal of Experimental Social Psychology",
+      "journal_short": "JESP",
+      "articles": [
+        {
+          "title": "Cognitive conflict in willful ignorance: A mouse-tracking study",
+          "authors": "Fiona tho Pesch, Anna Baumert",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104962",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104962",
+          "filter": 0,
+          "created": "2026-6-22"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Journal of Personality and Social Psychology",
       "journal_short": "JPSP",
       "articles": [
         {
-          "title": "Is my loneliness killing me? Effects of loneliness and social isolation on transitions between cognitive status categories and death.",
-          "authors": "Tomiko Yoneda, Kathryn L. Jackson, Emily C. Noyer, Christopher R. Beam, Gabrielle Pfund, Stephen Antonoplis, Emorie Beck, Katy Bedjeti, Pei Qin, Kayla M. Garner, Jing Luo, Karina Van Bogart, Lily Pieramici, Katherina Hauner, Nicholas A. Turiano, Páraic S. O'Súilleabháin, Lisa Barnes, David A. Bennett, Graciela Muniz Terrera, Daniel K. Mroczek, Bryan D. James, Andrew Steptoe, Anthony D. Ong, Eileen K. Graham",
-          "url": "https://doi.org/10.1037/pspp0000606",
-          "doi": "https://doi.org/10.1037/pspp0000606",
+          "title": "The impact of “relational” Artificial Intelligence on human well-being: A self-determination theory analysis.",
+          "authors": "Michael A. Irias, Norman B. Schmidt, Thomas E. Joiner, James K. McNulty",
+          "url": "https://doi.org/10.1037/pspi0000528",
+          "doi": "https://doi.org/10.1037/pspi0000528",
           "filter": 0,
-          "created": "2026-6-15"
-        },
-        {
-          "title": "Listening across the divide: High-quality listening promotes speakers’ state well-being through basic psychological need satisfaction during disagreements.",
-          "authors": "Dvori Saluk, Guy Itzchakov, Netta Weinstein, Moty Amar",
-          "url": "https://doi.org/10.1037/pspi0000525",
-          "doi": "https://doi.org/10.1037/pspi0000525",
-          "filter": 0,
-          "created": "2026-6-15"
+          "created": "2026-6-22"
         }
       ],
       "articles_hidden": []
@@ -232,22 +232,30 @@
           "doi": "https://doi.org/10.1080/00273171.2026.2683356",
           "filter": 0,
           "created": "2026-6-17"
+        },
+        {
+          "title": "Generalizability Theory Applied to Daily Relationship Quality: Substantive and Statistical Directions",
+          "authors": "Madison Shea Smith, Susan C. South",
+          "url": "https://doi.org/10.1080/00273171.2026.2683364",
+          "doi": "https://doi.org/10.1080/00273171.2026.2683364",
+          "filter": 0,
+          "created": "2026-6-22"
         }
       ],
       "articles_hidden": []
     },
     {
-      "journal_full": "Organizational Research Methods",
-      "journal_short": "ORM",
+      "journal_full": "Personality and Social Psychology Bulletin",
+      "journal_short": "PSPB",
       "articles": [
         {
-          "title": "Rhythms of Organizational Life: Rhythmanalysis as an Organizational Research Method",
-          "authors": "Albane Grandazzi, Gazi Islam",
-          "abstract": "Rhythms form an essential part of organizational life, involving embodied patterns of repetition and difference that structure work processes, against the ongoing background of wider organizational and environmental rhythms. Organizational literature increasingly recognizes the importance of rhythms; yet little methodological work exists, either at the level of theorization or practical guidance. The current study draws on Lefebvre's foundational work on rhythmanalysis to elaborate an organizational methodology for studying rhythms. We argue that rhythmanalysis provides a critically oriented approach to understanding social dynamics and advances theorizing about organizational environments by overcoming the dichotomy between entities and processes, stability and change. In this article, we propose methodological guidelines for developing the field of rhythmanalysis in organizational settings by illustrating how it can be conducted through the reanalysis of ethnographic material. We discuss the methodological contributions of rhythmanalysis for a critical exploration of organizational dynamics.",
-          "url": "https://doi.org/10.1177/10944281261443052",
-          "doi": "https://doi.org/10.1177/10944281261443052",
+          "title": "Prospects of Downward Mobility Cause Status Anxiety and Life Dissatisfaction",
+          "authors": "Davide Melita, Matthias S. Gobel, Juan Matamoros-Lima, Rosa Rodríguez-Bailón, Guillermo B. Willis",
+          "abstract": "Despite extensive research on upward mobility, the psychological consequences of perceived downward mobility remain understudied. Across two cross-sectional and two experimental studies ( N = 2,819), conducted in high-income, post-industrial economies, we investigated the effects of perceived upward and downward mobility on status anxiety and well-being. Across designs, downward mobility beliefs consistently increased status anxiety, which in turn mediated harmful effects on life satisfaction and related well-being outcomes. Upward mobility beliefs reduced status anxiety and produced a positive indirect effect on life satisfaction only in an experimental study with U.S. participants, but it yielded inconsistent effects across the remaining three studies. Our findings suggest that both upward and downward beliefs influence well-being through status anxiety, but the effects of downward mobility beliefs are stronger and more consistent.",
+          "url": "https://doi.org/10.1177/01461672261451296",
+          "doi": "https://doi.org/10.1177/01461672261451296",
           "filter": 0,
-          "created": "2026-6-15"
+          "created": "2026-6-23"
         }
       ],
       "articles_hidden": []
@@ -265,12 +273,12 @@
           "created": "2026-6-18"
         },
         {
-          "title": "Best practices in multilevel modeling for within-cluster group comparisons: An evaluation of coding strategies reflecting group composition and heterogeneity.",
-          "authors": "Qian Zhang, Xiao Liu, Zijun Ke",
-          "url": "https://doi.org/10.1037/met0000836",
-          "doi": "https://doi.org/10.1037/met0000836",
+          "title": "Three-level vector autoregressive models.",
+          "authors": "Yue Xiao, Hongyun Liu, Zhiyong Zhang",
+          "url": "https://doi.org/10.1037/met0000848",
+          "doi": "https://doi.org/10.1037/met0000848",
           "filter": 0,
-          "created": "2026-6-15"
+          "created": "2026-6-22"
         }
       ],
       "articles_hidden": []
