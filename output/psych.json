@@ -1,22 +1,6 @@
 {
-  "update": "2026-06-23",
+  "update": "2026-06-24",
   "content": [
-    {
-      "journal_full": "Advances in Methods and Practices in Psychological Science",
-      "journal_short": "AMPPS",
-      "articles": [
-        {
-          "title": "Rethinking Type S and Type M Errors",
-          "authors": "Daniël Lakens, Cristian Mesquida, Gabriela Xavier-Quintais, Sajedeh Rasti, Enrico Toffalini, Gianmarco Altoè",
-          "abstract": "Gelman and Carlin introduced Type S (sign) and Type M (magnitude) errors to highlight the possibility that statistically significant results in published articles are misleading. Although these concepts have been proposed to be useful both when designing a study (prospective) and when evaluating results (retroactive), we argue that these statistics do not facilitate the proper design of studies or the meaningful interpretation of results. Type S errors are a response to the criticism of testing against a point null of exactly zero in contexts in which true zero effects are implausible. Testing against a minimum effect while controlling the Type 1 error rate provides a more coherent and practically useful alternative. Type M errors warn against effect-size inflation after selectively reporting significant results, but we argue that statistical indices such as the critical effect size or bias-adjusted effect size are preferable approaches. We do believe that Type S and Type M errors can be valuable in statistics education, in which the principles of error control are explained, and in the discussion section of studies that fail to follow good research practices. Overall, we argue that their use cases are more limited than is currently recognized and that alternative solutions deserve greater attention.",
-          "url": "https://doi.org/10.1177/25152459261432530",
-          "doi": "https://doi.org/10.1177/25152459261432530",
-          "filter": 0,
-          "created": "2026-6-16"
-        }
-      ],
-      "articles_hidden": []
-    },
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
@@ -75,14 +59,6 @@
           "created": "2026-6-17"
         },
         {
-          "title": "Mind Melodies: An NLP platform to examine music cognition",
-          "authors": "Adolfo M. García, Alejandro Sosa Welford, Joaquín Ponferrada, Franco J. Ferrante, Camilo Avendaño, Gonzalo Pérez, Agustina Birba, Ivan Caro, Juan Francisco Saavedra, Daniel Escobar Grisales, Bruno Mesz",
-          "url": "https://doi.org/10.3758/s13428-026-03059-0",
-          "doi": "https://doi.org/10.3758/s13428-026-03059-0",
-          "filter": 0,
-          "created": "2026-6-16"
-        },
-        {
           "title": "Reliability, bias, and computational cost of estimating the Bayes factor using bridge sampling and the Savage–Dickey density ratio",
           "authors": "Klaus Oberauer, Philipp Musfeld, Frederik Aust",
           "abstract": "Bayes factors often require numerical estimation because closed-form solutions are unavailable. In six simulation studies, we explored the reliability, bias, and computational cost of two easy-to-use and broadly applicable methods: bridge sampling and the Savage–Dickey density ratios, based on Gaussian, logspline, and spline-smoothed kernel density approximations of the posterior distribution, as well as conditional marginal density estimation. In generalized linear mixed effect models for normally and binomially distributed data, we explore the effects of the (1) number of MCMC samples from the posterior, (2) size of effects or magnitude of the Bayes factor, (3) number of participants, and (4) number of model parameters. Our findings suggest that, with enough MCMC samples, both methods yield reliable and accurate estimates across a wide range of conditions. However, with many model parameters, bridge sampling becomes computationally expensive and can be unreliable. In contrast, the Savage–Dickey density ratio scales well, remaining computationally efficient and reliable, even with many model parameters. However, Savage–Dickey density ratio requires careful consideration of posterior density estimation to mitigate bias while limiting the variability of Bayes factor estimates. We provide practical recommendations to guide researchers in selecting the most suitable estimation method for their applications.",
@@ -90,15 +66,6 @@
           "doi": "https://doi.org/10.3758/s13428-026-03087-w",
           "filter": 0,
           "created": "2026-6-22"
-        },
-        {
-          "title": "From review to synthesis: A step-by-step methodological guide to systematic reviews and multilevel meta-analyses",
-          "authors": "Meilan Hu, Paye Shin Koh, Xun Ci Soh, Andree Hartanto, Nadyanna M. Majeed",
-          "abstract": "We provide a step-by-step guide on conducting a quantitative systematic review (i.e., meta-analysis) using the open-source programming language R , as well as conducting a multilevel meta-analysis, in contexts where effect sizes are non-independent (e.g., multiple studies from the same lab). Quantitative systematic reviews offer researchers a method for synthesizing large bodies of literature, helping clarify inconsistent findings, identify research gaps, and refine theoretical models. However, existing tutorials often assume prior knowledge and/or experience, often overlooking foundational concepts. To address this gap, a comprehensive walkthrough of the systematic review process is presented, covering pre-registration, literature search and retrieval, screening, risk of bias assessment, and data extraction following the PRISMA framework. We then present detailed guidance on how to conduct both traditional and multilevel meta-analyses in R . Specifically, the tutorial explains how to estimate overall meta-analytic effect sizes when effect sizes are independent (traditional meta-analysis) and when effect sizes are nested within labs (multilevel meta-analysis). Procedures for assessing heterogeneity, testing for publication bias, and conducting moderation analyses are also covered. To accompany this tutorial, we supplement annotated R scripts and R notebooks to support transparency, reproducibility, and accessibility for researchers of all levels of experience.",
-          "url": "https://doi.org/10.3758/s13428-026-02961-x",
-          "doi": "https://doi.org/10.3758/s13428-026-02961-x",
-          "filter": 0,
-          "created": "2026-6-16"
         },
         {
           "title": "Synchronizing brains and hearts: A practical guide for caregiver–child fNIRS-ECG multimodal hyperscanning",
@@ -125,7 +92,15 @@
           "created": "2026-6-18"
         },
         {
-          "title": "Combining Intergroup Contact and Outgroup Embodiment in Virtual Reality: An Exploratory Test of Backfire and Secondary Transfer Effects of Outgroup Embodiment",
+          "title": "Trust erodes, fatigue builds: How prompt uncertainty traps users in recrafting loops",
+          "authors": "Hui Yang, Jinqiang Wang, Peng Hu",
+          "url": "https://doi.org/10.1016/j.chb.2026.109097",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109097",
+          "filter": 0,
+          "created": "2026-6-23"
+        },
+        {
+          "title": "Combining intergroup contact and outgroup embodiment in virtual reality: An exploratory test of backfire and secondary transfer effects of outgroup embodiment",
           "authors": "Matilde Tassinari, Akimi Oyanagi, Tomohiro Amemiya",
           "url": "https://doi.org/10.1016/j.chb.2026.109094",
           "doi": "https://doi.org/10.1016/j.chb.2026.109094",
@@ -187,6 +162,15 @@
           "doi": "https://doi.org/10.1177/13684302261454954",
           "filter": 0,
           "created": "2026-6-18"
+        },
+        {
+          "title": "Emotions, Emotional Labor, and Intercultural Sensitivity: Lecturers Facing Wartime Challenges",
+          "authors": "Niva Dolev, Noa Shapira",
+          "abstract": "This mixed-methods study examines the emotional and professional experiences of faculty in culturally diverse higher education institutions in Israel after the outbreak of the 2023 Israel-Hamas War. It explores how, amid heightened societal tensions and intergroup conflicts, emotional labor (EL) and intercultural sensitivity (IS) interacted regarding faculty’s abilities to navigate the emotional challenges of teaching outgroup students. Quantitative analyses revealed that EL, mainly deep acting, was positively associated with participants’ positive emotions and negatively correlated with negative emotions. IS negatively correlated with retrospective negative emotions. Regression analysis revealed that IS was positively associated with deep acting EL above and beyond other factors. Qualitative findings highlighted faculty’s apprehension about classroom dynamics, efforts to manage sensitive interactions as part of their EL, and strategies to foster inclusive learning environments in challenging times. Findings underscore the complexity of teaching diverse students in polarized settings and the critical role of deep acting EL and IS.",
+          "url": "https://doi.org/10.1177/13684302261451125",
+          "doi": "https://doi.org/10.1177/13684302261451125",
+          "filter": 0,
+          "created": "2026-6-23"
         }
       ],
       "articles_hidden": []
@@ -295,6 +279,31 @@
           "doi": "https://doi.org/10.1177/09567976261446892",
           "filter": 0,
           "created": "2026-6-17"
+        },
+        {
+          "title": "Not All Practice Is Created Equal: Longitudinal Evidence From Over 40,000 Chess Players",
+          "authors": "Daniel A. Southwick, Kyle W. Harwell, Garrett Wright, Joseph A. Olsen, Benjamin M. Ogles",
+          "abstract": "In recent years, several scholars have argued that the influence of deliberate practice on expertise has been overstated. Others have contended that these critiques conflate deliberate practice with less effective forms of training. We analyzed a large, longitudinal cohort of Chess.com players ( N = 44,213) using objective, time-stamped measures of both practice activity and performance. We tested whether deliberate practice-aligned activities predict greater rating improvement than playing games. Multilevel models revealed that, despite more than 90% of player time being spent on games, deliberate practice was substantially more efficient for learning. Although not all deliberate practice-aligned activities were equally effective, the category as a whole was associated with a 3.61× advantage in learning efficiency relative to gameplay ( p s &lt; .001). These findings offer rare real-world evidence in a long-standing theoretical debate about learning efficiency. How individuals train, not just how much, fundamentally shapes the trajectory of skill development.",
+          "url": "https://doi.org/10.1177/09567976261452568",
+          "doi": "https://doi.org/10.1177/09567976261452568",
+          "filter": 0,
+          "created": "2026-6-23"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Psychology of Music",
+      "journal_short": "PsychMusic",
+      "articles": [
+        {
+          "title": "Age Against the Machine: How Artist Maturation Counters the Decline of Acousticness in Popular Music",
+          "authors": "Juho Leppänen, Alessandro Ansani, Santeri Salmirinne, Sara-Alexandra Uusitalo, Geoff Luck",
+          "abstract": "Music artists play a crucial role in shaping both regional and global sonic trends. While technological and cultural shifts are often credited with driving musical change, less is known about how an artist’s age influences stylistic evolution. Here, we examine how acousticness, that is, the extent to which a track features acoustic instrumentation, varies across an artist’s career. Using data from Spotify’s API, we analyse 45,478 tracks from 190 artists with a Generalised Additive Mixed Model (GAMM) to assess the relationship between acousticness and artist age, controlling for release year and genre. Results reveal a consistent positive association between artist age and acousticness, with artists tending to produce more acoustic music as they age, irrespective of their genre. However, the release year shows a strong negative effect, with newer music increasingly characterised by fewer acoustic features, likely reflecting broader industry trends such as digital production and evolving listener preferences. Our findings suggest a dynamic interplay between individual artistic development and external cultural forces, where ageing artists gravitate towards more organic sounds, even as popular music trends continue to favour synthetic production.",
+          "url": "https://doi.org/10.1177/03057356261451421",
+          "doi": "https://doi.org/10.1177/03057356261451421",
+          "filter": 0,
+          "created": "2026-6-24"
         }
       ],
       "articles_hidden": []
