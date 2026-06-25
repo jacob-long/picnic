@@ -1,19 +1,10 @@
 {
-  "update": "2026-06-24",
+  "update": "2026-06-25",
   "content": [
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
       "articles": [
-        {
-          "title": "How continuous is continuous enough? Comparing the reliability of continuous and discrete scales",
-          "authors": "Wei-Hung Yang, Yao-Ting Sung, Yeh-Tai Chou",
-          "abstract": "Designing a reliable rating scale with an appropriate number of options remains a central issue in social science measurement. Prior studies have reported inconsistent findings, with some suggesting that reliability is maximized at moderate response granularity and others indicating that finer granularity yields higher precision. These inconsistencies may partly reflect methodological differences, particularly the use of classical test theory or the discretization of continuous responses, both of which may underestimate the reliability of continuous scales. To address these issues, the present study reconceptualized discrete and continuous scales as points along a unified granularity continuum and examined reliability using the continuous rating scale model (CoRSM). Utilizing the CoRSA analytical framework (Chou et al., 2025), we conducted two complementary studies. Study 1 employed Monte Carlo simulations varying sample sizes ( N = 200 to 1,000), test lengths (11 to 61 items), and response formats ranging from three-point to continuous. Study 2 provided empirical validation with 3,434 junior high school students completing a career interest assessment across 10 response formats, ranging from five-point scales to continuous visual analogue scales (VAS). Across both studies, reliability generally increased as response granularity increased, although the empirical pattern was not strictly monotonic across all intermediate formats. In Study 2, segmented regression indicated that the breakpoint in diminishing returns occurred at approximately seven to eight response options within the discrete range examined. Meanwhile, the highest reliability estimates were observed for the 101-point and VAS formats. These findings clarify one methodological source of inconsistency in prior research.",
-          "url": "https://doi.org/10.3758/s13428-026-03080-3",
-          "doi": "https://doi.org/10.3758/s13428-026-03080-3",
-          "filter": 0,
-          "created": "2026-6-17"
-        },
         {
           "title": "A comparison of multivariate and univariate meta-analysis",
           "authors": "Han Du",
@@ -32,15 +23,6 @@
           "created": "2026-6-22"
         },
         {
-          "title": "Estimating multivariate longitudinal trajectories using mixed-effects models with crossed random effects",
-          "authors": "José Ángel Martínez-Huertas, Emilio Ferrer",
-          "abstract": "In this study we examine how a mixed-effects model with crossed random effects for individuals and variables estimates within- and between-variability in longitudinal multivariate trajectories from cohort-sequential designs. These designs are characterized by large proportions of planned missing data, and they usually require continuous-time metrics. Via simulations, we evaluated different model outcomes under various conditions regarding the size of clusters (individuals and variables) and the complexity of the trajectories. Results show that (a) this model can estimate the general trajectories (common to all individuals and variables) and their variability, plus the variable-specific trajectories through the predictions of the levels of the random factors; (b) the standard errors of the random effects are wide, yet they are important for making substantive decisions for specific variables; and (c) the model predictions can adequately forecast individual and variable-specific complete trajectories from just a few observations per individual. These results are supported in an empirical illustration using cognitive developmental data. These findings show that researchers can obtain complete individual trajectories for multiple variables throughout a target age range. The relative simplicity of this model in comparison with other alternatives makes it a promising and accessible tool for multivariate longitudinal data analysis.",
-          "url": "https://doi.org/10.3758/s13428-026-03070-5",
-          "doi": "https://doi.org/10.3758/s13428-026-03070-5",
-          "filter": 0,
-          "created": "2026-6-17"
-        },
-        {
           "title": "A tutorial on causal network simulation and exploration using the causalnet R package",
           "authors": "Kyuri Park, Vítor V. Vasconcelos, Mike Lees",
           "abstract": "Understanding how network structure influences system dynamics is essential for advancing psychological modeling. This tutorial introduces the causalnet R package, which enables researchers to systematically enumerate candidate directed networks by orienting a user-specified undirected or partially directed adjacency template. Users can impose directional constraints—such as those derived from prior theory or time-series models (e.g., graphical vector autoregressive models)—to restrict the space of admissible directed network configurations. The package supports dynamic simulations on these networks using either a theoretically grounded nonlinear model (Park et al., 2025) or a simplified linear alternative. Researchers can simulate system behavior and compare dynamic outcomes across structural configurations, parameter sets, or modeling assumptions. The primary audience is applied psychological and behavioral scientists who wish to evaluate competing theoretical accounts of symptom and behavior dynamics when causal direction is uncertain. Importantly, causalnet is not intended to identify a unique causal network from cross-sectional data; instead, it supports theory- and evidence-constrained enumeration of candidate directed structures and simulation-based screening of their dynamic implications against empirical targets. We illustrate how this workflow can be used to adjudicate competing psychological theories by linking structural assumptions to predicted dynamic signatures such as persistence and recovery. This approach facilitates a systematic exploration of how causal architecture and interaction dynamics give rise to the emerging dynamics of psychological processes over time.",
@@ -50,15 +32,6 @@
           "created": "2026-6-22"
         },
         {
-          "title": "Is “sky” bluer than “grass” is green? Word–color associations dataset for cognitive science",
-          "authors": "Eldad Keha, Avishai Henik, Eyal Kalanthroff",
-          "abstract": "Color plays a fundamental role in cognition, influencing perception, memory, and language processing. Although many studies have used word–color associations to examine cognitive processes, the selection of color-associated stimuli has often been arbitrary and rarely validated through independent behavioral measures. The current study developed and validated a dataset of color-associated object words for cognitive research. In Experiment 1, 298 participants provided subjective assessments for 143 words selected from 124 previous studies. For each word, participants indicated the most strongly associated color, rated the strength of the association, and selected the RGB value. The results revealed substantial variability across words in agreement and association strength. Based on these ratings, we constructed a dataset of 79 strongly color-associated words across 11 color categories. In Experiment 2, we validated the dataset in a UK sample ( N = 568) using a manual semantic Stroop task, in which words were presented in congruent or incongruent colors. Dataset words produced a reliable semantic Stroop effect, with faster responses to congruent than incongruent color-associated word pairings, and this effect was larger for dataset than non-dataset words. In Experiment 3, we replicated this validation pattern in an independent US sample ( N = 337), providing further evidence for the robustness and usefulness of the dataset for English-language cognitive research. Across the validation experiments, subjective association strength was related to the objective semantic Stroop effect. Together, the findings demonstrate that the current dataset provides an empirically validated set of color-associated words that can support research on perception, memory, semantic processing, and cognitive control.",
-          "url": "https://doi.org/10.3758/s13428-026-03084-z",
-          "doi": "https://doi.org/10.3758/s13428-026-03084-z",
-          "filter": 0,
-          "created": "2026-6-17"
-        },
-        {
           "title": "Reliability, bias, and computational cost of estimating the Bayes factor using bridge sampling and the Savage–Dickey density ratio",
           "authors": "Klaus Oberauer, Philipp Musfeld, Frederik Aust",
           "abstract": "Bayes factors often require numerical estimation because closed-form solutions are unavailable. In six simulation studies, we explored the reliability, bias, and computational cost of two easy-to-use and broadly applicable methods: bridge sampling and the Savage–Dickey density ratios, based on Gaussian, logspline, and spline-smoothed kernel density approximations of the posterior distribution, as well as conditional marginal density estimation. In generalized linear mixed effect models for normally and binomially distributed data, we explore the effects of the (1) number of MCMC samples from the posterior, (2) size of effects or magnitude of the Bayes factor, (3) number of participants, and (4) number of model parameters. Our findings suggest that, with enough MCMC samples, both methods yield reliable and accurate estimates across a wide range of conditions. However, with many model parameters, bridge sampling becomes computationally expensive and can be unreliable. In contrast, the Savage–Dickey density ratio scales well, remaining computationally efficient and reliable, even with many model parameters. However, Savage–Dickey density ratio requires careful consideration of posterior density estimation to mitigate bias while limiting the variability of Bayes factor estimates. We provide practical recommendations to guide researchers in selecting the most suitable estimation method for their applications.",
@@ -66,15 +39,6 @@
           "doi": "https://doi.org/10.3758/s13428-026-03087-w",
           "filter": 0,
           "created": "2026-6-22"
-        },
-        {
-          "title": "Synchronizing brains and hearts: A practical guide for caregiver–child fNIRS-ECG multimodal hyperscanning",
-          "authors": "Yelim Hong, Nicole J. Moore, Laura E. Quiñones-Camacho",
-          "abstract": "The study of synchrony—concordant neural, physiological, and behavioral activity between individuals—has advanced our understanding of co-regulation and socio-emotional development, particularly within caregiver–child relationships. While previous research has often examined neural and physiological synchrony separately, recent multimodal approaches highlight the importance of integrating these systems. This paper presents a comprehensive, practical guide to multimodal hyperscanning using functional near-infrared spectroscopy (fNIRS) and electrocardiography (ECG) in caregiver–child dyads. We outline theoretical foundations, methodological considerations, and detailed protocols for synchronizing fNIRS (via NIRx), ECG (via Mindware), behavioral video (via Mangold VideoSyncPro), and task stimuli (via PsychoPy) in a fully time-aligned manner. We describe equipment configurations, software integration, trigger-based synchronization workflows, and strategies to overcome common challenges in developmental psychophysiological research, particularly with young children. Drawing from our experience with children aged 3–7 years, we provide empirical benchmarks for feasibility, compliance, and data quality. This guide provides a practical, adaptable framework designed to lower the barrier to entry for multimodal hyperscanning and encourage its widespread use in developmental research. Integrating neural and physiological synchrony allows researchers to capture the dynamic, multi-systemic nature of caregiver–child interaction and opens new avenues for investigating mechanisms of co-regulation, emotional development, and risk for psychopathology.",
-          "url": "https://doi.org/10.3758/s13428-026-03060-7",
-          "doi": "https://doi.org/10.3758/s13428-026-03060-7",
-          "filter": 0,
-          "created": "2026-6-17"
         }
       ],
       "articles_hidden": []
@@ -108,28 +72,28 @@
           "created": "2026-6-21"
         },
         {
+          "title": "Empathy in leadership communication: Experimental evidence from two vignette studies on AI’s role in message improvement and observers’ perceptions",
+          "authors": "Didem Sedefoglu-Ulucak, Sandra Ohly, Joachim Schmelz",
+          "url": "https://doi.org/10.1016/j.chb.2026.109096",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109096",
+          "filter": 0,
+          "created": "2026-6-24"
+        },
+        {
+          "title": "Understanding the Loneliness Paradox of the Digital Age: Offline Social Support mediates the Relationship between Addictive Social Media Use and Loneliness – A Gender Comparison in the German General Population",
+          "authors": "Julia Brailovskaia, Lena-Marie Precht, Svenja Schaumburg, Jürgen Margraf, Silvia Schneider",
+          "url": "https://doi.org/10.1016/j.chb.2026.109092",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109092",
+          "filter": 0,
+          "created": "2026-6-24"
+        },
+        {
           "title": "Adolescent Bystanders in Technology-Facilitated Sexual Dating Abuse: A Latent Class Analysis",
           "authors": "Maria Vale, Denise Hines, Marlene Matos",
           "url": "https://doi.org/10.1016/j.chb.2026.109091",
           "doi": "https://doi.org/10.1016/j.chb.2026.109091",
           "filter": 0,
           "created": "2026-6-21"
-        },
-        {
-          "title": "Perceptions and adoption of AI in public relations: Innovation attributes, threats, and practical implications",
-          "authors": "Sung-Un Yang, Cen April Yue, Arunima Krishna, Donald K. Wright",
-          "url": "https://doi.org/10.1016/j.chb.2026.109087",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109087",
-          "filter": 0,
-          "created": "2026-6-17"
-        },
-        {
-          "title": "Too Tired to Be Judged by Humans: Social Jetlag Increases Preference for AI through Social Anxiety",
-          "authors": "Xiaoyu Zhou, Yuxuan Chu, Liwei Zhang, Jianping Liang",
-          "url": "https://doi.org/10.1016/j.chb.2026.109082",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109082",
-          "filter": 0,
-          "created": "2026-6-17"
         },
         {
           "title": "How augmented reality usage traces shape consumer decision-making in online food shopping: The roles of virtual taste and contamination sensitivity",
@@ -140,7 +104,15 @@
           "created": "2026-6-19"
         },
         {
-          "title": "Young People Evaluating Online Information Credibility. Special Issue Synthesis",
+          "title": "Online Consent Misread: A Mixed-Method Study on (Cyber)Rape Culture’s Influence on Sexual Consent Perceptions and Responses to Unsolicited Genital Images",
+          "authors": "Rocío Vizcaíno-Cuenca, Mónica Romero-Sánchez, Hugo Carretero-Dios",
+          "url": "https://doi.org/10.1016/j.chb.2026.109095",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109095",
+          "filter": 0,
+          "created": "2026-6-24"
+        },
+        {
+          "title": "Young people evaluating online information credibility. Special issue synthesis",
           "authors": "Nicolae Nistor, Yonty Friesem, Cristina Nistor, Rareş Beuran",
           "url": "https://doi.org/10.1016/j.chb.2026.109086",
           "doi": "https://doi.org/10.1016/j.chb.2026.109086",
@@ -210,14 +182,6 @@
       "journal_short": "MBR",
       "articles": [
         {
-          "title": "A Modularized Higher-Order Diagnostic Classification Model for Clustered Attribute Hierarchies",
-          "authors": "Minho Lee, Yon Soo Suh",
-          "url": "https://doi.org/10.1080/00273171.2026.2683356",
-          "doi": "https://doi.org/10.1080/00273171.2026.2683356",
-          "filter": 0,
-          "created": "2026-6-17"
-        },
-        {
           "title": "Generalizability Theory Applied to Daily Relationship Quality: Substantive and Statistical Directions",
           "authors": "Madison Shea Smith, Susan C. South",
           "url": "https://doi.org/10.1080/00273171.2026.2683364",
@@ -233,6 +197,24 @@
       "journal_short": "PSPB",
       "articles": [
         {
+          "title": "When and Why Beliefs About the Causes of a Policy Problem Predict Policy Support",
+          "authors": "James P. Reynolds, Tess Langfield, Charlotte R. Pennington",
+          "abstract": "The relationship between beliefs about the causes of a policy-relevant issue (causal beliefs) and attitudes towards that policy (policy support) is complicated, with contradictory empirical results. The current research offers an explanation for this: causal beliefs only predict policy support when they are specific and correspond with the policy. We test this across six studies ( N = 10,728; quota-representative samples of U.K. and US populations) within two policy domains (obesity and alcohol). In study 1, we test whether specific-corresponding beliefs are stronger correlates of policy support than other causal beliefs. In studies 2 and 4, we test whether communicating specific-corresponding causal evidence can increase policy support. In studies 3 and 4, we identify and confirm the psychological mechanism: perceived policy effectiveness. Study 5 involves a meta-analysis of the experimental studies. This provides support for our theory: specific-corresponding causal beliefs affect policy support, but general and non-corresponding causal beliefs do not.",
+          "url": "https://doi.org/10.1177/01461672261456781",
+          "doi": "https://doi.org/10.1177/01461672261456781",
+          "filter": 0,
+          "created": "2026-6-24"
+        },
+        {
+          "title": "Intergroup Contact and Belonging Among Ethiopian Jews in Ethiopia",
+          "authors": "Mastewal Bitew, Sonja Drobnič",
+          "abstract": "Drawing on intergroup contact theory, this study examines whether intergroup anxiety and perceived discrimination mediate the relationship between intergroup contact and a dual sense of belonging: to mainstream society and to one’s ethnic ingroup. Data were collected through a paper-based survey of 513 Ethiopian Jews in Ethiopia (mean age = 24; the sample consisted primarily of single men with secondary education). Moderated mediation analyses indicate that intergroup contact is positively associated with belonging to mainstream society but unrelated to ingroup belonging. Intergroup anxiety shows a divergent pattern: higher anxiety is associated with lower belonging to mainstream society and stronger ingroup belonging. Contrary to expectations, intergroup contact is positively associated with perceived discrimination. Mediation analyses show that intergroup anxiety significantly mediates the relationship between contact and belonging, whereas perceived discrimination does not. These findings suggest that intergroup contact may foster integration but also heighten awareness of discrimination in stratified social contexts.",
+          "url": "https://doi.org/10.1177/01461672261454081",
+          "doi": "https://doi.org/10.1177/01461672261454081",
+          "filter": 0,
+          "created": "2026-6-24"
+        },
+        {
           "title": "Prospects of Downward Mobility Cause Status Anxiety and Life Dissatisfaction",
           "authors": "Davide Melita, Matthias S. Gobel, Juan Matamoros-Lima, Rosa Rodríguez-Bailón, Guillermo B. Willis",
           "abstract": "Despite extensive research on upward mobility, the psychological consequences of perceived downward mobility remain understudied. Across two cross-sectional and two experimental studies ( N = 2,819), conducted in high-income, post-industrial economies, we investigated the effects of perceived upward and downward mobility on status anxiety and well-being. Across designs, downward mobility beliefs consistently increased status anxiety, which in turn mediated harmful effects on life satisfaction and related well-being outcomes. Upward mobility beliefs reduced status anxiety and produced a positive indirect effect on life satisfaction only in an experimental study with U.S. participants, but it yielded inconsistent effects across the remaining three studies. Our findings suggest that both upward and downward beliefs influence well-being through status anxiety, but the effects of downward mobility beliefs are stronger and more consistent.",
@@ -240,6 +222,15 @@
           "doi": "https://doi.org/10.1177/01461672261451296",
           "filter": 0,
           "created": "2026-6-23"
+        },
+        {
+          "title": "A Taxonomy of Data Synthesis",
+          "authors": "Emorie D. Beck, Emily C. Willroth, Julia A. M. Delius, David A. Bennett, Lisa L. Barnes, Bryan D. James, Richard B. Lipton, Mindy Katz, Linda B. Hassing, Martijn Huisman, Daniel K. Mroczek, Eileen K. Graham",
+          "abstract": "As efforts to improve the credibility of psychological and other social sciences continue, researchers aim to conduct multi-study or multi-sample research and synthesize findings using different parameterizations of individual participant meta-analysis. No overarching organizational framework exists, and only a few simulation-based or empirical examples comparing these parameterizations. This article has two goals. First, we provide an overview of six common parameterizations of individual participant meta-analysis, organized into a taxonomy based on different features (e.g., sample-specific parameters, meta-analytic parameters, and number of models). Second, using empirical data from 26,205 participants across 11 longitudinal studies, we provide comparisons of each parameterization testing prospective associations between the personality traits and crystallized abilities. We found that openness was a robust predictor of crystallized abilities across samples. Across methods, we observed consistency in model estimates, with some exceptions. We conclude with recommendations for choosing an approach given a team’s goals, questions, data availability, and model features.",
+          "url": "https://doi.org/10.1177/01461672261451901",
+          "doi": "https://doi.org/10.1177/01461672261451901",
+          "filter": 0,
+          "created": "2026-6-24"
         }
       ],
       "articles_hidden": []
@@ -271,15 +262,6 @@
       "journal_full": "Psychological Science",
       "journal_short": "PsychSci",
       "articles": [
-        {
-          "title": "Eye Glint as a Novel Perceptual Cue in Human Vision",
-          "authors": "Gwenisha J. Liaw, Colin J. Palmer",
-          "abstract": "A subtle yet ubiquitous feature of the human face is eye glint —specular reflections from the surface of the eye that vary with the position of light sources in the environment. This study tested whether eye glint influences face perception, particularly in how observers perceive the gaze direction of a person they are viewing. Adult participants viewed computer-rendered face images that varied in eye direction, head rotation, and illumination. The presence of eye glint had little influence on the accuracy or precision of perceived gaze direction when faces were viewed under simplified conditions. However, biases in perceived gaze direction caused by changes in head orientation or illumination direction were reduced when eye glint was present relative to when it was absent. This suggests that eye glint can help an observer to maintain constancy in gaze perception despite variability in the appearance of the eye region that occurs across viewing conditions.",
-          "url": "https://doi.org/10.1177/09567976261446892",
-          "doi": "https://doi.org/10.1177/09567976261446892",
-          "filter": 0,
-          "created": "2026-6-17"
-        },
         {
           "title": "Not All Practice Is Created Equal: Longitudinal Evidence From Over 40,000 Chess Players",
           "authors": "Daniel A. Southwick, Kyle W. Harwell, Garrett Wright, Joseph A. Olsen, Benjamin M. Ogles",
