@@ -1,6 +1,31 @@
 {
-  "update": "2026-07-02",
+  "update": "2026-07-03",
   "content": [
+    {
+      "journal_full": "Advances in Methods and Practices in Psychological Science",
+      "journal_short": "AMPPS",
+      "articles": [
+        {
+          "title": "Mapping Methodological Variation in Experience-Sampling Research From Design to Data Analysis: A Systematic Review",
+          "authors": "Lisa Peeters, Wim Van Den Noortgate, Marie Annelise Blanchard, Marie Suenaert, Gudrun Eisele, Olivia J. Kirtley, Richard Artner, Ginette Lafit",
+          "abstract": "The experience-sampling method (ESM) has become a widespread tool to study time-varying constructs across many subfields of psychological and psychiatric research. Variety in subfields of research and constructs of interest has contributed to considerable methodological variation. Therefore, in this systematic review, we aimed to (a) describe the methodological variation in ESM-study designs and (b) assess the transparency (i.e., reporting and open-science practices) of ESM studies. We developed an extensive list of data-extraction items covering the entire workflow of an ESM study, from conception of the research question to reporting the results. These data were extracted from 150 recently published articles describing 162 studies applying ESM in the field of psychology and psychiatry. As expected, variation was observed for every methodological decision. Some findings aligned with previous syntheses of the literature (e.g., a median study duration of 10 days, a majority of studies including convenience samples of the general population, the high prevalence of multilevel modeling). Regarding other decisions, this review was able to provide new insights (e.g., questionnaire length and content often varied between and/or within participants, average sample sizes have increased over time). Transparency in reporting and open-science practices seem to have improved in recent years, but there is room for further development of awareness and guidance. This broad overview of ESM research serves as a first step toward a broader goal to improve the methodological quality of ESM research in psychology, contributing to a more rigorous, credible science of daily life.",
+          "url": "https://doi.org/10.1177/25152459261453933",
+          "doi": "https://doi.org/10.1177/25152459261453933",
+          "filter": 0,
+          "created": "2026-7-2"
+        },
+        {
+          "title": "Simulation Intervention for Cross-Sectional Network Models: Based on the R Packages NodeIdentifyR and NIRApost",
+          "authors": "Fei Wang, Yiming Wu, Yibo Wu, Tingshao Zhu",
+          "abstract": "Traditional cross-sectional network-centrality metrics fail to distinguish causal directions between symptoms, leading to biases in selecting potential intervention targets. The nodeIdentifyR algorithm (NIRA) addresses this issue by using simulation-based interventions to identify projected optimal intervention target in cross-sectional networks. However, existing applications of NIRA typically overlook several recommended validation steps, which may reduce the robustness of its results. Specifically, a critical prerequisite for applying NIRA, testing for moderation effects to ensure the invariance of edge weights during simulated intervention, is consistently ignored. Moreover, they lack statistical significance testing for simulated intervention effects through permutation tests and stability assessment of NIRA outcomes via repeated simulations. In this article, we introduce the extended R package NIRApost , which supplements NIRA with these three recommended complementary procedures. We provide a comprehensive R tutorial demonstrating the implementation of both NIRA and these validation steps. Researchers applying NIRA are advised to conduct moderation-effect testing as a prerequisite, followed by permutation tests and stability analyses to ensure robust and interpretable findings. Upon completing this tutorial, readers are capable of properly applying NIRA and its validation procedures in their own data analyses.",
+          "url": "https://doi.org/10.1177/25152459261452944",
+          "doi": "https://doi.org/10.1177/25152459261452944",
+          "filter": 0,
+          "created": "2026-7-2"
+        }
+      ],
+      "articles_hidden": []
+    },
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
@@ -31,6 +56,15 @@
           "created": "2026-7-1"
         },
         {
+          "title": "Low-cost, open-source, full-stack software and Arduino-based hardware for control of commercially available animal behavior systems",
+          "authors": "Scott Miller, Jacob C. Slack, Amol P. Yadav",
+          "abstract": "Behavioral neuroscience relies heavily on controlled environments, such as operant chambers or “Skinner boxes,” to characterize relationships between external stimuli and the resulting animal behavior. Increasingly, these methodologies are critical for the development of neural interfaces which seek to provide or restore sensations via electrical stimulation. To conduct behavioral experiments, researchers have commonly trusted commercial systems, like those from Med Associates, Inc. While offering reliability, high costs and limited customizability have motivated a push towards open-source alternatives, which often involve the use of inexpensive microcontrollers, custom printed circuit boards (PCBs), and freely available codebases. However, despite these developments, there is a lack of comprehensive software solutions that can integrate seamlessly with commercial or custom hardware for behavioral experiments. In this study, we developed a full-stack application utilizing Angular and Flask frameworks to conduct two-alternative forced choice (2AFC) tasks controlled by an Arduino which interfaces with Med Associates, Inc. operant chamber equipment via a custom PCB. The system was tested by conducting a simple operant conditioning procedure and a spinal cord stimulation (SCS) sensory detection experiment using a custom microstimulator in rodents. The analyzed data demonstrated appropriate behavioral learning and sensory detection thresholds, in alignment with previous SCS behavioral studies which utilized commercial or single-tier systems for control of operant chambers. This work demonstrates the effective integration of an open-source full-stack application with existing commercial hardware that can provide adaptable and scalable means for conducting behavioral experiments, crucial for advancing neural interface technologies.",
+          "url": "https://doi.org/10.3758/s13428-026-03096-9",
+          "doi": "https://doi.org/10.3758/s13428-026-03096-9",
+          "filter": 0,
+          "created": "2026-6-29"
+        },
+        {
           "title": "Publisher Correction: Towards a quantifiable measure of orthographic congruence between two languages",
           "authors": "Ding Yan, Paolo Mairano, Séverine Casalis",
           "url": "https://doi.org/10.3758/s13428-026-03090-1",
@@ -39,13 +73,12 @@
           "created": "2026-6-26"
         },
         {
-          "title": "Low-cost, open-source, full-stack software and Arduino-based hardware for control of commercially available animal behavior systems",
-          "authors": "Scott Miller, Jacob C. Slack, Amol P. Yadav",
-          "abstract": "Behavioral neuroscience relies heavily on controlled environments, such as operant chambers or “Skinner boxes,” to characterize relationships between external stimuli and the resulting animal behavior. Increasingly, these methodologies are critical for the development of neural interfaces which seek to provide or restore sensations via electrical stimulation. To conduct behavioral experiments, researchers have commonly trusted commercial systems, like those from Med Associates, Inc. While offering reliability, high costs and limited customizability have motivated a push towards open-source alternatives, which often involve the use of inexpensive microcontrollers, custom printed circuit boards (PCBs), and freely available codebases. However, despite these developments, there is a lack of comprehensive software solutions that can integrate seamlessly with commercial or custom hardware for behavioral experiments. In this study, we developed a full-stack application utilizing Angular and Flask frameworks to conduct two-alternative forced choice (2AFC) tasks controlled by an Arduino which interfaces with Med Associates, Inc. operant chamber equipment via a custom PCB. The system was tested by conducting a simple operant conditioning procedure and a spinal cord stimulation (SCS) sensory detection experiment using a custom microstimulator in rodents. The analyzed data demonstrated appropriate behavioral learning and sensory detection thresholds, in alignment with previous SCS behavioral studies which utilized commercial or single-tier systems for control of operant chambers. This work demonstrates the effective integration of an open-source full-stack application with existing commercial hardware that can provide adaptable and scalable means for conducting behavioral experiments, crucial for advancing neural interface technologies.",
-          "url": "https://doi.org/10.3758/s13428-026-03096-9",
-          "doi": "https://doi.org/10.3758/s13428-026-03096-9",
+          "title": "Planned missingness in intensive longitudinal studies: Extensions and comparisons of multiform designs",
+          "authors": "Yilan Chen, Hongyun Liu",
+          "url": "https://doi.org/10.3758/s13428-026-03035-8",
+          "doi": "https://doi.org/10.3758/s13428-026-03035-8",
           "filter": 0,
-          "created": "2026-6-29"
+          "created": "2026-7-2"
         },
         {
           "title": "Exploring psychological tradeoffs: Developing and demonstrating an R Shiny app for Pareto optimization",
@@ -131,12 +164,20 @@
           "created": "2026-6-26"
         },
         {
-          "title": "Neural emotional processing of personally recommended short-video content and depressive symptoms",
-          "authors": "Carole Leung, Stacie L. Warren, Lucie H. Nguyen, Christina Vlahakos, Carlos Busso, Alva Tang",
-          "url": "https://doi.org/10.1016/j.chb.2026.109098",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109098",
+          "title": "The impact of affordances for emotional human–chatbot interaction on users’ willingness to self-disclose",
+          "authors": "Xu Zengzhan, Lei Mingpeng",
+          "url": "https://doi.org/10.1016/j.chb.2026.109111",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109111",
           "filter": 0,
-          "created": "2026-6-25"
+          "created": "2026-7-2"
+        },
+        {
+          "title": "Uncanny Valley: Reinforcement Sensitivity Theory and Vulnerability to Influence by Artificial Intelligence-Generated Images Online",
+          "authors": "Neil Shortland, Katelyn Smith",
+          "url": "https://doi.org/10.1016/j.chb.2026.109109",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109109",
+          "filter": 0,
+          "created": "2026-7-2"
         },
         {
           "title": "Virtual proxemics “in the wild”: a cross-cultural comparison between Japanese and Italian adults recruited at public fairs",
@@ -145,14 +186,6 @@
           "doi": "https://doi.org/10.1016/j.chb.2026.109089",
           "filter": 0,
           "created": "2026-6-26"
-        },
-        {
-          "title": "Is problematic smartphone use an independent risk marker for adolescent suicidal-thought trajectories? A person-centered, depression-adjusted analysis",
-          "authors": "Changmin Yoo",
-          "url": "https://doi.org/10.1016/j.chb.2026.109099",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109099",
-          "filter": 0,
-          "created": "2026-6-25"
         },
         {
           "title": "Offline friendship conflict and adolescent Internet addiction: Indirect associations via self-esteem and the moderating role of clique-level norms",
@@ -250,308 +283,12 @@
           "created": "2026-6-29"
         },
         {
-          "title": "People feel but don't tell: Dispositional honesty and emotional responses to others' (mis)fortunes",
-          "authors": "Zi Ye, Feiteng Long, Roujia Feng, Wilco van Dijk, Ranran Li",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104966",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104966",
-          "filter": 0,
-          "created": "2026-6-25"
-        },
-        {
-          "title": "Seeing oneself in the feed: Racialized targeting in food marketing and its impact on adolescents' visual interest and unhealthy food preferences",
-          "authors": "Emily Balcetis, Jordan Daley, Eunha Choi, Omni Cassidy, Marie A. Bragg",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104963",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104963",
-          "filter": 0,
-          "created": "2026-6-25"
-        },
-        {
           "title": "Replication and extension of Carlson and Zaki (2018): Do lay theories of altruism apply equally to all actors?",
           "authors": "Ashley Harrell, Margaret L. Traeger",
           "url": "https://doi.org/10.1016/j.jesp.2026.104969",
           "doi": "https://doi.org/10.1016/j.jesp.2026.104969",
           "filter": 0,
           "created": "2026-7-1"
-        },
-        {
-          "title": "Incentivization very weakly improves theory of mind: A multi-sample investigation and meta-analysis",
-          "authors": "Tomer Paz-Fitussy, Eldad Yechiam",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104896",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104896",
-          "filter": 0,
-          "created": "2026-3-7"
-        },
-        {
-          "title": "Gossip or confrontation? Sanctioning environmental norm violations and the reputation of punishers",
-          "authors": "Xiyan Song, Catherine Molho, Paul A.M. Van Lange",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104915",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104915",
-          "filter": 0,
-          "created": "2026-3-24"
-        },
-        {
-          "title": "Playing it safe: Negotiators avoid uncertainty and reach safer, but less integrative agreements",
-          "authors": "Marco Schauer, Johann M. Majer, Caroline Heydenbluth, Roman Trötschel",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104924",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104924",
-          "filter": 0,
-          "created": "2026-4-11"
-        },
-        {
-          "title": "Learning to distrust: One trust experience changes the expected value of trust",
-          "authors": "Annabelle R. Roberts, Emma E. Levine, Jane L. Risen",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104930",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104930",
-          "filter": 0,
-          "created": "2026-5-5"
-        },
-        {
-          "title": "Two wrongs is what makes it more right: How retaliatory incivility receives social leniency",
-          "authors": "Merrick R. Osborne, Suhaib Abdurahman, Ali Omrani, Jackson P. Trager, Morteza Dehghani",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104913",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104913",
-          "filter": 0,
-          "created": "2026-3-17"
-        },
-        {
-          "title": "Holiday greeting inclusivity in organizations: The more the merrier",
-          "authors": "Erica L. Granz Nack, Kimberly Rios",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104932",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104932",
-          "filter": 0,
-          "created": "2026-4-20"
-        },
-        {
-          "title": "Registered report stage I: Defending or defying democracy? Investigating the relationship between conspiracy beliefs and support for democratic principles [registered report - stage I]",
-          "authors": "Tisa Bertlich, Felicitas Flade, Roland Imhoff",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104909",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104909",
-          "filter": 0,
-          "created": "2026-3-21"
-        },
-        {
-          "title": "Managing threatened identities across everyday situations",
-          "authors": "N. Derek Brown, Drew S. Jacoby-Senghor, Allyson P. Mackey, Michael L. Slepian",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104906",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104906",
-          "filter": 0,
-          "created": "2026-3-21"
-        },
-        {
-          "title": "Just a means to an end? Individuals support direct democracy instrumentally, irrespective of conspiracy mentality",
-          "authors": "Tisa Bertlich, Fiona Kazarovytska, Roland Imhoff",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104905",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104905",
-          "filter": 0,
-          "created": "2026-3-20"
-        },
-        {
-          "title": "Tracking connections, not content: How working memory shapes content and social learning in online networks",
-          "authors": "Esther Kang, Arun Lakshmanan",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104925",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104925",
-          "filter": 0,
-          "created": "2026-4-9"
-        },
-        {
-          "title": "Minority report: How minorities' awareness of power asymmetry drives strategic preparation in opinion debates",
-          "authors": "Alain Quiamzade, Fanny Lalot, Dominic Abrams",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104927",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104927",
-          "filter": 0,
-          "created": "2026-4-8"
-        },
-        {
-          "title": "Not all stimuli are conditioned equal – Larger evaluative conditioning effects for fluent stimuli",
-          "authors": "Claudine Pulm, Anne Gast",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104918",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104918",
-          "filter": 0,
-          "created": "2026-3-23"
-        },
-        {
-          "title": "Smiling your way to happiness or misery? Experimental tests of competing perspectives",
-          "authors": "Nicholas A. Coles, Annabel Dang, Joao Francisco Goes Braga Takayanagi",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104895",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104895",
-          "filter": 0,
-          "created": "2026-3-13"
-        },
-        {
-          "title": "When rightness is wrong: Chronic prevention orientation predicts cardiovascular threat responses under regulatory fit",
-          "authors": "Deborah E. Ward, Mark D. Seery, Thomas L. Saltsman, Cheryl L. Kondrak",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104920",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104920",
-          "filter": 0,
-          "created": "2026-3-28"
-        },
-        {
-          "title": "Beyond morality primacy: Inference of competence takes the lead in spontaneous impressions",
-          "authors": "Irmak Olcaysoy Okten, Xi Shen, Ayanna Brewton",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104936",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104936",
-          "filter": 0,
-          "created": "2026-5-7"
-        },
-        {
-          "title": "Unequal participation: How low socioeconomic status hinders political engagement",
-          "authors": "Rodrigo Furst, Yan Vieites, Bernardo Andretti",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104922",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104922",
-          "filter": 0,
-          "created": "2026-4-3"
-        },
-        {
-          "title": "The effect of frameswitching on perceptions of decisiveness, creativity, and job fit",
-          "authors": "Sabrina Piccolo, Analía Albuja",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104912",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104912",
-          "filter": 0,
-          "created": "2026-3-13"
-        },
-        {
-          "title": "The spread of fear: Perceptual deindividuation drives racial bias in threat generalization",
-          "authors": "Arshiya Aggarwal, Julia R. Hopkins, Dana E. Diaz, Kalina J. Michalska, Nicholas P. Camp, Brent L. Hughes",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104934",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104934",
-          "filter": 0,
-          "created": "2026-4-23"
-        },
-        {
-          "title": "Does ignorance love company? The social dynamics of information avoidance",
-          "authors": "Katharina Reher, Martin Götz, Filippo Toscano, Jörg Gross",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104917",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104917",
-          "filter": 0,
-          "created": "2026-3-28"
-        },
-        {
-          "title": "Decision strategy and perceived humanness: The roles of decision context and decision outcome",
-          "authors": "Hong Zhang, Huan Zhu, Jingyan Wang, Yima Jin",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104928",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104928",
-          "filter": 0,
-          "created": "2026-4-14"
-        },
-        {
-          "title": "Strategically prosocial: Using acts of kindness to secure more valuable interaction partners",
-          "authors": "Luuk L. Snijder, Mirre Stallen, Jörg Gross, Carsten K.W. De Dreu",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104939",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104939",
-          "filter": 0,
-          "created": "2026-5-9"
-        },
-        {
-          "title": "Trust under watch: Relational models and the context-dependent nature of monitoring",
-          "authors": "Anna O. Kuzminska, Maryam Khan, Pelin Kesebir, Tomasz Zaleskiewicz, Agata Gasiorowska",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104935",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104935",
-          "filter": 0,
-          "created": "2026-5-6"
-        },
-        {
-          "title": "The effects of anonymity in volunteer's dilemmas",
-          "authors": "Yukari Jessica Tham, Yohsuke Ohtsubo, Kaori Karasawa",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104929",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104929",
-          "filter": 0,
-          "created": "2026-4-16"
-        },
-        {
-          "title": "Why do people dislike gender role violators? A test of three models",
-          "authors": "Alan J. Lambert, Fade R. Eadeh, Svyatoslav Prokhorets, Giselle Gisser, Keralyn Siebrass",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104926",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104926",
-          "filter": 0,
-          "created": "2026-5-12"
-        },
-        {
-          "title": "Is a random human peer better than a highly supportive chatbot in reducing loneliness over time?",
-          "authors": "Ruo-Ning Li, Dunigan Folk, Abhay Singh, Lyle Ungar, Elizabeth Dunn",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104911",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104911",
-          "filter": 0,
-          "created": "2026-3-10"
-        },
-        {
-          "title": "Emotional cues to group hierarchy: Inferences about dominance- versus prestige-based hierarchies from members' emotional expressions",
-          "authors": "Marc W. Heerdink, Svenja A. Wolf, Jens Lange, Florian Wanders, Xia Fang, Eftychia Stamkou, Gerben A. van Kleef",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104931",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104931",
-          "filter": 0,
-          "created": "2026-4-15"
-        },
-        {
-          "title": "Beyond confronting: Cultivating inclusion through proactive Allyship",
-          "authors": "Lucy De Souza, Toni Schmader",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104923",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104923",
-          "filter": 0,
-          "created": "2026-4-2"
-        },
-        {
-          "title": "Common = ineffective? A replication attempt of the normative dilution effect in the context of political apologies",
-          "authors": "Vlada Trofimchuk, Rebecca Littman",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104938",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104938",
-          "filter": 0,
-          "created": "2026-5-9"
-        },
-        {
-          "title": "Using intersectional implicit association measures does not consistently improve the predictive validity of the implicit association test",
-          "authors": "Jeffrey To, Jordan Axt",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104919",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104919",
-          "filter": 0,
-          "created": "2026-3-24"
-        },
-        {
-          "title": "Beliefs versus reality: People overestimate the actual dishonesty of others",
-          "authors": "Jareef Martuza, Helge Thorbjørnsen, Hallgeir Sjåstad",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104904",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104904",
-          "filter": 0,
-          "created": "2026-3-7"
-        },
-        {
-          "title": "Multiculturalism shapes moral judgments of sexist men across religious groups",
-          "authors": "Alexandra Vázquez, Beatriz Alba",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104940",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104940",
-          "filter": 0,
-          "created": "2026-5-13"
-        },
-        {
-          "title": "Interpersonal synchrony modulates explicit and implicit self-other blurring: Evidence from an IAT",
-          "authors": "Manisha Biswas, Marcel Brass",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104937",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104937",
-          "filter": 0,
-          "created": "2026-5-12"
-        },
-        {
-          "title": "More is more, or is there more to it? Frequency moderations in evaluative conditioning depend on variation in the unconditioned stimuli",
-          "authors": "Mandy Hütter, Kathrin Reichmann, Dana Höffler, Marco Denin",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104910",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104910",
-          "filter": 0,
-          "created": "2026-3-11"
-        },
-        {
-          "title": "When society feels broken: How perceptions of anomie shape donation tendencies across cultures",
-          "authors": "Fei Gao, Lan Xia",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104921",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104921",
-          "filter": 0,
-          "created": "2026-3-28"
-        },
-        {
-          "title": "Approach-avoidance action tendencies: A replicable approach/avoidance compatibility effect can be found when valence is task irrelevant",
-          "authors": "Yoann Julliard, Cédric Batailler, François Ric, Marine Rougier, Maude Tagand, Mae Braud, Dominique Muller",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104916",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104916",
-          "filter": 0,
-          "created": "2026-3-21"
         }
       ],
       "articles_hidden": []
@@ -712,14 +449,6 @@
       "journal_short": "PM",
       "articles": [
         {
-          "title": "A stochastic block prior for clustering in graphical models.",
-          "authors": "Nikola Sekulovski, Giuseppe Arena, Jonas Haslbeck, Karoline Huth, Nial Friel, Maarten Marsman",
-          "url": "https://doi.org/10.1037/met0000847",
-          "doi": "https://doi.org/10.1037/met0000847",
-          "filter": 0,
-          "created": "2026-6-25"
-        },
-        {
           "title": "Bayesian evaluation for latent variable models: A tutorial on computing information criteria and bayes factors with the r package bleval.",
           "authors": "Xiaohui Luo, Jieyuan Dong, Hongyun Liu, Yang Liu, Edgar C. Merkle",
           "url": "https://doi.org/10.1037/met0000852",
@@ -734,6 +463,24 @@
       "journal_full": "Psychological Science",
       "journal_short": "PsychSci",
       "articles": [
+        {
+          "title": "Does Testosterone Affect Cognitive Reflection? Evidence From a Double-Blind, Randomized Controlled Study of 1,000 Participants",
+          "authors": "Erik L. Knight, Gideon Nave, Steven D. Shaw, Coren Apicella, Pierre L. Bonin, Anna Dreber, Shawn N. Geniole, Magnus Johannesson, Dylan Manfredi, Pranjal Mehta, Valentina Proietti, Steven J. Stanton, Francesca R. Luberti, Triana Ortiz, Justin M. Carré",
+          "abstract": "The cognitive reflection test (CRT) measures reliance on intuitive thinking versus deliberate reasoning and predicts important real-world outcomes. Prior research has suggested that testosterone administration impaired CRT performance, but follow-up studies produced null results. To provide a rigorous test, we conducted a large, preregistered, double-blind, placebo-controlled experiment, unprecedented in size, with 1,000 adult men, as part of an adversarial collaboration. Participants received a single dose of intranasal testosterone or placebo, completed the CRT, and rated their confidence level. We found an insignificant treatment effect on the CRT, with the point estimate in the opposite direction of the original hypothesis (β LOGIT = 0.118, 95% confidence interval (CI) = [−0.099, 0.335]). In a second primary test, we found a significant negative treatment effect on confidence (β LOGIT = −0.329, 95% CI = [−0.558, −0.100]), which is also the opposite of our prediction. Our findings challenge earlier claims about testosterone’s cognitive effects and highlight the importance of high-powered replications. Long-term or developmental testosterone effects remain potentially important but difficult to study.",
+          "url": "https://doi.org/10.1177/09567976261458325",
+          "doi": "https://doi.org/10.1177/09567976261458325",
+          "filter": 0,
+          "created": "2026-7-2"
+        },
+        {
+          "title": "A Field Experiment Testing Whether Accountability Reduces Racial Gaps in Performance Evaluations",
+          "authors": "Edward H. Chang, Erika L. Kirgios, Cansin Arslan",
+          "abstract": "Accountability is a commonly recommended intervention to reduce discrimination. However, there have been no field experiments testing whether it reduces discrimination in workplaces. Here we present preregistered analyses of a field experiment conducted at a company ( n = 3,266 managers rating 17,149 employees) testing whether an accountability intervention reduces performance-evaluation gaps between White and racial-minority employees. We did not find evidence that the accountability intervention closes evaluation gaps. These null effects are likely not driven by a lack of statistical power or by inattentive managers, nor is the manipulation ineffective in all contexts—a supplemental online experiment shows that similar treatment language does change decision-making, underscoring a disconnect between findings in hypothetical settings versus real organizations. These results highlight the need for additional field experiments and theorizing to better understand when and why accountability interventions, as they may typically be implemented in organizations, improve diversity-related outcomes.",
+          "url": "https://doi.org/10.1177/09567976261458988",
+          "doi": "https://doi.org/10.1177/09567976261458988",
+          "filter": 0,
+          "created": "2026-7-2"
+        },
         {
           "title": "Does Overconfidence Really Confer Adaptive Benefits to Children’s Learning?",
           "authors": "Mengqi Hu, Wenbo Zhao, Meiyuan Cao, David R. Shanks, Xiao Hu, Liang Luo, Chunliang Yang",
@@ -784,14 +531,6 @@
       "journal_full": "Psychology of Popular Media",
       "journal_short": "PPM",
       "articles": [
-        {
-          "title": "Lost in the scroll: Emotional impacts of social media use among middle-aged adults.",
-          "authors": "Vasiliki Christodoulou, Pinelopi Konstantinou, Andrea Photiou, Kalypso Iordanou",
-          "url": "https://doi.org/10.1037/ppm0000671",
-          "doi": "https://doi.org/10.1037/ppm0000671",
-          "filter": 0,
-          "created": "2026-6-25"
-        },
         {
           "title": "The “ideal” body according to artificial intelligence: Body image implications for athletes and nonathletes.",
           "authors": "Delaney E. Thibodeau, Sasha M. Gollish, Jessica E. Boyes, Edina Bijvoet, Catherine M. Sabiston",
@@ -889,14 +628,6 @@
           "created": "2026-4-23"
         },
         {
-          "title": "Writing and reading fan fiction: The roles of self and social media.",
-          "authors": "Clara B. Rebello, Sonia Ghir, Kiana Reddock, Angelie Ignacio, Gerald C. Cupchik",
-          "url": "https://doi.org/10.1037/ppm0000613",
-          "doi": "https://doi.org/10.1037/ppm0000613",
-          "filter": 0,
-          "created": "2025-9-4"
-        },
-        {
           "title": "Interrelational dynamics in problematic video game use: A network analysis.",
           "authors": "Chloé Nguyen, Valentin Flaudias, Quentin Hallez",
           "url": "https://doi.org/10.1037/ppm0000658",
@@ -905,12 +636,28 @@
           "created": "2026-3-19"
         },
         {
+          "title": "Writing and reading fan fiction: The roles of self and social media.",
+          "authors": "Clara B. Rebello, Sonia Ghir, Kiana Reddock, Angelie Ignacio, Gerald C. Cupchik",
+          "url": "https://doi.org/10.1037/ppm0000613",
+          "doi": "https://doi.org/10.1037/ppm0000613",
+          "filter": 0,
+          "created": "2025-9-4"
+        },
+        {
           "title": "Association between gaming disorder and internalizing symptoms among children and adolescents: A child–parent dyadic study.",
           "authors": "Toshitaka Hamamura, Kyosuke Kaneko, Masaya Ito",
           "url": "https://doi.org/10.1037/ppm0000628",
           "doi": "https://doi.org/10.1037/ppm0000628",
           "filter": 0,
           "created": "2025-8-25"
+        },
+        {
+          "title": "Double-tap or scroll away? The social costs of humblebragging on Instagram.",
+          "authors": "Ramzi Fatfouta, Michael Dufner",
+          "url": "https://doi.org/10.1037/ppm0000616",
+          "doi": "https://doi.org/10.1037/ppm0000616",
+          "filter": 0,
+          "created": "2025-7-14"
         },
         {
           "title": "Developing and testing an explanatory model of complete mental health in tabletop role-playing games.",
@@ -937,6 +684,14 @@
           "created": "2025-6-23"
         },
         {
+          "title": "Can we separate the character from the creator? An exploratory study on parasocial relationships.",
+          "authors": "Kristina L. Howell, Meisam Vahedi, R. Chris Fraley",
+          "url": "https://doi.org/10.1037/ppm0000624",
+          "doi": "https://doi.org/10.1037/ppm0000624",
+          "filter": 0,
+          "created": "2025-10-2"
+        },
+        {
           "title": "Do the traits of fictional crushes and real-life ideals align? An investigation into ideal standards based on fictional fandoms.",
           "authors": "Nicole Zhi Min Wang, Ai Ni Teoh",
           "url": "https://doi.org/10.1037/ppm0000646",
@@ -959,22 +714,6 @@
           "doi": "https://doi.org/10.1037/ppm0000620",
           "filter": 0,
           "created": "2025-7-17"
-        },
-        {
-          "title": "Double-tap or scroll away? The social costs of humblebragging on Instagram.",
-          "authors": "Ramzi Fatfouta, Michael Dufner",
-          "url": "https://doi.org/10.1037/ppm0000616",
-          "doi": "https://doi.org/10.1037/ppm0000616",
-          "filter": 0,
-          "created": "2025-7-14"
-        },
-        {
-          "title": "Can we separate the character from the creator? An exploratory study on parasocial relationships.",
-          "authors": "Kristina L. Howell, Meisam Vahedi, R. Chris Fraley",
-          "url": "https://doi.org/10.1037/ppm0000624",
-          "doi": "https://doi.org/10.1037/ppm0000624",
-          "filter": 0,
-          "created": "2025-10-2"
         }
       ],
       "articles_hidden": []
@@ -984,28 +723,12 @@
       "journal_short": "TMB",
       "articles": [
         {
-          "title": "Heterogeneous associations between objectively measured screen time and sleep in early adolescence.",
-          "authors": "Sierra Clifford, Leah D. Doane, Kathryn Lemery-Chalfant",
-          "url": "https://doi.org/10.1037/tmb0000203",
-          "doi": "https://doi.org/10.1037/tmb0000203",
-          "filter": 0,
-          "created": "2026-6-25"
-        },
-        {
           "title": "(Mis)perceptions of other people’s social media use.",
           "authors": "Cameron J. Bunker, Stephanie Torres-Pantoja, Elliot Panek, Joseph B. Bayer",
           "url": "https://doi.org/10.1037/tmb0000201",
           "doi": "https://doi.org/10.1037/tmb0000201",
           "filter": 0,
           "created": "2026-6-29"
-        },
-        {
-          "title": "When sharing becomes the norm: How disclosure prevalence and relational similarity shape social norms on social media.",
-          "authors": "Philipp K. Masur, Douglas A. Parry",
-          "url": "https://doi.org/10.1037/tmb0000200",
-          "doi": "https://doi.org/10.1037/tmb0000200",
-          "filter": 0,
-          "created": "2026-6-25"
         }
       ],
       "articles_hidden": []
