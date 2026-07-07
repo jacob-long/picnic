@@ -1,5 +1,5 @@
 {
-  "update": "2026-07-06",
+  "update": "2026-07-07",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -31,14 +31,6 @@
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "The performance of Bayesian fit measures in detecting misspecified multilevel structural equation modeling",
-          "authors": "Chunhua Cao, Xinya Liang",
-          "url": "https://doi.org/10.3758/s13428-026-03064-3",
-          "doi": "https://doi.org/10.3758/s13428-026-03064-3",
-          "filter": 0,
-          "created": "2026-6-29"
-        },
-        {
           "title": "Generative psychometrics via AI-GENIE: Automatic item generation and validation with network-integrated evaluation",
           "authors": "Lara L. Russell-Lasalandra, Alexander P. Christensen, Hudson Golino",
           "abstract": "The rapid advancement of artificial intelligence (AI), particularly large language models (LLMs), has introduced powerful tools for various research domains, including psychological scale development. This study presents a methodology for efficiently generating and selecting high-quality, non-redundant items for psychological assessments using LLMs and network psychometrics. Our approach, termed Automatic Item Generation and Validation with Network-Integrated Evaluation (AI-GENIE), reduces reliance on expert intervention by integrating generative AI with the latest network psychometric techniques. The efficacy of AI-GENIE was evaluated through Monte Carlo simulations using the Mixtral, Gemma 2, Llama 3, GPT-3.5, and GPT-4o models to generate item pools that mimic Big Five personality assessments. Additionally, items from AI-GENIE were empirically tested with five nationally representative U.S. samples ( $$N = 4{,}964$$ N = 4 , 964 total), demonstrating that AI-GENIE-generated scales achieve structural validity—that is, evidence based on internal structure (dimensionality and item stability)—comparable to traditional expert-developed measures. The results demonstrated improvements in item selection efficiency, with overall average increases of 8.68–20.03 in normalized mutual information in the final item pool across all models. We also present a simulation study on the emerging construct of AI anxiety to demonstrate AI-GENIE’s utility for underrepresented constructs. Results from newly released models (DeepSeek, GPT-OSS 20B, GPT-OSS 120B) are presented in the Appendix. The findings suggest that AI-GENIE can streamline the scale development and structural validation process.",
@@ -54,15 +46,6 @@
           "doi": "https://doi.org/10.3758/s13428-026-03035-8",
           "filter": 0,
           "created": "2026-7-2"
-        },
-        {
-          "title": "Low-cost, open-source, full-stack software and Arduino-based hardware for control of commercially available animal behavior systems",
-          "authors": "Scott Miller, Jacob C. Slack, Amol P. Yadav",
-          "abstract": "Behavioral neuroscience relies heavily on controlled environments, such as operant chambers or “Skinner boxes,” to characterize relationships between external stimuli and the resulting animal behavior. Increasingly, these methodologies are critical for the development of neural interfaces which seek to provide or restore sensations via electrical stimulation. To conduct behavioral experiments, researchers have commonly trusted commercial systems, like those from Med Associates, Inc. While offering reliability, high costs and limited customizability have motivated a push towards open-source alternatives, which often involve the use of inexpensive microcontrollers, custom printed circuit boards (PCBs), and freely available codebases. However, despite these developments, there is a lack of comprehensive software solutions that can integrate seamlessly with commercial or custom hardware for behavioral experiments. In this study, we developed a full-stack application utilizing Angular and Flask frameworks to conduct two-alternative forced choice (2AFC) tasks controlled by an Arduino which interfaces with Med Associates, Inc. operant chamber equipment via a custom PCB. The system was tested by conducting a simple operant conditioning procedure and a spinal cord stimulation (SCS) sensory detection experiment using a custom microstimulator in rodents. The analyzed data demonstrated appropriate behavioral learning and sensory detection thresholds, in alignment with previous SCS behavioral studies which utilized commercial or single-tier systems for control of operant chambers. This work demonstrates the effective integration of an open-source full-stack application with existing commercial hardware that can provide adaptable and scalable means for conducting behavioral experiments, crucial for advancing neural interface technologies.",
-          "url": "https://doi.org/10.3758/s13428-026-03096-9",
-          "doi": "https://doi.org/10.3758/s13428-026-03096-9",
-          "filter": 0,
-          "created": "2026-6-29"
         },
         {
           "title": "Exploring psychological tradeoffs: Developing and demonstrating an R Shiny app for Pareto optimization",
@@ -90,31 +73,29 @@
           "created": "2026-7-1"
         },
         {
-          "title": "Psychometric functions from multiple responses",
-          "authors": "Saul Sternberg, Ronald L. Knoll, Colin L. Mallows",
-          "abstract": "By using three or more ordered response categories and varying the stimulus feature being judged over a large range, it is possible to generate a family of psychometric functions (PMFs), each based on a different partition of the responses. An earlier paper showed how, when it is treated as a probability distribution, the traditional single PMF based on binary-choice data can be decomposed into sensory and decision components, expressed as two independent random variables that are summed to create the PMF. Here we extend this development to the multiple-response procedure, and use it to elucidate the relations among the spreads and shapes of the resulting family of PMFs, which can be described by their first four cumulants. For example, we determine conditions under which the PMFs can have the same spread and shape, differing only by translation on the stimulus axis. Whereas PMFs depend on both sensory and decision processes, differences among the PMFs in a family depend only on the decision processes. Application of this multiple-PMF method to several decision models, whose evaluations depend on the PMF cumulants, shows it to have greater power than the single-PMF method for understanding the perceptual process. Although this work was inspired by experiments on the perception of temporal order, it can be applied to experiments where features of stimuli other than their occurrence times are being compared, such as the pitch of tones or the brightness of lights.",
-          "url": "https://doi.org/10.3758/s13428-025-02828-7",
-          "doi": "https://doi.org/10.3758/s13428-025-02828-7",
+          "title": "QualGames: A Qualtrics implementation and a database of behavioral game theory tasks",
+          "authors": "Shengchuang Feng, Nadhilla Melia, Akshay Abraham, Yuan Ni Chan, Li Ling Lee, Jia Ying Pei, Hui Shan Yap, David Hung, John Suckling, Chew Lee Teo, Trevor Robbins, Barbara Sahakian, Zoe Kourtzi, Victoria Leong, Annabel Chen, Henriette Hendriks, Georgios Christopoulos, character(0)",
+          "url": "https://doi.org/10.3758/s13428-026-03081-2",
+          "doi": "https://doi.org/10.3758/s13428-026-03081-2",
           "filter": 0,
-          "created": "2026-6-29"
+          "created": "2026-7-6"
         },
         {
-          "title": "Talking surveys: How photorealistic embodied conversational agents shape response quality, engagement, and satisfaction",
-          "authors": "Matus Krajcovic, Peter Demcak, Eduard Kuric",
-          "abstract": "Embodied conversational agents (ECAs) are increasingly more realistic and capable of dynamic conversations. In online surveys, anthropomorphic agents could help address issues like careless responding and satisficing, which originate from the lack of personal engagement and perceived accountability. However, there is a lack of understanding of how ECAs in user experience research may affect participant engagement, satisfaction, and the quality of responses. We introduce a method, Virtual Agent Interviewer, and validate it in a randomized study. Our proof-of-concept method enables the incorporation of conversations with a virtual avatar into surveys using AI-driven video generation, speech recognition, and Large Language Models. In our between-subjects study, 80 participants (UK, stratified random sample of the general population) either talked to a voice-based agent with an animated video avatar, or interacted with a chatbot. Our evaluation entails 2265 conversation responses obtained across surveys based on two self-reported psychometric tests. Statistical comparison of the results indicates that embodied agents can contribute significantly to more informative, detailed responses, as well as higher yet more time-efficient engagement. Furthermore, qualitative analysis provides valuable insights about the causes of no significant change to satisfaction, linked to personal preferences, turn-taking delays, and Uncanny Valley reactions. These findings support and inform the development of new AI-driven embodiment-based methods for the transformation of online surveys into more natural interactions resembling in-person interviews.",
-          "url": "https://doi.org/10.3758/s13428-026-03091-0",
-          "doi": "https://doi.org/10.3758/s13428-026-03091-0",
+          "title": "PyLossless: A non-destructive EEG processing pipeline",
+          "authors": "Scott Huberty, James Desjardins, Tyler Collins, Mayada Elsabbagh, Christian O’Reilly",
+          "abstract": "EEG recordings are typically long and contain large amounts of data, making manual cleaning a time-consuming and error-prone task. Automated preprocessing pipelines can facilitate the efficient and objective extraction of artifacts, enabling standardized and reproducible analyses. However, automated preprocessing pipelines typically remove data considered artifacts and return a subset of irreversibly transformed signals. This approach obfuscates preprocessing decisions and often makes it impossible to recover the original data or modify the preprocessing steps. Further, it complicates collaboration among research teams working on a common dataset, as different analyses may require specific preprocessing steps. Given the large amount of resources devoted to collecting EEG, tools that can efficiently and transparently preprocess data are greatly needed. PyLossless addresses this need by creating a non-destructive, automated preprocessing pipeline that maintains the continuous EEG structure. It offers a user-friendly API, is well documented, tested through continuous integration, easily deployable, and integrates with the popular MNE-Python environment. The pipeline also provides a browser-based quality control review (QCR) dashboard that allows researchers to visualize and edit automated artifact flags for sensors, time periods, and independent components. The end product of PyLossless is a lossless annotated data state that can be shared and used with analysis-specific artifact rejection policies, allowing for an optimal balance between flexibility and standardization.",
+          "url": "https://doi.org/10.3758/s13428-026-02997-z",
+          "doi": "https://doi.org/10.3758/s13428-026-02997-z",
           "filter": 0,
-          "created": "2026-6-29"
+          "created": "2026-7-6"
         },
         {
-          "title": "PyNeon: A Python package for the analysis of Neon multimodal mobile eye-tracking data",
-          "authors": "Qian Chu, Jan-Gabriel Hartel, Alex Lepauvre, Lucia Melloni",
-          "abstract": "Mobile eye-tracking has revolutionized the study of human behavior and cognition by enabling researchers to record eye movements in the real world. However, the dynamic and multimodal nature of mobile eye-tracking data also introduces significant analytical challenges, including the alignment, integration, and interpretation of complex data. To fill these gaps, we present PyNeon, a versatile, community-oriented Python package designed to streamline the analysis of mobile eye-tracking, motion, and video data from the Neon eye-tracking system (Pupil Labs GmbH). We describe how PyNeon provides accessible APIs for reading, preprocessing, epoching, and exporting Neon data. Furthermore, it supports advanced video processing such as mapping between eye movement data and real-world coordinates and dynamic scanpath estimation. PyNeon presents an open-source and extendable framework for analyzing mobile eye-tracking data and forms the foundation for higher-level applications.",
-          "url": "https://doi.org/10.3758/s13428-026-03089-8",
-          "doi": "https://doi.org/10.3758/s13428-026-03089-8",
+          "title": "“It makes sense to me”: Examining data file column names in the visual cognitive literature",
+          "authors": "Giovanna C. Del Sordo, Haden Dewis, Peter T. Darch, Michael C. Hout, Hayward J. Godwin",
+          "url": "https://doi.org/10.3758/s13428-026-03104-y",
+          "doi": "https://doi.org/10.3758/s13428-026-03104-y",
           "filter": 0,
-          "created": "2026-6-29"
+          "created": "2026-7-6"
         }
       ],
       "articles_hidden": []
@@ -124,14 +105,6 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "The confounding role of gaming behavior calls for a re-evaluation of neurobiological models of gaming disorder",
-          "authors": "Wen-tao Lai, Xia Liu, Zi-yun Xu, Zhi Kong, Ping Ren, Zhi-feng Zhou, Ji-hui Yang, Hai Li, Gang-qiang Hou, Wen-tao Jiang",
-          "url": "https://doi.org/10.1016/j.chb.2026.109108",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109108",
-          "filter": 0,
-          "created": "2026-6-29"
-        },
-        {
           "title": "Mindfulness Training in Virtual Reality for Borderline Personality Disorder symptoms: An Analogue Study",
           "authors": "Yaren Chakmak, Crescent Jicol, Karin Petrini",
           "url": "https://doi.org/10.1016/j.chb.2026.109106",
@@ -140,12 +113,12 @@
           "created": "2026-7-4"
         },
         {
-          "title": "Multimodal imaging and transcriptomics reveal the pathway of mindfulness-mediated recovery in internet gaming disorder",
-          "authors": "Xuefeng Xu, Huabin Wang, Shaoyu Cui, Haosen Ni, Guang-Heng Dong",
-          "url": "https://doi.org/10.1016/j.chb.2026.109107",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109107",
+          "title": "Is Faking It the New Making It?: Exploring Virtual Influencers’ Effectiveness in Depression Campaign",
+          "authors": "Rachel X. Peng",
+          "url": "https://doi.org/10.1016/j.chb.2026.109119",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109119",
           "filter": 0,
-          "created": "2026-7-3"
+          "created": "2026-7-6"
         },
         {
           "title": "The impact of affordances for emotional human–chatbot interaction on users’ willingness to self-disclose",
@@ -212,12 +185,12 @@
           "created": "2026-2-19"
         },
         {
-          "title": "Is Faking It the New Making It?: Exploring Virtual Influencers’ Effectiveness in Depression Campaign",
-          "authors": "Rachel X. Peng",
-          "url": "https://doi.org/10.1016/j.chb.2026.109119",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109119",
+          "title": "Multimodal imaging and transcriptomics reveal the pathway of mindfulness-mediated recovery in internet gaming disorder",
+          "authors": "Xuefeng Xu, Huabin Wang, Shaoyu Cui, Haosen Ni, Guang-Heng Dong",
+          "url": "https://doi.org/10.1016/j.chb.2026.109107",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109107",
           "filter": 0,
-          "created": "2026-7-6"
+          "created": "2026-7-3"
         },
         {
           "title": "Interdisciplinary perspectives and current findings on the role of trust as a psychological mediator in human interaction with artificial intelligence: Editorial overview",
@@ -266,6 +239,15 @@
           "doi": "https://doi.org/10.1177/13684302261460770",
           "filter": 0,
           "created": "2026-6-30"
+        },
+        {
+          "title": "Shifting Demographics, Shifting Perceptions: How Race and Politics Shape Reactions to the Majority-Minority Future",
+          "authors": "Deborah J. Wu, Stylianos Syropoulos, Andrea Y. J. Mah, Kyle F. Law, Katherine L. Dixon-Gordon, Ezra M. Markowitz, Tatishe M. Nteta, Allecia E. Reid, Joel C. Ginn, Se Min Suh, Liane Young, Brian Lickel",
+          "abstract": "Racial minorities are expected to be a majority of the U.S. population by 2044. We examined predictors of Americans’ perceptions towards this racial demographic shift (RDS), how accurately they estimate others’ perceptions, and whether an intervention corrects people’s misperceptions. In Study 1, in a nationally representative sample ( N = 1,600), most Republicans, Independents, and Democrats viewed the RDS as neutral or good. Being White, conservative, a 2020 Donald Trump voter, endorsing minimization of racism, and endorsing competitive and dangerous worldviews predicted more negative perceptions. Meanwhile, having racially diverse social networks and positive feelings for racial minorities predicted more positive perceptions. In Study 2, a preregistered Prolific experiment ( N = 819), Republicans underestimated other Republicans’ and Democrats’ perceptions of this shift. An information-based intervention corrected this, with this effect persisting 1 week later, albeit weaker. Our research suggests that emphasizing more positive ingroup perceptions of the RDS may help correct misperceptions and increase support for racial diversity.",
+          "url": "https://doi.org/10.1177/13684302261454594",
+          "doi": "https://doi.org/10.1177/13684302261454594",
+          "filter": 0,
+          "created": "2026-7-6"
         }
       ],
       "articles_hidden": []
@@ -274,14 +256,6 @@
       "journal_full": "Journal of Experimental Social Psychology",
       "journal_short": "JESP",
       "articles": [
-        {
-          "title": "Selective traits and general rewards: Differentiating learning effects on social impression and choice",
-          "authors": "Kira Harris, Andrew Luttrell, Peter Mende-Siedlecki, Leor M. Hackel",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104968",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104968",
-          "filter": 0,
-          "created": "2026-6-29"
-        },
         {
           "title": "Replication and extension of Carlson and Zaki (2018): Do lay theories of altruism apply equally to all actors?",
           "authors": "Ashley Harrell, Margaret L. Traeger",
@@ -491,12 +465,12 @@
           "created": "2026-3-10"
         },
         {
-          "title": "Emotional cues to group hierarchy: Inferences about dominance- versus prestige-based hierarchies from members' emotional expressions",
-          "authors": "Marc W. Heerdink, Svenja A. Wolf, Jens Lange, Florian Wanders, Xia Fang, Eftychia Stamkou, Gerben A. van Kleef",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104931",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104931",
+          "title": "Common = ineffective? A replication attempt of the normative dilution effect in the context of political apologies",
+          "authors": "Vlada Trofimchuk, Rebecca Littman",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104938",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104938",
           "filter": 0,
-          "created": "2026-4-15"
+          "created": "2026-5-9"
         },
         {
           "title": "Beyond confronting: Cultivating inclusion through proactive Allyship",
@@ -505,14 +479,6 @@
           "doi": "https://doi.org/10.1016/j.jesp.2026.104923",
           "filter": 0,
           "created": "2026-4-2"
-        },
-        {
-          "title": "Common = ineffective? A replication attempt of the normative dilution effect in the context of political apologies",
-          "authors": "Vlada Trofimchuk, Rebecca Littman",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104938",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104938",
-          "filter": 0,
-          "created": "2026-5-9"
         },
         {
           "title": "Using intersectional implicit association measures does not consistently improve the predictive validity of the implicit association test",
@@ -578,14 +544,6 @@
       "journal_short": "JPSP",
       "articles": [
         {
-          "title": "Outgroup friendships and social influence in the development of adolescent attitudes toward secondary outgroups.",
-          "authors": "Tibor Zingora, Chloe Bracegirdle, Tobias H. Stark, Olivia Spiegler",
-          "url": "https://doi.org/10.1037/pspi0000530",
-          "doi": "https://doi.org/10.1037/pspi0000530",
-          "filter": 0,
-          "created": "2026-6-29"
-        },
-        {
           "title": "Belief in a diversity–meritocracy trade-off.",
           "authors": "Evan P. Apfelbaum, Eileen Y. Suh, Yue Wu",
           "url": "https://doi.org/10.1037/pspa0000482",
@@ -618,20 +576,20 @@
           "created": "2026-1-29"
         },
         {
-          "title": "The unexpected importance of expectations in self-conscious emotions.",
-          "authors": "Jessica L. Tracy, Gabrielle C. Ibasco",
-          "url": "https://doi.org/10.1037/pspa0000486",
-          "doi": "https://doi.org/10.1037/pspa0000486",
-          "filter": 0,
-          "created": "2026-3-19"
-        },
-        {
           "title": "Dynamic networks of social contact, social desire, and affect across time scales.",
           "authors": "Michael D. Krämer, Bernd Schaefer, Yannick Roos, David Richter, Cornelia Wrzus",
           "url": "https://doi.org/10.1037/pspp0000592",
           "doi": "https://doi.org/10.1037/pspp0000592",
           "filter": 0,
           "created": "2026-1-5"
+        },
+        {
+          "title": "The unexpected importance of expectations in self-conscious emotions.",
+          "authors": "Jessica L. Tracy, Gabrielle C. Ibasco",
+          "url": "https://doi.org/10.1037/pspa0000486",
+          "doi": "https://doi.org/10.1037/pspa0000486",
+          "filter": 0,
+          "created": "2026-3-19"
         },
         {
           "title": "Patterns and sources of life satisfaction stability and change at different developmental stages.",
@@ -642,20 +600,20 @@
           "created": "2026-4-13"
         },
         {
-          "title": "Exploring the socioeconomic pattern of humans’ future orientation: A multimethod multistudy approach.",
-          "authors": "Alejandro Díaz-Guerra, Mirko Antino, Rafael Caballero, Alfredo Rodríguez-Muñoz, Alejandro Vásquez-Echeverría",
-          "url": "https://doi.org/10.1037/pspp0000598",
-          "doi": "https://doi.org/10.1037/pspp0000598",
-          "filter": 0,
-          "created": "2026-4-9"
-        },
-        {
           "title": "The dispositional basis of selective prosociality.",
           "authors": "Büsra Elif Yelbuz, Isabel Thielmann",
           "url": "https://doi.org/10.1037/pspp0000583",
           "doi": "https://doi.org/10.1037/pspp0000583",
           "filter": 0,
           "created": "2025-10-16"
+        },
+        {
+          "title": "Exploring the socioeconomic pattern of humans’ future orientation: A multimethod multistudy approach.",
+          "authors": "Alejandro Díaz-Guerra, Mirko Antino, Rafael Caballero, Alfredo Rodríguez-Muñoz, Alejandro Vásquez-Echeverría",
+          "url": "https://doi.org/10.1037/pspp0000598",
+          "doi": "https://doi.org/10.1037/pspp0000598",
+          "filter": 0,
+          "created": "2026-4-9"
         }
       ],
       "articles_hidden": []
@@ -717,16 +675,39 @@
       "articles_hidden": []
     },
     {
+      "journal_full": "Psychological Bulletin",
+      "journal_short": "PsychBull",
+      "articles": [
+        {
+          "title": "Does the variance of personality traits change across the lifespan? A meta-analytic review of longitudinal studies.",
+          "authors": "Peter Haehner, Susanne Buecker, Marco J. Altorfer, Vera V. Bocklet, Wiebke Bleidorn",
+          "url": "https://doi.org/10.1037/bul0000523",
+          "doi": "https://doi.org/10.1037/bul0000523",
+          "filter": 0,
+          "created": "2026-7-6"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Psychological Methods",
       "journal_short": "PM",
       "articles": [
         {
-          "title": "Bayesian evaluation for latent variable models: A tutorial on computing information criteria and bayes factors with the r package bleval.",
-          "authors": "Xiaohui Luo, Jieyuan Dong, Hongyun Liu, Yang Liu, Edgar C. Merkle",
-          "url": "https://doi.org/10.1037/met0000852",
-          "doi": "https://doi.org/10.1037/met0000852",
+          "title": "Addressing selective reporting bias in meta-analysis of dependent effect sizes: A tutorial in R.",
+          "authors": "Man Chen, James E. Pustejovsky",
+          "url": "https://doi.org/10.1037/met0000841",
+          "doi": "https://doi.org/10.1037/met0000841",
           "filter": 0,
-          "created": "2026-6-29"
+          "created": "2026-7-6"
+        },
+        {
+          "title": "Heterogeneous variance models with Gaussian processes.",
+          "authors": "Yvette Baurne, Frédéric Delmar, Jonas Wallin",
+          "url": "https://doi.org/10.1037/met0000850",
+          "doi": "https://doi.org/10.1037/met0000850",
+          "filter": 0,
+          "created": "2026-7-6"
         }
       ],
       "articles_hidden": []
@@ -745,6 +726,15 @@
           "created": "2026-7-2"
         },
         {
+          "title": "Boosting Media Literacy Using Lateral Reading and Online Search Interventions",
+          "authors": "Lisa Oswald, Anastasia Kozyreva, Stefan M. Herzog, Pietro Leonardo Nickl, Ralph Hertwig",
+          "abstract": "Empowering people to navigate online information competently is essential to complement systemic content moderation and platform regulation. A nationally representative randomized controlled study among adults in Germany ( N = 2,666) compared two media-literacy interventions: a source-focused lateral-reading strategy to help participants distinguish trustworthy from untrustworthy news outlets, and a claim-focused search strategy to help them assess the credibility of specific claims. Both interventions showed small improvements in discernment, but not all effects were statistically distinguishable from zero. At a 2-week follow-up, discernment improved in all groups, and differences between the intervention and control groups were no longer statistically distinguishable. We found no evidence of backfire effects. An exploratory analysis of discernment pretreatment indicated the lowest performance for supporters of populist radical-right parties. Behavioral measures suggested increases in information search in both intervention groups. On average, lateral reading reduced trust in untrustworthy sources, and online search increased trust in trustworthy sources.",
+          "url": "https://doi.org/10.1177/09567976261453813",
+          "doi": "https://doi.org/10.1177/09567976261453813",
+          "filter": 0,
+          "created": "2026-7-6"
+        },
+        {
           "title": "A Field Experiment Testing Whether Accountability Reduces Racial Gaps in Performance Evaluations",
           "authors": "Edward H. Chang, Erika L. Kirgios, Cansin Arslan",
           "abstract": "Accountability is a commonly recommended intervention to reduce discrimination. However, there have been no field experiments testing whether it reduces discrimination in workplaces. Here we present preregistered analyses of a field experiment conducted at a company ( n = 3,266 managers rating 17,149 employees) testing whether an accountability intervention reduces performance-evaluation gaps between White and racial-minority employees. We did not find evidence that the accountability intervention closes evaluation gaps. These null effects are likely not driven by a lack of statistical power or by inattentive managers, nor is the manipulation ineffective in all contexts—a supplemental online experiment shows that similar treatment language does change decision-making, underscoring a disconnect between findings in hypothetical settings versus real organizations. These results highlight the need for additional field experiments and theorizing to better understand when and why accountability interventions, as they may typically be implemented in organizations, improve diversity-related outcomes.",
@@ -761,22 +751,6 @@
           "doi": "https://doi.org/10.1177/09567976261455283",
           "filter": 0,
           "created": "2026-7-1"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Psychology of Music",
-      "journal_short": "PsychMusic",
-      "articles": [
-        {
-          "title": "The role of social media feedback in performance preparation, self-esteem, and anxiety",
-          "authors": "Lina K Hejjawi, Charlene Ryan, Karin S Hendricks, Tawnya D Smith",
-          "abstract": "Online social networking is a common mode of communication; however, the research literature is divided as to its impact upon well-being. As musicians increasingly engage in online performances, we were interested in exploring responses and feelings stemming from social media (SM) feedback related to shared performance encounters. Six university students enrolled in music classes as novice musicians posted pre-performance clips on SM before an in-person public performance. Qualitative data sources included questionnaires, interviews, SM activities, and SM friend and follower responses. Using the PERMA model as a framework, we coded and analyzed data to provide insights into the SM networking experiences, music performance anxiety (MPA), and self-esteem (SE) of participants. Results indicated positive impacts of SM networking on participants’ well-being, SE, and MPA. Interactions with friends and followers on SM emerged as beneficial and were perceived to contribute to successful performance preparation. The findings indicate that using SM mindfully can be beneficial for novice music students, while intentional use of social platforms may effectively enhance their self-efficacy beliefs. Recommendations are made for educators in engaging SM as part of their students’ performance preparation.",
-          "url": "https://doi.org/10.1177/03057356261437000",
-          "doi": "https://doi.org/10.1177/03057356261437000",
-          "filter": 0,
-          "created": "2026-6-30"
         }
       ],
       "articles_hidden": []
@@ -882,20 +856,20 @@
           "created": "2026-4-23"
         },
         {
-          "title": "Interrelational dynamics in problematic video game use: A network analysis.",
-          "authors": "Chloé Nguyen, Valentin Flaudias, Quentin Hallez",
-          "url": "https://doi.org/10.1037/ppm0000658",
-          "doi": "https://doi.org/10.1037/ppm0000658",
-          "filter": 0,
-          "created": "2026-3-19"
-        },
-        {
           "title": "Writing and reading fan fiction: The roles of self and social media.",
           "authors": "Clara B. Rebello, Sonia Ghir, Kiana Reddock, Angelie Ignacio, Gerald C. Cupchik",
           "url": "https://doi.org/10.1037/ppm0000613",
           "doi": "https://doi.org/10.1037/ppm0000613",
           "filter": 0,
           "created": "2025-9-4"
+        },
+        {
+          "title": "Interrelational dynamics in problematic video game use: A network analysis.",
+          "authors": "Chloé Nguyen, Valentin Flaudias, Quentin Hallez",
+          "url": "https://doi.org/10.1037/ppm0000658",
+          "doi": "https://doi.org/10.1037/ppm0000658",
+          "filter": 0,
+          "created": "2026-3-19"
         },
         {
           "title": "Association between gaming disorder and internalizing symptoms among children and adolescents: A child–parent dyadic study.",
@@ -946,6 +920,14 @@
           "created": "2025-10-2"
         },
         {
+          "title": "Weathering the storm: Grief and fan identity following the loss of a fan object.",
+          "authors": "Antonia Beatrice D. Lee",
+          "url": "https://doi.org/10.1037/ppm0000620",
+          "doi": "https://doi.org/10.1037/ppm0000620",
+          "filter": 0,
+          "created": "2025-7-17"
+        },
+        {
           "title": "Do the traits of fictional crushes and real-life ideals align? An investigation into ideal standards based on fictional fandoms.",
           "authors": "Nicole Zhi Min Wang, Ai Ni Teoh",
           "url": "https://doi.org/10.1037/ppm0000646",
@@ -960,14 +942,6 @@
           "doi": "https://doi.org/10.1037/ppm0000610",
           "filter": 0,
           "created": "2025-6-23"
-        },
-        {
-          "title": "Weathering the storm: Grief and fan identity following the loss of a fan object.",
-          "authors": "Antonia Beatrice D. Lee",
-          "url": "https://doi.org/10.1037/ppm0000620",
-          "doi": "https://doi.org/10.1037/ppm0000620",
-          "filter": 0,
-          "created": "2025-7-17"
         }
       ],
       "articles_hidden": []
@@ -977,12 +951,12 @@
       "journal_short": "TMB",
       "articles": [
         {
-          "title": "(Mis)perceptions of other people’s social media use.",
-          "authors": "Cameron J. Bunker, Stephanie Torres-Pantoja, Elliot Panek, Joseph B. Bayer",
-          "url": "https://doi.org/10.1037/tmb0000201",
-          "doi": "https://doi.org/10.1037/tmb0000201",
+          "title": "Smartphone use patterns and well-being among older adults: A screenomics study.",
+          "authors": "Yifei Su, Andrew Z. H. Yee, Guan Peng Loy, Edmund W. J. Lee",
+          "url": "https://doi.org/10.1037/tmb0000197",
+          "doi": "https://doi.org/10.1037/tmb0000197",
           "filter": 0,
-          "created": "2026-6-29"
+          "created": "2026-7-6"
         }
       ],
       "articles_hidden": []
