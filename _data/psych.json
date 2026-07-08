@@ -1,5 +1,5 @@
 {
-  "update": "2026-07-07",
+  "update": "2026-07-08",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -31,6 +31,15 @@
       "journal_short": "BRM",
       "articles": [
         {
+          "title": "Relations of social cognition with affective states: Insights from an expanded 2650-word database on warmth and competence",
+          "authors": "Dawid Żuk, Michał Chęciński, Adrianna Wielgopolan, Kamil K. Imbir",
+          "abstract": "We expanded an existing database of affectively charged words by adding ratings of warmth and competence. We also examined the relationships between these two dimensions and previously established ones – positivity, negativity, automaticity, reflectiveness, arousal, and subjective significance. In this study, 948 participants evaluated 2650 words on warmth and competence using a modified version of the Self-Assessment Manikin scale. This allowed us to obtain ratings of perceived warmth and competence for each word. We also identified the type, direction, and strength of the relationships between warmth and competence and each affective dimension. The results provide a detailed mapping of these associations, and the database may serve as a valuable resource for future research. The findings, possible usage of our database, and limitations are discussed.",
+          "url": "https://doi.org/10.3758/s13428-026-03085-y",
+          "doi": "https://doi.org/10.3758/s13428-026-03085-y",
+          "filter": 0,
+          "created": "2026-7-7"
+        },
+        {
           "title": "Generative psychometrics via AI-GENIE: Automatic item generation and validation with network-integrated evaluation",
           "authors": "Lara L. Russell-Lasalandra, Alexander P. Christensen, Hudson Golino",
           "abstract": "The rapid advancement of artificial intelligence (AI), particularly large language models (LLMs), has introduced powerful tools for various research domains, including psychological scale development. This study presents a methodology for efficiently generating and selecting high-quality, non-redundant items for psychological assessments using LLMs and network psychometrics. Our approach, termed Automatic Item Generation and Validation with Network-Integrated Evaluation (AI-GENIE), reduces reliance on expert intervention by integrating generative AI with the latest network psychometric techniques. The efficacy of AI-GENIE was evaluated through Monte Carlo simulations using the Mixtral, Gemma 2, Llama 3, GPT-3.5, and GPT-4o models to generate item pools that mimic Big Five personality assessments. Additionally, items from AI-GENIE were empirically tested with five nationally representative U.S. samples ( $$N = 4{,}964$$ N = 4 , 964 total), demonstrating that AI-GENIE-generated scales achieve structural validity—that is, evidence based on internal structure (dimensionality and item stability)—comparable to traditional expert-developed measures. The results demonstrated improvements in item selection efficiency, with overall average increases of 8.68–20.03 in normalized mutual information in the final item pool across all models. We also present a simulation study on the emerging construct of AI anxiety to demonstrate AI-GENIE’s utility for underrepresented constructs. Results from newly released models (DeepSeek, GPT-OSS 20B, GPT-OSS 120B) are presented in the Appendix. The findings suggest that AI-GENIE can streamline the scale development and structural validation process.",
@@ -48,6 +57,14 @@
           "created": "2026-7-2"
         },
         {
+          "title": "Author Correction: TCBLex - A lexical database of Finnish literary texts for children",
+          "authors": "Tapio Nojonen, Kiia Korsu, Filip Ginter, Veronika Laippala, Jenna Kanerva",
+          "url": "https://doi.org/10.3758/s13428-026-03062-5",
+          "doi": "https://doi.org/10.3758/s13428-026-03062-5",
+          "filter": 0,
+          "created": "2026-7-7"
+        },
+        {
           "title": "Exploring psychological tradeoffs: Developing and demonstrating an R Shiny app for Pareto optimization",
           "authors": "Yixiao Dong, Deodatta Baral, Kushmakar Baral, Denis Dumas",
           "abstract": "While some are neutral, many psychological constructs (e.g., depression, learning motivation, or antisocial behavior) carry clear directional expectations that align with social or ethical principles and values. When a construct is framed with the goal of moving toward its socially desirable direction, it becomes a meaningful psychological objective to pursue. People pursue different objectives in their daily lives, sometimes simultaneously. During this process, tradeoffs occur when objectives are in tension or conflict (e.g., speed and accuracy in problem-solving), meaning they cannot be consistently improved without compromising one another. While certain psychological tradeoffs have been well studied, others remain underexplored or possibly even unidentified. One critical reason is that mainstream analytic methods used in psychological research are not designed to investigate such tradeoffs. Fortunately, a suitable method has long existed in other disciplines. Pareto optimization (PO) is an effective analytic framework widely applied in fields such as biology, economics, and engineering to investigate tradeoffs among multiple competing objectives. In this tutorial, we review the core conceptual and methodological foundations of PO and aim to bring this classic method to a psychological audience. Moreover, we develop a user-friendly R Shiny application (named PO-Run) for conducting PO analyses and adapt the Marginal Rate of Substitution Index from econometrics to quantify psychological tradeoffs. The application can be accessed via https://paretooptimization.shinyapps.io/Pareto/ , and its utility is further illustrated through a real-world psychological example. Methodological considerations, guidance for using results, and future directions for advancing the PO method are discussed.",
@@ -57,18 +74,28 @@
           "created": "2026-7-1"
         },
         {
+          "title": "The evaluation of devaluation: Deficient outcome devaluation leads to wrongly considering goal-directed actions as habits",
+          "authors": "Antonio Vázquez-Millán, Pablo Martínez-López, María Rueda, José J. León, David Luque",
+          "abstract": "Habits are stimulus-driven responses that are produced independently of the current outcome value. They enable efficient actions in familiar contexts while freeing up cognitive resources. Habits are expected to influence behavior after substantial experience, whereas limited training leaves behavior under goal-directed control. This transition from goal-directed to habitual control has been documented in animal research but remains challenging to replicate in humans. Using a free-operant task, recent studies have suggested that human habits can be fully learned even after short training. This would produce a ceiling effect, explaining null results when the amount of training is manipulated. Here, we propose an alternative explanation: the devaluation protocol was ineffective for a subset of participants who appeared “habitual”. To test this hypothesis, we conducted a preregistered conceptual replication of the free-operant task with improved devaluation. As in previous research, we found no difference in habitual responses between short and extended training. In contrast to prior reports, most participants were sensitive to outcome devaluation. Habitual responding was strongly correlated with the effectiveness of the outcome devaluation protocol; habit-like responses were mostly produced by the few participants for whom the devaluation did not work. We further supported our hypothesis by reanalyzing previous datasets, finding that, across all studies, participants who showed more habit-like responses were those for whom the devaluation was less effective. Taken together, our findings suggest that suboptimal outcome devaluation protocols may have biased previous results, leading to habit-like goal-directed responses regardless of the amount of previous instrumental training.",
+          "url": "https://doi.org/10.3758/s13428-026-03099-6",
+          "doi": "https://doi.org/10.3758/s13428-026-03099-6",
+          "filter": 0,
+          "created": "2026-7-7"
+        },
+        {
+          "title": "The Rhythm Reproduction Task for children: A psychometric examination",
+          "authors": "Katharina Schaaf, Klaus Frieler, Franziska Degé",
+          "abstract": "Rhythmic ability includes various subskills, such as rhythm production and perception of beat, meter, and pattern. Among these, reproducing rhythmic patterns is a key measure of productive rhythmic skills. This study examined the psychometric properties of the Rhythm Reproduction Task for children (Jungbluth &amp; Hafen, 2005) and an extended version including permuted item variants. A total of 151 children aged 5 to 8 completed the task across five response modalities (drumming after the experimenter, clapping, tapping, drumming after a loudspeaker, and vocal reproduction). Analyses showed appropriate item difficulty and variance, good internal consistency ( α = .86, ω = .77), and strong correlations between original and permuted items ( r = .84–.89). Structural equation modeling indicated partial metric invariance across item versions and response modalities. Results support the Rhythm Reproduction Task as a reliable measure of rhythmic pattern reproduction in children, with permuted items expanding its applicability.",
+          "url": "https://doi.org/10.3758/s13428-026-03086-x",
+          "doi": "https://doi.org/10.3758/s13428-026-03086-x",
+          "filter": 0,
+          "created": "2026-7-7"
+        },
+        {
           "title": "Are 7-point Likert scales preferable to 5-point scales in language research?",
           "authors": "Marc Brysbaert",
           "url": "https://doi.org/10.3758/s13428-026-03101-1",
           "doi": "https://doi.org/10.3758/s13428-026-03101-1",
-          "filter": 0,
-          "created": "2026-7-1"
-        },
-        {
-          "title": "A validity-guided workflow for robust large language model research in psychology",
-          "authors": "Zhicheng Lin",
-          "url": "https://doi.org/10.3758/s13428-026-03073-2",
-          "doi": "https://doi.org/10.3758/s13428-026-03073-2",
           "filter": 0,
           "created": "2026-7-1"
         },
@@ -81,19 +108,36 @@
           "created": "2026-7-6"
         },
         {
-          "title": "PyLossless: A non-destructive EEG processing pipeline",
-          "authors": "Scott Huberty, James Desjardins, Tyler Collins, Mayada Elsabbagh, Christian O’Reilly",
-          "abstract": "EEG recordings are typically long and contain large amounts of data, making manual cleaning a time-consuming and error-prone task. Automated preprocessing pipelines can facilitate the efficient and objective extraction of artifacts, enabling standardized and reproducible analyses. However, automated preprocessing pipelines typically remove data considered artifacts and return a subset of irreversibly transformed signals. This approach obfuscates preprocessing decisions and often makes it impossible to recover the original data or modify the preprocessing steps. Further, it complicates collaboration among research teams working on a common dataset, as different analyses may require specific preprocessing steps. Given the large amount of resources devoted to collecting EEG, tools that can efficiently and transparently preprocess data are greatly needed. PyLossless addresses this need by creating a non-destructive, automated preprocessing pipeline that maintains the continuous EEG structure. It offers a user-friendly API, is well documented, tested through continuous integration, easily deployable, and integrates with the popular MNE-Python environment. The pipeline also provides a browser-based quality control review (QCR) dashboard that allows researchers to visualize and edit automated artifact flags for sensors, time periods, and independent components. The end product of PyLossless is a lossless annotated data state that can be shared and used with analysis-specific artifact rejection policies, allowing for an optimal balance between flexibility and standardization.",
-          "url": "https://doi.org/10.3758/s13428-026-02997-z",
-          "doi": "https://doi.org/10.3758/s13428-026-02997-z",
+          "title": "A validity-guided workflow for robust large language model research in psychology",
+          "authors": "Zhicheng Lin",
+          "url": "https://doi.org/10.3758/s13428-026-03073-2",
+          "doi": "https://doi.org/10.3758/s13428-026-03073-2",
           "filter": 0,
-          "created": "2026-7-6"
+          "created": "2026-7-1"
         },
         {
           "title": "“It makes sense to me”: Examining data file column names in the visual cognitive literature",
           "authors": "Giovanna C. Del Sordo, Haden Dewis, Peter T. Darch, Michael C. Hout, Hayward J. Godwin",
           "url": "https://doi.org/10.3758/s13428-026-03104-y",
           "doi": "https://doi.org/10.3758/s13428-026-03104-y",
+          "filter": 0,
+          "created": "2026-7-6"
+        },
+        {
+          "title": "Subjective norms of paintings: Integrating perceptual, cognitive, and emotional dimensions",
+          "authors": "Khaoula Ennahli, Cristiane Souza, Margarida Vaz Garrido",
+          "abstract": "Artworks, such as paintings, are frequently utilized as stimuli in research and interventions. However, the complexity of their perceptual, emotional, and cognitive properties necessitates rigorous validation to ensure the reliability of research outcomes and the efficacy of their application in real-world contexts. A few studies have already established norms for paintings. Still, the type of stimuli (e.g., artificial intelligence [AI]-generated) and the comprehensiveness of the assessed dimensions may not entirely capture the complexity of human-made ecological artworks. The current study establishes norms for a diverse set of 144 human-made paintings retrieved from the publicly accessible WikiArt database and thematically clustered into four categories: objects ( n = 36), places ( n = 36), people ( n = 36), and abstract ( n = 36) works. European Portuguese native speakers ( N = 361) rated the paintings in 11 perceptual, cognitive, and emotional dimensions. Participants also provided qualitative descriptions of the paintings, detailing their content and recognized elements. Descriptive data for each painting are provided by dimension and category. Correlations among the dimensions and between individual variables (e.g., personality traits, prior experience with the arts) and the evaluative ratings are also reported. The results indicate that this painting set is diverse, allowing for the selection of artworks that represent different levels of the evaluated dimensions across stimulus categories. These norms fill a critical gap in the standardized evaluation of paintings, facilitating a more precise and controlled use of these stimuli in experimental, clinical, and creative expression applications.",
+          "url": "https://doi.org/10.3758/s13428-026-03107-9",
+          "doi": "https://doi.org/10.3758/s13428-026-03107-9",
+          "filter": 0,
+          "created": "2026-7-7"
+        },
+        {
+          "title": "PyLossless: A non-destructive EEG processing pipeline",
+          "authors": "Scott Huberty, James Desjardins, Tyler Collins, Mayada Elsabbagh, Christian O’Reilly",
+          "abstract": "EEG recordings are typically long and contain large amounts of data, making manual cleaning a time-consuming and error-prone task. Automated preprocessing pipelines can facilitate the efficient and objective extraction of artifacts, enabling standardized and reproducible analyses. However, automated preprocessing pipelines typically remove data considered artifacts and return a subset of irreversibly transformed signals. This approach obfuscates preprocessing decisions and often makes it impossible to recover the original data or modify the preprocessing steps. Further, it complicates collaboration among research teams working on a common dataset, as different analyses may require specific preprocessing steps. Given the large amount of resources devoted to collecting EEG, tools that can efficiently and transparently preprocess data are greatly needed. PyLossless addresses this need by creating a non-destructive, automated preprocessing pipeline that maintains the continuous EEG structure. It offers a user-friendly API, is well documented, tested through continuous integration, easily deployable, and integrates with the popular MNE-Python environment. The pipeline also provides a browser-based quality control review (QCR) dashboard that allows researchers to visualize and edit automated artifact flags for sensors, time periods, and independent components. The end product of PyLossless is a lossless annotated data state that can be shared and used with analysis-specific artifact rejection policies, allowing for an optimal balance between flexibility and standardization.",
+          "url": "https://doi.org/10.3758/s13428-026-02997-z",
+          "doi": "https://doi.org/10.3758/s13428-026-02997-z",
           "filter": 0,
           "created": "2026-7-6"
         }
@@ -105,6 +149,14 @@
       "journal_short": "CHB",
       "articles": [
         {
+          "title": "Watch before you Play: The effect of connection to streamer in gaming videos on the viewers’ subsequent Game-playing satisfaction",
+          "authors": "Soyeon Lee, Andrew Weaver, John Velez",
+          "url": "https://doi.org/10.1016/j.chb.2026.109122",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109122",
+          "filter": 0,
+          "created": "2026-7-7"
+        },
+        {
           "title": "Mindfulness Training in Virtual Reality for Borderline Personality Disorder symptoms: An Analogue Study",
           "authors": "Yaren Chakmak, Crescent Jicol, Karin Petrini",
           "url": "https://doi.org/10.1016/j.chb.2026.109106",
@@ -113,7 +165,7 @@
           "created": "2026-7-4"
         },
         {
-          "title": "Is Faking It the New Making It?: Exploring Virtual Influencers’ Effectiveness in Depression Campaign",
+          "title": "Is faking it the new making it?: Exploring virtual influencers’ effectiveness in depression awareness campaign",
           "authors": "Rachel X. Peng",
           "url": "https://doi.org/10.1016/j.chb.2026.109119",
           "doi": "https://doi.org/10.1016/j.chb.2026.109119",
@@ -121,12 +173,12 @@
           "created": "2026-7-6"
         },
         {
-          "title": "The impact of affordances for emotional human–chatbot interaction on users’ willingness to self-disclose",
-          "authors": "Xu Zengzhan, Lei Mingpeng",
-          "url": "https://doi.org/10.1016/j.chb.2026.109111",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109111",
+          "title": "Multimodal imaging and transcriptomics reveal the pathway of mindfulness-mediated recovery in internet gaming disorder",
+          "authors": "Xuefeng Xu, Huabin Wang, Shaoyu Cui, Haosen Ni, Guang-Heng Dong",
+          "url": "https://doi.org/10.1016/j.chb.2026.109107",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109107",
           "filter": 0,
-          "created": "2026-7-2"
+          "created": "2026-7-3"
         },
         {
           "title": "The work-related consequences of employees’ media-based political information consumption: A nine-wave weekly study during the 2024 U.S. presidential primary season",
@@ -137,12 +189,28 @@
           "created": "2026-7-4"
         },
         {
+          "title": "The impact of affordances for emotional human–chatbot interaction on users’ willingness to self-disclose",
+          "authors": "Xu Zengzhan, Lei Mingpeng",
+          "url": "https://doi.org/10.1016/j.chb.2026.109111",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109111",
+          "filter": 0,
+          "created": "2026-7-2"
+        },
+        {
           "title": "Uncanny Valley: Reinforcement Sensitivity Theory and Vulnerability to Influence by Artificial Intelligence-Generated Images Online",
           "authors": "Neil Shortland, Katelyn Smith",
           "url": "https://doi.org/10.1016/j.chb.2026.109109",
           "doi": "https://doi.org/10.1016/j.chb.2026.109109",
           "filter": 0,
           "created": "2026-7-2"
+        },
+        {
+          "title": "Substratism: Conceptualizing and Measuring Moral Bias Against AI",
+          "authors": "Ali Ladak, Janet V.T. Pauketat, Jacy Reese Anthis, Steve Loughnan, Matti Wilks",
+          "url": "https://doi.org/10.1016/j.chb.2026.109120",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109120",
+          "filter": 0,
+          "created": "2026-7-7"
         },
         {
           "title": "Digital Exploitation and Vulnerability: A Study of Online Exploited Personalities",
@@ -185,14 +253,6 @@
           "created": "2026-2-19"
         },
         {
-          "title": "Multimodal imaging and transcriptomics reveal the pathway of mindfulness-mediated recovery in internet gaming disorder",
-          "authors": "Xuefeng Xu, Huabin Wang, Shaoyu Cui, Haosen Ni, Guang-Heng Dong",
-          "url": "https://doi.org/10.1016/j.chb.2026.109107",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109107",
-          "filter": 0,
-          "created": "2026-7-3"
-        },
-        {
           "title": "Interdisciplinary perspectives and current findings on the role of trust as a psychological mediator in human interaction with artificial intelligence: Editorial overview",
           "authors": "Irene Valori, Johannes Kraus, Merle T. Fairhurst",
           "url": "https://doi.org/10.1016/j.chb.2026.108957",
@@ -231,15 +291,6 @@
       "journal_full": "Group Processes & Intergroup Relations",
       "journal_short": "GPIR",
       "articles": [
-        {
-          "title": "You Can (Not) Play with Us: Conspiracy Theories, Media, and Ostracism",
-          "authors": "Ani Baghumyan, Tobias Rohrbach, Silke Adam",
-          "abstract": "This study examines the social impact of political conspiracy theories, focusing on how media exposure and individual predispositions lead to negative spillover effects on unrelated outgroups. Using an online survey experiment ( N = 1,973), we test how media coverage of a fictitious conspiracy theory alleging malicious actions by a foreign government affects participants’ willingness to ostracize a secondary outgroup: the uninvolved citizens of the same country. We also assess the role of conspiracy mentality. We first exposed participants to one-sided full debunking, two-sided partial debunking, or neutral coverage of the alleged conspiracy, and then measured their willingness to ostracize the secondary outgroup through self-reports, a list experiment, and a Cyberball game. We found that although media exposure type did not significantly affect ostracism overall, significant interaction emerged among participants high in conspiracy mentality. For this group, one-sided full debunking increased ostracism relative to other conditions. Conspiracy mentality also consistently predicted ostracism across all measures. Our findings highlight the potential backfire effects of certain debunking styles for specific audiences and underscore the importance of individual predispositions in shaping behavioral responses to conspiracy theory coverage.",
-          "url": "https://doi.org/10.1177/13684302261460770",
-          "doi": "https://doi.org/10.1177/13684302261460770",
-          "filter": 0,
-          "created": "2026-6-30"
-        },
         {
           "title": "Shifting Demographics, Shifting Perceptions: How Race and Politics Shape Reactions to the Majority-Minority Future",
           "authors": "Deborah J. Wu, Stylianos Syropoulos, Andrea Y. J. Mah, Kyle F. Law, Katherine L. Dixon-Gordon, Ezra M. Markowitz, Tatishe M. Nteta, Allecia E. Reid, Joel C. Ginn, Se Min Suh, Liane Young, Brian Lickel",
@@ -465,12 +516,12 @@
           "created": "2026-3-10"
         },
         {
-          "title": "Common = ineffective? A replication attempt of the normative dilution effect in the context of political apologies",
-          "authors": "Vlada Trofimchuk, Rebecca Littman",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104938",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104938",
+          "title": "Emotional cues to group hierarchy: Inferences about dominance- versus prestige-based hierarchies from members' emotional expressions",
+          "authors": "Marc W. Heerdink, Svenja A. Wolf, Jens Lange, Florian Wanders, Xia Fang, Eftychia Stamkou, Gerben A. van Kleef",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104931",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104931",
           "filter": 0,
-          "created": "2026-5-9"
+          "created": "2026-4-15"
         },
         {
           "title": "Beyond confronting: Cultivating inclusion through proactive Allyship",
@@ -479,6 +530,14 @@
           "doi": "https://doi.org/10.1016/j.jesp.2026.104923",
           "filter": 0,
           "created": "2026-4-2"
+        },
+        {
+          "title": "Common = ineffective? A replication attempt of the normative dilution effect in the context of political apologies",
+          "authors": "Vlada Trofimchuk, Rebecca Littman",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104938",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104938",
+          "filter": 0,
+          "created": "2026-5-9"
         },
         {
           "title": "Using intersectional implicit association measures does not consistently improve the predictive validity of the implicit association test",
@@ -576,20 +635,20 @@
           "created": "2026-1-29"
         },
         {
-          "title": "Dynamic networks of social contact, social desire, and affect across time scales.",
-          "authors": "Michael D. Krämer, Bernd Schaefer, Yannick Roos, David Richter, Cornelia Wrzus",
-          "url": "https://doi.org/10.1037/pspp0000592",
-          "doi": "https://doi.org/10.1037/pspp0000592",
-          "filter": 0,
-          "created": "2026-1-5"
-        },
-        {
           "title": "The unexpected importance of expectations in self-conscious emotions.",
           "authors": "Jessica L. Tracy, Gabrielle C. Ibasco",
           "url": "https://doi.org/10.1037/pspa0000486",
           "doi": "https://doi.org/10.1037/pspa0000486",
           "filter": 0,
           "created": "2026-3-19"
+        },
+        {
+          "title": "Dynamic networks of social contact, social desire, and affect across time scales.",
+          "authors": "Michael D. Krämer, Bernd Schaefer, Yannick Roos, David Richter, Cornelia Wrzus",
+          "url": "https://doi.org/10.1037/pspp0000592",
+          "doi": "https://doi.org/10.1037/pspp0000592",
+          "filter": 0,
+          "created": "2026-1-5"
         },
         {
           "title": "Patterns and sources of life satisfaction stability and change at different developmental stages.",
@@ -600,35 +659,20 @@
           "created": "2026-4-13"
         },
         {
-          "title": "The dispositional basis of selective prosociality.",
-          "authors": "Büsra Elif Yelbuz, Isabel Thielmann",
-          "url": "https://doi.org/10.1037/pspp0000583",
-          "doi": "https://doi.org/10.1037/pspp0000583",
-          "filter": 0,
-          "created": "2025-10-16"
-        },
-        {
           "title": "Exploring the socioeconomic pattern of humans’ future orientation: A multimethod multistudy approach.",
           "authors": "Alejandro Díaz-Guerra, Mirko Antino, Rafael Caballero, Alfredo Rodríguez-Muñoz, Alejandro Vásquez-Echeverría",
           "url": "https://doi.org/10.1037/pspp0000598",
           "doi": "https://doi.org/10.1037/pspp0000598",
           "filter": 0,
           "created": "2026-4-9"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Multivariate Behavioral Research",
-      "journal_short": "MBR",
-      "articles": [
+        },
         {
-          "title": "Bayesian Machine Learning Tools for Alcohol Use Disorder Research: The bpaup R Package",
-          "authors": "James W. Baurley, Carolyn M. Ervin, Katie Witkiewitz, Eric Claus, Matt Levy, Christopher S. McMahan",
-          "url": "https://doi.org/10.1080/00273171.2026.2691005",
-          "doi": "https://doi.org/10.1080/00273171.2026.2691005",
+          "title": "The dispositional basis of selective prosociality.",
+          "authors": "Büsra Elif Yelbuz, Isabel Thielmann",
+          "url": "https://doi.org/10.1037/pspp0000583",
+          "doi": "https://doi.org/10.1037/pspp0000583",
           "filter": 0,
-          "created": "2026-6-30"
+          "created": "2025-10-16"
         }
       ],
       "articles_hidden": []
@@ -654,22 +698,6 @@
           "doi": "https://doi.org/10.1177/10944281261457337",
           "filter": 0,
           "created": "2026-7-1"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Personality and Social Psychology Bulletin",
-      "journal_short": "PSPB",
-      "articles": [
-        {
-          "title": "Metacognitive and Interpersonal Intellectual Humility Are Asymmetrically Associated with Well-Being",
-          "authors": "Michael M. Prinzing, Shauna M. Bowes, Karen Melton, Perry Glanzer, Sarah Schnitker",
-          "abstract": "Intellectual humility, lauded as an important intellectual virtue, is theorized to encompass metacognitive tendencies (i.e., appreciation of the limits of one’s knowledge and intellectual abilities) and interpersonal ones (i.e., appreciation of others’ knowledge and intellectual abilities). Although prior research has investigated potential epistemic benefits, it remains unclear whether intellectual humility is personally beneficial—that is, conducive to individuals’ well-being. Two main studies and one supplemental study (total N = 4,049) tested for associations cross-sectionally, within and between persons, and in longitudinal changes over 2 years. Results indicated that, whereas interpersonal intellectual humility is associated with better well-being, metacognitive intellectual humility is generally associated with worse. These findings highlight the importance of the distinction between these two forms of intellectual humility, align with theoretical work on the determinants of well-being, and have implications for intellectual humility’s status as a virtue and for efforts to encourage people to cultivate intellectual humility.",
-          "url": "https://doi.org/10.1177/01461672261457222",
-          "doi": "https://doi.org/10.1177/01461672261457222",
-          "filter": 0,
-          "created": "2026-6-30"
         }
       ],
       "articles_hidden": []
@@ -716,6 +744,15 @@
       "journal_full": "Psychological Science",
       "journal_short": "PsychSci",
       "articles": [
+        {
+          "title": "No Evidence for Self-Esteem Effects on Aggression: Findings From a Multi-Year, Multi-Informant Longitudinal Study of Mexican-Origin Families",
+          "authors": "Ulrich Orth, Jasmin A. Aebi, Richard W. Robins",
+          "abstract": "Researchers have long debated whether self-esteem is associated with aggression. In this preregistered research, we tested the effects of self-esteem on aggression by using statistical models that control for unmeasured time-invariant confounders. Data came from a multi-wave longitudinal study of 674 Mexican-origin families, including multi-informant assessments of children, mothers, and fathers at 1- or 2-year intervals. There was no evidence of systematic self-esteem effects on aggression, and the results held when we controlled for narcissism and when the influence of shared-method variance could be ruled out. Also, there was little evidence for effects in the reverse direction, that is, from engaging in aggression on self-esteem. One limitation was that in most cases it was not possible to test whether the self-esteem effects were curvilinear because of the nonconvergence of these models. Overall, the findings do not support either low or high self-esteem as a risk factor for aggression.",
+          "url": "https://doi.org/10.1177/09567976261459011",
+          "doi": "https://doi.org/10.1177/09567976261459011",
+          "filter": 0,
+          "created": "2026-7-7"
+        },
         {
           "title": "Does Testosterone Affect Cognitive Reflection? Evidence From a Double-Blind, Randomized Controlled Study of 1,000 Participants",
           "authors": "Erik L. Knight, Gideon Nave, Steven D. Shaw, Coren Apicella, Pierre L. Bonin, Anna Dreber, Shawn N. Geniole, Magnus Johannesson, Dylan Manfredi, Pranjal Mehta, Valentina Proietti, Steven J. Stanton, Francesca R. Luberti, Triana Ortiz, Justin M. Carré",
@@ -832,20 +869,20 @@
           "created": "2025-6-2"
         },
         {
-          "title": "Audiences on the dark side: Do antisocial personality traits predict motives for true crime listening?",
-          "authors": "Sofia V. Rhea, Laramie D. Taylor",
-          "url": "https://doi.org/10.1037/ppm0000650",
-          "doi": "https://doi.org/10.1037/ppm0000650",
-          "filter": 0,
-          "created": "2026-2-17"
-        },
-        {
           "title": "Mental health disorders on Netflix: Analyzing stereotypes across 13 countries using the stereotype content model and machine learning.",
           "authors": "Katharina Angermayr, Sebastian Scherr",
           "url": "https://doi.org/10.1037/ppm0000660",
           "doi": "https://doi.org/10.1037/ppm0000660",
           "filter": 0,
           "created": "2026-3-5"
+        },
+        {
+          "title": "Audiences on the dark side: Do antisocial personality traits predict motives for true crime listening?",
+          "authors": "Sofia V. Rhea, Laramie D. Taylor",
+          "url": "https://doi.org/10.1037/ppm0000650",
+          "doi": "https://doi.org/10.1037/ppm0000650",
+          "filter": 0,
+          "created": "2026-2-17"
         },
         {
           "title": "Who will spend money uncontrollably in video games? The association between video game playing motivations and compulsive gaming buying among players of different genders.",
@@ -920,14 +957,6 @@
           "created": "2025-10-2"
         },
         {
-          "title": "Weathering the storm: Grief and fan identity following the loss of a fan object.",
-          "authors": "Antonia Beatrice D. Lee",
-          "url": "https://doi.org/10.1037/ppm0000620",
-          "doi": "https://doi.org/10.1037/ppm0000620",
-          "filter": 0,
-          "created": "2025-7-17"
-        },
-        {
           "title": "Do the traits of fictional crushes and real-life ideals align? An investigation into ideal standards based on fictional fandoms.",
           "authors": "Nicole Zhi Min Wang, Ai Ni Teoh",
           "url": "https://doi.org/10.1037/ppm0000646",
@@ -942,6 +971,14 @@
           "doi": "https://doi.org/10.1037/ppm0000610",
           "filter": 0,
           "created": "2025-6-23"
+        },
+        {
+          "title": "Weathering the storm: Grief and fan identity following the loss of a fan object.",
+          "authors": "Antonia Beatrice D. Lee",
+          "url": "https://doi.org/10.1037/ppm0000620",
+          "doi": "https://doi.org/10.1037/ppm0000620",
+          "filter": 0,
+          "created": "2025-7-17"
         }
       ],
       "articles_hidden": []
