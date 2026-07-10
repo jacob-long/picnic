@@ -1,5 +1,5 @@
 {
-  "update": "2026-07-09",
+  "update": "2026-07-10",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -41,22 +41,13 @@
           "created": "2026-7-8"
         },
         {
-          "title": "Mapping Methodological Variation in Experience-Sampling Research From Design to Data Analysis: A Systematic Review",
-          "authors": "Lisa Peeters, Wim Van Den Noortgate, Marie Annelise Blanchard, Marie Suenaert, Gudrun Eisele, Olivia J. Kirtley, Richard Artner, Ginette Lafit",
-          "abstract": "The experience-sampling method (ESM) has become a widespread tool to study time-varying constructs across many subfields of psychological and psychiatric research. Variety in subfields of research and constructs of interest has contributed to considerable methodological variation. Therefore, in this systematic review, we aimed to (a) describe the methodological variation in ESM-study designs and (b) assess the transparency (i.e., reporting and open-science practices) of ESM studies. We developed an extensive list of data-extraction items covering the entire workflow of an ESM study, from conception of the research question to reporting the results. These data were extracted from 150 recently published articles describing 162 studies applying ESM in the field of psychology and psychiatry. As expected, variation was observed for every methodological decision. Some findings aligned with previous syntheses of the literature (e.g., a median study duration of 10 days, a majority of studies including convenience samples of the general population, the high prevalence of multilevel modeling). Regarding other decisions, this review was able to provide new insights (e.g., questionnaire length and content often varied between and/or within participants, average sample sizes have increased over time). Transparency in reporting and open-science practices seem to have improved in recent years, but there is room for further development of awareness and guidance. This broad overview of ESM research serves as a first step toward a broader goal to improve the methodological quality of ESM research in psychology, contributing to a more rigorous, credible science of daily life.",
-          "url": "https://doi.org/10.1177/25152459261453933",
-          "doi": "https://doi.org/10.1177/25152459261453933",
+          "title": "Artificial-Intelligence-Mediated Contamination in Online Research: Taxonomy, Risk Gradient, and Recommendations",
+          "authors": "Zhicheng Lin",
+          "abstract": "For 2 decades, online research has relied on a quality heuristic: Careful, coherent responding is good data. That heuristic is no longer reliable. Autonomous artificial-intelligence (AI) agents can now pass nearly all conventional quality checks, and in text-rich crowd-work tasks, reported use of large language models approaches one third. When such consultation shapes the response process itself—not just its surface expression—the resulting data appear human-generated while embedding systematic, model-shaped distortions. I synthesize emerging evidence on how AI-mediated contamination varies across research settings in prevalence, mechanism, and inferential consequence; and distinguish three contamination pathways (full delegation, partial mediation, and spillover) and three vulnerability zones (text-rich tasks at highest risk, browser-based cognitive paradigms as an emerging vulnerability, and supervised or identity-vetted settings at lower risk). Even modest contamination can shift estimated public opinion, compress attitudinal extremes, and, over time, feed back into the training data for future models. Current platform countermeasures may raise the cost of contamination but have not been independently validated under adversarial conditions. I argue for a shift from ad hoc detection to infrastructure redesign: contamination-aware sensitivity analyses, explicit stratification of data collection by evidential role, transparency norms that balance open science with adversarial robustness, and a minimum reporting checklist for online studies in vulnerable settings. I close by asking when AI mediation should be treated not as contamination but as part of the ecological baseline of human responding—a question that requires the field to specify the target cognitive system in any given study.",
+          "url": "https://doi.org/10.1177/25152459261454231",
+          "doi": "https://doi.org/10.1177/25152459261454231",
           "filter": 0,
-          "created": "2026-7-2"
-        },
-        {
-          "title": "Simulation Intervention for Cross-Sectional Network Models: Based on the R Packages NodeIdentifyR and NIRApost",
-          "authors": "Fei Wang, Yiming Wu, Yibo Wu, Tingshao Zhu",
-          "abstract": "Traditional cross-sectional network-centrality metrics fail to distinguish causal directions between symptoms, leading to biases in selecting potential intervention targets. The nodeIdentifyR algorithm (NIRA) addresses this issue by using simulation-based interventions to identify projected optimal intervention target in cross-sectional networks. However, existing applications of NIRA typically overlook several recommended validation steps, which may reduce the robustness of its results. Specifically, a critical prerequisite for applying NIRA, testing for moderation effects to ensure the invariance of edge weights during simulated intervention, is consistently ignored. Moreover, they lack statistical significance testing for simulated intervention effects through permutation tests and stability assessment of NIRA outcomes via repeated simulations. In this article, we introduce the extended R package NIRApost , which supplements NIRA with these three recommended complementary procedures. We provide a comprehensive R tutorial demonstrating the implementation of both NIRA and these validation steps. Researchers applying NIRA are advised to conduct moderation-effect testing as a prerequisite, followed by permutation tests and stability analyses to ensure robust and interpretable findings. Upon completing this tutorial, readers are capable of properly applying NIRA and its validation procedures in their own data analyses.",
-          "url": "https://doi.org/10.1177/25152459261452944",
-          "doi": "https://doi.org/10.1177/25152459261452944",
-          "filter": 0,
-          "created": "2026-7-2"
+          "created": "2026-7-9"
         },
         {
           "title": "Common Evidence, Multiple Interpretations: Commentaries on a Multilab Study on Musicians’ Short-Term Memory",
@@ -101,14 +92,6 @@
           "created": "2026-7-8"
         },
         {
-          "title": "Planned missingness in intensive longitudinal studies: Extensions and comparisons of multiform designs",
-          "authors": "Yilan Chen, Hongyun Liu",
-          "url": "https://doi.org/10.3758/s13428-026-03035-8",
-          "doi": "https://doi.org/10.3758/s13428-026-03035-8",
-          "filter": 0,
-          "created": "2026-7-2"
-        },
-        {
           "title": "Author Correction: TCBLex - A lexical database of Finnish literary texts for children",
           "authors": "Tapio Nojonen, Kiia Korsu, Filip Ginter, Veronika Laippala, Jenna Kanerva",
           "url": "https://doi.org/10.3758/s13428-026-03062-5",
@@ -126,14 +109,6 @@
           "created": "2026-7-7"
         },
         {
-          "title": "Joint partial credit and time model",
-          "authors": "Inhan Kang",
-          "url": "https://doi.org/10.3758/s13428-026-03088-9",
-          "doi": "https://doi.org/10.3758/s13428-026-03088-9",
-          "filter": 0,
-          "created": "2026-7-8"
-        },
-        {
           "title": "The Rhythm Reproduction Task for children: A psychometric examination",
           "authors": "Katharina Schaaf, Klaus Frieler, Franziska Degé",
           "abstract": "Rhythmic ability includes various subskills, such as rhythm production and perception of beat, meter, and pattern. Among these, reproducing rhythmic patterns is a key measure of productive rhythmic skills. This study examined the psychometric properties of the Rhythm Reproduction Task for children (Jungbluth &amp; Hafen, 2005) and an extended version including permuted item variants. A total of 151 children aged 5 to 8 completed the task across five response modalities (drumming after the experimenter, clapping, tapping, drumming after a loudspeaker, and vocal reproduction). Analyses showed appropriate item difficulty and variance, good internal consistency ( α = .86, ω = .77), and strong correlations between original and permuted items ( r = .84–.89). Structural equation modeling indicated partial metric invariance across item versions and response modalities. Results support the Rhythm Reproduction Task as a reliable measure of rhythmic pattern reproduction in children, with permuted items expanding its applicability.",
@@ -143,18 +118,18 @@
           "created": "2026-7-7"
         },
         {
+          "title": "Joint partial credit and time model",
+          "authors": "Inhan Kang",
+          "url": "https://doi.org/10.3758/s13428-026-03088-9",
+          "doi": "https://doi.org/10.3758/s13428-026-03088-9",
+          "filter": 0,
+          "created": "2026-7-8"
+        },
+        {
           "title": "QualGames: A Qualtrics implementation and a database of behavioral game theory tasks",
           "authors": "Shengchuang Feng, Nadhilla Melia, Akshay Abraham, Yuan Ni Chan, Li Ling Lee, Jia Ying Pei, Hui Shan Yap, David Hung, John Suckling, Chew Lee Teo, Trevor Robbins, Barbara Sahakian, Zoe Kourtzi, Victoria Leong, Annabel Chen, Henriette Hendriks, Georgios Christopoulos, character(0)",
           "url": "https://doi.org/10.3758/s13428-026-03081-2",
           "doi": "https://doi.org/10.3758/s13428-026-03081-2",
-          "filter": 0,
-          "created": "2026-7-6"
-        },
-        {
-          "title": "“It makes sense to me”: Examining data file column names in the visual cognitive literature",
-          "authors": "Giovanna C. Del Sordo, Haden Dewis, Peter T. Darch, Michael C. Hout, Hayward J. Godwin",
-          "url": "https://doi.org/10.3758/s13428-026-03104-y",
-          "doi": "https://doi.org/10.3758/s13428-026-03104-y",
           "filter": 0,
           "created": "2026-7-6"
         },
@@ -166,6 +141,14 @@
           "doi": "https://doi.org/10.3758/s13428-026-03107-9",
           "filter": 0,
           "created": "2026-7-7"
+        },
+        {
+          "title": "“It makes sense to me”: Examining data file column names in the visual cognitive literature",
+          "authors": "Giovanna C. Del Sordo, Haden Dewis, Peter T. Darch, Michael C. Hout, Hayward J. Godwin",
+          "url": "https://doi.org/10.3758/s13428-026-03104-y",
+          "doi": "https://doi.org/10.3758/s13428-026-03104-y",
+          "filter": 0,
+          "created": "2026-7-6"
         },
         {
           "title": "PyLossless: A non-destructive EEG processing pipeline",
@@ -232,22 +215,6 @@
           "created": "2026-7-4"
         },
         {
-          "title": "The impact of affordances for emotional human–chatbot interaction on users’ willingness to self-disclose",
-          "authors": "Xu Zengzhan, Lei Mingpeng",
-          "url": "https://doi.org/10.1016/j.chb.2026.109111",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109111",
-          "filter": 0,
-          "created": "2026-7-2"
-        },
-        {
-          "title": "Uncanny Valley: Reinforcement Sensitivity Theory and Vulnerability to Influence by Artificial Intelligence-Generated Images Online",
-          "authors": "Neil Shortland, Katelyn Smith",
-          "url": "https://doi.org/10.1016/j.chb.2026.109109",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109109",
-          "filter": 0,
-          "created": "2026-7-2"
-        },
-        {
           "title": "Substratism: Conceptualizing and Measuring Moral Bias Against AI",
           "authors": "Ali Ladak, Janet V.T. Pauketat, Jacy Reese Anthis, Steve Loughnan, Matti Wilks",
           "url": "https://doi.org/10.1016/j.chb.2026.109120",
@@ -272,7 +239,16 @@
           "created": "2026-7-5"
         }
       ],
-      "articles_hidden": []
+      "articles_hidden": [
+        {
+          "title": "Corrigendum to ‘Perceptions and adoption of AI in public relations: Innovation attributes, threats, and practical implications’ [Computers in Human Behavior 184C (2026) 109087]",
+          "authors": "Sung-Un Yang, Cen April Yue, Arunima Krishna, Donald K. Wright",
+          "url": "https://doi.org/10.1016/j.chb.2026.109123",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109123",
+          "filter": 1,
+          "created": "2026-7-9"
+        }
+      ]
     },
     {
       "journal_full": "Group Processes & Intergroup Relations",
@@ -303,6 +279,14 @@
           "created": "2026-7-8"
         },
         {
+          "title": "When it is important to be more virtuous: Cultural tightness exacerbates moral superiority",
+          "authors": "Lipeng Yin, Zaixuan Zhang, Zhansheng Chen",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104967",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104967",
+          "filter": 0,
+          "created": "2026-7-9"
+        },
+        {
           "title": "Stimulus-category confounds reduce, but do not explain, different roles of intent across moral domains: Valid statistical inference helps explain ‘inconsistent’ findings",
           "authors": "Joseph Sweetman, Ryan M. McManus",
           "url": "https://doi.org/10.1016/j.jesp.2026.104972",
@@ -314,9 +298,48 @@
       "articles_hidden": []
     },
     {
+      "journal_full": "Journal of Personality and Social Psychology",
+      "journal_short": "JPSP",
+      "articles": [
+        {
+          "title": "Tightening up under threat: Social class shapes the strength of norms.",
+          "authors": "Ying Lin, Jesse R. Harrington, Michele J. Gelfand",
+          "url": "https://doi.org/10.1037/pspi0000524",
+          "doi": "https://doi.org/10.1037/pspi0000524",
+          "filter": 0,
+          "created": "2026-7-9"
+        },
+        {
+          "title": "Unconscious mental content in implicit evaluation: Evidence from misprediction.",
+          "authors": "Benedek Kurdi, David E. Melnikoff, Adam Morris",
+          "url": "https://doi.org/10.1037/pspa0000491",
+          "doi": "https://doi.org/10.1037/pspa0000491",
+          "filter": 0,
+          "created": "2026-7-9"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Psychological Bulletin",
       "journal_short": "PsychBull",
       "articles": [
+        {
+          "title": "How spatial skills relate to science achievement: A meta-analytic review.",
+          "authors": "Kinnari Atit, Emily Grossnickle Peterson, Katie Gilligan-Lee, Zachary Hawes, Jihyun Lee",
+          "url": "https://doi.org/10.1037/bul0000524",
+          "doi": "https://doi.org/10.1037/bul0000524",
+          "filter": 0,
+          "created": "2026-7-9"
+        },
+        {
+          "title": "Universal interventions to improve young children’s mental well-being: A systematic review and meta-analysis.",
+          "authors": "Jiying Ling, Sisi Chen, Nancy T. Browne, Melissa G. Gomes",
+          "url": "https://doi.org/10.1037/bul0000522",
+          "doi": "https://doi.org/10.1037/bul0000522",
+          "filter": 0,
+          "created": "2026-7-9"
+        },
         {
           "title": "Does the variance of personality traits change across the lifespan? A meta-analytic review of longitudinal studies.",
           "authors": "Peter Haehner, Susanne Buecker, Marco J. Altorfer, Vera V. Bocklet, Wiebke Bleidorn",
@@ -324,6 +347,22 @@
           "doi": "https://doi.org/10.1037/bul0000523",
           "filter": 0,
           "created": "2026-7-6"
+        },
+        {
+          "title": "Individual differences in personality trait changes across the lifespan: A meta-analysis of longitudinal studies.",
+          "authors": "Peter Haehner, Christopher J. Hopwood, Lukas Schellenberg, Ted Schwaba, Wiebke Bleidorn",
+          "url": "https://doi.org/10.1037/bul0000525",
+          "doi": "https://doi.org/10.1037/bul0000525",
+          "filter": 0,
+          "created": "2026-7-9"
+        },
+        {
+          "title": "Tackling challenges in large language model–based data extraction via context engineering: A commentary on Jansen et al. (2025).",
+          "authors": "Junsong Lu, X. T. (XiaoTian) Wang",
+          "url": "https://doi.org/10.1037/bul0000520",
+          "doi": "https://doi.org/10.1037/bul0000520",
+          "filter": 0,
+          "created": "2026-7-9"
         }
       ],
       "articles_hidden": []
@@ -339,6 +378,14 @@
           "doi": "https://doi.org/10.1037/met0000841",
           "filter": 0,
           "created": "2026-7-6"
+        },
+        {
+          "title": "Evaluating local structural-after-measurement and traditional approaches for the estimation of complex nonlinear effects among latent variables.",
+          "authors": "Felipe Fontana Vieira, Kjell Solem Slupphaug, Yves Rosseel",
+          "url": "https://doi.org/10.1037/met0000851",
+          "doi": "https://doi.org/10.1037/met0000851",
+          "filter": 0,
+          "created": "2026-7-9"
         },
         {
           "title": "Heterogeneous variance models with Gaussian processes.",
@@ -365,15 +412,6 @@
           "created": "2026-7-7"
         },
         {
-          "title": "Does Testosterone Affect Cognitive Reflection? Evidence From a Double-Blind, Randomized Controlled Study of 1,000 Participants",
-          "authors": "Erik L. Knight, Gideon Nave, Steven D. Shaw, Coren Apicella, Pierre L. Bonin, Anna Dreber, Shawn N. Geniole, Magnus Johannesson, Dylan Manfredi, Pranjal Mehta, Valentina Proietti, Steven J. Stanton, Francesca R. Luberti, Triana Ortiz, Justin M. Carré",
-          "abstract": "The cognitive reflection test (CRT) measures reliance on intuitive thinking versus deliberate reasoning and predicts important real-world outcomes. Prior research has suggested that testosterone administration impaired CRT performance, but follow-up studies produced null results. To provide a rigorous test, we conducted a large, preregistered, double-blind, placebo-controlled experiment, unprecedented in size, with 1,000 adult men, as part of an adversarial collaboration. Participants received a single dose of intranasal testosterone or placebo, completed the CRT, and rated their confidence level. We found an insignificant treatment effect on the CRT, with the point estimate in the opposite direction of the original hypothesis (β LOGIT = 0.118, 95% confidence interval (CI) = [−0.099, 0.335]). In a second primary test, we found a significant negative treatment effect on confidence (β LOGIT = −0.329, 95% CI = [−0.558, −0.100]), which is also the opposite of our prediction. Our findings challenge earlier claims about testosterone’s cognitive effects and highlight the importance of high-powered replications. Long-term or developmental testosterone effects remain potentially important but difficult to study.",
-          "url": "https://doi.org/10.1177/09567976261458325",
-          "doi": "https://doi.org/10.1177/09567976261458325",
-          "filter": 0,
-          "created": "2026-7-2"
-        },
-        {
           "title": "Boosting Media Literacy Using Lateral Reading and Online Search Interventions",
           "authors": "Lisa Oswald, Anastasia Kozyreva, Stefan M. Herzog, Pietro Leonardo Nickl, Ralph Hertwig",
           "abstract": "Empowering people to navigate online information competently is essential to complement systemic content moderation and platform regulation. A nationally representative randomized controlled study among adults in Germany ( N = 2,666) compared two media-literacy interventions: a source-focused lateral-reading strategy to help participants distinguish trustworthy from untrustworthy news outlets, and a claim-focused search strategy to help them assess the credibility of specific claims. Both interventions showed small improvements in discernment, but not all effects were statistically distinguishable from zero. At a 2-week follow-up, discernment improved in all groups, and differences between the intervention and control groups were no longer statistically distinguishable. We found no evidence of backfire effects. An exploratory analysis of discernment pretreatment indicated the lowest performance for supporters of populist radical-right parties. Behavioral measures suggested increases in information search in both intervention groups. On average, lateral reading reduced trust in untrustworthy sources, and online search increased trust in trustworthy sources.",
@@ -381,15 +419,21 @@
           "doi": "https://doi.org/10.1177/09567976261453813",
           "filter": 0,
           "created": "2026-7-6"
-        },
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Psychology of Popular Media",
+      "journal_short": "PPM",
+      "articles": [
         {
-          "title": "A Field Experiment Testing Whether Accountability Reduces Racial Gaps in Performance Evaluations",
-          "authors": "Edward H. Chang, Erika L. Kirgios, Cansin Arslan",
-          "abstract": "Accountability is a commonly recommended intervention to reduce discrimination. However, there have been no field experiments testing whether it reduces discrimination in workplaces. Here we present preregistered analyses of a field experiment conducted at a company ( n = 3,266 managers rating 17,149 employees) testing whether an accountability intervention reduces performance-evaluation gaps between White and racial-minority employees. We did not find evidence that the accountability intervention closes evaluation gaps. These null effects are likely not driven by a lack of statistical power or by inattentive managers, nor is the manipulation ineffective in all contexts—a supplemental online experiment shows that similar treatment language does change decision-making, underscoring a disconnect between findings in hypothetical settings versus real organizations. These results highlight the need for additional field experiments and theorizing to better understand when and why accountability interventions, as they may typically be implemented in organizations, improve diversity-related outcomes.",
-          "url": "https://doi.org/10.1177/09567976261458988",
-          "doi": "https://doi.org/10.1177/09567976261458988",
+          "title": "Exploring public perceptions of social media: A preregistered mixed-methods study.",
+          "authors": "Evelyn A. H. Murray, Michael Larkin, Daniel J. Shaw, Charlotte R. Pennington",
+          "url": "https://doi.org/10.1037/ppm0000680",
+          "doi": "https://doi.org/10.1037/ppm0000680",
           "filter": 0,
-          "created": "2026-7-2"
+          "created": "2026-7-9"
         }
       ],
       "articles_hidden": []
