@@ -1,5 +1,5 @@
 {
-  "update": "2026-07-11",
+  "update": "2026-07-12",
   "content": [
     {
       "journal_full": "International Journal of Public Opinion Research",
@@ -90,6 +90,22 @@
       "articles_hidden": []
     },
     {
+      "journal_full": "Journal of Official Statistics",
+      "journal_short": "JOS",
+      "articles": [
+        {
+          "title": "Estimating the Multidimensional Poverty Index in Bogotá (Colombia) Using Satellite Imagery",
+          "authors": "Juan Sebastián Oviedo, Mario E. Arrieta-Prieto",
+          "abstract": "This paper proposes an alternative approach to estimating poverty levels using satellite imagery from Bogotá, Colombia, and surrounding municipalities. Two modeling strategies are compared: Convolutional Neural Networks (CNNs) and a newly proposed extension of the Generalized Tensor Regression model based on spatially-weighted aggregations, denoted SWGTR. The models are evaluated using multiple performance metrics, including Average Accuracy (AA), Overall Accuracy (OA), Area Between Curves (ABC), Kappa Index (KI), Mean Absolute Error (MAE), and Cumulative Sums (CS), to determine their effectiveness in capturing the spatial distribution of the Multidimensional Poverty Index (MPI) at the pixel level. The application leverages PlanetScope (PS) satellite images alongside block-level data from the 2018 National Population and Housing Census (CNPV2018). The SWGTR approach demonstrates competitive performance across several metrics, particularly those accounting for the ordinal structure of poverty levels. In addition, we illustrate how the probabilistic outputs of SWGTR can be used to construct pixel-level uncertainty measures, which may inform data collection strategies by identifying regions where predictions are less certain. Overall, the findings suggest that combining spatial modeling with remote sensing data provides a promising avenue to complement traditional survey-based methods, while highlighting important limitations and directions for future research.",
+          "url": "https://doi.org/10.1177/0282423x261457240",
+          "doi": "https://doi.org/10.1177/0282423x261457240",
+          "filter": 0,
+          "created": "2026-7-11"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Public Opinion Quarterly",
       "journal_short": "POQ",
       "articles": [
@@ -103,13 +119,13 @@
           "created": "2026-7-8"
         },
         {
-          "title": "Christian Nationalism as a Social Identity",
-          "authors": "Brooklyn Walker, Paul A Djupe, Anand E Sokhey, Donald P Haider-Markel",
-          "abstract": "Over the past decade, research on Christian nationalism in the United States has grown substantially. Some of the associated public opinion literature has described Christian nationalism as an identity, and some of it as a worldview, but scholars have not grappled with this ambiguity or its consequences. Accordingly, we make two moves to bring conceptual order to this rapidly expanding literature. First, we use well-established social identity measures to assess whether respondents think of Christian nationalism as an identity, and we compare the responses to popular measures of the Christian nationalist worldview. Second, we use multiple survey experiments to evaluate the extent to which identification with Christian nationalism is dependent on the definition of Christian nationalism. We conclude that Christian nationalist identities exist, they are strongly linked with a Christian nationalist worldview, and to some extent they depend on the definition of the identity group. In this unique case of elite contestation of an emerging identity, we find that the typical worldview measure also serves effectively as a strength-of-identity measure.",
-          "url": "https://doi.org/10.1093/poq/nfag054",
-          "doi": "https://doi.org/10.1093/poq/nfag054",
+          "title": "Are the Major “Western” Findings on Attitudes to Immigration Supported by Global Evidence? Mostly Yes, Actually",
+          "authors": "James Dennison",
+          "abstract": "The causes of variation in attitudes to immigration have been the subject of extensive scholarship in recent decades, with some factors being repeatedly evidenced. However, these findings are overwhelmingly based on studies from a small selection of “Western” countries. This article makes use of recent World Values Survey data across 66 countries globally to test how generalizable such findings on the determinants of attitudes to immigration are globally. It finds that the most typically identified sociodemographic, economic, and contextual determinants of immigration policy preferences, prejudices, and perceived effects are largely generalizable globally, namely: age, low income, job worries, rurality, not having an immigrant background, social distrust, national migration rate, feeling unsafe in one’s neighborhood, and national media bias. The effects of gender, education, and left-right self-placement are weaker and less generalizable. These findings are robust across world regions. Although the predictive power of all factors tend to be smaller outside of Western Europe, these findings shed light on the more profound, universal, and genuine nature of attitudes to immigration, their likely internal determinants—rather than purely external and contextual ones—and the global reliability of measuring their predictors.",
+          "url": "https://doi.org/10.1093/poq/nfag028",
+          "doi": "https://doi.org/10.1093/poq/nfag028",
           "filter": 0,
-          "created": "2026-5-22"
+          "created": "2026-3-31"
         }
       ],
       "articles_hidden": []
@@ -126,6 +142,15 @@
           "doi": "https://doi.org/10.1177/08944393261460815",
           "filter": 0,
           "created": "2026-7-8"
+        },
+        {
+          "title": "Profiling Digital Hate: A Multidimensional Measurement Approach Based on the Perspective API",
+          "authors": "Thomas Kirchmair, Kevin Koban, Jörg Matthes",
+          "abstract": "The automatic classification of digital hate is a pressing challenge, yet many existing computational models remain opaque and insufficiently evaluated as measurement tools in social science contexts. This study examines the utility of Google’s Perspective API as a measurement instrument by modeling higher-order constructs of harmful discourse (i.e., incivility and intolerance) as outcomes of multiple lower-level behavioral indicators captured by distinct API scores rather than using a single aggregate score as a proxy for complex social behaviors while enabling the evaluation of state-of-the-art black-box classifiers beyond classification metrics. Drawing on 4,000 manually annotated English-language YouTube comments in the context of the Israel-Hamas war, we test whether multiple API scores predict incivility and intolerance using generalized linear and additive models, assess classification performance across non-hateful, uncivil, and intolerant content, and benchmark a recent deep learning model. Results show that Identity Attack is a strong predictor of intolerance, whereas Insult and Profanity are indicative of incivility. While classification performance is somewhat below state-of-the-art deep learning models, our approach offers important advantages: transparency, interpretability, accessibility for non-technical researchers, and potential cross-linguistic applicability. We argue that typology-driven, multi-indicator-based classification provides a practical and theoretically grounded complement to more aggregated black-box models, particularly in human-in-the-loop workflows that can help reduce annotator exposure through pre-filtering of content.",
+          "url": "https://doi.org/10.1177/08944393261469403",
+          "doi": "https://doi.org/10.1177/08944393261469403",
+          "filter": 0,
+          "created": "2026-7-11"
         }
       ],
       "articles_hidden": []
