@@ -1,5 +1,5 @@
 {
-  "update": "2026-07-13",
+  "update": "2026-07-14",
   "content": [
     {
       "journal_full": "International Journal of Public Opinion Research",
@@ -55,14 +55,6 @@
           "created": "2026-7-7"
         },
         {
-          "title": "Misinformation and threats to self-interest",
-          "authors": "Mathieu Turgeon, Alessandro Freire",
-          "url": "https://doi.org/10.1080/17457289.2026.2697003",
-          "doi": "https://doi.org/10.1080/17457289.2026.2697003",
-          "filter": 0,
-          "created": "2026-7-6"
-        },
-        {
           "title": "Social retrospection: conversation networks, performance evaluations, and candidate support",
           "authors": "Brett R. Bessen",
           "url": "https://doi.org/10.1080/17457289.2026.2693134",
@@ -94,13 +86,13 @@
       "journal_short": "JOS",
       "articles": [
         {
-          "title": "Estimating the Multidimensional Poverty Index in Bogotá (Colombia) Using Satellite Imagery",
-          "authors": "Juan Sebastián Oviedo, Mario E. Arrieta-Prieto",
-          "abstract": "This paper proposes an alternative approach to estimating poverty levels using satellite imagery from Bogotá, Colombia, and surrounding municipalities. Two modeling strategies are compared: Convolutional Neural Networks (CNNs) and a newly proposed extension of the Generalized Tensor Regression model based on spatially-weighted aggregations, denoted SWGTR. The models are evaluated using multiple performance metrics, including Average Accuracy (AA), Overall Accuracy (OA), Area Between Curves (ABC), Kappa Index (KI), Mean Absolute Error (MAE), and Cumulative Sums (CS), to determine their effectiveness in capturing the spatial distribution of the Multidimensional Poverty Index (MPI) at the pixel level. The application leverages PlanetScope (PS) satellite images alongside block-level data from the 2018 National Population and Housing Census (CNPV2018). The SWGTR approach demonstrates competitive performance across several metrics, particularly those accounting for the ordinal structure of poverty levels. In addition, we illustrate how the probabilistic outputs of SWGTR can be used to construct pixel-level uncertainty measures, which may inform data collection strategies by identifying regions where predictions are less certain. Overall, the findings suggest that combining spatial modeling with remote sensing data provides a promising avenue to complement traditional survey-based methods, while highlighting important limitations and directions for future research.",
-          "url": "https://doi.org/10.1177/0282423x261457240",
-          "doi": "https://doi.org/10.1177/0282423x261457240",
+          "title": "Ensuring Data Integrity in Official Financial Statistics: A Review of Hybrid AI and XAI Methods in the Context of Market Efficiency and Value Investing",
+          "authors": "Krzysztof Podgórski",
+          "abstract": "The integrity and accuracy of financial data are prerequisites for market efficiency; however, data anomalies and quality issues severely compromise their “fitness for use” in sophisticated decision-making processes, such as value investing strategies. This article reviews the application of advanced artificial intelligence (AI) methods to enhance quality assurance, anomaly detection, and imputation within high-dimensional financial data streams. The paper critically evaluates both statistical-machine learning hybrids (e.g., ARIMA-LSTM) and deep learning combinations (e.g., autoencoder-based GANs), alongside Explainable Artificial Intelligence (XAI) techniques, assessing their utility against the strict auditability requirements of public trust institutions. The synthesized literature suggests that hybrid frameworks can potentially outperform monolithic approaches in detecting nonlinear manipulations and creating “high-fidelity” datasets. Furthermore, the study addresses the “black box” opacity challenge—a major barrier for regulatory and statistical agencies—discussing how methods like SHAP and LIME support, rather than independently ensure, the necessary interpretability of algorithmic decisions. Conclusions indicate that the synergy between the predictive power of advanced AI models and the transparency supported by XAI is a highly valuable component for modern market supervision, enabling effective data validation while supporting institutional accountability.",
+          "url": "https://doi.org/10.1177/0282423x261456091",
+          "doi": "https://doi.org/10.1177/0282423x261456091",
           "filter": 0,
-          "created": "2026-7-11"
+          "created": "2026-7-13"
         },
         {
           "title": "Beyond Algorithmic Accuracy: Understanding Data Quality in Interactive Occupational Coding with the COARSE Framework",
@@ -110,6 +102,15 @@
           "doi": "https://doi.org/10.1177/0282423x261455656",
           "filter": 0,
           "created": "2026-7-13"
+        },
+        {
+          "title": "Estimating the Multidimensional Poverty Index in Bogotá (Colombia) Using Satellite Imagery",
+          "authors": "Juan Sebastián Oviedo, Mario E. Arrieta-Prieto",
+          "abstract": "This paper proposes an alternative approach to estimating poverty levels using satellite imagery from Bogotá, Colombia, and surrounding municipalities. Two modeling strategies are compared: Convolutional Neural Networks (CNNs) and a newly proposed extension of the Generalized Tensor Regression model based on spatially-weighted aggregations, denoted SWGTR. The models are evaluated using multiple performance metrics, including Average Accuracy (AA), Overall Accuracy (OA), Area Between Curves (ABC), Kappa Index (KI), Mean Absolute Error (MAE), and Cumulative Sums (CS), to determine their effectiveness in capturing the spatial distribution of the Multidimensional Poverty Index (MPI) at the pixel level. The application leverages PlanetScope (PS) satellite images alongside block-level data from the 2018 National Population and Housing Census (CNPV2018). The SWGTR approach demonstrates competitive performance across several metrics, particularly those accounting for the ordinal structure of poverty levels. In addition, we illustrate how the probabilistic outputs of SWGTR can be used to construct pixel-level uncertainty measures, which may inform data collection strategies by identifying regions where predictions are less certain. Overall, the findings suggest that combining spatial modeling with remote sensing data provides a promising avenue to complement traditional survey-based methods, while highlighting important limitations and directions for future research.",
+          "url": "https://doi.org/10.1177/0282423x261457240",
+          "doi": "https://doi.org/10.1177/0282423x261457240",
+          "filter": 0,
+          "created": "2026-7-11"
         }
       ],
       "articles_hidden": []
