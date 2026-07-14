@@ -1,5 +1,5 @@
 {
-  "update": "2026-07-13",
+  "update": "2026-07-14",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -75,6 +75,14 @@
           "created": "2026-7-7"
         },
         {
+          "title": "Dependent latent class partial credit models for careless and insufficient effort responding in online survey data",
+          "authors": "Jieyuan Dong, Hongyun Liu, Yang Liu",
+          "url": "https://doi.org/10.3758/s13428-026-03105-x",
+          "doi": "https://doi.org/10.3758/s13428-026-03105-x",
+          "filter": 0,
+          "created": "2026-7-13"
+        },
+        {
           "title": "Mitigating the slipping effect in polytomous scales: The Generalized Conditional Reliability Weighting (G-CRW) Algorithm and the WeightMyItems R package",
           "authors": "Abdullah Faruk Kılıç",
           "url": "https://doi.org/10.3758/s13428-026-03095-w",
@@ -90,6 +98,14 @@
           "doi": "https://doi.org/10.3758/s13428-026-03113-x",
           "filter": 0,
           "created": "2026-7-10"
+        },
+        {
+          "title": "Estimating sample size in conceptual property norms by standardizing coverage",
+          "authors": "Enrique Canessa, Sergio E. Chaigneau, Rodrigo Lagos",
+          "url": "https://doi.org/10.3758/s13428-026-03110-0",
+          "doi": "https://doi.org/10.3758/s13428-026-03110-0",
+          "filter": 0,
+          "created": "2026-7-13"
         },
         {
           "title": "Semantic properties and categorization norms for the 260 Snodgrass and Vanderwart objects: A 45-year conceptual update to a classic set",
@@ -135,14 +151,6 @@
           "created": "2026-7-8"
         },
         {
-          "title": "QualGames: A Qualtrics implementation and a database of behavioral game theory tasks",
-          "authors": "Shengchuang Feng, Nadhilla Melia, Akshay Abraham, Yuan Ni Chan, Li Ling Lee, Jia Ying Pei, Hui Shan Yap, David Hung, John Suckling, Chew Lee Teo, Trevor Robbins, Barbara Sahakian, Zoe Kourtzi, Victoria Leong, Annabel Chen, Henriette Hendriks, Georgios Christopoulos, character(0)",
-          "url": "https://doi.org/10.3758/s13428-026-03081-2",
-          "doi": "https://doi.org/10.3758/s13428-026-03081-2",
-          "filter": 0,
-          "created": "2026-7-6"
-        },
-        {
           "title": "Subjective norms of paintings: Integrating perceptual, cognitive, and emotional dimensions",
           "authors": "Khaoula Ennahli, Cristiane Souza, Margarida Vaz Garrido",
           "abstract": "Artworks, such as paintings, are frequently utilized as stimuli in research and interventions. However, the complexity of their perceptual, emotional, and cognitive properties necessitates rigorous validation to ensure the reliability of research outcomes and the efficacy of their application in real-world contexts. A few studies have already established norms for paintings. Still, the type of stimuli (e.g., artificial intelligence [AI]-generated) and the comprehensiveness of the assessed dimensions may not entirely capture the complexity of human-made ecological artworks. The current study establishes norms for a diverse set of 144 human-made paintings retrieved from the publicly accessible WikiArt database and thematically clustered into four categories: objects ( n = 36), places ( n = 36), people ( n = 36), and abstract ( n = 36) works. European Portuguese native speakers ( N = 361) rated the paintings in 11 perceptual, cognitive, and emotional dimensions. Participants also provided qualitative descriptions of the paintings, detailing their content and recognized elements. Descriptive data for each painting are provided by dimension and category. Correlations among the dimensions and between individual variables (e.g., personality traits, prior experience with the arts) and the evaluative ratings are also reported. The results indicate that this painting set is diverse, allowing for the selection of artworks that represent different levels of the evaluated dimensions across stimulus categories. These norms fill a critical gap in the standardized evaluation of paintings, facilitating a more precise and controlled use of these stimuli in experimental, clinical, and creative expression applications.",
@@ -152,21 +160,13 @@
           "created": "2026-7-7"
         },
         {
-          "title": "“It makes sense to me”: Examining data file column names in the visual cognitive literature",
-          "authors": "Giovanna C. Del Sordo, Haden Dewis, Peter T. Darch, Michael C. Hout, Hayward J. Godwin",
-          "url": "https://doi.org/10.3758/s13428-026-03104-y",
-          "doi": "https://doi.org/10.3758/s13428-026-03104-y",
+          "title": "Reliability and statistical power: Conceptual background and practical implications",
+          "authors": "Attila Krajcsi",
+          "abstract": "In the behavioral sciences, robust phenomena having large effect sizes and related statistical power may be unreliable. This relation is in contrast to the view that both statistical power and reliability depend similarly on measurement error. In this view, robust but unreliable phenomena can be considered as a reliability paradox. The mathematical relation and possible independence of statistical power and reliability have been discussed in the statistical literature for decades. A common misconception related to the relationship between statistical power and reliability is that absolute reliability (measurement error) is often confounded with relative reliability (ratio of the true score variance to the total score variance). The present work reviews and discusses how measurement error and individual differences influence the relative reliability and robustness of a phenomenon. It discusses why relative reliability and robustness are partly related and why they are generally independent. Following these considerations, it summarizes how measurement error and group heterogeneity can be potentially manipulated to optimize the reliability and robustness of a measured phenomenon.",
+          "url": "https://doi.org/10.3758/s13428-026-03068-z",
+          "doi": "https://doi.org/10.3758/s13428-026-03068-z",
           "filter": 0,
-          "created": "2026-7-6"
-        },
-        {
-          "title": "PyLossless: A non-destructive EEG processing pipeline",
-          "authors": "Scott Huberty, James Desjardins, Tyler Collins, Mayada Elsabbagh, Christian O’Reilly",
-          "abstract": "EEG recordings are typically long and contain large amounts of data, making manual cleaning a time-consuming and error-prone task. Automated preprocessing pipelines can facilitate the efficient and objective extraction of artifacts, enabling standardized and reproducible analyses. However, automated preprocessing pipelines typically remove data considered artifacts and return a subset of irreversibly transformed signals. This approach obfuscates preprocessing decisions and often makes it impossible to recover the original data or modify the preprocessing steps. Further, it complicates collaboration among research teams working on a common dataset, as different analyses may require specific preprocessing steps. Given the large amount of resources devoted to collecting EEG, tools that can efficiently and transparently preprocess data are greatly needed. PyLossless addresses this need by creating a non-destructive, automated preprocessing pipeline that maintains the continuous EEG structure. It offers a user-friendly API, is well documented, tested through continuous integration, easily deployable, and integrates with the popular MNE-Python environment. The pipeline also provides a browser-based quality control review (QCR) dashboard that allows researchers to visualize and edit automated artifact flags for sensors, time periods, and independent components. The end product of PyLossless is a lossless annotated data state that can be shared and used with analysis-specific artifact rejection policies, allowing for an optimal balance between flexibility and standardization.",
-          "url": "https://doi.org/10.3758/s13428-026-02997-z",
-          "doi": "https://doi.org/10.3758/s13428-026-02997-z",
-          "filter": 0,
-          "created": "2026-7-6"
+          "created": "2026-7-13"
         }
       ],
       "articles_hidden": []
@@ -200,20 +200,12 @@
           "created": "2026-7-8"
         },
         {
-          "title": "The Creative Tax of Videoconferencing: How Ideological Diversity Mitigates Creativity Losses in Virtual Teams",
+          "title": "The creative tax of videoconferencing: How ideological diversity mitigates creativity losses in virtual teams",
           "authors": "Daphna Shwartz-Asher, Yossef Tobol",
           "url": "https://doi.org/10.1016/j.chb.2026.109125",
           "doi": "https://doi.org/10.1016/j.chb.2026.109125",
           "filter": 0,
           "created": "2026-7-11"
-        },
-        {
-          "title": "Is faking it the new making it?: Exploring virtual influencers’ effectiveness in depression awareness campaign",
-          "authors": "Rachel X. Peng",
-          "url": "https://doi.org/10.1016/j.chb.2026.109119",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109119",
-          "filter": 0,
-          "created": "2026-7-6"
         },
         {
           "title": "AI disclosure formats and user responses to AI-generated video: Evidence from a cross-national experiment",
@@ -240,7 +232,7 @@
           "created": "2026-7-8"
         },
         {
-          "title": "Fake or Trustworthy? A TCCM- and Bibliometric-Based Hybrid Review of Online Review Research",
+          "title": "Fake or trustworthy? A TCCM- and bibliometric-based hybrid review of online review research",
           "authors": "Munmun Ghosh, Arindam Ghosh",
           "url": "https://doi.org/10.1016/j.chb.2026.109121",
           "doi": "https://doi.org/10.1016/j.chb.2026.109121",
@@ -264,15 +256,6 @@
       "journal_short": "GPIR",
       "articles": [
         {
-          "title": "Shifting Demographics, Shifting Perceptions: How Race and Politics Shape Reactions to the Majority-Minority Future",
-          "authors": "Deborah J. Wu, Stylianos Syropoulos, Andrea Y. J. Mah, Kyle F. Law, Katherine L. Dixon-Gordon, Ezra M. Markowitz, Tatishe M. Nteta, Allecia E. Reid, Joel C. Ginn, Se Min Suh, Liane Young, Brian Lickel",
-          "abstract": "Racial minorities are expected to be a majority of the U.S. population by 2044. We examined predictors of Americans’ perceptions towards this racial demographic shift (RDS), how accurately they estimate others’ perceptions, and whether an intervention corrects people’s misperceptions. In Study 1, in a nationally representative sample ( N = 1,600), most Republicans, Independents, and Democrats viewed the RDS as neutral or good. Being White, conservative, a 2020 Donald Trump voter, endorsing minimization of racism, and endorsing competitive and dangerous worldviews predicted more negative perceptions. Meanwhile, having racially diverse social networks and positive feelings for racial minorities predicted more positive perceptions. In Study 2, a preregistered Prolific experiment ( N = 819), Republicans underestimated other Republicans’ and Democrats’ perceptions of this shift. An information-based intervention corrected this, with this effect persisting 1 week later, albeit weaker. Our research suggests that emphasizing more positive ingroup perceptions of the RDS may help correct misperceptions and increase support for racial diversity.",
-          "url": "https://doi.org/10.1177/13684302261454594",
-          "doi": "https://doi.org/10.1177/13684302261454594",
-          "filter": 0,
-          "created": "2026-7-6"
-        },
-        {
           "title": "Sexual Orientation Stereotyping of Race Categories Referring to Men, and Vice Versa: An Intersectional Analysis in the Italian Context",
           "authors": "Rosandra Coladonato, Federico D’Atri, Francesca Trevisan, Patrice Rusconi, Mauro Bianchi, Valentina Piccoli, Andrea Carnaghi",
           "abstract": "We employed a multi-method approach to assess both stereotypes related to male race and male sexual orientation, and then analyzed how race stereotypes applied to sexual orientation categories and vice versa. Results from Study 1−3 a-b ( N = 552), along with internal meta-analyses, showed that White, Black, and Asian men were more strongly stereotyped as heterosexual than gay. This pattern was equally strong for White and Black men but weaker for Asian men. White men were more associated with heterosexual traits, while Black men were more perceived as lacking gay traits than the other race categories. Heterosexual men displayed a race-graded structure, favoring White over Black and then Asian traits. In contrast, the race-graded structure of gay men disfavored Black traits only, compared to White and Asian traits. The theoretical implications regarding the intersection of race and sexual orientation categories, as well as the social impact of these findings, are discussed.",
@@ -288,6 +271,14 @@
       "journal_full": "Journal of Experimental Social Psychology",
       "journal_short": "JESP",
       "articles": [
+        {
+          "title": "Between law and conscience: Act legality shapes moral evaluation",
+          "authors": "Mane Kara-Yakoubian, Jonathan A. Fugelsang, Alexander C. Walker",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104984",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104984",
+          "filter": 0,
+          "created": "2026-7-13"
+        },
         {
           "title": "Is comedy funnier when it is easier to process? The interplay of fluency and coherence in humor appreciation",
           "authors": "Drew Gorenz, Norbert Schwarz",
@@ -319,6 +310,22 @@
       "journal_full": "Journal of Personality and Social Psychology",
       "journal_short": "JPSP",
       "articles": [
+        {
+          "title": "Evolving together: Dynamic transactions of antagonistic and self-centered traits with couple relationships.",
+          "authors": "Anna Braig, Matthew D. Johnson, Marcus Mund, Franz J. Neyer",
+          "url": "https://doi.org/10.1037/pspp0000607",
+          "doi": "https://doi.org/10.1037/pspp0000607",
+          "filter": 0,
+          "created": "2026-7-13"
+        },
+        {
+          "title": "Mental contrasting prevents a negative future by changing the explicit and implicit meaning of reality.",
+          "authors": "SunYoung Kim, Peter M. Gollwitzer, Gabriele Oettingen",
+          "url": "https://doi.org/10.1037/pspa0000490",
+          "doi": "https://doi.org/10.1037/pspa0000490",
+          "filter": 0,
+          "created": "2026-7-13"
+        },
         {
           "title": "Tightening up under threat: Social class shapes the strength of norms.",
           "authors": "Ying Lin, Jesse R. Harrington, Michele J. Gelfand",
@@ -358,6 +365,15 @@
       "journal_short": "PSPB",
       "articles": [
         {
+          "title": "To Regulate or Not to Regulate? Situational and Individual Differences in Emotion Regulation Initiation in Daily Life",
+          "authors": "Tabea Springstein, Anna C. Bankston, Tammy English",
+          "abstract": "Situational and individual differences shape how and why people regulate emotions, but whether emotion regulation is initiated remains understudied. We hypothesize that, for example, less familiar situations might be associated with more regulation initiation, and people who believe emotions are controllable initiate regulation more frequently. Using experience sampling ( N = 216; 7x/14 days), we found that participants initiated regulation 60% of the time over the past 2 hr. As predicted, people initiated regulation in less familiar, less pleasant contexts, and with more dominant, less warm social partners. Unexpectedly, individuals who believe emotions are uncontrollable were more likely to initiate regulation, even after accounting for affect. These findings highlight that while attention has mostly focused on strategy selection or efficacy, meaningful situational and individual differences also exist at the emotion regulation initiation stage when individuals determine whether to expend regulatory resources to maintain well-being.",
+          "url": "https://doi.org/10.1177/01461672261461318",
+          "doi": "https://doi.org/10.1177/01461672261461318",
+          "filter": 0,
+          "created": "2026-7-13"
+        },
+        {
           "title": "Perceived Pain Sensitivity and Treatment Recommendations for Socially Mobile Individuals: The Mediating Role of Perceived Tenacity",
           "authors": "Zhijie Xie, Fangfang Wen, Lujun Shen, Chen Liu, Lei Yang",
           "abstract": "While prior research shows that higher-class individuals are perceived as more sensitive to pain than lower-class individuals, little is known about how perceptions of pain are shaped by changes in social class. Across a pilot study and five experiments with Chinese and U.S. participants (N = 1,202), we investigated whether social mobility direction influences judgments of pain sensitivity and treatment, and whether perceived tenacity serves as a mediating mechanism. Results indicated that although Chinese and U.S. participants perceived higher-class individuals as more pain-sensitive, they judged upwardly mobile individuals as less sensitive to pain than downwardly mobile individuals. This effect was driven by the attribution of greater tenacity to upwardly mobile targets, which in turn predicted lower pain sensitivity ratings and fewer pain treatment recommendations. These findings reveal a novel psychological pathway through which dynamic social class information shapes pain perception and treatment decisions, extending the literature beyond static class-based stereotypes.",
@@ -390,14 +406,6 @@
           "created": "2026-7-9"
         },
         {
-          "title": "Does the variance of personality traits change across the lifespan? A meta-analytic review of longitudinal studies.",
-          "authors": "Peter Haehner, Susanne Buecker, Marco J. Altorfer, Vera V. Bocklet, Wiebke Bleidorn",
-          "url": "https://doi.org/10.1037/bul0000523",
-          "doi": "https://doi.org/10.1037/bul0000523",
-          "filter": 0,
-          "created": "2026-7-6"
-        },
-        {
           "title": "Individual differences in personality trait changes across the lifespan: A meta-analysis of longitudinal studies.",
           "authors": "Peter Haehner, Christopher J. Hopwood, Lukas Schellenberg, Ted Schwaba, Wiebke Bleidorn",
           "url": "https://doi.org/10.1037/bul0000525",
@@ -421,12 +429,20 @@
       "journal_short": "PM",
       "articles": [
         {
-          "title": "Addressing selective reporting bias in meta-analysis of dependent effect sizes: A tutorial in R.",
-          "authors": "Man Chen, James E. Pustejovsky",
-          "url": "https://doi.org/10.1037/met0000841",
-          "doi": "https://doi.org/10.1037/met0000841",
+          "title": "Identifying careless responding in ecological momentary assessment: Inconsistent signals from different detection methods in the WARN-D Data.",
+          "authors": "Leonie V. D. E. Vogelsmeier, Björn S. Siepe, Esther Ulitzsch, Gudrun Eisele, Joran Geeraerts, Adam Klocek, Ricarda K. K. Proppert, Carlotta L. Rieble, Rayyan Tutunji, Egon Dejonckheere, Peter Kuppens, Eiko I. Fried",
+          "url": "https://doi.org/10.1037/met0000845",
+          "doi": "https://doi.org/10.1037/met0000845",
           "filter": 0,
-          "created": "2026-7-6"
+          "created": "2026-7-13"
+        },
+        {
+          "title": "Sample size planning for studies with multiple measurement trials.",
+          "authors": "Douglas G. Bonett",
+          "url": "https://doi.org/10.1037/met0000856",
+          "doi": "https://doi.org/10.1037/met0000856",
+          "filter": 0,
+          "created": "2026-7-13"
         },
         {
           "title": "Evaluating local structural-after-measurement and traditional approaches for the estimation of complex nonlinear effects among latent variables.",
@@ -437,12 +453,20 @@
           "created": "2026-7-9"
         },
         {
-          "title": "Heterogeneous variance models with Gaussian processes.",
-          "authors": "Yvette Baurne, Frédéric Delmar, Jonas Wallin",
-          "url": "https://doi.org/10.1037/met0000850",
-          "doi": "https://doi.org/10.1037/met0000850",
+          "title": "Post Hoc comparisons in fixed-effect ANOVA: A sequential fusion approach with calibrated error control.",
+          "authors": "Yvonnick Noel",
+          "url": "https://doi.org/10.1037/met0000859",
+          "doi": "https://doi.org/10.1037/met0000859",
           "filter": 0,
-          "created": "2026-7-6"
+          "created": "2026-7-13"
+        },
+        {
+          "title": "Bayesian marginalized zero-inflated Poisson model with random effects for single-case experimental designs: A simulation study.",
+          "authors": "Chendong Li, Wen Luo",
+          "url": "https://doi.org/10.1037/met0000857",
+          "doi": "https://doi.org/10.1037/met0000857",
+          "filter": 0,
+          "created": "2026-7-13"
         }
       ],
       "articles_hidden": []
@@ -459,15 +483,6 @@
           "doi": "https://doi.org/10.1177/09567976261459011",
           "filter": 0,
           "created": "2026-7-7"
-        },
-        {
-          "title": "Boosting Media Literacy Using Lateral Reading and Online Search Interventions",
-          "authors": "Lisa Oswald, Anastasia Kozyreva, Stefan M. Herzog, Pietro Leonardo Nickl, Ralph Hertwig",
-          "abstract": "Empowering people to navigate online information competently is essential to complement systemic content moderation and platform regulation. A nationally representative randomized controlled study among adults in Germany ( N = 2,666) compared two media-literacy interventions: a source-focused lateral-reading strategy to help participants distinguish trustworthy from untrustworthy news outlets, and a claim-focused search strategy to help them assess the credibility of specific claims. Both interventions showed small improvements in discernment, but not all effects were statistically distinguishable from zero. At a 2-week follow-up, discernment improved in all groups, and differences between the intervention and control groups were no longer statistically distinguishable. We found no evidence of backfire effects. An exploratory analysis of discernment pretreatment indicated the lowest performance for supporters of populist radical-right parties. Behavioral measures suggested increases in information search in both intervention groups. On average, lateral reading reduced trust in untrustworthy sources, and online search increased trust in trustworthy sources.",
-          "url": "https://doi.org/10.1177/09567976261453813",
-          "doi": "https://doi.org/10.1177/09567976261453813",
-          "filter": 0,
-          "created": "2026-7-6"
         }
       ],
       "articles_hidden": []
@@ -483,21 +498,14 @@
           "doi": "https://doi.org/10.1037/ppm0000680",
           "filter": 0,
           "created": "2026-7-9"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Technology, Mind, and Behavior",
-      "journal_short": "TMB",
-      "articles": [
+        },
         {
-          "title": "Smartphone use patterns and well-being among older adults: A screenomics study.",
-          "authors": "Yifei Su, Andrew Z. H. Yee, Guan Peng Loy, Edmund W. J. Lee",
-          "url": "https://doi.org/10.1037/tmb0000197",
-          "doi": "https://doi.org/10.1037/tmb0000197",
+          "title": "Understanding why people consume true crime: A systematic scoping review of psychological motivations.",
+          "authors": "Dolores Fernández, Diego Montoya-Bermúdez, María V. Jimeno, Gloria García-Pérez",
+          "url": "https://doi.org/10.1037/ppm0000685",
+          "doi": "https://doi.org/10.1037/ppm0000685",
           "filter": 0,
-          "created": "2026-7-6"
+          "created": "2026-7-13"
         }
       ],
       "articles_hidden": []
