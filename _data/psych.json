@@ -1,22 +1,6 @@
 {
-  "update": "2026-07-16",
+  "update": "2026-07-17",
   "content": [
-    {
-      "journal_full": "Advances in Methods and Practices in Psychological Science",
-      "journal_short": "AMPPS",
-      "articles": [
-        {
-          "title": "Artificial-Intelligence-Mediated Contamination in Online Research: Taxonomy, Risk Gradient, and Recommendations",
-          "authors": "Zhicheng Lin",
-          "abstract": "For 2 decades, online research has relied on a quality heuristic: Careful, coherent responding is good data. That heuristic is no longer reliable. Autonomous artificial-intelligence (AI) agents can now pass nearly all conventional quality checks, and in text-rich crowd-work tasks, reported use of large language models approaches one third. When such consultation shapes the response process itself—not just its surface expression—the resulting data appear human-generated while embedding systematic, model-shaped distortions. I synthesize emerging evidence on how AI-mediated contamination varies across research settings in prevalence, mechanism, and inferential consequence; and distinguish three contamination pathways (full delegation, partial mediation, and spillover) and three vulnerability zones (text-rich tasks at highest risk, browser-based cognitive paradigms as an emerging vulnerability, and supervised or identity-vetted settings at lower risk). Even modest contamination can shift estimated public opinion, compress attitudinal extremes, and, over time, feed back into the training data for future models. Current platform countermeasures may raise the cost of contamination but have not been independently validated under adversarial conditions. I argue for a shift from ad hoc detection to infrastructure redesign: contamination-aware sensitivity analyses, explicit stratification of data collection by evidential role, transparency norms that balance open science with adversarial robustness, and a minimum reporting checklist for online studies in vulnerable settings. I close by asking when AI mediation should be treated not as contamination but as part of the ecological baseline of human responding—a question that requires the field to specify the target cognitive system in any given study.",
-          "url": "https://doi.org/10.1177/25152459261454231",
-          "doi": "https://doi.org/10.1177/25152459261454231",
-          "filter": 0,
-          "created": "2026-7-9"
-        }
-      ],
-      "articles_hidden": []
-    },
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
@@ -28,6 +12,15 @@
           "doi": "https://doi.org/10.3758/s13428-026-03105-x",
           "filter": 0,
           "created": "2026-7-13"
+        },
+        {
+          "title": "Standardized synchronization and validation pipeline for physiological biomarkers across multiple devices",
+          "authors": "Selin Acan, Clàudia Valenzuela‐Pascual, Filippo Corponi, Bryan M. Li, Diego Hidalgo‐Mazzei, Dick Thijssen, Gideon Vos, Stefan Bogaerts, Erno Hermans, Mitra Baratchi, Martin Dresler, Peter De Looff",
+          "abstract": "Wearable devices enable continuous monitoring of physiological signals in real‐world settings, yet a standardized approach for synchronizing signals across devices remains lacking. We present a generalizable, user‐friendly pipeline that enables synchronization of any two devices capturing the same physiological signals, without requiring coding expertise. The pipeline performs resampling, dynamic time warping alignment, amplitude correction via wavelet transforms, and signal standardization, followed by agreement analyses at both waveform and feature levels. To demonstrate its validity, we applied the pipeline to a case study comparing two research‐grade devices, the Empatica E4 and the EmbracePlus, using up to 48 h of concurrent recordings from 31 participants. We compared signal‐level agreement across waveform similarity, amplitude distribution, spectral content, and extracted features between the two research‐grade devices to determine their interchangeability for longitudinal and multi‐site studies. Specifically, we aimed to determine how well these devices agree at the signal level and to identify which physiological signals are most robust to device‐specific variability. Four signals were examined (blood volume pulse, electrodermal activity, accelerometry, and temperature) using NeuroKit2 and FLIRT. We computed Pearson and concordance correlation coefficients, Bland–Altman bias and limits of agreement, root mean squared error (RMSE), KL divergence, spectral coherence, mutual information, and feature‐level correlations using NeuroKit2 and FLIRT. Results showed near‐perfect agreement for BVP (concordance correlation coefficient (CCC) ≈ 1.0; coherence ≤ 0.98) and phasic EDA features (CCC 0.85–0.99), whereas tonic EDA, temperature, and accelerometry exhibited systematic amplitude biases (EmbracePlus lower) and axis‐dependent variability ( Z ‐axis CCC = 0.85; Y ‐axis = 0.19). Relative signal dynamics were preserved across devices despite differences in absolute levels. These findings support integration of BVP, EDA, and TEMP data across E4 and EmbracePlus with proper preprocessing, while highlighting calibration needs for movement signals.",
+          "url": "https://doi.org/10.3758/s13428-026-03097-8",
+          "doi": "https://doi.org/10.3758/s13428-026-03097-8",
+          "filter": 0,
+          "created": "2026-7-16"
         },
         {
           "title": "The English spaced compound word database",
@@ -70,6 +63,23 @@
           "doi": "https://doi.org/10.3758/s13428-026-03076-z",
           "filter": 0,
           "created": "2026-7-15"
+        },
+        {
+          "title": "Introducing openESM: A database of openly available experience sampling datasets",
+          "authors": "Björn S. Siepe, Jonas M. B. Haslbeck, Matthias Kloft, Anabel Büchner, Yong Zhang, Eiko I. Fried, Daniel W. Heck",
+          "abstract": "Experience sampling via mobile devices enables unprecedented insights into daily life. However, individual studies often cannot answer research questions conclusively, and open data are scattered across repositories in different formats. This impedes research into robustness, generalizability, and heterogeneity. We address this issue by introducing , an open-source database of openly available experience sampling datasets in a harmonized format. The growing database currently comprises 60 datasets with more than 16,000 participants and more than 740,000 observations. Metadata can be searched via our website ( openesmdata.org ) to select and download datasets via packages in R and Python. We demonstrate the potential of through an analysis of within-person correlations of positive and negative affect in 39 datasets, providing evidence for a large negative momentary correlation ( $$-0.49$$ - 0.49 , 95% CI: [ $$-0.54$$ - 0.54 , $$-0.42$$ - 0.42 ]). We end by discussing the design principles that will allow to become a continuously evolving community resource for cumulative experience sampling research.",
+          "url": "https://doi.org/10.3758/s13428-026-03112-y",
+          "doi": "https://doi.org/10.3758/s13428-026-03112-y",
+          "filter": 0,
+          "created": "2026-7-16"
+        },
+        {
+          "title": "The Arabic Lexicon Project: Lexical decision data for 10,000 Modern Standard Arabic words",
+          "authors": "Alaa Alzahrani, Hassan Alshumrani, Wafa Aljuaythin, Iman Mahfouz, Laila Alsuwaiyan, Noura Aljadaan, Sharif Alghazo, Imane Tiaiba, Zaha Alanzi",
+          "url": "https://doi.org/10.3758/s13428-026-03115-9",
+          "doi": "https://doi.org/10.3758/s13428-026-03115-9",
+          "filter": 0,
+          "created": "2026-7-16"
         },
         {
           "title": "The performance of Bayesian fit indices in approximate measurement invariance testing with many groups in cross-cultural research",
@@ -160,16 +170,7 @@
           "created": "2026-7-11"
         }
       ],
-      "articles_hidden": [
-        {
-          "title": "Corrigendum to ‘Perceptions and adoption of AI in public relations: Innovation attributes, threats, and practical implications’ [Computers in Human Behavior 184C (2026) 109087]",
-          "authors": "Sung-Un Yang, Cen April Yue, Arunima Krishna, Donald K. Wright",
-          "url": "https://doi.org/10.1016/j.chb.2026.109123",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109123",
-          "filter": 1,
-          "created": "2026-7-9"
-        }
-      ]
+      "articles_hidden": []
     },
     {
       "journal_full": "Group Processes & Intergroup Relations",
@@ -206,14 +207,6 @@
           "doi": "https://doi.org/10.1016/j.jesp.2026.104971",
           "filter": 0,
           "created": "2026-7-14"
-        },
-        {
-          "title": "When it is important to be more virtuous: Cultural tightness exacerbates moral superiority",
-          "authors": "Lipeng Yin, Zaixuan Zhang, Zhansheng Chen",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104967",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104967",
-          "filter": 0,
-          "created": "2026-7-9"
         },
         {
           "title": "Do people think I'm late in life? An intersubjective approach to culture and the optimal timing of life",
@@ -255,20 +248,12 @@
           "created": "2026-7-13"
         },
         {
-          "title": "Tightening up under threat: Social class shapes the strength of norms.",
-          "authors": "Ying Lin, Jesse R. Harrington, Michele J. Gelfand",
-          "url": "https://doi.org/10.1037/pspi0000524",
-          "doi": "https://doi.org/10.1037/pspi0000524",
+          "title": "Does losing your job change your personality? Findings from a 16-year longitudinal study of Mexican-origin adults.",
+          "authors": "Guido Alessandri, Lorenzo Filosa, Richard W. Robins",
+          "url": "https://doi.org/10.1037/pspp0000609",
+          "doi": "https://doi.org/10.1037/pspp0000609",
           "filter": 0,
-          "created": "2026-7-9"
-        },
-        {
-          "title": "Unconscious mental content in implicit evaluation: Evidence from misprediction.",
-          "authors": "Benedek Kurdi, David E. Melnikoff, Adam Morris",
-          "url": "https://doi.org/10.1037/pspa0000491",
-          "doi": "https://doi.org/10.1037/pspa0000491",
-          "filter": 0,
-          "created": "2026-7-9"
+          "created": "2026-7-16"
         }
       ],
       "articles_hidden": []
@@ -327,36 +312,12 @@
       "journal_short": "PsychBull",
       "articles": [
         {
-          "title": "How spatial skills relate to science achievement: A meta-analytic review.",
-          "authors": "Kinnari Atit, Emily Grossnickle Peterson, Katie Gilligan-Lee, Zachary Hawes, Jihyun Lee",
-          "url": "https://doi.org/10.1037/bul0000524",
-          "doi": "https://doi.org/10.1037/bul0000524",
+          "title": "Do money and time change who you are? A continuous time meta-analysis and review of reciprocal relationships between personality traits and income.",
+          "authors": "Wen-Dong Li, Kaili Yu, Weiwen Yang, Zhen Zhang, Xin Zhang, Christian Dormann, Huanxi Zhang, Yanglei Zheng",
+          "url": "https://doi.org/10.1037/bul0000526",
+          "doi": "https://doi.org/10.1037/bul0000526",
           "filter": 0,
-          "created": "2026-7-9"
-        },
-        {
-          "title": "Universal interventions to improve young children’s mental well-being: A systematic review and meta-analysis.",
-          "authors": "Jiying Ling, Sisi Chen, Nancy T. Browne, Melissa G. Gomes",
-          "url": "https://doi.org/10.1037/bul0000522",
-          "doi": "https://doi.org/10.1037/bul0000522",
-          "filter": 0,
-          "created": "2026-7-9"
-        },
-        {
-          "title": "Individual differences in personality trait changes across the lifespan: A meta-analysis of longitudinal studies.",
-          "authors": "Peter Haehner, Christopher J. Hopwood, Lukas Schellenberg, Ted Schwaba, Wiebke Bleidorn",
-          "url": "https://doi.org/10.1037/bul0000525",
-          "doi": "https://doi.org/10.1037/bul0000525",
-          "filter": 0,
-          "created": "2026-7-9"
-        },
-        {
-          "title": "Tackling challenges in large language model–based data extraction via context engineering: A commentary on Jansen et al. (2025).",
-          "authors": "Junsong Lu, X. T. (XiaoTian) Wang",
-          "url": "https://doi.org/10.1037/bul0000520",
-          "doi": "https://doi.org/10.1037/bul0000520",
-          "filter": 0,
-          "created": "2026-7-9"
+          "created": "2026-7-16"
         }
       ],
       "articles_hidden": []
@@ -365,6 +326,14 @@
       "journal_full": "Psychological Methods",
       "journal_short": "PM",
       "articles": [
+        {
+          "title": "Network accuracy across levels of analysis using stochastic block models.",
+          "authors": "Alexander P. Christensen, Jeongwon Choi",
+          "url": "https://doi.org/10.1037/met0000853",
+          "doi": "https://doi.org/10.1037/met0000853",
+          "filter": 0,
+          "created": "2026-7-16"
+        },
         {
           "title": "Identifying careless responding in ecological momentary assessment: Inconsistent signals from different detection methods in the WARN-D Data.",
           "authors": "Leonie V. D. E. Vogelsmeier, Björn S. Siepe, Esther Ulitzsch, Gudrun Eisele, Joran Geeraerts, Adam Klocek, Ricarda K. K. Proppert, Carlotta L. Rieble, Rayyan Tutunji, Egon Dejonckheere, Peter Kuppens, Eiko I. Fried",
@@ -380,14 +349,6 @@
           "doi": "https://doi.org/10.1037/met0000856",
           "filter": 0,
           "created": "2026-7-13"
-        },
-        {
-          "title": "Evaluating local structural-after-measurement and traditional approaches for the estimation of complex nonlinear effects among latent variables.",
-          "authors": "Felipe Fontana Vieira, Kjell Solem Slupphaug, Yves Rosseel",
-          "url": "https://doi.org/10.1037/met0000851",
-          "doi": "https://doi.org/10.1037/met0000851",
-          "filter": 0,
-          "created": "2026-7-9"
         },
         {
           "title": "Post Hoc comparisons in fixed-effect ANOVA: A sequential fusion approach with calibrated error control.",
@@ -420,6 +381,15 @@
           "doi": "https://doi.org/10.1177/09567976261460772",
           "filter": 0,
           "created": "2026-7-15"
+        },
+        {
+          "title": "Moved by the Lightest Touch of Meaning: Even Minimal Significance Matters for Motivation From Childhood",
+          "authors": "Yilin Liu, Fan Yang",
+          "abstract": "How essential is a sense of significance for motivation—the feeling that our efforts matter beyond the trivial or momentary? Four studies ( N = 604, children aged 4–9 years of age and 582 adults) show that no amount of significance is too small to matter, even for small actions from early in life. Children and adults strongly preferred artistic activities with minimal significance (i.e., where their work would be saved) over activities with no lasting existence. This preference held for both repetitive and one-time tasks and was specific to creating artwork, not just observing it. Anticipating even minimal significance motivated participants to engage in productive rather than effortless activities. When significance is absent, focusing on enjoying the process partially, but not fully, compensates for motivation. These findings illuminate the scope and sensitivity of significance, revealing it to be not a luxury concern but an essential, early-emerging motivational force in an increasingly fast-paced, transient world.",
+          "url": "https://doi.org/10.1177/09567976261462874",
+          "doi": "https://doi.org/10.1177/09567976261462874",
+          "filter": 0,
+          "created": "2026-7-16"
         }
       ],
       "articles_hidden": []
@@ -429,12 +399,12 @@
       "journal_short": "PPM",
       "articles": [
         {
-          "title": "Exploring public perceptions of social media: A preregistered mixed-methods study.",
-          "authors": "Evelyn A. H. Murray, Michael Larkin, Daniel J. Shaw, Charlotte R. Pennington",
-          "url": "https://doi.org/10.1037/ppm0000680",
-          "doi": "https://doi.org/10.1037/ppm0000680",
+          "title": "Experiences of consuming fiction in relation to psychological well-being.",
+          "authors": "Lucy Lewis, Amanda Diserholt",
+          "url": "https://doi.org/10.1037/ppm0000683",
+          "doi": "https://doi.org/10.1037/ppm0000683",
           "filter": 0,
-          "created": "2026-7-9"
+          "created": "2026-7-16"
         },
         {
           "title": "Understanding why people consume true crime: A systematic scoping review of psychological motivations.",
@@ -443,6 +413,21 @@
           "doi": "https://doi.org/10.1037/ppm0000685",
           "filter": 0,
           "created": "2026-7-13"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Technology, Mind, and Behavior",
+      "journal_short": "TMB",
+      "articles": [
+        {
+          "title": "Relations among the broad autism phenotype, internet use, and cyber psychological aggression.",
+          "authors": "Hayley M. Mullinax, Lisa A. Turner",
+          "url": "https://doi.org/10.1037/tmb0000202",
+          "doi": "https://doi.org/10.1037/tmb0000202",
+          "filter": 0,
+          "created": "2026-7-16"
         }
       ],
       "articles_hidden": []
