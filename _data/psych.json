@@ -1,10 +1,19 @@
 {
-  "update": "2026-07-17",
+  "update": "2026-07-18",
   "content": [
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
       "articles": [
+        {
+          "title": "Multidimensional Bayesian adaptive testing",
+          "authors": "Aron Fink, Christoph König, Andreas Frey",
+          "abstract": "This paper introduces a fully Bayesian approach to multidimensional adaptive testing (MBAT). By incorporating uncertainty in both item and person parameter estimates, MBAT addresses limitations in conventional multidimensional adaptive testing (MAT), which relies on point item and person parameter estimates. A Monte Carlo simulation was conducted to evaluate the performance of MBAT compared to conventional MAT. The study was based on a four-factorial design, with the factors calibration sample size ( N = 250, N = 500, N = 1,000), test length ( t = 30, t = 60), true trait level (− 2.0, − 1.5, …, 2.0), and MAT algorithm (MAT, MBAT), across a three-dimensional trait structure with within- and between-item multidimensionality. The results showed that MBAT consistently outperformed conventional MAT in terms of the bias and mean squared error ( MSE ) of the final person parameter estimates, especially at the extremes of the trait distributions. Implemented in general-purpose software (Stan, R), the approach is computationally feasible and adaptable, providing a practical foundation for future research and applications in MAT.",
+          "url": "https://doi.org/10.3758/s13428-026-03123-9",
+          "doi": "https://doi.org/10.3758/s13428-026-03123-9",
+          "filter": 0,
+          "created": "2026-7-17"
+        },
         {
           "title": "Dependent latent class partial credit models for careless and insufficient effort responding in online survey data",
           "authors": "Jieyuan Dong, Hongyun Liu, Yang Liu",
@@ -21,15 +30,6 @@
           "doi": "https://doi.org/10.3758/s13428-026-03097-8",
           "filter": 0,
           "created": "2026-7-16"
-        },
-        {
-          "title": "The English spaced compound word database",
-          "authors": "Casey M. Riedmann, Barbara J. Juhasz, Simon P. Liversedge, Chuanli Zang",
-          "abstract": "Compound words combine existing words to form a new concept. Spaced compound words represent one form of compound words in which the orthographic space is preserved between the two constituent words (e.g., coffee table ). While recent research has mostly focused on unspaced compound words, spaced compound words offer important insight into the cognitive processes that support lexical retrieval and comprehension. Critically, whether readers process spaced compound words as single lexical units has important implications for how these items are stored and accessed in memory. To support future research, we developed the English Spaced Compound Word Database, wherein we collected familiarity, age-of-acquisition (AoA), and semantic transparency (ST) ratings for 1,162 spaced compound words. We conducted correlational analyses to compare these ratings across words, as well as across previously collected data on compound words’ constituents. These analyses revealed a strong association overall between familiarity ratings and AoA, as well as familiarity and ST. When examining the relationship between ratings and the characteristics of a compound word’s constituents, we found a strong relationship between frequency, AoA, and structural simplicity (i.e., number of characters, syllables, morphemes, and lexical similarity) within all three rating tasks. These findings provide a basis for testing future theoretical models of lexical processing and reading.",
-          "url": "https://doi.org/10.3758/s13428-026-03113-x",
-          "doi": "https://doi.org/10.3758/s13428-026-03113-x",
-          "filter": 0,
-          "created": "2026-7-10"
         },
         {
           "title": "Estimating sample size in conceptual property norms by standardizing coverage",
@@ -114,14 +114,6 @@
           "created": "2026-7-14"
         },
         {
-          "title": "Attentional priority for social reward is modulated by attentional bias toward game",
-          "authors": "Dongyu Liu, Xinyu Zhang, Boxiang Li, Christian Montag, Jon D. Elhai, Haibo Yang",
-          "url": "https://doi.org/10.1016/j.chb.2026.109117",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109117",
-          "filter": 0,
-          "created": "2026-7-10"
-        },
-        {
           "title": "The creative tax of videoconferencing: How ideological diversity mitigates creativity losses in virtual teams",
           "authors": "Daphna Shwartz-Asher, Yossef Tobol",
           "url": "https://doi.org/10.1016/j.chb.2026.109125",
@@ -138,7 +130,7 @@
           "created": "2026-7-11"
         },
         {
-          "title": "Psychological Pathways to Digital Safety: A Sequential Model of Attitudinal Endorsement, Environment Cognition, and WTP for Malicious Comment Prevention",
+          "title": "Psychological pathways to digital safety: A sequential model of attitudinal endorsement, environment cognition, and WTP for malicious comment prevention",
           "authors": "Heejoo Lim, Hyeonjeong Kim",
           "url": "https://doi.org/10.1016/j.chb.2026.109128",
           "doi": "https://doi.org/10.1016/j.chb.2026.109128",
@@ -152,6 +144,14 @@
           "doi": "https://doi.org/10.1016/j.chb.2026.109126",
           "filter": 0,
           "created": "2026-7-15"
+        },
+        {
+          "title": "Emotionally Vulnerable Subtype of Internet Gaming Disorder: Measuring and Exploring the Pathology of Problematic Generative AI Use",
+          "authors": "Haocan Sun, Di Wu, Weizi Liu, Mike Yao, Guoming Yu",
+          "url": "https://doi.org/10.1016/j.chb.2026.109116",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109116",
+          "filter": 0,
+          "created": "2026-7-17"
         },
         {
           "title": "Cultural, Organisational, and Individual Factors Contributing to Cyber Incident Reporting: A Systematic Literature Review",
@@ -184,6 +184,15 @@
           "doi": "https://doi.org/10.1177/13684302261460832",
           "filter": 0,
           "created": "2026-7-13"
+        },
+        {
+          "title": "Public Opinion on Overturning Roe v. Wade : Separate Spheres Ideology, Abortion Identity, and Message Framing in a Three-Wave Panel Study",
+          "authors": "Lisette Horne, Eugene Borgida, Kiley Gilbert",
+          "abstract": "The U.S. Supreme Court’s decision in Dobbs v. Jackson Women’s Health Organization (hereafter, Dobbs ) overturning Roe v. Wade was a landmark decision. We focus on the influence of gender ideology, measured by separate spheres ideology (SSI), on public perceptions of this decision. In a three-wave survey-experiment panel study with a nationally diverse sample, participants reported their endorsement of SSI, gender system justification, abortion identity, and attitudes toward abortion. At Wave 2, participants were randomly assigned to one of two message-framing conditions that differed in the number of facts about Dobbs or a healthcare control. Wave 3 examined the persistence of experimental effects. Overall, SSI was the only consistent moderator of message-framing effects on all outcome measures, with persisting effects on support for restrictive abortion policies and endorsement of the gendered status quo. SSI’s predictive influence in electoral choice and nonelectoral but gendered policy contexts is discussed.",
+          "url": "https://doi.org/10.1177/13684302261462074",
+          "doi": "https://doi.org/10.1177/13684302261462074",
+          "filter": 0,
+          "created": "2026-7-17"
         }
       ],
       "articles_hidden": []
@@ -303,6 +312,15 @@
           "doi": "https://doi.org/10.1177/01461672261463908",
           "filter": 0,
           "created": "2026-7-15"
+        },
+        {
+          "title": "Social Media is Shifting the Values in Our Societies: An Increase in People’s Achievement and Conformity Orientation",
+          "authors": "Ertugrul Uysal, Sascha Alavi, Valéry Bezençon",
+          "abstract": "Past research explored the beneficial and harmful effects of social media (SM), but no study has investigated how SM might change people’s identities. Authors suggest that SM is a catalyst for a shift in two individual values, achievement and conformity, transforming the fabric of our societies. A difference-in-differences analysis found that countries with higher SM adoption compared to their culturally similar country show an increase in achievement and conformity orientation. Next, authors manipulated SM use and established a causal link between SM use and the activation of achievement and conformity values in Facebook users. These findings were replicated with objective SM usage data, and the pertinent mechanism was explored: people’s SM use increases achievement and conformity orientation through an increased need for approval, particularly for those who self-ruminate. Findings suggest that SM use contributes to the emergence of a societal culture that places an emphasis on achievement-seeking and conformity.",
+          "url": "https://doi.org/10.1177/01461672261461314",
+          "doi": "https://doi.org/10.1177/01461672261461314",
+          "filter": 0,
+          "created": "2026-7-17"
         }
       ],
       "articles_hidden": []
@@ -390,6 +408,22 @@
           "doi": "https://doi.org/10.1177/09567976261462874",
           "filter": 0,
           "created": "2026-7-16"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Psychology of Music",
+      "journal_short": "PsychMusic",
+      "articles": [
+        {
+          "title": "The Connection Between Flow and Music Performance Anxiety Among Adolescents",
+          "authors": "Xinyu Huang",
+          "abstract": "This study investigated the relationship between flow experiences and music performance anxiety (MPA) among school-age musicians in China, with a particular focus on adolescent students (aged 13–15 years). While previous research has examined flow and MPA in professional musicians, limited attention has been paid to younger and less experienced populations. Adopting a mixed-methods approach, the study combined quantitative data from two validated self-report measures with qualitative insights from semi-structured interviews. Participants were students who had recently performed in a school concert and represented a range of proficiency levels (beginner, intermediate, and advanced). The findings suggested that: (a) both flow and MPA were commonly experienced by adolescent students; (b) flow and MPA were negatively correlated, particularly among more proficient students; and (c) higher proficiency appeared to facilitate flow experiences while mitigating MPA, possibly due to accumulated performance experience. These results suggested that musical proficiency may serve as a buffer against MPA by promoting optimal performance states. Implications for music education and psychological interventions were discussed, and directions for future research were proposed.",
+          "url": "https://doi.org/10.1177/03057356261457411",
+          "doi": "https://doi.org/10.1177/03057356261457411",
+          "filter": 0,
+          "created": "2026-7-17"
         }
       ],
       "articles_hidden": []
