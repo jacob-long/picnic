@@ -1,5 +1,5 @@
 {
-  "update": "2026-07-18",
+  "update": "2026-07-19",
   "content": [
     {
       "journal_full": "Nature",
@@ -11,6 +11,15 @@
           "abstract": "Games have long been a microcosm for studying planning and reasoning in both natural and artificial intelligence, often focusing on expert-level or even super-human play 1–6 . But real life also pushes human intelligence along a different frontier, requiring people to flexibly navigate decision-making problems that they have never thought about before. Here we use novice gameplay to study how people reason about new problem settings. Through a series of large-scale behavioural studies with over 1,000 participants and 121 two-player strategic board games (almost all novel to our participants), we show that people are systematic and adaptively rational in how they play a game for the first time or evaluate a game (for example, how fair or how fun it is likely to be) before they have played it even once. We explain these capacities via a computational cognitive model that we call the ‘Intuitive Gamer’: a model based on mechanisms of fast and flat (depth-limited) goal-directed probabilistic simulation. Our work offers insights into how people rapidly evaluate, act and make suggestions when encountering novel problems, and could inform the design of more flexible and human-like artificial intelligence systems that can determine not just how to solve new tasks but also whether a task is worth thinking about at all.",
           "url": "https://doi.org/10.1038/s41586-026-10722-1",
           "doi": "https://doi.org/10.1038/s41586-026-10722-1",
+          "filter": "0",
+          "created": "2026-7-15"
+        },
+        {
+          "title": "Food systems transformation would reshape global agriculture",
+          "authors": "Matthew Gibson, Marina Sundiang, Daniel Mason-D’Croz, Thais Diniz Oliveira, Felicitas Beier, Lauren Benavidez, Astrid Bos, Maksym Chepeliev, Jonathan Doelman, Shahnila Dunston, Shinichiro Fujimori, Tomoko Hasegawa, Petr Havlik, Jordan Hristov, Jonas Jägermeyr, Marta Kozicka, Marijke Kuiper, Page Kyle, Thijs de Lange, Benjamin Leon Bodirsky, Hermann Lotze-Campen, Hermen Luchtenbelt, David Meng-Chuen Chen, Abhijeet Mishra, Christoph Müller, Gerald Nelson, Amanda Palazzo, Ignacio Perez Dominguez, Alexander Popp, Ronald Sands, Marco Springmann, Elke Stehfest, Timothy B. Sulser, Kiyoshi Takahashi, Gianmaria Tassinari, Ferike Thom, Philip Thornton, Kazuaki Tsuchiya, Willem-Jan van Zeist, Hans van Meijl, Dominique van der Mensbrugghe, Detlef Van Vuuren, Hannah H. E. van Zanten, Isabelle Weindl, Keith Wiebe, Xin Zhao, Mario Herrero",
+          "abstract": "Food systems are a major contributor to exceeding planetary boundaries 1–3 and poor quality diets are a key mortality risk globally 4 . Projected population and income growth could exacerbate these challenges 5 . In response, there are calls for transformation towards healthy and sustainable food systems 6–8 . However, the scale and distribution of the impacts of this transformation on agriculture are underexplored. Here we show that, by 2050, the transformation of food systems towards healthy diets (adoption of the EAT– Lancet reference diet), improved productivity and halving of food waste results in a fundamental restructuring of global agriculture, aspects of which break with historical trends. Scenario simulations using a multimodel ensemble of ten global economic models show a 6% median decrease in agricultural land (+1% to −26%) compared with 2020 levels. By 2050, agricultural production would be 17% lower than business-as-usual projections (−2% to −32%) and, economically, the value of this production is US$1.6 trillion (26%) lower (+8% to −58%). Within this, the value of livestock production would be substantially lower than current 2050 projections (−49% to −83%), while vegetable, fruit, nut and legume production value would increase by 23% (−33% to +106%). Results are dependent on the assumed policies to achieve the transformation scenario. We highlight a more active role for food policy to consider the benefits of such a transformation (improved population health and reduced environmental pressures) and navigate the political economy of its impacts.",
+          "url": "https://doi.org/10.1038/s41586-026-10775-2",
+          "doi": "https://doi.org/10.1038/s41586-026-10775-2",
           "filter": "0",
           "created": "2026-7-15"
         }
@@ -120,15 +129,6 @@
           "abstract": "Electronic health records (EHRs) provide rich longitudinal disease histories, but existing methods for analysing these data typically treat diseases in isolation1 and rarely integrate germline genetics. Here we present ALADYNOULLI, a Bayesian generative framework that jointly models longitudinal EHR diagnoses, age and polygenic risk to recover latent time-varying disease signatures and patient-specific signature loadings; the model is formulated as a mixture of probabilities rather than a probability of a mixture2, correctly accommodating simultaneous and chronic conditions. Applied to three independent biobanks (UK Biobank3, Mass General Brigham4 and All of Us; total n > 683,000) spanning up to 52 years of follow-up and 348 diseases, the model recovers 21 replicable signatures with high cross-cohort composition preservation (median of 80%) and reveals biological subtypes within diagnostic categories (Cohen’s d up to 4.25; P ≤ 1 × 10−8 for 95% of comparisons). Signatures are concordant with established disease biology: carriers of familial hypercholesterolaemia5 enrich in the cardiovascular signature; carriers of clonal haematopoiesis of indeterminate potential6 in the inflammation signature; and a rare variant burden in LDLR, TTN and BRCA2 (refs. 7,8) aligns with disease specificities. A signature-based genome-wide association study identifies 151 genome-wide significant loci including cardiovascular associations missed by single-trait analyses. An explicit likelihood enables inverse probability weighting for selection bias9 while preserving biological signal. For disease prediction, ALADYNOULLI outperforms Pooled Cohort Equation (PCE), PREVENT and Gail at 1-year and 10-year horizons; disease-level (PheCode) predictions complement code-level foundation models such as Delphi-2M (ref. 10).",
           "url": "https://doi.org/10.1038/s41586-026-10780-5",
           "doi": "https://doi.org/10.1038/s41586-026-10780-5",
-          "filter": "2",
-          "created": "2026-7-15"
-        },
-        {
-          "title": "Food systems transformation would reshape global agriculture",
-          "authors": "Matthew Gibson, Marina Sundiang, Daniel Mason-D’Croz, Thais Diniz Oliveira, Felicitas Beier, Lauren Benavidez, Astrid Bos, Maksym Chepeliev, Jonathan Doelman, Shahnila Dunston, Shinichiro Fujimori, Tomoko Hasegawa, Petr Havlik, Jordan Hristov, Jonas Jägermeyr, Marta Kozicka, Marijke Kuiper, Page Kyle, Thijs de Lange, Benjamin Leon Bodirsky, Hermann Lotze-Campen, Hermen Luchtenbelt, David Meng-Chuen Chen, Abhijeet Mishra, Christoph Müller, Gerald Nelson, Amanda Palazzo, Ignacio Perez Dominguez, Alexander Popp, Ronald Sands, Marco Springmann, Elke Stehfest, Timothy B. Sulser, Kiyoshi Takahashi, Gianmaria Tassinari, Ferike Thom, Philip Thornton, Kazuaki Tsuchiya, Willem-Jan van Zeist, Hans van Meijl, Dominique van der Mensbrugghe, Detlef Van Vuuren, Hannah H. E. van Zanten, Isabelle Weindl, Keith Wiebe, Xin Zhao, Mario Herrero",
-          "abstract": "Food systems are a major contributor to exceeding planetary boundaries 1–3 and poor quality diets are a key mortality risk globally 4 . Projected population and income growth could exacerbate these challenges 5 . In response, there are calls for transformation towards healthy and sustainable food systems 6–8 . However, the scale and distribution of the impacts of this transformation on agriculture are underexplored. Here we show that, by 2050, the transformation of food systems towards healthy diets (adoption of the EAT– Lancet reference diet), improved productivity and halving of food waste results in a fundamental restructuring of global agriculture, aspects of which break with historical trends. Scenario simulations using a multimodel ensemble of ten global economic models show a 6% median decrease in agricultural land (+1% to −26%) compared with 2020 levels. By 2050, agricultural production would be 17% lower than business-as-usual projections (−2% to −32%) and, economically, the value of this production is US$1.6 trillion (26%) lower (+8% to −58%). Within this, the value of livestock production would be substantially lower than current 2050 projections (−49% to −83%), while vegetable, fruit, nut and legume production value would increase by 23% (−33% to +106%). Results are dependent on the assumed policies to achieve the transformation scenario. We highlight a more active role for food policy to consider the benefits of such a transformation (improved population health and reduced environmental pressures) and navigate the political economy of its impacts.",
-          "url": "https://doi.org/10.1038/s41586-026-10775-2",
-          "doi": "https://doi.org/10.1038/s41586-026-10775-2",
           "filter": "2",
           "created": "2026-7-15"
         },
@@ -282,20 +282,20 @@
           "created": "2026-7-16"
         },
         {
-          "title": "Man’s ability to make sperm restored after testicular tissue transplant: what scientists think",
-          "authors": "Heidi Ledford",
-          "url": "https://doi.org/10.1038/d41586-026-02191-3",
-          "doi": "https://doi.org/10.1038/d41586-026-02191-3",
-          "filter": "4",
-          "created": "2026-7-17"
-        },
-        {
           "title": "Mathematics formula found on Maya wall rivals insights of ancient masters",
           "authors": "Chris Simms",
           "url": "https://doi.org/10.1038/d41586-026-02170-8",
           "doi": "https://doi.org/10.1038/d41586-026-02170-8",
           "filter": "4",
           "created": "2026-7-14"
+        },
+        {
+          "title": "Man’s ability to make sperm restored after testicular tissue transplant: what scientists think",
+          "authors": "Heidi Ledford",
+          "url": "https://doi.org/10.1038/d41586-026-02191-3",
+          "doi": "https://doi.org/10.1038/d41586-026-02191-3",
+          "filter": "4",
+          "created": "2026-7-17"
         },
         {
           "title": "Four deep-sea technologies that could help detect deadly earthquakes and tsunamis",
@@ -562,20 +562,20 @@
           "created": "2026-7-15"
         },
         {
-          "title": "Africa’s response to this Ebola outbreak shows how to shape global health",
-          "authors": "Safura Abdool Karim",
-          "url": "https://doi.org/10.1038/d41586-026-02148-6",
-          "doi": "https://doi.org/10.1038/d41586-026-02148-6",
-          "filter": "4",
-          "created": "2026-7-14"
-        },
-        {
           "title": "Found: a rocky exoplanet with an atmosphere — could it host life?",
           "authors": "Dhruv Shenai",
           "url": "https://doi.org/10.1038/d41586-026-02200-5",
           "doi": "https://doi.org/10.1038/d41586-026-02200-5",
           "filter": "4",
           "created": "2026-7-17"
+        },
+        {
+          "title": "Africa’s response to this Ebola outbreak shows how to shape global health",
+          "authors": "Safura Abdool Karim",
+          "url": "https://doi.org/10.1038/d41586-026-02148-6",
+          "doi": "https://doi.org/10.1038/d41586-026-02148-6",
+          "filter": "4",
+          "created": "2026-7-14"
         },
         {
           "title": "First ‘true sugar’ molecule found in space — offering hints to life’s origins",
@@ -731,6 +731,15 @@
           "created": "2026-7-16"
         },
         {
+          "title": "Crowding controls the scaling of bus frequency with demand",
+          "authors": "Siddharth Patwardhan, Şirag Erkol, Filippo Radicchi, Marc Barthelemy",
+          "abstract": "Cities must allocate limited resources to maintain mobility, with uncertainties about the resulting state of the system. Analyzing roughly 3,000 bus routes with more than 4 billion yearly riders across 19 metropolitan areas worldwide, we uncover a robust scaling law of the form f ∼ ( d / t ) α with exponent α ∈ [ 1 / 2 , 2 / 3 ] , linking the service frequency f to passenger demand d and route duration t . We show that this scaling emerges from a simple optimization principle: Cities implicitly minimize total passenger waiting time under a fixed operational budget when both schedule frequency and crowding are taken into account. This mechanism produces two universal regimes: a frequency-dominated regime with α = 1 / 2 when crowding is negligible and a capacity-dominated regime with α = 2 / 3 when most routes are overloaded. Intermediate exponents arise when only part of the network operates near capacity. Furthermore, we find that the benefits of additional investment are highly uneven across systems. For instance, our model suggests that a 20 % budget increase yields nearly a 5-min reduction in daily waiting time per passenger in Boston, compared to only about 1 min in Paris. These findings place urban transit within a broader class of constrained capacity-allocation problems, while highlighting a distinct regime in which prescribed route demands shape the allocation of limited service resources. The resulting scaling laws show how simple optimization principles can generate systematic exponents in complex transport systems, beyond the dissipation-based frameworks usually considered in physical and biological flow networks.",
+          "url": "https://doi.org/10.1073/pnas.2535998123",
+          "doi": "https://doi.org/10.1073/pnas.2535998123",
+          "filter": "0",
+          "created": "2026-7-13"
+        },
+        {
           "title": "Zero-deforestation commitments in Indonesia’s palm oil sector achieve high compliance but no additionality",
           "authors": "Matthieu Stigler, Janina Grabs, Robert Heilmayr, Kimberly M. Carlson, Adelina Chandra, Jason Jon Benedict, Rachael D. Garrett",
           "abstract": "In response to public pressure, companies have increasingly adopted voluntary sustainable sourcing commitments. Yet, it often remains unclear whether such commitments lead only to the narrow goal of supplier compliance, or also to the broader goal of additionality, benefits beyond what would have occurred without commitments. A company’s ability to influence its suppliers’ behavior partly depends on the complexity of supply chains, yet data on supply chain linkages are limited, inhibiting causal evaluations. Here, we evaluate the compliance and additionality of zero-deforestation commitments (ZDCs) in the Indonesian palm oil sector, a major driver of tropical deforestation. We compiled a detailed dataset that integrates information about corporate ZDC implementation, supply chain linkages, and maps of palm-driven deforestation in Indonesia. We use this dataset to evaluate the causal impact of ZDCs on deforestation in oil palm concessions from 2018 to 2020 using difference-in-differences econometric methods. We find that concessions linked to companies with ZDCs had low deforestation (&lt;1% per year from 2018 to 2020) and thus largely achieved compliance. Yet they experienced similar reductions in deforestation compared to concessions not covered by ZDCs, therefore showing no additionality. We attribute our finding of no additionality to broader changes in policy and economic conditions during the study period that may have reduced the remaining accessible forest and dampened market and regulatory incentives to clear forests for palm oil. Should these conditions change in the future, continued compliance with ZDCs could yield additional reductions in deforestation.",
@@ -838,6 +847,14 @@
           "created": "2026-7-14"
         },
         {
+          "title": "Technical sophistication is not evidence",
+          "authors": "T. Anthony Sun",
+          "url": "https://doi.org/10.1073/pnas.2614011123",
+          "doi": "https://doi.org/10.1073/pnas.2614011123",
+          "filter": "2",
+          "created": "2026-7-13"
+        },
+        {
           "title": "Dielectric levitation optical tweezers for powerful mesoscale biomanipulation",
           "authors": "Haobing Liu, Rongxin Fu, Fan Nan, Zongliang Guo, Menglei Zhao, Yifan Zhang, Shutong Guo, Hang Li, Kangfu Chen, Bing Chu, Kai Lou, H. P. Zhang, Huikai Xie, Zhugen Yang, Jiafang Li, Jonathan M. Cooper, Shuailong Zhang",
           "abstract": "Optical tweezers (OT), a cornerstone of micromanipulation, are fundamentally constrained by substrate-induced adhesion and friction, limiting their application to mesoscale objects and fragile biological specimens where overcoming these resistive forces requires physiologically damaging laser powers. Here, we overcome this long-standing challenge by introducing dielectric levitation optical tweezers (DL-OT), a multiphysics platform that seamlessly integrates alternating-current dielectric levitation with optical traps. By using negative dielectrophoresis (n-DEP) to actively neutralize the normal force, DL-OT eliminates solid – solid contact and near-wall viscous drag. Crucially, we demonstrate the fundamental superiority of this active physical levitation over traditional passive antiadhesion coatings. This physical decoupling enables the smooth translation of large biological samples using low, biologically safe optical powers (~15 mW) rather than nonviable levels (&gt;150 mW). The creation of this frictionless environment not only boosts the maximum manipulation speed of standard microtargets by 40% but also enables the stable optical transport of previously intractable mesoscale objects (100 to 260 μm), including microgears and shrimp eggs. By preventing photothermal damage and mechanical deformation, DL-OT demonstrates very good biocompatibility, significantly enhancing cell viability postmanipulation. Building upon these advantages, we demonstrate advanced on-chip biofabrication protocols through the targeted, high-precision assembly of multicellular spheroids and the safe transport of patient-derived organoids, followed by their success in situ culture. By transforming OT from a microscale tool into a mesoscale assembly platform, DL-OT paves the way for breakthroughs in tissue engineering, regenerative medicine, and the bottom – up assembly of living systems.",
@@ -845,14 +862,6 @@
           "doi": "https://doi.org/10.1073/pnas.2533103123",
           "filter": "2",
           "created": "2026-7-14"
-        },
-        {
-          "title": "Technical sophistication is not evidence",
-          "authors": "T. Anthony Sun",
-          "url": "https://doi.org/10.1073/pnas.2614011123",
-          "doi": "https://doi.org/10.1073/pnas.2614011123",
-          "filter": "2",
-          "created": "2026-7-13"
         },
         {
           "title": "Alpha rhythms in the left auditory cortex set the speed limit for speech comprehension",
@@ -979,19 +988,19 @@
           "created": "2026-7-13"
         },
         {
+          "title": "BRCA1P1 immunotherapy requires pseudogene-aware transcriptomics",
+          "authors": "Hao Chi, Jiayu Xu, Youping Deng",
+          "url": "https://doi.org/10.1073/pnas.2616714123",
+          "doi": "https://doi.org/10.1073/pnas.2616714123",
+          "filter": "2",
+          "created": "2026-7-13"
+        },
+        {
           "title": "Pseudokinase-converting mutation in protein kinase C alpha drives chordoid glioma by pathway rewiring",
           "authors": "Charlotte Bellamy, Hannah Tovell, Tiffany H. Kao, Alexandr Kornev, Quentin Letourneur, Janan Arslan, Selina Schwaighofer, Timothy R. Baffi, Florent Dingli, Damarys Loew, Julie Lerond, Stephane Liva, Brigitte Izac, Muriel Andrieu, Homa Adle-Biassette, Jean-Vianney Barnier, Eduard Stefan, Susan S. Taylor, Marc Sanson, Alexandra C. Newton, Franck Bielle",
           "abstract": "Chordoid glioma (ChG) is a rare, low-grade brain tumor characterized by a novel recurrent point mutation, D463H, in the kinase domain of protein kinase C alpha (PKCα). The mutation is invariably an Asp to His substitution, suggesting a unique function beyond catalytic inactivation associated with other cancer-associated PKCα mutations. Here, we show that this mutation converts PKCα into a pseudokinase, abolishing catalytic activity, and, additionally, confers novel scaffolding functions. Activity assays in vitro and in cellulo revealed that PKCα D463H is catalytically inactive and functions as a dominant-negative to suppress endogenous PKC activity. Molecular dynamics simulations predicted that mutation to His, but not Asn, not only destabilizes the active site, but stabilizes the substrate-binding helices in the kinase C-lobe to potentially promote aberrant interactions. Supporting this, phosphoproteomic, proximity labeling, and coimmunoprecipitation mass spectrometry data from cells overexpressing PKCα D463H identified both altered phosphorylation of substrates and binding to multiple proteins involved in cell–cell junctions compared to WT enzyme. Last, single nuclei RNAseq established that ChG derives from specialized tanycytes. Our data reveal that this disease-defining, fully penetrant mutation converts PKCα into a pseudokinase with novel scaffold functions that uniquely rewire the cellular interactome to impair cell junction function.",
           "url": "https://doi.org/10.1073/pnas.2524934123",
           "doi": "https://doi.org/10.1073/pnas.2524934123",
-          "filter": "2",
-          "created": "2026-7-13"
-        },
-        {
-          "title": "BRCA1P1 immunotherapy requires pseudogene-aware transcriptomics",
-          "authors": "Hao Chi, Jiayu Xu, Youping Deng",
-          "url": "https://doi.org/10.1073/pnas.2616714123",
-          "doi": "https://doi.org/10.1073/pnas.2616714123",
           "filter": "2",
           "created": "2026-7-13"
         },
@@ -1076,15 +1085,6 @@
           "created": "2026-7-14"
         },
         {
-          "title": "Crowding controls the scaling of bus frequency with demand",
-          "authors": "Siddharth Patwardhan, Şirag Erkol, Filippo Radicchi, Marc Barthelemy",
-          "abstract": "Cities must allocate limited resources to maintain mobility, with uncertainties about the resulting state of the system. Analyzing roughly 3,000 bus routes with more than 4 billion yearly riders across 19 metropolitan areas worldwide, we uncover a robust scaling law of the form f ∼ ( d / t ) α with exponent α ∈ [ 1 / 2 , 2 / 3 ] , linking the service frequency f to passenger demand d and route duration t . We show that this scaling emerges from a simple optimization principle: Cities implicitly minimize total passenger waiting time under a fixed operational budget when both schedule frequency and crowding are taken into account. This mechanism produces two universal regimes: a frequency-dominated regime with α = 1 / 2 when crowding is negligible and a capacity-dominated regime with α = 2 / 3 when most routes are overloaded. Intermediate exponents arise when only part of the network operates near capacity. Furthermore, we find that the benefits of additional investment are highly uneven across systems. For instance, our model suggests that a 20 % budget increase yields nearly a 5-min reduction in daily waiting time per passenger in Boston, compared to only about 1 min in Paris. These findings place urban transit within a broader class of constrained capacity-allocation problems, while highlighting a distinct regime in which prescribed route demands shape the allocation of limited service resources. The resulting scaling laws show how simple optimization principles can generate systematic exponents in complex transport systems, beyond the dissipation-based frameworks usually considered in physical and biological flow networks.",
-          "url": "https://doi.org/10.1073/pnas.2535998123",
-          "doi": "https://doi.org/10.1073/pnas.2535998123",
-          "filter": "2",
-          "created": "2026-7-13"
-        },
-        {
           "title": "Disentangling dissociative and nondissociative reaction dynamics in molecular mutual neutralization reactions between CO + and O −",
           "authors": "Mathias Poline, Arnaud Dochain, Stefan Rosén, MingChao Ji, Peter Reinhed, Ansgar Simonsson, Henrik Cederquist, Henning Zettergren, Henning T. Schmidt, Mats Larsson, Shaun G. Ard, Nicholas S. Shuman, Albert A. Viggiano, Richard D. Thomas",
           "abstract": "We have studied the mutual neutralization reaction of CO + with O − at a collision energy of ≤0.1 eV under single-collision conditions. We observe both fully dissociative (31.5 ± 1.8 %) and nondissociative (68.5 ± 1.8 %) charge transfer, involving at least five different electronically excited states in CO. From product momentum analysis, we find that the dynamics are governed by electron transfer processes at large O − -CO + separations and the competition between predissociation and radiative decay in CO Rydberg states. In the case of nondissociative charge transfer, for one of the reaction channels we observe strong vibrational excitation (4 ≤   v ≤ 8) in the product CO molecule. These data are expected to be useful for modeling astrophysical and planetary atmospheric environments where CO + and O − are present.",
@@ -1103,15 +1103,6 @@
           "created": "2026-7-16"
         },
         {
-          "title": "Orbitofrontal noradrenaline supports adaptive learning-rate adjustment in probabilistic reversal learning",
-          "authors": "Hadrien Plat, Coline Chevallier, Alessandro Piccin, Alain R. Marchand, Jérémie Naudé, Etienne Coutureau",
-          "abstract": "Adaptive decision-making in dynamic environments requires flexible adjustment of learning speed to balance stability and flexibility. When outcomes are highly stochastic, learners must avoid over-interpreting noise and update more slowly, whereas in volatile environments where contingencies change frequently, learning should accelerate to rapidly incorporate new evidence. Theories propose that internal estimates of uncertainty tune learning rates through neuromodulation-dependent mechanisms. Here, we investigated how noradrenergic inputs from the locus coeruleus (LC) to the orbitofrontal cortex (OFC) support adaptive learning under uncertainty. We show that, in a probabilistic reversal learning task performed across different levels of stochasticity, rats exhibited behavior best explained by an adaptive reinforcement-learning model in which learning rates dynamically adjusted according to model-estimated stochasticity and volatility, outperforming standard fixed-rate models. Noradrenaline release in the OFC closely tracked trial-by-trial, model-derived volatility estimates around contingency changes. Disrupting LC→OFC noradrenergic inputs reproduced the model-predicted impairment in adaptive learning-rate adjustment associated with model-estimated volatility. Together, these findings identify OFC noradrenergic signaling as a key circuit mechanism supporting learning-rate adjustment in response to internal estimates of volatility during adaptive decision-making under uncertainty.",
-          "url": "https://doi.org/10.1073/pnas.2536535123",
-          "doi": "https://doi.org/10.1073/pnas.2536535123",
-          "filter": "2",
-          "created": "2026-7-13"
-        },
-        {
           "title": "Super-Darcy flow behavior in fracture-confined porous media",
           "authors": "Shuai Zhang, Qing Ma, Weiqiang Xie, Kai Liu, Yanlin Su, Mingxin Zhao, Zefan Wang, Jinpeng Zhao, Xiaoli Liu",
           "abstract": "Particle deposition and migration within fractures can reorganize open void space into heterogeneous fracture-confined porous media (FCPM), yet the macroscopic flow behavior of these emergent systems remains unresolved. Here, Computational Fluid Dynamics–Discrete Element Method (CFD–DEM) simulations were used to resolve particle migration and deposition, whereas a coupled free-flow and seepage-flow model was employed to characterize fluid flow in FCPM. We find that at a fixed Reynolds number, modest particle deposition can lower the overall pressure drop relative to that of the initially open fracture. At high Reynolds numbers, the pressure drops across FCPM not only exceed Darcy’s law predictions (non-Darcy behavior) but, intriguingly, can also fall below them, which is a phenomenon we term super-Darcy behavior. This counterintuitive effect arises from flow exchange between the deposited porous region and the adjacent open region, which modifies eddy formation and growth, thereby broadening the main flow channel. This effect is pronounced when the permeability of the deposited porous region lies from 1 × 10 −12 to 1 × 10 −7 m 2 , identifying a permeability window in which deposition–migration most strongly couples pore-scale structure to fracture-scale hydraulics. This study reveals how particle deposition and transport govern macroscopic flow behavior in fractured channels, offering critical insights for fluid flow control and prediction from microfluidic devices to subsurface energy reservoirs.",
@@ -1128,6 +1119,15 @@
           "doi": "https://doi.org/10.1073/pnas.2525799123",
           "filter": "2",
           "created": "2026-7-14"
+        },
+        {
+          "title": "Orbitofrontal noradrenaline supports adaptive learning-rate adjustment in probabilistic reversal learning",
+          "authors": "Hadrien Plat, Coline Chevallier, Alessandro Piccin, Alain R. Marchand, Jérémie Naudé, Etienne Coutureau",
+          "abstract": "Adaptive decision-making in dynamic environments requires flexible adjustment of learning speed to balance stability and flexibility. When outcomes are highly stochastic, learners must avoid over-interpreting noise and update more slowly, whereas in volatile environments where contingencies change frequently, learning should accelerate to rapidly incorporate new evidence. Theories propose that internal estimates of uncertainty tune learning rates through neuromodulation-dependent mechanisms. Here, we investigated how noradrenergic inputs from the locus coeruleus (LC) to the orbitofrontal cortex (OFC) support adaptive learning under uncertainty. We show that, in a probabilistic reversal learning task performed across different levels of stochasticity, rats exhibited behavior best explained by an adaptive reinforcement-learning model in which learning rates dynamically adjusted according to model-estimated stochasticity and volatility, outperforming standard fixed-rate models. Noradrenaline release in the OFC closely tracked trial-by-trial, model-derived volatility estimates around contingency changes. Disrupting LC→OFC noradrenergic inputs reproduced the model-predicted impairment in adaptive learning-rate adjustment associated with model-estimated volatility. Together, these findings identify OFC noradrenergic signaling as a key circuit mechanism supporting learning-rate adjustment in response to internal estimates of volatility during adaptive decision-making under uncertainty.",
+          "url": "https://doi.org/10.1073/pnas.2536535123",
+          "doi": "https://doi.org/10.1073/pnas.2536535123",
+          "filter": "2",
+          "created": "2026-7-13"
         },
         {
           "title": "Contributions of intra- and extracellular antibiotic degradation to collective β-lactam survival",
@@ -1166,15 +1166,6 @@
           "created": "2026-7-13"
         },
         {
-          "title": "Many AI analysts, one dataset: Navigating the agentic data science multiverse",
-          "authors": "Martin Bertran, Riccardo Fogliato, Zhiwei Steven Wu",
-          "abstract": "Empirical conclusions depend not only on data but also on analytic decisions. Many-analyst studies have quantified this dependence: independent teams testing the same hypothesis on the same dataset regularly reach conflicting conclusions. But such studies require costly human coordination. We show that fully autonomous AI analysts built on large language models (LLMs) can, cheaply and at scale, produce the analytic dispersion observed in human many-analyst studies. In our framework, each AI analyst independently executes a complete analysis pipeline on a fixed dataset and hypothesis; a separate AI auditor screens every run for methodological validity. Across three datasets, AI analyst-produced analyses exhibit substantial dispersion in effect sizes, P -values, and conclusions. This dispersion can be traced to identifiable analytic choices in preprocessing, model specification, and inference that vary systematically across LLM and persona conditions. Critically, the outcomes are steerable: reassigning the analyst persona or LLM shifts the distribution of results even among methodologically sound runs. These results highlight a central challenge for AI-automated empirical science: when defensible analyses are cheap to generate, evidence becomes abundant and vulnerable to selective reporting. The same capability also helps address it: treating analyst results as distributions makes analytic uncertainty visible, and deploying AI analysts against a published specification can reveal how much disagreement stems from underspecified design choices. Taken together, our results motivate a transparency norm: AI-generated analyses should be accompanied by multiverse-style reporting and full disclosure of the prompts used, on par with code and data.",
-          "url": "https://doi.org/10.1073/pnas.2606495123",
-          "doi": "https://doi.org/10.1073/pnas.2606495123",
-          "filter": "2",
-          "created": "2026-7-14"
-        },
-        {
           "title": "A reassessment of NMDA receptor–dependent presynaptic homeostatic plasticity",
           "authors": "Xiumin Chen, Tianli Dou, Junting Zhang, Yidan Hong, Roger A. Nicoll",
           "abstract": "Excitatory glutamatergic synapses in the brain are remarkably plastic. Two forms of plasticity have received the most attention: long-term potentiation (LTP) and synaptic homeostasis. While LTP requires the activation of NMDA receptors, synaptic homeostasis does not. However, both phenomena are mediated by the recruitment of postsynaptic AMPA receptors (AMPAR) to the synapse. Recently a new form of plasticity has been described referred to as presynaptic homeostatic plasticity (PHP). Pharmacological inhibition of AMPAR synaptic responses in CA1 hippocampal pyramidal cells initiates a rapid homeostatic response that results in the recovery of the AMPAR responses to normal values in the continued presence of the inhibitor. Accompanying this recovery is a doubling of the NMDA receptor response which is interpreted as an increase in the release of glutamate. This is provocative since claiming that a reduction in AMPAR responses triggers an enhancement in NMDA receptor responses. Using three different protocols to monitor synaptic responses we fail to observe any recovery of synaptic responses in the presence of an AMPAR inhibitor. Furthermore, there was no enhancement in NMDA receptor responses. Thus, we find no evidence for the presence of PHP at CA1 hippocampal synapses.",
@@ -1189,6 +1180,15 @@
           "abstract": "High levels of mitochondrial DNA (mtDNA) deletions have been described in the substantia nigra. However, the mechanisms involved are poorly understood. We found that transient expression of a mitochondrial targeted restriction endonuclease (mitoPstI) in mice leads to an accumulation of mtDNA rearrangements that involve both the PstI cleavage sites and unrelated specific regions of the mtDNA, including the MTERF1 binding site and the edge of the D-loop. This pattern of rearrangements after double-strand breaks supports the presence of recombination hotspots in the mtDNA. Transient expression of mitoPstI in dopaminergic neurons led to further accumulation of mtDNA rearrangements in dopaminergic neurons after expression was suppressed, a pattern that was not observed in glutamatergic neurons. This accumulation was also blunted when a mtDNA replisome factor was absent, suggesting that robust mtDNA replication is required for the accumulation of preexisting mtDNA rearrangements in dopaminergic neurons over time.",
           "url": "https://doi.org/10.1073/pnas.2601897123",
           "doi": "https://doi.org/10.1073/pnas.2601897123",
+          "filter": "2",
+          "created": "2026-7-14"
+        },
+        {
+          "title": "Many AI analysts, one dataset: Navigating the agentic data science multiverse",
+          "authors": "Martin Bertran, Riccardo Fogliato, Zhiwei Steven Wu",
+          "abstract": "Empirical conclusions depend not only on data but also on analytic decisions. Many-analyst studies have quantified this dependence: independent teams testing the same hypothesis on the same dataset regularly reach conflicting conclusions. But such studies require costly human coordination. We show that fully autonomous AI analysts built on large language models (LLMs) can, cheaply and at scale, produce the analytic dispersion observed in human many-analyst studies. In our framework, each AI analyst independently executes a complete analysis pipeline on a fixed dataset and hypothesis; a separate AI auditor screens every run for methodological validity. Across three datasets, AI analyst-produced analyses exhibit substantial dispersion in effect sizes, P -values, and conclusions. This dispersion can be traced to identifiable analytic choices in preprocessing, model specification, and inference that vary systematically across LLM and persona conditions. Critically, the outcomes are steerable: reassigning the analyst persona or LLM shifts the distribution of results even among methodologically sound runs. These results highlight a central challenge for AI-automated empirical science: when defensible analyses are cheap to generate, evidence becomes abundant and vulnerable to selective reporting. The same capability also helps address it: treating analyst results as distributions makes analytic uncertainty visible, and deploying AI analysts against a published specification can reveal how much disagreement stems from underspecified design choices. Taken together, our results motivate a transparency norm: AI-generated analyses should be accompanied by multiverse-style reporting and full disclosure of the prompts used, on par with code and data.",
+          "url": "https://doi.org/10.1073/pnas.2606495123",
+          "doi": "https://doi.org/10.1073/pnas.2606495123",
           "filter": "2",
           "created": "2026-7-14"
         },
@@ -1236,12 +1236,13 @@
           "created": "2026-7-17"
         },
         {
-          "title": "Reading taste in a bee’s face",
-          "authors": "James C. Nieh",
-          "url": "https://doi.org/10.1073/pnas.2619794123",
-          "doi": "https://doi.org/10.1073/pnas.2619794123",
+          "title": "Mitofusin-2 in ventral striatal D1 neurons regulates effort-based motivation through sex-specific mitochondrial–synaptic reprogramming",
+          "authors": "Alessandro Chioino, Dogukan H. Ulgen, Olivia Zanoletti, Isabelle Guillot de Suduiraut, Ashley M. Maynard, Elisenda Sanz, Albert Quintana, Simone Astori, Carmen Sandi",
+          "abstract": "Effort-based motivation varies widely across individuals and affects well-being, yet the molecular and neuronal mechanisms that set motivational capacity remain incompletely understood. Mitochondrial function is emerging as a critical regulator of behavior, and mitofusin-2 (MFN2) is a key mediator of mitochondrial fusion and endoplasmic reticulum–mitochondria coupling. Here, we asked how downregulation of Mfn2 in dopamine receptor type-1-expressing medium spiny neurons (D1-MSNs) contributes to effort-based motivation and stress coping in male and female mice by integrating electrophysiology, neuronal and synaptic morphology, immunohistochemistry, mitochondrial readouts, RNA in situ hybridization, RiboTag, and behavioral analyses. MFN2 deficiency resulted in fragmented dendritic mitochondria and remodeled synaptic inputs in ventral striatal D1-MSNs, with no cellular impact in dorsomedial striatal D1-MSNs. Although MFN2 deficiency elicited sex-dependent synaptic and structural alterations, both sexes showed reduced recruitment of accumbal D1-MSNs during motivated behavior and impaired effort-based motivation and stress coping. Translatome profiling revealed shared depletion of mitochondrial pathways in both sexes, with more pronounced suppression of oxidative phosphorylation and TCA cycle programs in males. Strikingly, only males also exhibited coordinated downregulation of ribosomal programs together with enrichment of synaptic pathways, with high representation of genes regulating glutamate receptor cycling and PSD remodeling, providing a mechanistic framework for the observed synaptic alterations. Pathway-level network inference further supported coupling among mitochondrial, translational, and synaptic programs in males. These findings identify MFN2-dependent mitochondrial integrity in ventral striatal D1-MSNs as a critical determinant of motivational capacity and reveal sex-specific molecular and cellular responses through which mitochondrial dysfunction converges on similar motivational deficits.",
+          "url": "https://doi.org/10.1073/pnas.2601657123",
+          "doi": "https://doi.org/10.1073/pnas.2601657123",
           "filter": "2",
-          "created": "2026-7-13"
+          "created": "2026-7-15"
         },
         {
           "title": "Internal stress controls tendril writhing dynamics in climbing plants",
@@ -1253,15 +1254,6 @@
           "created": "2026-7-13"
         },
         {
-          "title": "Mitofusin-2 in ventral striatal D1 neurons regulates effort-based motivation through sex-specific mitochondrial–synaptic reprogramming",
-          "authors": "Alessandro Chioino, Dogukan H. Ulgen, Olivia Zanoletti, Isabelle Guillot de Suduiraut, Ashley M. Maynard, Elisenda Sanz, Albert Quintana, Simone Astori, Carmen Sandi",
-          "abstract": "Effort-based motivation varies widely across individuals and affects well-being, yet the molecular and neuronal mechanisms that set motivational capacity remain incompletely understood. Mitochondrial function is emerging as a critical regulator of behavior, and mitofusin-2 (MFN2) is a key mediator of mitochondrial fusion and endoplasmic reticulum–mitochondria coupling. Here, we asked how downregulation of Mfn2 in dopamine receptor type-1-expressing medium spiny neurons (D1-MSNs) contributes to effort-based motivation and stress coping in male and female mice by integrating electrophysiology, neuronal and synaptic morphology, immunohistochemistry, mitochondrial readouts, RNA in situ hybridization, RiboTag, and behavioral analyses. MFN2 deficiency resulted in fragmented dendritic mitochondria and remodeled synaptic inputs in ventral striatal D1-MSNs, with no cellular impact in dorsomedial striatal D1-MSNs. Although MFN2 deficiency elicited sex-dependent synaptic and structural alterations, both sexes showed reduced recruitment of accumbal D1-MSNs during motivated behavior and impaired effort-based motivation and stress coping. Translatome profiling revealed shared depletion of mitochondrial pathways in both sexes, with more pronounced suppression of oxidative phosphorylation and TCA cycle programs in males. Strikingly, only males also exhibited coordinated downregulation of ribosomal programs together with enrichment of synaptic pathways, with high representation of genes regulating glutamate receptor cycling and PSD remodeling, providing a mechanistic framework for the observed synaptic alterations. Pathway-level network inference further supported coupling among mitochondrial, translational, and synaptic programs in males. These findings identify MFN2-dependent mitochondrial integrity in ventral striatal D1-MSNs as a critical determinant of motivational capacity and reveal sex-specific molecular and cellular responses through which mitochondrial dysfunction converges on similar motivational deficits.",
-          "url": "https://doi.org/10.1073/pnas.2601657123",
-          "doi": "https://doi.org/10.1073/pnas.2601657123",
-          "filter": "2",
-          "created": "2026-7-15"
-        },
-        {
           "title": "Virtual ultrasound machine operating in a GHz to MHz frequency range for particle-based biomedical simulations",
           "authors": "Urban Čoko, Tilen Potisk, Matej Praprotnik",
           "abstract": "Ultrasound–matter interactions underpin numerous biomedical and soft-matter applications, yet simulating these phenomena is challenging due to the large separation of viscous and sonic time scales. Continuum methods capture large-scale wave propagation but cannot resolve microscale interactions, while particle-based approaches offer molecular resolution but struggle with efficiency and stability at larger scales. We introduce a particle-based virtual ultrasound machine that uses a smoothed dissipative particle dynamics variant with an implicit pressure solver and a negative-pressure stabilization scheme, required to mimic acoustic propagation across medically relevant MHz–GHz frequencies. We demonstrate its capabilities by modeling the acoustophoresis of encapsulated microbubbles, a key mechanism in ultrasound-mediated drug delivery. Beyond this application, the approach establishes a generalizable platform for simulating wave–matter interactions in soft and biological materials, opening promising directions for computational studies of acoustics-driven phenomena in science and engineering.",
@@ -1269,6 +1261,14 @@
           "doi": "https://doi.org/10.1073/pnas.2610567123",
           "filter": "2",
           "created": "2026-7-16"
+        },
+        {
+          "title": "Reading taste in a bee’s face",
+          "authors": "James C. Nieh",
+          "url": "https://doi.org/10.1073/pnas.2619794123",
+          "doi": "https://doi.org/10.1073/pnas.2619794123",
+          "filter": "2",
+          "created": "2026-7-13"
         },
         {
           "title": "A population of primary afferent sensory neurons mediates pain relief through nocifensive coping behavior in mice",
@@ -1423,15 +1423,6 @@
           "created": "2026-7-15"
         },
         {
-          "title": "Spatiotemporally controlled matrix softening facilitates deterministic crypt formation in human intestinal organoids",
-          "authors": "Michael R. Blatchley, Kaustav Bera, Nolan R. Petrich, Bruce E. Kirkpatrick, F. Max Yavitt, Patrick S. McGrath, Peter J. Dempsey, Kristi S. Anseth",
-          "abstract": "Spatially controlling morphogenesis is a challenge for many organoid systems that manifests as a limited understanding of self-organization of differentiating cells and leads to a high degree of heterogeneity in organoid morphometrics. Current methods to grow organoids rely on temporal presentation of soluble cues that are not controllably delivered, and little is known about the role of the extracellular microenvironment in this process. Here, we present a material-based strategy to spatiotemporally control morphogenesis of human intestinal organoids (HIOs) with predictable crypt morphometrics and cell composition that match their in vivo tissue counterparts. We first optimize culture conditions to generate more reproducible HIOs with predictable growth in phototunable poly (ethylene glycol)-based hydrogels, and then systematically investigate the role of light-mediated matrix softening in guiding crypt formation. The light dose delivered to crypt-sized regions adjacent to growing organoids is a key factor in maintaining organoid cell viability, as well as crypt budding and elongation. With optimized light doses, predictable epithelial shape changes result in programmable crypt formation, confirmed by the presence of proliferative (Ki67+) and niche-defining Paneth (Lyz+) cells. This methodology could be readily adopted for other budding and branching organoids to facilitate controllable changes in morphogenesis or cell migration. Sequential patterning approaches and more complex pattern designs could further open the parameter space to facilitate modeling of a wide array of engineered tissues for applications ranging from fundamental biology to disease modeling and translational medicine.",
-          "url": "https://doi.org/10.1073/pnas.2533029123",
-          "doi": "https://doi.org/10.1073/pnas.2533029123",
-          "filter": "2",
-          "created": "2026-7-14"
-        },
-        {
           "title": "Homer condensates orchestrate YAP–Wnt signaling crosstalk downstream of the Crumbs polarity complex",
           "authors": "Siti Maryam J. M. Yatim, Linda Jiabao Woo, Yuhong Chen, Barbara Hübner, Alexander Ludwig",
           "abstract": "The Hippo pathway governs cell growth, proliferation, and differentiation and is frequently deregulated in cancer. Yes-associated protein (YAP) is the central transcriptional coactivator of the Hippo pathway and interacts with β-catenin to coordinate YAP–Wnt signaling crosstalk. Both pathways are modulated by diverse upstream signals including mechanical cues, cell density, and cell polarity, yet how such signals are integrated remains poorly understood. Here, we demonstrate that Homer scaffolding proteins coordinate YAP and Wnt signaling downstream of the Crumbs polarity complex. Homers interact directly via their EVH1 domains with the Crumbs component PATJ and the NDR kinase scaffold Furry-like (FRYL). Homers antagonize FRYL to promote YAP activation while cooperating with FRYL to enhance Wnt/β-catenin signaling, revealing pathway-selective regulation. PATJ, in contrast, recruits Homers to the cortex and restrains YAP activity. We further show that Homers form biomolecular condensates in nonpolarized epithelial and colorectal cancer cells, whose assembly and signaling properties are differentially modulated by PATJ and FRYL. Whereas FRYL promotes the formation of cytoplasmic droplets, PATJ drives the assembly of phase-separated compartments at or near the plasma membrane. Collectively, our findings establish Homer-driven phase separation as a tunable signaling mechanism to translate polarity cues into transcriptional output.",
@@ -1448,6 +1439,15 @@
           "doi": "https://doi.org/10.1073/pnas.2531501123",
           "filter": "2",
           "created": "2026-7-15"
+        },
+        {
+          "title": "Spatiotemporally controlled matrix softening facilitates deterministic crypt formation in human intestinal organoids",
+          "authors": "Michael R. Blatchley, Kaustav Bera, Nolan R. Petrich, Bruce E. Kirkpatrick, F. Max Yavitt, Patrick S. McGrath, Peter J. Dempsey, Kristi S. Anseth",
+          "abstract": "Spatially controlling morphogenesis is a challenge for many organoid systems that manifests as a limited understanding of self-organization of differentiating cells and leads to a high degree of heterogeneity in organoid morphometrics. Current methods to grow organoids rely on temporal presentation of soluble cues that are not controllably delivered, and little is known about the role of the extracellular microenvironment in this process. Here, we present a material-based strategy to spatiotemporally control morphogenesis of human intestinal organoids (HIOs) with predictable crypt morphometrics and cell composition that match their in vivo tissue counterparts. We first optimize culture conditions to generate more reproducible HIOs with predictable growth in phototunable poly (ethylene glycol)-based hydrogels, and then systematically investigate the role of light-mediated matrix softening in guiding crypt formation. The light dose delivered to crypt-sized regions adjacent to growing organoids is a key factor in maintaining organoid cell viability, as well as crypt budding and elongation. With optimized light doses, predictable epithelial shape changes result in programmable crypt formation, confirmed by the presence of proliferative (Ki67+) and niche-defining Paneth (Lyz+) cells. This methodology could be readily adopted for other budding and branching organoids to facilitate controllable changes in morphogenesis or cell migration. Sequential patterning approaches and more complex pattern designs could further open the parameter space to facilitate modeling of a wide array of engineered tissues for applications ranging from fundamental biology to disease modeling and translational medicine.",
+          "url": "https://doi.org/10.1073/pnas.2533029123",
+          "doi": "https://doi.org/10.1073/pnas.2533029123",
+          "filter": "2",
+          "created": "2026-7-14"
         },
         {
           "title": "Tumor-derived cytokine enhances bitter sensing through remote control of bitter taste neurons via the Upd3/Spz5/Toll-6 axis in Drosophila",
@@ -1481,15 +1481,14 @@
     {
       "journal_full": "Science",
       "journal_short": "Sci",
-      "articles": [],
-      "articles_hidden": [
+      "articles": [
         {
           "title": "AI in scientific publishing: Slower, worse, and more expensive",
           "authors": "H. Holden Thorp",
           "abstract": "There’s a saying in the management world, popularized by NASA administrator Daniel Goldin in the 1990s, that the goal of technological improvements is to make products faster, better, and cheaper. Although this strategy had some success in the aerospace industry, the zealots of artificial intelligence (AI) have been making the same argument regarding how it will transform work, claiming that so little human effort will be required that humanity will enter an era of radical abundance, free from disease, drudgery, and danger, among other benefits, leaving society with more time for creative pursuits. But history tells a different story. When machines began to increase productivity during the second industrial revolution, American engineer Frederick Winslow Taylor’s The Principles of Scientific Management encouraged corporations to use surveillance to get employees to work harder and longer, an approach that exhausted and discouraged workers and led to the transfer of knowledge and any decision-making from workers to management, while enriching the profits for only those at the top. Yet, it remains foundational to the American economic enterprise. Indeed, scientific publishing is starting to experience some Taylorism with the insertion of AI. Rigorous human checking of AI-generated research papers is creating bottlenecks as publishers strive to maintain the integrity of the scientific record. The challenge is requiring even more human effort, making the whole endeavor slower and more expensive.",
           "url": "https://doi.org/10.1126/science.aek5570",
           "doi": "https://doi.org/10.1126/science.aek5570",
-          "filter": "2",
+          "filter": "0",
           "created": "2026-7-16"
         },
         {
@@ -1498,9 +1497,11 @@
           "abstract": "In the mid-19th century, St Helena became a key receiving point for Africans “liberated” from illegal slave ships by the British Royal Navy. Of the ~27,000 landed, ~8000 died soon after arrival and were buried locally. In connection with a broader community-led commemorative effort, we analyzed tooth enamel strontium isotope ( 87 Sr/ 86 Sr) data for 152 individuals, including high-resolution intratooth profiles, to identify likely origins and infer forced movements before embarkation. Isoscape-based probabilistic assignment, integrated with historical evidence and published ancient DNA data, constrains homelands ranging from coastal Central Africa to far inland areas, revealing long-distance movements, sometimes beginning in childhood. By refining provenance, these data informed local decisions about care and potential repatriation, highlighting the complexities of return and ultimately supporting reburial on St Helena.",
           "url": "https://doi.org/10.1126/science.aeb3661",
           "doi": "https://doi.org/10.1126/science.aeb3661",
-          "filter": "2",
+          "filter": "0",
           "created": "2026-7-16"
-        },
+        }
+      ],
+      "articles_hidden": [
         {
           "title": "Cross-cohort analysis of expression and splicing quantitative trait loci in TOPMed",
           "authors": "Peter Orchard, Thomas W. Blackwell, Linda Kachuri, Peter J. Castaldi, Michael H. Cho, Stephanie A. Christenson, Peter Durda, Stacey Gabriel, Craig P. Hersh, Scott Huntsman, Seungyong Hwang, Roby Joehanes, Mari Johnson, Xingnan Li, Honghuang Lin, Ching-Ti Liu, Yongmei Liu, Angel C. Y. Mak, Ani W. Manichaikul, David T. Paik, Aabida Saferali, Joshua D. Smith, Kent D. Taylor, Russell P. Tracy, Jiongming Wang, Mingqiang Wang, Joshua S. Weinstock, Jeffrey Weiss, Heather E. Wheeler, Ying Zhou, Sebastian Zöllner, Joseph C. Wu, Luisa Mestroni, Sharon Graw, Matthew R. G. Taylor, Victor E. Ortega, W. Craig Johnson, Weiniu Gan, Goncalo Abecasis, Deborah A. Nickerson, Namrata Gupta, Kristin Ardlie, Prescott G. Woodruff, Russell P. Bowler, Deborah A. Meyers, Alex Reiner, Charles Kooperberg, Elad Ziv, Ramachandran S. Vasan, Martin G. Larson, L. Adrienne Cupples, Edwin K. Silverman, Stephen S. Rich, Nancy Heard-Costa, Hua Tang, Jerome I. Rotter, Albert V. Smith, Daniel Levy, character(0), character(0), François Aguet, Laura J. Scott, Laura M. Raffield, Stephen C. J. Parker, Namiko Abe, Laura Almasy, Seth Ament, Pramod Anugu, Paul Auer, Dimitrios Avramopoulos, Adithya Balasubramanian, R. Graham Barr, Lucas Barwick, Terri Beaty, Diane Becker, Lewis Becker, Amber Beitelshees, Takis Benos, Marcos Bezerra, Joshua Bis, Jennifer Brody, Ulrich Broeckel, Jai Broome, Karen Bunting, Erin Buth, Vincent Carey, Cara Carty, Richard Casaburi, Mark Chaffin, Christy Chang, Yi-Cheng Chang, Sameer Chavan, Bo-Juen Chen, Wei-Min Chen, Seung Hoan Choi, Lee-Ming Chuang, Ren-Hua Chung, Matthew Conomos, Elaine Cornell, Carolyn Crandall, James Crapo, Jeffrey Curtis, Coleen Damcott, Sean David, Lisa de las Fuentes, Paul de Vries, Ranjan Deka, Dawn DeMeo, Scott Devine, Huyen Dinh, Harsha Doddapaneni, Qing Duan, Ravi Duggirala, Charles Eaton, Lynette Ekunwe, Adel El Boueiz, Leslie Emery, Charles Farber, Jesse Farek, Nora Franceschini, Chris Frazar, Mao Fu, Stephanie M. Fullerton, Lucinda Fulton, Shanshan Gao, Yan Gao, Margery Gass, Heather Geiger, Auyon Ghosh, Chris Gignoux, David Glahn, Stephanie Gogarten, Da-Wei Gong, Harald Goring, Daniel Grine, C. Charles Gu, Yue Guan, Michael Hall, Yi Han, Daniel Harris, Ben Heavner, David Herrington, Brian Hobbs, Elliott Hong, Karin Hoth, Chao (Agnes) Hsiung, Jianhong Hu, Yi-Jen Hung, Haley Huston, Chii Min Hwu, Rebecca Jackson, Deepti Jain, Jill Johnsen, Rich Johnston, Kimberly Jones, Michael Kessler, Alyna Khan, Ziad Khan, Wonji Kim, John Kimoff, Greg Kinney, Holly Kramer, Christoph Lange, Ethan Lange, Cathy Laurie, Cecelia Laurie, Meryl LeBoff, Sandra Lee, Wen-Jane Lee, David Levine, Joshua Lewis, Yun Li, Xihong Lin, Simin Liu, Yu Liu, Barry Make, Alisa Manning, JoAnn Manson, Lisa Martin, Melissa Marton, Susan Mathai, Susanne May, Patrick McArdle, Merry-Lynn McDonald, Sean McFarland, Daniel McGoldrick, Caitlin McHugh, Hao Mei, James Meigs, Vipin Menon, Nancy Min, Matt Moll, Zeineen Momin, May Montasser, Josyf C Mychaleckyj, Rakhi Naik, Take Naseri, Pradeep Natarajan, Sarah C. Nelson, Bonnie Neltner, Caitlin Nessner, Osuji Nkechinyere, Jeff O'Connell, Tim O’Connor, Heather Ochs-Balcom, Geoffrey Okwuonu, James Pankow, Cora Parker, Gina Peloso, Juan Manuel Peralta, Marco Perez, James Perry, Ulrike Peters, Lawrence S Phillips, Toni Pollin, Julia Powers Becker, Meher Preethi Boorgula, Bruce Psaty, Dandi Qiao, Nicholas Rafaels, Mahitha Rajendran, Laura Rasmussen-Torvik, Aakrosh Ratan, Robert Reed, Elizabeth Regan, Muagututi‘a Sefuiva Reupena, Rebecca Robillard, Carolina Roselli, Ingo Ruczinski, Alexi Runnels, Pamela Russell, Kathleen Ryan, Ester Cerdeira Sabino, Shabnam Salimi, Sejal Salvi, Steven Salzberg, Kevin Sandow, Jireh Santibanez, Karen Schwander, Frank Sciurba, Frédéric Sériès, Amol Shetty, Aniket Shetty, Brian Silver, Robert Skomro, Tanja Smith, Sylvia Smoller, Beverly Snively, Adrienne M. Stilp, Garrett Storm, Elizabeth Streeten, Jessica Lasky Su, Yun Ju Sung, Jody Sylvia, Adam Szpiro, Margaret Taub, Simeon Taylor, Timothy A. Thornton, Machiko Threlkeld, Lesley Tinker, David Tirschwell, Hemant Tiwari, Catherine Tong, Michael Tsai, Dhananjay Vaidya, Tarik Walker, Robert Wallace, Avram Walts, Fei Fei Wang, Heming Wang, Karol Watson, Jennifer Watt, Lu-Chen Weng, Jennifer Wessel, Kayleen Williams, Carla Wilson, James Wilson, Lara Winterkorn, Quenna Wong, Baojun Wu, Huichun Xu, Lisa Yanek, Ivana Yang, Seyedeh Maryam Zekavat, Snow Xueyan Zhao, Wei Zhao, Xiaofeng Zhu",
@@ -1937,13 +1938,22 @@
           "created": "2026-7-15"
         },
         {
-          "title": "Meteor over New York City: Brines in a primitive CM asteroid",
-          "authors": "Peter Jenniskens, Michael E. Zolensky, Austin Gordon, Jamie Gordon, Mike Hankey, Elizabeth A. Silber, Miro Ronac Giannone, Jangmi Han, Loan Le, Marc D. Fries, Karen Ziegler, Queenie H. S. Chan, Diptimayee Behera, Jonathan S. Watson, Mark A. Sephton, James Brakeley, Bianka Munday, Yoko Kebukawa, Zack Gainsforth, Masanori Suzuki, Gregory A. Brennecka, Jan H. Render, Henner Busemann, Daniela Krietsch, Colin Maden, Kees C. Welten, Kunihiko Nishiizumi, Marc W. Caffee, Takahiro Hiroi, Stefan Ruchti, Philippe Schmitt-Kopplin, Jasmine Hertzog, Vincent Carré, Daniel P. Glavin, Jason P. Dworkin, Hannah L. McLain, Angel Mojarro, José Aponte, Denise Buckner, Nanako O. Ogawa, Yoshinori Takano, Naohiko Ohkouchi, Sonia M. Tikoo, Ji-In Jung, Eva M. Riveros, Jon M. Friedrich, Denton S. Ebel",
-          "abstract": "The CI (Ivuna-type) carbonaceous material returned from asteroids Ryugu and Bennu contain mobilized sodium from the evaporation or freezing of liquid water into brines, shedding light on the internal structure of ice-rich CI-type worlds and the formation of prebiotic organic compounds. The formation of brines has not been demonstrated in CM (Mighei-type) carbonaceous chondrites, which also supplied organic matter to the early Earth. Here, we announce the fall of a primitive meteorite from a daytime fireball over the New York metropolitan area in July 2024. It is a CM2 breccia that contains unique CM1 clasts rich in water and sodium. The meteorite contains abundant amino acids and other products of organic chemistry in brines that reveal subsurface processes on CM-type asteroid parent bodies.",
-          "url": "https://doi.org/10.1126/sciadv.aea2105",
-          "doi": "https://doi.org/10.1126/sciadv.aea2105",
+          "title": "Microbubble-activated CO 2 regeneration in scalable microporous liquids enabled by contact electrocatalysis",
+          "authors": "Pan Zhu, Lixuan Ma, Xudong Yang, Xiao-Hong Yi, Jundong Wang, Chunlu Ding, Xin Li, Meng Lin, Wen Liu, Chong-Chen Wang, Huazhang Zhao, Zishuai Zhang",
+          "abstract": "Conventional carbon dioxide (CO 2 ) capture systems are constrained by limited uptake capacity and energy-intensive regeneration. Here, we formulate a microporous carbon capture solution (MCCS) by dispersing a permanent-porosity framework (ZIF-67) in a liquid absorbent, coupling solvent-excluded physisorption with chemical uptake and boosting the CO 2 capture capacity by ∼45%. Instead of bulk thermal stripping, we implement interfacial, microbubble-activated regeneration (MAR) with a decreased monoethanolamine (MEA) loss rate by ∼38%. Microbubble activation refreshes gas-liquid-solid contact to liberate 100% physiosorbed CO 2 , whereas microbubble-collapse events that mechanically trigger contact electrocatalysis (CEC), enabling interfacial hydroxyl radicals (•OH) that cleave carbamates under mild conditions and regenerates a substantial additional 37 to 55% of chemically absorbed CO 2 . Theoretical analyses reveal that •OH is the key species governing CO 2 regeneration in the CEC-MAR process through oxidative carbon-nitrogen bond cleavage, followed by •H-assisted intermediate reduction to regenerate the amine. To approach engineering relevance, we realize kilogram-scale zeolitic imidazolate framework (ZIF) synthesis under ambient conditions using simple mechanical stirring, providing scalable MCCS inventory to enable (i) continuous delivery of high-purity CO 2 (1437 millimoles over 200 minutes) from a laboratory-scale integrated system and (ii) direct electroreduction to carbon monoxide (CO) with a faradaic efficiency (FE CO ) of 51% without CO 2 supply. More broadly, it establishes a porous-liquid, interfacial-regeneration paradigm that decouples capacity from stoichiometry and enables electrified, continuous CO 2 capture, regeneration, and utilization under scalable, low-temperature conditions.",
+          "url": "https://doi.org/10.1126/sciadv.aef9017",
+          "doi": "https://doi.org/10.1126/sciadv.aef9017",
           "filter": "2",
-          "created": "2026-7-15"
+          "created": "2026-7-17"
+        },
+        {
+          "title": "Seamount subduction drives bonanza-grade gold mineralization",
+          "authors": "Yanhong H. Liu, Bo Wan, Ross N. Mitchell, Wenjiao J. Xiao, Thomas M. Gernon",
+          "abstract": "Giant gold deposits are invariably related to orogenesis, but the causal link remains enigmatic. Many giant gold (Au) deposits, such as those in the South Tianshan province, exhibit a spatiotemporal relationship with seamount subduction. We report gold contents of mafic rocks of varying metamorphic grades from the accretionary complex using ultra-low-detection-limit analytical methods, where plume-modified samples yield higher gold contents and Au contents decrease during metamorphism. We propose that seamount subduction drives major gold formation following a three-step sequence: (i) a mantle plume pumps gold from the deep mantle into seamounts emplaced in oceanic crust; (ii) subduction of the seamount chain releases and stores gold at the base of the overriding plate; (iii) extensive melt/fluid activity during the magmatic flare-up transports the gold to the shallow crust for mineralization. This model can explain the striking correspondence between the frequency of Au deposits and known subducted seamounts globally over the past 600 million years.",
+          "url": "https://doi.org/10.1126/sciadv.aef6613",
+          "doi": "https://doi.org/10.1126/sciadv.aef6613",
+          "filter": "2",
+          "created": "2026-7-17"
         },
         {
           "title": "Thermodynamic control of Cu-I nanotopologies enables solar-driven CO 2 -to-multicarbon conversion",
@@ -1964,22 +1974,13 @@
           "created": "2026-7-17"
         },
         {
-          "title": "Microbubble-activated CO 2 regeneration in scalable microporous liquids enabled by contact electrocatalysis",
-          "authors": "Pan Zhu, Lixuan Ma, Xudong Yang, Xiao-Hong Yi, Jundong Wang, Chunlu Ding, Xin Li, Meng Lin, Wen Liu, Chong-Chen Wang, Huazhang Zhao, Zishuai Zhang",
-          "abstract": "Conventional carbon dioxide (CO 2 ) capture systems are constrained by limited uptake capacity and energy-intensive regeneration. Here, we formulate a microporous carbon capture solution (MCCS) by dispersing a permanent-porosity framework (ZIF-67) in a liquid absorbent, coupling solvent-excluded physisorption with chemical uptake and boosting the CO 2 capture capacity by ∼45%. Instead of bulk thermal stripping, we implement interfacial, microbubble-activated regeneration (MAR) with a decreased monoethanolamine (MEA) loss rate by ∼38%. Microbubble activation refreshes gas-liquid-solid contact to liberate 100% physiosorbed CO 2 , whereas microbubble-collapse events that mechanically trigger contact electrocatalysis (CEC), enabling interfacial hydroxyl radicals (•OH) that cleave carbamates under mild conditions and regenerates a substantial additional 37 to 55% of chemically absorbed CO 2 . Theoretical analyses reveal that •OH is the key species governing CO 2 regeneration in the CEC-MAR process through oxidative carbon-nitrogen bond cleavage, followed by •H-assisted intermediate reduction to regenerate the amine. To approach engineering relevance, we realize kilogram-scale zeolitic imidazolate framework (ZIF) synthesis under ambient conditions using simple mechanical stirring, providing scalable MCCS inventory to enable (i) continuous delivery of high-purity CO 2 (1437 millimoles over 200 minutes) from a laboratory-scale integrated system and (ii) direct electroreduction to carbon monoxide (CO) with a faradaic efficiency (FE CO ) of 51% without CO 2 supply. More broadly, it establishes a porous-liquid, interfacial-regeneration paradigm that decouples capacity from stoichiometry and enables electrified, continuous CO 2 capture, regeneration, and utilization under scalable, low-temperature conditions.",
-          "url": "https://doi.org/10.1126/sciadv.aef9017",
-          "doi": "https://doi.org/10.1126/sciadv.aef9017",
+          "title": "Meteor over New York City: Brines in a primitive CM asteroid",
+          "authors": "Peter Jenniskens, Michael E. Zolensky, Austin Gordon, Jamie Gordon, Mike Hankey, Elizabeth A. Silber, Miro Ronac Giannone, Jangmi Han, Loan Le, Marc D. Fries, Karen Ziegler, Queenie H. S. Chan, Diptimayee Behera, Jonathan S. Watson, Mark A. Sephton, James Brakeley, Bianka Munday, Yoko Kebukawa, Zack Gainsforth, Masanori Suzuki, Gregory A. Brennecka, Jan H. Render, Henner Busemann, Daniela Krietsch, Colin Maden, Kees C. Welten, Kunihiko Nishiizumi, Marc W. Caffee, Takahiro Hiroi, Stefan Ruchti, Philippe Schmitt-Kopplin, Jasmine Hertzog, Vincent Carré, Daniel P. Glavin, Jason P. Dworkin, Hannah L. McLain, Angel Mojarro, José Aponte, Denise Buckner, Nanako O. Ogawa, Yoshinori Takano, Naohiko Ohkouchi, Sonia M. Tikoo, Ji-In Jung, Eva M. Riveros, Jon M. Friedrich, Denton S. Ebel",
+          "abstract": "The CI (Ivuna-type) carbonaceous material returned from asteroids Ryugu and Bennu contain mobilized sodium from the evaporation or freezing of liquid water into brines, shedding light on the internal structure of ice-rich CI-type worlds and the formation of prebiotic organic compounds. The formation of brines has not been demonstrated in CM (Mighei-type) carbonaceous chondrites, which also supplied organic matter to the early Earth. Here, we announce the fall of a primitive meteorite from a daytime fireball over the New York metropolitan area in July 2024. It is a CM2 breccia that contains unique CM1 clasts rich in water and sodium. The meteorite contains abundant amino acids and other products of organic chemistry in brines that reveal subsurface processes on CM-type asteroid parent bodies.",
+          "url": "https://doi.org/10.1126/sciadv.aea2105",
+          "doi": "https://doi.org/10.1126/sciadv.aea2105",
           "filter": "2",
-          "created": "2026-7-17"
-        },
-        {
-          "title": "Seamount subduction drives bonanza-grade gold mineralization",
-          "authors": "Yanhong H. Liu, Bo Wan, Ross N. Mitchell, Wenjiao J. Xiao, Thomas M. Gernon",
-          "abstract": "Giant gold deposits are invariably related to orogenesis, but the causal link remains enigmatic. Many giant gold (Au) deposits, such as those in the South Tianshan province, exhibit a spatiotemporal relationship with seamount subduction. We report gold contents of mafic rocks of varying metamorphic grades from the accretionary complex using ultra-low-detection-limit analytical methods, where plume-modified samples yield higher gold contents and Au contents decrease during metamorphism. We propose that seamount subduction drives major gold formation following a three-step sequence: (i) a mantle plume pumps gold from the deep mantle into seamounts emplaced in oceanic crust; (ii) subduction of the seamount chain releases and stores gold at the base of the overriding plate; (iii) extensive melt/fluid activity during the magmatic flare-up transports the gold to the shallow crust for mineralization. This model can explain the striking correspondence between the frequency of Au deposits and known subducted seamounts globally over the past 600 million years.",
-          "url": "https://doi.org/10.1126/sciadv.aef6613",
-          "doi": "https://doi.org/10.1126/sciadv.aef6613",
-          "filter": "2",
-          "created": "2026-7-17"
+          "created": "2026-7-15"
         },
         {
           "title": "Focused ultrasound blood-brain barrier opening reveals a paradoxical remote metabolic response in the primate brain",
@@ -2009,6 +2010,15 @@
           "created": "2026-7-15"
         },
         {
+          "title": "Picosecond switching of magnetic tunnel junctions by spin-orbit torque",
+          "authors": "Chen Xiao, Wenlong Cai, Hongchao Zhang, Dinghao Ma, Kaihua Cao, Ao Du, Shiyang Lu, Xiangyu Zheng, Boyu Zhang, Hongxi Liu, Kewen Shi, Weisheng Zhao",
+          "abstract": "Ultrafast switching of magnetic tunnel junctions (MTJs) is essential for future high-bandwidth memory and in-memory computing. However, state-of-the-art electrical switching of MTJs remains constrained to hundreds of picoseconds, leaving a substantial gap between memory and processors. Here, we experimentally demonstrate field-free switching of three-terminal MTJs using picosecond electrical pulses driven by spin-orbit torque (SOT), surpassing the speed limit by an order of magnitude. We further use voltage-gated (VG) effect to probe SOT switching mechanisms over wide pulse-width ranges and identify a nonmonotonic VG-SOT efficiency. While the efficiency is pronounced under long-pulse excitation, it diminishes in the subnanosecond regime but reemerges as the pulse width scales down to 13.2 ps, yielding an energy consumption about 30 fJ per bit. Micromagnetic analysis reveals that, from dc to picosecond timescale, the dominant magnetization switching dynamics evolve from thermally activated reversal to incoherent precession to coherent precession. These results establish picosecond VG-SOT as a pathway toward ultrafast and energy-efficient memory and logic.",
+          "url": "https://doi.org/10.1126/sciadv.aed0607",
+          "doi": "https://doi.org/10.1126/sciadv.aed0607",
+          "filter": "2",
+          "created": "2026-7-17"
+        },
+        {
           "title": "Dirac magnons in a thin elemental itinerant ferromagnet",
           "authors": "Khalil Zakeri, Christopher Hins, Robin R. Neumann, Alexander Mook, Arthur Ernst",
           "abstract": "A distinct difference between graphene—an atomic layer of carbon—and conventional semiconductors is that its electrons behave as massless Dirac fermions, giving rise to unprecedented physical properties. Magnetically ordered solids host magnons, quasiparticles associated with magnetic degrees of freedom. While Dirac magnons have recently been predicted in specific insulating or rare-earth magnets, their existence in thin 3d magnets remains elusive because of the complex nature of itinerant magnetism and dimensionality effects. Here, we demonstrate the presence of Dirac magnons in a thin itinerant elemental ferromagnet. By investigating atomically designed hexagonal close-packed cobalt films, we establish that magnons in such structures resemble the Dirac electrons in graphene. We explain the physical nature of these Dirac magnons and discuss the consequences of symmetry, dimensionality, magnetic interactions, the number of atomic layers, and cobalt’s itinerant magnetism on the properties of the Dirac points. Our results pave the way for finding and engineering Dirac magnons in a variety of low-dimensional layered 3d ferromagnets and metamaterials.",
@@ -2036,15 +2046,6 @@
           "created": "2026-7-15"
         },
         {
-          "title": "Picosecond switching of magnetic tunnel junctions by spin-orbit torque",
-          "authors": "Chen Xiao, Wenlong Cai, Hongchao Zhang, Dinghao Ma, Kaihua Cao, Ao Du, Shiyang Lu, Xiangyu Zheng, Boyu Zhang, Hongxi Liu, Kewen Shi, Weisheng Zhao",
-          "abstract": "Ultrafast switching of magnetic tunnel junctions (MTJs) is essential for future high-bandwidth memory and in-memory computing. However, state-of-the-art electrical switching of MTJs remains constrained to hundreds of picoseconds, leaving a substantial gap between memory and processors. Here, we experimentally demonstrate field-free switching of three-terminal MTJs using picosecond electrical pulses driven by spin-orbit torque (SOT), surpassing the speed limit by an order of magnitude. We further use voltage-gated (VG) effect to probe SOT switching mechanisms over wide pulse-width ranges and identify a nonmonotonic VG-SOT efficiency. While the efficiency is pronounced under long-pulse excitation, it diminishes in the subnanosecond regime but reemerges as the pulse width scales down to 13.2 ps, yielding an energy consumption about 30 fJ per bit. Micromagnetic analysis reveals that, from dc to picosecond timescale, the dominant magnetization switching dynamics evolve from thermally activated reversal to incoherent precession to coherent precession. These results establish picosecond VG-SOT as a pathway toward ultrafast and energy-efficient memory and logic.",
-          "url": "https://doi.org/10.1126/sciadv.aed0607",
-          "doi": "https://doi.org/10.1126/sciadv.aed0607",
-          "filter": "2",
-          "created": "2026-7-17"
-        },
-        {
           "title": "Pilgrimage to sacrifice: Mechanisms, causes, and time of death of the Western Andean Capacocha of the Southern Tawantinsuyu",
           "authors": "Verónica Silva-Pinto, Marcela Sepúlveda, Eugenia M. Gayo, Pablo Mendez-Quiros, Mario Castro, Lumila Paula Menéndez, Gonzalo M. Rojas-Costa, María L. Cerón, Andrew S. Wilson, Verónica Catalán, Claudio Silva, Ximena Stecher, Pablo Soffia, Domingo C. Salazar-García",
           "abstract": "Capacocha was a key Inca state rite that intertwined pilgrimage, sacrifice, and imperial incorporation across the Andes. We present a multianalytical investigation into two Capacocha cases from the western slope of the Andes: Cerro Esmeralda, located in the coastal Atacama Desert of northern Chile, and Cerro El Plomo, in the high mountains of central Chile. Stable isotope analysis reveals commensality practices during the pilgrimage, integrating local communities into the imperial order. Furthermore, computed tomography, dermatoscopy, and skin histology provide new evidence regarding the causes and mechanisms of death, identifying violent acts associated with sacrifice. Last, we present a pair of radiocarbon dates to discuss the chronology of both Capacocha contexts. In sum, these practices specify the materialization of Inca statecraft and contribute to characterizing the complexity and diversity of Capacocha ritual as an extension of the Inca biopolitical conquest.",
@@ -2063,15 +2064,6 @@
           "created": "2026-7-15"
         },
         {
-          "title": "Photoinduced anion exchange for spatially patterned perovskite ASE: Enabling full-color pixelated lasing displays",
-          "authors": "Shuaiqi Li, Yan He, Nian Liu, Yexiong Huang, Mingyu Pi, Jingwen Yao, Wensheng Fu, Dingke Zhang, Haiyang Xu, Zhenxiang Cheng",
-          "abstract": "Laser displays are pivotal next-generation technologies for augmented/virtual reality, wearables, and optical communications. To realize full-color patterned lasing displays, we propose an effective‌ photoinduced vapor-solid anion exchange (PVAE) strategy, enabling unprecedented amplified spontaneous emission (ASE) control via precise temporal modulation. It regulates photoswitchable anion exchange in CsPbX 3 (X = Cl, Br, I) perovskites, with exchange rates tuned by illumination wavelength and intensity. Under optimized 1561.8 microwatts per square centimeter ultraviolet activation, PVAE drives complete compositional transitions (CsPbIBr 2  → CsPbBr 3  → CsPbClBr 2 ), inducing linear ASE peak shifts across 470- to 710-nanometer full-color spectra. Spatially modulated multicolor ASE patterns further verify its adaptability. We achieve precise, wide microscale emission wavelength modulation of CsPbX 3 films in both temporal and spatial domains. These advantages establish PVAE as a dual-mode platform for high-precision pixelated laser displays, offering practical solutions for cutting-edge photonic applications such as programmable high-resolution lasing displays and dynamic laser anticounterfeiting labels.",
-          "url": "https://doi.org/10.1126/sciadv.aef5186",
-          "doi": "https://doi.org/10.1126/sciadv.aef5186",
-          "filter": "2",
-          "created": "2026-7-17"
-        },
-        {
           "title": "The RhMPK3-RhLOB41-RhWRKY9 module orchestrates ethylene-induced petal abscission via dual control of ROS homeostasis in rose",
           "authors": "Bingjie Zhang, Yue Xiao, Yang Liu, Wenran Wang, Ping Li, Rui Wang, Chuyan Jiang, Guifang Zhang, Changxi Chen, Xiaoming Sun, Cai-Zhong Jiang, Chao Ma, Yunhe Jiang, Junping Gao",
           "abstract": "Organ abscission represents a critical adaptive strategy for plant survival, yet the post-translational mechanisms ensuring its irreversible remain poorly understood. Here, we unveil a signaling module, MITOGEN-ACTIVATED PROTEIN KINASE 3 (RhMPK3)-LATERAL ORGAN BOUNDARIES DOMAIN 41 (RhLOB41)-WRKY DNA-BINDING PROTEIN 9 (RhWRKY9), that gates ethylene-induced petal abscission in rose ( Rosa hybrida ) by orchestrating reactive oxygen species (ROS) homeostasis. We demonstrate that the transcription factor RhWRKY9 acts as a dual-function regulator, concurrently activating ROS production via activation of RESPIRATORY BURST OXIDASE HOMOLOGUE D ( RhRBOHD ) and suppressing scavenging via repression of CATALASE 2 ( RhCAT2 ), thereby generating a ROS burst that locks abscission progression. Ethylene primes this process by destabilizing RhLOB41, a transcriptional repressor of RhWRKY9 , through RhMPK3-mediated phosphorylation at Ser30. Phosphorylation creates a phosphodegron that targets RhLOB41 for autophagy-dependent degradation. Our findings redefine ROS as decisive executors of abscission and establish bidirectional ROS control as a paradigm for irreversible developmental transitions.",
@@ -2086,6 +2078,15 @@
           "abstract": "Polyploid giant cancer cells (PGCCs) are chemoresistant tumor cells associated with poor patient outcomes. PGCCs in tissue are identified by their extremely large sizes and the presence of massive or several nuclei. Although nuclear dysmorphia is also a common characteristic of tumor cells, little is known about the shape of nuclei in PGCCs. We show that the nuclear lamina in giant nucleated PGCCs is highly wrinkled across diverse cancer patient tissues. We investigated the cause of this hyperwrinkling in ovarian PGCCs in vitro. Laminar hyperwrinkling in PGCCs was independent of cell shape or cytoskeletal forces. Instead, measurements combined with computational modeling show that laminar hyperwrinkling is an intrinsic property of PGCCs, arising from a disproportionate amount of laminar excess area. PGCCs also displayed attenuated mechanosensitivity of cell spreading and YAP nuclear localization compared with control cells. Thus, laminar hyperwrinkling may disrupt PGCC mechanobiological pathways, slowing their proliferation.",
           "url": "https://doi.org/10.1126/sciadv.aed1645",
           "doi": "https://doi.org/10.1126/sciadv.aed1645",
+          "filter": "2",
+          "created": "2026-7-17"
+        },
+        {
+          "title": "Photoinduced anion exchange for spatially patterned perovskite ASE: Enabling full-color pixelated lasing displays",
+          "authors": "Shuaiqi Li, Yan He, Nian Liu, Yexiong Huang, Mingyu Pi, Jingwen Yao, Wensheng Fu, Dingke Zhang, Haiyang Xu, Zhenxiang Cheng",
+          "abstract": "Laser displays are pivotal next-generation technologies for augmented/virtual reality, wearables, and optical communications. To realize full-color patterned lasing displays, we propose an effective‌ photoinduced vapor-solid anion exchange (PVAE) strategy, enabling unprecedented amplified spontaneous emission (ASE) control via precise temporal modulation. It regulates photoswitchable anion exchange in CsPbX 3 (X = Cl, Br, I) perovskites, with exchange rates tuned by illumination wavelength and intensity. Under optimized 1561.8 microwatts per square centimeter ultraviolet activation, PVAE drives complete compositional transitions (CsPbIBr 2  → CsPbBr 3  → CsPbClBr 2 ), inducing linear ASE peak shifts across 470- to 710-nanometer full-color spectra. Spatially modulated multicolor ASE patterns further verify its adaptability. We achieve precise, wide microscale emission wavelength modulation of CsPbX 3 films in both temporal and spatial domains. These advantages establish PVAE as a dual-mode platform for high-precision pixelated laser displays, offering practical solutions for cutting-edge photonic applications such as programmable high-resolution lasing displays and dynamic laser anticounterfeiting labels.",
+          "url": "https://doi.org/10.1126/sciadv.aef5186",
+          "doi": "https://doi.org/10.1126/sciadv.aef5186",
           "filter": "2",
           "created": "2026-7-17"
         },
@@ -2315,15 +2316,6 @@
           "created": "2026-7-15"
         },
         {
-          "title": "The origin of Cretaceous-Palaeogene impactor revealed by nickel isotopes",
-          "authors": "Georgy V. Makhatadze, Frédéric Moynier, Leslie-Anne Brun, Steven Goderis, Philippe Claeys, Christian Koeberl",
-          "abstract": "Sixty-six million years ago, non-avian dinosaurs and other taxa went extinct during one of the largest mass extinctions in the history of life on Earth. The extinction was likely caused by an asteroid of unknown origin, responsible for the Chicxulub impact structure. Existing evidence identifies the impactor as an asteroid, similar to carbonaceous chondrites. However, carbonaceous chondrites are a diverse class of meteorites, leaving the exact nature of the impactor unclear. By measuring Ni isotopes in marine clays containing the impact ejecta, we constrain the impactor to one group of carbonaceous chondrites—CO chondrites—and some ungrouped chondrites. This study highlights the use of Ni isotopes in fingerprinting extraterrestrial materials on Earth. Given that CO chondrites are “dry” compared to the other carbonaceous chondrites and would have delivered much less volatiles, which are thought to be essential in causing the extinction, this work allows further studies of the mechanism behind the extinction.",
-          "url": "https://doi.org/10.1126/sciadv.aef4858",
-          "doi": "https://doi.org/10.1126/sciadv.aef4858",
-          "filter": "2",
-          "created": "2026-7-17"
-        },
-        {
           "title": "Extensive parasite transmission and variation in a functional receptor associated with drug resistance in endemic Schistosoma mansoni",
           "authors": "Duncan J. Berger, Sang-Kyu Park, Thomas Crellen, Tushabe John Vianney, Narcis B. Kabatereine, James A. Cotton, Richard Sanya, Alison Elliott, Edridah M. Tukahebwa, Moses Adriko, Claire J. Standley, Anouk Gouvras, Safari Kinung’hi, Muriel Rabone, Aidan Emery, Poppy H. L. Lamberton, Bonnie L. Webster, Fiona Allan, Sarah Buddenborg, Matthew Berriman, Jonathan S. Marchant, Stephen R. Doyle, Joanne P. Webster",
           "abstract": "Mass drug administration (MDA) with praziquantel is the cornerstone of schistosomiasis control and elimination efforts. To assess how long-term MDA affects parasite populations, we analyzed whole-genome sequence data from 570  Schistosoma mansoni samples and the closely related Schistosoma rodhaini across eight countries, combining new parasite material with publicly available sequence data. We observed a broad-scale genetic structure between countries alongside evidence of extensive long-distance transmission. Functional profiling of the recently identified transient receptor potential melastatin ion channel, Sm. TRPM PZQ , revealed four naturally occurring variants associated with reduced praziquantel sensitivity, indicating standing variation for resistance. Analyses of parasite infrapopulations collected from people pre– and post–praziquantel treatment further identified instances of treatment failure, supporting the potential for praziquantel resistance. As schistosomiasis is targeted for elimination as a public health problem, with interruption of transmission in selected regions by 2030, our study provides a comprehensive genomic framework for endemic populations, highlights an approach to detect potential resistance, and endorses the development of precision surveillance and adaptive treatment strategies.",
@@ -2338,6 +2330,15 @@
           "abstract": "Astrocytes play essential roles in neuropathology. Human astrocytes exhibit unique properties, highlighting the importance of studying astrocytic responses in human models. Varicose projection astrocytes, previously considered exclusive to hominoids and a physiological type of astrocytes, were suggested to reflect pathological burden, albeit direct evidence linking them to neurological diseases has been lacking. Here, we demonstrate that varicose projection astrocytes also appear in other mammals and show, from four distinct human-based disease models, that varicose projection astrocytes are induced by neuroinflammation and characterized by distinctive subcellular features, indicating involvement in cellular stress responses, and their density is increased in aging and human neuropathology. Our findings establish varicose projection astrocytes as a reactive phenotype associated with neuropathology.",
           "url": "https://doi.org/10.1126/sciadv.ady8204",
           "doi": "https://doi.org/10.1126/sciadv.ady8204",
+          "filter": "2",
+          "created": "2026-7-17"
+        },
+        {
+          "title": "The origin of Cretaceous-Palaeogene impactor revealed by nickel isotopes",
+          "authors": "Georgy V. Makhatadze, Frédéric Moynier, Leslie-Anne Brun, Steven Goderis, Philippe Claeys, Christian Koeberl",
+          "abstract": "Sixty-six million years ago, non-avian dinosaurs and other taxa went extinct during one of the largest mass extinctions in the history of life on Earth. The extinction was likely caused by an asteroid of unknown origin, responsible for the Chicxulub impact structure. Existing evidence identifies the impactor as an asteroid, similar to carbonaceous chondrites. However, carbonaceous chondrites are a diverse class of meteorites, leaving the exact nature of the impactor unclear. By measuring Ni isotopes in marine clays containing the impact ejecta, we constrain the impactor to one group of carbonaceous chondrites—CO chondrites—and some ungrouped chondrites. This study highlights the use of Ni isotopes in fingerprinting extraterrestrial materials on Earth. Given that CO chondrites are “dry” compared to the other carbonaceous chondrites and would have delivered much less volatiles, which are thought to be essential in causing the extinction, this work allows further studies of the mechanism behind the extinction.",
+          "url": "https://doi.org/10.1126/sciadv.aef4858",
+          "doi": "https://doi.org/10.1126/sciadv.aef4858",
           "filter": "2",
           "created": "2026-7-17"
         },
@@ -2576,6 +2577,15 @@
           "created": "2026-7-15"
         },
         {
+          "title": "Ridge-assisted micro positioning of cells in a channel",
+          "authors": "Adriana Payan-Medina, Victor R. Putaturo, Sajad R. Bazaz, Quinn E. Cunneely, Varun Kulkarni, Mehmet Toner, Avanish Mishra",
+          "abstract": "The ability to deterministically and precisely control the lateral position of focused cell streams within a microchannel enables a wide range of biomedical applications, including cell concentration, sorting, and sensing. By leveraging engineered microvortices generated by channel ridges and fluidic lift forces, we present a microfluidic method for deterministically positioning focused cell streams to desired streamlines. Unlike inertial focusing, ridge-assisted micro positioning (RAMP) is independent of particle size and flow rate, enabling polydisperse particles to be focused to the same streamline across a broad range of flow rates. The focusing position can be precisely adjusted by altering the ridge placement and geometry, allowing for micron-level lateral shifts in a controlled manner. Applying the RAMP concept, we demonstrate clog-free microfluidic cell concentrators that can enrich single cells and clusters to desired concentration factors and show the ability to focus particles in undiluted whole blood. Together, these results establish RAMP as a versatile platform for precise cell positioning in complex biological fluids.",
+          "url": "https://doi.org/10.1126/sciadv.aec9227",
+          "doi": "https://doi.org/10.1126/sciadv.aec9227",
+          "filter": "2",
+          "created": "2026-7-17"
+        },
+        {
           "title": "3D topologically polarized elastic metamaterials enable asymmetric energy isolation at finite frequencies",
           "authors": "Shaoyuan Zhang, Xuejian Gong, Fangyuan Ma, Zheng Tang, Ying Wu, Di Zhou, Feng Li, Yugui Yao",
           "abstract": "Topologically polarized elasticity has been extensively studied in lower dimensions, yet its three-dimensional (3D) counterpart remains largely unexplored. Here, we demonstrate omnidirectional topological elasticity in 3D structures that incorporate bending stiffness, which elevates zero-frequency topological mechanical states into finite-frequency phononic modes. These modes are localized at a single boundary, creating a pronounced stiffness contrast in both static and finite-frequency dynamic regimes. This 3D structure exhibits highly polarized mechanical behavior across all spatial dimensions, establishing omnidirectional asymmetric topological elasticity. Experimental and numerical results confirm robust, asymmetric energy isolation, arising from the interplay between bulk topological polarization and boundary-localized surface modes. Our findings establish a paradigm for 3D metamaterials, with promising applications in vibration shielding and directional wave manipulation.",
@@ -2585,13 +2595,13 @@
           "created": "2026-7-17"
         },
         {
-          "title": "Ridge-assisted micro positioning of cells in a channel",
-          "authors": "Adriana Payan-Medina, Victor R. Putaturo, Sajad R. Bazaz, Quinn E. Cunneely, Varun Kulkarni, Mehmet Toner, Avanish Mishra",
-          "abstract": "The ability to deterministically and precisely control the lateral position of focused cell streams within a microchannel enables a wide range of biomedical applications, including cell concentration, sorting, and sensing. By leveraging engineered microvortices generated by channel ridges and fluidic lift forces, we present a microfluidic method for deterministically positioning focused cell streams to desired streamlines. Unlike inertial focusing, ridge-assisted micro positioning (RAMP) is independent of particle size and flow rate, enabling polydisperse particles to be focused to the same streamline across a broad range of flow rates. The focusing position can be precisely adjusted by altering the ridge placement and geometry, allowing for micron-level lateral shifts in a controlled manner. Applying the RAMP concept, we demonstrate clog-free microfluidic cell concentrators that can enrich single cells and clusters to desired concentration factors and show the ability to focus particles in undiluted whole blood. Together, these results establish RAMP as a versatile platform for precise cell positioning in complex biological fluids.",
-          "url": "https://doi.org/10.1126/sciadv.aec9227",
-          "doi": "https://doi.org/10.1126/sciadv.aec9227",
+          "title": "Multistage microrobots with pH-responsive release of platelet membrane–coated nanoparticles",
+          "authors": "Rujie Sun, Junyoung Kim, Yixuan Leng, Yuyang Zuo, Jungmin Kim, Ruoxiao Xie, Tao Yang, Liyun Ma, Xin Song, Jiaxiang Ma, Jinmyoung Joo, Yoon-Kyoung Cho, Molly M. Stevens",
+          "abstract": "Targeted drug delivery in the gastrointestinal tract remains challenging because therapeutics must overcome multiple hierarchical barriers before reaching diseased tissue. Here, we present a multistage delivery platform that integrates magnetic microrobots, a pH-responsive protective coating, and platelet membrane–coated nanoparticles (PNPs) in one platform. A fillable design enables the formation of an internal magnetic layer for microrobot actuation, while the pH-responsive coating protects the cargo during transit and selectively degrades upon pH change, releasing cancer cell–targeting PNPs. In an in vitro colon cancer model that reproduces key gastrointestinal features, including flow, pH variation, and villi-like structures, this strategy increased nanoparticle retention and enhanced cancer cell cytotoxicity compared to nanoparticles administered alone. Ex vivo studies in porcine stomach and intestine further demonstrated robust locomotion on compliant and folded tissue surfaces. These results establish an environment-responsive hierarchical delivery strategy for more precise oral delivery in complex gastrointestinal settings.",
+          "url": "https://doi.org/10.1126/sciadv.aee6534",
+          "doi": "https://doi.org/10.1126/sciadv.aee6534",
           "filter": "2",
-          "created": "2026-7-17"
+          "created": "2026-7-15"
         },
         {
           "title": "FGF21 induced by endoplasmic reticulum stress maintains medullary thymic epithelial cell function and central immune tolerance",
@@ -2612,11 +2622,11 @@
           "created": "2026-7-17"
         },
         {
-          "title": "Multistage microrobots with pH-responsive release of platelet membrane–coated nanoparticles",
-          "authors": "Rujie Sun, Junyoung Kim, Yixuan Leng, Yuyang Zuo, Jungmin Kim, Ruoxiao Xie, Tao Yang, Liyun Ma, Xin Song, Jiaxiang Ma, Jinmyoung Joo, Yoon-Kyoung Cho, Molly M. Stevens",
-          "abstract": "Targeted drug delivery in the gastrointestinal tract remains challenging because therapeutics must overcome multiple hierarchical barriers before reaching diseased tissue. Here, we present a multistage delivery platform that integrates magnetic microrobots, a pH-responsive protective coating, and platelet membrane–coated nanoparticles (PNPs) in one platform. A fillable design enables the formation of an internal magnetic layer for microrobot actuation, while the pH-responsive coating protects the cargo during transit and selectively degrades upon pH change, releasing cancer cell–targeting PNPs. In an in vitro colon cancer model that reproduces key gastrointestinal features, including flow, pH variation, and villi-like structures, this strategy increased nanoparticle retention and enhanced cancer cell cytotoxicity compared to nanoparticles administered alone. Ex vivo studies in porcine stomach and intestine further demonstrated robust locomotion on compliant and folded tissue surfaces. These results establish an environment-responsive hierarchical delivery strategy for more precise oral delivery in complex gastrointestinal settings.",
-          "url": "https://doi.org/10.1126/sciadv.aee6534",
-          "doi": "https://doi.org/10.1126/sciadv.aee6534",
+          "title": "Ultrasoft, adhesive, pH-tunable hydrogel based on in situ functionalized laser-induced graphene for through-hair concurrent biosensing",
+          "authors": "Fatema Tuz Zohra, Abu Musa Abdullah, Yangbo Yuan, Yuqi Wang, Jirong Lin, Wanqing Zhang, Kazi Safowan Shahed, Xianzhe Zhang, Md. Abu Sayeed Biswas, Bowen Li, Xiaojun Lian, Su Yan, Huanyu Cheng",
+          "abstract": "This work reports a printable, ultrasoft, highly stretchable, adhesive, breathable hydrogel engineered that is radically tuned by controlling the precursor pH level for simultaneous biosignal monitoring. The hydrogel based on porous laser-induced graphene composites synthesized using in situ laser reduction with polydopamine and tannic acid exhibits ultrasmall Young’s modulus of 1.08 kilopascal, super high stretchability of ~8000%, and desirable conductivity and adhesive strength for through-hair signal monitoring even in the presence of sweat. The excellent skin conformability of the hydrogel provides the resulting electrodes with low skin contact impedance at both wet and dry conditions, a high signal-to-noise ratio, and motion artifact–free monitoring of electrophysiological signals. Combined with electrodermal activity and strain sensing from the facile patterning/printing of the reusable and storable gel, the proof-of-concept demonstration of the device platform is showcased for anxiety monitoring and nerve rehabilitation studies.",
+          "url": "https://doi.org/10.1126/sciadv.aee5890",
+          "doi": "https://doi.org/10.1126/sciadv.aee5890",
           "filter": "2",
           "created": "2026-7-15"
         },
@@ -2635,15 +2645,6 @@
           "abstract": "During morphogenesis, growing organisms adapt to internal and external mechanical stress. In plants, the receptor kinase FERONIA is involved in a broad range of responses to perturbations of the cell wall, but it is unclear which cues are sensed and how this sensing controls growth. Here, we addressed these questions in Marchantia vegetative propagules. We combined culture in microfluidic chips to quantify growth and mechanical properties of propagules, perturbations with osmotic treatments, characterization of cell wall polysaccharides, and a mathematical model of cell wall expansion that incorporates sensing. We found that FERONIA independently regulates tissue properties that govern elastic deformation and growth rates. We propose that the regulation of growth by the FERONIA pathway relies on both a positive feedback from elastic deformation of the wall and a negative feedback from wall expansion. Together, we expect our quantitative framework to be broadly relevant to the investigation of how mechanical cues guide development.",
           "url": "https://doi.org/10.1126/sciadv.aeb8608",
           "doi": "https://doi.org/10.1126/sciadv.aeb8608",
-          "filter": "2",
-          "created": "2026-7-15"
-        },
-        {
-          "title": "Ultrasoft, adhesive, pH-tunable hydrogel based on in situ functionalized laser-induced graphene for through-hair concurrent biosensing",
-          "authors": "Fatema Tuz Zohra, Abu Musa Abdullah, Yangbo Yuan, Yuqi Wang, Jirong Lin, Wanqing Zhang, Kazi Safowan Shahed, Xianzhe Zhang, Md. Abu Sayeed Biswas, Bowen Li, Xiaojun Lian, Su Yan, Huanyu Cheng",
-          "abstract": "This work reports a printable, ultrasoft, highly stretchable, adhesive, breathable hydrogel engineered that is radically tuned by controlling the precursor pH level for simultaneous biosignal monitoring. The hydrogel based on porous laser-induced graphene composites synthesized using in situ laser reduction with polydopamine and tannic acid exhibits ultrasmall Young’s modulus of 1.08 kilopascal, super high stretchability of ~8000%, and desirable conductivity and adhesive strength for through-hair signal monitoring even in the presence of sweat. The excellent skin conformability of the hydrogel provides the resulting electrodes with low skin contact impedance at both wet and dry conditions, a high signal-to-noise ratio, and motion artifact–free monitoring of electrophysiological signals. Combined with electrodermal activity and strain sensing from the facile patterning/printing of the reusable and storable gel, the proof-of-concept demonstration of the device platform is showcased for anxiety monitoring and nerve rehabilitation studies.",
-          "url": "https://doi.org/10.1126/sciadv.aee5890",
-          "doi": "https://doi.org/10.1126/sciadv.aee5890",
           "filter": "2",
           "created": "2026-7-15"
         },
@@ -2675,20 +2676,20 @@
           "created": "2026-7-15"
         },
         {
-          "title": "The earliest amber from the Middle Devonian of China",
-          "authors": "Cihang Luo, Huiyuan Yang, Honghe Xu, Zixiao Yang, Shengyu Wang, Michael S. Engel, Bingcai Liu, Edmund A. Jarzembowski, Brendon E. Boudinot, Xingqian Cui, Haichun Zhang, Bo Wang",
-          "abstract": "Resin production is a major innovation in land plants, signaling the evolution of specialized secretory systems, complex terpenoid biosynthesis, and defensive and wound-sealing functions. Yet its origin remains poorly constrained because fossilized resin (amber) is exceedingly rare in Paleozoic deposits, with the earliest widely accepted amber record from the Late Carboniferous. Here we report the earliest known amber from the Middle Devonian of China (~385 million years old), extending the geological record of amber by ~65 million years. Fourier transform infrared spectroscopy and gas chromatography–triple quadrupole mass spectrometry reveal chemical signatures comparable to conifer-type amber. These data indicate that some Middle Devonian vascular plants—most plausibly progymnosperms or arborescent lycopsids—had already evolved biosynthetic capacity consistent with terpene synthase. The early emergence of resin production may have promoted the ecological success of Devonian-Carboniferous terrestrial floras by enhancing protection and wound sealing.",
-          "url": "https://doi.org/10.1126/sciadv.aeh1266",
-          "doi": "https://doi.org/10.1126/sciadv.aeh1266",
-          "filter": "2",
-          "created": "2026-7-15"
-        },
-        {
           "title": "Felsic hydrothermal deposit formation by chalcophile metal concentration through mafic recharge and fluid-mediated sulfide dissolution",
           "authors": "Yifei Liu, Anthony E. Williams-Jones, Zengqian Hou, Leon Bagas, Sihong Jiang, Fengxiang Wang, Genyuan Ji",
           "abstract": "Hydrothermal sulfide deposits (e.g., porphyry and skarn) associated with felsic magmatism are major sources of chalcophile metals, including copper (Cu), molybdenum (Mo), gold (Au), lead (Pb), zinc (Zn), silver (Ag), and tin (Sn). However, the source of sulfur and metals remains debated. We report a study of clinopyroxene-hosted sulfide inclusions in mafic enclaves from the Beidashan granitic pluton (Northeast China), associated with a giant Sn-Pb-Zn-Ag-Cu deposit. Evidence shows the following: (i) immiscibility among Cu- and Zn-rich sulfide liquid, a silicate liquid, and an aqueous fluid during mafic magma emplacement in the upper crust; (ii) metal enrichment in FeS [iron(II) sulfide]–dominated melt inclusions (∼2628 parts per million of Cu, ∼233 parts per million of Zn, ∼275 parts per million of Pb, and ∼2.0 parts per million of Sn), reflecting strong partitioning into sulfide melts; and (iii) oxidative dissolution of sulfides by exsolved fluids, enabling metal transfer to the overlying felsic magma. The study demonstrates that metals in felsic-hosted deposits are sourced from subjacent mafic magmas and that mafic-felsic interaction triggered sulfide liquid/aqueous fluid cosaturation, ensuring efficient fluid-mediated chalcophile metal dissolution and transfer.",
           "url": "https://doi.org/10.1126/sciadv.aec4514",
           "doi": "https://doi.org/10.1126/sciadv.aec4514",
+          "filter": "2",
+          "created": "2026-7-15"
+        },
+        {
+          "title": "The earliest amber from the Middle Devonian of China",
+          "authors": "Cihang Luo, Huiyuan Yang, Honghe Xu, Zixiao Yang, Shengyu Wang, Michael S. Engel, Bingcai Liu, Edmund A. Jarzembowski, Brendon E. Boudinot, Xingqian Cui, Haichun Zhang, Bo Wang",
+          "abstract": "Resin production is a major innovation in land plants, signaling the evolution of specialized secretory systems, complex terpenoid biosynthesis, and defensive and wound-sealing functions. Yet its origin remains poorly constrained because fossilized resin (amber) is exceedingly rare in Paleozoic deposits, with the earliest widely accepted amber record from the Late Carboniferous. Here we report the earliest known amber from the Middle Devonian of China (~385 million years old), extending the geological record of amber by ~65 million years. Fourier transform infrared spectroscopy and gas chromatography–triple quadrupole mass spectrometry reveal chemical signatures comparable to conifer-type amber. These data indicate that some Middle Devonian vascular plants—most plausibly progymnosperms or arborescent lycopsids—had already evolved biosynthetic capacity consistent with terpene synthase. The early emergence of resin production may have promoted the ecological success of Devonian-Carboniferous terrestrial floras by enhancing protection and wound sealing.",
+          "url": "https://doi.org/10.1126/sciadv.aeh1266",
+          "doi": "https://doi.org/10.1126/sciadv.aeh1266",
           "filter": "2",
           "created": "2026-7-15"
         },
