@@ -1,5 +1,5 @@
 {
-  "update": "2026-07-20",
+  "update": "2026-07-21",
   "content": [
     {
       "journal_full": "Behavior Research Methods",
@@ -15,14 +15,6 @@
           "created": "2026-7-17"
         },
         {
-          "title": "Dependent latent class partial credit models for careless and insufficient effort responding in online survey data",
-          "authors": "Jieyuan Dong, Hongyun Liu, Yang Liu",
-          "url": "https://doi.org/10.3758/s13428-026-03105-x",
-          "doi": "https://doi.org/10.3758/s13428-026-03105-x",
-          "filter": 0,
-          "created": "2026-7-13"
-        },
-        {
           "title": "Standardized synchronization and validation pipeline for physiological biomarkers across multiple devices",
           "authors": "Selin Acan, Clàudia Valenzuela‐Pascual, Filippo Corponi, Bryan M. Li, Diego Hidalgo‐Mazzei, Dick Thijssen, Gideon Vos, Stefan Bogaerts, Erno Hermans, Mitra Baratchi, Martin Dresler, Peter De Looff",
           "abstract": "Wearable devices enable continuous monitoring of physiological signals in real‐world settings, yet a standardized approach for synchronizing signals across devices remains lacking. We present a generalizable, user‐friendly pipeline that enables synchronization of any two devices capturing the same physiological signals, without requiring coding expertise. The pipeline performs resampling, dynamic time warping alignment, amplitude correction via wavelet transforms, and signal standardization, followed by agreement analyses at both waveform and feature levels. To demonstrate its validity, we applied the pipeline to a case study comparing two research‐grade devices, the Empatica E4 and the EmbracePlus, using up to 48 h of concurrent recordings from 31 participants. We compared signal‐level agreement across waveform similarity, amplitude distribution, spectral content, and extracted features between the two research‐grade devices to determine their interchangeability for longitudinal and multi‐site studies. Specifically, we aimed to determine how well these devices agree at the signal level and to identify which physiological signals are most robust to device‐specific variability. Four signals were examined (blood volume pulse, electrodermal activity, accelerometry, and temperature) using NeuroKit2 and FLIRT. We computed Pearson and concordance correlation coefficients, Bland–Altman bias and limits of agreement, root mean squared error (RMSE), KL divergence, spectral coherence, mutual information, and feature‐level correlations using NeuroKit2 and FLIRT. Results showed near‐perfect agreement for BVP (concordance correlation coefficient (CCC) ≈ 1.0; coherence ≤ 0.98) and phasic EDA features (CCC 0.85–0.99), whereas tonic EDA, temperature, and accelerometry exhibited systematic amplitude biases (EmbracePlus lower) and axis‐dependent variability ( Z ‐axis CCC = 0.85; Y ‐axis = 0.19). Relative signal dynamics were preserved across devices despite differences in absolute levels. These findings support integration of BVP, EDA, and TEMP data across E4 and EmbracePlus with proper preprocessing, while highlighting calibration needs for movement signals.",
@@ -30,14 +22,6 @@
           "doi": "https://doi.org/10.3758/s13428-026-03097-8",
           "filter": 0,
           "created": "2026-7-16"
-        },
-        {
-          "title": "Estimating sample size in conceptual property norms by standardizing coverage",
-          "authors": "Enrique Canessa, Sergio E. Chaigneau, Rodrigo Lagos",
-          "url": "https://doi.org/10.3758/s13428-026-03110-0",
-          "doi": "https://doi.org/10.3758/s13428-026-03110-0",
-          "filter": 0,
-          "created": "2026-7-13"
         },
         {
           "title": "Collecting data from YouTube using the official API: A tutorial and a ready-to-use tool",
@@ -65,6 +49,15 @@
           "created": "2026-7-15"
         },
         {
+          "title": "Modeling intraindividual variability in affect (MIVA): Formalized theoretical approach, computational model, and parameter recovery study",
+          "authors": "Maria Wirth, Andreas Voss, Stefan T. Radev, Klaus Rothermund",
+          "abstract": "No matter how angry, sad, or happy we are, eventually, we will feel different. Studying this ebb and flow of affective experience in daily life provides important insights into psychological functioning and well-being. We have developed a parsimonious formalized model of intraindividual variability in affect (MIVA), resting on the assumption that such affective changes reflect transactions between an individual and their proximal environment. We provide an outline of its theoretical background, scope, and mathematical formulation. We situate MIVA within the research field of affect dynamics and illustrate the models’ behavior under realistic conditions using a simulation study. We use simulation-based inference to train a custom neural network on MIVA simulations, which we employ to rapidly estimate the model’s parameters on a multitude of synthetic experiments with different configurations. Our simulation study demonstrates that the synthesis between a computational model and probabilistic neural networks results in an efficient and flexible tool for model-based inference of affect dynamics. Our simulation study also offers insights into the data requirements for a precise recovery of the model’s parameters and recommendations for future data collection. The potential of MIVA for providing insights into affect dynamics is discussed.",
+          "url": "https://doi.org/10.3758/s13428-026-03122-w",
+          "doi": "https://doi.org/10.3758/s13428-026-03122-w",
+          "filter": 0,
+          "created": "2026-7-20"
+        },
+        {
           "title": "Introducing openESM: A database of openly available experience sampling datasets",
           "authors": "Björn S. Siepe, Jonas M. B. Haslbeck, Matthias Kloft, Anabel Büchner, Yong Zhang, Eiko I. Fried, Daniel W. Heck",
           "abstract": "Experience sampling via mobile devices enables unprecedented insights into daily life. However, individual studies often cannot answer research questions conclusively, and open data are scattered across repositories in different formats. This impedes research into robustness, generalizability, and heterogeneity. We address this issue by introducing , an open-source database of openly available experience sampling datasets in a harmonized format. The growing database currently comprises 60 datasets with more than 16,000 participants and more than 740,000 observations. Metadata can be searched via our website ( openesmdata.org ) to select and download datasets via packages in R and Python. We demonstrate the potential of through an analysis of within-person correlations of positive and negative affect in 39 datasets, providing evidence for a large negative momentary correlation ( $$-0.49$$ - 0.49 , 95% CI: [ $$-0.54$$ - 0.54 , $$-0.42$$ - 0.42 ]). We end by discussing the design principles that will allow to become a continuously evolving community resource for cumulative experience sampling research.",
@@ -88,15 +81,6 @@
           "doi": "https://doi.org/10.3758/s13428-026-03074-1",
           "filter": 0,
           "created": "2026-7-15"
-        },
-        {
-          "title": "Reliability and statistical power: Conceptual background and practical implications",
-          "authors": "Attila Krajcsi",
-          "abstract": "In the behavioral sciences, robust phenomena having large effect sizes and related statistical power may be unreliable. This relation is in contrast to the view that both statistical power and reliability depend similarly on measurement error. In this view, robust but unreliable phenomena can be considered as a reliability paradox. The mathematical relation and possible independence of statistical power and reliability have been discussed in the statistical literature for decades. A common misconception related to the relationship between statistical power and reliability is that absolute reliability (measurement error) is often confounded with relative reliability (ratio of the true score variance to the total score variance). The present work reviews and discusses how measurement error and individual differences influence the relative reliability and robustness of a phenomenon. It discusses why relative reliability and robustness are partly related and why they are generally independent. Following these considerations, it summarizes how measurement error and group heterogeneity can be potentially manipulated to optimize the reliability and robustness of a measured phenomenon.",
-          "url": "https://doi.org/10.3758/s13428-026-03068-z",
-          "doi": "https://doi.org/10.3758/s13428-026-03068-z",
-          "filter": 0,
-          "created": "2026-7-13"
         }
       ],
       "articles_hidden": []
@@ -106,8 +90,8 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "Understanding Social-Cognitive-Norm Mechanisms Driving Disinformation Verification among Indonesian Young Adults on Social Media",
-          "authors": "Yonathan Dri Handarkho, Th. Devi Indriasari, Yohanes Sigit Purnomo Wuryo Putro, Citra Yayu' Palangan",
+          "title": "Understanding social-cognitive-norm mechanisms driving disinformation verification among Indonesian young adults on social media",
+          "authors": "Yonathan Dri Handarkho, Theresia Devi Indriasari, Yohanes Sigit Purnomo W.P., Citra Yayu' Palangan",
           "url": "https://doi.org/10.1016/j.chb.2026.109115",
           "doi": "https://doi.org/10.1016/j.chb.2026.109115",
           "filter": 0,
@@ -122,7 +106,15 @@
           "created": "2026-7-15"
         },
         {
-          "title": "When Social Media Memes Become Mean to Peers: Discrimination Recognition and Group Norms in Adolescent Bullying",
+          "title": "Pretty Privilege? Effects of Perpetrators’ Attractiveness and Hate Type on User Responses Against Misogynist Digital Hate",
+          "authors": "Rinat Meerson, Kevin Koban, Jörg Matthes",
+          "url": "https://doi.org/10.1016/j.chb.2026.109112",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109112",
+          "filter": 0,
+          "created": "2026-7-20"
+        },
+        {
+          "title": "When social media memes become mean to peers: Discrimination recognition and group norms in adolescent bullying",
           "authors": "Rongyi Chen, Qing Xiao, Shike Lin, Jingjia Xiao, Menghan Yin, Yucong Ma, Bingbing Zhang, Hua Zhong",
           "url": "https://doi.org/10.1016/j.chb.2026.109126",
           "doi": "https://doi.org/10.1016/j.chb.2026.109126",
@@ -153,15 +145,6 @@
       "journal_short": "GPIR",
       "articles": [
         {
-          "title": "Sexual Orientation Stereotyping of Race Categories Referring to Men, and Vice Versa: An Intersectional Analysis in the Italian Context",
-          "authors": "Rosandra Coladonato, Federico D’Atri, Francesca Trevisan, Patrice Rusconi, Mauro Bianchi, Valentina Piccoli, Andrea Carnaghi",
-          "abstract": "We employed a multi-method approach to assess both stereotypes related to male race and male sexual orientation, and then analyzed how race stereotypes applied to sexual orientation categories and vice versa. Results from Study 1−3 a-b ( N = 552), along with internal meta-analyses, showed that White, Black, and Asian men were more strongly stereotyped as heterosexual than gay. This pattern was equally strong for White and Black men but weaker for Asian men. White men were more associated with heterosexual traits, while Black men were more perceived as lacking gay traits than the other race categories. Heterosexual men displayed a race-graded structure, favoring White over Black and then Asian traits. In contrast, the race-graded structure of gay men disfavored Black traits only, compared to White and Asian traits. The theoretical implications regarding the intersection of race and sexual orientation categories, as well as the social impact of these findings, are discussed.",
-          "url": "https://doi.org/10.1177/13684302261460832",
-          "doi": "https://doi.org/10.1177/13684302261460832",
-          "filter": 0,
-          "created": "2026-7-13"
-        },
-        {
           "title": "Public Opinion on Overturning Roe v. Wade : Separate Spheres Ideology, Abortion Identity, and Message Framing in a Three-Wave Panel Study",
           "authors": "Lisette Horne, Eugene Borgida, Kiley Gilbert",
           "abstract": "The U.S. Supreme Court’s decision in Dobbs v. Jackson Women’s Health Organization (hereafter, Dobbs ) overturning Roe v. Wade was a landmark decision. We focus on the influence of gender ideology, measured by separate spheres ideology (SSI), on public perceptions of this decision. In a three-wave survey-experiment panel study with a nationally diverse sample, participants reported their endorsement of SSI, gender system justification, abortion identity, and attitudes toward abortion. At Wave 2, participants were randomly assigned to one of two message-framing conditions that differed in the number of facts about Dobbs or a healthcare control. Wave 3 examined the persistence of experimental effects. Overall, SSI was the only consistent moderator of message-framing effects on all outcome measures, with persisting effects on support for restrictive abortion policies and endorsement of the gendered status quo. SSI’s predictive influence in electoral choice and nonelectoral but gendered policy contexts is discussed.",
@@ -178,12 +161,12 @@
       "journal_short": "JESP",
       "articles": [
         {
-          "title": "Between law and conscience: Act legality shapes moral evaluation",
-          "authors": "Mane Kara-Yakoubian, Jonathan A. Fugelsang, Alexander C. Walker",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104984",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104984",
+          "title": "We're near, they're far: On the association between one's gender in-group and psychological distance",
+          "authors": "Alys Ferragamo, Cheryl Jan Wakslak",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104985",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104985",
           "filter": 0,
-          "created": "2026-7-13"
+          "created": "2026-7-20"
         },
         {
           "title": "How and why the omission bias affects victims' and third parties' responses to interpersonal transgressions",
@@ -217,22 +200,6 @@
       "journal_short": "JPSP",
       "articles": [
         {
-          "title": "Evolving together: Dynamic transactions of antagonistic and self-centered traits with couple relationships.",
-          "authors": "Anna Braig, Matthew D. Johnson, Marcus Mund, Franz J. Neyer",
-          "url": "https://doi.org/10.1037/pspp0000607",
-          "doi": "https://doi.org/10.1037/pspp0000607",
-          "filter": 0,
-          "created": "2026-7-13"
-        },
-        {
-          "title": "Mental contrasting prevents a negative future by changing the explicit and implicit meaning of reality.",
-          "authors": "SunYoung Kim, Peter M. Gollwitzer, Gabriele Oettingen",
-          "url": "https://doi.org/10.1037/pspa0000490",
-          "doi": "https://doi.org/10.1037/pspa0000490",
-          "filter": 0,
-          "created": "2026-7-13"
-        },
-        {
           "title": "Does losing your job change your personality? Findings from a 16-year longitudinal study of Mexican-origin adults.",
           "authors": "Guido Alessandri, Lorenzo Filosa, Richard W. Robins",
           "url": "https://doi.org/10.1037/pspp0000609",
@@ -247,24 +214,6 @@
       "journal_full": "Personality and Social Psychology Bulletin",
       "journal_short": "PSPB",
       "articles": [
-        {
-          "title": "To Regulate or Not to Regulate? Situational and Individual Differences in Emotion Regulation Initiation in Daily Life",
-          "authors": "Tabea Springstein, Anna C. Bankston, Tammy English",
-          "abstract": "Situational and individual differences shape how and why people regulate emotions, but whether emotion regulation is initiated remains understudied. We hypothesize that, for example, less familiar situations might be associated with more regulation initiation, and people who believe emotions are controllable initiate regulation more frequently. Using experience sampling ( N = 216; 7x/14 days), we found that participants initiated regulation 60% of the time over the past 2 hr. As predicted, people initiated regulation in less familiar, less pleasant contexts, and with more dominant, less warm social partners. Unexpectedly, individuals who believe emotions are uncontrollable were more likely to initiate regulation, even after accounting for affect. These findings highlight that while attention has mostly focused on strategy selection or efficacy, meaningful situational and individual differences also exist at the emotion regulation initiation stage when individuals determine whether to expend regulatory resources to maintain well-being.",
-          "url": "https://doi.org/10.1177/01461672261461318",
-          "doi": "https://doi.org/10.1177/01461672261461318",
-          "filter": 0,
-          "created": "2026-7-13"
-        },
-        {
-          "title": "Perceived Pain Sensitivity and Treatment Recommendations for Socially Mobile Individuals: The Mediating Role of Perceived Tenacity",
-          "authors": "Zhijie Xie, Fangfang Wen, Lujun Shen, Chen Liu, Lei Yang",
-          "abstract": "While prior research shows that higher-class individuals are perceived as more sensitive to pain than lower-class individuals, little is known about how perceptions of pain are shaped by changes in social class. Across a pilot study and five experiments with Chinese and U.S. participants (N = 1,202), we investigated whether social mobility direction influences judgments of pain sensitivity and treatment, and whether perceived tenacity serves as a mediating mechanism. Results indicated that although Chinese and U.S. participants perceived higher-class individuals as more pain-sensitive, they judged upwardly mobile individuals as less sensitive to pain than downwardly mobile individuals. This effect was driven by the attribution of greater tenacity to upwardly mobile targets, which in turn predicted lower pain sensitivity ratings and fewer pain treatment recommendations. These findings reveal a novel psychological pathway through which dynamic social class information shapes pain perception and treatment decisions, extending the literature beyond static class-based stereotypes.",
-          "url": "https://doi.org/10.1177/01461672261464676",
-          "doi": "https://doi.org/10.1177/01461672261464676",
-          "filter": 0,
-          "created": "2026-7-13"
-        },
         {
           "title": "Does Self-Projection Have a Dominant Temporal Direction? In Nine Countries, People Feel More Similar to Their Future Than Past Selves",
           "authors": "Jareef Martuza, Simen Bø, Helge Thorbjørnsen, Hallgeir Sjåstad",
@@ -323,36 +272,20 @@
           "created": "2026-7-16"
         },
         {
-          "title": "Identifying careless responding in ecological momentary assessment: Inconsistent signals from different detection methods in the WARN-D Data.",
-          "authors": "Leonie V. D. E. Vogelsmeier, Björn S. Siepe, Esther Ulitzsch, Gudrun Eisele, Joran Geeraerts, Adam Klocek, Ricarda K. K. Proppert, Carlotta L. Rieble, Rayyan Tutunji, Egon Dejonckheere, Peter Kuppens, Eiko I. Fried",
-          "url": "https://doi.org/10.1037/met0000845",
-          "doi": "https://doi.org/10.1037/met0000845",
+          "title": "A comparison of the predictive performance of continuous and class-based latent trait models.",
+          "authors": "Wanjing Anya Ma, Yiqing Liu, Klint Kanopka, Wenchao Ma, Benjamin W. Domingue",
+          "url": "https://doi.org/10.1037/met0000860",
+          "doi": "https://doi.org/10.1037/met0000860",
           "filter": 0,
-          "created": "2026-7-13"
+          "created": "2026-7-20"
         },
         {
-          "title": "Sample size planning for studies with multiple measurement trials.",
-          "authors": "Douglas G. Bonett",
-          "url": "https://doi.org/10.1037/met0000856",
-          "doi": "https://doi.org/10.1037/met0000856",
+          "title": "An application of procedural knowledge space theory to the study of strategic planning in board games.",
+          "authors": "Andrea Brancaccio, Luca Stefanutti",
+          "url": "https://doi.org/10.1037/met0000858",
+          "doi": "https://doi.org/10.1037/met0000858",
           "filter": 0,
-          "created": "2026-7-13"
-        },
-        {
-          "title": "Post Hoc comparisons in fixed-effect ANOVA: A sequential fusion approach with calibrated error control.",
-          "authors": "Yvonnick Noel",
-          "url": "https://doi.org/10.1037/met0000859",
-          "doi": "https://doi.org/10.1037/met0000859",
-          "filter": 0,
-          "created": "2026-7-13"
-        },
-        {
-          "title": "Bayesian marginalized zero-inflated Poisson model with random effects for single-case experimental designs: A simulation study.",
-          "authors": "Chendong Li, Wen Luo",
-          "url": "https://doi.org/10.1037/met0000857",
-          "doi": "https://doi.org/10.1037/met0000857",
-          "filter": 0,
-          "created": "2026-7-13"
+          "created": "2026-7-20"
         }
       ],
       "articles_hidden": []
@@ -403,6 +336,14 @@
       "journal_short": "PPM",
       "articles": [
         {
+          "title": "The puzzle of engagement: An interview study on the subjective experience of engagement with mainstream narrational complexity.",
+          "authors": "Gaia Yonah, Cynthia Cabañas, Steven Willemsen, Miklós Kiss, Frank Hakemulder, Mariken van der Velden, Elly Konijn, Katalin Bálint",
+          "url": "https://doi.org/10.1037/ppm0000681",
+          "doi": "https://doi.org/10.1037/ppm0000681",
+          "filter": 0,
+          "created": "2026-7-20"
+        },
+        {
           "title": "Experiences of consuming fiction in relation to psychological well-being.",
           "authors": "Lucy Lewis, Amanda Diserholt",
           "url": "https://doi.org/10.1037/ppm0000683",
@@ -411,12 +352,28 @@
           "created": "2026-7-16"
         },
         {
-          "title": "Understanding why people consume true crime: A systematic scoping review of psychological motivations.",
-          "authors": "Dolores Fernández, Diego Montoya-Bermúdez, María V. Jimeno, Gloria García-Pérez",
-          "url": "https://doi.org/10.1037/ppm0000685",
-          "doi": "https://doi.org/10.1037/ppm0000685",
+          "title": "Older and wiser, but not immune: A brief report examining movie exposure and male body image across development.",
+          "authors": "Kate Stewart, James Alex Bonus",
+          "url": "https://doi.org/10.1037/ppm0000687",
+          "doi": "https://doi.org/10.1037/ppm0000687",
           "filter": 0,
-          "created": "2026-7-13"
+          "created": "2026-7-20"
+        },
+        {
+          "title": "LGBTQ+ engagement with harmful online health content: Effects on self-perception and body image, health behaviors, and mental health.",
+          "authors": "Alex Penfold, Melissa Oxlad, Anna Chur-Hansen",
+          "url": "https://doi.org/10.1037/ppm0000686",
+          "doi": "https://doi.org/10.1037/ppm0000686",
+          "filter": 0,
+          "created": "2026-7-20"
+        },
+        {
+          "title": "“It made life worth living at times”: A qualitative study of sexually explicit fanfiction as a narrative well-being resource.",
+          "authors": "Daniel R. du Plooy, Domenica A. Clowes, Gabriella Karakas",
+          "url": "https://doi.org/10.1037/ppm0000688",
+          "doi": "https://doi.org/10.1037/ppm0000688",
+          "filter": 0,
+          "created": "2026-7-20"
         }
       ],
       "articles_hidden": []
@@ -425,6 +382,14 @@
       "journal_full": "Technology, Mind, and Behavior",
       "journal_short": "TMB",
       "articles": [
+        {
+          "title": "The bystander effect in human–robot interaction: How the presence of bystanders inhibits helping intentions for a social robot.",
+          "authors": "Guiying Liu, Tatjana Korbanka, Jasmin Timm, Naomi Oetelshofen, Laura Maier, Markus Huff, Frank Papenmeier",
+          "url": "https://doi.org/10.1037/tmb0000198",
+          "doi": "https://doi.org/10.1037/tmb0000198",
+          "filter": 0,
+          "created": "2026-7-20"
+        },
         {
           "title": "Relations among the broad autism phenotype, internet use, and cyber psychological aggression.",
           "authors": "Hayley M. Mullinax, Lisa A. Turner",
