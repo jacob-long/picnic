@@ -1,5 +1,5 @@
 {
-  "update": "2026-07-21",
+  "update": "2026-07-22",
   "content": [
     {
       "journal_full": "Behavior Research Methods",
@@ -32,15 +32,6 @@
           "created": "2026-7-15"
         },
         {
-          "title": "Correction for the pupil size artifact improves the measurement of fixation drift with a head-mounted pupil tracker",
-          "authors": "Thomas Eggert",
-          "abstract": "The exactness of pupil-based video-oculography (pVOG) is limited by the pupil size artifact (PSA), involving shifts in pupil position with changes in pupil diameter. This study investigates PSA’s effects on fixation drift measurement and compares two correction methods. The first, the “interpolation method,” creates calibrations for different pupil sizes by adjusting illumination and interpolating between them based on the current pupil diameter. The second, the “regression method,” uses natural fluctuations in pupil size during fixation to estimate PSA gain via regression, then corrects pupil position accordingly. Here, the regression method was optimized for correcting fixation drift measurements by removing microsaccades and frequency components below 1 Hz and above 15 Hz. PSA was compared with size-related pupil displacements relative to the limbus to better investigate its cause. Pupil dilation caused downward and temporal shifts (PSA gains: 0.23 deg/mm horizontally, 0.62 deg/mm vertically). The PSA affected vertical fixation drifts ( R 2 = 14%) more strongly than horizontal drifts ( R 2 = 1.5%). The mean and precision of PSA gain estimates did not differ between methods. Both reduced the determination of fixation drift by pupil diameter changes ( R 2 ). PSA stability over 12 min was confirmed in 77% of cases. Power spectral density analysis supported the effectiveness of the regression correction, aligning with previous findings. PSA is probably caused mainly by the shift of the pupil relative to the limbus, as it did not differ significantly from the shift in camera coordinates. Overall, the regression method is a promising technique for correcting PSA in pVOG to improve fixation drift measurements.",
-          "url": "https://doi.org/10.3758/s13428-026-03103-z",
-          "doi": "https://doi.org/10.3758/s13428-026-03103-z",
-          "filter": 0,
-          "created": "2026-7-14"
-        },
-        {
           "title": "Complex dynamics in psychological data: Mapping individual symptom trajectories to group-level patterns",
           "authors": "Eleonora Vitanza, Pietro De Lellis, Chiara Mocenni, Manuel Ruiz Marin",
           "url": "https://doi.org/10.3758/s13428-026-03076-z",
@@ -56,6 +47,15 @@
           "doi": "https://doi.org/10.3758/s13428-026-03122-w",
           "filter": 0,
           "created": "2026-7-20"
+        },
+        {
+          "title": "Measuring complex constructs in large-scale text with computational social mixed methods",
+          "authors": "Alina Herderich, Jana Lasser, Mirta Galesic, Segun Aroyehun, David Garcia, Joshua Garland",
+          "abstract": "A growing convergence between social science and machine learning enables, in principle, large-scale analyses of complex social phenomena through text. Yet, approaches leveraging supervised text classification based on human-annotated data for statistical analysis often treat conceptual validity and technical performance as separate challenges, impairing measurement quality. We provide guidelines to bridge this gap in what we call computational social mixed methods pipelines across three stages: data annotation, model training, and statistical analysis. Building on best practices and our own methodological innovations, such as “Iterative Annotation” and “Training on Confident Examples”, we address recurring pitfalls like unbalanced training data or stagnant model performance. We also discuss when large language models constitute a viable alternative to transformer-based classifiers. Using a case study on countering online hate, we illustrate how consequently integrating social science and machine learning expertise improves the validity and comparability of computational social science.",
+          "url": "https://doi.org/10.3758/s13428-026-03046-5",
+          "doi": "https://doi.org/10.3758/s13428-026-03046-5",
+          "filter": 0,
+          "created": "2026-7-21"
         },
         {
           "title": "Introducing openESM: A database of openly available experience sampling datasets",
@@ -90,14 +90,6 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "Understanding social-cognitive-norm mechanisms driving disinformation verification among Indonesian young adults on social media",
-          "authors": "Yonathan Dri Handarkho, Theresia Devi Indriasari, Yohanes Sigit Purnomo W.P., Citra Yayu' Palangan",
-          "url": "https://doi.org/10.1016/j.chb.2026.109115",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109115",
-          "filter": 0,
-          "created": "2026-7-14"
-        },
-        {
           "title": "Psychological pathways to digital safety: A sequential model of attitudinal endorsement, environment cognition, and WTP for malicious comment prevention",
           "authors": "Heejoo Lim, Hyeonjeong Kim",
           "url": "https://doi.org/10.1016/j.chb.2026.109128",
@@ -128,14 +120,6 @@
           "doi": "https://doi.org/10.1016/j.chb.2026.109116",
           "filter": 0,
           "created": "2026-7-17"
-        },
-        {
-          "title": "Cultural, Organisational, and Individual Factors Contributing to Cyber Incident Reporting: A Systematic Literature Review",
-          "authors": "Rick van der Kleij, Olivier Spinnler, Julia Broderick-Hale, Katie Hendriks, Anthonie Drenth, Joshua van Wijgerden",
-          "url": "https://doi.org/10.1016/j.chb.2026.109127",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109127",
-          "filter": 0,
-          "created": "2026-7-14"
         }
       ],
       "articles_hidden": []
@@ -167,22 +151,6 @@
           "doi": "https://doi.org/10.1016/j.jesp.2026.104985",
           "filter": 0,
           "created": "2026-7-20"
-        },
-        {
-          "title": "How and why the omission bias affects victims' and third parties' responses to interpersonal transgressions",
-          "authors": "Justin M. Ludwig, Karina Schumann",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104971",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104971",
-          "filter": 0,
-          "created": "2026-7-14"
-        },
-        {
-          "title": "Do people think I'm late in life? An intersubjective approach to culture and the optimal timing of life",
-          "authors": "Lu Zang, Heejung S. Kim",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104983",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104983",
-          "filter": 0,
-          "created": "2026-7-14"
         },
         {
           "title": "Underestimating sexism: Is gender categorization key?",
@@ -304,6 +272,15 @@
           "created": "2026-7-15"
         },
         {
+          "title": "Reduced Mental Health and Well-Being in Parents of Transgender Youth Following the 2025 U.S. Presidential Inauguration",
+          "authors": "Rachel A. Leshin, Aditi Kodipady, Grey F. Raber, Natalie M. Gallagher, Kristina R. Olson",
+          "abstract": "The numerous executive orders directed at transgender youth in the weeks following the 2025 U.S. presidential inauguration were likely a signal to these youth—and their parents—that the federal government no longer supported them. Using a longitudinal design spanning 3 years prior to the inauguration (2022–2024) and 2 months surrounding the inauguration, we tested whether the mental health and well-being of U.S.-based transgender youth and their parents declined relative to that of cisgender youth and their parents in a sample that, on the whole, did not support the new administration ( N = 160 youth, aged 12–17 years; N = 167 parents). Across preregistered analyses, we observed significant declines in the mental health and well-being of parents of transgender youth compared to parents of cisgender youth; we observed fewer differences over time between transgender versus cisgender youth themselves. Our findings identify an immediate potential cost of the current political environment for supportive parents of transgender youth.",
+          "url": "https://doi.org/10.1177/09567976261461126",
+          "doi": "https://doi.org/10.1177/09567976261461126",
+          "filter": 0,
+          "created": "2026-7-21"
+        },
+        {
           "title": "Moved by the Lightest Touch of Meaning: Even Minimal Significance Matters for Motivation From Childhood",
           "authors": "Yilin Liu, Fan Yang",
           "abstract": "How essential is a sense of significance for motivation—the feeling that our efforts matter beyond the trivial or momentary? Four studies ( N = 604, children aged 4–9 years of age and 582 adults) show that no amount of significance is too small to matter, even for small actions from early in life. Children and adults strongly preferred artistic activities with minimal significance (i.e., where their work would be saved) over activities with no lasting existence. This preference held for both repetitive and one-time tasks and was specific to creating artwork, not just observing it. Anticipating even minimal significance motivated participants to engage in productive rather than effortless activities. When significance is absent, focusing on enjoying the process partially, but not fully, compensates for motivation. These findings illuminate the scope and sensitivity of significance, revealing it to be not a luxury concern but an essential, early-emerging motivational force in an increasingly fast-paced, transient world.",
@@ -327,6 +304,24 @@
           "doi": "https://doi.org/10.1177/03057356261457411",
           "filter": 0,
           "created": "2026-7-17"
+        },
+        {
+          "title": "Flow State in Live Music Performance: A Qualitative Study on Musicians’ Stage Experiences",
+          "authors": "Uğur Özalp, Sergen Kaya",
+          "abstract": "This exploratory qualitative study examines how 32 professional musicians in Turkey described flow during live performance, and the conditions they perceived as facilitating or constraining it. Using a qualitative descriptive design with a phenomenological orientation and maximum-variation sampling, we conducted semi-structured interviews immediately after live sets to obtain performance-proximal accounts rather than implementing real-time experience sampling method (ESM) prompts. Reflexive thematic analysis of the interviews generated five themes: (1) definitions of flow (intense focus, altered time perception, unity with the music, present-centredness, well-being), (2) moments when flow tended to arise (improvisation, emotional or high-energy passages, stage entry), (3) external conditions (audience interaction, group energy, sound/technical reliability, unexpected events), (4) internal conditions (genre affinity, challenge–skill fit, music-theoretical orientation), and (5) perceived effects on performance (technical fluency, automaticity, effortlessness, expressiveness, creativity). Participants’ accounts highlight how flow in Turkish live-music venues is shaped by situated interactions with audiences, ensembles, and stage infrastructures, including genre-specific technical demands (e.g., bağlama performance). Overall, the study provides context-bound, experience-near insight into on-stage flow in contemporary Turkish popular music settings.",
+          "url": "https://doi.org/10.1177/03057356261455259",
+          "doi": "https://doi.org/10.1177/03057356261455259",
+          "filter": 0,
+          "created": "2026-7-21"
+        },
+        {
+          "title": "The Role of Past Experience With Listening to Classical Music in Liking Sophisticated Music",
+          "authors": "Valnea Žauhar, Igor Bajšanski, Sabina Vidulin",
+          "abstract": "The aim of the study was to examine the validity of the Past Experience with Listening to Classical Music Scale (PastELCMS) developed for adolescents and children, and to explore its role in preference for sophisticated music. In Study 1, participants were 151 students from a general education school who rated their liking for six excerpts of sophisticated music and completed questionnaires about previous experience with listening to classical music and other music-related tendencies and behaviours. Study 2 involved 286 pupils attending a primary music school. They reported their liking for an excerpt of classical music and completed questionnaires on the emotions evoked by the music while listening to the excerpt and on previous experience with listening to classical music. PastELCMS correlated positively with preference for sophisticated music, cognitive and emotional music listening, and music consumption in Study 1, as well as with liking for a classical music excerpt and music-evoked activation while listening to the excerpt in Study 2. Past experience with listening to classical music also positively predicted liking sophisticated music. Previous experience should be investigated to understand preferences for sophisticated music. PastELCMS is a valid and reliable measure that can be used with adolescents and children.",
+          "url": "https://doi.org/10.1177/03057356261462944",
+          "doi": "https://doi.org/10.1177/03057356261462944",
+          "filter": 0,
+          "created": "2026-7-22"
         }
       ],
       "articles_hidden": []
