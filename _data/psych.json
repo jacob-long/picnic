@@ -1,5 +1,5 @@
 {
-  "update": "2026-07-23",
+  "update": "2026-07-24",
   "content": [
     {
       "journal_full": "Behavior Research Methods",
@@ -13,15 +13,6 @@
           "doi": "https://doi.org/10.3758/s13428-026-03123-9",
           "filter": 0,
           "created": "2026-7-17"
-        },
-        {
-          "title": "Standardized synchronization and validation pipeline for physiological biomarkers across multiple devices",
-          "authors": "Selin Acan, Clàudia Valenzuela‐Pascual, Filippo Corponi, Bryan M. Li, Diego Hidalgo‐Mazzei, Dick Thijssen, Gideon Vos, Stefan Bogaerts, Erno Hermans, Mitra Baratchi, Martin Dresler, Peter De Looff",
-          "abstract": "Wearable devices enable continuous monitoring of physiological signals in real‐world settings, yet a standardized approach for synchronizing signals across devices remains lacking. We present a generalizable, user‐friendly pipeline that enables synchronization of any two devices capturing the same physiological signals, without requiring coding expertise. The pipeline performs resampling, dynamic time warping alignment, amplitude correction via wavelet transforms, and signal standardization, followed by agreement analyses at both waveform and feature levels. To demonstrate its validity, we applied the pipeline to a case study comparing two research‐grade devices, the Empatica E4 and the EmbracePlus, using up to 48 h of concurrent recordings from 31 participants. We compared signal‐level agreement across waveform similarity, amplitude distribution, spectral content, and extracted features between the two research‐grade devices to determine their interchangeability for longitudinal and multi‐site studies. Specifically, we aimed to determine how well these devices agree at the signal level and to identify which physiological signals are most robust to device‐specific variability. Four signals were examined (blood volume pulse, electrodermal activity, accelerometry, and temperature) using NeuroKit2 and FLIRT. We computed Pearson and concordance correlation coefficients, Bland–Altman bias and limits of agreement, root mean squared error (RMSE), KL divergence, spectral coherence, mutual information, and feature‐level correlations using NeuroKit2 and FLIRT. Results showed near‐perfect agreement for BVP (concordance correlation coefficient (CCC) ≈ 1.0; coherence ≤ 0.98) and phasic EDA features (CCC 0.85–0.99), whereas tonic EDA, temperature, and accelerometry exhibited systematic amplitude biases (EmbracePlus lower) and axis‐dependent variability ( Z ‐axis CCC = 0.85; Y ‐axis = 0.19). Relative signal dynamics were preserved across devices despite differences in absolute levels. These findings support integration of BVP, EDA, and TEMP data across E4 and EmbracePlus with proper preprocessing, while highlighting calibration needs for movement signals.",
-          "url": "https://doi.org/10.3758/s13428-026-03097-8",
-          "doi": "https://doi.org/10.3758/s13428-026-03097-8",
-          "filter": 0,
-          "created": "2026-7-16"
         },
         {
           "title": "Measurement error is lower for visual analogue scales than for slider scales",
@@ -41,15 +32,6 @@
           "created": "2026-7-22"
         },
         {
-          "title": "Modeling intraindividual variability in affect (MIVA): Formalized theoretical approach, computational model, and parameter recovery study",
-          "authors": "Maria Wirth, Andreas Voss, Stefan T. Radev, Klaus Rothermund",
-          "abstract": "No matter how angry, sad, or happy we are, eventually, we will feel different. Studying this ebb and flow of affective experience in daily life provides important insights into psychological functioning and well-being. We have developed a parsimonious formalized model of intraindividual variability in affect (MIVA), resting on the assumption that such affective changes reflect transactions between an individual and their proximal environment. We provide an outline of its theoretical background, scope, and mathematical formulation. We situate MIVA within the research field of affect dynamics and illustrate the models’ behavior under realistic conditions using a simulation study. We use simulation-based inference to train a custom neural network on MIVA simulations, which we employ to rapidly estimate the model’s parameters on a multitude of synthetic experiments with different configurations. Our simulation study demonstrates that the synthesis between a computational model and probabilistic neural networks results in an efficient and flexible tool for model-based inference of affect dynamics. Our simulation study also offers insights into the data requirements for a precise recovery of the model’s parameters and recommendations for future data collection. The potential of MIVA for providing insights into affect dynamics is discussed.",
-          "url": "https://doi.org/10.3758/s13428-026-03122-w",
-          "doi": "https://doi.org/10.3758/s13428-026-03122-w",
-          "filter": 0,
-          "created": "2026-7-20"
-        },
-        {
           "title": "Measuring complex constructs in large-scale text with computational social mixed methods",
           "authors": "Alina Herderich, Jana Lasser, Mirta Galesic, Segun Aroyehun, David Garcia, Joshua Garland",
           "abstract": "A growing convergence between social science and machine learning enables, in principle, large-scale analyses of complex social phenomena through text. Yet, approaches leveraging supervised text classification based on human-annotated data for statistical analysis often treat conceptual validity and technical performance as separate challenges, impairing measurement quality. We provide guidelines to bridge this gap in what we call computational social mixed methods pipelines across three stages: data annotation, model training, and statistical analysis. Building on best practices and our own methodological innovations, such as “Iterative Annotation” and “Training on Confident Examples”, we address recurring pitfalls like unbalanced training data or stagnant model performance. We also discuss when large language models constitute a viable alternative to transformer-based classifiers. Using a case study on countering online hate, we illustrate how consequently integrating social science and machine learning expertise improves the validity and comparability of computational social science.",
@@ -59,21 +41,13 @@
           "created": "2026-7-21"
         },
         {
-          "title": "Introducing openESM: A database of openly available experience sampling datasets",
-          "authors": "Björn S. Siepe, Jonas M. B. Haslbeck, Matthias Kloft, Anabel Büchner, Yong Zhang, Eiko I. Fried, Daniel W. Heck",
-          "abstract": "Experience sampling via mobile devices enables unprecedented insights into daily life. However, individual studies often cannot answer research questions conclusively, and open data are scattered across repositories in different formats. This impedes research into robustness, generalizability, and heterogeneity. We address this issue by introducing , an open-source database of openly available experience sampling datasets in a harmonized format. The growing database currently comprises 60 datasets with more than 16,000 participants and more than 740,000 observations. Metadata can be searched via our website ( openesmdata.org ) to select and download datasets via packages in R and Python. We demonstrate the potential of through an analysis of within-person correlations of positive and negative affect in 39 datasets, providing evidence for a large negative momentary correlation ( $$-0.49$$ - 0.49 , 95% CI: [ $$-0.54$$ - 0.54 , $$-0.42$$ - 0.42 ]). We end by discussing the design principles that will allow to become a continuously evolving community resource for cumulative experience sampling research.",
-          "url": "https://doi.org/10.3758/s13428-026-03112-y",
-          "doi": "https://doi.org/10.3758/s13428-026-03112-y",
+          "title": "Modeling intraindividual variability in affect (MIVA): Formalized theoretical approach, computational model, and parameter recovery study",
+          "authors": "Maria Wirth, Andreas Voss, Stefan T. Radev, Klaus Rothermund",
+          "abstract": "No matter how angry, sad, or happy we are, eventually, we will feel different. Studying this ebb and flow of affective experience in daily life provides important insights into psychological functioning and well-being. We have developed a parsimonious formalized model of intraindividual variability in affect (MIVA), resting on the assumption that such affective changes reflect transactions between an individual and their proximal environment. We provide an outline of its theoretical background, scope, and mathematical formulation. We situate MIVA within the research field of affect dynamics and illustrate the models’ behavior under realistic conditions using a simulation study. We use simulation-based inference to train a custom neural network on MIVA simulations, which we employ to rapidly estimate the model’s parameters on a multitude of synthetic experiments with different configurations. Our simulation study demonstrates that the synthesis between a computational model and probabilistic neural networks results in an efficient and flexible tool for model-based inference of affect dynamics. Our simulation study also offers insights into the data requirements for a precise recovery of the model’s parameters and recommendations for future data collection. The potential of MIVA for providing insights into affect dynamics is discussed.",
+          "url": "https://doi.org/10.3758/s13428-026-03122-w",
+          "doi": "https://doi.org/10.3758/s13428-026-03122-w",
           "filter": 0,
-          "created": "2026-7-16"
-        },
-        {
-          "title": "The Arabic Lexicon Project: Lexical decision data for 10,000 Modern Standard Arabic words",
-          "authors": "Alaa Alzahrani, Hassan Alshumrani, Wafa Aljuaythin, Iman Mahfouz, Laila Alsuwaiyan, Noura Aljadaan, Sharif Alghazo, Imane Tiaiba, Zaha Alanzi",
-          "url": "https://doi.org/10.3758/s13428-026-03115-9",
-          "doi": "https://doi.org/10.3758/s13428-026-03115-9",
-          "filter": 0,
-          "created": "2026-7-16"
+          "created": "2026-7-20"
         },
         {
           "title": "Segmented profile analysis (SEPA): Plane-wise decomposition of within-person variation via ipsatized singular value decomposition",
@@ -91,6 +65,14 @@
       "journal_full": "Computers in Human Behavior",
       "journal_short": "CHB",
       "articles": [
+        {
+          "title": "Employee Knowledge and Smart Technology Adoption: Evidence from the E-waste Sector",
+          "authors": "Amila Kasun Sampath Udage Kankanamge, Michael Odei Erdiaw-Kwasie, Matthew Abunyewah, Kerstin Zander",
+          "url": "https://doi.org/10.1016/j.chb.2026.109129",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109129",
+          "filter": 0,
+          "created": "2026-7-23"
+        },
         {
           "title": "Pretty Privilege? Effects of Perpetrators’ Attractiveness and Hate Type on User Responses Against Misogynist Digital Hate",
           "authors": "Rinat Meerson, Kevin Koban, Jörg Matthes",
@@ -139,12 +121,28 @@
           "created": "2026-7-20"
         },
         {
+          "title": "Feeling with family, grateful to strangers: Moral reactions to compassion and gratitude align with their social functions",
+          "authors": "Alexa Weiss, Pascal Burgmer",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104933",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104933",
+          "filter": 0,
+          "created": "2026-7-23"
+        },
+        {
           "title": "The subjectivity of objectivity: The effects of positionality statements on objectivity perceptions of psychological research",
           "authors": "Sakaria Laisene Auelua-Toomey, Ellen C. Reinhart, Kengthsagn Louis",
           "url": "https://doi.org/10.1016/j.jesp.2026.104974",
           "doi": "https://doi.org/10.1016/j.jesp.2026.104974",
           "filter": 0,
           "created": "2026-7-22"
+        },
+        {
+          "title": "Revisiting Gino, Ayal, et al.’s (2009) contagion and differentiation in unethical behavior: A registered conceptual replication and extension",
+          "authors": "Jareef Martuza, Esra Aslan",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104988",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104988",
+          "filter": 0,
+          "created": "2026-7-23"
         }
       ],
       "articles_hidden": []
@@ -154,12 +152,36 @@
       "journal_short": "JPSP",
       "articles": [
         {
-          "title": "Does losing your job change your personality? Findings from a 16-year longitudinal study of Mexican-origin adults.",
-          "authors": "Guido Alessandri, Lorenzo Filosa, Richard W. Robins",
-          "url": "https://doi.org/10.1037/pspp0000609",
-          "doi": "https://doi.org/10.1037/pspp0000609",
+          "title": "How institutional distrust breeds one-sided leadership: A consistency-based account.",
+          "authors": "Claire Linares, Anne-Sophie Chaxel",
+          "url": "https://doi.org/10.1037/pspi0000527",
+          "doi": "https://doi.org/10.1037/pspi0000527",
           "filter": 0,
-          "created": "2026-7-16"
+          "created": "2026-7-23"
+        },
+        {
+          "title": "When having less elevates more: Benefactor income, moral elevation, and prosocial contagion among observers.",
+          "authors": "Bingqing Miranda Yin, Jenny G. Olson, Yexin Jessica Li",
+          "url": "https://doi.org/10.1037/pspa0000493",
+          "doi": "https://doi.org/10.1037/pspa0000493",
+          "filter": 0,
+          "created": "2026-7-23"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Organizational Research Methods",
+      "journal_short": "ORM",
+      "articles": [
+        {
+          "title": "Interaction Effects May Indeed Be Artifacts of Common Method Variance",
+          "authors": "Arturs Kalnins",
+          "abstract": "A common belief in the organizational sciences is that estimated interaction effects in ordinary least squares regression cannot be artifacts of common method variance (CMV). This belief rests on the claim that CMV universally attenuates estimated interaction effects. As a result, researchers frequently dismiss CMV concerns when testing moderated relationships. We present an analytic closed-form regression model demonstrating that this universal attenuation claim is false in commonplace scenarios. In particular, when a quadratic term legitimately affects the dependent variable (DV) in the presence of CMV, an estimated interaction effect may be purely artifactual. The common belief holds only in two special cases: (1) when quadratic terms have zero effect on the DV, or (2) when one primary term that enters the interaction is unambiguously unaffected by CMV. We conclude that researchers should apply all standard CMV precautions when testing moderated hypotheses; the fact that one is assessing interactions should not be viewed as a “get out of CMV jail free” card. In addition, we recommend estimating and reporting model specifications both with and without quadratic terms to assess robustness.",
+          "url": "https://doi.org/10.1177/10944281261465310",
+          "doi": "https://doi.org/10.1177/10944281261465310",
+          "filter": 0,
+          "created": "2026-7-23"
         }
       ],
       "articles_hidden": []
@@ -168,6 +190,15 @@
       "journal_full": "Personality and Social Psychology Bulletin",
       "journal_short": "PSPB",
       "articles": [
+        {
+          "title": "Me, My Self (Concept), and I – Disentangling the Link Between Narcissism and the Impostor Self-Concept",
+          "authors": "Kristina Klug, Mona Leonhardt, Sophie Oprée, Sinem Rhein, Sonja Rohrmann",
+          "abstract": "The impostor self-concept involves self-doubt and fear of being exposed as a fraud. While vulnerable narcissism shares substantial psychological similarities with the impostor self-concept, grandiose narcissism is associated with an overestimation of one's own capabilities. The present study explores the relationship between the personality constructs impostor self-concept and narcissism, considering parenting styles and adult attachment. In a sample of 339 participants, path analyses revealed that overprotective and controlling parenting fostered both impostor self-concept and vulnerable narcissism, while grandiose narcissism was linked to parental warmth. Impostor self-concept and vulnerable narcissism predicted higher attachment anxiety and lower trust, whereas grandiose narcissism had no significant effects on adult attachment. Despite substantial overlap in developmental predictors and relational consequences, factor analyses confirmed the impostor self-concept as distinct from vulnerable narcissism. Findings point to shared developmental pathways and distinct relational implications, and highlight the need for longitudinal research and interventions targeting self-esteem and attachment security.",
+          "url": "https://doi.org/10.1177/01461672261467836",
+          "doi": "https://doi.org/10.1177/01461672261467836",
+          "filter": 0,
+          "created": "2026-7-23"
+        },
         {
           "title": "Does Self-Projection Have a Dominant Temporal Direction? In Nine Countries, People Feel More Similar to Their Future Than Past Selves",
           "authors": "Jareef Martuza, Simen Bø, Helge Thorbjørnsen, Hallgeir Sjåstad",
@@ -190,32 +221,9 @@
       "articles_hidden": []
     },
     {
-      "journal_full": "Psychological Bulletin",
-      "journal_short": "PsychBull",
-      "articles": [
-        {
-          "title": "Do money and time change who you are? A continuous time meta-analysis and review of reciprocal relationships between personality traits and income.",
-          "authors": "Wen-Dong Li, Kaili Yu, Weiwen Yang, Zhen Zhang, Xin Zhang, Christian Dormann, Huanxi Zhang, Yanglei Zheng",
-          "url": "https://doi.org/10.1037/bul0000526",
-          "doi": "https://doi.org/10.1037/bul0000526",
-          "filter": 0,
-          "created": "2026-7-16"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
       "journal_full": "Psychological Methods",
       "journal_short": "PM",
       "articles": [
-        {
-          "title": "Network accuracy across levels of analysis using stochastic block models.",
-          "authors": "Alexander P. Christensen, Jeongwon Choi",
-          "url": "https://doi.org/10.1037/met0000853",
-          "doi": "https://doi.org/10.1037/met0000853",
-          "filter": 0,
-          "created": "2026-7-16"
-        },
         {
           "title": "A comparison of the predictive performance of continuous and class-based latent trait models.",
           "authors": "Wanjing Anya Ma, Yiqing Liu, Klint Kanopka, Wenchao Ma, Benjamin W. Domingue",
@@ -231,6 +239,14 @@
           "doi": "https://doi.org/10.1037/met0000858",
           "filter": 0,
           "created": "2026-7-20"
+        },
+        {
+          "title": "Adjustment set selection for estimating optimal treatment rules under confounding.",
+          "authors": "Nina Galanter, Susan M. Shortreed, Erica E. M. Moodie",
+          "url": "https://doi.org/10.1037/met0000812",
+          "doi": "https://doi.org/10.1037/met0000812",
+          "filter": 0,
+          "created": "2026-7-23"
         }
       ],
       "articles_hidden": []
@@ -247,15 +263,6 @@
           "doi": "https://doi.org/10.1177/09567976261461126",
           "filter": 0,
           "created": "2026-7-21"
-        },
-        {
-          "title": "Moved by the Lightest Touch of Meaning: Even Minimal Significance Matters for Motivation From Childhood",
-          "authors": "Yilin Liu, Fan Yang",
-          "abstract": "How essential is a sense of significance for motivation—the feeling that our efforts matter beyond the trivial or momentary? Four studies ( N = 604, children aged 4–9 years of age and 582 adults) show that no amount of significance is too small to matter, even for small actions from early in life. Children and adults strongly preferred artistic activities with minimal significance (i.e., where their work would be saved) over activities with no lasting existence. This preference held for both repetitive and one-time tasks and was specific to creating artwork, not just observing it. Anticipating even minimal significance motivated participants to engage in productive rather than effortless activities. When significance is absent, focusing on enjoying the process partially, but not fully, compensates for motivation. These findings illuminate the scope and sensitivity of significance, revealing it to be not a luxury concern but an essential, early-emerging motivational force in an increasingly fast-paced, transient world.",
-          "url": "https://doi.org/10.1177/09567976261462874",
-          "doi": "https://doi.org/10.1177/09567976261462874",
-          "filter": 0,
-          "created": "2026-7-16"
         }
       ],
       "articles_hidden": []
@@ -307,14 +314,6 @@
           "created": "2026-7-20"
         },
         {
-          "title": "Experiences of consuming fiction in relation to psychological well-being.",
-          "authors": "Lucy Lewis, Amanda Diserholt",
-          "url": "https://doi.org/10.1037/ppm0000683",
-          "doi": "https://doi.org/10.1037/ppm0000683",
-          "filter": 0,
-          "created": "2026-7-16"
-        },
-        {
           "title": "Older and wiser, but not immune: A brief report examining movie exposure and male body image across development.",
           "authors": "Kate Stewart, James Alex Bonus",
           "url": "https://doi.org/10.1037/ppm0000687",
@@ -346,20 +345,20 @@
       "journal_short": "TMB",
       "articles": [
         {
+          "title": "Pushed to the edge: When radical political messages persuade more on social media.",
+          "authors": "Brahim Zarouali",
+          "url": "https://doi.org/10.1037/tmb0000208",
+          "doi": "https://doi.org/10.1037/tmb0000208",
+          "filter": 0,
+          "created": "2026-7-23"
+        },
+        {
           "title": "The bystander effect in human–robot interaction: How the presence of bystanders inhibits helping intentions for a social robot.",
           "authors": "Guiying Liu, Tatjana Korbanka, Jasmin Timm, Naomi Oetelshofen, Laura Maier, Markus Huff, Frank Papenmeier",
           "url": "https://doi.org/10.1037/tmb0000198",
           "doi": "https://doi.org/10.1037/tmb0000198",
           "filter": 0,
           "created": "2026-7-20"
-        },
-        {
-          "title": "Relations among the broad autism phenotype, internet use, and cyber psychological aggression.",
-          "authors": "Hayley M. Mullinax, Lisa A. Turner",
-          "url": "https://doi.org/10.1037/tmb0000202",
-          "doi": "https://doi.org/10.1037/tmb0000202",
-          "filter": 0,
-          "created": "2026-7-16"
         }
       ],
       "articles_hidden": []
