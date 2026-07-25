@@ -1,18 +1,18 @@
 {
-  "update": "2026-07-24",
+  "update": "2026-07-25",
   "content": [
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "Multidimensional Bayesian adaptive testing",
-          "authors": "Aron Fink, Christoph König, Andreas Frey",
-          "abstract": "This paper introduces a fully Bayesian approach to multidimensional adaptive testing (MBAT). By incorporating uncertainty in both item and person parameter estimates, MBAT addresses limitations in conventional multidimensional adaptive testing (MAT), which relies on point item and person parameter estimates. A Monte Carlo simulation was conducted to evaluate the performance of MBAT compared to conventional MAT. The study was based on a four-factorial design, with the factors calibration sample size ( N = 250, N = 500, N = 1,000), test length ( t = 30, t = 60), true trait level (− 2.0, − 1.5, …, 2.0), and MAT algorithm (MAT, MBAT), across a three-dimensional trait structure with within- and between-item multidimensionality. The results showed that MBAT consistently outperformed conventional MAT in terms of the bias and mean squared error ( MSE ) of the final person parameter estimates, especially at the extremes of the trait distributions. Implemented in general-purpose software (Stan, R), the approach is computationally feasible and adaptable, providing a practical foundation for future research and applications in MAT.",
-          "url": "https://doi.org/10.3758/s13428-026-03123-9",
-          "doi": "https://doi.org/10.3758/s13428-026-03123-9",
+          "title": "StreetArt4Sustainability dataset: Mapping aesthetic emotions to street art",
+          "authors": "Patrícia Arriaga, Erin M. Buchanan",
+          "abstract": "A novel dataset of 556 street art images is presented, accompanied by affective evaluations from 1,239 Portuguese and Brazilian participants. Artworks were selected to reflect themes associated with the United Nations Sustainable Development Goals. Using a stimulus-sampling design, each participant completed an online survey in which 10 randomly selected artworks were presented and reported their responses in terms of valence, arousal, and specific emotion labels (being moved, awe, inspiration, hope, sadness, fear, anger, emotional connection, reflection, awareness, and interest), as well as their interest in street art and sustainability consciousness. Multilevel analyses showed that higher interest in street art and greater sustainability consciousness were consistent predictors of more positive emotional responses to the artworks. In contrast, the effects of gender and age were negligible, and national differences emerged only for feeling moved and awe. Network analyses revealed a highly interconnected emotional structure, with three clusters: self-transcendent, epistemic, and negative emotions. Feeling moved and emotional connection occupied central bridging positions, showing both direct and indirect links across positive and negative emotion clusters. Overall, these findings indicate that street art evokes a broad range of interconnected self-transcendent, cognitive-epistemic, and negative emotions, highlighting the complexity of viewers’ responses to the artworks. The dataset provides a valuable resource for research on emotional responses to street art and can support broader investigations into visual perception, aesthetic processing, and the communication of sustainability-related themes.",
+          "url": "https://doi.org/10.3758/s13428-026-03119-5",
+          "doi": "https://doi.org/10.3758/s13428-026-03119-5",
           "filter": 0,
-          "created": "2026-7-17"
+          "created": "2026-7-24"
         },
         {
           "title": "Measurement error is lower for visual analogue scales than for slider scales",
@@ -24,6 +24,24 @@
           "created": "2026-7-22"
         },
         {
+          "title": "Unveiling local dependencies in accuracy and speed: A mixture hierarchical modeling approach",
+          "authors": "Hung-Yu Huang",
+          "abstract": "Hierarchical models (HMs) are commonly used to jointly model response accuracies and response times (RTs). However, their relationship cannot be fully captured by the population-level correlation between ability and speed, as local dependencies may arise and threaten valid inferences about individuals and items. In this study, a mixture-based hierarchical model (Mix-HM) that allows respondents to switch between different pacing speeds and identifies positive and negative item-level dependencies is proposed. Two simulation studies were conducted: Simulation 1 examined parameter recovery effects, and Simulation 2 evaluated the effectiveness of Bayesian information-based criteria in model selection processes. The results showed that the Mix-HM achieved satisfactory parameter recovery effects, whereas the conventional HM yielded biased estimates when local dependencies were present. In addition, the model fit criteria were generally able to correctly identify the true model across most conditions. An empirical analysis conducted using large-scale assessment data further showed that the new model provided an improved degree of fit and more stable parameter estimates, while the conventional HM distorted the relationship between ability and speed. These findings highlight the importance of accounting for the heterogeneity of latent speed and local dependencies when incorporating RTs as collateral information.",
+          "url": "https://doi.org/10.3758/s13428-026-03125-7",
+          "doi": "https://doi.org/10.3758/s13428-026-03125-7",
+          "filter": 0,
+          "created": "2026-7-24"
+        },
+        {
+          "title": "Customizable Bayesian adaptive testing with Python – The adaptivetesting package",
+          "authors": "Jonas Engicht, R. Maximilian Bee, Tobias Koch",
+          "abstract": "This paper introduces an open-source Python package for simplified, customizable computerized adaptive testing (CAT) using Bayesian methods for ability estimation. It addresses the lack of sophisticated packages for CAT in the Python programming language. Moreover, it bridges the gap between the construction and simulation of adaptive tests and their practical application by providing a dedicated API for integration with experiment software. Thereby, it eliminates the need for major code rewrites when transitioning from simulated to real-world adaptive testing. By leveraging Python’s object-oriented programming approach, such as abstract classes, protocols, and inheritance, the package allows for easy extension and customization of its functionality. For example, Bayesian estimators can be modified to incorporate custom priors. This paper outlines the relevance and practical use of the package through a walkthrough example. The package is fully documented, and its source code is published on GitHub. It is also available on the Python Package Index (PyPi) and conda-forge thus it can easily be installed using Python’s package manager or . Leveraging R’s package, can also be accessed from within RStudio.",
+          "url": "https://doi.org/10.3758/s13428-026-03079-w",
+          "doi": "https://doi.org/10.3758/s13428-026-03079-w",
+          "filter": 0,
+          "created": "2026-7-24"
+        },
+        {
           "title": "AI-generated familiarity estimates are a useful new source of information about word knowledge in Simplified Chinese",
           "authors": "Ziyi Ding, Kangning Qin, Marc Brysbaert, Qing Cai",
           "url": "https://doi.org/10.3758/s13428-026-03120-y",
@@ -32,13 +50,13 @@
           "created": "2026-7-22"
         },
         {
-          "title": "Measuring complex constructs in large-scale text with computational social mixed methods",
-          "authors": "Alina Herderich, Jana Lasser, Mirta Galesic, Segun Aroyehun, David Garcia, Joshua Garland",
-          "abstract": "A growing convergence between social science and machine learning enables, in principle, large-scale analyses of complex social phenomena through text. Yet, approaches leveraging supervised text classification based on human-annotated data for statistical analysis often treat conceptual validity and technical performance as separate challenges, impairing measurement quality. We provide guidelines to bridge this gap in what we call computational social mixed methods pipelines across three stages: data annotation, model training, and statistical analysis. Building on best practices and our own methodological innovations, such as “Iterative Annotation” and “Training on Confident Examples”, we address recurring pitfalls like unbalanced training data or stagnant model performance. We also discuss when large language models constitute a viable alternative to transformer-based classifiers. Using a case study on countering online hate, we illustrate how consequently integrating social science and machine learning expertise improves the validity and comparability of computational social science.",
-          "url": "https://doi.org/10.3758/s13428-026-03046-5",
-          "doi": "https://doi.org/10.3758/s13428-026-03046-5",
+          "title": "Developing a psychological test battery to measure cognition in daily life",
+          "authors": "Andrew J. Aschenbrenner, Muchen Xi, Jeremy Cohn, Derek A. Simon, Joshua J. Jackson",
+          "abstract": "Cognition is not a static process but is subject to substantial and meaningful variation within individuals over time. This has led to an increase in studies that aim to describe cognition in daily life by sampling participants repeatedly and remotely. Such studies, which we call high-frequency cognitive assessment or “HFCA”, tend to use a limited number of brief cognitive tests. This focus on a small number of tests leaves open questions concerning the psychometric characteristics of a wide array of cognitive tasks useful for HFCA that can guide researchers on appropriate task selection. We developed the Cognitive Variability Battery (CVB), a series of nine cognitive tests clustered into three distinct cognitive domains: attentional control, processing speed, and episodic memory. CVB was administered to participants three times per day for 3 weeks. Cognitive tests were rotated to reduce the length of any single testing session. Each test was administered up to 60 times. We provide detailed descriptions of the performance of each task, including variability, skew, and reliability statistics, using intraclass correlations. We examine the sensitivity of each test to several contextual factors including stress, affect, and social interactions. Finally, we provide power analyses on each cognitive test to determine how many assessments and participants are needed to detect effects of interest. These analyses will be essential to anyone seeking to implement HFCA testing in their own research programs, by providing guidance on which cognitive tests to select and how many participants and observations may be needed.",
+          "url": "https://doi.org/10.3758/s13428-026-03128-4",
+          "doi": "https://doi.org/10.3758/s13428-026-03128-4",
           "filter": 0,
-          "created": "2026-7-21"
+          "created": "2026-7-24"
         },
         {
           "title": "Modeling intraindividual variability in affect (MIVA): Formalized theoretical approach, computational model, and parameter recovery study",
@@ -50,6 +68,15 @@
           "created": "2026-7-20"
         },
         {
+          "title": "Measuring complex constructs in large-scale text with computational social mixed methods",
+          "authors": "Alina Herderich, Jana Lasser, Mirta Galesic, Segun Aroyehun, David Garcia, Joshua Garland",
+          "abstract": "A growing convergence between social science and machine learning enables, in principle, large-scale analyses of complex social phenomena through text. Yet, approaches leveraging supervised text classification based on human-annotated data for statistical analysis often treat conceptual validity and technical performance as separate challenges, impairing measurement quality. We provide guidelines to bridge this gap in what we call computational social mixed methods pipelines across three stages: data annotation, model training, and statistical analysis. Building on best practices and our own methodological innovations, such as “Iterative Annotation” and “Training on Confident Examples”, we address recurring pitfalls like unbalanced training data or stagnant model performance. We also discuss when large language models constitute a viable alternative to transformer-based classifiers. Using a case study on countering online hate, we illustrate how consequently integrating social science and machine learning expertise improves the validity and comparability of computational social science.",
+          "url": "https://doi.org/10.3758/s13428-026-03046-5",
+          "doi": "https://doi.org/10.3758/s13428-026-03046-5",
+          "filter": 0,
+          "created": "2026-7-21"
+        },
+        {
           "title": "Segmented profile analysis (SEPA): Plane-wise decomposition of within-person variation via ipsatized singular value decomposition",
           "authors": "Se-Kang Kim, Joe Grochowalski",
           "abstract": "Traditional profile analyses summarize multivariate person data with overall mean levels and relative patterns, but existing methods often blur these sources of variation or reduce each individual to a single best-fitting profile. Segmented Profile Analysis (SEPA) offers a unified, ipsatized singular-value decomposition (SVD) framework that decomposes individual profiles into orthogonal level (LE) and pattern (PE) effects and, crucially, introduces plane-wise segment profiles (summaries of each person's response pattern within each variable-contrast dimension) as primary person-oriented objects. Within each low-dimensional plane, SEPA defines a projected response pattern (segment profile), domain–person cosines that index variable-by-variable alignment, and plane-fit correlations that summarize how closely an individual’s pattern follows the plane’s domain structure. Across planes, SEPA aggregates information via singular-value weighting to yield an overall segment profile while preserving contrast-specific signal. A practical workflow combines ipsatized SVD, parallel analysis for PE dimensionality, marker-domain rules, bootstrap confidence intervals, and subspace-stability diagnostics. Using multivariate cognitive data from the Woodcock–Johnson IV, SEPA identifies interpretable marker domains, reveals distinct pattern facets across planes, and provides person-oriented indices that can be carried into standard regression models. Simulation studies examine the stability of segment profiles and cosines under varying sample sizes and variance structures. SEPA thus supplies a reproducible, geometry-based foundation for person-centered measurement that connects Q-type factor analysis, biplot methods, and contemporary within-person profiling in multidomain assessments.",
@@ -57,6 +84,15 @@
           "doi": "https://doi.org/10.3758/s13428-026-03102-0",
           "filter": 0,
           "created": "2026-7-22"
+        },
+        {
+          "title": "The Social Learning-Generosity (SL-Gen) Task: Redesigning the multi-round trust game paradigm to examine social learning and generosity sensitivity in young people",
+          "authors": "Brennan Delattre, Alister R. Dale-Evans, Amy L. Gillespie, Juliet D. Griffin, Erdem Pulcu, Susannah E. Murphy, Catherine J. Harmer",
+          "abstract": "Social learning is important for societal functioning, and adolescence is a critical period for the development and maintenance of social behaviors. Specifically, the ability to establish and maintain beneficial social interactions while avoiding or withdrawing from detrimental or harmful ones is crucial for healthy interpersonal functioning. Beyond self-report measures, the multi-round trust game, a commonly used behavioral economics paradigm, can help elucidate differences in social decision-making between healthy and clinical populations. To more specifically probe the role of social learning and generosity sensitivity during social exchange in young people, we have designed a new task: the Social Learning-Generosity (SL-Gen) Task. Using versions of the multi-round trust game as a basis for the design, we have incorporated more environmentally realistic task components, including controlled gain, loss, and variable gain-loss generosity conditions. In a single-session online study, the present research investigated task behavior and task acceptability in individuals aged 18–24 from a United Kingdom census-based sample, as well as exploring task differences by self-reported trust and gender. While this task is sensitive to differences in self-reported trust and gender and behaves similarly to existing versions of the trust game with respect to these effects, it has added utility within mental health research and treatment contexts for characterizing social decision-making behavior in more detail using set generosity conditions.",
+          "url": "https://doi.org/10.3758/s13428-026-03100-2",
+          "doi": "https://doi.org/10.3758/s13428-026-03100-2",
+          "filter": 0,
+          "created": "2026-7-24"
         }
       ],
       "articles_hidden": []
@@ -74,36 +110,20 @@
           "created": "2026-7-23"
         },
         {
+          "title": "Delegating (or Not) to Machines: How Role Expectations Shape Leaders’ Willingness to Use AI for Communication",
+          "authors": "Roshni Raveendhran, Arthur S. Jago, Jonathan Gratch, Nathanael J. Fast",
+          "url": "https://doi.org/10.1016/j.chb.2026.109139",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109139",
+          "filter": 0,
+          "created": "2026-7-24"
+        },
+        {
           "title": "Pretty Privilege? Effects of Perpetrators’ Attractiveness and Hate Type on User Responses Against Misogynist Digital Hate",
           "authors": "Rinat Meerson, Kevin Koban, Jörg Matthes",
           "url": "https://doi.org/10.1016/j.chb.2026.109112",
           "doi": "https://doi.org/10.1016/j.chb.2026.109112",
           "filter": 0,
           "created": "2026-7-20"
-        },
-        {
-          "title": "Emotionally Vulnerable Subtype of Internet Gaming Disorder: Measuring and Exploring the Pathology of Problematic Generative AI Use",
-          "authors": "Haocan Sun, Di Wu, Weizi Liu, Mike Yao, Guoming Yu",
-          "url": "https://doi.org/10.1016/j.chb.2026.109116",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109116",
-          "filter": 0,
-          "created": "2026-7-17"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Group Processes & Intergroup Relations",
-      "journal_short": "GPIR",
-      "articles": [
-        {
-          "title": "Public Opinion on Overturning Roe v. Wade : Separate Spheres Ideology, Abortion Identity, and Message Framing in a Three-Wave Panel Study",
-          "authors": "Lisette Horne, Eugene Borgida, Kiley Gilbert",
-          "abstract": "The U.S. Supreme Court’s decision in Dobbs v. Jackson Women’s Health Organization (hereafter, Dobbs ) overturning Roe v. Wade was a landmark decision. We focus on the influence of gender ideology, measured by separate spheres ideology (SSI), on public perceptions of this decision. In a three-wave survey-experiment panel study with a nationally diverse sample, participants reported their endorsement of SSI, gender system justification, abortion identity, and attitudes toward abortion. At Wave 2, participants were randomly assigned to one of two message-framing conditions that differed in the number of facts about Dobbs or a healthcare control. Wave 3 examined the persistence of experimental effects. Overall, SSI was the only consistent moderator of message-framing effects on all outcome measures, with persisting effects on support for restrictive abortion policies and endorsement of the gendered status quo. SSI’s predictive influence in electoral choice and nonelectoral but gendered policy contexts is discussed.",
-          "url": "https://doi.org/10.1177/13684302261462074",
-          "doi": "https://doi.org/10.1177/13684302261462074",
-          "filter": 0,
-          "created": "2026-7-17"
         }
       ],
       "articles_hidden": []
@@ -127,6 +147,14 @@
           "doi": "https://doi.org/10.1016/j.jesp.2026.104933",
           "filter": 0,
           "created": "2026-7-23"
+        },
+        {
+          "title": "Prosocial by default: Defaults boost giving even under distraction and widespread non-responsiveness",
+          "authors": "Linh Vu, Margarita Leib, Jan Hausfeld, Shaul Shalvi",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104987",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104987",
+          "filter": 0,
+          "created": "2026-7-24"
         },
         {
           "title": "The subjectivity of objectivity: The effects of positionality statements on objectivity perceptions of psychological research",
@@ -207,15 +235,6 @@
           "doi": "https://doi.org/10.1177/01461672261467790",
           "filter": 0,
           "created": "2026-7-18"
-        },
-        {
-          "title": "Social Media is Shifting the Values in Our Societies: An Increase in People’s Achievement and Conformity Orientation",
-          "authors": "Ertugrul Uysal, Sascha Alavi, Valéry Bezençon",
-          "abstract": "Past research explored the beneficial and harmful effects of social media (SM), but no study has investigated how SM might change people’s identities. Authors suggest that SM is a catalyst for a shift in two individual values, achievement and conformity, transforming the fabric of our societies. A difference-in-differences analysis found that countries with higher SM adoption compared to their culturally similar country show an increase in achievement and conformity orientation. Next, authors manipulated SM use and established a causal link between SM use and the activation of achievement and conformity values in Facebook users. These findings were replicated with objective SM usage data, and the pertinent mechanism was explored: people’s SM use increases achievement and conformity orientation through an increased need for approval, particularly for those who self-ruminate. Findings suggest that SM use contributes to the emergence of a societal culture that places an emphasis on achievement-seeking and conformity.",
-          "url": "https://doi.org/10.1177/01461672261461314",
-          "doi": "https://doi.org/10.1177/01461672261461314",
-          "filter": 0,
-          "created": "2026-7-17"
         }
       ],
       "articles_hidden": []
@@ -271,15 +290,6 @@
       "journal_full": "Psychology of Music",
       "journal_short": "PsychMusic",
       "articles": [
-        {
-          "title": "The Connection Between Flow and Music Performance Anxiety Among Adolescents",
-          "authors": "Xinyu Huang",
-          "abstract": "This study investigated the relationship between flow experiences and music performance anxiety (MPA) among school-age musicians in China, with a particular focus on adolescent students (aged 13–15 years). While previous research has examined flow and MPA in professional musicians, limited attention has been paid to younger and less experienced populations. Adopting a mixed-methods approach, the study combined quantitative data from two validated self-report measures with qualitative insights from semi-structured interviews. Participants were students who had recently performed in a school concert and represented a range of proficiency levels (beginner, intermediate, and advanced). The findings suggested that: (a) both flow and MPA were commonly experienced by adolescent students; (b) flow and MPA were negatively correlated, particularly among more proficient students; and (c) higher proficiency appeared to facilitate flow experiences while mitigating MPA, possibly due to accumulated performance experience. These results suggested that musical proficiency may serve as a buffer against MPA by promoting optimal performance states. Implications for music education and psychological interventions were discussed, and directions for future research were proposed.",
-          "url": "https://doi.org/10.1177/03057356261457411",
-          "doi": "https://doi.org/10.1177/03057356261457411",
-          "filter": 0,
-          "created": "2026-7-17"
-        },
         {
           "title": "The Role of Past Experience With Listening to Classical Music in Liking Sophisticated Music",
           "authors": "Valnea Žauhar, Igor Bajšanski, Sabina Vidulin",
