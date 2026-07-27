@@ -1,5 +1,5 @@
 {
-  "update": "2026-07-26",
+  "update": "2026-07-27",
   "content": [
     {
       "journal_full": "Behavior Research Methods",
@@ -59,15 +59,6 @@
           "created": "2026-7-24"
         },
         {
-          "title": "Modeling intraindividual variability in affect (MIVA): Formalized theoretical approach, computational model, and parameter recovery study",
-          "authors": "Maria Wirth, Andreas Voss, Stefan T. Radev, Klaus Rothermund",
-          "abstract": "No matter how angry, sad, or happy we are, eventually, we will feel different. Studying this ebb and flow of affective experience in daily life provides important insights into psychological functioning and well-being. We have developed a parsimonious formalized model of intraindividual variability in affect (MIVA), resting on the assumption that such affective changes reflect transactions between an individual and their proximal environment. We provide an outline of its theoretical background, scope, and mathematical formulation. We situate MIVA within the research field of affect dynamics and illustrate the models’ behavior under realistic conditions using a simulation study. We use simulation-based inference to train a custom neural network on MIVA simulations, which we employ to rapidly estimate the model’s parameters on a multitude of synthetic experiments with different configurations. Our simulation study demonstrates that the synthesis between a computational model and probabilistic neural networks results in an efficient and flexible tool for model-based inference of affect dynamics. Our simulation study also offers insights into the data requirements for a precise recovery of the model’s parameters and recommendations for future data collection. The potential of MIVA for providing insights into affect dynamics is discussed.",
-          "url": "https://doi.org/10.3758/s13428-026-03122-w",
-          "doi": "https://doi.org/10.3758/s13428-026-03122-w",
-          "filter": 0,
-          "created": "2026-7-20"
-        },
-        {
           "title": "Measuring complex constructs in large-scale text with computational social mixed methods",
           "authors": "Alina Herderich, Jana Lasser, Mirta Galesic, Segun Aroyehun, David Garcia, Joshua Garland",
           "abstract": "A growing convergence between social science and machine learning enables, in principle, large-scale analyses of complex social phenomena through text. Yet, approaches leveraging supervised text classification based on human-annotated data for statistical analysis often treat conceptual validity and technical performance as separate challenges, impairing measurement quality. We provide guidelines to bridge this gap in what we call computational social mixed methods pipelines across three stages: data annotation, model training, and statistical analysis. Building on best practices and our own methodological innovations, such as “Iterative Annotation” and “Training on Confident Examples”, we address recurring pitfalls like unbalanced training data or stagnant model performance. We also discuss when large language models constitute a viable alternative to transformer-based classifiers. Using a case study on countering online hate, we illustrate how consequently integrating social science and machine learning expertise improves the validity and comparability of computational social science.",
@@ -75,6 +66,15 @@
           "doi": "https://doi.org/10.3758/s13428-026-03046-5",
           "filter": 0,
           "created": "2026-7-21"
+        },
+        {
+          "title": "Modeling intraindividual variability in affect (MIVA): Formalized theoretical approach, computational model, and parameter recovery study",
+          "authors": "Maria Wirth, Andreas Voss, Stefan T. Radev, Klaus Rothermund",
+          "abstract": "No matter how angry, sad, or happy we are, eventually, we will feel different. Studying this ebb and flow of affective experience in daily life provides important insights into psychological functioning and well-being. We have developed a parsimonious formalized model of intraindividual variability in affect (MIVA), resting on the assumption that such affective changes reflect transactions between an individual and their proximal environment. We provide an outline of its theoretical background, scope, and mathematical formulation. We situate MIVA within the research field of affect dynamics and illustrate the models’ behavior under realistic conditions using a simulation study. We use simulation-based inference to train a custom neural network on MIVA simulations, which we employ to rapidly estimate the model’s parameters on a multitude of synthetic experiments with different configurations. Our simulation study demonstrates that the synthesis between a computational model and probabilistic neural networks results in an efficient and flexible tool for model-based inference of affect dynamics. Our simulation study also offers insights into the data requirements for a precise recovery of the model’s parameters and recommendations for future data collection. The potential of MIVA for providing insights into affect dynamics is discussed.",
+          "url": "https://doi.org/10.3758/s13428-026-03122-w",
+          "doi": "https://doi.org/10.3758/s13428-026-03122-w",
+          "filter": 0,
+          "created": "2026-7-20"
         },
         {
           "title": "Segmented profile analysis (SEPA): Plane-wise decomposition of within-person variation via ipsatized singular value decomposition",
@@ -149,20 +149,20 @@
           "created": "2026-7-20"
         },
         {
-          "title": "Feeling with family, grateful to strangers: Moral reactions to compassion and gratitude align with their social functions",
-          "authors": "Alexa Weiss, Pascal Burgmer",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104933",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104933",
-          "filter": 0,
-          "created": "2026-7-23"
-        },
-        {
           "title": "Prosocial by default: Defaults boost giving even under distraction and widespread non-responsiveness",
           "authors": "Linh Vu, Margarita Leib, Jan Hausfeld, Shaul Shalvi",
           "url": "https://doi.org/10.1016/j.jesp.2026.104987",
           "doi": "https://doi.org/10.1016/j.jesp.2026.104987",
           "filter": 0,
           "created": "2026-7-24"
+        },
+        {
+          "title": "Feeling with family, grateful to strangers: Moral reactions to compassion and gratitude align with their social functions",
+          "authors": "Alexa Weiss, Pascal Burgmer",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104933",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104933",
+          "filter": 0,
+          "created": "2026-7-23"
         },
         {
           "title": "The subjectivity of objectivity: The effects of positionality statements on objectivity perceptions of psychological research",
