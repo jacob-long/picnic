@@ -1,5 +1,5 @@
 {
-  "update": "2026-07-27",
+  "update": "2026-07-28",
   "content": [
     {
       "journal_full": "Behavior Research Methods",
@@ -59,6 +59,15 @@
           "created": "2026-7-24"
         },
         {
+          "title": "Validation of web-based remote photoplethysmography for heart rate measurement using standardized online infrastructure against ECG benchmarks",
+          "authors": "Gianluca Finotti, Daniele Di Lernia, Manos Tsakiris",
+          "abstract": "Remote photoplethysmography (rPPG) enables non-invasive heart rate (HR) measurement via video, offering a promising tool for remote physiological monitoring. In a previous study, we validated an adapted rPPG algorithm developed by van der Kooij and Naber (Behav Res Methods 51(5):2106–2119, 2019), collecting video via an online platform using a common web browser and comparing results to phone-based HR measurements. In the present study, we extend this methodological pipeline by validating the same refined algorithm and online video collection pipeline against electrocardiogram (ECG) ground-truth measurements. While previous studies have typically relied on online data collection without ECG reference standards or laboratory-based protocols lacking online implementation, our study bridges this gap by directly comparing video data collected through a standard web browser using the Gorilla Experiment Builder platform with simultaneous ECG recordings. We also evaluated the optimal conditions for rPPG accuracy in terms of video duration and distance from the webcam. We recorded 180 videos across five durations (10 s, 25 s, 35 s, 45 s, and 100 s) and two distances (close = 35 cm, far = 50 cm). Results showed excellent agreement between rPPG- and ECG-derived HR, with an intraclass correlation coefficient (ICC) of 0.96 and 95% of measurements within Bland–Altman limits of agreement. Longer video durations significantly reduced error and variability, while recording distance had no significant effect. Validation of this rPPG pipeline against ECG ground truth establishes the reliability of web-based rPPG measurements, providing a foundation for large-scale online data collection with fidelity comparable to controlled laboratory assessments.",
+          "url": "https://doi.org/10.3758/s13428-026-03098-7",
+          "doi": "https://doi.org/10.3758/s13428-026-03098-7",
+          "filter": 0,
+          "created": "2026-7-27"
+        },
+        {
           "title": "Measuring complex constructs in large-scale text with computational social mixed methods",
           "authors": "Alina Herderich, Jana Lasser, Mirta Galesic, Segun Aroyehun, David Garcia, Joshua Garland",
           "abstract": "A growing convergence between social science and machine learning enables, in principle, large-scale analyses of complex social phenomena through text. Yet, approaches leveraging supervised text classification based on human-annotated data for statistical analysis often treat conceptual validity and technical performance as separate challenges, impairing measurement quality. We provide guidelines to bridge this gap in what we call computational social mixed methods pipelines across three stages: data annotation, model training, and statistical analysis. Building on best practices and our own methodological innovations, such as “Iterative Annotation” and “Training on Confident Examples”, we address recurring pitfalls like unbalanced training data or stagnant model performance. We also discuss when large language models constitute a viable alternative to transformer-based classifiers. Using a case study on countering online hate, we illustrate how consequently integrating social science and machine learning expertise improves the validity and comparability of computational social science.",
@@ -66,15 +75,6 @@
           "doi": "https://doi.org/10.3758/s13428-026-03046-5",
           "filter": 0,
           "created": "2026-7-21"
-        },
-        {
-          "title": "Modeling intraindividual variability in affect (MIVA): Formalized theoretical approach, computational model, and parameter recovery study",
-          "authors": "Maria Wirth, Andreas Voss, Stefan T. Radev, Klaus Rothermund",
-          "abstract": "No matter how angry, sad, or happy we are, eventually, we will feel different. Studying this ebb and flow of affective experience in daily life provides important insights into psychological functioning and well-being. We have developed a parsimonious formalized model of intraindividual variability in affect (MIVA), resting on the assumption that such affective changes reflect transactions between an individual and their proximal environment. We provide an outline of its theoretical background, scope, and mathematical formulation. We situate MIVA within the research field of affect dynamics and illustrate the models’ behavior under realistic conditions using a simulation study. We use simulation-based inference to train a custom neural network on MIVA simulations, which we employ to rapidly estimate the model’s parameters on a multitude of synthetic experiments with different configurations. Our simulation study demonstrates that the synthesis between a computational model and probabilistic neural networks results in an efficient and flexible tool for model-based inference of affect dynamics. Our simulation study also offers insights into the data requirements for a precise recovery of the model’s parameters and recommendations for future data collection. The potential of MIVA for providing insights into affect dynamics is discussed.",
-          "url": "https://doi.org/10.3758/s13428-026-03122-w",
-          "doi": "https://doi.org/10.3758/s13428-026-03122-w",
-          "filter": 0,
-          "created": "2026-7-20"
         },
         {
           "title": "Segmented profile analysis (SEPA): Plane-wise decomposition of within-person variation via ipsatized singular value decomposition",
@@ -93,6 +93,15 @@
           "doi": "https://doi.org/10.3758/s13428-026-03100-2",
           "filter": 0,
           "created": "2026-7-24"
+        },
+        {
+          "title": "Adding LLMs to the psycholinguistic norming toolbox: A practical guide to getting the most out of human ratings",
+          "authors": "Javier Conde, María Grandury, Tairan Fu, Carlos Arriaga, Gonzalo Martínez, Thomas Clark, Sean Trott, Clarence Gerald Green, Pedro Reviriego, Marc Brysbaert",
+          "abstract": "Word-level psycholinguistic norms are necessary to test theories of language processing. However, obtaining such human-based measures is not always feasible or straightforward. One promising approach is to augment human norming datasets by using large language models (LLMs) to predict these characteristics directly, a practice that is rapidly gaining popularity in psycholinguistics and cognitive science. However, the novelty of this approach (and the relative inscrutability of LLMs) necessitates the adoption of rigorous methodologies. We discuss the range of possible approaches, and clarify limitations that are not immediately apparent. In this work, we present a comprehensive methodology for estimating word characteristics with LLMs, enriched with practical advice and lessons learned from our own experience. Our approach covers both the direct use of base LLMs and the fine-tuning of models, an alternative that can yield substantial performance gains in certain scenarios. A major emphasis in the guide is the need to validate LLM-generated data, at least with a small set of a few hundred human “gold standard” norms, before using the LLM-generated norms. We also present a software framework that implements our methodology and supports both commercial and open-weight models. We illustrate the proposed approach with a case study on estimating word familiarity in English. Using base models, we achieved a Spearman correlation of 0.8 with human ratings, which increased to 0.9 when employing fine-tuned models. This methodology, framework, and set of best practices can serve as a reference for future research on leveraging LLMs for psycholinguistic and lexical studies.",
+          "url": "https://doi.org/10.3758/s13428-026-03129-3",
+          "doi": "https://doi.org/10.3758/s13428-026-03129-3",
+          "filter": 0,
+          "created": "2026-7-27"
         }
       ],
       "articles_hidden": []
@@ -102,28 +111,20 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "Employee Knowledge and Smart Technology Adoption: Evidence from the E-waste Sector",
-          "authors": "Amila Kasun Sampath Udage Kankanamge, Michael Odei Erdiaw-Kwasie, Matthew Abunyewah, Kerstin Zander",
+          "title": "Employee knowledge and smart technology adoption: Evidence from the E-waste sector",
+          "authors": "Amila Kasun Sampath Udage Kankanamge, Michael Odei Erdiaw-Kwasie, Matthew Abunyewah, Kerstin K. Zander",
           "url": "https://doi.org/10.1016/j.chb.2026.109129",
           "doi": "https://doi.org/10.1016/j.chb.2026.109129",
           "filter": 0,
           "created": "2026-7-23"
         },
         {
-          "title": "Delegating (or Not) to Machines: How Role Expectations Shape Leaders’ Willingness to Use AI for Communication",
+          "title": "Delegating (or not) to machines: How role expectations shape leaders’ willingness to use AI for communication",
           "authors": "Roshni Raveendhran, Arthur S. Jago, Jonathan Gratch, Nathanael J. Fast",
           "url": "https://doi.org/10.1016/j.chb.2026.109139",
           "doi": "https://doi.org/10.1016/j.chb.2026.109139",
           "filter": 0,
           "created": "2026-7-24"
-        },
-        {
-          "title": "Pretty Privilege? Effects of Perpetrators’ Attractiveness and Hate Type on User Responses Against Misogynist Digital Hate",
-          "authors": "Rinat Meerson, Kevin Koban, Jörg Matthes",
-          "url": "https://doi.org/10.1016/j.chb.2026.109112",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109112",
-          "filter": 0,
-          "created": "2026-7-20"
         },
         {
           "title": "Psychological Need Experiences Inside and Outside Gaming as Predictors of Adolescent Problematic Gaming and Well-being: A Longitudinal Test of the Need Density Hypothesis",
@@ -141,12 +142,12 @@
       "journal_short": "JESP",
       "articles": [
         {
-          "title": "We're near, they're far: On the association between one's gender in-group and psychological distance",
-          "authors": "Alys Ferragamo, Cheryl Jan Wakslak",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104985",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104985",
+          "title": "Feeling with family, grateful to strangers: Moral reactions to compassion and gratitude align with their social functions",
+          "authors": "Alexa Weiss, Pascal Burgmer",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104933",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104933",
           "filter": 0,
-          "created": "2026-7-20"
+          "created": "2026-7-23"
         },
         {
           "title": "Prosocial by default: Defaults boost giving even under distraction and widespread non-responsiveness",
@@ -155,14 +156,6 @@
           "doi": "https://doi.org/10.1016/j.jesp.2026.104987",
           "filter": 0,
           "created": "2026-7-24"
-        },
-        {
-          "title": "Feeling with family, grateful to strangers: Moral reactions to compassion and gratitude align with their social functions",
-          "authors": "Alexa Weiss, Pascal Burgmer",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104933",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104933",
-          "filter": 0,
-          "created": "2026-7-23"
         },
         {
           "title": "The subjectivity of objectivity: The effects of positionality statements on objectivity perceptions of psychological research",
@@ -277,20 +270,12 @@
       "journal_short": "PM",
       "articles": [
         {
-          "title": "A comparison of the predictive performance of continuous and class-based latent trait models.",
-          "authors": "Wanjing Anya Ma, Yiqing Liu, Klint Kanopka, Wenchao Ma, Benjamin W. Domingue",
-          "url": "https://doi.org/10.1037/met0000860",
-          "doi": "https://doi.org/10.1037/met0000860",
+          "title": "Leveraging lavaan for iterated conditional expectations: A streamlined parametric g-formula.",
+          "authors": "Wen Wei Loh",
+          "url": "https://doi.org/10.1037/met0000844",
+          "doi": "https://doi.org/10.1037/met0000844",
           "filter": 0,
-          "created": "2026-7-20"
-        },
-        {
-          "title": "An application of procedural knowledge space theory to the study of strategic planning in board games.",
-          "authors": "Andrea Brancaccio, Luca Stefanutti",
-          "url": "https://doi.org/10.1037/met0000858",
-          "doi": "https://doi.org/10.1037/met0000858",
-          "filter": 0,
-          "created": "2026-7-20"
+          "created": "2026-7-27"
         },
         {
           "title": "Adjustment set selection for estimating optimal treatment rules under confounding.",
@@ -349,36 +334,12 @@
       "journal_short": "PPM",
       "articles": [
         {
-          "title": "The puzzle of engagement: An interview study on the subjective experience of engagement with mainstream narrational complexity.",
-          "authors": "Gaia Yonah, Cynthia Cabañas, Steven Willemsen, Miklós Kiss, Frank Hakemulder, Mariken van der Velden, Elly Konijn, Katalin Bálint",
-          "url": "https://doi.org/10.1037/ppm0000681",
-          "doi": "https://doi.org/10.1037/ppm0000681",
+          "title": "Seeing and being seen: A latent class analysis of social media use among young individuals with visible differences and its links to sociodemographic characteristics, norms, and body image.",
+          "authors": "Laure Dedecker, Laura Vandenbosch, Chelly Maes, Jill Meirte, Lara Schreurs",
+          "url": "https://doi.org/10.1037/ppm0000693",
+          "doi": "https://doi.org/10.1037/ppm0000693",
           "filter": 0,
-          "created": "2026-7-20"
-        },
-        {
-          "title": "Older and wiser, but not immune: A brief report examining movie exposure and male body image across development.",
-          "authors": "Kate Stewart, James Alex Bonus",
-          "url": "https://doi.org/10.1037/ppm0000687",
-          "doi": "https://doi.org/10.1037/ppm0000687",
-          "filter": 0,
-          "created": "2026-7-20"
-        },
-        {
-          "title": "LGBTQ+ engagement with harmful online health content: Effects on self-perception and body image, health behaviors, and mental health.",
-          "authors": "Alex Penfold, Melissa Oxlad, Anna Chur-Hansen",
-          "url": "https://doi.org/10.1037/ppm0000686",
-          "doi": "https://doi.org/10.1037/ppm0000686",
-          "filter": 0,
-          "created": "2026-7-20"
-        },
-        {
-          "title": "“It made life worth living at times”: A qualitative study of sexually explicit fanfiction as a narrative well-being resource.",
-          "authors": "Daniel R. du Plooy, Domenica A. Clowes, Gabriella Karakas",
-          "url": "https://doi.org/10.1037/ppm0000688",
-          "doi": "https://doi.org/10.1037/ppm0000688",
-          "filter": 0,
-          "created": "2026-7-20"
+          "created": "2026-7-27"
         }
       ],
       "articles_hidden": []
@@ -394,14 +355,6 @@
           "doi": "https://doi.org/10.1037/tmb0000208",
           "filter": 0,
           "created": "2026-7-23"
-        },
-        {
-          "title": "The bystander effect in human–robot interaction: How the presence of bystanders inhibits helping intentions for a social robot.",
-          "authors": "Guiying Liu, Tatjana Korbanka, Jasmin Timm, Naomi Oetelshofen, Laura Maier, Markus Huff, Frank Papenmeier",
-          "url": "https://doi.org/10.1037/tmb0000198",
-          "doi": "https://doi.org/10.1037/tmb0000198",
-          "filter": 0,
-          "created": "2026-7-20"
         }
       ],
       "articles_hidden": []
