@@ -1,10 +1,18 @@
 {
-  "update": "2026-07-31",
+  "update": "2026-08-01",
   "content": [
     {
       "journal_full": "Journal of Elections, Public Opinion and Parties",
       "journal_short": "JEPOP",
       "articles": [
+        {
+          "title": "Pandemic politics: electoral outcomes for incumbents during COVID-19",
+          "authors": "Jacek Lewkowicz, Jan Fałkowski, Eliza Hałatek",
+          "url": "https://doi.org/10.1080/17457289.2026.2705318",
+          "doi": "https://doi.org/10.1080/17457289.2026.2705318",
+          "filter": 0,
+          "created": "2026-7-31"
+        },
         {
           "title": "Ticket-splitting in Georgia",
           "authors": "David Cottrell, M.V. Hood III, Seth C. McKee, Daniel A. Smith",
@@ -12,6 +20,14 @@
           "doi": "https://doi.org/10.1080/17457289.2026.2708133",
           "filter": 0,
           "created": "2026-7-27"
+        },
+        {
+          "title": "Place resentment in England: measurement and effects",
+          "authors": "Kal Munis, Joseph Phillips, Brendan Szendrő",
+          "url": "https://doi.org/10.1080/17457289.2026.2709012",
+          "doi": "https://doi.org/10.1080/17457289.2026.2709012",
+          "filter": 0,
+          "created": "2026-7-31"
         }
       ],
       "articles_hidden": []
@@ -44,6 +60,22 @@
           "doi": "https://doi.org/10.1093/poq/nfag057",
           "filter": 0,
           "created": "2026-6-9"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Social Science Computer Review",
+      "journal_short": "SSCR",
+      "articles": [
+        {
+          "title": "Where You Are Is What You Get! Inconsistencies of Digital Trace Data across Download Locations",
+          "authors": "Johanna Hölzl, Florian Keusch, John Collins",
+          "abstract": "To collect digital trace data, researchers continue to rely on for-profit companies’ Application Programming Interfaces (APIs). These APIs often return samples of the data based on intransparent sampling procedures and algorithms. In this paper, we extend research on the reliability of digital trace data from APIs by examining the effect of the download location on inconsistencies across returned samples: Do we get different values from digital trace data APIs depending on where we download the data from? We compare samples from Google Trends, YouTube Data, and the New York Times (NYT) API from four countries across three continents (Austria, Germany, the U.S., and Australia) for the same query parameters (i.e., search term, region, and time range). Our results show that the download location impacts the returned samples for all three APIs, depending on the query. We find large inconsistencies for samples from Google Trends and the YouTube Data API, while the NYT API returns identical article sets from each download location for most queries. We conclude with practical recommendations for researchers using these APIs. Our findings serve as a cautionary reminder for social scientists relying on sampling-based APIs as they point to yet another limitation regarding their reliability and reproducibility.",
+          "url": "https://doi.org/10.1177/08944393261469494",
+          "doi": "https://doi.org/10.1177/08944393261469494",
+          "filter": 0,
+          "created": "2026-8-1"
         }
       ],
       "articles_hidden": []

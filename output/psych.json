@@ -1,5 +1,5 @@
 {
-  "update": "2026-07-31",
+  "update": "2026-08-01",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -22,42 +22,6 @@
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "StreetArt4Sustainability dataset: Mapping aesthetic emotions to street art",
-          "authors": "Patrícia Arriaga, Erin M. Buchanan",
-          "abstract": "A novel dataset of 556 street art images is presented, accompanied by affective evaluations from 1,239 Portuguese and Brazilian participants. Artworks were selected to reflect themes associated with the United Nations Sustainable Development Goals. Using a stimulus-sampling design, each participant completed an online survey in which 10 randomly selected artworks were presented and reported their responses in terms of valence, arousal, and specific emotion labels (being moved, awe, inspiration, hope, sadness, fear, anger, emotional connection, reflection, awareness, and interest), as well as their interest in street art and sustainability consciousness. Multilevel analyses showed that higher interest in street art and greater sustainability consciousness were consistent predictors of more positive emotional responses to the artworks. In contrast, the effects of gender and age were negligible, and national differences emerged only for feeling moved and awe. Network analyses revealed a highly interconnected emotional structure, with three clusters: self-transcendent, epistemic, and negative emotions. Feeling moved and emotional connection occupied central bridging positions, showing both direct and indirect links across positive and negative emotion clusters. Overall, these findings indicate that street art evokes a broad range of interconnected self-transcendent, cognitive-epistemic, and negative emotions, highlighting the complexity of viewers’ responses to the artworks. The dataset provides a valuable resource for research on emotional responses to street art and can support broader investigations into visual perception, aesthetic processing, and the communication of sustainability-related themes.",
-          "url": "https://doi.org/10.3758/s13428-026-03119-5",
-          "doi": "https://doi.org/10.3758/s13428-026-03119-5",
-          "filter": 0,
-          "created": "2026-7-24"
-        },
-        {
-          "title": "Unveiling local dependencies in accuracy and speed: A mixture hierarchical modeling approach",
-          "authors": "Hung-Yu Huang",
-          "abstract": "Hierarchical models (HMs) are commonly used to jointly model response accuracies and response times (RTs). However, their relationship cannot be fully captured by the population-level correlation between ability and speed, as local dependencies may arise and threaten valid inferences about individuals and items. In this study, a mixture-based hierarchical model (Mix-HM) that allows respondents to switch between different pacing speeds and identifies positive and negative item-level dependencies is proposed. Two simulation studies were conducted: Simulation 1 examined parameter recovery effects, and Simulation 2 evaluated the effectiveness of Bayesian information-based criteria in model selection processes. The results showed that the Mix-HM achieved satisfactory parameter recovery effects, whereas the conventional HM yielded biased estimates when local dependencies were present. In addition, the model fit criteria were generally able to correctly identify the true model across most conditions. An empirical analysis conducted using large-scale assessment data further showed that the new model provided an improved degree of fit and more stable parameter estimates, while the conventional HM distorted the relationship between ability and speed. These findings highlight the importance of accounting for the heterogeneity of latent speed and local dependencies when incorporating RTs as collateral information.",
-          "url": "https://doi.org/10.3758/s13428-026-03125-7",
-          "doi": "https://doi.org/10.3758/s13428-026-03125-7",
-          "filter": 0,
-          "created": "2026-7-24"
-        },
-        {
-          "title": "Customizable Bayesian adaptive testing with Python – The adaptivetesting package",
-          "authors": "Jonas Engicht, R. Maximilian Bee, Tobias Koch",
-          "abstract": "This paper introduces an open-source Python package for simplified, customizable computerized adaptive testing (CAT) using Bayesian methods for ability estimation. It addresses the lack of sophisticated packages for CAT in the Python programming language. Moreover, it bridges the gap between the construction and simulation of adaptive tests and their practical application by providing a dedicated API for integration with experiment software. Thereby, it eliminates the need for major code rewrites when transitioning from simulated to real-world adaptive testing. By leveraging Python’s object-oriented programming approach, such as abstract classes, protocols, and inheritance, the package allows for easy extension and customization of its functionality. For example, Bayesian estimators can be modified to incorporate custom priors. This paper outlines the relevance and practical use of the package through a walkthrough example. The package is fully documented, and its source code is published on GitHub. It is also available on the Python Package Index (PyPi) and conda-forge thus it can easily be installed using Python’s package manager or . Leveraging R’s package, can also be accessed from within RStudio.",
-          "url": "https://doi.org/10.3758/s13428-026-03079-w",
-          "doi": "https://doi.org/10.3758/s13428-026-03079-w",
-          "filter": 0,
-          "created": "2026-7-24"
-        },
-        {
-          "title": "Developing a psychological test battery to measure cognition in daily life",
-          "authors": "Andrew J. Aschenbrenner, Muchen Xi, Jeremy Cohn, Derek A. Simon, Joshua J. Jackson",
-          "abstract": "Cognition is not a static process but is subject to substantial and meaningful variation within individuals over time. This has led to an increase in studies that aim to describe cognition in daily life by sampling participants repeatedly and remotely. Such studies, which we call high-frequency cognitive assessment or “HFCA”, tend to use a limited number of brief cognitive tests. This focus on a small number of tests leaves open questions concerning the psychometric characteristics of a wide array of cognitive tasks useful for HFCA that can guide researchers on appropriate task selection. We developed the Cognitive Variability Battery (CVB), a series of nine cognitive tests clustered into three distinct cognitive domains: attentional control, processing speed, and episodic memory. CVB was administered to participants three times per day for 3 weeks. Cognitive tests were rotated to reduce the length of any single testing session. Each test was administered up to 60 times. We provide detailed descriptions of the performance of each task, including variability, skew, and reliability statistics, using intraclass correlations. We examine the sensitivity of each test to several contextual factors including stress, affect, and social interactions. Finally, we provide power analyses on each cognitive test to determine how many assessments and participants are needed to detect effects of interest. These analyses will be essential to anyone seeking to implement HFCA testing in their own research programs, by providing guidance on which cognitive tests to select and how many participants and observations may be needed.",
-          "url": "https://doi.org/10.3758/s13428-026-03128-4",
-          "doi": "https://doi.org/10.3758/s13428-026-03128-4",
-          "filter": 0,
-          "created": "2026-7-24"
-        },
-        {
           "title": "Validation of web-based remote photoplethysmography for heart rate measurement using standardized online infrastructure against ECG benchmarks",
           "authors": "Gianluca Finotti, Daniele Di Lernia, Manos Tsakiris",
           "abstract": "Remote photoplethysmography (rPPG) enables non-invasive heart rate (HR) measurement via video, offering a promising tool for remote physiological monitoring. In a previous study, we validated an adapted rPPG algorithm developed by van der Kooij and Naber (Behav Res Methods 51(5):2106–2119, 2019), collecting video via an online platform using a common web browser and comparing results to phone-based HR measurements. In the present study, we extend this methodological pipeline by validating the same refined algorithm and online video collection pipeline against electrocardiogram (ECG) ground-truth measurements. While previous studies have typically relied on online data collection without ECG reference standards or laboratory-based protocols lacking online implementation, our study bridges this gap by directly comparing video data collected through a standard web browser using the Gorilla Experiment Builder platform with simultaneous ECG recordings. We also evaluated the optimal conditions for rPPG accuracy in terms of video duration and distance from the webcam. We recorded 180 videos across five durations (10 s, 25 s, 35 s, 45 s, and 100 s) and two distances (close = 35 cm, far = 50 cm). Results showed excellent agreement between rPPG- and ECG-derived HR, with an intraclass correlation coefficient (ICC) of 0.96 and 95% of measurements within Bland–Altman limits of agreement. Longer video durations significantly reduced error and variability, while recording distance had no significant effect. Validation of this rPPG pipeline against ECG ground truth establishes the reliability of web-based rPPG measurements, providing a foundation for large-scale online data collection with fidelity comparable to controlled laboratory assessments.",
@@ -65,15 +29,6 @@
           "doi": "https://doi.org/10.3758/s13428-026-03098-7",
           "filter": 0,
           "created": "2026-7-27"
-        },
-        {
-          "title": "The Social Learning-Generosity (SL-Gen) Task: Redesigning the multi-round trust game paradigm to examine social learning and generosity sensitivity in young people",
-          "authors": "Brennan Delattre, Alister R. Dale-Evans, Amy L. Gillespie, Juliet D. Griffin, Erdem Pulcu, Susannah E. Murphy, Catherine J. Harmer",
-          "abstract": "Social learning is important for societal functioning, and adolescence is a critical period for the development and maintenance of social behaviors. Specifically, the ability to establish and maintain beneficial social interactions while avoiding or withdrawing from detrimental or harmful ones is crucial for healthy interpersonal functioning. Beyond self-report measures, the multi-round trust game, a commonly used behavioral economics paradigm, can help elucidate differences in social decision-making between healthy and clinical populations. To more specifically probe the role of social learning and generosity sensitivity during social exchange in young people, we have designed a new task: the Social Learning-Generosity (SL-Gen) Task. Using versions of the multi-round trust game as a basis for the design, we have incorporated more environmentally realistic task components, including controlled gain, loss, and variable gain-loss generosity conditions. In a single-session online study, the present research investigated task behavior and task acceptability in individuals aged 18–24 from a United Kingdom census-based sample, as well as exploring task differences by self-reported trust and gender. While this task is sensitive to differences in self-reported trust and gender and behaves similarly to existing versions of the trust game with respect to these effects, it has added utility within mental health research and treatment contexts for characterizing social decision-making behavior in more detail using set generosity conditions.",
-          "url": "https://doi.org/10.3758/s13428-026-03100-2",
-          "doi": "https://doi.org/10.3758/s13428-026-03100-2",
-          "filter": 0,
-          "created": "2026-7-24"
         },
         {
           "title": "Adding LLMs to the psycholinguistic norming toolbox: A practical guide to getting the most out of human ratings",
@@ -101,14 +56,6 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "Delegating (or not) to machines: How role expectations shape leaders’ willingness to use AI for communication",
-          "authors": "Roshni Raveendhran, Arthur S. Jago, Jonathan Gratch, Nathanael J. Fast",
-          "url": "https://doi.org/10.1016/j.chb.2026.109139",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109139",
-          "filter": 0,
-          "created": "2026-7-24"
-        },
-        {
           "title": "Psychological need experiences inside and outside gaming as predictors of adolescent problematic gaming and well-being: A longitudinal test of the Need Density Hypothesis",
           "authors": "Lowie Bradt, Maarten Vansteenkiste, Marlies Van de Casteele, Bieke Zaman, Eva Grosemans, Rozane De Cock, Bart Soenens",
           "url": "https://doi.org/10.1016/j.chb.2026.109140",
@@ -131,6 +78,14 @@
           "doi": "https://doi.org/10.1016/j.chb.2026.109137",
           "filter": 0,
           "created": "2026-7-29"
+        },
+        {
+          "title": "More externalization, but less inference? Exploring changes in young learners’ critical thinking during conversational AI bot-supported multimodal writing practice",
+          "authors": "Qi Lu, Yuan Yao, Xinhua Zhu, Longhai Xiao, Hongbiao Yin",
+          "url": "https://doi.org/10.1016/j.chb.2026.109141",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109141",
+          "filter": 0,
+          "created": "2026-7-31"
         }
       ],
       "articles_hidden": []
@@ -139,14 +94,6 @@
       "journal_full": "Journal of Experimental Social Psychology",
       "journal_short": "JESP",
       "articles": [
-        {
-          "title": "Prosocial by default: Defaults boost giving even under distraction and widespread non-responsiveness",
-          "authors": "Linh Vu, Margarita Leib, Jan Hausfeld, Shaul Shalvi",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104987",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104987",
-          "filter": 0,
-          "created": "2026-7-24"
-        },
         {
           "title": "The perceived informational value of positive versus negative attitudes in impression formation",
           "authors": "Tabea J. Zorn, Christian Unkelbach, André Mata, Hans Alves",
@@ -266,6 +213,15 @@
       "journal_full": "Psychology of Music",
       "journal_short": "PsychMusic",
       "articles": [
+        {
+          "title": "Emotion Regulation Through Self-Chosen Music: A Qualitative Study With Young Adults",
+          "authors": "Panagiotis Painesis, Maribella Vogopoulou, Maria Pothoulaki",
+          "abstract": "The emotional implications of music have attracted the interest of many psychology researchers in the past few decades. The current study investigated how self-chosen music facilitated emotion regulation strategies in young adults from Greece during intense emotional periods. The sample of the study involved 12 Greek students, ranging from 18 to 28 years of age. Semi-structured interviews were used for data collection, and interpretive phenomenological analysis was applied for the analysis of data. Findings suggest that the perceived manageability of an emotion plays a key role in determining the regulation strategy employed. When experiencing manageable emotions, participants remain connected to their inner feelings, using strategies such as mindful attending, music as a substitute for human presence and catharsis. In contrast, when facing unmanageable emotions, they avoid emotional confrontation, using music to suppress distressing emotions or opting not to listen to music at all. Future studies can expand on this research topic and further add to our findings.",
+          "url": "https://doi.org/10.1177/03057356261465614",
+          "doi": "https://doi.org/10.1177/03057356261465614",
+          "filter": 0,
+          "created": "2026-7-31"
+        },
         {
           "title": "Intentional Mental Imagery and Music Performance Anxiety",
           "authors": "Katherine K Finch, Jonathan M Oakman",
