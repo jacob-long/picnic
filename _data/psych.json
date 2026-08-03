@@ -1,5 +1,5 @@
 {
-  "update": "2026-08-02",
+  "update": "2026-08-03",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -31,15 +31,6 @@
           "created": "2026-7-27"
         },
         {
-          "title": "Adding LLMs to the psycholinguistic norming toolbox: A practical guide to getting the most out of human ratings",
-          "authors": "Javier Conde, María Grandury, Tairan Fu, Carlos Arriaga, Gonzalo Martínez, Thomas Clark, Sean Trott, Clarence Gerald Green, Pedro Reviriego, Marc Brysbaert",
-          "abstract": "Word-level psycholinguistic norms are necessary to test theories of language processing. However, obtaining such human-based measures is not always feasible or straightforward. One promising approach is to augment human norming datasets by using large language models (LLMs) to predict these characteristics directly, a practice that is rapidly gaining popularity in psycholinguistics and cognitive science. However, the novelty of this approach (and the relative inscrutability of LLMs) necessitates the adoption of rigorous methodologies. We discuss the range of possible approaches, and clarify limitations that are not immediately apparent. In this work, we present a comprehensive methodology for estimating word characteristics with LLMs, enriched with practical advice and lessons learned from our own experience. Our approach covers both the direct use of base LLMs and the fine-tuning of models, an alternative that can yield substantial performance gains in certain scenarios. A major emphasis in the guide is the need to validate LLM-generated data, at least with a small set of a few hundred human “gold standard” norms, before using the LLM-generated norms. We also present a software framework that implements our methodology and supports both commercial and open-weight models. We illustrate the proposed approach with a case study on estimating word familiarity in English. Using base models, we achieved a Spearman correlation of 0.8 with human ratings, which increased to 0.9 when employing fine-tuned models. This methodology, framework, and set of best practices can serve as a reference for future research on leveraging LLMs for psycholinguistic and lexical studies.",
-          "url": "https://doi.org/10.3758/s13428-026-03129-3",
-          "doi": "https://doi.org/10.3758/s13428-026-03129-3",
-          "filter": 0,
-          "created": "2026-7-27"
-        },
-        {
           "title": "One size Fitts’ all? Reconsidering the use of deviations from real-time action imagery in mental chronometry tasks",
           "authors": "Carla Czilczer, Pierre Sachse, Stephan F. Dahm",
           "abstract": "Mental chronometry tasks commonly presume that real-time action imagery indicates high action imagery ability (AIA). However, factors that systematically influence imagery durations undermine the validity of AIA scores based on deviations from real-time action imagery. Therefore, we introduce and validate a novel approach for measuring AIA using mental chronometry. This approach relies on the relationship between a movement’s difficulty and its duration (Fitts’ law), with AIA scores quantifying the degree to which this relationship is preserved in action imagery. In a Chronometric Radial Fitts’ Task (CRFT), participants ( N = 30) executed and imagined both tapping (with a stylus) and clicking (with a computer mouse) radially arranged targets. Single execution and imagery durations were isolated through simultaneous space bar presses. Targets varied in difficulty according to Fitts’ law, which held across all four conditions (for both tools, when executing and imagining the movements). The AIA scores derived from the proposed Fitts’ law approach outperformed those derived from earlier mental chronometry approaches, being the only scores indicating convergent validity across tools. Using the stylus, larger absolute and relative deviations from real-time action imagery were consistently associated with higher subjective AIA, reinforcing validity concerns. Participants struggled to incorporate the computer mouse’s properties into the internal model of the movement, resulting in imagery with the computer mouse relying on internal models similar to the stylus (simpler tool). In addition to offering a refined approach for measuring manipulation- and timing-related AIA, our study highlights the importance of tool familiarity in mental chronometry.",
@@ -47,6 +38,15 @@
           "doi": "https://doi.org/10.3758/s13428-026-03124-8",
           "filter": 0,
           "created": "2026-7-30"
+        },
+        {
+          "title": "Adding LLMs to the psycholinguistic norming toolbox: A practical guide to getting the most out of human ratings",
+          "authors": "Javier Conde, María Grandury, Tairan Fu, Carlos Arriaga, Gonzalo Martínez, Thomas Clark, Sean Trott, Clarence Gerald Green, Pedro Reviriego, Marc Brysbaert",
+          "abstract": "Word-level psycholinguistic norms are necessary to test theories of language processing. However, obtaining such human-based measures is not always feasible or straightforward. One promising approach is to augment human norming datasets by using large language models (LLMs) to predict these characteristics directly, a practice that is rapidly gaining popularity in psycholinguistics and cognitive science. However, the novelty of this approach (and the relative inscrutability of LLMs) necessitates the adoption of rigorous methodologies. We discuss the range of possible approaches, and clarify limitations that are not immediately apparent. In this work, we present a comprehensive methodology for estimating word characteristics with LLMs, enriched with practical advice and lessons learned from our own experience. Our approach covers both the direct use of base LLMs and the fine-tuning of models, an alternative that can yield substantial performance gains in certain scenarios. A major emphasis in the guide is the need to validate LLM-generated data, at least with a small set of a few hundred human “gold standard” norms, before using the LLM-generated norms. We also present a software framework that implements our methodology and supports both commercial and open-weight models. We illustrate the proposed approach with a case study on estimating word familiarity in English. Using base models, we achieved a Spearman correlation of 0.8 with human ratings, which increased to 0.9 when employing fine-tuned models. This methodology, framework, and set of best practices can serve as a reference for future research on leveraging LLMs for psycholinguistic and lexical studies.",
+          "url": "https://doi.org/10.3758/s13428-026-03129-3",
+          "doi": "https://doi.org/10.3758/s13428-026-03129-3",
+          "filter": 0,
+          "created": "2026-7-27"
         }
       ],
       "articles_hidden": []
