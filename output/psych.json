@@ -1,5 +1,5 @@
 {
-  "update": "2026-08-03",
+  "update": "2026-08-04",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -22,13 +22,30 @@
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "Validation of web-based remote photoplethysmography for heart rate measurement using standardized online infrastructure against ECG benchmarks",
-          "authors": "Gianluca Finotti, Daniele Di Lernia, Manos Tsakiris",
-          "abstract": "Remote photoplethysmography (rPPG) enables non-invasive heart rate (HR) measurement via video, offering a promising tool for remote physiological monitoring. In a previous study, we validated an adapted rPPG algorithm developed by van der Kooij and Naber (Behav Res Methods 51(5):2106–2119, 2019), collecting video via an online platform using a common web browser and comparing results to phone-based HR measurements. In the present study, we extend this methodological pipeline by validating the same refined algorithm and online video collection pipeline against electrocardiogram (ECG) ground-truth measurements. While previous studies have typically relied on online data collection without ECG reference standards or laboratory-based protocols lacking online implementation, our study bridges this gap by directly comparing video data collected through a standard web browser using the Gorilla Experiment Builder platform with simultaneous ECG recordings. We also evaluated the optimal conditions for rPPG accuracy in terms of video duration and distance from the webcam. We recorded 180 videos across five durations (10 s, 25 s, 35 s, 45 s, and 100 s) and two distances (close = 35 cm, far = 50 cm). Results showed excellent agreement between rPPG- and ECG-derived HR, with an intraclass correlation coefficient (ICC) of 0.96 and 95% of measurements within Bland–Altman limits of agreement. Longer video durations significantly reduced error and variability, while recording distance had no significant effect. Validation of this rPPG pipeline against ECG ground truth establishes the reliability of web-based rPPG measurements, providing a foundation for large-scale online data collection with fidelity comparable to controlled laboratory assessments.",
-          "url": "https://doi.org/10.3758/s13428-026-03098-7",
-          "doi": "https://doi.org/10.3758/s13428-026-03098-7",
+          "title": "A competency addition procedure for constructing minimal, yet maximally informative tests for skill assessment",
+          "authors": "Pasquale Anselmi, Jürgen Heller, Luca Stefanutti, Egidio Robusto",
+          "abstract": "Competence-based test development is a novel method for constructing tests that are as informative as possible about the competence state (the set of skills an individual possesses) underlying item responses. If desired, the tests can also be minimal, meaning that no item can be removed without reducing their informativeness. Consider a set of competencies, each encompassing the skills required to solve a particular item. An individual masters an item if their competence state includes all the skills in the item’s associated competency. A reduct is defined by a competency set that is as informative about individuals’ competence states as a larger set, and from which no competency can be removed without reducing its informativeness. Test development can be based on the reduct, since including only one item for each competency in the reduct yields a test that is as informative as a test that contains additional items and is minimal with respect to this property. This work introduces the competency addition procedure, an iterative method that successively collects competencies until the resulting set forms a reduct. The competencies to be added can be selected either randomly or based on test developer preferences, thereby favoring competencies with more desirable characteristics. The procedure is illustrated in three real-life applications for the assessment of arithmetic skills, involving the construction of a test from scratch, the improvement of an existing test, and the shortening of an existing test.",
+          "url": "https://doi.org/10.3758/s13428-026-03121-x",
+          "doi": "https://doi.org/10.3758/s13428-026-03121-x",
           "filter": 0,
-          "created": "2026-7-27"
+          "created": "2026-8-3"
+        },
+        {
+          "title": "Action naming in French: Normative data and response latencies for 134 video stimuli",
+          "authors": "Manon Spigarelli, Lucie Chyriaïeff, Anaëlle Hébert, Laurine Hurtevent, Nour Meflah, Maximiliano A. Wilson",
+          "url": "https://doi.org/10.3758/s13428-026-03131-9",
+          "doi": "https://doi.org/10.3758/s13428-026-03131-9",
+          "filter": 0,
+          "created": "2026-8-3"
+        },
+        {
+          "title": "Eyettention II: A dual-sequence architecture for modeling fixation location, within-word landing position, and fixation duration in reading",
+          "authors": "Shuwen Deng, Cui Ding, David R. Reich, Paul Prasse, Lena A. Jäger",
+          "abstract": "The way our eyes move while reading provides valuable insights into both the reader’s cognitive processes and the properties of the text. In particular, eye-tracking-while-reading data has been shown to be highly beneficial in various technological applications, such as enhancing and interpreting neural language models and inferring a reader’s characteristics. However, these applications often rely on large-scale, data-driven models, which demand extensive eye-tracking datasets that are challenging to obtain due to the resource-intensive nature of data collection. To address the challenge of data scarcity, we develop Eyettention II, an end-to-end trained deep-learning model capable of generating realistic scanpaths consisting of a complete set of fixation attributes in chronological order, including fixation location, within-word landing position, and fixation duration. Our model is lightweight, efficiently trainable on limited GPU resources, and closely aligned with cognitive theories. We demonstrate that Eyettention II surpasses state-of-the-art models in scanpath prediction and mirrors human-like gaze behavior by capturing key psycholinguistic phenomena. With its robust performance, Eyettention II holds the potential to drive advancements in natural language processing, facilitate piloting the materials of psycholinguistic experiments, and uncover new insights beyond what is explicitly encoded in theoretical cognitive models. Our code and accompanying tutorial are publicly available at https://osf.io/3ucq7/ .",
+          "url": "https://doi.org/10.3758/s13428-026-03118-6",
+          "doi": "https://doi.org/10.3758/s13428-026-03118-6",
+          "filter": 0,
+          "created": "2026-8-3"
         },
         {
           "title": "One size Fitts’ all? Reconsidering the use of deviations from real-time action imagery in mental chronometry tasks",
@@ -38,15 +55,6 @@
           "doi": "https://doi.org/10.3758/s13428-026-03124-8",
           "filter": 0,
           "created": "2026-7-30"
-        },
-        {
-          "title": "Adding LLMs to the psycholinguistic norming toolbox: A practical guide to getting the most out of human ratings",
-          "authors": "Javier Conde, María Grandury, Tairan Fu, Carlos Arriaga, Gonzalo Martínez, Thomas Clark, Sean Trott, Clarence Gerald Green, Pedro Reviriego, Marc Brysbaert",
-          "abstract": "Word-level psycholinguistic norms are necessary to test theories of language processing. However, obtaining such human-based measures is not always feasible or straightforward. One promising approach is to augment human norming datasets by using large language models (LLMs) to predict these characteristics directly, a practice that is rapidly gaining popularity in psycholinguistics and cognitive science. However, the novelty of this approach (and the relative inscrutability of LLMs) necessitates the adoption of rigorous methodologies. We discuss the range of possible approaches, and clarify limitations that are not immediately apparent. In this work, we present a comprehensive methodology for estimating word characteristics with LLMs, enriched with practical advice and lessons learned from our own experience. Our approach covers both the direct use of base LLMs and the fine-tuning of models, an alternative that can yield substantial performance gains in certain scenarios. A major emphasis in the guide is the need to validate LLM-generated data, at least with a small set of a few hundred human “gold standard” norms, before using the LLM-generated norms. We also present a software framework that implements our methodology and supports both commercial and open-weight models. We illustrate the proposed approach with a case study on estimating word familiarity in English. Using base models, we achieved a Spearman correlation of 0.8 with human ratings, which increased to 0.9 when employing fine-tuned models. This methodology, framework, and set of best practices can serve as a reference for future research on leveraging LLMs for psycholinguistic and lexical studies.",
-          "url": "https://doi.org/10.3758/s13428-026-03129-3",
-          "doi": "https://doi.org/10.3758/s13428-026-03129-3",
-          "filter": 0,
-          "created": "2026-7-27"
         }
       ],
       "articles_hidden": []
@@ -55,6 +63,14 @@
       "journal_full": "Computers in Human Behavior",
       "journal_short": "CHB",
       "articles": [
+        {
+          "title": "Large Language Model Counterarguments in Older Adults: Cognitive Offloading or Susceptibility to Moral Persuasion?",
+          "authors": "Kou Tamura, Sayaka Ishibashi, Ayana Goma, Kenta Yamamoto, Kouhei Masumoto",
+          "url": "https://doi.org/10.1016/j.chb.2026.109142",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109142",
+          "filter": 0,
+          "created": "2026-8-3"
+        },
         {
           "title": "“I’ve let screens take over”: Maternal Guilt About Media and Relations to Children's Problematic Media Use",
           "authors": "Sarah M. Coyne, Talise Hirschi, Megan Gale, Blake L. Jones, Megan Van Alfen, Lara Maximiano Almeida, Chenae Christensen-Duerden, Larry J. Nelson, Hailey G. Holmgren, Chris L. Porter, Ashley Fraser, Peter J. Reschke, McCall A. Booth, Cara Swit, Margaret L. Kerr, Rachel Barr, Heather Kirkorian, Jenny Radesky, Rebecca L. Densley",
@@ -324,6 +340,21 @@
       ]
     },
     {
+      "journal_full": "Journal of Experimental Social Psychology",
+      "journal_short": "JESP",
+      "articles": [
+        {
+          "title": "Prosociality in times of war: Shared moral positions foster prosociality across national borders",
+          "authors": "Vanessa Clemens, Jasper Z. Siol, Lusine Grigoryan, Andreas Glöckner, Angela R. Dorrough",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104989",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104989",
+          "filter": 0,
+          "created": "2026-8-3"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Journal of Personality and Social Psychology",
       "journal_short": "JPSP",
       "articles": [
@@ -463,14 +494,6 @@
       "journal_short": "PM",
       "articles": [
         {
-          "title": "Leveraging lavaan for iterated conditional expectations: A streamlined parametric g-formula.",
-          "authors": "Wen Wei Loh",
-          "url": "https://doi.org/10.1037/met0000844",
-          "doi": "https://doi.org/10.1037/met0000844",
-          "filter": 0,
-          "created": "2026-7-27"
-        },
-        {
           "title": "A time-varying interaction map approach for longitudinal assessments.",
           "authors": "Minjeong Jeon, Michael Schweinberger",
           "url": "https://doi.org/10.1037/met0000825",
@@ -592,20 +615,36 @@
       "journal_short": "PPM",
       "articles": [
         {
-          "title": "Seeing and being seen: A latent class analysis of social media use among young individuals with visible differences and its links to sociodemographic characteristics, norms, and body image.",
-          "authors": "Laure Dedecker, Laura Vandenbosch, Chelly Maes, Jill Meirte, Lara Schreurs",
-          "url": "https://doi.org/10.1037/ppm0000693",
-          "doi": "https://doi.org/10.1037/ppm0000693",
-          "filter": 0,
-          "created": "2026-7-27"
-        },
-        {
           "title": "Twinks, jocks, bears, and cubs: Associations between dating app usage and body image among sexual minority men with lean and nonlean subcultural appearance identities.",
           "authors": "Clay M. Williams, Kristen Harrison",
           "url": "https://doi.org/10.1037/ppm0000691",
           "doi": "https://doi.org/10.1037/ppm0000691",
           "filter": 0,
           "created": "2026-7-30"
+        },
+        {
+          "title": "Digital bodies, real reactions: A grounded theory approach to avatar embodiment.",
+          "authors": "M. Marie Devlin, Liam Cuddy, Elizabeth Wroten",
+          "url": "https://doi.org/10.1037/ppm0000690",
+          "doi": "https://doi.org/10.1037/ppm0000690",
+          "filter": 0,
+          "created": "2026-8-3"
+        },
+        {
+          "title": "“True crime” consumption and crime concern.",
+          "authors": "Toby Hopp",
+          "url": "https://doi.org/10.1037/ppm0000689",
+          "doi": "https://doi.org/10.1037/ppm0000689",
+          "filter": 0,
+          "created": "2026-8-3"
+        },
+        {
+          "title": "Body positivity versus body neutrality: Examining video effects on adolescent girls’ state self-objectification.",
+          "authors": "Jiaqi Zeng, Jennifer Stevens Aubrey, Kausumi Saha, Heather Gahler",
+          "url": "https://doi.org/10.1037/ppm0000692",
+          "doi": "https://doi.org/10.1037/ppm0000692",
+          "filter": 0,
+          "created": "2026-8-3"
         }
       ],
       "articles_hidden": []
