@@ -1,5 +1,5 @@
 {
-  "update": "2026-08-05",
+  "update": "2026-08-06",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -22,6 +22,15 @@
           "doi": "https://doi.org/10.1177/25152459261416470",
           "filter": 0,
           "created": "2026-8-4"
+        },
+        {
+          "title": "Bayesian Sample-Size Determination for Longitudinal Trials With Attrition: The BayesSSD Package",
+          "authors": "Ulrich Lösener, Mirjam Moerbeek",
+          "abstract": "Sample-size determination (SSD) is the procedure of determining the number of subjects necessary to achieve a desired level of statistical power and is essential in planning an experiment. Although open-access software for SSD via closed-form equations is readily available in the null-hypothesis-significance-testing framework, this approach has been subject to severe criticism in the past. As an alternative, Bayesian evaluation of informative hypotheses via the Bayes’s factor or posterior model probabilities has been proposed. However, available software packages for Bayesian SSD are either (a) limited to simpler models, such as analysis of variance and t test, and cannot handle longitudinal data or (b) unable to handle more than two treatment conditions. Current software also neglects participant attrition—a common occurrence that may substantially reduce the power of a longitudinal experiment. In the present work, we address this gap by introducing the open-access R package BayesSSD , which performs simulation-based Bayesian SSD for longitudinal trials with two or more treatment conditions. Through a simulation study, we show that not only the proportion of individuals dropping out but also the timing of dropout need to be considered when performing SSD. In the presented method, various patterns of expected attrition can be specified via parametric and nonparametric survival functions and accounted for in the SSD procedure. To facilitate adoption, we provide a tutorial with empirical data, illustrating each step of the Bayesian SSD process.",
+          "url": "https://doi.org/10.1177/25152459261463494",
+          "doi": "https://doi.org/10.1177/25152459261463494",
+          "filter": 0,
+          "created": "2026-8-5"
         },
         {
           "title": "Musicians, Memory, and General Cognitive Ability: A Commentary on Grassi et al. (2025)",
@@ -47,6 +56,15 @@
           "doi": "https://doi.org/10.3758/s13428-026-03121-x",
           "filter": 0,
           "created": "2026-8-3"
+        },
+        {
+          "title": "Disentangling within- and between-subject correlations in cognitive models: The essential role of hierarchical estimation",
+          "authors": "Michelle C. Donzallaz, Niek Stevenson, Andrew Heathcote, Dora Matzke",
+          "abstract": "Cognitive models, such as evidence-accumulation models, are increasingly used in individual differences research in psychology and neuroscience. By computing correlations between cognitive model parameters across participants, researchers aim to understand how the psychological processes the parameters represent relate to one another and jointly determine performance. It is generally acknowledged that cognitive models can be challenging to estimate due to strong within-subject correlations among the parameters, which are embedded in the model’s likelihood function. What is less often recognized, however, is that within-subject correlations can also distort correlations computed between parameters estimated with non-hierarchical methods, so they no longer reflect true individual differences, potentially leading to misleading conclusions. Here we illustrate this pitfall of non-hierarchical estimation and show how appropriately parameterized, descriptively adequate hierarchical models can mitigate the problem by effectively separating within- and between-subject sources of variation. We then offer recommendations for identifying and guarding against the inferential biases resulting from the strong within-subject correlations inherent in many cognitive models.",
+          "url": "https://doi.org/10.3758/s13428-026-03111-z",
+          "doi": "https://doi.org/10.3758/s13428-026-03111-z",
+          "filter": 0,
+          "created": "2026-8-5"
         },
         {
           "title": "Action naming in French: Normative data and response latencies for 134 video stimuli",
@@ -98,20 +116,20 @@
           "created": "2026-8-3"
         },
         {
+          "title": "Engaged but careless? The roles of online civic engagement, well-being, and information literacy in careless information sharing",
+          "authors": "Michal Mužík, Marie Jaron Bedrosova, Giovanna Mascheroni, Hana Machackova",
+          "url": "https://doi.org/10.1016/j.chb.2026.109147",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109147",
+          "filter": 0,
+          "created": "2026-8-5"
+        },
+        {
           "title": "“I’ve let screens take over”: Maternal Guilt About Media and Relations to Children's Problematic Media Use",
           "authors": "Sarah M. Coyne, Talise Hirschi, Megan Gale, Blake L. Jones, Megan Van Alfen, Lara Maximiano Almeida, Chenae Christensen-Duerden, Larry J. Nelson, Hailey G. Holmgren, Chris L. Porter, Ashley Fraser, Peter J. Reschke, McCall A. Booth, Cara Swit, Margaret L. Kerr, Rachel Barr, Heather Kirkorian, Jenny Radesky, Rebecca L. Densley",
           "url": "https://doi.org/10.1016/j.chb.2026.109138",
           "doi": "https://doi.org/10.1016/j.chb.2026.109138",
           "filter": 0,
           "created": "2026-7-30"
-        },
-        {
-          "title": "Language mutations and the persistence of COVID-19 conspiracy theories on social media",
-          "authors": "Calvin Yixiang Cheng, Dorian Quelle, Scott A. Hale",
-          "url": "https://doi.org/10.1016/j.chb.2026.109137",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109137",
-          "filter": 0,
-          "created": "2026-7-29"
         },
         {
           "title": "More externalization, but less inference? Exploring changes in young learners’ critical thinking during conversational AI bot-supported multimodal writing practice",
@@ -366,9 +384,33 @@
       ]
     },
     {
+      "journal_full": "Group Processes & Intergroup Relations",
+      "journal_short": "GPIR",
+      "articles": [
+        {
+          "title": "Dehumanization and Socioeconomic Status: Replicating and Extending the Animalization of Low-SES Targets and the Mechanization of High-SES Targets",
+          "authors": "Coralie Botalla-Raynal, Frédérique Autin",
+          "abstract": "In three preregistered, high-powered studies, we replicated and extended findings on dehumanization based on socioeconomic status (SES), where low-SES groups are denied Human Uniqueness (animalization), and high-SES groups are denied Human Nature (mechanization). Study 1 ( N = 296, representative sample, 3.25 times the original sample) replicated Sainz et al.’s first study, confirming the animalization of low-SES groups but not consistently supporting the mechanization of high-SES groups. Study 2 ( N = 536, representative sample) used adapted materials and successfully replicated both phenomena. Study 3 ( N = 103 students) extended the findings by shifting from judgments of social groups to judgments of individual targets. We subtly induced SES via facial characteristics and assessed dehumanization through perceived animal- or robot-likeness. Results were consistent with both forms of dehumanization. This research provides evidence of the robustness and generalizability of SES-based dehumanization, contributing to the understanding of social inequalities and the perceptions that justify them.",
+          "url": "https://doi.org/10.1177/13684302261471076",
+          "doi": "https://doi.org/10.1177/13684302261471076",
+          "filter": 0,
+          "created": "2026-8-5"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Journal of Experimental Social Psychology",
       "journal_short": "JESP",
       "articles": [
+        {
+          "title": "Sustaining your stance by speaking your mind: Expressing moral judgments increases certainty and prevents moral desensitization",
+          "authors": "Simone Mattavelli, Daniel A. Effron",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104990",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104990",
+          "filter": 0,
+          "created": "2026-8-5"
+        },
         {
           "title": "Prosociality in times of war: Shared moral positions foster prosociality across national borders",
           "authors": "Vanessa Clemens, Jasper Z. Siol, Lusine Grigoryan, Andreas Glöckner, Angela R. Dorrough",
@@ -476,6 +518,45 @@
       "articles_hidden": []
     },
     {
+      "journal_full": "Multivariate Behavioral Research",
+      "journal_short": "MBR",
+      "articles": [
+        {
+          "title": "Comparing inference methods for causal mediation analysis with nominal mediators: A simulation and empirical study",
+          "authors": "Sooyong Lee, Cory L. Cobb, Soyoung Kim",
+          "url": "https://doi.org/10.1080/00273171.2026.2699709",
+          "doi": "https://doi.org/10.1080/00273171.2026.2699709",
+          "filter": 0,
+          "created": "2026-8-5"
+        },
+        {
+          "title": "Investigating Measurement Invariance Across Situations in Intensive Longitudinal Data",
+          "authors": "Lisa Peuckmann, Andreas B. Neubauer, Dorota Reis",
+          "url": "https://doi.org/10.1080/00273171.2026.2707651",
+          "doi": "https://doi.org/10.1080/00273171.2026.2707651",
+          "filter": 0,
+          "created": "2026-8-5"
+        },
+        {
+          "title": "A Comparison of Latent and Deterministic Blockmodeling with Application to Binary Substance Use Disorder Data",
+          "authors": "Michael Brusco, Douglas Steinley, Ashley L. Watts",
+          "url": "https://doi.org/10.1080/00273171.2026.2708913",
+          "doi": "https://doi.org/10.1080/00273171.2026.2708913",
+          "filter": 0,
+          "created": "2026-8-5"
+        },
+        {
+          "title": "To g or Not to g ? A Cross-Domain, Subtest-Level Investigation of the Flynn Effect Across Ages 7-15 Years",
+          "authors": "Evan J. Giangrande, Sean R. Womack, Deborah Finkel, Deborah W. Davis, Christopher R. Beam, Eric Turkheimer",
+          "url": "https://doi.org/10.1080/00273171.2026.2707653",
+          "doi": "https://doi.org/10.1080/00273171.2026.2707653",
+          "filter": 0,
+          "created": "2026-8-5"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Personality and Social Psychology Bulletin",
       "journal_short": "PSPB",
       "articles": [
@@ -496,15 +577,6 @@
           "doi": "https://doi.org/10.1177/01461672261468870",
           "filter": 0,
           "created": "2026-7-30"
-        },
-        {
-          "title": "Underestimating Honesty in Distributive Negotiations: Misjudging Counterparts’ Motivations",
-          "authors": "Shira Garber, Simone Moran, Boaz Keysar, Yoella Bereby-Meyer",
-          "abstract": "Negotiators often face two dilemmas: whether to be honest and whether to believe their counterpart is honest. We propose a discrepancy in how negotiators approach these dilemmas, leading to an expected versus actual honesty gap. When deciding whether to be honest, negotiators are influenced not only by self-interest but also by moral identity concerns, which promote honesty. However, when deciding whether counterparts are honest, negotiators assume they are primarily motivated by self-interest and thus overestimate their dishonesty. Five studies examining online secondhand market negotiations found buyers often underestimated sellers’ honesty, and this was accounted for by their misperceptions of sellers’ motivations. While sellers tended to be honest because of moral identity concerns, buyers expected them to be driven primarily by self-interest. The actual-expected honesty gap was particularly prevalent when sellers’ moral identity concerns were situationally activated, and altering buyers’ perceptions of sellers’ motivations reduced the gap. Findings further suggest potential targeted interventions to foster trust.",
-          "url": "https://doi.org/10.1177/01461672261468054",
-          "doi": "https://doi.org/10.1177/01461672261468054",
-          "filter": 0,
-          "created": "2026-7-29"
         }
       ],
       "articles_hidden": []
@@ -619,13 +691,13 @@
           "created": "2026-7-31"
         },
         {
-          "title": "Intentional Mental Imagery and Music Performance Anxiety",
-          "authors": "Katherine K Finch, Jonathan M Oakman",
-          "abstract": "Intentional mental imagery is an important preparation strategy for performers and can be used for different purposes. Applied imagery models suggest that a single imagery approach can be used for different functions (e.g., affect regulation and performance enhancement). However, little is known about how musicians employ mental imagery to manage music performance anxiety (MPA) and whether musicians experience difficulty controlling imagery (e.g., maintaining imagery) used to manage MPA. Thus, we investigated how musicians use mental imagery for this purpose and whether they experience difficulty controlling such imagery. Musicians ( N = 25) completed a semi-structured interview and Likert-style rating scales concerning their experiences with intentional mental imagery used to manage MPA. Thematic analysis revealed that musicians in our sample engaged in a variety of imagery approaches (e.g., mental rehearsal) to manage MPA, integrating different sensory content. Themes were identified concerning difficulties participants experienced in controlling mental imagery. Musicians in our sample used a variety of imagery approaches to manage MPA, many of which are consistent with existing intervention literature and applied imagery models. Furthermore, many musicians in our sample experienced difficulty controlling intentional imagery which raises important questions for additional research.",
-          "url": "https://doi.org/10.1177/03057356261449273",
-          "doi": "https://doi.org/10.1177/03057356261449273",
+          "title": "Performer Identity, Agency, and Programming Lesser-Known Piano Repertoire",
+          "authors": "Ning Hui See",
+          "abstract": "The diversification of concert repertoire has garnered increased attention recently, yet research on modern concert programming remains limited, focusing mainly on quotas and the perspectives of organisers and audiences. Discourses on the contextualisation and evaluation of women composers’ music have not transcended questions raised since the 1990s, and historical patterns demonstrate that change is not linear. Given the role of performers as co-creators of musical meaning and value, we need a better understanding of their practices to achieve sustainable change. This study examines the interrelation between the performer’s sense of identity and agency and their selection and programming of music by composers who are lesser-known due to stylistic unfamiliarity or their gender, race, or other demographic characteristics. Using interpretative phenomenological analysis (IPA), I examined interview accounts of four professional pianists experienced in performing such repertoire. Six group experiential themes emerged: career and professional identity; aesthetic, emotions, or sociopolitical connections; interpretative strategies and commitment; contextualising lesser-known repertoire as accessible or valuable; programming agency in relation to organisers, venues, and audiences; and belonging and outsiderness. These findings bear implications for effective programming practices and conservatoire pedagogical transformations.",
+          "url": "https://doi.org/10.1177/03057356261469834",
+          "doi": "https://doi.org/10.1177/03057356261469834",
           "filter": 0,
-          "created": "2026-7-29"
+          "created": "2026-8-5"
         }
       ],
       "articles_hidden": []
