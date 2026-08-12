@@ -1,5 +1,5 @@
 {
-  "update": "2026-08-11",
+  "update": "2026-08-12",
   "content": [
     {
       "journal_full": "Journal of Elections, Public Opinion and Parties",
@@ -33,17 +33,26 @@
       "articles_hidden": []
     },
     {
-      "journal_full": "Journal of Official Statistics",
-      "journal_short": "JOS",
+      "journal_full": "Journal of Survey Statistics and Methodology",
+      "journal_short": "JSSAM",
       "articles": [
         {
-          "title": "Applying Multiple Imputation to Improve Estimates from Web Surveys: An Alternative to the Pseudoweighting Method",
-          "authors": "Yulei He, Katherine Irimata, Guangyu Zhang, Yan Li",
-          "abstract": "To improve the timeliness of data products, survey researchers and practitioners have increasingly used web surveys and alike to collect information for population health research and dissemination. From the statistical inferential perspective, these data are often referred to as nonprobability samples due to the lack of a well-defined probability sampling structure, or they come from probability panel surveys yet are subject to high nonresponse and/or coverage errors. Certain statistical adjustments are therefore needed to make proper inferences using web surveys. With a high-quality reference probability survey available, one popular adjustment approach is to create pseudoweights that properly “weight” the web survey samples back to the target population underlying the reference survey in order to produce population-weighted estimates of the target of interest. When the variable of interest is collected in the web survey but not in the reference survey, the analytical question can also be framed as a missing data problem. Thus we propose to multiply impute the missing variable on the reference survey which combines the information from both data sources. We illustrate main features and performances of the multiple imputation strategy using a simulation study. The simulation results have shown that the multiple imputation analysis method is comparable to the pseudoweighting method, both of which can adequately account for the nonprobability feature of web surveys to improve the statistical inference. We also present a real data analysis based on the web-based Research and Development Survey and the interviewer-administered National Health Interview Survey. Our research shows that results from different imputation and pseudoweighting models can be compared to better understand features of the web survey data and improve the analysis.",
-          "url": "https://doi.org/10.1177/0282423x261459285",
-          "doi": "https://doi.org/10.1177/0282423x261459285",
+          "title": "Youth Nonresponse in Panel Surveys: Investigating the Impact of Life Events",
+          "authors": "Camilla Salvatore, Peter Lugtig, Bella Struminskaya",
+          "abstract": "Nonresponse in surveys is particularly problematic among young people in both cross-sectional and panel studies. This article investigates the factors driving lower participation rates among young people in longitudinal surveys. We study whether nonresponse can be explained by young people experiencing more life events associated with disengagement from panel surveys. Using data from the Understanding Society panel in the United Kingdom, we employ a discrete-time multinomial logistic hazard model to study nonresponse across panel waves. Consistent with previous research, our analysis identifies lower education, unemployment, immigrant background, and residential circumstances as key predictors of nonresponse. Furthermore, we demonstrate that changes in employment status and (expectations of) residential relocation significantly contribute to predicting attrition among young participants, with age remaining a significant factor. Living with parents also plays an important role, as it is associated with a lower risk of non-contact.",
+          "url": "https://doi.org/10.1093/jssam/smag001",
+          "doi": "https://doi.org/10.1093/jssam/smag001",
           "filter": 0,
-          "created": "2026-8-4"
+          "created": "2026-1-7"
+        },
+        {
+          "title": "Varying the Content of Political Science Surveys to Improve the Survey Experience and Data Quality of Politically Disengaged Respondents",
+          "authors": "Saskia Bartholomäus, Tobias Gummer",
+          "abstract": "Respondents’ survey experience affects their answering and participation behavior and, consequently, measurement and nonresponse errors. Political science surveys especially suffer from biased estimates of political attitudes and behavior. Improving respondents’ survey experience by offering a more interesting and varied questionnaire poses a possible solution to this problem. In this regard, we break new ground by investigating whether improving politically disengaged respondents’ survey experience by including non-political survey content enhances data quality with respect to measurement and nonresponse errors in political science surveys. For this purpose, we conducted two survey experiments in a probability- and a nonprobability-based panel that varied the content of a political science questionnaire. This study provides the first evidence that offering a varied questionnaire rather than a purely political one lowered or even diminished the gap in measurement and nonresponse errors between politically engaged and disengaged respondents.",
+          "url": "https://doi.org/10.1093/jssam/smaf061",
+          "doi": "https://doi.org/10.1093/jssam/smaf061",
+          "filter": 0,
+          "created": "2025-12-15"
         }
       ],
       "articles_hidden": []

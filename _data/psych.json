@@ -1,19 +1,10 @@
 {
-  "update": "2026-08-11",
+  "update": "2026-08-12",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
       "journal_short": "AMPPS",
       "articles": [
-        {
-          "title": "Event-History Analysis for Psychological Time-to-Event Data: A Tutorial in R With Examples in Bayesian and Frequentist Workflows",
-          "authors": "Sven Panis, Richard Ramsey",
-          "abstract": "Time-to-event data, such as response times and saccade latencies, form a cornerstone of experimental psychology and have had a widespread impact on the understanding of human cognition. However, the orthodox method for analyzing such data—comparing means between conditions—is known to conceal valuable information about the timeline of psychological effects, such as their onset time and how they evolve over time. The ability to reveal finer-grained “temporal states” of cognitive processes can have important consequences for theory development by qualitatively changing the key inferences that are drawn from psychological data. Well-established analytical approaches, such as event-history analysis (EHA), can evaluate the detailed shape of time-to-event distributions and thus characterize the time course of psychological states. One barrier to wider use of EHA, however, is that the analytical workflow is typically more time-consuming and complex than orthodox approaches. To help achieve broader uptake of EHA, in this article, we outline a set of tutorials that detail one distributional method, known as discrete-time EHA. We touch on several key aspects of the workflow, such as how to process raw data and specify regression models, and we also consider the implications for experimental design. We finish the article by considering the benefits of the approach for understanding psychological states and its limitations. Finally, the project is written in R and freely available, which means the approach can easily be adapted to other data sets.",
-          "url": "https://doi.org/10.1177/25152459261416470",
-          "doi": "https://doi.org/10.1177/25152459261416470",
-          "filter": 0,
-          "created": "2026-8-4"
-        },
         {
           "title": "Bayesian Sample-Size Determination for Longitudinal Trials With Attrition: The BayesSSD Package",
           "authors": "Ulrich Lösener, Mirjam Moerbeek",
@@ -22,15 +13,6 @@
           "doi": "https://doi.org/10.1177/25152459261463494",
           "filter": 0,
           "created": "2026-8-5"
-        },
-        {
-          "title": "Musicians, Memory, and General Cognitive Ability: A Commentary on Grassi et al. (2025)",
-          "authors": "Enrico Toffalini, Tommaso Feraco",
-          "abstract": "When cognitive variables show a positive manifold, mainstream psychometric theory suggests that their common variance should be modeled first. Treating correlated cognitive scores as if they were separately interpretable outcomes instead requires explicit theoretical justification. We comment on Grassi et al., an important multilab study on musicians and nonmusicians, and reexamine their cognitive results at the latent level. Using multigroup and multilevel structural equation models on the same data set, we ask whether the reported pattern can be parsimoniously understood as a difference in shared cognitive variance rather than as a set of task-specific advantages. The results suggest that under this latent-variable representation, the musician advantage is mostly captured by a latent common factor, whereas melody span retained a clear residual advantage and vocabulary showed, at most, a smaller task-specific deviation. The focus, therefore, is not just whether musicians differ from nonmusicians on a set of observed tasks, possibly controlled for each other, but also how such differences should be interpreted once those tasks are allowed to share variance. Grassi et al. provided an excellent example of open, collaborative work that the field should actively encourage. We suggest that this kind of enterprise should also be paired with equally strong and theoretically grounded measurement modeling.",
-          "url": "https://doi.org/10.1177/25152459261452948",
-          "doi": "https://doi.org/10.1177/25152459261452948",
-          "filter": 0,
-          "created": "2026-8-4"
         }
       ],
       "articles_hidden": []
@@ -81,14 +63,6 @@
           "doi": "https://doi.org/10.3758/s13428-026-03126-6",
           "filter": 0,
           "created": "2026-8-10"
-        },
-        {
-          "title": "Simulating insufficient effort responding with large language models: A persona-based prompt engineering approach",
-          "authors": "Donghun Kim, Giryong Park, Jin Suk Park, Taehun Lee",
-          "url": "https://doi.org/10.3758/s13428-026-03133-7",
-          "doi": "https://doi.org/10.3758/s13428-026-03133-7",
-          "filter": 0,
-          "created": "2026-8-4"
         }
       ],
       "articles_hidden": []
@@ -306,13 +280,13 @@
           "created": "2026-8-6"
         },
         {
-          "title": "Beyond Content: Psychological Structure of Ideological Beliefs",
-          "authors": "Gabriela Czarnek, Katarzyna Jasko, Iwona Dudek, Mark J. Brandt, Maja Piotrowska",
-          "abstract": "Research on ideological beliefs structure primarily focused on mapping the underlying dimensions of belief content . Beyond what beliefs people hold, it is also crucial to understand how they hold these beliefs. Drawing from diverse literature, we identified nearly 20 constructs and hypothesized three overarching factors of the psychological structure of ideology: importance, certainty, and metacognitive difficulty. Using 49 political issues across the United States, Poland, and India ( N total = 2,838), we found evidence for two primary dimensions: importance and metacognitive difficulty. Certainty did not emerge as a separate factor: in the United States, certainty items split between these two dimensions, whereas in Poland and India, importance and certainty converged. We also investigated the predictive power of these dimensions. Higher importance and certainty and lower metacognitive difficulty were linked to more extreme beliefs, and importance was a key predictor of advocacy intentions. These findings offer a comprehensive framework for understanding how ideological beliefs are held.",
-          "url": "https://doi.org/10.1177/01461672261466703",
-          "doi": "https://doi.org/10.1177/01461672261466703",
+          "title": "Seeing to Connect: How Visual and Auditory Channels Shape Empathic Interactions",
+          "authors": "Shir Genzer, Yonat Rum, Ulrike M. Krämer, Anat Perry",
+          "abstract": "This research examines how visual and auditory channels affect empathic interactions from the perspectives of the listener (the empathy provider), the storyteller (the empathy recipient), and the shared dyadic experience. Across three pre-registered studies ( N = 710), storytellers shared emotional experiences with listeners through online video calls, with cameras on or off. Study 1 examined empathic accuracy, attentiveness, empathy, and togetherness. Study 2 replicated these findings and extended them to emotional congruency. Study 3 introduced vocal responsiveness, positivity resonance, and prosocial behavior. Auditory information alone was sufficient for listeners to accurately identify storytellers’ emotions and to maintain high self-reported attentiveness and empathy. However, visual information shaped how storytellers perceived their listeners, and was key to creating shared positive emotions, we-ness, and mutual care, and appeared to enhance prosocial behavior. These findings suggest that while hearing each other might suffice for information sharing, optimal empathic connection requires seeing and being seen.",
+          "url": "https://doi.org/10.1177/01461672261470131",
+          "doi": "https://doi.org/10.1177/01461672261470131",
           "filter": 0,
-          "created": "2026-8-4"
+          "created": "2026-8-11"
         }
       ],
       "articles_hidden": []
@@ -344,6 +318,15 @@
           "doi": "https://doi.org/10.1177/03057356261469388",
           "filter": 0,
           "created": "2026-8-9"
+        },
+        {
+          "title": "A Grounded Meta-Analysis of Research on Marginalized Music Teachers",
+          "authors": "Carlos R. Abril, Giulia Ripani",
+          "abstract": "Over the past 15 years, researchers have examined marginalized music teachers’ perspectives, largely through small-scale qualitative studies. Recognizing the individual merit and collective potential of this body of work, we synthesized existing studies into a cohesive theory to explain how marginalized music teachers navigate their professional lives. Three research questions guided our inquiry: (1) What factors shape the professional lives of marginalized music teachers? (2) What strategies do they use to navigate their professional identities? (3) What are the perceived psychological and behavioral outcomes associated with marginalization? Through qualitative meta-analysis, five extrinsic factors (sociocultural influences, administrators, colleagues, students and parents, and personal relationships) and one intrinsic factor (internalized concerns) emerged as central influences. Participants managed their professional identities using two primary strategies: social recategorization (concealing or downplaying their identity) and positive distinctiveness (disclosing or affirming their identity). These strategies were associated with a range of perceived psychological and behavioral outcomes, including distress, professional withdrawal, affirmation, and advocacy. The resulting middle-range theory conceptualizes identity management as a dynamic, context-dependent process associated with sociocultural, relational, and internal factors.",
+          "url": "https://doi.org/10.1177/03057356261460878",
+          "doi": "https://doi.org/10.1177/03057356261460878",
+          "filter": 0,
+          "created": "2026-8-11"
         },
         {
           "title": "Using Generative Artificial Intelligence to Identify Themes of Basic Psychological Needs in Popular Song Lyrics",
