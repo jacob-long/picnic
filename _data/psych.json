@@ -1,22 +1,6 @@
 {
-  "update": "2026-08-12",
+  "update": "2026-08-13",
   "content": [
-    {
-      "journal_full": "Advances in Methods and Practices in Psychological Science",
-      "journal_short": "AMPPS",
-      "articles": [
-        {
-          "title": "Bayesian Sample-Size Determination for Longitudinal Trials With Attrition: The BayesSSD Package",
-          "authors": "Ulrich Lösener, Mirjam Moerbeek",
-          "abstract": "Sample-size determination (SSD) is the procedure of determining the number of subjects necessary to achieve a desired level of statistical power and is essential in planning an experiment. Although open-access software for SSD via closed-form equations is readily available in the null-hypothesis-significance-testing framework, this approach has been subject to severe criticism in the past. As an alternative, Bayesian evaluation of informative hypotheses via the Bayes’s factor or posterior model probabilities has been proposed. However, available software packages for Bayesian SSD are either (a) limited to simpler models, such as analysis of variance and t test, and cannot handle longitudinal data or (b) unable to handle more than two treatment conditions. Current software also neglects participant attrition—a common occurrence that may substantially reduce the power of a longitudinal experiment. In the present work, we address this gap by introducing the open-access R package BayesSSD , which performs simulation-based Bayesian SSD for longitudinal trials with two or more treatment conditions. Through a simulation study, we show that not only the proportion of individuals dropping out but also the timing of dropout need to be considered when performing SSD. In the presented method, various patterns of expected attrition can be specified via parametric and nonparametric survival functions and accounted for in the SSD procedure. To facilitate adoption, we provide a tutorial with empirical data, illustrating each step of the Bayesian SSD process.",
-          "url": "https://doi.org/10.1177/25152459261463494",
-          "doi": "https://doi.org/10.1177/25152459261463494",
-          "filter": 0,
-          "created": "2026-8-5"
-        }
-      ],
-      "articles_hidden": []
-    },
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
@@ -31,13 +15,22 @@
           "created": "2026-8-7"
         },
         {
-          "title": "Disentangling within- and between-subject correlations in cognitive models: The essential role of hierarchical estimation",
-          "authors": "Michelle C. Donzallaz, Niek Stevenson, Andrew Heathcote, Dora Matzke",
-          "abstract": "Cognitive models, such as evidence-accumulation models, are increasingly used in individual differences research in psychology and neuroscience. By computing correlations between cognitive model parameters across participants, researchers aim to understand how the psychological processes the parameters represent relate to one another and jointly determine performance. It is generally acknowledged that cognitive models can be challenging to estimate due to strong within-subject correlations among the parameters, which are embedded in the model’s likelihood function. What is less often recognized, however, is that within-subject correlations can also distort correlations computed between parameters estimated with non-hierarchical methods, so they no longer reflect true individual differences, potentially leading to misleading conclusions. Here we illustrate this pitfall of non-hierarchical estimation and show how appropriately parameterized, descriptively adequate hierarchical models can mitigate the problem by effectively separating within- and between-subject sources of variation. We then offer recommendations for identifying and guarding against the inferential biases resulting from the strong within-subject correlations inherent in many cognitive models.",
-          "url": "https://doi.org/10.3758/s13428-026-03111-z",
-          "doi": "https://doi.org/10.3758/s13428-026-03111-z",
+          "title": "Contextualized sensorimotor norms: Multi-dimensional measures of sensorimotor strength for ambiguous English words, in context",
+          "authors": "Sean Trott, Benjamin Bergen",
+          "abstract": "Embodied theories of language emphasize the role of sensorimotor experience in linguistic knowledge. Central to testing these theories is the creation of large datasets of linguistic norms , which contain judgments about a word’s sensorimotor associations and can be used to predict human behavioral or brain data – sometimes in contrast to competing variables, such as those derived from distributional language models. Yet many of these datasets contain judgments about words in isolation, despite the fact that most words are ambiguous, making it difficult to determine which meaning of a word is characterized by its rating (e.g., “wooden table” vs. “data table”). In the current work, we introduce a new lexical resource (directly inspired by the Lancaster sensorimotor for 112 English words, each rated in four different contexts (448 sentences total). We demonstrate: first, that these ratings encode overlapping but distinct information from the Lancaster sensorimotor norms; second, that decontextualized ratings likely reflect the more dominant meaning of ambiguous words; third, that homonyms have more distinct sensorimotor profiles than polysemes; fourth, that the contextualized sensorimotor distance between two uses of an ambiguous word predicts human judgments about semantic relatedness; and fifth, that ratings derived from GPT-4 align reasonably well with human judgments. We conclude by suggesting that contextualized ratings like these can be used both to inform competing theories of semantic representations and also to evaluate or “probe” the ability of LMs to recover sensorimotor information.",
+          "url": "https://doi.org/10.3758/s13428-026-03134-6",
+          "doi": "https://doi.org/10.3758/s13428-026-03134-6",
           "filter": 0,
-          "created": "2026-8-5"
+          "created": "2026-8-12"
+        },
+        {
+          "title": "Item analyses of the 20-item prosopagnosia index using classical test theory and item response theory",
+          "authors": "Masaki Mori, Midori Sugiyama",
+          "abstract": "The 20-item prosopagnosia index (PI20) is a highly practical tool for assessing lifelong difficulties in face processing across individuals (developmental prosopagnosia). Recent research suggests that the quality of the PI20 may vary depending on the item; however, the quantitative quality of each item has not been sufficiently examined. In this study, the item properties of the PI20 were investigated using classical test theory and item response theory. The analyses confirmed that the one-factor structure of the PI20 showed high reliability and validity. Item response theory further revealed that the items differed in measurement power, discrimination, and difficulty under the unidimensional graded response model. Items reflecting the additional psychological load and social consequences associated with face processing difficulty demonstrated high measurement precision. In contrast, items related to the recognition of distinctive or self-faces contributed to the construct to a lesser degree. These results indicate that while most items adequately capture the characteristics of developmental prosopagnosia, certain items may not be suitable for screening for developmental prosopagnosia. The present study provides open materials to facilitate further psychometric evaluation of the PI20 and offers insights for refining self-report assessment of developmental prosopagnosia.",
+          "url": "https://doi.org/10.3758/s13428-026-03145-3",
+          "doi": "https://doi.org/10.3758/s13428-026-03145-3",
+          "filter": 0,
+          "created": "2026-8-12"
         },
         {
           "title": "GridSamp: An open-source Python toolbox for grid sampling",
@@ -63,6 +56,15 @@
           "doi": "https://doi.org/10.3758/s13428-026-03126-6",
           "filter": 0,
           "created": "2026-8-10"
+        },
+        {
+          "title": "Food, mammals, &amp; countries: Stimuli, their pairwise similarities, and MDS dimension values for modeling judgment, categorization, and memory in three real-world domains",
+          "authors": "David Izydorczyk, Arndt Bröder",
+          "abstract": "Three comprehensive sets of naturalistic stimuli, each with pairwise similarity ratings and multidimensional scaling (MDS)-based feature representations are presented, freely available on the corresponding OSF repository of this project under a CC-BY-SA-NC-4.0 license. The primary contribution of this work is the provision of these well-curated naturalistic stimulus sets and their associated high-quality similarity data as a resource for the research community. The sets include 80 representative items from three domains – foods, mammals, and countries – that can be used across cognitive research areas such as categorization, multiple-cue probability learning, judgment, decision-making, memory, and metamemory. Based on over 280,000 similarity judgments from $$N = 1798$$ N = 1798 participants, we derived 14 dimensions for foods, ten for mammals, and ten for countries, which reconstructed the similarity spaces with high accuracy ( $$r \\ge .93$$ r ≥ . 93 ). In a proof-of-concept study, these dimensions also explained substantial variance in participants’ numerical judgments of domain-specific criteria, underscoring their functional relevance beyond similarity tasks. By making these stimuli, similarity data, and derived feature spaces freely available, we provide researchers with tools for testing computational cognitive models in relevant real-world domains, each of which allows for examining a multitude of judgment or classification criteria.",
+          "url": "https://doi.org/10.3758/s13428-026-03114-w",
+          "doi": "https://doi.org/10.3758/s13428-026-03114-w",
+          "filter": 0,
+          "created": "2026-8-12"
         }
       ],
       "articles_hidden": []
@@ -78,6 +80,14 @@
           "doi": "https://doi.org/10.1016/j.chb.2026.109143",
           "filter": 0,
           "created": "2026-8-7"
+        },
+        {
+          "title": "From “cost of asking” to “fit of asking”: How seeking help with AI shapes employees’ indebtedness and autonomy in different workplace helping contexts",
+          "authors": "Jiajing Zhai, Jiayu Gina Qu",
+          "url": "https://doi.org/10.1016/j.chb.2026.109150",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109150",
+          "filter": 0,
+          "created": "2026-8-12"
         },
         {
           "title": "How users interpret AI-assisted reviews: Disclosure design and authenticity perceptions",
@@ -104,14 +114,6 @@
           "created": "2026-8-7"
         },
         {
-          "title": "Engaged but careless? The roles of online civic engagement, well-being, and information literacy in careless information sharing",
-          "authors": "Michal Mužík, Marie Jaron Bedrosova, Giovanna Mascheroni, Hana Machackova",
-          "url": "https://doi.org/10.1016/j.chb.2026.109147",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109147",
-          "filter": 0,
-          "created": "2026-8-5"
-        },
-        {
           "title": "Walking in Her Shoes: Virtual Embodiment of a Famous Female Scientist Reduces Implicit Gender–Science Associations",
           "authors": "Marta Beneda, Julia Spielmann, Amna Ramadhan Alahmadi, Domna Banakou, Andrea C. Vial",
           "url": "https://doi.org/10.1016/j.chb.2026.109146",
@@ -126,15 +128,6 @@
       "journal_full": "Group Processes & Intergroup Relations",
       "journal_short": "GPIR",
       "articles": [
-        {
-          "title": "Dehumanization and Socioeconomic Status: Replicating and Extending the Animalization of Low-SES Targets and the Mechanization of High-SES Targets",
-          "authors": "Coralie Botalla-Raynal, Frédérique Autin",
-          "abstract": "In three preregistered, high-powered studies, we replicated and extended findings on dehumanization based on socioeconomic status (SES), where low-SES groups are denied Human Uniqueness (animalization), and high-SES groups are denied Human Nature (mechanization). Study 1 ( N = 296, representative sample, 3.25 times the original sample) replicated Sainz et al.’s first study, confirming the animalization of low-SES groups but not consistently supporting the mechanization of high-SES groups. Study 2 ( N = 536, representative sample) used adapted materials and successfully replicated both phenomena. Study 3 ( N = 103 students) extended the findings by shifting from judgments of social groups to judgments of individual targets. We subtly induced SES via facial characteristics and assessed dehumanization through perceived animal- or robot-likeness. Results were consistent with both forms of dehumanization. This research provides evidence of the robustness and generalizability of SES-based dehumanization, contributing to the understanding of social inequalities and the perceptions that justify them.",
-          "url": "https://doi.org/10.1177/13684302261471076",
-          "doi": "https://doi.org/10.1177/13684302261471076",
-          "filter": 0,
-          "created": "2026-8-5"
-        },
         {
           "title": "Disentangling Religiosity: Specific Religious Perspectives Reduce Intergroup Bias",
           "authors": "Patty Van Cappellen, Amanda M. Bernal, Caimiao Liu",
@@ -161,21 +154,15 @@
           "doi": "https://doi.org/10.1177/13684302261471106",
           "filter": 0,
           "created": "2026-8-7"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Journal of Experimental Social Psychology",
-      "journal_short": "JESP",
-      "articles": [
+        },
         {
-          "title": "Sustaining your stance by speaking your mind: Expressing moral judgments increases certainty and prevents moral desensitization",
-          "authors": "Simone Mattavelli, Daniel A. Effron",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104990",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104990",
+          "title": "Collective Narcissism and Perceptions of the Severity of Racism Among White and Black Americans",
+          "authors": "Christopher M. Federico, Lauren I. Hopkins, Mackenzie Devaney, Agnieszka Golec De Zavala",
+          "abstract": "What explains variation in Americans’ willingness to acknowledge racism? Across two studies, we examined how national and racial collective narcissism (CN), inflated concern with recognition of one’s ingroup, relates to reluctance to recognize racism among White and Black Americans. In Study 1, national CN predicted greater unawareness of racism, stronger beliefs that White Americans face more discrimination than Black Americans, and greater opposition to teaching about racism among White respondents, with similar patterns among non-White respondents. In Study 2, national CN predicted reduced willingness to acknowledge racism among both White and Black Americans. Racial CN, however, predicted unwillingness to acknowledge racism only among White Americans; among Black Americans, racial CN was unrelated or negatively associated with racism denial once national CN was considered. National and racial CN were also more strongly associated among Whites, clarifying why racial CN displaced national CN as the primary predictor in this group.",
+          "url": "https://doi.org/10.1177/13684302261471094",
+          "doi": "https://doi.org/10.1177/13684302261471094",
           "filter": 0,
-          "created": "2026-8-5"
+          "created": "2026-8-12"
         }
       ],
       "articles_hidden": []
@@ -214,38 +201,6 @@
           "doi": "https://doi.org/10.1080/00273171.2026.2711454",
           "filter": 0,
           "created": "2026-8-10"
-        },
-        {
-          "title": "Comparing inference methods for causal mediation analysis with nominal mediators: A simulation and empirical study",
-          "authors": "Sooyong Lee, Cory L. Cobb, Soyoung Kim",
-          "url": "https://doi.org/10.1080/00273171.2026.2699709",
-          "doi": "https://doi.org/10.1080/00273171.2026.2699709",
-          "filter": 0,
-          "created": "2026-8-5"
-        },
-        {
-          "title": "Investigating Measurement Invariance Across Situations in Intensive Longitudinal Data",
-          "authors": "Lisa Peuckmann, Andreas B. Neubauer, Dorota Reis",
-          "url": "https://doi.org/10.1080/00273171.2026.2707651",
-          "doi": "https://doi.org/10.1080/00273171.2026.2707651",
-          "filter": 0,
-          "created": "2026-8-5"
-        },
-        {
-          "title": "A Comparison of Latent and Deterministic Blockmodeling with Application to Binary Substance Use Disorder Data",
-          "authors": "Michael Brusco, Douglas Steinley, Ashley L. Watts",
-          "url": "https://doi.org/10.1080/00273171.2026.2708913",
-          "doi": "https://doi.org/10.1080/00273171.2026.2708913",
-          "filter": 0,
-          "created": "2026-8-5"
-        },
-        {
-          "title": "To g or Not to g ? A Cross-Domain, Subtest-Level Investigation of the Flynn Effect Across Ages 7-15 Years",
-          "authors": "Evan J. Giangrande, Sean R. Womack, Deborah Finkel, Deborah W. Davis, Christopher R. Beam, Eric Turkheimer",
-          "url": "https://doi.org/10.1080/00273171.2026.2707653",
-          "doi": "https://doi.org/10.1080/00273171.2026.2707653",
-          "filter": 0,
-          "created": "2026-8-5"
         },
         {
           "title": "A Mechanistic Model of Symptom Dynamics: Implications for Statistical Network Analyses",
@@ -287,6 +242,15 @@
           "doi": "https://doi.org/10.1177/01461672261470131",
           "filter": 0,
           "created": "2026-8-11"
+        },
+        {
+          "title": "Maybe I Can’t Cook, but It Doesn’t Mean I Don’t Care: Moral Framing and Private Criticism of Meat Consumption Leads to Psychological Defensiveness",
+          "authors": "Isaac Chung, Pascale Sophie Russell, Erica G. Hepper",
+          "abstract": "Meat consumption contributes to climate change and has become a moralized issue. People may face moral criticism for meat consumption. Building on the central role of morality in person evaluation, this research tested the hypotheses that moral (vs. competence) and public (vs. private) criticism received online would elicit greater defensiveness among meat-eaters. Study 1 ( N = 307) supported the hypothesis that moral criticism heightened defensive responses (e.g. sensitivity, derogation, and avoidance). Study 2 ( N = 316) showed, unexpectedly, that private criticism led to greater defensiveness, potentially due to its “personal” nature. Further analysis revealed that the effects of moral framing and private criticism were mediated by perceived moral devaluation. Defensive responses were also generally stronger among individuals higher in narcissistic rivalry. In addition, perceived moral devaluation predicted lower intention to reduce meat consumption. Public messaging aimed at reducing meat consumption should avoid moral framing and personal-sounding negative feedback to minimize defensive responses.",
+          "url": "https://doi.org/10.1177/01461672261472608",
+          "doi": "https://doi.org/10.1177/01461672261472608",
+          "filter": 0,
+          "created": "2026-8-12"
         }
       ],
       "articles_hidden": []
@@ -336,15 +300,6 @@
           "doi": "https://doi.org/10.1177/03057356261465628",
           "filter": 0,
           "created": "2026-8-9"
-        },
-        {
-          "title": "Performer Identity, Agency, and Programming Lesser-Known Piano Repertoire",
-          "authors": "Ning Hui See",
-          "abstract": "The diversification of concert repertoire has garnered increased attention recently, yet research on modern concert programming remains limited, focusing mainly on quotas and the perspectives of organisers and audiences. Discourses on the contextualisation and evaluation of women composers’ music have not transcended questions raised since the 1990s, and historical patterns demonstrate that change is not linear. Given the role of performers as co-creators of musical meaning and value, we need a better understanding of their practices to achieve sustainable change. This study examines the interrelation between the performer’s sense of identity and agency and their selection and programming of music by composers who are lesser-known due to stylistic unfamiliarity or their gender, race, or other demographic characteristics. Using interpretative phenomenological analysis (IPA), I examined interview accounts of four professional pianists experienced in performing such repertoire. Six group experiential themes emerged: career and professional identity; aesthetic, emotions, or sociopolitical connections; interpretative strategies and commitment; contextualising lesser-known repertoire as accessible or valuable; programming agency in relation to organisers, venues, and audiences; and belonging and outsiderness. These findings bear implications for effective programming practices and conservatoire pedagogical transformations.",
-          "url": "https://doi.org/10.1177/03057356261469834",
-          "doi": "https://doi.org/10.1177/03057356261469834",
-          "filter": 0,
-          "created": "2026-8-5"
         },
         {
           "title": "Experiencing motherhood as a professional musician: Issues of musical identity",
