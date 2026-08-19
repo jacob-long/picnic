@@ -46,7 +46,7 @@ retrieve_crossref_issn_data <- function(issn_list, start_date, end_date, verbose
     K <- length(issn_list)
     out <- list()
 
-    for (i in 1:K) {
+    for (i in seq_len(K)) {
         issn <- issn_list[i]
         if (verbose) cat(issn, "\n")
         j <- 0
@@ -65,13 +65,17 @@ retrieve_crossref_issn_data <- function(issn_list, start_date, end_date, verbose
             get_crossref_articles(tmp[[1]]),
             get_crossref_articles(tmp[[2]])
         )
-        if (!is.null(tmp)) tmp$issn <- issn
-        out[[i]] <- tmp[!duplicated(tmp$url), ]
+        if (is.null(tmp) || nrow(tmp) == 0) next
+
+        tmp$issn <- issn
+        out[[i]] <- tmp[!duplicated(tmp$url), , drop = FALSE]
     }
 
-    if (is.null(out)) return(NULL)
+    out <- Filter(Negate(is.null), out)
+    if (length(out) == 0) return(NULL)
 
     out <- do.call(rbind, out)
+    rownames(out) <- NULL
     return(out)
 }
 
@@ -79,9 +83,17 @@ retrieve_crossref_issn_data <- function(issn_list, start_date, end_date, verbose
 #' @param items API response content
 #' @return Data frame of articles
 get_crossref_articles <- function(items) {
-    ll <- lapply(items$message$items, get_crossref_article_info)
-    ll <- do.call(rbind, lapply(ll, function(x) as.data.frame(t(x))))
-    return(ll)
+    item_list <- items$message$items
+    if (is.null(item_list) || length(item_list) == 0) return(NULL)
+
+    rows <- lapply(item_list, function(item) {
+        info <- get_crossref_article_info(item)
+        as.data.frame(as.list(info), stringsAsFactors = FALSE)
+    })
+
+    out <- do.call(rbind, rows)
+    rownames(out) <- NULL
+    return(out)
 }
 
 #' Extract article info from Crossref item
@@ -98,37 +110,45 @@ get_crossref_article_info <- function(item) {
 }
 
 get_crossref_abstract <- function(item) {
-    if (is.null(item$abstract)) return(NA)
-    else return(item$abstract)
+    if (is.null(item$abstract) || length(item$abstract) == 0) return(NA_character_)
+    return(paste(unlist(item$abstract, use.names = FALSE), collapse = " "))
 }
 
 get_crossref_authors <- function(item) {
-    if (is.null(item$author)) return(NA)
-    else return(paste(lapply(item$author, get_crossref_author), collapse = ", "))
+    if (is.null(item$author) || length(item$author) == 0) return(NA_character_)
+    return(paste(vapply(item$author, get_crossref_author, character(1)), collapse = ", "))
 }
 
 get_crossref_author <- function(item) {
-    paste(item$given, item$family)
+    parts <- c(item$given, item$family)
+    parts <- unlist(parts, use.names = FALSE)
+    parts <- parts[!is.na(parts) & nzchar(parts)]
+    if (length(parts) == 0) return(NA_character_)
+    paste(parts, collapse = " ")
 }
 
 get_crossref_date <- function(item, name) {
-    if (is.null(item[[name]])) return(NA)
-    else paste(unlist(item[[name]][["date-parts"]]), collapse = "-")
+    if (is.null(item[[name]])) return(NA_character_)
+    date_parts <- unlist(item[[name]][["date-parts"]], use.names = FALSE)
+    if (length(date_parts) == 0) return(NA_character_)
+    return(paste(date_parts, collapse = "-"))
 }
 
 get_crossref_title <- function(item) {
-    if (is.null(item$title)) return(NA)
-    else unlist(item$title)
+    if (is.null(item$title) || length(item$title) == 0) return(NA_character_)
+    return(paste(unlist(item$title, use.names = FALSE), collapse = " / "))
 }
 
 get_crossref_journal <- function(item) {
-    if (is.null(item$`container-title`)) return(NA)
-    else unlist(item$`container-title`)
+    if (is.null(item$`container-title`) || length(item$`container-title`) == 0) {
+        return(NA_character_)
+    }
+    return(paste(unlist(item$`container-title`, use.names = FALSE), collapse = " / "))
 }
 
 get_crossref_url <- function(item) {
-    if (is.null(item$URL)) return(NA)
-    else unlist(item$URL)
+    if (is.null(item$URL) || length(item$URL) == 0) return(NA_character_)
+    return(as.character(item$URL[[1]]))
 }
 
 get_crossref_api_limits <- function(response) {
