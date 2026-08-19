@@ -16,8 +16,15 @@ library(purrr)
 
 # Configuration
 BUTTONDOWN_API_URL <- "https://api.buttondown.com/v1"
+BUTTONDOWN_API_VERSION <- "2026-04-01"
 MEMORY_DIR <- "./memory"
 OUTPUT_DIR <- "./output"
+
+MAX_LOOKBACK_DAYS <- c(
+    daily = 1,
+    weekly = 7,
+    monthly = 31
+)
 
 # Discipline tag to file mapping
 DISCIPLINE_MAP <- list(
@@ -68,11 +75,18 @@ get_buttondown_api_key <- function() {
 # Read last sent timestamp for a frequency tier
 get_last_sent_date <- function(frequency) {
     file_path <- file.path(MEMORY_DIR, paste0("last_email_", frequency, ".txt"))
+    last_sent <- as.Date(NA_character_)
+
     if (file.exists(file_path)) {
         date_str <- trimws(readLines(file_path, n = 1))
-        return(as.Date(date_str))
+        last_sent <- suppressWarnings(as.Date(date_str))
     }
-    return(Sys.Date() - 7)
+
+    earliest_date <- Sys.Date() - MAX_LOOKBACK_DAYS[[frequency]]
+    if (is.na(last_sent)) return(earliest_date)
+
+    # A long outage should not produce an unusably large recovery digest.
+    return(max(last_sent, earliest_date))
 }
 
 # Update last sent timestamp
@@ -210,43 +224,126 @@ get_subscribers_for_frequency <- function(api_key, frequency) {
     return(subscribers)
 }
 
-#' Send email to a specific subscriber
-#' @param api_key Buttondown API key
-#' @param subscriber_email Email address
-#' @param subject Email subject
-#' @param body Email body (markdown)
-#' @param dry_run If TRUE, don't actually send
-#' @return TRUE on success
-send_to_subscriber <- function(api_key, subscriber_email, subject, body, dry_run = FALSE) {
-    if (dry_run) {
-        cat("  [DRY RUN] Would send to:", subscriber_email, "\n")
-        return(TRUE)
+#' Format an error returned by the Buttondown API
+#' @param response httr response object
+#' @return Human-readable error detail
+get_buttondown_error <- function(response) {
+    parsed <- tryCatch(
+        content(response, "parsed", type = "application/json"),
+        error = function(e) NULL
+    )
+
+    if (is.list(parsed)) {
+        fields <- unlist(parsed[c("code", "detail")], use.names = FALSE)
+        fields <- fields[!is.na(fields) & nzchar(fields)]
+        if (length(fields) > 0) return(paste(fields, collapse = ": "))
     }
 
-    # Use the /emails/send endpoint for individual emails
-    # Or create a draft and send to specific subscriber
-    # For now, we'll use the transactional approach
+    response_text <- tryCatch(
+        content(response, "text", encoding = "UTF-8"),
+        error = function(e) ""
+    )
+    if (!nzchar(response_text)) return("No response detail")
+    substr(response_text, 1, 500)
+}
 
+#' Create a draft email without broadcasting it
+#' @param api_key Buttondown API key
+#' @param subject Email subject
+#' @param body Email body (markdown)
+#' @return Buttondown email ID
+create_buttondown_email <- function(api_key, subject, body) {
     request_body <- list(
         subject = subject,
         body = body,
-        email_type = "private",  # Private = doesn't show in archives
-        recipients = list(subscriber_email)
+        email_type = "private",
+        status = "draft"
+    )
+    idempotency_key <- paste0(
+        "picnic-email-",
+        digest::digest(paste(subject, body, sep = "\n"), algo = "sha256")
     )
 
     response <- POST(
         url = paste0(BUTTONDOWN_API_URL, "/emails"),
         add_headers(
             Authorization = paste("Token", api_key),
-            `Content-Type` = "application/json"
+            `X-API-Version` = BUTTONDOWN_API_VERSION,
+            `X-Idempotency-Key` = idempotency_key
         ),
-        body = toJSON(request_body, auto_unbox = TRUE),
-        encode = "raw"
+        body = request_body,
+        encode = "json"
     )
 
-    success <- status_code(response) %in% c(200, 201)
+    if (status_code(response) != 201) {
+        stop(
+            "Failed to create Buttondown email (",
+            status_code(response),
+            "): ",
+            get_buttondown_error(response),
+            call. = FALSE
+        )
+    }
+
+    email <- content(response, "parsed", type = "application/json")
+    if (is.null(email$id) || !nzchar(email$id)) {
+        stop("Buttondown created an email without returning its ID", call. = FALSE)
+    }
+    email$id
+}
+
+#' Send an existing email to a specific subscriber
+#' @param api_key Buttondown API key
+#' @param subscriber_id Buttondown subscriber ID
+#' @param email_id Buttondown email ID
+#' @param frequency Digest frequency
+#' @param dry_run If TRUE, don't actually send
+#' @return TRUE on success
+send_to_subscriber <- function(
+    api_key,
+    subscriber_id,
+    email_id,
+    frequency,
+    dry_run = FALSE
+) {
+    if (dry_run) {
+        cat("  [DRY RUN] Would send to subscriber:", subscriber_id, "\n")
+        return(TRUE)
+    }
+
+    subscriber_path <- URLencode(subscriber_id, reserved = TRUE)
+    email_path <- URLencode(email_id, reserved = TRUE)
+    idempotency_key <- paste(
+        "picnic-send",
+        frequency,
+        Sys.Date(),
+        subscriber_id,
+        sep = "-"
+    )
+
+    response <- POST(
+        url = paste0(
+            BUTTONDOWN_API_URL,
+            "/subscribers/", subscriber_path,
+            "/emails/", email_path
+        ),
+        add_headers(
+            Authorization = paste("Token", api_key),
+            `X-API-Version` = BUTTONDOWN_API_VERSION,
+            `X-Idempotency-Key` = idempotency_key
+        )
+    )
+
+    success <- status_code(response) == 200
     if (!success) {
-        warning("Failed to send to ", subscriber_email, ": ", status_code(response))
+        warning(
+            "Failed to send to subscriber ",
+            subscriber_id,
+            " (",
+            status_code(response),
+            "): ",
+            get_buttondown_error(response)
+        )
     }
     return(success)
 }
@@ -568,13 +665,16 @@ main <- function() {
             cat(substr(email$body, 1, 500), "...\n")
             total_sent <- total_sent + nrow(group)
         } else {
+            email_id <- create_buttondown_email(api_key, subject, email$body)
+            cat("Created Buttondown email:", email_id, "\n")
+
             # Send to each subscriber in the group
             for (i in seq_len(nrow(group))) {
                 success <- send_to_subscriber(
                     api_key = api_key,
-                    subscriber_email = group$email[i],
-                    subject = subject,
-                    body = email$body,
+                    subscriber_id = group$id[i],
+                    email_id = email_id,
+                    frequency = frequency,
                     dry_run = FALSE
                 )
 
@@ -597,10 +697,14 @@ main <- function() {
     cat("Total emails sent:", total_sent, "\n")
     if (total_failed > 0) cat("Failed:", total_failed, "\n")
 
-    # Update last sent date on success
-    if (total_sent > 0 && !dry_run) {
+    # Only advance the cursor after every attempted delivery succeeds.
+    if (total_sent > 0 && total_failed == 0 && !dry_run) {
         update_last_sent_date(frequency)
         cat("Updated last sent date to:", as.character(Sys.Date()), "\n")
+    }
+
+    if (total_failed > 0) {
+        stop(total_failed, " Buttondown delivery attempt(s) failed", call. = FALSE)
     }
 
     return(invisible(total_sent > 0))
