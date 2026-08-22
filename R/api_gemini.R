@@ -24,14 +24,13 @@ get_gemini_api_key <- function() {
 #' Call Google Gemini API
 #' @param system_prompt System instruction text
 #' @param user_text User prompt text
-#' @param model Model identifier (default: "gemini-3-flash-preview")
-#' @param temperature Generation temperature (default: 0.2)
+#' @param model Model identifier (default: "gemini-3.7-flash")
 #' @param max_tokens Maximum output tokens (default: 64)
 #' @param max_attempts Maximum request attempts for transient failures
 #' @param initial_delay Initial retry delay in seconds
 #' @return Response text or NULL on failure
-call_gemini_api <- function(system_prompt, user_text, model = "gemini-3-flash-preview",
-                            temperature = 0.2, max_tokens = 64,
+call_gemini_api <- function(system_prompt, user_text, model = "gemini-3.7-flash",
+                            max_tokens = 64,
                             max_attempts = 5, initial_delay = 2) {
     api_key <- get_gemini_api_key()
     api_url <- paste0(
@@ -50,8 +49,8 @@ call_gemini_api <- function(system_prompt, user_text, model = "gemini-3-flash-pr
             )
         ),
         generationConfig = list(
-            temperature = temperature,
-            maxOutputTokens = max_tokens
+            maxOutputTokens = max_tokens,
+            thinkingConfig = list(thinkingLevel = "low")
         )
     )
 

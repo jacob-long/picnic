@@ -37,11 +37,11 @@ api:
 
   gemini:
     base_url: "https://generativelanguage.googleapis.com/v1beta/models"
-    classification_model: "gemini-3-flash-preview"
+    classification_model: "gemini-3.7-flash"
     must_read_model: "gemini-3.1-pro-preview"
-    classification_temperature: 0.2
+    classification_thinking_level: "low"
     must_read_temperature: 1.0
-    max_output_tokens: 10
+    max_output_tokens: 64
 
   osf:
     base_url: "https://api.osf.io/v2/preprints/"
