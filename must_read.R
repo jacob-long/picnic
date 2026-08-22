@@ -62,47 +62,7 @@ Also consider articles that present novel theoretical frameworks, introduce inno
 sys_prompt2 <- "Now, I present new articles for you to choose from based on these instructions. Provide only 25 DOI numbers in response, formatted as follows: 'doi1,doi2,...,doi25'. Do not include anything else in your response besides the DOIs.\n"
 
 source("credentials.R")
-
-api_url <- "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent"
-gemini_request <- function(prompt, max_retries = 3) {
-  body <- list(
-    contents = list(
-      list(parts = list(list(text = prompt)))
-    ),
-    generationConfig = list(
-      temperature = 1
-    )
-  )
-  
-  for (attempt in 1:max_retries) {
-    response <- tryCatch({
-      POST(
-        url = paste0(api_url, "?key=", gemini_apikey),
-        body = toJSON(body, auto_unbox = TRUE),
-        add_headers("Content-Type" = "application/json")
-      )
-    }, error = function(e) e)
-    
-    if (!inherits(response, "error") && status_code(response) == 200) {
-      content <- content(response, "parsed")
-      return(content$candidates[[1]]$content$parts[[1]]$text)
-    } else if (!inherits(response, "error") && status_code(response) == 503) {
-      wait_time <- 2^attempt  # Exponential backoff: 2, 4, 8 seconds
-      message(sprintf("Attempt %d failed with 503 error. Waiting %d seconds...", attempt, wait_time))
-      Sys.sleep(wait_time)
-      next
-    } else {
-      if (attempt == max_retries) {
-        warning("Max retries reached. Last error: ", 
-                if(inherits(response, "error")) response$message 
-                else paste(status_code(response), "-", content(response, "text")))
-        return(NULL)
-      }
-      message(sprintf("Attempt %d failed. Retrying...", attempt))
-      Sys.sleep(1)
-    }
-  }
-}
+source("R/api_gemini.R")
 
 response <- gemini_request(paste(sys_prompt1, sys_prompt2, result_string))
 
