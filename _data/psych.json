@@ -1,17 +1,27 @@
 {
-  "update": "2026-08-14",
+  "update": "2026-08-22",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
       "journal_short": "AMPPS",
       "articles": [
         {
-          "title": "Commentary on “Do Musicians Have Better Short-Term Memory Than Nonmusicians? A Multilab Study”: Where Does This Study Guide Future Research Endeavors?",
-          "authors": "Tilo Strobach, Emma G. Cunningham, Shanti Astra, C. Shawn Green",
-          "url": "https://doi.org/10.1177/25152459261454633",
-          "doi": "https://doi.org/10.1177/25152459261454633",
+          "title": "How Does Model (Mis)Specification Affect Statistical Power, Type I Error Rate, and Parameter Bias in Moderated Mediation? A Registered Report",
+          "authors": "Jessica L. Fossum, Amanda K. Montoya, Samantha F. Anderson",
+          "abstract": "Moderated mediation models are commonly used in psychological research and other fields to model when and how effects occur. Researchers must choose which paths in the mediation model are moderated but may struggle to decide whether to include too many moderated paths (a maximalist approach) or too few (a minimalist approach). In this registered report, we investigate the impact of model specification on statistical power, Type I error rate, and parameter bias for the index of moderated mediation. In a systematic review of moderated mediation articles published over 1 year, we found that six model specifications accounted for 85% of analyses and that the median sample size was 285. We then conducted a Monte Carlo simulation study to examine the effects of model specification on power and Type I error rate; results were analyzed using multilevel logistic regression. Relative to the data-generating process, analysis models could be correctly specified, overspecified, underspecified, or completely misspecified. Overspecified models often showed lower statistical power than correctly specified models but relatively low parameter bias. Underspecified models generally had lower power and often unacceptably high parameter bias. Completely misspecified models showed inflated Type I error rates in some cases and sometimes unacceptable parameter bias. Based on these results, we recommend that researchers tend toward maximalist approaches to reduce parameter bias while acknowledging the associated loss of power. Preregistration can help establish a priori model specification plans.",
+          "url": "https://doi.org/10.1177/25152459261432211",
+          "doi": "https://doi.org/10.1177/25152459261432211",
           "filter": 0,
-          "created": "2026-8-13"
+          "created": "2026-8-20"
+        },
+        {
+          "title": "The Collection of Smartphone-Sensing Data Using the AWARE Framework",
+          "authors": "Patrick J. Ewell, Sarah Katz, Vassilis Kostakos, Bradley M. Okdie",
+          "abstract": "The rapid increase in smartphone adoption has led researchers to use the data gathered by mobile devices (e.g., geolocation and communication data) to understand and predict human behavior. These data are more objective and unobtrusively measured and are hard to collect using traditional lab- or web-based data-collection methods. However, the collection of smartphone-sensing data is not without its own hardships. In this article, we provide a step-by-step tutorial on using an open-source application titled AWARE to collect smartphone-sensing data and combine it with traditional psychological variables. In addition, we identify potential solutions to common challenges that researchers can face when collecting smartphone-sensing data. We offer a public resource including visual tutorials and data examples, which provide further detail and contain code that enable others to collect such data using the AWARE platform.",
+          "url": "https://doi.org/10.1177/25152459261472843",
+          "doi": "https://doi.org/10.1177/25152459261472843",
+          "filter": 0,
+          "created": "2026-8-20"
         }
       ],
       "articles_hidden": []
@@ -21,65 +31,81 @@
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "Hierarchical Bayesian modeling of interoceptive psychophysics",
-          "authors": "Arthur S. Courtin, Jesper Fischer Ehmsen, Leah Banellis, Francesca Fardo, Micah G. Allen",
-          "abstract": "Interoception, the capacity to sense, perceive, and metacognitively appraise viscerosensory and homeostatic signals, is a growing focus in psychology and psychiatry. Adaptive psychophysical tasks now allow quantification of perceptual sensitivity, bias, and precision in cardiac and respiratory domains. However, accurately estimating these parameters often requires large numbers of trials or participants, posing practical challenges, especially in clinical research where participant availability and tolerance are limited. One approach to reduce participant burden while maintaining statistical rigor is to optimize data analysis. Here, we present hierarchical Bayesian models tailored for cardiac and respiratory interoceptive psychophysics that efficiently estimate sensitivity, bias, and precision at both individual and group levels. Using simulations and empirical data, we validate these models and demonstrate that they allow enhanced inference relative to conventional approaches. To support adoption, we provide openly accessible resources, including a tutorial on implementing and fitting these models in R (written with researchers without modeling expertise in mind) and an app for sample-size justification. These tools facilitate robust, efficient, and generalizable modeling of interoceptive performance, enabling rigorous studies even with limited trials or participant availability.",
-          "url": "https://doi.org/10.3758/s13428-026-03137-3",
-          "doi": "https://doi.org/10.3758/s13428-026-03137-3",
+          "title": "The Unity Playback System: A tool for visualizing behavioral data in 3D Unity virtual environments",
+          "authors": "Xavier J. Marshall, Nathaniel V. Powell, Brett R. Fajen",
+          "url": "https://doi.org/10.3758/s13428-026-03136-4",
+          "doi": "https://doi.org/10.3758/s13428-026-03136-4",
           "filter": 0,
-          "created": "2026-8-7"
+          "created": "2026-8-18"
         },
         {
-          "title": "Contextualized sensorimotor norms: Multi-dimensional measures of sensorimotor strength for ambiguous English words, in context",
-          "authors": "Sean Trott, Benjamin Bergen",
-          "abstract": "Embodied theories of language emphasize the role of sensorimotor experience in linguistic knowledge. Central to testing these theories is the creation of large datasets of linguistic norms , which contain judgments about a word’s sensorimotor associations and can be used to predict human behavioral or brain data – sometimes in contrast to competing variables, such as those derived from distributional language models. Yet many of these datasets contain judgments about words in isolation, despite the fact that most words are ambiguous, making it difficult to determine which meaning of a word is characterized by its rating (e.g., “wooden table” vs. “data table”). In the current work, we introduce a new lexical resource (directly inspired by the Lancaster sensorimotor for 112 English words, each rated in four different contexts (448 sentences total). We demonstrate: first, that these ratings encode overlapping but distinct information from the Lancaster sensorimotor norms; second, that decontextualized ratings likely reflect the more dominant meaning of ambiguous words; third, that homonyms have more distinct sensorimotor profiles than polysemes; fourth, that the contextualized sensorimotor distance between two uses of an ambiguous word predicts human judgments about semantic relatedness; and fifth, that ratings derived from GPT-4 align reasonably well with human judgments. We conclude by suggesting that contextualized ratings like these can be used both to inform competing theories of semantic representations and also to evaluate or “probe” the ability of LMs to recover sensorimotor information.",
-          "url": "https://doi.org/10.3758/s13428-026-03134-6",
-          "doi": "https://doi.org/10.3758/s13428-026-03134-6",
+          "title": "Addressing demand artifacts in psychological research (and beyond)",
+          "authors": "Olivier Corneille, Chloé Fournier Bernard, Peter Lush",
+          "url": "https://doi.org/10.3758/s13428-026-03155-1",
+          "doi": "https://doi.org/10.3758/s13428-026-03155-1",
           "filter": 0,
-          "created": "2026-8-12"
+          "created": "2026-8-19"
         },
         {
-          "title": "Item analyses of the 20-item prosopagnosia index using classical test theory and item response theory",
-          "authors": "Masaki Mori, Midori Sugiyama",
-          "abstract": "The 20-item prosopagnosia index (PI20) is a highly practical tool for assessing lifelong difficulties in face processing across individuals (developmental prosopagnosia). Recent research suggests that the quality of the PI20 may vary depending on the item; however, the quantitative quality of each item has not been sufficiently examined. In this study, the item properties of the PI20 were investigated using classical test theory and item response theory. The analyses confirmed that the one-factor structure of the PI20 showed high reliability and validity. Item response theory further revealed that the items differed in measurement power, discrimination, and difficulty under the unidimensional graded response model. Items reflecting the additional psychological load and social consequences associated with face processing difficulty demonstrated high measurement precision. In contrast, items related to the recognition of distinctive or self-faces contributed to the construct to a lesser degree. These results indicate that while most items adequately capture the characteristics of developmental prosopagnosia, certain items may not be suitable for screening for developmental prosopagnosia. The present study provides open materials to facilitate further psychometric evaluation of the PI20 and offers insights for refining self-report assessment of developmental prosopagnosia.",
-          "url": "https://doi.org/10.3758/s13428-026-03145-3",
-          "doi": "https://doi.org/10.3758/s13428-026-03145-3",
+          "title": "MEYELens: An affordable, open-source, 3D-printable eyewear platform for pupillometry and gaze tracking",
+          "authors": "Giacomo Vecchieschi, Letizia Ingenito, Alessandro Benedetto, Caterina Luciani, Fabio Carrara, Giovanni Cioni, Andrea Guzzetta, Tommaso Pizzorusso, Laura Baroncelli, Raffaele M. Mazziotti",
+          "abstract": "Pupillometry and gaze tracking provide sensitive, noninvasive indices of autonomic function and cognitive state and are increasingly employed in neuroscience and clinical research. However, commonly used systems remain costly and often constrain hardware customization and workflow transparency. MEYELens is presented as an open-source, fully 3D-printable wearable system for low-cost pupillometry and gaze tracking using readily available components. The design is modular and mechanically adjustable to accommodate different users and experimental requirements. An open pipeline is provided for data acquisition and for both offline and online analysis. Feasibility is demonstrated across frequency-based and task-evoked pupillary paradigms, and gaze mapping is shown to operate in both screen-based and naturalistic settings. By combining affordability, modular hardware, and open software, MEYELens reduces barriers to reliable eye-based measurement and supports methodological development in resource-constrained research contexts.",
+          "url": "https://doi.org/10.3758/s13428-026-03157-z",
+          "doi": "https://doi.org/10.3758/s13428-026-03157-z",
           "filter": 0,
-          "created": "2026-8-12"
+          "created": "2026-8-21"
         },
         {
-          "title": "GridSamp: An open-source Python toolbox for grid sampling",
-          "authors": "Maarten Leemans, Christophe Bossens, Johan Wagemans",
-          "url": "https://doi.org/10.3758/s13428-026-03141-7",
-          "doi": "https://doi.org/10.3758/s13428-026-03141-7",
+          "title": "High-fidelity avatars for behavior and cognition research in virtual environments: An accessible construction method for scientists",
+          "authors": "Rachael L. Taylor, Lisa Huerta, A. Mike Burton, Markus Bindemann",
+          "abstract": "Virtual reality is increasingly employed in behavioral research, providing immersive environments that combine high levels of experimental control with ecological validity. Within virtual reality, humans are represented by digital characters - or avatars - whose realism and behavioral fidelity are crucial for studying social cognition. This study introduces an accessible method for constructing avatars with facial animations of eye gaze and expression that can be used by behavioral scientists. In two pre-registered experiments, we validate the use of these avatars for psychological research. In Experiment 1, we demonstrate that observers orient attention in response to avatar eye gaze, replicating the classic gaze-cueing effect. In Experiment 2, we show that participants can recognize avatar facial expressions with accuracy and confusion patterns comparable to those reported for human faces. These findings establish our construction pipeline as a user-friendly approach for generating high-fidelity avatars, equipping researchers with tools to investigate social and cognitive processes in controlled yet ecologically valid virtual environments. We provide access to an extensive manual for constructing avatars, along with a video example demonstrating the procedure step-by-step. Using a relatively inexpensive hand-held scanner, this enables behavioral scientists to create avatars with accurate facial animation for experiments in virtual environments.",
+          "url": "https://doi.org/10.3758/s13428-026-03139-1",
+          "doi": "https://doi.org/10.3758/s13428-026-03139-1",
           "filter": 0,
-          "created": "2026-8-10"
+          "created": "2026-8-19"
         },
         {
-          "title": "PinPointer: An offline error measurement system for motor behavior research",
-          "authors": "Milton E. T. Marin, Michael B. F. Cabrera, Joshua R. Samson, Juliana O. Parma, Alyssa Kubota",
-          "url": "https://doi.org/10.3758/s13428-026-03142-6",
-          "doi": "https://doi.org/10.3758/s13428-026-03142-6",
+          "title": "Linking signal integrity to probabilistic models of behavioral dynamics",
+          "authors": "Reza Sayfoori, Hung Cao",
+          "abstract": "Quantitative analysis of rodent behavior in naturalistic settings is crucial for neuroscience, yet traditional methods often lack precision or scalability. While ultra-wideband (UWB) sensor tracking provides centimeter-level localization, standard metrics like root mean square error (RMSE) fail to capture the probabilistic and sequential nature of behavior. We introduce a probabilistic, information-theoretic framework that leverages high-resolution UWB sensor trajectories to address this gap. By integrating Shannon entropy to quantify uncertainty, Bernoulli modeling to assess accuracy thresholds, and first-order Markov chains to characterize state dynamics, our approach derives interpretable behavioral markers directly linked to signal quality. Empirical evaluation in an open-field arena demonstrated robust tracking under line-of-sight (LoS; RMSE: 20 mm) and non-line-of-sight (NLoS; RMSE: 35 mm) conditions. Crucially, we show that physical-layer impairments propagate to behavioral metrics: NLoS conditions increased entropy from 1.15 to 1.78 bits, reduced the probability of achieving sub-20 mm accuracy from 63.2% to 27.7%, and decreased state persistence, indicating greater behavioral fragmentation. By treating UWB signals as a probabilistic information source, our computationally efficient framework establishes a methodological bridge between engineering performance and neuroscience, enabling scalable, reproducible, and low-bias behavioral quantification suitable for preclinical research in complex environments.",
+          "url": "https://doi.org/10.3758/s13428-026-03132-8",
+          "doi": "https://doi.org/10.3758/s13428-026-03132-8",
           "filter": 0,
-          "created": "2026-8-10"
+          "created": "2026-8-18"
         },
         {
-          "title": "Eye-tracking-while-reading: A living survey of datasets with open library support",
-          "authors": "Deborah N. Jakobi, David R. Reich, Paul Prasse, Jana M. Hofmann, Lena S. Bolliger, Lena A. Jäger",
-          "abstract": "Eye-tracking-while-reading corpora are a valuable resource for many different disciplines and use cases. Use cases range from studying the cognitive processes underlying reading to machine-learning-based applications, such as gaze-based assessments of reading comprehension. The past decades have seen an increase in the number and size of eye-tracking-while-reading datasets as well as increasing diversity with regard to the stimulus languages covered, the linguistic background of the participants, or accompanying psychometric or demographic data. The spread of data across different disciplines and the lack of data sharing standards across the communities lead to many existing datasets that cannot be easily reused due to a lack of interoperability. In this work, we aim at creating more transparency and clarity with regards to existing datasets and their features across different disciplines by i) presenting an extensive overview of existing datasets, ii) simplifying the sharing of newly created datasets by publishing a living overview online, https://t.uzh.ch/1Yh , presenting over 55 features for each dataset, and iii) integrating all publicly available datasets into the Python package which offers an eye-tracking datasets library. By doing so, we aim to strengthen the FAIR principles in eye-tracking-while-reading research and promote good scientific practices, such as reproducing and replicating studies.",
-          "url": "https://doi.org/10.3758/s13428-026-03126-6",
-          "doi": "https://doi.org/10.3758/s13428-026-03126-6",
+          "title": "Off-task behavior negatively impacts performance",
+          "authors": "Daniel J. Peterson, Joshua L. Fiechter, Riley Filister, Sara D. Davis",
+          "url": "https://doi.org/10.3758/s13428-026-03149-z",
+          "doi": "https://doi.org/10.3758/s13428-026-03149-z",
           "filter": 0,
-          "created": "2026-8-10"
+          "created": "2026-8-17"
         },
         {
-          "title": "Food, mammals, &amp; countries: Stimuli, their pairwise similarities, and MDS dimension values for modeling judgment, categorization, and memory in three real-world domains",
-          "authors": "David Izydorczyk, Arndt Bröder",
-          "abstract": "Three comprehensive sets of naturalistic stimuli, each with pairwise similarity ratings and multidimensional scaling (MDS)-based feature representations are presented, freely available on the corresponding OSF repository of this project under a CC-BY-SA-NC-4.0 license. The primary contribution of this work is the provision of these well-curated naturalistic stimulus sets and their associated high-quality similarity data as a resource for the research community. The sets include 80 representative items from three domains – foods, mammals, and countries – that can be used across cognitive research areas such as categorization, multiple-cue probability learning, judgment, decision-making, memory, and metamemory. Based on over 280,000 similarity judgments from $$N = 1798$$ N = 1798 participants, we derived 14 dimensions for foods, ten for mammals, and ten for countries, which reconstructed the similarity spaces with high accuracy ( $$r \\ge .93$$ r ≥ . 93 ). In a proof-of-concept study, these dimensions also explained substantial variance in participants’ numerical judgments of domain-specific criteria, underscoring their functional relevance beyond similarity tasks. By making these stimuli, similarity data, and derived feature spaces freely available, we provide researchers with tools for testing computational cognitive models in relevant real-world domains, each of which allows for examining a multitude of judgment or classification criteria.",
-          "url": "https://doi.org/10.3758/s13428-026-03114-w",
-          "doi": "https://doi.org/10.3758/s13428-026-03114-w",
+          "title": "Variable-length fully Bayesian adaptive testing and associated stopping criteria",
+          "authors": "Luping Niu, Seung W. Choi",
+          "url": "https://doi.org/10.3758/s13428-026-03148-0",
+          "doi": "https://doi.org/10.3758/s13428-026-03148-0",
           "filter": 0,
-          "created": "2026-8-12"
+          "created": "2026-8-17"
+        },
+        {
+          "title": "The Spatial Similarity Task: A cross-species approach to spatial memory",
+          "authors": "Mia Borzello, William Supian, Andrea A. Chiba",
+          "abstract": "Memory serves as the cornerstone of cognitive function and specifically enables the critical ability to disambiguate and encode similar experiences as distinct memories. Mnemonic discrimination of near spaces and places is a process crucially underpinned by a computational feature of the hippocampus, pattern separation. Whereas this refined aspect of spatial memory has been addressed in abundance in the rodent literature, fewer spatial tasks are designed to specifically query memory for spatial similarities in human subjects. To address this, we introduce an open-source virtual maze suite developed on the Unity platform, freely available for researchers to use, modify, and extend. The suite is designed to bridge the behavioral translation gap by assessing mnemonic discrimination in humans through a spatial delayed match-to-sample task, carefully modeled after rodent spatial memory tasks. Rather than relying on fully immersive systems, the suite leverages desktop-based virtual navigation to combine parametric control of experimental conditions with the ability to collect each participant’s exploratory data. The pilot experiments are presented to validate the final suite design, alongside providing representative results from a subset of participants. Mnemonic discrimination was measured by parametric manipulation of spatial distances, resulting in a spatial distance memory function in which participants made more errors in remembering the correct location amongst similar or adjacent locations relative to distant locations. Given the prevalence of spatial memory deficits in age-related cognitive decline and neurological and psychiatric conditions, and the widespread use of spatial tasks in rodent models of these disorders, the Spatial Similarity Task (SST) suite offers a translationally grounded tool with direct potential for customization towards clinical application.",
+          "url": "https://doi.org/10.3758/s13428-026-03127-5",
+          "doi": "https://doi.org/10.3758/s13428-026-03127-5",
+          "filter": 0,
+          "created": "2026-8-18"
+        },
+        {
+          "title": "ValuesML: A new multilingual dataset for values detection in news and political manifestos",
+          "authors": "Mario Scharfbillig, Theresa Reitis-Münstermann, Nicolas Stefanovitch, Johannes Kiesel, Paula Schulze Brock, Joanne Sneddon, Emmanuel Cartier, Murat Ardag, Sharon Arieli, Ella Daniel, Henrik Dobewall, Johannes Karl, Anna Krasteva, Thomas Peter Oeschger, Georgios Petasis, Luana Russo, Antonella Seddone, Aurelia Tamo-Larrieux, Hester van Herk, Nazan Avcı, Giuliano Bobba, Pierre Chiron, Ahmet Çoymak, Maria Dagioglou, Dora Katsamori, Ingmar Leijen, Berna Öney, Ricarda Scholz-Kuhn, Emilia Zankina, Sandrine Astor, Petra Auer, Livia Aulino, Anat Bardi, Fiorella Battaglia, Constanze Beierlein, Maya Benish-Weisman, Christina Christodoulou, Patricia R. Collins, Irene Coppola, Mafalda Dâmaso, Meike Morren, Einat Elizarov, Naama Erlich, Peculiar Ezeigwe-Ephraim, Ronald Fischer, Maria Cristina Gaeta, Lucilla Gatt, Noam Gerera, Sjoukje Goldman, Frederic Gonthier, Stefanie Habermann, Mina Hristova, Demet Islambay Yapali, Luigi Izzo, Panos Kapetanakis, Reşit Kışlıoğlu, Chaya Koleva, Roberta Koleva, Joshua Lake, Mael Mesplou, Vanina Ninova, Elif Sandal Önal, Shani Oppenheim-Weller, Duygu Ozturk, Ioannis Elissaios Paparrigopoulos, Vladimir Ponizovskiy, Tim Reeskens, Maria Francesca Romano, Torven Schalk, Alina Starovolsky-Shitrit, Oscar Smallenbroek, Ömer Topuz, Christin-Melanie Vauclair, Giuseppe Di Vetta, Sheng Ye",
+          "abstract": "Values are important building blocks of political ideologies and are frequently invoked in political debates. Yet, because values are abstract, understanding how they are expressed in real-world discourse, and how this varies across contexts, remains a challenge. In this paper, we introduce a large-scale, expert-annotated dataset of value expression in political text, comprising news articles and political manifestos across nine languages. The dataset is grounded in the refined theory of human values (Schwartz et al., 2012) and was developed through an iterative process of annotation guideline development, annotator training, and expert curation. Value annotations capture both the type of value expressed and its evaluative framing, distinguishing whether values are expressed as attained or constrained. The final dataset comprises 2648 texts and 74,231 sentences across nine languages. This resource enables systematic, cross-linguistic analysis of value expression in political communication and provides a benchmark for developing and evaluating computational models of value detection.",
+          "url": "https://doi.org/10.3758/s13428-026-03092-z",
+          "doi": "https://doi.org/10.3758/s13428-026-03092-z",
+          "filter": 0,
+          "created": "2026-8-20"
         }
       ],
       "articles_hidden": []
@@ -89,36 +115,60 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "Approval Mechanisms Fueling Digital Hate: Online Incivility and Intolerance Perpetration in Four Countries",
-          "authors": "Melanie Hirsch, Stephanie Bührer, Kevin Koban, Jörg Matthes",
-          "url": "https://doi.org/10.1016/j.chb.2026.109143",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109143",
+          "title": "“Can talking like you make it work?”: The role of linguistic convergence and maintenance in human–robot interaction",
+          "authors": "Jeongmin Lee, Sukyung Yoon, Hyorim Shin, Junho Choi",
+          "url": "https://doi.org/10.1016/j.chb.2026.109151",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109151",
           "filter": 0,
-          "created": "2026-8-7"
+          "created": "2026-8-17"
         },
         {
-          "title": "From “cost of asking” to “fit of asking”: How seeking help with AI shapes employees’ indebtedness and autonomy in different workplace helping contexts",
-          "authors": "Jiajing Zhai, Jiayu Gina Qu",
-          "url": "https://doi.org/10.1016/j.chb.2026.109150",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109150",
+          "title": "Cognitive Friction in AI Use and Emotional Exhaustion: The Mediating Role of Cognitive Exploitation and the Moderating Role of Fear of Missing Out",
+          "authors": "Ruixia Han",
+          "url": "https://doi.org/10.1016/j.chb.2026.109154",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109154",
           "filter": 0,
-          "created": "2026-8-12"
+          "created": "2026-8-19"
         },
         {
-          "title": "Fatalistic and disengaged: How perceived cross-platform data flow and privacy boundary turbulence are associated with emotional distress",
-          "authors": "Xiaoxiao Meng, Shuhua Zhou",
-          "url": "https://doi.org/10.1016/j.chb.2026.109145",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109145",
+          "title": "Perceived authenticity and evaluative asymmetry in judgments of AI-generated product designs: An eye-tracking and behavioral study",
+          "authors": "Longyu Zhang, Cong Fang, Yue Wu, Yisiyang Yuan, Stephen Jia Wang, Shijian Luo, So-yeon Yoon",
+          "url": "https://doi.org/10.1016/j.chb.2026.109153",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109153",
           "filter": 0,
-          "created": "2026-8-13"
+          "created": "2026-8-19"
         },
         {
-          "title": "The brick-to-jade effect of AI hallucination: Evidence from chatbots in online communities",
-          "authors": "Hongchao Zhang, Kunlu Zhou, Jifei Wu, Xirong Gao, Yinggao Qin",
-          "url": "https://doi.org/10.1016/j.chb.2026.109144",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109144",
+          "title": "Unveiling the core factors of Internet Addiction in adolescents: A machine learning and network analysis approach",
+          "authors": "Ying-Ying Chen, Xiang Niu, Jin-Liang Wang",
+          "url": "https://doi.org/10.1016/j.chb.2026.109157",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109157",
           "filter": 0,
-          "created": "2026-8-7"
+          "created": "2026-8-20"
+        },
+        {
+          "title": "Dual illusion of informational self-sufficiency and its implications for verification and truth recognition: The interplay of news-finds-me and third-person perceptions",
+          "authors": "Junghyun Moon, Taeyoung Lee",
+          "url": "https://doi.org/10.1016/j.chb.2026.109152",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109152",
+          "filter": 0,
+          "created": "2026-8-18"
+        },
+        {
+          "title": "Reducing Sectarian Prejudice through Virtual Reality in the Post-Conflict Context of Northern Ireland",
+          "authors": "Salvador Alvidrez, Gary McKeown, Rhiannon Turner",
+          "url": "https://doi.org/10.1016/j.chb.2026.109155",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109155",
+          "filter": 0,
+          "created": "2026-8-20"
+        },
+        {
+          "title": "Understanding the Temporal Dynamics of User Experience in VR Gaming: Evidence from Large-Scale Game Reviews",
+          "authors": "Hyunmin Kang, Stefan Pasch, Min Chul Cha",
+          "url": "https://doi.org/10.1016/j.chb.2026.109158",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109158",
+          "filter": 0,
+          "created": "2026-8-21"
         }
       ],
       "articles_hidden": []
@@ -128,71 +178,44 @@
       "journal_short": "GPIR",
       "articles": [
         {
-          "title": "Disentangling Religiosity: Specific Religious Perspectives Reduce Intergroup Bias",
-          "authors": "Patty Van Cappellen, Amanda M. Bernal, Caimiao Liu",
-          "abstract": "A large body of research has documented links between religiosity and prejudice toward groups perceived as threatening to traditional religious values. In the present research, we aimed to identify and experimentally manipulate facets of religiosity that reduce such intergroup bias. Across Studies 1 ( N = 293) and 2 ( N = 795), we used a theory- and data-driven approach and identified representations of God and liberal–conservative religious ideology that are associated with lower discrimination between groups that align with, are neutral to, or threaten religious values. In Studies 3 ( N = 693) and 4 ( N = 564), we developed novel perspective-taking prompts and found that encouraging American Christians to reflect on either a benevolent God or a liberal religious perspective significantly reduced bias in donation recommendations between value-neutral and value-threatening groups, relative to a control condition. These findings extend prior correlational work by identifying specific religious perspectives that can be experimentally manipulated to reduce discrimination and promote more equitable intergroup behavior toward groups that are perceived to threaten traditional religious values.",
-          "url": "https://doi.org/10.1177/13684302261469469",
-          "doi": "https://doi.org/10.1177/13684302261469469",
+          "title": "Reformulating and Reassessing Solidarity’s Downstream Effects: New Panel Evidence on People of Color During the 2024 Presidential Campaign",
+          "authors": "Efrén Pérez, Linda R. Tropp, Yuen J. Huo, Seth K. Goldman, Tatishe Nteta",
+          "abstract": "Mounting evidence shows that shared identity among people of color (PoC) heightens inter-minority solidarity, which yields downstream support for pro-Black (affirmative action), pro-Latino (undocumented immigration), and pro-Asian (high-skill immigration) policies. Previous research detects this mediation pattern in one-shot experiments. This paper evaluates solidarity’s downstream consequences in real-life politics by leveraging longitudinal data spanning the 2024 US presidential campaign. By reformulating solidarity as a developmental process, we reassess its influence in a unique three-wave panel of Asian, Black, Latino, and Multiracial adults ( N = 3,402). We found that across groups, shared PoC identity (Wave 1) significantly increased inter-minority solidarity (Wave 2), which then boosted support for pro-Black and pro-Latino policies—but not pro-Asian policy (Wave 3). This pathway is robust to controls for potential confounds. We also found support for our hypothesized causal direction from PoC identity to PoC solidarity to support for pro-PoC policies (versus a reverse pattern).",
+          "url": "https://doi.org/10.1177/13684302261462033",
+          "doi": "https://doi.org/10.1177/13684302261462033",
           "filter": 0,
-          "created": "2026-8-7"
-        },
-        {
-          "title": "Multiracial Identity Contestation and Race Concept Reflection",
-          "authors": "Zoey Eddy, Diana T. Sanchez",
-          "abstract": "This paper explores how Multiracial identity contestation may foster greater social conceptions of race through race concept reflection (i.e., thinking frequently about racial categories). Across two correlational studies, Multiracial participants (total N = 1,159) completed a cross-sectional survey measuring identity contestation, race concept reflection, social race conceptions, and flexible group categorization. Identity contestation was related to greater race concept reflection, which was associated with greater social race conceptions. Further, social race conceptions were related to higher flexible group categorization. In Study 3, participants ( n = 252) who recalled identity contestation engaged in greater race concept reflection than those in the control condition, which was associated with endorsing greater social race conceptions. In Study 4, participants ( n = 235) who reflected on race concepts after recalling identity contestation reported greater social race conceptions than those in the control condition. Identity contestation and race concept reflection may, in part, account for Multiracial people’s social race conceptions. These relationships held while controlling for related concepts such as racism reflection (Studies 1–3), general discrimination experiences (Studies 1–2), and negative affect (Studies 3–4).",
-          "url": "https://doi.org/10.1177/13684302261469447",
-          "doi": "https://doi.org/10.1177/13684302261469447",
-          "filter": 0,
-          "created": "2026-8-7"
-        },
-        {
-          "title": "The Future of Latines’ Racial Categorization and Sociopolitical Attitudes Amid Rising US Diversity",
-          "authors": "Melissa Vega, Eric Knowles, Jaime Napier",
-          "abstract": "Latines have become one of the largest ethnic groups in the United States. Given the historical fluidity of whiteness in the US and the Latine group’s uniquely ambiguous racial status, it is unclear how this group will be hierarchically and politically positioned in the future. Across three studies (total N = 1,754 Latines), we investigated how exposure to information about the possible inclusion of Latine Americans in the White racial category changes Latines’ beliefs about their group’s future racial status and their subsequent sociopolitical attitudes. Participants who read about the Latine group’s likely inclusion in (vs. continued exclusion from) the White category more strongly believed Latines would soon be considered White (Studies 1–3) and reported increased symbolic racism and political conservatism (Studies 2 and 3). Our results demonstrate the malleability of Latines’ racial categorization beliefs and suggest that White racialization might lead Latines to adopt sociopolitical views typically associated with dominant groups.",
-          "url": "https://doi.org/10.1177/13684302261471106",
-          "doi": "https://doi.org/10.1177/13684302261471106",
-          "filter": 0,
-          "created": "2026-8-7"
-        },
-        {
-          "title": "Collective Narcissism and Perceptions of the Severity of Racism Among White and Black Americans",
-          "authors": "Christopher M. Federico, Lauren I. Hopkins, Mackenzie Devaney, Agnieszka Golec De Zavala",
-          "abstract": "What explains variation in Americans’ willingness to acknowledge racism? Across two studies, we examined how national and racial collective narcissism (CN), inflated concern with recognition of one’s ingroup, relates to reluctance to recognize racism among White and Black Americans. In Study 1, national CN predicted greater unawareness of racism, stronger beliefs that White Americans face more discrimination than Black Americans, and greater opposition to teaching about racism among White respondents, with similar patterns among non-White respondents. In Study 2, national CN predicted reduced willingness to acknowledge racism among both White and Black Americans. Racial CN, however, predicted unwillingness to acknowledge racism only among White Americans; among Black Americans, racial CN was unrelated or negatively associated with racism denial once national CN was considered. National and racial CN were also more strongly associated among Whites, clarifying why racial CN displaced national CN as the primary predictor in this group.",
-          "url": "https://doi.org/10.1177/13684302261471094",
-          "doi": "https://doi.org/10.1177/13684302261471094",
-          "filter": 0,
-          "created": "2026-8-12"
+          "created": "2026-8-17"
         }
       ],
       "articles_hidden": []
     },
     {
-      "journal_full": "Journal of Personality and Social Psychology",
-      "journal_short": "JPSP",
+      "journal_full": "Journal of Experimental Social Psychology",
+      "journal_short": "JESP",
       "articles": [
         {
-          "title": "The link between self-esteem and aggression: A meta-analysis of longitudinal studies.",
-          "authors": "Jasmin A. Aebi, Oliver Lüdtke, Max Lustenberger, Ulrich Orth",
-          "url": "https://doi.org/10.1037/pspp0000613",
-          "doi": "https://doi.org/10.1037/pspp0000613",
+          "title": "American liberals and conservatives have different cognitive styles, but (mostly) respond the same to party cues",
+          "authors": "Aymin Triki, Abigail L. Cassario, Mark J. Brandt",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104994",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104994",
           "filter": 0,
-          "created": "2026-8-13"
+          "created": "2026-8-19"
         },
         {
-          "title": "The cost of an expanding moral circle: After living abroad, outcasts matter more but loved ones matter less.",
-          "authors": "Daniela Rodriguez-Mincey, Salvatore J. Affinito, Giselle E. Antoine, Kurt Gray, William W. Maddux",
-          "url": "https://doi.org/10.1037/pspa0000488",
-          "doi": "https://doi.org/10.1037/pspa0000488",
+          "title": "Do people apply different norms to humans and large language models acting on their behalf? Evidence from norm elicitations in two canonical economic games",
+          "authors": "Paweł Niszczota, Elia Antoniou",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104991",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104991",
           "filter": 0,
-          "created": "2026-8-10"
+          "created": "2026-8-19"
         },
         {
-          "title": "Self-efficacy predicts differential neuroticism change in a smartphone-based intervention.",
-          "authors": "Michael D. Krämer, Amanda J. Wright, Peter Haehner, Johannes Zimmermann, Christoph Flückiger, Christopher J. Hopwood, Wiebke Bleidorn",
-          "url": "https://doi.org/10.1037/pspp0000610",
-          "doi": "https://doi.org/10.1037/pspp0000610",
+          "title": "Abstraction in service of connection: On people's recruitment of abstraction to facilitate interaction across difference",
+          "authors": "Alys Ferragamo, Yidan Yin, Cheryl Jan Wakslak",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104993",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104993",
           "filter": 0,
-          "created": "2026-8-10"
+          "created": "2026-8-17"
         }
       ],
       "articles_hidden": []
@@ -202,28 +225,12 @@
       "journal_short": "MBR",
       "articles": [
         {
-          "title": "Romeb: An R Package for Robust Median-Based Bayesian Linear Growth Curve Modeling with Missing Data",
-          "authors": "Dandan Tang, Xin Tong",
-          "url": "https://doi.org/10.1080/00273171.2026.2711454",
-          "doi": "https://doi.org/10.1080/00273171.2026.2711454",
+          "title": "Evaluating Bayesian Variable Selection Approaches for Nonlinear Random Effects Models",
+          "authors": "Yue Zhao, Nidhi Kohli, Eric F. Lock",
+          "url": "https://doi.org/10.1080/00273171.2026.2716743",
+          "doi": "https://doi.org/10.1080/00273171.2026.2716743",
           "filter": 0,
-          "created": "2026-8-10"
-        },
-        {
-          "title": "A Mechanistic Model of Symptom Dynamics: Implications for Statistical Network Analyses",
-          "authors": "Kyuri Park, Lourens Waldorp, Vítor V. Vasconcelos",
-          "url": "https://doi.org/10.1080/00273171.2026.2710730",
-          "doi": "https://doi.org/10.1080/00273171.2026.2710730",
-          "filter": 0,
-          "created": "2026-8-10"
-        },
-        {
-          "title": "Flexible Multiple Imputation of Missing Data in Time-Structured Longitudinal Designs",
-          "authors": "Mark Lustig, Oliver Lüdtke, Alexander Robitzsch, Simon Grund",
-          "url": "https://doi.org/10.1080/00273171.2026.2710728",
-          "doi": "https://doi.org/10.1080/00273171.2026.2710728",
-          "filter": 0,
-          "created": "2026-8-7"
+          "created": "2026-8-18"
         }
       ],
       "articles_hidden": []
@@ -233,22 +240,31 @@
       "journal_short": "PSPB",
       "articles": [
         {
-          "title": "Seeing to Connect: How Visual and Auditory Channels Shape Empathic Interactions",
-          "authors": "Shir Genzer, Yonat Rum, Ulrike M. Krämer, Anat Perry",
-          "abstract": "This research examines how visual and auditory channels affect empathic interactions from the perspectives of the listener (the empathy provider), the storyteller (the empathy recipient), and the shared dyadic experience. Across three pre-registered studies ( N = 710), storytellers shared emotional experiences with listeners through online video calls, with cameras on or off. Study 1 examined empathic accuracy, attentiveness, empathy, and togetherness. Study 2 replicated these findings and extended them to emotional congruency. Study 3 introduced vocal responsiveness, positivity resonance, and prosocial behavior. Auditory information alone was sufficient for listeners to accurately identify storytellers’ emotions and to maintain high self-reported attentiveness and empathy. However, visual information shaped how storytellers perceived their listeners, and was key to creating shared positive emotions, we-ness, and mutual care, and appeared to enhance prosocial behavior. These findings suggest that while hearing each other might suffice for information sharing, optimal empathic connection requires seeing and being seen.",
-          "url": "https://doi.org/10.1177/01461672261470131",
-          "doi": "https://doi.org/10.1177/01461672261470131",
+          "title": "From the Rejector’s Side: What They Say, How They Feel, and Their Perception of the Rejectee",
+          "authors": "Sydney Okland, Gili Freedman, Andrew H. Hales, Jennifer S. Beer",
+          "abstract": "Despite extensive study of social rejectees, the little work on social rejectors may not apply to non-punitive social rejection. When people communicate social rejection, do their words convey language principles recommended to soften the blow (i.e. positive regard, sincere alternatives, more words, no apologies)? Is rejectors’ use of recommended language related to their emotions and/or their perception of rejectees’ emotions? Daily diaries and re-lived memories showed social rejectors chose words aligned with recommended language principles; this language use was associated with rejectors feeling more emotional drain and less imposition and less self-consciousness (Studies 1–2). Positive regard and sincere alternatives were associated with rejector and observer perceptions of rejectees’ emotional ease, whereas more words and avoiding apologies were associated with rejector and observer perceptions that rejectees had more emotional struggle (Studies 2–3). The present work has implications for frameworks of non-punitive social rejection and for training people on softening the blow.",
+          "url": "https://doi.org/10.1177/01461672261476436",
+          "doi": "https://doi.org/10.1177/01461672261476436",
           "filter": 0,
-          "created": "2026-8-11"
+          "created": "2026-8-19"
         },
         {
-          "title": "Maybe I Can’t Cook, but It Doesn’t Mean I Don’t Care: Moral Framing and Private Criticism of Meat Consumption Leads to Psychological Defensiveness",
-          "authors": "Isaac Chung, Pascale Sophie Russell, Erica G. Hepper",
-          "abstract": "Meat consumption contributes to climate change and has become a moralized issue. People may face moral criticism for meat consumption. Building on the central role of morality in person evaluation, this research tested the hypotheses that moral (vs. competence) and public (vs. private) criticism received online would elicit greater defensiveness among meat-eaters. Study 1 ( N = 307) supported the hypothesis that moral criticism heightened defensive responses (e.g. sensitivity, derogation, and avoidance). Study 2 ( N = 316) showed, unexpectedly, that private criticism led to greater defensiveness, potentially due to its “personal” nature. Further analysis revealed that the effects of moral framing and private criticism were mediated by perceived moral devaluation. Defensive responses were also generally stronger among individuals higher in narcissistic rivalry. In addition, perceived moral devaluation predicted lower intention to reduce meat consumption. Public messaging aimed at reducing meat consumption should avoid moral framing and personal-sounding negative feedback to minimize defensive responses.",
-          "url": "https://doi.org/10.1177/01461672261472608",
-          "doi": "https://doi.org/10.1177/01461672261472608",
+          "title": "When I Care More Than the Department Does: Research Value (In)Congruence and Faculty Epistemic Exclusion Experiences",
+          "authors": "Eun Ju Son, Martinque K. Jones, Michael O’Rourke, Dasom Jang, Isis H. Settles",
+          "abstract": "Academia values research that is quantitative, generalizable, or viewed as “objective” (centered research values), while research that is qualitative, concerned with marginalized groups, or social justice focused (marginalized research values) is often dismissed as subjective or less rigorous. We examined the relationship between faculty research values and the values they believe their departments prioritize, using survey data from 526 tenure-track faculty. We found that, for centered values, faculty–department research value incongruence did not differ by faculty race–gender, and both higher and lower endorsement of the values than the department were associated with greater epistemic exclusion. In contrast, incongruence in marginalized values varied by race–gender, with women of color faculty reporting the largest gap. Further, faculty endorsing more marginalized values than their department reported higher epistemic exclusion, whereas those endorsing less did not. In light of these results, we discuss how faculty–department research value incongruence shapes faculty’s academic experiences.",
+          "url": "https://doi.org/10.1177/01461672261465713",
+          "doi": "https://doi.org/10.1177/01461672261465713",
           "filter": 0,
-          "created": "2026-8-12"
+          "created": "2026-8-19"
+        },
+        {
+          "title": "Race Distorts How Faces Seem (Un)trustworthy",
+          "authors": "Neelamberi D. Klein, Anjana Lakshmi, Erin Freiburger, Ryan Hutchings, Kurt Hugenberg",
+          "abstract": "What makes faces seem trustworthy versus untrustworthy? People often conflate facial trustworthiness with structural resemblances to specific emotions – angry-appearing faces seem untrustworthy, while happy-appearing faces seem trustworthy. Is this universal across the ethnicity of faces? Across two pre-registered studies, we built computational models of trustworthy appearance from perceivers’ evaluations of Black, White, and East Asian synthetic faces (Study 1 Phase I: N = 405, 72% White; Study 2 Phase I: N = 436, 64% White). We manipulated new male faces to appear (un)trustworthy using the race-specific models, and raters assessed their expressions (Study 1 Phase II: N = 194, 68% White; Study 2 Phase II: N = 513, 70% White). For White targets, untrustworthiness judgments relied on structural resemblances with anger; for Black targets, on structural resemblances to fear and surprise; and for East Asian targets, on structural resemblances to multiple negatively valenced emotions. This inclusive approach broadens our understanding of how faces seem (un)trustworthy.",
+          "url": "https://doi.org/10.1177/01461672261474568",
+          "doi": "https://doi.org/10.1177/01461672261474568",
+          "filter": 0,
+          "created": "2026-8-17"
         }
       ],
       "articles_hidden": []
@@ -258,20 +274,12 @@
       "journal_short": "PM",
       "articles": [
         {
-          "title": "Columnwise neural imputation for incomplete ordinal psychometric data.",
-          "authors": "Longfei Zhang, Minjeong Jeon, Ping Chen",
-          "url": "https://doi.org/10.1037/met0000867",
-          "doi": "https://doi.org/10.1037/met0000867",
+          "title": "Within-person reliability of composite scores or single-item responses with missing intensive longitudinal data.",
+          "authors": "Daniel McNeish",
+          "url": "https://doi.org/10.1037/met0000865",
+          "doi": "https://doi.org/10.1037/met0000865",
           "filter": 0,
-          "created": "2026-8-13"
-        },
-        {
-          "title": "Dynamic latent class structural equation modeling: A hands-on tutorial for modeling intensive longitudinal data.",
-          "authors": "Roberto Faleh, Sofia Morelli, Vivato Andriamiarana, Zachary J. Roman, Christoph Flückiger, Holger Brandt",
-          "url": "https://doi.org/10.1037/met0000849",
-          "doi": "https://doi.org/10.1037/met0000849",
-          "filter": 0,
-          "created": "2026-8-10"
+          "created": "2026-8-20"
         }
       ],
       "articles_hidden": []
@@ -281,55 +289,36 @@
       "journal_short": "PsychMusic",
       "articles": [
         {
-          "title": "What Music Do People Use for Mood Regulation?",
-          "authors": "Catherine Tan, Peter M. C. Harrison",
-          "abstract": "This study seeks to understand what music is used for music mood regulation (MMR). We question how audio features can characterise the music used for different MMR strategies and explore how participant background variables (musical sophistication, sensitivity to musical reward, empathy, and well-being) might predict the use of these strategies, and hence the kinds of music adopted for MMR. Participants ( N = 229) completed an online survey that produced a dataset composed of 5,334 tracks for MMR, their Spotify audio feature measures, and scores for the participant background variables. Principal component analyses revealed that energetic and positive music was preferred for strategies that regulated positive moods or modulated arousal, whereas instrumental music was preferred for the Strong Sensation strategy and those requiring cognitive responses. Regarding individual differences, we identify various correlations between participant background variables and amount of MMR strategy usage; exploratory analyses additionally suggest that musical sophistication, empathy, and well-being also predict the kind of music that is used for particular strategies. We discuss the potential implications of our research for advancing theories on musical emotions and the development of well-being tools.",
-          "url": "https://doi.org/10.1177/03057356261469388",
-          "doi": "https://doi.org/10.1177/03057356261469388",
+          "title": "Children’s Initial Interest in Learning the Cello: An Interpretative Phenomenological Analysis",
+          "authors": "Stephanie L. R. MacArthur, Jane W. Davidson, Amanda E. Krause",
+          "abstract": "Understanding why children want to learn a musical instrument and the meanings they make from their initial interest can inform pedagogical approaches that enhance music education programmes and support sustained student learning. Research has focused on musicians’ motivations, with less attention given to children’s perspectives during early learning. This study applied Interpretative Phenomenological Analysis and Participatory Action Research, a combination of methodologies rarely used in music education research, to investigate the initial interests of 14 seven-year-old beginner cellists. As lessons commenced, the children and their mothers participated in individual semi-structured interviews. Analysis revealed rich and novel idiographic insights into the development of children’s musical motivation. Thematic findings indicated that children were primed for learning through prior musical enjoyment, exposure to stringed instrument classes, and a newfound affinity for the cello. Intrapersonal factors included four key motivations: a desire to be creative or musical, the pursuit of a hobby, curiosity about learning, and mood regulation. Interpersonal influences encompassed children’s desires to connect with family members, form peer friendships, including through orchestra participation, and build a relationship with the teacher-researcher. Each child had a unique configuration of motives, suggesting the value of personalised pedagogy in the earliest stages of learning.",
+          "url": "https://doi.org/10.1177/03057356261471783",
+          "doi": "https://doi.org/10.1177/03057356261471783",
           "filter": 0,
-          "created": "2026-8-9"
-        },
-        {
-          "title": "A Grounded Meta-Analysis of Research on Marginalized Music Teachers",
-          "authors": "Carlos R. Abril, Giulia Ripani",
-          "abstract": "Over the past 15 years, researchers have examined marginalized music teachers’ perspectives, largely through small-scale qualitative studies. Recognizing the individual merit and collective potential of this body of work, we synthesized existing studies into a cohesive theory to explain how marginalized music teachers navigate their professional lives. Three research questions guided our inquiry: (1) What factors shape the professional lives of marginalized music teachers? (2) What strategies do they use to navigate their professional identities? (3) What are the perceived psychological and behavioral outcomes associated with marginalization? Through qualitative meta-analysis, five extrinsic factors (sociocultural influences, administrators, colleagues, students and parents, and personal relationships) and one intrinsic factor (internalized concerns) emerged as central influences. Participants managed their professional identities using two primary strategies: social recategorization (concealing or downplaying their identity) and positive distinctiveness (disclosing or affirming their identity). These strategies were associated with a range of perceived psychological and behavioral outcomes, including distress, professional withdrawal, affirmation, and advocacy. The resulting middle-range theory conceptualizes identity management as a dynamic, context-dependent process associated with sociocultural, relational, and internal factors.",
-          "url": "https://doi.org/10.1177/03057356261460878",
-          "doi": "https://doi.org/10.1177/03057356261460878",
-          "filter": 0,
-          "created": "2026-8-11"
-        },
-        {
-          "title": "Using Generative Artificial Intelligence to Identify Themes of Basic Psychological Needs in Popular Song Lyrics",
-          "authors": "Hermione H. Liu, Suzy E. Miller, Mark A. Lee, Nicholas Matherne, Damien J. Miller, Emma D’Aprano",
-          "abstract": "Music listening is a universal human behaviour, increasingly recognised for its association with well-being. The mechanisms underlying how music listening influences well-being remain unclear, especially in terms of broader motivational processes. Utilising a self-determination theory (SDT) framework, we examined the extent to which popular song lyrics represented themes of basic psychological needs (BPN). Our corpus comprised the top 10 songs of the Australian Recording Industry Association’s top 100 singles chart for the period 1988–2023, resulting in 360 unique songs. Lyrics were analysed through deductive content analysis using a researcher-created application, MuseAI , which employs large language model platforms using custom media input. Our findings indicated the representation of all three BPNs across the pop song lyric corpus. Relatedness themes occurred at the highest frequency, followed by autonomy and competence, respectively. Need satisfaction occurred more frequently than need frustration. As these songs were those most listened to by audiences across more than three decades, our findings suggest that song lyrics frequently represent themes of BPN, which may help explain the motivational appeal of music listening. This exploratory research provides initial theoretical support for further investigation of music listening engagement utilising an SDT framework.",
-          "url": "https://doi.org/10.1177/03057356261465628",
-          "doi": "https://doi.org/10.1177/03057356261465628",
-          "filter": 0,
-          "created": "2026-8-9"
-        },
-        {
-          "title": "Experiencing motherhood as a professional musician: Issues of musical identity",
-          "authors": "Maria Papazachariou-Christoforou, Maria Tympa",
-          "abstract": "Recognizing that musical identities mediate how individuals and groups engage with and through music, this case study explored a professional mother-musician’s experience of musical parenting with her infant and the perception of her musical identity in this context. Data collection spanned 4 months and included semistructured interviews with the mother, informal discussions via a mother–researcher networking platform, digital diaries, and videos provided by the mother. Previous studies have identified the significance of infant–mother musical interaction for the care and development of the infant as well as for enhancing attachment and bonding between them. However, very few studies have focused on how this interaction impacts the musical identity of the mother. The findings of this study suggest that the mother incorporated a variety of musical activities into her infant’s care, and she perceived musical parenting as a fruitful context for negotiating and strengthening her own musical identity. The study’s findings suggest the need for further research into the issue of musical identity among professional musician parents within the context of musical parenting.",
-          "url": "https://doi.org/10.1177/03057356261471415",
-          "doi": "https://doi.org/10.1177/03057356261471415",
-          "filter": 0,
-          "created": "2026-8-8"
+          "created": "2026-8-19"
         }
       ],
       "articles_hidden": []
     },
     {
-      "journal_full": "Psychology of Popular Media",
-      "journal_short": "PPM",
+      "journal_full": "Technology, Mind, and Behavior",
+      "journal_short": "TMB",
       "articles": [
         {
-          "title": "Magic mirror on my screen: An experimental test of assimilation effects of beauty filters on Chinese college women’s self-esteem and affect.",
-          "authors": "Yanzhuo Niu",
-          "url": "https://doi.org/10.1037/ppm0000694",
-          "doi": "https://doi.org/10.1037/ppm0000694",
+          "title": "Would you trust and accept judges using generative artificial intelligence if you became victim of a crime?",
+          "authors": "Marvin Walczok, Friederike Funk",
+          "url": "https://doi.org/10.1037/tmb0000207",
+          "doi": "https://doi.org/10.1037/tmb0000207",
           "filter": 0,
-          "created": "2026-8-10"
+          "created": "2026-8-20"
+        },
+        {
+          "title": "Leveraging AI tools to express gratitude.",
+          "authors": "Samantha J. Heintzelman, Grace Pearce",
+          "url": "https://doi.org/10.1037/tmb0000204",
+          "doi": "https://doi.org/10.1037/tmb0000204",
+          "filter": 0,
+          "created": "2026-8-20"
         }
       ],
       "articles_hidden": []
