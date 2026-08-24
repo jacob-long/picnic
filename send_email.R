@@ -292,53 +292,53 @@ create_buttondown_email <- function(api_key, subject, body) {
     email$id
 }
 
-#' Send an existing email to a specific subscriber
+#' Send a draft email to a group of subscribers
 #' @param api_key Buttondown API key
-#' @param subscriber_id Buttondown subscriber ID
 #' @param email_id Buttondown email ID
+#' @param subscriber_ids Buttondown subscriber IDs
 #' @param frequency Digest frequency
-#' @param dry_run If TRUE, don't actually send
+#' @param post_fn HTTP POST function, injectable for tests
 #' @return TRUE on success
-send_to_subscriber <- function(
+send_draft_to_subscribers <- function(
     api_key,
-    subscriber_id,
     email_id,
+    subscriber_ids,
     frequency,
-    dry_run = FALSE
+    post_fn = POST
 ) {
-    if (dry_run) {
-        cat("  [DRY RUN] Would send to subscriber:", subscriber_id, "\n")
-        return(TRUE)
-    }
-
-    subscriber_path <- URLencode(subscriber_id, reserved = TRUE)
+    subscriber_ids <- sort(as.character(subscriber_ids))
     email_path <- URLencode(email_id, reserved = TRUE)
-    idempotency_key <- paste(
-        "picnic-send",
-        frequency,
-        Sys.Date(),
-        subscriber_id,
-        sep = "-"
+    idempotency_key <- paste0(
+        "picnic-send-draft-",
+        digest::digest(
+            paste(frequency, email_id, subscriber_ids, collapse = "\n"),
+            algo = "sha256"
+        )
     )
 
-    response <- POST(
+    response <- post_fn(
         url = paste0(
             BUTTONDOWN_API_URL,
-            "/subscribers/", subscriber_path,
-            "/emails/", email_path
+            "/emails/", email_path,
+            "/send-draft"
         ),
         add_headers(
             Authorization = paste("Token", api_key),
             `X-API-Version` = BUTTONDOWN_API_VERSION,
             `X-Idempotency-Key` = idempotency_key
-        )
+        ),
+        body = list(subscribers = subscriber_ids),
+        encode = "json"
     )
 
     success <- status_code(response) == 200
     if (!success) {
         warning(
-            "Failed to send to subscriber ",
-            subscriber_id,
+            "Failed to send draft ",
+            email_id,
+            " to ",
+            length(subscriber_ids),
+            " subscriber(s)",
             " (",
             status_code(response),
             "): ",
@@ -668,24 +668,17 @@ main <- function() {
             email_id <- create_buttondown_email(api_key, subject, email$body)
             cat("Created Buttondown email:", email_id, "\n")
 
-            # Send to each subscriber in the group
-            for (i in seq_len(nrow(group))) {
-                success <- send_to_subscriber(
-                    api_key = api_key,
-                    subscriber_id = group$id[i],
-                    email_id = email_id,
-                    frequency = frequency,
-                    dry_run = FALSE
-                )
+            success <- send_draft_to_subscribers(
+                api_key = api_key,
+                email_id = email_id,
+                subscriber_ids = group$id,
+                frequency = frequency
+            )
 
-                if (success) {
-                    total_sent <- total_sent + 1
-                } else {
-                    total_failed <- total_failed + 1
-                }
-
-                # Rate limiting - be nice to the API
-                Sys.sleep(0.5)
+            if (success) {
+                total_sent <- total_sent + nrow(group)
+            } else {
+                total_failed <- total_failed + nrow(group)
             }
         }
     }
