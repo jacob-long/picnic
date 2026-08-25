@@ -1,25 +1,25 @@
 {
-  "update": "2026-08-24",
+  "update": "2026-08-25",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
       "journal_short": "AMPPS",
       "articles": [
         {
-          "title": "How Does Model (Mis)Specification Affect Statistical Power, Type I Error Rate, and Parameter Bias in Moderated Mediation? A Registered Report",
-          "authors": "Jessica L. Fossum, Amanda K. Montoya, Samantha F. Anderson",
-          "abstract": "Moderated mediation models are commonly used in psychological research and other fields to model when and how effects occur. Researchers must choose which paths in the mediation model are moderated but may struggle to decide whether to include too many moderated paths (a maximalist approach) or too few (a minimalist approach). In this registered report, we investigate the impact of model specification on statistical power, Type I error rate, and parameter bias for the index of moderated mediation. In a systematic review of moderated mediation articles published over 1 year, we found that six model specifications accounted for 85% of analyses and that the median sample size was 285. We then conducted a Monte Carlo simulation study to examine the effects of model specification on power and Type I error rate; results were analyzed using multilevel logistic regression. Relative to the data-generating process, analysis models could be correctly specified, overspecified, underspecified, or completely misspecified. Overspecified models often showed lower statistical power than correctly specified models but relatively low parameter bias. Underspecified models generally had lower power and often unacceptably high parameter bias. Completely misspecified models showed inflated Type I error rates in some cases and sometimes unacceptable parameter bias. Based on these results, we recommend that researchers tend toward maximalist approaches to reduce parameter bias while acknowledging the associated loss of power. Preregistration can help establish a priori model specification plans.",
-          "url": "https://doi.org/10.1177/25152459261432211",
-          "doi": "https://doi.org/10.1177/25152459261432211",
-          "filter": 0,
-          "created": "2026-8-20"
-        },
-        {
           "title": "The Collection of Smartphone-Sensing Data Using the AWARE Framework",
           "authors": "Patrick J. Ewell, Sarah Katz, Vassilis Kostakos, Bradley M. Okdie",
           "abstract": "The rapid increase in smartphone adoption has led researchers to use the data gathered by mobile devices (e.g., geolocation and communication data) to understand and predict human behavior. These data are more objective and unobtrusively measured and are hard to collect using traditional lab- or web-based data-collection methods. However, the collection of smartphone-sensing data is not without its own hardships. In this article, we provide a step-by-step tutorial on using an open-source application titled AWARE to collect smartphone-sensing data and combine it with traditional psychological variables. In addition, we identify potential solutions to common challenges that researchers can face when collecting smartphone-sensing data. We offer a public resource including visual tutorials and data examples, which provide further detail and contain code that enable others to collect such data using the AWARE platform.",
           "url": "https://doi.org/10.1177/25152459261472843",
           "doi": "https://doi.org/10.1177/25152459261472843",
+          "filter": 0,
+          "created": "2026-8-20"
+        },
+        {
+          "title": "How Does Model (Mis)Specification Affect Statistical Power, Type I Error Rate, and Parameter Bias in Moderated Mediation? A Registered Report",
+          "authors": "Jessica L. Fossum, Amanda K. Montoya, Samantha F. Anderson",
+          "abstract": "Moderated mediation models are commonly used in psychological research and other fields to model when and how effects occur. Researchers must choose which paths in the mediation model are moderated but may struggle to decide whether to include too many moderated paths (a maximalist approach) or too few (a minimalist approach). In this registered report, we investigate the impact of model specification on statistical power, Type I error rate, and parameter bias for the index of moderated mediation. In a systematic review of moderated mediation articles published over 1 year, we found that six model specifications accounted for 85% of analyses and that the median sample size was 285. We then conducted a Monte Carlo simulation study to examine the effects of model specification on power and Type I error rate; results were analyzed using multilevel logistic regression. Relative to the data-generating process, analysis models could be correctly specified, overspecified, underspecified, or completely misspecified. Overspecified models often showed lower statistical power than correctly specified models but relatively low parameter bias. Underspecified models generally had lower power and often unacceptably high parameter bias. Completely misspecified models showed inflated Type I error rates in some cases and sometimes unacceptable parameter bias. Based on these results, we recommend that researchers tend toward maximalist approaches to reduce parameter bias while acknowledging the associated loss of power. Preregistration can help establish a priori model specification plans.",
+          "url": "https://doi.org/10.1177/25152459261432211",
+          "doi": "https://doi.org/10.1177/25152459261432211",
           "filter": 0,
           "created": "2026-8-20"
         }
@@ -39,14 +39,6 @@
           "created": "2026-8-18"
         },
         {
-          "title": "Addressing demand artifacts in psychological research (and beyond)",
-          "authors": "Olivier Corneille, Chloé Fournier Bernard, Peter Lush",
-          "url": "https://doi.org/10.3758/s13428-026-03155-1",
-          "doi": "https://doi.org/10.3758/s13428-026-03155-1",
-          "filter": 0,
-          "created": "2026-8-19"
-        },
-        {
           "title": "MEYELens: An affordable, open-source, 3D-printable eyewear platform for pupillometry and gaze tracking",
           "authors": "Giacomo Vecchieschi, Letizia Ingenito, Alessandro Benedetto, Caterina Luciani, Fabio Carrara, Giovanni Cioni, Andrea Guzzetta, Tommaso Pizzorusso, Laura Baroncelli, Raffaele M. Mazziotti",
           "abstract": "Pupillometry and gaze tracking provide sensitive, noninvasive indices of autonomic function and cognitive state and are increasingly employed in neuroscience and clinical research. However, commonly used systems remain costly and often constrain hardware customization and workflow transparency. MEYELens is presented as an open-source, fully 3D-printable wearable system for low-cost pupillometry and gaze tracking using readily available components. The design is modular and mechanically adjustable to accommodate different users and experimental requirements. An open pipeline is provided for data acquisition and for both offline and online analysis. Feasibility is demonstrated across frequency-based and task-evoked pupillary paradigms, and gaze mapping is shown to operate in both screen-based and naturalistic settings. By combining affordability, modular hardware, and open software, MEYELens reduces barriers to reliable eye-based measurement and supports methodological development in resource-constrained research contexts.",
@@ -54,6 +46,14 @@
           "doi": "https://doi.org/10.3758/s13428-026-03157-z",
           "filter": 0,
           "created": "2026-8-21"
+        },
+        {
+          "title": "Addressing demand artifacts in psychological research (and beyond)",
+          "authors": "Olivier Corneille, Chloé Fournier Bernard, Peter Lush",
+          "url": "https://doi.org/10.3758/s13428-026-03155-1",
+          "doi": "https://doi.org/10.3758/s13428-026-03155-1",
+          "filter": 0,
+          "created": "2026-8-19"
         },
         {
           "title": "High-fidelity avatars for behavior and cognition research in virtual environments: An accessible construction method for scientists",
@@ -65,6 +65,33 @@
           "created": "2026-8-19"
         },
         {
+          "title": "ValuesML: A new multilingual dataset for values detection in news and political manifestos",
+          "authors": "Mario Scharfbillig, Theresa Reitis-Münstermann, Nicolas Stefanovitch, Johannes Kiesel, Paula Schulze Brock, Joanne Sneddon, Emmanuel Cartier, Murat Ardag, Sharon Arieli, Ella Daniel, Henrik Dobewall, Johannes Karl, Anna Krasteva, Thomas Peter Oeschger, Georgios Petasis, Luana Russo, Antonella Seddone, Aurelia Tamo-Larrieux, Hester van Herk, Nazan Avcı, Giuliano Bobba, Pierre Chiron, Ahmet Çoymak, Maria Dagioglou, Dora Katsamori, Ingmar Leijen, Berna Öney, Ricarda Scholz-Kuhn, Emilia Zankina, Sandrine Astor, Petra Auer, Livia Aulino, Anat Bardi, Fiorella Battaglia, Constanze Beierlein, Maya Benish-Weisman, Christina Christodoulou, Patricia R. Collins, Irene Coppola, Mafalda Dâmaso, Meike Morren, Einat Elizarov, Naama Erlich, Peculiar Ezeigwe-Ephraim, Ronald Fischer, Maria Cristina Gaeta, Lucilla Gatt, Noam Gerera, Sjoukje Goldman, Frederic Gonthier, Stefanie Habermann, Mina Hristova, Demet Islambay Yapali, Luigi Izzo, Panos Kapetanakis, Reşit Kışlıoğlu, Chaya Koleva, Roberta Koleva, Joshua Lake, Mael Mesplou, Vanina Ninova, Elif Sandal Önal, Shani Oppenheim-Weller, Duygu Ozturk, Ioannis Elissaios Paparrigopoulos, Vladimir Ponizovskiy, Tim Reeskens, Maria Francesca Romano, Torven Schalk, Alina Starovolsky-Shitrit, Oscar Smallenbroek, Ömer Topuz, Christin-Melanie Vauclair, Giuseppe Di Vetta, Sheng Ye",
+          "abstract": "Values are important building blocks of political ideologies and are frequently invoked in political debates. Yet, because values are abstract, understanding how they are expressed in real-world discourse, and how this varies across contexts, remains a challenge. In this paper, we introduce a large-scale, expert-annotated dataset of value expression in political text, comprising news articles and political manifestos across nine languages. The dataset is grounded in the refined theory of human values (Schwartz et al., 2012) and was developed through an iterative process of annotation guideline development, annotator training, and expert curation. Value annotations capture both the type of value expressed and its evaluative framing, distinguishing whether values are expressed as attained or constrained. The final dataset comprises 2648 texts and 74,231 sentences across nine languages. This resource enables systematic, cross-linguistic analysis of value expression in political communication and provides a benchmark for developing and evaluating computational models of value detection.",
+          "url": "https://doi.org/10.3758/s13428-026-03092-z",
+          "doi": "https://doi.org/10.3758/s13428-026-03092-z",
+          "filter": 0,
+          "created": "2026-8-20"
+        },
+        {
+          "title": "Tetrix: A novel Tetris-based paradigm for neuroimaging research and clinical applications",
+          "authors": "Julius Grote, Julia Elina Stocker, Jens Sommer, Anna-Maria Hamm, Henrik Kessler, Andreas Jansen",
+          "abstract": "Tetris is a widely used computer game, not only for entertainment purposes but increasingly in cognitive and clinical neuroscience research. Despite its frequent application in experiments, the neural mechanisms underlying gameplay remain insufficiently understood. Prior work suggests that cognitive control during complex visuospatial tasks, like Tetris, engages the attention network as well as regions supporting visuospatial working memory, mental imagery, and motor planning. However, researchers currently lack a standardized paradigm to investigate these processes. To address this gap, we introduce Tetrix, a novel and flexible Tetris-based paradigm designed for use in behavioral and functional magnetic resonance imaging (fMRI) experiments. With a broad range of customizable features, Tetrix can be adapted to specific experimental requirements or used in its default configuration. To validate the paradigm’s feasibility for neuroimaging applications, we conducted a proof-of-concept fMRI study with six participants. Results revealed robust bilateral activity in the frontal eye fields and posterior parietal cortex – key nodes of the dorsal attention network. Additional activation was found in the cerebellum and occipital cortex. These regions are thought to support rapid spatial orienting, the encoding and maintenance of visuospatial working memory, and motor planning. The observed activation patterns therefore align with theoretical expectations and confirm Tetrix’s utility for probing relevant cognitive functions in fMRI. Moreover, the pilot dataset and corresponding effect size maps provide a valuable resource for estimating statistical power in future research. In summary, this article introduces Tetrix as a standardized and validated paradigm for functional neuroimaging and beyond. It is available at: https://github.com/JuliusGrote/Tetrix_Psychopy .",
+          "url": "https://doi.org/10.3758/s13428-026-03150-6",
+          "doi": "https://doi.org/10.3758/s13428-026-03150-6",
+          "filter": 0,
+          "created": "2026-8-24"
+        },
+        {
+          "title": "Measuring surprisal in sound sequences",
+          "authors": "Andrey Anikin",
+          "abstract": "Sensory input that violates prior expectations attracts attention, making unpredictability an important perceptual property to measure. In the auditory modality, knowing what sounds will be perceived as surprising, and therefore salient, is relevant both for studying vocal communication and for applied purposes such as managing noise pollution. Focusing on sequences of animal vocalizations and environmental sounds as ecologically important acoustic stimuli, I describe and benchmark several algorithms for measuring their perceived unpredictability. Information-theoretical approaches include Shannon surprisal and Bayesian surprise, both implemented here to detect deviant stimuli based on distributional acoustic properties. The second group of algorithms is based on detecting spectro-temporal recurrence assessed with autocorrelation functions (ACF surprisal) and self-similarity matrices (SSM novelty). The third approach uses neural networks. Based on the ratings of the predictability of 300 synthetic acoustic sequences by 195 human listeners, Shannon surprisal and SSM novelty capture the perceived unpredictability that is due to spectral variability, whereas ACF surprisal taps into the perceptual impact of irregular rhythm. Most algorithms converge on the time scale of about 1 s as the most perceptually relevant for spectral variability, which is consistent with the hypothesis that the perception of unpredictability stems from a relatively limited amount of auditory input held in short-term memory. Together, the presented open-source algorithms offer powerful and flexible tools for measuring acoustic surprisal and studying auditory attention, while the corpus of predictability ratings offers a resource for future benchmarking. All code and data are freely available from the R package soundgen and supplementary materials at https://osf.io/bgzvc .",
+          "url": "https://doi.org/10.3758/s13428-026-03153-3",
+          "doi": "https://doi.org/10.3758/s13428-026-03153-3",
+          "filter": 0,
+          "created": "2026-8-24"
+        },
+        {
           "title": "Linking signal integrity to probabilistic models of behavioral dynamics",
           "authors": "Reza Sayfoori, Hung Cao",
           "abstract": "Quantitative analysis of rodent behavior in naturalistic settings is crucial for neuroscience, yet traditional methods often lack precision or scalability. While ultra-wideband (UWB) sensor tracking provides centimeter-level localization, standard metrics like root mean square error (RMSE) fail to capture the probabilistic and sequential nature of behavior. We introduce a probabilistic, information-theoretic framework that leverages high-resolution UWB sensor trajectories to address this gap. By integrating Shannon entropy to quantify uncertainty, Bernoulli modeling to assess accuracy thresholds, and first-order Markov chains to characterize state dynamics, our approach derives interpretable behavioral markers directly linked to signal quality. Empirical evaluation in an open-field arena demonstrated robust tracking under line-of-sight (LoS; RMSE: 20 mm) and non-line-of-sight (NLoS; RMSE: 35 mm) conditions. Crucially, we show that physical-layer impairments propagate to behavioral metrics: NLoS conditions increased entropy from 1.15 to 1.78 bits, reduced the probability of achieving sub-20 mm accuracy from 63.2% to 27.7%, and decreased state persistence, indicating greater behavioral fragmentation. By treating UWB signals as a probabilistic information source, our computationally efficient framework establishes a methodological bridge between engineering performance and neuroscience, enabling scalable, reproducible, and low-bias behavioral quantification suitable for preclinical research in complex environments.",
@@ -74,22 +101,6 @@
           "created": "2026-8-18"
         },
         {
-          "title": "Off-task behavior negatively impacts performance",
-          "authors": "Daniel J. Peterson, Joshua L. Fiechter, Riley Filister, Sara D. Davis",
-          "url": "https://doi.org/10.3758/s13428-026-03149-z",
-          "doi": "https://doi.org/10.3758/s13428-026-03149-z",
-          "filter": 0,
-          "created": "2026-8-17"
-        },
-        {
-          "title": "Variable-length fully Bayesian adaptive testing and associated stopping criteria",
-          "authors": "Luping Niu, Seung W. Choi",
-          "url": "https://doi.org/10.3758/s13428-026-03148-0",
-          "doi": "https://doi.org/10.3758/s13428-026-03148-0",
-          "filter": 0,
-          "created": "2026-8-17"
-        },
-        {
           "title": "The Spatial Similarity Task: A cross-species approach to spatial memory",
           "authors": "Mia Borzello, William Supian, Andrea A. Chiba",
           "abstract": "Memory serves as the cornerstone of cognitive function and specifically enables the critical ability to disambiguate and encode similar experiences as distinct memories. Mnemonic discrimination of near spaces and places is a process crucially underpinned by a computational feature of the hippocampus, pattern separation. Whereas this refined aspect of spatial memory has been addressed in abundance in the rodent literature, fewer spatial tasks are designed to specifically query memory for spatial similarities in human subjects. To address this, we introduce an open-source virtual maze suite developed on the Unity platform, freely available for researchers to use, modify, and extend. The suite is designed to bridge the behavioral translation gap by assessing mnemonic discrimination in humans through a spatial delayed match-to-sample task, carefully modeled after rodent spatial memory tasks. Rather than relying on fully immersive systems, the suite leverages desktop-based virtual navigation to combine parametric control of experimental conditions with the ability to collect each participant’s exploratory data. The pilot experiments are presented to validate the final suite design, alongside providing representative results from a subset of participants. Mnemonic discrimination was measured by parametric manipulation of spatial distances, resulting in a spatial distance memory function in which participants made more errors in remembering the correct location amongst similar or adjacent locations relative to distant locations. Given the prevalence of spatial memory deficits in age-related cognitive decline and neurological and psychiatric conditions, and the widespread use of spatial tasks in rodent models of these disorders, the Spatial Similarity Task (SST) suite offers a translationally grounded tool with direct potential for customization towards clinical application.",
@@ -97,15 +108,6 @@
           "doi": "https://doi.org/10.3758/s13428-026-03127-5",
           "filter": 0,
           "created": "2026-8-18"
-        },
-        {
-          "title": "ValuesML: A new multilingual dataset for values detection in news and political manifestos",
-          "authors": "Mario Scharfbillig, Theresa Reitis-Münstermann, Nicolas Stefanovitch, Johannes Kiesel, Paula Schulze Brock, Joanne Sneddon, Emmanuel Cartier, Murat Ardag, Sharon Arieli, Ella Daniel, Henrik Dobewall, Johannes Karl, Anna Krasteva, Thomas Peter Oeschger, Georgios Petasis, Luana Russo, Antonella Seddone, Aurelia Tamo-Larrieux, Hester van Herk, Nazan Avcı, Giuliano Bobba, Pierre Chiron, Ahmet Çoymak, Maria Dagioglou, Dora Katsamori, Ingmar Leijen, Berna Öney, Ricarda Scholz-Kuhn, Emilia Zankina, Sandrine Astor, Petra Auer, Livia Aulino, Anat Bardi, Fiorella Battaglia, Constanze Beierlein, Maya Benish-Weisman, Christina Christodoulou, Patricia R. Collins, Irene Coppola, Mafalda Dâmaso, Meike Morren, Einat Elizarov, Naama Erlich, Peculiar Ezeigwe-Ephraim, Ronald Fischer, Maria Cristina Gaeta, Lucilla Gatt, Noam Gerera, Sjoukje Goldman, Frederic Gonthier, Stefanie Habermann, Mina Hristova, Demet Islambay Yapali, Luigi Izzo, Panos Kapetanakis, Reşit Kışlıoğlu, Chaya Koleva, Roberta Koleva, Joshua Lake, Mael Mesplou, Vanina Ninova, Elif Sandal Önal, Shani Oppenheim-Weller, Duygu Ozturk, Ioannis Elissaios Paparrigopoulos, Vladimir Ponizovskiy, Tim Reeskens, Maria Francesca Romano, Torven Schalk, Alina Starovolsky-Shitrit, Oscar Smallenbroek, Ömer Topuz, Christin-Melanie Vauclair, Giuseppe Di Vetta, Sheng Ye",
-          "abstract": "Values are important building blocks of political ideologies and are frequently invoked in political debates. Yet, because values are abstract, understanding how they are expressed in real-world discourse, and how this varies across contexts, remains a challenge. In this paper, we introduce a large-scale, expert-annotated dataset of value expression in political text, comprising news articles and political manifestos across nine languages. The dataset is grounded in the refined theory of human values (Schwartz et al., 2012) and was developed through an iterative process of annotation guideline development, annotator training, and expert curation. Value annotations capture both the type of value expressed and its evaluative framing, distinguishing whether values are expressed as attained or constrained. The final dataset comprises 2648 texts and 74,231 sentences across nine languages. This resource enables systematic, cross-linguistic analysis of value expression in political communication and provides a benchmark for developing and evaluating computational models of value detection.",
-          "url": "https://doi.org/10.3758/s13428-026-03092-z",
-          "doi": "https://doi.org/10.3758/s13428-026-03092-z",
-          "filter": 0,
-          "created": "2026-8-20"
         }
       ],
       "articles_hidden": []
@@ -115,26 +117,18 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "“Can talking like you make it work?”: The role of linguistic convergence and maintenance in human–robot interaction",
-          "authors": "Jeongmin Lee, Sukyung Yoon, Hyorim Shin, Junho Choi",
-          "url": "https://doi.org/10.1016/j.chb.2026.109151",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109151",
+          "title": "Dual illusion of informational self-sufficiency and its implications for verification and truth recognition: The interplay of news-finds-me and third-person perceptions",
+          "authors": "Junghyun Moon, Taeyoung Lee",
+          "url": "https://doi.org/10.1016/j.chb.2026.109152",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109152",
           "filter": 0,
-          "created": "2026-8-17"
+          "created": "2026-8-18"
         },
         {
-          "title": "Cognitive Friction in AI Use and Emotional Exhaustion: The Mediating Role of Cognitive Exploitation and the Moderating Role of Fear of Missing Out",
+          "title": "Cognitive friction in AI use and emotional exhaustion: The mediating role of cognitive exploitation and the moderating role of fear of missing out",
           "authors": "Ruixia Han",
           "url": "https://doi.org/10.1016/j.chb.2026.109154",
           "doi": "https://doi.org/10.1016/j.chb.2026.109154",
-          "filter": 0,
-          "created": "2026-8-19"
-        },
-        {
-          "title": "Perceived authenticity and evaluative asymmetry in judgments of AI-generated product designs: An eye-tracking and behavioral study",
-          "authors": "Longyu Zhang, Cong Fang, Yue Wu, Yisiyang Yuan, Stephen Jia Wang, Shijian Luo, So-yeon Yoon",
-          "url": "https://doi.org/10.1016/j.chb.2026.109153",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109153",
           "filter": 0,
           "created": "2026-8-19"
         },
@@ -147,20 +141,12 @@
           "created": "2026-8-20"
         },
         {
-          "title": "Dual illusion of informational self-sufficiency and its implications for verification and truth recognition: The interplay of news-finds-me and third-person perceptions",
-          "authors": "Junghyun Moon, Taeyoung Lee",
-          "url": "https://doi.org/10.1016/j.chb.2026.109152",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109152",
+          "title": "Understanding the Temporal Dynamics of User Experience in VR Gaming: Evidence from Large-Scale Game Reviews",
+          "authors": "Hyunmin Kang, Stefan Pasch, Min Chul Cha",
+          "url": "https://doi.org/10.1016/j.chb.2026.109158",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109158",
           "filter": 0,
-          "created": "2026-8-18"
-        },
-        {
-          "title": "Reducing sectarian prejudice through virtual reality in the post-conflict context of Northern Ireland",
-          "authors": "Salvador Alvidrez, Gary McKeown, Rhiannon Turner",
-          "url": "https://doi.org/10.1016/j.chb.2026.109155",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109155",
-          "filter": 0,
-          "created": "2026-8-20"
+          "created": "2026-8-21"
         },
         {
           "title": "See what you see, hear what you hear: Theorizing AI Device Embodiment (ADE) and its effects on well-being, perceived social support, and adoption",
@@ -171,12 +157,20 @@
           "created": "2026-8-22"
         },
         {
-          "title": "Understanding the Temporal Dynamics of User Experience in VR Gaming: Evidence from Large-Scale Game Reviews",
-          "authors": "Hyunmin Kang, Stefan Pasch, Min Chul Cha",
-          "url": "https://doi.org/10.1016/j.chb.2026.109158",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109158",
+          "title": "Reducing sectarian prejudice through virtual reality in the post-conflict context of Northern Ireland",
+          "authors": "Salvador Alvidrez, Gary McKeown, Rhiannon Turner",
+          "url": "https://doi.org/10.1016/j.chb.2026.109155",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109155",
           "filter": 0,
-          "created": "2026-8-21"
+          "created": "2026-8-20"
+        },
+        {
+          "title": "Perceived authenticity and evaluative asymmetry in judgments of AI-generated product designs: An eye-tracking and behavioral study",
+          "authors": "Longyu Zhang, Cong Fang, Yue Wu, Yisiyang Yuan, Stephen Jia Wang, Shijian Luo, So-yeon Yoon",
+          "url": "https://doi.org/10.1016/j.chb.2026.109153",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109153",
+          "filter": 0,
+          "created": "2026-8-19"
         }
       ],
       "articles_hidden": []
@@ -186,6 +180,15 @@
       "journal_short": "GPIR",
       "articles": [
         {
+          "title": "Schools’ Respect for Identity-Based Differences and Student Outcomes: Examining the Relationship among Students with Varying Numbers of Marginalized Identities",
+          "authors": "Kimberly A. Bourne, Katherine T. Foster, Annie X. Xu, Cynthia S. Levine",
+          "abstract": "When schools value diversity, students with marginalized identities exhibit better academic and well-being outcomes. However, most work focuses on one identity dimension (e.g., race, sexuality) at a time. Using data from the California Healthy Kids Survey ( N = 205,064 students in 6th–12th grade across 751 schools), we examined how the number of marginalized identities students held, schools’ respect for identity-based differences, and the interaction between these factors were associated with multiple outcomes (e.g., belonging, grades, and reported suicidality). Looking across multiple dimensions of marginalization (i.e., race, income, gender identity, sexual orientation, and language spoken at home), we found that 1) more marginalized identities predicted worse outcomes, 2) greater school respect for differences predicted better outcomes, and 3) this association was stronger among students with fewer marginalized identities for some outcomes but equally strong across all students for others. These results highlight the importance of respect for identity-based differences for all students.",
+          "url": "https://doi.org/10.1177/13684302261475996",
+          "doi": "https://doi.org/10.1177/13684302261475996",
+          "filter": 0,
+          "created": "2026-8-24"
+        },
+        {
           "title": "Economic Inequality is Masculine: High Vertical Pay Gap Fuels Expectations for Gender Discrimination via Inferred Masculinity Norms",
           "authors": "Silvia Filippi, Matilde Tumino, Luciana Carraro, Caterina Suitner",
           "abstract": "Gender discrimination remains a major obstacle to workplace equality. While various factors contribute to this issue, organizational structures that reinforce hierarchical, male-dominated cultures may indicate that gender discrimination is widespread and normative. This research examines how vertical pay gaps—the wage gap between top earners and other employees—are used by employees as cues for organizational norms, which in turn shape perceptions and expectations of workplace gender discrimination. Study 1 ( N = 410, cross-sectional) shows that women report higher levels of perceived gender discrimination in organizations with greater pay inequality. In Studies 2a and 2b ( N total = 711, preregistered experiments), we manipulate vertical pay gap and confirm its impact on discrimination expectations. Importantly, this effect is mediated by the perception that unequal organizations foster a masculine workplace climate, reinforcing norms such as dominance, competition, and strength. These findings demonstrate that economic inequality fosters an organizational climate that disadvantages women. Reducing pay disparities through wage caps may promote a more inclusive work climate.",
@@ -193,15 +196,6 @@
           "doi": "https://doi.org/10.1177/13684302261475990",
           "filter": 0,
           "created": "2026-8-22"
-        },
-        {
-          "title": "Reformulating and Reassessing Solidarity’s Downstream Effects: New Panel Evidence on People of Color During the 2024 Presidential Campaign",
-          "authors": "Efrén Pérez, Linda R. Tropp, Yuen J. Huo, Seth K. Goldman, Tatishe Nteta",
-          "abstract": "Mounting evidence shows that shared identity among people of color (PoC) heightens inter-minority solidarity, which yields downstream support for pro-Black (affirmative action), pro-Latino (undocumented immigration), and pro-Asian (high-skill immigration) policies. Previous research detects this mediation pattern in one-shot experiments. This paper evaluates solidarity’s downstream consequences in real-life politics by leveraging longitudinal data spanning the 2024 US presidential campaign. By reformulating solidarity as a developmental process, we reassess its influence in a unique three-wave panel of Asian, Black, Latino, and Multiracial adults ( N = 3,402). We found that across groups, shared PoC identity (Wave 1) significantly increased inter-minority solidarity (Wave 2), which then boosted support for pro-Black and pro-Latino policies—but not pro-Asian policy (Wave 3). This pathway is robust to controls for potential confounds. We also found support for our hypothesized causal direction from PoC identity to PoC solidarity to support for pro-PoC policies (versus a reverse pattern).",
-          "url": "https://doi.org/10.1177/13684302261462033",
-          "doi": "https://doi.org/10.1177/13684302261462033",
-          "filter": 0,
-          "created": "2026-8-17"
         }
       ],
       "articles_hidden": []
@@ -225,14 +219,21 @@
           "doi": "https://doi.org/10.1016/j.jesp.2026.104991",
           "filter": 0,
           "created": "2026-8-19"
-        },
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Journal of Personality and Social Psychology",
+      "journal_short": "JPSP",
+      "articles": [
         {
-          "title": "Abstraction in service of connection: On people's recruitment of abstraction to facilitate interaction across difference",
-          "authors": "Alys Ferragamo, Yidan Yin, Cheryl Jan Wakslak",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104993",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104993",
+          "title": "Insights into growth mindsets over time: People with growth versus fixed mindsets grow increasingly negative in their reactions to others’ repeated failures.",
+          "authors": "Samantha Zaw, Laura E. Wallace, Ed O'Brien",
+          "url": "https://doi.org/10.1037/pspi0000526",
+          "doi": "https://doi.org/10.1037/pspi0000526",
           "filter": 0,
-          "created": "2026-8-17"
+          "created": "2026-8-24"
         }
       ],
       "articles_hidden": []
@@ -241,6 +242,14 @@
       "journal_full": "Multivariate Behavioral Research",
       "journal_short": "MBR",
       "articles": [
+        {
+          "title": "Exploratory Continuous-Time Modeling (Expct): Extracting Dynamic Features from Irregularly Spaced Time Series",
+          "authors": "Oisín Ryan, Kejin Wu, Nicholas C. Jacobson",
+          "url": "https://doi.org/10.1080/00273171.2026.2717741",
+          "doi": "https://doi.org/10.1080/00273171.2026.2717741",
+          "filter": 0,
+          "created": "2026-8-24"
+        },
         {
           "title": "Evaluating Bayesian Variable Selection Approaches for Nonlinear Random Effects Models",
           "authors": "Yue Zhao, Nidhi Kohli, Eric F. Lock",
@@ -256,6 +265,24 @@
       "journal_full": "Personality and Social Psychology Bulletin",
       "journal_short": "PSPB",
       "articles": [
+        {
+          "title": "When I Care More Than the Department Does: Research Value (In)Congruence and Faculty Epistemic Exclusion Experiences",
+          "authors": "Eun Ju Son, Martinque K. Jones, Michael O’Rourke, Dasom Jang, Isis H. Settles",
+          "abstract": "Academia values research that is quantitative, generalizable, or viewed as “objective” (centered research values), while research that is qualitative, concerned with marginalized groups, or social justice focused (marginalized research values) is often dismissed as subjective or less rigorous. We examined the relationship between faculty research values and the values they believe their departments prioritize, using survey data from 526 tenure-track faculty. We found that, for centered values, faculty–department research value incongruence did not differ by faculty race–gender, and both higher and lower endorsement of the values than the department were associated with greater epistemic exclusion. In contrast, incongruence in marginalized values varied by race–gender, with women of color faculty reporting the largest gap. Further, faculty endorsing more marginalized values than their department reported higher epistemic exclusion, whereas those endorsing less did not. In light of these results, we discuss how faculty–department research value incongruence shapes faculty’s academic experiences.",
+          "url": "https://doi.org/10.1177/01461672261465713",
+          "doi": "https://doi.org/10.1177/01461672261465713",
+          "filter": 0,
+          "created": "2026-8-19"
+        },
+        {
+          "title": "The Eras of Singlehood: 11-Year Longitudinal Trajectories of Never-Married Singles’ Well-Being Across Cohorts",
+          "authors": "Elaine Hoan, Geoff MacDonald, Matthew D. Johnson",
+          "abstract": "Lifespan theories often frame partnership and marriage as central life goals, while largely overlooking those who never marry. The present study examined 11-year trajectories (2009/2010–2020/2021) of never-married German singles across three birth cohorts ( N = 2,930; ages 18–48). Using latent class growth analysis, we modeled trajectories of life satisfaction, singlehood satisfaction, sexual satisfaction, and desire for a partner. Most never-married singles reported consistently high and relatively stable life satisfaction. In contrast, singlehood satisfaction, sexual satisfaction, and partner desire showed greater heterogeneity, with classes differing mainly in baseline levels and remaining stable over time. Trajectories with the highest well-being were more highly educated, extraverted, more likely to be employed full-time, and lower in neuroticism. Interestingly, trajectories with the strongest partner desire showed lower education levels and higher agreeableness. Altogether, while singles report diverse romantic and sexual experiences, singles still report satisfaction with their lives generally.",
+          "url": "https://doi.org/10.1177/01461672261475727",
+          "doi": "https://doi.org/10.1177/01461672261475727",
+          "filter": 0,
+          "created": "2026-8-22"
+        },
         {
           "title": "Unequal Burdens, Unequal Benefits: Housework, Mental Load, and Gendered Satisfaction in Heterosexual Relationships",
           "authors": "Verena Klein, Esra Ascigil, Tanja Oschatz, Rotem Kahalon",
@@ -273,33 +300,6 @@
           "doi": "https://doi.org/10.1177/01461672261476436",
           "filter": 0,
           "created": "2026-8-19"
-        },
-        {
-          "title": "When I Care More Than the Department Does: Research Value (In)Congruence and Faculty Epistemic Exclusion Experiences",
-          "authors": "Eun Ju Son, Martinque K. Jones, Michael O’Rourke, Dasom Jang, Isis H. Settles",
-          "abstract": "Academia values research that is quantitative, generalizable, or viewed as “objective” (centered research values), while research that is qualitative, concerned with marginalized groups, or social justice focused (marginalized research values) is often dismissed as subjective or less rigorous. We examined the relationship between faculty research values and the values they believe their departments prioritize, using survey data from 526 tenure-track faculty. We found that, for centered values, faculty–department research value incongruence did not differ by faculty race–gender, and both higher and lower endorsement of the values than the department were associated with greater epistemic exclusion. In contrast, incongruence in marginalized values varied by race–gender, with women of color faculty reporting the largest gap. Further, faculty endorsing more marginalized values than their department reported higher epistemic exclusion, whereas those endorsing less did not. In light of these results, we discuss how faculty–department research value incongruence shapes faculty’s academic experiences.",
-          "url": "https://doi.org/10.1177/01461672261465713",
-          "doi": "https://doi.org/10.1177/01461672261465713",
-          "filter": 0,
-          "created": "2026-8-19"
-        },
-        {
-          "title": "Race Distorts How Faces Seem (Un)trustworthy",
-          "authors": "Neelamberi D. Klein, Anjana Lakshmi, Erin Freiburger, Ryan Hutchings, Kurt Hugenberg",
-          "abstract": "What makes faces seem trustworthy versus untrustworthy? People often conflate facial trustworthiness with structural resemblances to specific emotions – angry-appearing faces seem untrustworthy, while happy-appearing faces seem trustworthy. Is this universal across the ethnicity of faces? Across two pre-registered studies, we built computational models of trustworthy appearance from perceivers’ evaluations of Black, White, and East Asian synthetic faces (Study 1 Phase I: N = 405, 72% White; Study 2 Phase I: N = 436, 64% White). We manipulated new male faces to appear (un)trustworthy using the race-specific models, and raters assessed their expressions (Study 1 Phase II: N = 194, 68% White; Study 2 Phase II: N = 513, 70% White). For White targets, untrustworthiness judgments relied on structural resemblances with anger; for Black targets, on structural resemblances to fear and surprise; and for East Asian targets, on structural resemblances to multiple negatively valenced emotions. This inclusive approach broadens our understanding of how faces seem (un)trustworthy.",
-          "url": "https://doi.org/10.1177/01461672261474568",
-          "doi": "https://doi.org/10.1177/01461672261474568",
-          "filter": 0,
-          "created": "2026-8-17"
-        },
-        {
-          "title": "The Eras of Singlehood: 11-Year Longitudinal Trajectories of Never-Married Singles’ Well-Being Across Cohorts",
-          "authors": "Elaine Hoan, Geoff MacDonald, Matthew D. Johnson",
-          "abstract": "Lifespan theories often frame partnership and marriage as central life goals, while largely overlooking those who never marry. The present study examined 11-year trajectories (2009/2010–2020/2021) of never-married German singles across three birth cohorts ( N = 2,930; ages 18–48). Using latent class growth analysis, we modeled trajectories of life satisfaction, singlehood satisfaction, sexual satisfaction, and desire for a partner. Most never-married singles reported consistently high and relatively stable life satisfaction. In contrast, singlehood satisfaction, sexual satisfaction, and partner desire showed greater heterogeneity, with classes differing mainly in baseline levels and remaining stable over time. Trajectories with the highest well-being were more highly educated, extraverted, more likely to be employed full-time, and lower in neuroticism. Interestingly, trajectories with the strongest partner desire showed lower education levels and higher agreeableness. Altogether, while singles report diverse romantic and sexual experiences, singles still report satisfaction with their lives generally.",
-          "url": "https://doi.org/10.1177/01461672261475727",
-          "doi": "https://doi.org/10.1177/01461672261475727",
-          "filter": 0,
-          "created": "2026-8-22"
         }
       ],
       "articles_hidden": []
@@ -320,6 +320,22 @@
       "articles_hidden": []
     },
     {
+      "journal_full": "Psychological Science",
+      "journal_short": "PsychSci",
+      "articles": [
+        {
+          "title": "Ties That Bind, Places That Matter: The Life-Satisfaction Gap Between Partnered and Single Individuals Varies Across Regions",
+          "authors": "Tita Gonzalez Avilés, Franz J. Neyer, Peter J. Rentfrow, Tobias Ebert",
+          "abstract": "People in romantic relationships often report higher life satisfaction than single individuals. We propose that this life-satisfaction gap reflects, in part, alignment with the prevailing norm of being in a relationship. In a preregistered study with a large-scale data set ( N = 382,078 adults across 379 regions in Great Britain), we replicated prior findings: partnered (vs. single) individuals reported higher life satisfaction. Notably, this life-satisfaction gap varied by region, being larger in regions with higher relationship rates and smaller in regions with lower relationship rates. This effect persisted after we controlled for various confounds; it passed robustness checks and replicated at a smaller scale across 218 London neighborhoods. Together, our findings emphasize the importance of situating relationship experiences within their geographic contexts, offering new insights into where and why differences in life satisfaction between partnered and single individuals emerge.",
+          "url": "https://doi.org/10.1177/09567976261470394",
+          "doi": "https://doi.org/10.1177/09567976261470394",
+          "filter": 0,
+          "created": "2026-8-24"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Psychology of Music",
       "journal_short": "PsychMusic",
       "articles": [
@@ -333,15 +349,6 @@
           "created": "2026-8-22"
         },
         {
-          "title": "Structural Equation Modeling of Burnout, Support, and Retention Among Higher-Education Music Faculty Through Job Demands-Resources Framework and Self-Determination Theory",
-          "authors": "Hamidreza Niknampour",
-          "abstract": "I investigated how job demands, institutional resources, and psychological needs shape well-being and retention among higher-education music faculty in the United States. Drawing on the Job Demands-Resources (JD-R) framework and Self-Determination Theory (SDT), I analyzed survey data from 204 faculty across 184 accredited music institutions using factor and structural equation modeling. The final model demonstrated good fit and revealed that higher workload increased burnout, while institutional support was associated with burnout and positively related to intentions to remain in academia. Burnout partially mediated the relationship between workload and support on retention. Full-time and tenured faculty reported greater workload but also higher support and lower burnout than contingent colleagues, while younger faculty showed slightly greater instructional adaptability. These exploratory findings highlighted institutional support as the most powerful predictor of well-being and persistence, suggesting that supportive and inclusive environments can counteract the strain of heavy workloads.",
-          "url": "https://doi.org/10.1177/03057356261473901",
-          "doi": "https://doi.org/10.1177/03057356261473901",
-          "filter": 0,
-          "created": "2026-8-22"
-        },
-        {
           "title": "Children’s Initial Interest in Learning the Cello: An Interpretative Phenomenological Analysis",
           "authors": "Stephanie L. R. MacArthur, Jane W. Davidson, Amanda E. Krause",
           "abstract": "Understanding why children want to learn a musical instrument and the meanings they make from their initial interest can inform pedagogical approaches that enhance music education programmes and support sustained student learning. Research has focused on musicians’ motivations, with less attention given to children’s perspectives during early learning. This study applied Interpretative Phenomenological Analysis and Participatory Action Research, a combination of methodologies rarely used in music education research, to investigate the initial interests of 14 seven-year-old beginner cellists. As lessons commenced, the children and their mothers participated in individual semi-structured interviews. Analysis revealed rich and novel idiographic insights into the development of children’s musical motivation. Thematic findings indicated that children were primed for learning through prior musical enjoyment, exposure to stringed instrument classes, and a newfound affinity for the cello. Intrapersonal factors included four key motivations: a desire to be creative or musical, the pursuit of a hobby, curiosity about learning, and mood regulation. Interpersonal influences encompassed children’s desires to connect with family members, form peer friendships, including through orchestra participation, and build a relationship with the teacher-researcher. Each child had a unique configuration of motives, suggesting the value of personalised pedagogy in the earliest stages of learning.",
@@ -349,6 +356,38 @@
           "doi": "https://doi.org/10.1177/03057356261471783",
           "filter": 0,
           "created": "2026-8-19"
+        },
+        {
+          "title": "Structural Equation Modeling of Burnout, Support, and Retention Among Higher-Education Music Faculty Through Job Demands-Resources Framework and Self-Determination Theory",
+          "authors": "Hamidreza Niknampour",
+          "abstract": "I investigated how job demands, institutional resources, and psychological needs shape well-being and retention among higher-education music faculty in the United States. Drawing on the Job Demands-Resources (JD-R) framework and Self-Determination Theory (SDT), I analyzed survey data from 204 faculty across 184 accredited music institutions using factor and structural equation modeling. The final model demonstrated good fit and revealed that higher workload increased burnout, while institutional support was associated with burnout and positively related to intentions to remain in academia. Burnout partially mediated the relationship between workload and support on retention. Full-time and tenured faculty reported greater workload but also higher support and lower burnout than contingent colleagues, while younger faculty showed slightly greater instructional adaptability. These exploratory findings highlighted institutional support as the most powerful predictor of well-being and persistence, suggesting that supportive and inclusive environments can counteract the strain of heavy workloads.",
+          "url": "https://doi.org/10.1177/03057356261473901",
+          "doi": "https://doi.org/10.1177/03057356261473901",
+          "filter": 0,
+          "created": "2026-8-22"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Psychology of Popular Media",
+      "journal_short": "PPM",
+      "articles": [
+        {
+          "title": "Social media, racialized appearance concerns, and well-being among adolescent girls of color in the United States and England.",
+          "authors": "L. Monique Ward, Elizabeth A. Daniels, Morgan Jerald, Kyla N. Brathwaite",
+          "url": "https://doi.org/10.1037/ppm0000697",
+          "doi": "https://doi.org/10.1037/ppm0000697",
+          "filter": 0,
+          "created": "2026-8-24"
+        },
+        {
+          "title": "Selfies’ effects on the self: An experimental study of the influence of beauty filters on body image.",
+          "authors": "Irene Razpurker-Apfeld, Nurit Tal-Or",
+          "url": "https://doi.org/10.1037/ppm0000702",
+          "doi": "https://doi.org/10.1037/ppm0000702",
+          "filter": 0,
+          "created": "2026-8-24"
         }
       ],
       "articles_hidden": []

@@ -1,5 +1,5 @@
 {
-  "update": "2026-08-24",
+  "update": "2026-08-25",
   "content": [
     {
       "journal_full": "Journal of Elections, Public Opinion and Parties",
@@ -20,15 +20,6 @@
       "journal_full": "Journal of Official Statistics",
       "journal_short": "JOS",
       "articles": [
-        {
-          "title": "Experiments of Quasi-Randomization Estimation for Official Statistics Based on Aggregated Mobile Network Operator Data",
-          "authors": "Li-Chun Zhang, Marcello D’Orazio, Jens Kristoffer Haug, Tiziana Tuoto, Johan Fosen",
-          "abstract": "Despite the potentials of data from mobile network operators (MNOs), there exist no official statistics today that are produced from aggregated and anonymized mobile phone signaling data, which in principle are accessible in every country. In the lack of MNO data, we develop and conduct proof-of-concept experiments in Norway and Italy using statistical registers and sample survey data. Viable methods and potential complications are explored and analyzed, such that we are now prepared to negotiate access to MNO data for building the production solutions. Both the estimation methodology and our experimental approach to non-survey big data can be useful to others with similar statistical interests, whether the data arise from mobile phones, transactions, or other sources.",
-          "url": "https://doi.org/10.1177/0282423x261460497",
-          "doi": "https://doi.org/10.1177/0282423x261460497",
-          "filter": 0,
-          "created": "2026-8-17"
-        },
         {
           "title": "How Does the General Population Think About Smart Surveys?",
           "authors": "Barry Schouten, Ilaria Lunardelli, Monica Perez, Barbara D’Amen, Janelle van den Heuvel, Alessandra Nuccitelli, Barbara Lorè, Bella Struminskaya, Mateja Zgonec",
@@ -55,15 +46,6 @@
           "created": "2026-1-28"
         },
         {
-          "title": "Assessing the Reliability of Household Sampling Using Rooftop Data in India",
-          "authors": "Douglas Johnson, Anjani Balu, Poornima Ramesh, Linh Vo, Rediet Mulu, Amir Emami",
-          "abstract": "In settings where comprehensive household lists are unavailable, surveyors typically sample households by first selecting areas as primary sampling units, then conducting a complete listing of all households in each selected area, and finally, sampling households from these household lists. Due to the need to perform a household listing, this approach is costly and sometimes infeasible. Researchers have recently explored using “pin drop” techniques to directly sample households within primary sampling units without first conducting a listing. While existing pin-drop methods are far cheaper than the household listing method, it is unclear if they generate unbiased results. We introduce “rooftop sampling” (RS), a novel method based on the pin-drop approach that samples households by first sampling rooftops using an open-source dataset of rooftops created by Google and Microsoft. We develop a framework to assess potential biases associated with alternative second-stage sampling strategies like RS. Applying this framework using Demographic and Health Survey data, a ground truth dataset from India, and various field tests, we find that RS introduces minimal bias—on the order 1 percentage point for a binary variable. We show that RS is often optimal for small to medium-sized surveys (fewer than 1,000 respondents) or when the household listing method is not feasible.",
-          "url": "https://doi.org/10.1093/jssam/smag019",
-          "doi": "https://doi.org/10.1093/jssam/smag019",
-          "filter": 0,
-          "created": "2026-5-5"
-        },
-        {
           "title": "Going Online With a Telephone Employee Survey: Effects On Coverage, Nonresponse, and Total Selection Bias",
           "authors": "Jan Mackeben, Joseph W Sakshaug",
           "abstract": "Telephone surveys have historically been a popular form of data collection in labor market research and continue to be used to this day. Yet, telephone surveys are confronted with many challenges, including imperfect coverage of the target population, low response rates, risk of nonresponse bias, and rising data collection costs. To address these challenges, many telephone surveys have shifted to online and mixed-mode data collection to reduce costs and minimize the risk of coverage and nonresponse biases. However, empirical evaluations of the intended effects of introducing online and mixed-mode data collection in ongoing telephone surveys are lacking. We address this research gap by analyzing a telephone employee survey in Germany, the Linked Personnel Panel (LPP), which experimentally introduced a sequential web-to-telephone mixed-mode design in the refreshment samples of the fourth and fifth waves of the panel. By utilizing administrative data available for the sampled individuals with and without known telephone numbers, we estimate the before-and-after effects of introducing the web mode on coverage and nonresponse rates and biases. We show that the LPP was affected by known telephone number coverage bias for various employee subgroups prior to introducing the web mode, though many of these biases were partially offset by nonresponse bias. Introducing the web-to-telephone design improved the response rate but increased total selection bias, on average, compared to the standard telephone single-mode design. This result was driven by larger nonresponse bias in the web-to-telephone design and partial offsetting of coverage and nonresponse biases in the telephone single-mode design. Significant cost savings (up to 50 percent per respondent) were evident in the web-to-telephone design.",
@@ -71,22 +53,15 @@
           "doi": "https://doi.org/10.1093/jssam/smaf062",
           "filter": 0,
           "created": "2025-12-17"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Public Opinion Quarterly",
-      "journal_short": "POQ",
-      "articles": [
+        },
         {
-          "title": "An Experimental Comparison of AI-Enabled Semi-Structured Interviews and Fixed Surveys: Respondent Satisfaction, Response Patterns, Quality, and Representation",
-          "authors": "Amanda Austin, Edward Hohe, Ryan Kennedy, Leib Litman, William Minozzi, Laura Moses",
-          "abstract": "Artificial intelligence (AI) interviewing offers the potential to enhance the depth and quality of survey research, yet it may also introduce respondent fatigue and unintended consequences for the measurement of political attitudes. From the standpoint of respondents, more extensive interviews impose greater cognitive and temporal burdens, which may reduce engagement or increase satisficing. From the perspective of political behavior researchers, deeper probing may shift the subset of beliefs or arguments that respondents access when forming opinions, thereby altering the distribution and apparent stability of measured attitudes. To investigate these dynamics, we conduct a large-scale, fully randomized experiment. We find that AI-mediated interviewing significantly increases both the volume and specificity of respondents’ articulated rationales, but any decline in participant satisfaction is minuscule and we detect no increase in participant rolloff. However, AI interviews appear to shape subsequent responses: After offering justifications through AI interaction, respondents exhibit greater polarization in follow-up items. This result suggests that AI interviewing may alter the cognitive architecture of opinion formation. These findings both highlight the potential for AI interviewing and underscore the need for studies of how AI interviewing may become a source of attitudinal change.",
-          "url": "https://doi.org/10.1093/poq/nfag063",
-          "doi": "https://doi.org/10.1093/poq/nfag063",
+          "title": "Assessing the Reliability of Household Sampling Using Rooftop Data in India",
+          "authors": "Douglas Johnson, Anjani Balu, Poornima Ramesh, Linh Vo, Rediet Mulu, Amir Emami",
+          "abstract": "In settings where comprehensive household lists are unavailable, surveyors typically sample households by first selecting areas as primary sampling units, then conducting a complete listing of all households in each selected area, and finally, sampling households from these household lists. Due to the need to perform a household listing, this approach is costly and sometimes infeasible. Researchers have recently explored using “pin drop” techniques to directly sample households within primary sampling units without first conducting a listing. While existing pin-drop methods are far cheaper than the household listing method, it is unclear if they generate unbiased results. We introduce “rooftop sampling” (RS), a novel method based on the pin-drop approach that samples households by first sampling rooftops using an open-source dataset of rooftops created by Google and Microsoft. We develop a framework to assess potential biases associated with alternative second-stage sampling strategies like RS. Applying this framework using Demographic and Health Survey data, a ground truth dataset from India, and various field tests, we find that RS introduces minimal bias—on the order 1 percentage point for a binary variable. We show that RS is often optimal for small to medium-sized surveys (fewer than 1,000 respondents) or when the household listing method is not feasible.",
+          "url": "https://doi.org/10.1093/jssam/smag019",
+          "doi": "https://doi.org/10.1093/jssam/smag019",
           "filter": 0,
-          "created": "2026-7-2"
+          "created": "2026-5-5"
         }
       ],
       "articles_hidden": []
