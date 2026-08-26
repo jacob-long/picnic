@@ -1,5 +1,5 @@
 {
-  "update": "2026-08-25",
+  "update": "2026-08-26",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -30,14 +30,6 @@
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
       "articles": [
-        {
-          "title": "The Unity Playback System: A tool for visualizing behavioral data in 3D Unity virtual environments",
-          "authors": "Xavier J. Marshall, Nathaniel V. Powell, Brett R. Fajen",
-          "url": "https://doi.org/10.3758/s13428-026-03136-4",
-          "doi": "https://doi.org/10.3758/s13428-026-03136-4",
-          "filter": 0,
-          "created": "2026-8-18"
-        },
         {
           "title": "MEYELens: An affordable, open-source, 3D-printable eyewear platform for pupillometry and gaze tracking",
           "authors": "Giacomo Vecchieschi, Letizia Ingenito, Alessandro Benedetto, Caterina Luciani, Fabio Carrara, Giovanni Cioni, Andrea Guzzetta, Tommaso Pizzorusso, Laura Baroncelli, Raffaele M. Mazziotti",
@@ -74,15 +66,6 @@
           "created": "2026-8-20"
         },
         {
-          "title": "Tetrix: A novel Tetris-based paradigm for neuroimaging research and clinical applications",
-          "authors": "Julius Grote, Julia Elina Stocker, Jens Sommer, Anna-Maria Hamm, Henrik Kessler, Andreas Jansen",
-          "abstract": "Tetris is a widely used computer game, not only for entertainment purposes but increasingly in cognitive and clinical neuroscience research. Despite its frequent application in experiments, the neural mechanisms underlying gameplay remain insufficiently understood. Prior work suggests that cognitive control during complex visuospatial tasks, like Tetris, engages the attention network as well as regions supporting visuospatial working memory, mental imagery, and motor planning. However, researchers currently lack a standardized paradigm to investigate these processes. To address this gap, we introduce Tetrix, a novel and flexible Tetris-based paradigm designed for use in behavioral and functional magnetic resonance imaging (fMRI) experiments. With a broad range of customizable features, Tetrix can be adapted to specific experimental requirements or used in its default configuration. To validate the paradigm’s feasibility for neuroimaging applications, we conducted a proof-of-concept fMRI study with six participants. Results revealed robust bilateral activity in the frontal eye fields and posterior parietal cortex – key nodes of the dorsal attention network. Additional activation was found in the cerebellum and occipital cortex. These regions are thought to support rapid spatial orienting, the encoding and maintenance of visuospatial working memory, and motor planning. The observed activation patterns therefore align with theoretical expectations and confirm Tetrix’s utility for probing relevant cognitive functions in fMRI. Moreover, the pilot dataset and corresponding effect size maps provide a valuable resource for estimating statistical power in future research. In summary, this article introduces Tetrix as a standardized and validated paradigm for functional neuroimaging and beyond. It is available at: https://github.com/JuliusGrote/Tetrix_Psychopy .",
-          "url": "https://doi.org/10.3758/s13428-026-03150-6",
-          "doi": "https://doi.org/10.3758/s13428-026-03150-6",
-          "filter": 0,
-          "created": "2026-8-24"
-        },
-        {
           "title": "Measuring surprisal in sound sequences",
           "authors": "Andrey Anikin",
           "abstract": "Sensory input that violates prior expectations attracts attention, making unpredictability an important perceptual property to measure. In the auditory modality, knowing what sounds will be perceived as surprising, and therefore salient, is relevant both for studying vocal communication and for applied purposes such as managing noise pollution. Focusing on sequences of animal vocalizations and environmental sounds as ecologically important acoustic stimuli, I describe and benchmark several algorithms for measuring their perceived unpredictability. Information-theoretical approaches include Shannon surprisal and Bayesian surprise, both implemented here to detect deviant stimuli based on distributional acoustic properties. The second group of algorithms is based on detecting spectro-temporal recurrence assessed with autocorrelation functions (ACF surprisal) and self-similarity matrices (SSM novelty). The third approach uses neural networks. Based on the ratings of the predictability of 300 synthetic acoustic sequences by 195 human listeners, Shannon surprisal and SSM novelty capture the perceived unpredictability that is due to spectral variability, whereas ACF surprisal taps into the perceptual impact of irregular rhythm. Most algorithms converge on the time scale of about 1 s as the most perceptually relevant for spectral variability, which is consistent with the hypothesis that the perception of unpredictability stems from a relatively limited amount of auditory input held in short-term memory. Together, the presented open-source algorithms offer powerful and flexible tools for measuring acoustic surprisal and studying auditory attention, while the corpus of predictability ratings offers a resource for future benchmarking. All code and data are freely available from the R package soundgen and supplementary materials at https://osf.io/bgzvc .",
@@ -92,22 +75,13 @@
           "created": "2026-8-24"
         },
         {
-          "title": "Linking signal integrity to probabilistic models of behavioral dynamics",
-          "authors": "Reza Sayfoori, Hung Cao",
-          "abstract": "Quantitative analysis of rodent behavior in naturalistic settings is crucial for neuroscience, yet traditional methods often lack precision or scalability. While ultra-wideband (UWB) sensor tracking provides centimeter-level localization, standard metrics like root mean square error (RMSE) fail to capture the probabilistic and sequential nature of behavior. We introduce a probabilistic, information-theoretic framework that leverages high-resolution UWB sensor trajectories to address this gap. By integrating Shannon entropy to quantify uncertainty, Bernoulli modeling to assess accuracy thresholds, and first-order Markov chains to characterize state dynamics, our approach derives interpretable behavioral markers directly linked to signal quality. Empirical evaluation in an open-field arena demonstrated robust tracking under line-of-sight (LoS; RMSE: 20 mm) and non-line-of-sight (NLoS; RMSE: 35 mm) conditions. Crucially, we show that physical-layer impairments propagate to behavioral metrics: NLoS conditions increased entropy from 1.15 to 1.78 bits, reduced the probability of achieving sub-20 mm accuracy from 63.2% to 27.7%, and decreased state persistence, indicating greater behavioral fragmentation. By treating UWB signals as a probabilistic information source, our computationally efficient framework establishes a methodological bridge between engineering performance and neuroscience, enabling scalable, reproducible, and low-bias behavioral quantification suitable for preclinical research in complex environments.",
-          "url": "https://doi.org/10.3758/s13428-026-03132-8",
-          "doi": "https://doi.org/10.3758/s13428-026-03132-8",
+          "title": "Tetrix: A novel Tetris-based paradigm for neuroimaging research and clinical applications",
+          "authors": "Julius Grote, Julia Elina Stocker, Jens Sommer, Anna-Maria Hamm, Henrik Kessler, Andreas Jansen",
+          "abstract": "Tetris is a widely used computer game, not only for entertainment purposes but increasingly in cognitive and clinical neuroscience research. Despite its frequent application in experiments, the neural mechanisms underlying gameplay remain insufficiently understood. Prior work suggests that cognitive control during complex visuospatial tasks, like Tetris, engages the attention network as well as regions supporting visuospatial working memory, mental imagery, and motor planning. However, researchers currently lack a standardized paradigm to investigate these processes. To address this gap, we introduce Tetrix, a novel and flexible Tetris-based paradigm designed for use in behavioral and functional magnetic resonance imaging (fMRI) experiments. With a broad range of customizable features, Tetrix can be adapted to specific experimental requirements or used in its default configuration. To validate the paradigm’s feasibility for neuroimaging applications, we conducted a proof-of-concept fMRI study with six participants. Results revealed robust bilateral activity in the frontal eye fields and posterior parietal cortex – key nodes of the dorsal attention network. Additional activation was found in the cerebellum and occipital cortex. These regions are thought to support rapid spatial orienting, the encoding and maintenance of visuospatial working memory, and motor planning. The observed activation patterns therefore align with theoretical expectations and confirm Tetrix’s utility for probing relevant cognitive functions in fMRI. Moreover, the pilot dataset and corresponding effect size maps provide a valuable resource for estimating statistical power in future research. In summary, this article introduces Tetrix as a standardized and validated paradigm for functional neuroimaging and beyond. It is available at: https://github.com/JuliusGrote/Tetrix_Psychopy .",
+          "url": "https://doi.org/10.3758/s13428-026-03150-6",
+          "doi": "https://doi.org/10.3758/s13428-026-03150-6",
           "filter": 0,
-          "created": "2026-8-18"
-        },
-        {
-          "title": "The Spatial Similarity Task: A cross-species approach to spatial memory",
-          "authors": "Mia Borzello, William Supian, Andrea A. Chiba",
-          "abstract": "Memory serves as the cornerstone of cognitive function and specifically enables the critical ability to disambiguate and encode similar experiences as distinct memories. Mnemonic discrimination of near spaces and places is a process crucially underpinned by a computational feature of the hippocampus, pattern separation. Whereas this refined aspect of spatial memory has been addressed in abundance in the rodent literature, fewer spatial tasks are designed to specifically query memory for spatial similarities in human subjects. To address this, we introduce an open-source virtual maze suite developed on the Unity platform, freely available for researchers to use, modify, and extend. The suite is designed to bridge the behavioral translation gap by assessing mnemonic discrimination in humans through a spatial delayed match-to-sample task, carefully modeled after rodent spatial memory tasks. Rather than relying on fully immersive systems, the suite leverages desktop-based virtual navigation to combine parametric control of experimental conditions with the ability to collect each participant’s exploratory data. The pilot experiments are presented to validate the final suite design, alongside providing representative results from a subset of participants. Mnemonic discrimination was measured by parametric manipulation of spatial distances, resulting in a spatial distance memory function in which participants made more errors in remembering the correct location amongst similar or adjacent locations relative to distant locations. Given the prevalence of spatial memory deficits in age-related cognitive decline and neurological and psychiatric conditions, and the widespread use of spatial tasks in rodent models of these disorders, the Spatial Similarity Task (SST) suite offers a translationally grounded tool with direct potential for customization towards clinical application.",
-          "url": "https://doi.org/10.3758/s13428-026-03127-5",
-          "doi": "https://doi.org/10.3758/s13428-026-03127-5",
-          "filter": 0,
-          "created": "2026-8-18"
+          "created": "2026-8-24"
         }
       ],
       "articles_hidden": []
@@ -117,12 +91,12 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "Dual illusion of informational self-sufficiency and its implications for verification and truth recognition: The interplay of news-finds-me and third-person perceptions",
-          "authors": "Junghyun Moon, Taeyoung Lee",
-          "url": "https://doi.org/10.1016/j.chb.2026.109152",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109152",
+          "title": "The Role of Attention and Norm Perception in Online Comments’ Impact on Attitudes toward Sunscreen: An Eye-Tracking Approach",
+          "authors": "Junhan Chen, Shilin Xia, Zexin Ma",
+          "url": "https://doi.org/10.1016/j.chb.2026.109162",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109162",
           "filter": 0,
-          "created": "2026-8-18"
+          "created": "2026-8-25"
         },
         {
           "title": "Cognitive friction in AI use and emotional exhaustion: The mediating role of cognitive exploitation and the moderating role of fear of missing out",
@@ -133,6 +107,14 @@
           "created": "2026-8-19"
         },
         {
+          "title": "How Conversation Content and Style Shape Service Evaluations: Evidence from a Dual-Pathway Mediation Model and Neural Processing",
+          "authors": "Yebing Li, Fenghua Wang, Jia Jin, Yu Pan",
+          "url": "https://doi.org/10.1016/j.chb.2026.109160",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109160",
+          "filter": 0,
+          "created": "2026-8-25"
+        },
+        {
           "title": "Unveiling the core factors of internet addiction in adolescents: A machine learning and network analysis approach",
           "authors": "Ying-Ying Chen, Xiang Niu, Jin-Liang Wang",
           "url": "https://doi.org/10.1016/j.chb.2026.109157",
@@ -141,20 +123,20 @@
           "created": "2026-8-20"
         },
         {
-          "title": "Understanding the Temporal Dynamics of User Experience in VR Gaming: Evidence from Large-Scale Game Reviews",
+          "title": "See what you see, hear what you hear: Theorizing AI Device Embodiment (ADE) and its effects on well-being, perceived social support, and adoption",
+          "authors": "Jih-Hsuan (Tammy) Lin, Huai-yu Chen, Ji-Wei Yang",
+          "url": "https://doi.org/10.1016/j.chb.2026.109161",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109161",
+          "filter": 0,
+          "created": "2026-8-22"
+        },
+        {
+          "title": "Understanding the temporal dynamics of user experience in VR gaming: Evidence from large-scale game reviews",
           "authors": "Hyunmin Kang, Stefan Pasch, Min Chul Cha",
           "url": "https://doi.org/10.1016/j.chb.2026.109158",
           "doi": "https://doi.org/10.1016/j.chb.2026.109158",
           "filter": 0,
           "created": "2026-8-21"
-        },
-        {
-          "title": "See what you see, hear what you hear: Theorizing AI Device Embodiment (ADE) and its effects on well-being, perceived social support, and adoption",
-          "authors": "Jih-Hsuan (Tammy) Lin, Huai-Yu Chen, Ji-Wei Yang",
-          "url": "https://doi.org/10.1016/j.chb.2026.109161",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109161",
-          "filter": 0,
-          "created": "2026-8-22"
         },
         {
           "title": "Reducing sectarian prejudice through virtual reality in the post-conflict context of Northern Ireland",
@@ -213,6 +195,14 @@
           "created": "2026-8-19"
         },
         {
+          "title": "Can bad guys count as happy? The graded moralization of happiness across general and episodic levels",
+          "authors": "Jiangyong Li, Huaiyuan Qi, Jing Long, Yangmei Luo",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104996",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104996",
+          "filter": 0,
+          "created": "2026-8-25"
+        },
+        {
           "title": "Do people apply different norms to humans and large language models acting on their behalf? Evidence from norm elicitations in two canonical economic games",
           "authors": "Paweł Niszczota, Elia Antoniou",
           "url": "https://doi.org/10.1016/j.jesp.2026.104991",
@@ -249,14 +239,6 @@
           "doi": "https://doi.org/10.1080/00273171.2026.2717741",
           "filter": 0,
           "created": "2026-8-24"
-        },
-        {
-          "title": "Evaluating Bayesian Variable Selection Approaches for Nonlinear Random Effects Models",
-          "authors": "Yue Zhao, Nidhi Kohli, Eric F. Lock",
-          "url": "https://doi.org/10.1080/00273171.2026.2716743",
-          "doi": "https://doi.org/10.1080/00273171.2026.2716743",
-          "filter": 0,
-          "created": "2026-8-18"
         }
       ],
       "articles_hidden": []
@@ -324,6 +306,15 @@
       "journal_short": "PsychSci",
       "articles": [
         {
+          "title": "A Single Dimension of Memory Strength Underlies Semantic and Phonological False Memories",
+          "authors": "Lyulei Zhang, Adam F. Osth",
+          "abstract": "False memory can arise from semantically or perceptually similar experiences, as demonstrated in the Deese-Roediger-McDermott (DRM) paradigm. Although semantic and phonological DRM tasks yield parallel false-recognition patterns, researchers have argued that they reflect distinct memory processes, based in part on findings that semantic associates elicit more false “remember” (R) judgments, whereas phonological associates elicit more false “know” (K) judgments. We directly tested this claim using semantic and phonological DRM tasks with old-new recognition followed by RK ratings ( N = 227 English-speaking students from an Australian university). The R/K dissociation was replicated, yet both parametric and nonparametric analyses revealed a single underlying dimension. A signal-detection-theory model fitted the data nearly perfectly, where R judgments reflected a stricter response criterion than K. A state-trace analysis likewise showed a monotonic relation between old/new and R false alarms across tasks. These results challenge dual-process interpretations, instead suggesting that semantic materials simply produce higher rates of false recognition.",
+          "url": "https://doi.org/10.1177/09567976261461522",
+          "doi": "https://doi.org/10.1177/09567976261461522",
+          "filter": 0,
+          "created": "2026-8-25"
+        },
+        {
           "title": "Ties That Bind, Places That Matter: The Life-Satisfaction Gap Between Partnered and Single Individuals Varies Across Regions",
           "authors": "Tita Gonzalez Avilés, Franz J. Neyer, Peter J. Rentfrow, Tobias Ebert",
           "abstract": "People in romantic relationships often report higher life satisfaction than single individuals. We propose that this life-satisfaction gap reflects, in part, alignment with the prevailing norm of being in a relationship. In a preregistered study with a large-scale data set ( N = 382,078 adults across 379 regions in Great Britain), we replicated prior findings: partnered (vs. single) individuals reported higher life satisfaction. Notably, this life-satisfaction gap varied by region, being larger in regions with higher relationship rates and smaller in regions with lower relationship rates. This effect persisted after we controlled for various confounds; it passed robustness checks and replicated at a smaller scale across 218 London neighborhoods. Together, our findings emphasize the importance of situating relationship experiences within their geographic contexts, offering new insights into where and why differences in life satisfaction between partnered and single individuals emerge.",
@@ -331,6 +322,15 @@
           "doi": "https://doi.org/10.1177/09567976261470394",
           "filter": 0,
           "created": "2026-8-24"
+        },
+        {
+          "title": "The WHO Said What? Interaction of Source Credibility and Readers’ Prior Beliefs in the Reading of Social-Media Posts",
+          "authors": "Oskari J. Virtanen, Johanna K. Kaakinen",
+          "abstract": "Evaluating sources is an essential skill in our misinformation-riddled media environment. However, previous studies suggest that people tend not to engage with source information during reading, and very little research exists on how source credibility and readers’ beliefs interact on social media. We examined how source credibility and prior beliefs affect reading social-media posts. Finnish university students ( N = 83) first filled out a questionnaire measuring beliefs on eight controversial topics and then read 76 mock-up tweets on these topics while their eye movements were recorded. The sources of the tweets were pretested to be either credible or noncredible sources for the topic. Eye-movement results indicate that when credible sources say something belief-inconsistent, or if noncredible sources something belief-consistent, reading of the tweet is slower, and more attention is paid to the sources. Findings suggest that these “source-belief” inconsistencies disrupt reading and elicit deeper processing of source information.",
+          "url": "https://doi.org/10.1177/09567976261467299",
+          "doi": "https://doi.org/10.1177/09567976261467299",
+          "filter": 0,
+          "created": "2026-8-25"
         }
       ],
       "articles_hidden": []
@@ -347,6 +347,15 @@
           "doi": "https://doi.org/10.1177/03057356261471423",
           "filter": 0,
           "created": "2026-8-22"
+        },
+        {
+          "title": "The Impact of Music Instrumental Training and Second-Language Learning as Extracurricular Activities on Children’s Well-Being: A Randomised Controlled Study From a Positive Psychology Perspective",
+          "authors": "Claudia María Fernández de Cañete García, Pastora Martínez Castilla, Graham Welch",
+          "abstract": "This study explores the effects of nearly 7 months of extracurricular music instrumental training and second-language learning on psychological well-being among Year 4 children (8-year-old+) from middle socioeconomic backgrounds in Spain. A randomised controlled trial (RCT) was conducted with 70 participants assigned to one of three conditions: Music (individual or group lessons), English (individual or group), and Control. Subjective well-being, overall life satisfaction, psychological well-being, and positive and negative affect were assessed before and after the intervention programme. Results revealed a positive effect of the group music instrumental condition on psychological well-being, with this group being the only one presenting lower baseline psychological well-being scores. Moreover, the control group experienced a significant decline in psychological well-being from pre- to post-intervention, a change not observed in any of the intervention groups. This study represents the first attempt in the literature to assess with a RCT the effect of music instrumental training on standardised well-being constructs – rather than isolated well-being measures – from a positive psychology perspective. We interpret the findings with consideration to baseline differences and the sensitivity of some well-being measures. Further research is needed to replicate these results and explore their implications with other interventions.",
+          "url": "https://doi.org/10.1177/03057356261464606",
+          "doi": "https://doi.org/10.1177/03057356261464606",
+          "filter": 0,
+          "created": "2026-8-25"
         },
         {
           "title": "Children’s Initial Interest in Learning the Cello: An Interpretative Phenomenological Analysis",
