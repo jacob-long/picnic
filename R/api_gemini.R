@@ -173,9 +173,11 @@ extract_gemini_text <- function(response) {
 #' @param model Model identifier
 #' @param temperature Generation temperature
 #' @param max_retries Maximum retry attempts
+#' @param timeout_seconds Per-request timeout for the full must-read selection
 #' @return Response text or NULL on failure
 gemini_request <- function(prompt, model = "gemini-3.1-pro-preview",
-                           temperature = 1, max_retries = 5) {
+                           temperature = 1, max_retries = 5,
+                           timeout_seconds = 300) {
     api_key <- get_gemini_api_key()
     api_url <- paste0(
         "https://generativelanguage.googleapis.com/v1beta/models/",
@@ -191,10 +193,15 @@ gemini_request <- function(prompt, model = "gemini-3.1-pro-preview",
         )
     )
 
+    message(sprintf(
+        "Must-read selection: model=%s, timeout=%g seconds per attempt, max attempts=%d.",
+        model, timeout_seconds, max_retries
+    ))
     response <- post_gemini_with_retry(
         api_url = paste0(api_url, "?key=", api_key),
         request_body = body,
-        max_attempts = max_retries
+        max_attempts = max_retries,
+        timeout_seconds = timeout_seconds
     )
     extract_gemini_text(response)
 }
