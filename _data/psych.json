@@ -1,31 +1,6 @@
 {
-  "update": "2026-08-26",
+  "update": "2026-08-28",
   "content": [
-    {
-      "journal_full": "Advances in Methods and Practices in Psychological Science",
-      "journal_short": "AMPPS",
-      "articles": [
-        {
-          "title": "The Collection of Smartphone-Sensing Data Using the AWARE Framework",
-          "authors": "Patrick J. Ewell, Sarah Katz, Vassilis Kostakos, Bradley M. Okdie",
-          "abstract": "The rapid increase in smartphone adoption has led researchers to use the data gathered by mobile devices (e.g., geolocation and communication data) to understand and predict human behavior. These data are more objective and unobtrusively measured and are hard to collect using traditional lab- or web-based data-collection methods. However, the collection of smartphone-sensing data is not without its own hardships. In this article, we provide a step-by-step tutorial on using an open-source application titled AWARE to collect smartphone-sensing data and combine it with traditional psychological variables. In addition, we identify potential solutions to common challenges that researchers can face when collecting smartphone-sensing data. We offer a public resource including visual tutorials and data examples, which provide further detail and contain code that enable others to collect such data using the AWARE platform.",
-          "url": "https://doi.org/10.1177/25152459261472843",
-          "doi": "https://doi.org/10.1177/25152459261472843",
-          "filter": 0,
-          "created": "2026-8-20"
-        },
-        {
-          "title": "How Does Model (Mis)Specification Affect Statistical Power, Type I Error Rate, and Parameter Bias in Moderated Mediation? A Registered Report",
-          "authors": "Jessica L. Fossum, Amanda K. Montoya, Samantha F. Anderson",
-          "abstract": "Moderated mediation models are commonly used in psychological research and other fields to model when and how effects occur. Researchers must choose which paths in the mediation model are moderated but may struggle to decide whether to include too many moderated paths (a maximalist approach) or too few (a minimalist approach). In this registered report, we investigate the impact of model specification on statistical power, Type I error rate, and parameter bias for the index of moderated mediation. In a systematic review of moderated mediation articles published over 1 year, we found that six model specifications accounted for 85% of analyses and that the median sample size was 285. We then conducted a Monte Carlo simulation study to examine the effects of model specification on power and Type I error rate; results were analyzed using multilevel logistic regression. Relative to the data-generating process, analysis models could be correctly specified, overspecified, underspecified, or completely misspecified. Overspecified models often showed lower statistical power than correctly specified models but relatively low parameter bias. Underspecified models generally had lower power and often unacceptably high parameter bias. Completely misspecified models showed inflated Type I error rates in some cases and sometimes unacceptable parameter bias. Based on these results, we recommend that researchers tend toward maximalist approaches to reduce parameter bias while acknowledging the associated loss of power. Preregistration can help establish a priori model specification plans.",
-          "url": "https://doi.org/10.1177/25152459261432211",
-          "doi": "https://doi.org/10.1177/25152459261432211",
-          "filter": 0,
-          "created": "2026-8-20"
-        }
-      ],
-      "articles_hidden": []
-    },
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
@@ -40,32 +15,6 @@
           "created": "2026-8-21"
         },
         {
-          "title": "Addressing demand artifacts in psychological research (and beyond)",
-          "authors": "Olivier Corneille, Chloé Fournier Bernard, Peter Lush",
-          "url": "https://doi.org/10.3758/s13428-026-03155-1",
-          "doi": "https://doi.org/10.3758/s13428-026-03155-1",
-          "filter": 0,
-          "created": "2026-8-19"
-        },
-        {
-          "title": "High-fidelity avatars for behavior and cognition research in virtual environments: An accessible construction method for scientists",
-          "authors": "Rachael L. Taylor, Lisa Huerta, A. Mike Burton, Markus Bindemann",
-          "abstract": "Virtual reality is increasingly employed in behavioral research, providing immersive environments that combine high levels of experimental control with ecological validity. Within virtual reality, humans are represented by digital characters - or avatars - whose realism and behavioral fidelity are crucial for studying social cognition. This study introduces an accessible method for constructing avatars with facial animations of eye gaze and expression that can be used by behavioral scientists. In two pre-registered experiments, we validate the use of these avatars for psychological research. In Experiment 1, we demonstrate that observers orient attention in response to avatar eye gaze, replicating the classic gaze-cueing effect. In Experiment 2, we show that participants can recognize avatar facial expressions with accuracy and confusion patterns comparable to those reported for human faces. These findings establish our construction pipeline as a user-friendly approach for generating high-fidelity avatars, equipping researchers with tools to investigate social and cognitive processes in controlled yet ecologically valid virtual environments. We provide access to an extensive manual for constructing avatars, along with a video example demonstrating the procedure step-by-step. Using a relatively inexpensive hand-held scanner, this enables behavioral scientists to create avatars with accurate facial animation for experiments in virtual environments.",
-          "url": "https://doi.org/10.3758/s13428-026-03139-1",
-          "doi": "https://doi.org/10.3758/s13428-026-03139-1",
-          "filter": 0,
-          "created": "2026-8-19"
-        },
-        {
-          "title": "ValuesML: A new multilingual dataset for values detection in news and political manifestos",
-          "authors": "Mario Scharfbillig, Theresa Reitis-Münstermann, Nicolas Stefanovitch, Johannes Kiesel, Paula Schulze Brock, Joanne Sneddon, Emmanuel Cartier, Murat Ardag, Sharon Arieli, Ella Daniel, Henrik Dobewall, Johannes Karl, Anna Krasteva, Thomas Peter Oeschger, Georgios Petasis, Luana Russo, Antonella Seddone, Aurelia Tamo-Larrieux, Hester van Herk, Nazan Avcı, Giuliano Bobba, Pierre Chiron, Ahmet Çoymak, Maria Dagioglou, Dora Katsamori, Ingmar Leijen, Berna Öney, Ricarda Scholz-Kuhn, Emilia Zankina, Sandrine Astor, Petra Auer, Livia Aulino, Anat Bardi, Fiorella Battaglia, Constanze Beierlein, Maya Benish-Weisman, Christina Christodoulou, Patricia R. Collins, Irene Coppola, Mafalda Dâmaso, Meike Morren, Einat Elizarov, Naama Erlich, Peculiar Ezeigwe-Ephraim, Ronald Fischer, Maria Cristina Gaeta, Lucilla Gatt, Noam Gerera, Sjoukje Goldman, Frederic Gonthier, Stefanie Habermann, Mina Hristova, Demet Islambay Yapali, Luigi Izzo, Panos Kapetanakis, Reşit Kışlıoğlu, Chaya Koleva, Roberta Koleva, Joshua Lake, Mael Mesplou, Vanina Ninova, Elif Sandal Önal, Shani Oppenheim-Weller, Duygu Ozturk, Ioannis Elissaios Paparrigopoulos, Vladimir Ponizovskiy, Tim Reeskens, Maria Francesca Romano, Torven Schalk, Alina Starovolsky-Shitrit, Oscar Smallenbroek, Ömer Topuz, Christin-Melanie Vauclair, Giuseppe Di Vetta, Sheng Ye",
-          "abstract": "Values are important building blocks of political ideologies and are frequently invoked in political debates. Yet, because values are abstract, understanding how they are expressed in real-world discourse, and how this varies across contexts, remains a challenge. In this paper, we introduce a large-scale, expert-annotated dataset of value expression in political text, comprising news articles and political manifestos across nine languages. The dataset is grounded in the refined theory of human values (Schwartz et al., 2012) and was developed through an iterative process of annotation guideline development, annotator training, and expert curation. Value annotations capture both the type of value expressed and its evaluative framing, distinguishing whether values are expressed as attained or constrained. The final dataset comprises 2648 texts and 74,231 sentences across nine languages. This resource enables systematic, cross-linguistic analysis of value expression in political communication and provides a benchmark for developing and evaluating computational models of value detection.",
-          "url": "https://doi.org/10.3758/s13428-026-03092-z",
-          "doi": "https://doi.org/10.3758/s13428-026-03092-z",
-          "filter": 0,
-          "created": "2026-8-20"
-        },
-        {
           "title": "Measuring surprisal in sound sequences",
           "authors": "Andrey Anikin",
           "abstract": "Sensory input that violates prior expectations attracts attention, making unpredictability an important perceptual property to measure. In the auditory modality, knowing what sounds will be perceived as surprising, and therefore salient, is relevant both for studying vocal communication and for applied purposes such as managing noise pollution. Focusing on sequences of animal vocalizations and environmental sounds as ecologically important acoustic stimuli, I describe and benchmark several algorithms for measuring their perceived unpredictability. Information-theoretical approaches include Shannon surprisal and Bayesian surprise, both implemented here to detect deviant stimuli based on distributional acoustic properties. The second group of algorithms is based on detecting spectro-temporal recurrence assessed with autocorrelation functions (ACF surprisal) and self-similarity matrices (SSM novelty). The third approach uses neural networks. Based on the ratings of the predictability of 300 synthetic acoustic sequences by 195 human listeners, Shannon surprisal and SSM novelty capture the perceived unpredictability that is due to spectral variability, whereas ACF surprisal taps into the perceptual impact of irregular rhythm. Most algorithms converge on the time scale of about 1 s as the most perceptually relevant for spectral variability, which is consistent with the hypothesis that the perception of unpredictability stems from a relatively limited amount of auditory input held in short-term memory. Together, the presented open-source algorithms offer powerful and flexible tools for measuring acoustic surprisal and studying auditory attention, while the corpus of predictability ratings offers a resource for future benchmarking. All code and data are freely available from the R package soundgen and supplementary materials at https://osf.io/bgzvc .",
@@ -73,6 +22,15 @@
           "doi": "https://doi.org/10.3758/s13428-026-03153-3",
           "filter": 0,
           "created": "2026-8-24"
+        },
+        {
+          "title": "Quantifying the dyadic interaction: A methodological framework for conducting observational moment-by-moment research",
+          "authors": "Diego Fernández-Regueras, M. Cristina Guerrero-Escagedo, Ana Calero-Elvira, Eduardo Estrada",
+          "abstract": "Systematic observation is a valuable method for studying interactive phenomena in dyads, as it captures sequences of behavior, potentially enhancing validity. However, observational studies remain underutilized compared with other tools, such as self-report questionnaires, because they require time and resources. This work aims to facilitate observational research by providing a step-by-step guide for preprocessing and exploring data from systematic observations, enabling flexible data handling beyond traditional sequential analyses. To illustrate the guide’s application, we used a dataset of 154 psychotherapy sessions collected longitudinally across different treatment phases from 32 patient–therapist dyads. We coded sessions using the Therapeutic Relationship Coding System (TRCS), which captures moment-by-moment verbal interactions relevant to the therapeutic alliance. Post-session questionnaire data were collected using the Working Alliance Inventory (WAI). An R script and a set of functions were developed to assist researchers with data preprocessing and to generate descriptive visualizations addressing the following questions: (1) What behaviors (and sequences of interacting behaviors) are more frequent? ; (2) How do behaviors evolve over time ; (3) Do behavioral changes differ across groups? After applying our proposed analytical tools, we interpret our results in light of the dominant theoretical framework on the therapeutic alliance.",
+          "url": "https://doi.org/10.3758/s13428-026-03162-2",
+          "doi": "https://doi.org/10.3758/s13428-026-03162-2",
+          "filter": 0,
+          "created": "2026-8-27"
         },
         {
           "title": "Tetrix: A novel Tetris-based paradigm for neuroimaging research and clinical applications",
@@ -99,28 +57,12 @@
           "created": "2026-8-25"
         },
         {
-          "title": "Cognitive friction in AI use and emotional exhaustion: The mediating role of cognitive exploitation and the moderating role of fear of missing out",
-          "authors": "Ruixia Han",
-          "url": "https://doi.org/10.1016/j.chb.2026.109154",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109154",
-          "filter": 0,
-          "created": "2026-8-19"
-        },
-        {
-          "title": "How Conversation Content and Style Shape Service Evaluations: Evidence from a Dual-Pathway Mediation Model and Neural Processing",
+          "title": "How conversation content and style shape service evaluations: Evidence from a dual-pathway mediation model and neural processing",
           "authors": "Yebing Li, Fenghua Wang, Jia Jin, Yu Pan",
           "url": "https://doi.org/10.1016/j.chb.2026.109160",
           "doi": "https://doi.org/10.1016/j.chb.2026.109160",
           "filter": 0,
           "created": "2026-8-25"
-        },
-        {
-          "title": "Unveiling the core factors of internet addiction in adolescents: A machine learning and network analysis approach",
-          "authors": "Ying-Ying Chen, Xiang Niu, Jin-Liang Wang",
-          "url": "https://doi.org/10.1016/j.chb.2026.109157",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109157",
-          "filter": 0,
-          "created": "2026-8-20"
         },
         {
           "title": "See what you see, hear what you hear: Theorizing AI Device Embodiment (ADE) and its effects on well-being, perceived social support, and adoption",
@@ -137,25 +79,18 @@
           "doi": "https://doi.org/10.1016/j.chb.2026.109158",
           "filter": 0,
           "created": "2026-8-21"
-        },
-        {
-          "title": "Reducing sectarian prejudice through virtual reality in the post-conflict context of Northern Ireland",
-          "authors": "Salvador Alvidrez, Gary McKeown, Rhiannon Turner",
-          "url": "https://doi.org/10.1016/j.chb.2026.109155",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109155",
-          "filter": 0,
-          "created": "2026-8-20"
-        },
-        {
-          "title": "Perceived authenticity and evaluative asymmetry in judgments of AI-generated product designs: An eye-tracking and behavioral study",
-          "authors": "Longyu Zhang, Cong Fang, Yue Wu, Yisiyang Yuan, Stephen Jia Wang, Shijian Luo, So-yeon Yoon",
-          "url": "https://doi.org/10.1016/j.chb.2026.109153",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109153",
-          "filter": 0,
-          "created": "2026-8-19"
         }
       ],
-      "articles_hidden": []
+      "articles_hidden": [
+        {
+          "title": "Corrigendum to ‘Psychological need experiences inside and outside gaming as predictors of adolescent problematic gaming and well-being: A longitudinal test of the Need Density Hypothesis’ [Computers in Human Behavior 186 (2026) 109140]",
+          "authors": "Lowie Bradt, Maarten Vansteenkiste, Marlies Van de Casteele, Bieke Zaman, Eva Grosemans, Rozane De Cock, Bart Soenens",
+          "url": "https://doi.org/10.1016/j.chb.2026.109159",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109159",
+          "filter": 1,
+          "created": "2026-8-26"
+        }
+      ]
     },
     {
       "journal_full": "Group Processes & Intergroup Relations",
@@ -187,28 +122,12 @@
       "journal_short": "JESP",
       "articles": [
         {
-          "title": "American liberals and conservatives have different cognitive styles, but (mostly) respond the same to party cues",
-          "authors": "Aymin Triki, Abigail L. Cassario, Mark J. Brandt",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104994",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104994",
-          "filter": 0,
-          "created": "2026-8-19"
-        },
-        {
           "title": "Can bad guys count as happy? The graded moralization of happiness across general and episodic levels",
           "authors": "Jiangyong Li, Huaiyuan Qi, Jing Long, Yangmei Luo",
           "url": "https://doi.org/10.1016/j.jesp.2026.104996",
           "doi": "https://doi.org/10.1016/j.jesp.2026.104996",
           "filter": 0,
           "created": "2026-8-25"
-        },
-        {
-          "title": "Do people apply different norms to humans and large language models acting on their behalf? Evidence from norm elicitations in two canonical economic games",
-          "authors": "Paweł Niszczota, Elia Antoniou",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104991",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104991",
-          "filter": 0,
-          "created": "2026-8-19"
         }
       ],
       "articles_hidden": []
@@ -233,6 +152,14 @@
       "journal_short": "MBR",
       "articles": [
         {
+          "title": "Modeling Between-Group Differences in Dynamics of Psychological Constructs in the Presence of Measurement Non-Invariance: A Stepwise Approach",
+          "authors": "Manuel T. Rein, Leonie V. D. E. Vogelsmeier, Jeroen K. Vermunt, Eeske van Roekel, Kim De Roover",
+          "url": "https://doi.org/10.1080/00273171.2026.2716985",
+          "doi": "https://doi.org/10.1080/00273171.2026.2716985",
+          "filter": 0,
+          "created": "2026-8-26"
+        },
+        {
           "title": "Exploratory Continuous-Time Modeling (Expct): Extracting Dynamic Features from Irregularly Spaced Time Series",
           "authors": "Oisín Ryan, Kejin Wu, Nicholas C. Jacobson",
           "url": "https://doi.org/10.1080/00273171.2026.2717741",
@@ -248,15 +175,6 @@
       "journal_short": "PSPB",
       "articles": [
         {
-          "title": "When I Care More Than the Department Does: Research Value (In)Congruence and Faculty Epistemic Exclusion Experiences",
-          "authors": "Eun Ju Son, Martinque K. Jones, Michael O’Rourke, Dasom Jang, Isis H. Settles",
-          "abstract": "Academia values research that is quantitative, generalizable, or viewed as “objective” (centered research values), while research that is qualitative, concerned with marginalized groups, or social justice focused (marginalized research values) is often dismissed as subjective or less rigorous. We examined the relationship between faculty research values and the values they believe their departments prioritize, using survey data from 526 tenure-track faculty. We found that, for centered values, faculty–department research value incongruence did not differ by faculty race–gender, and both higher and lower endorsement of the values than the department were associated with greater epistemic exclusion. In contrast, incongruence in marginalized values varied by race–gender, with women of color faculty reporting the largest gap. Further, faculty endorsing more marginalized values than their department reported higher epistemic exclusion, whereas those endorsing less did not. In light of these results, we discuss how faculty–department research value incongruence shapes faculty’s academic experiences.",
-          "url": "https://doi.org/10.1177/01461672261465713",
-          "doi": "https://doi.org/10.1177/01461672261465713",
-          "filter": 0,
-          "created": "2026-8-19"
-        },
-        {
           "title": "The Eras of Singlehood: 11-Year Longitudinal Trajectories of Never-Married Singles’ Well-Being Across Cohorts",
           "authors": "Elaine Hoan, Geoff MacDonald, Matthew D. Johnson",
           "abstract": "Lifespan theories often frame partnership and marriage as central life goals, while largely overlooking those who never marry. The present study examined 11-year trajectories (2009/2010–2020/2021) of never-married German singles across three birth cohorts ( N = 2,930; ages 18–48). Using latent class growth analysis, we modeled trajectories of life satisfaction, singlehood satisfaction, sexual satisfaction, and desire for a partner. Most never-married singles reported consistently high and relatively stable life satisfaction. In contrast, singlehood satisfaction, sexual satisfaction, and partner desire showed greater heterogeneity, with classes differing mainly in baseline levels and remaining stable over time. Trajectories with the highest well-being were more highly educated, extraverted, more likely to be employed full-time, and lower in neuroticism. Interestingly, trajectories with the strongest partner desire showed lower education levels and higher agreeableness. Altogether, while singles report diverse romantic and sexual experiences, singles still report satisfaction with their lives generally.",
@@ -266,6 +184,15 @@
           "created": "2026-8-22"
         },
         {
+          "title": "The Lay Belief That There is Virtue in Duty and Duty in Virtue: A Novel Lens for Viewing Moral Judgment",
+          "authors": "Hajin Kim, Julian J. Zlatev, Dale T. Miller",
+          "abstract": "We praise the performance of virtuous acts (e.g., composting) and condemn the failure to perform dutiful ones (e.g., littering). Importantly, however, moral acts may contain elements of both virtue and duty. Composting elicits praise, but not composting may also elicit condemnation. Across six studies, we show that a bivalent measure of moral evaluations (assessing the blame or praise for both doing and not doing the same act) allows for more accurate predictions of moral behaviors and provides possible explanations for various existing moral puzzles. Studies 1a to 1c demonstrate that the moral evaluations for, and emotional responses to, doing and not doing an act are not systematically related. Bivalent moral evaluations illuminate why Republicans were less likely to mask than Democrats during the COVID-19 pandemic (Study 2) and why financial compensation can reduce blood donations (Study 3). These evaluations improve predictions of intended blood donations (Study 3) and actual voting behavior (Study 4).",
+          "url": "https://doi.org/10.1177/01461672261472937",
+          "doi": "https://doi.org/10.1177/01461672261472937",
+          "filter": 0,
+          "created": "2026-8-27"
+        },
+        {
           "title": "Unequal Burdens, Unequal Benefits: Housework, Mental Load, and Gendered Satisfaction in Heterosexual Relationships",
           "authors": "Verena Klein, Esra Ascigil, Tanja Oschatz, Rotem Kahalon",
           "abstract": "Despite growing attention to unequal housework distribution, the cognitive and emotional demands—collectively referred to as mental load—remain underexplored in relationship research. Across two studies, we examined how mental load distribution in heterosexual couples relates to women’s relationship and sexual satisfaction. In Study 1 ( N = 452), women reported greater satisfaction when male partners contributed more to mental load, especially to emotional labor. Mental load was a stronger predictor of satisfaction than physical housework and women’s gender ideology, suggesting that even egalitarian women disproportionately shoulder this often-invisible labor. Study 2 ( N = 156 couples) used dyadic data and found women’s satisfaction increased with shared mental load, while men’s satisfaction was higher when their female partners took on a greater share. These gendered patterns were observed for both relationship and sexual outcomes. Our findings underscore the importance of recognizing mental load as a distinct factor in understanding gender inequality in intimate relationships.",
@@ -273,30 +200,6 @@
           "doi": "https://doi.org/10.1177/01461672261474320",
           "filter": 0,
           "created": "2026-8-22"
-        },
-        {
-          "title": "From the Rejector’s Side: What They Say, How They Feel, and Their Perception of the Rejectee",
-          "authors": "Sydney Okland, Gili Freedman, Andrew H. Hales, Jennifer S. Beer",
-          "abstract": "Despite extensive study of social rejectees, the little work on social rejectors may not apply to non-punitive social rejection. When people communicate social rejection, do their words convey language principles recommended to soften the blow (i.e. positive regard, sincere alternatives, more words, no apologies)? Is rejectors’ use of recommended language related to their emotions and/or their perception of rejectees’ emotions? Daily diaries and re-lived memories showed social rejectors chose words aligned with recommended language principles; this language use was associated with rejectors feeling more emotional drain and less imposition and less self-consciousness (Studies 1–2). Positive regard and sincere alternatives were associated with rejector and observer perceptions of rejectees’ emotional ease, whereas more words and avoiding apologies were associated with rejector and observer perceptions that rejectees had more emotional struggle (Studies 2–3). The present work has implications for frameworks of non-punitive social rejection and for training people on softening the blow.",
-          "url": "https://doi.org/10.1177/01461672261476436",
-          "doi": "https://doi.org/10.1177/01461672261476436",
-          "filter": 0,
-          "created": "2026-8-19"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Psychological Methods",
-      "journal_short": "PM",
-      "articles": [
-        {
-          "title": "Within-person reliability of composite scores or single-item responses with missing intensive longitudinal data.",
-          "authors": "Daniel McNeish",
-          "url": "https://doi.org/10.1037/met0000865",
-          "doi": "https://doi.org/10.1037/met0000865",
-          "filter": 0,
-          "created": "2026-8-20"
         }
       ],
       "articles_hidden": []
@@ -331,6 +234,15 @@
           "doi": "https://doi.org/10.1177/09567976261467299",
           "filter": 0,
           "created": "2026-8-25"
+        },
+        {
+          "title": "What Survivors Remembered: Cognitive and Experiential Themes in Trauma Narratives From the Deadliest Mass Shooting in Modern American History",
+          "authors": "William B. Ridgway, Kevin D. Mohawk, Rhiannon N. Soriano Smith, Renato M. Liboro, Charles A. Morgan, Stephen D. Benning, Colleen M. Parks",
+          "abstract": "This study examined cognitive and experiential patterns in the trauma narratives of 42 survivors (74% women; M age = 42.1) of the Route 91 Harvest Festival shooting, the deadliest mass shooting in modern American history. We conducted a codebook thematic analysis of written narratives collected within one month of the event. We developed four themes: contextual memory (sensory-perceptual features, time, and space), physical injury, heroism, and contemplating mortality. Survivors recalled vivid sensory impressions, detailed spatial awareness organized around escape, and temporal distortions, including both subjective slowing and sequence gaps. Accounts of graphic injury, prosocial action under fire, and direct confrontation with death further structured the narratives. Limitations include prompted rather than free recall, written self-report allowing revision, and a predominantly female sample. These findings add to the scant literature on mass-shooting survivors’ memories.",
+          "url": "https://doi.org/10.1177/09567976261471424",
+          "doi": "https://doi.org/10.1177/09567976261471424",
+          "filter": 0,
+          "created": "2026-8-26"
         }
       ],
       "articles_hidden": []
@@ -358,15 +270,6 @@
           "created": "2026-8-25"
         },
         {
-          "title": "Children’s Initial Interest in Learning the Cello: An Interpretative Phenomenological Analysis",
-          "authors": "Stephanie L. R. MacArthur, Jane W. Davidson, Amanda E. Krause",
-          "abstract": "Understanding why children want to learn a musical instrument and the meanings they make from their initial interest can inform pedagogical approaches that enhance music education programmes and support sustained student learning. Research has focused on musicians’ motivations, with less attention given to children’s perspectives during early learning. This study applied Interpretative Phenomenological Analysis and Participatory Action Research, a combination of methodologies rarely used in music education research, to investigate the initial interests of 14 seven-year-old beginner cellists. As lessons commenced, the children and their mothers participated in individual semi-structured interviews. Analysis revealed rich and novel idiographic insights into the development of children’s musical motivation. Thematic findings indicated that children were primed for learning through prior musical enjoyment, exposure to stringed instrument classes, and a newfound affinity for the cello. Intrapersonal factors included four key motivations: a desire to be creative or musical, the pursuit of a hobby, curiosity about learning, and mood regulation. Interpersonal influences encompassed children’s desires to connect with family members, form peer friendships, including through orchestra participation, and build a relationship with the teacher-researcher. Each child had a unique configuration of motives, suggesting the value of personalised pedagogy in the earliest stages of learning.",
-          "url": "https://doi.org/10.1177/03057356261471783",
-          "doi": "https://doi.org/10.1177/03057356261471783",
-          "filter": 0,
-          "created": "2026-8-19"
-        },
-        {
           "title": "Structural Equation Modeling of Burnout, Support, and Retention Among Higher-Education Music Faculty Through Job Demands-Resources Framework and Self-Determination Theory",
           "authors": "Hamidreza Niknampour",
           "abstract": "I investigated how job demands, institutional resources, and psychological needs shape well-being and retention among higher-education music faculty in the United States. Drawing on the Job Demands-Resources (JD-R) framework and Self-Determination Theory (SDT), I analyzed survey data from 204 faculty across 184 accredited music institutions using factor and structural equation modeling. The final model demonstrated good fit and revealed that higher workload increased burnout, while institutional support was associated with burnout and positively related to intentions to remain in academia. Burnout partially mediated the relationship between workload and support on retention. Full-time and tenured faculty reported greater workload but also higher support and lower burnout than contingent colleagues, while younger faculty showed slightly greater instructional adaptability. These exploratory findings highlighted institutional support as the most powerful predictor of well-being and persistence, suggesting that supportive and inclusive environments can counteract the strain of heavy workloads.",
@@ -391,35 +294,20 @@
           "created": "2026-8-24"
         },
         {
+          "title": "Adolescents’ appearance-related social media consciousness and photo-related behaviors are linked to social anxiety symptoms with peers digitally and in-person: An ecological momentary assessment study.",
+          "authors": "Adelaide E. Graham, Margaret V. Brehm, Zelal Kilic, Sophia Choukas-Bradley, Jacqueline L. Nesi, Cecile D. Ladouceur, Jennifer S. Silk",
+          "url": "https://doi.org/10.1037/ppm0000696",
+          "doi": "https://doi.org/10.1037/ppm0000696",
+          "filter": 0,
+          "created": "2026-8-27"
+        },
+        {
           "title": "Selfies’ effects on the self: An experimental study of the influence of beauty filters on body image.",
           "authors": "Irene Razpurker-Apfeld, Nurit Tal-Or",
           "url": "https://doi.org/10.1037/ppm0000702",
           "doi": "https://doi.org/10.1037/ppm0000702",
           "filter": 0,
           "created": "2026-8-24"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Technology, Mind, and Behavior",
-      "journal_short": "TMB",
-      "articles": [
-        {
-          "title": "Would you trust and accept judges using generative artificial intelligence if you became victim of a crime?",
-          "authors": "Marvin Walczok, Friederike Funk",
-          "url": "https://doi.org/10.1037/tmb0000207",
-          "doi": "https://doi.org/10.1037/tmb0000207",
-          "filter": 0,
-          "created": "2026-8-20"
-        },
-        {
-          "title": "Leveraging AI tools to express gratitude.",
-          "authors": "Samantha J. Heintzelman, Grace Pearce",
-          "url": "https://doi.org/10.1037/tmb0000204",
-          "doi": "https://doi.org/10.1037/tmb0000204",
-          "filter": 0,
-          "created": "2026-8-20"
         }
       ],
       "articles_hidden": []

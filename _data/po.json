@@ -1,6 +1,21 @@
 {
-  "update": "2026-08-26",
+  "update": "2026-08-28",
   "content": [
+    {
+      "journal_full": "Journal of Elections, Public Opinion and Parties",
+      "journal_short": "JEPOP",
+      "articles": [
+        {
+          "title": "A mixed-item approach to measuring political knowledge",
+          "authors": "Tsung-han Tsai",
+          "url": "https://doi.org/10.1080/17457289.2026.2722181",
+          "doi": "https://doi.org/10.1080/17457289.2026.2722181",
+          "filter": 0,
+          "created": "2026-8-27"
+        }
+      ],
+      "articles_hidden": []
+    },
     {
       "journal_full": "Journal of Official Statistics",
       "journal_short": "JOS",
@@ -18,42 +33,16 @@
       "articles_hidden": []
     },
     {
-      "journal_full": "Journal of Survey Statistics and Methodology",
-      "journal_short": "JSSAM",
+      "journal_full": "Public Opinion Quarterly",
+      "journal_short": "POQ",
       "articles": [
         {
-          "title": "Going Online With a Telephone Employee Survey: Effects On Coverage, Nonresponse, and Total Selection Bias",
-          "authors": "Jan Mackeben, Joseph W Sakshaug",
-          "abstract": "Telephone surveys have historically been a popular form of data collection in labor market research and continue to be used to this day. Yet, telephone surveys are confronted with many challenges, including imperfect coverage of the target population, low response rates, risk of nonresponse bias, and rising data collection costs. To address these challenges, many telephone surveys have shifted to online and mixed-mode data collection to reduce costs and minimize the risk of coverage and nonresponse biases. However, empirical evaluations of the intended effects of introducing online and mixed-mode data collection in ongoing telephone surveys are lacking. We address this research gap by analyzing a telephone employee survey in Germany, the Linked Personnel Panel (LPP), which experimentally introduced a sequential web-to-telephone mixed-mode design in the refreshment samples of the fourth and fifth waves of the panel. By utilizing administrative data available for the sampled individuals with and without known telephone numbers, we estimate the before-and-after effects of introducing the web mode on coverage and nonresponse rates and biases. We show that the LPP was affected by known telephone number coverage bias for various employee subgroups prior to introducing the web mode, though many of these biases were partially offset by nonresponse bias. Introducing the web-to-telephone design improved the response rate but increased total selection bias, on average, compared to the standard telephone single-mode design. This result was driven by larger nonresponse bias in the web-to-telephone design and partial offsetting of coverage and nonresponse biases in the telephone single-mode design. Significant cost savings (up to 50 percent per respondent) were evident in the web-to-telephone design.",
-          "url": "https://doi.org/10.1093/jssam/smaf062",
-          "doi": "https://doi.org/10.1093/jssam/smaf062",
+          "title": "Larry M. Bartels and Katherine J. Cramer. The Politics of Social Change: From the Sixties to the Present Through the Eyes of a Generation",
+          "authors": "Emily Wager",
+          "url": "https://doi.org/10.1093/poq/nfag065",
+          "doi": "https://doi.org/10.1093/poq/nfag065",
           "filter": 0,
-          "created": "2025-12-17"
-        },
-        {
-          "title": "Assessing the Reliability of Household Sampling Using Rooftop Data in India",
-          "authors": "Douglas Johnson, Anjani Balu, Poornima Ramesh, Linh Vo, Rediet Mulu, Amir Emami",
-          "abstract": "In settings where comprehensive household lists are unavailable, surveyors typically sample households by first selecting areas as primary sampling units, then conducting a complete listing of all households in each selected area, and finally, sampling households from these household lists. Due to the need to perform a household listing, this approach is costly and sometimes infeasible. Researchers have recently explored using “pin drop” techniques to directly sample households within primary sampling units without first conducting a listing. While existing pin-drop methods are far cheaper than the household listing method, it is unclear if they generate unbiased results. We introduce “rooftop sampling” (RS), a novel method based on the pin-drop approach that samples households by first sampling rooftops using an open-source dataset of rooftops created by Google and Microsoft. We develop a framework to assess potential biases associated with alternative second-stage sampling strategies like RS. Applying this framework using Demographic and Health Survey data, a ground truth dataset from India, and various field tests, we find that RS introduces minimal bias—on the order 1 percentage point for a binary variable. We show that RS is often optimal for small to medium-sized surveys (fewer than 1,000 respondents) or when the household listing method is not feasible.",
-          "url": "https://doi.org/10.1093/jssam/smag019",
-          "doi": "https://doi.org/10.1093/jssam/smag019",
-          "filter": 0,
-          "created": "2026-5-5"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Social Science Computer Review",
-      "journal_short": "SSCR",
-      "articles": [
-        {
-          "title": "Managing Conti: Temporal Dynamics of Managerial Communication in a Ransomware Group",
-          "authors": "Giovanni Radhitio Putra Sadewo, David Bright, Chad Whelan, Jürgen Lerner",
-          "abstract": "Ransomware groups are frequently described as structured enterprises with defined managerial hierarchies, yet most empirical research adopts cross-sectional designs that treat leadership positions as static. This study asks: How do upper- and middle-management actors in a ransomware organisation adjust their communication patterns over time, particularly in balancing coordination and concealment? Focusing on the Conti ransomware group, we examine whether managerial centrality and rank-based communication preferences remain stable or shift across different operational phases. We analyse leaked Jabber chat logs comprising 95,134 cleaned message events exchanged among 287 unique user IDs between June 2020 and March 2022. Actors were classified into upper management ( n = 9), middle management ( n = 9), staff ( n = 81), and affiliates/unassigned ( n = 188). The data were divided into four temporal periods. Using relational event models (REMs) estimated via Cox proportional hazard models with sampled non-events, we model rank-based sending, receiving, and homophily/heterophily effects, interacting these mechanisms with time to capture period-specific dynamics. The findings indicate that upper management was highly active in sending and receiving messages during the early stage of operations, but subsequently withdrew from routine communication. Despite reduced visibility, upper managers consistently exhibited cross-rank (heterophilous) communication rather than insulating themselves through same-rank ties. Middle management, by contrast, remained consistently active across most periods and alternated between cross-rank and same-rank communication patterns, reflecting a flexible intermediary role. Overall, managerial centrality did not persist uniformly over time. This study contributes to the literature by advancing a dynamic, longitudinal perspective on ransomware governance. It demonstrates that managerial embeddedness is temporally contingent and tier-specific, underscoring the importance of event-level and rank-based network analysis. The findings also inform disruption strategies by identifying when and which managerial tiers are most structurally central, highlighting stage-specific vulnerabilities in ransomware organisations.",
-          "url": "https://doi.org/10.1177/08944393261478555",
-          "doi": "https://doi.org/10.1177/08944393261478555",
-          "filter": 0,
-          "created": "2026-8-20"
+          "created": "2026-8-6"
         }
       ],
       "articles_hidden": []
