@@ -41,6 +41,10 @@ jobs:
           cache-version: 1
           working-directory: main_folder
 
+      - name: Test Gemini request handling
+        working-directory: ./main_folder
+        run: Rscript tests/test_gemini.R
+
       # Step 5: Create and populate credentials file with secrets
       - name: Create and populate credentials file with secrets
         working-directory: ./main_folder
@@ -55,20 +59,24 @@ jobs:
           MAPPED_GEMINI_APIKEY: ${{ secrets.GEMINI_APIKEY }}
 
       # Step 6: Run R scripts
-      - name: Get data and produce JSON
+      - name: Crawl journal articles
         working-directory: ./main_folder
         run: |
-          Rscript -e 'options(error=traceback)'
           Rscript crawl.R "sociology"
           Rscript crawl.R "communication"
           Rscript crawl.R "politics"
           Rscript crawl.R "po"
           Rscript crawl.R "psych"
           Rscript crawl.R "multidisciplinary"
-          Rscript preprints.R
-          Rscript must_read.R
-
         shell: bash
+
+      - name: Crawl and classify preprints
+        working-directory: ./main_folder
+        run: Rscript preprints.R
+
+      - name: Select must-read articles
+        working-directory: ./main_folder
+        run: Rscript must_read.R
 
       # Step 7: Commit results to the main branch
       - name: Commit results to main branch

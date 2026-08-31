@@ -307,6 +307,9 @@ send_draft_to_subscribers <- function(
     post_fn = POST
 ) {
     subscriber_ids <- sort(as.character(subscriber_ids))
+    if (length(subscriber_ids) == 0) {
+        stop("At least one subscriber ID is required", call. = FALSE)
+    }
     email_path <- URLencode(email_id, reserved = TRUE)
     idempotency_key <- paste0(
         "picnic-send-draft-",
@@ -327,7 +330,8 @@ send_draft_to_subscribers <- function(
             `X-API-Version` = BUTTONDOWN_API_VERSION,
             `X-Idempotency-Key` = idempotency_key
         ),
-        body = list(subscribers = subscriber_ids),
+        # A nested list forces jsonlite to preserve an array for one subscriber.
+        body = list(subscribers = unname(as.list(subscriber_ids))),
         encode = "json"
     )
 
