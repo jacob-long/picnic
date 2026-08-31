@@ -50,6 +50,9 @@ jobs:
         with:
           cache-version: 1
 
+      - name: Test Buttondown request handling
+        run: Rscript tests/test_email.R
+
       - name: Determine frequency and check if should run
         id: check_schedule
         run: |
