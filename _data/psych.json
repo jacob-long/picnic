@@ -1,19 +1,10 @@
 {
-  "update": "2026-08-30",
+  "update": "2026-09-01",
   "content": [
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
       "articles": [
-        {
-          "title": "Measuring surprisal in sound sequences",
-          "authors": "Andrey Anikin",
-          "abstract": "Sensory input that violates prior expectations attracts attention, making unpredictability an important perceptual property to measure. In the auditory modality, knowing what sounds will be perceived as surprising, and therefore salient, is relevant both for studying vocal communication and for applied purposes such as managing noise pollution. Focusing on sequences of animal vocalizations and environmental sounds as ecologically important acoustic stimuli, I describe and benchmark several algorithms for measuring their perceived unpredictability. Information-theoretical approaches include Shannon surprisal and Bayesian surprise, both implemented here to detect deviant stimuli based on distributional acoustic properties. The second group of algorithms is based on detecting spectro-temporal recurrence assessed with autocorrelation functions (ACF surprisal) and self-similarity matrices (SSM novelty). The third approach uses neural networks. Based on the ratings of the predictability of 300 synthetic acoustic sequences by 195 human listeners, Shannon surprisal and SSM novelty capture the perceived unpredictability that is due to spectral variability, whereas ACF surprisal taps into the perceptual impact of irregular rhythm. Most algorithms converge on the time scale of about 1 s as the most perceptually relevant for spectral variability, which is consistent with the hypothesis that the perception of unpredictability stems from a relatively limited amount of auditory input held in short-term memory. Together, the presented open-source algorithms offer powerful and flexible tools for measuring acoustic surprisal and studying auditory attention, while the corpus of predictability ratings offers a resource for future benchmarking. All code and data are freely available from the R package soundgen and supplementary materials at https://osf.io/bgzvc .",
-          "url": "https://doi.org/10.3758/s13428-026-03153-3",
-          "doi": "https://doi.org/10.3758/s13428-026-03153-3",
-          "filter": 0,
-          "created": "2026-8-24"
-        },
         {
           "title": "Quantifying the dyadic interaction: A methodological framework for conducting observational moment-by-moment research",
           "authors": "Diego Fernández-Regueras, M. Cristina Guerrero-Escagedo, Ana Calero-Elvira, Eduardo Estrada",
@@ -24,13 +15,13 @@
           "created": "2026-8-27"
         },
         {
-          "title": "Tetrix: A novel Tetris-based paradigm for neuroimaging research and clinical applications",
-          "authors": "Julius Grote, Julia Elina Stocker, Jens Sommer, Anna-Maria Hamm, Henrik Kessler, Andreas Jansen",
-          "abstract": "Tetris is a widely used computer game, not only for entertainment purposes but increasingly in cognitive and clinical neuroscience research. Despite its frequent application in experiments, the neural mechanisms underlying gameplay remain insufficiently understood. Prior work suggests that cognitive control during complex visuospatial tasks, like Tetris, engages the attention network as well as regions supporting visuospatial working memory, mental imagery, and motor planning. However, researchers currently lack a standardized paradigm to investigate these processes. To address this gap, we introduce Tetrix, a novel and flexible Tetris-based paradigm designed for use in behavioral and functional magnetic resonance imaging (fMRI) experiments. With a broad range of customizable features, Tetrix can be adapted to specific experimental requirements or used in its default configuration. To validate the paradigm’s feasibility for neuroimaging applications, we conducted a proof-of-concept fMRI study with six participants. Results revealed robust bilateral activity in the frontal eye fields and posterior parietal cortex – key nodes of the dorsal attention network. Additional activation was found in the cerebellum and occipital cortex. These regions are thought to support rapid spatial orienting, the encoding and maintenance of visuospatial working memory, and motor planning. The observed activation patterns therefore align with theoretical expectations and confirm Tetrix’s utility for probing relevant cognitive functions in fMRI. Moreover, the pilot dataset and corresponding effect size maps provide a valuable resource for estimating statistical power in future research. In summary, this article introduces Tetrix as a standardized and validated paradigm for functional neuroimaging and beyond. It is available at: https://github.com/JuliusGrote/Tetrix_Psychopy .",
-          "url": "https://doi.org/10.3758/s13428-026-03150-6",
-          "doi": "https://doi.org/10.3758/s13428-026-03150-6",
+          "title": "Subjective age of acquisition norms for 30,849 Russian words",
+          "authors": "Andrei A. Grigoriev, Konstantin V. Sugonyaev, Svetlana A. Pashneva, Ekaterina A. Valueva, Nikolai A. Grigorev",
+          "abstract": "Age of acquisition (AoA) is a key psycholinguistic variable known to influence lexical and conceptual processing across a broad range of tasks. However, existing Russian datasets are small and mainly limited to picturable nouns and verbs. In this study, we collected AoA ratings for 30,849 Russian words that represent a broad vocabulary range. Ratings were collected from 2,201 adult respondents in both in-person and online sessions. Reliability assessed via bootstrap split-half correlations was high (mean r = 0.895, 95% CI [.893, .897]). To validate the subjective AoA estimates, we administered vocabulary tests to school students from grades 2, 4, 6, 8, and 10. Two validation procedures were used: grade-level validation and within-grade validation. The former related the grade level at which an item was reliably known with the adult ratings, the latter related adult AoA to students’ accuracy. Subjective AoA strongly predicted objective AoA measures ( r = 0.805) and showed consistent negative relations with student accuracy across grades. Correlations with existing Russian AoA datasets ( r = 0.68–0.91) further supported the reliability of the norms. The new ratings also showed expected correlations with word frequency, length, concreteness, imageability, and familiarity. The resulting norms provide the largest and most comprehensive AoA resource for the Russian language and can support future research in psycholinguistics, lexical processing, and language development. All norms are publicly available on OSF.",
+          "url": "https://doi.org/10.3758/s13428-026-03138-2",
+          "doi": "https://doi.org/10.3758/s13428-026-03138-2",
           "filter": 0,
-          "created": "2026-8-24"
+          "created": "2026-8-31"
         }
       ],
       "articles_hidden": []
@@ -80,13 +71,31 @@
       "journal_short": "GPIR",
       "articles": [
         {
-          "title": "Schools’ Respect for Identity-Based Differences and Student Outcomes: Examining the Relationship among Students with Varying Numbers of Marginalized Identities",
-          "authors": "Kimberly A. Bourne, Katherine T. Foster, Annie X. Xu, Cynthia S. Levine",
-          "abstract": "When schools value diversity, students with marginalized identities exhibit better academic and well-being outcomes. However, most work focuses on one identity dimension (e.g., race, sexuality) at a time. Using data from the California Healthy Kids Survey ( N = 205,064 students in 6th–12th grade across 751 schools), we examined how the number of marginalized identities students held, schools’ respect for identity-based differences, and the interaction between these factors were associated with multiple outcomes (e.g., belonging, grades, and reported suicidality). Looking across multiple dimensions of marginalization (i.e., race, income, gender identity, sexual orientation, and language spoken at home), we found that 1) more marginalized identities predicted worse outcomes, 2) greater school respect for differences predicted better outcomes, and 3) this association was stronger among students with fewer marginalized identities for some outcomes but equally strong across all students for others. These results highlight the importance of respect for identity-based differences for all students.",
-          "url": "https://doi.org/10.1177/13684302261475996",
-          "doi": "https://doi.org/10.1177/13684302261475996",
+          "title": "The Honor of a Leader: Examining the Content of Honor-Congruent Leadership Prototypes",
+          "authors": "Aaron L. Pomerantz, Ryan P. Brown",
+          "abstract": "Across three studies, we investigated how honor norms are associated with leadership prototypes. An archival, national-level study and an individual-level correlational study both linked honor norms to tough, reputation-conscious leadership and preferences for male leaders. A pre-registered quasi-experiment refined our understanding of these associations. Participants “designed” an ideal leader in either the presence or absence of intergroup conflict and results again showed that honor endorsement predicted preferences for certain leader characteristics (e.g., tough, protective) and for male leaders. High intergroup conflict increased both preferences across all participants, regardless of their level of honor endorsement, and the main effects of both honor and conflict on male leader favorability ratings were partially mediated by preferences for honor-congruent leader characteristics. Together, these studies suggest that honor functions as a cultural logic that informs leadership prototypes, shaping collective perceptions of idealized power and influence.",
+          "url": "https://doi.org/10.1177/13684302261479621",
+          "doi": "https://doi.org/10.1177/13684302261479621",
           "filter": 0,
-          "created": "2026-8-24"
+          "created": "2026-8-30"
+        },
+        {
+          "title": "Storytelling as a Bridge: Examining the Psychological Processes of Fictional Writing on Intergroup Understanding",
+          "authors": "Xun Zhu",
+          "abstract": "Reading a positive story about an outgroup reduces prejudice, but can writing a story about the outgroup have similar effects? Three experiments examined whether and how writing a fictional story about an outgroup character can improve writers’ perceptions of the outgroup. Study 1 ( N = 727) showed that narrative writing increased warmth and competence perceptions of the character, regardless of whether writers described cooperating directly with the character, as characters themselves, to complete a positive task or wrote the story from the character’s perspective. Higher perceived warmth, but not competence, was associated with lower intergroup anxiety and stronger empathy toward the outgroup, which in turn predicted perceived dangerousness. Two follow-up experiments sought to replicate these findings using a different character (Study 2; N = 287) and a comparison with nonnarrative persuasive writing (Study 3; N = 343). The findings contribute to theories addressing the intersection of intergroup contact, creative writing, and narrative communication.",
+          "url": "https://doi.org/10.1177/13684302261475946",
+          "doi": "https://doi.org/10.1177/13684302261475946",
+          "filter": 0,
+          "created": "2026-8-30"
+        },
+        {
+          "title": "From “Them” to “Us”: Intergroup Contact Leads to Improved Intergroup Attitudes through Building Common Ingroup Identity: Longitudinal Evidence from Four European Countries",
+          "authors": "Joanna Lindström, Siddartha Aradhya, Sabina Čehajić-Clancy",
+          "abstract": "The successful integration of ethnic minorities is largely contingent on establishing positive relations between minority and majority groups. Drawing on the common ingroup identity model, we argue that for minority youth, intergroup contact (e.g., friendship) with majority youth predicts more positive attitudes toward the majority group because it may foster a stronger common-ingroup identity. Using three-wave panel data from the Children of Immigrants Longitudinal Survey in Four European Countries ( N = 5,447), we found support for our hypothesis: intergroup contact predicted more positive attitudes toward the majority groups over time, due to an increase in common-ingroup identification. Findings suggest that intergroup friendships may play a key role in immigrant youth integration, precisely through facilitating a sense of belonging to a shared identity with the majority group.",
+          "url": "https://doi.org/10.1177/13684302261476503",
+          "doi": "https://doi.org/10.1177/13684302261476503",
+          "filter": 0,
+          "created": "2026-8-30"
         }
       ],
       "articles_hidden": []
@@ -115,24 +124,17 @@
       "articles_hidden": []
     },
     {
-      "journal_full": "Journal of Personality and Social Psychology",
-      "journal_short": "JPSP",
-      "articles": [
-        {
-          "title": "Insights into growth mindsets over time: People with growth versus fixed mindsets grow increasingly negative in their reactions to others’ repeated failures.",
-          "authors": "Samantha Zaw, Laura E. Wallace, Ed O'Brien",
-          "url": "https://doi.org/10.1037/pspi0000526",
-          "doi": "https://doi.org/10.1037/pspi0000526",
-          "filter": 0,
-          "created": "2026-8-24"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
       "journal_full": "Multivariate Behavioral Research",
       "journal_short": "MBR",
       "articles": [
+        {
+          "title": "The Problem of Temporal Misalignment in Longitudinal Causal Research",
+          "authors": "Jeroen D. Mulder, Manuel C. Voelkle, Ellen L. Hamaker",
+          "url": "https://doi.org/10.1080/00273171.2026.2720347",
+          "doi": "https://doi.org/10.1080/00273171.2026.2720347",
+          "filter": 0,
+          "created": "2026-8-30"
+        },
         {
           "title": "Modeling Between-Group Differences in Dynamics of Psychological Constructs in the Presence of Measurement Non-Invariance: A Stepwise Approach",
           "authors": "Manuel T. Rein, Leonie V. D. E. Vogelsmeier, Jeroen K. Vermunt, Eeske van Roekel, Kim De Roover",
@@ -140,14 +142,6 @@
           "doi": "https://doi.org/10.1080/00273171.2026.2716985",
           "filter": 0,
           "created": "2026-8-26"
-        },
-        {
-          "title": "Exploratory Continuous-Time Modeling (Expct): Extracting Dynamic Features from Irregularly Spaced Time Series",
-          "authors": "Oisín Ryan, Kejin Wu, Nicholas C. Jacobson",
-          "url": "https://doi.org/10.1080/00273171.2026.2717741",
-          "doi": "https://doi.org/10.1080/00273171.2026.2717741",
-          "filter": 0,
-          "created": "2026-8-24"
         }
       ],
       "articles_hidden": []
@@ -156,6 +150,51 @@
       "journal_full": "Personality and Social Psychology Bulletin",
       "journal_short": "PSPB",
       "articles": [
+        {
+          "title": "Whose Sincerely Held Beliefs Count? Political Ideology Shapes Perceptions of Religious Exemption Requests",
+          "authors": "Mary Katz, Nava Caluori, Michael H. Pasek",
+          "abstract": "Four studies collectively investigate whether schematic and political biases predict how people conceptualize sincerely held religious beliefs and reason about religious exemptions. Studies 1a ( N = 99) and 1b ( N = 151) suggest that U.S. Americans schematically associate conservative (but not liberal) stances on religion-relevant issues with sincerely held religious belief. Studies 2 and 3 investigate how politically diverse U.S. Americans evaluate exemption requests that are either schema-consistent (conservative request; Study 2; N = 402) or inconsistent (liberal request; Study 3; N = 400) and reveal that people might not exclusively rely on these schemas for judgments about religious exemption requests, as people are more willing to grant exemptions to both conservative schema-consistent and liberal schema-inconsistent religious claims than to nonreligious claims. However, political ideology critically shapes judgments about the religious sincerity of beliefs, whether denying exemption requests constitutes First Amendment violations, and whether exemptions should ultimately be granted.",
+          "url": "https://doi.org/10.1177/01461672261477891",
+          "doi": "https://doi.org/10.1177/01461672261477891",
+          "filter": 0,
+          "created": "2026-8-31"
+        },
+        {
+          "title": "Why Do We Talk About Race? Examining Goals in Discussions About Race in Interracial Friendships",
+          "authors": "Ashley L. Berkebile-Weinberg, Jennifer R. Steele",
+          "abstract": "Shared goals are a pillar of effective intergroup contact, yet little research has examined the specific goals that motivate people to engage in intergroup discussions. Across two studies, we assessed the goals of Latine (Study 1) and Black (Study 2) participants, compared to White (Studies 1 and 2) participants, during race-related discussions with a racial ingroup or outgroup friend. Participants from all three racial groups expressed a greater desire to socially connect with racially minoritized versus White friends. White participants’ goals to learn and express egalitarian values were higher in discussions about race with Latine and Black, versus White, friends. By contrast, White participants expressed a lower desire to challenge their friends and manage their group image relative to Latine and Black participants. Participants’ primary conversation goals were to socially connect and learn; however, White participants’ goals shifted more depending on whether they were speaking to a racial ingroup or outgroup friend.",
+          "url": "https://doi.org/10.1177/01461672261475826",
+          "doi": "https://doi.org/10.1177/01461672261475826",
+          "filter": 0,
+          "created": "2026-8-31"
+        },
+        {
+          "title": "Intergroup Competition Promotes Intragroup Cooperation: A Meta-Analysis of Social Dilemmas",
+          "authors": "Tycho van Tartwijk, Angelo Romano, Leticia Micheli, Daniel Balliet",
+          "abstract": "Current theories pose that intergroup competition elevates intragroup cooperation and put forward hypotheses about conditions that increase the magnitude of this effect. Here, we report a preregistered meta-analysis of studies using experimental games that manipulate the presence of intergroup competition and its effect on intragroup cooperation. Our investigation reveals the overall direction and magnitude of the effect, which addresses mixed empirical findings. We identified 25 articles to meet inclusion criteria, which yielded 70 effect sizes. A multilevel random effects model revealed a medium positive effect of intergroup competition on intragroup cooperation ( g = .677, N = 6,051). Studies involving intergroup competition with interdependence produced a strong effect, whereas this effect was weaker for studies without interdependence. Our findings present meta-analytic evidence that intergroup competition promotes intragroup cooperation and identify opportunities for future research.",
+          "url": "https://doi.org/10.1177/01461672261476739",
+          "doi": "https://doi.org/10.1177/01461672261476739",
+          "filter": 0,
+          "created": "2026-8-31"
+        },
+        {
+          "title": "Beliefs About Suffering, Psychological Adjustment, and Prosocial Orientation",
+          "authors": "Jinyoung Park, Mark R. Leary, Christine Lathren, John M. Davis, Mark Weiser, Rick Hoyle",
+          "abstract": "People’s beliefs about suffering may shape how they understand and respond to life’s challenges. Across five studies, we tested whether two focal beliefs—that suffering is widely shared/universal and that suffering can be potentially enriching—predict adaptive psychological and prosocial outcomes. College undergraduates who saw their problems as more common reported less distress. U.S. adults who perceived that they experienced a similar amount of suffering as other people and who viewed suffering as enriching demonstrated better adjustment and more adaptive responses to hypothetical challenges. Among Jewish Israeli participants, an enriching view was associated with mental health, common humanity, and support for peaceful resolution of the Israel–Palestine conflict. Finally, reading about suffering as enriching versus depressing increased affective well-being, and framing suffering as universal increased the common-humanity component of compassion. These findings suggest that viewing suffering as universal and potentially enriching supports psychological adjustment and prosocial orientation.",
+          "url": "https://doi.org/10.1177/01461672261475828",
+          "doi": "https://doi.org/10.1177/01461672261475828",
+          "filter": 0,
+          "created": "2026-8-31"
+        },
+        {
+          "title": "The Morality-Effectiveness Disconnect of Pro-Environmental Behaviors",
+          "authors": "Jareef Martuza, Hege Landsvik",
+          "abstract": "Not all pro-environmental behaviors are created equal—some are vastly more effective at mitigating climate change than others. Do people judge the more effective behaviors as proportionally more moral? Five main and six supplemental studies ( N = 9,247) across five countries reveal a robust morality-effectiveness disconnect: pro-environmental behaviors that rank better on objective climate-mitigation potential rank worse on individual moral judgments. Laypeople fail to predict this pattern, believing that a positive relationship exists. Furthermore, labeling behaviors by climate impact category reduces the morality-effectiveness disconnect, and detailed impact information reverses it and increases policy endorsement of more effective behaviors over less effective behaviors. While the disconnect primarily stems from effectiveness misperceptions that accurate information can mitigate, we find that personal support for less effective behaviors plays an additional role. Thus, people’s moral intuition for climate action appears miscalibrated: moral cognition can undermine the collective welfare that such cognition should presumably promote.",
+          "url": "https://doi.org/10.1177/01461672261478148",
+          "doi": "https://doi.org/10.1177/01461672261478148",
+          "filter": 0,
+          "created": "2026-8-31"
+        },
         {
           "title": "The Lay Belief That There is Virtue in Duty and Duty in Virtue: A Novel Lens for Viewing Moral Judgment",
           "authors": "Hajin Kim, Julian J. Zlatev, Dale T. Miller",
@@ -166,6 +205,15 @@
           "created": "2026-8-27"
         },
         {
+          "title": "Historical Relevance and Modern Perceptions: Mixed-Black and Mixed-Native Racial Categorization and Resource Deservingness",
+          "authors": "Hailey Shangin, C. Malik Boykin, Tyler Jimenez",
+          "abstract": "Growing multiracial populations in the United States underscore the evolving complexity of racial identity, particularly in how racial perceptions shape perceived deservingness to resources. This research examines how individuals with Black/White and Native American/White ancestries are categorized and the influence of categorization on perceived deservingness of group-specific resources. It explores the persistence of hypodescent (assigning by non-dominant identity) and hyperdescent (assigning by dominant identity) relating to historical and policy contexts. Across two studies, participants categorized mixed-race targets and evaluated their deservingness for minority-specific resources (i.e., scholarship). Black/White targets were categorized as more Black, consistent with hypodescent bias, while Native/White targets were often categorized as more White, consistent with hyperdescent. Comparatively, these categorizations shaped perceptions of resource deservingness, especially for Black/White targets. This underscores the complexities of perceived multiracial group categorization and may suggest the need for nuanced understanding of racial identity in an increasingly diverse society.",
+          "url": "https://doi.org/10.1177/01461672251376137",
+          "doi": "https://doi.org/10.1177/01461672251376137",
+          "filter": 0,
+          "created": "2026-8-31"
+        },
+        {
           "title": "Why Poverty in the Present Matters for Intergenerational Concern and the Future of Humanity",
           "authors": "Kyle Fiore Law, Stylianos Syropoulos, Amanda Signorini, Christina Jinhee Capozzoli, Liane Young, Brendan Bo O’Connor",
           "abstract": "Contrary to perceived tensions between addressing present and future societal needs, we find that present-day poverty and inequality are deeply connected with attitudes toward far-future welfare at both societal and individual levels. Study 1 (144 countries) shows that poorer, more unequal nations score lower on indices of intergenerational concern and farsighted policies. Study 2 (34 countries, N = 123,502) shows that subjective socioeconomic status (SES) predicts greater obligation to sacrifice for future lives, especially in nations with less inequality. In Study 3 ( N = 1,264 Americans), individuals randomly assigned more resources allocate more to future generations, though not proportionately more. Replicating Studies 1 and 2, real-world SES predicts higher donations beyond situational framings. Thus, combatting present-day societal challenges may be key to increasing concern and action for humanity’s future.",
@@ -173,6 +221,21 @@
           "doi": "https://doi.org/10.1177/01461672261469612",
           "filter": 0,
           "created": "2026-8-30"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Psychological Methods",
+      "journal_short": "PM",
+      "articles": [
+        {
+          "title": "Fitting two-level structural equation models to summary statistics: Leveling up meta-analytic structural equation modeling.",
+          "authors": "Suzanne Jak, Mike W. -L. Cheung",
+          "url": "https://doi.org/10.1037/met0000864",
+          "doi": "https://doi.org/10.1037/met0000864",
+          "filter": 0,
+          "created": "2026-8-31"
         }
       ],
       "articles_hidden": []
@@ -189,15 +252,6 @@
           "doi": "https://doi.org/10.1177/09567976261461522",
           "filter": 0,
           "created": "2026-8-25"
-        },
-        {
-          "title": "Ties That Bind, Places That Matter: The Life-Satisfaction Gap Between Partnered and Single Individuals Varies Across Regions",
-          "authors": "Tita Gonzalez Avilés, Franz J. Neyer, Peter J. Rentfrow, Tobias Ebert",
-          "abstract": "People in romantic relationships often report higher life satisfaction than single individuals. We propose that this life-satisfaction gap reflects, in part, alignment with the prevailing norm of being in a relationship. In a preregistered study with a large-scale data set ( N = 382,078 adults across 379 regions in Great Britain), we replicated prior findings: partnered (vs. single) individuals reported higher life satisfaction. Notably, this life-satisfaction gap varied by region, being larger in regions with higher relationship rates and smaller in regions with lower relationship rates. This effect persisted after we controlled for various confounds; it passed robustness checks and replicated at a smaller scale across 218 London neighborhoods. Together, our findings emphasize the importance of situating relationship experiences within their geographic contexts, offering new insights into where and why differences in life satisfaction between partnered and single individuals emerge.",
-          "url": "https://doi.org/10.1177/09567976261470394",
-          "doi": "https://doi.org/10.1177/09567976261470394",
-          "filter": 0,
-          "created": "2026-8-24"
         },
         {
           "title": "The WHO Said What? Interaction of Source Credibility and Readers’ Prior Beliefs in the Reading of Social-Media Posts",
@@ -259,12 +313,12 @@
       "journal_short": "PPM",
       "articles": [
         {
-          "title": "Social media, racialized appearance concerns, and well-being among adolescent girls of color in the United States and England.",
-          "authors": "L. Monique Ward, Elizabeth A. Daniels, Morgan Jerald, Kyla N. Brathwaite",
-          "url": "https://doi.org/10.1037/ppm0000697",
-          "doi": "https://doi.org/10.1037/ppm0000697",
+          "title": "Nigerian women’s perceptions of social media’s role in skin bleaching, body image, and colorism.",
+          "authors": "Ruth Emmanuel, Kelly Merrill",
+          "url": "https://doi.org/10.1037/ppm0000701",
+          "doi": "https://doi.org/10.1037/ppm0000701",
           "filter": 0,
-          "created": "2026-8-24"
+          "created": "2026-8-31"
         },
         {
           "title": "Adolescents’ appearance-related social media consciousness and photo-related behaviors are linked to social anxiety symptoms with peers digitally and in-person: An ecological momentary assessment study.",
@@ -273,14 +327,6 @@
           "doi": "https://doi.org/10.1037/ppm0000696",
           "filter": 0,
           "created": "2026-8-27"
-        },
-        {
-          "title": "Selfies’ effects on the self: An experimental study of the influence of beauty filters on body image.",
-          "authors": "Irene Razpurker-Apfeld, Nurit Tal-Or",
-          "url": "https://doi.org/10.1037/ppm0000702",
-          "doi": "https://doi.org/10.1037/ppm0000702",
-          "filter": 0,
-          "created": "2026-8-24"
         }
       ],
       "articles_hidden": []
