@@ -1,10 +1,36 @@
 {
-  "update": "2026-09-01",
+  "update": "2026-09-02",
   "content": [
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
       "articles": [
+        {
+          "title": "Improving crowdsourcing for AI through cognitive-inspired data engineering",
+          "authors": "Gunnar P. Epping, Andrew Caplin, Erik Duhaime, William R. Holmes, Daniel Martin, Jennifer S. Trueblood",
+          "abstract": "Crowdsourcing offers a fast and cost-efficient approach to obtaining human-labeled datasets. However, crowdsourced datasets and the models trained on them can inherit the cognitive constraints and biases of their annotators. In a process we refer to as cognitive-inspired data engineering, we investigate whether ideas from cognitive science can be applied to mitigate the presence of cognitive constraints and cognitive biases in crowdsourced datasets and, as a result, improve the performance of models trained on these datasets. We evaluate our approach by crowdsourcing labels for medical image diagnostic tasks using two different crowdsourcing platforms across two experiments. In Experiment 1, we collect subjective probability judgments from novice annotators through Amazon Mechanical Turk and, in Experiment 2, we collect subjective probability judgments and binary classifications from skilled annotators through DiagnosUs, a crowdsourcing platform specializing in medical and scientific data annotation. In both experiments, we find that recalibrating subjective probability judgments reduces bias, yielding more accurate crowdsourced datasets and more accurate models trained on them. Our results suggest that cognitive-inspired data engineering offers a promising avenue to improve the quality of crowdsourced datasets, with consistent downstream benefits for machine learning models.",
+          "url": "https://doi.org/10.3758/s13428-026-03160-4",
+          "doi": "https://doi.org/10.3758/s13428-026-03160-4",
+          "filter": 0,
+          "created": "2026-9-1"
+        },
+        {
+          "title": "How accurate are Bayes factor-based null hypothesis tests? A simulation study",
+          "authors": "Daniel J. Schad, Martin Modrák",
+          "abstract": "Bayes factor null hypothesis tests provide a viable alternative to frequentist measures of evidence quantification. Bayes factors for realistic data sets in areas like psychology cannot be calculated exactly and require numerical approximations to complex integrals. Crucially, the accuracy of these approximations, i.e., whether an approximate Bayes factor corresponds to the exact Bayes factor, is unknown, and may depend on data, prior, and likelihood. We recently developed a novel statistical procedure, marginal simulation-based calibration (SBC) for Bayes factors, to test whether computed Bayes factors for a given analysis are accurate. Here, we use marginal SBC for Bayes factors and calibration plots to test whether Bayes factors are calculated accurately for some common cognitive designs. We use the bridgesampling/brms packages in R. We run analyses for three commonly used designs in psychology and psycholinguistics: (a) a design with random effects for subjects only, (b) a Latin square design with crossed random effects for subjects and items, but a single fixed factor, and (c) a Latin square 2x2 design with crossed random effects for subjects and items. We find that Bayes factor estimates turn out accurate in cases when the bridgesampling algorithm does not issue a warning message, but can be biased and variable when a warning message is shown. These results support the use of brms/bridgesampling for null hypothesis Bayes factor tests in commonly used factorial designs. They also suggest that when a warning message is issued, Bayes factor results should not be trusted. The results show that it is practical to check whether Bayes factors are computed correctly.",
+          "url": "https://doi.org/10.3758/s13428-026-03168-w",
+          "doi": "https://doi.org/10.3758/s13428-026-03168-w",
+          "filter": 0,
+          "created": "2026-9-1"
+        },
+        {
+          "title": "Examining within-person variability of each individual: How should we deal with non-varying individuals?",
+          "authors": "Xiaohui Luo, Yueqin Hu, Hongyun Liu",
+          "url": "https://doi.org/10.3758/s13428-026-03171-1",
+          "doi": "https://doi.org/10.3758/s13428-026-03171-1",
+          "filter": 0,
+          "created": "2026-9-1"
+        },
         {
           "title": "Quantifying the dyadic interaction: A methodological framework for conducting observational moment-by-moment research",
           "authors": "Diego Fernández-Regueras, M. Cristina Guerrero-Escagedo, Ana Calero-Elvira, Eduardo Estrada",
@@ -13,6 +39,15 @@
           "doi": "https://doi.org/10.3758/s13428-026-03162-2",
           "filter": 0,
           "created": "2026-8-27"
+        },
+        {
+          "title": "Time after time, the best–worst scaling method is more reliable than ranking",
+          "authors": "Garston Liang, Mackenzie Glover, Guy E. Hawkins",
+          "abstract": "Two popular methods of preference elicitation are rankings and best–worst scaling (BWS). Rankings, while simple and widely adopted, can be burdensome with larger item sets and fail to capture indifference between options that are neither loved nor hated. Best–worst scaling is a survey method that sidesteps the set size problem by capitalizing on people’s natural capacity to identify preferences at the extremes. Across three experiments, our primary finding is that elicited preferences for ranking and BWS methods align, and that BWS methods provide additional resolution to resolve the indifference between middling options where rankings can struggle as well as the relative importance of each option. Moreover, we show that BWS methods exhibit greater test–retest reliability compared to rankings, even over time frames as short as minutes. Taken together, our results privilege BWS as a reliable and readily accessible alternative to ranking methods for preference elicitation.",
+          "url": "https://doi.org/10.3758/s13428-026-03167-x",
+          "doi": "https://doi.org/10.3758/s13428-026-03167-x",
+          "filter": 0,
+          "created": "2026-9-1"
         },
         {
           "title": "Subjective age of acquisition norms for 30,849 Russian words",
@@ -31,14 +66,6 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "The Role of Attention and Norm Perception in Online Comments’ Impact on Attitudes toward Sunscreen: An Eye-Tracking Approach",
-          "authors": "Junhan Chen, Shilin Xia, Zexin Ma",
-          "url": "https://doi.org/10.1016/j.chb.2026.109162",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109162",
-          "filter": 0,
-          "created": "2026-8-25"
-        },
-        {
           "title": "At the point of risk: Can AI-assisted decision support reduce digital fraud vulnerability across age groups and scam types?",
           "authors": "Yicheng Sun, Jacky Keung, Hi Kuen Yu, Yuchen Cao",
           "url": "https://doi.org/10.1016/j.chb.2026.109156",
@@ -47,12 +74,148 @@
           "created": "2026-8-28"
         },
         {
-          "title": "How conversation content and style shape service evaluations: Evidence from a dual-pathway mediation model and neural processing",
-          "authors": "Yebing Li, Fenghua Wang, Jia Jin, Yu Pan",
-          "url": "https://doi.org/10.1016/j.chb.2026.109160",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109160",
+          "title": "Prescribing a “dose of reality”: Exploring how realistic portrayals of motherhood can mitigate the harms of social media comparison",
+          "authors": "Ciera E. Kirkpatrick",
+          "url": "https://doi.org/10.1016/j.chb.2026.109026",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109026",
           "filter": 0,
-          "created": "2026-8-25"
+          "created": "2026-4-13"
+        },
+        {
+          "title": "Beyond composer labels: Aesthetic awe in music composed by humans and AI",
+          "authors": "Ke Xu, Bihai Xu, Zhongju Xie",
+          "url": "https://doi.org/10.1016/j.chb.2026.109020",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109020",
+          "filter": 0,
+          "created": "2026-4-9"
+        },
+        {
+          "title": "Time to (Re)visualise victims? Introducing shadow victims of digital misinformation",
+          "authors": "Souvik Mukherjee, Lennon Yao-Chung Chang",
+          "url": "https://doi.org/10.1016/j.chb.2026.109002",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109002",
+          "filter": 0,
+          "created": "2026-3-27"
+        },
+        {
+          "title": "From AI Psychosis to Brain Rot: How pseudo-diagnoses endanger genuine psychological and medical discovery in challenging times",
+          "authors": "Christian Montag, Daniel L. King, Benjamin Becker, Joël Billieux",
+          "url": "https://doi.org/10.1016/j.chb.2026.109006",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109006",
+          "filter": 0,
+          "created": "2026-3-27"
+        },
+        {
+          "title": "AI-powered smartphone tools and immigrant social integration. The role of personality and psychological factors",
+          "authors": "Evangelos Mourelatos, Magdalini Liontou",
+          "url": "https://doi.org/10.1016/j.chb.2026.109028",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109028",
+          "filter": 0,
+          "created": "2026-4-16"
+        },
+        {
+          "title": "No future vision, no present perseverance: How short-form video addiction erodes academic buoyancy in adolescents",
+          "authors": "Guanxing Xiong, Junting Liu, Can Huang, Yingchao Zhang, Wenqing Li, Xiaoyu Li",
+          "url": "https://doi.org/10.1016/j.chb.2026.109023",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109023",
+          "filter": 0,
+          "created": "2026-4-16"
+        },
+        {
+          "title": "The hidden cost of digital aggression: How engaging in cyberbullying facilitates moral disengagement among children through changes in normative beliefs about aggression",
+          "authors": "Xintong Zhang, Xiang Li",
+          "url": "https://doi.org/10.1016/j.chb.2026.109022",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109022",
+          "filter": 0,
+          "created": "2026-4-8"
+        },
+        {
+          "title": "Deepfaking the past: Memory and perceived truth of resurrected historical figures",
+          "authors": "María T. Soto-Sanfiel, Gina Junhan Fu",
+          "url": "https://doi.org/10.1016/j.chb.2026.109008",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109008",
+          "filter": 0,
+          "created": "2026-4-1"
+        },
+        {
+          "title": "Online criminal markets on telegram: Exploring the illicit products and services advertised in public group chats",
+          "authors": "Joeri Loggen, Asier Moneva, Arjan Blokland, Gerard de Roode, E. Rutger Leukfeldt",
+          "url": "https://doi.org/10.1016/j.chb.2026.109032",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109032",
+          "filter": 0,
+          "created": "2026-4-23"
+        },
+        {
+          "title": "Humans incorrectly reject confident accusatory AI judgments",
+          "authors": "Riccardo Loconte, Merylin Monaro, Pietro Pietrini, Bruno Verschuere, Bennett Kleinberg",
+          "url": "https://doi.org/10.1016/j.chb.2026.109019",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109019",
+          "filter": 0,
+          "created": "2026-4-7"
+        },
+        {
+          "title": "Paradoxical positivity and community engagement in online suicide discourse",
+          "authors": "Flynn Kelly-Brunyak, L. Christian Elledge",
+          "url": "https://doi.org/10.1016/j.chb.2026.109024",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109024",
+          "filter": 0,
+          "created": "2026-4-12"
+        },
+        {
+          "title": "Knowledge sharing in networked communities of practice: Computational network analysis of organizing dynamics in online crowdsourcing communities",
+          "authors": "Yiqi Li",
+          "url": "https://doi.org/10.1016/j.chb.2026.109004",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109004",
+          "filter": 0,
+          "created": "2026-3-31"
+        },
+        {
+          "title": "Disclosures and literacy as determinants of AI-influencer recognition and well-being",
+          "authors": "Michaela Forrai, Delia Cristina Balaban, Desirée Schmuck",
+          "url": "https://doi.org/10.1016/j.chb.2026.108978",
+          "doi": "https://doi.org/10.1016/j.chb.2026.108978",
+          "filter": 0,
+          "created": "2026-3-19"
+        },
+        {
+          "title": "Smartphone-derived phenotypes of social media use in young adults",
+          "authors": "Elombe Calvert, Andrew Jin Soo Byun, Haruka Notsu, Sean Ryan, Shrutangi Vaidya, John Torous",
+          "url": "https://doi.org/10.1016/j.chb.2026.109027",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109027",
+          "filter": 0,
+          "created": "2026-4-17"
+        },
+        {
+          "title": "From comparison to correction: How social networking site appearance comparison shapes emotional and self-presentation processes",
+          "authors": "Fuqun Liang, Junli Liu, Dongmei Zhao, Yanting Chen, Xianyou He, Chi Yang",
+          "url": "https://doi.org/10.1016/j.chb.2026.109029",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109029",
+          "filter": 0,
+          "created": "2026-4-17"
+        },
+        {
+          "title": "Tracing need for cognition in digital learning",
+          "authors": "Aki Schumacher, Luise von Keyserlingk, Hannah Deininger, Renzhe Yu, Nia Nixon, Lisa Bardach",
+          "url": "https://doi.org/10.1016/j.chb.2026.109021",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109021",
+          "filter": 0,
+          "created": "2026-4-8"
+        },
+        {
+          "title": "Development of digital empathy: Non-linear relationships between daily digital communication time and digital empathic tendencies",
+          "authors": "Andrew M. Collins, Wayne A. Warburton, Naomi Sweller, Kay Bussey",
+          "url": "https://doi.org/10.1016/j.chb.2026.109007",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109007",
+          "filter": 0,
+          "created": "2026-3-26"
+        },
+        {
+          "title": "The tug-of-war between engagement and dysregulation: A comprehensive analysis of cognition and internet gaming disorder in adolescents",
+          "authors": "David Willinger, Sabine Wunderl, Stefan Stieger",
+          "url": "https://doi.org/10.1016/j.chb.2026.109025",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109025",
+          "filter": 0,
+          "created": "2026-4-10"
         }
       ],
       "articles_hidden": [
@@ -105,20 +268,228 @@
       "journal_short": "JESP",
       "articles": [
         {
-          "title": "Can bad guys count as happy? The graded moralization of happiness across general and episodic levels",
-          "authors": "Jiangyong Li, Huaiyuan Qi, Jing Long, Yangmei Luo",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104996",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104996",
-          "filter": 0,
-          "created": "2026-8-25"
-        },
-        {
           "title": "Registered Report Stage II: Defending or defying democracy? Investigating the relationship between conspiracy beliefs and support for democratic principles [registered report - stage II]",
           "authors": "Tisa Bertlich, Felicitas Flade, Roland Imhoff",
           "url": "https://doi.org/10.1016/j.jesp.2026.104986",
           "doi": "https://doi.org/10.1016/j.jesp.2026.104986",
           "filter": 0,
           "created": "2026-8-29"
+        },
+        {
+          "title": "Replication and extension of Carlson and Zaki (2018): Do lay theories of altruism apply equally to all actors?",
+          "authors": "Ashley Harrell, Margaret L. Traeger",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104969",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104969",
+          "filter": 0,
+          "created": "2026-7-1"
+        },
+        {
+          "title": "Diversity, equity, and inclusion regression: Perceptions of organizations that fail to persevere in their stated commitments",
+          "authors": "Kim E. Chaney, Izilda Pereira-Jorge",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104964",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104964",
+          "filter": 0,
+          "created": "2026-6-14"
+        },
+        {
+          "title": "Testing the psychological distinctiveness of proscriptive and prescriptive moral norms: A replication and extension of",
+          "authors": "Andrew Miles, Yagana Samim, Salwa Khan",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104947",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104947",
+          "filter": 0,
+          "created": "2026-5-22"
+        },
+        {
+          "title": "Cognitive conflict in willful ignorance: A mouse-tracking study",
+          "authors": "Fiona tho Pesch, Anna Baumert",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104962",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104962",
+          "filter": 0,
+          "created": "2026-6-22"
+        },
+        {
+          "title": "Collective streaks motivate prosocial behavior",
+          "authors": "David E. Levari, Michael I. Norton",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104941",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104941",
+          "filter": 0,
+          "created": "2026-5-15"
+        },
+        {
+          "title": "Selective traits and general rewards: Differentiating learning effects on social impression and choice",
+          "authors": "Kira Harris, Andrew Luttrell, Peter Mende-Siedlecki, Leor M. Hackel",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104968",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104968",
+          "filter": 0,
+          "created": "2026-6-29"
+        },
+        {
+          "title": "Hypocrisy either way: Judgments of moral actors who choose between conflicting commitments",
+          "authors": "Jonathan Z. Berman, Graham Overton, Daniel A. Effron",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104945",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104945",
+          "filter": 0,
+          "created": "2026-6-8"
+        },
+        {
+          "title": "Is it my fault? How attributing exclusion to norm violations triggers self-directed emotions",
+          "authors": "Larissa C. Damp, Selma C. Rudert",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104960",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104960",
+          "filter": 0,
+          "created": "2026-6-9"
+        },
+        {
+          "title": "Selective ignorance? The role of the information target in allocation decisions",
+          "authors": "Hagit Sabato, Ilana Ritov",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104959",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104959",
+          "filter": 0,
+          "created": "2026-6-12"
+        },
+        {
+          "title": "Does attending to the nose vs. eyes reduce the cross-race recognition deficit? A systematic test",
+          "authors": "Tomás A. Palma, Francisco Cruz, Joana Quarenta, Joshua Correll, Marco Carvalho, Marta Barros, Debbie Ma",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104958",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104958",
+          "filter": 0,
+          "created": "2026-6-5"
+        },
+        {
+          "title": "Expectations of middle school children's academic performance in STEM and the Humanities: The effects of genetic and environmental frameworks",
+          "authors": "Lisa Luis, Mauro Bianchi, Rosandra Coladonato, Valentina Piccoli, Andrea Carnaghi",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104946",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104946",
+          "filter": 0,
+          "created": "2026-5-18"
+        },
+        {
+          "title": "Fairness matters: The impact of leaders' emotional expressions on subordinates' behavior",
+          "authors": "Adili Abudukadier, Zhikun Zhou, Zhijun Cheng, Xudong Wang, Yangmei Luo, Xuhai Chen",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104957",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104957",
+          "filter": 0,
+          "created": "2026-5-27"
+        },
+        {
+          "title": "People feel but don't tell: Dispositional honesty and emotional responses to others' (mis)fortunes",
+          "authors": "Zi Ye, Feiteng Long, Roujia Feng, Wilco van Dijk, Ranran Li",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104966",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104966",
+          "filter": 0,
+          "created": "2026-6-25"
+        },
+        {
+          "title": "Persuasion via intermediaries: The pull of extremity",
+          "authors": "Derek D. Rucker, Mark Dyer, Jesse D'Agostino, Zakary L. Tormala",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104961",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104961",
+          "filter": 0,
+          "created": "2026-6-13"
+        },
+        {
+          "title": "People underestimate how receptive other people are to different political opinions",
+          "authors": "André Mata, Towe Nilsson, Arvid Erlandsson, Rosário Ferreira",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104942",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104942",
+          "filter": 0,
+          "created": "2026-5-22"
+        },
+        {
+          "title": "Seeing oneself in the feed: Racialized targeting in food marketing and its impact on adolescents' visual interest and unhealthy food preferences",
+          "authors": "Emily Balcetis, Jordan Daley, Eunha Choi, Omni Cassidy, Marie A. Bragg",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104963",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104963",
+          "filter": 0,
+          "created": "2026-6-25"
+        },
+        {
+          "title": "Giving women credit where credit is due: The role of amplifying, attributing, and appropriating others' ideas",
+          "authors": "Tara C. Dennehy, Holly R. Engstrom, Jo Hernanto, Toni Schmader",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104944",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104944",
+          "filter": 0,
+          "created": "2026-5-20"
+        },
+        {
+          "title": "“Friend or foe?” the ironic effect of speaking the minority's language in intergroup conflicts: Palestinian reactions to Jewish-Israelis using Arabic",
+          "authors": "Slieman Halabi, Yechiel Klar, Murad Abu Elheja",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104943",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104943",
+          "filter": 0,
+          "created": "2026-5-21"
+        }
+      ],
+      "articles_hidden": [
+        {
+          "title": "Corrigendum to “A trust inoculation to protect public support of governmentally mandated actions to mitigate climate change” [Journal of Experimental Social Psychology 115 (2024) 104656]",
+          "authors": "Tobia Spampatti, Tobias Brosch, Evelina Trutnevyte, Ulf J.J. Hahnel",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104914",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104914",
+          "filter": 1,
+          "created": "2026-3-23"
+        }
+      ]
+    },
+    {
+      "journal_full": "Journal of Personality and Social Psychology",
+      "journal_short": "JPSP",
+      "articles": [
+        {
+          "title": "Fleeting generalization: How unstable belief updating keeps people overly pessimistic about talking to strangers.",
+          "authors": "Stav Atir, Nicholas Epley",
+          "url": "https://doi.org/10.1037/pspa0000483",
+          "doi": "https://doi.org/10.1037/pspa0000483",
+          "filter": 0,
+          "created": "2026-3-2"
+        },
+        {
+          "title": "Is my loneliness killing me? Effects of loneliness and social isolation on transitions between cognitive status categories and death.",
+          "authors": "Tomiko Yoneda, Kathryn L. Jackson, Emily C. Noyer, Christopher R. Beam, Gabrielle Pfund, Stephen Antonoplis, Emorie Beck, Katy Bedjeti, Pei Qin, Kayla M. Garner, Jing Luo, Karina Van Bogart, Lily Pieramici, Katherina Hauner, Nicholas A. Turiano, Páraic S. O'Súilleabháin, Lisa Barnes, David A. Bennett, Graciela Muniz Terrera, Daniel K. Mroczek, Bryan D. James, Andrew Steptoe, Anthony D. Ong, Eileen K. Graham",
+          "url": "https://doi.org/10.1037/pspp0000606",
+          "doi": "https://doi.org/10.1037/pspp0000606",
+          "filter": 0,
+          "created": "2026-6-15"
+        },
+        {
+          "title": "Speaking of gender: Language genderedness and its association with gender differences in personality across 48 languages.",
+          "authors": "Roxana Hofmann, René Mõttus",
+          "url": "https://doi.org/10.1037/pspp0000600",
+          "doi": "https://doi.org/10.1037/pspp0000600",
+          "filter": 0,
+          "created": "2026-5-14"
+        },
+        {
+          "title": "Exploring the counteractive effects of mandating diversity training: Solution aversion, reactance, and polarized social beliefs.",
+          "authors": "Peter Jin, Gavan J. Fitzsimons, Aaron C. Kay",
+          "url": "https://doi.org/10.1037/pspi0000510",
+          "doi": "https://doi.org/10.1037/pspi0000510",
+          "filter": 0,
+          "created": "2025-12-15"
+        },
+        {
+          "title": "Outgroup friendships and social influence in the development of adolescent attitudes toward secondary outgroups.",
+          "authors": "Tibor Zingora, Chloe Bracegirdle, Tobias H. Stark, Olivia Spiegler",
+          "url": "https://doi.org/10.1037/pspi0000530",
+          "doi": "https://doi.org/10.1037/pspi0000530",
+          "filter": 0,
+          "created": "2026-6-29"
+        },
+        {
+          "title": "From charm to conflict: Simulating narcissistic interpersonal dynamics with agent-based modeling.",
+          "authors": "Lena Herchenhahn, Emanuel Jauk, Martin Schoemann, Stefan Scherbaum, Veronika Lerche",
+          "url": "https://doi.org/10.1037/pspp0000599",
+          "doi": "https://doi.org/10.1037/pspp0000599",
+          "filter": 0,
+          "created": "2026-5-11"
+        },
+        {
+          "title": "The cost of an expanding moral circle: After living abroad, outcasts matter more but loved ones matter less.",
+          "authors": "Daniela Rodriguez-Mincey, Salvatore J. Affinito, Giselle E. Antoine, Kurt Gray, William W. Maddux",
+          "url": "https://doi.org/10.1037/pspa0000488",
+          "doi": "https://doi.org/10.1037/pspa0000488",
+          "filter": 0,
+          "created": "2026-8-10"
         }
       ],
       "articles_hidden": []
@@ -196,6 +567,15 @@
           "created": "2026-8-31"
         },
         {
+          "title": "The Pain of Ghosting? People Underestimate How Bad Their Conversation Partners Feel About Not Responding",
+          "authors": "Sophia Li, Coral Zheng, Juliana Schroeder",
+          "abstract": "Although online communication platforms provide convenience, they also bring a risk of ghosting , when one person unexpectedly stops responding to another without explanation. Extending prior research that examines the pain of being ghosted, we instead examine whether the act of ghosting itself is emotionally painful – and whether people recognize the extent of ghosters’ bad feelings. Across three studies – recalled real ghosting experiences ( N = 195), imagined ghosting scenarios ( N = 601), and induced ghosting in a live interaction ( N = 350) – we find that people who are ghosted underestimate how bad their conversation partners feel about ghosting them. This underestimation is larger when the ghosting is unintentional and mitigated when communicators do not perceive their actions as ghosting or send a short response (e.g., “sorry, can’t talk”) instead of ghosting. Overall, this research provides a window into the overlooked pain of ghosting others.",
+          "url": "https://doi.org/10.1177/01461672261478732",
+          "doi": "https://doi.org/10.1177/01461672261478732",
+          "filter": 0,
+          "created": "2026-9-1"
+        },
+        {
           "title": "The Lay Belief That There is Virtue in Duty and Duty in Virtue: A Novel Lens for Viewing Moral Judgment",
           "authors": "Hajin Kim, Julian J. Zlatev, Dale T. Miller",
           "abstract": "We praise the performance of virtuous acts (e.g., composting) and condemn the failure to perform dutiful ones (e.g., littering). Importantly, however, moral acts may contain elements of both virtue and duty. Composting elicits praise, but not composting may also elicit condemnation. Across six studies, we show that a bivalent measure of moral evaluations (assessing the blame or praise for both doing and not doing the same act) allows for more accurate predictions of moral behaviors and provides possible explanations for various existing moral puzzles. Studies 1a to 1c demonstrate that the moral evaluations for, and emotional responses to, doing and not doing an act are not systematically related. Bivalent moral evaluations illuminate why Republicans were less likely to mask than Democrats during the COVID-19 pandemic (Study 2) and why financial compensation can reduce blood donations (Study 3). These evaluations improve predictions of intended blood donations (Study 3) and actual voting behavior (Study 4).",
@@ -203,6 +583,15 @@
           "doi": "https://doi.org/10.1177/01461672261472937",
           "filter": 0,
           "created": "2026-8-27"
+        },
+        {
+          "title": "More Than a Song: Collective Singing Increases Well-being and Self-Expansion Via Collective Effervescence",
+          "authors": "Shira Gabriel, Nicole Koefler, Michael J. Poulin, Veronica Schneider, Maayan Dvir, Czarina Gutierrez, Esha Naidu",
+          "abstract": "Humans have been singing with other humans across time and culture. Although past research found positive effects of singing with others, it has not disentangled those effects from being in an established collective. In the current research, we examined the hypothesis that singing in groups leads to increased feelings of well-being and self-expansion even without an established collective. Furthermore, we hypothesized that the main mechanism for these effects is a feeling of collective effervescence—an intertwining sense that one is connected to others and that something special is happening. Finally, we hypothesized that the positive effects of collective effervescence felt during a singing event can last weeks, even months, after the event. Across two experiments and a longitudinal study, we found support for our hypotheses. Singing in groups predicts positive outcomes (e.g., positive mood, satisfaction with life, self-concept change, donation intentions), primarily via the collective effervescence experienced at these events.",
+          "url": "https://doi.org/10.1177/01461672261479483",
+          "doi": "https://doi.org/10.1177/01461672261479483",
+          "filter": 0,
+          "created": "2026-9-1"
         },
         {
           "title": "Historical Relevance and Modern Perceptions: Mixed-Black and Mixed-Native Racial Categorization and Resource Deservingness",
@@ -245,24 +634,6 @@
       "journal_short": "PsychSci",
       "articles": [
         {
-          "title": "A Single Dimension of Memory Strength Underlies Semantic and Phonological False Memories",
-          "authors": "Lyulei Zhang, Adam F. Osth",
-          "abstract": "False memory can arise from semantically or perceptually similar experiences, as demonstrated in the Deese-Roediger-McDermott (DRM) paradigm. Although semantic and phonological DRM tasks yield parallel false-recognition patterns, researchers have argued that they reflect distinct memory processes, based in part on findings that semantic associates elicit more false “remember” (R) judgments, whereas phonological associates elicit more false “know” (K) judgments. We directly tested this claim using semantic and phonological DRM tasks with old-new recognition followed by RK ratings ( N = 227 English-speaking students from an Australian university). The R/K dissociation was replicated, yet both parametric and nonparametric analyses revealed a single underlying dimension. A signal-detection-theory model fitted the data nearly perfectly, where R judgments reflected a stricter response criterion than K. A state-trace analysis likewise showed a monotonic relation between old/new and R false alarms across tasks. These results challenge dual-process interpretations, instead suggesting that semantic materials simply produce higher rates of false recognition.",
-          "url": "https://doi.org/10.1177/09567976261461522",
-          "doi": "https://doi.org/10.1177/09567976261461522",
-          "filter": 0,
-          "created": "2026-8-25"
-        },
-        {
-          "title": "The WHO Said What? Interaction of Source Credibility and Readers’ Prior Beliefs in the Reading of Social-Media Posts",
-          "authors": "Oskari J. Virtanen, Johanna K. Kaakinen",
-          "abstract": "Evaluating sources is an essential skill in our misinformation-riddled media environment. However, previous studies suggest that people tend not to engage with source information during reading, and very little research exists on how source credibility and readers’ beliefs interact on social media. We examined how source credibility and prior beliefs affect reading social-media posts. Finnish university students ( N = 83) first filled out a questionnaire measuring beliefs on eight controversial topics and then read 76 mock-up tweets on these topics while their eye movements were recorded. The sources of the tweets were pretested to be either credible or noncredible sources for the topic. Eye-movement results indicate that when credible sources say something belief-inconsistent, or if noncredible sources something belief-consistent, reading of the tweet is slower, and more attention is paid to the sources. Findings suggest that these “source-belief” inconsistencies disrupt reading and elicit deeper processing of source information.",
-          "url": "https://doi.org/10.1177/09567976261467299",
-          "doi": "https://doi.org/10.1177/09567976261467299",
-          "filter": 0,
-          "created": "2026-8-25"
-        },
-        {
           "title": "Action Framing Modulates the Pavlovian Bias in Go and No-Go Learning",
           "authors": "Zhang Chen, Senne Braem",
           "abstract": "Reward- and punishment-associated (i.e., Pavlovian) cues can trigger specific responses that interfere with learning appropriate actions. Prior work has shown that reward impedes the learning of “no-go” responses, and punishment impedes the learning of “go” responses. This Pavlovian bias is theorized to arise at the motor level and may reflect a rigid coupling between reward and action activation and between punishment and action suppression. Contrary to this view, across two experiments testing adults (one preregistered, total N = 370), using behavioral analyses and computational modeling, we show that action framing strongly modulates Pavlovian bias. When go was framed as approach and no-go as avoidance, we replicated the typical asymmetry in learning. However, when go was framed as avoidance and no-go as approach, this Pavlovian bias disappeared in choice and was attenuated in response times. Pavlovian bias thus operates partly on a semantic level and is more flexible than often theorized.",
@@ -287,15 +658,6 @@
       "journal_full": "Psychology of Music",
       "journal_short": "PsychMusic",
       "articles": [
-        {
-          "title": "The Impact of Music Instrumental Training and Second-Language Learning as Extracurricular Activities on Children’s Well-Being: A Randomised Controlled Study From a Positive Psychology Perspective",
-          "authors": "Claudia María Fernández de Cañete García, Pastora Martínez Castilla, Graham Welch",
-          "abstract": "This study explores the effects of nearly 7 months of extracurricular music instrumental training and second-language learning on psychological well-being among Year 4 children (8-year-old+) from middle socioeconomic backgrounds in Spain. A randomised controlled trial (RCT) was conducted with 70 participants assigned to one of three conditions: Music (individual or group lessons), English (individual or group), and Control. Subjective well-being, overall life satisfaction, psychological well-being, and positive and negative affect were assessed before and after the intervention programme. Results revealed a positive effect of the group music instrumental condition on psychological well-being, with this group being the only one presenting lower baseline psychological well-being scores. Moreover, the control group experienced a significant decline in psychological well-being from pre- to post-intervention, a change not observed in any of the intervention groups. This study represents the first attempt in the literature to assess with a RCT the effect of music instrumental training on standardised well-being constructs – rather than isolated well-being measures – from a positive psychology perspective. We interpret the findings with consideration to baseline differences and the sensitivity of some well-being measures. Further research is needed to replicate these results and explore their implications with other interventions.",
-          "url": "https://doi.org/10.1177/03057356261464606",
-          "doi": "https://doi.org/10.1177/03057356261464606",
-          "filter": 0,
-          "created": "2026-8-25"
-        },
         {
           "title": "Burnout, Agency, and Postgraduation Plans in Music Student Teachers",
           "authors": "Daryl W. Kinney",
@@ -327,6 +689,69 @@
           "doi": "https://doi.org/10.1037/ppm0000696",
           "filter": 0,
           "created": "2026-8-27"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Technology, Mind, and Behavior",
+      "journal_short": "TMB",
+      "articles": [
+        {
+          "title": "When sharing becomes the norm: How disclosure prevalence and relational similarity shape social norms on social media.",
+          "authors": "Philipp K. Masur, Douglas A. Parry",
+          "url": "https://doi.org/10.1037/tmb0000200",
+          "doi": "https://doi.org/10.1037/tmb0000200",
+          "filter": 0,
+          "created": "2026-6-25"
+        },
+        {
+          "title": "The revised extended iSelf: Disentangling the effects of smartphone position and ringing on cognitive performance and psychophysiological parameters.",
+          "authors": "Claudia Virginia Manara, Fabrizio Sors, Stefano Pileggi, Cristina Montesano, Maria Colomba, Mauro Murgia",
+          "url": "https://doi.org/10.1037/tmb0000196",
+          "doi": "https://doi.org/10.1037/tmb0000196",
+          "filter": 0,
+          "created": "2026-6-8"
+        },
+        {
+          "title": "Heterogeneous associations between objectively measured screen time and sleep in early adolescence.",
+          "authors": "Sierra Clifford, Leah D. Doane, Kathryn Lemery-Chalfant",
+          "url": "https://doi.org/10.1037/tmb0000203",
+          "doi": "https://doi.org/10.1037/tmb0000203",
+          "filter": 0,
+          "created": "2026-6-25"
+        },
+        {
+          "title": "Pushed to the edge: When radical political messages persuade more on social media.",
+          "authors": "Brahim Zarouali",
+          "url": "https://doi.org/10.1037/tmb0000208",
+          "doi": "https://doi.org/10.1037/tmb0000208",
+          "filter": 0,
+          "created": "2026-7-23"
+        },
+        {
+          "title": "Relations among the broad autism phenotype, internet use, and cyber psychological aggression.",
+          "authors": "Hayley M. Mullinax, Lisa A. Turner",
+          "url": "https://doi.org/10.1037/tmb0000202",
+          "doi": "https://doi.org/10.1037/tmb0000202",
+          "filter": 0,
+          "created": "2026-7-16"
+        },
+        {
+          "title": "Smartphone use patterns and well-being among older adults: A screenomics study.",
+          "authors": "Yifei Su, Andrew Z. H. Yee, Guan Peng Loy, Edmund W. J. Lee",
+          "url": "https://doi.org/10.1037/tmb0000197",
+          "doi": "https://doi.org/10.1037/tmb0000197",
+          "filter": 0,
+          "created": "2026-7-6"
+        },
+        {
+          "title": "(Mis)perceptions of other people’s social media use.",
+          "authors": "Cameron J. Bunker, Stephanie Torres-Pantoja, Elliot Panek, Joseph B. Bayer",
+          "url": "https://doi.org/10.1037/tmb0000201",
+          "doi": "https://doi.org/10.1037/tmb0000201",
+          "filter": 0,
+          "created": "2026-6-29"
         }
       ],
       "articles_hidden": []
