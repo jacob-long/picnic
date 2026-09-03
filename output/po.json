@@ -1,5 +1,5 @@
 {
-  "update": "2026-09-02",
+  "update": "2026-09-03",
   "content": [
     {
       "journal_full": "Journal of Elections, Public Opinion and Parties",
@@ -38,6 +38,33 @@
           "created": "2025-12-22"
         },
         {
+          "title": "Estimating Total Acres of Rangeland for Specific Geographies Using Cropland Data Layer (CDL)",
+          "authors": "Dae-Gyu Jang, Cindy Yu, Zhengyuan Zhu",
+          "abstract": "The Conservation Effects Assessment Project (CEAP) evaluates the environmental impact of the United States Department of Agriculture’s (USDA) conservation programs. This project aims to develop estimates of the total rangeland acreage in arbitrarily specified regions, which also have improved accuracy at the county level compared to traditional design-based estimators. To achieve this, we developed a novel model-based estimator that integrates information from both the National Resources Inventory (NRI) survey data and the satellite-derived Cropland Data Layer (CDL) data. A fine grid of square tiles was designed to capture the information of the CDL pixel near the NRI samples. Lasso, fused Lasso, and K-means clustering were employed for feature engineering and variable selection to identify optimal models for rangeland acreage estimation. Empirical results indicate that the new model-based estimator provides a reliable and effective alternative to the traditional design-based estimator.",
+          "url": "https://doi.org/10.1093/jssam/smaf049",
+          "doi": "https://doi.org/10.1093/jssam/smaf049",
+          "filter": 0,
+          "created": "2025-11-20"
+        },
+        {
+          "title": "Willingness to Participate in Respondent-Driven Sampling: Findings from the German Social Cohesion Panel",
+          "authors": "Julian B Axenfeld, Carina Cornesse, Mariel McKone Leonard, Jean-Yves Gerlitz, Julia Witton, Sabine Zinn",
+          "abstract": "Respondent-driven sampling (RDS) has been shown to be a promising network sampling strategy. However, it has also been shown to fail in some applications. Basing an RDS procedure on an existing panel study may, therefore, contain the risk of failure and might even alienate non-compliant seeds. This study therefore investigates the hypothetical willingness of general population panel participants to recruit their social network members using RDS. The study reveals that nearly half of the online participants of the panel survey selected for the study are willing to recruit. Reasons for unwillingness include discomfort in inviting others and the belief that they are already contributing sufficiently. Proportional odds ordinal logistic regression analyses reveal that most of the anticipated predictor variables for willingness have no effect. However, an increased willingness to recruit is observed among respondents of younger age, with an immigration background, and with politically extreme opinions. The findings suggest a substantial potential for RDS in online surveys but highlight the need for further empirical studies to evaluate actual recruitment behaviors and refine RDS strategies.",
+          "url": "https://doi.org/10.1093/jssam/smag008",
+          "doi": "https://doi.org/10.1093/jssam/smag008",
+          "filter": 0,
+          "created": "2026-3-14"
+        },
+        {
+          "title": "Remind Me! the Effect of Last-Minute Reminders in Online Business Surveys",
+          "authors": "Dominik Boddin, Mona Dörner, Lucy Hong, Florian Keusch",
+          "abstract": "This paper provides evidence for the response-enhancing effect of a second, last-minute reminder near the end of an online business survey. Sending reminders to prospective respondents of an online business survey in Germany two days before the end of the field period increased the likelihood of them taking part by 8.9 percentage points compared with prospective respondents who were not reminded again. This effect persists to a certain extent, since the participation rate of firms that received a reminder in a given wave is also higher in the subsequent wave. Reminding the firms does not affect nonresponse bias or data quality.",
+          "url": "https://doi.org/10.1093/jssam/smag002",
+          "doi": "https://doi.org/10.1093/jssam/smag002",
+          "filter": 0,
+          "created": "2026-1-27"
+        },
+        {
           "title": "Conditions for Uncertainty Reduction in an Estimated Ranking using Differences",
           "authors": "Tommy Wright",
           "abstract": "We introduce a new simple novel method to measure uncertainty in an estimated ranking of K populations. First, form a family of joint confidence intervals for differences of population parameters, with familywise coverage 100 (1−α) percent. Then construct a 100 (1−α) percent joint confidence region for the overall true ranking of the K populations. With the assumption of normality for the estimators, we only need K estimates and their associated standard errors to produce the new joint confidence region, and we assume these are given (published). A theoretically based visual shows at once: (1) joint confidence region revealing uncertainty in the estimated ranking; (2) possible true rankings, beyond the estimated ranking; (3) a marginal confidence set for population k true rank; and (4) a marginal confidence set for each rank r.",
@@ -47,6 +74,15 @@
           "created": "2026-7-4"
         },
         {
+          "title": "Changes in Response Quality Over Repeated Measurement in Ecological Momentary Assessment—A Three-Week Observational Study",
+          "authors": "Minglei Wang, Shuaiying Cao, Chan Zhang, Marc S Tibber",
+          "abstract": "Ecological Momentary Assessment (EMA) is an intensive longitudinal data collection method to capture in-the-moment experiences through frequent assessments. With the advent of mobile technologies, EMA’s applications have expanded across a number of disciplines. Despite its growing popularity, methodological issues, particularly regarding response quality, have yet to be explored. This study systematically evaluates how response quality changes over time in a 21-day EMA study with five daily assessments. Data were analyzed from 100 university students who completed surveys via a mobile application. Response quality was measured using a variety of satisficing behaviors, including speeding, nondifferentiation in grids, extreme rounding (i.e., reporting 0 or 60) on questions that asked the duration of a given activity during the past hour, and anchoring (i.e., providing the same answer to a question as in the previous assessment). The findings revealed a significant increase in speeding over the three weeks, suggesting a possible decrease in response quality. There were also increases in extreme rounding and anchoring responses in weeks 2 and 3. The nondifferentiation in grids mainly stayed the same across the weeks, which might be because the grids in this study only contained a few simple items to rate. The findings also showed variation between participants regarding their satisficing behaviors across the weeks. However, such variation could not be explained by participants’ demographic characteristics or motives for participation. Compared to the changes in satisficing behaviors across the weeks, the response quality differences across the five daily assessments were less systematic and inconsistent. These findings highlight the need for effective strategies to motivate participants to provide thoughtful answers as EMA data collection proceeds, and careful consideration of EMA design parameters to ensure high-quality data collection.",
+          "url": "https://doi.org/10.1093/jssam/smaf060",
+          "doi": "https://doi.org/10.1093/jssam/smaf060",
+          "filter": 0,
+          "created": "2025-12-13"
+        },
+        {
           "title": "Paradata Versus Self-Reports for the Collection of Technical Data About Smartphones: Trade-Offs Between Completeness and Accuracy of Data on Smartphone Operating System Versions",
           "authors": "Jim Vine, Jonathan Burton, Mick P Couper, Annette Jäckle",
           "abstract": "Smartphones play a central role in everyday life and offer significant potential for survey data collection. However, their usefulness may be constrained by the smartphone’s operating system (OS) and its version, which determine app compatibility. This article investigates methods for accurately determining smartphone OS version, an important factor when evaluating device compatibility for data collection tools. We compare three approaches: (1) passive collection of paradata (user agent strings; UASs) from web respondents, (2) self-reported smartphone make and model matched to OS version information from an online database, and (3) direct self-reporting of OS version by respondents following step-by-step instructions. Using data from the UK Household Longitudinal Study COVID-19 web survey, a probability sample of UK households, we assess the completeness and accuracy of each method. Our findings suggest the paradata were in some respects inferior to the methods based on self-reports. First, the UAS data only provided valid smartphone OS version data for about 50 percent of respondents; the other 50 percent did not use a smartphone to complete the web survey (compared to 90 percent and 71 percent of valid cases based on methods (2) and (3)). Second, the subset of respondents who completed the survey using their smartphone was not representative of the full set of respondents, while the respondents for whom OS version data were obtained from self-report methods were broadly representative. Third, the UAS data under-represented older OS versions. Respondents with older smartphones seem unlikely to use them to complete the survey. Our findings also show differences between OSes, suggesting it was easier for iPhone users to provide relevant and valid information than for Android users: they were more likely to report a valid make and model that could be linked to technical data, to report the OS version, and to use their smartphone to complete the survey.",
@@ -54,6 +90,15 @@
           "doi": "https://doi.org/10.1093/jssam/smag023",
           "filter": 0,
           "created": "2026-5-29"
+        },
+        {
+          "title": "Nonresponse in Web Surveys: A Deeper Look into Education Bias",
+          "authors": "Christine Distler, Mustafa Coban, Mark Trappmann",
+          "abstract": "The transition to online data collection in general population surveys has accelerated in recent years. Although high-quality web surveys now achieve response rates comparable to those of telephone surveys, they frequently display greater educational bias. This study analyzes complete employment biographies of both respondents and non-respondents to address three key questions: (1) How do different stages of the online panel recruitment process contribute to educational bias? (2) Are specific subgroups within the lower-educated population underrepresented in online surveys? (3) Are there interaction effects between education and other predictors of nonresponse, such as age, nationality, or employment status? In 2023, the Institute for Employment Research (IAB) in Germany launched the IAB-OPAL online panel survey using a push-to-web approach. The sample was drawn from a comprehensive administrative database containing social security, unemployment insurance, and basic income records, allowing for detailed analyses of employment histories. Leveraging detailed employment histories enables a granular assessment of how educational bias emerges across recruitment stages and whether response tendencies within educational groups vary due to typically unobserved factors such as benefit receipt, occupational history, or wages. The results indicate that educational bias increases at each stage of the recruitment process. Nonresponse is particularly common among individuals with lower educational attainment, especially those aged 50 and above. Although response probabilities for foreigners and Germans without an educational degree are similar, the disparity between these groups increases by at least a factor of four among individuals with a university degree. Additionally, men are less likely to participate unless they possess advanced degrees or lack formal qualifications.",
+          "url": "https://doi.org/10.1093/jssam/smag031",
+          "doi": "https://doi.org/10.1093/jssam/smag031",
+          "filter": 0,
+          "created": "2026-8-1"
         }
       ],
       "articles_hidden": []
@@ -84,6 +129,22 @@
           "doi": "https://doi.org/10.1093/poq/nfag065",
           "filter": 0,
           "created": "2026-8-6"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Social Science Computer Review",
+      "journal_short": "SSCR",
+      "articles": [
+        {
+          "title": "Don’t Look up: Evaluating the Tradeoff Between Performance and Sustainability of Text Classification Using Open LLMs",
+          "authors": "Sean Hamilton-Palicki, Isaac Bravo, Clint Claessen",
+          "abstract": "The increasing adoption of Large Language Models (LLMs) as a text analysis method in social science presents a critical yet under-examined trade-off between model performance and environmental sustainability. This research provides a systematic evaluation comparing the performance, energy consumption, processing time, and CO 2 emissions of various computational text analysis methods (CTAM), including dictionaries, trained classifiers, and self-hosted open LLMs when performing sentiment analysis of parliamentary speeches, classification of open-ended survey responses, and named entity recognition of newspapers. The analysis is limited to self-hosted deployment in local and server environments where per-task energy consumption is directly measurable. Although self-hosted LLMs demonstrate strong performance in sentiment analysis, closely aligning with human judgment, they require significantly more energy and time than non-LLM approaches. For classification and named entity recognition, pretrained task-specific models achieve better F1 scores with a lower carbon footprint, challenging the primacy of larger models. To navigate this trade-off, we propose a CO 2 -Adjusted F1 Score that penalizes emissions while rewarding performance. Applying this metric, we show that smaller, task-specific models may be preferred over larger general-purpose LLMs for efficient text analysis. We highlight the necessity for thoughtful and responsible model selection, promoting a “right-fit” approach for CTAM.",
+          "url": "https://doi.org/10.1177/08944393261473230",
+          "doi": "https://doi.org/10.1177/08944393261473230",
+          "filter": 0,
+          "created": "2026-9-2"
         }
       ],
       "articles_hidden": []
