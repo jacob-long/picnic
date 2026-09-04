@@ -1,5 +1,5 @@
 {
-  "update": "2026-09-03",
+  "update": "2026-09-04",
   "content": [
     {
       "journal_full": "Behavior Research Methods",
@@ -24,21 +24,30 @@
           "created": "2026-9-1"
         },
         {
+          "title": "Reject common measures like d′ and Corrected Recognition, embrace da: Simulation explorations of single- and multi-point recognition measures of sensitivity",
+          "authors": "Adva Levi, Raz Danino, Caren M. Rotello, Yonatan Goshen-Gottstein",
+          "abstract": "In this article, we address the high prevalence of false discoveries in recognition memory research. Using Monte Carlo simulations, our goal was to find a valid measure of performance that reliably separates the contribution of sensitivity (accuracy) from that of bias . Relevant to myriad tasks, most notably old–new recognition memory, the simulations revealed that common measures confound sensitivity with bias, a finding termed the “measurement crisis.” As a solution, we propose a version of d-sub-a ( d a ). We ran comprehensive simulations to evaluate the validity of sensitivity measures, including P r = HR − FAR, A ′, d ′, and AUC g , in addition to d a . Memory “signals” were randomly sampled from lure and target distributions. Sensitivity measures generated from iso-sensitive conditions that differed in bias were compared using t -tests, across thousands of simulations. For bias-independent measures, the rate of significant results should be 5%. We manipulated several parameters, including the form of the distributions (i.e., from three prominent models of recognition–memory: unequal variance signal detection [UVSD], double-high threshold [2HT], dual-process signal detection [DPSD]), the distance between their means, their relative variance, the placement of response criteria, the sample size, and the number of simulated trials. Results demonstrated that under most experimental scenarios, only d a was unaffected by changes in bias. In contrast, all common measures typically exhibited alarmingly high false discovery rates, exceeding 5%. The rates rose to 100% with larger sample sizes and a large number of trials. These findings indicate that d a warrants serious consideration as the default measure of sensitivity.",
+          "url": "https://doi.org/10.3758/s13428-026-03130-w",
+          "doi": "https://doi.org/10.3758/s13428-026-03130-w",
+          "filter": 0,
+          "created": "2026-9-3"
+        },
+        {
+          "title": "Ensemble clustering: A practical tutorial",
+          "authors": "Caroline X. Gao, Shengqi Wang, Ye Zhu, Myriam Ziou, Shu Mei Teo, Catherine L. Smith, Derek Chiu, Aline Talhouk, Mengmeng Wang, Wenhua Yu, Sue M. Cotton, Dominic Dwyer",
+          "abstract": "Cluster analysis is an explorative analytical method, serving as a critical tool in psychology, psychiatry, and related fields to map heterogeneous data into meaningful subgroups. Despite their extensive historical use, traditional clustering techniques suffer from a lack of stability, robustness, and generalisability. These issues stem from the inherent difficulties of the clustering optimisation problem as well as the stochastic nature of algorithm optimisers. To address these challenges, we demonstrate the use of methods utilising ensemble learning techniques to combine clustering results from different algorithms, model specifications, and/or sampled sub-datasets to form a single, more reliable consensus of clustering solutions. We detail ensemble clustering principles and variations in base clustering generation models and ensemble methods. More importantly, detailed introductions in existing R libraries and practical examples using R code are provided to guide users in both implementing and optimising ensemble clustering models. As a practical tutorial, we then include simulation studies of real-world data to demonstrate the substantial benefit of ensemble clustering compared with single-run clustering models. The resources presented here will enable researchers to apply advanced clustering techniques to decompose heterogeneous and complex psychological data into stable subgroups.",
+          "url": "https://doi.org/10.3758/s13428-026-03158-y",
+          "doi": "https://doi.org/10.3758/s13428-026-03158-y",
+          "filter": 0,
+          "created": "2026-9-3"
+        },
+        {
           "title": "Examining within-person variability of each individual: How should we deal with non-varying individuals?",
           "authors": "Xiaohui Luo, Yueqin Hu, Hongyun Liu",
           "url": "https://doi.org/10.3758/s13428-026-03171-1",
           "doi": "https://doi.org/10.3758/s13428-026-03171-1",
           "filter": 0,
           "created": "2026-9-1"
-        },
-        {
-          "title": "Quantifying the dyadic interaction: A methodological framework for conducting observational moment-by-moment research",
-          "authors": "Diego Fernández-Regueras, M. Cristina Guerrero-Escagedo, Ana Calero-Elvira, Eduardo Estrada",
-          "abstract": "Systematic observation is a valuable method for studying interactive phenomena in dyads, as it captures sequences of behavior, potentially enhancing validity. However, observational studies remain underutilized compared with other tools, such as self-report questionnaires, because they require time and resources. This work aims to facilitate observational research by providing a step-by-step guide for preprocessing and exploring data from systematic observations, enabling flexible data handling beyond traditional sequential analyses. To illustrate the guide’s application, we used a dataset of 154 psychotherapy sessions collected longitudinally across different treatment phases from 32 patient–therapist dyads. We coded sessions using the Therapeutic Relationship Coding System (TRCS), which captures moment-by-moment verbal interactions relevant to the therapeutic alliance. Post-session questionnaire data were collected using the Working Alliance Inventory (WAI). An R script and a set of functions were developed to assist researchers with data preprocessing and to generate descriptive visualizations addressing the following questions: (1) What behaviors (and sequences of interacting behaviors) are more frequent? ; (2) How do behaviors evolve over time ; (3) Do behavioral changes differ across groups? After applying our proposed analytical tools, we interpret our results in light of the dominant theoretical framework on the therapeutic alliance.",
-          "url": "https://doi.org/10.3758/s13428-026-03162-2",
-          "doi": "https://doi.org/10.3758/s13428-026-03162-2",
-          "filter": 0,
-          "created": "2026-8-27"
         },
         {
           "title": "Time after time, the best–worst scaling method is more reliable than ranking",
@@ -120,6 +129,14 @@
           "doi": "https://doi.org/10.1016/j.chb.2026.109006",
           "filter": 0,
           "created": "2026-3-27"
+        },
+        {
+          "title": "Creative or Uncreative Partner: Comparing Humans and AI in Collaborative Creative Tasks",
+          "authors": "Clin K.Y. Lai, Simone A. Luchini, Nina Lauharatanahirun, Roger Beaty",
+          "url": "https://doi.org/10.1016/j.chb.2026.109172",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109172",
+          "filter": 0,
+          "created": "2026-9-4"
         },
         {
           "title": "AI-powered smartphone tools and immigrant social integration. The role of personality and psychological factors",
@@ -283,6 +300,14 @@
           "created": "2026-8-29"
         },
         {
+          "title": "Perceived time in the presence of others: Further arguments for an attentional view of social facilitation",
+          "authors": "C. Belletier, P. Huguet, L. Ferrand, S. Droit-Volet",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104997",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104997",
+          "filter": 0,
+          "created": "2026-9-3"
+        },
+        {
           "title": "Replication and extension of Carlson and Zaki (2018): Do lay theories of altruism apply equally to all actors?",
           "authors": "Ashley Harrell, Margaret L. Traeger",
           "url": "https://doi.org/10.1016/j.jesp.2026.104969",
@@ -443,6 +468,38 @@
       "journal_short": "JPSP",
       "articles": [
         {
+          "title": "Judged by humans, comforted by machines: How psychological expectations shape experiences and perceptions of AI support.",
+          "authors": "Roshni Raveendhran, Trevor A. Foulk",
+          "url": "https://doi.org/10.1037/pspa0000494",
+          "doi": "https://doi.org/10.1037/pspa0000494",
+          "filter": 0,
+          "created": "2026-9-3"
+        },
+        {
+          "title": "The perceived whiteness of artificial intelligence.",
+          "authors": "Monica Gamez-Djokic, Adam Waytz",
+          "url": "https://doi.org/10.1037/pspi0000533",
+          "doi": "https://doi.org/10.1037/pspi0000533",
+          "filter": 0,
+          "created": "2026-9-3"
+        },
+        {
+          "title": "The family environment in late childhood and early adolescence as a predictor of narcissism in emerging adulthood: Findings from a 17-year longitudinal study of Mexican-origin youth.",
+          "authors": "Winkie Ma, Emorie D. Beck, Richard W. Robins",
+          "url": "https://doi.org/10.1037/pspp0000614",
+          "doi": "https://doi.org/10.1037/pspp0000614",
+          "filter": 0,
+          "created": "2026-9-3"
+        },
+        {
+          "title": "How will I know if you really like me? Assessing the role of appearance, behavior, and reciprocity for metaliking accuracy in initial social encounters.",
+          "authors": "Jana Bruns, Eva Bleckmann, Lisa M. Niemeyer, Mitja D. Back, Steffen Nestler",
+          "url": "https://doi.org/10.1037/pspp0000611",
+          "doi": "https://doi.org/10.1037/pspp0000611",
+          "filter": 0,
+          "created": "2026-9-3"
+        },
+        {
           "title": "Fleeting generalization: How unstable belief updating keeps people overly pessimistic about talking to strangers.",
           "authors": "Stav Atir, Nicholas Epley",
           "url": "https://doi.org/10.1037/pspa0000483",
@@ -564,6 +621,15 @@
           "created": "2026-8-31"
         },
         {
+          "title": "The Impact of Regulatory Goals on the Disclosure of Self-presentational Vulnerabilities",
+          "authors": "Sohyun Bae, Natalie Truong Faust, Sharon Ng",
+          "abstract": "Individuals often disclose their self-presentational vulnerabilities, including the use of counterfeit products or weight-loss medications. Yet, despite the commonality of such vulnerable self-disclosure, little is known about who discloses, why they do so, and when they choose to reveal or conceal these vulnerabilities. Addressing that gap, we examine how regulatory focus and relationship closeness jointly shape the disclosure of self-presentational vulnerabilities. Across eight studies, we find that prevention-focused (vs. promotion-focused) individuals are more willing to disclose self-presentational vulnerabilities to close others, but not to distant others. We further find that this effect occurs because prevention-focused (vs. promotion-focused) individuals more strongly believe that disclosing such vulnerable information to close others can strengthen their interpersonal relationships.",
+          "url": "https://doi.org/10.1177/01461672261478729",
+          "doi": "https://doi.org/10.1177/01461672261478729",
+          "filter": 0,
+          "created": "2026-9-3"
+        },
+        {
           "title": "Beliefs About Suffering, Psychological Adjustment, and Prosocial Orientation",
           "authors": "Jinyoung Park, Mark R. Leary, Christine Lathren, John M. Davis, Mark Weiser, Rick Hoyle",
           "abstract": "People’s beliefs about suffering may shape how they understand and respond to life’s challenges. Across five studies, we tested whether two focal beliefs—that suffering is widely shared/universal and that suffering can be potentially enriching—predict adaptive psychological and prosocial outcomes. College undergraduates who saw their problems as more common reported less distress. U.S. adults who perceived that they experienced a similar amount of suffering as other people and who viewed suffering as enriching demonstrated better adjustment and more adaptive responses to hypothetical challenges. Among Jewish Israeli participants, an enriching view was associated with mental health, common humanity, and support for peaceful resolution of the Israel–Palestine conflict. Finally, reading about suffering as enriching versus depressing increased affective well-being, and framing suffering as universal increased the common-humanity component of compassion. These findings suggest that viewing suffering as universal and potentially enriching supports psychological adjustment and prosocial orientation.",
@@ -591,15 +657,6 @@
           "created": "2026-9-1"
         },
         {
-          "title": "The Lay Belief That There is Virtue in Duty and Duty in Virtue: A Novel Lens for Viewing Moral Judgment",
-          "authors": "Hajin Kim, Julian J. Zlatev, Dale T. Miller",
-          "abstract": "We praise the performance of virtuous acts (e.g., composting) and condemn the failure to perform dutiful ones (e.g., littering). Importantly, however, moral acts may contain elements of both virtue and duty. Composting elicits praise, but not composting may also elicit condemnation. Across six studies, we show that a bivalent measure of moral evaluations (assessing the blame or praise for both doing and not doing the same act) allows for more accurate predictions of moral behaviors and provides possible explanations for various existing moral puzzles. Studies 1a to 1c demonstrate that the moral evaluations for, and emotional responses to, doing and not doing an act are not systematically related. Bivalent moral evaluations illuminate why Republicans were less likely to mask than Democrats during the COVID-19 pandemic (Study 2) and why financial compensation can reduce blood donations (Study 3). These evaluations improve predictions of intended blood donations (Study 3) and actual voting behavior (Study 4).",
-          "url": "https://doi.org/10.1177/01461672261472937",
-          "doi": "https://doi.org/10.1177/01461672261472937",
-          "filter": 0,
-          "created": "2026-8-27"
-        },
-        {
           "title": "More Than a Song: Collective Singing Increases Well-being and Self-Expansion Via Collective Effervescence",
           "authors": "Shira Gabriel, Nicole Koefler, Michael J. Poulin, Veronica Schneider, Maayan Dvir, Czarina Gutierrez, Esha Naidu",
           "abstract": "Humans have been singing with other humans across time and culture. Although past research found positive effects of singing with others, it has not disentangled those effects from being in an established collective. In the current research, we examined the hypothesis that singing in groups leads to increased feelings of well-being and self-expansion even without an established collective. Furthermore, we hypothesized that the main mechanism for these effects is a feeling of collective effervescence—an intertwining sense that one is connected to others and that something special is happening. Finally, we hypothesized that the positive effects of collective effervescence felt during a singing event can last weeks, even months, after the event. Across two experiments and a longitudinal study, we found support for our hypotheses. Singing in groups predicts positive outcomes (e.g., positive mood, satisfaction with life, self-concept change, donation intentions), primarily via the collective effervescence experienced at these events.",
@@ -607,6 +664,15 @@
           "doi": "https://doi.org/10.1177/01461672261479483",
           "filter": 0,
           "created": "2026-9-1"
+        },
+        {
+          "title": "Diverging Effects of Deliberation: How Perceived Thoughtfulness About Political Issues Affects Character Judgments",
+          "authors": "Zachary N. Grey, Paul Bloom, Jason E. Plaks, Yoel Inbar",
+          "abstract": "Across three studies ( N = 896), we examined the effects of perceived deliberation and political (dis)agreement on moral character judgments. We tested whether targets who agree or disagree with the participant on a political issue are evaluated more positively when they are described as deliberating (vs. not deliberating). Results showed that in cases of agreement, there was no effect of deliberation on moral character judgments. This was because deliberators were seen as less certain (which was associated with more negative evaluations) but also more thoughtful (which was associated with more positive evaluations). However, in cases of disagreement, deliberation led to more positive moral character judgments. This was because deliberators were again seen as less certain and more thoughtful, but both perceptions were associated with more positive evaluations. These findings suggest that perceived deliberation makes disagreement more palatable and that people are less concerned with how like-minded people reach their conclusions.",
+          "url": "https://doi.org/10.1177/01461672261478731",
+          "doi": "https://doi.org/10.1177/01461672261478731",
+          "filter": 0,
+          "created": "2026-9-3"
         },
         {
           "title": "Historical Relevance and Modern Perceptions: Mixed-Black and Mixed-Native Racial Categorization and Resource Deservingness",
@@ -687,14 +753,6 @@
           "doi": "https://doi.org/10.1037/ppm0000701",
           "filter": 0,
           "created": "2026-8-31"
-        },
-        {
-          "title": "Adolescents’ appearance-related social media consciousness and photo-related behaviors are linked to social anxiety symptoms with peers digitally and in-person: An ecological momentary assessment study.",
-          "authors": "Adelaide E. Graham, Margaret V. Brehm, Zelal Kilic, Sophia Choukas-Bradley, Jacqueline L. Nesi, Cecile D. Ladouceur, Jennifer S. Silk",
-          "url": "https://doi.org/10.1037/ppm0000696",
-          "doi": "https://doi.org/10.1037/ppm0000696",
-          "filter": 0,
-          "created": "2026-8-27"
         }
       ],
       "articles_hidden": []
