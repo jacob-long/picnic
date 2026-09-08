@@ -1,5 +1,5 @@
 {
-  "update": "2026-09-07",
+  "update": "2026-09-08",
   "content": [
     {
       "journal_full": "Journal of Elections, Public Opinion and Parties",
@@ -20,6 +20,22 @@
           "doi": "https://doi.org/10.1080/17457289.2026.2724987",
           "filter": 0,
           "created": "2026-9-1"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Journal of Official Statistics",
+      "journal_short": "JOS",
+      "articles": [
+        {
+          "title": "From News to Index: A Practitioner’s Guide to a Deployable Sentiment Pipeline for Official Statistics",
+          "authors": "Younghwan Lee",
+          "abstract": "This paper presents a deployable pipeline for constructing a news-based sentiment index (NbSI) for official-statistics use. The index is designed as a timely complement to survey-based consumer confidence measures when releases are delayed, observations are missing, or survey collection is temporarily disrupted. The pipeline is implemented using large-scale Korean economic news, manually labeled sentence-level sentiment data, pretrained word embeddings, and three standard neural classifiers: a convolutional neural network (CNN), an long short-term memory network (LSTM), and a transformer. The empirical analysis yields four main findings: (i) a compact CNN provides the strongest model-level operational trade-off, requiring substantially less training and inference time than the LSTM or transformer while delivering similar classification reliability; (ii) marginal gains from additional labeled data flatten beyond roughly 40k sentences, suggesting diminishing returns to large-scale annotation in this application; (iii) the resulting aggregate index is stable across classifier choices, supporting the use of the computationally efficient CNN as the baseline production model; and (iv) the NbSI leads Korea’s Composite Consumer Sentiment Index (CCSI) by about one month and is most useful when survey information is delayed or unavailable for sustained periods. These findings highlight the importance of transparent validation, label quality, monitoring, and maintainability when text-based indicators are adapted for official-statistics production.",
+          "url": "https://doi.org/10.1177/0282423x261477606",
+          "doi": "https://doi.org/10.1177/0282423x261477606",
+          "filter": 0,
+          "created": "2026-9-7"
         }
       ],
       "articles_hidden": []
@@ -81,21 +97,6 @@
           "doi": "https://doi.org/10.1093/jssam/smag031",
           "filter": 0,
           "created": "2026-8-1"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Politics, Groups, and Identities",
-      "journal_short": "PGI",
-      "articles": [
-        {
-          "title": "Intersectional identity and framing of Black Lives Matter news coverage",
-          "authors": "Katherine Haenschen, Marisa A. Smith",
-          "url": "https://doi.org/10.1080/21565503.2026.2672962",
-          "doi": "https://doi.org/10.1080/21565503.2026.2672962",
-          "filter": 0,
-          "created": "2026-8-31"
         }
       ],
       "articles_hidden": []
