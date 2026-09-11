@@ -1,5 +1,5 @@
 {
-  "update": "2026-09-10",
+  "update": "2026-09-11",
   "content": [
     {
       "journal_full": "Journal of Elections, Public Opinion and Parties",
@@ -36,15 +36,6 @@
       "journal_full": "Journal of Survey Statistics and Methodology",
       "journal_short": "JSSAM",
       "articles": [
-        {
-          "title": "A Statewide Experiment on the Use of University Branding on Survey Mail Recruitment Envelopes",
-          "authors": "Kyle Endres",
-          "abstract": "University branding is often included on envelopes used for mail recruitment materials for university-sponsored or administered surveys based on the assumption that signaling the university sponsorship improves the response rate. This postulation was experimentally tested by randomizing whether or not the university name and logo were included above the return address on the envelopes used to send recruitment materials for a statewide mixed-mode survey fielded with both an address-based sample (ABS) and an address-appended random digit dial (RDD) sample. For both samples, the statewide response rate was marginally lower when the university affiliation was included on the recruitment envelopes by 1.4 (ABS) and 1.7 (RDD) percentage points. Consistent across samples, the use of the university branding had significant negative effects on response rates in counties not geographically connected to the university. Closer to the university, however, the results were mixed, with the university branding significantly improving participation in the university’s home county by 7.9 percentage points for the ABS sample and having an insignificant effect in surrounding counties for both samples and in the university’s home county for the RDD sample.",
-          "url": "https://doi.org/10.1093/jssam/smag009",
-          "doi": "https://doi.org/10.1093/jssam/smag009",
-          "filter": 0,
-          "created": "2026-3-14"
-        },
         {
           "title": "Optimizing Survey Errors and Survey Costs: A Risk-Conscious Stopping Rule and Timing Analysis",
           "authors": "Xinyu Zhang, James Wagner, Michael R Elliott",
@@ -107,15 +98,6 @@
       "journal_short": "SSCR",
       "articles": [
         {
-          "title": "Wild, Thick, and Wicked: Situated Evidence on AI-In-Use for Decisions About Deploying AI Systems",
-          "authors": "Reva Schwartz, Gabriella Waters",
-          "abstract": "Organizations are adopting generative AI faster than the evidence base needed to govern it. Existing evaluation tools such as benchmarks, alignment scores, and safety tests were built for model development, not for judging whether systems will create value, introduce friction, or shift risk in specific real-world settings. As a result, there is little systematic evidence about how AI behaves once it is embedded in everyday work. This paper proposes a real-world AI evaluation framework focused on AI-in-use: how people actually appropriate, adapt, and work around AI systems in context, and what consequences follow over time. Instead of treating variability across users, tasks, and settings as noise to be controlled away, the framework treats that variation as the central source of deployment-relevant evidence. It sets out four design principles for producing decision-ready evidence at scale and proposes a shared evaluation architecture combining a structured observation environment, a metrics hub, and reusable consortium models that summarize system behavior across contexts. Rather than replacing traditional benchmarks, this framework adds a sociotechnical evidence layer that connects model capabilities to the organizational and practitioner level outcomes where deployment decisions are actually made.",
-          "url": "https://doi.org/10.1177/08944393261481511",
-          "doi": "https://doi.org/10.1177/08944393261481511",
-          "filter": 0,
-          "created": "2026-9-4"
-        },
-        {
           "title": "Parsing Causal Relationships in Social Science Publications",
           "authors": "Rasoul Norouzi, Bennett Kleinberg, Jeroen Vermunt, Caspar Van Lissa",
           "abstract": "Understanding the causes of phenomena is a key goal of scientific enquiry. For historic reasons, social scientists are reluctant to explicitly discuss causal assumptions. Nevertheless, causal claims do appear in the literature. Systematically cataloging these causal claims and parsing them into structured cause-effect relationship would allow us to synthesize them and, ultimately, construct theories based on oft-repeated causal claims. However, manually extracting these claims is infeasible due to the scale of the literature and linguistic ambiguity, and existing automated methods often lack domain specificity or fail to extract specific cause-effect pairs. To overcome these limitations, we introduce a BERT-based multitask deep learning model trained on a novel, domain-specific benchmark dataset of 3,014 annotated sentences from social science papers. The model simultaneously (1) identifies sentences containing causal claims, (2) extracts cause and effect spans, and (3) links the associated causal pairs. In our study, the multi-head model outperformed a model with sequential architecture, as well as two generative LLMs (Llama 3 8B and Qwen3 8B), which were prompted to code the sentences with a few examples of the coding schema. Specifically, the multi-head model had the highest macro F1-score across all three subtasks and lower false-positive error propagation compared to the sequential model. Its agreement with human coders on the held-out test set (Krippendorff’s α = 0.81) was of similar magnitude to the interrater agreement among the human coders, computed on an interrater reliability subsample (α = 0.80).",
@@ -123,6 +105,15 @@
           "doi": "https://doi.org/10.1177/08944393261478561",
           "filter": 0,
           "created": "2026-9-10"
+        },
+        {
+          "title": "Wild, Thick, and Wicked: Situated Evidence on AI-In-Use for Decisions About Deploying AI Systems",
+          "authors": "Reva Schwartz, Gabriella Waters",
+          "abstract": "Organizations are adopting generative AI faster than the evidence base needed to govern it. Existing evaluation tools such as benchmarks, alignment scores, and safety tests were built for model development, not for judging whether systems will create value, introduce friction, or shift risk in specific real-world settings. As a result, there is little systematic evidence about how AI behaves once it is embedded in everyday work. This paper proposes a real-world AI evaluation framework focused on AI-in-use: how people actually appropriate, adapt, and work around AI systems in context, and what consequences follow over time. Instead of treating variability across users, tasks, and settings as noise to be controlled away, the framework treats that variation as the central source of deployment-relevant evidence. It sets out four design principles for producing decision-ready evidence at scale and proposes a shared evaluation architecture combining a structured observation environment, a metrics hub, and reusable consortium models that summarize system behavior across contexts. Rather than replacing traditional benchmarks, this framework adds a sociotechnical evidence layer that connects model capabilities to the organizational and practitioner level outcomes where deployment decisions are actually made.",
+          "url": "https://doi.org/10.1177/08944393261481511",
+          "doi": "https://doi.org/10.1177/08944393261481511",
+          "filter": 0,
+          "created": "2026-9-4"
         }
       ],
       "articles_hidden": []
