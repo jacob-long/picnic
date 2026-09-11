@@ -1,27 +1,33 @@
 {
-  "update": "2026-09-10",
+  "update": "2026-09-11",
   "content": [
+    {
+      "journal_full": "Advances in Methods and Practices in Psychological Science",
+      "journal_short": "AMPPS",
+      "articles": [
+        {
+          "title": "Going in the Right Direction: A Tutorial to Directional Hypothesis Testing Using the BFpack Module in JASP",
+          "authors": "Joris Mulder, Julius Pfadt",
+          "abstract": "Many scientific theories predict not just whether an effect exists but also how multiple parameters relate—for example, that one mean exceeds another or that several effects follow a specific order. Yet researchers often test such directional expectations indirectly through post hoc analyses of individual parameters, which (a) provide only indirect evidence for the theory, (b) require multiplicity corrections that lower power, and (c) can lead to selective emphasis on statistically significant results. In this tutorial, we introduce the BFpack module in JASP for testing directional hypotheses directly using Bayes factors. A unique feature of the module is that it allows researchers to quantify the relative evidence in the data between hypotheses with competing sets of equality/order/one-sided constraints. BFpack offers default Bayesian procedures for common designs— t tests, (multivariate) analysis of (co)variance, regression, and multigroup correlations—without manual prior specification. Through three worked examples, we address the three limitations of post hoc analyses and help researchers move toward more theory-driven inference.",
+          "url": "https://doi.org/10.1177/25152459261463155",
+          "doi": "https://doi.org/10.1177/25152459261463155",
+          "filter": 0,
+          "created": "2026-9-10"
+        }
+      ],
+      "articles_hidden": []
+    },
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "Reject common measures like d′ and Corrected Recognition, embrace da: Simulation explorations of single- and multi-point recognition measures of sensitivity",
-          "authors": "Adva Levi, Raz Danino, Caren M. Rotello, Yonatan Goshen-Gottstein",
-          "abstract": "In this article, we address the high prevalence of false discoveries in recognition memory research. Using Monte Carlo simulations, our goal was to find a valid measure of performance that reliably separates the contribution of sensitivity (accuracy) from that of bias . Relevant to myriad tasks, most notably old–new recognition memory, the simulations revealed that common measures confound sensitivity with bias, a finding termed the “measurement crisis.” As a solution, we propose a version of d-sub-a ( d a ). We ran comprehensive simulations to evaluate the validity of sensitivity measures, including P r = HR − FAR, A ′, d ′, and AUC g , in addition to d a . Memory “signals” were randomly sampled from lure and target distributions. Sensitivity measures generated from iso-sensitive conditions that differed in bias were compared using t -tests, across thousands of simulations. For bias-independent measures, the rate of significant results should be 5%. We manipulated several parameters, including the form of the distributions (i.e., from three prominent models of recognition–memory: unequal variance signal detection [UVSD], double-high threshold [2HT], dual-process signal detection [DPSD]), the distance between their means, their relative variance, the placement of response criteria, the sample size, and the number of simulated trials. Results demonstrated that under most experimental scenarios, only d a was unaffected by changes in bias. In contrast, all common measures typically exhibited alarmingly high false discovery rates, exceeding 5%. The rates rose to 100% with larger sample sizes and a large number of trials. These findings indicate that d a warrants serious consideration as the default measure of sensitivity.",
-          "url": "https://doi.org/10.3758/s13428-026-03130-w",
-          "doi": "https://doi.org/10.3758/s13428-026-03130-w",
+          "title": "Emotion in English as a foreign language: Affective ratings for over 2,000 words by college learners",
+          "authors": "Beatriz Bermúdez-Margaretto, Elisa Pérez-García, Angel Fernandez, María Jesús Sánchez",
+          "url": "https://doi.org/10.3758/s13428-026-03159-x",
+          "doi": "https://doi.org/10.3758/s13428-026-03159-x",
           "filter": 0,
-          "created": "2026-9-3"
-        },
-        {
-          "title": "Ensemble clustering: A practical tutorial",
-          "authors": "Caroline X. Gao, Shengqi Wang, Ye Zhu, Myriam Ziou, Shu Mei Teo, Catherine L. Smith, Derek Chiu, Aline Talhouk, Mengmeng Wang, Wenhua Yu, Sue M. Cotton, Dominic Dwyer",
-          "abstract": "Cluster analysis is an explorative analytical method, serving as a critical tool in psychology, psychiatry, and related fields to map heterogeneous data into meaningful subgroups. Despite their extensive historical use, traditional clustering techniques suffer from a lack of stability, robustness, and generalisability. These issues stem from the inherent difficulties of the clustering optimisation problem as well as the stochastic nature of algorithm optimisers. To address these challenges, we demonstrate the use of methods utilising ensemble learning techniques to combine clustering results from different algorithms, model specifications, and/or sampled sub-datasets to form a single, more reliable consensus of clustering solutions. We detail ensemble clustering principles and variations in base clustering generation models and ensemble methods. More importantly, detailed introductions in existing R libraries and practical examples using R code are provided to guide users in both implementing and optimising ensemble clustering models. As a practical tutorial, we then include simulation studies of real-world data to demonstrate the substantial benefit of ensemble clustering compared with single-run clustering models. The resources presented here will enable researchers to apply advanced clustering techniques to decompose heterogeneous and complex psychological data into stable subgroups.",
-          "url": "https://doi.org/10.3758/s13428-026-03158-y",
-          "doi": "https://doi.org/10.3758/s13428-026-03158-y",
-          "filter": 0,
-          "created": "2026-9-3"
+          "created": "2026-9-10"
         },
         {
           "title": "Surprisal from Large Language Models as an individual difference: Capturing the individual regardless of the text answer",
@@ -56,6 +62,14 @@
       "journal_short": "CHB",
       "articles": [
         {
+          "title": "Do Users Trade Performance for Eco-Visibility? Digital Pollution Awareness and Stated Preferences for Social Media Platform Configurations",
+          "authors": "Andrzej Szymkowiak, Konstantinos Madias",
+          "url": "https://doi.org/10.1016/j.chb.2026.109174",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109174",
+          "filter": 0,
+          "created": "2026-9-10"
+        },
+        {
           "title": "Autonomy-supportive mediation and scam susceptibility: The role of literacy among middle-aged and older adults",
           "authors": "Yunsha Pu, Hongliang Chen, Yijin Guo",
           "url": "https://doi.org/10.1016/j.chb.2026.109178",
@@ -80,7 +94,15 @@
           "created": "2026-9-7"
         },
         {
-          "title": "Symptom Network Structures of Social Media Addiction and Internet Gaming Addiction Among School-aged Youth: Undirected and Bayesian Directed Graph Analyses",
+          "title": "Effects of AI-Based Chatbot Coaching on Goal Attainment, Self-Efficacy, and Stress: A Longitudinal Randomized Experiment",
+          "authors": "Marie Luise Ohlms, Patrick D. Dunlop, Markus Langer",
+          "url": "https://doi.org/10.1016/j.chb.2026.109184",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109184",
+          "filter": 0,
+          "created": "2026-9-10"
+        },
+        {
+          "title": "Symptom network structures of social media addiction and internet gaming addiction among school-aged youth: Undirected and Bayesian directed graph analyses",
           "authors": "Hao Wen, Yuhang Liu, Yang Luo",
           "url": "https://doi.org/10.1016/j.chb.2026.109183",
           "doi": "https://doi.org/10.1016/j.chb.2026.109183",
@@ -119,12 +141,12 @@
       "journal_short": "JESP",
       "articles": [
         {
-          "title": "Perceived time in the presence of others: Further arguments for an attentional view of social facilitation",
-          "authors": "C. Belletier, P. Huguet, L. Ferrand, S. Droit-Volet",
-          "url": "https://doi.org/10.1016/j.jesp.2026.104997",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.104997",
+          "title": "When does perspective-taking predict coalition success? The interplay of propensity, accuracy, and social predictability",
+          "authors": "Anabela Cantiani, Ilja van Beest, Thorsten M. Erle",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104995",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104995",
           "filter": 0,
-          "created": "2026-9-3"
+          "created": "2026-9-10"
         },
         {
           "title": "Moral surgery: Negative revelations differentially alter retrospective evaluations of creators and creations",
@@ -142,36 +164,36 @@
       "journal_short": "JPSP",
       "articles": [
         {
-          "title": "Judged by humans, comforted by machines: How psychological expectations shape experiences and perceptions of AI support.",
-          "authors": "Roshni Raveendhran, Trevor A. Foulk",
-          "url": "https://doi.org/10.1037/pspa0000494",
-          "doi": "https://doi.org/10.1037/pspa0000494",
+          "title": "Evaluating the predictive model for national life satisfaction from the world happiness report, between and within nations.",
+          "authors": "Michael A. Busseri",
+          "url": "https://doi.org/10.1037/pspp0000621",
+          "doi": "https://doi.org/10.1037/pspp0000621",
           "filter": 0,
-          "created": "2026-9-3"
+          "created": "2026-9-10"
         },
         {
-          "title": "The perceived whiteness of artificial intelligence.",
-          "authors": "Monica Gamez-Djokic, Adam Waytz",
-          "url": "https://doi.org/10.1037/pspi0000533",
-          "doi": "https://doi.org/10.1037/pspi0000533",
+          "title": "“Yeah, it’s biased, but … ”: Recognition versus moral condemnation of bias across party lines.",
+          "authors": "Hannah B. Waldfogel, Brittany C. Solomon, Matthew E. K. Hall",
+          "url": "https://doi.org/10.1037/pspa0000492",
+          "doi": "https://doi.org/10.1037/pspa0000492",
           "filter": 0,
-          "created": "2026-9-3"
-        },
+          "created": "2026-9-10"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Organizational Research Methods",
+      "journal_short": "ORM",
+      "articles": [
         {
-          "title": "The family environment in late childhood and early adolescence as a predictor of narcissism in emerging adulthood: Findings from a 17-year longitudinal study of Mexican-origin youth.",
-          "authors": "Winkie Ma, Emorie D. Beck, Richard W. Robins",
-          "url": "https://doi.org/10.1037/pspp0000614",
-          "doi": "https://doi.org/10.1037/pspp0000614",
+          "title": "Multilevel Latent Profile Analyses: A Comprehensive Guide",
+          "authors": "Simon A. Houle, Alexandre J.S. Morin, Jean-François Harvey",
+          "abstract": "The organizational sciences have recently seen an uptake in the use of both person-centered analyses, most typically implemented via latent profile analyses (LPA), and multilevel analyses. Yet their combination remains conceptually underdeveloped and forms the focus of the current article. On the one hand, LPA is perfectly suited to the identification of subpopulations, or profiles, of participants characterized by distinct configurations on a set of variables. On the other hand, multilevel models are aptly suited to uncover, or control for, phenomena unfolding across individual, group, and organizational levels. In combination, multilevel-LPA provides the best of both worlds, enabling researchers to identify subpopulations of individuals and/or groups corresponding to distinct prototypical states, while modeling within-group and between-group variability. In the current article, we provide a comprehensive guide for multilevel-LPA implementation to monitor group contexts, climates, and cultures. We present six types of multilevel-LPA specifications—additive, dispersion, additive-dispersion, dispersion-heterogeneity, restrictive cross-level, and full cross-level—that ought to be carefully selected based on the nature of the constructs being measured and the research questions being asked. In doing so, we aim provide researchers with the analytical and conceptual tools to select and apply the appropriate multilevel person-centered model to achieve their research objectives.",
+          "url": "https://doi.org/10.1177/10944281261469432",
+          "doi": "https://doi.org/10.1177/10944281261469432",
           "filter": 0,
-          "created": "2026-9-3"
-        },
-        {
-          "title": "How will I know if you really like me? Assessing the role of appearance, behavior, and reciprocity for metaliking accuracy in initial social encounters.",
-          "authors": "Jana Bruns, Eva Bleckmann, Lisa M. Niemeyer, Mitja D. Back, Steffen Nestler",
-          "url": "https://doi.org/10.1037/pspp0000611",
-          "doi": "https://doi.org/10.1037/pspp0000611",
-          "filter": 0,
-          "created": "2026-9-3"
+          "created": "2026-9-10"
         }
       ],
       "articles_hidden": []
@@ -180,24 +202,6 @@
       "journal_full": "Personality and Social Psychology Bulletin",
       "journal_short": "PSPB",
       "articles": [
-        {
-          "title": "The Impact of Regulatory Goals on the Disclosure of Self-presentational Vulnerabilities",
-          "authors": "Sohyun Bae, Natalie Truong Faust, Sharon Ng",
-          "abstract": "Individuals often disclose their self-presentational vulnerabilities, including the use of counterfeit products or weight-loss medications. Yet, despite the commonality of such vulnerable self-disclosure, little is known about who discloses, why they do so, and when they choose to reveal or conceal these vulnerabilities. Addressing that gap, we examine how regulatory focus and relationship closeness jointly shape the disclosure of self-presentational vulnerabilities. Across eight studies, we find that prevention-focused (vs. promotion-focused) individuals are more willing to disclose self-presentational vulnerabilities to close others, but not to distant others. We further find that this effect occurs because prevention-focused (vs. promotion-focused) individuals more strongly believe that disclosing such vulnerable information to close others can strengthen their interpersonal relationships.",
-          "url": "https://doi.org/10.1177/01461672261478729",
-          "doi": "https://doi.org/10.1177/01461672261478729",
-          "filter": 0,
-          "created": "2026-9-3"
-        },
-        {
-          "title": "Diverging Effects of Deliberation: How Perceived Thoughtfulness About Political Issues Affects Character Judgments",
-          "authors": "Zachary N. Grey, Paul Bloom, Jason E. Plaks, Yoel Inbar",
-          "abstract": "Across three studies ( N = 896), we examined the effects of perceived deliberation and political (dis)agreement on moral character judgments. We tested whether targets who agree or disagree with the participant on a political issue are evaluated more positively when they are described as deliberating (vs. not deliberating). Results showed that in cases of agreement, there was no effect of deliberation on moral character judgments. This was because deliberators were seen as less certain (which was associated with more negative evaluations) but also more thoughtful (which was associated with more positive evaluations). However, in cases of disagreement, deliberation led to more positive moral character judgments. This was because deliberators were again seen as less certain and more thoughtful, but both perceptions were associated with more positive evaluations. These findings suggest that perceived deliberation makes disagreement more palatable and that people are less concerned with how like-minded people reach their conclusions.",
-          "url": "https://doi.org/10.1177/01461672261478731",
-          "doi": "https://doi.org/10.1177/01461672261478731",
-          "filter": 0,
-          "created": "2026-9-3"
-        },
         {
           "title": "Shifting Selves—The (In)flexibility of Part-White Mixed-Race Identities in Response to Identity Rejection and Acceptance",
           "authors": "Anna X. Huang, Juliane Degner",
@@ -231,6 +235,29 @@
           "doi": "https://doi.org/10.1177/03057356261478801",
           "filter": 0,
           "created": "2026-9-5"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Psychology of Popular Media",
+      "journal_short": "PPM",
+      "articles": [
+        {
+          "title": "“The Love Island effect”? The reciprocal relationship between body pressure while watching Love Island and engagement in body change strategies.",
+          "authors": "Edward John Noon, Ilse Vranken, Madison Hannapel, Gabriella Seiler",
+          "url": "https://doi.org/10.1037/ppm0000695",
+          "doi": "https://doi.org/10.1037/ppm0000695",
+          "filter": 0,
+          "created": "2026-9-10"
+        },
+        {
+          "title": "From breakup to letting go: Tracing audience responses to parasocial grief when a series ends.",
+          "authors": "Chenxu Liu, Zheng Zhang, Huimin Zhang",
+          "url": "https://doi.org/10.1037/ppm0000707",
+          "doi": "https://doi.org/10.1037/ppm0000707",
+          "filter": 0,
+          "created": "2026-9-10"
         }
       ],
       "articles_hidden": []
