@@ -1,5 +1,5 @@
 {
-  "update": "2026-09-11",
+  "update": "2026-09-12",
   "content": [
     {
       "journal_full": "American Journal of Political Science",
@@ -22,13 +22,22 @@
       "journal_short": "BJPOL",
       "articles": [
         {
-          "title": "Calculation and Conscience: Motivations for the Substantive Representation of Ethnic Minorities",
-          "authors": "Stephanie Zonszein, Apurav Bhatiya, William Dinneen, Guy Grossman",
-          "abstract": "Existing work shows that minority legislators are more likely to represent their group’s interests compared to dominant group legislators. However, it is unclear whether this is due to intrinsic motivations or electoral incentives. We use a regression discontinuity design (RDD) to analyze ethnic minority representation in the UK Parliament. By comparing white MPs who narrowly beat minority candidates to minority MPs who narrowly beat white candidates, the RDD controls for electoral incentives since it holds constant constituency factors correlated with a minority parliamentary win. Analyzing over 1 million parliamentary questions and speeches, we find that minority MPs are more likely than white MPs to discuss issues important to ethnic minorities. Additional evidence suggests that narrowly elected MPs face similar electoral incentives and that minority MPs representing minorities face re-election penalties. Our findings are consistent with the idea that minority substantive representation is driven at least in part by intrinsic motivations.",
-          "url": "https://doi.org/10.1017/s0007123426101690",
-          "doi": "https://doi.org/10.1017/s0007123426101690",
+          "title": "Policy as a Bargaining Outcome: Coalition Leverage and Pledge Fulfillment",
+          "authors": "Mark A. Kayser, Jochen Rehmert, Petra Schleiter",
+          "abstract": "Which parties can deliver the policies that they promised? In multiparty contexts, parties must bargain to realize electoral promises. Prior work shows that parties influence policy change by using resources such as legislative seats, ministerial posts, and agenda, veto, and policing powers, while only theoretical work considers parties’ bargaining leverage from potentially changing the government. But for parties, fulfilling pledges (not incremental policy change) is paramount and they use their full leverage to achieve it. We offer and test a more complete and politically relevant account of multiparty policymaking that includes parties’ bargaining leverage through coalition options and focuses on the realization of distinct policy promises. We estimate regression analyses of pledge fulfillment in nine parliamentary democracies from 1974 to 2011 as well as local average treatment effects across a discontinuity and find that parties’ bargaining leverage from potential coalition change trumps conventional explanations for policy outcomes.",
+          "url": "https://doi.org/10.1017/s0007123426101641",
+          "doi": "https://doi.org/10.1017/s0007123426101641",
           "filter": 0,
-          "created": "2026-9-4"
+          "created": "2026-9-11"
+        },
+        {
+          "title": "The Audience of Coalition Bargaining: Voter Reactions to Portfolio Allocation",
+          "authors": "Ida B. Hjermitslev, Mathias Wessel Tromborg",
+          "abstract": "Obtaining portfolios is one of the most important pay-offs that parties receive from getting into office. Accordingly, we know a lot about how portfolios are distributed between coalition partners, but surprisingly little about how voters react to these distributional outcomes. We address this research gap both theoretically and empirically. Theoretically, we argue that voters use cues from the quantitative and qualitative portfolio distributions to evaluate coalition partners’ competence in negotiations, which in turn shapes party support. Empirically, we use original experimental and panel survey data from the 2022 Danish general election. We find that voters infer negotiation competence from the number, power, and party-specific salience of the portfolios a party obtains. We also demonstrate that many voters paid attention to the real-world negotiation outcome and withdrew their support for the parties they perceived handled the negotiations less competently.",
+          "url": "https://doi.org/10.1017/s0007123426101744",
+          "doi": "https://doi.org/10.1017/s0007123426101744",
+          "filter": 0,
+          "created": "2026-9-11"
         }
       ],
       "articles_hidden": []
@@ -44,6 +53,14 @@
           "doi": "https://doi.org/10.1016/j.electstud.2026.103146",
           "filter": 0,
           "created": "2026-9-5"
+        },
+        {
+          "title": "Polling and parliamentary representation: Strategic voting in the 2025 German federal election",
+          "authors": "Werner Krause, Jan Philipp Thomeczek, Aiko Wagner",
+          "url": "https://doi.org/10.1016/j.electstud.2026.103142",
+          "doi": "https://doi.org/10.1016/j.electstud.2026.103142",
+          "filter": 0,
+          "created": "2026-9-11"
         }
       ],
       "articles_hidden": []
@@ -112,6 +129,15 @@
           "doi": "https://doi.org/10.1177/13540688261487654",
           "filter": 0,
           "created": "2026-9-8"
+        },
+        {
+          "title": "Rain, temperature, and votes: Weather effects on electoral participation in Argentina",
+          "authors": "Fernando Antonio Ignacio González",
+          "abstract": "Compulsory voting was designed to make electoral participation immune to individual costs, yet this paper shows that rain on election day still keeps Argentine voters home. Exploiting quasi-random variation in precipitation across 526 departments and 14 national election days between 2011 and 2023, I estimate two-way fixed effects models with department and election fixed effects using ERA5 reanalysis data matched to department centroids. Each additional millimeter of voting-hours precipitation (8am–6pm) reduces turnout by 0.08 percentage points ( p &lt; 0.01); on a day of average rainfall this implies about a 0.2 percentage-point reduction. The estimate survives an extensive identification battery: balance tests, a 9-day placebo window with horse races, grid-cell clustering, and a validation of the reanalysis data against independent rain-gauge stations. Using newly constructed vote shares by ideological bloc, I find that rainfall does not bias the partisan outcome—it leaves the incumbent vote share, the left/Peronist bloc, and the left–right balance unchanged, in contrast to the partisan effects documented under voluntary voting in Europe—and it has no effect on blank ballots, null votes, or fragmentation. Weather thus operates through the extensive margin (whether to vote) rather than the intensive margin (how to vote). If even a century-old compulsory voting institution cannot fully insulate turnout from weather shocks, institutional reforms such as postal voting, extended hours, or remote electronic voting deserve consideration even where voting is mandatory.",
+          "url": "https://doi.org/10.1177/13540688261489030",
+          "doi": "https://doi.org/10.1177/13540688261489030",
+          "filter": 0,
+          "created": "2026-9-11"
         }
       ],
       "articles_hidden": []
@@ -121,15 +147,6 @@
       "journal_short": "PA",
       "articles": [
         {
-          "title": "Correcting for Nonignorable Nonresponse Bias in Ordinal Observational Survey Data",
-          "authors": "Lukáš Lafférs, Jozef Michal Mintal, Ivan Sutóris",
-          "abstract": "Many political surveys rely on post-stratification, raking or related weighting adjustments to align respondents with the target population. But when respondents differ from nonrespondents on the outcome itself (nonignorable nonresponse), these adjustments can fail, introducing bias even into basic descriptives. We provide a practical method that corrects for nonignorable nonresponse by leveraging response-propensity proxies (e.g., a respondent’s rating of the interview or interviewer-coded cooperativeness) observed among respondents to extrapolate toward nonrespondents, while directly integrating observable covariates and retaining the benefits of post-stratification with known population shares. The method generalizes the variable-response-propensity framework of Peress (2010) from binary to ordinal outcomes, which are widely used to measure trust, satisfaction and policy attitudes. The resulting estimator is computed by maximum likelihood and implemented in a compact R routine that handles both ordinal and binary outcomes. Using the 2024 American National Election Study, we show that accounting for nonignorable nonresponse produces substantively meaningful shifts for life satisfaction (estimated latent correlation ρ ≈ 0.47 $\\rho \\approx 0.47$ rho almost equals 0.47 ), while yielding only modest changes for retrospective economic evaluations ( ρ ≈ 0.14 $\\rho \\approx 0.14$ rho almost equals 0.14 ), highlighting when nonignorable nonresponse substantively affects survey estimates.",
-          "url": "https://doi.org/10.1017/pan.2026.10055",
-          "doi": "https://doi.org/10.1017/pan.2026.10055",
-          "filter": 0,
-          "created": "2026-9-4"
-        },
-        {
           "title": "Get Out the Volunteer: Encouraging Diverse Political Party Activism",
           "authors": "Jonne Kamphorst, Horacio Larreguy",
           "abstract": "Political parties in advanced democracies face a dual challenge: fewer citizens are willing to volunteer, and those who remain active are disproportionately older and male. This is troubling given the central role that volunteers play in campaigns and party processes. Whether party leaders can recruit a larger and more diverse activist base remains an open question. We partnered with a major party in the Netherlands and conducted two field experiments before the 2021 general and 2022 municipal elections, targeting over 35,000 party members. The party randomized whether members received a personal call, an email or both. Results show that calls—where members could voice their opinions—increased volunteer sign-up rates (83% in Study 1 and 361% in Study 2), especially among younger members. By contrast, emails had no effect. These findings clarify mixed evidence in the literature, suggesting that voice opportunities are key to expanding and diversifying the activist base.",
@@ -137,6 +154,22 @@
           "doi": "https://doi.org/10.1017/pan.2026.10053",
           "filter": 0,
           "created": "2026-9-9"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Political Behavior",
+      "journal_short": "PolBehav",
+      "articles": [
+        {
+          "title": "From Antagonistic Talk to Cooperative Acts: The Effect of Polarization Cues on Newspaper Audiences",
+          "authors": "Mike Farjam, Hendrik Meyer",
+          "abstract": "Do media depictions of a ‘polarized society’ merely describe division or actually deepen it? We report two laboratory experiments in Germany (Study1 $$N=302$$ ; Study2 $$N=295$$ ). After reading authentic newspaper articles in which brief polarization cues were experimentally included versus omitted, participants (i) completed standard affective- and ideological-polarization measures and (ii) played incentivized Dictator, Ultimatum, and Trust Games with ideological out-group partners. Polarization cues increased both affective polarization and ideological extremity. Behavioral responses, however, were mixed. In the Dictator Game, where the recipient cannot respond, treated participants shared less with the out-group. In the Trust Game, characterized by mutual dependence and potential efficiency gains, treated participants sent more to out-group partners. Ultimatum behavior, where interdependence is partial, showed weaker and less consistent shifts. Taken together, polarization cues reliably heighten perceived division but do not uniformly translate into behavioral antagonism: even after cues that increase self-reported polarization, participants can still cooperate with ideological opponents when cooperation is perceived as mutually beneficial.",
+          "url": "https://doi.org/10.1007/s11109-026-10197-w",
+          "doi": "https://doi.org/10.1007/s11109-026-10197-w",
+          "filter": 0,
+          "created": "2026-9-11"
         }
       ],
       "articles_hidden": []
@@ -184,6 +217,14 @@
           "doi": "https://doi.org/10.1016/j.polgeo.2026.103668",
           "filter": 0,
           "created": "2026-9-8"
+        },
+        {
+          "title": "Green hydrogen in the Global South: Politics, spaces, and transformations – An introduction",
+          "authors": "Eric Cezne, Tobias Kalt, Adryane Gorayeb",
+          "url": "https://doi.org/10.1016/j.polgeo.2026.103654",
+          "doi": "https://doi.org/10.1016/j.polgeo.2026.103654",
+          "filter": 0,
+          "created": "2026-9-11"
         }
       ],
       "articles_hidden": [
