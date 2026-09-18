@@ -1,5 +1,5 @@
 {
-  "update": "2026-09-17",
+  "update": "2026-09-18",
   "content": [
     {
       "journal_full": "Journal of Elections, Public Opinion and Parties",
@@ -12,6 +12,22 @@
           "doi": "https://doi.org/10.1080/17457289.2026.2720140",
           "filter": 0,
           "created": "2026-9-13"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Journal of Survey Statistics and Methodology",
+      "journal_short": "JSSAM",
+      "articles": [
+        {
+          "title": "Information Content in Text and Voice Response Formats for Open-Ended Survey Questions",
+          "authors": "Camille Landesvatter, Paul C Bauer",
+          "abstract": "Open-ended survey questions provide valuable data alongside closed-ended questions, but they can be challenging for respondents, leading to decreases in response quality. Our study explores how survey researchers can design open-ended questions to improve response quality and yield more informative answers. In particular, we examine the effect of requesting respondents to answer questions via voice input compared to text input. We use a US sample and questions adapted from popular social survey programs. By experimentally varying the response format, we examine which format produces answers with a higher amount of information. Our findings show that spoken responses tend to be longer and also slightly more informative in terms of entropy than written responses. We also identify sociodemographic and interview context-related factors that may influence the effectiveness of voice formats in certain settings.",
+          "url": "https://doi.org/10.1093/jssam/smag030",
+          "doi": "https://doi.org/10.1093/jssam/smag030",
+          "filter": 0,
+          "created": "2026-7-22"
         }
       ],
       "articles_hidden": []
@@ -44,15 +60,6 @@
           "doi": "https://doi.org/10.1177/08944393261485322",
           "filter": 0,
           "created": "2026-9-16"
-        },
-        {
-          "title": "Parsing Causal Relationships in Social Science Publications",
-          "authors": "Rasoul Norouzi, Bennett Kleinberg, Jeroen Vermunt, Caspar Van Lissa",
-          "abstract": "Understanding the causes of phenomena is a key goal of scientific enquiry. For historic reasons, social scientists are reluctant to explicitly discuss causal assumptions. Nevertheless, causal claims do appear in the literature. Systematically cataloging these causal claims and parsing them into structured cause-effect relationship would allow us to synthesize them and, ultimately, construct theories based on oft-repeated causal claims. However, manually extracting these claims is infeasible due to the scale of the literature and linguistic ambiguity, and existing automated methods often lack domain specificity or fail to extract specific cause-effect pairs. To overcome these limitations, we introduce a BERT-based multitask deep learning model trained on a novel, domain-specific benchmark dataset of 3,014 annotated sentences from social science papers. The model simultaneously (1) identifies sentences containing causal claims, (2) extracts cause and effect spans, and (3) links the associated causal pairs. In our study, the multi-head model outperformed a model with sequential architecture, as well as two generative LLMs (Llama 3 8B and Qwen3 8B), which were prompted to code the sentences with a few examples of the coding schema. Specifically, the multi-head model had the highest macro F1-score across all three subtasks and lower false-positive error propagation compared to the sequential model. Its agreement with human coders on the held-out test set (Krippendorff’s α = 0.81) was of similar magnitude to the interrater agreement among the human coders, computed on an interrater reliability subsample (α = 0.80).",
-          "url": "https://doi.org/10.1177/08944393261478561",
-          "doi": "https://doi.org/10.1177/08944393261478561",
-          "filter": 0,
-          "created": "2026-9-10"
         },
         {
           "title": "Rethinking Scale: The Efficacy of Fine-Tuned Open-Source LLMs in Large-Scale Reproducible Social Science Research",
