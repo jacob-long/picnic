@@ -1,5 +1,5 @@
 {
-  "update": "2026-09-21",
+  "update": "2026-09-22",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -13,6 +13,15 @@
           "doi": "https://doi.org/10.1177/25152459261472842",
           "filter": 0,
           "created": "2026-9-19"
+        },
+        {
+          "title": "Qualitative Researchers Can and Do Generalize: Generalizability Claims in Qualitative Psychological Research",
+          "authors": "Abby I. Person, Moin Syed",
+          "abstract": "A common critique of qualitative research is that it lacks generalizability, and a common response made by qualitative researchers is that qualitative research is not intended to be generalizable. Some have argued that because of varying epistemological assumptions within qualitative research, qualitative research is not capable of statistical-probabilistic generalization but is capable of analytic generalizability and transferability. The purpose of the current study was to explore generalizability in qualitative research. We first examined how frequently qualitative researchers make generalizable claims in their published work. We sampled articles ( N = 33) published from six psychological journals that regularly publish qualitative research and found that 100% of studies included claims related to statistical-probabilistic and analytic generalizability and that 85% related to transferability. A little more than half of studies explicitly described their epistemological framework. However, very few studies said that generalizability was not a goal of the study or noted a lack of generalizability as a limitation of the study. We then provide suggestions to better align qualitative claims with underlying assumptions. We argue that qualitative research can generalize but that qualitative researchers should be more transparent about aiming to do so.",
+          "url": "https://doi.org/10.1177/25152459261474853",
+          "doi": "https://doi.org/10.1177/25152459261474853",
+          "filter": 0,
+          "created": "2026-9-21"
         },
         {
           "title": "Using Nonbinding Experiments to Estimate Causal Effects With Instrumental-Variables Regression: A Tutorial",
@@ -48,15 +57,6 @@
           "created": "2026-9-18"
         },
         {
-          "title": "Extending standardized speech analysis across languages: An Italian toolkit for transcription and coding of neurological speech",
-          "authors": "Allegra Benzini, Alyssa M. Lanzi, Cinzia Palmirotta, Simona Aresta, Petronilla Battista, Gaia C. Santi",
-          "abstract": "Speech and language analysis plays a central role in assessing adult neurological disorders, providing sensitive markers across clinical populations to support diagnosis. Standardized transcription and coding systems are essential to ensure reproducible analyses and enable comparisons across studies and languages. However, practical guidance on adapting such systems for non-English speakers remains limited. This work presents a structured toolkit for adapting speech and language transcription and coding conventions of adult speakers with neurological disorders from English to Italian. The adaptation builds on the CHAT conventions developed within the TalkBank framework. It follows the guiding principles of clarity, readability, and efficiency of data entry, while ensuring linguistic appropriateness for Italian. Original commands and coding options were systematically evaluated and then retained, modified, excluded, or added as needed, with the majority of changes in the coding process reflecting Italian-specific phonetic-phonological and morphosyntactic norms and typical impairment of aphasic production. Beyond providing a ready-to-use Italian manual, this toolkit defines a transparent and replicable framework for cross-linguistic adaptation. The manual was designed as a flexible resource in which users can select coding options guided by specific goals, allowing them to focus on relevant linguistic features at the word or sentence level or across different linguistic domains. By providing linguistically grounded conventions compatible with the TalkBank framework, the Italian Toolkit supports clinically meaningful speech analysis in Italian-speaking adults, and it offers a methodological model for extending standardized annotation systems to other languages.",
-          "url": "https://doi.org/10.3758/s13428-026-03175-x",
-          "doi": "https://doi.org/10.3758/s13428-026-03175-x",
-          "filter": 0,
-          "created": "2026-9-14"
-        },
-        {
           "title": "A systematic scoping review identifying effective virtual reality stress tasks inducing physiological reactivity for future wearables validation",
           "authors": "Magdalena Sikora, Xiaochang Zhao, Jan-Willem van ’t Klooster, Zeynep Koyuncu, Eco de Geus, Matthijs Noordzij",
           "abstract": "Efficient and ecologically sound validation of wearables remains a major challenge in stress research. Virtual reality (VR) could support this by providing standardized, immersive stress induction, but the field lacks a comprehensive and exhaustive overview of which VR tasks reliably evoke physiological stress responses. This review delivers a systematic comparison of VR stressors, mapping 11 tasks into three core stressor categories (social-evaluative, environmental, and cognitive) and offers a synthesis of their effectiveness, methodological characteristics, and suitability for VR-based wearables validation. We examined VR’s effectiveness for physiological stress elicitation, both qualitatively with the focus on task design and quantitatively through available effect sizes of responses. We observed high heterogeneity in stressor design and measurement methods, with the VR Trier Social Stress Test (VR-TSST) and the high-altitude task emerging as most promising VR stressors. Although several studies incorporated wearables, proving feasibility of such setups, none used VR explicitly for validating them. This review supports the use of VR for stress elicitation and for validation of wearable devices. It also enables informed stressor selection and VR study design while highlighting the existing gaps and future directions.",
@@ -64,6 +64,15 @@
           "doi": "https://doi.org/10.3758/s13428-026-03161-3",
           "filter": 0,
           "created": "2026-9-18"
+        },
+        {
+          "title": "CoGrid &amp; the Multi-User Gymnasium: A framework for multi-agent experimentation",
+          "authors": "Chase McDonald, Cleotilde Gonzalez",
+          "abstract": "The increasing integration of artificial intelligence (AI) in everyday life brings with it new challenges and questions regarding how humans interact with autonomous agents. Multi-agent experiments, where humans and AI act together, can offer important opportunities to study social decision-making, but there is a lack of accessible tooling available to researchers to run such experiments. We introduce two tools designed to reduce these barriers. The first, CoGrid , is a multi-agent grid-based simulation library with dual NumPy and JAX backends. The second, Multi-User Gymnasium ( MUG ), translates such simulation environments directly into interactive web-based experiments. MUG supports interactions with arbitrary numbers of humans and AI, utilizing either server-authoritative or peer-to-peer networking with rollback netcode to account for latency. Together, these tools can enable researchers to deploy studies of human–AI interaction, facilitating inquiry into core questions of psychology, cognition, and decision-making, and their relationship to human–AI interaction. Both tools are open source and available to the broader research community. Documentation and source code is available at {}. This paper details the functionality of these tools and presents several case studies to illustrate their utility in human–AI multi-agent experimentation.",
+          "url": "https://doi.org/10.3758/s13428-026-03078-x",
+          "doi": "https://doi.org/10.3758/s13428-026-03078-x",
+          "filter": 0,
+          "created": "2026-9-21"
         }
       ],
       "articles_hidden": []
@@ -89,6 +98,14 @@
           "created": "2026-9-18"
         },
         {
+          "title": "Gendering Conversational AI in Human–AI Interaction: The Role of Interaction Context and Sexist Ideology in Shaping User Evaluations",
+          "authors": "Ye Wang, Xuxu Liu, Yaling Deng, Hongjiang Xiao, Yuan Zhang",
+          "url": "https://doi.org/10.1016/j.chb.2026.109198",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109198",
+          "filter": 0,
+          "created": "2026-9-21"
+        },
+        {
           "title": "Platform abandonment through push–pull–mooring: Trust, commitment, and generational patterns in U.S. social media",
           "authors": "Yee Man Margaret Ng, Ewa Maslowska",
           "url": "https://doi.org/10.1016/j.chb.2026.109192",
@@ -97,7 +114,7 @@
           "created": "2026-9-16"
         },
         {
-          "title": "Organizational Responsibility Attribution: Public Responses to AI versus Human Failures in Government Services",
+          "title": "Organizational responsibility attribution: Public responses to AI versus human failures in government services",
           "authors": "Di Zhou, Zepeng Gong",
           "url": "https://doi.org/10.1016/j.chb.2026.109190",
           "doi": "https://doi.org/10.1016/j.chb.2026.109190",
@@ -127,26 +144,9 @@
           "doi": "https://doi.org/10.1016/j.chb.2026.109191",
           "filter": 0,
           "created": "2026-9-18"
-        },
-        {
-          "title": "From hostile feedback to withdrawal: Emotional exhaustion as a barrier to social media misinformation correction",
-          "authors": "Simone Moser, Stephanie Bührer, Diana Kostikova, Jörg Matthes",
-          "url": "https://doi.org/10.1016/j.chb.2026.109179",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109179",
-          "filter": 0,
-          "created": "2026-9-14"
         }
       ],
-      "articles_hidden": [
-        {
-          "title": "Corrigendum to “Body, emotions, and sexuality in the metaverse: A randomized control trial exploring the use of second life for an avatar-based intervention to support women with female orgasmic disorder” [Computers in Human Behavior 161 (2024) 108390]",
-          "authors": "Ariana Vila, Juan Ardoy-Cuadros, Rosa Romero-Moreno, Celia Nogales-Gonzalez, Andrew J. Ritchey, Maria Sansoni, Giuseppe Riva",
-          "url": "https://doi.org/10.1016/j.chb.2026.109186",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109186",
-          "filter": 1,
-          "created": "2026-9-14"
-        }
-      ]
+      "articles_hidden": []
     },
     {
       "journal_full": "Group Processes & Intergroup Relations",
@@ -187,14 +187,6 @@
       "journal_short": "JPSP",
       "articles": [
         {
-          "title": "How power shapes judgments of culpability: Shield or liability?",
-          "authors": "Gerben A. van Kleef, Seval Gündemir, Rohan L. Dunham, Jordi Quoidbach, Astrid C. Homan",
-          "url": "https://doi.org/10.1037/pspi0000532",
-          "doi": "https://doi.org/10.1037/pspi0000532",
-          "filter": 0,
-          "created": "2026-9-14"
-        },
-        {
           "title": "Dynamic processes in narcissism and affect across Chinese and American individuals: A registered report.",
           "authors": "Yuping Liu, Bingtao Zhou, Leon P. Wendt, Elizabeth A. Edershile, Bo Yang, Aidan G. C. Wright, Johannes Zimmermann, Christopher J. Hopwood",
           "url": "https://doi.org/10.1037/pspp0000612",
@@ -203,28 +195,12 @@
           "created": "2026-9-17"
         },
         {
-          "title": "Equality in the eye of the advantaged beholder: Group status shapes perceptions of equality as zero-sum.",
-          "authors": "N. Derek Brown, Drew S. Jacoby-Senghor",
-          "url": "https://doi.org/10.1037/pspi0000535",
-          "doi": "https://doi.org/10.1037/pspi0000535",
-          "filter": 0,
-          "created": "2026-9-14"
-        },
-        {
           "title": "When and why are social categories overused relative to individuating information? A Bayesian approach to identifying biases in impression formation processes.",
           "authors": "Thalia H. Vrantsidis, William A. Cunningham",
           "url": "https://doi.org/10.1037/pspa0000495",
           "doi": "https://doi.org/10.1037/pspa0000495",
           "filter": 0,
           "created": "2026-9-17"
-        },
-        {
-          "title": "From people to prompts: Understanding susceptibility to persuasion in conversations with artificial intelligence.",
-          "authors": "Geoff Tomaino, SungJin Jung",
-          "url": "https://doi.org/10.1037/pspi0000531",
-          "doi": "https://doi.org/10.1037/pspi0000531",
-          "filter": 0,
-          "created": "2026-9-14"
         }
       ],
       "articles_hidden": []
@@ -255,47 +231,31 @@
       "articles_hidden": []
     },
     {
-      "journal_full": "Psychological Bulletin",
-      "journal_short": "PsychBull",
+      "journal_full": "Psychological Methods",
+      "journal_short": "PM",
       "articles": [
         {
-          "title": "The neural correlates of consciousness: A systematic review and meta-analysis of the visual awareness negativity and P3b.",
-          "authors": "Brendan T. Hutchinson, James E. Pustejovsky, Kavindu Bandara, Hugh McGovern, Jolene Cox, Alexandra Voce, Michael Pitts, Heleen A. Slagter",
-          "url": "https://doi.org/10.1037/bul0000521",
-          "doi": "https://doi.org/10.1037/bul0000521",
+          "title": "How to run round-robin social interaction studies: A tutorial for the efficient capture of natural social behavior.",
+          "authors": "Erin A. Heerey, Samantha M. Jones, Jeremias Campos, Amanda Friesen",
+          "url": "https://doi.org/10.1037/met0000868",
+          "doi": "https://doi.org/10.1037/met0000868",
           "filter": 0,
-          "created": "2026-9-14"
-        },
-        {
-          "title": "Physiological responses to acute psychological stress as a biomarker for depression: A systematic review and meta-analysis.",
-          "authors": "Alexandra T. Tyra, Siobhán M. Griffin, Sarah-Beth Garner, Orla T. Muldoon, Ryan C. Brindle, Sarah E. Williams, Thomas A. Fergus, Annie T. Ginty",
-          "url": "https://doi.org/10.1037/bul0000529",
-          "doi": "https://doi.org/10.1037/bul0000529",
-          "filter": 0,
-          "created": "2026-9-14"
-        },
-        {
-          "title": "A social cascades model of addiction: Examining effects of psychological interventions on social and substance use outcomes via meta-analytic review.",
-          "authors": "Jiaxu Han, Catharine E. Fairbairn, Camille Lansang",
-          "url": "https://doi.org/10.1037/bul0000533",
-          "doi": "https://doi.org/10.1037/bul0000533",
-          "filter": 0,
-          "created": "2026-9-14"
+          "created": "2026-9-21"
         }
       ],
       "articles_hidden": []
     },
     {
-      "journal_full": "Psychology of Popular Media",
-      "journal_short": "PPM",
+      "journal_full": "Technology, Mind, and Behavior",
+      "journal_short": "TMB",
       "articles": [
         {
-          "title": "Fit ideals, everyday practices: How young women negotiate fitspiration through consumption.",
-          "authors": "Asli Guven, İbrahim Taylan Dortyol",
-          "url": "https://doi.org/10.1037/ppm0000705",
-          "doi": "https://doi.org/10.1037/ppm0000705",
+          "title": "Nature in virtual reality and curiosity: The mediating role of restorativeness.",
+          "authors": "Davide Clemente, Claudia Russo, Luciano Romano, Annalisa Theodorou, Elena Rinallo, Camilla Romano, Stepan Vesely, Angelo Panno",
+          "url": "https://doi.org/10.1037/tmb0000206",
+          "doi": "https://doi.org/10.1037/tmb0000206",
           "filter": 0,
-          "created": "2026-9-14"
+          "created": "2026-9-21"
         }
       ],
       "articles_hidden": []
