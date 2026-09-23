@@ -1,5 +1,5 @@
 {
-  "update": "2026-09-22",
+  "update": "2026-09-23",
   "content": [
     {
       "journal_full": "Journal of Survey Statistics and Methodology",
@@ -29,15 +29,6 @@
           "doi": "https://doi.org/10.1177/08944393261485322",
           "filter": 0,
           "created": "2026-9-16"
-        },
-        {
-          "title": "Rethinking Scale: The Efficacy of Fine-Tuned Open-Source LLMs in Large-Scale Reproducible Social Science Research",
-          "authors": "Marcello Carammia, Stefano Maria Iacus, Giuseppe Porro",
-          "abstract": "Large language models (LLMs) are distinguished by their architecture, parameter size, and performance capabilities. Social scientists have increasingly adopted LLMs to automate high-dimensional text classification tasks which are difficult to scale with human coders. Very large, closed-source models often deliver superior performance. However, reliance on large proprietary models raises concerns about transparency, reproducibility, and costs that make them impractical for large-scale research projects. In contrast, open-source models offer distinct advantages: they can be run locally (ensuring data privacy), fine-tuned for specific tasks, shared within the research community, and integrated into reproducible workflows. On the other hand, open-source models often underperform compared to commercial alternatives. In this study, we assess whether small, open-source LLMs – when fine-tuned appropriately – can match or exceed the performance of commercial alternatives such as GPT-4, while remaining feasible for large-scale academic research. To produce the labeled data that fine-tuning requires, we develop a hybrid annotation workflow in which several LLMs propose labels that human reviewers verify; this infrastructure is what makes fine-tuning feasible at scale. We apply this pipeline to three substantive social science classification tasks: coding tweets for human flourishing indicators, classifying European Parliament questions by policy area, and tagging datasets from the Harvard Dataverse. Our results show that fine-tuned models as small as Llama2-7B achieve performance on par with much larger closed models, offering a reproducible, low-cost alternative for computational social science research. We also explore the limits of fine-tuning effectiveness across model sizes and training set volumes. This work demonstrates a scalable and replicable approach to integrating open-source LLMs into empirical social science workflows.",
-          "url": "https://doi.org/10.1177/08944393261485320",
-          "doi": "https://doi.org/10.1177/08944393261485320",
-          "filter": 0,
-          "created": "2026-9-15"
         }
       ],
       "articles_hidden": []
