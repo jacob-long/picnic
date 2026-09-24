@@ -1,10 +1,19 @@
 {
-  "update": "2026-09-23",
+  "update": "2026-09-24",
   "content": [
     {
       "journal_full": "Journal of Survey Statistics and Methodology",
       "journal_short": "JSSAM",
       "articles": [
+        {
+          "title": "Conditional Optimal Sampling: Enhancing Unequal-Probability Designs with Auxiliary Information",
+          "authors": "P García-Segador, P Miranda",
+          "abstract": "We address the problem of selecting a fixed-size sample from a finite population when the goal is to reduce the estimation error as much as possible. Our approach builds on the idea of choosing samples that are nearly optimal with respect to the values of the study variable, even though these values are not observed in advance. Instead, we rely on predictions derived from auxiliary information, for example, through statistical or machine-learning models, and construct sampling designs that are optimal for these predicted values. We show that this strategy is remarkably effective: even when the predictions are imperfect, the resulting designs tend to be very close to the unknown optimal design based on the true values. To understand why this happens, we study the geometric structure underlying the space of all feasible sampling designs and use this perspective to develop practical algorithms. Simulation experiments indicate that the proposed methodology achieves noticeably lower estimation error than classical unequal-probability sampling methods commonly used in the literature, including balanced procedures such as cube and classical fixed-size designs like conditional Poisson sampling.",
+          "url": "https://doi.org/10.1093/jssam/smag027",
+          "doi": "https://doi.org/10.1093/jssam/smag027",
+          "filter": 0,
+          "created": "2026-7-14"
+        },
         {
           "title": "Information Content in Text and Voice Response Formats for Open-Ended Survey Questions",
           "authors": "Camille Landesvatter, Paul C Bauer",
@@ -13,22 +22,6 @@
           "doi": "https://doi.org/10.1093/jssam/smag030",
           "filter": 0,
           "created": "2026-7-22"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Social Science Computer Review",
-      "journal_short": "SSCR",
-      "articles": [
-        {
-          "title": "Leveraging Structural Information to Reconstruct Hidden Nodes in Propagation Graphs",
-          "authors": "Damian Frąszczak",
-          "abstract": "While widely used for information exchange, social media networks are increasingly exploited to spread rumors and malicious content. It is essential to reconstruct propagation graphs to hold nodes accountable for such propagation. However, the dynamic and vast nature of social networks makes this task challenging. This study introduces Structural Hidden Node Identification (SHNI), a heuristic method for reconstructing partially observed propagation snapshots by identifying likely hidden participants. SHNI relies on the observed active nodes and structural neighborhood information, without requiring temporal traces, message content, user attributes, or network-specific supervised retraining; its structural parameters may be selected by expert knowledge or calibrated once and then reused across networks. Instead of materializing the entire graph in advance, the method supports on-demand neighborhood expansion from observed active nodes toward structurally relevant candidate nodes. It combines local activation pressure with a structural bridging component inspired by sociological principles of opinion formation, including local social influence, information bubbles, and the role of bridging nodes between groups. SHNI explores candidate hidden nodes through a priority-driven neighborhood expansion strategy, in which the most promising candidates are evaluated first, and further exploration stops when the heuristic evidence becomes insufficient. Experiments across different network structures show that SHNI achieves competitive reconstruction quality while maintaining low data requirements and transparent decision logic. These results indicate that SHNI is especially useful as an interpretable structural baseline when temporal traces, message content, or network-specific supervised training data are unavailable. The method may also be adapted to other propagation phenomena, such as epidemic spread or malware diffusion in computer networks.",
-          "url": "https://doi.org/10.1177/08944393261485322",
-          "doi": "https://doi.org/10.1177/08944393261485322",
-          "filter": 0,
-          "created": "2026-9-16"
         }
       ],
       "articles_hidden": []
