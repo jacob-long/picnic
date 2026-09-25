@@ -1,10 +1,19 @@
 {
-  "update": "2026-09-24",
+  "update": "2026-09-25",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
       "journal_short": "AMPPS",
       "articles": [
+        {
+          "title": "Pairmutate: A Web Application for Testing Dyadic Associations Through Comparison With Pseudo Dyads",
+          "authors": "Chiara Carlier, Liesse Frérart, Peter Kuppens, Eva Ceulemans",
+          "abstract": "Recently, a lot of attention in the behavioral sciences has been going to how feelings, thoughts, or behaviors overlap, covary, or synchronize across time within dyadic relationships, such as romantic couples or parent–child pairs. This is often investigated by computing and testing an association measure within each dyad. However, two individuals may demonstrate similar responses and thus association simply because they are in the same experimental conditions, have similar social or cultural backgrounds, or just share basic biological functions rather than that the observed similarity can be attributed to true interpersonal processes. This “common input” phenomenon is known to increase the probability of false positives when testing dyadic associations. Permutation testing allows one to account for it by comparing associations based on data from true dyads with associations based on data from pseudo dyads. Pseudo dyads are formed by coupling partners from different dyads in the sample. Although this approach has been proven valuable in dyadic research, it is conceptually and computationally complex and thus not readily accessible. In this tutorial, we explain the logic behind testing dyadic associations using pseudo dyads and introduce and demonstrate a newly developed web application called “Pairmutate” for this purpose.",
+          "url": "https://doi.org/10.1177/25152459261477396",
+          "doi": "https://doi.org/10.1177/25152459261477396",
+          "filter": 0,
+          "created": "2026-9-24"
+        },
         {
           "title": "Finding the Fingerprints of Generative Artificial Intelligence in Psychology Publications",
           "authors": "Elouise Botes, Ziwen Teuber, Nora Vitali, Jean-Marc Dewaele, Joanne Colling",
@@ -24,6 +33,24 @@
           "created": "2026-9-21"
         },
         {
+          "title": "A Practical Tutorial in R for Meta-Analytic Structural Equation Modeling With Hierarchical Effect-Size Dependency and Study-Level Moderators",
+          "authors": "Junhua Dang",
+          "abstract": "In this tutorial, I provide a comprehensive, step-by-step guide to conducting two-stage meta-analytic structural equation modeling with hierarchical effect-size dependency and moderation analyses. I illustrate the procedure using a data set of correlations between Big Five personality traits and psychological flow across multiple studies. The proposed workflow uses multilevel-multivariate random-effects pooling in Stage 1 and structural equation modeling in Stage 2. A key feature is a working-model approach to Stage 1 heterogeneity: I fit and compare interpretable heterogeneity structures (e.g., compound-symmetry and heterogeneous compound-symmetry variants) and select the best-fitting pooling model before constructing the Stage 2 inputs. I then demonstrate how to evaluate a categorical moderator (i.e., flow questionnaire) via multigroup comparison. I also illustrate how to test heterogeneity in individual path coefficients and conduct post hoc pairwise comparisons. By walking through the full two-stage meta-analytic structural-equation-modeling workflow using real data and reproducible R code, I intend this tutorial for researchers in psychology, education, and the social sciences who seek to synthesize findings across studies regardless of prior experience with meta-analytic structural equation modeling.",
+          "url": "https://doi.org/10.1177/25152459261466637",
+          "doi": "https://doi.org/10.1177/25152459261466637",
+          "filter": 0,
+          "created": "2026-9-24"
+        },
+        {
+          "title": "Addressing Missing Data From Prompt Noncompliance: A Practical Guide to Auxiliary Variables in Ecological Momentary Assessment",
+          "authors": "Stefan Schneider, Marta Walentynowicz, Meynard J. Toledo, Raymond Hernandez, Doerte U. Junghaenel, Joshua M. Smyth, Arthur A. Stone",
+          "abstract": "Missing data from noncompliance and missed prompts are pervasive in ecological-momentary-assessment (EMA) research. Although researchers often examine variables associated with prompt nonresponse, these variables are rarely incorporated into analytic models, leaving standard multilevel analyses to rely on missing-at-random (MAR) assumptions that are often implausible given the available data. In this tutorial, we introduce an accessible strategy for integrating such variables, known as “auxiliary variables,” directly into multilevel models to bolster the plausibility of the MAR assumption. We outline a practical framework for identifying promising auxiliary variables in EMA data sets (e.g., structural-design features, lagged self-reports, passive metadata) and provide step-by-step instructions for (a) preparing EMA data sets, (b) evaluating the utility of candidate auxiliary variables, and (c) incorporating them into multilevel models of EMA data. To facilitate adoption, we supply open-source R code for each step and introduce an R function ( EMAuxiliary ) that streamlines the estimation of multilevel models with auxiliary variables using freely available Blimp software. A fully worked example using real EMA data illustrates the approach. Our aim is to equip applied researchers with a practical, widely applicable method for reducing bias from missing prompts and strengthening inferences in EMA studies.",
+          "url": "https://doi.org/10.1177/25152459261479197",
+          "doi": "https://doi.org/10.1177/25152459261479197",
+          "filter": 0,
+          "created": "2026-9-24"
+        },
+        {
           "title": "Using Nonbinding Experiments to Estimate Causal Effects With Instrumental-Variables Regression: A Tutorial",
           "authors": "Sanford R. Student",
           "abstract": "Often, causal effects of interest in psychological research involve causes that cannot be randomly assigned. Instrumental-variables (IV) regression, a cornerstone of the econometric literature on causal inference with nonrandom causes, allows for unbiased causal inference in the face of several threats to the validity of causal inference using ordinary-least-squares regression. IV regression is enabled by an instrument—a third variable that affects the outcome only through its influence on the hypothesized cause. One way to study causal effects in psychology is thus the random assignment of an intervention that drives change in the cause of interest but is otherwise unrelated to the outcome, followed by IV analysis to produce a valid causal effect. Moreover, IV regression models can be estimated straightforwardly as structural equation models (SEMs). Based on open data from a recently published study in the economics literature, in this tutorial, I outline the use of SEMs to estimate the causal effect of a behavior of interest, exercise, on an outcome of interest, academic performance, enabled by an instrument—a randomly distributed free gym card—that constitutes a random, nonbinding manipulation of exercise. The role of covariates in IV regression is outlined, and R code is provided for all analyses.",
@@ -31,14 +58,6 @@
           "doi": "https://doi.org/10.1177/25152459261469159",
           "filter": 0,
           "created": "2026-9-19"
-        },
-        {
-          "title": "This Is the Reason for External Replication: Response to Aungle et al.",
-          "authors": "Nicholas J. L. Brown, Andrew Gelman",
-          "url": "https://doi.org/10.1177/25152459261462843",
-          "doi": "https://doi.org/10.1177/25152459261462843",
-          "filter": 0,
-          "created": "2026-9-17"
         }
       ],
       "articles_hidden": []
@@ -72,6 +91,15 @@
           "doi": "https://doi.org/10.3758/s13428-026-03163-1",
           "filter": 0,
           "created": "2026-9-23"
+        },
+        {
+          "title": "Measuring the dynamics of attentional capture in hand and eye movements with virtual reality",
+          "authors": "Max D. Gurr, Jeff Moher, Matthew D. Egbert, Christopher D. Erb",
+          "abstract": "Laboratory investigations of attentional capture typically use two-dimensional displays and button-press responses, which may limit their generalizability to everyday experiences. The current study used a virtual reality (VR) system to measure the dynamics of attentional capture by simultaneously recording participants’ ( N = 54) hand and eye movements as they completed a modified additional singleton task. In both a sparsely detailed and richly detailed virtual environment, participants reached to select a uniquely shaped target that was accompanied by a uniquely colored distractor on 50% of trials. We observed robust attentional capture costs across our measures of hand and eye movements, with greater latencies in initiation and movement times, larger reach curvatures, more overall eye movement, and delayed first target fixations on distractor-present trials. Three-dimensional target attraction and distractor attraction scores provided sensitive measures of the time course of attentional capture and allowed for more direct interpretations of performance than reach curvature. Although initiation times, response times, gaze distances, and target fixation proportions were elevated in the richly detailed environment relative to the sparsely detailed environment, we failed to observe a significant interaction between environmental detail and attentional capture costs in any of our measures. Taken together, our results demonstrate the feasibility of using VR to examine the dynamics of attentional capture in immersive virtual environments with richer, more continuous behavioral measures.",
+          "url": "https://doi.org/10.3758/s13428-026-03177-9",
+          "doi": "https://doi.org/10.3758/s13428-026-03177-9",
+          "filter": 0,
+          "created": "2026-9-24"
         },
         {
           "title": "Creating and validating photorealistic AI-generated facial expression stimuli for emotion research",
@@ -116,6 +144,14 @@
           "doi": "https://doi.org/10.3758/s13428-026-03078-x",
           "filter": 0,
           "created": "2026-9-21"
+        },
+        {
+          "title": "An LLM canary in the online data coalmine: Bayesian reasoning problems as a capability-gap test for LLM contamination in online samples",
+          "authors": "Vera Wilde",
+          "url": "https://doi.org/10.3758/s13428-026-03184-w",
+          "doi": "https://doi.org/10.3758/s13428-026-03184-w",
+          "filter": 0,
+          "created": "2026-9-24"
         }
       ],
       "articles_hidden": []
@@ -133,7 +169,7 @@
           "created": "2026-9-18"
         },
         {
-          "title": "Aggregate Convergence and Constituent Divergence in Incel-Related Online Communities: A Cross-Platform Linguistic Analysis",
+          "title": "Aggregate convergence and constituent divergence in incel-related online communities: A mentalizing-theory lens on cross-platform linguistic patterns",
           "authors": "Bochen Li, Cass Dykeman",
           "url": "https://doi.org/10.1016/j.chb.2026.109188",
           "doi": "https://doi.org/10.1016/j.chb.2026.109188",
@@ -157,12 +193,28 @@
           "created": "2026-9-23"
         },
         {
+          "title": "A Longitudinal Study of Patterns of Direct Online Harms Victimization in Six EU Countries",
+          "authors": "Sandy Schumann, Magdalena Celuch, Emmi Kauppila, Iina Savolainen, Atte Oksanen",
+          "url": "https://doi.org/10.1016/j.chb.2026.109195",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109195",
+          "filter": 0,
+          "created": "2026-9-24"
+        },
+        {
           "title": "Incompetence or Deception: Unraveling the Asymmetric Mechanisms of AI Hallucinations on Trust and Distrust",
           "authors": "Kun WANG, Zhao PAN, Yaobin LU",
           "url": "https://doi.org/10.1016/j.chb.2026.109201",
           "doi": "https://doi.org/10.1016/j.chb.2026.109201",
           "filter": 0,
           "created": "2026-9-23"
+        },
+        {
+          "title": "Personalizing AI Voice Agents: How Voice Agents with Similar Voices Shape Trust, Self-Congruency, and Behavior",
+          "authors": "Yun Fu, Martin Meißner",
+          "url": "https://doi.org/10.1016/j.chb.2026.109202",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109202",
+          "filter": 0,
+          "created": "2026-9-24"
         },
         {
           "title": "Beyond tasks: Environment and interaction as active components in virtual reality interventions for dementia",
@@ -181,12 +233,12 @@
           "created": "2026-9-22"
         },
         {
-          "title": "Organizational responsibility attribution: Public responses to AI versus human failures in government services",
-          "authors": "Di Zhou, Zepeng Gong",
-          "url": "https://doi.org/10.1016/j.chb.2026.109190",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109190",
+          "title": "Newcomers help most after being helped, veterans do not: Evidence from Stack Overflow",
+          "authors": "Lenard Strahringer, Sven Eric Pruess, Kai Riemer",
+          "url": "https://doi.org/10.1016/j.chb.2026.109193",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109193",
           "filter": 0,
-          "created": "2026-9-17"
+          "created": "2026-9-24"
         },
         {
           "title": "Divergent Relationships Between Moral Disengagement and Cyberbullying Bystander Response Behaviors: Examining the Amplifying Roles of Humor and Anonymity",
@@ -195,22 +247,6 @@
           "doi": "https://doi.org/10.1016/j.chb.2026.109197",
           "filter": 0,
           "created": "2026-9-23"
-        },
-        {
-          "title": "Nodding of virtual humans does not necessarily increase customer trust: a temporal analysis",
-          "authors": "Joris R.H. van der Harta, Michelle M.E. van Pinxterena, Roel Boumansa, Tibor Bossea",
-          "url": "https://doi.org/10.1016/j.chb.2026.109180",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109180",
-          "filter": 0,
-          "created": "2026-9-17"
-        },
-        {
-          "title": "Multimodal cognitive and neurophysiological differences between esports players, traditional athletes, and the gamer population: A comparative study using qEEG, cognitive testing, and the BARD competency framework",
-          "authors": "Oliver Szabella, Laszlo Szaloki, Daniel Samuel Kutyej, Attila Varhegyi, Barbara Berta, Zoltan Borbas, Laszlo Csakvari, Daniel Bella, Marton Kekesi, Gergely Hajdu, Mira Ambrus, Balazs Biro, Dorina Annar, Irina Kalabiska",
-          "url": "https://doi.org/10.1016/j.chb.2026.109177",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109177",
-          "filter": 0,
-          "created": "2026-9-17"
         },
         {
           "title": "Who Falls for the Bait? Deciphering the Psychological Architecture and Network Dynamics of Vulnerable Youth",
@@ -228,31 +264,22 @@
       "journal_short": "GPIR",
       "articles": [
         {
-          "title": "Stay Healthy for Your (Our) Community: Examining How Source Identity Affects Black Americans’ Responses to Targeted COVID-19 Messages",
-          "authors": "Evava S. Pietri, Veronica Derricks, India R. Johnson, Sheba M. Aikawa",
-          "abstract": "Many communications during the pandemic emphasized COVID-19’s disproportionate impact on Black Americans. Articles highlighting such racial health disparities can act as a form of health information targeting , which can be threatening when aimed at marginalized identities. In Study 1, Black participants indicated a greater level of anger and distrust when reading a targeted article from a White male doctor, focusing on racial health disparities during the pandemic, compared to a non-targeted article. Source distrust was associated with decreased message persuasiveness and intentions to engage in safety behaviors. Moreover, a Black male doctor was generally more persuasive, mitigating the adverse effects of message targeting on source trust. Replicating these findings in Study 2, a Black male doctor/source was more persuasive than a White female doctor among Black women participants. Interestingly, perceptions of source bias and expertise showed a different pattern than trust, demonstrating the distinct link between distrust, targeted messaging, and threat.",
-          "url": "https://doi.org/10.1177/13684302261481441",
-          "doi": "https://doi.org/10.1177/13684302261481441",
+          "title": "Adolescents’ Future Marriage Preferences: The Codevelopment of National Identity, Attitudes Towards Immigration and Intergroup Marriage Preferences Across Time",
+          "authors": "Alexander W. O’Donnell, Morgana Lizzio-Wilson, Michael Thai, Emma F. Thomas, Fiona Kate Barlow",
+          "abstract": "Human development involves constructing an imagined future, with young people often envisioning their future spouse and family composition. The extent to which national, religious and racial preferences emerge during this time is largely unknown. Using a large sample of Australian-born, English-speaking adolescents, the relationships between national identity, attitudes towards immigration and ingroup marriage preferences were assessed into young adulthood. Random intercept cross-lagged panel models revealed significant within-person effects, whereby higher national identity indirectly predicted stronger national and racial marriage preferences 5 years later via increasingly critical attitudes towards immigration. Further, stronger national and racial marriage preferences predicted future increases in negative attitudes towards immigration, which in turn was associated with increased national identity several years later. Although marrying someone from the same religion was reported by young people to be important to them, national identity was not associated with changes in religious marriage preferences. These longitudinal effects suggest that simultaneous efforts to promote a more inclusive national identity and normalise intergroup intimacy could reduce prejudices during a formative developmental period.",
+          "url": "https://doi.org/10.1177/13684302261475934",
+          "doi": "https://doi.org/10.1177/13684302261475934",
           "filter": 0,
-          "created": "2026-9-17"
+          "created": "2026-9-24"
         },
         {
-          "title": "Causal Evidence for the Role of Respect Norms in Promoting Tolerance",
-          "authors": "Lucía Estevan-Reina, Marcin Bukowski, Laura Frederica Schäfer, Anna Potoczek, Dominika Gurbisz, Oliver Christ",
-          "abstract": "Promoting social norms can be a powerful tool to deal with the intolerance that threatens our societies. This research explores how equality-based respect norms foster intergroup tolerance. We developed an experimental paradigm manipulating equality-based respect norms within social media to promote tolerance toward the LGBTIQ+ community in Poland. Across three studies (Study 1: N = 98; Study 2: N = 381; Study 3: N = 377), manipulations consistently affected perceptions of descriptive and injunctive norms in a Facebook post and in Polish society. Moderation analyses showed that the effect of our manipulation on tolerance emerged only among participants with less positive attitudes toward homosexual people (Study 1) or stronger disapproval of same-sex marriage (Study 3). This supports the conceptualization of tolerance as respecting others despite disapproving of their behavior. We discuss the implications of this research for the promotion of respect norms and tolerance as a way to deal with the challenges associated with divisions in society.",
-          "url": "https://doi.org/10.1177/13684302261476011",
-          "doi": "https://doi.org/10.1177/13684302261476011",
+          "title": "The Fight for the Climate: Social Identities, Grievances, and Authoritarianism Drive Support for Climate Activism and Radicalism",
+          "authors": "Oluf Gøtzsche-Astrup",
+          "abstract": "The combination of increased political authoritarianism and an accelerating climate emergency has led to worries of an uptick in political violence among activists. This paper takes a social psychological approach to develop hypotheses around the role of social identities, personal grievances, and authoritarianism in driving support for more radical climate activism. It tests these hypotheses in a conjoint experiment across the US, the UK, and Denmark (total N = 2,447). The experiment varies characteristics of activists and asks respondents to indicate their support for and willingness to join conventional and transgressive protest groups. Results show that identification with the climate movement and left-wing political alignment constitute protective factors against, rather than accelerators of, radical action. Rather, left-wing authoritarianism emerges as a core driver of more radical responses. The more left-wing authoritarian the respondent, the more open to sympathizing with and willing to join radical protest groups. The paper contributes to our causal understanding of group processes involved in protest and reintroduces conjoint experiments to this domain.",
+          "url": "https://doi.org/10.1177/13684302261481446",
+          "doi": "https://doi.org/10.1177/13684302261481446",
           "filter": 0,
-          "created": "2026-9-17"
-        },
-        {
-          "title": "Open Borders, Restrained Change: How Group Permeability Shapes Intergroup Evaluations and Social Hierarchy",
-          "authors": "Julien Barbedor, Jennifer Bastart, Laurent Cambon, Vincent Yzerbyt",
-          "abstract": "Building on Social Identity Theory (SIT), the dimensional compensation model (DCM) suggests that people rely on the Big Two dimensions of social evaluation to manage their group identity: members of low (high) status groups compensate their relative lower (higher) standing competence by stressing their higher (lower) level on warmth. Because SIT highlights permeability as an important structural variable that shapes people’s identity management strategies, we hypothesized that stronger permeability should induce less compensation, especially on warmth. In Studies 1a, 1b, and 2 (total N = 1,694), we measured permeability using a social ladder paradigm. In Study 3 ( N = 2,263), we manipulated permeability by relying on a fictitious company scenario. Our results confirm that judges were less inclined to compensate when permeability was high rather than low. These findings support the idea that permeability is an important structural variable that shapes the compensation effect for both high- and low-status perceivers.",
-          "url": "https://doi.org/10.1177/13684302261481447",
-          "doi": "https://doi.org/10.1177/13684302261481447",
-          "filter": 0,
-          "created": "2026-9-17"
+          "created": "2026-9-24"
         }
       ],
       "articles_hidden": []
@@ -281,29 +308,6 @@
       "articles_hidden": []
     },
     {
-      "journal_full": "Journal of Personality and Social Psychology",
-      "journal_short": "JPSP",
-      "articles": [
-        {
-          "title": "Dynamic processes in narcissism and affect across Chinese and American individuals: A registered report.",
-          "authors": "Yuping Liu, Bingtao Zhou, Leon P. Wendt, Elizabeth A. Edershile, Bo Yang, Aidan G. C. Wright, Johannes Zimmermann, Christopher J. Hopwood",
-          "url": "https://doi.org/10.1037/pspp0000612",
-          "doi": "https://doi.org/10.1037/pspp0000612",
-          "filter": 0,
-          "created": "2026-9-17"
-        },
-        {
-          "title": "When and why are social categories overused relative to individuating information? A Bayesian approach to identifying biases in impression formation processes.",
-          "authors": "Thalia H. Vrantsidis, William A. Cunningham",
-          "url": "https://doi.org/10.1037/pspa0000495",
-          "doi": "https://doi.org/10.1037/pspa0000495",
-          "filter": 0,
-          "created": "2026-9-17"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
       "journal_full": "Personality and Social Psychology Bulletin",
       "journal_short": "PSPB",
       "articles": [
@@ -317,13 +321,13 @@
           "created": "2026-9-19"
         },
         {
-          "title": "Approach–Avoidance Tendencies Across Societies: How Mobility and Competition Shape Human Motivation",
-          "authors": "Kuan-Ju Huang, Yen-Ling Chen, Yan Li, Xian Zhao",
-          "abstract": "Approach and avoidance are two foundational systems that drive human behavior. Although these systems are generally considered to be shaped by neurobiological factors, approach and avoidance tendencies vary systematically across societies. However, there is currently no framework that explains these cross-societal variations. We propose a socioecological framework to explain how environments with varying levels of relational mobility and societal competition shape individuals’ sensitivity toward reward (i.e., approach) or punishment (i.e., avoidance). Using five studies involving individuals from China, Japan, Taiwan, and the United States ( N = 3,639), we found a complex pattern of approach and avoidance tendencies across societies. Specifically, Japanese participants are more avoidance-oriented than U.S. participants, while Chinese and Taiwanese participants are as or more approach-oriented than their U.S. counterparts. These variations were associated with the ecologies of relational mobility and societal competition. Together, these findings offer a novel mobility–competition framework for understanding societal differences in human motivation.",
-          "url": "https://doi.org/10.1177/01461672261481234",
-          "doi": "https://doi.org/10.1177/01461672261481234",
+          "title": "Is Authenticity Perceptible? Accuracy in Judgments of State Authenticity From Expressive Behavior",
+          "authors": "Vanessa K. Castro, Serena Chen, Joseph M. Ocampo, Amie M. Gordon, Emily A. Impett, Max Weisbuch",
+          "abstract": "Substantial research provides evidence that being perceived as authentic benefits well-being and relationships, but under-examined is whether perceptions of authenticity are accurate. Across five studies, we tested whether perceivers can accurately discern others’ state authenticity. In Studies 1 to 3, we investigated correspondence between perceived and felt authenticity within acquainted dyads. Romantic partners accurately discerned each other’s authenticity after making sacrifices (Study 1) and after discussing a topic of personal distress and desired partner change (Study 2). However, partners failed to accurately perceive each other’s felt authenticity when discussing relationship conflict (Study 3), possibly impacted by cognitive or motivational processes elicited by the relatively high interpersonal stakes at play in conflict. In Studies 4A and 4B, outside observers were sensitive to authenticity differences in participants from Study 3 when watching thin-slice videos of the conflict conversations. Overall, we discuss the importance of authenticity for impression formation and close relationships.",
+          "url": "https://doi.org/10.1177/01461672261481957",
+          "doi": "https://doi.org/10.1177/01461672261481957",
           "filter": 0,
-          "created": "2026-9-17"
+          "created": "2026-9-24"
         }
       ],
       "articles_hidden": []
@@ -332,6 +336,30 @@
       "journal_full": "Psychological Methods",
       "journal_short": "PM",
       "articles": [
+        {
+          "title": "The denominator chooses the estimand: A target-population true-score framework for standardized mean differences.",
+          "authors": "Daiki Nakamura",
+          "url": "https://doi.org/10.1037/met0000875",
+          "doi": "https://doi.org/10.1037/met0000875",
+          "filter": 0,
+          "created": "2026-9-24"
+        },
+        {
+          "title": "Transitive differential item functioning clustering: A graph-theoretic approach to identifying many-group partial measurement invariance.",
+          "authors": "Yale Quan, Chun Wang",
+          "url": "https://doi.org/10.1037/met0000873",
+          "doi": "https://doi.org/10.1037/met0000873",
+          "filter": 0,
+          "created": "2026-9-24"
+        },
+        {
+          "title": "Identifying causes of treatment effect heterogeneity across replication studies: Definitions, identification, and estimation of remaining heterogeneity.",
+          "authors": "Soojin Park, Steffi Pohl, Peter M. Steiner",
+          "url": "https://doi.org/10.1037/met0000863",
+          "doi": "https://doi.org/10.1037/met0000863",
+          "filter": 0,
+          "created": "2026-9-24"
+        },
         {
           "title": "How to run round-robin social interaction studies: A tutorial for the efficient capture of natural social behavior.",
           "authors": "Erin A. Heerey, Samantha M. Jones, Jeremias Campos, Amanda Friesen",
@@ -378,9 +406,56 @@
       "articles_hidden": []
     },
     {
+      "journal_full": "Psychology of Popular Media",
+      "journal_short": "PPM",
+      "articles": [
+        {
+          "title": "A message from your outgoing editor.",
+          "authors": "Karen E. Shackleford",
+          "url": "https://doi.org/10.1037/ppm0000684",
+          "doi": "https://doi.org/10.1037/ppm0000684",
+          "filter": 0,
+          "created": "2026-9-24"
+        },
+        {
+          "title": "Differential effects of social media on body esteem: An ecological momentary assessment on weight satisfaction and muscularity importance.",
+          "authors": "Megan Van Alfen, Sarah M. Coyne, Joseph A. Olsen, Drew P. Cingel, Adam A. Rogers, Ashley Larsen Gibby",
+          "url": "https://doi.org/10.1037/ppm0000700",
+          "doi": "https://doi.org/10.1037/ppm0000700",
+          "filter": 0,
+          "created": "2026-9-24"
+        },
+        {
+          "title": "Eye tracking and the self-view: Self-focused attention on Zoom is a limited predictor of appearance-related concerns.",
+          "authors": "Amelia C. Couture Bue, Julie Aprill, Jacob Russell, Mariia Pugina, Carrie Grim, Jessica Simmons, Mania Mohseni, Sheena Hunter",
+          "url": "https://doi.org/10.1037/ppm0000703",
+          "doi": "https://doi.org/10.1037/ppm0000703",
+          "filter": 0,
+          "created": "2026-9-24"
+        },
+        {
+          "title": "Editors’ introduction to the special issue: New media and body image.",
+          "authors": "Megan A. Vendemia, Teresa Lynch",
+          "url": "https://doi.org/10.1037/ppm0000704",
+          "doi": "https://doi.org/10.1037/ppm0000704",
+          "filter": 0,
+          "created": "2026-9-24"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Technology, Mind, and Behavior",
       "journal_short": "TMB",
       "articles": [
+        {
+          "title": "Digital intimacy: Motivations, perceptions, and perceived growth in human–artificial intelligence companionships.",
+          "authors": "Zeena Whayeb, Robert Hymes, Michelle Beddow",
+          "url": "https://doi.org/10.1037/tmb0000219",
+          "doi": "https://doi.org/10.1037/tmb0000219",
+          "filter": 0,
+          "created": "2026-9-24"
+        },
         {
           "title": "Nature in virtual reality and curiosity: The mediating role of restorativeness.",
           "authors": "Davide Clemente, Claudia Russo, Luciano Romano, Annalisa Theodorou, Elena Rinallo, Camilla Romano, Stepan Vesely, Angelo Panno",
