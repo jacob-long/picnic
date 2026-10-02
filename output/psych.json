@@ -1,36 +1,18 @@
 {
-  "update": "2026-10-01",
+  "update": "2026-10-02",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
       "journal_short": "AMPPS",
       "articles": [
         {
-          "title": "Pairmutate: A Web Application for Testing Dyadic Associations Through Comparison With Pseudo Dyads",
-          "authors": "Chiara Carlier, Liesse Frérart, Peter Kuppens, Eva Ceulemans",
-          "abstract": "Recently, a lot of attention in the behavioral sciences has been going to how feelings, thoughts, or behaviors overlap, covary, or synchronize across time within dyadic relationships, such as romantic couples or parent–child pairs. This is often investigated by computing and testing an association measure within each dyad. However, two individuals may demonstrate similar responses and thus association simply because they are in the same experimental conditions, have similar social or cultural backgrounds, or just share basic biological functions rather than that the observed similarity can be attributed to true interpersonal processes. This “common input” phenomenon is known to increase the probability of false positives when testing dyadic associations. Permutation testing allows one to account for it by comparing associations based on data from true dyads with associations based on data from pseudo dyads. Pseudo dyads are formed by coupling partners from different dyads in the sample. Although this approach has been proven valuable in dyadic research, it is conceptually and computationally complex and thus not readily accessible. In this tutorial, we explain the logic behind testing dyadic associations using pseudo dyads and introduce and demonstrate a newly developed web application called “Pairmutate” for this purpose.",
-          "url": "https://doi.org/10.1177/25152459261477396",
-          "doi": "https://doi.org/10.1177/25152459261477396",
+          "title": "Dyadic: A Scalable Platform for Research on Human–Human and Human–AI Conversation",
+          "authors": "David M. Markowitz",
+          "abstract": "Conversation is ubiquitous in social life, but the empirical study of this interactive process has been thwarted by tools that are insufficiently modular and unadaptive to researcher needs. To relieve many constraints in conversation research, in the current tutorial, I present an overview and walkthrough of a new tool, Dyadic ( https://www.chatdyadic.com ), a web-based platform for studying human–human and human–artificial intelligence (AI) conversations using text-based or voice-based chats. Dyadic is distinct from other platforms by offering studies with multiple modalities, AI suggestions (e.g., in human–human studies, AI can suggest responses to a participant), live monitoring (e.g., researchers can evaluate chats between communicators in real time), and survey deployment (e.g., Likert-type scales, feeling thermometers, and open-ended text boxes can be sent to humans for in situ evaluations of the interaction), among other consequential features. No coding is required to operate Dyadic directly, and integrations with existing survey and participant-recruitment platforms are offered.",
+          "url": "https://doi.org/10.1177/25152459261481065",
+          "doi": "https://doi.org/10.1177/25152459261481065",
           "filter": 0,
-          "created": "2026-9-24"
-        },
-        {
-          "title": "A Practical Tutorial in R for Meta-Analytic Structural Equation Modeling With Hierarchical Effect-Size Dependency and Study-Level Moderators",
-          "authors": "Junhua Dang",
-          "abstract": "In this tutorial, I provide a comprehensive, step-by-step guide to conducting two-stage meta-analytic structural equation modeling with hierarchical effect-size dependency and moderation analyses. I illustrate the procedure using a data set of correlations between Big Five personality traits and psychological flow across multiple studies. The proposed workflow uses multilevel-multivariate random-effects pooling in Stage 1 and structural equation modeling in Stage 2. A key feature is a working-model approach to Stage 1 heterogeneity: I fit and compare interpretable heterogeneity structures (e.g., compound-symmetry and heterogeneous compound-symmetry variants) and select the best-fitting pooling model before constructing the Stage 2 inputs. I then demonstrate how to evaluate a categorical moderator (i.e., flow questionnaire) via multigroup comparison. I also illustrate how to test heterogeneity in individual path coefficients and conduct post hoc pairwise comparisons. By walking through the full two-stage meta-analytic structural-equation-modeling workflow using real data and reproducible R code, I intend this tutorial for researchers in psychology, education, and the social sciences who seek to synthesize findings across studies regardless of prior experience with meta-analytic structural equation modeling.",
-          "url": "https://doi.org/10.1177/25152459261466637",
-          "doi": "https://doi.org/10.1177/25152459261466637",
-          "filter": 0,
-          "created": "2026-9-24"
-        },
-        {
-          "title": "Addressing Missing Data From Prompt Noncompliance: A Practical Guide to Auxiliary Variables in Ecological Momentary Assessment",
-          "authors": "Stefan Schneider, Marta Walentynowicz, Meynard J. Toledo, Raymond Hernandez, Doerte U. Junghaenel, Joshua M. Smyth, Arthur A. Stone",
-          "abstract": "Missing data from noncompliance and missed prompts are pervasive in ecological-momentary-assessment (EMA) research. Although researchers often examine variables associated with prompt nonresponse, these variables are rarely incorporated into analytic models, leaving standard multilevel analyses to rely on missing-at-random (MAR) assumptions that are often implausible given the available data. In this tutorial, we introduce an accessible strategy for integrating such variables, known as “auxiliary variables,” directly into multilevel models to bolster the plausibility of the MAR assumption. We outline a practical framework for identifying promising auxiliary variables in EMA data sets (e.g., structural-design features, lagged self-reports, passive metadata) and provide step-by-step instructions for (a) preparing EMA data sets, (b) evaluating the utility of candidate auxiliary variables, and (c) incorporating them into multilevel models of EMA data. To facilitate adoption, we supply open-source R code for each step and introduce an R function ( EMAuxiliary ) that streamlines the estimation of multilevel models with auxiliary variables using freely available Blimp software. A fully worked example using real EMA data illustrates the approach. Our aim is to equip applied researchers with a practical, widely applicable method for reducing bias from missing prompts and strengthening inferences in EMA studies.",
-          "url": "https://doi.org/10.1177/25152459261479197",
-          "doi": "https://doi.org/10.1177/25152459261479197",
-          "filter": 0,
-          "created": "2026-9-24"
+          "created": "2026-10-1"
         }
       ],
       "articles_hidden": []
@@ -54,15 +36,6 @@
           "doi": "https://doi.org/10.3758/s13428-026-03190-y",
           "filter": 0,
           "created": "2026-9-30"
-        },
-        {
-          "title": "Measuring the dynamics of attentional capture in hand and eye movements with virtual reality",
-          "authors": "Max D. Gurr, Jeff Moher, Matthew D. Egbert, Christopher D. Erb",
-          "abstract": "Laboratory investigations of attentional capture typically use two-dimensional displays and button-press responses, which may limit their generalizability to everyday experiences. The current study used a virtual reality (VR) system to measure the dynamics of attentional capture by simultaneously recording participants’ ( N = 54) hand and eye movements as they completed a modified additional singleton task. In both a sparsely detailed and richly detailed virtual environment, participants reached to select a uniquely shaped target that was accompanied by a uniquely colored distractor on 50% of trials. We observed robust attentional capture costs across our measures of hand and eye movements, with greater latencies in initiation and movement times, larger reach curvatures, more overall eye movement, and delayed first target fixations on distractor-present trials. Three-dimensional target attraction and distractor attraction scores provided sensitive measures of the time course of attentional capture and allowed for more direct interpretations of performance than reach curvature. Although initiation times, response times, gaze distances, and target fixation proportions were elevated in the richly detailed environment relative to the sparsely detailed environment, we failed to observe a significant interaction between environmental detail and attentional capture costs in any of our measures. Taken together, our results demonstrate the feasibility of using VR to examine the dynamics of attentional capture in immersive virtual environments with richer, more continuous behavioral measures.",
-          "url": "https://doi.org/10.3758/s13428-026-03177-9",
-          "doi": "https://doi.org/10.3758/s13428-026-03177-9",
-          "filter": 0,
-          "created": "2026-9-24"
         },
         {
           "title": "How much habituation is enough? An R application for ad hoc content-related limits of acceptance in behavioral research",
@@ -98,14 +71,6 @@
           "doi": "https://doi.org/10.3758/s13428-026-03180-0",
           "filter": 0,
           "created": "2026-9-30"
-        },
-        {
-          "title": "An LLM canary in the online data coalmine: Bayesian reasoning problems as a capability-gap test for LLM contamination in online samples",
-          "authors": "Vera Wilde",
-          "url": "https://doi.org/10.3758/s13428-026-03184-w",
-          "doi": "https://doi.org/10.3758/s13428-026-03184-w",
-          "filter": 0,
-          "created": "2026-9-24"
         }
       ],
       "articles_hidden": []
@@ -115,14 +80,6 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "A Longitudinal Study of Patterns of Direct Online Harms Victimization in Six EU Countries",
-          "authors": "Sandy Schumann, Magdalena Celuch, Emmi Kauppila, Iina Savolainen, Atte Oksanen",
-          "url": "https://doi.org/10.1016/j.chb.2026.109195",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109195",
-          "filter": 0,
-          "created": "2026-9-24"
-        },
-        {
           "title": "Evaluating role-prompted LLM responses on autism-related Theory-of-Mind tasks",
           "authors": "Mohammad Mahdi Salmani-Zarchi, Mohammad Javad Dousti, Hamed Khademi Khaledi, Mohammad Mahdi Mohajeri, Abdol Hossein Vahabie, Heshaam Faili",
           "url": "https://doi.org/10.1016/j.chb.2026.109185",
@@ -131,46 +88,197 @@
           "created": "2026-9-25"
         },
         {
-          "title": "Personalizing AI voice agents: How voice agents with similar voices shape trust, self-congruency, and behavior",
-          "authors": "Yun Fu, Martin Meißner",
-          "url": "https://doi.org/10.1016/j.chb.2026.109202",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109202",
+          "title": "Facilitator or Hallucination Trap? A Social-Cognitive Account of AI-Generated Misinformation Handling in GenAI-Assisted L2 Writing",
+          "authors": "Yilong Yang, Jia Li, Yadan Li, Shuyi Zhang, Kai Guo",
+          "url": "https://doi.org/10.1016/j.chb.2026.109205",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109205",
           "filter": 0,
-          "created": "2026-9-24"
+          "created": "2026-10-1"
         },
         {
-          "title": "Newcomers help most after being helped, veterans do not: Evidence from Stack Overflow",
-          "authors": "Lenard Strahringer, Sven Eric Pruess, Kai Riemer",
-          "url": "https://doi.org/10.1016/j.chb.2026.109193",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109193",
+          "title": "Blurring the boundaries of the self: Instagram's impact on bodily identity and multisensory experience among young adults",
+          "authors": "Maria Sansoni, Jade Portingale, Stefano De Gaspari, Giulia Brizzi, Magdalena Chorzępa, Giuseppe Riva",
+          "url": "https://doi.org/10.1016/j.chb.2026.109054",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109054",
           "filter": 0,
-          "created": "2026-9-24"
+          "created": "2026-5-22"
+        },
+        {
+          "title": "Avatars, embodiment, and virtual engagement: A large-scale study with young adults in Germany and the United States",
+          "authors": "Oliver Korn, Benjamin Schnitzer, Xenia Armstrong, Jan Vogt, Sanika Doolani, Coye Cheshire",
+          "url": "https://doi.org/10.1016/j.chb.2026.109036",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109036",
+          "filter": 0,
+          "created": "2026-4-30"
+        },
+        {
+          "title": "From pixels to perceptions: Predicting video game ratings through reviews and metadata",
+          "authors": "Yavuz Selim Balcioğlu, Erkut Altindağ",
+          "url": "https://doi.org/10.1016/j.chb.2026.109038",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109038",
+          "filter": 0,
+          "created": "2026-4-30"
+        },
+        {
+          "title": "Decoding and controlling emotion in LLMs through human-aligned representational geometry with enhanced interpretability",
+          "authors": "Xiuwen Wu, Hao Wang, Zhiang Yan, Xiaohan Tang, Pengfei Xu, Wai-Ting Siok, Ping Li, Jia-Hong Gao, Bingjiang Lyu, Lang Qin",
+          "url": "https://doi.org/10.1016/j.chb.2026.109051",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109051",
+          "filter": 0,
+          "created": "2026-5-14"
+        },
+        {
+          "title": "Rethinking smartphone use and attention regulation among adolescents: A focus on habit and online basic psychological needs satisfaction",
+          "authors": "Haoyu Zhao, Jennifer Shapka",
+          "url": "https://doi.org/10.1016/j.chb.2026.109050",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109050",
+          "filter": 0,
+          "created": "2026-5-10"
+        },
+        {
+          "title": "Internet use, social isolation, and loneliness among older adults: A multi-wave analysis",
+          "authors": "Eleftheria Vaportzis",
+          "url": "https://doi.org/10.1016/j.chb.2026.109053",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109053",
+          "filter": 0,
+          "created": "2026-5-19"
+        },
+        {
+          "title": "Beyond the post: Effects of vividness dominance on attention and recall of visual misinformation on social media",
+          "authors": "Zexin Ma, Jiyoung Lee, Jiyoun Suk",
+          "url": "https://doi.org/10.1016/j.chb.2026.109058",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109058",
+          "filter": 0,
+          "created": "2026-5-22"
+        },
+        {
+          "title": "Sociotechnical Imaginaries and Acceptance of Artificial Intelligence in Education: A Longitudinal Social Media Analysis",
+          "authors": "Özgehan Uştuk, Ali Fuad Selvi, Zihan Xia",
+          "url": "https://doi.org/10.1016/j.chb.2026.109200",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109200",
+          "filter": 0,
+          "created": "2026-10-2"
+        },
+        {
+          "title": "Perceived effectiveness of online vigilantism: The role of schadenfreude and moral grandstanding",
+          "authors": "Dosun Kim, Yeon Soo Kim",
+          "url": "https://doi.org/10.1016/j.chb.2026.109059",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109059",
+          "filter": 0,
+          "created": "2026-5-22"
+        },
+        {
+          "title": "Identity manipulation in online grooming: Gendered strategies among male suspects",
+          "authors": "Jorge Santos-Hermoso, Virginia Soldino",
+          "url": "https://doi.org/10.1016/j.chb.2026.109056",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109056",
+          "filter": 0,
+          "created": "2026-5-22"
+        },
+        {
+          "title": "Is this real or Fake? Examining the effects of disclosure of AI-generated content and source type in instagram-based travel destination advertising on consumer attitudes and behavioral intentions",
+          "authors": "Delia Cristina Balaban, Joe Phua",
+          "url": "https://doi.org/10.1016/j.chb.2026.109047",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109047",
+          "filter": 0,
+          "created": "2026-5-15"
+        },
+        {
+          "title": "Immersive virtual reality for caregivers of children and adolescents with ADHD: A mixed-methods study of stress reduction, empathy engagement, and quality of life outcomes",
+          "authors": "Ka Po Wong, Haoneng Lin, Sikai Wu, Kean Poon, Cynthia Yuen Yi Lai, Jing Qin",
+          "url": "https://doi.org/10.1016/j.chb.2026.109049",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109049",
+          "filter": 0,
+          "created": "2026-5-15"
+        },
+        {
+          "title": "Efficacy of a context-aware mobile app with adaptive feedback for promoting behavioral change in problematic smartphone use: Evidence from a randomized controlled trial",
+          "authors": "Sandy C. Li, Stella Cheung, Ming Lui, Andrew K.F. Lui, Jackie W.W. Chan",
+          "url": "https://doi.org/10.1016/j.chb.2026.109033",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109033",
+          "filter": 0,
+          "created": "2026-4-25"
+        },
+        {
+          "title": "Beyond the ideal: How 'Instagram vs reality' content shapes positive and negative body image",
+          "authors": "Kerstin Becker, Jessica M. Alleva, Philippe Verduyn",
+          "url": "https://doi.org/10.1016/j.chb.2026.109052",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109052",
+          "filter": 0,
+          "created": "2026-5-15"
+        },
+        {
+          "title": "Making sense of scent: Cultural styles, cognitive schemas, and the situated logic of online perfume reviews",
+          "authors": "Larisa Nikitina, Yu Liu, Fumitaka Furuoka",
+          "url": "https://doi.org/10.1016/j.chb.2026.109037",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109037",
+          "filter": 0,
+          "created": "2026-4-30"
+        },
+        {
+          "title": "Tell me who its founders are and I'll tell you what your online community looks like: Online community founders' personality and community attributes",
+          "authors": "Yaniv Dover, Shaul Oreg",
+          "url": "https://doi.org/10.1016/j.chb.2026.109030",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109030",
+          "filter": 0,
+          "created": "2026-4-22"
+        },
+        {
+          "title": "Modeling misinformation herd immunity from a multi-mechanism integration perspective: The role of selective exposure and echo chamber effect",
+          "authors": "Renbiao Yang, Gaohui Cao",
+          "url": "https://doi.org/10.1016/j.chb.2026.109031",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109031",
+          "filter": 0,
+          "created": "2026-4-21"
+        },
+        {
+          "title": "Between the bars: Virtual reality and physical prison simulations link to reduced prejudice against incarcerated people",
+          "authors": "Marco Marinucci, Paolo Riva, Teresa Traversa, Maria Elena Magrin",
+          "url": "https://doi.org/10.1016/j.chb.2026.109048",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109048",
+          "filter": 0,
+          "created": "2026-5-11"
+        },
+        {
+          "title": "Decision-making in esports: Identifying and understanding heuristics in League of Legends teamfights",
+          "authors": "Jorge Rodriguez-Robaina, Loel Collins",
+          "url": "https://doi.org/10.1016/j.chb.2026.109035",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109035",
+          "filter": 0,
+          "created": "2026-4-25"
+        },
+        {
+          "title": "Not warm or cold, but appropriate: How outcome severity shifts moral-mind inferences and trust in AI chatbots",
+          "authors": "Lianshan Zhang, Mei Yin Zhao",
+          "url": "https://doi.org/10.1016/j.chb.2026.109039",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109039",
+          "filter": 0,
+          "created": "2026-5-3"
         }
       ],
-      "articles_hidden": []
+      "articles_hidden": [
+        {
+          "title": "Corrigendum to ‘Addressing FoMO and telepressure among university students: Could a technology intervention help with social media use and sleep disruption?’ [Computers in Human Behavior 93 (2019) Pages 192-199]",
+          "authors": "Arielle P. Rogers, Larissa K. Barber",
+          "url": "https://doi.org/10.1016/j.chb.2026.109009",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109009",
+          "filter": 1,
+          "created": "2026-5-13"
+        },
+        {
+          "title": "Corrigendum to ‘Are your defense mechanisms harming you? The role of psychological defenses in social media comparison and adolescent self-esteem’ [Computers in Human Behavior 178 (2026) 108916]",
+          "authors": "Lin Ting Jin, Yun Jung Choi",
+          "url": "https://doi.org/10.1016/j.chb.2026.109034",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109034",
+          "filter": 1,
+          "created": "2026-5-7"
+        }
+      ]
     },
     {
       "journal_full": "Group Processes & Intergroup Relations",
       "journal_short": "GPIR",
       "articles": [
-        {
-          "title": "Adolescents’ Future Marriage Preferences: The Codevelopment of National Identity, Attitudes Towards Immigration and Intergroup Marriage Preferences Across Time",
-          "authors": "Alexander W. O’Donnell, Morgana Lizzio-Wilson, Michael Thai, Emma F. Thomas, Fiona Kate Barlow",
-          "abstract": "Human development involves constructing an imagined future, with young people often envisioning their future spouse and family composition. The extent to which national, religious and racial preferences emerge during this time is largely unknown. Using a large sample of Australian-born, English-speaking adolescents, the relationships between national identity, attitudes towards immigration and ingroup marriage preferences were assessed into young adulthood. Random intercept cross-lagged panel models revealed significant within-person effects, whereby higher national identity indirectly predicted stronger national and racial marriage preferences 5 years later via increasingly critical attitudes towards immigration. Further, stronger national and racial marriage preferences predicted future increases in negative attitudes towards immigration, which in turn was associated with increased national identity several years later. Although marrying someone from the same religion was reported by young people to be important to them, national identity was not associated with changes in religious marriage preferences. These longitudinal effects suggest that simultaneous efforts to promote a more inclusive national identity and normalise intergroup intimacy could reduce prejudices during a formative developmental period.",
-          "url": "https://doi.org/10.1177/13684302261475934",
-          "doi": "https://doi.org/10.1177/13684302261475934",
-          "filter": 0,
-          "created": "2026-9-24"
-        },
-        {
-          "title": "The Fight for the Climate: Social Identities, Grievances, and Authoritarianism Drive Support for Climate Activism and Radicalism",
-          "authors": "Oluf Gøtzsche-Astrup",
-          "abstract": "The combination of increased political authoritarianism and an accelerating climate emergency has led to worries of an uptick in political violence among activists. This paper takes a social psychological approach to develop hypotheses around the role of social identities, personal grievances, and authoritarianism in driving support for more radical climate activism. It tests these hypotheses in a conjoint experiment across the US, the UK, and Denmark (total N = 2,447). The experiment varies characteristics of activists and asks respondents to indicate their support for and willingness to join conventional and transgressive protest groups. Results show that identification with the climate movement and left-wing political alignment constitute protective factors against, rather than accelerators of, radical action. Rather, left-wing authoritarianism emerges as a core driver of more radical responses. The more left-wing authoritarian the respondent, the more open to sympathizing with and willing to join radical protest groups. The paper contributes to our causal understanding of group processes involved in protest and reintroduces conjoint experiments to this domain.",
-          "url": "https://doi.org/10.1177/13684302261481446",
-          "doi": "https://doi.org/10.1177/13684302261481446",
-          "filter": 0,
-          "created": "2026-9-24"
-        },
         {
           "title": "Higher Perceived Inequalities Strengthen the Relationship between Economic Insecurity and Anti-Elite Attitudes",
           "authors": "Nele Claes, Medhi Marot, Efrain Garcia-Sanchez, Toon Kuppens, Antony S. R. Manstead, Bram Spruyt, Alice Normand, Céline Darnon",
@@ -194,6 +302,14 @@
           "doi": "https://doi.org/10.1016/j.jesp.2026.105004",
           "filter": 0,
           "created": "2026-9-27"
+        },
+        {
+          "title": "Smiling your way to happiness or misery? Experimental tests of competing perspectives [Registered Report - stage II]",
+          "authors": "Nicholas A. Coles, Annabel V. Dang, Joao Francisco Goes Braga Takayanagi",
+          "url": "https://doi.org/10.1016/j.jesp.2026.105011",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.105011",
+          "filter": 0,
+          "created": "2026-10-1"
         }
       ],
       "articles_hidden": []
@@ -202,6 +318,14 @@
       "journal_full": "Journal of Personality and Social Psychology",
       "journal_short": "JPSP",
       "articles": [
+        {
+          "title": "The temporal dynamics of narcissism and aggression: Timescales, moderators, and generalizations in diverse samples.",
+          "authors": "Yuping Liu, Tengwei Sun, Bingtao Zhou, Sander Thomaes, Bo Yang, Jaap J. A. Denissen",
+          "url": "https://doi.org/10.1037/pspp0000616",
+          "doi": "https://doi.org/10.1037/pspp0000616",
+          "filter": 0,
+          "created": "2026-10-1"
+        },
         {
           "title": "Change perception at zero tolerance: How protected values bias sensitivity to social improvement.",
           "authors": "Tobias Vogel, André Mata",
@@ -217,6 +341,78 @@
           "doi": "https://doi.org/10.1037/pspp0000619",
           "filter": 0,
           "created": "2026-9-28"
+        },
+        {
+          "title": "Associations of fear, anger, happiness, and hope with risk judgments: Revisiting appraisal-tendency framework with a replication and extensions registered report of Lerner and Keltner (2001).",
+          "authors": "Sirui Lu, Emir Efendić, Gilad Feldman",
+          "url": "https://doi.org/10.1037/pspp0000586",
+          "doi": "https://doi.org/10.1037/pspp0000586",
+          "filter": 0,
+          "created": "2025-12-15"
+        },
+        {
+          "title": "Does losing your job change your personality? Findings from a 16-year longitudinal study of Mexican-origin adults.",
+          "authors": "Guido Alessandri, Lorenzo Filosa, Richard W. Robins",
+          "url": "https://doi.org/10.1037/pspp0000609",
+          "doi": "https://doi.org/10.1037/pspp0000609",
+          "filter": 0,
+          "created": "2026-7-16"
+        },
+        {
+          "title": "When having less elevates more: Benefactor income, moral elevation, and prosocial contagion among observers.",
+          "authors": "Bingqing Miranda Yin, Jenny G. Olson, Yexin Jessica Li",
+          "url": "https://doi.org/10.1037/pspa0000493",
+          "doi": "https://doi.org/10.1037/pspa0000493",
+          "filter": 0,
+          "created": "2026-7-23"
+        },
+        {
+          "title": "The predictive validity of vocational interests for life outcomes across adulthood.",
+          "authors": "Lena Roemer, Christopher D. Nye, Rong Su, Kevin A. Hoff",
+          "url": "https://doi.org/10.1037/pspp0000605",
+          "doi": "https://doi.org/10.1037/pspp0000605",
+          "filter": 0,
+          "created": "2026-6-8"
+        },
+        {
+          "title": "Virtue trade-offs in everyday life.",
+          "authors": "Qilin Zhang, Jeremy Jacobson, Benjamin Hardin, Jessie Sun",
+          "url": "https://doi.org/10.1037/pspp0000608",
+          "doi": "https://doi.org/10.1037/pspp0000608",
+          "filter": 0,
+          "created": "2026-7-30"
+        },
+        {
+          "title": "Unstable, indistinct, and cohesive? How group cognitions shape attitudes toward transgender and nonbinary people as a function of gender essentialism.",
+          "authors": "Julia Spielmann, Andrea C. Vial",
+          "url": "https://doi.org/10.1037/pspi0000501",
+          "doi": "https://doi.org/10.1037/pspi0000501",
+          "filter": 0,
+          "created": "2025-8-11"
+        },
+        {
+          "title": "Extended artificial intelligence aversion: People deny humanness to artificial intelligence users.",
+          "authors": "Jianning Dang, Li Liu",
+          "url": "https://doi.org/10.1037/pspi0000480",
+          "doi": "https://doi.org/10.1037/pspi0000480",
+          "filter": 0,
+          "created": "2024-11-12"
+        },
+        {
+          "title": "Life satisfaction, loneliness, and depressivity in consistently single young adults in Germany and the United Kingdom.",
+          "authors": "Michael D. Krämer, Julia Stern, Laura Buchinger, Geoff MacDonald, Wiebke Bleidorn",
+          "url": "https://doi.org/10.1037/pspp0000595",
+          "doi": "https://doi.org/10.1037/pspp0000595",
+          "filter": 0,
+          "created": "2026-1-12"
+        },
+        {
+          "title": "Unconscious mental content in implicit evaluation: Evidence from misprediction.",
+          "authors": "Benedek Kurdi, David E. Melnikoff, Adam Morris",
+          "url": "https://doi.org/10.1037/pspa0000491",
+          "doi": "https://doi.org/10.1037/pspa0000491",
+          "filter": 0,
+          "created": "2026-7-9"
         }
       ],
       "articles_hidden": []
@@ -251,15 +447,6 @@
           "created": "2026-9-29"
         },
         {
-          "title": "Is Authenticity Perceptible? Accuracy in Judgments of State Authenticity From Expressive Behavior",
-          "authors": "Vanessa K. Castro, Serena Chen, Joseph M. Ocampo, Amie M. Gordon, Emily A. Impett, Max Weisbuch",
-          "abstract": "Substantial research provides evidence that being perceived as authentic benefits well-being and relationships, but under-examined is whether perceptions of authenticity are accurate. Across five studies, we tested whether perceivers can accurately discern others’ state authenticity. In Studies 1 to 3, we investigated correspondence between perceived and felt authenticity within acquainted dyads. Romantic partners accurately discerned each other’s authenticity after making sacrifices (Study 1) and after discussing a topic of personal distress and desired partner change (Study 2). However, partners failed to accurately perceive each other’s felt authenticity when discussing relationship conflict (Study 3), possibly impacted by cognitive or motivational processes elicited by the relatively high interpersonal stakes at play in conflict. In Studies 4A and 4B, outside observers were sensitive to authenticity differences in participants from Study 3 when watching thin-slice videos of the conflict conversations. Overall, we discuss the importance of authenticity for impression formation and close relationships.",
-          "url": "https://doi.org/10.1177/01461672261481957",
-          "doi": "https://doi.org/10.1177/01461672261481957",
-          "filter": 0,
-          "created": "2026-9-24"
-        },
-        {
           "title": "A Safe Town? Ostensible State or County Racial Climate Impacts Perceptions of Town-Level Racial Identity-Safety Cues",
           "authors": "Izilda Pereira-Jorge, Kim E. Chaney",
           "abstract": "Identity-safety cues (ISCs) are environmental signals that indicate one’s marginalized identity is valued. ISC contextual information may impact town evaluations. Over three experiments ( N = 1,107), we examine how single or multiple ISCs posted across storefronts (i.e., Black lives matter flag, Study 1–3) and the racial climate surrounding a hypothetical town (Study 2–3) impact attributions of ISC motives and town evaluations. Racial minorities and Black Americans perceived greater external diversity motives (e.g., social pressure) of a storefront with an ISC when all other storefronts had an ISC compared to when no other storefronts had an ISC (Study 1–3). Ostensible state- and county-level racially egalitarian climates elicited greater expectations of internal diversity motives and positive town evaluations (e.g., greater progressive policies, quality of life, Black residents) compared to prejudicial racial climates and towns with a single ISC (Study 2–3). Findings demonstrate the need to consider multiple levels of ISCs.",
@@ -284,14 +471,6 @@
           "created": "2026-9-28"
         },
         {
-          "title": "The denominator chooses the estimand: A target-population true-score framework for standardized mean differences.",
-          "authors": "Daiki Nakamura",
-          "url": "https://doi.org/10.1037/met0000875",
-          "doi": "https://doi.org/10.1037/met0000875",
-          "filter": 0,
-          "created": "2026-9-24"
-        },
-        {
           "title": "A tutorial on Bayesian multilevel latent time series models using stan with the mlts R package.",
           "authors": "Kenneth Koslowski, Fabian Felix Münch, Tobias Koch, Jana Holtmann",
           "url": "https://doi.org/10.1037/met0000866",
@@ -308,20 +487,12 @@
           "created": "2026-9-28"
         },
         {
-          "title": "Transitive differential item functioning clustering: A graph-theoretic approach to identifying many-group partial measurement invariance.",
-          "authors": "Yale Quan, Chun Wang",
-          "url": "https://doi.org/10.1037/met0000873",
-          "doi": "https://doi.org/10.1037/met0000873",
+          "title": "Using features of dynamic networks to guide treatment selection and outcome prediction: The central role of uncertainty.",
+          "authors": "Björn S. Siepe, Matthias Kloft, Yong Zhang, Fridtjof Petersen, Laura F. Bringmann, Daniel W. Heck",
+          "url": "https://doi.org/10.1037/met0000872",
+          "doi": "https://doi.org/10.1037/met0000872",
           "filter": 0,
-          "created": "2026-9-24"
-        },
-        {
-          "title": "Identifying causes of treatment effect heterogeneity across replication studies: Definitions, identification, and estimation of remaining heterogeneity.",
-          "authors": "Soojin Park, Steffi Pohl, Peter M. Steiner",
-          "url": "https://doi.org/10.1037/met0000863",
-          "doi": "https://doi.org/10.1037/met0000863",
-          "filter": 0,
-          "created": "2026-9-24"
+          "created": "2026-10-1"
         }
       ],
       "articles_hidden": []
@@ -347,12 +518,60 @@
       "journal_short": "PPM",
       "articles": [
         {
+          "title": "Narcissism on the beach? Attachment style, personality, and self-esteem contingencies of dating-show participants.",
+          "authors": "Leonie Schlebusch, Florian Hutzler, Sarah Schuster",
+          "url": "https://doi.org/10.1037/ppm0000682",
+          "doi": "https://doi.org/10.1037/ppm0000682",
+          "filter": 0,
+          "created": "2026-9-28"
+        },
+        {
+          "title": "The effect of the presence and the content of close-ups on narrative responses.",
+          "authors": "Katalin Éva Bálint, Dorina Lénárd-Bella, András Bálint Kovács",
+          "url": "https://doi.org/10.1037/ppm0000708",
+          "doi": "https://doi.org/10.1037/ppm0000708",
+          "filter": 0,
+          "created": "2026-9-28"
+        },
+        {
+          "title": "Body positivity versus body neutrality: Examining video effects on adolescent girls’ state self-objectification.",
+          "authors": "Jiaqi Zeng, Jennifer Stevens Aubrey, Kausumi Saha, Heather Gahler",
+          "url": "https://doi.org/10.1037/ppm0000692",
+          "doi": "https://doi.org/10.1037/ppm0000692",
+          "filter": 0,
+          "created": "2026-8-3"
+        },
+        {
           "title": "A message from your outgoing editor.",
           "authors": "Karen E. Shackleford",
           "url": "https://doi.org/10.1037/ppm0000684",
           "doi": "https://doi.org/10.1037/ppm0000684",
           "filter": 0,
           "created": "2026-9-24"
+        },
+        {
+          "title": "Older and wiser, but not immune: A brief report examining movie exposure and male body image across development.",
+          "authors": "Kate Stewart, James Alex Bonus",
+          "url": "https://doi.org/10.1037/ppm0000687",
+          "doi": "https://doi.org/10.1037/ppm0000687",
+          "filter": 0,
+          "created": "2026-7-20"
+        },
+        {
+          "title": "Seeing and being seen: A latent class analysis of social media use among young individuals with visible differences and its links to sociodemographic characteristics, norms, and body image.",
+          "authors": "Laure Dedecker, Laura Vandenbosch, Chelly Maes, Jill Meirte, Lara Schreurs",
+          "url": "https://doi.org/10.1037/ppm0000693",
+          "doi": "https://doi.org/10.1037/ppm0000693",
+          "filter": 0,
+          "created": "2026-7-27"
+        },
+        {
+          "title": "Nigerian women’s perceptions of social media’s role in skin bleaching, body image, and colorism.",
+          "authors": "Ruth Emmanuel, Kelly Merrill",
+          "url": "https://doi.org/10.1037/ppm0000701",
+          "doi": "https://doi.org/10.1037/ppm0000701",
+          "filter": 0,
+          "created": "2026-8-31"
         },
         {
           "title": "Differential effects of social media on body esteem: An ecological momentary assessment on weight satisfaction and muscularity importance.",
@@ -363,12 +582,20 @@
           "created": "2026-9-24"
         },
         {
-          "title": "Narcissism on the beach? Attachment style, personality, and self-esteem contingencies of dating-show participants.",
-          "authors": "Leonie Schlebusch, Florian Hutzler, Sarah Schuster",
-          "url": "https://doi.org/10.1037/ppm0000682",
-          "doi": "https://doi.org/10.1037/ppm0000682",
+          "title": "Social media, racialized appearance concerns, and well-being among adolescent girls of color in the United States and England.",
+          "authors": "L. Monique Ward, Elizabeth A. Daniels, Morgan Jerald, Kyla N. Brathwaite",
+          "url": "https://doi.org/10.1037/ppm0000697",
+          "doi": "https://doi.org/10.1037/ppm0000697",
           "filter": 0,
-          "created": "2026-9-28"
+          "created": "2026-8-24"
+        },
+        {
+          "title": "Magic mirror on my screen: An experimental test of assimilation effects of beauty filters on Chinese college women’s self-esteem and affect.",
+          "authors": "Yanzhuo Niu",
+          "url": "https://doi.org/10.1037/ppm0000694",
+          "doi": "https://doi.org/10.1037/ppm0000694",
+          "filter": 0,
+          "created": "2026-8-10"
         },
         {
           "title": "Eye tracking and the self-view: Self-focused attention on Zoom is a limited predictor of appearance-related concerns.",
@@ -387,12 +614,28 @@
           "created": "2026-9-24"
         },
         {
-          "title": "The effect of the presence and the content of close-ups on narrative responses.",
-          "authors": "Katalin Éva Bálint, Dorina Lénárd-Bella, András Bálint Kovács",
-          "url": "https://doi.org/10.1037/ppm0000708",
-          "doi": "https://doi.org/10.1037/ppm0000708",
+          "title": "Adolescents’ appearance-related social media consciousness and photo-related behaviors are linked to social anxiety symptoms with peers digitally and in-person: An ecological momentary assessment study.",
+          "authors": "Adelaide E. Graham, Margaret V. Brehm, Zelal Kilic, Sophia Choukas-Bradley, Jacqueline L. Nesi, Cecile D. Ladouceur, Jennifer S. Silk",
+          "url": "https://doi.org/10.1037/ppm0000696",
+          "doi": "https://doi.org/10.1037/ppm0000696",
           "filter": 0,
-          "created": "2026-9-28"
+          "created": "2026-8-27"
+        },
+        {
+          "title": "Twinks, jocks, bears, and cubs: Associations between dating app usage and body image among sexual minority men with lean and nonlean subcultural appearance identities.",
+          "authors": "Clay M. Williams, Kristen Harrison",
+          "url": "https://doi.org/10.1037/ppm0000691",
+          "doi": "https://doi.org/10.1037/ppm0000691",
+          "filter": 0,
+          "created": "2026-7-30"
+        },
+        {
+          "title": "Selfies’ effects on the self: An experimental study of the influence of beauty filters on body image.",
+          "authors": "Irene Razpurker-Apfeld, Nurit Tal-Or",
+          "url": "https://doi.org/10.1037/ppm0000702",
+          "doi": "https://doi.org/10.1037/ppm0000702",
+          "filter": 0,
+          "created": "2026-8-24"
         }
       ],
       "articles_hidden": []
@@ -401,14 +644,6 @@
       "journal_full": "Technology, Mind, and Behavior",
       "journal_short": "TMB",
       "articles": [
-        {
-          "title": "Digital intimacy: Motivations, perceptions, and perceived growth in human–artificial intelligence companionships.",
-          "authors": "Zeena Whayeb, Robert Hymes, Michelle Beddow",
-          "url": "https://doi.org/10.1037/tmb0000219",
-          "doi": "https://doi.org/10.1037/tmb0000219",
-          "filter": 0,
-          "created": "2026-9-24"
-        },
         {
           "title": "Why humans use generative AI at work (WHAI-w): Scale development and validation of a needs-based measure.",
           "authors": "Sandra Ohly, Mascha Goldschmitt, Hadar Nesher-Shoshan, Xenia Bolschakow, Katharina Neufeld, Thomas Rigotti",
