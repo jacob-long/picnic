@@ -1,5 +1,5 @@
 {
-  "update": "2026-10-05",
+  "update": "2026-10-06",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -65,6 +65,15 @@
           "created": "2026-10-2"
         },
         {
+          "title": "Bayesian distributional models of executive functioning",
+          "authors": "Robert Kasumba, Zeyu Lu, Dom C. P. Marticorena, Mingyang Zhong, Paul Beggs, Anja Pahor, Geetha Ramani, Imani Goffney, Susanne M. Jaeggi, Aaron R. Seitz, Jacob R. Gardner, Dennis L. Barbour",
+          "abstract": "This study uses controlled simulations with known ground-truth parameters to evaluate how distributional latent variable models (DLVM) and Bayesian distributional active learning (DALE) perform compared with conventional independent maximum likelihood estimation (IMLE). DLVM integrates observations across multiple executive function tasks and individuals, allowing parameter estimation even under sparse or incomplete data conditions. To establish known ground truth, we uniformly sample individual sessions from a neural network-learned latent space and map them to distributional cognitive performance across different tasks. We then sample individual test items from these distributions using DALE, a random procedure, or a standard fixed-battery approach. Given the same observations, DLVM consistently outperformed IMLE, especially with smaller amounts of data, and converged faster to highly accurate estimates of the true distributions. In a second set of analyses, DALE adaptively guided sampling to maximize information gain, outperforming random sampling and fixed test batteries, particularly within the first 80 trials. These findings establish the advantages of combining DLVM’s cross-task inference with DALE’s optimal adaptive sampling, providing a principled basis for more efficient cognitive assessments.",
+          "url": "https://doi.org/10.3758/s13428-026-03191-x",
+          "doi": "https://doi.org/10.3758/s13428-026-03191-x",
+          "filter": 0,
+          "created": "2026-10-5"
+        },
+        {
           "title": "Including auxiliary cases to address missing data issues through multiple-group models",
           "authors": "Po-Yi Chen",
           "url": "https://doi.org/10.3758/s13428-026-03180-0",
@@ -80,6 +89,14 @@
       "journal_short": "CHB",
       "articles": [
         {
+          "title": "Online Collective Aggression in Algorithmic Environments: The Roles of Algorithm Awareness, Moral Outrage, and Negative Descriptive Norms",
+          "authors": "Zilin Wang, Jingyuan Yang, Xiaofei Qiao, Lei Li",
+          "url": "https://doi.org/10.1016/j.chb.2026.109206",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109206",
+          "filter": 0,
+          "created": "2026-10-5"
+        },
+        {
           "title": "Sociotechnical imaginaries and acceptance of artificial intelligence in education: A longitudinal social media analysis",
           "authors": "Özgehan Uştuk, Ali Fuad Selvi, Zihan Xia",
           "url": "https://doi.org/10.1016/j.chb.2026.109200",
@@ -94,6 +111,14 @@
           "doi": "https://doi.org/10.1016/j.chb.2026.109208",
           "filter": 0,
           "created": "2026-10-3"
+        },
+        {
+          "title": "Not naive, just gullible: psycho-cognitive vulnerability and fraud victimization in Italy",
+          "authors": "Chiara Barbara Dadà, Laura Colautti, Matteo Robba, Alessia Rosi, Elena Cavallini, Paola Iannello",
+          "url": "https://doi.org/10.1016/j.chb.2026.109203",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109203",
+          "filter": 0,
+          "created": "2026-10-5"
         },
         {
           "title": "Facilitator or Hallucination Trap? A Social-Cognitive Account of AI-Generated Misinformation Handling in GenAI-Assisted L2 Writing",
@@ -120,14 +145,6 @@
           "created": "2026-4-30"
         },
         {
-          "title": "Online Collective Aggression in Algorithmic Environments: The Roles of Algorithm Awareness, Moral Outrage, and Negative Descriptive Norms",
-          "authors": "Zilin Wang, Jingyuan Yang, Xiaofei Qiao, Lei Li",
-          "url": "https://doi.org/10.1016/j.chb.2026.109206",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109206",
-          "filter": 0,
-          "created": "2026-10-5"
-        },
-        {
           "title": "From pixels to perceptions: Predicting video game ratings through reviews and metadata",
           "authors": "Yavuz Selim Balcioğlu, Erkut Altindağ",
           "url": "https://doi.org/10.1016/j.chb.2026.109038",
@@ -144,12 +161,12 @@
           "created": "2026-5-14"
         },
         {
-          "title": "Rethinking smartphone use and attention regulation among adolescents: A focus on habit and online basic psychological needs satisfaction",
-          "authors": "Haoyu Zhao, Jennifer Shapka",
-          "url": "https://doi.org/10.1016/j.chb.2026.109050",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109050",
+          "title": "Internet use, social isolation, and loneliness among older adults: A multi-wave analysis",
+          "authors": "Eleftheria Vaportzis",
+          "url": "https://doi.org/10.1016/j.chb.2026.109053",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109053",
           "filter": 0,
-          "created": "2026-5-10"
+          "created": "2026-5-19"
         },
         {
           "title": "Beyond the post: Effects of vividness dominance on attention and recall of visual misinformation on social media",
@@ -160,12 +177,12 @@
           "created": "2026-5-22"
         },
         {
-          "title": "Internet use, social isolation, and loneliness among older adults: A multi-wave analysis",
-          "authors": "Eleftheria Vaportzis",
-          "url": "https://doi.org/10.1016/j.chb.2026.109053",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109053",
+          "title": "Rethinking smartphone use and attention regulation among adolescents: A focus on habit and online basic psychological needs satisfaction",
+          "authors": "Haoyu Zhao, Jennifer Shapka",
+          "url": "https://doi.org/10.1016/j.chb.2026.109050",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109050",
           "filter": 0,
-          "created": "2026-5-19"
+          "created": "2026-5-10"
         },
         {
           "title": "Perceived effectiveness of online vigilantism: The role of schadenfreude and moral grandstanding",
@@ -284,22 +301,6 @@
       ]
     },
     {
-      "journal_full": "Group Processes & Intergroup Relations",
-      "journal_short": "GPIR",
-      "articles": [
-        {
-          "title": "Higher Perceived Inequalities Strengthen the Relationship between Economic Insecurity and Anti-Elite Attitudes",
-          "authors": "Nele Claes, Medhi Marot, Efrain Garcia-Sanchez, Toon Kuppens, Antony S. R. Manstead, Bram Spruyt, Alice Normand, Céline Darnon",
-          "abstract": "This research examined the psychological mechanisms underlying anti-elite attitudes, focusing on the roles of economic insecurity and perceived economic inequality. In a preregistered study using a large representative sample across nine European countries (Belgium, Denmark, France, Greece, Hungary, Netherlands, Poland, Spain, and the UK, N = 11,217), we investigated whether feelings of relative deprivation explain the association between perceived personal economic insecurity and two anti-elite attitudes (i.e., populist attitudes and distrust in institutions) and whether perceived societal economic inequality reinforces these effects. The results show that (i) the more individuals feel insecure about their economic situation, the more they report anti-elite attitudes, (ii) which is explained by a greater feeling of relative deprivation (between 43% and 59% of variance explained), (iii) and this relationship is stronger for individuals who perceive greater economic inequalities within their country. This research provides evidence that feelings of relative deprivation constitute an important psychological process underpinning anti-elite attitudes across diverse economic, cultural, and political contexts.",
-          "url": "https://doi.org/10.1177/13684302261476525",
-          "doi": "https://doi.org/10.1177/13684302261476525",
-          "filter": 0,
-          "created": "2026-9-28"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
       "journal_full": "Journal of Experimental Social Psychology",
       "journal_short": "JESP",
       "articles": [
@@ -333,22 +334,6 @@
           "doi": "https://doi.org/10.1037/pspp0000616",
           "filter": 0,
           "created": "2026-10-1"
-        },
-        {
-          "title": "Change perception at zero tolerance: How protected values bias sensitivity to social improvement.",
-          "authors": "Tobias Vogel, André Mata",
-          "url": "https://doi.org/10.1037/pspa0000497",
-          "doi": "https://doi.org/10.1037/pspa0000497",
-          "filter": 0,
-          "created": "2026-9-28"
-        },
-        {
-          "title": "Contextual predictors of state loneliness: The role of social company, activity, location, and duration of contextual exposure.",
-          "authors": "Ina Busch, Debora Brickau, Maike Luhmann",
-          "url": "https://doi.org/10.1037/pspp0000619",
-          "doi": "https://doi.org/10.1037/pspp0000619",
-          "filter": 0,
-          "created": "2026-9-28"
         },
         {
           "title": "Associations of fear, anger, happiness, and hope with risk judgments: Revisiting appraisal-tendency framework with a replication and extensions registered report of Lerner and Keltner (2001).",
@@ -441,22 +426,6 @@
       "articles_hidden": []
     },
     {
-      "journal_full": "Organizational Research Methods",
-      "journal_short": "ORM",
-      "articles": [
-        {
-          "title": "Field Philosophy: A Methodological Approach to Organizational Philosophy-in-Practice",
-          "authors": "Stephanie Daher, Gazi Islam, Anahid Roux-Rosier",
-          "abstract": "Organizational research methods have increasingly been concerned with the relation between scholarship and practice, as part of an impact-oriented, responsible management literature. These concerns find an unexpected ally in recent developments within the field of philosophy, in which a distant and abstract relation to the field is replaced by a practice-oriented, collaboratively intense form of engagement referred to as “field philosophy.” Considered as an organizational research method, field philosophy emphasizes exchange, knowledge from below, and insider–outsider collaboration. The current article develops field philosophy for the study of organizational phenomena, illustrating this method with an empirical illustration from a field study of a carbon credit project in the Brazilian Amazon, and drawing out implications for the design and application of field philosophical methods for studying organizations.",
-          "url": "https://doi.org/10.1177/10944281261479058",
-          "doi": "https://doi.org/10.1177/10944281261479058",
-          "filter": 0,
-          "created": "2026-9-28"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
       "journal_full": "Personality and Social Psychology Bulletin",
       "journal_short": "PSPB",
       "articles": [
@@ -468,15 +437,45 @@
           "doi": "https://doi.org/10.1177/01461672261485365",
           "filter": 0,
           "created": "2026-9-29"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Psychological Bulletin",
+      "journal_short": "PsychBull",
+      "articles": [
+        {
+          "title": "Contributions of the general factor of intelligence to cognitive performance across ability levels and age: An individual participant data meta-analysis of child and adolescent norming data.",
+          "authors": "Moritz Breit, Martin Brunner, Julian Preuß, Monika Daseking, Günter Esser, Alexander Grob, Jan-Philipp Freudenstein, Ulf Kieschke, Ludwig Kreuzpointner, Franz Pauls, Christoph Perleth, Gabriele Ricken, Stefan Schipolowski, Ulrich Schroeders, Franziska Walter, Oliver Wilhelm, Anne Wyschkon, Franzis Preckel",
+          "url": "https://doi.org/10.1037/bul0000531",
+          "doi": "https://doi.org/10.1037/bul0000531",
+          "filter": 0,
+          "created": "2026-10-5"
         },
         {
-          "title": "A Safe Town? Ostensible State or County Racial Climate Impacts Perceptions of Town-Level Racial Identity-Safety Cues",
-          "authors": "Izilda Pereira-Jorge, Kim E. Chaney",
-          "abstract": "Identity-safety cues (ISCs) are environmental signals that indicate one’s marginalized identity is valued. ISC contextual information may impact town evaluations. Over three experiments ( N = 1,107), we examine how single or multiple ISCs posted across storefronts (i.e., Black lives matter flag, Study 1–3) and the racial climate surrounding a hypothetical town (Study 2–3) impact attributions of ISC motives and town evaluations. Racial minorities and Black Americans perceived greater external diversity motives (e.g., social pressure) of a storefront with an ISC when all other storefronts had an ISC compared to when no other storefronts had an ISC (Study 1–3). Ostensible state- and county-level racially egalitarian climates elicited greater expectations of internal diversity motives and positive town evaluations (e.g., greater progressive policies, quality of life, Black residents) compared to prejudicial racial climates and towns with a single ISC (Study 2–3). Findings demonstrate the need to consider multiple levels of ISCs.",
-          "url": "https://doi.org/10.1177/01461672261483312",
-          "doi": "https://doi.org/10.1177/01461672261483312",
+          "title": "Childhood emotional abuse and adult psychopathology: A multilevel meta-analytic review.",
+          "authors": "Noga Miron, Wendy M. D'Andrea, Eran Barzilai, Shoshana Krohner, Ellen H. Yates, Samuel G. Conner Self, E. Samuel Winer, Ashley M. Doukas, Joseph Spinazzola",
+          "url": "https://doi.org/10.1037/bul0000530",
+          "doi": "https://doi.org/10.1037/bul0000530",
           "filter": 0,
-          "created": "2026-9-28"
+          "created": "2026-10-5"
+        },
+        {
+          "title": "A systematic review and meta-analysis of partial correlations between caregiver cognitive stimulation in early childhood and child development.",
+          "authors": "Sarah F. Hatch, Noelle M. Suntheimer, Abigail W. Otwell, Laura Tang, Dana C. McCoy, Sharon Wolf",
+          "url": "https://doi.org/10.1037/bul0000532",
+          "doi": "https://doi.org/10.1037/bul0000532",
+          "filter": 0,
+          "created": "2026-10-5"
+        },
+        {
+          "title": "Toward a unified process model of situational frustration, need deprivation, and behavioral compensation: A meta-analytic review.",
+          "authors": "Maximilian Agostini, N. Pontus Leander, Jannis Kreienkamp, Justin König, Catharina Gerigk, Russell Spears",
+          "url": "https://doi.org/10.1037/bul0000528",
+          "doi": "https://doi.org/10.1037/bul0000528",
+          "filter": 0,
+          "created": "2026-10-5"
         }
       ],
       "articles_hidden": []
@@ -486,28 +485,12 @@
       "journal_short": "PM",
       "articles": [
         {
-          "title": "Model checking for vector autoregressive models.",
-          "authors": "Jonas Haslbeck, Joran Jongerling, Björn Siepe, Sacha Epskamp, Lourens Waldorp",
-          "url": "https://doi.org/10.1037/met0000855",
-          "doi": "https://doi.org/10.1037/met0000855",
+          "title": "Regularized multigroup exploratory approximate factor analysis with orthogonal factors.",
+          "authors": "Katrijn Van Deun, Trà Lê, Jakub Malinowski, Floortje Mols, Dounya Schoormans",
+          "url": "https://doi.org/10.1037/met0000874",
+          "doi": "https://doi.org/10.1037/met0000874",
           "filter": 0,
-          "created": "2026-9-28"
-        },
-        {
-          "title": "A tutorial on Bayesian multilevel latent time series models using stan with the mlts R package.",
-          "authors": "Kenneth Koslowski, Fabian Felix Münch, Tobias Koch, Jana Holtmann",
-          "url": "https://doi.org/10.1037/met0000866",
-          "doi": "https://doi.org/10.1037/met0000866",
-          "filter": 0,
-          "created": "2026-9-28"
-        },
-        {
-          "title": "Identifying and modeling careless and insufficient effort responding in continuous rating scale: A response-time-based mixture model.",
-          "authors": "Youxiang Jiang, Chongqin Xi, Hongbo Wen",
-          "url": "https://doi.org/10.1037/met0000869",
-          "doi": "https://doi.org/10.1037/met0000869",
-          "filter": 0,
-          "created": "2026-9-28"
+          "created": "2026-10-5"
         },
         {
           "title": "Using features of dynamic networks to guide treatment selection and outcome prediction: The central role of uncertainty.",
@@ -521,41 +504,9 @@
       "articles_hidden": []
     },
     {
-      "journal_full": "Psychology of Music",
-      "journal_short": "PsychMusic",
-      "articles": [
-        {
-          "title": "Psychometric Properties of the Turkish Version of the Musical Activity and Well-Being Scale: A Methodological Study From Türkiye",
-          "authors": "Buket Şimşek Arslan, Alper Börekci",
-          "abstract": "This study aimed to examine the validity and reliability of the Turkish version of the Musical Activity and Well-Being Scale. This methodological study was conducted with 424 adults engaged in musical activities at either amateur or professional levels. Following the World Health Organization’s translation and back-translation protocol, the scale was adapted into Turkish and evaluated using confirmatory factor analysis, internal consistency analyses, and correlations with related measures. The findings supported the original five-factor structure of the scale and provided evidence for construct validity. Internal consistency analysis indicated excellent overall reliability (α = .93). In addition, meaningful relationships with measures of musical impact and psychological well-being offered further support for validity. Overall, the results suggest that the Turkish version of the Musical Activity and Well-Being Scale is a valid and reliable instrument for assessing music-related well-being. The scale provides a valuable tool for research and practice in music psychology, education, and health contexts.",
-          "url": "https://doi.org/10.1177/03057356261480028",
-          "doi": "https://doi.org/10.1177/03057356261480028",
-          "filter": 0,
-          "created": "2026-9-28"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
       "journal_full": "Psychology of Popular Media",
       "journal_short": "PPM",
       "articles": [
-        {
-          "title": "Narcissism on the beach? Attachment style, personality, and self-esteem contingencies of dating-show participants.",
-          "authors": "Leonie Schlebusch, Florian Hutzler, Sarah Schuster",
-          "url": "https://doi.org/10.1037/ppm0000682",
-          "doi": "https://doi.org/10.1037/ppm0000682",
-          "filter": 0,
-          "created": "2026-9-28"
-        },
-        {
-          "title": "The effect of the presence and the content of close-ups on narrative responses.",
-          "authors": "Katalin Éva Bálint, Dorina Lénárd-Bella, András Bálint Kovács",
-          "url": "https://doi.org/10.1037/ppm0000708",
-          "doi": "https://doi.org/10.1037/ppm0000708",
-          "filter": 0,
-          "created": "2026-9-28"
-        },
         {
           "title": "Body positivity versus body neutrality: Examining video effects on adolescent girls’ state self-objectification.",
           "authors": "Jiaqi Zeng, Jennifer Stevens Aubrey, Kausumi Saha, Heather Gahler",
@@ -668,12 +619,20 @@
       "journal_short": "TMB",
       "articles": [
         {
-          "title": "Why humans use generative AI at work (WHAI-w): Scale development and validation of a needs-based measure.",
-          "authors": "Sandra Ohly, Mascha Goldschmitt, Hadar Nesher-Shoshan, Xenia Bolschakow, Katharina Neufeld, Thomas Rigotti",
-          "url": "https://doi.org/10.1037/tmb0000209",
-          "doi": "https://doi.org/10.1037/tmb0000209",
+          "title": "When artificial intelligence apologizes: Dynamic trust updating and the role of personality.",
+          "authors": "Jit Wei A. Ang, Chenye Zhong, Syaheed B. Jabar, Georgios Christopoulos",
+          "url": "https://doi.org/10.1037/tmb0000230",
+          "doi": "https://doi.org/10.1037/tmb0000230",
           "filter": 0,
-          "created": "2026-9-28"
+          "created": "2026-10-5"
+        },
+        {
+          "title": "Exploring the limits of large language models as a reflection of human cognition: An illustration in the context of moral judgment.",
+          "authors": "Sarah Schröder, Thekla Morgenroth, Ulrike Kuhl, Valerie Vaquet, Benjamin Paaßen",
+          "url": "https://doi.org/10.1037/tmb0000210",
+          "doi": "https://doi.org/10.1037/tmb0000210",
+          "filter": 0,
+          "created": "2026-10-5"
         }
       ],
       "articles_hidden": []
