@@ -1,5 +1,5 @@
 {
-  "update": "2026-10-07",
+  "update": "2026-10-08",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -22,39 +22,13 @@
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "Emotion profile: A data-driven method to dissect context-specific and co-occurring patterns of emotion",
-          "authors": "Xin Hu, Lauren M. Bylsma, Dan Zhang",
-          "url": "https://doi.org/10.3758/s13428-026-03190-y",
-          "doi": "https://doi.org/10.3758/s13428-026-03190-y",
+          "title": "HelexKids 2.0: A linguistically annotated lexical database building on HelexKids",
+          "authors": "Anthi Revithiadou, Aris Terzopoulos, Georgia Niolaki, Giorgos Markopoulos, Konstantinos Avdelidis, Ilias Mittas, Kosmas Kosmidis",
+          "abstract": "HelexKids 2.0 represents an annotated expansion of the original HelexKids, a word frequency database compiled from Greek and Cypriot elementary school textbooks. This article presents the extended annotation methodology employed to enrich the database with part-of-speech tags, phonological properties (syllable count, phonetic transcription, orthographic and phonological syllabification, and stress), and morphological features (case, number, gender, and inflection class for nouns). All original frequency and lexical measures are retained, and new ones (e.g., PLD20, bigram and biphone frequencies) are added. The annotation process combined automated tools with extensive manual annotation and expert verification. We redesigned the database to assemble dynamically from the full set of textbooks, delivering results on the fly. The annotated database comprises 67,802 types and over 1.3 million tokens. We report on stress pattern distributions across major parts of speech and grade levels, show how stress is distributed by word class, and provide hierarchies of word-level syllabic templates. HelexKids 2.0 is freely available through the GRADIENCE project webpage and serves as a valuable resource for psycholinguistic and morphophonological research, as well as for educational applications.",
+          "url": "https://doi.org/10.3758/s13428-026-03179-7",
+          "doi": "https://doi.org/10.3758/s13428-026-03179-7",
           "filter": 0,
-          "created": "2026-9-30"
-        },
-        {
-          "title": "How much habituation is enough? An R application for ad hoc content-related limits of acceptance in behavioral research",
-          "authors": "Konstantin Warneke, Stanislav D. Siegel, José Afonso, Marco Herbsleb, Sebastian Wallot",
-          "abstract": "Evaluating test–retest reliability is of crucial importance for clinical decision-making and an integral component of studies in empirical sciences. In psychology, classical test theory focused on reliability coefficients, but research has shown that intraclass correlation coefficients and Cronbach’s alpha have limited value in quantifying individual measurement error sources appropriately. Preliminary assumptions such as parallel readings and independency of error sources are violated by practice/habituation effects, i.e., test–retest systematic errors. Although awareness of the need for additional measurement quantifications to properly assess test–retest agreement has increased, many such quantifications are insufficiently implemented. Furthermore, one of the most important agreement analyses introduced by Bland and Altman in 1986 has interpretation limitations, as the limits of agreement are descriptive and not linked to content-based clinical decision-making, oftentimes causing inappropriate usage. To counteract these limitations and improve the implementation of agreement analyses in addition to more commonly used reliability coefficients, we introduce a software package that allows predefining acceptable measurement limits (limits of acceptance) to evaluate the sufficiency of task habituation to gauge individual error sources. The package implements a comprehensive test–retest evaluation in order to improve transparency of data quality reporting in psychological and cognitive research.",
-          "url": "https://doi.org/10.3758/s13428-026-03170-2",
-          "doi": "https://doi.org/10.3758/s13428-026-03170-2",
-          "filter": 0,
-          "created": "2026-9-30"
-        },
-        {
-          "title": "Quantifying infants’ everyday restrained experiences in the home using wearable inertial sensors",
-          "authors": "Hanzhi Wang, Hailey N. Rousey, John M. Franchak",
-          "abstract": "Physical restraint—including being held, carried, and restrained in devices—is a common feature of infants’ everyday lives. However, previous survey-based and video-based methods cannot simultaneously provide continuous, full-day accounts of infants’ restrained experiences. This study developed and validated a machine learning model to quantify infants’ restrained time moment-to-moment across the full day in the home environment using wearable sensor data. We used a dataset that includes 146 home-visit sessions from 66 infants, with 30 younger infants aged 4–7 months, and 36 older infants aged 11–14 months. We annotated infants’ restrained states in the first 1.5-h video recording of each session as ground-truth labels. The supervised machine-learning model achieved high accuracy (89%) and substantial kappa agreement (κ = .73) compared with human-coded ground truth. The model showed a slight bias toward overestimating unrestrained periods relative to restrained periods, but this bias was mitigated when we used a longer data-aggregation window. The model also showed convergent validity by corroborating prior studies that showed an age-related decrease in infants’ overall restrained time throughout the day. In short, the current study demonstrated the utility of using wearable sensors to quantify infants’ real-world restrained experiences, offering a new tool for studying how daily restraint influences early development.",
-          "url": "https://doi.org/10.3758/s13428-026-03185-9",
-          "doi": "https://doi.org/10.3758/s13428-026-03185-9",
-          "filter": 0,
-          "created": "2026-9-30"
-        },
-        {
-          "title": "VRrec: A zero-coding open-source VR body-motion capture tool for behavioral research",
-          "authors": "Pawel Kobylinski, Bartosz Muczynski, Daniel Cnotkowski, Mariusz Wierzbowski, Cezary Biele",
-          "abstract": "We present VRrec, an open-source, motion-tracking and recording tool for PC-based virtual reality (VR). The tool addresses a persistent gap in VR-based experimental research by enabling real-time capture of head, hand, and optional body-tracking data without the need to code. VRrec runs discreetly in the background, collecting positional and rotational data as researchers engage participants with third-party VR applications. This design lets researchers use flexible paradigms that leverage off-the-shelf VR content, eliminating the need to build or modify custom software. However, because VRrec does not read application-level events or object states from the target VR software, it does not directly support paradigms that require synchronization with in-app events or distances to dynamic virtual objects or avatars. VRrec still allows manual event marking for contextual annotation. The resulting data are stored as plain text, which can be imported into various analysis pipelines to derive behavioral metrics in fields such as social psychology, rehabilitation, and consumer research. Evaluations show consistent and stable recording performance with minimal impact on system resources, while also indicating some limitations for study designs that require millisecond-accurate timing precision. By streamlining VR motion data acquisition, VRrec broadens the range of feasible VR study designs and reduces technical barriers, making VR-based behavioral research more accessible. Both the source code and the executable version of VRrec are freely available on GitHub.",
-          "url": "https://doi.org/10.3758/s13428-026-03169-9",
-          "doi": "https://doi.org/10.3758/s13428-026-03169-9",
-          "filter": 0,
-          "created": "2026-9-30"
+          "created": "2026-10-7"
         },
         {
           "title": "A beta way: A tutorial on Bayesian beta regression for psychological research",
@@ -72,14 +46,6 @@
           "doi": "https://doi.org/10.3758/s13428-026-03191-x",
           "filter": 0,
           "created": "2026-10-5"
-        },
-        {
-          "title": "Including auxiliary cases to address missing data issues through multiple-group models",
-          "authors": "Po-Yi Chen",
-          "url": "https://doi.org/10.3758/s13428-026-03180-0",
-          "doi": "https://doi.org/10.3758/s13428-026-03180-0",
-          "filter": 0,
-          "created": "2026-9-30"
         }
       ],
       "articles_hidden": []
@@ -121,7 +87,7 @@
           "created": "2026-10-5"
         },
         {
-          "title": "Facilitator or Hallucination Trap? A Social-Cognitive Account of AI-Generated Misinformation Handling in GenAI-Assisted L2 Writing",
+          "title": "Facilitator or hallucination trap? A social-cognitive account of AI-generated misinformation handling in GenAI-assisted L2 writing",
           "authors": "Yilong Yang, Jia Li, Yadan Li, Shuyi Zhang, Kai Guo",
           "url": "https://doi.org/10.1016/j.chb.2026.109205",
           "doi": "https://doi.org/10.1016/j.chb.2026.109205",
@@ -301,6 +267,22 @@
       ]
     },
     {
+      "journal_full": "Group Processes & Intergroup Relations",
+      "journal_short": "GPIR",
+      "articles": [
+        {
+          "title": "The Roots of Solidarity: Social Class Identity is Associated with Support for Reducing Inequality",
+          "authors": "Danny Hang, Ellen C. Reinhart, Hannah J. Birnbaum, Andrea G. Dittmann, Rebecca M. Carey",
+          "abstract": "The collective efforts of individuals with the least amount of resources, status, and power in a society can be a powerful tool for reducing inequality. In the current research, we examine the links between identity and support for reducing inequality . Recruiting two online surveys of individuals with objectively low social class standing (i.e., low education, low income) and applying regression analysis, we find that those who subjectively identify as lower (versus higher) social class were more likely to support reducing economic inequality (e.g., support policies that reduce economic inequality; Studies 1 and 2). Additionally, the more central their lower social class was to their identity, the more likely people were to support reducing economic inequality (Study 2). Taken together, these results provide novel support for the importance of social class identity in efforts to reduce economic inequality.",
+          "url": "https://doi.org/10.1177/13684302261489219",
+          "doi": "https://doi.org/10.1177/13684302261489219",
+          "filter": 0,
+          "created": "2026-10-8"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Journal of Experimental Social Psychology",
       "journal_short": "JESP",
       "articles": [
@@ -321,12 +303,28 @@
           "created": "2026-10-6"
         },
         {
+          "title": "When less is more: Unifinal framing promotes intention to use social media for social connection",
+          "authors": "David S. Lee, Daniel Kulesza",
+          "url": "https://doi.org/10.1016/j.jesp.2026.105013",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.105013",
+          "filter": 0,
+          "created": "2026-10-7"
+        },
+        {
           "title": "Smiling your way to happiness or misery? Experimental tests of competing perspectives [Registered Report - stage II]",
           "authors": "Nicholas A. Coles, Annabel V. Dang, Joao Francisco Goes Braga Takayanagi",
           "url": "https://doi.org/10.1016/j.jesp.2026.105011",
           "doi": "https://doi.org/10.1016/j.jesp.2026.105011",
           "filter": 0,
           "created": "2026-10-1"
+        },
+        {
+          "title": "Everyday conceptualizations of patience",
+          "authors": "Samuel Murray, Devon Guzy, Áine Flynn",
+          "url": "https://doi.org/10.1016/j.jesp.2026.105014",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.105014",
+          "filter": 0,
+          "created": "2026-10-7"
         }
       ],
       "articles_hidden": []
@@ -434,6 +432,22 @@
       "articles_hidden": []
     },
     {
+      "journal_full": "Personality and Social Psychology Bulletin",
+      "journal_short": "PSPB",
+      "articles": [
+        {
+          "title": "Should I Stay or Should I Go? Preference for Consistency Predicts Choice Perseveration in the Monty Hall Problem",
+          "authors": "Agata Gasiorowska, Dariusz Dolinski, Michal Folwarczny, Tobias Otterbring",
+          "abstract": "Five incentivized studies ( N = 5,354) tested whether preference for consistency (PfC) predicts staying with one’s initial choice in the Monty Hall problem, despite the fact that switching maximizes the probability of winning. Studies 1 and 2 found that higher PfC predicts staying, even after controlling for need for closure, preference for structure, intolerance of uncertainty, conspiracy beliefs, and numerical competence. Studies 3 and 4 provided experimental evidence that incentives moderated the link between PfC and staying, but higher (vs. lower) PfC only attenuated rather than eliminated incentive sensitivity. Study 5 identified anticipated regret over switching and losing as a mechanism underlying the effect, showing that the link between PfC and staying held across cultural contexts, although its magnitude was culturally calibrated. Together, this research shows that consistency motivation governs choice perseverance in a task that is intentionally impersonal and assumed to be driven by probabilistic reasoning rather than motivational forces.",
+          "url": "https://doi.org/10.1177/01461672261488891",
+          "doi": "https://doi.org/10.1177/01461672261488891",
+          "filter": 0,
+          "created": "2026-10-8"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Psychological Bulletin",
       "journal_short": "PsychBull",
       "articles": [
@@ -491,6 +505,40 @@
           "doi": "https://doi.org/10.1037/met0000872",
           "filter": 0,
           "created": "2026-10-1"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Psychological Science",
+      "journal_short": "PsychSci",
+      "articles": [
+        {
+          "title": "Face-Matching Lineups: A Method to Control Mistaken Identifications in Video Evidence",
+          "authors": "Camryn N. Yuen, Daniel M. Bernstein, Andrew M. Smith, Rebecca C. Ying, Ryan J. Fitzgerald",
+          "abstract": "When crime is caught on video, suspects can be identified by matching their faces to the perpetrator in the footage. However, errors in face-matching decisions have led to wrongful arrests. We tested face-matching in a nonprofessional student sample from a Canadian university ( N = 905) with one-to-one comparisons and lineups. On the basis of findings in the eyewitness identification literature, we hypothesized that if face-matching lineups were fair and included known-innocent fillers (i.e., nonsuspects), they would control the error rate on trials with innocent suspects and increase the accuracy of suspect “match” responses. This hypothesis was supported. However, the accuracy of suspect-nonmatch responses was greater for one-to-one comparisons than for lineups. Additionally, we found that applying wisdom-of-crowd approaches to multiple independent decisions could eliminate errors in both match and nonmatch responses. Whether to control face-matching errors with lineups, with the wisdom-of-crowds, or with both depends on practical considerations.",
+          "url": "https://doi.org/10.1177/09567976261487962",
+          "doi": "https://doi.org/10.1177/09567976261487962",
+          "filter": 0,
+          "created": "2026-10-7"
+        },
+        {
+          "title": "Do Children Who Develop Faster Go on to Age Faster in Midlife?",
+          "authors": "J. Kathy Xie, Avshalom Caspi, Kathleen Mullan Harris, Allison E. Aiello, HonaLee Harrington, Renate Houts, Christopher Kositzke, Daniel W. Belsky, Laurel Raffington, Jay Belsky, Sandhya Ramrakha, Reremoana F. Theodore, Terrie E. Moffitt",
+          "abstract": "We quantified the association between rate of child development and pace of midlife aging in the Dunedin Study and the Add Health Study. Physical development was quantified in Dunedin participants ( N = 1,037; age 45) using a composite comprised of (1) birth weight for gestational age, (2) toddler weight gain, (3) timing of behavioral milestones, (4) adiposity-rebound age, (5) timing of adolescent growth spurt, and (6) tempo of adolescent growth spurt. Social development was quantified using the Vineland Social Maturity Scale. Multi-organ-system (cardiovascular, metabolic, renal, immune, dental, pulmonary) longitudinal biological aging was used as the adult outcome. Fast physical development in childhood was associated with faster midlife aging. This was replicated in Add Health ( N = 1,537; age range = 33–44 years), where girls who menstruated earlier had faster midlife aging. By contrast, faster social development in childhood was associated with slower midlife aging. Findings contribute initial empirical evidence characterizing the link between child-development rate and adult aging in humans.",
+          "url": "https://doi.org/10.1177/09567976261483545",
+          "doi": "https://doi.org/10.1177/09567976261483545",
+          "filter": 0,
+          "created": "2026-10-7"
+        },
+        {
+          "title": "Commentary on Alister et al. (2025): Individual Differences or Unsystematic Noise?",
+          "authors": "Peter Shepherdson",
+          "abstract": "Alister et al. (2025) reported individual differences in the extent to which people find source-dependent and source-independent claims persuasive, but an exploratory analysis showed no discernible relationship between these individual differences and demographic variables such as age, education, politics, and social-media use. Here I show through simulations that the individual-difference patterns Alister et al. identified are largely consistent with random across-trial variation in the absence of underlying differences between individuals. This casts doubt on the strength of their evidence for individual differences and provides one plausible account of why their exploratory analyses did not yield systematic relationships.",
+          "url": "https://doi.org/10.1177/09567976261485960",
+          "doi": "https://doi.org/10.1177/09567976261485960",
+          "filter": 0,
+          "created": "2026-10-7"
         }
       ],
       "articles_hidden": []
