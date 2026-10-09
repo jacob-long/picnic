@@ -1,19 +1,10 @@
 {
-  "update": "2026-10-08",
+  "update": "2026-10-09",
   "content": [
     {
       "journal_full": "Journal of Official Statistics",
       "journal_short": "JOS",
       "articles": [
-        {
-          "title": "Beyond the Trade-Off Curve: Multivariate and Advanced Risk-Utility Maps for Evaluating Anonymized Data",
-          "authors": "Oscar Thees, Roman Müller, Matthias Templ",
-          "abstract": "Anonymizing microdata requires balancing disclosure risk reduction with the preservation of data utility. Traditional evaluations often rely on single measures or two-dimensional risk-utility (R-U) maps, but real-world assessments involve multiple, often correlated, indicators of both risk and utility—a fundamentally multivariate problem that pairwise comparisons fail to capture both efficiently and completely. We compare six visualization approaches for the simultaneous evaluation of multiple risk and utility measures: heatmaps, dot plots, composite scatterplots, parallel coordinate plots, radial profile charts, and principal component analysis (PCA)-based biplots. We introduce blockwise PCA for composite scatterplots and joint PCA for biplots that simultaneously reveal method performance and measure interrelationships, and apply systematic Pareto-optimal method identification across all approaches where applicable, with dominance assessed in the original composite score space. Our comparison shows that no single approach dominates across all criteria: PCA biplots perform well on the analytical criteria, in particular for revealing how the risk and utility measures relate to one another, while composite scatterplots do so on scalability and applicability and are the only approach that can display the Pareto front. Combining complementary visualizations provides the most complete basis for evaluating the risk-utility trade-off.",
-          "url": "https://doi.org/10.1177/0282423x261487530",
-          "doi": "https://doi.org/10.1177/0282423x261487530",
-          "filter": 0,
-          "created": "2026-10-1"
-        },
         {
           "title": "Applying Machine Learning to Longitudinal Administrative Data: A Case Study in Education",
           "authors": "Fabrizio De Fausti, Marco Di Zio, Romina Filippini, Simona Toti",
@@ -22,6 +13,22 @@
           "doi": "https://doi.org/10.1177/0282423x261487523",
           "filter": 0,
           "created": "2026-10-8"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Journal of Survey Statistics and Methodology",
+      "journal_short": "JSSAM",
+      "articles": [
+        {
+          "title": "Spatially Balanced Sampling in Real Time",
+          "authors": "Wilmer Prentius, Fabio Carrer, Anton Grafström, Juha Heikkinen",
+          "abstract": "Probability sampling in real time or streaming scenarios presents unique challenges, especially when the population size and the spatial locations of units are unknown a priori. Standard methods like Poisson sampling can be applied but often result in spatially clustered samples that are not representative of the population, leading to inefficient estimation. We introduce a novel adaptation of spatially correlated Poisson sampling (SCPS) designed specifically for real-time applications. The proposed algorithm sequentially decides on the inclusion of newly encountered units by dynamically estimating the required spatial neighborhood for weight distribution, using only information from previously observed units and a running estimate of the total population size. Through Monte Carlo simulations on both uniform and clustered populations, we demonstrate that the method greatly improves spatial balance compared to conventional Poisson sampling. Furthermore, it substantially reduces the variability of the achieved sample size, offering more predictable survey costs and effort. This approach provides a practical and efficient tool for obtaining spatially balanced samples from populations where a complete sampling frame is unavailable in advance.",
+          "url": "https://doi.org/10.1093/jssam/smag039",
+          "doi": "https://doi.org/10.1093/jssam/smag039",
+          "filter": 0,
+          "created": "2026-8-22"
         }
       ],
       "articles_hidden": []
