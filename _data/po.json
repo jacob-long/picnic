@@ -1,5 +1,5 @@
 {
-  "update": "2026-10-09",
+  "update": "2026-10-10",
   "content": [
     {
       "journal_full": "Journal of Official Statistics",
@@ -22,6 +22,15 @@
       "journal_short": "JSSAM",
       "articles": [
         {
+          "title": "Sampling with Double Spatial Balance",
+          "authors": "Blair L Robertson, Chris J Price, Marco Reale, Philip Davies",
+          "abstract": "Spatial sampling designs determine where response variables are measured in a study area to estimate population parameters precisely. Spatially balanced designs yield precise results for commonly used estimators when positive spatial associations exist. A doubly-balanced design has two balancing properties: spatial balance on spatial variables and balance on auxiliary variables. Doubly-balanced designs tend to be efficient when the response is a linear function of the auxiliary variables with spatially correlated error terms. This article presents a novel sampling objective, where spatial balance is achieved simultaneously in the spaces spanned by the spatial and auxiliary variables. Numerical results show that our double spatial balance method works for both linear and non-linear superpopulation models, making it an attractive alternative to spatially balanced, balanced, or doubly-balanced designs. We provide example applications with equal and unequal probabilities for estimating single and multiple response totals. A design-based variance estimator is also given.",
+          "url": "https://doi.org/10.1093/jssam/smag021",
+          "doi": "https://doi.org/10.1093/jssam/smag021",
+          "filter": 0,
+          "created": "2026-5-12"
+        },
+        {
           "title": "Spatially Balanced Sampling in Real Time",
           "authors": "Wilmer Prentius, Fabio Carrer, Anton Grafström, Juha Heikkinen",
           "abstract": "Probability sampling in real time or streaming scenarios presents unique challenges, especially when the population size and the spatial locations of units are unknown a priori. Standard methods like Poisson sampling can be applied but often result in spatially clustered samples that are not representative of the population, leading to inefficient estimation. We introduce a novel adaptation of spatially correlated Poisson sampling (SCPS) designed specifically for real-time applications. The proposed algorithm sequentially decides on the inclusion of newly encountered units by dynamically estimating the required spatial neighborhood for weight distribution, using only information from previously observed units and a running estimate of the total population size. Through Monte Carlo simulations on both uniform and clustered populations, we demonstrate that the method greatly improves spatial balance compared to conventional Poisson sampling. Furthermore, it substantially reduces the variability of the achieved sample size, offering more predictable survey costs and effort. This approach provides a practical and efficient tool for obtaining spatially balanced samples from populations where a complete sampling frame is unavailable in advance.",
@@ -29,6 +38,61 @@
           "doi": "https://doi.org/10.1093/jssam/smag039",
           "filter": 0,
           "created": "2026-8-22"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Politics, Groups, and Identities",
+      "journal_short": "PGI",
+      "articles": [
+        {
+          "title": "The role of group-based attitudes in policy evaluation: the relationship between sexism, racism, and attitudes toward the affordable care act",
+          "authors": "Mona S. Kleinberg, Katherine T. McCabe",
+          "url": "https://doi.org/10.1080/21565503.2026.2735173",
+          "doi": "https://doi.org/10.1080/21565503.2026.2735173",
+          "filter": 0,
+          "created": "2026-10-9"
+        },
+        {
+          "title": "Cross-party perspective getting, identity, and support for electoral fairness: who can persuade?",
+          "authors": "Ryan Strickler",
+          "url": "https://doi.org/10.1080/21565503.2026.2735232",
+          "doi": "https://doi.org/10.1080/21565503.2026.2735232",
+          "filter": 0,
+          "created": "2026-10-9"
+        },
+        {
+          "title": "Wrestling with perceptions: how WWE live events in Saudi Arabia shaped views of Muslims in the United States",
+          "authors": "Rudy Alamillo",
+          "url": "https://doi.org/10.1080/21565503.2026.2735229",
+          "doi": "https://doi.org/10.1080/21565503.2026.2735229",
+          "filter": 0,
+          "created": "2026-10-9"
+        },
+        {
+          "title": "Ethnocultural identity and candidate self-presentation in Canadian elections",
+          "authors": "Daniel Westlake, Jacob Robbins-Kanter",
+          "url": "https://doi.org/10.1080/21565503.2026.2735171",
+          "doi": "https://doi.org/10.1080/21565503.2026.2735171",
+          "filter": 0,
+          "created": "2026-10-9"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Social Science Computer Review",
+      "journal_short": "SSCR",
+      "articles": [
+        {
+          "title": "Who Is Afraid of ChatGPT? A Natural Experiment on the Effect of ChatGPT Release on Labour-Market Concerns",
+          "authors": "Francesco Nicoli, Gregorio Buzzelli, Brian Burgoon, Stefano Sacchi",
+          "abstract": "The public release of ChatGPT on November 30th, 2022 revived the public debate on technological change and, particularly, on its impact on the labour market. Despite the sudden growth in AI salience after the launch of the new chatbot, to our knowledge, no empirical investigation has assessed the impact of this technological breakthrough on citizens’ first concerns. By means of a unique survey fielded between November and December 2022 in five European countries, we use an Unexpected Event During Survey (UEDS) design to causally test the effect of ChatGPT’s launch on individual perception of unemployment risk. We rely on statistical matching techniques, combined with regression analyses to explore heterogeneity in responses between socioeconomic groups. We show that the release of the new chatbot mildly but significantly increased unemployment concerns in advanced industrial democracies, particularly among individuals with low and middling levels of income and education, as well as poorly exposed to AI. By capturing reactions before informational framings consolidate and widespread adoption occurs, this study provides a rare window into citizens’ genuine response to technological change, indicating that its socioeconomic consequences are perceived as immediately salient.",
+          "url": "https://doi.org/10.1177/08944393261493959",
+          "doi": "https://doi.org/10.1177/08944393261493959",
+          "filter": 0,
+          "created": "2026-10-9"
         }
       ],
       "articles_hidden": []
