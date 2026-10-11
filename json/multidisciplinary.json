@@ -1,5 +1,5 @@
 {
-  "update": "2026-10-10",
+  "update": "2026-10-11",
   "content": [
     {
       "journal_full": "Nature",
@@ -88,20 +88,20 @@
           "created": "2026-10-7"
         },
         {
-          "title": "A gut microbial odd-chain fatty acid alleviates atherosclerosis in mice",
-          "authors": "Chao Yin, Youzhe Chen, Gan Lin, Mingwei Cai, Cuiping Pang, Xianzun Xiao, Kaining Han, Chaoxiong Mei, Miaomiao Qin, Peizhi Fan, Yibo Zhao, Lihong Du, Yanqin Xie, Jiang Wang, Yudan Mao, Xiangting Zhou, Xue Gao, Li Jin, Peijie Li, Zepeng Qu, Zhipeng Tan, Ruolan Sun, Xiahong Lin, Yang Zhang, Lei Dai, Zhaofan Luo, Xiangyu Mou, Xiaoyu Tang, Wenjing Zhao",
-          "abstract": "The gut microbiota plays a pivotal part in human health, yet the molecular mechanisms that underlie its effects are largely unexplored. Bacteroides, a dominant genus in the human gut microbiota, is depleted in patients with atherosclerosis1, but its causal relationship with disease remains unclear. Here, using a mouse model, we show that administration of Bacteroides uniformis alleviates atherosclerosis through the upregulation of hepatic low-density lipoprotein receptor expression. Bioactivity-guided screening revealed pentadecanoic acid (PA, C15:0), a saturated odd-chain fatty acid, as a principal bioactive metabolite. PA supplementation reduced atherosclerotic plaque burden by around 50% and significantly improved plasma lipid profiles, a result that underscores its therapeutic potential. Mechanistically, PA enhances cholesterol clearance by directly inhibiting HMG-CoA reductase, suppressing hepatic cholesterol biosynthesis and promoting plasma low-density lipoprotein cholesterol removal. Analyses of 100 gut bacterial strains revealed that PA production occurs across multiple Bacteroidota genera. Notably, PA is markedly depleted in patients with dyslipidaemia. In summary, a Bacteroidota-derived odd-chain fatty acid regulates gut–liver crosstalk, and modulation of the microbial–metabolic axis has atheroprotective potential.",
-          "url": "https://doi.org/10.1038/s41586-026-11142-x",
-          "doi": "https://doi.org/10.1038/s41586-026-11142-x",
-          "filter": "2",
-          "created": "2026-10-7"
-        },
-        {
           "title": "Retrofitting language models to operate over bytes",
           "authors": "Benjamin Minixhofer, Tyler Murray, Tomasz Limisiewicz, Anna Korhonen, Luke Zettlemoyer, Noah A. Smith, Edoardo M. Ponti, Luca Soldaini, Valentin Hofmann",
           "abstract": "Recent advances in artificial intelligence (AI) have largely been driven by large language models, deep neural networks that operate over discrete units called tokens. To represent text, most large language models use words or word fragments as the tokens, known as subword tokenization 1 . Subword tokenization obscures fine-grained information, which is problematic, especially for scientific data—such as computer code or biological sequences—where meaning depends on the individual characters or bytes 2 . Models that instead operate directly on the byte encoding of text avoid these limitations, but until now they have lagged behind subword-based models in performance. Here we introduce a general method for creating byte-level large language models through byteification that approach the capabilities of subword-based systems. We use a two-stage conversion procedure to retrofit existing subword-based models into byte-level models with minimal extra training. The resulting models outperform earlier byte-level approaches and excel on character-level reasoning tasks, achieving practical inference speeds by efficiently processing byte-level information and adaptability by reusing the existing ecosystem around the source large language model. Our results remove a long-standing performance barrier to end-to-end byte-level language modelling, demonstrating that models operating on raw text encodings can scale competitively while offering advantages in domains requiring fine-grained textual understanding.",
           "url": "https://doi.org/10.1038/s41586-026-11111-4",
           "doi": "https://doi.org/10.1038/s41586-026-11111-4",
+          "filter": "2",
+          "created": "2026-10-7"
+        },
+        {
+          "title": "A gut microbial odd-chain fatty acid alleviates atherosclerosis in mice",
+          "authors": "Chao Yin, Youzhe Chen, Gan Lin, Mingwei Cai, Cuiping Pang, Xianzun Xiao, Kaining Han, Chaoxiong Mei, Miaomiao Qin, Peizhi Fan, Yibo Zhao, Lihong Du, Yanqin Xie, Jiang Wang, Yudan Mao, Xiangting Zhou, Xue Gao, Li Jin, Peijie Li, Zepeng Qu, Zhipeng Tan, Ruolan Sun, Xiahong Lin, Yang Zhang, Lei Dai, Zhaofan Luo, Xiangyu Mou, Xiaoyu Tang, Wenjing Zhao",
+          "abstract": "The gut microbiota plays a pivotal part in human health, yet the molecular mechanisms that underlie its effects are largely unexplored. Bacteroides, a dominant genus in the human gut microbiota, is depleted in patients with atherosclerosis1, but its causal relationship with disease remains unclear. Here, using a mouse model, we show that administration of Bacteroides uniformis alleviates atherosclerosis through the upregulation of hepatic low-density lipoprotein receptor expression. Bioactivity-guided screening revealed pentadecanoic acid (PA, C15:0), a saturated odd-chain fatty acid, as a principal bioactive metabolite. PA supplementation reduced atherosclerotic plaque burden by around 50% and significantly improved plasma lipid profiles, a result that underscores its therapeutic potential. Mechanistically, PA enhances cholesterol clearance by directly inhibiting HMG-CoA reductase, suppressing hepatic cholesterol biosynthesis and promoting plasma low-density lipoprotein cholesterol removal. Analyses of 100 gut bacterial strains revealed that PA production occurs across multiple Bacteroidota genera. Notably, PA is markedly depleted in patients with dyslipidaemia. In summary, a Bacteroidota-derived odd-chain fatty acid regulates gut–liver crosstalk, and modulation of the microbial–metabolic axis has atheroprotective potential.",
+          "url": "https://doi.org/10.1038/s41586-026-11142-x",
+          "doi": "https://doi.org/10.1038/s41586-026-11142-x",
           "filter": "2",
           "created": "2026-10-7"
         },
@@ -213,6 +213,14 @@
           "created": "2026-10-7"
         },
         {
+          "title": "Editorial Expression of Concern: Maternal gut bacteria promote neurodevelopmental abnormalities in mouse offspring",
+          "authors": "Sangdoo Kim, Hyunju Kim, Yeong Shin Yim, Soyoung Ha, Koji Atarashi, Tze Guan Tan, Randy S. Longman, Kenya Honda, Dan R. Littman, Gloria B. Choi, Jun R. Huh",
+          "url": "https://doi.org/10.1038/s41586-026-11070-w",
+          "doi": "https://doi.org/10.1038/s41586-026-11070-w",
+          "filter": "2",
+          "created": "2026-10-8"
+        },
+        {
           "title": "A split attractor design for rapidly writing a navigational goal",
           "authors": "Aaron J. Lanz, Nicholas D. Kathman, Emily Hao, Bard Ermentrout, Katherine I. Nagel",
           "abstract": "Recurrent attractor networks are widely thought to form the basis of working memory1,2,3, but how they can be rapidly switched on and off is unclear4,5,6,7. Here we investigate stability and switching in a recurrent circuit of the fly navigation centre8. h∆K and PFG neurons are recurrently connected in a ring structure and exhibit shared persistent bump activity that turns on with odour and terminates at the end of a goal-directed run. Using whole-cell recordings, we show that persistence in h∆K depends on recurrence, and that h∆K receives slow recurrent excitation and fast inhibition from its synaptic partners. Computational modelling reveals that these synaptic dynamics yield persistent attractor dynamics over a range of synaptic strengths. Next we examine the mechanisms of rapid switching. We find that whereas both populations show similar activity during runs, they become decoupled during turns and rest. We can reproduce these differential dynamics in our model by using inhibition to dynamically uncouple activity in h∆K from PFG. When h∆K is inhibited, PFG neurons follow their inputs from the compass system; when h∆K is disinhibited, recurrent interactions lock this input into place, forming a heading memory. Consistent with this model, we find that inhibitory inputs onto h∆K increase during turns and are suppressed during odour and goal-directed runs. Our work reveals how disinhibition can serve as a gate to rapidly write an ongoing measurement to a recurrent circuit.",
@@ -220,14 +228,6 @@
           "doi": "https://doi.org/10.1038/s41586-026-11144-9",
           "filter": "2",
           "created": "2026-10-7"
-        },
-        {
-          "title": "Editorial Expression of Concern: Maternal gut bacteria promote neurodevelopmental abnormalities in mouse offspring",
-          "authors": "Sangdoo Kim, Hyunju Kim, Yeong Shin Yim, Soyoung Ha, Koji Atarashi, Tze Guan Tan, Randy S. Longman, Kenya Honda, Dan R. Littman, Gloria B. Choi, Jun R. Huh",
-          "url": "https://doi.org/10.1038/s41586-026-11070-w",
-          "doi": "https://doi.org/10.1038/s41586-026-11070-w",
-          "filter": "2",
-          "created": "2026-10-8"
         },
         {
           "title": "A nuclear clock synchronized to 229Th",
@@ -282,18 +282,18 @@
           "created": "2026-10-5"
         },
         {
-          "title": "Daily briefing: Can you name every female Nobel laureate?",
-          "authors": "Flora Graham",
-          "url": "https://doi.org/10.1038/d41586-026-03164-2",
-          "doi": "https://doi.org/10.1038/d41586-026-03164-2",
-          "filter": "4",
-          "created": "2026-10-5"
-        },
-        {
           "title": "‘Learning about physics changed my life’: author Hernan Diaz on his new novel Ply",
           "authors": "Benjamin Thompson",
           "url": "https://doi.org/10.1038/d41586-026-03057-4",
           "doi": "https://doi.org/10.1038/d41586-026-03057-4",
+          "filter": "4",
+          "created": "2026-10-5"
+        },
+        {
+          "title": "Daily briefing: Can you name every female Nobel laureate?",
+          "authors": "Flora Graham",
+          "url": "https://doi.org/10.1038/d41586-026-03164-2",
+          "doi": "https://doi.org/10.1038/d41586-026-03164-2",
           "filter": "4",
           "created": "2026-10-5"
         },
@@ -370,20 +370,20 @@
           "created": "2026-10-6"
         },
         {
-          "title": "Will AI scoop your science? Some researchers see a gloomy future",
-          "authors": "Kaia Glickman",
-          "url": "https://doi.org/10.1038/d41586-026-03128-6",
-          "doi": "https://doi.org/10.1038/d41586-026-03128-6",
-          "filter": "4",
-          "created": "2026-10-8"
-        },
-        {
           "title": "Watch this invisible tattoo appear under UV light",
           "authors": "Rachel Fieldhouse",
           "url": "https://doi.org/10.1038/d41586-026-03210-z",
           "doi": "https://doi.org/10.1038/d41586-026-03210-z",
           "filter": "4",
           "created": "2026-10-9"
+        },
+        {
+          "title": "Will AI scoop your science? Some researchers see a gloomy future",
+          "authors": "Kaia Glickman",
+          "url": "https://doi.org/10.1038/d41586-026-03128-6",
+          "doi": "https://doi.org/10.1038/d41586-026-03128-6",
+          "filter": "4",
+          "created": "2026-10-8"
         },
         {
           "title": "The life of Darwin and the science of clouds: Books in brief",
@@ -434,20 +434,20 @@
           "created": "2026-10-8"
         },
         {
-          "title": "The Great Barrier Reef requires special attention in the developing super El Niño",
-          "authors": "Awais Shakoor",
-          "url": "https://doi.org/10.1038/d41586-026-03174-0",
-          "doi": "https://doi.org/10.1038/d41586-026-03174-0",
-          "filter": "4",
-          "created": "2026-10-6"
-        },
-        {
           "title": "‘Vibe coding’ makes the dictionary: AI terms recognized by Merriam-Webster",
           "authors": "Kaia Glickman",
           "url": "https://doi.org/10.1038/d41586-026-03044-9",
           "doi": "https://doi.org/10.1038/d41586-026-03044-9",
           "filter": "4",
           "created": "2026-10-5"
+        },
+        {
+          "title": "The Great Barrier Reef requires special attention in the developing super El Niño",
+          "authors": "Awais Shakoor",
+          "url": "https://doi.org/10.1038/d41586-026-03174-0",
+          "doi": "https://doi.org/10.1038/d41586-026-03174-0",
+          "filter": "4",
+          "created": "2026-10-6"
         },
         {
           "title": "Why smart glasses are about to create a major privacy crisis",
@@ -490,14 +490,6 @@
           "created": "2026-10-5"
         },
         {
-          "title": "Five movements from the edge of the singularity",
-          "authors": "D. Thomas Minton",
-          "url": "https://doi.org/10.1038/d41586-026-03116-w",
-          "doi": "https://doi.org/10.1038/d41586-026-03116-w",
-          "filter": "4",
-          "created": "2026-10-9"
-        },
-        {
           "title": "Flu season could kick off ‘incredibly’ early — what scientists are watching",
           "authors": "Mariana Lenharo",
           "url": "https://doi.org/10.1038/d41586-026-03150-8",
@@ -506,26 +498,26 @@
           "created": "2026-10-6"
         },
         {
-          "title": "‘When prevention disappears, infections rise’: can the world still end AIDS?",
-          "authors": "Bianca Nogrady",
-          "url": "https://doi.org/10.1038/d41586-026-03127-7",
-          "doi": "https://doi.org/10.1038/d41586-026-03127-7",
+          "title": "Five movements from the edge of the singularity",
+          "authors": "D. Thomas Minton",
+          "url": "https://doi.org/10.1038/d41586-026-03116-w",
+          "doi": "https://doi.org/10.1038/d41586-026-03116-w",
           "filter": "4",
-          "created": "2026-10-7"
-        },
-        {
-          "title": "Brain organoids grafted into cortex-free mice will advance human brain research",
-          "authors": "Marty G. Yang, Aparna Bhaduri",
-          "url": "https://doi.org/10.1038/d41586-026-02967-7",
-          "doi": "https://doi.org/10.1038/d41586-026-02967-7",
-          "filter": "4",
-          "created": "2026-10-6"
+          "created": "2026-10-9"
         },
         {
           "title": "Maintaining global science collaboration during conflict requires fairer rules",
           "authors": "Emmanuel Chidiebere Edeh, Ehizuelen Michael Mitchell Omoruyi",
           "url": "https://doi.org/10.1038/d41586-026-03176-y",
           "doi": "https://doi.org/10.1038/d41586-026-03176-y",
+          "filter": "4",
+          "created": "2026-10-6"
+        },
+        {
+          "title": "Brain organoids grafted into cortex-free mice will advance human brain research",
+          "authors": "Marty G. Yang, Aparna Bhaduri",
+          "url": "https://doi.org/10.1038/d41586-026-02967-7",
+          "doi": "https://doi.org/10.1038/d41586-026-02967-7",
           "filter": "4",
           "created": "2026-10-6"
         },
@@ -538,12 +530,12 @@
           "created": "2026-10-7"
         },
         {
-          "title": "Big dogs age faster than little ones — rogue ‘jumping genes’ might be to blame",
-          "authors": "Heidi Ledford",
-          "url": "https://doi.org/10.1038/d41586-026-03199-5",
-          "doi": "https://doi.org/10.1038/d41586-026-03199-5",
+          "title": "‘When prevention disappears, infections rise’: can the world still end AIDS?",
+          "authors": "Bianca Nogrady",
+          "url": "https://doi.org/10.1038/d41586-026-03127-7",
+          "doi": "https://doi.org/10.1038/d41586-026-03127-7",
           "filter": "4",
-          "created": "2026-10-8"
+          "created": "2026-10-7"
         },
         {
           "title": "Plague scare: what scientists know — and what Russia won’t say",
@@ -554,10 +546,26 @@
           "created": "2026-10-8"
         },
         {
+          "title": "Big dogs age faster than little ones — rogue ‘jumping genes’ might be to blame",
+          "authors": "Heidi Ledford",
+          "url": "https://doi.org/10.1038/d41586-026-03199-5",
+          "doi": "https://doi.org/10.1038/d41586-026-03199-5",
+          "filter": "4",
+          "created": "2026-10-8"
+        },
+        {
           "title": "Daily briefing: Medicine Nobel prize goes to optogenetics",
           "authors": "Flora Graham",
           "url": "https://doi.org/10.1038/d41586-026-03185-x",
           "doi": "https://doi.org/10.1038/d41586-026-03185-x",
+          "filter": "4",
+          "created": "2026-10-6"
+        },
+        {
+          "title": "Circular DNA exposes a weakness in cancer cells",
+          "authors": "Nikolaus A. Watson, Jan O. Korbel",
+          "url": "https://doi.org/10.1038/d41586-026-02966-8",
+          "doi": "https://doi.org/10.1038/d41586-026-02966-8",
           "filter": "4",
           "created": "2026-10-6"
         },
@@ -578,14 +586,6 @@
           "created": "2026-10-5"
         },
         {
-          "title": "Circular DNA exposes a weakness in cancer cells",
-          "authors": "Nikolaus A. Watson, Jan O. Korbel",
-          "url": "https://doi.org/10.1038/d41586-026-02966-8",
-          "doi": "https://doi.org/10.1038/d41586-026-02966-8",
-          "filter": "4",
-          "created": "2026-10-6"
-        },
-        {
           "title": "Strong evidence that ‘baryon junctions’ give proton its identity",
           "authors": "José Guilherme Milhano, Néstor Armesto",
           "url": "https://doi.org/10.1038/d41586-026-03129-5",
@@ -602,14 +602,6 @@
           "created": "2026-10-6"
         },
         {
-          "title": "How big tech is building a military–industrial complex in the age of AI",
-          "authors": "Chris Stokel-Walker",
-          "url": "https://doi.org/10.1038/d41586-026-03134-8",
-          "doi": "https://doi.org/10.1038/d41586-026-03134-8",
-          "filter": "4",
-          "created": "2026-10-5"
-        },
-        {
           "title": "Woody ‘blankets’ are being deployed on Arctic permafrost to reduce carbon emissions",
           "authors": "James Dinneen",
           "url": "https://doi.org/10.1038/d41586-026-03045-8",
@@ -622,6 +614,14 @@
           "authors": "Hannah Docter-Loeb",
           "url": "https://doi.org/10.1038/d41586-026-02564-8",
           "doi": "https://doi.org/10.1038/d41586-026-02564-8",
+          "filter": "4",
+          "created": "2026-10-5"
+        },
+        {
+          "title": "How big tech is building a military–industrial complex in the age of AI",
+          "authors": "Chris Stokel-Walker",
+          "url": "https://doi.org/10.1038/d41586-026-03134-8",
+          "doi": "https://doi.org/10.1038/d41586-026-03134-8",
           "filter": "4",
           "created": "2026-10-5"
         },
@@ -642,20 +642,20 @@
           "created": "2026-10-6"
         },
         {
-          "title": "Chemistry Nobel awarded for solving mystery of how ‘handed’ organic molecules can emerge",
-          "authors": "Elizabeth Gibney, Miryam Naddaf, Anne Pichon, Davide Castelvecchi, Ewen Callaway",
-          "url": "https://doi.org/10.1038/d41586-026-03093-0",
-          "doi": "https://doi.org/10.1038/d41586-026-03093-0",
-          "filter": "4",
-          "created": "2026-10-7"
-        },
-        {
           "title": "How to build a mouse: embryo development captured in stunning detail",
           "authors": "Ewen Callaway",
           "url": "https://doi.org/10.1038/d41586-026-03193-x",
           "doi": "https://doi.org/10.1038/d41586-026-03193-x",
           "filter": "4",
           "created": "2026-10-8"
+        },
+        {
+          "title": "Chemistry Nobel awarded for solving mystery of how ‘handed’ organic molecules can emerge",
+          "authors": "Elizabeth Gibney, Miryam Naddaf, Anne Pichon, Davide Castelvecchi, Ewen Callaway",
+          "url": "https://doi.org/10.1038/d41586-026-03093-0",
+          "doi": "https://doi.org/10.1038/d41586-026-03093-0",
+          "filter": "4",
+          "created": "2026-10-7"
         },
         {
           "title": "‘What took them so long?’ This year’s medicine Nobel winner is overdue",
@@ -818,15 +818,6 @@
       "journal_full": "Proceedings of the National Academy of Sciences",
       "journal_short": "PNAS",
       "articles": [
-        {
-          "title": "Understanding consciousness (biological and artificial) as a society of self-schemas",
-          "authors": "Michael S. A. Graziano",
-          "abstract": "This article argues that human cognition is more than the performance of functions such as memory, decision-making, and attention. The brain also builds schematic models of those cognitive functions and uses those models to monitor, predict, and partially control them. When you introspect, your understanding of who you are and what is happening inside of you is derived from those schematic, sometimes inaccurate, but generally useful models, rather than from the actual cognitive functions that are represented by those models. The proposal expands the previously proposed attention schema theory to a more general schema theory, in which the mind as we know it introspectively is a society of interacting self-schemas. The article focuses on five self-schemas including the attention schema (which is proposed to give us our intuitions about a conscious mind that takes possession of items in a vivid manner), a decision schema (which generates simplified, sometimes confabulated accounts of the decision-making process and gives us our intuitive understanding of agency and will), emotion schemas (which create complex interpretations of the physiological state of the body and provide us with our understanding of emotional experience), the body schema (which provides our understanding of who we are as physical beings), and personas (which give us our understanding of our emotional, social, and moral character, and act as a framework to guide our behavior). The article includes a discussion of how consciousness in a machine requires a similar suite of self-schemas used for similar functional purposes and may already be partially present.",
-          "url": "https://doi.org/10.1073/pnas.2628598123",
-          "doi": "https://doi.org/10.1073/pnas.2628598123",
-          "filter": "0",
-          "created": "2026-10-9"
-        },
         {
           "title": "Team science: Progress, barriers, and pathways forward",
           "authors": "Mo Wang, Diana L. Burley",
@@ -1111,6 +1102,15 @@
           "created": "2026-10-8"
         },
         {
+          "title": "Understanding consciousness (biological and artificial) as a society of self-schemas",
+          "authors": "Michael S. A. Graziano",
+          "abstract": "This article argues that human cognition is more than the performance of functions such as memory, decision-making, and attention. The brain also builds schematic models of those cognitive functions and uses those models to monitor, predict, and partially control them. When you introspect, your understanding of who you are and what is happening inside of you is derived from those schematic, sometimes inaccurate, but generally useful models, rather than from the actual cognitive functions that are represented by those models. The proposal expands the previously proposed attention schema theory to a more general schema theory, in which the mind as we know it introspectively is a society of interacting self-schemas. The article focuses on five self-schemas including the attention schema (which is proposed to give us our intuitions about a conscious mind that takes possession of items in a vivid manner), a decision schema (which generates simplified, sometimes confabulated accounts of the decision-making process and gives us our intuitive understanding of agency and will), emotion schemas (which create complex interpretations of the physiological state of the body and provide us with our understanding of emotional experience), the body schema (which provides our understanding of who we are as physical beings), and personas (which give us our understanding of our emotional, social, and moral character, and act as a framework to guide our behavior). The article includes a discussion of how consciousness in a machine requires a similar suite of self-schemas used for similar functional purposes and may already be partially present.",
+          "url": "https://doi.org/10.1073/pnas.2628598123",
+          "doi": "https://doi.org/10.1073/pnas.2628598123",
+          "filter": "2",
+          "created": "2026-10-9"
+        },
+        {
           "title": "Cell jamming transition is regulated by mitochondrial pyruvate transport and endocytosis",
           "authors": "Alexandra Bermudez, Zoe Latham, Johnny Diaz, Weihong Yan, Jerry Chen, Dapeng Bi, Andrew S. Goldstein, Jimmy K. Hu, Neil Y. C. Lin",
           "abstract": "Epithelial tissues undergo dynamic transitions between fluid-like collective motion and mechanically jammed states during development, injury repair, and disease progression. However, the cellular programs that drive these transitions and regulate collective behavior remain unclear. Using a controlled crowding model integrated with live-cell imaging and time-resolved multiomics, we demonstrate that epithelial crowding triggers early metabolic changes characterized by increased mitochondrial pyruvate anaplerosis that precedes the jamming transition. Restricting mitochondrial pyruvate import increased collective cell motility and delayed jamming in crowded monolayers. This unjammed state is driven by enhanced cytoskeletal remodeling and requires RhoA-myosin II activity. Mechanistically, we show that elevated cytoskeletal signaling promotes macropinocytic uptake, which serves as a required feedback loop to maintain motility. These findings identify mitochondrial pyruvate utilization as an important regulatory input linking metabolic remodeling to the endocytic control of epithelial fluidity.",
@@ -1332,15 +1332,6 @@
           "created": "2026-10-9"
         },
         {
-          "title": "Apomixis imposes evolutionary costs by reducing recombination efficiency and disrupting segregation",
-          "authors": "Nan Wang, Weiping Zhang, Yuting Yang, Siqi Zhang, Lijun Chai, Wenwu Guo, Qiang Xu, Yongfeng Zhou, Martin Lascoux, Xiuxin Deng",
-          "abstract": "Sexual reproduction facilitates the purging of deleterious mutations via recombination. Apomixis, defined by asexual seed formation, involves suppressed meiosis, thereby reducing the efficacy of purifying selection. However, the evolutionary consequences of apomixis remain poorly understood. In this study, we used wild citrus ( Citrus hindsii ), which has both sexual and apomictic (adventitious embryony) lineages, as a diploid genetic system (2n = 2x = 18). We performed a cross between a sexual and an apomictic individual (pollen donor), generated haplotype-resolved genome assemblies for the two parents, and deep-sequenced 226 progeny. These data were integrated into a graph pangenome to characterize the meiotic recombination landscape. The apomictic lineage harbors 1.28-fold more heterozygous structural variations, which may locally suppress crossovers. Furthermore, apomictic recombination efficiency is reduced by 24.2% relative to the sexual lineage. Crucially, the contribution of male function through outcrossing exposes a substantial recessive genetic load, including a putative gamete-lethal mutation, triggering significant segregation distortion across 31.7% of the genome. We established that these distortion profiles are driven by the cumulative effects of multiple loci, with the magnitude of distortion depending on haplotype interactions. Collectively, our study quantifies the recombination landscape of apomixis and provides a framework for unmasking and mitigating genetic load in asexual crops.",
-          "url": "https://doi.org/10.1073/pnas.2618289123",
-          "doi": "https://doi.org/10.1073/pnas.2618289123",
-          "filter": "2",
-          "created": "2026-10-5"
-        },
-        {
           "title": "DNAAF19–RUVBL1/2 complex recruits multiple adaptors to promote dynein arm assembly",
           "authors": "Mafalda de Almeida Gomes, Emma Wood, Thomas Burgoyne, Franziska Klose, Denisa Batrinu, Karsten Boldt, Glenn Carrington, Yehuda Halfon, Rachel George, G. Nasir Khan, Tina Beyer, Hannah M. Mitchison, Takashi Ochi",
           "abstract": "Cilia are microtubule-based organelles essential for sensing, motility, and fluid transport. Motile cilia rely on inner and outer dynein arms, large multiprotein motor complexes, for force generation and the characteristic bending motion required for ciliary beating. Before being incorporated into cilia, these dynein arms are preassembled in the cytoplasm by dynein axonemal assembly factors (DNAAFs). Defects in this assembly pathway often cause the inherited genetic condition primary ciliary dyskinesia (PCD), in which the loss of dynein arms impairs ciliary motility. The molecular mechanisms governing the precise and timely assembly of dynein arms by DNAAFs remain elusive. Here, we investigated the role of dynein axonemal assembly factor 19 (DNAAF19), a DNAAF frequently mutated in PCD patients with combined inner and outer dynein arm defects. Using biochemical, structural, and proteomic approaches, we find that DNAAF19 is a monomeric protein that interacts directly with the heterohexamer of RUVBL1 and RUVBL2, a multifunctional cochaperone complex involved in ciliary dynein arm assembly. The recurrent PCD-causing variant p.His154Pro partially destabilizes the interaction of DNAAF19 with RUVBL1-RUVBL2. Moreover, we identify Deleted in Primary Ciliary Dyskinesia forming a cocomplex with RUVBL1/2-DNAAF19 in vivo and in vitro. This indicates similarity to R2TP, the HSP90 cochaperone composed of RUVBL1/2-RPAP3-PIH1D1 that assembles different molecular machineries in cells, and to the RUVBL1/2–SPAG1–PIH1D2 complex associated with ciliary dynein arm assembly and PCD. Our results suggest that DNAAF19 acts as a DNAAF in concert with RUVBL1/2 and its interacting proteins, providing insights into the molecular coordination of dynein arm assembly and cell biology of PCD.",
@@ -1359,6 +1350,15 @@
           "created": "2026-10-5"
         },
         {
+          "title": "Apomixis imposes evolutionary costs by reducing recombination efficiency and disrupting segregation",
+          "authors": "Nan Wang, Weiping Zhang, Yuting Yang, Siqi Zhang, Lijun Chai, Wenwu Guo, Qiang Xu, Yongfeng Zhou, Martin Lascoux, Xiuxin Deng",
+          "abstract": "Sexual reproduction facilitates the purging of deleterious mutations via recombination. Apomixis, defined by asexual seed formation, involves suppressed meiosis, thereby reducing the efficacy of purifying selection. However, the evolutionary consequences of apomixis remain poorly understood. In this study, we used wild citrus ( Citrus hindsii ), which has both sexual and apomictic (adventitious embryony) lineages, as a diploid genetic system (2n = 2x = 18). We performed a cross between a sexual and an apomictic individual (pollen donor), generated haplotype-resolved genome assemblies for the two parents, and deep-sequenced 226 progeny. These data were integrated into a graph pangenome to characterize the meiotic recombination landscape. The apomictic lineage harbors 1.28-fold more heterozygous structural variations, which may locally suppress crossovers. Furthermore, apomictic recombination efficiency is reduced by 24.2% relative to the sexual lineage. Crucially, the contribution of male function through outcrossing exposes a substantial recessive genetic load, including a putative gamete-lethal mutation, triggering significant segregation distortion across 31.7% of the genome. We established that these distortion profiles are driven by the cumulative effects of multiple loci, with the magnitude of distortion depending on haplotype interactions. Collectively, our study quantifies the recombination landscape of apomixis and provides a framework for unmasking and mitigating genetic load in asexual crops.",
+          "url": "https://doi.org/10.1073/pnas.2618289123",
+          "doi": "https://doi.org/10.1073/pnas.2618289123",
+          "filter": "2",
+          "created": "2026-10-5"
+        },
+        {
           "title": "Pyrrolysine supply and demand shapes the translational landscape in Methanosarcina acetivorans",
           "authors": "Grace D. Britt, Daniel R. Utter, Yeonsoo Park, Victoria J. Orphan, Rodney Tollerson",
           "abstract": "The amber stop codon (UAG) can encode for pyrrolysine (Pyl) or be read as a stop codon by methylamine-metabolizing organisms including methanogenic archaea. The fate of UAG is decided during the decoding step of translation by competition between the pyrrolysine-aminoacylated transfer RNA (Pyl-tRNA Pyl ) and release factor. To further understand the consequences of pyrrolysine based genetic code expansion, we integrated RNA sequencing, tRNA charging analysis, and codon-resolved mono- and disome ribosome profiling in Methanosarcina acetivorans . During conditions of high pyrrolysine demand, we observed increased expression of the pyrrolysine biosynthetic operon with a concurrent increase in acylation of tRNA Pyl and ribosome occupancy at UAG codons. During low pyrrolysine demand, the population of Pyl-tRNA Pyl decreases and we observe a strong ribosome pausing signal during UAG decoding. We find that the dwell time on UAG codons is shorter during high demand, but ribosome collisions increase due to greater ribosome density on UAG-containing transcripts. Together, these results show how pyrrolysine demand modulates tRNA charging and controls elongation dynamics, clarifying the cellular consequences of decoding an ambiguous stop codon.",
@@ -1366,42 +1366,6 @@
           "doi": "https://doi.org/10.1073/pnas.2614934123",
           "filter": "2",
           "created": "2026-10-8"
-        },
-        {
-          "title": "Latent causal diffusions for single-cell perturbation modeling",
-          "authors": "Lars Lorch, Jiaqi Zhang, Charlotte Bunne, Andreas Krause, Bernhard Schölkopf, Caroline Uhler",
-          "abstract": "Perturbation screens hold the potential to systematically map regulatory processes at single-cell resolution, yet modeling and predicting transcriptome-wide responses to perturbations remains a major computational challenge. Existing methods often underperform simple baselines, fail to disentangle measurement noise from biological signal, and provide limited insight into the causal structure governing cellular responses. Here, we present the latent causal diffusion (LCD), a generative model that frames single-cell gene expression as a stationary diffusion process observed under measurement noise. LCD outperforms established approaches in predicting the distributional shifts of unseen perturbation combinations in single-cell RNA-sequencing screens while simultaneously learning a mechanistic dynamical system of gene regulation. To interpret these learned dynamics, we develop an approach we call causal linearization via perturbation responses (CLIPR), which yields an approximation of the direct causal effects between all genes modeled by the diffusion. CLIPR provably identifies causal effects under a linear drift assumption and recovers causal structure in both simulated systems and a genome-wide perturbation screen, where it clusters genes into coherent functional modules and resolves causal relationships that standard differential expression analysis cannot. The LCD-CLIPR framework bridges generative modeling with causal inference to predict unseen perturbation effects and map the underlying regulatory mechanisms of the transcriptome.",
-          "url": "https://doi.org/10.1073/pnas.2602630123",
-          "doi": "https://doi.org/10.1073/pnas.2602630123",
-          "filter": "2",
-          "created": "2026-10-8"
-        },
-        {
-          "title": "Trans - and cis -interaction dynamics of cadherin complexes on membranes visualized by high-speed atomic force microscopy",
-          "authors": "Shigetaka Nishiguchi, Tadaomi Furuta, Takayuki Uchihashi",
-          "abstract": "Classical cadherin-mediated cell–cell adhesion is important for maintaining the animal body and defects in adhesion cause severe diseases. The combination of trans - (between cells) and cis - (on the same membrane) interactions of the extracellular domains of cadherins is necessary for cadherin clustering in cell–cell junctions, which is essential for robust tissue formation. However, the solution structure and interaction dynamics of trans / cis -binding cadherin complexes have not been observed because of technical limitations; therefore, the cadherin clustering mechanism is not well understood. In this study, we reconstituted trans / cis -binding cadherin complexes on membranes and visualized their structure and dynamics using high-speed atomic force microscopy. Our method revealed trans -strand-swap interactions through flipping and hopping motions and cis -interactions, which contributed to multiple interaction patterns on the membrane. In addition, we observed cadherin complex structures that were distinct from those in crystal structures. These results suggest that cadherins adopt dynamic and diverse conformations through multiple assembly pathways on the membrane.",
-          "url": "https://doi.org/10.1073/pnas.2620441123",
-          "doi": "https://doi.org/10.1073/pnas.2620441123",
-          "filter": "2",
-          "created": "2026-10-7"
-        },
-        {
-          "title": "Chemoreceptor complexes signal through a protein-ordering and stabilization mechanism",
-          "authors": "Jessica J. Allen, Edward A. Esposito, Isabella J. Jankowski, Katherine W. Lu-Diaz, Lynmarie K. Thompson",
-          "abstract": "Membrane protein complexes are critical to many cellular processes and have proven to be good targets for a variety of therapeutics. One such complex is the bacterial chemoreceptor signaling complex, which has potential as a target for novel antibiotics. This complex is responsible for sensing chemical signals in the environment to bias swimming of the bacterial cell toward more favorable conditions. While these complexes are well studied, the mechanisms of signal transduction and kinase control are still not fully understood. We have applied multiple thermal stability measurements and limited proteolysis to gain insight into how complex formation and signaling state change the thermal stability and structural properties of the proteins and complexes. We show that the activated signaling complexes are more strongly associated, ordered, and thermally stable than the inactive complexes. This direct evidence that both the chemoreceptor and the kinase are significantly stabilized by assembly into kinase-active complexes is consistent with our previous hydrogen deuterium exchange mass spectrometry results and our proposed order-induced activation model. We propose that signaling inputs modulate the structural order and stability of the partially disordered cytoplasmic domain, which in turn modulates the stability of the catalytic domain of the kinase, such that ordering of the cytoplasmic domain stabilizes and activates the kinase.",
-          "url": "https://doi.org/10.1073/pnas.2610192123",
-          "doi": "https://doi.org/10.1073/pnas.2610192123",
-          "filter": "2",
-          "created": "2026-10-6"
-        },
-        {
-          "title": "Dopamine suppresses pathological retinal oscillations and enhances the signal-to-noise ratio",
-          "authors": "B. Semihcan Sermet, Wouter Kamermans, Beerend H. J. Winkelman, Chris I. De Zeeuw, Maarten Kamermans",
-          "abstract": "Infantile nystagmus is a debilitating involuntary eye movement disorder often associated with retinal diseases such as congenital stationary night blindness (CSNB). The oscillating eye movements of infantile nystagmus come with reduced visual acuity and strongly impair quality of life. No cure exists for this condition. Previously, we demonstrated that nystagmus in the CSNB mouse model Nyx nob has a retinal cause. Specifically, we found that synchronized oscillations of retinal ganglion cells (RGCs) are transmitted to the accessory optic system, triggering compensatory eye movements. The RGC oscillations appear to originate from a specific retinal cell type, the A II amacrine cell (A II AC), making these cells the preferred target for treatment. The reason for the oscillations in the A II ACs is not fully understood. Here, we found that pharmacologically activating the D1 dopaminergic receptors on the A II ACs in Nyx nob mice down-regulated their voltage-gated sodium and potassium channels, leading to a complete suppression of the pathological oscillations of both A II ACs and RGCs. Furthermore, the signal fidelity of RGCs significantly improved due to the absence of the pathological oscillations. Our retinal network simulations confirm that the experimentally observed changes in properties of the A II AC voltage-gated currents are necessary and sufficient to account for the dopamine-dependent abolishment of these oscillations. Our findings provide a mechanistic understanding of dopaminergic regulation of A II ACs underlying infantile nystagmus.",
-          "url": "https://doi.org/10.1073/pnas.2535572123",
-          "doi": "https://doi.org/10.1073/pnas.2535572123",
-          "filter": "2",
-          "created": "2026-10-6"
         },
         {
           "title": "The Benjamini–Hochberg procedure can fail to control the FDR for correlated two-sided Gaussian tests",
@@ -1413,13 +1377,40 @@
           "created": "2026-10-5"
         },
         {
-          "title": "An unidentified reservoir of comet 81P/Wild 2 chondrules",
-          "authors": "Mingming Zhang, Donald E. Brownlee, Dave J. Joswiak, Noriko T. Kita",
-          "abstract": "Comets, which have been stored in the cryogenic regions for billions of years, preserve key records of the solar system’s formation and the dynamic evolution of planets and other small bodies. Twenty years ago, NASA Stardust mission returned samples from a Jupiter-family comet, 81P/Wild 2, for laboratory analysis, and uncovered an unexpected truth that this comet is not entirely made of interstellar grains but contains significant amounts of high-temperature silicate fragments. However, the sources of these fragments remain ambiguous. Here, we report the petrography and oxygen three-isotopes of ~100 silicate fragments from track 227, one of the largest impact tracks in the Stardust aerogel collector. The fragments are mostly pieces of small chondrules (typically &lt;60 µm) with many exhibiting igneous textures such as microporphyritic olivine and, occasionally, nonporphyritic barred olivine and cryptocrystalline. Approximately 90% of the fragments define a modest negative correlation between the mass-independent fractionation of oxygen isotopes (Δ 17 O = δ 17 O –0.52 × δ 18 O, –4 to 0‰) and the redox state [Mg# = mol% Mg/(Mg + Fe), 100 to 62]. The remaining 10% are markedly FeO-rich (Mg# &lt;60) and 16 O-depleted (Δ 17 O up to 7‰). These characteristics distinguish them from chondrules in any known chondrite groups, nor can they be reproduced by mixing chondrule populations in any proportion. Instead, these fragments are from an unidentified chondrule reservoir in a more distant outer disk region. These chondrules were possibly formed in a highly oxidized, ice-rich environment ≥3 Ma after solar system formation.",
-          "url": "https://doi.org/10.1073/pnas.2612680123",
-          "doi": "https://doi.org/10.1073/pnas.2612680123",
+          "title": "Dopamine suppresses pathological retinal oscillations and enhances the signal-to-noise ratio",
+          "authors": "B. Semihcan Sermet, Wouter Kamermans, Beerend H. J. Winkelman, Chris I. De Zeeuw, Maarten Kamermans",
+          "abstract": "Infantile nystagmus is a debilitating involuntary eye movement disorder often associated with retinal diseases such as congenital stationary night blindness (CSNB). The oscillating eye movements of infantile nystagmus come with reduced visual acuity and strongly impair quality of life. No cure exists for this condition. Previously, we demonstrated that nystagmus in the CSNB mouse model Nyx nob has a retinal cause. Specifically, we found that synchronized oscillations of retinal ganglion cells (RGCs) are transmitted to the accessory optic system, triggering compensatory eye movements. The RGC oscillations appear to originate from a specific retinal cell type, the A II amacrine cell (A II AC), making these cells the preferred target for treatment. The reason for the oscillations in the A II ACs is not fully understood. Here, we found that pharmacologically activating the D1 dopaminergic receptors on the A II ACs in Nyx nob mice down-regulated their voltage-gated sodium and potassium channels, leading to a complete suppression of the pathological oscillations of both A II ACs and RGCs. Furthermore, the signal fidelity of RGCs significantly improved due to the absence of the pathological oscillations. Our retinal network simulations confirm that the experimentally observed changes in properties of the A II AC voltage-gated currents are necessary and sufficient to account for the dopamine-dependent abolishment of these oscillations. Our findings provide a mechanistic understanding of dopaminergic regulation of A II ACs underlying infantile nystagmus.",
+          "url": "https://doi.org/10.1073/pnas.2535572123",
+          "doi": "https://doi.org/10.1073/pnas.2535572123",
           "filter": "2",
-          "created": "2026-10-5"
+          "created": "2026-10-6"
+        },
+        {
+          "title": "Chemoreceptor complexes signal through a protein-ordering and stabilization mechanism",
+          "authors": "Jessica J. Allen, Edward A. Esposito, Isabella J. Jankowski, Katherine W. Lu-Diaz, Lynmarie K. Thompson",
+          "abstract": "Membrane protein complexes are critical to many cellular processes and have proven to be good targets for a variety of therapeutics. One such complex is the bacterial chemoreceptor signaling complex, which has potential as a target for novel antibiotics. This complex is responsible for sensing chemical signals in the environment to bias swimming of the bacterial cell toward more favorable conditions. While these complexes are well studied, the mechanisms of signal transduction and kinase control are still not fully understood. We have applied multiple thermal stability measurements and limited proteolysis to gain insight into how complex formation and signaling state change the thermal stability and structural properties of the proteins and complexes. We show that the activated signaling complexes are more strongly associated, ordered, and thermally stable than the inactive complexes. This direct evidence that both the chemoreceptor and the kinase are significantly stabilized by assembly into kinase-active complexes is consistent with our previous hydrogen deuterium exchange mass spectrometry results and our proposed order-induced activation model. We propose that signaling inputs modulate the structural order and stability of the partially disordered cytoplasmic domain, which in turn modulates the stability of the catalytic domain of the kinase, such that ordering of the cytoplasmic domain stabilizes and activates the kinase.",
+          "url": "https://doi.org/10.1073/pnas.2610192123",
+          "doi": "https://doi.org/10.1073/pnas.2610192123",
+          "filter": "2",
+          "created": "2026-10-6"
+        },
+        {
+          "title": "Trans - and cis -interaction dynamics of cadherin complexes on membranes visualized by high-speed atomic force microscopy",
+          "authors": "Shigetaka Nishiguchi, Tadaomi Furuta, Takayuki Uchihashi",
+          "abstract": "Classical cadherin-mediated cell–cell adhesion is important for maintaining the animal body and defects in adhesion cause severe diseases. The combination of trans - (between cells) and cis - (on the same membrane) interactions of the extracellular domains of cadherins is necessary for cadherin clustering in cell–cell junctions, which is essential for robust tissue formation. However, the solution structure and interaction dynamics of trans / cis -binding cadherin complexes have not been observed because of technical limitations; therefore, the cadherin clustering mechanism is not well understood. In this study, we reconstituted trans / cis -binding cadherin complexes on membranes and visualized their structure and dynamics using high-speed atomic force microscopy. Our method revealed trans -strand-swap interactions through flipping and hopping motions and cis -interactions, which contributed to multiple interaction patterns on the membrane. In addition, we observed cadherin complex structures that were distinct from those in crystal structures. These results suggest that cadherins adopt dynamic and diverse conformations through multiple assembly pathways on the membrane.",
+          "url": "https://doi.org/10.1073/pnas.2620441123",
+          "doi": "https://doi.org/10.1073/pnas.2620441123",
+          "filter": "2",
+          "created": "2026-10-7"
+        },
+        {
+          "title": "Latent causal diffusions for single-cell perturbation modeling",
+          "authors": "Lars Lorch, Jiaqi Zhang, Charlotte Bunne, Andreas Krause, Bernhard Schölkopf, Caroline Uhler",
+          "abstract": "Perturbation screens hold the potential to systematically map regulatory processes at single-cell resolution, yet modeling and predicting transcriptome-wide responses to perturbations remains a major computational challenge. Existing methods often underperform simple baselines, fail to disentangle measurement noise from biological signal, and provide limited insight into the causal structure governing cellular responses. Here, we present the latent causal diffusion (LCD), a generative model that frames single-cell gene expression as a stationary diffusion process observed under measurement noise. LCD outperforms established approaches in predicting the distributional shifts of unseen perturbation combinations in single-cell RNA-sequencing screens while simultaneously learning a mechanistic dynamical system of gene regulation. To interpret these learned dynamics, we develop an approach we call causal linearization via perturbation responses (CLIPR), which yields an approximation of the direct causal effects between all genes modeled by the diffusion. CLIPR provably identifies causal effects under a linear drift assumption and recovers causal structure in both simulated systems and a genome-wide perturbation screen, where it clusters genes into coherent functional modules and resolves causal relationships that standard differential expression analysis cannot. The LCD-CLIPR framework bridges generative modeling with causal inference to predict unseen perturbation effects and map the underlying regulatory mechanisms of the transcriptome.",
+          "url": "https://doi.org/10.1073/pnas.2602630123",
+          "doi": "https://doi.org/10.1073/pnas.2602630123",
+          "filter": "2",
+          "created": "2026-10-8"
         },
         {
           "title": "Cooperation in binary mixtures of active colloids",
@@ -1429,6 +1420,15 @@
           "doi": "https://doi.org/10.1073/pnas.2609894123",
           "filter": "2",
           "created": "2026-10-6"
+        },
+        {
+          "title": "An unidentified reservoir of comet 81P/Wild 2 chondrules",
+          "authors": "Mingming Zhang, Donald E. Brownlee, Dave J. Joswiak, Noriko T. Kita",
+          "abstract": "Comets, which have been stored in the cryogenic regions for billions of years, preserve key records of the solar system’s formation and the dynamic evolution of planets and other small bodies. Twenty years ago, NASA Stardust mission returned samples from a Jupiter-family comet, 81P/Wild 2, for laboratory analysis, and uncovered an unexpected truth that this comet is not entirely made of interstellar grains but contains significant amounts of high-temperature silicate fragments. However, the sources of these fragments remain ambiguous. Here, we report the petrography and oxygen three-isotopes of ~100 silicate fragments from track 227, one of the largest impact tracks in the Stardust aerogel collector. The fragments are mostly pieces of small chondrules (typically &lt;60 µm) with many exhibiting igneous textures such as microporphyritic olivine and, occasionally, nonporphyritic barred olivine and cryptocrystalline. Approximately 90% of the fragments define a modest negative correlation between the mass-independent fractionation of oxygen isotopes (Δ 17 O = δ 17 O –0.52 × δ 18 O, –4 to 0‰) and the redox state [Mg# = mol% Mg/(Mg + Fe), 100 to 62]. The remaining 10% are markedly FeO-rich (Mg# &lt;60) and 16 O-depleted (Δ 17 O up to 7‰). These characteristics distinguish them from chondrules in any known chondrite groups, nor can they be reproduced by mixing chondrule populations in any proportion. Instead, these fragments are from an unidentified chondrule reservoir in a more distant outer disk region. These chondrules were possibly formed in a highly oxidized, ice-rich environment ≥3 Ma after solar system formation.",
+          "url": "https://doi.org/10.1073/pnas.2612680123",
+          "doi": "https://doi.org/10.1073/pnas.2612680123",
+          "filter": "2",
+          "created": "2026-10-5"
         },
         {
           "title": "Diversity and spatial segregation of TRP channels in the closest relatives of animals",
@@ -2456,6 +2456,15 @@
           "created": "2026-10-9"
         },
         {
+          "title": "A bifunctional actuator to correct loss-of-function deficits in cardiac voltage-gated sodium channels",
+          "authors": "Lucile Fossier, Marc Yehya, Richard Z. Zhuang, Sri Karthika Shanmugam, Ryan Mahling, Timothy Cho, Audrey Kochiss, Allen L. Hsu, Sandra B. Gabelli, Gordana Vunjak-Novakovic, Henry M. Colecraft, Manu Ben-Johny",
+          "abstract": "Despite their emerging prominence, ion channelopathies have remained challenging to correct, as ion channel dysfunction linked to disease is multifaceted, involving changes in activity and/or localization. Yet, current corrective strategies typically focus on restoring only one aspect leading to incomplete efficacy. Here, focusing on the voltage-gated sodium channel, Na V 1.5, whose dysfunction is linked to life-threatening cardiac arrhythmias, we develop a genetically encoded bifunctional actuator as a proof-of-concept molecular strategy to reverse pathophysiological changes in channel function. Specifically, we engineer a high affinity nanobody targeting Na V 1.5 with two moieties: (i) a peptide that restores proper inactivation and (ii) a linkage-specific deubiquitinase that promotes surface-membrane localization. Functional validation in heterologous systems and in human and mouse cardiomyocytes demonstrated restoration of Na V 1.5 trafficking and/or gating. In all, this approach shows promise for reversing molecular deficits observed with Na V channelopathies and provides a framework to engineer multifunctional modulators targeting ion channelopathies.",
+          "url": "https://doi.org/10.1126/sciadv.aeb2110",
+          "doi": "https://doi.org/10.1126/sciadv.aeb2110",
+          "filter": "2",
+          "created": "2026-10-9"
+        },
+        {
           "title": "Senescent tumor cell membrane–based “time engine” nanosystem amplifies endoplasmic reticulum targeting for metastasis blockade",
           "authors": "Jing Tao, Yuzhen Guo, Fengzhi Zhang, Jiahui Wu, Liyun Xing, Jinxia Kong, Lian Li, Zhou Zhou, Yuan Huang",
           "abstract": "As an important component of biomimetic drug delivery systems, cell membrane–coated nanoparticles are widely used for subcellular delivery. However, the influence of cell membranes at different life cycles on subcellular delivery remains unexplored. Our previous study demonstrated that senescent tumor cell membrane–coated nanoparticles (SNP) displayed superior endoplasmic reticulum (ER) targeting efficiency in tumor cells. After inducing tumor cells into senescence, SNP showed greater accumulation in ER. Herein, we design a “time engine” nanosystem for amplified ER targeting: Firstly, ribociclib is encapsulated into SNP (R@SNP) to induce tumor cell senescence; then, SNP loaded with brefeldin A (B@SNP) is used to trigger ER stress. By sequential therapy, R@SNP disrupts the cytoskeleton of 4T1 tumor cells to eliminate ER-targeting barriers and remodels the tumor immune microenvironment; B@SNP boosts ER-targeting efficiency and triggers intense ER stress. Collectively, such time engine nanosystem achieves excellent ER accumulation and antimetastatic efficacy in 4T1 tumor–bearing mice, providing an innovative perspective for subcellular delivery and tumor treatment.",
@@ -2470,15 +2479,6 @@
           "abstract": "Transcription factors (TFs) form dynamic, high-concentration clusters, condensates, or hubs, proposed to increase TF binding frequency at target enhancers. However, how enhancer sequence shapes hub properties remains unclear. We developed a live imaging–based framework to quantify the spatiotemporal relationship between TF hubs and actively transcribed genes in live Drosophila embryos. Examining hubs formed by the TF Dorsal across enhancers with defined binding site composition, we find that hub enrichment and persistence scale with the number of Dorsal binding motifs. However, these hub properties do not predict transcriptional bursts for a given enhancer. Combining quantitative imaging with computational modeling, we show that Dorsal hub formation can be explained by TF-DNA binding kinetics alone. These findings support a model in which TF hubs emerge from enhancer-encoded TF-DNA interactions rather than higher-order regulatory assemblies.",
           "url": "https://doi.org/10.1126/sciadv.aeh1086",
           "doi": "https://doi.org/10.1126/sciadv.aeh1086",
-          "filter": "2",
-          "created": "2026-10-9"
-        },
-        {
-          "title": "A bifunctional actuator to correct loss-of-function deficits in cardiac voltage-gated sodium channels",
-          "authors": "Lucile Fossier, Marc Yehya, Richard Z. Zhuang, Sri Karthika Shanmugam, Ryan Mahling, Timothy Cho, Audrey Kochiss, Allen L. Hsu, Sandra B. Gabelli, Gordana Vunjak-Novakovic, Henry M. Colecraft, Manu Ben-Johny",
-          "abstract": "Despite their emerging prominence, ion channelopathies have remained challenging to correct, as ion channel dysfunction linked to disease is multifaceted, involving changes in activity and/or localization. Yet, current corrective strategies typically focus on restoring only one aspect leading to incomplete efficacy. Here, focusing on the voltage-gated sodium channel, Na V 1.5, whose dysfunction is linked to life-threatening cardiac arrhythmias, we develop a genetically encoded bifunctional actuator as a proof-of-concept molecular strategy to reverse pathophysiological changes in channel function. Specifically, we engineer a high affinity nanobody targeting Na V 1.5 with two moieties: (i) a peptide that restores proper inactivation and (ii) a linkage-specific deubiquitinase that promotes surface-membrane localization. Functional validation in heterologous systems and in human and mouse cardiomyocytes demonstrated restoration of Na V 1.5 trafficking and/or gating. In all, this approach shows promise for reversing molecular deficits observed with Na V channelopathies and provides a framework to engineer multifunctional modulators targeting ion channelopathies.",
-          "url": "https://doi.org/10.1126/sciadv.aeb2110",
-          "doi": "https://doi.org/10.1126/sciadv.aeb2110",
           "filter": "2",
           "created": "2026-10-9"
         },
@@ -2654,20 +2654,20 @@
           "created": "2026-10-7"
         },
         {
-          "title": "Hydrogen isotopes reveal water leakage from the core",
-          "authors": "Yu Zhang, Wenzhong Wang, Zhongqing Wu, Bowen Chen",
-          "abstract": "Chemical heterogeneities in Earth’s deep mantle may record either preserved primordial reservoirs or later core-mantle exchange, but distinguishing between these origins remains challenging. Hydrogen isotopes offer a sensitive tracer, yet whether magma ocean crystallization could generate a deuterium-depleted deep reservoir has not been quantitatively evaluated. Here, we use machine learning–accelerated path-integral simulations to determine equilibrium hydrogen isotope fractionation between silicate melt and bridgmanite, ringwoodite, and wadsleyite under magma ocean conditions. Incorporating these fractionation factors into a magma ocean crystallization model shows that mineral-melt fractionation is intrinsically weak, producing an essentially homogeneous D/H distribution in the primitive mantle. Magma ocean crystallization therefore cannot generate the extremely low δD values observed in some ocean island basalts. Combined with exceptionally high 3 He/ 4 He ratios, these signatures more plausibly reflect selective transfer of primordial volatiles from Earth’s core, implying sustained volatile exchange across the core-mantle boundary.",
-          "url": "https://doi.org/10.1126/sciadv.aei4756",
-          "doi": "https://doi.org/10.1126/sciadv.aei4756",
-          "filter": "2",
-          "created": "2026-10-9"
-        },
-        {
           "title": "Targeting SUV39H2 exon skipping reverses resistance to CDK4/6 inhibitors via transcriptional activation of p21",
           "authors": "Shiyi Yu, Xue Gong, Yawen Yang, Ying Duan, Siyu Zhang, Ying Wang, Zheng Wang, Caili Bi, Haibo Sun",
           "abstract": "Cyclin-dependent kinase 4/6 inhibitors (CDK4/6i) are standard therapies for estrogen receptor–positive breast cancer, but their efficacy is limited by drug resistance. While dysregulation of alternative splicing has been implicated in cancer progression, the underlying mechanisms remain unclear. Here, we uncover a splicing-mediated mechanism whereby exon 2 inclusion in SUV39H2 drives its overexpression in CDK4/6i-resistant breast cancer cells. Clinically, elevated exon 2 inclusion in SUV39H2 correlates with poor prognosis in patients with breast cancer. Targeting SUV39H2 with gapmer antisense oligonucleotides or a methyltransferase inhibitor overcomes CDK4/6i resistance and reinstates therapy-induced senescence in breast cancer cells by reducing SUV39H2 expression or activity. Mechanistically, targeting SUV39H2 promotes transcriptional activation of senescence-associated secretory phenotype genes, including p21 , through H3K9me3 removal at enhancer regions and subsequent chromatin opening at promoters. Our work unveils a splicing-mediated resistance mechanism and presents a potential synergistic drug target for CDK4/6i therapy.",
           "url": "https://doi.org/10.1126/sciadv.aea2001",
           "doi": "https://doi.org/10.1126/sciadv.aea2001",
+          "filter": "2",
+          "created": "2026-10-9"
+        },
+        {
+          "title": "Hydrogen isotopes reveal water leakage from the core",
+          "authors": "Yu Zhang, Wenzhong Wang, Zhongqing Wu, Bowen Chen",
+          "abstract": "Chemical heterogeneities in Earth’s deep mantle may record either preserved primordial reservoirs or later core-mantle exchange, but distinguishing between these origins remains challenging. Hydrogen isotopes offer a sensitive tracer, yet whether magma ocean crystallization could generate a deuterium-depleted deep reservoir has not been quantitatively evaluated. Here, we use machine learning–accelerated path-integral simulations to determine equilibrium hydrogen isotope fractionation between silicate melt and bridgmanite, ringwoodite, and wadsleyite under magma ocean conditions. Incorporating these fractionation factors into a magma ocean crystallization model shows that mineral-melt fractionation is intrinsically weak, producing an essentially homogeneous D/H distribution in the primitive mantle. Magma ocean crystallization therefore cannot generate the extremely low δD values observed in some ocean island basalts. Combined with exceptionally high 3 He/ 4 He ratios, these signatures more plausibly reflect selective transfer of primordial volatiles from Earth’s core, implying sustained volatile exchange across the core-mantle boundary.",
+          "url": "https://doi.org/10.1126/sciadv.aei4756",
+          "doi": "https://doi.org/10.1126/sciadv.aei4756",
           "filter": "2",
           "created": "2026-10-9"
         },
@@ -2753,20 +2753,20 @@
           "created": "2026-10-7"
         },
         {
-          "title": "Multiscale insights into screw dislocation-driven growth mechanisms",
-          "authors": "Peiyu Qiao, Zhongshi Zhang, Bohui Xu, Pifu Gong, Xuanze Li, Yifan Wang, Lifeng Tian, Pei Liu, Jianyu Cao, Yuye Li, Qi Zhang, Chun Zhao, Xiangmin Meng",
-          "abstract": "Spiral growth in two-dimensional (2D) materials has conventionally been explained by single screw dislocation mechanisms, yet a complete multiscale understanding remains elusive due to the intricate nature of screw dislocation structures. Here, we present a stabilization approach through metallic transition metal dichalcogenides (m-TMDs) overlayers on spiral semiconducting TMDs (s-TMDs), which enables unprecedentedly robust atomic-resolution imaging of screw dislocations in cross-sectional van der Waals heterostructures. Our multiscale investigations identify nanoscale substrate undulations as critical nucleation sites for screw dislocations and uncover a multi-screw dislocation-driven (MSDD) growth paradigm, characterized by periodic stress stripes with linear densities approaching ∼10 6 cm −1 . Furthermore, we establish that dislocation interactions govern stacking sequence reconstruction, while the kinetic competition among multiple screw dislocations determines the ultimate spiral architectures. These insights fundamentally transform our understanding of defect-mediated growth in 2D materials.",
-          "url": "https://doi.org/10.1126/sciadv.aei7996",
-          "doi": "https://doi.org/10.1126/sciadv.aei7996",
-          "filter": "2",
-          "created": "2026-10-9"
-        },
-        {
           "title": "Wildfires diminish vegetation control on surface runoff",
           "authors": "Yuanyuan Peng, Kun Shi, Shun Bi, Qi Guan",
           "abstract": "Wildfires are increasingly reshaping global terrestrial ecosystems, yet their impacts on the fundamental coupling between vegetation and the hydrological cycle remain poorly understood. Here, we present a global-scale assessment of how wildfire disturbances alter the sensitivity of surface runoff to vegetation dynamics using multidecadal satellite observations and reanalysis datasets. We developed a spatially explicit framework to quantify pre- and postfire runoff-vegetation sensitivity across climatic gradients and fire regimes. We show a widespread and systematic weakening of vegetation control on runoff after wildfires, indicating a fundamental decoupling of hydrology-vegetation interactions. This attenuation is notably modulated by aridity and fire intensity, with the most pronounced sensitivity losses occurring in fragile drylands. These findings expose a critical blind spot in traditional hydrological models that overlook disturbance-driven vegetation shifts. Our study provides a mechanistic understanding of how compound climate-fire perturbations accelerate terrestrial water flux instability, suggesting that increasing fire frequency will exacerbate ecosystem vulnerability and threaten water security in a warming world.",
           "url": "https://doi.org/10.1126/sciadv.aei3713",
           "doi": "https://doi.org/10.1126/sciadv.aei3713",
+          "filter": "2",
+          "created": "2026-10-9"
+        },
+        {
+          "title": "Multiscale insights into screw dislocation-driven growth mechanisms",
+          "authors": "Peiyu Qiao, Zhongshi Zhang, Bohui Xu, Pifu Gong, Xuanze Li, Yifan Wang, Lifeng Tian, Pei Liu, Jianyu Cao, Yuye Li, Qi Zhang, Chun Zhao, Xiangmin Meng",
+          "abstract": "Spiral growth in two-dimensional (2D) materials has conventionally been explained by single screw dislocation mechanisms, yet a complete multiscale understanding remains elusive due to the intricate nature of screw dislocation structures. Here, we present a stabilization approach through metallic transition metal dichalcogenides (m-TMDs) overlayers on spiral semiconducting TMDs (s-TMDs), which enables unprecedentedly robust atomic-resolution imaging of screw dislocations in cross-sectional van der Waals heterostructures. Our multiscale investigations identify nanoscale substrate undulations as critical nucleation sites for screw dislocations and uncover a multi-screw dislocation-driven (MSDD) growth paradigm, characterized by periodic stress stripes with linear densities approaching ∼10 6 cm −1 . Furthermore, we establish that dislocation interactions govern stacking sequence reconstruction, while the kinetic competition among multiple screw dislocations determines the ultimate spiral architectures. These insights fundamentally transform our understanding of defect-mediated growth in 2D materials.",
+          "url": "https://doi.org/10.1126/sciadv.aei7996",
+          "doi": "https://doi.org/10.1126/sciadv.aei7996",
           "filter": "2",
           "created": "2026-10-9"
         },
