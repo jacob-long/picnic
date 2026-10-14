@@ -1,5 +1,5 @@
 {
-  "update": "2026-10-13",
+  "update": "2026-10-14",
   "content": [
     {
       "journal_full": "Journal of Official Statistics",
@@ -13,6 +13,15 @@
           "doi": "https://doi.org/10.1177/0282423x261487523",
           "filter": 0,
           "created": "2026-10-8"
+        },
+        {
+          "title": "Governing Large Language Model Services for Confidential Microdata: A Decision Framework for National Statistical Offices",
+          "authors": "Hanan Ather, Mohammed Haddou, Saeid Molladavoudi",
+          "abstract": "National statistical offices increasingly face requests to provide large language model (LLM) capabilities in secure research environments. The governance problem is to determine which service configurations, if any, can be supported safely on confidential microdata. These services challenge traditional statistical disclosure control because interaction is adaptive, systems may retrieve documents or call analytical tools, and outputs may appear plausible without being grounded in approved data. This paper proposes a governance framework that organizes each request as a sequence of decisions: whether an LLM is needed, which service mode is justified, which threat model applies, which controls are required, and what evidence must be reviewed before release. The framework spans deterministic pipelines, retrieval-augmented generation (RAG), tool-using agents, code-execution agents, linkage configurations, and fine-tuning.",
+          "url": "https://doi.org/10.1177/0282423x261489965",
+          "doi": "https://doi.org/10.1177/0282423x261489965",
+          "filter": 0,
+          "created": "2026-10-13"
         },
         {
           "title": "A Framework for Using Metadata to Combine Data Sets in Official Statistics",
