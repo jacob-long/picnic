@@ -1,19 +1,10 @@
 {
-  "update": "2026-10-15",
+  "update": "2026-10-16",
   "content": [
     {
       "journal_full": "Journal of Official Statistics",
       "journal_short": "JOS",
       "articles": [
-        {
-          "title": "Applying Machine Learning to Longitudinal Administrative Data: A Case Study in Education",
-          "authors": "Fabrizio De Fausti, Marco Di Zio, Romina Filippini, Simona Toti",
-          "abstract": "This paper presents the results of an extensive empirical evaluation study of several machine learning methods used to predict the attained level of education (ALE) in Italy based exclusively on longitudinal administrative data. The assessment compares model predictions with observed ALE values available in administrative sources, evaluating both distributional preservation and unit-level prediction accuracy. Our findings show that machine learning techniques can effectively exploit longitudinal administrative information to generate accurate and coherent ALE estimates, providing valuable support for the production of register-based statistics.",
-          "url": "https://doi.org/10.1177/0282423x261487523",
-          "doi": "https://doi.org/10.1177/0282423x261487523",
-          "filter": 0,
-          "created": "2026-10-8"
-        },
         {
           "title": "Governing Large Language Model Services for Confidential Microdata: A Decision Framework for National Statistical Offices",
           "authors": "Hanan Ather, Mohammed Haddou, Saeid Molladavoudi",
@@ -47,15 +38,6 @@
           "doi": "https://doi.org/10.1093/jssam/smag021",
           "filter": 0,
           "created": "2026-5-12"
-        },
-        {
-          "title": "Spatially Balanced Sampling in Real Time",
-          "authors": "Wilmer Prentius, Fabio Carrer, Anton Grafström, Juha Heikkinen",
-          "abstract": "Probability sampling in real time or streaming scenarios presents unique challenges, especially when the population size and the spatial locations of units are unknown a priori. Standard methods like Poisson sampling can be applied but often result in spatially clustered samples that are not representative of the population, leading to inefficient estimation. We introduce a novel adaptation of spatially correlated Poisson sampling (SCPS) designed specifically for real-time applications. The proposed algorithm sequentially decides on the inclusion of newly encountered units by dynamically estimating the required spatial neighborhood for weight distribution, using only information from previously observed units and a running estimate of the total population size. Through Monte Carlo simulations on both uniform and clustered populations, we demonstrate that the method greatly improves spatial balance compared to conventional Poisson sampling. Furthermore, it substantially reduces the variability of the achieved sample size, offering more predictable survey costs and effort. This approach provides a practical and efficient tool for obtaining spatially balanced samples from populations where a complete sampling frame is unavailable in advance.",
-          "url": "https://doi.org/10.1093/jssam/smag039",
-          "doi": "https://doi.org/10.1093/jssam/smag039",
-          "filter": 0,
-          "created": "2026-8-22"
         }
       ],
       "articles_hidden": []
