@@ -1,10 +1,19 @@
 {
-  "update": "2026-10-16",
+  "update": "2026-10-18",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
       "journal_short": "AMPPS",
       "articles": [
+        {
+          "title": "Restructuring Scientific Papers for Human and AI Readers",
+          "authors": "Zhicheng Lin",
+          "abstract": "Scientific communication faces a dual crisis: Exponential publication growth—now accelerated by writing assisted by artificial intelligence (AI)—overwhelms human readers and reviewers, while fragmented evidence impedes automated synthesis. This fragmentation is especially acute in the behavioral and social sciences, where poorly standardized stimulus sets and jingle-jangle measurement fallacies (identical labels for distinct constructs; different labels for the same construct) hinder comparison, while underreported context conceals effect heterogeneity. Current AI tools can summarize papers but cannot reliably synthesize findings across incommensurable studies; they also risk perpetuating biases when trained on unstructured, unverified text. I propose restructuring scientific papers for two audiences: front-loaded narratives for time-pressed human readers, paired with research-object packages containing executable environments, semantic annotations, and tidy trial-level data. This design makes papers queryable: Readers can interrogate data and probe analytic choices, while the packages ground automated verification and AI-assisted manuscript evaluation—before submission or during peer review—in inspectable data and executable analyses rather than narrative claims alone. Such papers could become nodes in continuously updated evidence networks, automatically contributing effect sizes to living, versioned meta-analyses and allowing corrections and retractions to propagate through dependent syntheses. Widespread adoption will require institutions to credit research-object packages as scholarly contributions and invest in the open standards, infrastructure, training, and governance needed for their creation and long-term stewardship.",
+          "url": "https://doi.org/10.1177/25152459261480685",
+          "doi": "https://doi.org/10.1177/25152459261480685",
+          "filter": 0,
+          "created": "2026-10-16"
+        },
         {
           "title": "Registered Replication Report: Johns et al. (2005)",
           "authors": "Andrea H. Stoevenbelt, Paulette C. Flore, Matus Adamkovic, Gabriel Banik, Rachel Bergers, Robert J. Calin-Jageman, Luis. A. Gomez, Joachim Hüffmeier, Megan N. Imundo, Scott D. Martin, Steven C. Pan, Lorraine A. T. Phillips, Jakob Pietschnig, Tilli Ripp, Jan Phillip Roër, Ivan Ropovik, Joyce Elena Schleu, Ann-Kathrin Torka, Bruno Verschuere, Martin Voracek, Luca Weiss, Jelte M. Wicherts",
@@ -31,21 +40,12 @@
           "created": "2026-10-15"
         },
         {
-          "title": "C-VLT: A reliable Chinese Vocabulary Levels Test for primary and secondary school learners",
-          "authors": "Biao Zeng, Youxiang Jiang, Hongbo Wen",
-          "url": "https://doi.org/10.3758/s13428-026-03166-y",
-          "doi": "https://doi.org/10.3758/s13428-026-03166-y",
+          "title": "Identifying hidden cognate effects in L2 lexical retrieval tasks: A tutorial for stimulus design",
+          "authors": "Kelly Kendro, Alexander J. Holmberg",
+          "url": "https://doi.org/10.3758/s13428-026-03210-x",
+          "doi": "https://doi.org/10.3758/s13428-026-03210-x",
           "filter": 0,
-          "created": "2026-10-9"
-        },
-        {
-          "title": "Understanding when mixture models effectively identify careless responding: Simulation and validity evidence",
-          "authors": "Irina Uglanova, Gabriel Nagy, Esther Ulitzsch",
-          "abstract": "Careless and insufficient effort responding (C/IER) in self-report questionnaires refers to responses provided without adequate attention to item content. Latent variable mixture models have recently been proposed as a promising approach for detecting and accounting for C/IER. This study systematically evaluates the performance of mixture modeling for C/IER detection. Using an exemplar mixture model that captures core features of existing approaches, we (a) investigated, via simulations, conditions that facilitate or impede separation between response patterns indicative of attentive versus careless responding and (b) examined the validity of interpreting the latent class variable as an indicator of C/IER in an empirical application. The simulation study assessed how questionnaire and item characteristics affect latent-class identification under different C/IER response patterns. Results indicate that reliable separation is achieved when scales comprise at least ten items, exhibit substantial threshold heterogeneity, and include both positively and negatively worded items. Empirical support for the C/IER interpretation of the latent class variable was obtained by reanalyzing a publicly available Big Five inventory data set collected across multiple platforms. Model-based classifications closely corresponded to alternative C/IER indicators that do not rely on response patterns, exhibited consistency across multiple scales, and were sensitive to platform-specific differences in C/IER prevalence. Overall, the results support mixture modeling as a viable approach for addressing C/IER under many conditions commonly encountered in applied research.",
-          "url": "https://doi.org/10.3758/s13428-026-03165-z",
-          "doi": "https://doi.org/10.3758/s13428-026-03165-z",
-          "filter": 0,
-          "created": "2026-10-9"
+          "created": "2026-10-16"
         },
         {
           "title": "Divine verification: Introducing a CAPTCHA-based religious priming technique",
@@ -54,6 +54,14 @@
           "doi": "https://doi.org/10.3758/s13428-026-03147-1",
           "filter": 0,
           "created": "2026-10-14"
+        },
+        {
+          "title": "A topic-based framework for interpretable and sparse semantic representations",
+          "authors": "Ming Song, Qing Cai",
+          "url": "https://doi.org/10.3758/s13428-026-03187-7",
+          "doi": "https://doi.org/10.3758/s13428-026-03187-7",
+          "filter": 0,
+          "created": "2026-10-17"
         },
         {
           "title": "Engagement begins at recruitment: Comparing videoconference verification to passive online screening for participant retention and study engagement",
@@ -100,14 +108,6 @@
           "created": "2026-10-14"
         },
         {
-          "title": "Meaningless, but not emotionless: Evidence from a megastudy of pseudoword lexical decisions",
-          "authors": "Celia Martínez-Tomás, Marc Guasch, Miguel Lázaro, Ana Baciero, Pilar Ferré, José Antonio Hinojosa",
-          "url": "https://doi.org/10.3758/s13428-026-03186-8",
-          "doi": "https://doi.org/10.3758/s13428-026-03186-8",
-          "filter": 0,
-          "created": "2026-10-9"
-        },
-        {
           "title": "Accounting for response styles in rating data using IRT and IRTree models: A tutorial in R with applications to self-reported metacognitive competence",
           "authors": "Thorsten Meiser, Esther Ulitzsch, Mirka Henninger",
           "abstract": "Response styles refer to individual differences in the use of the item response format irrespective of item content. They include tendencies to favor or avoid midpoint or extreme response categories, which can distort the measurement of latent constructs. This tutorial provides an overview of IRT and IRTree models that accommodate response style factors, allowing researchers to analyze response-style effects and adjust latent-trait estimates for potential bias. In particular, we give a practical guide to using IRT and IRTree models for response styles and illustrate the workflow of model implementation, estimation, and interpretation with an empirical data set on self-reported metacognitive competence (Double, 2025). Throughout the tutorial, IRT and IRTree models are specified with standard tools, and parameter estimation is accomplished in the common framework of multidimensional IRT with the package (Chalmers, 2012; Chalmers et al., 2025). The empirical results demonstrate that IRT and IRTree models can disentangle substantive traits and response styles, and that model-based estimates of substantive traits are adjusted accordingly. More specifically, both model classes reveal pronounced correlations among latent trait dimensions and among response style factors, but only small correlations between traits and response styles. In addition, the model-based trait estimates show the expected patterns of amplification and shrinkage after adjusting for midscale and extreme response style. The tutorial concludes with a discussion of recent developments in psychometric modeling.",
@@ -132,23 +132,15 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "Informing users about LLMs' environmental costs encourages ethical consumption",
-          "authors": "Hagai Rabinovitch, Isabel Kashi, Shaul Shalvi",
-          "url": "https://doi.org/10.1016/j.chb.2026.109214",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109214",
+          "title": "Tracking Fitness, Comparing Bodies: Social Comparison and Exercise Activity Among College Students",
+          "authors": "Christina N. Selby, Kyle J. Holody, Elizabeth L. Carter",
+          "url": "https://doi.org/10.1016/j.chb.2026.109216",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109216",
           "filter": 0,
-          "created": "2026-10-9"
+          "created": "2026-10-16"
         },
         {
-          "title": "Online dating paradox: Why lonely hearts choose to ghost",
-          "authors": "Yukun Yin, Jian Zhou, Kun Peng",
-          "url": "https://doi.org/10.1016/j.chb.2026.109213",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109213",
-          "filter": 0,
-          "created": "2026-10-9"
-        },
-        {
-          "title": "Does AI Encourage Lax Thinking, or Does the Human Preference for Validation Make It That Way?",
+          "title": "Does AI encourage lax thinking, or does the human preference for validation make it that way?",
           "authors": "Braden T. Hall, William Hart",
           "url": "https://doi.org/10.1016/j.chb.2026.109222",
           "doi": "https://doi.org/10.1016/j.chb.2026.109222",
@@ -172,44 +164,12 @@
           "created": "2026-10-13"
         },
         {
-          "title": "Decoding Deception: An Integrated Cognitive Model of User Response to Online Bank Fraud Attempts",
-          "authors": "Solveig Bourgeon, Ed Fitzhugh, Jurjen Jansen, Rick Wash",
-          "url": "https://doi.org/10.1016/j.chb.2026.109211",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109211",
-          "filter": 0,
-          "created": "2026-10-10"
-        },
-        {
           "title": "Why this AI app? The impact of generative artificial intelligence on educators’ choices in educational apps",
           "authors": "Emma Liptrot, Adam Kenneth Dubé",
           "url": "https://doi.org/10.1016/j.chb.2026.109219",
           "doi": "https://doi.org/10.1016/j.chb.2026.109219",
           "filter": 0,
           "created": "2026-10-14"
-        },
-        {
-          "title": "Virtual reality as a catalyst for change: Promoting communication intention, policy support and interaction with migrant workers in Singapore",
-          "authors": "Benjamin Li, Nuri Kim, Heng Zhang",
-          "url": "https://doi.org/10.1016/j.chb.2026.109210",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109210",
-          "filter": 0,
-          "created": "2026-10-9"
-        },
-        {
-          "title": "Beyond financial literacy: The role of trust and neuropsychiatric symptoms in fraud vulnerability in dementia",
-          "authors": "Veronica Cherubini, Chiara Romanelli, Chiara Fiori, Sara Baldinelli, Mauro Silvestrini, Simona Luzzi",
-          "url": "https://doi.org/10.1016/j.chb.2026.109212",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109212",
-          "filter": 0,
-          "created": "2026-10-9"
-        },
-        {
-          "title": "From overloaded to unsatisfied: The short- and long-term effects of online career media exposure",
-          "authors": "Nao Fukubayashi, Kei Fuji",
-          "url": "https://doi.org/10.1016/j.chb.2026.109207",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109207",
-          "filter": 0,
-          "created": "2026-10-9"
         }
       ],
       "articles_hidden": []
@@ -219,20 +179,35 @@
       "journal_short": "JESP",
       "articles": [
         {
-          "title": "Bimodal emotion decoding: When faces and voices diverge",
-          "authors": "Hweemin Tan, Kerry Kawakami, Jinpeng Fu, Shuoan Li, Zhihe Pan, Xia Fang",
-          "url": "https://doi.org/10.1016/j.jesp.2026.105015",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.105015",
-          "filter": 0,
-          "created": "2026-10-9"
-        },
-        {
           "title": "A preference for sameness and associated positive emotions in interindividual discrimination, even when based on chance",
           "authors": "Xizhuo Zou, Fiona Kumfor, Evan Livesey, Leonie Schuppers, Eliane Deschrijver",
           "url": "https://doi.org/10.1016/j.jesp.2026.105017",
           "doi": "https://doi.org/10.1016/j.jesp.2026.105017",
           "filter": 0,
           "created": "2026-10-14"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Multivariate Behavioral Research",
+      "journal_short": "MBR",
+      "articles": [
+        {
+          "title": "Testing Group Differences in Nonlinear Growth Curve Modeling with Penalized Spline",
+          "authors": "Han Du, Yang Liu, Zhiyong Zhang",
+          "url": "https://doi.org/10.1080/00273171.2026.2728649",
+          "doi": "https://doi.org/10.1080/00273171.2026.2728649",
+          "filter": 0,
+          "created": "2026-10-16"
+        },
+        {
+          "title": "Homogeneity-Pursuit Calibration of Item Response Theory Models with Limited Samples and Sparse Response Data",
+          "authors": "Shiyu Wang, Cong Cheng, Yuan Ke, Zichu Liu",
+          "url": "https://doi.org/10.1080/00273171.2026.2737426",
+          "doi": "https://doi.org/10.1080/00273171.2026.2737426",
+          "filter": 0,
+          "created": "2026-10-16"
         }
       ],
       "articles_hidden": []
