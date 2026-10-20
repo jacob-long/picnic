@@ -1,5 +1,5 @@
 {
-  "update": "2026-10-19",
+  "update": "2026-10-20",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -48,12 +48,22 @@
           "created": "2026-10-16"
         },
         {
-          "title": "Divine verification: Introducing a CAPTCHA-based religious priming technique",
-          "authors": "Fırat Şeker, Ensar Acem, Rozelin Vurgun, Burak Dogruyol, Ozan Isler, Onurcan Yilmaz",
-          "url": "https://doi.org/10.3758/s13428-026-03147-1",
-          "doi": "https://doi.org/10.3758/s13428-026-03147-1",
+          "title": "Introducing GABLE: Lightweight infrastructure for longitudinal experiments using Google Apps Script",
+          "authors": "Ibrahim Berber, Ilke Kas, Tarun Sepuri, Brooke N. Macnamara, M. Cenk Çavuşoğlu, Amy L. Wilson-Delfosse, Elizabeth A. Krupinski, Philip J. Smith, Soumya Ray",
+          "abstract": "Longitudinal studies are essential for understanding how behaviors, skills, and psychological states evolve over time. While online platforms have made study development easier, researchers still face major logistical challenges when managing multi-session studies, especially when coordinating large numbers of participants, session timing, reminders, and compensation. In this paper, we introduce GABLE ( G oogle A pps script- B ased L ongitudinal E xperimentation), a lightweight infrastructure built using Google Apps Script. GABLE automates participant scheduling, e-mail communication, session tracking, and compensation. We demonstrate its effectiveness through two real-world psychological studies involving more than 850 participants with 20 sessions, and discuss its benefits, limitations, and potential extensions. GABLE addresses many challenges of running large online longitudinal studies while limiting the need for custom infrastructure or manual intervention.",
+          "url": "https://doi.org/10.3758/s13428-026-03205-8",
+          "doi": "https://doi.org/10.3758/s13428-026-03205-8",
           "filter": 0,
-          "created": "2026-10-14"
+          "created": "2026-10-19"
+        },
+        {
+          "title": "A tutorial on selecting, translating, and reporting variance priors in Bayesian multilevel models",
+          "authors": "Liu Liu",
+          "abstract": "Bayesian multilevel models are increasingly used in psychological, educational, and behavioral research, yet applied guidance on specifying priors for scalar variance components remains limited. This tutorial provides a practical workflow for identifying target variance components, selecting benchmark values, calibrating priors on variance and standard-deviation scales, translating them into software-compatible prior specifications, evaluating their implications through prior predictive checks, posterior comparison, sensitivity analysis, and transparent reporting. We review several commonly used prior families, including gamma, inverse-gamma, half- t , and half-Cauchy distributions, and clarify how their parameterizations relate across variance, precision (the reciprocal of variance), and standard-deviation formulations. The tutorial focuses on helping researchers align prior choice with substantive knowledge, model parameterization, software constraints, and sensitivity goals. As a worked example, we use a two-level analysis of TIMSS 2019 data to show how benchmark information from a non-overlapping reference sample can be calibrated into alternative variance-prior specifications and then evaluated in a smaller worked example sample. The empirical illustration is used as a pedagogical example to demonstrate the workflow and its associated checking procedures. We emphasize practical safeguards, including prior-density inspection, prior predictive checking, posterior comparison, convergence assessment, sensitivity analysis, and transparent reporting of prior assumptions. The tutorial concludes by summarizing practical, literature-grounded considerations for documenting prior rationale, implementation decisions, and robustness checks in Bayesian multilevel applications.",
+          "url": "https://doi.org/10.3758/s13428-026-03201-y",
+          "doi": "https://doi.org/10.3758/s13428-026-03201-y",
+          "filter": 0,
+          "created": "2026-10-19"
         },
         {
           "title": "A topic-based framework for interpretable and sparse semantic representations",
@@ -62,6 +72,23 @@
           "doi": "https://doi.org/10.3758/s13428-026-03187-7",
           "filter": 0,
           "created": "2026-10-17"
+        },
+        {
+          "title": "Divine verification: Introducing a CAPTCHA-based religious priming technique",
+          "authors": "Fırat Şeker, Ensar Acem, Rozelin Vurgun, Burak Dogruyol, Ozan Isler, Onurcan Yilmaz",
+          "url": "https://doi.org/10.3758/s13428-026-03147-1",
+          "doi": "https://doi.org/10.3758/s13428-026-03147-1",
+          "filter": 0,
+          "created": "2026-10-14"
+        },
+        {
+          "title": "Combined eye tracking and electroencephalography during referential selection in dyadic interaction",
+          "authors": "Ingmar Brilmayer, Philip Georgis, Petra B. Schumacher",
+          "abstract": "Understanding language in real-world interaction requires methods that integrate auditory, visual, and neural signals. We present a proof-of-concept study combining mobile electroencephalography (EEG) and eye tracking to investigate referential selection during dyadic communication. Using a simplified version of the director task, pairs of participants engaged in naturalistic object-movement instructions while EEG and gaze data were recorded and synchronized via LabStreamingLayer, allowing us to calculate overlap-corrected, regression-based event-related potentials (rERPs) time-locked to spoken nouns and to participants’ fixations, focusing on the N400/P300 (300–500 ms) and later (500–800 ms) time windows. Our results show that gaze behavior and fixation-related potentials provide crucial information for interpreting language-related ERPs: Targets competing with occluded referents elicited a stronger posterior positivity consistent with greater attentional demands. Fixation timing systematically modulated neural responses. Contrary to predictions, competitors received little visual attention, indicating that participants prioritized task-relevant information. These findings highlight the potential of multimodal data integration for understanding attentional and predictive mechanisms in real-world communication. Importantly, we show that established analytic techniques, such as artifact subspace reconstruction, independent component analysis, and linear deconvolution for ERP calculation, apply to noisy, naturalistic datasets. In addition, we provide a subsampling sensitivity approach to test the stability of the effects across different sample sizes. This study provides a methodological framework linking gaze and neural activity during interactive language processing. All preprocessing and analysis scripts, along with example datasets, are openly available on OSF ( https://osf.io/5ds4z ; a modified and optimized Python implementation is also available on GitHub: https://github.com/XlinCLab/DGAME ).",
+          "url": "https://doi.org/10.3758/s13428-026-03172-0",
+          "doi": "https://doi.org/10.3758/s13428-026-03172-0",
+          "filter": 0,
+          "created": "2026-10-19"
         },
         {
           "title": "Engagement begins at recruitment: Comparing videoconference verification to passive online screening for participant retention and study engagement",
@@ -99,6 +126,14 @@
           "created": "2026-10-15"
         },
         {
+          "title": "Human-in-the-loop LLM-assisted thematic analysis: A validated, reproducible tutorial for large-scale qualitative research",
+          "authors": "Mandana Jafarian",
+          "url": "https://doi.org/10.3758/s13428-026-03207-6",
+          "doi": "https://doi.org/10.3758/s13428-026-03207-6",
+          "filter": 0,
+          "created": "2026-10-19"
+        },
+        {
           "title": "An introduction to the methodological corpus of systematic observation and its quality assessment",
           "authors": "Daniel López-Arenas, Susana Sanduvete-Chaves, Salvador Chacón-Moscoso",
           "abstract": "Observational methodology (OM) has evolved into a rigorous and flexible mixed-methods framework for studying spontaneous behavior in natural settings. By systematically recording behavioral streams and converting qualitative data into quantitative parameters, OM provides ecologically valid evidence often unattainable in experimental designs. This article presents a comprehensive methodological framework that synthesizes the conceptual, methodological, and analytical foundations of OM, along with recent advances in quality assessment. It traces OM’s evolution from qualitative traditions to a mature scientific methodology grounded in technological innovations and robust analytical procedures. A central element is the taxonomy of observational designs, which guides decisions on instrument development, sampling, and data analysis. This paper examines the structure of observational instruments, highlighting the complementary roles of structured category systems and flexible field formats, as well as the growing use of hybrid instruments that combine theoretical rigor with practical flexibility. Key components of the QUAL-QUANT-QUAL sequence are described, including behavioral segmentation, qualitative data typologies, and their transformation into quantitative parameters such as frequency, order, and duration. Analytical techniques used in OM include classical statistics and three field-specific procedures: lag sequential analysis, polar coordinate analysis, and T-pattern detection, which together enable precise identification of recurrent behavioral patterns. The article also addresses quality assessment, reviewing key frameworks that promote transparency, standardization, and evidence synthesis across behavioral science domains. Overall, this work offers an updated reference for designing, implementing, evaluating, and synthesizing studies based on OM.",
@@ -132,7 +167,15 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "Tracking Fitness, Comparing Bodies: Social Comparison and Exercise Activity Among College Students",
+          "title": "When Interface Style Meets Personality: Big Five Differences in Self-Extension and Emotional Attachment in Online Shopping Platforms",
+          "authors": "HeSen Li, Hong Chen, WeiCheng Pan, WanQing Zhang, WenXing Lou, Qi Guo, BoHyeon Yoo",
+          "url": "https://doi.org/10.1016/j.chb.2026.109220",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109220",
+          "filter": 0,
+          "created": "2026-10-19"
+        },
+        {
+          "title": "Tracking fitness, comparing bodies: Social comparison and exercise activity among college students",
           "authors": "Christina N. Selby, Kyle J. Holody, Elizabeth L. Carter",
           "url": "https://doi.org/10.1016/j.chb.2026.109216",
           "doi": "https://doi.org/10.1016/j.chb.2026.109216",
@@ -193,6 +236,14 @@
           "doi": "https://doi.org/10.1016/j.jesp.2026.105017",
           "filter": 0,
           "created": "2026-10-14"
+        },
+        {
+          "title": "Evidence for ideological confirmation, or how to politicize color intensity perceptions",
+          "authors": "William P. Hart, Danielle E. Wahlers, Braden T. Hall",
+          "url": "https://doi.org/10.1016/j.jesp.2026.105016",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.105016",
+          "filter": 0,
+          "created": "2026-10-19"
         }
       ],
       "articles_hidden": []
@@ -201,6 +252,14 @@
       "journal_full": "Multivariate Behavioral Research",
       "journal_short": "MBR",
       "articles": [
+        {
+          "title": "Idiographic Item Response Theory: Modeling Person-Specific Differential Item Functioning in Intensive Longitudinal Data",
+          "authors": "Joshua B. Gilbert, Edward J. Kim, Zachary Himmelsbach, Esther Ulitzsch, Lijin Zhang",
+          "url": "https://doi.org/10.1080/00273171.2026.2740068",
+          "doi": "https://doi.org/10.1080/00273171.2026.2740068",
+          "filter": 0,
+          "created": "2026-10-19"
+        },
         {
           "title": "Testing Group Differences in Nonlinear Growth Curve Modeling with Penalized Spline",
           "authors": "Han Du, Yang Liu, Zhiyong Zhang",
@@ -216,14 +275,6 @@
           "doi": "https://doi.org/10.1080/00273171.2026.2737426",
           "filter": 0,
           "created": "2026-10-16"
-        },
-        {
-          "title": "Idiographic Item Response Theory: Modeling Person-Specific Differential Item Functioning in Intensive Longitudinal Data",
-          "authors": "Joshua B. Gilbert, Edward J. Kim, Zachary Himmelsbach, Esther Ulitzsch, Lijin Zhang",
-          "url": "https://doi.org/10.1080/00273171.2026.2740068",
-          "doi": "https://doi.org/10.1080/00273171.2026.2740068",
-          "filter": 0,
-          "created": "2026-10-19"
         }
       ],
       "articles_hidden": []
@@ -271,6 +322,22 @@
           "doi": "https://doi.org/10.1037/met0000878",
           "filter": 0,
           "created": "2026-10-15"
+        },
+        {
+          "title": "The semipartial correlation needs no correction. Comment on Park and Yi (2025).",
+          "authors": "Peter de Heus",
+          "url": "https://doi.org/10.1037/met0000833",
+          "doi": "https://doi.org/10.1037/met0000833",
+          "filter": 0,
+          "created": "2026-10-19"
+        },
+        {
+          "title": "Working with circular data: A tutorial for cognitive and behavioral research.",
+          "authors": "Stella Wernicke, Julie de Falco, Zahara Gironés, Chris Jungerius, Ivan Tomić, Adam Triabhall, Xiaolu Wang, Paul M. Bays",
+          "url": "https://doi.org/10.1037/met0000861",
+          "doi": "https://doi.org/10.1037/met0000861",
+          "filter": 0,
+          "created": "2026-10-19"
         }
       ],
       "articles_hidden": []
