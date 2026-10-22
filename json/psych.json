@@ -1,5 +1,5 @@
 {
-  "update": "2026-10-21",
+  "update": "2026-10-22",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -83,14 +83,6 @@
           "created": "2026-10-17"
         },
         {
-          "title": "Divine verification: Introducing a CAPTCHA-based religious priming technique",
-          "authors": "Fırat Şeker, Ensar Acem, Rozelin Vurgun, Burak Dogruyol, Ozan Isler, Onurcan Yilmaz",
-          "url": "https://doi.org/10.3758/s13428-026-03147-1",
-          "doi": "https://doi.org/10.3758/s13428-026-03147-1",
-          "filter": 0,
-          "created": "2026-10-14"
-        },
-        {
           "title": "Combined eye tracking and electroencephalography during referential selection in dyadic interaction",
           "authors": "Ingmar Brilmayer, Philip Georgis, Petra B. Schumacher",
           "abstract": "Understanding language in real-world interaction requires methods that integrate auditory, visual, and neural signals. We present a proof-of-concept study combining mobile electroencephalography (EEG) and eye tracking to investigate referential selection during dyadic communication. Using a simplified version of the director task, pairs of participants engaged in naturalistic object-movement instructions while EEG and gaze data were recorded and synchronized via LabStreamingLayer, allowing us to calculate overlap-corrected, regression-based event-related potentials (rERPs) time-locked to spoken nouns and to participants’ fixations, focusing on the N400/P300 (300–500 ms) and later (500–800 ms) time windows. Our results show that gaze behavior and fixation-related potentials provide crucial information for interpreting language-related ERPs: Targets competing with occluded referents elicited a stronger posterior positivity consistent with greater attentional demands. Fixation timing systematically modulated neural responses. Contrary to predictions, competitors received little visual attention, indicating that participants prioritized task-relevant information. These findings highlight the potential of multimodal data integration for understanding attentional and predictive mechanisms in real-world communication. Importantly, we show that established analytic techniques, such as artifact subspace reconstruction, independent component analysis, and linear deconvolution for ERP calculation, apply to noisy, naturalistic datasets. In addition, we provide a subsampling sensitivity approach to test the stability of the effects across different sample sizes. This study provides a methodological framework linking gaze and neural activity during interactive language processing. All preprocessing and analysis scripts, along with example datasets, are openly available on OSF ( https://osf.io/5ds4z ; a modified and optimized Python implementation is also available on GitHub: https://github.com/XlinCLab/DGAME ).",
@@ -143,13 +135,13 @@
           "created": "2026-10-19"
         },
         {
-          "title": "An introduction to the methodological corpus of systematic observation and its quality assessment",
-          "authors": "Daniel López-Arenas, Susana Sanduvete-Chaves, Salvador Chacón-Moscoso",
-          "abstract": "Observational methodology (OM) has evolved into a rigorous and flexible mixed-methods framework for studying spontaneous behavior in natural settings. By systematically recording behavioral streams and converting qualitative data into quantitative parameters, OM provides ecologically valid evidence often unattainable in experimental designs. This article presents a comprehensive methodological framework that synthesizes the conceptual, methodological, and analytical foundations of OM, along with recent advances in quality assessment. It traces OM’s evolution from qualitative traditions to a mature scientific methodology grounded in technological innovations and robust analytical procedures. A central element is the taxonomy of observational designs, which guides decisions on instrument development, sampling, and data analysis. This paper examines the structure of observational instruments, highlighting the complementary roles of structured category systems and flexible field formats, as well as the growing use of hybrid instruments that combine theoretical rigor with practical flexibility. Key components of the QUAL-QUANT-QUAL sequence are described, including behavioral segmentation, qualitative data typologies, and their transformation into quantitative parameters such as frequency, order, and duration. Analytical techniques used in OM include classical statistics and three field-specific procedures: lag sequential analysis, polar coordinate analysis, and T-pattern detection, which together enable precise identification of recurrent behavioral patterns. The article also addresses quality assessment, reviewing key frameworks that promote transparency, standardization, and evidence synthesis across behavioral science domains. Overall, this work offers an updated reference for designing, implementing, evaluating, and synthesizing studies based on OM.",
-          "url": "https://doi.org/10.3758/s13428-026-03189-5",
-          "doi": "https://doi.org/10.3758/s13428-026-03189-5",
+          "title": "Evaluating methods for testing publication bias in meta-analyses with confounding covariates: A simulation study",
+          "authors": "Man Chen",
+          "abstract": "Selective publication of favorable results can bias meta-analytic estimates and threaten the validity of meta-analyses. Many methods that detect and adjust for publication bias perform poorly under substantial between-study heterogeneity. Heterogeneity complicates publication bias assessment because study characteristics may be associated with both effect size estimates and standard errors. These characteristics can induce an effect-precision association that regression-based diagnostics may misattribute to selective publication when such characteristics are omitted. However, it remains unclear how best to incorporate these confounding characteristics across methods and how their performance varies with confounding level, selective publication, residual heterogeneity, and the number of studies. To address this gap, I conduct an extensive Monte Carlo simulation evaluating Egger-type regression tests, residual-based tests, and a likelihood-ratio test of the three-parameter selection model (3PSM) under the one-step p  value selection mechanism. Results show that when confounding covariates were ignored, Egger-type regression tests and residual analyses exhibited inflated Type I error rates, whereas the 3PSM likelihood-ratio test maintained near-nominal, albeit slightly inflated, Type I error rates across conditions. When confounding covariates were incorporated, Egger-type tests had well-calibrated Type I error rates, residual analyses based on residualizing effect sizes alone tended to be conservative, and the 3PSM test showed slight inflation. Nevertheless, 3PSM consistently yielded higher power than other methods. Overall, the findings suggest that Egger-type regression tests and 3PSM can be used as complementary analyses for assessing selective publication when confounding covariates are present.",
+          "url": "https://doi.org/10.3758/s13428-026-03206-7",
+          "doi": "https://doi.org/10.3758/s13428-026-03206-7",
           "filter": 0,
-          "created": "2026-10-14"
+          "created": "2026-10-21"
         },
         {
           "title": "Accounting for response styles in rating data using IRT and IRTree models: A tutorial in R with applications to self-reported metacognitive competence",
@@ -159,6 +151,15 @@
           "doi": "https://doi.org/10.3758/s13428-026-03181-z",
           "filter": 0,
           "created": "2026-10-15"
+        },
+        {
+          "title": "Webcams can be used to study eye movements during reading",
+          "authors": "Marina Serrano-Carot, Bernhard Angele, Hemu Xu, Martin R. Vasilev",
+          "abstract": "Eye movements have revealed a wealth of information about how readers process written language. Modern eye trackers can record eye movements in the lab with high accuracy. However, such equipment is expensive, and participant testing is labour-intensive. Kaduk et al. (Behav Res Methods 56(5):5002–5022, 2023) recently reported that webcam eye tracking may be a viable alternative, showing that webcams achieved correlations with laboratory eye trackers of ~0.83 during a free-viewing task. We conducted three experiments to test whether webcams can be used to study eye movements during reading. Participants read short sentences with a target word frequency manipulation while their eye movements were recorded with both an EyeLink system and a webcam in the laboratory (co-registration, Experiments 1 and 2) or online with their own webcam (online study, Experiment 3). In the lab, the webcam-based system recorded raw gaze positions that were highly correlated with the EyeLink (median r = 0.805), replicating Kaduk et al.’s results. We also found evidence for word frequency effects in the webcam data, but there was more noise than in the EyeLink data. In the online study, data quality was much poorer, but we still found reliable effects that were consistent with those observed in the laboratory. In summary, webcam-based eye tracking may be viable for studying reading, especially under laboratory conditions. However, obtaining useful data may require collecting many more observations when using webcams than with high-accuracy eye trackers.",
+          "url": "https://doi.org/10.3758/s13428-026-03199-3",
+          "doi": "https://doi.org/10.3758/s13428-026-03199-3",
+          "filter": 0,
+          "created": "2026-10-21"
         },
         {
           "title": "Decisions under uncertainty: A statistical framework for evaluating practical relevance in interval-based hypothesis testing",
@@ -200,20 +201,12 @@
           "created": "2026-10-15"
         },
         {
-          "title": "Prevalence and Correlates of GenerativeAI Chatbot Use for Mental Health Concerns in Higher Education Students",
+          "title": "Prevalence and correlates of GenerativeAI chatbot use for mental health concerns in higher education students",
           "authors": "Elyse J. Thulin",
           "url": "https://doi.org/10.1016/j.chb.2026.109221",
           "doi": "https://doi.org/10.1016/j.chb.2026.109221",
           "filter": 0,
           "created": "2026-10-18"
-        },
-        {
-          "title": "Why this AI app? The impact of generative artificial intelligence on educators’ choices in educational apps",
-          "authors": "Emma Liptrot, Adam Kenneth Dubé",
-          "url": "https://doi.org/10.1016/j.chb.2026.109219",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109219",
-          "filter": 0,
-          "created": "2026-10-14"
         }
       ],
       "articles_hidden": []
@@ -239,14 +232,6 @@
           "created": "2026-10-20"
         },
         {
-          "title": "A preference for sameness and associated positive emotions in interindividual discrimination, even when based on chance",
-          "authors": "Xizhuo Zou, Fiona Kumfor, Evan Livesey, Leonie Schuppers, Eliane Deschrijver",
-          "url": "https://doi.org/10.1016/j.jesp.2026.105017",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.105017",
-          "filter": 0,
-          "created": "2026-10-14"
-        },
-        {
           "title": "Evidence for ideological confirmation, or how to politicize color intensity perceptions",
           "authors": "William P. Hart, Danielle E. Wahlers, Braden T. Hall",
           "url": "https://doi.org/10.1016/j.jesp.2026.105016",
@@ -262,6 +247,14 @@
       "journal_short": "MBR",
       "articles": [
         {
+          "title": "Mode-Matched Inverse-Gamma Priors for Variance Components in Bayesian Multilevel Models",
+          "authors": "Liu Liu",
+          "url": "https://doi.org/10.1080/00273171.2026.2740827",
+          "doi": "https://doi.org/10.1080/00273171.2026.2740827",
+          "filter": 0,
+          "created": "2026-10-21"
+        },
+        {
           "title": "Idiographic Item Response Theory: Modeling Person-Specific Differential Item Functioning in Intensive Longitudinal Data",
           "authors": "Joshua B. Gilbert, Edward J. Kim, Zachary Himmelsbach, Esther Ulitzsch, Lijin Zhang",
           "url": "https://doi.org/10.1080/00273171.2026.2740068",
@@ -270,12 +263,28 @@
           "created": "2026-10-19"
         },
         {
+          "title": "Reducing Boundary Estimates and Increasing Power in Detecting Individual Differences in Change: The Effect of Adding a Quadratic Term",
+          "authors": "Manshu Yang, Lijuan Wang, Scott E. Maxwell",
+          "url": "https://doi.org/10.1080/00273171.2026.2731064",
+          "doi": "https://doi.org/10.1080/00273171.2026.2731064",
+          "filter": 0,
+          "created": "2026-10-21"
+        },
+        {
           "title": "MI- Random rPQL : A Variable Selection Method for Linear Mixed Models with Missing Data",
           "authors": "Yutian T. Thompson, Yaqi Li",
           "url": "https://doi.org/10.1080/00273171.2026.2738735",
           "doi": "https://doi.org/10.1080/00273171.2026.2738735",
           "filter": 0,
           "created": "2026-10-20"
+        },
+        {
+          "title": "Possible Solutions to Heywood Cases in Confirmatory Factor Analysis",
+          "authors": "Yijun Cheng, Weicong Lyu, Oscar L. Olvera Astivia",
+          "url": "https://doi.org/10.1080/00273171.2026.2741681",
+          "doi": "https://doi.org/10.1080/00273171.2026.2741681",
+          "filter": 0,
+          "created": "2026-10-21"
         },
         {
           "title": "Testing Group Differences in Nonlinear Growth Curve Modeling with Penalized Spline",
@@ -301,13 +310,22 @@
       "journal_short": "PSPB",
       "articles": [
         {
-          "title": "Impressions of Deviant Disgust Expressions Are Functionally Specific",
-          "authors": "Kaelyn Sabree, Joshua M. Ackerman",
-          "abstract": "How do people perceive those who violate emotional expression norms? Across four studies, impressions of people displaying disgust “inappropriately” depended on how the deviation occurred. Targets who failed to show disgust toward disgust-eliciting stimuli (“flat deviants”) were judged as less healthy and lower in social status. Conversely, targets who expressed disgust to neutral stimuli (“react deviants”) were judged as less open-minded and less cooperative. These impressions tracked inferred behavioral affordances: flat deviants were seen as more likely to engage in pathogen-risky behaviors, whereas react deviants were not. Consistent with these judgments, affective deviants were differentially “punished”: flat deviants were rated as less fit and less likely to be recommended for jobs emphasizing health and hygiene, whereas react deviants faced these penalties for jobs emphasizing cooperativeness. Thus, perceivers do not simply condemn emotional norm violations; instead, they draw on expression–environment mismatches to make functionally specific trait judgments and potentially discriminatory decisions.",
-          "url": "https://doi.org/10.1177/01461672261489310",
-          "doi": "https://doi.org/10.1177/01461672261489310",
+          "title": "Less Is More: Why and When Having Less Signals Competence",
+          "authors": "Ruobing Fu, Jingyi Lu",
+          "abstract": "Living with less has become increasingly popular in contemporary culture. It can simplify people’s lives and enhance their well-being. Beyond these intrapersonal benefits, we document a novel, interpersonal benefit of having less: individuals who own fewer possessions are perceived as more competent than those who own more. This effect arises because observers infer that they rely more on reasoning rather than feelings in decision-making. We further develop a three-condition descriptive model specifying that the effect emerges when having fewer possessions appears voluntary, when the possessions are primarily non-hedonic, and when the quantity of possessions is sufficient to meet minimum needs. This research extends the literature on the benefits of having less from an intrapersonal to an interpersonal perspective and identifies possession quantity as a new cue for perceived competence.",
+          "url": "https://doi.org/10.1177/01461672261494236",
+          "doi": "https://doi.org/10.1177/01461672261494236",
           "filter": 0,
-          "created": "2026-10-14"
+          "created": "2026-10-21"
+        },
+        {
+          "title": "Implicit Prejudice Differentially Predicts Placement Into Valuable and Scarce Opportunities",
+          "authors": "Yeji Park, Stacey Sinclair",
+          "abstract": "Racial excellence gaps persist, partly due to unequal participation in advanced learning opportunities. Guided by the opportunity hoarding framework, this research investigates whether White Americans’ pro-White/anti-Black prejudice differentially predict simulated Advanced Placement (AP) course admission decisions, and under what conditions—when the opportunity is valuable, scarce, or both. Across two experiments, we observed an unexpected overall pattern in which Black students were placed into higher priority tiers than White students. Nonetheless, greater implicit prejudice predicted larger White–Black differences in placement decisions, explained by placing Black students into lower tiers rather than White students into higher tiers. Critically, we found preliminary evidence that this pattern emerges only when AP participation was described as both valuable and scarce. Explicit prejudice showed less consistent associations with differences in placement decisions across studies. The valuable and scarce nature of advanced learning opportunities may amplify the effect of implicit prejudice in deciding who deserves access.",
+          "url": "https://doi.org/10.1177/01461672261494655",
+          "doi": "https://doi.org/10.1177/01461672261494655",
+          "filter": 0,
+          "created": "2026-10-21"
         }
       ],
       "articles_hidden": []
@@ -339,22 +357,6 @@
           "doi": "https://doi.org/10.1037/met0000861",
           "filter": 0,
           "created": "2026-10-19"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Psychological Science",
-      "journal_short": "PsychSci",
-      "articles": [
-        {
-          "title": "Does Global Slowing Explain Age Effects in Inhibitory Control?",
-          "authors": "Jacob Sellers, Han Zhang, John Jonides, Taraz G. Lee",
-          "abstract": "A long-standing debate in the study of cognitive aging centers around the issue of whether aging results in a selective deficit in inhibitory control beyond general slowing of cognitive processing. Previous studies have obtained mixed findings, in part because the typical free-response-time paradigm lacks the specificity required to disentangle component processes underlying inhibitory control. Here, we apply a forced-response paradigm and computational model to test whether aging results in overall speed differences or a selective deficit in inhibitory control. Across two experiments, over 200 older adults and younger adults completed a forced-response arrow-flanker task. We found strong evidence that older adults demonstrate a global slowing of processing without any selective deficit in inhibitory control in this task. Furthermore, we demonstrate that global slowing is sufficient to explain the mixed findings in previous free-response-time studies. Overall, these results argue against a selective inhibitory-control deficit in older adults.",
-          "url": "https://doi.org/10.1177/09567976261479660",
-          "doi": "https://doi.org/10.1177/09567976261479660",
-          "filter": 0,
-          "created": "2026-10-14"
         }
       ],
       "articles_hidden": []
