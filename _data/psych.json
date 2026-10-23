@@ -1,5 +1,5 @@
 {
-  "update": "2026-10-22",
+  "update": "2026-10-23",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -24,13 +24,13 @@
           "created": "2026-10-16"
         },
         {
-          "title": "Registered Replication Report: Johns et al. (2005)",
-          "authors": "Andrea H. Stoevenbelt, Paulette C. Flore, Matus Adamkovic, Gabriel Banik, Rachel Bergers, Robert J. Calin-Jageman, Luis. A. Gomez, Joachim Hüffmeier, Megan N. Imundo, Scott D. Martin, Steven C. Pan, Lorraine A. T. Phillips, Jakob Pietschnig, Tilli Ripp, Jan Phillip Roër, Ivan Ropovik, Joyce Elena Schleu, Ann-Kathrin Torka, Bruno Verschuere, Martin Voracek, Luca Weiss, Jelte M. Wicherts",
-          "abstract": "“Stereotype threat” refers to the fear of being judged based on negative stereotypes about the performance of a certain group one identifies with. Numerous published studies have found that stereotype threat might lower mathematics-test performance among women. However, many studies have used suboptimal designs and analyses, the literature might be subject to publication bias, and the cross-cultural generalizability of the effect remains unknown. In this registered replication report, we describe the result of nine direct replications (total N = 1,709) of a representative stereotype-threat study by Johns et al., who found that threatened women (but not men) underperform when they are confronted with a mathematics test that is presented to measure gender differences and that this effect can be alleviated by altering test instructions. A multilevel analysis showed no significant interaction effect between stereotype-threat condition and gender and an observed gender gap only on the mathematics test, in which women performed worse than men (Hedges’s g = −0.26, SE = 0.11, 95% confidence interval [CI] = [−0.47, −0.05]). The stereotype-threat effect among women was virtually null and not significant ( N = 1,275, g = 0.04, SE = 0.08, 95% CI = [−0.11, 0.20]) and considerably smaller than the original study ( N = 45, d = −0.82, 95% CI = [−1.45, −0.18]). Secondary analyses yielded a main effect of gender composition and a random effect of lab on mathematics-test performance, but neither variable affected the interaction between stereotype threat and gender. The current results fail to replicate the stereotype-threat effect by Johns et al., hence casting doubt on the generalizability of the effect of stereotype threat on women’s mathematics performance.",
-          "url": "https://doi.org/10.1177/25152459261424724",
-          "doi": "https://doi.org/10.1177/25152459261424724",
+          "title": "Analysis Blinding as a Complement to Preregistration: A Tutorial for Network Analysis",
+          "authors": "Ria H. A. Hoekstra, Karoline B. S. Huth, Nikola Sekulovski, Mia Delhalle, Alexandra Sarafoglou",
+          "abstract": "Network analysis has become a popular computational-modeling approach in psychological research and is now increasingly used to address confirmatory research questions. However, preregistration of such analyses remains rare and even when implemented may leave room for researcher degrees of freedom, particularly when data-dependent decisions are difficult to fully anticipate. In this tutorial, we demonstrate how researchers can safeguard against bias by using analysis blinding as a complementary step to preregistration. The method involves temporarily altering the data to remove the key effect of interest while preserving all other aspects. Analysis blinding makes it possible to explore important features of the data, for instance, spotting outliers or adjusting the computational model, without introducing bias. In this tutorial, we present three common research questions in network analysis and show how they can be addressed using analysis blinding to safeguard their confirmatory nature. We use data from previously published studies employing network analysis and offer a practical, step-by-step guide along with R code that researchers can adapt to their own data and research questions.",
+          "url": "https://doi.org/10.1177/25152459261481079",
+          "doi": "https://doi.org/10.1177/25152459261481079",
           "filter": 0,
-          "created": "2026-10-15"
+          "created": "2026-10-22"
         }
       ],
       "articles_hidden": []
@@ -39,15 +39,6 @@
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
       "articles": [
-        {
-          "title": "Not that cloze: Sentence constraint is influenced by language and language dominance",
-          "authors": "Ana Bautista, Clara D. Martin",
-          "abstract": "In the fields of language processing and prediction, cloze tests are used to establish sentence constraint norms. The validity of cloze test results depends heavily on how closely the pre-test population matches the main study population, and yet there is limited evidence on how sociolinguistic variables may influence sentence constraint. Here, we investigate how language and language dominance influence sentence constraint at the lexical level by conducting a cloze test across different language groups and comparing response entropy. In Analysis 1, sentence constraint was similarly high for Spanish- and French-dominant speakers tested on the same translated sentences. However, their item-by-item alignment was moderate. In Analysis 2, non-dominant French speakers showed lower sentence constraint than dominant speakers overall. Dominant and non-dominant French speakers showed only moderate alignment, whereas the strongest alignment was observed between the two groups of non-dominant French speakers with different dominant languages. Our findings suggest that sentence expectations are shaped by language and language dominance. These findings are discussed considering theoretical proposals on the cloze test procedure, and offer informed practices for designing future language prediction studies across diverse speaker populations.",
-          "url": "https://doi.org/10.3758/s13428-026-03140-8",
-          "doi": "https://doi.org/10.3758/s13428-026-03140-8",
-          "filter": 0,
-          "created": "2026-10-15"
-        },
         {
           "title": "Identifying hidden cognate effects in L2 lexical retrieval tasks: A tutorial for stimulus design",
           "authors": "Kelly Kendro, Alexander J. Holmberg",
@@ -92,41 +83,6 @@
           "created": "2026-10-19"
         },
         {
-          "title": "Engagement begins at recruitment: Comparing videoconference verification to passive online screening for participant retention and study engagement",
-          "authors": "Andrea L. Howard, Johanna Peetz",
-          "url": "https://doi.org/10.3758/s13428-026-03194-8",
-          "doi": "https://doi.org/10.3758/s13428-026-03194-8",
-          "filter": 0,
-          "created": "2026-10-15"
-        },
-        {
-          "title": "Real-time assessment of temperature sensitivity, pain processing, and pain behavior across the lifespan: Integrating stimulus data, contact force, and subjective ratings",
-          "authors": "Heinz-Jürgen Steinhoff, Besim Prenaj, Sebastian L. Kübel, Annekatrin Steinhoff",
-          "abstract": "Assessments of temperature sensitivity and pain processing play an important role in psychological and psychiatry research, including with adolescent participants and across the lifespan. To ensure the validity and comparability of findings, experimental settings must be well tolerated and easily manageable for participants of all age groups and reliably monitored by the experimenter. These settings should promote reproducible procedures and support computer-assisted data acquisition and analysis to enable robust, efficient scientific evaluation. We present CAREST (Controlling and Recording Experiments in Sensitivity to Temperature), a PsychoPy-based tool for real-time assessment of temperature sensitivity, pain sensation, and pain response behavior via thermal induction. CAREST controls and communicates with a cold/hot plate and provides a touchscreen slider to assess pain sensation on a visual analog scale (VAS). The plate is placed on a platform with load cells to measure hand-plate contact force, providing an objective assessment of thermal contact between hand and plate surface during the experiment and participants’ approach versus avoidance tendencies in response to pain. CAREST continuously and synchronously records timestamped values of plate surface temperature, participants’ VAS ratings, and hand-plate contact force, enabling computation of several established and novel measures of pain sensitivity and related behavioral factors within a single experimental setting. In a pilot study with 94 participants, we examined heat and cold pain thresholds, intensities, tolerances, and hand-plate contact forces. The results highlight substantial heterogeneity in pain response behavior, with one out of five participants differing markedly from the modest average tendency toward pain avoidance.",
-          "url": "https://doi.org/10.3758/s13428-026-03192-w",
-          "doi": "https://doi.org/10.3758/s13428-026-03192-w",
-          "filter": 0,
-          "created": "2026-10-15"
-        },
-        {
-          "title": "Inclusive electroencephalography practices for Black and Muslim participation in a White non-Muslim-majority country: A co-produced tutorial",
-          "authors": "Damian Cruse, Ilham Razaie, Nyamesumpa Abbey, Natasha Bradbury, Yasmin Darawil, Hana Eldessoky, Fatima Farooq, Olivia Francis, Romy Froemer, Dorinda Lokko, Esther Nwakor, Amaliah-Saffron Odutola, Andrew Quinn, Nishita Sujan, Malaika Zabair",
-          "abstract": "Most electroencephalography (EEG) research is conducted in White-majority Western countries by White researchers. EEG practices therefore often explicitly and implicitly exclude minoritised groups, leading to low diversity in EEG data samples that deepens biases in interpretation and clinical utility. Because EEG electrodes must contact the scalp, Black people and Muslim women who wear a hijab (or, Hijabis) are two systematically excluded groups. As a group of EEG researchers, Black people, and Hijabis, here we describe co-produced practical approaches to overcoming EEG participation barriers, from recruitment to data collection, and provide co-produced text, photographs, and videos designed to break down these barriers. These approaches provide further tools for the EEG community to tackle systemic exclusion and foster better, more representative neuroscience.",
-          "url": "https://doi.org/10.3758/s13428-026-03203-w",
-          "doi": "https://doi.org/10.3758/s13428-026-03203-w",
-          "filter": 0,
-          "created": "2026-10-15"
-        },
-        {
-          "title": "The samplr package: A tool for modeling human cognition with sampling algorithms",
-          "authors": "Lucas Castillo, Yun-Xiao Li, Adam N. Sanborn",
-          "abstract": "Many models of cognition have sampling as a central component. Researchers have used them to explain human performance across a wide range of tasks involving perception, probability reasoning, and choice. One family of these models takes inspiration from sampling approaches developed in statistics, either by adjusting samples with prior beliefs or by implementing a sampling algorithm that overcomes the difficulty of independent samples at the expense of autocorrelation. While these models have been successful in modeling human behavior, their adoption has been slowed by the technical difficulties in applying them. Here, we introduce the  package, which includes a variety of these algorithms and cognitive models built upon them. We show how models in this package can match qualitative patterns found in human data, and walk readers through examples of how to compare these models quantitatively to human data. This tool aims to make these methods accessible to many more researchers.",
-          "url": "https://doi.org/10.3758/s13428-026-03188-6",
-          "doi": "https://doi.org/10.3758/s13428-026-03188-6",
-          "filter": 0,
-          "created": "2026-10-15"
-        },
-        {
           "title": "Human-in-the-loop LLM-assisted thematic analysis: A validated, reproducible tutorial for large-scale qualitative research",
           "authors": "Mandana Jafarian",
           "url": "https://doi.org/10.3758/s13428-026-03207-6",
@@ -144,15 +100,6 @@
           "created": "2026-10-21"
         },
         {
-          "title": "Accounting for response styles in rating data using IRT and IRTree models: A tutorial in R with applications to self-reported metacognitive competence",
-          "authors": "Thorsten Meiser, Esther Ulitzsch, Mirka Henninger",
-          "abstract": "Response styles refer to individual differences in the use of the item response format irrespective of item content. They include tendencies to favor or avoid midpoint or extreme response categories, which can distort the measurement of latent constructs. This tutorial provides an overview of IRT and IRTree models that accommodate response style factors, allowing researchers to analyze response-style effects and adjust latent-trait estimates for potential bias. In particular, we give a practical guide to using IRT and IRTree models for response styles and illustrate the workflow of model implementation, estimation, and interpretation with an empirical data set on self-reported metacognitive competence (Double, 2025). Throughout the tutorial, IRT and IRTree models are specified with standard tools, and parameter estimation is accomplished in the common framework of multidimensional IRT with the package (Chalmers, 2012; Chalmers et al., 2025). The empirical results demonstrate that IRT and IRTree models can disentangle substantive traits and response styles, and that model-based estimates of substantive traits are adjusted accordingly. More specifically, both model classes reveal pronounced correlations among latent trait dimensions and among response style factors, but only small correlations between traits and response styles. In addition, the model-based trait estimates show the expected patterns of amplification and shrinkage after adjusting for midscale and extreme response style. The tutorial concludes with a discussion of recent developments in psychometric modeling.",
-          "url": "https://doi.org/10.3758/s13428-026-03181-z",
-          "doi": "https://doi.org/10.3758/s13428-026-03181-z",
-          "filter": 0,
-          "created": "2026-10-15"
-        },
-        {
           "title": "Webcams can be used to study eye movements during reading",
           "authors": "Marina Serrano-Carot, Bernhard Angele, Hemu Xu, Martin R. Vasilev",
           "abstract": "Eye movements have revealed a wealth of information about how readers process written language. Modern eye trackers can record eye movements in the lab with high accuracy. However, such equipment is expensive, and participant testing is labour-intensive. Kaduk et al. (Behav Res Methods 56(5):5002–5022, 2023) recently reported that webcam eye tracking may be a viable alternative, showing that webcams achieved correlations with laboratory eye trackers of ~0.83 during a free-viewing task. We conducted three experiments to test whether webcams can be used to study eye movements during reading. Participants read short sentences with a target word frequency manipulation while their eye movements were recorded with both an EyeLink system and a webcam in the laboratory (co-registration, Experiments 1 and 2) or online with their own webcam (online study, Experiment 3). In the lab, the webcam-based system recorded raw gaze positions that were highly correlated with the EyeLink (median r = 0.805), replicating Kaduk et al.’s results. We also found evidence for word frequency effects in the webcam data, but there was more noise than in the EyeLink data. In the online study, data quality was much poorer, but we still found reliable effects that were consistent with those observed in the laboratory. In summary, webcam-based eye tracking may be viable for studying reading, especially under laboratory conditions. However, obtaining useful data may require collecting many more observations when using webcams than with high-accuracy eye trackers.",
@@ -160,6 +107,14 @@
           "doi": "https://doi.org/10.3758/s13428-026-03199-3",
           "filter": 0,
           "created": "2026-10-21"
+        },
+        {
+          "title": "Reducing participant burden of ESM-based monitoring of mood disorder onset through variable sample size EWMA",
+          "authors": "Fien De Pauw, Evelien Schat, Francis Tuerlinckx, Eva Ceulemans",
+          "url": "https://doi.org/10.3758/s13428-026-03183-x",
+          "doi": "https://doi.org/10.3758/s13428-026-03183-x",
+          "filter": 0,
+          "created": "2026-10-22"
         },
         {
           "title": "Decisions under uncertainty: A statistical framework for evaluating practical relevance in interval-based hypothesis testing",
@@ -193,12 +148,12 @@
           "created": "2026-10-19"
         },
         {
-          "title": "Does AI encourage lax thinking, or does the human preference for validation make it that way?",
-          "authors": "Braden T. Hall, William Hart",
-          "url": "https://doi.org/10.1016/j.chb.2026.109222",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109222",
+          "title": "Repairing the Lover: Relational Breakdown and Restoration in Human–AI Romantic Interaction",
+          "authors": "Yuqing Liu, Siyue Ren, Huizi Han, Yan Luximon",
+          "url": "https://doi.org/10.1016/j.chb.2026.109223",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109223",
           "filter": 0,
-          "created": "2026-10-15"
+          "created": "2026-10-22"
         },
         {
           "title": "Prevalence and correlates of GenerativeAI chatbot use for mental health concerns in higher education students",
@@ -207,6 +162,22 @@
           "doi": "https://doi.org/10.1016/j.chb.2026.109221",
           "filter": 0,
           "created": "2026-10-18"
+        },
+        {
+          "title": "Sharing for Better Health: Exploring Age, Health Data Sharing Behavior, and Relatedness Needs in Mobile Health Apps",
+          "authors": "Eun Hwa Jung, Jiyoung Chae",
+          "url": "https://doi.org/10.1016/j.chb.2026.109224",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109224",
+          "filter": 0,
+          "created": "2026-10-22"
+        },
+        {
+          "title": "Not All Family Neglect Is Equal: How Neglect by Adult Children Versus Spouses Relates to Compulsive Smartphone Use Among Older Adults in China",
+          "authors": "Yu Jia, Jiashen Huang, Wenjing Pan",
+          "url": "https://doi.org/10.1016/j.chb.2026.109228",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109228",
+          "filter": 0,
+          "created": "2026-10-22"
         }
       ],
       "articles_hidden": []
@@ -238,6 +209,21 @@
           "doi": "https://doi.org/10.1016/j.jesp.2026.105016",
           "filter": 0,
           "created": "2026-10-19"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Journal of Personality and Social Psychology",
+      "journal_short": "JPSP",
+      "articles": [
+        {
+          "title": "Shades of traits across languages: Comparisons of Dutch, Polish, Czech, and Serbian structures of behavioral items.",
+          "authors": "Boele De Raad, Nasturcja Toruj, Oleg Gorbaniuk, Martina Hřebíčková, Petar Čolović, Biljana Roganović, Snezana Smederevac",
+          "url": "https://doi.org/10.1037/pspp0000615",
+          "doi": "https://doi.org/10.1037/pspp0000615",
+          "filter": 0,
+          "created": "2026-10-22"
         }
       ],
       "articles_hidden": []
@@ -335,14 +321,6 @@
       "journal_short": "PM",
       "articles": [
         {
-          "title": "Structural-before/after-measurement approaches for estimating treatment effects in latent outcomes with causal machine learning.",
-          "authors": "Amota Ataneka, Benjamin Kelcey, Jean Baptiste Habarurema",
-          "url": "https://doi.org/10.1037/met0000878",
-          "doi": "https://doi.org/10.1037/met0000878",
-          "filter": 0,
-          "created": "2026-10-15"
-        },
-        {
           "title": "The semipartial correlation needs no correction. Comment on Park and Yi (2025).",
           "authors": "Peter de Heus",
           "url": "https://doi.org/10.1037/met0000833",
@@ -351,12 +329,44 @@
           "created": "2026-10-19"
         },
         {
+          "title": "How to design a panel study for investigating bivariate dynamics using continuous-time modeling.",
+          "authors": "Nuria Real-Brioso, Eduardo Estrada",
+          "url": "https://doi.org/10.1037/met0000876",
+          "doi": "https://doi.org/10.1037/met0000876",
+          "filter": 0,
+          "created": "2026-10-22"
+        },
+        {
+          "title": "Correcting for publication bias in multivariate and multilevel meta-analysis: A multivariate step function selection model approach.",
+          "authors": "Robbie C. M. van Aert, Richard D. Riley, Dan Jackson",
+          "url": "https://doi.org/10.1037/met0000854",
+          "doi": "https://doi.org/10.1037/met0000854",
+          "filter": 0,
+          "created": "2026-10-22"
+        },
+        {
           "title": "Working with circular data: A tutorial for cognitive and behavioral research.",
           "authors": "Stella Wernicke, Julie de Falco, Zahara Gironés, Chris Jungerius, Ivan Tomić, Adam Triabhall, Xiaolu Wang, Paul M. Bays",
           "url": "https://doi.org/10.1037/met0000861",
           "doi": "https://doi.org/10.1037/met0000861",
           "filter": 0,
           "created": "2026-10-19"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Psychological Science",
+      "journal_short": "PsychSci",
+      "articles": [
+        {
+          "title": "Serial or Parallel? Sublexical Scanpath Analysis of Eye-movement Sequences in Single Word Reading",
+          "authors": "Hend Lahoud, Adi Shechter, Titus von der Malsburg, David L. Share",
+          "abstract": "Are the letters of a written word processed sequentially or in parallel? Despite an abundance of research on visual word recognition, the evidence in this longstanding debate rests almost entirely on indirect inferences from word-length effects and conventional whole-word eye-movement measures. We sought direct evidence on the serial-parallel question by investigating sublexical gaze-fixation sequences—so-called scanpaths . This study is the first to apply scanpath analysis to fixation sequences within single words. Thirty-four Hebrew-speaking adult university students read aloud three-letter and five-letter real words and pseudowords while their eye movements were tracked. As expected, real words showed more parallel processing, whereas pseudowords displayed more sequential, letter-by-letter scanpaths. Surprisingly, longer words tended to elicit serial processing regardless of word familiarity. Our findings support the applicability of scanpath analysis in visual word recognition and its potential to open up new perspectives on word-recognition processes.",
+          "url": "https://doi.org/10.1177/09567976261488750",
+          "doi": "https://doi.org/10.1177/09567976261488750",
+          "filter": 0,
+          "created": "2026-10-22"
         }
       ],
       "articles_hidden": []
@@ -382,12 +392,60 @@
       "journal_short": "TMB",
       "articles": [
         {
-          "title": "Beyond accuracy: How humans evaluate legally correct but socially controversial legal advice from machines.",
-          "authors": "Benjamin Minhao Chen, Zhiyu Li",
-          "url": "https://doi.org/10.1037/tmb0000213",
-          "doi": "https://doi.org/10.1037/tmb0000213",
+          "title": "Technology-mediated connectedness: A systematic review of constructs and measurements.",
+          "authors": "Aike C. Horstmann, Nicole C. Krämer",
+          "url": "https://doi.org/10.1037/tmb0000215",
+          "doi": "https://doi.org/10.1037/tmb0000215",
           "filter": 0,
-          "created": "2026-10-15"
+          "created": "2026-10-22"
+        },
+        {
+          "title": "Beyond good and bad: An in-depth study of student and teacher views on generative AI in high school.",
+          "authors": "Sarah I. Segall, Tal Waltzer, Gail D. Heyman",
+          "url": "https://doi.org/10.1037/tmb0000226",
+          "doi": "https://doi.org/10.1037/tmb0000226",
+          "filter": 0,
+          "created": "2026-10-22"
+        },
+        {
+          "title": "Artificial intelligence agent tone influences perceived informational value and affective valence.",
+          "authors": "Michael J. Gazzanigo, Xiao Yang",
+          "url": "https://doi.org/10.1037/tmb0000233",
+          "doi": "https://doi.org/10.1037/tmb0000233",
+          "filter": 0,
+          "created": "2026-10-22"
+        },
+        {
+          "title": "Network examination of online gambling disorder, psychological distress, and daily functioning: Comparative role of maladaptive personality traits.",
+          "authors": "Jakub Helvich, Eva Migalova, Peter Tavel",
+          "url": "https://doi.org/10.1037/tmb0000225",
+          "doi": "https://doi.org/10.1037/tmb0000225",
+          "filter": 0,
+          "created": "2026-10-22"
+        },
+        {
+          "title": "Implementation of phone ban policies in school: A secondary analysis of a phone ban intervention in South Australia.",
+          "authors": "Stéphanie Baggio, Tracey Wade, Marcela Radunz, Christina R. Galanis, Joël Billieux, Vladan Starcevic, Blake Quinney, Daniel L. King",
+          "url": "https://doi.org/10.1037/tmb0000237",
+          "doi": "https://doi.org/10.1037/tmb0000237",
+          "filter": 0,
+          "created": "2026-10-22"
+        },
+        {
+          "title": "Perceived coworker emotions in social media communication and job satisfaction: Anger and happiness as mediators and problem solving and gender as moderators.",
+          "authors": "Ming-Hong Tsai, Tram Ngoc Hoang",
+          "url": "https://doi.org/10.1037/tmb0000231",
+          "doi": "https://doi.org/10.1037/tmb0000231",
+          "filter": 0,
+          "created": "2026-10-22"
+        },
+        {
+          "title": "Beyond self-report: Objective smartphone screen time and its associations with autistic traits, personality, and mental health.",
+          "authors": "Mustafa Elmi Ibrahim, Mariam Bahameish, Christopher Kannen, Zied El Houki, Dena Al-Thani, Christian Montag",
+          "url": "https://doi.org/10.1037/tmb0000228",
+          "doi": "https://doi.org/10.1037/tmb0000228",
+          "filter": 0,
+          "created": "2026-10-22"
         }
       ],
       "articles_hidden": []
