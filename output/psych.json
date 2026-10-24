@@ -1,5 +1,5 @@
 {
-  "update": "2026-10-23",
+  "update": "2026-10-24",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -13,15 +13,6 @@
           "doi": "https://doi.org/10.1177/25152459261487966",
           "filter": 0,
           "created": "2026-10-20"
-        },
-        {
-          "title": "Restructuring Scientific Papers for Human and AI Readers",
-          "authors": "Zhicheng Lin",
-          "abstract": "Scientific communication faces a dual crisis: Exponential publication growth—now accelerated by writing assisted by artificial intelligence (AI)—overwhelms human readers and reviewers, while fragmented evidence impedes automated synthesis. This fragmentation is especially acute in the behavioral and social sciences, where poorly standardized stimulus sets and jingle-jangle measurement fallacies (identical labels for distinct constructs; different labels for the same construct) hinder comparison, while underreported context conceals effect heterogeneity. Current AI tools can summarize papers but cannot reliably synthesize findings across incommensurable studies; they also risk perpetuating biases when trained on unstructured, unverified text. I propose restructuring scientific papers for two audiences: front-loaded narratives for time-pressed human readers, paired with research-object packages containing executable environments, semantic annotations, and tidy trial-level data. This design makes papers queryable: Readers can interrogate data and probe analytic choices, while the packages ground automated verification and AI-assisted manuscript evaluation—before submission or during peer review—in inspectable data and executable analyses rather than narrative claims alone. Such papers could become nodes in continuously updated evidence networks, automatically contributing effect sizes to living, versioned meta-analyses and allowing corrections and retractions to propagate through dependent syntheses. Widespread adoption will require institutions to credit research-object packages as scholarly contributions and invest in the open standards, infrastructure, training, and governance needed for their creation and long-term stewardship.",
-          "url": "https://doi.org/10.1177/25152459261480685",
-          "doi": "https://doi.org/10.1177/25152459261480685",
-          "filter": 0,
-          "created": "2026-10-16"
         },
         {
           "title": "Analysis Blinding as a Complement to Preregistration: A Tutorial for Network Analysis",
@@ -40,14 +31,6 @@
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "Identifying hidden cognate effects in L2 lexical retrieval tasks: A tutorial for stimulus design",
-          "authors": "Kelly Kendro, Alexander J. Holmberg",
-          "url": "https://doi.org/10.3758/s13428-026-03210-x",
-          "doi": "https://doi.org/10.3758/s13428-026-03210-x",
-          "filter": 0,
-          "created": "2026-10-16"
-        },
-        {
           "title": "Introducing GABLE: Lightweight infrastructure for longitudinal experiments using Google Apps Script",
           "authors": "Ibrahim Berber, Ilke Kas, Tarun Sepuri, Brooke N. Macnamara, M. Cenk Çavuşoğlu, Amy L. Wilson-Delfosse, Elizabeth A. Krupinski, Philip J. Smith, Soumya Ray",
           "abstract": "Longitudinal studies are essential for understanding how behaviors, skills, and psychological states evolve over time. While online platforms have made study development easier, researchers still face major logistical challenges when managing multi-session studies, especially when coordinating large numbers of participants, session timing, reminders, and compensation. In this paper, we introduce GABLE ( G oogle A pps script- B ased L ongitudinal E xperimentation), a lightweight infrastructure built using Google Apps Script. GABLE automates participant scheduling, e-mail communication, session tracking, and compensation. We demonstrate its effectiveness through two real-world psychological studies involving more than 850 participants with 20 sessions, and discuss its benefits, limitations, and potential extensions. GABLE addresses many challenges of running large online longitudinal studies while limiting the need for custom infrastructure or manual intervention.",
@@ -57,6 +40,14 @@
           "created": "2026-10-19"
         },
         {
+          "title": "Can large language models code meaning-making? A multi-model validation of automated autobiographical reasoning scoring in Chinese adolescent narratives",
+          "authors": "Bin Wang, Chengnuo Zhang, Yiwen Cai, Zhirui Li",
+          "url": "https://doi.org/10.3758/s13428-026-03212-9",
+          "doi": "https://doi.org/10.3758/s13428-026-03212-9",
+          "filter": 0,
+          "created": "2026-10-23"
+        },
+        {
           "title": "A tutorial on selecting, translating, and reporting variance priors in Bayesian multilevel models",
           "authors": "Liu Liu",
           "abstract": "Bayesian multilevel models are increasingly used in psychological, educational, and behavioral research, yet applied guidance on specifying priors for scalar variance components remains limited. This tutorial provides a practical workflow for identifying target variance components, selecting benchmark values, calibrating priors on variance and standard-deviation scales, translating them into software-compatible prior specifications, evaluating their implications through prior predictive checks, posterior comparison, sensitivity analysis, and transparent reporting. We review several commonly used prior families, including gamma, inverse-gamma, half- t , and half-Cauchy distributions, and clarify how their parameterizations relate across variance, precision (the reciprocal of variance), and standard-deviation formulations. The tutorial focuses on helping researchers align prior choice with substantive knowledge, model parameterization, software constraints, and sensitivity goals. As a worked example, we use a two-level analysis of TIMSS 2019 data to show how benchmark information from a non-overlapping reference sample can be calibrated into alternative variance-prior specifications and then evaluated in a smaller worked example sample. The empirical illustration is used as a pedagogical example to demonstrate the workflow and its associated checking procedures. We emphasize practical safeguards, including prior-density inspection, prior predictive checking, posterior comparison, convergence assessment, sensitivity analysis, and transparent reporting of prior assumptions. The tutorial concludes by summarizing practical, literature-grounded considerations for documenting prior rationale, implementation decisions, and robustness checks in Bayesian multilevel applications.",
@@ -64,6 +55,22 @@
           "doi": "https://doi.org/10.3758/s13428-026-03201-y",
           "filter": 0,
           "created": "2026-10-19"
+        },
+        {
+          "title": "Dimensional and categorical emotional ratings of Russian nouns: The ENRuN-2 database",
+          "authors": "Dmitry Lyusin, Tatiana Sysoeva",
+          "url": "https://doi.org/10.3758/s13428-026-03218-3",
+          "doi": "https://doi.org/10.3758/s13428-026-03218-3",
+          "filter": 0,
+          "created": "2026-10-23"
+        },
+        {
+          "title": "A web-based spot-the-difference paradigm for studying social information processing in naturalistic visual scenes",
+          "authors": "Yiping Ge, Qiyu Xia, Guoyu Li, Yi Jiang, Li Wang",
+          "url": "https://doi.org/10.3758/s13428-026-03213-8",
+          "doi": "https://doi.org/10.3758/s13428-026-03213-8",
+          "filter": 0,
+          "created": "2026-10-23"
         },
         {
           "title": "A topic-based framework for interpretable and sparse semantic representations",
@@ -100,6 +107,14 @@
           "created": "2026-10-21"
         },
         {
+          "title": "The SPOT Grid: Naturalistic images with predefined settings, patterns, objects, and textures",
+          "authors": "Zall Hirschstein, Mariam Aly, Chris Baldassano",
+          "url": "https://doi.org/10.3758/s13428-026-03211-w",
+          "doi": "https://doi.org/10.3758/s13428-026-03211-w",
+          "filter": 0,
+          "created": "2026-10-23"
+        },
+        {
           "title": "Webcams can be used to study eye movements during reading",
           "authors": "Marina Serrano-Carot, Bernhard Angele, Hemu Xu, Martin R. Vasilev",
           "abstract": "Eye movements have revealed a wealth of information about how readers process written language. Modern eye trackers can record eye movements in the lab with high accuracy. However, such equipment is expensive, and participant testing is labour-intensive. Kaduk et al. (Behav Res Methods 56(5):5002–5022, 2023) recently reported that webcam eye tracking may be a viable alternative, showing that webcams achieved correlations with laboratory eye trackers of ~0.83 during a free-viewing task. We conducted three experiments to test whether webcams can be used to study eye movements during reading. Participants read short sentences with a target word frequency manipulation while their eye movements were recorded with both an EyeLink system and a webcam in the laboratory (co-registration, Experiments 1 and 2) or online with their own webcam (online study, Experiment 3). In the lab, the webcam-based system recorded raw gaze positions that were highly correlated with the EyeLink (median r = 0.805), replicating Kaduk et al.’s results. We also found evidence for word frequency effects in the webcam data, but there was more noise than in the EyeLink data. In the online study, data quality was much poorer, but we still found reliable effects that were consistent with those observed in the laboratory. In summary, webcam-based eye tracking may be viable for studying reading, especially under laboratory conditions. However, obtaining useful data may require collecting many more observations when using webcams than with high-accuracy eye trackers.",
@@ -115,14 +130,6 @@
           "doi": "https://doi.org/10.3758/s13428-026-03183-x",
           "filter": 0,
           "created": "2026-10-22"
-        },
-        {
-          "title": "Decisions under uncertainty: A statistical framework for evaluating practical relevance in interval-based hypothesis testing",
-          "authors": "Paul Riesthuis, Robert A. Cribbie, Victoria Celio, Nataly Beribisky",
-          "url": "https://doi.org/10.3758/s13428-026-03204-9",
-          "doi": "https://doi.org/10.3758/s13428-026-03204-9",
-          "filter": 0,
-          "created": "2026-10-16"
         }
       ],
       "articles_hidden": []
@@ -131,14 +138,6 @@
       "journal_full": "Computers in Human Behavior",
       "journal_short": "CHB",
       "articles": [
-        {
-          "title": "Tracking fitness, comparing bodies: Social comparison and exercise activity among college students",
-          "authors": "Christina N. Selby, Kyle J. Holody, Elizabeth L. Carter",
-          "url": "https://doi.org/10.1016/j.chb.2026.109216",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109216",
-          "filter": 0,
-          "created": "2026-10-16"
-        },
         {
           "title": "When interface style meets personality: Big five differences in self-extension and emotional attachment in online shopping platforms",
           "authors": "HeSen Li, Hong Chen, WeiCheng Pan, WanQing Zhang, WenXing Lou, Qi Guo, BoHyeon Yoo",
@@ -164,12 +163,12 @@
           "created": "2026-10-18"
         },
         {
-          "title": "Sharing for Better Health: Exploring Age, Health Data Sharing Behavior, and Relatedness Needs in Mobile Health Apps",
-          "authors": "Eun Hwa Jung, Jiyoung Chae",
-          "url": "https://doi.org/10.1016/j.chb.2026.109224",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109224",
+          "title": "The Internet is Just a Tool: Neither Transactive Memory Systems nor Cognitive Extension Fully Explain Knowledge Conflation",
+          "authors": "Jenna R. Donet, Philip H. Marshall, Michael J. Serra",
+          "url": "https://doi.org/10.1016/j.chb.2026.109225",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109225",
           "filter": 0,
-          "created": "2026-10-22"
+          "created": "2026-10-23"
         },
         {
           "title": "Not All Family Neglect Is Equal: How Neglect by Adult Children Versus Spouses Relates to Compulsive Smartphone Use Among Older Adults in China",
@@ -178,6 +177,57 @@
           "doi": "https://doi.org/10.1016/j.chb.2026.109228",
           "filter": 0,
           "created": "2026-10-22"
+        },
+        {
+          "title": "Sharing for Better Health: Exploring Age, Health Data Sharing Behavior, and Relatedness Needs in Mobile Health Apps",
+          "authors": "Eun Hwa Jung, Jiyoung Chae",
+          "url": "https://doi.org/10.1016/j.chb.2026.109224",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109224",
+          "filter": 0,
+          "created": "2026-10-22"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Group Processes & Intergroup Relations",
+      "journal_short": "GPIR",
+      "articles": [
+        {
+          "title": "Racial Bias Masquerading as Nostalgia: Nostalgic Longing and Opposition to Increased Racial Representation in the Media",
+          "authors": "Mason D. Burns, Bryor D. Brown, Teagan A. Robbins",
+          "abstract": "Racial/ethnic minority diversity in the mass media has increased in recent years, in part due to racebending—non-White performers portraying traditionally White characters. Racebending is, however, frequently met with backlash, with opponents expressing nostalgia for original representations and decrying racebending as deviating from traditional portrayals. Although expressing nostalgia is seemingly race-neutral, we reasoned that expressing nostalgia to decry racebending is, for some people, an indirect means of expressing biased attitudes that allows racially biased people to oppose racebending without having to appear biased. Three studies ( N = 694) found that White supremacist attitudes predicted self-reported media nostalgia, which in turn predicted racebending opposition. However, nostalgia was inconsistently predictive of opposition to media changes. Specifically, we found that people higher in nostalgia opposed racebending, but not other deviations from traditional presentations (i.e., Whitewashing). These results suggest that nostalgia is used by some to indirectly oppose racial diversity in the media.",
+          "url": "https://doi.org/10.1177/13684302261494503",
+          "doi": "https://doi.org/10.1177/13684302261494503",
+          "filter": 0,
+          "created": "2026-10-24"
+        },
+        {
+          "title": "Implications of Self-observation for Metaperceived Gender Salience During Mixed-Gender Online Negotiations",
+          "authors": "Jacquie D. Vorauer, Carly Bretecher, Carly Klassen, Michael Kowalchuk",
+          "abstract": "Gender salience is a core construct in theories of gender-related affect, cognition, and behavior. This research suggests a novel, subtle trigger of gender salience in mixed-gender negotiations: the self-observation typically involved in online interaction. This trigger maps onto everyday experience and is qualitatively different from other documented triggers. We reasoned that given individuals’ enduring alertness to the possibility of being viewed unfavorably by others, seeing their own image would lead them to imagine that their interaction partner was focused on their gender—a visible distinctive group membership in the interaction context. A mini meta-analysis across three studies in which mixed-gender dyads negotiated online with self-view on or off (total N = 366 dyads) indicated that overall self-observation increased women’s but not men’s metaperceived gender salience, although there was some inconsistency across the studies. Analyses of indirect effects suggested that higher gender salience was associated with greater female disadvantage in negotiation outcomes.",
+          "url": "https://doi.org/10.1177/13684302261494505",
+          "doi": "https://doi.org/10.1177/13684302261494505",
+          "filter": 0,
+          "created": "2026-10-24"
+        },
+        {
+          "title": "Beliefs about Structural Racism Shape Perceptions of Racial Economic Inequality",
+          "authors": "Julian M. Rucker, Sa-Kiera T. J. Hudson, Bennett T. Callaghan, Xin Yang, Michael W. Kraus, Jennifer A. Richeson",
+          "abstract": "Despite vast racial disparities in economic outcomes, White Americans tend to overestimate their economic parity with Black Americans. White Americans also tend to be less likely to hold an understanding of racism that is rooted in structural processes, relative to individual-level biases. Across three studies ( N = 2,124 participants), the present research explored whether White Americans’ misperceptions of racial economic inequality are explained, in part, by a general lack of exposure to information about structural racism. In Study 1, we measured the extent to which participants conceptualized racism in terms of structural factors. In Studies 2 and 3, we experimentally manipulated exposure to information about structural racism. Specifically, participants listened to an audio clip discussing structural roots of racial discrimination, a comparable audio clip on implicit racial bias, or no clip at all. In each study, participants estimated Black–White equality in income and wealth, then indicated their support for reparative public policies (e.g., affirmative action in hiring). Across Studies 1–3, holding a structural understanding of racism was correlated with perceiving lower levels of contemporary Black–White economic equality and greater support for racial equity-enhancing policies. Further, exposing participants to information about structural racism led them to perceive lower levels of racial economic equality (vs. interpersonal racism or control information in Study 2) and express more equity-enhancing policy support (vs. interpersonal racism information in Study 3).",
+          "url": "https://doi.org/10.1177/13684302261494507",
+          "doi": "https://doi.org/10.1177/13684302261494507",
+          "filter": 0,
+          "created": "2026-10-24"
+        },
+        {
+          "title": "How Feminine and Masculine Do Cisgender People in the U.S. Think the Average Gender Nonbinary Person Is?",
+          "authors": "Anna-Kaisa Reiman",
+          "abstract": "Perception of gender is ubiquitous and consequential in social life. People who are perceived as women are expected to enact femininity, whereas people who are perceived as men are expected to enact masculinity. How do gender nonbinary people fit into these binary assumptions? The present work examined the perceived femininity and masculinity of nonbinary people. In particular, cisgender, primarily straight/heterosexual, U.S.-based participants reported their assumptions about the assigned sex (Study 1; N = 315) or their perceptions of the femininity and masculinity (Studies 2–3; N s = 216 and 277) of the average nonbinary person. No apparent bias in terms of assumed sex or perceived femininity emerged, yet participants rated the average nonbinary person as reliably below the scale midpoint on masculinity. Accordingly, cisgender straight Americans’ perceptions of the average nonbinary person may in part reflect a tendency to safeguard masculinity.",
+          "url": "https://doi.org/10.1177/13684302261494408",
+          "doi": "https://doi.org/10.1177/13684302261494408",
+          "filter": 0,
+          "created": "2026-10-24"
         }
       ],
       "articles_hidden": []
@@ -271,22 +321,6 @@
           "doi": "https://doi.org/10.1080/00273171.2026.2741681",
           "filter": 0,
           "created": "2026-10-21"
-        },
-        {
-          "title": "Testing Group Differences in Nonlinear Growth Curve Modeling with Penalized Spline",
-          "authors": "Han Du, Yang Liu, Zhiyong Zhang",
-          "url": "https://doi.org/10.1080/00273171.2026.2728649",
-          "doi": "https://doi.org/10.1080/00273171.2026.2728649",
-          "filter": 0,
-          "created": "2026-10-16"
-        },
-        {
-          "title": "Homogeneity-Pursuit Calibration of Item Response Theory Models with Limited Samples and Sparse Response Data",
-          "authors": "Shiyu Wang, Cong Cheng, Yuan Ke, Zichu Liu",
-          "url": "https://doi.org/10.1080/00273171.2026.2737426",
-          "doi": "https://doi.org/10.1080/00273171.2026.2737426",
-          "filter": 0,
-          "created": "2026-10-16"
         }
       ],
       "articles_hidden": []
@@ -392,14 +426,6 @@
       "journal_short": "TMB",
       "articles": [
         {
-          "title": "Technology-mediated connectedness: A systematic review of constructs and measurements.",
-          "authors": "Aike C. Horstmann, Nicole C. Krämer",
-          "url": "https://doi.org/10.1037/tmb0000215",
-          "doi": "https://doi.org/10.1037/tmb0000215",
-          "filter": 0,
-          "created": "2026-10-22"
-        },
-        {
           "title": "Beyond good and bad: An in-depth study of student and teacher views on generative AI in high school.",
           "authors": "Sarah I. Segall, Tal Waltzer, Gail D. Heyman",
           "url": "https://doi.org/10.1037/tmb0000226",
@@ -412,6 +438,14 @@
           "authors": "Michael J. Gazzanigo, Xiao Yang",
           "url": "https://doi.org/10.1037/tmb0000233",
           "doi": "https://doi.org/10.1037/tmb0000233",
+          "filter": 0,
+          "created": "2026-10-22"
+        },
+        {
+          "title": "Technology-mediated connectedness: A systematic review of constructs and measurements.",
+          "authors": "Aike C. Horstmann, Nicole C. Krämer",
+          "url": "https://doi.org/10.1037/tmb0000215",
+          "doi": "https://doi.org/10.1037/tmb0000215",
           "filter": 0,
           "created": "2026-10-22"
         },
