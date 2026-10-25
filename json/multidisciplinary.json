@@ -1,20 +1,11 @@
 {
-  "update": "2026-10-24",
+  "update": "2026-10-25",
   "content": [
     {
       "journal_full": "Nature",
       "journal_short": "Nat",
       "articles": [],
       "articles_hidden": [
-        {
-          "title": "Cortex-wide imaging in naturally behaving mice with 1-gram wireless mesoscopes",
-          "authors": "Yuanlong Zhang, Angran Li, Lekang Yuan, Mingrui Wang, Weihao Zhao, Zhenbo Wang, Boyang Zang, Yangxuan Zhou, Tao Yu, Lin Gao, Yu Wu, Rongkang Zhu, Mengyi Tian, Kun Li, Jiamin Wu, Pu Dai, Qionghai Dai",
-          "abstract": "Revealing how distributed cortical circuits coordinate behavior in freely moving animals remains a central challenge in systems neuroscience, constrained by limited fields of view, low throughput, and the tethering required by current miniaturized microscopes1-4. Here, we present Airscope, a wireless mesoscope delivering 4 μm lateral resolution across a 6 mm field of view at 12.5 Hz, weighing 1.0 gram. An aspheric-lens design achieves a 2.84× shorter total track length than previous miniaturized microscopes1,2,5,6 while matching the neuron yield of benchtop one-photon mesoscopes; a tailored wireless link supports cable-free calcium imaging from >8,500 neurons per animal (25‑fold increase). Paired with a zero-shot behavior analyzer, Airscope enables cortical imaging across rich behavioral conditions, including room-scale enriched arenas, swimming assays, and multi-organ implantation, with concurrent recording from multiple animals. Using Airscope, we demonstrate versatile applications of untethered cortical imaging across diverse behavioral paradigms. We identify cortical activity patterns across multiple dorsal regions that correlate with behavioral signatures of social dominance, and show dorsal-cortical population activity prospectively decodes competition outcomes across paired animals. We observe reward-location-associated cortical activity patterns during maze exploration, and characterize Granger-causal influence from spinal cord to cortex during fear conditioning, enabled by simultaneous brain-spinal recordings. By uniting large-scale, cellular-resolution recording with unconstrained behavior, Airscope makes naturalistic, multi-animal cortical recording experimentally practical, and provides a broadly accessible technology for systems neuroscience.",
-          "url": "https://doi.org/10.1038/s41586-026-11293-x",
-          "doi": "https://doi.org/10.1038/s41586-026-11293-x",
-          "filter": "2",
-          "created": "2026-10-19"
-        },
         {
           "title": "GRP75-dependent SIMPA mediates inter-organellar quality control",
           "authors": "Fan Yu, Lingyu Jiang, Hanyu Liu, Song Yang, Yuan Yuan, Hongzhen Jin, Jinming Liu, Xi Liu, Yu Dong, Dongfeng Ren, Jie Kang, Yan Huang, Qi Meng, Feng Bai, Yanjun Li, Shuoguo Li, Huadong Liu, Wei Zhao, Jia Xiao, Quan Chen",
@@ -34,6 +25,15 @@
           "created": "2026-10-21"
         },
         {
+          "title": "Cortex-wide imaging in naturally behaving mice with 1-gram wireless mesoscopes",
+          "authors": "Yuanlong Zhang, Angran Li, Lekang Yuan, Mingrui Wang, Weihao Zhao, Zhenbo Wang, Boyang Zang, Yangxuan Zhou, Tao Yu, Lin Gao, Yu Wu, Rongkang Zhu, Mengyi Tian, Kun Li, Jiamin Wu, Pu Dai, Qionghai Dai",
+          "abstract": "Revealing how distributed cortical circuits coordinate behavior in freely moving animals remains a central challenge in systems neuroscience, constrained by limited fields of view, low throughput, and the tethering required by current miniaturized microscopes1-4. Here, we present Airscope, a wireless mesoscope delivering 4 μm lateral resolution across a 6 mm field of view at 12.5 Hz, weighing 1.0 gram. An aspheric-lens design achieves a 2.84× shorter total track length than previous miniaturized microscopes1,2,5,6 while matching the neuron yield of benchtop one-photon mesoscopes; a tailored wireless link supports cable-free calcium imaging from >8,500 neurons per animal (25‑fold increase). Paired with a zero-shot behavior analyzer, Airscope enables cortical imaging across rich behavioral conditions, including room-scale enriched arenas, swimming assays, and multi-organ implantation, with concurrent recording from multiple animals. Using Airscope, we demonstrate versatile applications of untethered cortical imaging across diverse behavioral paradigms. We identify cortical activity patterns across multiple dorsal regions that correlate with behavioral signatures of social dominance, and show dorsal-cortical population activity prospectively decodes competition outcomes across paired animals. We observe reward-location-associated cortical activity patterns during maze exploration, and characterize Granger-causal influence from spinal cord to cortex during fear conditioning, enabled by simultaneous brain-spinal recordings. By uniting large-scale, cellular-resolution recording with unconstrained behavior, Airscope makes naturalistic, multi-animal cortical recording experimentally practical, and provides a broadly accessible technology for systems neuroscience.",
+          "url": "https://doi.org/10.1038/s41586-026-11293-x",
+          "doi": "https://doi.org/10.1038/s41586-026-11293-x",
+          "filter": "2",
+          "created": "2026-10-19"
+        },
+        {
           "title": "The anatomy of a personal health agent",
           "authors": "A. Ali Heydari, Ken Gu, Vidya Srinivas, Hong Yu, Akshay Paruchuri, Zhihan Zhang, Yuwei Zhang, Qian He, Hamid Palangi, Nova Hammerquist, Ahmed A. Metwally, Brent Winslow, Yubin Kim, Kumar Ayush, Yuzhe Yang, Girish Narayanswamy, Maxwell A. Xu, Jake Garrison, Samuel Schmidgall, Amy Armento Lee, Jenny Vafeiadou, Ben Graef, Isaac R. Galatzer-Levy, Erik Schenck, Andrew Barakat, Javier Perez, Jacqueline Shreibati, John Hernandez, Anthony Z. Faranesh, Naghmeh Rezaei, Javier L. Prieto, Conor Heneghan, Jiening Zhan, Mark Malhotra, Shwetak Patel, Yun Liu, Tim Althoff, Xin Liu, Daniel McDuff, Xuhai Orson Xu",
           "abstract": "Large language models are enabling a new generation of health agents, yet their ability to address the diverse needs of individuals in everyday health settings remains underexplored 1,2 . Here we developed a comprehensive personal health agent that reasons over multimodal data from consumer wellness devices and medical records to provide personalized health support. Through analysis of web search and health forum queries, together with user-centred research involving end users and health experts, we identified four key user journeys: general health knowledge, personal data interpretation, wellness advice, and symptom assessment. These journeys informed three specialist sub-agents: (1) a data science agent that analyses longitudinal wearable and medical data, incorporating population-level statistics to contextualize numerical insights; (2) a health domain expert agent that integrates personal and contextual data with health knowledge to generate personalized insights; and (3) a health coach agent that synthesizes insights, supports multi-turn interaction and goal setting, applies specified psychological strategies and tracks progress. We integrated these capabilities in the personal health agent, an open-source multi-agent framework for dynamic, personalized health interactions. We evaluated the sub-agents and full system across 11 benchmark tasks using automated and human evaluation, with more than 7,000 annotations and 1,350 h of effort from health experts and end users. This represents the most comprehensive evaluation of a personal health agent thus far and provides a concrete foundation for improving access to high-quality personalized health support more broadly.",
@@ -50,6 +50,15 @@
           "doi": "https://doi.org/10.1038/s41586-026-11188-x",
           "filter": "2",
           "created": "2026-10-21"
+        },
+        {
+          "title": "Current-Driven Molecular Machine with Rotation-Enhanced Conductance",
+          "authors": "Anil Kumar Singh, León Martin, Matea Sršen, Freja Schou Guttesen, Bing-Zhong Hu, Yuta Ito, Stephan Korsgaard Pedersen, Fadhil Suleiman Kamounah, Fabian Pauly, Michael Pittelkow, Jing-Tao Lü, Per Hedegård, Oren Tal",
+          "abstract": "For more than two millennia, Archimedean screws have been used for water pumping and, more recently, as turbines in hydroelectric power stations[1]. Their helical-blade structure, essential to their function, is also found in chiral molecules and nanostructures, where injected electric current has been proposed to generate torque-mediated rotation[2,3]. Here, we present a torque-driven molecular machine with a rotor actuated by electric current and conductance enhanced by its rotation. Suspending a helicene molecule between two electrode tips, we show that an applied voltage induces cyclic molecular motion with 100% directional preference that can be inverted by the voltage’s polarity. Above a voltage threshold, the current through the rotating molecule is significantly enhanced, and the enhancement onset is tuned by stretching or compressing the helical molecule. Such effects were absent in previous helical molecular junctions, likely due to structural and operational differences[4–6]. Calculations show that molecular rotation by current-induced forces explains both the observed cyclic motion and current enhancement. This mechanism predicts a transition from stepwise to continuous rotation at a threshold voltage, yielding a current increase as rotation allows adopting highly conducting configurations not accessible at rest. Our work introduces a prototype for a new class of torque-driven molecular machines with perfect rotor unidirectionality and significant current modulation.",
+          "url": "https://doi.org/10.1038/s41586-026-11312-x",
+          "doi": "https://doi.org/10.1038/s41586-026-11312-x",
+          "filter": "2",
+          "created": "2026-10-22"
         },
         {
           "title": "Zeolite-catalysed olefin carbonylation based on tuning spatial confinement",
@@ -79,13 +88,13 @@
           "created": "2026-10-21"
         },
         {
-          "title": "Current-Driven Molecular Machine with Rotation-Enhanced Conductance",
-          "authors": "Anil Kumar Singh, León Martin, Matea Sršen, Freja Schou Guttesen, Bing-Zhong Hu, Yuta Ito, Stephan Korsgaard Pedersen, Fadhil Suleiman Kamounah, Fabian Pauly, Michael Pittelkow, Jing-Tao Lü, Per Hedegård, Oren Tal",
-          "abstract": "For more than two millennia, Archimedean screws have been used for water pumping and, more recently, as turbines in hydroelectric power stations[1]. Their helical-blade structure, essential to their function, is also found in chiral molecules and nanostructures, where injected electric current has been proposed to generate torque-mediated rotation[2,3]. Here, we present a torque-driven molecular machine with a rotor actuated by electric current and conductance enhanced by its rotation. Suspending a helicene molecule between two electrode tips, we show that an applied voltage induces cyclic molecular motion with 100% directional preference that can be inverted by the voltage’s polarity. Above a voltage threshold, the current through the rotating molecule is significantly enhanced, and the enhancement onset is tuned by stretching or compressing the helical molecule. Such effects were absent in previous helical molecular junctions, likely due to structural and operational differences[4–6]. Calculations show that molecular rotation by current-induced forces explains both the observed cyclic motion and current enhancement. This mechanism predicts a transition from stepwise to continuous rotation at a threshold voltage, yielding a current increase as rotation allows adopting highly conducting configurations not accessible at rest. Our work introduces a prototype for a new class of torque-driven molecular machines with perfect rotor unidirectionality and significant current modulation.",
-          "url": "https://doi.org/10.1038/s41586-026-11312-x",
-          "doi": "https://doi.org/10.1038/s41586-026-11312-x",
+          "title": "An environmentally regulated dichotomy in cell lineages of the root",
+          "authors": "Marina Oliva, Tim Stuart, Dave Tang, Adil Khan, Olivier Clement, Dawid Makosa, Daniel Poppe, Jahnvi Pflueger, Jafar S. Jabbari, Scott Gigante, Jonathan Michael Dragwidge, Milly Petterson, James Whelan, Mathew G. Lewsey, Ryan Lister",
+          "abstract": "Plant development is highly plastic, with growth and architecture continuously shaped by environmental conditions. Roots, for instance, adjust their development to local water, nutrient and soil conditions. Despite this plasticity, individual root cell types are generally viewed as largely homogeneous populations that progress along a single developmental trajectory1. Here we show that rather than progressing along a single developmental trajectory, most Arabidopsis root cell lineage trajectories exhibit a stereotyped bifid topology, as revealed by single-cell RNA sequencing and spatial transcript mapping. One branch is characterized by a transcriptional program that is shared across multiple cell types and enriched for genes associated with environmental responses, including abscisic acid (ABA) signalling. This state occurs reproducibly in a subset of cells across multiple cell types, independent of developmental lineage, thereby revealing an additional layer of root cell identity. It is conserved across Arabidopsis ecotypes and persists despite major perturbations in developmental identity. Moreover, it is reduced in ABA-deficient and ABA-insensitive mutants and becomes more prevalent under water-deficit conditions. Together, these findings reveal an additional layer of root cell identity that is superimposed on developmental lineage and its prevalence is modulated by environmental conditions. These results uncover a previously unrecognized source of environment-associated transcriptional heterogeneity shared across root cell types.",
+          "url": "https://doi.org/10.1038/s41586-026-11179-y",
+          "doi": "https://doi.org/10.1038/s41586-026-11179-y",
           "filter": "2",
-          "created": "2026-10-22"
+          "created": "2026-10-21"
         },
         {
           "title": "A single archaeon couples long-chain fatty acid oxidation to methanogenesis",
@@ -93,15 +102,6 @@
           "abstract": "Anaerobic degradation of complex organic compounds to methane and carbon dioxide is common in the deep subsurface biosphere and has long been considered to require syntrophic cooperation, with methanogens confined to the terminal use of simple C1 and C2 substrates. Thermodynamic considerations, multi-omics analyses and microcosm experiments suggest that archaeal lineages are capable of methanogenic degradation of complex substrates1,2,3,4,5,6. However, experimental validation in pure culture was lacking. Here we report the isolation of a thermophilic archaeon, Methanoglobus dolicholipophagus AA-75, affiliated with Archaeoglobi, from a Chinese petroleum reservoir. Strain AA-75 not only converts methanol into methane, carbon dioxide and acetate, but also uses saturated fatty acids varying from C7:0 to C18:0 and unsaturated fatty acids including C16:1, C18:1 and C18:2 to produce methane. We term the latter lipotrophic methanogenesis, which integrates β-oxidation of fatty acids with the Wood–Ljungdahl pathway and the canonical methyl-tetrahydromethanopterin:coenzyme M methyltransferase and methyl-coenzyme M reductase complexes, together with an intracellular electron transfer system. A formaldehyde-methanol branch probably functions as an auxiliary route for C1 metabolism during methanogenesis. Methane produced from stearate is moderately 13C-enriched (δ13C–CH4 = −40.0‰ to −36.3‰), distinct from the strong 13C depletion characteristic of canonical methanogenic pathways. These findings demonstrate that methanogens can function as primary degraders of complex organic matter, challenging the classical syntrophic paradigm and calling for refinement of current models of carbon cycling in the deep subsurface biosphere.",
           "url": "https://doi.org/10.1038/s41586-026-11207-x",
           "doi": "https://doi.org/10.1038/s41586-026-11207-x",
-          "filter": "2",
-          "created": "2026-10-21"
-        },
-        {
-          "title": "An environmentally regulated dichotomy in cell lineages of the root",
-          "authors": "Marina Oliva, Tim Stuart, Dave Tang, Adil Khan, Olivier Clement, Dawid Makosa, Daniel Poppe, Jahnvi Pflueger, Jafar S. Jabbari, Scott Gigante, Jonathan Michael Dragwidge, Milly Petterson, James Whelan, Mathew G. Lewsey, Ryan Lister",
-          "abstract": "Plant development is highly plastic, with growth and architecture continuously shaped by environmental conditions. Roots, for instance, adjust their development to local water, nutrient and soil conditions. Despite this plasticity, individual root cell types are generally viewed as largely homogeneous populations that progress along a single developmental trajectory1. Here we show that rather than progressing along a single developmental trajectory, most Arabidopsis root cell lineage trajectories exhibit a stereotyped bifid topology, as revealed by single-cell RNA sequencing and spatial transcript mapping. One branch is characterized by a transcriptional program that is shared across multiple cell types and enriched for genes associated with environmental responses, including abscisic acid (ABA) signalling. This state occurs reproducibly in a subset of cells across multiple cell types, independent of developmental lineage, thereby revealing an additional layer of root cell identity. It is conserved across Arabidopsis ecotypes and persists despite major perturbations in developmental identity. Moreover, it is reduced in ABA-deficient and ABA-insensitive mutants and becomes more prevalent under water-deficit conditions. Together, these findings reveal an additional layer of root cell identity that is superimposed on developmental lineage and its prevalence is modulated by environmental conditions. These results uncover a previously unrecognized source of environment-associated transcriptional heterogeneity shared across root cell types.",
-          "url": "https://doi.org/10.1038/s41586-026-11179-y",
-          "doi": "https://doi.org/10.1038/s41586-026-11179-y",
           "filter": "2",
           "created": "2026-10-21"
         },
@@ -158,12 +158,13 @@
           "created": "2026-10-21"
         },
         {
-          "title": "Author Correction: Long-read sequencing reveals pre-meiotic gene conversion in sperm",
-          "authors": "Regev Schweiger, Sangjin Lee, Chenxi Zhou, Tsun-Po Yang, Stacy Li, Rashesh Sanghvi, Matthew Neville, Katie Smith, Kirsty Roberts, Ayrun Nessa, Sam Wadge, Kerrin S. Small, Peter J. Campbell, Kristian Almstrup, Peter H. Sudmant, Raheleh Rahbari, Richard Durbin",
-          "url": "https://doi.org/10.1038/s41586-026-11290-0",
-          "doi": "https://doi.org/10.1038/s41586-026-11290-0",
+          "title": "Drought and disease trigger novel interactions among top predators",
+          "authors": "Fabrizio Sergio, Haruki Natsukawa, Alessandro Tanferna, Javier Chicano, Francisco Carro, Ramón C. Soriguer, Fernando Hiraldo, Julio Blas",
+          "abstract": "Interactions among species are increasingly recognized as key determinants of climate change impacts on ecosystems 1–5 . However, we know little about how climatic perturbations affect interactions among top vertebrate predators. Here we show that, when an emergent disease caused the decline of shared prey (rabbits), after decades of neutral co-existence a mammalian carnivore (lynx) started to prey heavily on a top predatory raptor (kites). These predation bouts occurred exclusively under drought conditions and when lynx found rabbit remains under the raptor nests, consistent with the removal of a potential competitor. Drought-induced lynx predation depressed lifetime reproductive success and triggered territory abandonment and dispersal by the raptor, suggestive of a new arms race among predators. A reduction in raptor abundance was associated with an increase in an insectivorous bird (a small owl), showing that the new interaction had the potential to reach lower trophic levels. These results underline the importance of diet flexibility and mobility as important mediators of resilience to stressors. In the future, synergistic effects of multiple anthropogenic stressors may reshape the interactions and ecological roles of many apex predators, with potential cascading consequences for whole ecosystems. A key to forecasting the future impact of global change may reside in understanding how behavioural flexibility and interacting keystone species respond to interacting shocks.",
+          "url": "https://doi.org/10.1038/s41586-026-11194-z",
+          "doi": "https://doi.org/10.1038/s41586-026-11194-z",
           "filter": "2",
-          "created": "2026-10-19"
+          "created": "2026-10-21"
         },
         {
           "title": "De novo design of enantioselective artificial metalloenzyme photocatalysts",
@@ -175,13 +176,12 @@
           "created": "2026-10-21"
         },
         {
-          "title": "Drought and disease trigger novel interactions among top predators",
-          "authors": "Fabrizio Sergio, Haruki Natsukawa, Alessandro Tanferna, Javier Chicano, Francisco Carro, Ramón C. Soriguer, Fernando Hiraldo, Julio Blas",
-          "abstract": "Interactions among species are increasingly recognized as key determinants of climate change impacts on ecosystems 1–5 . However, we know little about how climatic perturbations affect interactions among top vertebrate predators. Here we show that, when an emergent disease caused the decline of shared prey (rabbits), after decades of neutral co-existence a mammalian carnivore (lynx) started to prey heavily on a top predatory raptor (kites). These predation bouts occurred exclusively under drought conditions and when lynx found rabbit remains under the raptor nests, consistent with the removal of a potential competitor. Drought-induced lynx predation depressed lifetime reproductive success and triggered territory abandonment and dispersal by the raptor, suggestive of a new arms race among predators. A reduction in raptor abundance was associated with an increase in an insectivorous bird (a small owl), showing that the new interaction had the potential to reach lower trophic levels. These results underline the importance of diet flexibility and mobility as important mediators of resilience to stressors. In the future, synergistic effects of multiple anthropogenic stressors may reshape the interactions and ecological roles of many apex predators, with potential cascading consequences for whole ecosystems. A key to forecasting the future impact of global change may reside in understanding how behavioural flexibility and interacting keystone species respond to interacting shocks.",
-          "url": "https://doi.org/10.1038/s41586-026-11194-z",
-          "doi": "https://doi.org/10.1038/s41586-026-11194-z",
+          "title": "Author Correction: Long-read sequencing reveals pre-meiotic gene conversion in sperm",
+          "authors": "Regev Schweiger, Sangjin Lee, Chenxi Zhou, Tsun-Po Yang, Stacy Li, Rashesh Sanghvi, Matthew Neville, Katie Smith, Kirsty Roberts, Ayrun Nessa, Sam Wadge, Kerrin S. Small, Peter J. Campbell, Kristian Almstrup, Peter H. Sudmant, Raheleh Rahbari, Richard Durbin",
+          "url": "https://doi.org/10.1038/s41586-026-11290-0",
+          "doi": "https://doi.org/10.1038/s41586-026-11290-0",
           "filter": "2",
-          "created": "2026-10-21"
+          "created": "2026-10-19"
         },
         {
           "title": "Amazon carbon emissions driven by human actions amplified by droughts",
@@ -220,20 +220,20 @@
           "created": "2026-10-21"
         },
         {
-          "title": "Programmable design of functional proteins from natural language",
-          "authors": "Fengyuan Dai, Shiyang You, Yudian Zhu, Yuan Gao, Lihao Fu, Xibin Zhou, Jin Su, Chentong Wang, Yuliang Fan, Qingsong Tan, Xiaoxiao Ma, Xianjun Deng, Letong Yu, Hui Qian, Yan He, Yitao Ke, Zhe Zhang, Chenchen Han, Xing Chang, Liangzhen Zheng, Sheng Wang, Yuan Ji, Kexin Hao, Longxing Cao, Yajie Wang, Anping Zeng, Shunzhi Wang, Chunjun Zhan, Jing Zhao, Tong Si, Jianming Liu, Hongyuan Lu, Fajie Yuan",
-          "abstract": "Programming biological function—designing bespoke proteins to perform specified molecular tasks—is a foundational goal of molecular engineering. However, current design models remain fundamentally limited1,2,3: they typically require either natural proteins as starting points for optimization or manual reformulation of functional goals as geometric and sequence-level constraints to guide candidate generation. Here we introduce Pinal, a 16-billion-parameter foundation model that designs candidate proteins from natural-language descriptions of desired function. Trained on 1.7 billion synthetically annotated protein–text pairs, Pinal links functional intent to protein sequence and structure. In computational evaluations, generated candidates combined high predicted foldability with functional-description alignment and sequence diversity, providing a basis for prioritizing experimentally testable designs. We applied Pinal to four distinct design tasks—a fluorescent protein, a polyethylene terephthalate hydrolase, an alcohol dehydrogenase and a metabolic H-protein—and experimentally observed the intended function in each case, including catalytic activity for both designed enzymes. Without iterative experimental optimization, a Pinal-designed H-protein increased product titre by 1.7-fold relative to the corresponding native Escherichia coli H-protein in a multi-enzyme CO2 fixation pathway. These findings support natural language as a high-level interface for candidate generation in protein design, enabling programmable exploration with reduced reliance on manually specified structural or sequence constraints.",
-          "url": "https://doi.org/10.1038/s41586-026-11205-z",
-          "doi": "https://doi.org/10.1038/s41586-026-11205-z",
-          "filter": "2",
-          "created": "2026-10-21"
-        },
-        {
           "title": "Touch-sensing digital pixel fibre enables interactive garment GUI",
           "authors": "Heng Fu, Ziang Li, Swetika Chaturvedi, Xiaoyu Zhang, Xiaolong Li, Qianyi Li, Tural Khudiyev",
           "abstract": "Wearable computing promises to transform human interaction with information, yet conventional graphical user interfaces (GUIs) rely on planar, rigid displays incompatible with textiles, which are composed of one-dimensional fibres. Despite recent progress1,2 in flexible and fibre-based displays, bridging this fundamental dimensional mismatch remains challenging because existing approaches do not naturally provide the digitally addressable, high-throughput, information-rich interfaces required for interactive GUIs. Here we present a digital pixel fibre integrating addressable pixels, a common propagation-axis interconnection for scalable in-fibre circuitry and a coaxial sensing layer for fibre-level touch localization. Microelectronic components and a touch-gated resistive path system form a linear circuit that acts as both an interactive display backbone and a computational bus, while peripheral multimodal fibre sensors and actuators enable physiological, inertial, optical, and acoustic input and output. We integrate these fibres into the forearm portion of a garment sleeve to realize a GUI with a 96 × 54-pixel display, 30-frame-per-second refresh rate and 8-bit colour depth. It supports dynamic graphics, integrated audio–video playback, wireless data exchange and interactive computing functions, while maintaining the flexibility, washability, breathability and mechanical robustness of everyday textiles. By merging display, sensing and computation within a single fibre, this work establishes a scalable platform for intrinsically interactive textiles, opening pathways toward garments that operate as fully integrated computational systems.",
           "url": "https://doi.org/10.1038/s41586-026-11128-9",
           "doi": "https://doi.org/10.1038/s41586-026-11128-9",
+          "filter": "2",
+          "created": "2026-10-21"
+        },
+        {
+          "title": "Programmable design of functional proteins from natural language",
+          "authors": "Fengyuan Dai, Shiyang You, Yudian Zhu, Yuan Gao, Lihao Fu, Xibin Zhou, Jin Su, Chentong Wang, Yuliang Fan, Qingsong Tan, Xiaoxiao Ma, Xianjun Deng, Letong Yu, Hui Qian, Yan He, Yitao Ke, Zhe Zhang, Chenchen Han, Xing Chang, Liangzhen Zheng, Sheng Wang, Yuan Ji, Kexin Hao, Longxing Cao, Yajie Wang, Anping Zeng, Shunzhi Wang, Chunjun Zhan, Jing Zhao, Tong Si, Jianming Liu, Hongyuan Lu, Fajie Yuan",
+          "abstract": "Programming biological function—designing bespoke proteins to perform specified molecular tasks—is a foundational goal of molecular engineering. However, current design models remain fundamentally limited1,2,3: they typically require either natural proteins as starting points for optimization or manual reformulation of functional goals as geometric and sequence-level constraints to guide candidate generation. Here we introduce Pinal, a 16-billion-parameter foundation model that designs candidate proteins from natural-language descriptions of desired function. Trained on 1.7 billion synthetically annotated protein–text pairs, Pinal links functional intent to protein sequence and structure. In computational evaluations, generated candidates combined high predicted foldability with functional-description alignment and sequence diversity, providing a basis for prioritizing experimentally testable designs. We applied Pinal to four distinct design tasks—a fluorescent protein, a polyethylene terephthalate hydrolase, an alcohol dehydrogenase and a metabolic H-protein—and experimentally observed the intended function in each case, including catalytic activity for both designed enzymes. Without iterative experimental optimization, a Pinal-designed H-protein increased product titre by 1.7-fold relative to the corresponding native Escherichia coli H-protein in a multi-enzyme CO2 fixation pathway. These findings support natural language as a high-level interface for candidate generation in protein design, enabling programmable exploration with reduced reliance on manually specified structural or sequence constraints.",
+          "url": "https://doi.org/10.1038/s41586-026-11205-z",
+          "doi": "https://doi.org/10.1038/s41586-026-11205-z",
           "filter": "2",
           "created": "2026-10-21"
         },
@@ -279,14 +279,6 @@
           "created": "2026-10-19"
         },
         {
-          "title": "First person infected with rare Shamonda virus: what we know",
-          "authors": "Rachel Fieldhouse",
-          "url": "https://doi.org/10.1038/d41586-026-03416-1",
-          "doi": "https://doi.org/10.1038/d41586-026-03416-1",
-          "filter": "4",
-          "created": "2026-10-23"
-        },
-        {
           "title": "Elizabeth Holmes film enthralls — but her legacy haunts science",
           "authors": "Kaia Glickman, Max Kozlov",
           "url": "https://doi.org/10.1038/d41586-026-03383-7",
@@ -303,18 +295,18 @@
           "created": "2026-10-21"
         },
         {
+          "title": "First person infected with rare Shamonda virus: what we know",
+          "authors": "Rachel Fieldhouse",
+          "url": "https://doi.org/10.1038/d41586-026-03416-1",
+          "doi": "https://doi.org/10.1038/d41586-026-03416-1",
+          "filter": "4",
+          "created": "2026-10-23"
+        },
+        {
           "title": "Using AI to offer personalized health advice",
           "authors": "Emma Pierson",
           "url": "https://doi.org/10.1038/d41586-026-03065-4",
           "doi": "https://doi.org/10.1038/d41586-026-03065-4",
-          "filter": "4",
-          "created": "2026-10-21"
-        },
-        {
-          "title": "To heal sick cities, scientists and residents must work together",
-          "authors": "Sarah Wild",
-          "url": "https://doi.org/10.1038/d41586-026-03161-5",
-          "doi": "https://doi.org/10.1038/d41586-026-03161-5",
           "filter": "4",
           "created": "2026-10-21"
         },
@@ -325,6 +317,14 @@
           "doi": "https://doi.org/10.1038/d41586-026-03275-w",
           "filter": "4",
           "created": "2026-10-19"
+        },
+        {
+          "title": "To heal sick cities, scientists and residents must work together",
+          "authors": "Sarah Wild",
+          "url": "https://doi.org/10.1038/d41586-026-03161-5",
+          "doi": "https://doi.org/10.1038/d41586-026-03161-5",
+          "filter": "4",
+          "created": "2026-10-21"
         },
         {
           "title": "Conservation planning should follow animal clocks",
@@ -415,18 +415,18 @@
           "created": "2026-10-22"
         },
         {
-          "title": "Teen depression and anxiety predicted by childhood brain development",
-          "authors": "Max Kozlov",
-          "url": "https://doi.org/10.1038/d41586-026-03357-9",
-          "doi": "https://doi.org/10.1038/d41586-026-03357-9",
-          "filter": "4",
-          "created": "2026-10-21"
-        },
-        {
           "title": "Robert Williamson obituary: geneticist who mapped genes for muscular dystrophy and cystic fibrosis",
           "authors": "Kay E. Davies",
           "url": "https://doi.org/10.1038/d41586-026-03375-7",
           "doi": "https://doi.org/10.1038/d41586-026-03375-7",
+          "filter": "4",
+          "created": "2026-10-21"
+        },
+        {
+          "title": "Teen depression and anxiety predicted by childhood brain development",
+          "authors": "Max Kozlov",
+          "url": "https://doi.org/10.1038/d41586-026-03357-9",
+          "doi": "https://doi.org/10.1038/d41586-026-03357-9",
           "filter": "4",
           "created": "2026-10-21"
         },
@@ -495,20 +495,20 @@
           "created": "2026-10-21"
         },
         {
-          "title": "It’s time to teach peer review as a core research skill",
-          "authors": "Pailin Chiaranunt, Amy C. Fan",
-          "url": "https://doi.org/10.1038/d41586-026-03200-1",
-          "doi": "https://doi.org/10.1038/d41586-026-03200-1",
-          "filter": "4",
-          "created": "2026-10-20"
-        },
-        {
           "title": "Memory stays strong in old age when this brain enzyme is active",
           "authors": "Asher Mullard",
           "url": "https://doi.org/10.1038/d41586-026-03303-9",
           "doi": "https://doi.org/10.1038/d41586-026-03303-9",
           "filter": "4",
           "created": "2026-10-19"
+        },
+        {
+          "title": "It’s time to teach peer review as a core research skill",
+          "authors": "Pailin Chiaranunt, Amy C. Fan",
+          "url": "https://doi.org/10.1038/d41586-026-03200-1",
+          "doi": "https://doi.org/10.1038/d41586-026-03200-1",
+          "filter": "4",
+          "created": "2026-10-20"
         },
         {
           "title": "Will this sleep-disorder drug be the next big blockbuster?",
@@ -791,6 +791,15 @@
       ],
       "articles_hidden": [
         {
+          "title": "Signal peptides for engineered protein secretion by free and hydrogel-encapsulated cyanobacteria",
+          "authors": "Nathan T. Soulier, Debika Datta, Rakefet Schwarz, Jonathan K. Pokorski, James W. Golden, Susan S. Golden",
+          "abstract": "Cyanobacteria provide a promising platform for light-driven heterologous protein production. In heterologous production systems, cells are typically lysed for product purification or to facilitate interaction with external substrates, unless the product is secreted. Fusion to molecular “shipping labels” known as signal peptides can target chimeric proteins to native membrane translocation pathways and result in secretion. In this work, we identified signal peptides from the model cyanobacterium Synechococcus elongatus PCC 7942 ( S. elongatus ) and genetically fused to two heterologous enzymes: the reporter nanoluciferase (NLuc) and an oxidative laccase (CotA). Increased extracellular activity was observed for one or more signal-protein variants for both enzymes. Furthermore, cells of S. elongatus producing a signal-laccase chimera were encapsulated within an alginate hydrogel, and the resulting engineered living material released sufficient enzyme to decolorize a dye pollutant in its surroundings. These findings streamline recombinant protein production in cyanobacteria and facilitate environmental interactions with cell products, expanding the potential applications of both free-living and material-encapsulated cyanobacteria.",
+          "url": "https://doi.org/10.1073/pnas.2624792123",
+          "doi": "https://doi.org/10.1073/pnas.2624792123",
+          "filter": "2",
+          "created": "2026-10-21"
+        },
+        {
           "title": "A functional two-pore-domain K + channel from a large DNA virus",
           "authors": "Oliver Rauh, Sebastian Mach, Oliver Clarke, Jonas Toews, James L. Van Etten, Mike Althaus, Anna Moroni, Gerhard Thiel",
           "abstract": "The evolutionary history of proteins helps to understand their structure/function correlates and suggests on how functional complexity evolved from primitive precursors. In the superfamily of K + channels, functional features of complex eukaryotic inward rectifier (Kir) channels and voltage-dependent (Kv) channels could be understood in terms of an increase in structural complexity of their prokaryotic precursors. K2P channels, which are made from tandem repeats of two pore domains, are not found in prokaryotes and their evolutionary origin is still unknown. In searching for primitive K2P channel precursors, we screened the genomes of nucleocytoplasmic large DNA viruses (NCLDVs) for genes coding for K2P channels. This was motivated by two reasons: NCLDVs are already known for coding primitive Kir type channels, and they play important roles in the evolution of eukaryotes. Here, we report that the NCLDV Pyramimonas orientalis virus codes for K2P-like K + channels. With only 178 amino acids and no cytosolic domains, this Kpov protein is much smaller than any eukaryotic K2P channel, but still functional as K + selective channel in lipid bilayers. Phylogenetic analysis suggests that Kpov is not the product of molecular piracy from the host but may result from fusion of primitive viral K + channel pore domains.",
@@ -800,13 +809,13 @@
           "created": "2026-10-23"
         },
         {
-          "title": "Signal peptides for engineered protein secretion by free and hydrogel-encapsulated cyanobacteria",
-          "authors": "Nathan T. Soulier, Debika Datta, Rakefet Schwarz, Jonathan K. Pokorski, James W. Golden, Susan S. Golden",
-          "abstract": "Cyanobacteria provide a promising platform for light-driven heterologous protein production. In heterologous production systems, cells are typically lysed for product purification or to facilitate interaction with external substrates, unless the product is secreted. Fusion to molecular “shipping labels” known as signal peptides can target chimeric proteins to native membrane translocation pathways and result in secretion. In this work, we identified signal peptides from the model cyanobacterium Synechococcus elongatus PCC 7942 ( S. elongatus ) and genetically fused to two heterologous enzymes: the reporter nanoluciferase (NLuc) and an oxidative laccase (CotA). Increased extracellular activity was observed for one or more signal-protein variants for both enzymes. Furthermore, cells of S. elongatus producing a signal-laccase chimera were encapsulated within an alginate hydrogel, and the resulting engineered living material released sufficient enzyme to decolorize a dye pollutant in its surroundings. These findings streamline recombinant protein production in cyanobacteria and facilitate environmental interactions with cell products, expanding the potential applications of both free-living and material-encapsulated cyanobacteria.",
-          "url": "https://doi.org/10.1073/pnas.2624792123",
-          "doi": "https://doi.org/10.1073/pnas.2624792123",
+          "title": "Bridging spatial scales in respiratory viral infection",
+          "authors": "Ulrik Hvid, Bjarke Frost Nielsen, Kim Sneppen",
+          "abstract": "Respiratory viruses spread within the host through a combination of local expansion and occasional long-range dissemination that seeds new infection foci. We present LEAP (Lotka-Euler Airway Pathogen model), an analytically tractable within-host model that captures this two-scale process. The model takes the form of an age-dependent branching process and yields a closed-form expression for the exponential growth rate during early infection. Using empirical data to parameterize the model, we find that productive dissemination requires only a small number of successful long-range seeding events per infected cell, with distinct values for SARS-CoV-2 and influenza A virus. LEAP further predicts that, in these well-adapted viruses, interferon-mediated restriction only weakly affects exponential growth, while remaining decisive for poorly adapted pathogens. More broadly, the model provides a flexible framework for experimentally testable predictions of early infection dynamics.",
+          "url": "https://doi.org/10.1073/pnas.2614436123",
+          "doi": "https://doi.org/10.1073/pnas.2614436123",
           "filter": "2",
-          "created": "2026-10-21"
+          "created": "2026-10-20"
         },
         {
           "title": "Understory diversity is positively associated with overstory carbon sequestration",
@@ -827,13 +836,13 @@
           "created": "2026-10-19"
         },
         {
-          "title": "Bridging spatial scales in respiratory viral infection",
-          "authors": "Ulrik Hvid, Bjarke Frost Nielsen, Kim Sneppen",
-          "abstract": "Respiratory viruses spread within the host through a combination of local expansion and occasional long-range dissemination that seeds new infection foci. We present LEAP (Lotka-Euler Airway Pathogen model), an analytically tractable within-host model that captures this two-scale process. The model takes the form of an age-dependent branching process and yields a closed-form expression for the exponential growth rate during early infection. Using empirical data to parameterize the model, we find that productive dissemination requires only a small number of successful long-range seeding events per infected cell, with distinct values for SARS-CoV-2 and influenza A virus. LEAP further predicts that, in these well-adapted viruses, interferon-mediated restriction only weakly affects exponential growth, while remaining decisive for poorly adapted pathogens. More broadly, the model provides a flexible framework for experimentally testable predictions of early infection dynamics.",
-          "url": "https://doi.org/10.1073/pnas.2614436123",
-          "doi": "https://doi.org/10.1073/pnas.2614436123",
+          "title": "Molecular fossils of an ancestral code revealed by large-scale analysis of tRNAs",
+          "authors": "Ash Nova Royo, Paula Martín-Cabezas, Sergey Ovchinnikov, Paul Schimmel, Lluís Ribas de Pouplana",
+          "abstract": "Modern tRNAs are thought to have evolved from simpler RNA minihelices resembling acceptor stems, some of which could be specifically aminoacylated. A central and testable prediction of minihelix-based models is that vestiges of ancestral coding relationships should remain embedded within the acceptor stems of contemporary tRNAs and should persist after correction for structural constraints. Here, we ask whether cognate anticodon-like triplets are statistically enriched in nonanticodon regions of modern tRNAs beyond what would be expected from structural and compositional constraints alone. Using a curated dataset of 77,335 canonical tRNA sequences and a structure-aware statistical framework, we find that for a subset of amino acids cognate anticodon-like triplets are significantly enriched in acceptor stems and, to a lesser extent, in other structural domains. Notably, these amino acids include those previously shown to support specific minihelix aminoacylation [Y. M. Hou, P. Schimmel, Nature 333 , 140–145 (1988); C. Francklyn, P. Schimmel, Nature 337 , 478–481 (1989)]. The strongest acceptor-stem signals survive structure-preserving null models, and cluster nonrandomly against proposed chronologies of amino acid incorporation into the genetic code. Together, these findings identify molecular fossils within modern tRNAs consistent with the persistence of an ancestral operational code, and provide refined statistical support for the notion that extant codon–amino acid relationships evolved from early aminoacylation systems involving RNA minihelices.",
+          "url": "https://doi.org/10.1073/pnas.2627541123",
+          "doi": "https://doi.org/10.1073/pnas.2627541123",
           "filter": "2",
-          "created": "2026-10-20"
+          "created": "2026-10-21"
         },
         {
           "title": "The survival paradox of close-in planets orbiting red-clump giants",
@@ -843,15 +852,6 @@
           "doi": "https://doi.org/10.1073/pnas.2603847123",
           "filter": "2",
           "created": "2026-10-22"
-        },
-        {
-          "title": "Molecular fossils of an ancestral code revealed by large-scale analysis of tRNAs",
-          "authors": "Ash Nova Royo, Paula Martín-Cabezas, Sergey Ovchinnikov, Paul Schimmel, Lluís Ribas de Pouplana",
-          "abstract": "Modern tRNAs are thought to have evolved from simpler RNA minihelices resembling acceptor stems, some of which could be specifically aminoacylated. A central and testable prediction of minihelix-based models is that vestiges of ancestral coding relationships should remain embedded within the acceptor stems of contemporary tRNAs and should persist after correction for structural constraints. Here, we ask whether cognate anticodon-like triplets are statistically enriched in nonanticodon regions of modern tRNAs beyond what would be expected from structural and compositional constraints alone. Using a curated dataset of 77,335 canonical tRNA sequences and a structure-aware statistical framework, we find that for a subset of amino acids cognate anticodon-like triplets are significantly enriched in acceptor stems and, to a lesser extent, in other structural domains. Notably, these amino acids include those previously shown to support specific minihelix aminoacylation [Y. M. Hou, P. Schimmel, Nature 333 , 140–145 (1988); C. Francklyn, P. Schimmel, Nature 337 , 478–481 (1989)]. The strongest acceptor-stem signals survive structure-preserving null models, and cluster nonrandomly against proposed chronologies of amino acid incorporation into the genetic code. Together, these findings identify molecular fossils within modern tRNAs consistent with the persistence of an ancestral operational code, and provide refined statistical support for the notion that extant codon–amino acid relationships evolved from early aminoacylation systems involving RNA minihelices.",
-          "url": "https://doi.org/10.1073/pnas.2627541123",
-          "doi": "https://doi.org/10.1073/pnas.2627541123",
-          "filter": "2",
-          "created": "2026-10-21"
         },
         {
           "title": "Reduction of aflatoxin contamination in maize kernels mediated by host-induced gene silencing",
@@ -899,15 +899,6 @@
           "created": "2026-10-20"
         },
         {
-          "title": "Magnetically guided programmable thermomechanical protection enabled by biomimetic asymmetric design",
-          "authors": "Zimu Li, Jianfeng Huang, Sheng Wang, Jianpeng Wu, Shuai Liu, Zhihao Hu, Guilin Mei, Xinglong Gong",
-          "abstract": "Precision instruments operating in harsh environments require protective materials that can dissipate impact energy while resisting heat. However, actively tunable thermomechanical protection under coupled multiphysics conditions remains challenging. Inspired by shellfish and echinoderms, here we show that an asymmetrically engineered shear-stiffening gel (SSG) yields a Janus magnetorheological elastomer whose two faces mimic the brick-and-mortar architecture of shellfish and the impact-hardening behavior of echinoderms, respectively. Unlike single-modification anti-creep strategies of SSG that degrade shear-stiffening or severely increase initial modulus, our design achieves a 40-fold mechanical tunability, with the storage modulus ranging from 11.29 to 450.28 kPa, arising from the synergistic enhancement of strain-rate-dependent stiffening and magnetic interactions. The integration of magnetic and optical functions enables semiactive noncontact 2D-to-3D protection, achieving an 85% reduction in impact force and a 40 °C temperature difference via bidirectional photothermal regulation, demonstrating competitive thermomechanical protection performance. Furthermore, this strategy establishes a magnetically guided programmable pathway for thermomechanical protection and provides a generalizable blueprint for multifunctional intelligent materials, advancing protective technologies for outdoor equipment operating in extreme environments involving coupled physical fields.",
-          "url": "https://doi.org/10.1073/pnas.2615691123",
-          "doi": "https://doi.org/10.1073/pnas.2615691123",
-          "filter": "2",
-          "created": "2026-10-20"
-        },
-        {
           "title": "Translational control of microglial metabolism, inflammatory responses, and survival by the eIF4E-binding proteins",
           "authors": "Sara Bermudez, Jung-Hyun Choi, Niaz Mahmood, Jacob W. Vogel, Hashem Almousa, Ziying Huang, Sung-Hoon Kim, Vivian Yuchan Zhu, Linqiao Zhou, Diana Casas-Antillon, Moein Yaqubi, Danielle Cozachenco, Jo Anne Stratton, Oskar Hansson, Luke Healy, Argel Aguilar-Valles, Nahum Sonenberg",
           "abstract": "In Alzheimer’s disease (AD), activation of the mechanistic target of rapamycin (mTOR) pathway promotes microglial neuroprotective functions by engaging multiple cell receptors. However, the relevant downstream effectors are not fully understood. mTOR complex 1 (mTORC1) promotes mRNA translation by phosphorylating and inactivating eukaryotic translation initiation factor 4E-binding protein 1 and 2 (4E-BP1/2), which are expressed in microglia. 4E-BP1 levels in cerebrospinal fluid (CSF) are elevated in AD and correlate with markers of microglial reactivity and disease progression. Using linear regression analysis, we found that elevated CSF 4E-BP1 levels strengthen the association between soluble TREM2 levels and neurodegeneration in amyloid-positive individuals. To investigate the underlying mechanism, we performed in vitro experiments demonstrating that amyloid-β inactivated 4E-BP1 in murine microglia. The mTOR-mediated inactivation is highly dependent on Spleen Tyrosine Kinase (SYK) signaling and repeated exposure to amyloid-β impaired this process, whereas prolonged exposure increased 4E-BP1 levels in microglia. Deletion of 4E-BP1/2 resulted in increased mitochondrial mass and oxidative phosphorylation, reduced pro-inflammatory signaling, and protected microglia from amyloid-induced apoptosis. Thus, impaired 4E-BP1 inactivation—due to reduced mTOR signaling or excess 4E-BP1—disrupts immune resolution, leading to metabolic exhaustion and microglial cell death. We identify the SYK–mTORC1–4E-BP1 signaling axis as a key regulator of microglial mitochondrial biogenesis and immune resolution in AD.",
@@ -915,6 +906,15 @@
           "doi": "https://doi.org/10.1073/pnas.2610766123",
           "filter": "2",
           "created": "2026-10-21"
+        },
+        {
+          "title": "Magnetically guided programmable thermomechanical protection enabled by biomimetic asymmetric design",
+          "authors": "Zimu Li, Jianfeng Huang, Sheng Wang, Jianpeng Wu, Shuai Liu, Zhihao Hu, Guilin Mei, Xinglong Gong",
+          "abstract": "Precision instruments operating in harsh environments require protective materials that can dissipate impact energy while resisting heat. However, actively tunable thermomechanical protection under coupled multiphysics conditions remains challenging. Inspired by shellfish and echinoderms, here we show that an asymmetrically engineered shear-stiffening gel (SSG) yields a Janus magnetorheological elastomer whose two faces mimic the brick-and-mortar architecture of shellfish and the impact-hardening behavior of echinoderms, respectively. Unlike single-modification anti-creep strategies of SSG that degrade shear-stiffening or severely increase initial modulus, our design achieves a 40-fold mechanical tunability, with the storage modulus ranging from 11.29 to 450.28 kPa, arising from the synergistic enhancement of strain-rate-dependent stiffening and magnetic interactions. The integration of magnetic and optical functions enables semiactive noncontact 2D-to-3D protection, achieving an 85% reduction in impact force and a 40 °C temperature difference via bidirectional photothermal regulation, demonstrating competitive thermomechanical protection performance. Furthermore, this strategy establishes a magnetically guided programmable pathway for thermomechanical protection and provides a generalizable blueprint for multifunctional intelligent materials, advancing protective technologies for outdoor equipment operating in extreme environments involving coupled physical fields.",
+          "url": "https://doi.org/10.1073/pnas.2615691123",
+          "doi": "https://doi.org/10.1073/pnas.2615691123",
+          "filter": "2",
+          "created": "2026-10-20"
         },
         {
           "title": "Catalytic reactive-hydrogen membranes for rapid capture and hydrodefluorination of six PFAS of regulatory concern",
@@ -961,15 +961,6 @@
           "created": "2026-10-19"
         },
         {
-          "title": "Virus transmission required for maintenance and host adaptation mirrors neurophysiological differences in rabies-derived peptides",
-          "authors": "Alice Remal, Emily S. Acheson, Patrick A. Leighton, Erin E. Rees, John Rhodes, Brittany C. V. O’Brien, Maegan M. Weltzin, Karsten Hueffer",
-          "abstract": "Pathogen adaptations to new hosts are central to the disease ecology of cross-species transmission and host switching of viruses. The rabies virus is a model for adaptations to different hosts as it induces behavioral changes that facilitate transmission, while being maintained in distinct species-specific cycles of infection. Here, we demonstrate that the rabies virus requires distinct transmission dynamics in two hosts with different ecologies to establish maintenance, using agent-based modeling, analyses of virus glycoprotein-mediated manipulation of neuroreceptor function, and phylogenetic analysis. Epidemiological models suggest that rabies virus variants adapted to arctic foxes, which sustain rabies virus at very low host densities, require a higher probability of transmission than viruses adapted to raccoons. Using in vitro electrophysiology, we demonstrate that the rabies glycoprotein-derived peptides from arctic fox rabies variants are more potent antagonists of alpha7 nicotinic acetylcholine receptors. These findings suggest a possible functional basis for the behavioral modifications that drive enzootic rabies transmission in the context of host ecology. In addition, a large proportion of residues that may drive rabies virus adaptation to raccoons and arctic foxes are found within this neurotoxin-like region. Furthermore, a residue in the neurotoxin-like region of the mature rabies virus glycoprotein (residue 183) has been associated with pathogenicity, host switching, and disease ecology in previous studies. We propose the hypothesis that rabies virus transmission dynamics adapt to the ecology and physiology of novel hosts through the selection of glycoproteins that elicit specific degrees of behavioral modification and transmission probability.",
-          "url": "https://doi.org/10.1073/pnas.2618744123",
-          "doi": "https://doi.org/10.1073/pnas.2618744123",
-          "filter": "2",
-          "created": "2026-10-22"
-        },
-        {
           "title": "A tunable immune-evasion function of Zika virus NS5 governs viral fitness and pathogenesis",
           "authors": "Yu Zhang, Yaqing Zhang, Chengyu Liu, Wenlin Ren, Yu Zhao, Chenhao Li, Yongqi Guo, Leyi Bai, Peigang Wang, Jing An, Jun Liu, Qiang Ding",
           "abstract": "Type I interferon (IFN) signaling is a central antiviral defense, with STAT2 driving the expression of IFN-stimulated genes (ISGs) to restrict viral infection. Zika virus (ZIKV) and dengue virus evade this pathway through nonstructural protein 5 (NS5)-mediated ubiquitination and proteasomal degradation of STAT2, yet the contribution of this immune-evasion strategy to viral fitness and pathogenesis remains incompletely defined. Here, using a multistep mutational scanning strategy that jointly assessed STAT2 degradation and viral RNA replication, we identified a single NS5 residue, L162, as uniquely permissive to substitution that abolishes STAT2 degradation without compromising intrinsic replication functions. Substitution of L162 with alanine or glycine (L162A or L162G) selectively disrupted NS5 recruitment of the ZSWIM8-CUL3 E3 ubiquitin ligase, thereby preserving STAT2 stability and restoring IFN signaling. Recombinant ZIKV carrying these mutations exhibited reduced replication and enhanced ISG induction in human cells, defects fully rescued by STAT2 knockout. In A129 mice (type I IFN receptor deficient), mutant and WT viruses replicated comparably, but in human STAT2 knock-in mice, ZIKV-NS5 L162G exhibited markedly reduced viral loads and disease. In pregnant human STAT2 knock-in mice, the mutant also reduced placental and fetal viral burdens and adverse pregnancy outcomes. Notably, infection with ZIKV-NS5 L162G elicited robust neutralizing antibody and T cell responses that conferred protection against WT challenge. Together, these findings establish NS5-mediated STAT2 degradation as a central determinant of ZIKV immune-evasion, viral fitness, and pathogenesis and highlight disruption of NS5–STAT2 antagonism as a promising strategy for antiviral intervention and rational attenuation.",
@@ -977,6 +968,15 @@
           "doi": "https://doi.org/10.1073/pnas.2630605123",
           "filter": "2",
           "created": "2026-10-20"
+        },
+        {
+          "title": "Virus transmission required for maintenance and host adaptation mirrors neurophysiological differences in rabies-derived peptides",
+          "authors": "Alice Remal, Emily S. Acheson, Patrick A. Leighton, Erin E. Rees, John Rhodes, Brittany C. V. O’Brien, Maegan M. Weltzin, Karsten Hueffer",
+          "abstract": "Pathogen adaptations to new hosts are central to the disease ecology of cross-species transmission and host switching of viruses. The rabies virus is a model for adaptations to different hosts as it induces behavioral changes that facilitate transmission, while being maintained in distinct species-specific cycles of infection. Here, we demonstrate that the rabies virus requires distinct transmission dynamics in two hosts with different ecologies to establish maintenance, using agent-based modeling, analyses of virus glycoprotein-mediated manipulation of neuroreceptor function, and phylogenetic analysis. Epidemiological models suggest that rabies virus variants adapted to arctic foxes, which sustain rabies virus at very low host densities, require a higher probability of transmission than viruses adapted to raccoons. Using in vitro electrophysiology, we demonstrate that the rabies glycoprotein-derived peptides from arctic fox rabies variants are more potent antagonists of alpha7 nicotinic acetylcholine receptors. These findings suggest a possible functional basis for the behavioral modifications that drive enzootic rabies transmission in the context of host ecology. In addition, a large proportion of residues that may drive rabies virus adaptation to raccoons and arctic foxes are found within this neurotoxin-like region. Furthermore, a residue in the neurotoxin-like region of the mature rabies virus glycoprotein (residue 183) has been associated with pathogenicity, host switching, and disease ecology in previous studies. We propose the hypothesis that rabies virus transmission dynamics adapt to the ecology and physiology of novel hosts through the selection of glycoproteins that elicit specific degrees of behavioral modification and transmission probability.",
+          "url": "https://doi.org/10.1073/pnas.2618744123",
+          "doi": "https://doi.org/10.1073/pnas.2618744123",
+          "filter": "2",
+          "created": "2026-10-22"
         },
         {
           "title": "Widespread plasma jets in the Martian magnetosheath revealed by dual-spacecraft observations",
@@ -1140,13 +1140,13 @@
           "created": "2026-10-23"
         },
         {
-          "title": "Immense but not immutable: A sudden and sustained decline in deep-pelagic life in a large oceanic ecosystem",
-          "authors": "Tracey T. Sutton, Rosanna J. Milligan, April B. Cook, Kevin M. Boswell, Heather Bracken-Grissom, Tamara Frank, Heather Judkins, Jon A. Moore, Isabel C. Romero, Michael Vecchione, Marta D’Elia, Matthew W. Johnston, Pedro A. Peres, Nina M. Pruzinsky, John A. Quinlan, Joseph D. Warren, Daniel R. Hahn",
-          "abstract": "The deep-pelagic habitat of the Gulf of Mexico comprises 90.4% of its volume and houses an exceptionally diverse deep-pelagic animal community that provides numerous ecosystem services, including carbon cycling and prey provisioning for oceanic predators. Here, we report sudden, severe, and persistent declines in the abundance of deep-pelagic fishes, crustaceans, and cephalopods that have persisted for over a decade. Over a 3.5-y period, animal abundances declined by 60 to 85%, taxon depending. Particularly hard-hit were ecologically foundational taxa such as euphausiids and lanternfishes. The magnitude of population-level decline that occurred during this 3.5-y period was greater than any observed over a 60-y period in the California Current system, the only comparable dataset, making this the fastest and most severe faunal decline reported for Earth’s largest ecosystem type. These declines were detected both via direct sampling and acoustic sensing, providing independent corroboration. Genomic analyses indicate reductions in genetic diversity among dominant taxa, both a corroboration and a consequence of the decline. Furthermore, resource managers report that these trends parallel those of managed or protected Gulf species that are dependent on deep-pelagic prey, including endangered species (e.g., beaked whales, Rice’s whale). No naturally occurring factors (e.g., temperature, oxygen, food supply) correlated with the observed declines, suggesting an anthropogenic proximate cause. That the declines began shortly after the Deepwater Horizon oil spill points to that event as the most parsimonious explanation. These findings suggest that despite its immense size the deep-pelagic biome is vulnerable to human-induced disturbance and possesses limited resilience to facilitate recovery.",
-          "url": "https://doi.org/10.1073/pnas.2616554123",
-          "doi": "https://doi.org/10.1073/pnas.2616554123",
+          "title": "Superlubricity by glycerosome boundary layers",
+          "authors": "Yihui Dong, Wei Cao, Roman Kamyshinsky, Nir Kampf, Panpan Zhao, Yaelle Schilt, Uri Raviv, Jacob Klein",
+          "abstract": "The search for high-performance lubricants is of broad relevance to biomedical applications, including artificial joints, regenerative scaffolds, and osteoarthritis therapies. Here we introduce glycerosomes—phosphatidylcholine (PC)-based vesicles containing glycerol—as a promising boundary lubricant. Using a surface force balance, we show that glycerosomes achieve a friction coefficient as low as 10 − 5 under a high compression pressure of 15.6 MPa, representing a 20-fold reduction compared to conventional PC liposomes. This level of lubrication surpasses any previously reported boundary lubricant system at such pressures in aqueous media. Mechanistically, glycerosomes exhibit substantially lower adhesion energy than PC liposomes, and theoretical simulations reveal enhanced vesicle stability and flexibility. Our findings establish glycerosomes as a superior hydration lubrication platform, with promising implications for both biomedical implants and industrial applications requiring robust lubricity.",
+          "url": "https://doi.org/10.1073/pnas.2612273123",
+          "doi": "https://doi.org/10.1073/pnas.2612273123",
           "filter": "2",
-          "created": "2026-10-19"
+          "created": "2026-10-22"
         },
         {
           "title": "Modeling the global potential of smart farming innovations",
@@ -1158,13 +1158,13 @@
           "created": "2026-10-19"
         },
         {
-          "title": "Superlubricity by glycerosome boundary layers",
-          "authors": "Yihui Dong, Wei Cao, Roman Kamyshinsky, Nir Kampf, Panpan Zhao, Yaelle Schilt, Uri Raviv, Jacob Klein",
-          "abstract": "The search for high-performance lubricants is of broad relevance to biomedical applications, including artificial joints, regenerative scaffolds, and osteoarthritis therapies. Here we introduce glycerosomes—phosphatidylcholine (PC)-based vesicles containing glycerol—as a promising boundary lubricant. Using a surface force balance, we show that glycerosomes achieve a friction coefficient as low as 10 − 5 under a high compression pressure of 15.6 MPa, representing a 20-fold reduction compared to conventional PC liposomes. This level of lubrication surpasses any previously reported boundary lubricant system at such pressures in aqueous media. Mechanistically, glycerosomes exhibit substantially lower adhesion energy than PC liposomes, and theoretical simulations reveal enhanced vesicle stability and flexibility. Our findings establish glycerosomes as a superior hydration lubrication platform, with promising implications for both biomedical implants and industrial applications requiring robust lubricity.",
-          "url": "https://doi.org/10.1073/pnas.2612273123",
-          "doi": "https://doi.org/10.1073/pnas.2612273123",
+          "title": "Immense but not immutable: A sudden and sustained decline in deep-pelagic life in a large oceanic ecosystem",
+          "authors": "Tracey T. Sutton, Rosanna J. Milligan, April B. Cook, Kevin M. Boswell, Heather Bracken-Grissom, Tamara Frank, Heather Judkins, Jon A. Moore, Isabel C. Romero, Michael Vecchione, Marta D’Elia, Matthew W. Johnston, Pedro A. Peres, Nina M. Pruzinsky, John A. Quinlan, Joseph D. Warren, Daniel R. Hahn",
+          "abstract": "The deep-pelagic habitat of the Gulf of Mexico comprises 90.4% of its volume and houses an exceptionally diverse deep-pelagic animal community that provides numerous ecosystem services, including carbon cycling and prey provisioning for oceanic predators. Here, we report sudden, severe, and persistent declines in the abundance of deep-pelagic fishes, crustaceans, and cephalopods that have persisted for over a decade. Over a 3.5-y period, animal abundances declined by 60 to 85%, taxon depending. Particularly hard-hit were ecologically foundational taxa such as euphausiids and lanternfishes. The magnitude of population-level decline that occurred during this 3.5-y period was greater than any observed over a 60-y period in the California Current system, the only comparable dataset, making this the fastest and most severe faunal decline reported for Earth’s largest ecosystem type. These declines were detected both via direct sampling and acoustic sensing, providing independent corroboration. Genomic analyses indicate reductions in genetic diversity among dominant taxa, both a corroboration and a consequence of the decline. Furthermore, resource managers report that these trends parallel those of managed or protected Gulf species that are dependent on deep-pelagic prey, including endangered species (e.g., beaked whales, Rice’s whale). No naturally occurring factors (e.g., temperature, oxygen, food supply) correlated with the observed declines, suggesting an anthropogenic proximate cause. That the declines began shortly after the Deepwater Horizon oil spill points to that event as the most parsimonious explanation. These findings suggest that despite its immense size the deep-pelagic biome is vulnerable to human-induced disturbance and possesses limited resilience to facilitate recovery.",
+          "url": "https://doi.org/10.1073/pnas.2616554123",
+          "doi": "https://doi.org/10.1073/pnas.2616554123",
           "filter": "2",
-          "created": "2026-10-22"
+          "created": "2026-10-19"
         },
         {
           "title": "Harry L. Swinney: Nonlinear science and chaos pioneer",
@@ -1247,15 +1247,6 @@
           "created": "2026-10-20"
         },
         {
-          "title": "Molecular basis for discrimination of cGAMP linkage isomers by a c-di-GMP-II riboswitch variant",
-          "authors": "Xiaochen Xu, Wang Cheng, Huiqin You, Zejia Hu, Xinyue Bao, Hongcheng Li, Jinzhu Zhang, Dinshaw J. Patel, Aiming Ren",
-          "abstract": "Riboswitches are noncoding RNA regulatory motifs predominantly found in bacteria. Signaling molecules such as c-di-GMP, c-di-AMP, and 3′,3′-cGAMP have been reported to be recognized by riboswitches. In contrast, 2′,3′-cGAMP functions as a second messenger in mammalian cells, yet its interaction with RNA molecules remains unclear. Here, we report the crystal structures of a c-di-GMP-II riboswitch variant, c-di-GMP-II-Bh, bound to 2′,3′-cGAMP and 3′,3′-cGAMP. Both complexes adopt a similar overall RNA scaffold with an identical binding pocket composition. However, the ligand bases adopt inverted orientations in the binding pocket, resulting in distinct interaction patterns with residues A64 and G68 and differences in base-pair stacking against the phosphodiester backbone. Structural comparison together with ligand-binding assays of structure-guided mutants using isothermal titration calorimetry reveals the molecular principles by which an RNA riboswitch discriminates among cyclic dinucleotide linkage isomers, highlighting the remarkable sensitivity of RNA binding pockets to subtle ligand structural variations and provides a mechanistic framework for understanding ligand specificity in RNA–small molecule recognition.",
-          "url": "https://doi.org/10.1073/pnas.2621568123",
-          "doi": "https://doi.org/10.1073/pnas.2621568123",
-          "filter": "2",
-          "created": "2026-10-20"
-        },
-        {
           "title": "c-FLIP loss links arrest of gene expression to TNFα-dependent antiviral guard immunity",
           "authors": "Matthew Sonnett, Sanne Boersma, Madeline E. Ward, Laura C. Van Eyndhoven, Edoardo Centofanti, Max Brambach, Changhong Zhou, David M. Knipe, Arjun Raj, Alon Oyler-Yaniv, Jennifer Oyler-Yaniv",
           "abstract": "Cells sense infection through dedicated receptors, yet these surveillance pathways are often subverted by pathogen-encoded virulence factors. Guard immunity provides complementary defense by rapidly killing infected cells in response to infection induced stress. However, the symptoms of infection frequently resemble noninfectious stress, raising the question of how they are distinguished. Using quantitative transcriptomics, proteomics, and global translation measurements during viral infections in vitro and in vivo, we show that infection globally suppresses host gene expression and prevents direct antiviral responses. However, the resulting proteostatic stress does not activate guard immunity unless tumor necrosis factor-α (TNFα) is present. We identify the anti-apoptotic protein c-FLIP as a guard for gene expression integrity: its loss sensitizes cells to TNFα, triggering cell death and limiting viral spread. Modeling demonstrates that TNFα and c-FLIP loss function as a biological AND-gate, providing specificity and speed. These findings show how cells integrate internal stress signals with external inflammatory cues to improve the fidelity of death decisions, and how this circuitry may misfire during noninfectious inflammation.",
@@ -1272,6 +1263,15 @@
           "doi": "https://doi.org/10.1073/pnas.2630481123",
           "filter": "2",
           "created": "2026-10-21"
+        },
+        {
+          "title": "Molecular basis for discrimination of cGAMP linkage isomers by a c-di-GMP-II riboswitch variant",
+          "authors": "Xiaochen Xu, Wang Cheng, Huiqin You, Zejia Hu, Xinyue Bao, Hongcheng Li, Jinzhu Zhang, Dinshaw J. Patel, Aiming Ren",
+          "abstract": "Riboswitches are noncoding RNA regulatory motifs predominantly found in bacteria. Signaling molecules such as c-di-GMP, c-di-AMP, and 3′,3′-cGAMP have been reported to be recognized by riboswitches. In contrast, 2′,3′-cGAMP functions as a second messenger in mammalian cells, yet its interaction with RNA molecules remains unclear. Here, we report the crystal structures of a c-di-GMP-II riboswitch variant, c-di-GMP-II-Bh, bound to 2′,3′-cGAMP and 3′,3′-cGAMP. Both complexes adopt a similar overall RNA scaffold with an identical binding pocket composition. However, the ligand bases adopt inverted orientations in the binding pocket, resulting in distinct interaction patterns with residues A64 and G68 and differences in base-pair stacking against the phosphodiester backbone. Structural comparison together with ligand-binding assays of structure-guided mutants using isothermal titration calorimetry reveals the molecular principles by which an RNA riboswitch discriminates among cyclic dinucleotide linkage isomers, highlighting the remarkable sensitivity of RNA binding pockets to subtle ligand structural variations and provides a mechanistic framework for understanding ligand specificity in RNA–small molecule recognition.",
+          "url": "https://doi.org/10.1073/pnas.2621568123",
+          "doi": "https://doi.org/10.1073/pnas.2621568123",
+          "filter": "2",
+          "created": "2026-10-20"
         },
         {
           "title": "Transient ATM inhibition enhances knock-in efficiency in hematopoietic stem cells by attenuating the DNA damage response",
@@ -1389,15 +1389,6 @@
           "created": "2026-10-20"
         },
         {
-          "title": "CX3CL1 (fractalkine)–CX3CR1 interface drives CD8⁺ T cell–induced neurodegeneration in human brain organoids",
-          "authors": "Woo Sub Yang, Min Sun Shin, Mu Seog Choe, Ferdi Ridvan Kiral, Jumee Kim, Hong-Jai Park, Mario Felix, Lais Osmani, In-Hyun Park, Insoo Kang",
-          "abstract": "Immune–neuron interactions play a critical role in neuroinflammatory and neurodegenerative diseases, such as Alzheimer’s disease (AD), but how CD8⁺ T cells contribute to brain pathology remains poorly understood. Amyloid-β (Aβ), a hallmark of AD, is known to trigger neuronal stress and inflammation. Here, we established a human cortical organoid (hCO) model to investigate CD8⁺ T cell responses to Aβ-induced neurodegenerative stress. Aβ exposure increased neuronal expression of CX3CL1 (fractalkine), which engages its receptor CX3CR1 on CD8⁺ T cells. Transwell migration assays showed enhanced recruitment of CX3CR1⁺ CD8⁺ T cells toward Aβ-treated hCOs. In parallel, Aβ upregulated IL-15 expression, a cytokine that supports CD8⁺ T cell activation. The infiltration of CD8⁺ T cells led to neuronal injury, marked by MAP2 loss and cleaved Caspase-3 activation, accompanied by an increase in gene signatures for cell death and inflammation. Exposure to the conditioned medium of activated CX3CR1 high CD8⁺ T cell recapitulated this damage, and the neutralization of CD8 + T cell cytokines and cytotoxic molecules rescued the phenotype. These findings identify the CX3CL1–CX3CR1 axis and CD8⁺ T cell effector programs as drivers of neurotoxicity and establish brain organoids as a platform to study immune-driven neurodegeneration.",
-          "url": "https://doi.org/10.1073/pnas.2605209123",
-          "doi": "https://doi.org/10.1073/pnas.2605209123",
-          "filter": "2",
-          "created": "2026-10-20"
-        },
-        {
           "title": "Mechanistic insight into conflicting valence fluctuation of Cu(I) photocorrosion pathways: The role of charge behaviors",
           "authors": "Yi-Cheng Wang, Chenyu Xu, Peng-Fei Sui, Renfei Feng, Yi Liu, Hanxiao Zhang, Hongbo Zeng, Xiaolei Wang, Jing-Li Luo",
           "abstract": "Photocorrosion remains a major challenge that hinders the development of photoelectrochemical (PEC) solar fuel production. Although Cu 2 O is a promising photocathode material due to its suitable band structure and visible light absorption, both oxidative and reductive photocorrosion pathways have been reported, with no consensus established in the research community in the PEC system. In this work, we fabricate three Cu 2 O photocathodes with distinct charge transport properties to investigate the correlation between charge accumulation and photocorrosion behavior. Both oxidative and reductive photocorrosion were observed depending on the type and location of charge accumulation. Notably, we propose a refined oxidative photocorrosion mechanism in which photogenerated holes induce surface Cu 2 O dissolution to Cu 2+ , followed by coordination with adsorbed *OH to form Cu(OH) 2 /CuO under illumination, which is contrary to the widely assumed direct oxidation from Cu 2 O to CuO. This work not only provides a unified understanding of the dual photocorrosion pathways in Cu 2 O, but also offers a generalizable framework for understanding photo-induced degradation in metal oxide photocathodes and for guiding the design of more robust PEC systems through charge transport engineering.",
@@ -1405,6 +1396,15 @@
           "doi": "https://doi.org/10.1073/pnas.2611567123",
           "filter": "2",
           "created": "2026-10-22"
+        },
+        {
+          "title": "CX3CL1 (fractalkine)–CX3CR1 interface drives CD8⁺ T cell–induced neurodegeneration in human brain organoids",
+          "authors": "Woo Sub Yang, Min Sun Shin, Mu Seog Choe, Ferdi Ridvan Kiral, Jumee Kim, Hong-Jai Park, Mario Felix, Lais Osmani, In-Hyun Park, Insoo Kang",
+          "abstract": "Immune–neuron interactions play a critical role in neuroinflammatory and neurodegenerative diseases, such as Alzheimer’s disease (AD), but how CD8⁺ T cells contribute to brain pathology remains poorly understood. Amyloid-β (Aβ), a hallmark of AD, is known to trigger neuronal stress and inflammation. Here, we established a human cortical organoid (hCO) model to investigate CD8⁺ T cell responses to Aβ-induced neurodegenerative stress. Aβ exposure increased neuronal expression of CX3CL1 (fractalkine), which engages its receptor CX3CR1 on CD8⁺ T cells. Transwell migration assays showed enhanced recruitment of CX3CR1⁺ CD8⁺ T cells toward Aβ-treated hCOs. In parallel, Aβ upregulated IL-15 expression, a cytokine that supports CD8⁺ T cell activation. The infiltration of CD8⁺ T cells led to neuronal injury, marked by MAP2 loss and cleaved Caspase-3 activation, accompanied by an increase in gene signatures for cell death and inflammation. Exposure to the conditioned medium of activated CX3CR1 high CD8⁺ T cell recapitulated this damage, and the neutralization of CD8 + T cell cytokines and cytotoxic molecules rescued the phenotype. These findings identify the CX3CL1–CX3CR1 axis and CD8⁺ T cell effector programs as drivers of neurotoxicity and establish brain organoids as a platform to study immune-driven neurodegeneration.",
+          "url": "https://doi.org/10.1073/pnas.2605209123",
+          "doi": "https://doi.org/10.1073/pnas.2605209123",
+          "filter": "2",
+          "created": "2026-10-20"
         },
         {
           "title": "Identification and characterization of neoplastic cells in keratin-positive giant cell–rich tumors",
@@ -1442,15 +1442,6 @@
           "created": "2026-10-20"
         },
         {
-          "title": "Naturalistic spatial education engages distinct neural processes for mental rotation, cognitive load, and linguistic demands",
-          "authors": "Eloise B. Gacetta, Marissa L. Laws, Lauren S. Aulet, Teoman S. Ozaydin, Jonathan S. Tsay, Conrad Zapanta, Jessica F. Cantlon",
-          "abstract": "Neuroscience studies typically isolate spatial cognition using simplified tasks targeting a single cognitive process. However, during formal spatial education, the brain rarely performs one cognitive operation at a time. Here, we used functional magnetic resonance imaging (fMRI) to assess neural systems involved in dynamically processing an educational spatial visualization lesson. We quantified lesson content using an instructional-design framework capturing variation in spatial complexity, cognitive load, and verbal density. We then characterized how instructional demands modulated brain function using content-evoked responses, functional connectivity, and network-centrality. Spatial transformations during instruction robustly recruited parietal and premotor regions, which were linearly modulated by spatial complexity. This parietal dominance aligns with theories that these areas encode geometric and quantitative dimensions. In contrast, domain-general frontal activity tracked overall processing demands, and language regions tracked verbal density. Activity also varied with learners’ spatial abilities: higher spatial performers showed stronger modulation of parietal and premotor regions as spatial demands increased, and greater domain-general modulation across content types. Thus, the same circuitry representing spatial transformations during instruction also reflects individual variation in spatial cognition. Parietal regions showed the highest centrality and strongest within-network coherence, marking them as the central hub of the system, and distinguishing them from less central and less coherent domain-general regions. Together, the findings reveal how the brain dynamically decomposes complex spatial instruction, preserving parietal-centered spatial processing, while coordinating support from premotor, domain-general, and language systems. These findings begin to reveal how spatial cognition operates within the complexity of formal instruction.",
-          "url": "https://doi.org/10.1073/pnas.2601206123",
-          "doi": "https://doi.org/10.1073/pnas.2601206123",
-          "filter": "2",
-          "created": "2026-10-21"
-        },
-        {
           "title": "Anomalous narrow-band correlation in a natural superconducting heterostructure",
           "authors": "Xiupeng Sun, Zhiyuan Wei, Min Shan, Shuting Peng, Zhuying Wang, Ping Wu, Yang Luo, Jianchang Shen, Linwei Huai, Yu Miao, Zhipeng Ou, Mehmet Onbasli, Zhenyu Wang, Tao Wu, Junfeng He, Xianhui Chen",
           "abstract": "A new frontier in condensed matter physics is to stack atomically thin layered materials with different properties and create intriguing phenomena which do not exist in any of the constituent layers. Transition metal dichalcogenide 4Hb-TaS 2, with an alternating stacking of a spin liquid candidate 1T-TaS 2 and a superconductor 1H-TaS 2 , is a natural heterostructure for such a purpose. Recently, rare phenomena were indeed observed, including chiral superconductivity, two-component nematic superconductivity, topological surface superconductivity, and enigmatic magnetic memory. A widely proposed starting point to understand such a mysterious heterostructure requires strong electronic correlation, presumably provided by 1T-TaS 2 layers with a narrow flat band near the Fermi level (E F ). Here, by using angle-resolved photoemission spectroscopy, we reveal the theoretically expected flat band near E F in the energy-momentum space. However, this flat band only exists on the 1T-TaS 2 terminated surface layer with broken translational symmetry, but not on the 1T-TaS 2 subsurface layers buried in the bulk. These results directly challenge the foundation of the current theoretical paradigm. On the 1T-TaS 2 terminated surface layer, we further revealed a pseudogap and an anomalous doping effect. These phenomena and the dichotomy between surface and bulk layers also shed light on the unusual coexistence of distinct electronic orders in this mysterious heterostructure.",
@@ -1465,6 +1456,15 @@
           "abstract": "Creating accurate organoid models remains a challenge, particularly for diseases like glioblastoma (GBM), an aggressive, treatment-resistant brain cancer with an immunosuppressive microenvironment. To overcome limitations of Earth-based models (sedimentation and disaggregation) and leverage the unique advantages of space (accelerated disease progression and immune dysregulation), this study utilizes a panel of GBM-myeloid organoids cultured for 40 d aboard the International Space Station. Spaceflight-grown GBM organoids have more uniform morphology compared to ground controls. We observed a context-dependent response to spaceflight, with the inclusion of macrophages and monocytes altering the bulk and spatial transcriptional response. While GBM-alone organoids have transcriptional markers of less aggressive disease in microgravity, organoids containing GBM cells + monocytes have increased expression of genes associated with disease progression and poor patient outcomes. Gene expression patterns are more spatially organized, with mesenchymal-related genes enriched in the core and inflammation-related genes enriched at the periphery, mimicking GBM tumor architecture. Microgravity-grown GBM+monocyte organoids exhibit increased secretion of proteins such as CXCL12 and LOX-1, associated with more aggressive disease. Infrared chemical imaging confirms spatial chemical gradients of DNA, protein, and lipid species in both space- and terrestrially-grown organoids. In summary, this work presents not only an advanced model of glioblastoma for basic and translational research but also demonstrates methods to acquire diverse data from organoids compatible with the unique constraints of in-space systems, helping establish a working model for orbital oncology.",
           "url": "https://doi.org/10.1073/pnas.2616218123",
           "doi": "https://doi.org/10.1073/pnas.2616218123",
+          "filter": "2",
+          "created": "2026-10-21"
+        },
+        {
+          "title": "Naturalistic spatial education engages distinct neural processes for mental rotation, cognitive load, and linguistic demands",
+          "authors": "Eloise B. Gacetta, Marissa L. Laws, Lauren S. Aulet, Teoman S. Ozaydin, Jonathan S. Tsay, Conrad Zapanta, Jessica F. Cantlon",
+          "abstract": "Neuroscience studies typically isolate spatial cognition using simplified tasks targeting a single cognitive process. However, during formal spatial education, the brain rarely performs one cognitive operation at a time. Here, we used functional magnetic resonance imaging (fMRI) to assess neural systems involved in dynamically processing an educational spatial visualization lesson. We quantified lesson content using an instructional-design framework capturing variation in spatial complexity, cognitive load, and verbal density. We then characterized how instructional demands modulated brain function using content-evoked responses, functional connectivity, and network-centrality. Spatial transformations during instruction robustly recruited parietal and premotor regions, which were linearly modulated by spatial complexity. This parietal dominance aligns with theories that these areas encode geometric and quantitative dimensions. In contrast, domain-general frontal activity tracked overall processing demands, and language regions tracked verbal density. Activity also varied with learners’ spatial abilities: higher spatial performers showed stronger modulation of parietal and premotor regions as spatial demands increased, and greater domain-general modulation across content types. Thus, the same circuitry representing spatial transformations during instruction also reflects individual variation in spatial cognition. Parietal regions showed the highest centrality and strongest within-network coherence, marking them as the central hub of the system, and distinguishing them from less central and less coherent domain-general regions. Together, the findings reveal how the brain dynamically decomposes complex spatial instruction, preserving parietal-centered spatial processing, while coordinating support from premotor, domain-general, and language systems. These findings begin to reveal how spatial cognition operates within the complexity of formal instruction.",
+          "url": "https://doi.org/10.1073/pnas.2601206123",
+          "doi": "https://doi.org/10.1073/pnas.2601206123",
           "filter": "2",
           "created": "2026-10-21"
         },
@@ -1505,15 +1505,6 @@
           "created": "2026-10-20"
         },
         {
-          "title": "CD28 costimulation is organized by signaling condensates and counteracted by PD-1",
-          "authors": "Hui Chen, Songfang Wu, Yong Zhang, Wei Hu, Changjie Lou, Wei Chen, Jizhong Lou",
-          "abstract": "T cell activation relies on the coordinated integration of T cell receptor (TCR) and cosignaling pathways, yet how these signals are physically organized remains unclear. Here, we demonstrate that CD28 co-stimulation is driven by a condensation mechanism in which the CD28 intracellular domain (ICD) forms signaling condensates with the Src-family kinase Lck. Ligand engagement promotes CD28 ICD accessibility and triggers rapid CD28/Lck condensation, enhancing CD28 phosphorylation, cytoskeletal polarization, and cytokine production. The downstream effectors of CD28, including PI3K and GRB2, can also be recruited into the CD28-Lck condensates in our reconstituted system. We further identify PD-1 as a graded regulator of this process: Monophosphorylated PD-1 is recruited into CD28/Lck condensates, whereas diphosphorylated PD-1 competitively binds the CD28 ICD and dissolves these assemblies. CD28 and PD-1 ICDs also undergo condensation directly, revealing a dynamic and compositionally heterogeneous signaling system. Guided by this competitive condensation mechanism, we engineer CD28 ICD mutants that preserve Lck condensation while resisting PD-1-mediated disruption. Incorporation of these condensation-selective mutants into Chimeric antigen receptor (CAR) constructs confers resistance to inhibitory signaling and enhances antitumor efficacy in vivo. These findings establish condensation as a central organizing principle of CD28 costimulation and provide a biophysical framework for engineering more resilient therapeutic T cells.",
-          "url": "https://doi.org/10.1073/pnas.2612742123",
-          "doi": "https://doi.org/10.1073/pnas.2612742123",
-          "filter": "2",
-          "created": "2026-10-21"
-        },
-        {
           "title": "Action features dominate cortical representation during natural vision",
           "authors": "Heejung Jung, Hunar Jain, Xiaochun Han, Ma Feilong, Jane Han, Deepanshi Shokeen, Cara Van Uden, Isabella Hanson, Andrew C. Connolly, Tor D. Wager, James V. Haxby, Samuel A. Nastase",
           "abstract": "Cortical resources are allocated into systems specialized for processing ecologically relevant features of the world. These features are typically studied in isolation using controlled experimental stimuli, making it difficult to assess the relative importance of different kinds of features that tend to overlap during natural vision. In the current study, we evaluated the relative contributions of action, agent, and scene features in predicting cortical activity while participants viewed a 1-h nature documentary. We tested four sets of model features: semantic vectors capturing the observed action, agent, and scene features derived from an annotation of the stimulus, as well as low-level visual motion-energy features. We used banded ridge regression to fit vertex-wise encoding models from the combination of all four sets of features. While each set of features predicted neural activity in the expected areas, the action features predicted more widespread activity. A variance partitioning analysis revealed that the action features captured the most unique variance in neural activity across a much larger extent of cortex than the agent or scene features. Our findings suggest that cortical activity during dynamic, natural vision is dominated by features for understanding the actions of others.",
@@ -1523,13 +1514,22 @@
           "created": "2026-10-23"
         },
         {
-          "title": "Unveiling the structure of Leishmania flagella through cryoelectron tomography",
-          "authors": "Dylan Wilburn, Justine Pinskey, Hao Zhu, Binita Nepal, Nhan Phan, Dawn M. Wetzel, Daniela Nicastro",
-          "abstract": "Leishmania are unicellular parasites that cause the serious disease leishmaniasis, presenting ongoing global challenges as existing treatments face issues with resistance and toxicity. Leishmania contain a single motile flagellum, essential for transmission, which has the conserved [9 + 2] microtubule arrangement. We used cryoelectron tomography to determine the ultrastructure of the Leishmania tarentolae 96-nm repeat and paraflagellar rod. While the overall structure, including three broad radial spokes and two-headed outer dynein arms, resembles other eukaryotes like Trypanosoma brucei, Tetrahymena, and Opisthokonts, the Leishmania flagellum also exhibits unique and asymmetrical features. These include asymmetrically shaped radial spoke heads similar to T. brucei , suggesting this may represent a kinetoplastid-specific feature. Further, Leishmania contain an additional inner-junction and 8-nm wide A2 protofilament hole. Strikingly, Leishmania have many doublet-specific structures such as outer dynein arm tethers, interdoublet linkers, and heterogeneous connections to the paraflagellar rod. In this work, we show that divergent structural traits of Leishmania flagella highlight lineage-specific adaptations within eukaryotes.",
-          "url": "https://doi.org/10.1073/pnas.2616874123",
-          "doi": "https://doi.org/10.1073/pnas.2616874123",
+          "title": "CD28 costimulation is organized by signaling condensates and counteracted by PD-1",
+          "authors": "Hui Chen, Songfang Wu, Yong Zhang, Wei Hu, Changjie Lou, Wei Chen, Jizhong Lou",
+          "abstract": "T cell activation relies on the coordinated integration of T cell receptor (TCR) and cosignaling pathways, yet how these signals are physically organized remains unclear. Here, we demonstrate that CD28 co-stimulation is driven by a condensation mechanism in which the CD28 intracellular domain (ICD) forms signaling condensates with the Src-family kinase Lck. Ligand engagement promotes CD28 ICD accessibility and triggers rapid CD28/Lck condensation, enhancing CD28 phosphorylation, cytoskeletal polarization, and cytokine production. The downstream effectors of CD28, including PI3K and GRB2, can also be recruited into the CD28-Lck condensates in our reconstituted system. We further identify PD-1 as a graded regulator of this process: Monophosphorylated PD-1 is recruited into CD28/Lck condensates, whereas diphosphorylated PD-1 competitively binds the CD28 ICD and dissolves these assemblies. CD28 and PD-1 ICDs also undergo condensation directly, revealing a dynamic and compositionally heterogeneous signaling system. Guided by this competitive condensation mechanism, we engineer CD28 ICD mutants that preserve Lck condensation while resisting PD-1-mediated disruption. Incorporation of these condensation-selective mutants into Chimeric antigen receptor (CAR) constructs confers resistance to inhibitory signaling and enhances antitumor efficacy in vivo. These findings establish condensation as a central organizing principle of CD28 costimulation and provide a biophysical framework for engineering more resilient therapeutic T cells.",
+          "url": "https://doi.org/10.1073/pnas.2612742123",
+          "doi": "https://doi.org/10.1073/pnas.2612742123",
           "filter": "2",
           "created": "2026-10-21"
+        },
+        {
+          "title": "Blinks are strategically coupled with head movements in unconstrained natural gaze behavior",
+          "authors": "Alexander Goettker, Mary Hayhoe",
+          "abstract": "Blinks are a ubiquitous yet largely unnoticed aspect of human vision, despite causing frequent interruptions of visual input that can amount to up to 10% of waking time. By leveraging a large dataset of unconstrained gaze behavior during two natural tasks, we found a behavioral strategy to limit the impact of blinks: blinks were strategically coupled with head movements, which minimizes information loss due to unreliable visual input during head movements. Specifically, blink probability increased with higher head velocities and showed strong temporal modulation relative to head movement onset: Blink probability was reduced before head movement initiation and then peaked during the head movement. The strength of this coupling was tailored to the individual needs of participants, with participants with higher baseline blink rates showing stronger synchronization. This indicates that blinks are a part of an individually coordinated strategy when orchestrating eye and head movements during unconstrained natural behavior.",
+          "url": "https://doi.org/10.1073/pnas.2625566123",
+          "doi": "https://doi.org/10.1073/pnas.2625566123",
+          "filter": "2",
+          "created": "2026-10-22"
         },
         {
           "title": "Meta-analysis of 990 EBV genomes identifies EBER2 SNP7048 and its interaction with HLA-A*11:01 driving nasopharyngeal carcinoma risk",
@@ -1541,13 +1541,13 @@
           "created": "2026-10-20"
         },
         {
-          "title": "Blinks are strategically coupled with head movements in unconstrained natural gaze behavior",
-          "authors": "Alexander Goettker, Mary Hayhoe",
-          "abstract": "Blinks are a ubiquitous yet largely unnoticed aspect of human vision, despite causing frequent interruptions of visual input that can amount to up to 10% of waking time. By leveraging a large dataset of unconstrained gaze behavior during two natural tasks, we found a behavioral strategy to limit the impact of blinks: blinks were strategically coupled with head movements, which minimizes information loss due to unreliable visual input during head movements. Specifically, blink probability increased with higher head velocities and showed strong temporal modulation relative to head movement onset: Blink probability was reduced before head movement initiation and then peaked during the head movement. The strength of this coupling was tailored to the individual needs of participants, with participants with higher baseline blink rates showing stronger synchronization. This indicates that blinks are a part of an individually coordinated strategy when orchestrating eye and head movements during unconstrained natural behavior.",
-          "url": "https://doi.org/10.1073/pnas.2625566123",
-          "doi": "https://doi.org/10.1073/pnas.2625566123",
+          "title": "Unveiling the structure of Leishmania flagella through cryoelectron tomography",
+          "authors": "Dylan Wilburn, Justine Pinskey, Hao Zhu, Binita Nepal, Nhan Phan, Dawn M. Wetzel, Daniela Nicastro",
+          "abstract": "Leishmania are unicellular parasites that cause the serious disease leishmaniasis, presenting ongoing global challenges as existing treatments face issues with resistance and toxicity. Leishmania contain a single motile flagellum, essential for transmission, which has the conserved [9 + 2] microtubule arrangement. We used cryoelectron tomography to determine the ultrastructure of the Leishmania tarentolae 96-nm repeat and paraflagellar rod. While the overall structure, including three broad radial spokes and two-headed outer dynein arms, resembles other eukaryotes like Trypanosoma brucei, Tetrahymena, and Opisthokonts, the Leishmania flagellum also exhibits unique and asymmetrical features. These include asymmetrically shaped radial spoke heads similar to T. brucei , suggesting this may represent a kinetoplastid-specific feature. Further, Leishmania contain an additional inner-junction and 8-nm wide A2 protofilament hole. Strikingly, Leishmania have many doublet-specific structures such as outer dynein arm tethers, interdoublet linkers, and heterogeneous connections to the paraflagellar rod. In this work, we show that divergent structural traits of Leishmania flagella highlight lineage-specific adaptations within eukaryotes.",
+          "url": "https://doi.org/10.1073/pnas.2616874123",
+          "doi": "https://doi.org/10.1073/pnas.2616874123",
           "filter": "2",
-          "created": "2026-10-22"
+          "created": "2026-10-21"
         },
         {
           "title": "In-cloud motions shape warm-rain production in marine clouds: Evidence from multiyear observations",
@@ -1568,15 +1568,6 @@
           "created": "2026-10-23"
         },
         {
-          "title": "A Bering Sea marine heatwave triggers unprecedented crab hybridization, challenging fisheries management",
-          "authors": "Erin J. Fedewa, Emily R. Ryznar, Connor P. Cleary, Jennifer L. Gardner, Shannon M. Hennessey, W. Christopher Long, Jon I. Richar, Leah S. Zacher, Michael A. Litzow",
-          "abstract": "Marine heatwaves are increasingly recognized for their capacity to generate ecological surprises, yet the pathways that propagate these unexpected responses are often poorly understood. Here, we document an unanticipated ecological response 7 y after a Bering Sea marine heatwave, in which formerly rare snow crab ( Chionoecetes opilio ) × Tanner crab ( C. bairdi ) hybrid abundance increased 13.4-fold, and the proportion of commercial-sized hybrid males increased 13.1-fold, relative to historical averages. Using causal modeling, we show that the hybrid crab surge was mediated by a heatwave-induced collapse of snow crab rather than direct thermal effects on hybrid survival or increased spatial overlap between mature snow and Tanner crab. Our results reveal an indirect cascading pathway through which an extreme climate event triggered unexpected ecological consequences and unforeseen challenges for fisheries management in the Bering Sea. The dramatic increase in abundance of harvestable hybrid crab, coupled with their exclusion from existing management frameworks, highlights the vulnerability of inflexible management systems to unanticipated ecosystem responses.",
-          "url": "https://doi.org/10.1073/pnas.2625670123",
-          "doi": "https://doi.org/10.1073/pnas.2625670123",
-          "filter": "2",
-          "created": "2026-10-19"
-        },
-        {
           "title": "HAP40 functions as a proteostasis regulator by controlling huntingtin interactions and its release into the extracellular space",
           "authors": "Eduardo Silva Ramos, Annett Boeddrich, Christian Haenig, Philipp Trepte, Orchid Ammar, Christopher Secker, Oliver Popp, Andranik Ivanov, Stephanie Beetz, Leonard Roth, Roxane M. Papawassiliou, Luisanna C. Hernandez Jeppesen, Theo Wallenfang, Brandon Keith, Rachel J. Harding, Franziska Schindler, Tomas Koudelka, Nadine Scharek, Martina Zenkner, Nancy Neuendorf, Sabrina Golusik, Philipp Mertins, Ilaria Piazza, Sigrid Schnoegl, Erich E. Wanker",
           "abstract": "Huntingtin-associated protein 40 (HAP40) forms a stable protein complex with huntingtin (HTT). Its cellular function and how HAP40 loss influences mutant HTT (mHTT) abundance and pathobiology are currently unclear. Here, using diverse cellular models and omics methods, we demonstrate that HAP40 is an obligate interaction partner of HTT and through its binding controls HTT interactions and the abundance of HTT-associated proteins, indicating that it functions as a HTT interaction regulatory unit. Also, loss of HAP40 in mHTT-expressing striatal cells impairs autophagic protein degradation and triggers transcriptional activation of the CLEAR network, demonstrating that it functions as a proteostasis regulator that acts on quality control pathways. Finally, mHTT-expressing cells lacking HAP40 showed increased secretion of a ~205 kDa mHTT fragment through an endoplasmic reticulum (ER)/Golgi-associated route, indicating that striatal cells reduce intracellular mHTT-induced proteotoxicity through activation of secretory pathways. Together, these results establish HAP40 as a critical proteostasis regulator that through controlling HTT interactions maintains cellular homeostasis.",
@@ -1584,14 +1575,6 @@
           "doi": "https://doi.org/10.1073/pnas.2611301123",
           "filter": "2",
           "created": "2026-10-22"
-        },
-        {
-          "title": "Reply to Burger et al.: Powerless paradigms and the myth of equal fitness",
-          "authors": "Geerat J. Vermeij, Rick K. Grosberg, Peter D. Roopnarine",
-          "url": "https://doi.org/10.1073/pnas.2631788123",
-          "doi": "https://doi.org/10.1073/pnas.2631788123",
-          "filter": "2",
-          "created": "2026-10-23"
         },
         {
           "title": "Methanogenic archaea Methanobrevibacter smithii and Methanosphaera stadtmanae promote mucosal homeostasis and protect from colitis",
@@ -1603,6 +1586,23 @@
           "created": "2026-10-20"
         },
         {
+          "title": "A Bering Sea marine heatwave triggers unprecedented crab hybridization, challenging fisheries management",
+          "authors": "Erin J. Fedewa, Emily R. Ryznar, Connor P. Cleary, Jennifer L. Gardner, Shannon M. Hennessey, W. Christopher Long, Jon I. Richar, Leah S. Zacher, Michael A. Litzow",
+          "abstract": "Marine heatwaves are increasingly recognized for their capacity to generate ecological surprises, yet the pathways that propagate these unexpected responses are often poorly understood. Here, we document an unanticipated ecological response 7 y after a Bering Sea marine heatwave, in which formerly rare snow crab ( Chionoecetes opilio ) × Tanner crab ( C. bairdi ) hybrid abundance increased 13.4-fold, and the proportion of commercial-sized hybrid males increased 13.1-fold, relative to historical averages. Using causal modeling, we show that the hybrid crab surge was mediated by a heatwave-induced collapse of snow crab rather than direct thermal effects on hybrid survival or increased spatial overlap between mature snow and Tanner crab. Our results reveal an indirect cascading pathway through which an extreme climate event triggered unexpected ecological consequences and unforeseen challenges for fisheries management in the Bering Sea. The dramatic increase in abundance of harvestable hybrid crab, coupled with their exclusion from existing management frameworks, highlights the vulnerability of inflexible management systems to unanticipated ecosystem responses.",
+          "url": "https://doi.org/10.1073/pnas.2625670123",
+          "doi": "https://doi.org/10.1073/pnas.2625670123",
+          "filter": "2",
+          "created": "2026-10-19"
+        },
+        {
+          "title": "Reply to Burger et al.: Powerless paradigms and the myth of equal fitness",
+          "authors": "Geerat J. Vermeij, Rick K. Grosberg, Peter D. Roopnarine",
+          "url": "https://doi.org/10.1073/pnas.2631788123",
+          "doi": "https://doi.org/10.1073/pnas.2631788123",
+          "filter": "2",
+          "created": "2026-10-23"
+        },
+        {
           "title": "Unique features of EIGHT fold—Proteins with the most complex 8 3 knotted topology",
           "authors": "Mariusz Mozajew, Maciej Sikora, Mateusz Fortunka, Agata P. Perlinska, Anna Kluza, Szymon Niewieczerzal, Fernando Bruno da Silva, Maciej Lukaszewicz, Julia A. Sikorska, Lena J. Mikulska, Sophie E. Jackson, Joanna I. Sulkowska",
           "abstract": "Herein, we present three crystal structures of the most complex knotted protein to date, an 8 3 knot with eight crossings, which belongs to a clasp knot family. The fold of this protein is also unique, and we call it the EIGHT fold (Extraordinarily Intricate Globular Helical Tangled fold). The 8 3 knot is found only in a certain group of bacteria, where it is strictly conserved, despite sequence identities as low as 10%. The 8 3 structure shows a high level of internal symmetry, with structurally analogous halves. It is possible that the EIGHT fold evolved from a single unknotted “half” that duplicated and formed a complex protein. Based on an in vitro study of three selected 8 3 proteins, we estimated their thermal and thermodynamic stability, and showed that they follow a two-state unfolding model under equilibrium conditions and their refolding occurs to a compact, nonnative state. Unfolding kinetics of 8 3 knotted proteins reveal a complex, multiphase process spanning milliseconds to days. Six kinetic phases were resolved using stopped-flow fluorescence and far-ultraviolet absorbance circular dichroism spectroscopy, highlighting both rapid early events and slower rearrangements in secondary and tertiary structures. Finally, with a structure-based model, we showed that proteins with an 8 3 knot can self-tie through a 6 1 knotted intermediate state. They can also self-untie, albeit via an additional intermediate knot such as 4 1 . Nevertheless, these proteins do not seem to fit with current folding theories known to date and require the development of a new approach.",
@@ -1610,15 +1610,6 @@
           "doi": "https://doi.org/10.1073/pnas.2523017123",
           "filter": "2",
           "created": "2026-10-19"
-        },
-        {
-          "title": "Molecular drivers of cotranslational protein assembly in bacteria",
-          "authors": "Jaro L. Schmitt, Josef J. Auburger, Florian Wruck, Jiří Koubek, Sander J. Tans, Bernd Bukau, Günter Kramer",
-          "abstract": "Protein complexes are pivotal to all major cellular processes. Translation-coupled complex assembly is ubiquitous in eukaryotes, but its molecular basis and prevalence in bacteria remain poorly understood. Here, we combine ribosome profiling and single-molecule optical tweezers to establish principles governing cotranslational assembly of four structurally diverse complexes in Escherichia coli . We reveal how heterotetramers form cotranslationally via hierarchical assembly pathways, with initial heterodimer formation priming the assembly of higher-order oligomers through a topology-dependent organization of homomeric and heteromeric interfaces. Co-post assembly, defined as interaction between nascent and fully synthesized subunits, initiates when dimerization domains are completely exposed at the ribosome. The assembly order is predominantly unidirectional and matches the operon gene order, with upstream-encoded subunits being synthesized first, and then engaging downstream nascent partner subunits. The co-post assembly efficiency depends both on the native operon structure and the ribosome-associated chaperone trigger factor, which binds emerging oligomerization domains and whose dissociation marks the onset of partner subunit engagement. The handover from chaperone engagement to cotranslational assembly is mediated by nascent chain folding. Finally, we show that co-post assembly provides a fitness advantage. Together, these findings reveal how genome organization and chaperone-assisted folding coordinate cotranslational assembly to promote efficient complex biogenesis and cellular fitness in bacteria.",
-          "url": "https://doi.org/10.1073/pnas.2608997123",
-          "doi": "https://doi.org/10.1073/pnas.2608997123",
-          "filter": "2",
-          "created": "2026-10-22"
         },
         {
           "title": "Microplastic size matters—Report every particle",
@@ -1636,6 +1627,15 @@
           "doi": "https://doi.org/10.1073/pnas.2620643123",
           "filter": "2",
           "created": "2026-10-20"
+        },
+        {
+          "title": "Molecular drivers of cotranslational protein assembly in bacteria",
+          "authors": "Jaro L. Schmitt, Josef J. Auburger, Florian Wruck, Jiří Koubek, Sander J. Tans, Bernd Bukau, Günter Kramer",
+          "abstract": "Protein complexes are pivotal to all major cellular processes. Translation-coupled complex assembly is ubiquitous in eukaryotes, but its molecular basis and prevalence in bacteria remain poorly understood. Here, we combine ribosome profiling and single-molecule optical tweezers to establish principles governing cotranslational assembly of four structurally diverse complexes in Escherichia coli . We reveal how heterotetramers form cotranslationally via hierarchical assembly pathways, with initial heterodimer formation priming the assembly of higher-order oligomers through a topology-dependent organization of homomeric and heteromeric interfaces. Co-post assembly, defined as interaction between nascent and fully synthesized subunits, initiates when dimerization domains are completely exposed at the ribosome. The assembly order is predominantly unidirectional and matches the operon gene order, with upstream-encoded subunits being synthesized first, and then engaging downstream nascent partner subunits. The co-post assembly efficiency depends both on the native operon structure and the ribosome-associated chaperone trigger factor, which binds emerging oligomerization domains and whose dissociation marks the onset of partner subunit engagement. The handover from chaperone engagement to cotranslational assembly is mediated by nascent chain folding. Finally, we show that co-post assembly provides a fitness advantage. Together, these findings reveal how genome organization and chaperone-assisted folding coordinate cotranslational assembly to promote efficient complex biogenesis and cellular fitness in bacteria.",
+          "url": "https://doi.org/10.1073/pnas.2608997123",
+          "doi": "https://doi.org/10.1073/pnas.2608997123",
+          "filter": "2",
+          "created": "2026-10-22"
         }
       ]
     },
@@ -2296,20 +2296,20 @@
           "created": "2026-10-21"
         },
         {
-          "title": "Structural basis for start codon selection by eIF5-mimic proteins",
-          "authors": "Ximena Zottig, Chun-Ying Huang, Zahra Seraj, Nikolaus Grigorieff, Andrei A. Korostelev",
-          "abstract": "Start codon selection extensively regulates the cellular proteome and is implicated in cancer and other diseases. The eIF5-mimic proteins (5MPs: 5MP1/BZW2 and 5MP2/BZW2) restrict non-AUG start codon usage and thereby reprogram proteoform expression from mRNAs with alternative start sites, such as the oncogenic c-Myc. Here, using in extracto cryo–electron microscopy (cryo-EM) and biochemical assays, we report how 5MP represses translation dependent on the sequence context at start codons. Cryo-EM structures of 48 S preinitiation complexes (PICs) reveal 5MP1 bound at the A site of the small ribosomal subunit. 5MPs act as initiation factors that stabilize an open PIC conformation, promoting mRNA scanning and inhibiting initiation at suboptimal start codons. We propose to designate 5MP as eIF1S (eukaryotic initiation factor 1 scanning). These findings reveal the structural basis for proteome modulation by 5MPs and may help correct dysregulated translation in disease.",
-          "url": "https://doi.org/10.1126/sciadv.aeg5840",
-          "doi": "https://doi.org/10.1126/sciadv.aeg5840",
-          "filter": "2",
-          "created": "2026-10-23"
-        },
-        {
           "title": "Scalable architecture for measurement-induced squeezed light interferometers",
           "authors": "Abhinav Verma, Jacob Hastrup, Jonas S. Neergaard-Nielsen, Ulrik L. Andersen",
           "abstract": "Scalable interferometers lie at the heart of photonic quantum technologies, but their expansion has been fundamentally limited by optical losses that grow with circuit depth. Here, we introduce and experimentally demonstrate a measurement-induced architecture for multimode squeezed-light interferometers that overcomes this barrier. By shifting complexity from deep optical networks to programmable homodyne measurements, we realize effective transformations within a shallow, low-loss platform. We validate the principle with a six-mode device and extend it to a 400-mode interferometer, marking a leap in scale beyond conventional designs. Crucially, this strategy not only enables scalable squeezed light interferometry but also provides a powerful route to the generation of large-scale entangled states—a key requirement for quantum computing, simulation, and communication. Our results establish measurement-induced circuits as a practical pathway toward noisy intermediate-scale quantum (NISQ) applications and future demonstrations of quantum advantage.",
           "url": "https://doi.org/10.1126/sciadv.aee5135",
           "doi": "https://doi.org/10.1126/sciadv.aee5135",
+          "filter": "2",
+          "created": "2026-10-23"
+        },
+        {
+          "title": "Structural basis for start codon selection by eIF5-mimic proteins",
+          "authors": "Ximena Zottig, Chun-Ying Huang, Zahra Seraj, Nikolaus Grigorieff, Andrei A. Korostelev",
+          "abstract": "Start codon selection extensively regulates the cellular proteome and is implicated in cancer and other diseases. The eIF5-mimic proteins (5MPs: 5MP1/BZW2 and 5MP2/BZW2) restrict non-AUG start codon usage and thereby reprogram proteoform expression from mRNAs with alternative start sites, such as the oncogenic c-Myc. Here, using in extracto cryo–electron microscopy (cryo-EM) and biochemical assays, we report how 5MP represses translation dependent on the sequence context at start codons. Cryo-EM structures of 48 S preinitiation complexes (PICs) reveal 5MP1 bound at the A site of the small ribosomal subunit. 5MPs act as initiation factors that stabilize an open PIC conformation, promoting mRNA scanning and inhibiting initiation at suboptimal start codons. We propose to designate 5MP as eIF1S (eukaryotic initiation factor 1 scanning). These findings reveal the structural basis for proteome modulation by 5MPs and may help correct dysregulated translation in disease.",
+          "url": "https://doi.org/10.1126/sciadv.aeg5840",
+          "doi": "https://doi.org/10.1126/sciadv.aeg5840",
           "filter": "2",
           "created": "2026-10-23"
         },
@@ -2692,15 +2692,6 @@
           "created": "2026-10-23"
         },
         {
-          "title": "Biophysically constrained learning from healthy neural priors improves motor decoding in pathological cortical networks",
-          "authors": "Yihan Wu, Tao Chang, Siliang Chen, Yuxin Quan, Qiang Sun, Marc M. Van Hulle, Yanhui Liu, Ning Jiang, Dario Farina, Yuan Yang, Qing Mao, Jiayuan He",
-          "abstract": "High-performance brain-computer interfaces (BCIs) rely on stable neural representations, yet brain functional impairments inherently disrupt canonical encoding, creating a fundamental decoding paradox. Conventional data-driven approaches struggle to bridge this gap because of pathological data scarcity and heterogeneity. Here, we propose to leverage healthy neural priors and introduce Pathology-Aware Consensus Training (PACT), a paradigm embedding biophysical constraints into healthy neural recordings to guide neural decoding. In a gesture classification task using high-density electrocorticography from patients with gliomas infiltrating the motor cortex, PACT improved the accuracy by more than 10%, effectively restoring the distorted semantic geometry of motor commands and realigning them with healthy canonical representations (correlation increase: r  = 0.66 to r  = 0.94). Mechanistically, PACT induced an emergent “inverse weighting” strategy: The model autonomously suppresses high-power pathological noise while reanchoring spatial attention to functional compensatory regions. This study provides a proof of concept for improving decoding in compromised networks by harnessing healthy neural dynamics, laying the theoretical foundation for future BCI deployments in clinical populations.",
-          "url": "https://doi.org/10.1126/sciadv.adx5564",
-          "doi": "https://doi.org/10.1126/sciadv.adx5564",
-          "filter": "2",
-          "created": "2026-10-23"
-        },
-        {
           "title": "Frequency-dependent fitness effects are ubiquitous in rapidly adapting microbial populations",
           "authors": "Joao A. Ascensao, Keon D. Abedi, Aditya N. Prasad, Oskar Hallatschek",
           "abstract": "In simple microbial populations, the fitness effects of selected mutations are typically assumed to be constant, regardless of mutant frequency. This assumption underpins predictions about evolutionary dynamics, epistasis, and the maintenance of genetic diversity. Here, we systematically test this assumption using beneficial mutations from early generations of the Escherichia coli long-term evolution experiment (LTEE). Using flow cytometry–based competition assays, we find that frequency-dependent fitness effects are the norm rather than the exception, occurring in ∼80% of strain pairs tested. Most competitions exhibit negative frequency dependence, where fitness advantages decline as mutant frequency increases. We demonstrate that the strength of frequency dependence is predictable from invasion fitness measurements, which explain approximately half of the biological variation in frequency-dependent slopes. We also observe violations of fitness transitivity in several strain combinations, indicating that competitive outcomes cannot always be predicted from fitness measured against a single reference strain. High-resolution measurements reveal that frequency dependence changes substantially within the growth cycle, with the net per-cycle effect reflecting the balance of opposing dynamics at different growth phases. Our results demonstrate that, even in a model system designed to minimize ecological complexity, subtle interactions between closely related genotypes create frequency-dependent selection that can fundamentally alter evolutionary trajectories.",
@@ -2715,6 +2706,15 @@
           "abstract": "Chronic lung graft-versus-host disease (GVHD) after allogeneic hematopoietic stem cell transplantation (allo-HSCT) remains difficult to treat, and broad immunosuppression increases infection risk. Single-cell profiling of bronchoalveolar lavage from bronchiolitis obliterans lesions revealed collapse of an epithelial nicotinamide adenine dinucleotide (NAD + ) metabolic axis with pathogenic immune-epithelial remodeling, nominating NAD + restoration as an entry point. Because free NAD + is poorly cell-permeable and rapidly consumed, we engineered CaNAD + -PGB-LiP (CNAPL), a high-payload NAD + nanomedicine enabling direct intracellular replenishment. In murine allo-HSCT GVHD, CNAPL improved clinical scores and survival, reduced vascular and epithelial injury, and curtailed hyperinflammation and effector overactivation across GVHD target organs. Unlike immunosuppression, CNAPL preserved phagocytosis, NK/NKT cell (natural killer/natural killer T cell) cytotoxicity, and T cell memory. In posttransplant influenza or Klebsiella infection, CNAPL maintained pathogen control without rekindling GVHD, decoupling inflammation control from infection susceptibility. This metabolism-centered, host-directed strategy restores immune-tissue homeostasis and provides a practical translational path for durable lung GVHD control with preserved antimicrobial defense.",
           "url": "https://doi.org/10.1126/sciadv.aef3338",
           "doi": "https://doi.org/10.1126/sciadv.aef3338",
+          "filter": "2",
+          "created": "2026-10-23"
+        },
+        {
+          "title": "Biophysically constrained learning from healthy neural priors improves motor decoding in pathological cortical networks",
+          "authors": "Yihan Wu, Tao Chang, Siliang Chen, Yuxin Quan, Qiang Sun, Marc M. Van Hulle, Yanhui Liu, Ning Jiang, Dario Farina, Yuan Yang, Qing Mao, Jiayuan He",
+          "abstract": "High-performance brain-computer interfaces (BCIs) rely on stable neural representations, yet brain functional impairments inherently disrupt canonical encoding, creating a fundamental decoding paradox. Conventional data-driven approaches struggle to bridge this gap because of pathological data scarcity and heterogeneity. Here, we propose to leverage healthy neural priors and introduce Pathology-Aware Consensus Training (PACT), a paradigm embedding biophysical constraints into healthy neural recordings to guide neural decoding. In a gesture classification task using high-density electrocorticography from patients with gliomas infiltrating the motor cortex, PACT improved the accuracy by more than 10%, effectively restoring the distorted semantic geometry of motor commands and realigning them with healthy canonical representations (correlation increase: r  = 0.66 to r  = 0.94). Mechanistically, PACT induced an emergent “inverse weighting” strategy: The model autonomously suppresses high-power pathological noise while reanchoring spatial attention to functional compensatory regions. This study provides a proof of concept for improving decoding in compromised networks by harnessing healthy neural dynamics, laying the theoretical foundation for future BCI deployments in clinical populations.",
+          "url": "https://doi.org/10.1126/sciadv.adx5564",
+          "doi": "https://doi.org/10.1126/sciadv.adx5564",
           "filter": "2",
           "created": "2026-10-23"
         },
