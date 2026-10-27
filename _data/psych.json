@@ -1,5 +1,5 @@
 {
-  "update": "2026-10-26",
+  "update": "2026-10-27",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -66,30 +66,12 @@
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "Introducing GABLE: Lightweight infrastructure for longitudinal experiments using Google Apps Script",
-          "authors": "Ibrahim Berber, Ilke Kas, Tarun Sepuri, Brooke N. Macnamara, M. Cenk Çavuşoğlu, Amy L. Wilson-Delfosse, Elizabeth A. Krupinski, Philip J. Smith, Soumya Ray",
-          "abstract": "Longitudinal studies are essential for understanding how behaviors, skills, and psychological states evolve over time. While online platforms have made study development easier, researchers still face major logistical challenges when managing multi-session studies, especially when coordinating large numbers of participants, session timing, reminders, and compensation. In this paper, we introduce GABLE ( G oogle A pps script- B ased L ongitudinal E xperimentation), a lightweight infrastructure built using Google Apps Script. GABLE automates participant scheduling, e-mail communication, session tracking, and compensation. We demonstrate its effectiveness through two real-world psychological studies involving more than 850 participants with 20 sessions, and discuss its benefits, limitations, and potential extensions. GABLE addresses many challenges of running large online longitudinal studies while limiting the need for custom infrastructure or manual intervention.",
-          "url": "https://doi.org/10.3758/s13428-026-03205-8",
-          "doi": "https://doi.org/10.3758/s13428-026-03205-8",
-          "filter": 0,
-          "created": "2026-10-19"
-        },
-        {
           "title": "Can large language models code meaning-making? A multi-model validation of automated autobiographical reasoning scoring in Chinese adolescent narratives",
           "authors": "Bin Wang, Chengnuo Zhang, Yiwen Cai, Zhirui Li",
           "url": "https://doi.org/10.3758/s13428-026-03212-9",
           "doi": "https://doi.org/10.3758/s13428-026-03212-9",
           "filter": 0,
           "created": "2026-10-23"
-        },
-        {
-          "title": "A tutorial on selecting, translating, and reporting variance priors in Bayesian multilevel models",
-          "authors": "Liu Liu",
-          "abstract": "Bayesian multilevel models are increasingly used in psychological, educational, and behavioral research, yet applied guidance on specifying priors for scalar variance components remains limited. This tutorial provides a practical workflow for identifying target variance components, selecting benchmark values, calibrating priors on variance and standard-deviation scales, translating them into software-compatible prior specifications, evaluating their implications through prior predictive checks, posterior comparison, sensitivity analysis, and transparent reporting. We review several commonly used prior families, including gamma, inverse-gamma, half- t , and half-Cauchy distributions, and clarify how their parameterizations relate across variance, precision (the reciprocal of variance), and standard-deviation formulations. The tutorial focuses on helping researchers align prior choice with substantive knowledge, model parameterization, software constraints, and sensitivity goals. As a worked example, we use a two-level analysis of TIMSS 2019 data to show how benchmark information from a non-overlapping reference sample can be calibrated into alternative variance-prior specifications and then evaluated in a smaller worked example sample. The empirical illustration is used as a pedagogical example to demonstrate the workflow and its associated checking procedures. We emphasize practical safeguards, including prior-density inspection, prior predictive checking, posterior comparison, convergence assessment, sensitivity analysis, and transparent reporting of prior assumptions. The tutorial concludes by summarizing practical, literature-grounded considerations for documenting prior rationale, implementation decisions, and robustness checks in Bayesian multilevel applications.",
-          "url": "https://doi.org/10.3758/s13428-026-03201-y",
-          "doi": "https://doi.org/10.3758/s13428-026-03201-y",
-          "filter": 0,
-          "created": "2026-10-19"
         },
         {
           "title": "Dimensional and categorical emotional ratings of Russian nouns: The ENRuN-2 database",
@@ -106,23 +88,6 @@
           "doi": "https://doi.org/10.3758/s13428-026-03213-8",
           "filter": 0,
           "created": "2026-10-23"
-        },
-        {
-          "title": "Combined eye tracking and electroencephalography during referential selection in dyadic interaction",
-          "authors": "Ingmar Brilmayer, Philip Georgis, Petra B. Schumacher",
-          "abstract": "Understanding language in real-world interaction requires methods that integrate auditory, visual, and neural signals. We present a proof-of-concept study combining mobile electroencephalography (EEG) and eye tracking to investigate referential selection during dyadic communication. Using a simplified version of the director task, pairs of participants engaged in naturalistic object-movement instructions while EEG and gaze data were recorded and synchronized via LabStreamingLayer, allowing us to calculate overlap-corrected, regression-based event-related potentials (rERPs) time-locked to spoken nouns and to participants’ fixations, focusing on the N400/P300 (300–500 ms) and later (500–800 ms) time windows. Our results show that gaze behavior and fixation-related potentials provide crucial information for interpreting language-related ERPs: Targets competing with occluded referents elicited a stronger posterior positivity consistent with greater attentional demands. Fixation timing systematically modulated neural responses. Contrary to predictions, competitors received little visual attention, indicating that participants prioritized task-relevant information. These findings highlight the potential of multimodal data integration for understanding attentional and predictive mechanisms in real-world communication. Importantly, we show that established analytic techniques, such as artifact subspace reconstruction, independent component analysis, and linear deconvolution for ERP calculation, apply to noisy, naturalistic datasets. In addition, we provide a subsampling sensitivity approach to test the stability of the effects across different sample sizes. This study provides a methodological framework linking gaze and neural activity during interactive language processing. All preprocessing and analysis scripts, along with example datasets, are openly available on OSF ( https://osf.io/5ds4z ; a modified and optimized Python implementation is also available on GitHub: https://github.com/XlinCLab/DGAME ).",
-          "url": "https://doi.org/10.3758/s13428-026-03172-0",
-          "doi": "https://doi.org/10.3758/s13428-026-03172-0",
-          "filter": 0,
-          "created": "2026-10-19"
-        },
-        {
-          "title": "Human-in-the-loop LLM-assisted thematic analysis: A validated, reproducible tutorial for large-scale qualitative research",
-          "authors": "Mandana Jafarian",
-          "url": "https://doi.org/10.3758/s13428-026-03207-6",
-          "doi": "https://doi.org/10.3758/s13428-026-03207-6",
-          "filter": 0,
-          "created": "2026-10-19"
         },
         {
           "title": "Evaluating methods for testing publication bias in meta-analyses with confounding covariates: A simulation study",
@@ -166,20 +131,20 @@
       "journal_short": "CHB",
       "articles": [
         {
-          "title": "When interface style meets personality: Big five differences in self-extension and emotional attachment in online shopping platforms",
-          "authors": "HeSen Li, Hong Chen, WeiCheng Pan, WanQing Zhang, WenXing Lou, Qi Guo, BoHyeon Yoo",
-          "url": "https://doi.org/10.1016/j.chb.2026.109220",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109220",
-          "filter": 0,
-          "created": "2026-10-19"
-        },
-        {
           "title": "Repairing the Lover: Relational Breakdown and Restoration in Human–AI Romantic Interaction",
           "authors": "Yuqing Liu, Siyue Ren, Huizi Han, Yan Luximon",
           "url": "https://doi.org/10.1016/j.chb.2026.109223",
           "doi": "https://doi.org/10.1016/j.chb.2026.109223",
           "filter": 0,
           "created": "2026-10-22"
+        },
+        {
+          "title": "Beyond Access: Engagement with Conversational AI-Assisted Feedback Shapes Cognitive Load in Digital Game-Based Learning",
+          "authors": "Anna Wenzel, Jan-Martin Geiger, Andreas Liening",
+          "url": "https://doi.org/10.1016/j.chb.2026.109217",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109217",
+          "filter": 0,
+          "created": "2026-10-26"
         },
         {
           "title": "The Internet is Just a Tool: Neither Transactive Memory Systems nor Cognitive Extension Fully Explain Knowledge Conflation",
@@ -279,14 +244,6 @@
           "doi": "https://doi.org/10.1016/j.jesp.2026.105007",
           "filter": 0,
           "created": "2026-10-20"
-        },
-        {
-          "title": "Evidence for ideological confirmation, or how to politicize color intensity perceptions",
-          "authors": "William P. Hart, Danielle E. Wahlers, Braden T. Hall",
-          "url": "https://doi.org/10.1016/j.jesp.2026.105016",
-          "doi": "https://doi.org/10.1016/j.jesp.2026.105016",
-          "filter": 0,
-          "created": "2026-10-19"
         }
       ],
       "articles_hidden": []
@@ -295,6 +252,14 @@
       "journal_full": "Journal of Personality and Social Psychology",
       "journal_short": "JPSP",
       "articles": [
+        {
+          "title": "Anchored in truth but driven by grandiosity: A process account of narcissistic self-enhancement.",
+          "authors": "Christoph Heine, Constantine Sedikides, Michael Dufner",
+          "url": "https://doi.org/10.1037/pspp0000617",
+          "doi": "https://doi.org/10.1037/pspp0000617",
+          "filter": 0,
+          "created": "2026-10-26"
+        },
         {
           "title": "Shades of traits across languages: Comparisons of Dutch, Polish, Czech, and Serbian structures of behavioral items.",
           "authors": "Boele De Raad, Nasturcja Toruj, Oleg Gorbaniuk, Martina Hřebíčková, Petar Čolović, Biljana Roganović, Snezana Smederevac",
@@ -317,14 +282,6 @@
           "doi": "https://doi.org/10.1080/00273171.2026.2740827",
           "filter": 0,
           "created": "2026-10-21"
-        },
-        {
-          "title": "Idiographic Item Response Theory: Modeling Person-Specific Differential Item Functioning in Intensive Longitudinal Data",
-          "authors": "Joshua B. Gilbert, Edward J. Kim, Zachary Himmelsbach, Esther Ulitzsch, Lijin Zhang",
-          "url": "https://doi.org/10.1080/00273171.2026.2740068",
-          "doi": "https://doi.org/10.1080/00273171.2026.2740068",
-          "filter": 0,
-          "created": "2026-10-19"
         },
         {
           "title": "Reducing Boundary Estimates and Increasing Power in Detecting Individual Differences in Change: The Effect of Adding a Quadratic Term",
@@ -358,6 +315,15 @@
       "journal_short": "PSPB",
       "articles": [
         {
+          "title": "Helpful and in Danger: Attributes and Correlates of Perceived Occupational Heroism",
+          "authors": "Jean Monéger, Roger Giner-Sorolla",
+          "abstract": "Some occupations such as firefighters are described as heroic, while others, such as healthcare workers, are applauded as “heroes” in crises. In two preregistered correlational studies conducted on representative U.K. samples, we evaluated theory-based attributes of occupational heroism, and its relationship to specific policy-relevant attitudes toward occupations. In Study 1 ( N = 430), we confirmed that occupational heroism relates to the perceived helpfulness and risk exposure of workers. In Study 2 ( N = 840), we further showed that occupational heroism is associated with a moral shield: workers’ hero status correlates with decreased acceptability of criticism toward them, and increased support for deregulating them and protecting them from punishment for rule-breaking. Unlike previous findings suggesting a willingness to exploit heroized workers, heroism correlated with increased gratitude toward workers, support for their demands, and perception that they are vulnerable. Societal consequences and relevance for policy-making are discussed.",
+          "url": "https://doi.org/10.1177/01461672261493645",
+          "doi": "https://doi.org/10.1177/01461672261493645",
+          "filter": 0,
+          "created": "2026-10-26"
+        },
+        {
           "title": "Less Is More: Why and When Having Less Signals Competence",
           "authors": "Ruobing Fu, Jingyi Lu",
           "abstract": "Living with less has become increasingly popular in contemporary culture. It can simplify people’s lives and enhance their well-being. Beyond these intrapersonal benefits, we document a novel, interpersonal benefit of having less: individuals who own fewer possessions are perceived as more competent than those who own more. This effect arises because observers infer that they rely more on reasoning rather than feelings in decision-making. We further develop a three-condition descriptive model specifying that the effect emerges when having fewer possessions appears voluntary, when the possessions are primarily non-hedonic, and when the quantity of possessions is sufficient to meet minimum needs. This research extends the literature on the benefits of having less from an intrapersonal to an interpersonal perspective and identifies possession quantity as a new cue for perceived competence.",
@@ -374,6 +340,15 @@
           "doi": "https://doi.org/10.1177/01461672261494655",
           "filter": 0,
           "created": "2026-10-21"
+        },
+        {
+          "title": "Inferring Struggle, Judging Strength: How Inferred Adversity and Sympathy Shape Competence Evaluations of Black Frontline Employees",
+          "authors": "Shahin Sharifi",
+          "abstract": "How do racial inferences shape third-party evaluations of employee competence? Across four experiments, White U.S. observers judged Black frontline employees as more competent than otherwise comparable White employees in service-failure encounters involving a Black customer. This pattern was consistent with a serial process in which employee race cued greater inferred adversity, which elicited sympathy, thereby elevating competence judgments. Study 1 established the competence difference and its association with lower negative word of mouth. Study 2 showed that behavioral awkwardness attenuated the difference. Study 3 supported the serial indirect pathway, and the supplementary pilot reproduced it without a service failure. Study 4 showed that structural-opportunity information increased inferred adversity for both employees and especially increased sympathy and competence judgments for the White employee, narrowing Black–White differences. The findings identify a context-dependent, normatively complex route through which presumed adversity can produce comparatively favorable yet racialized competence judgments.",
+          "url": "https://doi.org/10.1177/01461672261494231",
+          "doi": "https://doi.org/10.1177/01461672261494231",
+          "filter": 0,
+          "created": "2026-10-27"
         }
       ],
       "articles_hidden": []
@@ -382,14 +357,6 @@
       "journal_full": "Psychological Methods",
       "journal_short": "PM",
       "articles": [
-        {
-          "title": "The semipartial correlation needs no correction. Comment on Park and Yi (2025).",
-          "authors": "Peter de Heus",
-          "url": "https://doi.org/10.1037/met0000833",
-          "doi": "https://doi.org/10.1037/met0000833",
-          "filter": 0,
-          "created": "2026-10-19"
-        },
         {
           "title": "How to design a panel study for investigating bivariate dynamics using continuous-time modeling.",
           "authors": "Nuria Real-Brioso, Eduardo Estrada",
@@ -405,14 +372,6 @@
           "doi": "https://doi.org/10.1037/met0000854",
           "filter": 0,
           "created": "2026-10-22"
-        },
-        {
-          "title": "Working with circular data: A tutorial for cognitive and behavioral research.",
-          "authors": "Stella Wernicke, Julie de Falco, Zahara Gironés, Chris Jungerius, Ivan Tomić, Adam Triabhall, Xiaolu Wang, Paul M. Bays",
-          "url": "https://doi.org/10.1037/met0000861",
-          "doi": "https://doi.org/10.1037/met0000861",
-          "filter": 0,
-          "created": "2026-10-19"
         }
       ],
       "articles_hidden": []
@@ -463,14 +422,6 @@
       "journal_short": "TMB",
       "articles": [
         {
-          "title": "Beyond good and bad: An in-depth study of student and teacher views on generative AI in high school.",
-          "authors": "Sarah I. Segall, Tal Waltzer, Gail D. Heyman",
-          "url": "https://doi.org/10.1037/tmb0000226",
-          "doi": "https://doi.org/10.1037/tmb0000226",
-          "filter": 0,
-          "created": "2026-10-22"
-        },
-        {
           "title": "Artificial intelligence agent tone influences perceived informational value and affective valence.",
           "authors": "Michael J. Gazzanigo, Xiao Yang",
           "url": "https://doi.org/10.1037/tmb0000233",
@@ -485,6 +436,22 @@
           "doi": "https://doi.org/10.1037/tmb0000215",
           "filter": 0,
           "created": "2026-10-22"
+        },
+        {
+          "title": "Beyond good and bad: An in-depth study of student and teacher views on generative AI in high school.",
+          "authors": "Sarah I. Segall, Tal Waltzer, Gail D. Heyman",
+          "url": "https://doi.org/10.1037/tmb0000226",
+          "doi": "https://doi.org/10.1037/tmb0000226",
+          "filter": 0,
+          "created": "2026-10-22"
+        },
+        {
+          "title": "Physicians trust artificial intelligence (AI) less in complex cases but rely on it just as much.",
+          "authors": "Nadine Schlicker, Noëlle Steffens, Ali Kholmovaia, Orestis Loukas, Leander E. Melms, Martin C. Hirsch, Markus Langer",
+          "url": "https://doi.org/10.1037/tmb0000223",
+          "doi": "https://doi.org/10.1037/tmb0000223",
+          "filter": 0,
+          "created": "2026-10-26"
         },
         {
           "title": "Network examination of online gambling disorder, psychological distress, and daily functioning: Comparative role of maladaptive personality traits.",
