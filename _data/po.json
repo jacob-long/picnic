@@ -1,5 +1,5 @@
 {
-  "update": "2026-10-28",
+  "update": "2026-10-30",
   "content": [
     {
       "journal_full": "International Journal of Public Opinion Research",
@@ -40,6 +40,15 @@
           "created": "2026-10-24"
         },
         {
+          "title": "Does Respondent Gender Matter to the Collection of Household Consumption and Expenditure Data in India?",
+          "authors": "Sharan Sharma, Pallavi Choudhuri, Sonalde Desai",
+          "abstract": "Consumption and expense (CE) data from surveys in low-and-middle-income countries (LMICs) are critical to understand social inequalities, formulate policies, and implement targeted benefits. However, little research has examined measurement error in these data. This paper investigates one potential source of measurement error: the respondent’s gender. This is important given the sharp differences in gender roles, attitudes, experiences, and identities in LMICs that may result in different responses from male and female respondents. We analyze CE values from 34 items that were collected from a recent large-scale survey of more than 46,000 households in India; females were respondents in 37 percent of these households. We use multigroup confirmatory factor analysis to examine if data from male and female respondents have measurement equivalence. We then use zero-inflated gamma models to investigate if respondent gender is associated with the prevalence of zero values and the magnitude of non-zero values, using propensity weights to adjust for possible selection biases. Results show that while most CE categories exhibit gender effects, effect sizes are generally modest. The effect magnitudes vary by CE category, and in general, female respondents are associated with more zeros and lower non-zero response values compared to male respondents. However, categories say annual education expenses or 30-day medical expenses see a larger average value for females compared with males. We find that the role of the respondent in shopping for the household and managing its expenses partially explains gender effects. The respondent’s age and education, and help received in answering the CE questions, moderate gender effects on non-zero CE values. We suggest avenues for future research and implications for survey practice.",
+          "url": "https://doi.org/10.1093/jssam/smaf054",
+          "doi": "https://doi.org/10.1093/jssam/smaf054",
+          "filter": 0,
+          "created": "2025-12-2"
+        },
+        {
           "title": "Small Area Estimation Using Area-Level Linked Data",
           "authors": "Enrico Fabrizi, Nicola Salvati, Ray Chambers",
           "abstract": "Official statistics increasingly use linked survey and administrative data for small area estimation, but record linkage error can distort direct estimators in area-level Fay–Herriot models. We develop a likelihood-based framework for such models under an Exchangeable Linkage Error mechanism, using the Missing Information Principle to obtain linkage error-adjusted maximum likelihood estimators of regression coefficients and variance components, an empirical best predictor of true area means, and a mean squared error estimator. Simulation results show that ignoring linkage error leads to substantial bias and loss of efficiency, while the proposed methods restore unbiasedness and provide accurate uncertainty quantification. An application to estimation of average equivalized income for 113 labor market areas in Central Italy, based on European Union Statistics on Income and Living Conditions (EU-SILC) data linked to administrative registers, illustrates the practical benefits of the approach.",
@@ -52,41 +61,26 @@
       "articles_hidden": []
     },
     {
-      "journal_full": "Politics, Groups, and Identities",
-      "journal_short": "PGI",
-      "articles": [
-        {
-          "title": "Group discrimination and personal experiences: how racialized identities shape political trust",
-          "authors": "Susan Banducci, Laszlo Horvath, Daniel Stevens",
-          "url": "https://doi.org/10.1080/21565503.2026.2732961",
-          "doi": "https://doi.org/10.1080/21565503.2026.2732961",
-          "filter": 0,
-          "created": "2026-10-21"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
       "journal_full": "Public Opinion Quarterly",
       "journal_short": "POQ",
       "articles": [
         {
-          "title": "Attitudes Toward LGB and TGD Rights in Latin America",
-          "authors": "Oscar Castorena, Eli G Rau, Valerie Schweizer-Robinson, Elizabeth J Zechmeister",
-          "abstract": "Research on attitudes toward transgender and gender-diverse (TGD) individuals lags behind research on opinion on the lesbian, gay, and bisexual (LGB) population, leaving open questions about public opinion on these two LGBTQ+ subgroups, in general and in particular in the Global South. While a sizeable gap exists in US public opinion toward TGD and LGB rights, we do not know whether that finding is generalizable to other contexts. With a focus on Latin America, we draw on a range of scholarship to identify factors that could result in a similar divergence of attitudes toward these subgroups or, instead, relative convergence. Our analyses focus primarily on novel survey data from representative surveys across thirteen Latin American countries. Our results demonstrate a fair amount of convergence in mean levels, item nonresponse rates, and predictors of views on LGB versus TGD rights. We present some notable differences across countries and issues, with results for the former (countries) varying by socio-political context and the latter (issues) varying across political and nonpolitical domains. We identify these patterns as constituting a future agenda for researchers of opinion on LGBTQ+ topics. We conclude that, in the contemporary period, the Latin American public holds fairly similar mental schemas toward LGB and TGD groups.",
-          "url": "https://doi.org/10.1093/poq/nfag067",
-          "doi": "https://doi.org/10.1093/poq/nfag067",
+          "title": "Investigating the Utility of LLM-Based “Silicon Samples” in Political Science Conjoint Experiments",
+          "authors": "Alice Malmberg",
+          "abstract": "This research note is the first study to explore the viability of using LLM-generated respondents in forced-choice conjoint experiments. I generate naive “silicon samples” using three models, GPT 4o-Mini, Llama 3.2, and Magistral-small-2506, benchmarked to a large sample of live conjoint respondents, allowing for direct comparisons between human and silicon choices. The resulting analyses suggest that naively generated silicon samples are insufficient to simulate human decision-making in conjoint tasks; these results also suggest that there are systemic differences in the way demographic covariates shape LLM and human choices in experimental contexts. In total, this analysis makes two important contributions: it establishes a descriptive baseline understanding of LLM-generated respondent performance in conjoint experiments and suggests that naive silicon samples cannot accurately infer human choices using demographic traits in experimental decision making contexts. Finally, the implications of these results imply that LLMs consider covariates differently than live respondents do in micro-level decision making contexts.",
+          "url": "https://doi.org/10.1093/poq/nfag069",
+          "doi": "https://doi.org/10.1093/poq/nfag069",
           "filter": 0,
-          "created": "2026-10-21"
+          "created": "2026-10-29"
         },
         {
-          "title": "How the Public Makes Sense of Gender Politics: Textual, Emotional, and Symbolic Dimensions",
-          "authors": "Marta Fraile, Nerea Gándara-Guerra, Paula Zuluaga-Borrero",
-          "abstract": "How do ordinary citizens make sense of gender politics? While research has examined public support for feminism and gender equality either separately or as interchangeable concepts, far less is known about the meanings citizens attach to these labels and whether they evoke distinct political meanings. This article compares the textual, emotional, and symbolic associations of three related but distinct framings of gender politics: feminism, gender equality, and equality between men and women. Drawing on an original pre-registered survey experiment in Spain, respondents were randomly assigned to define and evaluate one of the three labels, allowing us to analyze their meanings across textual, emotional, and visual dimensions. We find that while most respondents express sympathy toward all three labels, feminism stands as the most contested. Feminism also has the sharpest sociopolitical profile, eliciting greater support from young, highly educated, progressive women. Text analyses reveal that the public frames feminism in terms of collective action, conflict, and women’s identity, drawing heavily on political language, while the other two labels emphasize policy and material concerns. Emotionally, gender politics elicits more positive than negative responses across all three labels, though men report slightly higher negative emotions toward feminism. Feminism is also the only label consistently associated with images of women’s mobilization and protest, reinforcing its distinctively political resonance. These findings show that feminism and gender equality tap related but meaningfully distinct constructs in the public mind, with implications for how scholars measure attitudes toward gender politics and interpret public support for equality-related policies.",
-          "url": "https://doi.org/10.1093/poq/nfag068",
-          "doi": "https://doi.org/10.1093/poq/nfag068",
+          "title": "Do Gender-of-Interviewer Effects Differ Across Immigrant Generations? Survey Evidence from Italy",
+          "authors": "Christina Sarah Hauser",
+          "abstract": "Interviewer gender has been shown to affect responses to survey questions on gender attitudes and norms, but does its influence vary across groups with different migration backgrounds? I study this question using the Between Origin and Destination (BOnD) survey, conducted in Lombardy, Italy, between 2024 and 2025. Consistent with gender-of-interviewer effects, a type of social desirability bias, female interviewers elicit more progressive responses on a summary index of gender norms and on an index of the acceptability of homosexuality, abortion, divorce, casual sex, and premarital sex. The effect is concentrated among natives and second-generation individuals; first-generation immigrants show little response to interviewer gender. One possible explanation is that social desirability pressure from a female interviewer operates through host-country social norms: Individuals more embedded in the Italian normative context are more responsive to cues from a female interviewer. These findings have implications for the design of surveys administered to mixed native-immigrant populations.",
+          "url": "https://doi.org/10.1093/poq/nfag072",
+          "doi": "https://doi.org/10.1093/poq/nfag072",
           "filter": 0,
-          "created": "2026-10-21"
+          "created": "2026-10-28"
         }
       ],
       "articles_hidden": []
@@ -95,6 +89,24 @@
       "journal_full": "Social Science Computer Review",
       "journal_short": "SSCR",
       "articles": [
+        {
+          "title": "Pathways Out of Cybercrime: Perceived Desistance From Criminal Hacking",
+          "authors": "E. Rutger Leukfeldt, Luuk M. J. Bekkers",
+          "abstract": "The present study seeks to understand how criminal hackers self-report to desist from the world of cybercrime. In doing so, we address significant gaps in criminological literature, as little is known about pathways out of cybercrime offending. Interviews were conducted with 22 individuals involved in cyber-dependent crime, primarily from the Netherlands. Of these, 15 respondents were justice-involved youth and 7 respondents self-identified as criminal hackers. The interviews offer unique insights into the stages offenders navigate following their involvement in cybercrime. Findings reveal that young hackers may be susceptible to behavioral change through various mechanisms. Desistance from cybercrime is a process that warrants a multidisciplinary perspective, influenced particularly by social bonds, prosocial daily routines, and deterrent experiences. A combination of police intervention and alternative approaches that emphasize ethical application of skills may be a promising route for young hackers in particular, although actual intervention effects remain unverified. We encourage evaluations of current programs for hackers as well as additional quantitative assessments of protective factors among cybercrime offenders.",
+          "url": "https://doi.org/10.1177/08944393261501868",
+          "doi": "https://doi.org/10.1177/08944393261501868",
+          "filter": 0,
+          "created": "2026-10-28"
+        },
+        {
+          "title": "The Cost of Capturing: How Smartphone Photo-Taking Alters Memory Performance and Cognitive Self-Esteem: The Role of Smartphone Self-Expansion",
+          "authors": "Tianke Che, Wenxin Xu, Xiaochun Xie",
+          "abstract": "Taking photos to manage memories with smartphones is a routine strategy in the digital era. However, it remains unclear how smartphone photo-taking affects memory performance and self-evaluation. This research examined whether smartphone photo-taking is associated with a pattern consistent with the “Google effect,” and whether these associations vary with self-expansion via smartphone use. Across three experiments ( N = 363), participants photographed or observed materials before completing memory tests and measures of cognitive self-esteem. Study 1 tested the basic photo-taking effect; Study 2a examined device ownership as a contextual proxy for smartphone self-expansion; and Study 2b examined trait self-expansion as a continuous moderator. Results showed a photo-taking-impairment effect on memory, alongside higher cognitive self-esteem following photo-taking. Moreover, higher smartphone self-expansion was associated with stronger increases in cognitive self-esteem and greater memory overestimation, whereas its role in objective memory impairment remained inconclusive. Altogether, the findings suggest that smartphone photo-taking can reduce memory performance while increasing cognitive self-esteem.",
+          "url": "https://doi.org/10.1177/08944393261502771",
+          "doi": "https://doi.org/10.1177/08944393261502771",
+          "filter": 0,
+          "created": "2026-10-28"
+        },
         {
           "title": "Surveillance Path Dependence: Technological and Institutional Lock-In of Digital Surveillance Infrastructures in China",
           "authors": "Jingyang Huang, Jack Linzhou Xing",

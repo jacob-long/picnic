@@ -1,5 +1,5 @@
 {
-  "update": "2026-10-28",
+  "update": "2026-10-30",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -39,15 +39,6 @@
           "doi": "https://doi.org/10.1177/25152459261454622",
           "filter": 0,
           "created": "2026-10-25"
-        },
-        {
-          "title": "Analysis Blinding as a Complement to Preregistration: A Tutorial for Network Analysis",
-          "authors": "Ria H. A. Hoekstra, Karoline B. S. Huth, Nikola Sekulovski, Mia Delhalle, Alexandra Sarafoglou",
-          "abstract": "Network analysis has become a popular computational-modeling approach in psychological research and is now increasingly used to address confirmatory research questions. However, preregistration of such analyses remains rare and even when implemented may leave room for researcher degrees of freedom, particularly when data-dependent decisions are difficult to fully anticipate. In this tutorial, we demonstrate how researchers can safeguard against bias by using analysis blinding as a complementary step to preregistration. The method involves temporarily altering the data to remove the key effect of interest while preserving all other aspects. Analysis blinding makes it possible to explore important features of the data, for instance, spotting outliers or adjusting the computational model, without introducing bias. In this tutorial, we present three common research questions in network analysis and show how they can be addressed using analysis blinding to safeguard their confirmatory nature. We use data from previously published studies employing network analysis and offer a practical, step-by-step guide along with R code that researchers can adapt to their own data and research questions.",
-          "url": "https://doi.org/10.1177/25152459261481079",
-          "doi": "https://doi.org/10.1177/25152459261481079",
-          "filter": 0,
-          "created": "2026-10-22"
         }
       ],
       "articles_hidden": []
@@ -90,38 +81,12 @@
           "created": "2026-10-23"
         },
         {
-          "title": "Evaluating methods for testing publication bias in meta-analyses with confounding covariates: A simulation study",
-          "authors": "Man Chen",
-          "abstract": "Selective publication of favorable results can bias meta-analytic estimates and threaten the validity of meta-analyses. Many methods that detect and adjust for publication bias perform poorly under substantial between-study heterogeneity. Heterogeneity complicates publication bias assessment because study characteristics may be associated with both effect size estimates and standard errors. These characteristics can induce an effect-precision association that regression-based diagnostics may misattribute to selective publication when such characteristics are omitted. However, it remains unclear how best to incorporate these confounding characteristics across methods and how their performance varies with confounding level, selective publication, residual heterogeneity, and the number of studies. To address this gap, I conduct an extensive Monte Carlo simulation evaluating Egger-type regression tests, residual-based tests, and a likelihood-ratio test of the three-parameter selection model (3PSM) under the one-step p  value selection mechanism. Results show that when confounding covariates were ignored, Egger-type regression tests and residual analyses exhibited inflated Type I error rates, whereas the 3PSM likelihood-ratio test maintained near-nominal, albeit slightly inflated, Type I error rates across conditions. When confounding covariates were incorporated, Egger-type tests had well-calibrated Type I error rates, residual analyses based on residualizing effect sizes alone tended to be conservative, and the 3PSM test showed slight inflation. Nevertheless, 3PSM consistently yielded higher power than other methods. Overall, the findings suggest that Egger-type regression tests and 3PSM can be used as complementary analyses for assessing selective publication when confounding covariates are present.",
-          "url": "https://doi.org/10.3758/s13428-026-03206-7",
-          "doi": "https://doi.org/10.3758/s13428-026-03206-7",
-          "filter": 0,
-          "created": "2026-10-21"
-        },
-        {
           "title": "The SPOT Grid: Naturalistic images with predefined settings, patterns, objects, and textures",
           "authors": "Zall Hirschstein, Mariam Aly, Chris Baldassano",
           "url": "https://doi.org/10.3758/s13428-026-03211-w",
           "doi": "https://doi.org/10.3758/s13428-026-03211-w",
           "filter": 0,
           "created": "2026-10-23"
-        },
-        {
-          "title": "Webcams can be used to study eye movements during reading",
-          "authors": "Marina Serrano-Carot, Bernhard Angele, Hemu Xu, Martin R. Vasilev",
-          "abstract": "Eye movements have revealed a wealth of information about how readers process written language. Modern eye trackers can record eye movements in the lab with high accuracy. However, such equipment is expensive, and participant testing is labour-intensive. Kaduk et al. (Behav Res Methods 56(5):5002–5022, 2023) recently reported that webcam eye tracking may be a viable alternative, showing that webcams achieved correlations with laboratory eye trackers of ~0.83 during a free-viewing task. We conducted three experiments to test whether webcams can be used to study eye movements during reading. Participants read short sentences with a target word frequency manipulation while their eye movements were recorded with both an EyeLink system and a webcam in the laboratory (co-registration, Experiments 1 and 2) or online with their own webcam (online study, Experiment 3). In the lab, the webcam-based system recorded raw gaze positions that were highly correlated with the EyeLink (median r = 0.805), replicating Kaduk et al.’s results. We also found evidence for word frequency effects in the webcam data, but there was more noise than in the EyeLink data. In the online study, data quality was much poorer, but we still found reliable effects that were consistent with those observed in the laboratory. In summary, webcam-based eye tracking may be viable for studying reading, especially under laboratory conditions. However, obtaining useful data may require collecting many more observations when using webcams than with high-accuracy eye trackers.",
-          "url": "https://doi.org/10.3758/s13428-026-03199-3",
-          "doi": "https://doi.org/10.3758/s13428-026-03199-3",
-          "filter": 0,
-          "created": "2026-10-21"
-        },
-        {
-          "title": "Reducing participant burden of ESM-based monitoring of mood disorder onset through variable sample size EWMA",
-          "authors": "Fien De Pauw, Evelien Schat, Francis Tuerlinckx, Eva Ceulemans",
-          "url": "https://doi.org/10.3758/s13428-026-03183-x",
-          "doi": "https://doi.org/10.3758/s13428-026-03183-x",
-          "filter": 0,
-          "created": "2026-10-22"
         }
       ],
       "articles_hidden": []
@@ -131,6 +96,14 @@
       "journal_short": "CHB",
       "articles": [
         {
+          "title": "Daily stressors, perceived offline social support, addictive social media use, loneliness and mental health: a comparison of student and non-student emerging adults",
+          "authors": "Julia Brailovskaia, Lena-Marie Precht, Michael Witthöft, Jürgen Margraf",
+          "url": "https://doi.org/10.1016/j.chb.2026.109229",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109229",
+          "filter": 0,
+          "created": "2026-10-28"
+        },
+        {
           "title": "Effects of Multi-Attributional Diversity for Targets and Perceivers of Stereotypes in Computer-Supported Collaborative Learning",
           "authors": "Jennifer Hochstein, Laura Froehlich, Niels Seidel, Martin Schulze, Joerg M. Haake, Nathalie Bick, Jan-Bennet Voltmer, Sarah E. Martiny, Jana Nikitin, Verena Walpurger, Sören Michallek, Stefan Stürmer",
           "url": "https://doi.org/10.1016/j.chb.2026.109239",
@@ -139,7 +112,7 @@
           "created": "2026-10-27"
         },
         {
-          "title": "Gaining Control at a Cost? Customization, Cognitive Load, and Perceived AI Agency Across Task Contexts",
+          "title": "Gaining control at a cost? Customization, cognitive load, and perceived AI agency across task contexts",
           "authors": "Qian Xu, Cheng Chen",
           "url": "https://doi.org/10.1016/j.chb.2026.109236",
           "doi": "https://doi.org/10.1016/j.chb.2026.109236",
@@ -147,20 +120,36 @@
           "created": "2026-10-27"
         },
         {
-          "title": "Repairing the Lover: Relational Breakdown and Restoration in Human–AI Romantic Interaction",
-          "authors": "Yuqing Liu, Siyue Ren, Huizi Han, Yan Luximon",
-          "url": "https://doi.org/10.1016/j.chb.2026.109223",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109223",
-          "filter": 0,
-          "created": "2026-10-22"
-        },
-        {
-          "title": "Beyond Access: Engagement with Conversational AI-Assisted Feedback Shapes Cognitive Load in Digital Game-Based Learning",
+          "title": "Beyond access: Engagement with conversational AI-assisted feedback shapes cognitive load in digital game-based learning",
           "authors": "Anna Wenzel, Jan-Martin Geiger, Andreas Liening",
           "url": "https://doi.org/10.1016/j.chb.2026.109217",
           "doi": "https://doi.org/10.1016/j.chb.2026.109217",
           "filter": 0,
           "created": "2026-10-26"
+        },
+        {
+          "title": "Exploring drivers of proactive intention in smart health app adoption: Extending the health belief model with social cognitive theory",
+          "authors": "Yi-Cheng Chen, Liang-Ying Yen, Yi-Hsuan Chen",
+          "url": "https://doi.org/10.1016/j.chb.2026.109226",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109226",
+          "filter": 0,
+          "created": "2026-10-28"
+        },
+        {
+          "title": "Tech Shame: Conceptualizing and Measuring a Novel Self-Conscious Emotion in Technology Contexts",
+          "authors": "Seth J. Kinnett, Manika Chaudhary",
+          "url": "https://doi.org/10.1016/j.chb.2026.109237",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109237",
+          "filter": 0,
+          "created": "2026-10-28"
+        },
+        {
+          "title": "Social Comparison and Risky Loot Box Use in Video Games: The Roles of Relative Deprivation, Perceived Superiority, and Perceived Luck",
+          "authors": "Siyuan Xu, Liu Yang, Qiuming Tang, Ming Ji",
+          "url": "https://doi.org/10.1016/j.chb.2026.109234",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109234",
+          "filter": 0,
+          "created": "2026-10-29"
         },
         {
           "title": "Short-Form Video Use and Adolescent Well-Being: A Systematic Review",
@@ -187,28 +176,20 @@
           "created": "2026-10-23"
         },
         {
+          "title": "People Offload Empathy When They Think AI Can Give It Instead",
+          "authors": "Madhulika Shastry, Kurt Gray",
+          "url": "https://doi.org/10.1016/j.chb.2026.109240",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109240",
+          "filter": 0,
+          "created": "2026-10-28"
+        },
+        {
           "title": "Childhood adversity and digital deviance: Adverse childhood experiences and offline and online offending among active hackers",
           "authors": "Caitlyn N. Muniz, C. Jordan Howell, Katelyn Smith, Zacharias Pieri",
           "url": "https://doi.org/10.1016/j.chb.2026.109231",
           "doi": "https://doi.org/10.1016/j.chb.2026.109231",
           "filter": 0,
           "created": "2026-10-27"
-        },
-        {
-          "title": "Not All Family Neglect Is Equal: How Neglect by Adult Children Versus Spouses Relates to Compulsive Smartphone Use Among Older Adults in China",
-          "authors": "Yu Jia, Jiashen Huang, Wenjing Pan",
-          "url": "https://doi.org/10.1016/j.chb.2026.109228",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109228",
-          "filter": 0,
-          "created": "2026-10-22"
-        },
-        {
-          "title": "Sharing for better health: Exploring age, health data sharing behavior, and relatedness needs in mobile health apps",
-          "authors": "Eun Hwa Jung, Jiyoung Chae",
-          "url": "https://doi.org/10.1016/j.chb.2026.109224",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109224",
-          "filter": 0,
-          "created": "2026-10-22"
         }
       ],
       "articles_hidden": []
@@ -276,6 +257,14 @@
           "doi": "https://doi.org/10.1016/j.jesp.2026.105020",
           "filter": 0,
           "created": "2026-10-27"
+        },
+        {
+          "title": "Priming relationship pedestal beliefs in single people",
+          "authors": "Brittany E. Dennett, Burdett H. Kwon, Yuthika U. Girme",
+          "url": "https://doi.org/10.1016/j.jesp.2026.105019",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.105019",
+          "filter": 0,
+          "created": "2026-10-28"
         }
       ],
       "articles_hidden": []
@@ -285,51 +274,36 @@
       "journal_short": "JPSP",
       "articles": [
         {
+          "title": "People underestimate how much dissimilar others want to connect.",
+          "authors": "Gus Cooney, Erica J. Boothby, Jacquie D. Vorauer, Maurice E. Schweitzer",
+          "url": "https://doi.org/10.1037/pspa0000501",
+          "doi": "https://doi.org/10.1037/pspa0000501",
+          "filter": 0,
+          "created": "2026-10-29"
+        },
+        {
           "title": "Anchored in truth but driven by grandiosity: A process account of narcissistic self-enhancement.",
           "authors": "Christoph Heine, Constantine Sedikides, Michael Dufner",
           "url": "https://doi.org/10.1037/pspp0000617",
           "doi": "https://doi.org/10.1037/pspp0000617",
           "filter": 0,
           "created": "2026-10-26"
-        },
-        {
-          "title": "Shades of traits across languages: Comparisons of Dutch, Polish, Czech, and Serbian structures of behavioral items.",
-          "authors": "Boele De Raad, Nasturcja Toruj, Oleg Gorbaniuk, Martina Hřebíčková, Petar Čolović, Biljana Roganović, Snezana Smederevac",
-          "url": "https://doi.org/10.1037/pspp0000615",
-          "doi": "https://doi.org/10.1037/pspp0000615",
-          "filter": 0,
-          "created": "2026-10-22"
         }
       ],
       "articles_hidden": []
     },
     {
-      "journal_full": "Multivariate Behavioral Research",
-      "journal_short": "MBR",
+      "journal_full": "Organizational Research Methods",
+      "journal_short": "ORM",
       "articles": [
         {
-          "title": "Mode-Matched Inverse-Gamma Priors for Variance Components in Bayesian Multilevel Models",
-          "authors": "Liu Liu",
-          "url": "https://doi.org/10.1080/00273171.2026.2740827",
-          "doi": "https://doi.org/10.1080/00273171.2026.2740827",
+          "title": "Detecting Careless Responding: A Comparison of Norm Group-Based Mahalanobis Distance and Norm Group-Based Person-Total Correlation with Their Sample-Based Counterparts",
+          "authors": "Philippe Goldammer, Yannik A. Escher, Peter Lucas Stöckli, Hubert Annen, Anna Luca Heimann",
+          "abstract": "Detecting careless responding in self-report questionnaires has gained considerable attention. Different detection methods have been proposed, with implicit methods offering clear advantages over explicit ones. Mahalanobis distance (MD) and person-total correlation ( r pbis ) are among the most promising implicit detection methods. However, previous research has suggested that MD and r pbis are less accurate indicators of careless responding when the percentage of careless respondents in the sample is high and that norm group-based (NGB) MD and r pbis might be more accurate alternatives under that condition. In two simulation studies and a reanalysis of real data, we examined whether NGB MD and NGB r pbis indeed outperform their sample-based (SB) counterparts in a variety of careless responding patterns. The three main findings were as follows: (1) NGB MD outperformed SB MD in most conditions in three studies, (2) both MD indices (but not r pbis indices) were ineffective when simulated scale-midpoint invariant and full straightlining careless responding had to be detected, and (3) NGB r pbis almost never outperformed SB r pbis . We therefore recommend using NGB MD instead of SB MD, and using SB r pbis instead of NGB r pbis when screening data for careless responding.",
+          "url": "https://doi.org/10.1177/10944281261488778",
+          "doi": "https://doi.org/10.1177/10944281261488778",
           "filter": 0,
-          "created": "2026-10-21"
-        },
-        {
-          "title": "Reducing Boundary Estimates and Increasing Power in Detecting Individual Differences in Change: The Effect of Adding a Quadratic Term",
-          "authors": "Manshu Yang, Lijuan Wang, Scott E. Maxwell",
-          "url": "https://doi.org/10.1080/00273171.2026.2731064",
-          "doi": "https://doi.org/10.1080/00273171.2026.2731064",
-          "filter": 0,
-          "created": "2026-10-21"
-        },
-        {
-          "title": "Possible Solutions to Heywood Cases in Confirmatory Factor Analysis",
-          "authors": "Yijun Cheng, Weicong Lyu, Oscar L. Olvera Astivia",
-          "url": "https://doi.org/10.1080/00273171.2026.2741681",
-          "doi": "https://doi.org/10.1080/00273171.2026.2741681",
-          "filter": 0,
-          "created": "2026-10-21"
+          "created": "2026-10-29"
         }
       ],
       "articles_hidden": []
@@ -355,24 +329,6 @@
           "doi": "https://doi.org/10.1177/01461672261493645",
           "filter": 0,
           "created": "2026-10-26"
-        },
-        {
-          "title": "Less Is More: Why and When Having Less Signals Competence",
-          "authors": "Ruobing Fu, Jingyi Lu",
-          "abstract": "Living with less has become increasingly popular in contemporary culture. It can simplify people’s lives and enhance their well-being. Beyond these intrapersonal benefits, we document a novel, interpersonal benefit of having less: individuals who own fewer possessions are perceived as more competent than those who own more. This effect arises because observers infer that they rely more on reasoning rather than feelings in decision-making. We further develop a three-condition descriptive model specifying that the effect emerges when having fewer possessions appears voluntary, when the possessions are primarily non-hedonic, and when the quantity of possessions is sufficient to meet minimum needs. This research extends the literature on the benefits of having less from an intrapersonal to an interpersonal perspective and identifies possession quantity as a new cue for perceived competence.",
-          "url": "https://doi.org/10.1177/01461672261494236",
-          "doi": "https://doi.org/10.1177/01461672261494236",
-          "filter": 0,
-          "created": "2026-10-21"
-        },
-        {
-          "title": "Implicit Prejudice Differentially Predicts Placement Into Valuable and Scarce Opportunities",
-          "authors": "Yeji Park, Stacey Sinclair",
-          "abstract": "Racial excellence gaps persist, partly due to unequal participation in advanced learning opportunities. Guided by the opportunity hoarding framework, this research investigates whether White Americans’ pro-White/anti-Black prejudice differentially predict simulated Advanced Placement (AP) course admission decisions, and under what conditions—when the opportunity is valuable, scarce, or both. Across two experiments, we observed an unexpected overall pattern in which Black students were placed into higher priority tiers than White students. Nonetheless, greater implicit prejudice predicted larger White–Black differences in placement decisions, explained by placing Black students into lower tiers rather than White students into higher tiers. Critically, we found preliminary evidence that this pattern emerges only when AP participation was described as both valuable and scarce. Explicit prejudice showed less consistent associations with differences in placement decisions across studies. The valuable and scarce nature of advanced learning opportunities may amplify the effect of implicit prejudice in deciding who deserves access.",
-          "url": "https://doi.org/10.1177/01461672261494655",
-          "doi": "https://doi.org/10.1177/01461672261494655",
-          "filter": 0,
-          "created": "2026-10-21"
         }
       ],
       "articles_hidden": []
@@ -382,20 +338,12 @@
       "journal_short": "PM",
       "articles": [
         {
-          "title": "How to design a panel study for investigating bivariate dynamics using continuous-time modeling.",
-          "authors": "Nuria Real-Brioso, Eduardo Estrada",
-          "url": "https://doi.org/10.1037/met0000876",
-          "doi": "https://doi.org/10.1037/met0000876",
+          "title": "Evaluating statistical methods for single-case designs under serial dependence: Precision, validity, and sensitivity.",
+          "authors": "Hsiu-Ting Yu",
+          "url": "https://doi.org/10.1037/met0000879",
+          "doi": "https://doi.org/10.1037/met0000879",
           "filter": 0,
-          "created": "2026-10-22"
-        },
-        {
-          "title": "Correcting for publication bias in multivariate and multilevel meta-analysis: A multivariate step function selection model approach.",
-          "authors": "Robbie C. M. van Aert, Richard D. Riley, Dan Jackson",
-          "url": "https://doi.org/10.1037/met0000854",
-          "doi": "https://doi.org/10.1037/met0000854",
-          "filter": 0,
-          "created": "2026-10-22"
+          "created": "2026-10-29"
         }
       ],
       "articles_hidden": []
@@ -405,13 +353,13 @@
       "journal_short": "PsychSci",
       "articles": [
         {
-          "title": "Serial or Parallel? Sublexical Scanpath Analysis of Eye-movement Sequences in Single Word Reading",
-          "authors": "Hend Lahoud, Adi Shechter, Titus von der Malsburg, David L. Share",
-          "abstract": "Are the letters of a written word processed sequentially or in parallel? Despite an abundance of research on visual word recognition, the evidence in this longstanding debate rests almost entirely on indirect inferences from word-length effects and conventional whole-word eye-movement measures. We sought direct evidence on the serial-parallel question by investigating sublexical gaze-fixation sequences—so-called scanpaths . This study is the first to apply scanpath analysis to fixation sequences within single words. Thirty-four Hebrew-speaking adult university students read aloud three-letter and five-letter real words and pseudowords while their eye movements were tracked. As expected, real words showed more parallel processing, whereas pseudowords displayed more sequential, letter-by-letter scanpaths. Surprisingly, longer words tended to elicit serial processing regardless of word familiarity. Our findings support the applicability of scanpath analysis in visual word recognition and its potential to open up new perspectives on word-recognition processes.",
-          "url": "https://doi.org/10.1177/09567976261488750",
-          "doi": "https://doi.org/10.1177/09567976261488750",
+          "title": "Context Matters, Doesn’t It? The Role of Context in Everyday Emotion Regulation Strategy Use",
+          "authors": "Anh Tran, Rachel Freeman-Robinson, Peter Koval, Katharine H. Greenaway, Elise K. Kalokerinos",
+          "abstract": "A common maxim holds that “context is everything.” This perspective transformed the field of emotion regulation, which evolved from understanding which regulation strategies people use, to understanding how strategy use varies by context (i.e., strategy–situation fit). Theoretical accounts suggest contextual features are crucial in guiding strategy use. However, empirical evidence is isolated in piecemeal studies with inconclusive results. To comprehensively explore context-dependent emotion regulation, we need data on emotion regulation across many contexts, at scale. Combining up to 11 experience-sampling data sets collected from Belgian and Australian samples in an integrative analysis ( N ID = 500–1,696, N observations = 27,023–101,114, M age = 25.38 years, 71% women), we examined how regulation-strategy use varies as a function of three theory-derived contextual features— intensity , controllability , and social features (i.e., the presence and closeness of others). We found limited support that context matters for daily emotion-regulation strategy use. Our study provides a well-powered foundational step to test a theory central to emotion-regulation research and highlights the complexity of capturing strategy–situation fit in daily life.",
+          "url": "https://doi.org/10.1177/09567976261470400",
+          "doi": "https://doi.org/10.1177/09567976261470400",
           "filter": 0,
-          "created": "2026-10-22"
+          "created": "2026-10-29"
         }
       ],
       "articles_hidden": []
@@ -420,6 +368,60 @@
       "journal_full": "Psychology of Music",
       "journal_short": "PsychMusic",
       "articles": [
+        {
+          "title": "Expressive Priority and Goal Structure and Complexity During Collegiate, Faculty, and Professional Chamber Music Rehearsals",
+          "authors": "Rebecca A. Roesler, Robin S. Heinsen, Laura K. Hicken",
+          "abstract": "The purpose of this study was to discover the artistic conceptualizations and priorities of collegiate, faculty, and professional musicians during the moment-to-moment decision-making of a rehearsal. We utilized musicians’ verbalizations during chamber music rehearsals as a vehicle for exploring their thought processes. Analysis 1 investigated the rehearsal targets ensembles prioritized as a percentage of total rehearsal time allocated to each. Analysis 2 investigated the complexity and form of professional, faculty, and collegiate chamber musicians’ goal structures as they attended to musical targets in relation to one another. Professional chamber ensembles prioritized the expressive targets of character and phrasing above all others, and significantly more as a percentage of rehearsal time than did collegiate chamber ensembles. Goal complexity increased with each level of experience from collegiate to professional ensembles; faculty and professional ensembles pursued elemental and technical goals in service of paramount expressive ends such as character and phrasing. We discuss the possible causes for this phenomenon, implications for music education, and recommendations for further research in these areas. We also recommend that teachers consider crafting music learning experiences to facilitate learners’ focus on expressive ends and pursual of proximal goals in service of artistic aims.",
+          "url": "https://doi.org/10.1177/03057356261489488",
+          "doi": "https://doi.org/10.1177/03057356261489488",
+          "filter": 0,
+          "created": "2026-10-29"
+        },
+        {
+          "title": "Living Criteria: Co-Construction of Evaluative Criteria in Creative Collaboration in the Primary Classroom",
+          "authors": "Ashleigh Southam, Aleksandra Getman",
+          "abstract": "Research with both professional musicians and children shows that during creativity, evaluations – such as liking, novelty and structure – shape decision-making. Less is known about how these evaluative processes operate in collaborative classroom settings where creativity also supports learning. This study examined how primary school students evaluate ideas during collaborative creative tasks, particularly in relation to their musical decisions. A qualitative case study was conducted with 18 students (aged 9–10) in a primary classroom across five integrated arts lessons centred on composing and performing rhythmic ostinati. Classroom observations, peer-feedback forms and student interviews were analysed thematically. Findings showed that students co-constructed a ‘Living Criteria’: a shared, dynamic evaluative system guiding idea generation, selection and refinement. This system comprised three components: Task-Specific Congruence (judging ideas by task fit and clarity), Emerging Aesthetic Evaluation (linking humour, enjoyment and ‘liking’ with perceived quality) and Collaborative Sensitivity (balancing idea quality with group harmony). Although limited by its small sample and single-class context, the study demonstrates how children integrate aesthetic, practical and social considerations when working together musically and creatively. The concept of ‘Living Criteria’ offers a framework for understanding how evaluative judgement develops through collaboration, with implications for music pedagogy and creative learning research.",
+          "url": "https://doi.org/10.1177/03057356261489515",
+          "doi": "https://doi.org/10.1177/03057356261489515",
+          "filter": 0,
+          "created": "2026-10-29"
+        },
+        {
+          "title": "Exploring Musicians’ Perspectives on Decent Work, Creativity, and Well-Being",
+          "authors": "Liliana Faria, Ana Martins",
+          "abstract": "This study, grounded in the psychology of working theory (PWT) and self-determination theory (SDT), examined how working conditions shape musicians’ experiences of decent work, intrinsic motivation, artistic identity, creative engagement, and psychological well-being. Sixteen in-depth interviews were conducted with Portuguese musicians, including both freelancers and those with stable contracts. Reflexive thematic analysis identified four overarching themes: (a) job security and precarity, (b) intrinsic motivation, autonomy, and creative engagement, (c) artistic identity and purpose, and (d) well-being and mental health. The findings show that freelance instability undermines security, constrains creative risk-taking, and increases stress, whereas financial and institutional stability supports intrinsic motivation, reinforces artistic identity, and enables creative exploration. Features associated with intrinsic motivation, voluntary engagement, persistence, and psychological investment in creative tasks were observed across both groups. Autonomy itself sustained engagement for some freelancers, highlighting personal resilience and self-directed creativity. The results underscore the interplay between structural conditions (PWT) and individual motivations (SDT), showing that sustainable work environments foster well-being and high-quality creative output. The study provides practical implications for policies, education, and organizational strategies to support healthier, more productive artistic ecosystems.",
+          "url": "https://doi.org/10.1177/03057356261491647",
+          "doi": "https://doi.org/10.1177/03057356261491647",
+          "filter": 0,
+          "created": "2026-10-29"
+        },
+        {
+          "title": "Does Self-Compassion Moderate the Association Between Music-Specific Stress and Internalizing Symptoms?",
+          "authors": "Darya Ellalasingham, Ishan N. Vengurlekar, Christopher J. McCarthy",
+          "abstract": "Music students are a high-risk population for mental health challenges due to the unique sources of stress they encounter. Previous work indicates that these music-specific stressors are associated with higher levels of internalizing symptoms (i.e., depression and anxiety). Consequently, further attention to protective assets and resources for music students is crucial. One construct that has garnered attention from scholars is self-compassion. Prior studies have documented benefits of self-compassion in reducing and attenuating the link between stress and internalizing symptoms. Yet, no study to date has considered whether self-compassion and its six subscales moderate the association between music-study stress and internalizing symptoms. The current study explored whether self-compassion and its six subcomponents moderate the relationship between music-study stress and internalizing symptoms among student musicians. Participants were 151 music students at a public university in the United States. We found a positive association between music-study stress and internalizing symptoms. In addition, results revealed that self-judgment and isolation moderated the link between music-study stress and anxious symptoms, such that at higher levels of self-judgment and isolation, music-study stress evinced stronger associations with anxious symptoms than at lower levels of the two. We discuss the rationales for our findings and practice implications.",
+          "url": "https://doi.org/10.1177/03057356261485165",
+          "doi": "https://doi.org/10.1177/03057356261485165",
+          "filter": 0,
+          "created": "2026-10-29"
+        },
+        {
+          "title": "Implications of Self-Recording of Audition Performances in Opera Singers: A Multiple Case Study",
+          "authors": "Melissa Treinkman",
+          "abstract": "This qualitative multiple case study investigated the potential benefits of audio self-recording during university opera auditions. While commonly employed in individual practice, self-recording remains rare in formal audition settings, possibly hindering performers’ ability to critically evaluate their performance. Five classical university voice students participated in semi-structured interviews after completing an audio-recorded opera audition. Each student reflected on the audition both before and after listening to their recording. Thematic analysis revealed the following three primary themes: (a) self-recording as a tool for recalling specific details of the audition, (b) shifts in self-perception after listening, and (c) reduced post-audition rumination. These findings underscore the need for further research and highlight the potential of audio self-recording as a cost-effective, pedagogically valuable intervention that may support reflective learning, emotional regulation, and more effective audition preparation within higher education settings.",
+          "url": "https://doi.org/10.1177/03057356261492565",
+          "doi": "https://doi.org/10.1177/03057356261492565",
+          "filter": 0,
+          "created": "2026-10-29"
+        },
+        {
+          "title": "A Lasting Impression: Performance Memory Persists After a Single Musical Exposure",
+          "authors": "David Duncan, Katya Ness, Ian Cross",
+          "abstract": "Despite the centrality of memory to music reading and performance, little is known about incidental long-term memory retention of music that is performed at sight. In this study, 19 undergraduate pianists sight-read a series of short, unfamiliar pieces, and then returned 1–3 weeks later to perform the same pieces, without opportunities to see or practise the music in the interim. Pitch, rhythm, and metre errors were all found to decrease in the second reading, with error counts dropping on average by 13% from Reading 1 to Reading 2, while error types and sizes tended to persist across readings. No significant differences were found between those who had a 1-, 2-, or 3-week gap between readings, suggesting that a single brief encounter with a score can have a long-term priming effect. These findings illustrate how robust musical memory can be and may have implications for our understanding of how motor and memory systems support long-term retention in skilled performance.",
+          "url": "https://doi.org/10.1177/03057356261478549",
+          "doi": "https://doi.org/10.1177/03057356261478549",
+          "filter": 0,
+          "created": "2026-10-29"
+        },
         {
           "title": "Music Training, Musical Ability and Language Skills in Children From Disadvantaged Socioeconomic Backgrounds",
           "authors": "Carlos dos Santos-Luiz, Lisete Mónico, Gina C. Lemos, Graça Boal-Palheiros",
@@ -437,30 +439,6 @@
       "journal_short": "TMB",
       "articles": [
         {
-          "title": "Artificial intelligence agent tone influences perceived informational value and affective valence.",
-          "authors": "Michael J. Gazzanigo, Xiao Yang",
-          "url": "https://doi.org/10.1037/tmb0000233",
-          "doi": "https://doi.org/10.1037/tmb0000233",
-          "filter": 0,
-          "created": "2026-10-22"
-        },
-        {
-          "title": "Technology-mediated connectedness: A systematic review of constructs and measurements.",
-          "authors": "Aike C. Horstmann, Nicole C. Krämer",
-          "url": "https://doi.org/10.1037/tmb0000215",
-          "doi": "https://doi.org/10.1037/tmb0000215",
-          "filter": 0,
-          "created": "2026-10-22"
-        },
-        {
-          "title": "Beyond good and bad: An in-depth study of student and teacher views on generative AI in high school.",
-          "authors": "Sarah I. Segall, Tal Waltzer, Gail D. Heyman",
-          "url": "https://doi.org/10.1037/tmb0000226",
-          "doi": "https://doi.org/10.1037/tmb0000226",
-          "filter": 0,
-          "created": "2026-10-22"
-        },
-        {
           "title": "Physicians trust artificial intelligence (AI) less in complex cases but rely on it just as much.",
           "authors": "Nadine Schlicker, Noëlle Steffens, Ali Kholmovaia, Orestis Loukas, Leander E. Melms, Martin C. Hirsch, Markus Langer",
           "url": "https://doi.org/10.1037/tmb0000223",
@@ -469,36 +447,20 @@
           "created": "2026-10-26"
         },
         {
-          "title": "Network examination of online gambling disorder, psychological distress, and daily functioning: Comparative role of maladaptive personality traits.",
-          "authors": "Jakub Helvich, Eva Migalova, Peter Tavel",
-          "url": "https://doi.org/10.1037/tmb0000225",
-          "doi": "https://doi.org/10.1037/tmb0000225",
+          "title": "Voice can help and hurt AI empathy: How context shapes the effects of vocal delivery.",
+          "authors": "Joshua D. Wenger, C. Daryl Cameron, Reza H. Mogavi, Michael Inzlicht",
+          "url": "https://doi.org/10.1037/tmb0000235",
+          "doi": "https://doi.org/10.1037/tmb0000235",
           "filter": 0,
-          "created": "2026-10-22"
+          "created": "2026-10-29"
         },
         {
-          "title": "Implementation of phone ban policies in school: A secondary analysis of a phone ban intervention in South Australia.",
-          "authors": "Stéphanie Baggio, Tracey Wade, Marcela Radunz, Christina R. Galanis, Joël Billieux, Vladan Starcevic, Blake Quinney, Daniel L. King",
-          "url": "https://doi.org/10.1037/tmb0000237",
-          "doi": "https://doi.org/10.1037/tmb0000237",
+          "title": "An accuracy self-nudge to reduce misinformation sharing online.",
+          "authors": "Friederike Stock, Ralph Hertwig, Philipp Lorenz-Spreen",
+          "url": "https://doi.org/10.1037/tmb0000221",
+          "doi": "https://doi.org/10.1037/tmb0000221",
           "filter": 0,
-          "created": "2026-10-22"
-        },
-        {
-          "title": "Perceived coworker emotions in social media communication and job satisfaction: Anger and happiness as mediators and problem solving and gender as moderators.",
-          "authors": "Ming-Hong Tsai, Tram Ngoc Hoang",
-          "url": "https://doi.org/10.1037/tmb0000231",
-          "doi": "https://doi.org/10.1037/tmb0000231",
-          "filter": 0,
-          "created": "2026-10-22"
-        },
-        {
-          "title": "Beyond self-report: Objective smartphone screen time and its associations with autistic traits, personality, and mental health.",
-          "authors": "Mustafa Elmi Ibrahim, Mariam Bahameish, Christopher Kannen, Zied El Houki, Dena Al-Thani, Christian Montag",
-          "url": "https://doi.org/10.1037/tmb0000228",
-          "doi": "https://doi.org/10.1037/tmb0000228",
-          "filter": 0,
-          "created": "2026-10-22"
+          "created": "2026-10-29"
         }
       ],
       "articles_hidden": []
