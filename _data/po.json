@@ -1,5 +1,5 @@
 {
-  "update": "2026-10-31",
+  "update": "2026-11-01",
   "content": [
     {
       "journal_full": "International Journal of Public Opinion Research",
@@ -22,15 +22,6 @@
       "journal_short": "JSSAM",
       "articles": [
         {
-          "title": "Structural Bias in Stylized Items with Point-Valued Categories",
-          "authors": "Ettore Scappini",
-          "abstract": "Survey research frequently relies on stylized questions with discrete, ordered response categories to measure behaviors or attitudes. While these items simplify responses and facilitate standardization, they introduce a structural bias component (SBC) arising from the discrepancy between actual behavior and the assigned category values. This paper investigates SBC in the context of religious practice, using data from the European Values Study across multiple waves and countries. The analysis shows that the discrete nature of point-value items can generate distortions. A calibration model is proposed to estimate and adjust for this bias, assuming a uniform distribution of behaviors within each interval. Findings suggest that, while SBC can reach substantial levels in some domains—particularly where the accuracy of absolute values is crucial—in practice, however, its impact on theoretical interpretations or explanatory factors is typically limited. The study underscores the importance of carefully designing response categories and considering alternative scaling methods, such as stylized items with interval-valued categories, to reduce measurement error and enhance survey validity.",
-          "url": "https://doi.org/10.1093/jssam/smag043",
-          "doi": "https://doi.org/10.1093/jssam/smag043",
-          "filter": 0,
-          "created": "2026-10-24"
-        },
-        {
           "title": "Does Respondent Gender Matter to the Collection of Household Consumption and Expenditure Data in India?",
           "authors": "Sharan Sharma, Pallavi Choudhuri, Sonalde Desai",
           "abstract": "Consumption and expense (CE) data from surveys in low-and-middle-income countries (LMICs) are critical to understand social inequalities, formulate policies, and implement targeted benefits. However, little research has examined measurement error in these data. This paper investigates one potential source of measurement error: the respondent’s gender. This is important given the sharp differences in gender roles, attitudes, experiences, and identities in LMICs that may result in different responses from male and female respondents. We analyze CE values from 34 items that were collected from a recent large-scale survey of more than 46,000 households in India; females were respondents in 37 percent of these households. We use multigroup confirmatory factor analysis to examine if data from male and female respondents have measurement equivalence. We then use zero-inflated gamma models to investigate if respondent gender is associated with the prevalence of zero values and the magnitude of non-zero values, using propensity weights to adjust for possible selection biases. Results show that while most CE categories exhibit gender effects, effect sizes are generally modest. The effect magnitudes vary by CE category, and in general, female respondents are associated with more zeros and lower non-zero response values compared to male respondents. However, categories say annual education expenses or 30-day medical expenses see a larger average value for females compared with males. We find that the role of the respondent in shopping for the household and managing its expenses partially explains gender effects. The respondent’s age and education, and help received in answering the CE questions, moderate gender effects on non-zero CE values. We suggest avenues for future research and implications for survey practice.",
@@ -38,15 +29,6 @@
           "doi": "https://doi.org/10.1093/jssam/smaf054",
           "filter": 0,
           "created": "2025-12-2"
-        },
-        {
-          "title": "Small Area Estimation Using Area-Level Linked Data",
-          "authors": "Enrico Fabrizi, Nicola Salvati, Ray Chambers",
-          "abstract": "Official statistics increasingly use linked survey and administrative data for small area estimation, but record linkage error can distort direct estimators in area-level Fay–Herriot models. We develop a likelihood-based framework for such models under an Exchangeable Linkage Error mechanism, using the Missing Information Principle to obtain linkage error-adjusted maximum likelihood estimators of regression coefficients and variance components, an empirical best predictor of true area means, and a mean squared error estimator. Simulation results show that ignoring linkage error leads to substantial bias and loss of efficiency, while the proposed methods restore unbiasedness and provide accurate uncertainty quantification. An application to estimation of average equivalized income for 113 labor market areas in Central Italy, based on European Union Statistics on Income and Living Conditions (EU-SILC) data linked to administrative registers, illustrates the practical benefits of the approach.",
-          "url": "https://doi.org/10.1093/jssam/smag034",
-          "doi": "https://doi.org/10.1093/jssam/smag034",
-          "filter": 0,
-          "created": "2026-8-1"
         }
       ],
       "articles_hidden": []
