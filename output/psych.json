@@ -1,48 +1,6 @@
 {
-  "update": "2026-11-01",
+  "update": "2026-11-02",
   "content": [
-    {
-      "journal_full": "Advances in Methods and Practices in Psychological Science",
-      "journal_short": "AMPPS",
-      "articles": [
-        {
-          "title": "Registered Report: Replication and Extension of Nozaradan et al. (2011)",
-          "authors": "Karli M. Nave, Erin E. Hannon, Joel S. Snyder, Emma Alexandrov, Sarah C. Allen, Fernando Barbosa, Mara Breen, Alexandre Celma-Miralles, Thibault Chain, Joshua R. de Leeuw, Fernando Ferreira-Santos, Ahren B. Fitzroy, Ningyao Geng, Sean A. Gilmore, Reyna L. Gordon, Jessica A. Grahn, Paz Har-Shai Yahav, Kiara Holm, Falk Huettig, Anne Keitel, Christian Keitel, Eniko Ladanyi, Yiguang Liu, Psyche Loui, Grace A. Lourie, Inês Macedo, Cyrille L. Magne, Cecilie Møller, David Moreau, Srishti Nayak, Markus Ostarek, Dingyi Pan, Rita Pasion, Mariana R. Pereira, Danna S. Pinto, Eva D. Poort, Meg Renzelman, Frank A. Russo, Jan Stupacher, Parker Tichko, Lucy Wight, Chu Yi Yu, Elana M. Zion Golumbic",
-          "abstract": "Cognitive neuroscience has long sought to disentangle stimulus-driven processing from conscious perceptual processing. Some prior evidence for neural processing of perceived musical beat (periodic pulse) may be confounded by stimulus-driven activity. Nozaradan et al. controlled for stimulus factors and used frequency tagging to show increased brain activity at imagery-related frequencies when listeners imagined a beat pattern during an isochronous stimulus. However, it remains unclear whether this effect is replicable and whether it reliably reflects conscious beat perception. In this registered report, we present 13 independent replications using the same vetted protocol. Listeners performed the same experimental paradigm as in Nozaradan et al. with an added behavioral task on each trial to assess conscious perception of the imagined beat. Preregistered meta-analyses revealed smaller raw effect sizes of imagery condition (binary = 0.03 µV, ternary = 0.03 µV) than the original study (binary = 0.12 µV, ternary = 0.20 µV) with confidence intervals all overlapping with zero. Differences in full-sample estimated effect sizes (this study: N = 152, η p 2 s = .03–.04; 2011 study: N = 8, η p 2 s = .62–.76) suggest larger sample sizes are necessary to detect these effects reliably if they exist. In addition, only neural activity at the stimulus frequency predicted imagery-task accuracy, contradicting our hypothesis that beat-related frequencies would predict performance. Our findings suggest an overall failure to replicate all main effects from the original study. We discuss potential reasons for discrepancies with the original study and implications for the utility of frequency tagging for studying beat perception.",
-          "url": "https://doi.org/10.1177/25152459261443491",
-          "doi": "https://doi.org/10.1177/25152459261443491",
-          "filter": 0,
-          "created": "2026-10-25"
-        },
-        {
-          "title": "On the Limits of Contextual Malleability in Cognitive Performance: Commentary on Stoevenbelt et al. (2026)",
-          "authors": "David Moreau",
-          "url": "https://doi.org/10.1177/25152459261451143",
-          "doi": "https://doi.org/10.1177/25152459261451143",
-          "filter": 0,
-          "created": "2026-10-25"
-        },
-        {
-          "title": "Exploring the Impact of Nonlinearity on Effect Heterogeneity in Experimental Data",
-          "authors": "Jens H. Fünderich, Lukas J. Beinhauer, Frank Renkewitz",
-          "abstract": "Heterogeneity has been proposed as a framework to improve psychological and behavioral science by identifying mechanisms that explain the differences between replications of an effect. The modal response to such differences is to search for relevant moderators—typically with limited success. We argue that monotonic nonlinear relationships can generate heterogeneous effects across replications when baseline levels differ, even in the absence of moderators. To evaluate this possibility, we introduce four descriptors of heterogeneity: effect heterogeneity, control-group heterogeneity, the intercept-slope correlation, and the rank correlation between control and treatment means. These characterize patterns consistent with linear, concave, or convex functional relationships. We apply this analytical framework to an initial pool of 55 meta-analytic multilab data sets. All data sets with heterogeneous effects also demonstrated control-group heterogeneity, and several patterns were in line with a concave functional relationship. In some cases, the association between baselines and effects accounted for a substantial proportion of effect heterogeneity. In addition, only a small number of data sets were directly at odds with a monotonic nonlinear functional form. Moreover, our results suggest that effect heterogeneity in multilab research reflects diverse data patterns rather than providing support for treating moderators as the modal explanation for effect heterogeneity. We discuss implications for multilab and meta-analytic practice, study design, and interpretations of effect heterogeneity. We advocate for a shift from treating only the effect-size distribution as the explanandum of the heterogeneity framework to more elaborate descriptions of heterogeneity.",
-          "url": "https://doi.org/10.1177/25152459261479656",
-          "doi": "https://doi.org/10.1177/25152459261479656",
-          "filter": 0,
-          "created": "2026-10-25"
-        },
-        {
-          "title": "Multiple Methods for Visualizing Human Language: A Tutorial for Social and Behavioral Scientists",
-          "authors": "Veerle C. Eijsbroek, August H. Nilsson, Leon Ackermann, Zhuojun Gu, Clara Wiebel, Adithya V. Ganesan, Katarina Kjell, H. Andrew Schwartz, Oscar N. E. Kjell",
-          "abstract": "Humans use language to communicate psychological experiences. Advancements in natural language processing have enabled researchers to quantitatively study and assess psychological states and behaviors through language. Insights from these language analyses are often best conveyed through visualizations. Data-driven visualizations of how language statistically relates to psychological dimensions can help interpret assessment scores, uncover meaningful patterns, and understand the intricate relationships between language use and mental states. Visualizations can be used to differentiate between related constructs (e.g., How does language related to depression versus anxiety differ?), understand the validity of assessment tools (e.g., Does the language related to high depression severity match with depression theory?), and explain language-based assessments (e.g., Which language is indicative of higher depression severity in a language-based assessment?). In this tutorial, we demonstrate how to transform language data into visual insights using the text and topics packages in R. We provide practical guidance on creating four types of visualizations based on different language-analysis techniques, examining how language-use patterns are statistically associated with psychological constructs. We visualize (a) individual words and phrases (n-grams), (b) topics (word clusters), (c) words in the word-embedding space, and (d) relevant language examples. The different visualizations offer complementary perspectives, visualizing linguistic elements from individual words to overarching topics and text examples. The underlying methods range from correlations between individual words to more advanced techniques, including topic modeling and large language models. By making these methods accessible, we aim to empower researchers to use language visualizations for meaningful, data-driven insights.",
-          "url": "https://doi.org/10.1177/25152459261454622",
-          "doi": "https://doi.org/10.1177/25152459261454622",
-          "filter": 0,
-          "created": "2026-10-25"
-        }
-      ],
-      "articles_hidden": []
-    },
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
@@ -72,7 +30,7 @@
           "created": "2026-10-28"
         },
         {
-          "title": "Effects of Multi-Attributional Diversity for Targets and Perceivers of Stereotypes in Computer-Supported Collaborative Learning",
+          "title": "Effects of multi-attributional diversity for targets and perceivers of stereotypes in computer-supported collaborative learning",
           "authors": "Jennifer Hochstein, Laura Froehlich, Niels Seidel, Martin Schulze, Joerg M. Haake, Nathalie Bick, Jan-Bennet Voltmer, Sarah E. Martiny, Jana Nikitin, Verena Walpurger, Sören Michallek, Stefan Stürmer",
           "url": "https://doi.org/10.1016/j.chb.2026.109239",
           "doi": "https://doi.org/10.1016/j.chb.2026.109239",
@@ -174,22 +132,183 @@
           "doi": "https://doi.org/10.1016/j.chb.2026.109227",
           "filter": 0,
           "created": "2026-10-31"
+        },
+        {
+          "title": "The role of arousal and valence in predictions of short video virality: A psychophysiological perspective",
+          "authors": "Danila Shelepenkov, Vladimir Kosonogov",
+          "url": "https://doi.org/10.1016/j.chb.2026.109060",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109060",
+          "filter": 0,
+          "created": "2026-6-1"
+        },
+        {
+          "title": "Does greater dominance lead to greater trust? A study on the impact of robot personality on user trust",
+          "authors": "Yunze Zhao, Mengting Lu",
+          "url": "https://doi.org/10.1016/j.chb.2026.109088",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109088",
+          "filter": 0,
+          "created": "2026-6-15"
+        },
+        {
+          "title": "The role of anthropomorphized artificial intelligence in shaping consumer mental models and emotional experience in digital branding",
+          "authors": "Samira Nazari Ghazvini, Behnaz Ahmadzadeh Ardebili, Amir Heidari Arash, Shokoufeh Hajmalek, Mohammad Hossein Vafa, Hassan Nosrati",
+          "url": "https://doi.org/10.1016/j.chb.2026.109080",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109080",
+          "filter": 0,
+          "created": "2026-6-12"
+        },
+        {
+          "title": "Unraveling the behavioral and autonomic dynamics of defensive states in humans in an unconstrained, immersive virtual world",
+          "authors": "Alma-Sophia Merscher, Lea K. Hildebrandt, Jasin Sahraoui, Matthias Gamer",
+          "url": "https://doi.org/10.1016/j.chb.2026.109057",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109057",
+          "filter": 0,
+          "created": "2026-5-27"
+        },
+        {
+          "title": "Content as shelf: How branded content atmospheres shape consumer relationship building in social commerce? Insights from PLS-SEM and fs/QCA",
+          "authors": "Lu Zheng, Yongfa Li, Xiaojing Zhang",
+          "url": "https://doi.org/10.1016/j.chb.2026.109065",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109065",
+          "filter": 0,
+          "created": "2026-6-4"
+        },
+        {
+          "title": "From social trust to AI technology acceptance: A panel study of AI-Powered autonomous vehicle adoption in Singapore",
+          "authors": "Hongjie Tang, Shirley S. Ho, Liang Chen",
+          "url": "https://doi.org/10.1016/j.chb.2026.109063",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109063",
+          "filter": 0,
+          "created": "2026-5-30"
+        },
+        {
+          "title": "A dual-component framework of interactive attention: Gaze markers of expertise and engagement in split-attention gameplay",
+          "authors": "Joshua Juvrud, Katherine Salembier, Margot Delany, Shiloh Frost, Xingcen (Lucy) Liu, Adrian Łoboda, Evangelia Sotiriou",
+          "url": "https://doi.org/10.1016/j.chb.2026.109055",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109055",
+          "filter": 0,
+          "created": "2026-5-22"
+        },
+        {
+          "title": "Why we feel regret and guilt about using digital technology in our free time – A European perspective",
+          "authors": "Christine Schoetensack, Ruth Ogden, Katarzyna Goncikowska, Joanna Witowska, Georgina Giner-Domínguez, Sébastien Chappuis, Tereza Klegr, Rafael Valenzuela, Julie Papastamatelou, Marc Wittmann, Núria Codina, José Vicente Pestana, Mónica Fernández Boente, Quentin Meteier, Chantal Martin-Soelch, Vanda Černohorská",
+          "url": "https://doi.org/10.1016/j.chb.2026.109083",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109083",
+          "filter": 0,
+          "created": "2026-6-15"
+        },
+        {
+          "title": "The ties that (healthily) bind: Playing in groups increases game loyalty but decrease addiction",
+          "authors": "Shih-I Tai, Thi Tuan Linh Pham, Tzu-Ling Huang, Alexander S. Dennis, Chun-Hao Liu, Gen-Yih Liao, Ching-I Teng",
+          "url": "https://doi.org/10.1016/j.chb.2026.109074",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109074",
+          "filter": 0,
+          "created": "2026-6-2"
+        },
+        {
+          "title": "How augmented reality usage traces shape consumer decision-making in online food shopping: The roles of virtual taste and contamination sensitivity",
+          "authors": "Zhiying Xu, Xingyuan Wang, Gaojie Zhang, Chao Qi",
+          "url": "https://doi.org/10.1016/j.chb.2026.109081",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109081",
+          "filter": 0,
+          "created": "2026-6-19"
+        },
+        {
+          "title": "Perceived algorithmic attraction in GenAI-generated pedagogical agents: Dimensions and effects on learner trust and motivation",
+          "authors": "Fu-Song Hsu, Wei-Ting Pai, I-Chia Tsai",
+          "url": "https://doi.org/10.1016/j.chb.2026.109079",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109079",
+          "filter": 0,
+          "created": "2026-6-11"
+        },
+        {
+          "title": "Blessed or not? The dual-path influence mechanism of intelligent elderly care service robots' roles on Chinese family caregivers' well-being",
+          "authors": "Caihua Yu, Siwen Xu, Tonghui Lian",
+          "url": "https://doi.org/10.1016/j.chb.2026.109090",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109090",
+          "filter": 0,
+          "created": "2026-6-18"
+        },
+        {
+          "title": "Patterns of prefrontal cortex connectivity in internet gaming disorder: fNIRS insight from mobile gameplay",
+          "authors": "Xinyu Zhang, Dongyu Liu, Christian Montag, Jon D. Elhai, Yawen Guo, Haibo Yang",
+          "url": "https://doi.org/10.1016/j.chb.2026.109066",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109066",
+          "filter": 0,
+          "created": "2026-6-3"
+        },
+        {
+          "title": "Understanding the efficacy of online bystander intervention when journalists are the targets",
+          "authors": "Kathleen Searles, Rebekah Tromble",
+          "url": "https://doi.org/10.1016/j.chb.2026.109062",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109062",
+          "filter": 0,
+          "created": "2026-5-29"
+        },
+        {
+          "title": "When conversational AI personalises too much: Refining privacy calculus for bundled interactional cues in AI-mediated disclosure",
+          "authors": "Khanh Duy Phan, Bao Quoc Truong-Dinh",
+          "url": "https://doi.org/10.1016/j.chb.2026.109061",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109061",
+          "filter": 0,
+          "created": "2026-5-29"
+        },
+        {
+          "title": "Perceptions and adoption of AI in public relations: Innovation attributes, threats, and practical implications",
+          "authors": "Sung-Un Yang, Cen April Yue, Arunima Krishna, Donald K. Wright",
+          "url": "https://doi.org/10.1016/j.chb.2026.109087",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109087",
+          "filter": 0,
+          "created": "2026-6-17"
+        },
+        {
+          "title": "Visual feedback design and cognitive immersion: A mediated model of performance pressure, satisfaction, and skill depth",
+          "authors": "Min Jou, Yungwei Hao",
+          "url": "https://doi.org/10.1016/j.chb.2026.109084",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109084",
+          "filter": 0,
+          "created": "2026-6-11"
+        },
+        {
+          "title": "Longitudinal changes in gamers’ profiles and gaming disorder risk",
+          "authors": "Cátia Martins Castro, Sophia Achab, David Dias Neto",
+          "url": "https://doi.org/10.1016/j.chb.2026.109064",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109064",
+          "filter": 0,
+          "created": "2026-5-30"
+        },
+        {
+          "title": "Risk and protective patterns of adolescent phubbing: A pattern-oriented study using association rule mining",
+          "authors": "Erdal Görkem Gavcar, Çağlar Şimşek, Ahmet Büber, Ömer Başay, Bürge Kabukçu Başay, Merve Aktaş Terzioğlu, Serdar İplikçi",
+          "url": "https://doi.org/10.1016/j.chb.2026.109078",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109078",
+          "filter": 0,
+          "created": "2026-6-11"
         }
       ],
-      "articles_hidden": []
+      "articles_hidden": [
+        {
+          "title": "Corrigendum to ‘Corrigendum to ‘Can online behaviors be linked to mental health? Active versus passive social network usage on depression via envy and self-esteem’’ [Computers in Human Behavior 162 (2025) 108455, 172 (2025) 108744]",
+          "authors": "Nhan Duc Nguyen, Ngoc-Anh Truong, Pham Quang Dao, Huan Hong Nguyen",
+          "url": "https://doi.org/10.1016/j.chb.2026.109077",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109077",
+          "filter": 1,
+          "created": "2026-6-12"
+        }
+      ]
     },
     {
       "journal_full": "Group Processes & Intergroup Relations",
       "journal_short": "GPIR",
       "articles": [
         {
-          "title": "Pronouns, Faces, and Voices: How Gender Identity Labels and Phenotypic Cues Influence Anticipated Anxiety and Avoidance",
-          "authors": "Brandon R. Cohen, Gina A. Paganini, Lindsay Goolsby, Camille K. Abelanet, E. Paige Lloyd",
-          "abstract": "When perceivers encounter novel others, perceptual cues to gender (vocal tones, facial structure) and gender labels (e.g., pronouns) can influence impression formation. However, most work examining gender cues and impression formation examines the effects of either a perceptual cue or a gender label on judgments of others. The current work aimed to understand how perceptual cues from others’ faces (Study 1) or voices (Study 2) combined with binary (e.g., she/her) and nonbinary (e.g., they/them) gender labels influence perceivers’ anticipated anxiety and avoidance. Both studies found that perceptual cues and gender labels interacted to inform anticipated anxiety and avoidance. For binary gender labels, cue-label pairings that diverged from societal expectations of gender (e.g., he/him paired with feminine faces or voices) led perceivers to report greater anticipated anxiety and avoidance than pairings consistent with societal expectations (e.g., he/him paired with masculine faces or voices). For nonbinary gender labels, findings were inconsistent across studies. Faces paired with nonbinary pronouns led to more anticipated anxiety and avoidance when the faces were masculine or androgynous vs. feminine. These findings did not extend to voices. This work provides initial evidence that gender labels and perceptual cues to gender may interact to influence perceivers’ anticipated anxiety and avoidance, thereby providing insights into gender-based impression formation that may be consequential for biases toward and discriminatory treatment of gender-diverse individuals.",
-          "url": "https://doi.org/10.1177/13684302261494506",
-          "doi": "https://doi.org/10.1177/13684302261494506",
+          "title": "Antiracism Self-Efficacy: Motivating Individuals Toward Racial Justice",
+          "authors": "Kristin A. Broussard, Narda R. Quigley, Holly Slay Ferraro, Seth Matthew Fishman, Amanda M. Grannas, Teresa A. Nance, Teresa M. Boyer, Noelle K. Comolli, Elizabeth M. Svenson, Adam R. Smith, Adriana Reilly, Kamil Vickers",
+          "abstract": "We integrate existing research on racial justice allyship and antiracism with social cognitive theory to develop our understanding of why and how individuals who identify as White in the context of the US may initiate and sustain antiracist behavior at the individual level. In Study 1a, we define the concept of antiracism self-efficacy and develop a seven-item measure. We then examine the extent to which the seven-item scale exhibits convergent and discriminant validity in Study 1b. In Study 2, we demonstrate that antiracism self-efficacy predicts a broad range of antiracist behavioral intentions and behaviors above and beyond racial attitudes and beliefs. Study 3 extends this argument using a bias-confrontation paradigm, demonstrating that antiracism self-efficacy predicts bias-confrontation outcomes above and beyond other motivational constructs and general self-efficacy. Overall, this work identifies and explores antiracism self-efficacy as an important concept that motivates individuals toward racial justice allyship and antiracist behavior at a micro (i.e., day-to-day) level. We posit that including antiracism self-efficacy in motivational models addressing allyship and antiracist behavior will help guide future empirical work on antiracism at the individual level, in addition to having important practical implications for racial justice/antiracism education, training, and other related initiatives within organizations.",
+          "url": "https://doi.org/10.1177/13684302261494458",
+          "doi": "https://doi.org/10.1177/13684302261494458",
           "filter": 0,
-          "created": "2026-10-25"
+          "created": "2026-11-2"
         }
       ],
       "articles_hidden": []
@@ -213,6 +332,174 @@
           "doi": "https://doi.org/10.1016/j.jesp.2026.105019",
           "filter": 0,
           "created": "2026-10-28"
+        },
+        {
+          "title": "How and why the omission bias affects victims' and third parties' responses to interpersonal transgressions",
+          "authors": "Justin M. Ludwig, Karina Schumann",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104971",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104971",
+          "filter": 0,
+          "created": "2026-7-14"
+        },
+        {
+          "title": "American liberals and conservatives have different cognitive styles, but (mostly) respond the same to party cues",
+          "authors": "Aymin Triki, Abigail L. Cassario, Mark J. Brandt",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104994",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104994",
+          "filter": 0,
+          "created": "2026-8-19"
+        },
+        {
+          "title": "Can bad guys count as happy? The graded moralization of happiness across general and episodic levels",
+          "authors": "Jiangyong Li, Huaiyuan Qi, Jing Long, Yangmei Luo",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104996",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104996",
+          "filter": 0,
+          "created": "2026-8-25"
+        },
+        {
+          "title": "Abstraction in service of connection: On people's recruitment of abstraction to facilitate interaction across difference",
+          "authors": "Alys Ferragamo, Yidan Yin, Cheryl Jan Wakslak",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104993",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104993",
+          "filter": 0,
+          "created": "2026-8-17"
+        },
+        {
+          "title": "Do people think I'm late in life? An intersubjective approach to culture and the optimal timing of life",
+          "authors": "Lu Zang, Heejung S. Kim",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104983",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104983",
+          "filter": 0,
+          "created": "2026-7-14"
+        },
+        {
+          "title": "Revisiting Gino, Ayal, et al.’s (2009) contagion and differentiation in unethical behavior: A registered conceptual replication and extension",
+          "authors": "Jareef Martuza, Esra Aslan",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104988",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104988",
+          "filter": 0,
+          "created": "2026-7-23"
+        },
+        {
+          "title": "Stimulus-category confounds reduce, but do not explain, different roles of intent across moral domains: Valid statistical inference helps explain ‘inconsistent’ findings",
+          "authors": "Joseph Sweetman, Ryan M. McManus",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104972",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104972",
+          "filter": 0,
+          "created": "2026-7-8"
+        },
+        {
+          "title": "Is comedy funnier when it is easier to process? The interplay of fluency and coherence in humor appreciation",
+          "authors": "Drew Gorenz, Norbert Schwarz",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104970",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104970",
+          "filter": 0,
+          "created": "2026-7-8"
+        },
+        {
+          "title": "Prosociality in times of war: Shared moral positions foster prosociality across national borders",
+          "authors": "Vanessa Clemens, Jasper Z. Siol, Lusine Grigoryan, Andreas Glöckner, Angela R. Dorrough",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104989",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104989",
+          "filter": 0,
+          "created": "2026-8-3"
+        },
+        {
+          "title": "We're near, they're far: On the association between one's gender in-group and psychological distance",
+          "authors": "Alys Ferragamo, Cheryl Jan Wakslak",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104985",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104985",
+          "filter": 0,
+          "created": "2026-7-20"
+        },
+        {
+          "title": "Feeling with family, grateful to strangers: Moral reactions to compassion and gratitude align with their social functions",
+          "authors": "Alexa Weiss, Pascal Burgmer",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104933",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104933",
+          "filter": 0,
+          "created": "2026-7-23"
+        },
+        {
+          "title": "Sustaining your stance by speaking your mind: Expressing moral judgments increases certainty and prevents moral desensitization",
+          "authors": "Simone Mattavelli, Daniel A. Effron",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104990",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104990",
+          "filter": 0,
+          "created": "2026-8-5"
+        },
+        {
+          "title": "The perceived informational value of positive versus negative attitudes in impression formation",
+          "authors": "Tabea J. Zorn, Christian Unkelbach, André Mata, Hans Alves",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104982",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104982",
+          "filter": 0,
+          "created": "2026-7-25"
+        },
+        {
+          "title": "Registered Report Stage II: Defending or defying democracy? Investigating the relationship between conspiracy beliefs and support for democratic principles [registered report - stage II]",
+          "authors": "Tisa Bertlich, Felicitas Flade, Roland Imhoff",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104986",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104986",
+          "filter": 0,
+          "created": "2026-8-29"
+        },
+        {
+          "title": "When it is important to be more virtuous: Cultural tightness exacerbates moral superiority",
+          "authors": "Lipeng Yin, Zaixuan Zhang, Zhansheng Chen",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104967",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104967",
+          "filter": 0,
+          "created": "2026-7-9"
+        },
+        {
+          "title": "The subjectivity of objectivity: The effects of positionality statements on objectivity perceptions of psychological research",
+          "authors": "Sakaria Laisene Auelua-Toomey, Ellen C. Reinhart, Kengthsagn Louis",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104974",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104974",
+          "filter": 0,
+          "created": "2026-7-22"
+        },
+        {
+          "title": "Between law and conscience: Act legality shapes moral evaluation",
+          "authors": "Mane Kara-Yakoubian, Jonathan A. Fugelsang, Alexander C. Walker",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104984",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104984",
+          "filter": 0,
+          "created": "2026-7-13"
+        },
+        {
+          "title": "Underestimating sexism: Is gender categorization key?",
+          "authors": "Melanie C. Steffens, Franziska Ehrke, Karolina Hansen, Laura Loths, Jenny Dettmann",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104973",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104973",
+          "filter": 0,
+          "created": "2026-7-15"
+        },
+        {
+          "title": "Willful ignorance in the context of antibiotic prescribing",
+          "authors": "Alina Schneider, Miroslav Sirota, Rian Gross, Lars Korn, Elisabeth D.C. Sievert, Cornelia Betsch, Robert Böhm",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104965",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104965",
+          "filter": 0,
+          "created": "2026-7-25"
+        },
+        {
+          "title": "Do people apply different norms to humans and large language models acting on their behalf? Evidence from norm elicitations in two canonical economic games",
+          "authors": "Paweł Niszczota, Elia Antoniou",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104991",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104991",
+          "filter": 0,
+          "created": "2026-8-19"
+        },
+        {
+          "title": "Prosocial by default: Defaults boost giving even under distraction and widespread non-responsiveness",
+          "authors": "Linh Vu, Margarita Leib, Jan Hausfeld, Shaul Shalvi",
+          "url": "https://doi.org/10.1016/j.jesp.2026.104987",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.104987",
+          "filter": 0,
+          "created": "2026-7-24"
         }
       ],
       "articles_hidden": []
@@ -236,6 +523,70 @@
           "doi": "https://doi.org/10.1037/pspp0000617",
           "filter": 0,
           "created": "2026-10-26"
+        },
+        {
+          "title": "Judged by humans, comforted by machines: How psychological expectations shape experiences and perceptions of AI support.",
+          "authors": "Roshni Raveendhran, Trevor A. Foulk",
+          "url": "https://doi.org/10.1037/pspa0000494",
+          "doi": "https://doi.org/10.1037/pspa0000494",
+          "filter": 0,
+          "created": "2026-9-3"
+        },
+        {
+          "title": "Racial discrimination in time investment: The intergroup time bias in different social contexts.",
+          "authors": "Cícero Roberto Pereira, Emerson Do Bú, Filipa Madeira, Paulo de Carvalho, Elza Maria Techio, Jorge Vala",
+          "url": "https://doi.org/10.1037/pspi0000507",
+          "doi": "https://doi.org/10.1037/pspi0000507",
+          "filter": 0,
+          "created": "2025-12-4"
+        },
+        {
+          "title": "“Yeah, it’s biased, but … ”: Recognition versus moral condemnation of bias across party lines.",
+          "authors": "Hannah B. Waldfogel, Brittany C. Solomon, Matthew E. K. Hall",
+          "url": "https://doi.org/10.1037/pspa0000492",
+          "doi": "https://doi.org/10.1037/pspa0000492",
+          "filter": 0,
+          "created": "2026-9-10"
+        },
+        {
+          "title": "Tailoring personality interventions: How timing, context, and strategies influence proximal intervention outcomes.",
+          "authors": "Peter Haehner, Amanda J. Wright, Till Lubczyk, Rosalie Andrae, Eva Asselmann, Susanne Buecker, Christopher J. Hopwood, Wiebke Bleidorn",
+          "url": "https://doi.org/10.1037/pspp0000597",
+          "doi": "https://doi.org/10.1037/pspp0000597",
+          "filter": 0,
+          "created": "2026-3-9"
+        },
+        {
+          "title": "What is mine cannot be yours: How zero-sum perceptions of power and status shape men’s perceptions of ingroup harm from women’s hierarchical advancement.",
+          "authors": "Sonya Mishra",
+          "url": "https://doi.org/10.1037/pspi0000496",
+          "doi": "https://doi.org/10.1037/pspi0000496",
+          "filter": 0,
+          "created": "2025-4-17"
+        },
+        {
+          "title": "When and why are social categories overused relative to individuating information? A Bayesian approach to identifying biases in impression formation processes.",
+          "authors": "Thalia H. Vrantsidis, William A. Cunningham",
+          "url": "https://doi.org/10.1037/pspa0000495",
+          "doi": "https://doi.org/10.1037/pspa0000495",
+          "filter": 0,
+          "created": "2026-9-17"
+        },
+        {
+          "title": "The link between self-esteem and aggression: A meta-analysis of longitudinal studies.",
+          "authors": "Jasmin A. Aebi, Oliver Lüdtke, Max Lustenberger, Ulrich Orth",
+          "url": "https://doi.org/10.1037/pspp0000613",
+          "doi": "https://doi.org/10.1037/pspp0000613",
+          "filter": 0,
+          "created": "2026-8-13"
+        },
+        {
+          "title": "The family environment in late childhood and early adolescence as a predictor of narcissism in emerging adulthood: Findings from a 17-year longitudinal study of Mexican-origin youth.",
+          "authors": "Winkie Ma, Emorie D. Beck, Richard W. Robins",
+          "url": "https://doi.org/10.1037/pspp0000614",
+          "doi": "https://doi.org/10.1037/pspp0000614",
+          "filter": 0,
+          "created": "2026-9-3"
         }
       ],
       "articles_hidden": []
@@ -371,20 +722,20 @@
           "created": "2026-10-31"
         },
         {
-          "title": "A Lasting Impression: Performance Memory Persists After a Single Musical Exposure",
-          "authors": "David Duncan, Katya Ness, Ian Cross",
-          "abstract": "Despite the centrality of memory to music reading and performance, little is known about incidental long-term memory retention of music that is performed at sight. In this study, 19 undergraduate pianists sight-read a series of short, unfamiliar pieces, and then returned 1–3 weeks later to perform the same pieces, without opportunities to see or practise the music in the interim. Pitch, rhythm, and metre errors were all found to decrease in the second reading, with error counts dropping on average by 13% from Reading 1 to Reading 2, while error types and sizes tended to persist across readings. No significant differences were found between those who had a 1-, 2-, or 3-week gap between readings, suggesting that a single brief encounter with a score can have a long-term priming effect. These findings illustrate how robust musical memory can be and may have implications for our understanding of how motor and memory systems support long-term retention in skilled performance.",
-          "url": "https://doi.org/10.1177/03057356261478549",
-          "doi": "https://doi.org/10.1177/03057356261478549",
-          "filter": 0,
-          "created": "2026-10-29"
-        },
-        {
           "title": "Implications of Self-Recording of Audition Performances in Opera Singers: A Multiple Case Study",
           "authors": "Melissa Treinkman",
           "abstract": "This qualitative multiple case study investigated the potential benefits of audio self-recording during university opera auditions. While commonly employed in individual practice, self-recording remains rare in formal audition settings, possibly hindering performers’ ability to critically evaluate their performance. Five classical university voice students participated in semi-structured interviews after completing an audio-recorded opera audition. Each student reflected on the audition both before and after listening to their recording. Thematic analysis revealed the following three primary themes: (a) self-recording as a tool for recalling specific details of the audition, (b) shifts in self-perception after listening, and (c) reduced post-audition rumination. These findings underscore the need for further research and highlight the potential of audio self-recording as a cost-effective, pedagogically valuable intervention that may support reflective learning, emotional regulation, and more effective audition preparation within higher education settings.",
           "url": "https://doi.org/10.1177/03057356261492565",
           "doi": "https://doi.org/10.1177/03057356261492565",
+          "filter": 0,
+          "created": "2026-10-29"
+        },
+        {
+          "title": "A Lasting Impression: Performance Memory Persists After a Single Musical Exposure",
+          "authors": "David Duncan, Katya Ness, Ian Cross",
+          "abstract": "Despite the centrality of memory to music reading and performance, little is known about incidental long-term memory retention of music that is performed at sight. In this study, 19 undergraduate pianists sight-read a series of short, unfamiliar pieces, and then returned 1–3 weeks later to perform the same pieces, without opportunities to see or practise the music in the interim. Pitch, rhythm, and metre errors were all found to decrease in the second reading, with error counts dropping on average by 13% from Reading 1 to Reading 2, while error types and sizes tended to persist across readings. No significant differences were found between those who had a 1-, 2-, or 3-week gap between readings, suggesting that a single brief encounter with a score can have a long-term priming effect. These findings illustrate how robust musical memory can be and may have implications for our understanding of how motor and memory systems support long-term retention in skilled performance.",
+          "url": "https://doi.org/10.1177/03057356261478549",
+          "doi": "https://doi.org/10.1177/03057356261478549",
           "filter": 0,
           "created": "2026-10-29"
         }
