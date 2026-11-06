@@ -1,5 +1,5 @@
 {
-  "update": "2026-11-05",
+  "update": "2026-11-06",
   "content": [
     {
       "journal_full": "International Journal of Public Opinion Research",
@@ -27,6 +27,31 @@
       "articles_hidden": []
     },
     {
+      "journal_full": "Journal of Official Statistics",
+      "journal_short": "JOS",
+      "articles": [
+        {
+          "title": "A Robust Measure of Wealth Inequality in Small Areas",
+          "authors": "Silvia Scarpa, Stefan Sperlich",
+          "abstract": "This work provides a guide to small area estimation of the quantile ratio index (QRI) to measure wealth inequality across socio-economic or geographical groups. Wealth exhibits extreme positive skewness, rendering traditional inequality measures unreliable, as they are highly sensitive to extreme values. The QRI’s robustness to this phenomenon addresses this problem, making it particularly interesting for small area estimation problems. Relying on well-established methods, we employ a logit-transformed area-level model with bias-corrected back-transformation, validate it through model-based simulations, and apply it to Italian Survey on Household Income and Wealth data. The results confirm the expected strong heterogeneity in wealth inequality across municipalities and household groups, now based on an indicator that is much more robust than the traditional ones. This work thereby highlights the practical value of combining robust inequality measurement with small area estimation techniques for the production of reliable wealth inequality estimates in policy-relevant domains.",
+          "url": "https://doi.org/10.1177/0282423x261496589",
+          "doi": "https://doi.org/10.1177/0282423x261496589",
+          "filter": 0,
+          "created": "2026-11-6"
+        },
+        {
+          "title": "Testing a Targeted Refusal Conversion Strategy for an Establishment Web Survey",
+          "authors": "Ellen Laupper, Ulf-Dietrich Reips",
+          "abstract": "The paper proposes a strategy for implementing an automated and interactive feature of persuasion for late and nonrespondents in establishment web surveys. The response rate for establishment web surveys is under constant pressure, and strategies to motivate small establishments are particularly costly. Consequently, the tested survey design feature, which emulates the approach of telephone follow-ups in interviewer-administered surveys, offers a potentially new, practical, and cost-effective strategy to counteract these shortcomings. A randomly selected sample of late and nonresponding establishments ( n = 3,000) of a well-established Swiss web survey of establishments was asked to indicate their primary nonresponse reason and was then randomly assigned to one of three appeal types: (1) a targeted appeal addressing their previously indicated nonresponse reason, (2) a general appeal addressing the same reasons as the study’s standard reminder letter, or (3) a main appeal addressing the main reason for nonresponse, “lack of time.” The findings suggest that the type of appeal has no significant impact on response or data quality, whereas the reason given for nonresponse and the timing within the survey period do have an impact. The implications of these findings for survey design research are discussed.",
+          "url": "https://doi.org/10.1177/0282423x261498277",
+          "doi": "https://doi.org/10.1177/0282423x261498277",
+          "filter": 0,
+          "created": "2026-11-6"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Politics, Groups, and Identities",
       "journal_short": "PGI",
       "articles": [
@@ -45,15 +70,6 @@
       "journal_full": "Public Opinion Quarterly",
       "journal_short": "POQ",
       "articles": [
-        {
-          "title": "Investigating the Utility of LLM-Based “Silicon Samples” in Political Science Conjoint Experiments",
-          "authors": "Alice Malmberg",
-          "abstract": "This research note is the first study to explore the viability of using LLM-generated respondents in forced-choice conjoint experiments. I generate naive “silicon samples” using three models, GPT 4o-Mini, Llama 3.2, and Magistral-small-2506, benchmarked to a large sample of live conjoint respondents, allowing for direct comparisons between human and silicon choices. The resulting analyses suggest that naively generated silicon samples are insufficient to simulate human decision-making in conjoint tasks; these results also suggest that there are systemic differences in the way demographic covariates shape LLM and human choices in experimental contexts. In total, this analysis makes two important contributions: it establishes a descriptive baseline understanding of LLM-generated respondent performance in conjoint experiments and suggests that naive silicon samples cannot accurately infer human choices using demographic traits in experimental decision making contexts. Finally, the implications of these results imply that LLMs consider covariates differently than live respondents do in micro-level decision making contexts.",
-          "url": "https://doi.org/10.1093/poq/nfag069",
-          "doi": "https://doi.org/10.1093/poq/nfag069",
-          "filter": 0,
-          "created": "2026-10-29"
-        },
         {
           "title": "Cult of Personality or Lack of Competition? Determining Trump’s Sway Over Republican Partisans on a Critical Case",
           "authors": "Love Christensen, Mattias Agerberg",
@@ -78,6 +94,15 @@
           "doi": "https://doi.org/10.1177/08944393261501889",
           "filter": 0,
           "created": "2026-10-30"
+        },
+        {
+          "title": "Who Goes Toxic? Understanding Political Toxicity on Social Media Across Individuals and Contexts",
+          "authors": "Alon Zoizner, Nir Lotan, Sagi Pendzel, Einat Minkov",
+          "abstract": "As political toxicity has become widespread on social media, scholars have sought to understand what drives it. While studies often emphasize platform-level explanations, such as algorithmic amplification, they offer limited insight into which users are more likely to produce toxic content. Even less is known about how the relationship between individual-level factors and toxicity varies across political contexts. Using data from 184,354 randomly sampled U.S. Twitter (now X) users, their original tweets (25M), and the accounts they follow, we link users’ inferred characteristics and political context to their real-life toxic behavior. Results show that Republican, male, and older users are consistently more likely to post both impolite and intolerant content, whereas education shows no clear association. We also find that state-level electoral competitiveness increases overall toxicity and, in some cases, conditions individual-level relationships. The age gap in impolite behavior significantly narrows in more competitive states, while the corresponding moderation for intolerance is only marginally significant. There is also some indication that partisan differences in impoliteness become larger in more competitive states, but this moderation is only marginally significant. Together, these results demonstrate that political toxicity is shaped jointly by users’ individual characteristics and the political contexts in which they operate.",
+          "url": "https://doi.org/10.1177/08944393261506316",
+          "doi": "https://doi.org/10.1177/08944393261506316",
+          "filter": 0,
+          "created": "2026-11-5"
         }
       ],
       "articles_hidden": []

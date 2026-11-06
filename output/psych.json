@@ -1,6 +1,40 @@
 {
-  "update": "2026-11-05",
+  "update": "2026-11-06",
   "content": [
+    {
+      "journal_full": "Advances in Methods and Practices in Psychological Science",
+      "journal_short": "AMPPS",
+      "articles": [
+        {
+          "title": "Mind the Gap: A Practical Guide for Effectively Addressing Missing Data in Moderation Analysis",
+          "authors": "Guyin Zhang, Amanda J. Fairchild, Brian Keller, Dexin Shi",
+          "abstract": "Advances in methodology and statistical software have made modern techniques for handling missing data more accessible and easier to implement. However, optimally applying these methods in moderation analysis remains challenging given assumption violations that arise from the nonnormality of interaction term when traditional approaches are used and nuances faced when modeling interaction terms in the presence of item-level missing data that must be reconciled with scale-level analyses. To address these issues, we present a comprehensive and practical user’s guide on implementing an advanced approach, factored regression specification (FRS), that ideally handles missing data in observed-variable-moderation models. Specifically, we provide step-by-step guidance for conducting FRS at both scale and item levels in various interaction scenarios that include missing data with both continuous and categorical variables. We also derive and present a new coding method to address the challenge of probing simple slopes in continuous-variable interactions that contain item-level missingness. Finally, we supply R code to facilitate implementation of the methods described and offer practical recommendations for researchers.",
+          "url": "https://doi.org/10.1177/25152459261450058",
+          "doi": "https://doi.org/10.1177/25152459261450058",
+          "filter": 0,
+          "created": "2026-11-5"
+        },
+        {
+          "title": "Automating Abstract Screening in Research Synthesis Using Large Language Models: A Tutorial and Proof-of-Concept Study",
+          "authors": "Mirka Henninger, Jan Radek, Jean-Paul Snijder-Steinhilber, Martin Pauly",
+          "abstract": "Screening abstracts is a crucial yet labor-intensive step in research-synthesis projects, such as systematic reviews and meta-analyses. Large language models (LLMs) promise an opportunity to streamline and automate this process. However, there is still little guidance and practical insight into how such automated workflows can be implemented in research practice. In this article, we propose, describe, and illustrate an abstract-screening procedure using LLMs including a quantification of uncertainty of model outputs. We provide a step-by-step tutorial in which we address how to select an LLM, access LLMs from within R, develop and refine suitable prompts, define structured output formats, and describe whether and how model hyperparameters should be set. We then illustrate this procedure in a proof-of-concept study using a set of human-rated abstracts from a recent meta-analysis for comparison. We demonstrate that LLM-assisted screening can substantially reduce the time and cost of review preparation while maintaining accuracy comparable with human raters. To support psychological researchers in adopting LLM-based workflows for research synthesis, we also provide R scripts and implementation guidance on Gitlab. At the same time, we emphasize that this work represents an initial step and that continued refinement and validation are essential given that LLM technologies and their applications continue to evolve rapidly.",
+          "url": "https://doi.org/10.1177/25152459261473490",
+          "doi": "https://doi.org/10.1177/25152459261473490",
+          "filter": 0,
+          "created": "2026-11-5"
+        },
+        {
+          "title": "How to Play With Ideas Using Computer Simulations: A Gentle Introduction to Computational Modeling via Systems Dynamics",
+          "authors": "Christopher R. Dishop",
+          "abstract": "Computational modeling provides a way to translate theory into explicit representations that can be simulated and examined, but many researchers lack a clear entry point for doing so. In this article, I introduce a two-step procedure designed especially for psychologists, particularly psychologists with little or no programming experience, who are interested in exploring computational modeling but are unsure how to start. The procedure involves two steps: (a) converting box-and-arrow diagrams (which many psychologists are already familiar with) into stock-and-flow (SF) diagrams and then (b) developing pseudocode from the SF diagram. Once these steps are completed, translating the model into executable syntax becomes straightforward. The goal is not to teach programming or simulation in depth but to show how conceptual models can be expressed in a form precise enough to generate trajectories over time. I then describe why this translation matters for theory. Explicit computational representations allow researchers to compare alternative explanations, evaluate whether simpler mechanisms are sufficient to reproduce observed patterns, examine whether theories generate the outcomes they claim, and explore ideas or policies that would be difficult to test directly in the field. Ready-to-use R code is provided to support hands-on learning to reach the broader aim of making computational modeling a practical and approachable tool for psychologists interested in evaluating their theories with computational modeling.",
+          "url": "https://doi.org/10.1177/25152459261485864",
+          "doi": "https://doi.org/10.1177/25152459261485864",
+          "filter": 0,
+          "created": "2026-11-5"
+        }
+      ],
+      "articles_hidden": []
+    },
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
@@ -114,14 +148,6 @@
           "created": "2026-11-4"
         },
         {
-          "title": "Social comparison and risky loot box use in video games: The roles of relative deprivation, perceived superiority, and perceived luck",
-          "authors": "Siyuan Xu, Liu Yang, Qiuming Tang, Ming Ji",
-          "url": "https://doi.org/10.1016/j.chb.2026.109234",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109234",
-          "filter": 0,
-          "created": "2026-10-29"
-        },
-        {
           "title": "Generative artificial intelligence use and inappropriate parenting behaviors: Findings from a nationwide survey",
           "authors": "Yousuke Imanishi, Sinchul Jwa, Masahiko Sakamoto, Takahiro Tabuchi",
           "url": "https://doi.org/10.1016/j.chb.2026.109233",
@@ -130,7 +156,15 @@
           "created": "2026-10-30"
         },
         {
-          "title": "From Being Watched to Working the Numbers: Dataveillance and the Consequences of Data Crafting.",
+          "title": "Online Racial Discrimination on Social Media and Social Anxiety Among Black Emerging Adults: Examining the Indirect Role of Racism Hypervigilance",
+          "authors": "Henry A. Willis, Antoinette Dorzon, Kamryn McKenzie, Lena-Sementa Weldemicael, Tida Tambedou",
+          "url": "https://doi.org/10.1016/j.chb.2026.109246",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109246",
+          "filter": 0,
+          "created": "2026-11-5"
+        },
+        {
+          "title": "From being watched to working the numbers: Dataveillance and the consequences of data crafting",
           "authors": "Ward van Zoonen, Jeffrey W. Treem",
           "url": "https://doi.org/10.1016/j.chb.2026.109247",
           "doi": "https://doi.org/10.1016/j.chb.2026.109247",
@@ -152,6 +186,14 @@
           "doi": "https://doi.org/10.1016/j.chb.2026.109227",
           "filter": 0,
           "created": "2026-10-31"
+        },
+        {
+          "title": "The role of haptic feedback in simulated social VR for older adults: Affective experiences, social interaction, and design implications",
+          "authors": "Dezijian Zhou, Anastasia Globa",
+          "url": "https://doi.org/10.1016/j.chb.2026.109235",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109235",
+          "filter": 0,
+          "created": "2026-11-5"
         },
         {
           "title": "“Compete, Cooperate... Why not both?” Player orientation and hybrid vs. competitive mechanics in gamified crowdsourcing with JellyfishGO!",
@@ -288,14 +330,6 @@
           "doi": "https://doi.org/10.1016/j.chb.2026.109087",
           "filter": 0,
           "created": "2026-6-17"
-        },
-        {
-          "title": "The role of haptic feedback in simulated social VR for older adults: Affective experiences, social interaction, and design implications",
-          "authors": "Dezijian Zhou, Anastasia Globa",
-          "url": "https://doi.org/10.1016/j.chb.2026.109235",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109235",
-          "filter": 0,
-          "created": "2026-11-5"
         },
         {
           "title": "Visual feedback design and cognitive immersion: A mediated model of performance pressure, satisfaction, and skill depth",
@@ -537,20 +571,20 @@
       "journal_short": "JPSP",
       "articles": [
         {
-          "title": "People underestimate how much dissimilar others want to connect.",
-          "authors": "Gus Cooney, Erica J. Boothby, Jacquie D. Vorauer, Maurice E. Schweitzer",
-          "url": "https://doi.org/10.1037/pspa0000501",
-          "doi": "https://doi.org/10.1037/pspa0000501",
-          "filter": 0,
-          "created": "2026-10-29"
-        },
-        {
           "title": "When consensus can change hearts and minds: Sacred values and edge cases.",
           "authors": "Namrata Goyal, Krishna Savani, Michael W. Morris",
           "url": "https://doi.org/10.1037/pspi0000536",
           "doi": "https://doi.org/10.1037/pspi0000536",
           "filter": 0,
           "created": "2026-11-2"
+        },
+        {
+          "title": "Individual, interpersonal, and socioeconomic predictors of divorce: A 12-year prospective study.",
+          "authors": "Molly G. Smith, Jared M. Block, Thomas N. Bradbury, Benjamin R. Karney",
+          "url": "https://doi.org/10.1037/pspi0000537",
+          "doi": "https://doi.org/10.1037/pspi0000537",
+          "filter": 0,
+          "created": "2026-11-5"
         },
         {
           "title": "Communicating emotion through drawings across cultures.",
@@ -628,25 +662,18 @@
       "articles_hidden": []
     },
     {
-      "journal_full": "Organizational Research Methods",
-      "journal_short": "ORM",
-      "articles": [
-        {
-          "title": "Detecting Careless Responding: A Comparison of Norm Group-Based Mahalanobis Distance and Norm Group-Based Person-Total Correlation with Their Sample-Based Counterparts",
-          "authors": "Philippe Goldammer, Yannik A. Escher, Peter Lucas Stöckli, Hubert Annen, Anna Luca Heimann",
-          "abstract": "Detecting careless responding in self-report questionnaires has gained considerable attention. Different detection methods have been proposed, with implicit methods offering clear advantages over explicit ones. Mahalanobis distance (MD) and person-total correlation ( r pbis ) are among the most promising implicit detection methods. However, previous research has suggested that MD and r pbis are less accurate indicators of careless responding when the percentage of careless respondents in the sample is high and that norm group-based (NGB) MD and r pbis might be more accurate alternatives under that condition. In two simulation studies and a reanalysis of real data, we examined whether NGB MD and NGB r pbis indeed outperform their sample-based (SB) counterparts in a variety of careless responding patterns. The three main findings were as follows: (1) NGB MD outperformed SB MD in most conditions in three studies, (2) both MD indices (but not r pbis indices) were ineffective when simulated scale-midpoint invariant and full straightlining careless responding had to be detected, and (3) NGB r pbis almost never outperformed SB r pbis . We therefore recommend using NGB MD instead of SB MD, and using SB r pbis instead of NGB r pbis when screening data for careless responding.",
-          "url": "https://doi.org/10.1177/10944281261488778",
-          "doi": "https://doi.org/10.1177/10944281261488778",
-          "filter": 0,
-          "created": "2026-10-29"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
       "journal_full": "Personality and Social Psychology Bulletin",
       "journal_short": "PSPB",
       "articles": [
+        {
+          "title": "Humanlike Self-Enhancement and Self-Protection in Generative Pre-Trained Transformer-Based AI Agents: Of Overclaiming and the Self-Serving Bias",
+          "authors": "Siwei Fu, Constantine Sedikides, Weihua Zhou, Xinyue Zhou",
+          "abstract": "We investigated whether generative pre-trained transformer (GPT)-based AI agents, despite presumably lacking humanlike sentience, emulate motivated behavior in group settings. We focused on overclaiming (overestimating one’s contribution to group outcomes) and the self-serving bias (SSB; taking disproportionate credit for group successes while deflecting blame for group failures). We conducted eight experiments involving a collaborative and creative group task (joke-writing). AI agents overclaimed their own contributions. An egocentrism-reduction manipulation (directing attention equally to one’s own and others’ contributions) attenuated, but did not eliminate, overclaiming. Further, AI agents exhibited the SSB. Overclaiming persisted across variations in temperature settings and demographic personas (gender, ethnicity) and was more pronounced in later GPT models. Also, chain-of-Thought reasoning did not reduce, and instead increased, overclaiming. AI systems can mimic human self-enhancement and self-protection, raising implications for the emergence of motivated self-like behavior in non-biological systems, the assumed neutrality of large language models, and the need for improved mitigation techniques.",
+          "url": "https://doi.org/10.1177/01461672261499423",
+          "doi": "https://doi.org/10.1177/01461672261499423",
+          "filter": 0,
+          "created": "2026-11-5"
+        },
         {
           "title": "The Role of the Disintegration Trait in Everyday Situation Perception",
           "authors": "Michael Barthelmäs, Goran Knežević, Johannes Keller",
@@ -664,15 +691,6 @@
           "doi": "https://doi.org/10.1177/01461672261496741",
           "filter": 0,
           "created": "2026-11-3"
-        },
-        {
-          "title": "Humanlike Self-Enhancement and Self-Protection in Generative Pre-Trained Transformer-Based AI Agents: Of Overclaiming and the Self-Serving Bias",
-          "authors": "Siwei Fu, Constantine Sedikides, Weihua Zhou, Xinyue Zhou",
-          "abstract": "We investigated whether generative pre-trained transformer (GPT)-based AI agents, despite presumably lacking humanlike sentience, emulate motivated behavior in group settings. We focused on overclaiming (overestimating one’s contribution to group outcomes) and the self-serving bias (SSB; taking disproportionate credit for group successes while deflecting blame for group failures). We conducted eight experiments involving a collaborative and creative group task (joke-writing). AI agents overclaimed their own contributions. An egocentrism-reduction manipulation (directing attention equally to one’s own and others’ contributions) attenuated, but did not eliminate, overclaiming. Further, AI agents exhibited the SSB. Overclaiming persisted across variations in temperature settings and demographic personas (gender, ethnicity) and was more pronounced in later GPT models. Also, chain-of-Thought reasoning did not reduce, and instead increased, overclaiming. AI systems can mimic human self-enhancement and self-protection, raising implications for the emergence of motivated self-like behavior in non-biological systems, the assumed neutrality of large language models, and the need for improved mitigation techniques.",
-          "url": "https://doi.org/10.1177/01461672261499423",
-          "doi": "https://doi.org/10.1177/01461672261499423",
-          "filter": 0,
-          "created": "2026-11-5"
         }
       ],
       "articles_hidden": []
@@ -697,12 +715,12 @@
       "journal_short": "PM",
       "articles": [
         {
-          "title": "Evaluating statistical methods for single-case designs under serial dependence: Precision, validity, and sensitivity.",
-          "authors": "Hsiu-Ting Yu",
-          "url": "https://doi.org/10.1037/met0000879",
-          "doi": "https://doi.org/10.1037/met0000879",
+          "title": "Integrating artificial intelligence into back-translation: Opportunities, constraints, and recommendations for psychological research.",
+          "authors": "Julian Decius, Emily Kleszewski, Hannah Louisa Krüger",
+          "url": "https://doi.org/10.1037/met0000877",
+          "doi": "https://doi.org/10.1037/met0000877",
           "filter": 0,
-          "created": "2026-10-29"
+          "created": "2026-11-5"
         }
       ],
       "articles_hidden": []
@@ -711,15 +729,6 @@
       "journal_full": "Psychological Science",
       "journal_short": "PsychSci",
       "articles": [
-        {
-          "title": "Context Matters, Doesn’t It? The Role of Context in Everyday Emotion Regulation Strategy Use",
-          "authors": "Anh Tran, Rachel Freeman-Robinson, Peter Koval, Katharine H. Greenaway, Elise K. Kalokerinos",
-          "abstract": "A common maxim holds that “context is everything.” This perspective transformed the field of emotion regulation, which evolved from understanding which regulation strategies people use, to understanding how strategy use varies by context (i.e., strategy–situation fit). Theoretical accounts suggest contextual features are crucial in guiding strategy use. However, empirical evidence is isolated in piecemeal studies with inconclusive results. To comprehensively explore context-dependent emotion regulation, we need data on emotion regulation across many contexts, at scale. Combining up to 11 experience-sampling data sets collected from Belgian and Australian samples in an integrative analysis ( N ID = 500–1,696, N observations = 27,023–101,114, M age = 25.38 years, 71% women), we examined how regulation-strategy use varies as a function of three theory-derived contextual features— intensity , controllability , and social features (i.e., the presence and closeness of others). We found limited support that context matters for daily emotion-regulation strategy use. Our study provides a well-powered foundational step to test a theory central to emotion-regulation research and highlights the complexity of capturing strategy–situation fit in daily life.",
-          "url": "https://doi.org/10.1177/09567976261470400",
-          "doi": "https://doi.org/10.1177/09567976261470400",
-          "filter": 0,
-          "created": "2026-10-29"
-        },
         {
           "title": "The Gambler’s Fallacy Fallacy Fallacy (Commentary on Xiang et al., 2025)",
           "authors": "Daniel Banki, Uri Simonsohn",
@@ -746,42 +755,6 @@
           "created": "2026-10-31"
         },
         {
-          "title": "Expressive Priority and Goal Structure and Complexity During Collegiate, Faculty, and Professional Chamber Music Rehearsals",
-          "authors": "Rebecca A. Roesler, Robin S. Heinsen, Laura K. Hicken",
-          "abstract": "The purpose of this study was to discover the artistic conceptualizations and priorities of collegiate, faculty, and professional musicians during the moment-to-moment decision-making of a rehearsal. We utilized musicians’ verbalizations during chamber music rehearsals as a vehicle for exploring their thought processes. Analysis 1 investigated the rehearsal targets ensembles prioritized as a percentage of total rehearsal time allocated to each. Analysis 2 investigated the complexity and form of professional, faculty, and collegiate chamber musicians’ goal structures as they attended to musical targets in relation to one another. Professional chamber ensembles prioritized the expressive targets of character and phrasing above all others, and significantly more as a percentage of rehearsal time than did collegiate chamber ensembles. Goal complexity increased with each level of experience from collegiate to professional ensembles; faculty and professional ensembles pursued elemental and technical goals in service of paramount expressive ends such as character and phrasing. We discuss the possible causes for this phenomenon, implications for music education, and recommendations for further research in these areas. We also recommend that teachers consider crafting music learning experiences to facilitate learners’ focus on expressive ends and pursual of proximal goals in service of artistic aims.",
-          "url": "https://doi.org/10.1177/03057356261489488",
-          "doi": "https://doi.org/10.1177/03057356261489488",
-          "filter": 0,
-          "created": "2026-10-29"
-        },
-        {
-          "title": "Living Criteria: Co-Construction of Evaluative Criteria in Creative Collaboration in the Primary Classroom",
-          "authors": "Ashleigh Southam, Aleksandra Getman",
-          "abstract": "Research with both professional musicians and children shows that during creativity, evaluations – such as liking, novelty and structure – shape decision-making. Less is known about how these evaluative processes operate in collaborative classroom settings where creativity also supports learning. This study examined how primary school students evaluate ideas during collaborative creative tasks, particularly in relation to their musical decisions. A qualitative case study was conducted with 18 students (aged 9–10) in a primary classroom across five integrated arts lessons centred on composing and performing rhythmic ostinati. Classroom observations, peer-feedback forms and student interviews were analysed thematically. Findings showed that students co-constructed a ‘Living Criteria’: a shared, dynamic evaluative system guiding idea generation, selection and refinement. This system comprised three components: Task-Specific Congruence (judging ideas by task fit and clarity), Emerging Aesthetic Evaluation (linking humour, enjoyment and ‘liking’ with perceived quality) and Collaborative Sensitivity (balancing idea quality with group harmony). Although limited by its small sample and single-class context, the study demonstrates how children integrate aesthetic, practical and social considerations when working together musically and creatively. The concept of ‘Living Criteria’ offers a framework for understanding how evaluative judgement develops through collaboration, with implications for music pedagogy and creative learning research.",
-          "url": "https://doi.org/10.1177/03057356261489515",
-          "doi": "https://doi.org/10.1177/03057356261489515",
-          "filter": 0,
-          "created": "2026-10-29"
-        },
-        {
-          "title": "Exploring Musicians’ Perspectives on Decent Work, Creativity, and Well-Being",
-          "authors": "Liliana Faria, Ana Martins",
-          "abstract": "This study, grounded in the psychology of working theory (PWT) and self-determination theory (SDT), examined how working conditions shape musicians’ experiences of decent work, intrinsic motivation, artistic identity, creative engagement, and psychological well-being. Sixteen in-depth interviews were conducted with Portuguese musicians, including both freelancers and those with stable contracts. Reflexive thematic analysis identified four overarching themes: (a) job security and precarity, (b) intrinsic motivation, autonomy, and creative engagement, (c) artistic identity and purpose, and (d) well-being and mental health. The findings show that freelance instability undermines security, constrains creative risk-taking, and increases stress, whereas financial and institutional stability supports intrinsic motivation, reinforces artistic identity, and enables creative exploration. Features associated with intrinsic motivation, voluntary engagement, persistence, and psychological investment in creative tasks were observed across both groups. Autonomy itself sustained engagement for some freelancers, highlighting personal resilience and self-directed creativity. The results underscore the interplay between structural conditions (PWT) and individual motivations (SDT), showing that sustainable work environments foster well-being and high-quality creative output. The study provides practical implications for policies, education, and organizational strategies to support healthier, more productive artistic ecosystems.",
-          "url": "https://doi.org/10.1177/03057356261491647",
-          "doi": "https://doi.org/10.1177/03057356261491647",
-          "filter": 0,
-          "created": "2026-10-29"
-        },
-        {
-          "title": "Does Self-Compassion Moderate the Association Between Music-Specific Stress and Internalizing Symptoms?",
-          "authors": "Darya Ellalasingham, Ishan N. Vengurlekar, Christopher J. McCarthy",
-          "abstract": "Music students are a high-risk population for mental health challenges due to the unique sources of stress they encounter. Previous work indicates that these music-specific stressors are associated with higher levels of internalizing symptoms (i.e., depression and anxiety). Consequently, further attention to protective assets and resources for music students is crucial. One construct that has garnered attention from scholars is self-compassion. Prior studies have documented benefits of self-compassion in reducing and attenuating the link between stress and internalizing symptoms. Yet, no study to date has considered whether self-compassion and its six subscales moderate the association between music-study stress and internalizing symptoms. The current study explored whether self-compassion and its six subcomponents moderate the relationship between music-study stress and internalizing symptoms among student musicians. Participants were 151 music students at a public university in the United States. We found a positive association between music-study stress and internalizing symptoms. In addition, results revealed that self-judgment and isolation moderated the link between music-study stress and anxious symptoms, such that at higher levels of self-judgment and isolation, music-study stress evinced stronger associations with anxious symptoms than at lower levels of the two. We discuss the rationales for our findings and practice implications.",
-          "url": "https://doi.org/10.1177/03057356261485165",
-          "doi": "https://doi.org/10.1177/03057356261485165",
-          "filter": 0,
-          "created": "2026-10-29"
-        },
-        {
           "title": "Mental Health Implications of (Mal-)Adaptive Approaches to Leisure Music Engagement: The Role of Motivation and Self-Criticism",
           "authors": "Friederike Koehler, Julia Vigl, Suvi Saarikallio",
           "abstract": "The relationship between music engagement and health has attracted growing academic interest over the past decades, pointing to mostly beneficial associations, especially with music listening and music interventions. However, recent research indicates a more complex relationship emphasizing the relevance of exploring how and why people engage with music. Since playing music and singing are common leisure-time activities for many people, this study aimed to investigate potential (mal-)adaptive approaches to music engagement, that is, self-determined motivation, and its association with mental health in amateur musicians. One hundred and ninety-eight participants completed an online survey on their motivation to make music, as well as depression, anxiety, stress, and self-criticism. Structural equation models showed that controlled motivation (more external reasons) positively predicted depression, stress, and self-criticism, but not anxiety. Further, results provided evidence for a full mediation of the association between controlled motivation and depression, anxiety, and stress via self-criticism. Our findings highlight the importance of individual motivations and dispositions in music engagement, pointing to potentially harmful effects on mental health. Practical implications for effective health promotion include considering individual motivations and dispositions and enhancing autonomy and self-compassion in leisure interventions and recreational therapy. Future research should investigate further individual and situational determinants.",
@@ -789,24 +762,6 @@
           "doi": "https://doi.org/10.1177/03057356261485162",
           "filter": 0,
           "created": "2026-10-31"
-        },
-        {
-          "title": "Implications of Self-Recording of Audition Performances in Opera Singers: A Multiple Case Study",
-          "authors": "Melissa Treinkman",
-          "abstract": "This qualitative multiple case study investigated the potential benefits of audio self-recording during university opera auditions. While commonly employed in individual practice, self-recording remains rare in formal audition settings, possibly hindering performers’ ability to critically evaluate their performance. Five classical university voice students participated in semi-structured interviews after completing an audio-recorded opera audition. Each student reflected on the audition both before and after listening to their recording. Thematic analysis revealed the following three primary themes: (a) self-recording as a tool for recalling specific details of the audition, (b) shifts in self-perception after listening, and (c) reduced post-audition rumination. These findings underscore the need for further research and highlight the potential of audio self-recording as a cost-effective, pedagogically valuable intervention that may support reflective learning, emotional regulation, and more effective audition preparation within higher education settings.",
-          "url": "https://doi.org/10.1177/03057356261492565",
-          "doi": "https://doi.org/10.1177/03057356261492565",
-          "filter": 0,
-          "created": "2026-10-29"
-        },
-        {
-          "title": "A Lasting Impression: Performance Memory Persists After a Single Musical Exposure",
-          "authors": "David Duncan, Katya Ness, Ian Cross",
-          "abstract": "Despite the centrality of memory to music reading and performance, little is known about incidental long-term memory retention of music that is performed at sight. In this study, 19 undergraduate pianists sight-read a series of short, unfamiliar pieces, and then returned 1–3 weeks later to perform the same pieces, without opportunities to see or practise the music in the interim. Pitch, rhythm, and metre errors were all found to decrease in the second reading, with error counts dropping on average by 13% from Reading 1 to Reading 2, while error types and sizes tended to persist across readings. No significant differences were found between those who had a 1-, 2-, or 3-week gap between readings, suggesting that a single brief encounter with a score can have a long-term priming effect. These findings illustrate how robust musical memory can be and may have implications for our understanding of how motor and memory systems support long-term retention in skilled performance.",
-          "url": "https://doi.org/10.1177/03057356261478549",
-          "doi": "https://doi.org/10.1177/03057356261478549",
-          "filter": 0,
-          "created": "2026-10-29"
         }
       ],
       "articles_hidden": []
@@ -847,14 +802,6 @@
           "created": "2026-11-2"
         },
         {
-          "title": "Voice can help and hurt AI empathy: How context shapes the effects of vocal delivery.",
-          "authors": "Joshua D. Wenger, C. Daryl Cameron, Reza H. Mogavi, Michael Inzlicht",
-          "url": "https://doi.org/10.1037/tmb0000235",
-          "doi": "https://doi.org/10.1037/tmb0000235",
-          "filter": 0,
-          "created": "2026-10-29"
-        },
-        {
           "title": "Being near home enhances strategic risk taking in immersive environments.",
           "authors": "Francisco Rocabado, Jon Andoni Duñabeitia",
           "url": "https://doi.org/10.1037/tmb0000216",
@@ -877,14 +824,6 @@
           "doi": "https://doi.org/10.1037/tmb0000220",
           "filter": 0,
           "created": "2026-11-2"
-        },
-        {
-          "title": "An accuracy self-nudge to reduce misinformation sharing online.",
-          "authors": "Friederike Stock, Ralph Hertwig, Philipp Lorenz-Spreen",
-          "url": "https://doi.org/10.1037/tmb0000221",
-          "doi": "https://doi.org/10.1037/tmb0000221",
-          "filter": 0,
-          "created": "2026-10-29"
         },
         {
           "title": "Enhancing academic engagement in college students with ADHD through virtual reality: A randomized controlled trial using ecologically valid study contexts.",
