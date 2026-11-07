@@ -1,5 +1,5 @@
 {
-  "update": "2026-11-06",
+  "update": "2026-11-07",
   "content": [
     {
       "journal_full": "International Journal of Public Opinion Research",
@@ -27,6 +27,29 @@
       "articles_hidden": []
     },
     {
+      "journal_full": "Journal of Elections, Public Opinion and Parties",
+      "journal_short": "JEPOP",
+      "articles": [
+        {
+          "title": "Citizen preferences for their legislative body: evidence from the United States",
+          "authors": "Neil S. Williams, Aaron A. Hitefield, Karlee L. Kimbrell",
+          "url": "https://doi.org/10.1080/17457289.2026.2757651",
+          "doi": "https://doi.org/10.1080/17457289.2026.2757651",
+          "filter": 0,
+          "created": "2026-11-6"
+        },
+        {
+          "title": "Candidate positioning or limited choice? Voter–candidate fit in the 2024 US election",
+          "authors": "Samir Varma",
+          "url": "https://doi.org/10.1080/17457289.2026.2755744",
+          "doi": "https://doi.org/10.1080/17457289.2026.2755744",
+          "filter": 0,
+          "created": "2026-11-6"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
       "journal_full": "Journal of Official Statistics",
       "journal_short": "JOS",
       "articles": [
@@ -47,6 +70,22 @@
           "doi": "https://doi.org/10.1177/0282423x261498277",
           "filter": 0,
           "created": "2026-11-6"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Journal of Survey Statistics and Methodology",
+      "journal_short": "JSSAM",
+      "articles": [
+        {
+          "title": "Bayesian Benchmarking Small Area Estimation via Entropic Tilting†",
+          "authors": "Shonosuke Sugasawa, Genya Kobayashi, Yuki Kawakubo",
+          "abstract": "The problem of benchmarking estimation and its risk evaluation is practically important in small area estimation. While Bayesian methods have been widely adopted in small area estimation, existing benchmarking approaches are often ad hoc, such as projecting each Markov chain Monte Carlo draw to satisfy the constraint. In contrast, our work provides a unified Bayesian formulation based on entropic tilting, which offers a more principled way to define the benchmarked posterior distribution. This approach yields benchmarked point estimates together with coherent uncertainty quantification. We first introduce general Monte Carlo methods for obtaining a benchmarked posterior under hierarchical Bayesian approaches and then show that the benchmarked posterior under empirical Bayesian frameworks can be obtained in an analytical form for some small-area models. We demonstrate the usefulness of the proposed method through simulation and empirical studies.",
+          "url": "https://doi.org/10.1093/jssam/smag046",
+          "doi": "https://doi.org/10.1093/jssam/smag046",
+          "filter": 0,
+          "created": "2026-10-1"
         }
       ],
       "articles_hidden": []
@@ -86,15 +125,6 @@
       "journal_full": "Social Science Computer Review",
       "journal_short": "SSCR",
       "articles": [
-        {
-          "title": "Agreement Helps, Disagreement Matters: Scaling Framing Function Annotation With Large Language Models",
-          "authors": "Emily Robinson, Ranadheer Malla, Chico Q. Camargo",
-          "abstract": "Framing research has long relied on human annotation, but many aspects of framing – especially framing functions such as defining problems, identifying causes, making moral evaluations, or proposing solutions are difficult to label consistently and at scale. We demonstrate that large language models can reliably identify these framing functions, achieving levels of agreement comparable to those of human annotators. We evaluate three state-of-the-art models (GPT-5, Claude 3.7, and DeepSeek) alongside three trained human coders on a new dataset of social media posts about electric-vehicles, a highly topical and contested issue that holds many interpretations. This setting provides a strong test of both agreement and meaningful disagreement in framing-function annotation. Across models and humans, we find not only substantial convergence but also patterns of valid disagreement – differences that reflect legitimate alternative interpretations rather than annotation error. Recognising and preserving these cases enhances construct validity and provides a more realistic portrayal of how framing functions operate in contested debates. Our results demonstrate that large language models can scale framing function analysis while capturing the variability inherent in human interpretation, enabling forms of communication research that were previously impractical with human-only coding.",
-          "url": "https://doi.org/10.1177/08944393261501889",
-          "doi": "https://doi.org/10.1177/08944393261501889",
-          "filter": 0,
-          "created": "2026-10-30"
-        },
         {
           "title": "Who Goes Toxic? Understanding Political Toxicity on Social Media Across Individuals and Contexts",
           "authors": "Alon Zoizner, Nir Lotan, Sagi Pendzel, Einat Minkov",
