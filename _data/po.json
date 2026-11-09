@@ -1,5 +1,5 @@
 {
-  "update": "2026-11-08",
+  "update": "2026-11-09",
   "content": [
     {
       "journal_full": "International Journal of Public Opinion Research",
@@ -70,6 +70,15 @@
           "doi": "https://doi.org/10.1177/0282423x261498277",
           "filter": 0,
           "created": "2026-11-6"
+        },
+        {
+          "title": "Automatically Coding Economic Activities via Semantic Search",
+          "authors": "Francesco Ortame, Mauro Bruno",
+          "abstract": "Automated coding of free-text descriptions is a core challenge for National Statistical Institutes (NSIs), which must map colloquial respondent inputs to official taxonomies under strict reliability and transparency requirements. Rule-based systems, the current standard, demand extensive, ongoing human effort to author and maintain the large manual rule sets needed to cover the diversity of real world inputs. This paper evaluates embedding-based semantic retrieval as a lower-maintenance alternative, using the Italian ATECO classification as the empirical setting. We compare several knowledge base construction strategies across seven sentence transformer models (ranging from 118 million to 8 billion parameters), evaluated against 33,544 real-world queries labelled by CIRCE, Istat’s operational rule-based coder, at the 5-digit and 2-digit levels. Moderate-size models (300–700 million parameters) are competitive with much larger ones, achieving Hit@5 above 0.82 and 0.94 at the respective levels. Query length is a significant performance driver, and manual mismatch analysis reveals that roughly one in five disagreements with CIRCE reflect label noise rather than retrieval errors. Embedding-based retrieval thus offers competitive performance with no task-specific training data and a fraction of the human labour required by rule-based approaches.",
+          "url": "https://doi.org/10.1177/0282423x261500949",
+          "doi": "https://doi.org/10.1177/0282423x261500949",
+          "filter": 0,
+          "created": "2026-11-9"
         }
       ],
       "articles_hidden": []
