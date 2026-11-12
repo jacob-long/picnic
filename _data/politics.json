@@ -1,22 +1,6 @@
 {
-  "update": "2026-11-11",
+  "update": "2026-11-12",
   "content": [
-    {
-      "journal_full": "American Journal of Political Science",
-      "journal_short": "AJPS",
-      "articles": [
-        {
-          "title": "Can citizen election observation increase public confidence in US elections?",
-          "authors": "Jennie Barker, Oren Samet, Susan D. Hyde",
-          "abstract": "Nonpartisan citizen election observation plays an important role in promoting the credibility of electoral processes around the world. This article assesses whether nonpartisan observation can shape attitudes among the US public, randomizing information about nonpartisan domestic observers in a series of survey experiments fielded to nearly 10,000 respondents. These included both hypothetical vignettes and information about a real‐world nonpartisan domestic observation mission undertaken by The Carter Center during the 2022 midterm elections in Fulton County, Georgia. The results show that information about positive assessments by nonpartisan observers of the hypothetical and Fulton County elections increased respondents' confidence in electoral results and processes, and also made respondents more likely to identify the officially announced winner over the candidate they favored as the candidate who won. Alternative ways of framing observers were largely inconsequential.",
-          "url": "https://doi.org/10.1111/ajps.70095",
-          "doi": "https://doi.org/10.1111/ajps.70095",
-          "filter": 0,
-          "created": "2026-11-4"
-        }
-      ],
-      "articles_hidden": []
-    },
     {
       "journal_full": "American Political Science Review",
       "journal_short": "APSR",
@@ -111,13 +95,13 @@
           "created": "2026-11-6"
         },
         {
-          "title": "Keep the peace? The early politics of Covid-19 and the limits of partisan influence on public opinion",
-          "authors": "Franziska Graf, Alexa Lenz, Christian Adam",
-          "abstract": "Crises often call for swift and far-reaching government action that depends on broad public acceptance to be effective. While political disagreement is commonly seen as undermining support, its actual impact on public attitudes remains contested. This study examines public opinion during the COVID-19 pandemic in Germany – a context that shifted from early cross-party unity to later politicization. Combining original media data on partisan messaging and panel survey data from 2020, we assess how the emergence of partisan criticism shaped public acceptance of pandemic response policies. Although increasing partisan politicization was associated with declining public acceptance of pandemic measures, we find no evidence that this relationship was driven by partisan cue-taking. Instead, citizens adjusted their party preferences rather than their policy views in response to disagreement with their preferred party. These findings highlight the limits of partisan persuasion, and the growing importance of citizens’ own evaluations as elite consensus erodes.",
-          "url": "https://doi.org/10.1177/13540688261487130",
-          "doi": "https://doi.org/10.1177/13540688261487130",
+          "title": "Reframing moderation: Frame moderation as a radical-right party strategy",
+          "authors": "Spencer J Corp",
+          "abstract": "Many radical-right parties across Western Europe have normalized electorally while holding stable, hardline positions on immigration. This paper argues that these parties have moderated the perception of their core policies not through positional moderation, but through frame moderation: they change how they justify a policy without necessarily changing the policy itself, altering the considerations through which voters perceive their position. Conceptually, the paper distinguishes the range of frames a party invokes from the frequency with which it invokes these frames. Empirically, it develops a scalable measure of framing width and of change within frame categories using a novel method of sentence embeddings. Its usefulness is illustrated with the case of the French National Rally’s framing of immigration across manifestos from 1997 to 2022. As the party normalized, it widened its range of frames, increased its framing of immigration in terms of economic considerations, and moved from a cultural frame that emphasized ethnic homogeneity toward one that focuses on the defense of secularism and gender equality. Frame moderation enables stigmatized parties to appear more mainstream without moderating their positions. This suggests that positional measures alone may understate how radical-right parties have changed.",
+          "url": "https://doi.org/10.1177/13540688261505681",
+          "doi": "https://doi.org/10.1177/13540688261505681",
           "filter": 0,
-          "created": "2026-11-4"
+          "created": "2026-11-11"
         }
       ],
       "articles_hidden": []
@@ -127,15 +111,6 @@
       "journal_short": "PA",
       "articles": [
         {
-          "title": "How Accurate Are Survey Measurements of Objective Phenomena?",
-          "authors": "Lisanne Wichgers, Linchiat Chang, David Chapman, Elizabeth Elder, Jon Krosnick, Matt Berent, Amanda Scott, Elaine Albertson, Elizabeth Quinlan",
-          "abstract": "How accurate are survey measurements of phenomena that can be objectively verified? This article reports a review of various types of evidence assessing accuracy (vs. benchmarks not derived from self-reports) across a wide spectrum of content areas, including demographics, healthcare, labor force statistics, substance use and more. The vast majority of measurements were accurate, according to three assessment methods. Individual respondents’ self-reports closely matched objective records of the same phenomena for the same individual. Small aggregate differences were observed between survey sample means and aggregate means derived from objective records. Self-reports correlated strongly with measures of the same attributes of those individuals from secondary data not based on self-reports. Taken together, the evidence suggests that survey measurements of objective phenomena are highly accurate.",
-          "url": "https://doi.org/10.1017/pan.2026.10054",
-          "doi": "https://doi.org/10.1017/pan.2026.10054",
-          "filter": 0,
-          "created": "2026-11-4"
-        },
-        {
           "title": "An Image Is Worth K Topics: A Visual Structural Topic Model with Pretrained Image Embeddings",
           "authors": "Matías Piqueras, Alexandra Segerberg, Matteo Magnani, Måns Magnusson, Nataša Sladoje",
           "abstract": "Political scientists are increasingly interested in analyzing visual content at scale. However, the existing computational toolbox is still in need of methods and models attuned to the specific challenges and goals of social and political inquiry. In this article, we introduce a visual structural topic model (vSTM) that combines continuous image embeddings with a structural topic model. This has important advantages compared to existing approaches. First, continuous embeddings allow the model to capture the semantic complexity of images, which is relevant to the study of politics. A consequence of using continuous embeddings is that we can directly use off-the-shelf pretrained deep learning models, offering state-of-the-art performance in image analysis tasks while saving time, cost and resources. Second, the structural topic model provides the ability to analyze how topics and covariates are related, while maintaining a nuanced representation of images as a mixture of multiple topics. In our experiments, we show that the vSTM is able to identify topics that are interpretable, coherent and relevant to the study of online political communication.",
@@ -143,15 +118,6 @@
           "doi": "https://doi.org/10.1017/pan.2026.10062",
           "filter": 0,
           "created": "2026-11-5"
-        },
-        {
-          "title": "Euclidean Ideal Point Estimation from Roll-Call Data via Distance-Based Bipartite Network Models",
-          "authors": "Seungju Lee, In Kyun Kim, Jong Hee Park, Ick Hoon Jin",
-          "abstract": "Conventional ideal point models rely on Gaussian or quadratic utility functions that violate the triangle inequality, producing non-metric distances that complicate geometric interpretation and undermine clustering and dispersion-based analyses. We introduce a distance-based alternative that adapts the latent space item response model (LSIRM) to roll-call data, treating legislators and bills as nodes in a bipartite network jointly embedded in a Euclidean metric space. Through controlled simulations, Euclidean LSIRM consistently recovers latent coalition structure with superior cluster separation relative to existing methods. Applied to the 118th U.S. House, the model provides competitive predictive performance while yielding bill embeddings that clarify cross-cutting issue alignments. The results show that restoring metric structure to ideal point estimation provides a clearer and more coherent inference about party cohesion, factional divisions and multidimensional legislative behavior.",
-          "url": "https://doi.org/10.1017/pan.2026.10058",
-          "doi": "https://doi.org/10.1017/pan.2026.10058",
-          "filter": 0,
-          "created": "2026-11-4"
         }
       ],
       "articles_hidden": []
@@ -216,15 +182,6 @@
       "journal_short": "PolPsyc",
       "articles": [
         {
-          "title": "Unrequited: Zero‐sum asymmetry in the political domain fuels affective polarization",
-          "authors": "Martino Ongis, David Kidd",
-          "abstract": "Zero‐sum beliefs about political relationships—the conviction that one party's gains are inevitably offset by another party's losses—have often been cited as drivers of partisan conflicts. However, across five studies with diverse samples of U.S. residents ( n = 1383), four of which were preregistered, we find that overall zero‐sum endorsement shows weak and inconsistent associations with affective polarization. Instead, beliefs are frequently one‐sided: Many individuals endorse the idea that their political opponents' gains are harmful while rejecting the notion that their own gains come at others' expense. We refer to the strength of this outgroup‐ingroup imbalance as zero‐sum asymmetry . Across correlational and experimental studies, higher zero‐sum asymmetry reliably predicts heightened partisan animosity. At the same time, it is associated with higher civic efficacy and, in several samples, greater political participation and democratic commitment. Notably, symmetric zero‐sum endorsement is relatively rare compared to asymmetric patterns. Together, these findings highlight the directional structure of perceived political trade‐offs as a key contributor to affective polarization, with broader implications for how citizens interpret partisan competition and evaluate the health of democratic systems.",
-          "url": "https://doi.org/10.1111/pops.70205",
-          "doi": "https://doi.org/10.1111/pops.70205",
-          "filter": 0,
-          "created": "2026-11-4"
-        },
-        {
           "title": "Affective dynamics of welfare chauvinism under different policy funding structures",
           "authors": "Duygu Merve Uysal",
           "abstract": "This research investigates how distinct emotional responses to immigrants—namely, compassion, anger, and anxiety—are connected to welfare chauvinist attitudes within varying welfare policy funding contexts. Leveraging Turkey's experience with large‐scale immigration and the exogenous nature of EU funding, a population‐representative survey experiment was conducted, manipulating claimant identity (native vs. immigrant) and the funding source of welfare assistance (state vs. EU‐funded). Results show that a “care deficit” operates as a key mechanism linking immigrant identity and lower support for immigrant welfare access, but only within the nation‐bound welfare system. Once compassion is evoked, however, it operates similarly for natives and immigrants. Furthermore, moderation analyses reveal divergent patterns of compassion, anger, and anxiety in shaping welfare chauvinist attitudes across different policy funding structures. Highlighting the crucial interplay between emotions and the policy funding schemes in which welfare assistance is delivered, this research contributes to the debate on what drives welfare chauvinism. Drawing on the political psychology literature, this study offers a perspective on the emotional dynamics associated with the persistent native‐immigrant welfare support gap and discusses potential factors that may contribute to narrowing this disparity.",
@@ -250,15 +207,6 @@
           "doi": "https://doi.org/10.1111/pops.70222",
           "filter": 0,
           "created": "2026-11-9"
-        },
-        {
-          "title": "The critical role of political trust in the energy transition",
-          "authors": "Jordana W. Composto, Sofía Silvosa, Anandita Sabherwal, Elke U. Weber",
-          "abstract": "Achieving net‐zero CO 2 emissions requires sustained collaboration between civil society and the private and public sectors across time and geographies, but low trust in and among these actors impedes coordinated action. This multidisciplinary review examines how different forms of trust, in particular political trust (i.e., trust between actors with differential power), shape the energy transition, addressing four core questions: How does trust impact energy project development and outcomes? How do the processes of building, maintaining, eroding, and repairing trust differ? What are the asymmetries in trust gain and loss? How does a project's history and stage determine which process is at play and whether trust repair is possible? A narrative literature review and analysis of fifteen case studies spanning diverse energy contexts identifies key trust dyads: government‐community, developer‐community, regulator‐developer. Mapping these trust dyads on project outcomes reveals when trust functions as either a barrier or a pathway to success. We complement our literature review and case analysis with primary data from stakeholder surveys and expert workshops that validate the real‐world relevance of trust research insights and identify the largest trust deficits and effective trust‐building strategies perceived by expert practitioners. Our findings across sources of evidence converge to show that political trust operates through distinct mechanisms across different actor relationships, with direct implications for project design, stakeholder engagement, and policy implementation. The review concludes by outlining future research directions and opportunities for cross‐disciplinary collaboration to address trust challenges in the energy transition.",
-          "url": "https://doi.org/10.1111/pops.70218",
-          "doi": "https://doi.org/10.1111/pops.70218",
-          "filter": 0,
-          "created": "2026-11-4"
         }
       ],
       "articles_hidden": []
@@ -381,22 +329,6 @@
           "doi": "https://doi.org/10.1017/s1049096526102546",
           "filter": 0,
           "created": "2026-11-9"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Research & Politics",
-      "journal_short": "RAP",
-      "articles": [
-        {
-          "title": "Political institutions and public opinion on abortion decisions post-Dobbs",
-          "authors": "Jeong Hyun Kim, Nichole Bauer, Anna Gunderson",
-          "abstract": "At a time when state institutions are increasingly setting abortion policy through different channels, understanding which decision-making processes the public views as legitimate has crucial consequences for democratic governance and public trust in democratic institutions. We argue that in the post-Dobbs political climate, public support has shifted away from court-issued abortion decisions toward those made through voter referendums, driven by higher perceived procedural fairness in direct democracy. We fielded two unique survey experiments, one before the Dobbs decision removing the federal constitutional right for pregnant people to seek an abortion, and one after the decision. Pre-Dobbs, we find few differences in citizens’ perceptions of abortion decisions made by state courts, legislatures, or referendums. Post-Dobbs, we find that people evaluate both pro-abortion and anti-abortion decisions more favorably when decided through voter referendums. Our results hold critical implications for policies on abortion in the post-Dobbs landscape, but also for policy formation and evaluation on other contentious public policy issues.",
-          "url": "https://doi.org/10.1177/20531680261503342",
-          "doi": "https://doi.org/10.1177/20531680261503342",
-          "filter": 0,
-          "created": "2026-11-4"
         }
       ],
       "articles_hidden": []
