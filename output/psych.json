@@ -1,5 +1,5 @@
 {
-  "update": "2026-11-11",
+  "update": "2026-11-12",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -40,55 +40,12 @@
       "journal_short": "BRM",
       "articles": [
         {
-          "title": "The news we use: A systematic scoping review of fake news stimuli in psychological research",
-          "authors": "Theodore C. Webster, Ariana Modirrousta-Galian, Faye C. Skelton, Marina C. Wimmer",
-          "abstract": "Research into fake news has surged in popularity, with over 3,000 publications on the topic each year since 2021. Definitions of what constitutes “fake news” vary across the field of psychology, where source, number, content, and presentation of stimuli may all be different yet still described as “fake news.” Thus, conclusions drawn from fake news research may only generalize to the particular definition or presentation of fake news used in a given study. Relatedly, stimuli may not be available or described clearly enough for reproducibility. To assess the scope of these potential issues, we conducted and reported a PRISMA (Preferred Reporting Items for Systematic reviews and Meta-Analyses) systematic scoping review of three databases including the last 11 years of psychology studies that used fake news stimuli. From the 881 included studies, we extracted and described the number, source, standardization, framing, and availability of fake news stimuli. Our findings suggest a large degree of stimuli variability, with high rates of example and full set availability. Most frequently, research stimuli were about politics and were framed as a social media post, and examples were given in-text. We also evaluated ratios of real to fake news stimuli, where an equal number of real and fake articles was the most frequent ratio. We recommend continued transparency, offering suggestions for open science practices following copyright law and considerations of generalizability regarding fake news in research.",
-          "url": "https://doi.org/10.3758/s13428-026-03220-9",
-          "doi": "https://doi.org/10.3758/s13428-026-03220-9",
-          "filter": 0,
-          "created": "2026-11-4"
-        },
-        {
-          "title": "Language-based affect assessments capture experiment-induced changes beyond rating scales",
-          "authors": "Oskar Bång, Zhuojun Gu, August H. Nilsson, Veerle C. Eijsbroek, Clara Wiebel, Adithya V. Ganesan, Katarina Kjell, H. Andrew Schwartz, Oscar N. E. Kjell",
-          "abstract": "Language-based assessments (LBAs) have shown strong convergent and criterion validity cross-sectionally and longitudinally. However, no study has tested whether LBAs of affect can capture experiment-induced changes (i.e., causal validity ). In this randomized mixed-design experiment, participants ( N = 892) completed a mood induction procedure comprising different conditions ( church, shopping mall, and park ) using physical locations ( N = 153) and online video clips ( N = 739). Participants reported their pre- and post-induction affect through open-ended responses and ratings (i.e., the Positive and Negative Affect Schedule; PANAS). Using large language models and machine learning, we compared how accurately PANAS and language responses classified the experimental conditions. The LBA derived from the language responses exhibited significantly higher accuracy compared to the PANAS scores in classifying the conditions in both the training set (cross-validated AUC = .74 vs. .63), the online holdout set (AUC = .76 vs. .70), and the offline holdout set (AUC = .67 vs. .53). Apart from showing higher predictive accuracy, we assessed LBAs of specific affective dimensions (valence, arousal, and basic emotions). These analyses revealed that positive valence was most strongly expressed in the park condition, while anger was particularly elevated in the mall condition. We also visualized language differences across conditions, showing more calm and peaceful expressions in the park condition and more tired and bored expressions in the mall condition. These findings support the causal validity of language-based affect assessments and their ability to provide insights into affective states. We discuss the potential of using LBA in experimental psychological research.",
-          "url": "https://doi.org/10.3758/s13428-026-03200-z",
-          "doi": "https://doi.org/10.3758/s13428-026-03200-z",
-          "filter": 0,
-          "created": "2026-11-4"
-        },
-        {
-          "title": "Calibrating fit-index cutoffs for sparse ordinal CFA: Scenario-specific thresholds and operating characteristics",
-          "authors": "Liu Liu, Jin Liu, David Okech",
-          "abstract": "Sparse ordinal response patterns can shift the sampling distributions of common confirmatory factor analysis (CFA) fit indices, making fixed heuristic cutoffs difficult to interpret across design conditions. We conducted a Monte Carlo simulation to calibrate scenario-specific cutoffs for the comparative fit index (CFI), Tucker–Lewis index (TLI), root mean square error of approximation (RMSEA), and standardized root mean square residual (SRMR) in sparse five-category ordinal CFA and to evaluate their operating characteristics. Data were generated from a three-factor population model with one cross-loading. For each dataset, we fitted a Correct model, a Local Misfit model omitting the cross-loading, and a Severe Misfit model combining two factors. We varied estimator (robust maximum likelihood [MLR], mean- and variance-adjusted maximum likelihood [MLMV], weighted least squares mean- and variance-adjusted maximum likelihood [WLSMV]), sample size ( N = 250, 500, 1,000), loading strength ( $$\\lambda$$ λ = .50 vs. .80), sparsity pattern, sparse-item scope, and category handling (original vs. collapsed). Cutoffs were calibrated from Correct-model distributions at $$\\alpha$$ α = .05, using lower-tail quantiles for CFI and TLI and upper-tail quantiles for RMSEA and SRMR. Calibrated thresholds were strongly scenario-dependent. RMSEA and SRMR cutoffs were generally far below conventional benchmarks, whereas CFI and TLI cutoffs varied with sample size and loading strength, falling below .95 in lower-information settings and approaching boundary values in larger-sample and high-loading settings. Detection was substantially lower for Local Misfit than for Severe Misfit. A calibrated CFI-RMSEA AND rule provided a transparent multi-index operating profile, with false-rejection and detection trade-offs that varied across scenarios. Collapsing produced modest changes for robust ML estimators but increased WLSMV detection in lower-information settings. We provide cutoff tables, operating-characteristic summaries, an interpolation aid, and an applied illustration to support scenario-calibrated fit evaluation in sparse ordinal CFA.",
-          "url": "https://doi.org/10.3758/s13428-026-03221-8",
-          "doi": "https://doi.org/10.3758/s13428-026-03221-8",
-          "filter": 0,
-          "created": "2026-11-4"
-        },
-        {
           "title": "The Lyric Focus Questionnaire (LFQ): Measuring individual differences in song listening",
           "authors": "Dominique T. Vuvan, Julia Cannistraro, Wren R. R. Goodkind, Megha Sharda",
           "url": "https://doi.org/10.3758/s13428-026-03224-5",
           "doi": "https://doi.org/10.3758/s13428-026-03224-5",
           "filter": 0,
           "created": "2026-11-9"
-        },
-        {
-          "title": "Listen to your better angles: Horizontality, verticality, and cardinality in visual scanning and foraging",
-          "authors": "Marcos Bella-Fernández, Alicia Ferrer-Mendieta, Beatriz Gil-Gómez de Liaño",
-          "url": "https://doi.org/10.3758/s13428-026-03208-5",
-          "doi": "https://doi.org/10.3758/s13428-026-03208-5",
-          "filter": 0,
-          "created": "2026-11-4"
-        },
-        {
-          "title": "The Japanese Sentence Corpus: Eye-movement data on sentence reading with word predictability norms",
-          "authors": "Yuqi Hao, Hiromu Sakai, Qingtong Li, Ming Yan",
-          "url": "https://doi.org/10.3758/s13428-026-03229-0",
-          "doi": "https://doi.org/10.3758/s13428-026-03229-0",
-          "filter": 0,
-          "created": "2026-11-4"
         },
         {
           "title": "CzeLex: A megastudy dataset of concreteness, imageability, age of acquisition, valence, and gender ratings for 9601 Czech words",
@@ -98,23 +55,6 @@
           "doi": "https://doi.org/10.3758/s13428-026-03217-4",
           "filter": 0,
           "created": "2026-11-6"
-        },
-        {
-          "title": "Angular speed should not be used to test the speed–curvature power law",
-          "authors": "Adam Matic",
-          "url": "https://doi.org/10.3758/s13428-026-03227-2",
-          "doi": "https://doi.org/10.3758/s13428-026-03227-2",
-          "filter": 0,
-          "created": "2026-11-4"
-        },
-        {
-          "title": "The developmental English Lexicon Project (d-ELP): Continuous word reading difficulty estimates of the 9,961 most frequently printed English words for US children",
-          "authors": "Donald L. Compton, Jay G. Rueckl, Laura M. Steacy, Noam Siegelman, Ashley A. Edwards, Yaacov Petscher, Nicole Patton-Terry, Matthew J. Cooper Borkenhagen, Chelsea Starke",
-          "abstract": "The developmental English Lexicon Project (d-ELP) is a database comprising word reading data for 9,961 of the most frequently printed English words for children, including continuous item response theory (IRT)-based estimates of word reading difficulty, accompanying word characteristics, and raw trial-level data. Data on isolated word reading accuracy were collected from 1,907 children in grades 1–5 across multiple US sites. Each child read a list of words ranging from 250 to 500 items depending on reading skill (less proficient children were often unable to finish the entire list of words), with each list representing the full distribution of word difficulty oversampled for words at the child’s reading level. Each child also attempted 99 linking items representing the full distribution of word difficulty. A total of 631,322 responses were collected, with the average child providing 336. For the final sample of words, the average number of responses per word for the 9,862 non-linking items was 47.14 (range of 10–592), and for the 99 linking items the average was 1,681.42 (range of 1,083–1,907). A Rasch model, with planned missing data design, was fit to children’s responses on the word list and linking item responses. This introduction describes the motivation for this project, the methods used for data collection, the analytic framework used to establish a continuous measure of word reading difficulty across words, descriptive statistics of the relational database and initial behavioral results, and a publicly available search engine providing searchable access to word difficulty ratings and associated word-level statistics.",
-          "url": "https://doi.org/10.3758/s13428-026-03222-7",
-          "doi": "https://doi.org/10.3758/s13428-026-03222-7",
-          "filter": 0,
-          "created": "2026-11-4"
         },
         {
           "title": "Spelling Profile Assessment (SPA): A new spelling test for English primary school children; standardization",
@@ -149,14 +89,6 @@
           "created": "2026-11-7"
         },
         {
-          "title": "Beyond Curiosity: Habit and Organizational Learning Capability as Predictors of Shadow AI",
-          "authors": "Nolan Lovett, Mohan Yang",
-          "url": "https://doi.org/10.1016/j.chb.2026.109243",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109243",
-          "filter": 0,
-          "created": "2026-11-4"
-        },
-        {
           "title": "Between Financial, Digital, and Graph Literacy and Fraud Victimization: Disentangling Components and Cognitive Biases",
           "authors": "Marco Barone, Candida Bussoli, Lucrezia Fattobene",
           "url": "https://doi.org/10.1016/j.chb.2026.109262",
@@ -173,14 +105,6 @@
           "created": "2026-11-5"
         },
         {
-          "title": "From being watched to working the numbers: Dataveillance and the consequences of data crafting",
-          "authors": "Ward van Zoonen, Jeffrey W. Treem",
-          "url": "https://doi.org/10.1016/j.chb.2026.109247",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109247",
-          "filter": 0,
-          "created": "2026-11-4"
-        },
-        {
           "title": "Online, offline, and hybrid identity: Exploring domain-based social identities and their implications for technology attitudes, wellbeing, and social cohesion",
           "authors": "W.J. Bingley, K.J. Reynolds",
           "url": "https://doi.org/10.1016/j.chb.2026.109259",
@@ -189,7 +113,15 @@
           "created": "2026-11-10"
         },
         {
-          "title": "Designing Human-Centered Generative AI for Older Adults: Understanding Personalization and Credibility Across Interaction Contexts",
+          "title": "‘Race Talk’ in Immersive Virtual Environments: Examining White Americans’ Responses to Racial Violence During an Interracial Interaction",
+          "authors": "Valerie Jones Taylor, Sandra Manfreda, Juan V. Valladares, Jared Cutler",
+          "url": "https://doi.org/10.1016/j.chb.2026.109238",
+          "doi": "https://doi.org/10.1016/j.chb.2026.109238",
+          "filter": 0,
+          "created": "2026-11-11"
+        },
+        {
+          "title": "Designing human-centered generative AI for older adults: Understanding personalization and credibility across interaction contexts",
           "authors": "Mingxi Sun, Jingxi Chen",
           "url": "https://doi.org/10.1016/j.chb.2026.109260",
           "doi": "https://doi.org/10.1016/j.chb.2026.109260",
@@ -227,6 +159,14 @@
       "journal_full": "Journal of Experimental Social Psychology",
       "journal_short": "JESP",
       "articles": [
+        {
+          "title": "A reanalysis of eye-tracking evidence for the diagnostic features account",
+          "authors": "Brandon Cohen, Debbie S. Ma, Tomás A. Palma, Eric M. Elias, Balbir Singh, Joshua Correll",
+          "url": "https://doi.org/10.1016/j.jesp.2026.105024",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.105024",
+          "filter": 0,
+          "created": "2026-11-11"
+        },
         {
           "title": "When racial violence becomes personal: how racial mega-threats transfer across racially stigmatized groups",
           "authors": "Angelica Leigh, Tosen Nwadei, Marla L. White, Victor L. Marsh, Brian Lattimore",
@@ -282,6 +222,24 @@
           "doi": "https://doi.org/10.1177/01461672261499423",
           "filter": 0,
           "created": "2026-11-5"
+        },
+        {
+          "title": "Evolving Norms of Market Fairness: Stable Mechanisms and Shifting Standards in a Contemporary Replication of Kahneman et al. (1986)",
+          "authors": "William Rose, Joe J. Gladstone",
+          "abstract": "Do the fairness norms people use to judge economic life stay fixed or shift as markets change? We report four replications ( N = 1,016) of Kahneman et al.’s 1986 study of market fairness, using original and modernized scenarios in crowdworker and general-population samples. The cognitive machinery of fairness has barely changed in four decades: participants treated existing prices and wages as entitlements, judged pay cuts more harshly than equivalent withheld raises, and condemned firms exploiting market power. The fairness norms themselves, however, have shifted, and in different directions across market domains. Relative to 1986, the odds of objecting to price increases fell by roughly 40% to 55% in every sample, whereas only the younger crowdworker samples objected more to employer actions; the general-population panel showed no such shift. Fairness pairs stable mechanisms with standards that adapt to the economy, challenging theories that treat it as a single, fixed preference.",
+          "url": "https://doi.org/10.1177/01461672261495988",
+          "doi": "https://doi.org/10.1177/01461672261495988",
+          "filter": 0,
+          "created": "2026-11-11"
+        },
+        {
+          "title": "Adopting a Multidimensional Approach to Assessing Contextual Predictors of Regional Implicit Gender-Career Stereotyping",
+          "authors": "Jared M. Cutler, Kimberly Barsamian Kahn",
+          "abstract": "This study adopts a multidimensional approach to assess whether geographic areas with greater gender representation and integration (even distribution of employed men and women) have less traditional implicit gender-career stereotyping (IGS). Contact with and exposure to working women (counterstereotypic exemplars) may reduce regional IGS. However, this may depend on the type of career positions, as stereotypic (feminine careers) gender-career representation may exacerbate IGS. Researchers analyzed data from the U.S. Census’ 2010 to 2019 American Community Survey (metropolitan statistical areas: N = 338) and Project Implicit ( N = 689,455). Using multilevel modeling, representation and integration negatively predicted traditional IGS in that region. Furthermore, the proportion of working women in stereotypically masculine careers negatively predicted IGS, whereas employed women in feminine careers positively predicted IGS. Findings support environmental models of implicit associations and imply that enhancing the proportion of working women in masculine careers may be a method to addressing implicit gender bias.",
+          "url": "https://doi.org/10.1177/01461672261493666",
+          "doi": "https://doi.org/10.1177/01461672261493666",
+          "filter": 0,
+          "created": "2026-11-11"
         }
       ],
       "articles_hidden": []
@@ -302,17 +260,17 @@
       "articles_hidden": []
     },
     {
-      "journal_full": "Psychological Science",
-      "journal_short": "PsychSci",
+      "journal_full": "Psychology of Music",
+      "journal_short": "PsychMusic",
       "articles": [
         {
-          "title": "The Gambler’s Fallacy Fallacy Fallacy (Commentary on Xiang et al., 2025)",
-          "authors": "Daniel Banki, Uri Simonsohn",
-          "abstract": "Xiang et al. concluded that the gambler’s fallacy does not originate in biased beliefs. Reanalyzing their data, we arrived at the opposite conclusion. We show, more generally, that their main analysis—examining whether the median belief is biased—is not diagnostic of the presence of the gambler’s fallacy, whereas our test of the share of probability estimates for the streak ending above or below 50% is diagnostic. We also report results from a new study in which at least 80% of gambler’s-fallacy predictions originated in biased beliefs.",
-          "url": "https://doi.org/10.1177/09567976261490829",
-          "doi": "https://doi.org/10.1177/09567976261490829",
+          "title": "Ratings of Musical Hooks in Unfamiliar Pop Music Are Influenced by Repetition and Distraction",
+          "authors": "Bethany T. Nixon, Sara C. Hamden, Timothy P. Byron",
+          "abstract": "Popular music’s widespread appeal has often been attributed to its use of ‘hooks’ – musical or lyrical phrases that are salient and easily remembered. This paper reports two experiments examining the role of attention and familiarity in shaping judgements of the salience and memorability of unfamiliar pop music. In Experiment 1, participants listened to unfamiliar pop songs either once or five times, while either attending to the music or completing sudoku puzzles, before using continuous self-report (CSR) to rate the salience and memorability of the full song. The results found that participants more familiar with the song after repeated listening rated it more highly, but that sudoku puzzles were not significantly distracting enough to affect ratings. Experiment 2 largely replicated Experiment 1, except with a verbal task as distraction, and involved providing post-listening ratings of song excerpts. Findings suggest that familiarity led to higher ratings of the excerpts, while attentional distraction led to lower ratings. Collectively, these results indicate that both attention and familiarity contribute to the cognitive processing of hooks in popular music. This research suggests that self-report ratings are an effective tool for psychologically investigating hooks and provide a foundation for future research on how they may influence the experience of earworms.",
+          "url": "https://doi.org/10.1177/03057356261485230",
+          "doi": "https://doi.org/10.1177/03057356261485230",
           "filter": 0,
-          "created": "2026-11-4"
+          "created": "2026-11-11"
         }
       ],
       "articles_hidden": []
