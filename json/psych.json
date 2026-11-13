@@ -1,44 +1,44 @@
 {
-  "update": "2026-11-12",
+  "update": "2026-11-13",
   "content": [
-    {
-      "journal_full": "Advances in Methods and Practices in Psychological Science",
-      "journal_short": "AMPPS",
-      "articles": [
-        {
-          "title": "Mind the Gap: A Practical Guide for Effectively Addressing Missing Data in Moderation Analysis",
-          "authors": "Guyin Zhang, Amanda J. Fairchild, Brian Keller, Dexin Shi",
-          "abstract": "Advances in methodology and statistical software have made modern techniques for handling missing data more accessible and easier to implement. However, optimally applying these methods in moderation analysis remains challenging given assumption violations that arise from the nonnormality of interaction term when traditional approaches are used and nuances faced when modeling interaction terms in the presence of item-level missing data that must be reconciled with scale-level analyses. To address these issues, we present a comprehensive and practical user’s guide on implementing an advanced approach, factored regression specification (FRS), that ideally handles missing data in observed-variable-moderation models. Specifically, we provide step-by-step guidance for conducting FRS at both scale and item levels in various interaction scenarios that include missing data with both continuous and categorical variables. We also derive and present a new coding method to address the challenge of probing simple slopes in continuous-variable interactions that contain item-level missingness. Finally, we supply R code to facilitate implementation of the methods described and offer practical recommendations for researchers.",
-          "url": "https://doi.org/10.1177/25152459261450058",
-          "doi": "https://doi.org/10.1177/25152459261450058",
-          "filter": 0,
-          "created": "2026-11-5"
-        },
-        {
-          "title": "Automating Abstract Screening in Research Synthesis Using Large Language Models: A Tutorial and Proof-of-Concept Study",
-          "authors": "Mirka Henninger, Jan Radek, Jean-Paul Snijder-Steinhilber, Martin Pauly",
-          "abstract": "Screening abstracts is a crucial yet labor-intensive step in research-synthesis projects, such as systematic reviews and meta-analyses. Large language models (LLMs) promise an opportunity to streamline and automate this process. However, there is still little guidance and practical insight into how such automated workflows can be implemented in research practice. In this article, we propose, describe, and illustrate an abstract-screening procedure using LLMs including a quantification of uncertainty of model outputs. We provide a step-by-step tutorial in which we address how to select an LLM, access LLMs from within R, develop and refine suitable prompts, define structured output formats, and describe whether and how model hyperparameters should be set. We then illustrate this procedure in a proof-of-concept study using a set of human-rated abstracts from a recent meta-analysis for comparison. We demonstrate that LLM-assisted screening can substantially reduce the time and cost of review preparation while maintaining accuracy comparable with human raters. To support psychological researchers in adopting LLM-based workflows for research synthesis, we also provide R scripts and implementation guidance on Gitlab. At the same time, we emphasize that this work represents an initial step and that continued refinement and validation are essential given that LLM technologies and their applications continue to evolve rapidly.",
-          "url": "https://doi.org/10.1177/25152459261473490",
-          "doi": "https://doi.org/10.1177/25152459261473490",
-          "filter": 0,
-          "created": "2026-11-5"
-        },
-        {
-          "title": "How to Play With Ideas Using Computer Simulations: A Gentle Introduction to Computational Modeling via Systems Dynamics",
-          "authors": "Christopher R. Dishop",
-          "abstract": "Computational modeling provides a way to translate theory into explicit representations that can be simulated and examined, but many researchers lack a clear entry point for doing so. In this article, I introduce a two-step procedure designed especially for psychologists, particularly psychologists with little or no programming experience, who are interested in exploring computational modeling but are unsure how to start. The procedure involves two steps: (a) converting box-and-arrow diagrams (which many psychologists are already familiar with) into stock-and-flow (SF) diagrams and then (b) developing pseudocode from the SF diagram. Once these steps are completed, translating the model into executable syntax becomes straightforward. The goal is not to teach programming or simulation in depth but to show how conceptual models can be expressed in a form precise enough to generate trajectories over time. I then describe why this translation matters for theory. Explicit computational representations allow researchers to compare alternative explanations, evaluate whether simpler mechanisms are sufficient to reproduce observed patterns, examine whether theories generate the outcomes they claim, and explore ideas or policies that would be difficult to test directly in the field. Ready-to-use R code is provided to support hands-on learning to reach the broader aim of making computational modeling a practical and approachable tool for psychologists interested in evaluating their theories with computational modeling.",
-          "url": "https://doi.org/10.1177/25152459261485864",
-          "doi": "https://doi.org/10.1177/25152459261485864",
-          "filter": 0,
-          "created": "2026-11-5"
-        }
-      ],
-      "articles_hidden": []
-    },
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
       "articles": [
+        {
+          "title": "Norms for gender-inclusive role nouns in Italian: The GIRN-I database",
+          "authors": "Claudia Mazzuca, Chiara De Livio, Marta Mirabella, Guido Giovanardi, Anna M. Borghi",
+          "url": "https://doi.org/10.3758/s13428-026-03216-5",
+          "doi": "https://doi.org/10.3758/s13428-026-03216-5",
+          "filter": 0,
+          "created": "2026-11-12"
+        },
+        {
+          "title": "A practical guide to self-organising maps in psychological research",
+          "authors": "Ido Shalev, Estherina Trachtenberg, Maria B. Jelen, William Mills, Marc Bennett, Rebecca P. Lawson, Tim Dalgleish, Duncan E. Astle",
+          "abstract": "Identifying shared and distinct profiles, whether of symptoms, personality traits, or cognitive abilities, is essential for understanding psychological phenomena, yet doing so requires navigating interrelated theoretical, conceptual, and technical complexities. First, most psychological phenomena typically exist along continuous spectra rather than discrete categories, complicating the characterisation of inherently heterogeneous constructs. Second, studying individual differences requires balancing population-level generalisation with person-level interpretability, which is critical for applied science and clinical practice. Third, psychological data often contain missing values, non-linear relationships, and high-dimensional patterns that violate standard statistical assumptions. Commonly used approaches for profile detection often fall short of these demands, producing oversimplified or difficult-to-interpret results that are hard to map back to the individual. In contrast, self-organising maps (SOMs) offer a powerful, visual, and intuitive solution that addresses these challenges. Despite growing interest, SOMs remain underutilised in psychology, likely due to a lack of accessible tutorials and clear guidelines tailored to the field. This tutorial introduces SOMs to psychologists without technical backgrounds, emphasising practical implementation. We provide evidence-based recommendations for key methodological decisions, accompanied by annotated R code. Using a dataset of depressive symptoms as an illustrative case, we present a complete workflow covering data preprocessing, map initialisation, parameter optimisation, and interpretation. We further discuss advanced SOM extensions relevant to psychological research and highlight key limitations of the method. By making SOMs accessible, this tutorial supports nuanced, person-centred analyses that preserve the complexity of psychological phenomena.",
+          "url": "https://doi.org/10.3758/s13428-026-03198-4",
+          "doi": "https://doi.org/10.3758/s13428-026-03198-4",
+          "filter": 0,
+          "created": "2026-11-12"
+        },
+        {
+          "title": "Assessing the viability of monospaced fonts for eye-movement paradigms in Arabic reading",
+          "authors": "Maryam A. AlJassmi, Kevin B. Paterson, Manuel Perea, Sami Boudelaa, Alia Ali, Maitha Alshaali, Alyaziah AlShamsi, Amani Mohammed, Kayleigh L. Warrington",
+          "abstract": "Monospaced (fixed-width) fonts such as , where each character occupies an identical unit of horizontal space, are widely used in eye-movement research in Latinate languages (Slattery, 2016). The uniformity of monospaced fonts is methodologically advantageous, allowing researchers to match the spatial width of words containing equal numbers of letters. However, their use has been avoided in Arabic research due to their rarity and perceived unnatural appearance, which changes the natural cursive interconnection between letters (Hermena et al., 2017). This imposes difficulties for researchers of Arabic reading, particularly when employing gaze-contingent change techniques, creating restrictions that impede progress to close the gap in knowledge about cursive languages. While it has been hypothesized that monospacing may interfere with cognitive processing, this has not been directly investigated. In two experiments, we examined whether monospaced and proportional fonts modulate lexical frequency effects and parafoveal preview effects during Arabic sentence reading. Fixation time measures showed similar patterns in both font types. Lexical frequency influenced word identification similarly across most measures in the two font types (Experiment 1), while a manipulation of parafoveal preview validity produced comparable effects on fixation times for target words (Experiment 2). Across experiments, monospaced fonts produced shorter but more frequent fixations than proportional fonts: a trade-off that mirrors effects previously reported in Latinate languages. Given the methodological advantages for gaze-contingent paradigms, these findings establish monospaced fonts as a readable and suitable option for Arabic reading research, facilitating tighter spatial control and cross-script comparability.",
+          "url": "https://doi.org/10.3758/s13428-026-03173-z",
+          "doi": "https://doi.org/10.3758/s13428-026-03173-z",
+          "filter": 0,
+          "created": "2026-11-12"
+        },
+        {
+          "title": "CAN-5e: Chinese affective norms for five discrete emotion categories",
+          "authors": "Xiaogen Liao, Yunhan Si",
+          "url": "https://doi.org/10.3758/s13428-026-03234-3",
+          "doi": "https://doi.org/10.3758/s13428-026-03234-3",
+          "filter": 0,
+          "created": "2026-11-12"
+        },
         {
           "title": "The Lyric Focus Questionnaire (LFQ): Measuring individual differences in song listening",
           "authors": "Dominique T. Vuvan, Julia Cannistraro, Wren R. R. Goodkind, Megha Sharda",
@@ -46,6 +46,22 @@
           "doi": "https://doi.org/10.3758/s13428-026-03224-5",
           "filter": 0,
           "created": "2026-11-9"
+        },
+        {
+          "title": "A Bayesian hierarchical hurdle beta workflow for sparse AOI-based eye-tracking data",
+          "authors": "Kuangzhe Xu",
+          "url": "https://doi.org/10.3758/s13428-026-03197-5",
+          "doi": "https://doi.org/10.3758/s13428-026-03197-5",
+          "filter": 0,
+          "created": "2026-11-12"
+        },
+        {
+          "title": "Creating perceptually uniform circular shape spaces: An automated method for asymmetric naturalistic shapes",
+          "authors": "Ana B. Carbajal Chavez, Eline Van Geert, Johan Wagemans, Yaniv Morgenstern",
+          "url": "https://doi.org/10.3758/s13428-026-03219-2",
+          "doi": "https://doi.org/10.3758/s13428-026-03219-2",
+          "filter": 0,
+          "created": "2026-11-12"
         },
         {
           "title": "CzeLex: A megastudy dataset of concreteness, imageability, age of acquisition, valence, and gender ratings for 9601 Czech words",
@@ -89,20 +105,12 @@
           "created": "2026-11-7"
         },
         {
-          "title": "Between Financial, Digital, and Graph Literacy and Fraud Victimization: Disentangling Components and Cognitive Biases",
+          "title": "Between financial, digital, and graph literacy and fraud victimization: Disentangling components and cognitive biases",
           "authors": "Marco Barone, Candida Bussoli, Lucrezia Fattobene",
           "url": "https://doi.org/10.1016/j.chb.2026.109262",
           "doi": "https://doi.org/10.1016/j.chb.2026.109262",
           "filter": 0,
           "created": "2026-11-10"
-        },
-        {
-          "title": "Online Racial Discrimination on Social Media and Social Anxiety Among Black Emerging Adults: Examining the Indirect Role of Racism Hypervigilance",
-          "authors": "Henry A. Willis, Antoinette Dorzon, Kamryn McKenzie, Lena-Sementa Weldemicael, Tida Tambedou",
-          "url": "https://doi.org/10.1016/j.chb.2026.109246",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109246",
-          "filter": 0,
-          "created": "2026-11-5"
         },
         {
           "title": "Online, offline, and hybrid identity: Exploring domain-based social identities and their implications for technology attitudes, wellbeing, and social cohesion",
@@ -127,14 +135,6 @@
           "doi": "https://doi.org/10.1016/j.chb.2026.109260",
           "filter": 0,
           "created": "2026-11-9"
-        },
-        {
-          "title": "The role of haptic feedback in simulated social VR for older adults: Affective experiences, social interaction, and design implications",
-          "authors": "Dezijian Zhou, Anastasia Globa",
-          "url": "https://doi.org/10.1016/j.chb.2026.109235",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109235",
-          "filter": 0,
-          "created": "2026-11-5"
         }
       ],
       "articles_hidden": []
@@ -151,6 +151,15 @@
           "doi": "https://doi.org/10.1177/13684302261499279",
           "filter": 0,
           "created": "2026-11-6"
+        },
+        {
+          "title": "The Brief Transprejudice Scale: Development and Validation",
+          "authors": "Diana Cheso, R. Thora Bjornsdottir, Ryan McKay, Hanna Zagef ka",
+          "abstract": "In recent years, research on predictors of transprejudice has increased, yet existing psychometric measures of the construct have limitations, including outdated terminology, conflation of gender atypicality with trans identity and a lack of multidimensional structure. We report on the development and validation of the Brief Transprejudice Scale (BTS), a concise yet multifaceted measure of transprejudice. In Study 1 ( N = 341), exploratory factor analysis and Rasch analysis were used to refine an initial item pool, resulting in a three-factor (negative affect, category exclusion and moralism) 14-item scale . In Study 2 ( N = 391), confirmatory factor analysis supported this factor structure, and validity tests demonstrated the scale’s strong concurrent, convergent and divergent validity. Despite its brevity, this new scale provides a psychometrically sound and efficient tool that allows researchers to capture multiple aspects of transprejudice.",
+          "url": "https://doi.org/10.1177/13684302261499271",
+          "doi": "https://doi.org/10.1177/13684302261499271",
+          "filter": 0,
+          "created": "2026-11-13"
         }
       ],
       "articles_hidden": []
@@ -159,6 +168,22 @@
       "journal_full": "Journal of Experimental Social Psychology",
       "journal_short": "JESP",
       "articles": [
+        {
+          "title": "The effects of outgroup malleability and change motivation perceptions on collective action intentions",
+          "authors": "Smadar Cohen-Chen, Nathaniel Geiger",
+          "url": "https://doi.org/10.1016/j.jesp.2026.105025",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.105025",
+          "filter": 0,
+          "created": "2026-11-12"
+        },
+        {
+          "title": "Beyond ingroup vs. outgroup differentiation: Spontaneous racialized categorization reflects distinct groups",
+          "authors": "Nora Feline Becker, Juliane Degner",
+          "url": "https://doi.org/10.1016/j.jesp.2026.105022",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.105022",
+          "filter": 0,
+          "created": "2026-11-12"
+        },
         {
           "title": "A reanalysis of eye-tracking evidence for the diagnostic features account",
           "authors": "Brandon Cohen, Debbie S. Ma, Tomás A. Palma, Eric M. Elias, Balbir Singh, Joshua Correll",
@@ -183,6 +208,14 @@
       "journal_short": "JPSP",
       "articles": [
         {
+          "title": "The structure and history of English words that describe people.",
+          "authors": "Yuanze Liu, Tessa Charlesworth, Alex Koch, Andrew Luttrell, Joshua Conrad Jackson",
+          "url": "https://doi.org/10.1037/pspp0000627",
+          "doi": "https://doi.org/10.1037/pspp0000627",
+          "filter": 0,
+          "created": "2026-11-12"
+        },
+        {
           "title": "The more, the better? Evidence of parallel growth in intergroup contact quantity and quality over time.",
           "authors": "Rose Meleady, Patrick F. Kotzur, Deborah Shulman, Gordon Hodson, Richard J. Crisp, Danielle Blaylock, Joanne Hughes, Maarten H. W. Van Zalk, Katharina Schmid",
           "url": "https://doi.org/10.1037/pspi0000538",
@@ -191,12 +224,28 @@
           "created": "2026-11-9"
         },
         {
-          "title": "Individual, interpersonal, and socioeconomic predictors of divorce: A 12-year prospective study.",
-          "authors": "Molly G. Smith, Jared M. Block, Thomas N. Bradbury, Benjamin R. Karney",
-          "url": "https://doi.org/10.1037/pspi0000537",
-          "doi": "https://doi.org/10.1037/pspi0000537",
+          "title": "Examining the gender-equality paradox in values using a new measure of value-based gender typicality.",
+          "authors": "Florencia M. Sortheix, Ville-Juhani Ilmarinen, Rasmus Mannerström, Sointu Leikas",
+          "url": "https://doi.org/10.1037/pspp0000623",
+          "doi": "https://doi.org/10.1037/pspp0000623",
           "filter": 0,
-          "created": "2026-11-5"
+          "created": "2026-11-12"
+        },
+        {
+          "title": "Navigating divorce and partner bereavement: Personality and trajectories of change in life satisfaction and mental health.",
+          "authors": "Thao Kieu, Liselotte den Boer, Wiebke Bleidorn, Yu Xie, Jaap J. A. Denissen",
+          "url": "https://doi.org/10.1037/pspp0000620",
+          "doi": "https://doi.org/10.1037/pspp0000620",
+          "filter": 0,
+          "created": "2026-11-12"
+        },
+        {
+          "title": "A systematic investigation of age–gender intersectional stereotypes and their consequences.",
+          "authors": "Emily R. Ye, Angela Shakeri, Michael S. North",
+          "url": "https://doi.org/10.1037/pspa0000505",
+          "doi": "https://doi.org/10.1037/pspa0000505",
+          "filter": 0,
+          "created": "2026-11-12"
         }
       ],
       "articles_hidden": []
@@ -215,15 +264,6 @@
           "created": "2026-11-7"
         },
         {
-          "title": "Humanlike Self-Enhancement and Self-Protection in Generative Pre-Trained Transformer-Based AI Agents: Of Overclaiming and the Self-Serving Bias",
-          "authors": "Siwei Fu, Constantine Sedikides, Weihua Zhou, Xinyue Zhou",
-          "abstract": "We investigated whether generative pre-trained transformer (GPT)-based AI agents, despite presumably lacking humanlike sentience, emulate motivated behavior in group settings. We focused on overclaiming (overestimating one’s contribution to group outcomes) and the self-serving bias (SSB; taking disproportionate credit for group successes while deflecting blame for group failures). We conducted eight experiments involving a collaborative and creative group task (joke-writing). AI agents overclaimed their own contributions. An egocentrism-reduction manipulation (directing attention equally to one’s own and others’ contributions) attenuated, but did not eliminate, overclaiming. Further, AI agents exhibited the SSB. Overclaiming persisted across variations in temperature settings and demographic personas (gender, ethnicity) and was more pronounced in later GPT models. Also, chain-of-Thought reasoning did not reduce, and instead increased, overclaiming. AI systems can mimic human self-enhancement and self-protection, raising implications for the emergence of motivated self-like behavior in non-biological systems, the assumed neutrality of large language models, and the need for improved mitigation techniques.",
-          "url": "https://doi.org/10.1177/01461672261499423",
-          "doi": "https://doi.org/10.1177/01461672261499423",
-          "filter": 0,
-          "created": "2026-11-5"
-        },
-        {
           "title": "Evolving Norms of Market Fairness: Stable Mechanisms and Shifting Standards in a Contemporary Replication of Kahneman et al. (1986)",
           "authors": "William Rose, Joe J. Gladstone",
           "abstract": "Do the fairness norms people use to judge economic life stay fixed or shift as markets change? We report four replications ( N = 1,016) of Kahneman et al.’s 1986 study of market fairness, using original and modernized scenarios in crowdworker and general-population samples. The cognitive machinery of fairness has barely changed in four decades: participants treated existing prices and wages as entitlements, judged pay cuts more harshly than equivalent withheld raises, and condemned firms exploiting market power. The fairness norms themselves, however, have shifted, and in different directions across market domains. Relative to 1986, the odds of objecting to price increases fell by roughly 40% to 55% in every sample, whereas only the younger crowdworker samples objected more to employer actions; the general-population panel showed no such shift. Fairness pairs stable mechanisms with standards that adapt to the economy, challenging theories that treat it as a single, fixed preference.",
@@ -240,21 +280,6 @@
           "doi": "https://doi.org/10.1177/01461672261493666",
           "filter": 0,
           "created": "2026-11-11"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Psychological Methods",
-      "journal_short": "PM",
-      "articles": [
-        {
-          "title": "Integrating artificial intelligence into back-translation: Opportunities, constraints, and recommendations for psychological research.",
-          "authors": "Julian Decius, Emily Kleszewski, Hannah Louisa Krüger",
-          "url": "https://doi.org/10.1037/met0000877",
-          "doi": "https://doi.org/10.1037/met0000877",
-          "filter": 0,
-          "created": "2026-11-5"
         }
       ],
       "articles_hidden": []
@@ -280,12 +305,28 @@
       "journal_short": "TMB",
       "articles": [
         {
+          "title": "Investigating the association between problematic social media use and the feeling of self-alienation.",
+          "authors": "Lydia Needy, Yuhui Du, Theo C. Steele, Lauren Osterberg, Joshua A. Hicks",
+          "url": "https://doi.org/10.1037/tmb0000239",
+          "doi": "https://doi.org/10.1037/tmb0000239",
+          "filter": 0,
+          "created": "2026-11-12"
+        },
+        {
           "title": "Coordinating actions and sharing control with a disembodied artificial intelligence: Task-dependent differences from human partners.",
           "authors": "Noëlle Bender, Hendrik Damm, Nicole C. Krämer",
           "url": "https://doi.org/10.1037/tmb0000218",
           "doi": "https://doi.org/10.1037/tmb0000218",
           "filter": 0,
           "created": "2026-11-9"
+        },
+        {
+          "title": "Anthropomorphism and emotional reactions to human–AI collaboration.",
+          "authors": "Roya Mohammadsadegh, Fırat Şeker, Youngbin Kwak, Mohammad Atari",
+          "url": "https://doi.org/10.1037/tmb0000245",
+          "doi": "https://doi.org/10.1037/tmb0000245",
+          "filter": 0,
+          "created": "2026-11-12"
         }
       ],
       "articles_hidden": []
