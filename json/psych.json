@@ -1,6 +1,21 @@
 {
-  "update": "2026-11-13",
+  "update": "2026-11-14",
   "content": [
+    {
+      "journal_full": "Advances in Methods and Practices in Psychological Science",
+      "journal_short": "AMPPS",
+      "articles": [
+        {
+          "title": "An Analytical Solution Eliminates Monte Carlo Error in Intervention Analysis for Ising Networks: A Comment on Wang et al. (2026)",
+          "authors": "Jingmeng Cui",
+          "url": "https://doi.org/10.1177/25152459261495514",
+          "doi": "https://doi.org/10.1177/25152459261495514",
+          "filter": 0,
+          "created": "2026-11-13"
+        }
+      ],
+      "articles_hidden": []
+    },
     {
       "journal_full": "Behavior Research Methods",
       "journal_short": "BRM",
@@ -14,20 +29,20 @@
           "created": "2026-11-12"
         },
         {
-          "title": "A practical guide to self-organising maps in psychological research",
-          "authors": "Ido Shalev, Estherina Trachtenberg, Maria B. Jelen, William Mills, Marc Bennett, Rebecca P. Lawson, Tim Dalgleish, Duncan E. Astle",
-          "abstract": "Identifying shared and distinct profiles, whether of symptoms, personality traits, or cognitive abilities, is essential for understanding psychological phenomena, yet doing so requires navigating interrelated theoretical, conceptual, and technical complexities. First, most psychological phenomena typically exist along continuous spectra rather than discrete categories, complicating the characterisation of inherently heterogeneous constructs. Second, studying individual differences requires balancing population-level generalisation with person-level interpretability, which is critical for applied science and clinical practice. Third, psychological data often contain missing values, non-linear relationships, and high-dimensional patterns that violate standard statistical assumptions. Commonly used approaches for profile detection often fall short of these demands, producing oversimplified or difficult-to-interpret results that are hard to map back to the individual. In contrast, self-organising maps (SOMs) offer a powerful, visual, and intuitive solution that addresses these challenges. Despite growing interest, SOMs remain underutilised in psychology, likely due to a lack of accessible tutorials and clear guidelines tailored to the field. This tutorial introduces SOMs to psychologists without technical backgrounds, emphasising practical implementation. We provide evidence-based recommendations for key methodological decisions, accompanied by annotated R code. Using a dataset of depressive symptoms as an illustrative case, we present a complete workflow covering data preprocessing, map initialisation, parameter optimisation, and interpretation. We further discuss advanced SOM extensions relevant to psychological research and highlight key limitations of the method. By making SOMs accessible, this tutorial supports nuanced, person-centred analyses that preserve the complexity of psychological phenomena.",
-          "url": "https://doi.org/10.3758/s13428-026-03198-4",
-          "doi": "https://doi.org/10.3758/s13428-026-03198-4",
-          "filter": 0,
-          "created": "2026-11-12"
-        },
-        {
           "title": "Assessing the viability of monospaced fonts for eye-movement paradigms in Arabic reading",
           "authors": "Maryam A. AlJassmi, Kevin B. Paterson, Manuel Perea, Sami Boudelaa, Alia Ali, Maitha Alshaali, Alyaziah AlShamsi, Amani Mohammed, Kayleigh L. Warrington",
           "abstract": "Monospaced (fixed-width) fonts such as , where each character occupies an identical unit of horizontal space, are widely used in eye-movement research in Latinate languages (Slattery, 2016). The uniformity of monospaced fonts is methodologically advantageous, allowing researchers to match the spatial width of words containing equal numbers of letters. However, their use has been avoided in Arabic research due to their rarity and perceived unnatural appearance, which changes the natural cursive interconnection between letters (Hermena et al., 2017). This imposes difficulties for researchers of Arabic reading, particularly when employing gaze-contingent change techniques, creating restrictions that impede progress to close the gap in knowledge about cursive languages. While it has been hypothesized that monospacing may interfere with cognitive processing, this has not been directly investigated. In two experiments, we examined whether monospaced and proportional fonts modulate lexical frequency effects and parafoveal preview effects during Arabic sentence reading. Fixation time measures showed similar patterns in both font types. Lexical frequency influenced word identification similarly across most measures in the two font types (Experiment 1), while a manipulation of parafoveal preview validity produced comparable effects on fixation times for target words (Experiment 2). Across experiments, monospaced fonts produced shorter but more frequent fixations than proportional fonts: a trade-off that mirrors effects previously reported in Latinate languages. Given the methodological advantages for gaze-contingent paradigms, these findings establish monospaced fonts as a readable and suitable option for Arabic reading research, facilitating tighter spatial control and cross-script comparability.",
           "url": "https://doi.org/10.3758/s13428-026-03173-z",
           "doi": "https://doi.org/10.3758/s13428-026-03173-z",
+          "filter": 0,
+          "created": "2026-11-12"
+        },
+        {
+          "title": "A practical guide to self-organising maps in psychological research",
+          "authors": "Ido Shalev, Estherina Trachtenberg, Maria B. Jelen, William Mills, Marc Bennett, Rebecca P. Lawson, Tim Dalgleish, Duncan E. Astle",
+          "abstract": "Identifying shared and distinct profiles, whether of symptoms, personality traits, or cognitive abilities, is essential for understanding psychological phenomena, yet doing so requires navigating interrelated theoretical, conceptual, and technical complexities. First, most psychological phenomena typically exist along continuous spectra rather than discrete categories, complicating the characterisation of inherently heterogeneous constructs. Second, studying individual differences requires balancing population-level generalisation with person-level interpretability, which is critical for applied science and clinical practice. Third, psychological data often contain missing values, non-linear relationships, and high-dimensional patterns that violate standard statistical assumptions. Commonly used approaches for profile detection often fall short of these demands, producing oversimplified or difficult-to-interpret results that are hard to map back to the individual. In contrast, self-organising maps (SOMs) offer a powerful, visual, and intuitive solution that addresses these challenges. Despite growing interest, SOMs remain underutilised in psychology, likely due to a lack of accessible tutorials and clear guidelines tailored to the field. This tutorial introduces SOMs to psychologists without technical backgrounds, emphasising practical implementation. We provide evidence-based recommendations for key methodological decisions, accompanied by annotated R code. Using a dataset of depressive symptoms as an illustrative case, we present a complete workflow covering data preprocessing, map initialisation, parameter optimisation, and interpretation. We further discuss advanced SOM extensions relevant to psychological research and highlight key limitations of the method. By making SOMs accessible, this tutorial supports nuanced, person-centred analyses that preserve the complexity of psychological phenomena.",
+          "url": "https://doi.org/10.3758/s13428-026-03198-4",
+          "doi": "https://doi.org/10.3758/s13428-026-03198-4",
           "filter": 0,
           "created": "2026-11-12"
         },
@@ -64,15 +79,6 @@
           "created": "2026-11-12"
         },
         {
-          "title": "CzeLex: A megastudy dataset of concreteness, imageability, age of acquisition, valence, and gender ratings for 9601 Czech words",
-          "authors": "James Brand, Filip Smolík, Jan Chromý, Markéta Ceháková, Mikuláš Preininger",
-          "abstract": "Understanding how semantics are processed at the lexical level has been a key aim for the cognitive sciences, with large-scale semantic rating studies in different languages playing a crucial role in facilitating the advancement and development of theories of lexical processing, as well as providing valuable methodological resources that can be used in empirical investigations. In this paper, we present the CzeLex database, a megastudy of 9601 Czech words that have been normed along five psycholinguistic dimensions from a large sample of 4405 Czech-speaking participants. We provide individual rating data at the item and participant levels, as well as aggregated data from both mean ratings and latent means derived using cumulative-link mixed modeling, along with a comprehensive analysis comparing aggregation methods. We demonstrate that the dataset has good reliability and that specific dimensions predict lexical processing measures in a lexical decision task, regardless of the aggregation method used. These norms are the largest available subjective rating resource for Czech and further contribute to the growing body of languages with openly available data on these dimensions. We hope that the dataset will be a valuable resource for researchers working on Czech, in addition to opening up new opportunities for cross-linguistic semantic investigations. All data, code, and analyses are available at https://osf.io/tqxfm .",
-          "url": "https://doi.org/10.3758/s13428-026-03217-4",
-          "doi": "https://doi.org/10.3758/s13428-026-03217-4",
-          "filter": 0,
-          "created": "2026-11-6"
-        },
-        {
           "title": "Spelling Profile Assessment (SPA): A new spelling test for English primary school children; standardization",
           "authors": "Georgia Niolaki, Harry Purser, Aris Terzopoulos, Janet Vousden, Saskia Kohnen, Jackie Masterson",
           "abstract": "We present the construction, psychometric evaluation, and administration of a new single-word spelling battery that includes: a. irregular (e.g., yacht) and regular (e.g., trap) words and pseudowords (e.g., knep) ( N = 87), and b. a morphological spelling test with real words (20 affixes/seven suffixation rules) and pseudowords (mirroring the rules of the real words) ( N = 40). After the pilot phase, the final battery was standardized on 1053 children (Year_R to Year_6 F = 514). The battery across tasks presents outstanding reliability (.97 to .99), and criterion and convergent validity were compared with the Wechsler Individual Achievement Test-Third UK Edition (Wechsler, 2009) spelling subtest. The Spelling Profile Assessment (SPA) battery provides standard scores (mean = 100, Sd = 15) per subtask, a total composite standard score for each test (a and b) and 95% confidence intervals. We calculated age-based standard scores using a continuous developmental trajectory rather than assigning individuals to fixed age groups. We model gradual developmental change to provide a more precise score. The test also includes a stopping rule, which streamlines its administration and reduces stress for children who can only spell a limited number of items. Additionally, we automated every step of the standardization process and made it available under open access, ensuring transparency, reproducibility, and ease of adaptation. This tool contributes to the spelling literature by offering a comprehensive battery for assessing phonological, orthographic, and morphological spelling skills in primary-age children. It can serve as a valuable tool for educators/clinicians to gauge students’ progression and tailor their spelling instruction accordingly.",
@@ -80,6 +86,14 @@
           "doi": "https://doi.org/10.3758/s13428-026-03195-7",
           "filter": 0,
           "created": "2026-11-9"
+        },
+        {
+          "title": "When standard two-method measurement planned missing designs reach their limits: Time-embedded adaptations for intensive longitudinal studies",
+          "authors": "Xiaohui Luo, Jianing Dou, Hongyun Liu",
+          "url": "https://doi.org/10.3758/s13428-026-03235-2",
+          "doi": "https://doi.org/10.3758/s13428-026-03235-2",
+          "filter": 0,
+          "created": "2026-11-13"
         }
       ],
       "articles_hidden": []
@@ -144,15 +158,6 @@
       "journal_short": "GPIR",
       "articles": [
         {
-          "title": "The Dual-Process Motivational Perspective on Anti-American Attitudes: Evidence from Russia",
-          "authors": "Kirill Zhirkov, Eduard Ponarin, Sharon Werning Rivera, Shane Hsuan-Yu Lin",
-          "abstract": "In this paper, we explore the psychological motivations of anti-American attitudes from the perspective of the dual-process model that emphasizes two basic human motivational goals: security (with the resulting perception of threat) and superiority (with the perception of competition). Among established measures in social psychology, the former most closely corresponds to authoritarianism, whereas the latter is captured by social dominance orientation (SDO). We analyze the case of Russia where grievances against the United States featured prominently in the justification of the 2022 invasion of Ukraine. In Study 1, we find that political and cultural grievances against the United States, as well as anti-American attitudes and support for confrontation, are more strongly and consistently predicted by authoritarianism than by SDO. In Study 2, we replicate this result and also show that anti-American attitudes in the Russian public are motivated by perception of threat rather than perception of competition.",
-          "url": "https://doi.org/10.1177/13684302261499279",
-          "doi": "https://doi.org/10.1177/13684302261499279",
-          "filter": 0,
-          "created": "2026-11-6"
-        },
-        {
           "title": "The Brief Transprejudice Scale: Development and Validation",
           "authors": "Diana Cheso, R. Thora Bjornsdottir, Ryan McKay, Hanna Zagef ka",
           "abstract": "In recent years, research on predictors of transprejudice has increased, yet existing psychometric measures of the construct have limitations, including outdated terminology, conflation of gender atypicality with trans identity and a lack of multidimensional structure. We report on the development and validation of the Brief Transprejudice Scale (BTS), a concise yet multifaceted measure of transprejudice. In Study 1 ( N = 341), exploratory factor analysis and Rasch analysis were used to refine an initial item pool, resulting in a three-factor (negative affect, category exclusion and moralism) 14-item scale . In Study 2 ( N = 391), confirmatory factor analysis supported this factor structure, and validity tests demonstrated the scale’s strong concurrent, convergent and divergent validity. Despite its brevity, this new scale provides a psychometrically sound and efficient tool that allows researchers to capture multiple aspects of transprejudice.",
@@ -175,6 +180,14 @@
           "doi": "https://doi.org/10.1016/j.jesp.2026.105025",
           "filter": 0,
           "created": "2026-11-12"
+        },
+        {
+          "title": "Prototypes of Sexual Harassers",
+          "authors": "Sumayya Shaikh, Ignazio Ziano",
+          "url": "https://doi.org/10.1016/j.jesp.2026.105026",
+          "doi": "https://doi.org/10.1016/j.jesp.2026.105026",
+          "filter": 0,
+          "created": "2026-11-13"
         },
         {
           "title": "Beyond ingroup vs. outgroup differentiation: Spontaneous racialized categorization reflects distinct groups",
@@ -254,6 +267,15 @@
       "journal_full": "Personality and Social Psychology Bulletin",
       "journal_short": "PSPB",
       "articles": [
+        {
+          "title": "Moral Convictions on the Move: Abortion Ballot Outcomes and Migration Motivation",
+          "authors": "John C. Blanchar, Harper Miller",
+          "abstract": "Shifts in abortion policy can create or reinforce mismatches between local laws and personal values, disrupting people’s sense of place. A corollary of the ideological migration hypothesis predicts that people are motivated to leave states whose laws conflict with their values to satisfy belonging needs. In Study 1 ( N = 1,227), pro-life and pro-choice residents of Florida and Missouri were surveyed before and after the 2024 U.S. presidential election, in which both states voted on abortion access. Missouri’s measure passed; Florida’s failed. Individuals whose attitudes conflicted with the outcome reported reduced belonging, lower life satisfaction, and greater migration desire. Study 2 experimentally replicated these effects among Arkansas residents ( N = 814), showing that envisioning a value-incongruent ballot outcome reduced belonging and increased migration consideration. Effects were strongest among participants who moralized abortion, suggesting that moral convictions may be important for the impact of policy outcomes on belonging and migration motivation.",
+          "url": "https://doi.org/10.1177/01461672261496325",
+          "doi": "https://doi.org/10.1177/01461672261496325",
+          "filter": 0,
+          "created": "2026-11-13"
+        },
         {
           "title": "Increasing Support for Humanitarian Aid to Palestinian Civilians During the Israel–Gaza War Through Ideologically Tailored Social-Media Campaigns",
           "authors": "Nimrod Nir, Eran Halperin",
