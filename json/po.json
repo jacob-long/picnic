@@ -1,5 +1,5 @@
 {
-  "update": "2026-11-16",
+  "update": "2026-11-17",
   "content": [
     {
       "journal_full": "Journal of Elections, Public Opinion and Parties",
@@ -21,13 +21,12 @@
       "journal_short": "JOS",
       "articles": [
         {
-          "title": "Automatically Coding Economic Activities via Semantic Search",
-          "authors": "Francesco Ortame, Mauro Bruno",
-          "abstract": "Automated coding of free-text descriptions is a core challenge for National Statistical Institutes (NSIs), which must map colloquial respondent inputs to official taxonomies under strict reliability and transparency requirements. Rule-based systems, the current standard, demand extensive, ongoing human effort to author and maintain the large manual rule sets needed to cover the diversity of real world inputs. This paper evaluates embedding-based semantic retrieval as a lower-maintenance alternative, using the Italian ATECO classification as the empirical setting. We compare several knowledge base construction strategies across seven sentence transformer models (ranging from 118 million to 8 billion parameters), evaluated against 33,544 real-world queries labelled by CIRCE, Istat’s operational rule-based coder, at the 5-digit and 2-digit levels. Moderate-size models (300–700 million parameters) are competitive with much larger ones, achieving Hit@5 above 0.82 and 0.94 at the respective levels. Query length is a significant performance driver, and manual mismatch analysis reveals that roughly one in five disagreements with CIRCE reflect label noise rather than retrieval errors. Embedding-based retrieval thus offers competitive performance with no task-specific training data and a fraction of the human labour required by rule-based approaches.",
-          "url": "https://doi.org/10.1177/0282423x261500949",
-          "doi": "https://doi.org/10.1177/0282423x261500949",
+          "title": "Towards a Statistical System for AI Monitoring",
+          "authors": "Barteld Braaksma, Yvonne Gerhards, Bart Klijs",
+          "url": "https://doi.org/10.1177/0282423x261505751",
+          "doi": "https://doi.org/10.1177/0282423x261505751",
           "filter": 0,
-          "created": "2026-11-9"
+          "created": "2026-11-16"
         }
       ],
       "articles_hidden": []
@@ -59,6 +58,22 @@
           "doi": "https://doi.org/10.1080/21565503.2026.2762526",
           "filter": 0,
           "created": "2026-11-16"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Public Opinion Quarterly",
+      "journal_short": "POQ",
+      "articles": [
+        {
+          "title": "What Role Did Immigration Attitudes Play in Latinos’ 2016–2024 Swing Toward the GOP?",
+          "authors": "Daniel J Hopkins, William Marble",
+          "abstract": "After the 2012 and 2016 presidential elections, scholars and observers frequently characterized Latino voters as unlikely to support anti-immigration candidates, especially when immigration is salient. However, between 2016 and 2024, Latinos were among the groups that swung the most toward the GOP. Given the mismatch between Donald Trump’s strident opposition to unauthorized immigration and Latinos’ historically pro-immigration views, understanding the role of Latinos’ immigration attitudes in vote choice over this period is theoretically important. Acknowledging that Latinos are not single-issue voters, we investigate this question using multiple high-quality, population-based panels of Latinos (2016–2024). We document a sharp restrictionist turn in Latinos’ attitudes. We also find that Latinos perceive Democrats to have moderated slightly on immigration, though not enough to keep pace with the change in public opinion. Finally, we demonstrate that Latinos placed just as much weight on immigration policy in their 2024 vote choice as in 2016. Our results suggest that while immigration has not waned in importance for Latinos, changes in attitudes from 2016 to 2024 diminished Democrats’ advantage on this issue.",
+          "url": "https://doi.org/10.1093/poq/nfag070",
+          "doi": "https://doi.org/10.1093/poq/nfag070",
+          "filter": 0,
+          "created": "2026-9-26"
         }
       ],
       "articles_hidden": []
