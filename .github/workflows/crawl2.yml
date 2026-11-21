@@ -45,6 +45,14 @@ jobs:
         working-directory: ./main_folder
         run: Rscript tests/test_gemini.R
 
+      - name: Test Crossref response handling
+        working-directory: ./main_folder
+        run: Rscript tests/test_crossref.R
+
+      - name: Test crawl recovery state
+        working-directory: ./main_folder
+        run: Rscript tests/test_crawl_state.R
+
       # Step 5: Create and populate credentials file with secrets
       - name: Create and populate credentials file with secrets
         working-directory: ./main_folder
@@ -77,6 +85,10 @@ jobs:
       - name: Select must-read articles
         working-directory: ./main_folder
         run: Rscript must_read.R
+
+      - name: Record successful crawl
+        working-directory: ./main_folder
+        run: Rscript -e 'writeLines(as.character(Sys.Date()), "memory/last_crawl_success.txt")'
 
       # Step 7: Commit results to the main branch
       - name: Commit results to main branch

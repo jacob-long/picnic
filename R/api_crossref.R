@@ -8,10 +8,28 @@
 #' @param end End date for filtering
 #' @param date_type Either "created" or "published"
 #' @param rows Maximum number of rows to return
-#' @return Parsed API response content
-call_crossref_api <- function(id, type = "issn", start, end, date_type = "created", rows = 1000) {
+#' @param max_attempts Maximum attempts for rate-limited requests
+#' @param initial_delay Initial retry delay in seconds
+#' @param get_fn HTTP GET function (injectable for tests)
+#' @param sleep_fn Sleep function (injectable for tests)
+#' @param content_fn HTTP content parser (injectable for tests)
+#' @return Validated, parsed API response content
+call_crossref_api <- function(
+    id,
+    type = "issn",
+    start,
+    end,
+    date_type = "created",
+    rows = 1000,
+    max_attempts = 5,
+    initial_delay = 1,
+    get_fn = httr::GET,
+    sleep_fn = Sys.sleep,
+    content_fn = httr::content
+) {
     if (!type %in% c("issn", "doi")) stop("type must be either 'issn' or 'doi'")
     if (!date_type %in% c("created", "published")) stop("date_type must be either 'created' or 'published'")
+    if (max_attempts < 1) stop("max_attempts must be at least 1")
 
     endpoint <- if (type == "issn") {
         paste0("https://api.crossref.org/journals/", id, "/works")
@@ -32,8 +50,83 @@ call_crossref_api <- function(id, type = "issn", start, end, date_type = "create
         rows = rows
     )
 
-    res <- httr::GET(endpoint, query = param)
-    return(httr::content(res))
+    delay <- initial_delay
+    retryable_statuses <- c(429, 500, 502, 503, 504)
+    for (attempt in seq_len(max_attempts)) {
+        res <- get_fn(endpoint, query = param)
+        status <- httr::status_code(res)
+
+        if (status %in% retryable_statuses && attempt < max_attempts) {
+            retry_after <- suppressWarnings(as.numeric(
+                httr::headers(res)[["retry-after"]]
+            ))
+            wait <- if (length(retry_after) == 1 &&
+                        is.finite(retry_after) && retry_after >= 0) {
+                retry_after
+            } else {
+                delay
+            }
+            message(sprintf(
+                "Crossref HTTP %d for %s (%s); retrying in %s seconds (%d/%d)",
+                status, id, date_type, format(wait, trim = TRUE), attempt,
+                max_attempts
+            ))
+            sleep_fn(wait)
+            delay <- delay * 2
+            next
+        }
+
+        if (status != 200) {
+            detail <- tryCatch(
+                content_fn(res, as = "text", encoding = "UTF-8"),
+                error = function(e) ""
+            )
+            detail <- gsub("[[:space:]]+", " ", detail)
+            detail <- substr(trimws(detail), 1, 200)
+            if (nzchar(detail)) detail <- paste0(": ", detail)
+            stop(sprintf(
+                "Crossref request failed for %s (%s): HTTP %d%s",
+                id, date_type, status, detail
+            ), call. = FALSE)
+        }
+
+        parsed <- tryCatch(
+            content_fn(res, as = "parsed", type = "application/json"),
+            error = function(e) {
+                stop(sprintf(
+                    "Malformed Crossref response for %s (%s): %s",
+                    id, date_type, conditionMessage(e)
+                ), call. = FALSE)
+            }
+        )
+        validate_crossref_response(parsed, id, date_type)
+        return(parsed)
+    }
+}
+
+#' Validate the Crossref response shape used by the article parser
+#' @param items Parsed Crossref response
+#' @param id Optional ISSN or DOI prefix for error context
+#' @param date_type Optional query date type for error context
+#' @return The input invisibly, or an error for an invalid response
+validate_crossref_response <- function(items, id = NULL, date_type = NULL) {
+    context <- if (!is.null(id) && !is.null(date_type)) {
+        paste0(" for ", id, " (", date_type, ")")
+    } else {
+        ""
+    }
+    valid <- is.list(items) &&
+        !is.null(items$message) && is.list(items$message) &&
+        !is.null(items$message$items) && is.list(items$message$items) &&
+        all(vapply(items$message$items, is.list, logical(1)))
+
+    if (!valid) {
+        stop(paste0(
+            "Malformed Crossref response", context,
+            ": expected message.items to be a list"
+        ), call. = FALSE)
+    }
+    invisible(items)
 }
 
 #' Retrieve articles from Crossref for multiple ISSNs
@@ -83,8 +176,9 @@ retrieve_crossref_issn_data <- function(issn_list, start_date, end_date, verbose
 #' @param items API response content
 #' @return Data frame of articles
 get_crossref_articles <- function(items) {
+    validate_crossref_response(items)
     item_list <- items$message$items
-    if (is.null(item_list) || length(item_list) == 0) return(NULL)
+    if (length(item_list) == 0) return(NULL)
 
     rows <- lapply(item_list, function(item) {
         info <- get_crossref_article_info(item)

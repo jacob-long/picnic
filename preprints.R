@@ -16,8 +16,12 @@ all_preprints <- data.frame(
     "authors" = NA, "doi" = NA, "journal_full" = NA, "journal_short" = NA
 )
 
+preprint_start_date <- get_crawl_start_date(as.Date(Sys.time()))
 for (server in servers) {
-    preprints <- get_all_osf_preprints(tolower(server))
+    preprints <- get_all_osf_preprints(
+        tolower(server),
+        start_date = preprint_start_date
+    )
     if (nrow(preprints) > 0) {
         preprints$journal_full <- server
         preprints$journal_short <- server 

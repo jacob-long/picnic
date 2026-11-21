@@ -33,7 +33,7 @@ fetch_with_retry <- function(url, user_agent_string, max_retries = 5, initial_de
 }
 
 now <- Sys.time()
-crawl_start_date <- as.Date(now) - 7
+crawl_start_date <- get_crawl_start_date(as.Date(now))
 crawl_end_date <- as.Date(now) - 1
 
 journals <- read.csv(paste0("./parameters/", field, "_journals.csv"))

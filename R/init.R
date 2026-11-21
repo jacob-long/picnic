@@ -4,6 +4,7 @@
 
 source("R/constants.R")
 source("R/utils.R")
+source("R/crawl_state.R")
 source("R/api_crossref.R")
 source("R/api_openai.R")
 source("R/api_gemini.R")

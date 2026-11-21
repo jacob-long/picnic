@@ -17,12 +17,17 @@ on:
         required: false
         default: false
         type: boolean
-  schedule:
-    # Daily at 3 AM UTC (after 2 AM crawl)
-    - cron: "0 3 * * *"
+  workflow_run:
+    workflows: ["crawl2"]
+    branches: [main]
+    types: [completed]
 
 jobs:
   send_email:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.event == 'schedule')
     runs-on: ubuntu-latest
     env:
       RENV_PATHS_ROOT: ~/.local/share/renv
@@ -50,8 +55,10 @@ jobs:
         with:
           cache-version: 1
 
-      - name: Test Buttondown request handling
-        run: Rscript tests/test_email.R
+      - name: Test email and crawl state handling
+        run: |
+          Rscript tests/test_crawl_state.R
+          Rscript tests/test_email.R
 
       - name: Determine frequency and check if should run
         id: check_schedule
@@ -65,9 +72,10 @@ jobs:
               echo "dry_run=" >> $GITHUB_OUTPUT
             fi
           else
-            # Scheduled run - determine what to send based on day
-            DAY_OF_WEEK=$(date +%u)  # 1=Monday, 7=Sunday
-            DAY_OF_MONTH=$(date +%d)
+            # Use the crawl's scheduled date even if Actions started it late.
+            CRAWL_STARTED_AT="${{ github.event.workflow_run.created_at }}"
+            DAY_OF_WEEK=$(date -u -d "$CRAWL_STARTED_AT" +%u)  # 1=Monday, 7=Sunday
+            DAY_OF_MONTH=$(date -u -d "$CRAWL_STARTED_AT" +%d)
 
             # Daily emails run every day
             echo "frequency=daily" >> $GITHUB_OUTPUT
@@ -90,7 +98,7 @@ jobs:
           fi
 
       - name: Send daily digest
-        if: steps.check_schedule.outputs.should_run == 'true' && (github.event_name == 'workflow_dispatch' && github.event.inputs.frequency == 'daily' || github.event_name == 'schedule')
+        if: steps.check_schedule.outputs.should_run == 'true' && (github.event_name == 'workflow_dispatch' && github.event.inputs.frequency == 'daily' || github.event_name == 'workflow_run')
         env:
           BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
         run: |
