@@ -13,6 +13,7 @@ library(httr)
 library(jsonlite)
 library(dplyr)
 library(purrr)
+sys.source("R/crawl_state.R", envir = environment())
 
 # Configuration
 BUTTONDOWN_API_URL <- "https://api.buttondown.com/v1"
@@ -73,7 +74,7 @@ get_buttondown_api_key <- function() {
 }
 
 # Read last sent timestamp for a frequency tier
-get_last_sent_date <- function(frequency) {
+get_last_sent_date <- function(frequency, today = Sys.Date()) {
     file_path <- file.path(MEMORY_DIR, paste0("last_email_", frequency, ".txt"))
     last_sent <- as.Date(NA_character_)
 
@@ -82,11 +83,8 @@ get_last_sent_date <- function(frequency) {
         last_sent <- suppressWarnings(as.Date(date_str))
     }
 
-    earliest_date <- Sys.Date() - MAX_LOOKBACK_DAYS[[frequency]]
-    if (is.na(last_sent)) return(earliest_date)
-
-    # A long outage should not produce an unusably large recovery digest.
-    return(max(last_sent, earliest_date))
+    if (!is.na(last_sent)) return(last_sent)
+    return(today - MAX_LOOKBACK_DAYS[[frequency]])
 }
 
 # Update last sent timestamp
@@ -609,6 +607,8 @@ main <- function() {
     cat("Frequency:", frequency, "\n")
     if (dry_run) cat("MODE: DRY RUN (no emails will be sent)\n")
     cat("===========================================\n\n")
+
+    if (!dry_run) require_fresh_crawl()
 
     api_key <- get_buttondown_api_key()
 

@@ -87,4 +87,19 @@ failed <- suppressWarnings(email$send_draft_to_subscribers(
 ))
 stopifnot(identical(failed, FALSE))
 
+memory_dir <- tempfile("email-memory-")
+dir.create(memory_dir)
+email$MEMORY_DIR <- memory_dir
+writeLines("2026-10-01", file.path(memory_dir, "last_email_weekly.txt"))
+stopifnot(identical(
+    email$get_last_sent_date("weekly", as.Date("2026-11-23")),
+    as.Date("2026-10-01")
+))
+unlink(file.path(memory_dir, "last_email_weekly.txt"))
+stopifnot(identical(
+    email$get_last_sent_date("weekly", as.Date("2026-11-23")),
+    as.Date("2026-11-16")
+))
+unlink(memory_dir, recursive = TRUE)
+
 cat("Buttondown draft serialization and error regression tests passed.\n")
