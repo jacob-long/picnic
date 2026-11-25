@@ -1,5 +1,5 @@
 {
-  "update": "2026-11-24",
+  "update": "2026-11-25",
   "content": [
     {
       "journal_full": "American Political Science Review",
@@ -45,14 +45,6 @@
           "doi": "https://doi.org/10.1016/j.electstud.2026.103184",
           "filter": 0,
           "created": "2026-11-20"
-        },
-        {
-          "title": "The electoral cost of extreme weather events",
-          "authors": "Giacomo Salvarani",
-          "url": "https://doi.org/10.1016/j.electstud.2026.103188",
-          "doi": "https://doi.org/10.1016/j.electstud.2026.103188",
-          "filter": 0,
-          "created": "2026-11-17"
         }
       ],
       "articles_hidden": []
@@ -71,15 +63,6 @@
           "created": "2026-11-21"
         },
         {
-          "title": "Can you feel the group appeal tonight?: MPs’ conveyed emotions in disability representation in Western Europe",
-          "authors": "Vivien Fabry",
-          "abstract": "Parties use group appeals to connect or distance themselves from certain social groups. Existing research focuses mostly on well-established groups, like social class, often neglecting marginalized groups, such as persons with disabilities. This study investigates disability group appeals and their symbolic dimension in parliamentary speeches from 1997 to 2019 across Germany, Austria, the Netherlands, and Ireland, employing transformer-based models to identify group appeals and analyze emotional context. Findings reveal country and party ideology differences in group appeal usage and a gender effect, indicating women are more likely to appeal to persons with disabilities. This research offers a methodological framework applicable to other marginalized groups and proposes adding a substantive dimension to the study of group appeals.",
-          "url": "https://doi.org/10.1177/13540688261506984",
-          "doi": "https://doi.org/10.1177/13540688261506984",
-          "filter": 0,
-          "created": "2026-11-17"
-        },
-        {
           "title": "The devil is in the divisor: Deviations from proportionality in Dutch municipal coalition negotiations, 1998 – 2022",
           "authors": "Joes de Natris, Simon Otjes",
           "abstract": "Under what circumstances do parties get a share of executive posts that is not directly proportional to their legislative seats? While there is strong empirical support for Gamson’s law, i.e., the distribution of executive posts in a coalition is directly proportional to the negotiating parties’ number of legislative seats, we know little about when deviations from this pattern occur. To get a grip on these deviations, we study coalition negotiations at the Dutch local level between 1998 and 2022. Major deviations from Gamson’s law are rare, and most deviations occur because no strictly proportional solution was available. Small parties are usually overrepresented and large parties are usually underrepresented. The norm of proportionality is very strong: divisor methods that distribute executive posts over parties according to their legislative seats help predict how these posts are distributed. There is no consistent evidence that parties’ bargaining power affects the direction or size of divergences.",
@@ -87,6 +70,31 @@
           "doi": "https://doi.org/10.1177/13540688261505007",
           "filter": 0,
           "created": "2026-11-21"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "Political Analysis",
+      "journal_short": "PA",
+      "articles": [
+        {
+          "title": "Uncertain Performance: How to Quantify Uncertainty and Draw Test Sets When Evaluating Classifiers",
+          "authors": "Francisco Tomas-Valiente",
+          "abstract": "Supervised machine learning has become increasingly popular in social science research, often employing classifiers to measure political constructs. Although evaluating classifiers on a test set is critical for establishing their validity, guidance on how to conduct such evaluation is limited. In particular, researchers have paid insufficient attention to the variance of performance metrics estimated on test sets. This article demonstrates that typically sized test sets yield highly noisy and often uninformative estimates of classifier performance, particularly for imbalanced tasks—common in social science applications like identifying hateful or emotional speech—where one outcome class is rare. To address this issue, this article introduces methods to quantify uncertainty in performance estimates based on their sampling distribution and validated with simulations. It also introduces a design-based approach in political science to enhance statistical precision when evaluating classifiers: efficient stratified sampling based on the outcome’s predicted probability. Simulations using synthetic and real data show that this strategy meaningfully reduces the variance of performance estimates, especially in imbalanced tasks, while ensuring that they remain consistent. Finally, the article illustrates how to calculate the test set size required to achieve a desired level of statistical precision. Accompanying statistical software enables researchers to easily implement these methods.",
+          "url": "https://doi.org/10.1017/pan.2026.10065",
+          "doi": "https://doi.org/10.1017/pan.2026.10065",
+          "filter": 0,
+          "created": "2026-11-24"
+        },
+        {
+          "title": "Correcting Bias When Using Latent Regressors",
+          "authors": "Connor Jerzak, Stephen Jessee",
+          "abstract": "Many core concepts in political science are latent and therefore can only be measured with error. Measurement error in a predictor attenuates slope coefficient estimates in regression, often biasing them toward zero. We show that widely used strategies for correcting attenuation bias—including instrumental variables and the method of composition—are themselves biased when applied to latent regressors, often performing worse than simple regression ignoring the measurement error altogether. We derive a correlation-based correction using split-sample measurement strategies. Rather than assuming a particular estimation strategy for the latent trait, our approach is modular and can be easily deployed with a wide variety of latent-variable measurement strategies, including additive score, factor or machine-learning models; it requires no joint estimation while yielding consistent slopes under standard assumptions. Simulations and applications show stronger relationships after our correction, sometimes by as much as 50%. Open-source software implements the procedure. Results underscore that latent predictors demand tailored error correction; otherwise, conventional practice can exacerbate bias.",
+          "url": "https://doi.org/10.1017/pan.2026.10068",
+          "doi": "https://doi.org/10.1017/pan.2026.10068",
+          "filter": 0,
+          "created": "2026-11-24"
         }
       ],
       "articles_hidden": []
@@ -125,14 +133,6 @@
           "doi": "https://doi.org/10.1016/j.polgeo.2026.103695",
           "filter": 0,
           "created": "2026-11-21"
-        },
-        {
-          "title": "Geographies of conscientisation: towards a felt politics of citizenship formation in the post-disaster space",
-          "authors": "Sophie Blackburn",
-          "url": "https://doi.org/10.1016/j.polgeo.2026.103680",
-          "doi": "https://doi.org/10.1016/j.polgeo.2026.103680",
-          "filter": 0,
-          "created": "2026-11-17"
         },
         {
           "title": "Who owns the border? Property and sovereignty in the Arizona and Texas borderlands",
@@ -182,6 +182,85 @@
           "doi": "https://doi.org/10.1017/psrm.2026.10148",
           "filter": 0,
           "created": "2026-11-20"
+        }
+      ],
+      "articles_hidden": []
+    },
+    {
+      "journal_full": "PS: Political Science & Politics",
+      "journal_short": "PS",
+      "articles": [
+        {
+          "title": "Introduction: Swimming Against the Stream: James C. Scott and American Political Science",
+          "authors": "Tamir Moustafa",
+          "abstract": "American political science lost one of its most influential scholars on July 19, 2024. James C. Scott, Yale’s Sterling Professor Emeritus of Political Science, was not only a major figure within his home discipline. His work also shaped conversations across the social sciences and beyond, including anthropology, sociology, history, agrarian studies, geography, and Southeast Asian studies.",
+          "url": "https://doi.org/10.1017/s1049096526102613",
+          "doi": "https://doi.org/10.1017/s1049096526102613",
+          "filter": 0,
+          "created": "2026-11-24"
+        },
+        {
+          "title": "The Political Art of James C. Scott: Making Waves",
+          "authors": "Cyrus Ernesto Zirakzadeh",
+          "abstract": "James C. Scott was a contrarian who questioned the benefits of strong states and who praised the political astuteness and agility of marginalized and impoverished people. He used metaphors, allegories, and legends to advance controversial ideas about the unpredictability of nature and society, the omnipresence of deception within governing institutions, and the secret political activities of downtrodden people. By drawing attention to wall graffiti, limericks, sidewalk gossip, and other phenomena seldom examined by political scientists, Scott’s art expanded and enriched the study of grassroots politics. However, he also neglected certain topics—including the forms of argumentation and the ways of listening—by which oppressed individuals transformed their heterogeneous opinions about circumstances, threats, and possibilities into common views, sentiments of solidarity, and springboards for collective action.",
+          "url": "https://doi.org/10.1017/s1049096526102571",
+          "doi": "https://doi.org/10.1017/s1049096526102571",
+          "filter": 0,
+          "created": "2026-11-24"
+        },
+        {
+          "title": "A House Divided: Agricultural Producers’ Attitudes Toward International Trade",
+          "authors": "Evren Çelik Wiltse, Filip Viskupič, David L. Wiltse",
+          "abstract": "Trade policy in the United States began to change rapidly during the two Trump administrations as higher tariffs dominated policy agendas and voters increasingly favored protectionism over globalization. These protectionist tendencies may be easier to explain in sectors that experienced deindustrialization and offshoring. However, protectionism is more difficult to explain for sectors that greatly benefited from global trade. Agriculture in the United States stands out among the “winners” of globalization. Although farm incomes consistently increased due to the global markets, agricultural producers leaned heavily toward anti-trade candidates. To examine the nuances of preferences about international trade within the sector, we conducted a survey of agricultural producers in April 2022 in South Dakota. Results of a series of ordered logistic regression models with robust standard errors reveal that there was statistically significant variation among the farmers based on what they produced. We conclude that the “new” new trade theory is a good framework that captures this within-sector variation in trade preferences.",
+          "url": "https://doi.org/10.1017/s1049096526102200",
+          "doi": "https://doi.org/10.1017/s1049096526102200",
+          "filter": 0,
+          "created": "2026-11-24"
+        },
+        {
+          "title": "Critical Hermeneutics, Shared Standards, and Scott’s Contrarianism",
+          "authors": "Nick Cheesman",
+          "abstract": "If James C. Scott practiced an art of not being governed by the disciplinary standards of political science, then what type of art was this? What made it disruptive? And what are its implications for the science of political inquiry? This contribution to the symposium on his work addresses these questions via a reading of Weapons of the Weak: Everyday Forms of Peasant Resistance (Scott 1985). Although commentary on Weapons has noted that it is unusual for being an ethnography by a political scientist at a time when the discipline was headed in other directions, the book’s significance lies in its underlying concern to foreground meaning—which is to say, in its hermeneutic qualities.",
+          "url": "https://doi.org/10.1017/s1049096526102510",
+          "doi": "https://doi.org/10.1017/s1049096526102510",
+          "filter": 0,
+          "created": "2026-11-24"
+        },
+        {
+          "title": "Against the Grain: James C. Scott and the Narrowing of American Political Science",
+          "authors": "Tamir Moustafa",
+          "abstract": "This article traces James C. Scott’s intellectual journey against the grain of American political science. Drawing on his writing and my own work on the history of the discipline, I show how Scott’s interpretive approach diverged from the priorities of the National Science Foundation (NSF), the discipline’s dominant patron throughout his six-decade career. Whereas NSF-funded studies such as the World Values Survey sought universal metrics and cross-national comparability, Scott emphasized local knowledge and intersubjective meaning. In Seeing Like a State , Scott invited readers to turn his argument about the state’s compulsion for legibility against “a certain kind of reductive social science.” I take up his invitation, showing not only that the NSF privileged the types of legibility projects Scott critiqued but also that its efforts to remake the discipline bear a family resemblance to the pathologies of “high modernism.” A state agency elevated a narrow range of approaches as the authoritative form of political inquiry, entrenched an epistemological monoculture that devalued local knowledge, and “disciplined” a field uniquely positioned to produce knowledge critical of the state. This history illuminates enduring tensions between different modes of knowledge production and the cost of institutionalizing one at the expense of others. Scott’s early work, funded by the NSF in a rare exception to its orthodoxy, underscores the road not taken: a pluralist approach that could have nurtured other ways of seeing politics.",
+          "url": "https://doi.org/10.1017/s1049096526102455",
+          "doi": "https://doi.org/10.1017/s1049096526102455",
+          "filter": 0,
+          "created": "2026-11-24"
+        },
+        {
+          "title": "Two Cheers for Political Science: A Scottian Approach to the Discipline",
+          "authors": "Meredith L. Weiss",
+          "abstract": "James C. Scott was famously and publicly skeptical not only of disciplinary boundaries but also of the very idea that he might be a political scientist. Even so, he not only served out his career in political science departments but also published (more than once!) in the flagship American Political Science Review. It is incontrovertible that late-in-life, anarchism-cheering Scott was a very different scholar from his more youthful, behavioralist self. As he shifted his analytical gaze from early postcolonial Malaysian bureaucrats to early-capitalist Malaysian peasants, and thence farther afield, his approach to power broadly changed. Yet, it would be a mistake—however much Scott himself might encourage it—to recast him as something other than a political scientist. Rather, his presence in the discipline confirms the breadth of what “counts” as political science, in ways both inherently intellectually fruitful and validating for area specialists and others who are keen to spread their scholarly wings.",
+          "url": "https://doi.org/10.1017/s1049096526102297",
+          "doi": "https://doi.org/10.1017/s1049096526102297",
+          "filter": 0,
+          "created": "2026-11-24"
+        },
+        {
+          "title": "Thinking about Names, Numbers, and Categories with James C. Scott",
+          "authors": "Dvora Yanow",
+          "abstract": "Across his work, James C. Scott theorized naming and counting. This article explores potential links of those acts with category-making.",
+          "url": "https://doi.org/10.1017/s1049096526102431",
+          "doi": "https://doi.org/10.1017/s1049096526102431",
+          "filter": 0,
+          "created": "2026-11-24"
+        },
+        {
+          "title": "Teaching James C. Scott’s Hidden Transcripts to Advanced Undergraduates",
+          "authors": "Peregrine Schwartz-Shea",
+          "abstract": "In this essay, I recount how I used Hidden Transcripts to teach advanced undergraduates about different ways of understanding theory and evidence. Quotations from students’ research papers illustrate their use of Scott as well as his impact on their thinking and analysis. I hope in this way to honor Scott’s work and legacy—as a man whose voracious appetite for ideas stands as a model of the academic intellectual.",
+          "url": "https://doi.org/10.1017/s1049096526102388",
+          "doi": "https://doi.org/10.1017/s1049096526102388",
+          "filter": 0,
+          "created": "2026-11-24"
         }
       ],
       "articles_hidden": []
