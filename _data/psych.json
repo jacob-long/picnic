@@ -1,5 +1,5 @@
 {
-  "update": "2026-11-26",
+  "update": "2026-11-27",
   "content": [
     {
       "journal_full": "Advances in Methods and Practices in Psychological Science",
@@ -38,15 +38,6 @@
           "created": "2026-11-25"
         },
         {
-          "title": "Introducing a transparent, locally usable tool for automated assessment of second language speech comprehensibility",
-          "authors": "Kazuya Saito-van Poeteren, Magdalena Kachlicka",
-          "abstract": "Comprehensibility, or listeners’ perceived ease of understanding, is a central construct in second language (L2) speech research. However, collecting comprehensibility ratings is time-consuming, labor-intensive, and hard to scale, as each new dataset typically requires recruiting listener panels and administering rating sessions. The present study introduces A-CAT, a transparent and locally usable tool for automated assessment of L2 speech comprehensibility. Unlike commercially restricted or black-box automated assessment systems, A-CAT uses a small set of theoretically motivated acoustic predictors indexing segmental, prosodic, and fluency dimensions of spontaneous speech. Across four studies, we trained the model on listener ratings of Japanese learners’ English picture descriptions, tested its performance with new speakers, examined its generalizability to oral interview speech, and evaluated its sensitivity to longitudinal change. The model showed strong agreement with human listeners in the training dataset ( r =  .75), replicated with new speakers ( r =  .74), generalized across task conditions ( r =  .74), and detected comprehensibility gains following speaking practice. A-CAT is distributed as a standalone application and can be run locally without programming knowledge or uploading speech data to external servers. The tool provides L2 speech researchers with a practical, interpretable, and privacy-conscious method for estimating comprehensibility from spontaneous speech.",
-          "url": "https://doi.org/10.3758/s13428-026-03226-3",
-          "doi": "https://doi.org/10.3758/s13428-026-03226-3",
-          "filter": 0,
-          "created": "2026-11-24"
-        },
-        {
           "title": "AI-Faces by Illinois: A database of AI-generated faces depicting children",
           "authors": "Tim Wei-Ting Chao, Junyi Mei, Iris Tianyi Shang, Enrique Macias, Zara Mkrtychian, Danyi Zhang, Sara A. Oh, Jasmin Serrano Rodriguez, Brenda C. Straka, Michael T. Rizzo",
           "abstract": "Faces serve as gateways of impression formation during human interactions and are widely used as stimuli throughout psychological research. To source these stimuli, researchers often rely on established databases of photographs of adults’ and children’s faces or public image repositories like Google Images. Although these resources have proven valuable, there are important limitations, especially for research using images of children. This manuscript introduces a novel alternative to those databases: AI-Faces by Illinois, a database of 1152 photorealistic, AI-generated images depicting child faces that is freely available for non-commercial use (OSF link to images and norming data: https://osf.io/vurm5/ ; additional GitHub repository: https://github.com/AI-Face-By-Illinois/ai-face-by-illinois.github.io ;  https://creativecommons.org/licenses/by-nc/4.0/ ). These images vary systematically by perceived age (3, 6, 10, 15 years), gender (boy, girl), race/ethnicity (Black, East Asian, Latine, Middle Eastern/North African, Native American, Pacific Islander, South Asian, White), and emotional expression (ten smiling, four angry, and four frowning images per group). Two norming studies (Study 1: N = 1261, Study 2: N = 131) revealed that adults rated the AI-generated images as equally real as the photographs of children from existing databases and perceived them in line with their prompted age, gender, race/ethnicity, and emotion. The images also elicited perceptual biases similar to those documented in research using real faces, supporting their ecological validity. This manuscript highlights the methodological advantages and new ethical considerations of using AI-generated child faces in psychological research.",
@@ -54,6 +45,15 @@
           "doi": "https://doi.org/10.3758/s13428-026-03182-y",
           "filter": 0,
           "created": "2026-11-25"
+        },
+        {
+          "title": "Introducing a transparent, locally usable tool for automated assessment of second language speech comprehensibility",
+          "authors": "Kazuya Saito-van Poeteren, Magdalena Kachlicka",
+          "abstract": "Comprehensibility, or listeners’ perceived ease of understanding, is a central construct in second language (L2) speech research. However, collecting comprehensibility ratings is time-consuming, labor-intensive, and hard to scale, as each new dataset typically requires recruiting listener panels and administering rating sessions. The present study introduces A-CAT, a transparent and locally usable tool for automated assessment of L2 speech comprehensibility. Unlike commercially restricted or black-box automated assessment systems, A-CAT uses a small set of theoretically motivated acoustic predictors indexing segmental, prosodic, and fluency dimensions of spontaneous speech. Across four studies, we trained the model on listener ratings of Japanese learners’ English picture descriptions, tested its performance with new speakers, examined its generalizability to oral interview speech, and evaluated its sensitivity to longitudinal change. The model showed strong agreement with human listeners in the training dataset ( r =  .75), replicated with new speakers ( r =  .74), generalized across task conditions ( r =  .74), and detected comprehensibility gains following speaking practice. A-CAT is distributed as a standalone application and can be run locally without programming knowledge or uploading speech data to external servers. The tool provides L2 speech researchers with a practical, interpretable, and privacy-conscious method for estimating comprehensibility from spontaneous speech.",
+          "url": "https://doi.org/10.3758/s13428-026-03226-3",
+          "doi": "https://doi.org/10.3758/s13428-026-03226-3",
+          "filter": 0,
+          "created": "2026-11-24"
         }
       ],
       "articles_hidden": []
@@ -79,52 +79,12 @@
           "created": "2026-11-20"
         },
         {
-          "title": "Undoing effect in esports: Positive emotions and cardiovascular recovery",
-          "authors": "Patrycja Chwiłkowska, Maciej Behnke, Szymon Jęśko-Białek, Maciej Kłoskowski, Wadim Krzyżaniak, Kacper Szymański, Eliza Wessel, Łukasz D. Kaczmarek",
-          "url": "https://doi.org/10.1016/j.chb.2026.109263",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109263",
-          "filter": 0,
-          "created": "2026-11-19"
-        },
-        {
-          "title": "Deception Awareness and Resilience Training (DART): Developing a novel experiential learning platform for enhancing older adults' scam awareness and fraud resilience",
-          "authors": "Inhwan Bae, Fanghui Xiao, Xinhui Chen, Eunice Han, Dawn M. Sarno, Cynthia Stewart, Anita Nikolich, Siwei Lyu, Dominic DiFranzo, Natalie Bazarova",
-          "url": "https://doi.org/10.1016/j.chb.2026.109266",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109266",
-          "filter": 0,
-          "created": "2026-11-19"
-        },
-        {
           "title": "Divination by prompt: LLM-mediated Xuanxue on Chinese social media",
           "authors": "Chu'ang Li, Lixuan Wang, Yuqi Chen, Ze Hong",
           "url": "https://doi.org/10.1016/j.chb.2026.109272",
           "doi": "https://doi.org/10.1016/j.chb.2026.109272",
           "filter": 0,
           "created": "2026-11-21"
-        },
-        {
-          "title": "How metaverse worldview beliefs relate to real-world well-being: The mediating role of meaning in metaverse life",
-          "authors": "Chun-Yen Tsai, Pei-Jung Lee",
-          "url": "https://doi.org/10.1016/j.chb.2026.109267",
-          "doi": "https://doi.org/10.1016/j.chb.2026.109267",
-          "filter": 0,
-          "created": "2026-11-19"
-        }
-      ],
-      "articles_hidden": []
-    },
-    {
-      "journal_full": "Group Processes & Intergroup Relations",
-      "journal_short": "GPIR",
-      "articles": [
-        {
-          "title": "Toward a Deeper Understanding of Microaggressions: A Review and Roadmap of Perceptions and Perpetration",
-          "authors": "Lara Bellotti, Sara Zaniboni",
-          "abstract": "Microaggressions are subtle forms of discrimination that convey derogatory or negative messages toward individuals based on their group membership. In this review, we integrated and critically examined measures of perceived and perpetrated microaggressions ( n = 83) and their associated nomological network from empirical studies ( k = 198). Key findings showed that empirical efforts have predominantly focused on individual-level outcomes and largely neglected antecedents and the co-construction dynamics across roles. After synthetizing the literature, we conclude discussing microaggressions and discrimination literature and outline a roadmap offering recommendations for theoretical and empirical advancements. With this roadmap, we organized the identified blind spots while outlining testable pathways bringing together perpetrators, targets, and bystanders, as well as distal and proximal antecedents. We propose methodological recommendations to support scholars in the development of future research.",
-          "url": "https://doi.org/10.1177/13684302261494501",
-          "doi": "https://doi.org/10.1177/13684302261494501",
-          "filter": 0,
-          "created": "2026-11-19"
         }
       ],
       "articles_hidden": []
@@ -359,15 +319,6 @@
           "created": "2026-11-23"
         },
         {
-          "title": "Coping and Resilience Among Conservatoire Music Students in the United Kingdom: A Survey Study",
-          "authors": "Frederick Lam, Aaron Williamon",
-          "abstract": "Musicians face distinct psychological and physical pressures associated with intensive training and professional uncertainty, making coping and resilience key areas of concern for their wellbeing. This study examined how coping strategies and psychological resilience contribute to the health and wellbeing of conservatoire music students in the United Kingdom. One hundred and twenty undergraduate and postgraduate music students from seven U.K. conservatoires completed an online survey measuring coping (selected subscales from the COPE Inventory), psychological resilience (10-item Connor-Davidson Resilience Scale), general health (36-item Short-Form Health Survey) and wellbeing (Short Warwick-Edinburgh Mental Wellbeing Scale). Conservatoire music students scored positive reinterpretation and growth as the highest-scoring coping strategy. Resilience scores were lower than comparable population norms; however, interpretation should consider contextual differences between conservatoire training environments and broader adult samples. Coping and resilience were positively correlated; particularly, positive reinterpretation and growth and active coping showed strong correlations with resilience. Furthermore, coping and resilience were positively correlated with wellbeing, whereas health also showed positive associations with resilience and wellbeing. These findings highlight the interconnected roles of coping and resilience in supporting conservatoire music students’ health and wellbeing. Further research is needed to examine factors that influence coping and resilience throughout musicians’ training and inform the development of effective health and wellbeing support systems.",
-          "url": "https://doi.org/10.1177/03057356261496430",
-          "doi": "https://doi.org/10.1177/03057356261496430",
-          "filter": 0,
-          "created": "2026-11-19"
-        },
-        {
           "title": "Rhythm or Blues: The Effects of Arousing Versus Calming Music on the Sundowning Symptoms of Long-Term Care Patients With Dementia",
           "authors": "Tonya R. Bergeson, Tara T. Lineweaver, Madison G. Sedlock, Kayleigh Colleary, Bradyn Swanson, Nicole A. Hagen, Marissa J. Ward, Monica G. Williams, Timothy Brimmer",
           "abstract": "We examined the effects of arousing versus calming music on positive behavioral reactions and sundowning symptoms of adults diagnosed with dementia. Fifty-two patients experienced at least three sessions each of individual music listening to a playlist of calming Top 40 hits from the years they were 15 to 24 years old and individual music listening to a playlist of arousing Top 40 songs from the same years. The two types of playlists were alternated after an initial randomization as to which was first. Patients demonstrated a different pattern of behavioral reactions to the two music types, but sundowning symptoms improved similarly regardless of music type; disengagement, repetitiveness, and confusion decreased significantly at the conclusion of the music-listening sessions. The results indicate that calming and arousing music could be tailored to specific social contexts when particular types of behavioral reactions may be most helpful without sacrificing the benefits music listening offers toward reducing sundowning symptoms.",
@@ -375,15 +326,6 @@
           "doi": "https://doi.org/10.1177/03057356261499297",
           "filter": 0,
           "created": "2026-11-23"
-        },
-        {
-          "title": "Perceived Usability of Music-Genre Labels in Musical-Taste Research",
-          "authors": "Romain Brisson, Renzo Bianchi",
-          "abstract": "Quantitative research on musical tastes has largely relied on genre-based analyses. However, evidence regarding the usability of such labels is lacking. In the present study, we assessed the extent to which individuals feel able to describe their musical tastes using music-genre labels. Our study was conducted as part of the Étude Longitudinale par Internet Pour les Sciences Sociales , a nationwide research project conducted in France. A total of 1,721 participants (51.5% female) were asked to evaluate the usability of music-genre labels. Results showed that a majority of respondents were uncomfortable with the use of music-genre labels, irrespective of their education, income, and sex. Age was associated with the assessment of music-genre labels, with older people reporting the greatest difficulty using such labels. Overall, our findings suggest that reliance on music-genre labels in research on musical preferences may raise usability and validity concerns.",
-          "url": "https://doi.org/10.1177/03057356261502927",
-          "doi": "https://doi.org/10.1177/03057356261502927",
-          "filter": 0,
-          "created": "2026-11-19"
         },
         {
           "title": "The Spanish Adaptation and Validation of the Goldsmiths Musical Sophistication Index",
@@ -402,6 +344,15 @@
           "doi": "https://doi.org/10.1177/03057356261499283",
           "filter": 0,
           "created": "2026-11-23"
+        },
+        {
+          "title": "Educational Satisfaction and Mental Health Among Classical Music Students in Higher Music Education",
+          "authors": "Judit Váradi",
+          "abstract": "Higher music education occupies a distinct position within the university system. Students pursuing classical music are required to engage in continuous individual practice and perform regularly on stage. These high expectations, competitive environments, and ongoing feedback processes can have a considerable impact on students’ mental health and their satisfaction with the educational experience. The present study explores the factors influencing satisfaction with education and the learning-support environment and examines their associations with various dimensions of mental well-being. We conducted a survey among 127 university students majoring in classical music, assessing the challenges they face during their studies and their satisfaction with teaching quality. Three satisfaction factors emerged from exploratory factor analysis: Student Community &amp; Infrastructure, Academic &amp; Professional Support, and Instrumental Resources. Students reported the highest satisfaction with teaching quality and the lowest with non-academic services such as sports and entertainment. Significant positive associations were found between satisfaction factors and key Mental Health Test dimensions, particularly well-being, savoring, and creative–executive functioning. Our findings provide insights that may contribute to the development of educational strategies and institutional practices in higher music education that actively support students’ mental well-being, with implications for international academic and pedagogical contexts.",
+          "url": "https://doi.org/10.1177/03057356261496434",
+          "doi": "https://doi.org/10.1177/03057356261496434",
+          "filter": 0,
+          "created": "2026-11-27"
         }
       ],
       "articles_hidden": []
@@ -417,22 +368,6 @@
           "doi": "https://doi.org/10.1037/tmb0000205",
           "filter": 0,
           "created": "2026-11-23"
-        },
-        {
-          "title": "Youth engagement with algorithmic consumerism cultures: A systematic psychological review.",
-          "authors": "Sarah H. Awad, Mette Rudie Burghardt, Louise Langkjær Kloster, Harshit Singh",
-          "url": "https://doi.org/10.1037/tmb0000243",
-          "doi": "https://doi.org/10.1037/tmb0000243",
-          "filter": 0,
-          "created": "2026-11-19"
-        },
-        {
-          "title": "Accuracy- versus efficiency-driven artificial intelligence use: Purpose matters, yet user dehumanization persists.",
-          "authors": "Qi Zhang, Jianning Dang",
-          "url": "https://doi.org/10.1037/tmb0000244",
-          "doi": "https://doi.org/10.1037/tmb0000244",
-          "filter": 0,
-          "created": "2026-11-19"
         }
       ],
       "articles_hidden": []
